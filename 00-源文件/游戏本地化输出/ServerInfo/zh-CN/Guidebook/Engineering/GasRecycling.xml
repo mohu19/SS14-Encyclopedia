@@ -1,0 +1,54 @@
+<Document>
+# 气体回收
+气体回收机是一种把废气转化为可呼吸气体的机器。
+
+
+
+
+
+<Box>
+    <GuideEntityEmbed Entity="GasRecycler"/>
+  </Box>
+具体来说，它可以回收二氧化碳和一氧化二氮，转化为氧气和氮气。
+
+
+
+
+
+该机器有两个管网连接口，分别用于气体输入和输出。
+
+
+
+
+
+回收机要工作，气体需要加压到 [color=#a4885c]3000 kPa[/color]，加热到 [color=#a4885c]573,15K[/color]，并且入口压力需要高于出口压力。
+如果这些条件不满足，气体会直接通过而不会被回收（不可回收的气体也是如此）。
+
+
+
+
+
+  <Box>
+    <GuideEntityEmbed Entity="GasRecyclerMachineCircuitboard" Caption="Gas recycler circuit board"/>
+  </Box>
+
+
+
+
+
+该机器可以用电路板建造，电路板可以在电路打印机上制作。
+不过它首先需要由[textlink="科研部门" link="PipeNetworks"]进行研究。
+
+
+
+
+
+气体回收可以作为气体矿机的替代方案，或者作为备份，为大气系统建立冗余。
+[color=#a4885c]只是别忘了在把气体释放到空间站之前先冷却它！[/color]
+
+
+
+
+
+</Document>
+

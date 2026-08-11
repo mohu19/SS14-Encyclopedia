@@ -1,0 +1,127 @@
+<Document>
+# 新手？从这里开始！
+
+
+
+
+
+<Box>
+    <GuideEntityEmbed Entity="SignSecureMedRed" Caption="Content and Theme Warning"/>
+  </Box>
+[bold]游戏内容包括；[/bold]绑架、诱拐、谋杀、巨型蜘蛛、精神控制、像素化血腥与暴力、像素化裸体
+
+
+
+
+
+# 欢迎来到太空站14！
+你刚刚开始在纳米传讯(NanoTrasen)空间站上值班。
+你和你的船员同伴们的任务是携手合作、生存下去，并享受乐趣！
+
+
+
+
+
+[bold]请务必遵守所有服务器规则。[/bold]你可以通过[bold]管理员帮助菜单[/bold]向[color=#EB2D3A][bold]管理团队[/bold][/color]提问或举报违规行为。（[italic]按[/italic][color=yellow][bold][keybind="OpenAHelp"/][/bold][/color][italic]即可打开[/italic]）
+
+
+
+
+
+关于[italic]特定职业[/italic]和[italic]机制[/italic]的更详细指南可以在这里。找到。
+
+
+
+
+
+本指南可以随时使用[color=yellow][bold][keybind="OpenGuidebook"][/bold][/color]重新打开。
+
+
+
+
+
+## 简介
+以下是你进行常规游戏所需的操作：
+
+
+
+
+
+- 使用[color=yellow][bold][keybind="MoveUp"][keybind="MoveLeft"][keybind="MoveDown"][keybind="MoveRight"][/bold][/color]奔跑。按住[color=yellow][bold][keybind="Walk"][/bold][/color]可步行
+
+
+
+
+
+- 使用[color=yellow][bold][keybind="ExamineEntity"][/bold][/color]检查周围的世界
+
+
+
+
+
+- 使用[color=yellow][bold][keybind="Use"][/bold][/color]与世界互动
+
+
+
+
+
+- 将鼠标悬停在某个实体上并按[color=yellow][bold][keybind="UseSecondary"][/bold][/color]会显示[italic]上下文菜单[/italic]，其中包含额外的互动选项
+
+
+
+
+
+- 使用[color=yellow][bold][keybind="SwapHands"][/bold][/color]切换双手，并使用[color=yellow][bold][keybind="ActivateItemInHand"][/bold][/color]激活当前手持的物品
+
+
+
+
+
+- 使用[color=yellow][bold][keybind="Drop"][/bold][/color]丢弃手持物品，或使用[color=yellow][bold][keybind="ThrowItemInHand"][/bold][/color]将其投掷出去
+
+
+
+
+
+- 使用[color=yellow][bold][keybind="TryPullObject"][/bold][/color]和[color=yellow][bold][keybind="ReleasePulledObject"][/bold][/color]拖拽和释放物体
+
+
+
+
+
+更全面的列表可以在操作页面上找到。
+
+
+
+
+
+## 基本操作
+太空站14（Space Station 14）是一款以空间站上的偏执与混乱为主题的多人在线游戏，也是邪典经典《太空站13》（Space Station 13）的重制版。
+
+
+
+
+
+与数十名其他玩家一起登上精心设计和模拟的空间站，沉浸于角色扮演之中，并一路应对各种威胁。
+
+
+
+
+
+SS14 是一款[italic]开源游戏[/italic]，由[bold]和你一样的人[/bold]开发！
+它每天都会收到[color=lime]每日更新[/color]，有时可能会[color=#EB2D3A][bold]不稳定。[/bold][/color]
+
+
+
+
+
+[italic]如果你想报告 Bug 或帮助开发，请加入 Discord 并了解如何开始。[/italic]
+
+
+
+
+
+
+
+</Document>
+

@@ -1,0 +1,74 @@
+<Document>
+# 管网
+管道网络——通常称为管网（Pipenets）——是一系列相互连接的管道，通常具有共同的任务。
+
+
+
+
+
+  <Box>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption=""/>
+    <GuideEntityEmbed Entity="GasPipeHalf" Caption=""/>
+    <GuideEntityEmbed Entity="GasPipeBend" Caption=""/>
+    <GuideEntityEmbed Entity="GasPipeTJunction" Caption=""/>
+    <GuideEntityEmbed Entity="GasPipeFourway" Caption=""/>
+    <GuideEntityEmbed Entity="GasPressurePump" Caption=""/>
+    <GuideEntityEmbed Entity="GasVolumePump" Caption=""/>
+  </Box>
+
+
+
+
+
+管网在空间站各处用于输送、移除或以其他方式移动气体。
+很好的例子是空间站的输配管网（Distro）和废气管网（Wastenet），前者输送可供呼吸的空气，后者移除废气。
+
+
+
+
+
+# 管网
+在 Space Station 14 中，管网作为一个整体、体积确定的整体来表现，输入/输出点位于网络的末端。
+用泵强制或抽取气体，会影响整个管网，而不仅仅是泵所连接的那根管道。
+
+
+
+
+
+管网只会被能够中断流动的设备或某些特定设备分隔开。
+例如，压力泵只有在通电并且有气体可泵送时，才允许气体流过它。
+
+
+
+
+
+分隔管道网络的设备示例有：
+- 压力泵和体积泵
+- 气体混合器和过滤器
+- 所有阀门
+- 散热器
+
+
+
+
+
+下面是一个管网被泵分隔成两个独立管网的示例：
+
+
+
+
+
+  <Box>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption="Pipenet 1" Rotation="90"/>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption="" Rotation="90"/>
+    <GuideEntityEmbed Entity="GasPressurePump" Caption="Network Seperator" Rotation="90"/>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption="" Rotation="90"/>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption="Pipenet 2" Rotation="90"/>
+  </Box>
+
+
+
+
+
+</Document>
+

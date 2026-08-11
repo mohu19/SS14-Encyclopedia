@@ -1,0 +1,148 @@
+<Document>
+# 神偷
+
+
+
+
+
+<Box>
+[color=#999999][italic]"哟嚯！这个我要了！那个也要！哦豁，那我就不客气啦！"[/italic][/color]
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="ClothingNeckCloakVoid" Caption=""/>
+  </Box>
+
+
+
+
+
+神偷是卑劣却狡黠的 [color=green]罪犯[/color]，他们管不住自己的手。上次被捕后，你被强行植入了[bold]和平主义植入器[/bold]，但这不会阻止你继续扩充自己的收藏。
+
+
+
+
+
+## 偷窃的艺术
+与其他敌对角色不同，[bold]远离麻烦几乎是你的一项硬性要求[/bold]，因为你带着植入器。
+只有当 [color=#cb0000]安保部门[/color] 主动找你麻烦时你才能逃跑，而且因为你单独行动，没有任何朋友能把你从危险中拉出来。
+
+
+
+
+
+但即便困难重重，你也会凭借决心、灵巧的手法、几样工具和你的 [color=cyan]扒窃技巧。[/color] 成功偷到你想要的东西。
+
+
+
+
+
+你的扒窃技巧给了你一个巨大的优势：[bold]能从别人身上神不知鬼不觉地拿走东西。[/bold]稍加练习，你就能一边偷走他们的钱包，一边继续聊天。
+
+
+
+
+
+建议弄一副手套，因为如果你的赃物被发现，指纹仍然可能被追查到你身上。
+
+
+
+
+
+
+
+## 作案工具
+你的袖子里还藏着两张王牌：你的 [color=cyan]信标[/color] 和你的 [color=cyan]挎包。[/color]
+
+
+
+
+
+你的 [color=cyan]信标[/color] 为那些不方便随身带上疏散穿梭机的小玩意儿提供了一条安全回家的通道。只需在空间站找个隐蔽的角落展开信标，然后把坐标设到你的藏身处。
+任何靠近它的闪闪发亮的东西都会在[bold]班次结束时被传送到你的金库[/bold]，从而完成你的目标。
+
+
+
+
+
+然而，信标一旦被发现就会立刻暴露你，而且会让人们极其容易地取回他们"丢失"的财物。[bold]一定要把它藏好！[/bold]
+
+
+
+
+
+  <Box>
+    <GuideEntityEmbed Entity="ThiefBeacon"/>
+  </Box>
+
+
+
+
+
+你的 [color=cyan]挎包[/color] 里装着……嗯，反正就是你想起来打包的东西。[bold]你可以选择两套预制工具包[/bold]，帮助你完成更宏大的盗窃大业。
+
+
+
+
+
+  <Box>
+    <GuideEntityEmbed Entity="SatchelThief"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="Implanter" Caption="Anatomy"/>
+    <GuideEntityEmbed Entity="C4" Caption="Breacher"/>
+    <GuideEntityEmbed Entity="ChameleonProjector" Caption="Chameleon"/>
+    <GuideEntityEmbed Entity="BaseUplinkRadio" Caption="Communicator"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="NitrousOxideTank" Caption="Sleeper"/>
+    <GuideEntityEmbed Entity="Fulton" Caption="Smuggler"/>
+    <GuideEntityEmbed Entity="Telecrystal" Caption="Syndie"/>
+  </Box>
+
+
+
+
+
+## 收藏的中心展品
+你的偷窃癖会带你去往各种地方。某一天，你会想偷几只手办；另一天，你会想偷一台工业机器。
+
+
+
+
+
+没关系。用不了多久，它们都会成为你收藏的一部分。
+
+
+
+
+
+你可以通过[bold]随身携带物品[/bold]到达中央指挥部(CentComm)来偷走它们。如果做不到，你也可以通过[bold]把较大的物品留在信标旁[/bold]来偷走它们。
+
+
+
+
+
+一些比较"活泼"的目标可能不会配合你。确保在班次结束时它们还活着，并且和你或你的信标待在一起。
+
+
+
+
+
+你可能会想要的东西包括但不限于：
+
+
+
+
+
+  <Box>
+    <GuideEntityEmbed Entity="AssistantIDCard" Caption="ID cards"/>
+    <GuideEntityEmbed Entity="ChemDispenser" Caption="Structures"/>
+    <GuideEntityEmbed Entity="MobCorgiIan" Caption="Animals/Pets"/>
+  </Box>
+
+
+
+
+
+</Document>
+

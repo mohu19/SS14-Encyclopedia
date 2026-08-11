@@ -1,0 +1,88 @@
+<Document>
+# 气动阀
+气动阀是一种通过压力输入控制的双向阀门。
+  <Box>
+    <GuideEntityEmbed Entity="PressureControlledValve"/>
+  </Box>
+
+
+
+
+
+气动阀有 3 个连接口：输入、输出和控制。
+"输入"一侧将是压力最高的输入/输出连接口，并且可以切换方向，使阀门成为双向阀门。
+
+
+
+
+
+  <Box>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption="Input/Output"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption="Control" Rotation="90"/>
+    <GuideEntityEmbed Entity="PressureControlledValve" Caption=""/>
+    <GuideEntityEmbed Entity="FloorTileItemSteel" Caption=""/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption="Input/Output"/>
+  </Box>
+
+
+
+
+
+当输出侧的压力比控制侧的压力低 [color=orange][protodata="PressureControlledValve" comp="PressureControlledValve" member="Threshold"/] kPa[/color] 时，阀门会[color=green]打开[/color]。
+
+
+
+
+
+当输出侧的压力达到控制侧压力 [color=orange][protodata="PressureControlledValve" comp="PressureControlledValve" member="Threshold"/] kPa[/color] 以内时，阀门会[color=red]关闭[/color]。
+
+
+
+
+
+例如，控制压力为 500 kPa 的气动阀会在输出压力为 500 kPa - [color=orange][protodata="PressureControlledValve" comp="PressureControlledValve" member="Threshold"/] kPa[/color] 或更低时打开，并在输出压力为 500 kPa - [color=orange][protodata="PressureControlledValve" comp="PressureControlledValve" member="Threshold"/] kPa[/color] 或更高时关闭。
+
+
+
+
+
+阀门的控制压力由管网连接决定，因此可以通过泵或其他压力控制源随时调整。
+
+
+
+
+
+# 气动阀
+
+
+
+
+
+气动阀不同于通过做功来移动气体的泵。
+气动阀是一种被动设备，基于输入气体的较高压力来移动气体，因此它有时填充容积的速度比泵更快。
+
+
+
+
+
+例如，控制压力为 500 kPa 的气动阀填充容积的速度会比设定为 500 kPa 的压力泵更快。
+不过，泵能更精确地维持容积内的压力。
+
+
+
+
+
+气动阀可用于多种用途，例如：
+- 根据控制输入自动排放燃烧室中的气体
+- 根据可自定义的控制压力快速填充容积
+
+
+
+
+
+</Document>
+

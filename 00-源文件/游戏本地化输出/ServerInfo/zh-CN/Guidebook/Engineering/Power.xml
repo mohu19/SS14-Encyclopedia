@@ -1,0 +1,68 @@
+<Document>
+# 电力
+电力是空间站的命脉。
+没有它，空间站很快就会陷入混乱。
+工程师负责维护空间站的电网，确保电力供应、分配，并让所有部门都满意。
+
+
+
+
+
+  <Box>
+    <GuideEntityEmbed Entity="SingularityGenerator" Caption=""/>
+    <GuideEntityEmbed Entity="TeslaGenerator" Caption=""/>
+    <GuideEntityEmbed Entity="AmeController" Caption=""/>
+    <GuideEntityEmbed Entity="SMESBasic" Caption=""/>
+    <GuideEntityEmbed Entity="SubstationBasic" Caption=""/>
+    <GuideEntityEmbed Entity="APCBasic" Caption=""/>
+  </Box>
+
+
+
+
+
+空间站 14 的电力系统模拟有许多不同的方面，工程部的预期玩法也是如此。
+
+
+
+
+
+需要记住的一些重要信息包括：
+- 空间站的发电机是分级的，遵循一个层级体系。等级越低，可持续性越差，但搭建越容易。等级越高，可持续性越强，但搭建越复杂。
+- 空间站 14 设有电压网络，电力通过电压网络在全站分配，并由机器降压，以便其他机器使用。
+- 电力发电机具有功率爬升特性，这意味着它们需要时间才能让电网的需求与自己的供给相匹配。
+
+
+
+
+
+## 起步
+班次开始时，空间站完全依靠电池电力运行。
+这最多只能维持 5-10 分钟，具体取决于空间站的电力消耗。
+
+
+
+
+
+要延长这一时间，你可以启动空间站的反物质引擎，即AME。
+这将大幅延长空间站电池的运行时间，让你有更多时间搭建空间站更高等级的发电机。
+你还可以通过搭建太阳能板进一步延长，它们可以免费发电。
+
+
+
+
+
+搭建好AME和太阳能板之后，你应该能产生可观的电量了。
+
+
+
+
+
+现在你为自己争取到了时间，可以专注于搭建更高等级的发电机，例如奇点引擎，它可以在接下来的班次中持续供电。
+
+
+
+
+
+</Document>
+

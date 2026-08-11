@@ -1,0 +1,27 @@
+<Document>
+# 空气注入器
+空气注入器是一种特殊的通气口，把气体强行注入它所暴露的大气中。
+  <Box>
+    <GuideEntityEmbed Entity="GasOutletInjector"/>
+  </Box>
+
+
+
+
+
+它主要用于把气体强行注入高压房间，例如空间站的储气室或燃烧室。
+
+
+
+
+
+空气注入器运行不需要电力。
+
+
+
+
+
+空气注入器会向它所暴露的大气注入气体，直到大气达到 [color=orange][protodata="GasOutletInjector" comp="GasOutletInjector" member="MaxPressure"/] kPa[/color]。
+</Document>
+
+空气注入器的速度与注入器内的气体量成正比。

@@ -1,0 +1,197 @@
+<Document>
+# 太空忍者
+
+
+
+
+
+<Box>
+[color=#999999][italic]"夜色之蛛，无声之咬。"[/italic][/color]
+  </Box>
+
+
+
+
+
+你是一名精英雇佣兵，[color=#66FF00]蜘蛛氏族[/color] 派你到空间站上大肆破坏。你的装备让你既能保持沉默，又足够致命。
+
+
+
+
+
+无论你是大开杀戒还是明哲保身，你的纪律都教导你：[italic]至少必须尝试完成你的目标[/italic]。为了荣誉！
+
+
+
+
+
+## 标准装备
+你开局体内就植入了 [color=cyan]死亡酸蚀器[/color]，所以如果你被俘或阵亡，你所有宝贵的装备都不会落入敌人之手。
+
+
+
+
+
+你的包里装满了[bold]工具[/bold]和一个[bold]生存盒[/bold]。你还携带一个 [color=cyan]喷气背包[/color] 和一个会带你前往空间站的 [color=cyan]信号追踪器[/color]。
+
+
+
+
+
+  <Box>
+    <GuideEntityEmbed Entity="JetpackBlack"/>
+    <GuideEntityEmbed Entity="PinpointerStation"/>
+  </Box>
+
+
+
+
+
+## 你的服装
+
+
+
+
+
+  <Box>
+    <GuideEntityEmbed Entity="ClothingEyesVisorNinja" Caption="your visor"/>
+    <GuideEntityEmbed Entity="ClothingOuterSuitSpaceNinja" Caption="your suit"/>
+    <GuideEntityEmbed Entity="ClothingShoesSpaceNinja" Caption="your boots"/>
+  </Box>
+
+
+
+
+
+你最重要的单件物品是 [color=cyan]你的服装[/color]，没有它你的任何能力都无法生效。
+你的服装需要电力才能运作，电力由它的[bold]内置电池[/bold]提供。电池可以更换，而[italic]高容量电池[/italic]意味着[italic]高效的忍者[/italic]。
+
+
+
+
+
+[bold]你可以直接用 [color=cyan]你的手套[/color] 给内置电池充电[/bold]。你可以通过检视服装或查看屏幕上醒目的电池警报来了解当前电量。
+
+
+
+
+
+你的装束还包括 [color=cyan]特殊的靴子[/color]，它们让你在不用能量的情况下保持敏捷、直立和稳定。得益于你的 [color=cyan]面罩[/color]，你还拥有闪光防护。
+
+
+
+
+
+## 忍者手套
+
+
+
+
+
+  <Box>
+    <GuideEntityEmbed Entity="ClothingHandsGlovesSpaceNinja" Caption="your gloves"/>
+  </Box>
+
+
+
+
+
+[color=#66FF00]这双好家伙是你的看家本领。[/color]它们由[bold]绝缘纳米机器[/bold]制成，让你能优雅地闯入禁区而不留下指纹。
+
+
+
+
+
+你有一个切换手套的动作。手套开启后，你可以使用[bold]特殊能力[/bold]——用空手与物体互动且关闭战斗模式时即可触发。
+
+
+
+
+
+你的手套能力包括：
+- 电子破解门和气闸门。
+- 从[bold]变压器[/bold]抽取电力，比如 APC、变电站或 SMES（电压越高的变压器抽取效率越高）。
+- 对生物施加电击，使其眩晕并受到轻微伤害。
+- 篡改[bold]空间站设备[/bold]以完成 [color=#66FF00]目标[/color]。
+
+
+
+
+
+## 能量武士刀
+
+
+
+
+
+  <Box>
+    <GuideEntityEmbed Entity="EnergyKatana"/>
+  </Box>
+
+
+
+
+
+[bold]你向刀剑立誓，拒绝使用枪械。[/bold]幸运的是，你有一把相当酷的剑。
+
+
+
+
+
+你的 [color=cyan]能量武士刀[/color] 伤害很高，并且可以[bold]随时召回[/bold]，代价是消耗服装能量。它离你越远，召回所需的能量就越多。
+
+
+
+
+
+握在手中时，你还可以[color=cyan]传送[/color]到任何你能看到的地方，[bold]包括穿透窗户[/bold]。传送所需的充能会缓慢恢复，所以留一两格充能备用，以备快速脱身。
+
+
+
+
+
+## 蜘蛛氏族炸药
+
+
+
+
+
+  <Box>
+    <GuideEntityEmbed Entity="SpiderCharge"/>
+  </Box>
+
+
+
+
+
+这是你口袋里能找到的一枚 [color=cyan]改装版 C-4 炸药[/color]。它会引发巨大爆炸，但[bold]必须在你的目标区域布设[/bold]，因为这是你的目标之一。
+
+
+
+
+
+它无法手动引爆，所以只需把它安放在你指定目标附近的墙上。谨慎选择位置，一旦安放就无法取下。
+
+
+
+
+
+## 目标
+
+
+
+
+
+- 下载 \\[9-13\\] 个研究节点：用你的手套操作一台解锁了若干技术的 R&D 服务器。如果没有足够的现成技术可偷，你可能得自己先解锁一些。
+- 门禁破解 \\[15-40\\] 扇空间站的门：用你的手套电子破解一定数量的门。
+- 引爆蜘蛛氏族炸药：在指定地点安放你的蜘蛛氏族炸药，然后看着它轰然爆炸！
+- 呼叫一次 威胁：用你的手套操作通讯控制台。
+- 把所有人设为被通缉：用你的手套操作犯罪记录控制台。
+- 生存：别死。
+
+
+
+
+
+</Document>
+

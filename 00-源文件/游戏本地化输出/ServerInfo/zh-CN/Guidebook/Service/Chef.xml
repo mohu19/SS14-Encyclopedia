@@ -1,0 +1,115 @@
+<Document>
+# 厨师
+人总得吃饭，而确保大家有东西可嚼（而不是垃圾食品）就是厨师的工作。
+
+
+
+
+
+
+[textlink="Click here to see a list of food recipes." link="FoodRecipes"]
+
+
+
+
+
+首先也是最重要的，你需要熟悉厨房以及你可用的工具。
+
+
+
+
+
+<Box>
+<GuideEntityEmbed Entity="KitchenKnife"/>
+<GuideEntityEmbed Entity="LargeBeaker"/>
+<GuideEntityEmbed Entity="ReagentContainerFlour"/>
+<GuideEntityEmbed Entity="FoodContainerEgg"/>
+<GuideEntityEmbed Entity="MobCow"/>
+</Box>
+<Box>
+<GuideEntityEmbed Entity="VendingMachineChefvend" Caption="Chef Vendor"/>
+<GuideEntityEmbed Entity="KitchenMicrowave"/>
+<GuideEntityEmbed Entity="KitchenSpike"/>
+<GuideEntityEmbed Entity="VendingMachineDinnerware" Caption="Dinnerware Vend"/>
+</Box>
+
+
+
+
+
+# 厨师
+
+
+
+
+
+很难用语言描述如何当厨师而不让人觉得你在发号施令，但这里有一些基础知识。
+
+
+
+
+
+- 检查你手头有什么食材，大多数厨房都有一些面粉、大米、鸡蛋、猴子方块和一些其他东西可以开始。
+- 尝试在烧杯中混合水和面粉来做面团。（用洗手池！）
+- 查看 Wiki（或食物食谱）指南书看看你能做什么，然后把所有列出的食材放进微波炉烹饪成一顿饭。
+- 设置捕鼠器。是的，真的。如果你不对老鼠出没采取预防措施，很容易看到你所有的辛苦工作消失。
+
+
+
+
+
+一旦你更有经验、更熟悉你能做什么，最好准备几份菜单，或者一张"小抄"，这样你可以把食材清单交给植物学。
+
+
+
+
+
+## 厨房备料：
+在烧杯中加入面粉和水。（用洗手池取水！）
+<Box>
+<GuideEntityEmbed Entity="LargeBeaker"/>
+<GuideEntityEmbed Entity="ReagentContainerFlour"/>
+<GuideEntityEmbed Entity="DrinkWaterBottleFull" Caption="water"/>
+<GuideEntityEmbed Entity="FoodDough"/>
+</Box>
+## 和面：
+<Box>
+<GuideEntityEmbed Entity="KitchenReagentGrinder"/>
+<GuideEntityEmbed Entity="LargeBeaker"/>
+<GuideEntityEmbed Entity="WheatBushel"/>
+<GuideEntityEmbed Entity="ReagentContainerFlour"/>
+</Box>
+## 制作面粉：
+<Box>
+<GuideEntityEmbed Entity="SignHydro1" Caption=" "/>
+<GuideEntityEmbed Entity="hydroponicsTray"/>
+<GuideEntityEmbed Entity="WheatBushel"/>
+</Box>
+## 获取植物：
+<Box>
+<GuideEntityEmbed Entity="Bucket"/>
+<GuideEntityEmbed Entity="MobCow"/>
+<GuideEntityEmbed Entity="DrinkMilkCarton"/>
+</Box>
+## 收集牛奶：
+
+
+
+
+
+把小麦放进研磨机（里面放一个烧杯）研磨！
+<Box>
+<GuideEntityEmbed Entity="KitchenSpike"/>
+<GuideEntityEmbed Entity="KitchenKnife"/>
+<GuideEntityEmbed Entity="MobMonkey"/>
+<GuideEntityEmbed Entity="FoodMeat"/>
+</Box>
+</Document>
+
+向植物学要你需要的，如果没有植物学家，你可能需要自己种更多植物。
+
+手持容器（烧杯、桶、牛奶壶等）对牛使用 Alt 点击。
+
+在大多数情况下，你应该可以直接用刀对一具死亡的生物使用。最好在冷冻室里做，因为结果是……很乱。
+
+但是，猴子（以及其他类人生物）需要被拖到肉钩上才能屠宰。

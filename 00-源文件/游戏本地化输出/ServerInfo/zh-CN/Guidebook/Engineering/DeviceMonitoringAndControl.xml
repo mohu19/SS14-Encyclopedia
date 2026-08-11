@@ -1,0 +1,60 @@
+<Document>
+# 设备监控
+鉴于大气网络遍布全站，能够从一个中心位置监控和控制设备就显得尤为重要。
+
+
+
+
+
+借助这些系统，大气部可以监控和控制整个空间站的大气状况。
+
+
+
+
+
+<Box>
+    <GuideEntityEmbed Entity="AirAlarm" Caption=""/>
+    <GuideEntityEmbed Entity="AirSensor" Caption=""/>
+  </Box>
+  <Box>
+## 空气警报器
+  </Box>
+  <Box>
+[color=#999999]对大气设备的广域监控与控制[/color]
+  </Box>
+
+
+
+
+
+<Box>
+    <GuideEntityEmbed Entity="ComputerAlert" Caption=""/>
+  </Box>
+  <Box>
+## 大气警报计算机
+  </Box>
+  <Box>
+[color=#999999]全站范围的空气警报器监控[/color]
+  </Box>
+
+
+
+
+
+<Box>
+    <GuideEntityEmbed Entity="ComputerAtmosMonitoring" Caption=""/>
+    <GuideEntityEmbed Entity="GasPipeSensor" Caption=""/>
+  </Box>
+  <Box>
+## 大气网络监视器
+  </Box>
+  <Box>
+[color=#999999]对整个管道网络的监控[/color]
+  </Box>
+
+
+
+
+
+</Document>
+

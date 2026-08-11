@@ -1,0 +1,47 @@
+<Document>
+# 工程部
+[color=#f39f27]工程部[/color]是建造工作、维修工作、维护一台恰好能产出电力的死亡机器，以及确保空间站里存在可供呼吸的空气这几项工作的结合。
+
+
+
+
+
+## 人员构成
+[color=#f39f27]工程部[/color]的人员由技术助理、站内工程师和大气技术员组成。
+工程部由总工程师领导。
+
+
+
+
+
+  <Box>
+    <GuideEntityEmbed Entity="ToyFigurineEngineer" Caption="Engineer"/>
+    <GuideEntityEmbed Entity="ToyFigurineAtmosTech" Caption="Atmosian"/>
+    <GuideEntityEmbed Entity="ToyFigurineChiefEngineer" Caption="CE"/>
+  </Box>
+
+
+
+
+
+## 工具
+  <Box>
+    <GuideEntityEmbed Entity="Wrench"/>
+    <GuideEntityEmbed Entity="Crowbar"/>
+    <GuideEntityEmbed Entity="Screwdriver"/>
+    <GuideEntityEmbed Entity="Wirecutter"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="Welder"/>
+    <GuideEntityEmbed Entity="Multitool"/>
+    <GuideEntityEmbed Entity="NetworkConfigurator"/>
+  </Box>
+你的核心工具是一小套各种工具。
+如果你是工程师，腰带上应该备有每一种工具；如果没有，你通常可以在维护通道和工具间里的各色工具箱和售货机中找到它们。
+
+
+
+
+
+大多数任务在检查时都会给出操作说明；例如，如果你正在建造一堵墙，凑近看一看，它就会告诉你下一步该怎么做。
+</Document>

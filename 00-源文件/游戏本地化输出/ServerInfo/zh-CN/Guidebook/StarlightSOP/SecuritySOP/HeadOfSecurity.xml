@@ -1,0 +1,103 @@
+<Document>
+# 安保主管
+
+
+
+
+
+<GuideEntityEmbed Entity="ToyFigurineHeadOfSecurity" Caption="Head of Security"/>
+
+
+
+
+
+### §1
+标准 [color=#00a933]绿色代码[/color] 装备为：
+
+
+
+
+
+<Box>
+	<GuideEntityEmbed Entity="WeaponSubMachineGunWt550"/>
+或
+	<GuideEntityEmbed Entity="WeaponEnergySMG"/>
+</Box>
+<Box>
+	<GuideEntityEmbed Entity="Stunbaton"/>
+</Box>
+<Box>
+	<GuideEntityEmbed Entity="HoloprojectorSecurity"/>
+	<GuideEntityEmbed Entity="FlashlightSeclite"/>
+	<GuideEntityEmbed Entity="RadioHandheldSecurity"/>
+</Box>
+<Box>
+	<GuideEntityEmbed Entity="CombatKnife"/>
+	<GuideEntityEmbed Entity="ClothingShoesBootsJack"/>
+</Box>
+<Box>
+	<GuideEntityEmbed Entity="GrenadeFlashBang"/>
+	<GuideEntityEmbed Entity="TearGasGrenade"/>
+</Box>
+<Box>
+	<GuideEntityEmbed Entity="Handcuffs"/>
+	<GuideEntityEmbed Entity="Zipties"/>
+</Box>
+
+
+
+
+
+置于
+</Document>
+
+- 2.
+
+安保主管同时受安保部 SOP 与指挥部 SOP 约束；若两者重叠，以安保部 SOP 为准。
+- 3.
+
+安保主管首先是安保部门的领导者。
+
+3.1
+
+他们负责确保整个部门严格遵守 SOP 与公司法。
+
+3.2
+
+他们负责协调本部门的工作，尤其是在危机时期。
+
+3.3
+
+他们负责随时掌握空间站安全动态，并且必须能够且愿意向船员说明威胁等级升高的原因。
+
+3.4
+
+他们负责填补本部门的人员短缺，按优先顺序采用以下方法：
+
+3.4.1
+
+重新调配现有安保成员。
+
+3.4.2
+
+招募新的安保成员。
+
+3.4.3
+
+亲自履行缺席下属的职责。
+- 4.
+
+如果常规警员活动妨碍其妥善履行 §3，安保主管不得参与此类活动。
+- 5.
+
+安保主管不得有任何过度妨碍其履行 §3 的残疾或疾病，例如失声。
+- 6.
+
+安保主管应避免参与战斗行动，除非战术上确有必要，而应按照 §3 确保本部门的战略凝聚力。
+- 7.
+
+安保主管有权在禁闭室监禁已判刑罪犯，最长 30 分钟。
+
+7.1
+
+此外，只要判决尚未下达给被拘留者，安保主管就可以推翻安保部门其他成员的判决。

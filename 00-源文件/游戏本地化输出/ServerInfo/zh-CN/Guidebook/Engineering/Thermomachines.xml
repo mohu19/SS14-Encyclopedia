@@ -1,0 +1,161 @@
+<Document>
+# 温控机
+温控机是操控气压管网或所暴露大气中气体温度的设备。
+  <Box>
+    <GuideEntityEmbed Entity="SpaceHeater" Caption=""/>
+    <GuideEntityEmbed Entity="GasThermoMachineHeater" Caption=""/>
+    <GuideEntityEmbed Entity="GasThermoMachineFreezer" Caption=""/>
+  </Box>
+
+
+
+
+
+它们对于维持各种用途所需的气体温度至关重要。
+
+
+
+
+
+所有温控机都通过使用电力来加热或冷却大气。
+它们加热/冷却大气的程度与消耗的电量直接相关。
+
+
+
+
+
+温控机还有一个效率系数，决定每消耗一单位电能可以加热或冷却大气多少。
+
+
+
+
+
+为防止超过目标值，温控机会在接近目标温度时降低加热/冷却功率。
+然而，即使处于空闲状态，它们仍然会消耗同样多的电力。
+
+
+
+
+
+# 温控机
+所有温控机的目标温度容差为 [color=orange][protodata="GasThermoMachineFreezer" comp="GasThermoMachine" member="TemperatureTolerance"/] K[/color]，这意味着当温度在目标温度的 [color=orange][protodata="GasThermoMachineFreezer" comp="GasThermoMachine" member="TemperatureTolerance"/] K[/color] 以内时，它们会停止加热或冷却。
+
+
+
+
+
+  <Box>
+    <GuideEntityEmbed Entity="SpaceHeater"/>
+  </Box>
+
+
+
+
+
+空间加热器是一种便携式温度控制单元，加热或冷却它所暴露的大气中的气体。
+这是维持房间温度的简单有效方式，无需建造管网或其他系统。
+
+
+
+
+
+它们在大气部门很常见，不过相关的机器电路板可以在电路打印机上打印，电路打印机常见于科研部门。
+
+
+
+
+
+空间加热器最低可以冷却到 [color=orange][protodata="SpaceHeater" comp="SpaceHeater" member="MinTemperature"/] K[/color]，最高可以加热到 [color=orange][protodata="SpaceHeater" comp="SpaceHeater" member="MaxTemperature"/] K[/color]。
+
+
+
+
+
+它还有三档功率设置，决定加热或冷却大气的速度。
+
+
+
+
+
+## 空间加热器
+植物学或科研部门经常申请这些设备来维持植物或部门内的温度。
+
+
+
+
+
+  <Box>
+    <GuideEntityEmbed Entity="GasThermoMachineHeater"/>
+    <GuideEntityEmbed Entity="GasThermoMachineFreezer"/>
+  </Box>
+
+
+
+
+
+管网温控机是更强大的固定式温度控制单元，可以用来加热或冷却管网中的气体。
+
+
+
+
+
+它们消耗 [color=orange][protodata="GasThermoMachineFreezer" comp="GasThermoMachine" member="HeatCapacity" format="N0"/] W[/color] 的电力，可以把管网中的气体加热到最高 [color=orange][protodata="GasThermoMachineFreezer" comp="GasThermoMachine" member="MaxTemperature"/] K[/color] 或冷却到最低 [color=orange][protodata="GasThermoMachineFreezer" comp="GasThermoMachine" member="MinTemperature"/] K[/color]。
+
+
+
+
+
+  <Box>
+    <GuideEntityEmbed Entity="GasThermoMachineFreezer" Caption=""/>
+    <GuideEntityEmbed Entity="MachineFrame" Caption=""/>
+    <GuideEntityEmbed Entity="ThermomachineFreezerMachineCircuitBoard" Caption=""/>
+    <GuideEntityEmbed Entity="Screwdriver" Caption=""/>
+    <GuideEntityEmbed Entity="ThermomachineHeaterMachineCircuitBoard" Caption=""/>
+    <GuideEntityEmbed Entity="MachineFrame" Caption=""/>
+    <GuideEntityEmbed Entity="GasThermoMachineHeater" Caption=""/>
+
+
+
+
+
+  </Box>
+
+
+
+
+
+## 管网温控机（冷冻机和加热器）
+你可以通过拆解温控机并对它的电路板使用螺丝刀来切换温控机的模式。
+电路板可以在电路打印机上打印，常见于科研部门。
+
+
+
+
+
+  <Box>
+    <GuideEntityEmbed Entity="GasThermoMachineHellfireHeater"/>
+    <GuideEntityEmbed Entity="GasThermoMachineHellfireFreezer"/>
+  </Box>
+
+
+
+
+
+科研部门可以研究更强大的温控机，恰如其分地命名为地狱火加热器和地狱火冷冻机。
+这些机器比标准型号强大得多，但消耗的电力也更多。
+
+
+
+
+
+这些机器消耗 [color=orange][protodata="GasThermoMachineHellfireFreezer" comp="GasThermoMachine" member="HeatCapacity" format="N0"/] W[/color] 的电力，可以把管网中的气体加热到最高 [color=orange][protodata="GasThermoMachineHellfireFreezer" comp="GasThermoMachine" member="MaxTemperature"/] K[/color] 或冷却到最低 [color=orange][protodata="GasThermoMachineHellfireFreezer" comp="GasThermoMachine" member="MinTemperature"/] K[/color]。
+
+不过，它们还会把 [color=orange][protodata="GasThermoMachineHellfireFreezer" comp="GasThermoMachine" member="EnergyLeakPercentage" format="P0"/][/color] 的能量泄漏到周围环境中，分别加热或冷却所暴露的大气。
+如果管理不当，这可能很危险。
+
+
+
+
+
+</Document>
+

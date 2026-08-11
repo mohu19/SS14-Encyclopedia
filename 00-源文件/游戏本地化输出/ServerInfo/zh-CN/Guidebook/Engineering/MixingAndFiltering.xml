@@ -1,0 +1,91 @@
+<Document>
+# 混合与过滤
+气体混合器和过滤器是操控气压管网内气体成分的重要工具。
+  <Box>
+    <GuideEntityEmbed Entity="GasMixer"/>
+    <GuideEntityEmbed Entity="GasFilter"/>
+  </Box>
+
+
+
+
+
+# 混合与过滤
+气体混合器用于在气压管网内按特定比例混合气体。
+它们对于为各种用途制造受控气体混合物至关重要。
+
+
+
+
+
+气体混合器有 3 个连接口：2 个输入和 1 个输出，如下所示：
+  <Box>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption="Primary" Rotation="90"/>
+    <GuideEntityEmbed Entity="GasMixer" Caption="" Rotation="90"/>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption="Output" Rotation="90"/>
+  </Box>
+<Box>
+  <GuideEntityEmbed Entity="GasPipeStraight" Caption="Side"/>
+</Box>
+
+
+
+
+
+即使某一种输入气体不可用，气体混合器仍会遵循所请求的气体混合物。例如：
+- 如果请求的混合物是 22% 氧气和 78% 氮气，但没有可用的氧气，混合器将无法工作，直到氧气可用为止。
+- 如果氧气可用，但压力低于在请求压力下制造正确混合物所需的值，混合器仍会制造混合物，但输出压力会低于请求值。
+
+
+
+
+
+气体混合器还基于压力而不是摩尔数来混合气体。如果气体温度不同，这可能会造成问题。例如：
+- 假设要求气体混合器以 1:2 的比例、在某个压力下混合氧气和氮气。
+- 这种情况下，氮气的温度是氧气的两倍。
+- 较热的气体压力更高，因此每体积的摩尔数比氧气少。
+- 因此，当气体混合器尝试制造混合物时，氮气的摩尔数将是氧气的一半。
+- 输出将是 1:1 而不是 1:2。你会得到每 1 摩尔氧气对应 1 摩尔氮气，而不是每 1 摩尔氧气对应 2 摩尔氮气。
+
+
+
+
+
+气体混合器可用于多种用途，例如：
+- 混合氧气和氮气以制造可供呼吸的大气
+- 混合氧气和等离子体进行等离子体燃烧以制造氚
+
+
+
+
+
+## 气体混合器
+气体过滤器用于从气压管网内的混合物中分离出气体。
+
+
+
+
+
+  <Box>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption="Input" Rotation="90"/>
+    <GuideEntityEmbed Entity="GasFilter" Caption="" Rotation="90"/>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption="Output" Rotation="90"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption="Filtered Output"/>
+  </Box>
+
+
+
+
+
+如果任一输出被堵塞，气体过滤器将会堵塞并且不会过滤气体。
+
+
+
+
+
+气体过滤器可用于多种用途，例如：
+- 从气压管网中过滤掉不需要的气体
+- 分离特定气体，以便储存在空间站的回收管网中
+</Document>

@@ -1,0 +1,96 @@
+<Document>
+# 空气洗涤器
+空气洗涤器对于维持不含呼吸生物排放的废气和大气异常产生废气的空气环境至关重要。
+它的主要工作是把不需要的气体从它所暴露的大气中洗涤掉。
+  <Box>
+    <GuideEntityEmbed Entity="GasVentScrubber"/>
+  </Box>
+
+
+
+
+
+空气洗涤器需要通过附近的低压电缆提供电力才能运行。
+
+
+
+
+
+空气洗涤器的默认行为是洗涤它所暴露的大气中除氮气和氧气以外的所有气体。除非收到已链接的空气警报器的指示，它会一直保持这种行为。
+
+
+
+
+
+# 空气洗涤器
+洗涤器可以用任何焊接工具焊死，以停止其运行。
+
+
+
+
+
+当链接到空气警报器时，空气洗涤器会获得更多功能。
+
+
+
+
+
+洗涤的目标气体可以在"气体过滤器"（Gas filters）下拉菜单中定义。请注意，如果你更改空气警报器的模式，这个设置会重置。
+
+
+
+
+
+空气洗涤器有两种"方向"选项：洗涤（Scrubbing）和抽吸（Siphoning）。
+- 洗涤模式按照气体过滤器中定义的气体进行洗涤。
+- 抽吸模式忽略所有气体过滤器，把大气中的所有气体全部吸走。
+
+
+
+
+
+这两种模式都受速率（Rate）设置的限制，该设置定义洗涤器从其暴露的大气中抽取气体的速率（以升为单位）。
+
+
+
+
+
+  <Box>
+    <GuideEntityEmbed Entity="FloorTileItemSteel" Caption=""/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="FloorTileItemSteel" Caption=""/>
+    <GuideEntityEmbed Entity="GasVentScrubber" Caption=""/>
+    <GuideEntityEmbed Entity="FloorTileItemSteel" Caption=""/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="FloorTileItemSteel" Caption=""/>
+  </Box>
+
+
+
+
+
+空气洗涤器还有一个"WideNet"（广域网络）设置，可以扩大洗涤器工作范围的半径。通常，洗涤器洗涤它所暴露的单个格子上的大气。
+在广域网络模式下，洗涤器会洗涤洗涤器周围 4 个格子上的气体，如下图所示：
+
+
+
+
+
+这实际上成倍增加了它的总速度，因为空气洗涤器现在会同时在 5 个格子上进行洗涤工作。
+
+
+
+
+
+在自动模式下链接到空气警报器的洗涤器，会在检测到大气中高浓度不需要的气体时，在空气警报器的"过滤（广域）"（Filtering (Wide)）模式下自动启用广域网络模式。
+
+广域网络模式在快速洗涤等离子体燃烧室中的大量氚时极为有用。
+
+
+
+
+
+</Document>
+

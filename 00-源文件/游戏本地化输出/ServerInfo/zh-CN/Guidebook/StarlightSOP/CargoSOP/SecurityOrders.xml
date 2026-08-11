@@ -1,0 +1,27 @@
+<Document>
+# 安保部订单
+
+
+
+
+
+## 基础材料
+### 仅用于打印机与车床
+## 补给板条箱
+<Box>
+	<GuideEntityEmbed Entity="SheetSteel"/>
+	<GuideEntityEmbed Entity="SheetGlass"/>
+	<GuideEntityEmbed Entity="SheetPlastic"/>
+	<GuideEntityEmbed Entity="MaterialCloth"/>
+</Box>
+
+
+
+
+
+## Refill Crates
+<Box>
+	<GuideEntityEmbed Entity="CrateSecurityTrackingMindshieldImplants"/>
+	<GuideEntityEmbed Entity="CrateVendingMachineRestockSecTechFilled"/>
+</Box>
+</Document>

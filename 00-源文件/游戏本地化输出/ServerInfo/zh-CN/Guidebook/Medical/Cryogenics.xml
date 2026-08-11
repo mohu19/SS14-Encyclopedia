@@ -1,0 +1,87 @@
+<Document>
+# 低温治疗
+低温治疗装置可能有点让人望而生畏，但希望快速过一遍这张示意图后，你就能学会怎么操作它！那么，让我们逐一看看每个部件的作用：
+
+
+
+
+
+- 进气口：空气通过配气管网或气罐从这里进入，给舱内的人提供呼吸用的空气，也给冷冻机提供需要冷却的气体。
+- 气体泵：限制管网压力，避免管道里的人被压扁。
+- 冷冻机：冷却空气，进而冷却管道里的患者，使 Cryoxadone 能够生效。
+- 气体过滤器：从回路中去除废气（二氧化碳和一氧化二氮）。
+- 出气口：废气从这里排出，进入储气罐或废气管网。
+<Box>
+<GuideEntityEmbed Entity="GasPipeBend" Rotation="90"/>
+<GuideEntityEmbed Entity="GasPipeStraight" Rotation="90"/>
+<GuideEntityEmbed Entity="GasPipeStraight" Rotation="90"/>
+<GuideEntityEmbed Entity="GasPipeBend" Rotation="0"/>
+<GuideEntityEmbed Entity="CryoPod" Caption="cryo pod" Rotation="0"/>
+<GuideEntityEmbed Entity="GasThermoMachineFreezerEnabled" Rotation="0"/>
+</Box>
+<Box>
+<GuideEntityEmbed Entity="GasPipeBend" Rotation="180"/>
+<GuideEntityEmbed Entity="GasFilterFlipped" Rotation="90"/>
+<GuideEntityEmbed Entity="GasFilterFlipped" Rotation="90"/>
+<GuideEntityEmbed Entity="GasPipeTJunction" Rotation="180"/>
+<GuideEntityEmbed Entity="GasPipeTJunction" Rotation="180"/>
+<GuideEntityEmbed Entity="GasPipeTJunction" Rotation="270"/>
+</Box>
+<Box>
+<GuideEntityEmbed Entity="GasPort" Caption="air out" Rotation="90"/>
+<GuideEntityEmbed Entity="GasPipeTJunction" Rotation="180"/>
+<GuideEntityEmbed Entity="GasPipeBend" Rotation="270"/>
+<GuideEntityEmbed Entity="GasPort" Caption="air in" Rotation="90"/>
+<GuideEntityEmbed Entity="GasPressurePump" Rotation="90"/>
+<GuideEntityEmbed Entity="GasPipeBend" Rotation="270"/>
+</Box>
+
+
+
+
+
+并不是每套管网都长这样，但希望这些足够让你了解它的基本工作原理。
+
+
+
+
+
+有一点很重要：冬季衣物（以及硬质宇航服）会使低温治疗的效果大打折扣，甚至完全无效。把人放进舱体之前，务必脱掉防寒衣物。
+
+
+
+
+
+## 使用低温舱
+装置设置好之后，你需要一种特定的药物：Cryoxadone。当患者被冷却时，Cryoxadone 能治愈所有类型的伤害。它可以提前服用（药丸形式），也可以用烧杯直接注入舱内。请注意，患者只有冷却到合适温度后才会开始愈合，所以在放入烧杯之前，可能值得先等上一会儿。
+
+
+
+
+
+## 补充信息：
+
+
+
+
+
+气体泵的标准压力为 100.325 kPa。Cryoxadone 在 170K 以下起效，但标准做法是把冷冻机设为 100K 以加快冷却速度。
+
+
+
+
+
+<GuideReagentEmbed Reagent="Aloxadone"/>
+<GuideReagentEmbed Reagent="Cryoxadone"/>
+<GuideReagentEmbed Reagent="Doxarubixadone"/>
+<GuideReagentEmbed Reagent="Dexalin"/>
+<GuideReagentEmbed Reagent="Leporazine"/>
+<GuideReagentEmbed Reagent="Necrosol"/>
+<GuideReagentEmbed Reagent="Opporozidone"/>
+
+
+
+
+
+</Document>
+

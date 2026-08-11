@@ -1,0 +1,57 @@
+<Document>
+
+
+
+
+
+# 服务部订单
+
+
+
+
+
+# 服务部订单
+<Box>
+	<GuideEntityEmbed Entity="CrateServiceBureaucracy"/>
+</Box>
+
+
+
+
+
+## 人事主管
+<Box>
+	<GuideEntityEmbed Entity="CrateFoodBarSupply"/>
+</Box>
+
+
+
+
+
+## 酒保
+<Box>
+	<GuideEntityEmbed Entity="VendingMachineRestockSeeds"/>
+</Box>
+<Box>
+[italic]这不适用于外来种子箱。[/italic]
+</Box>
+
+
+
+
+
+## 植物学家
+<Box>
+	<GuideEntityEmbed Entity="JanitorialTrolley"/>
+	<GuideEntityEmbed Entity="CrateServiceJanitorialSupplies"/>
+</Box>
+
+
+
+
+
+## 清洁工
+<Box>
+任何及所有订单均需军需官（QM）与人事主管（HoP）盖章批准。
+</Box>
+</Document>

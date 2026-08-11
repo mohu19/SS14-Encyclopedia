@@ -1,0 +1,85 @@
+<Document>
+# 化学总览
+
+
+
+
+
+化学品是一种强大的工具，摄入后可产生多种效果。有些化学品可以从植物中找到、从货运处购买，或通过与其他化学品组合来合成。
+
+
+
+
+
+了解不同种类的化学品及其效果，对于处理伤病和危险至关重要。
+
+
+
+
+
+## 元素
+<GuideReagentGroupEmbed Group="Elements"/>
+
+
+
+
+
+## 药品
+<GuideReagentGroupEmbed Group="Medicine"/>
+
+
+
+
+
+## 麻醉剂
+<GuideReagentGroupEmbed Group="Narcotics"/>
+
+
+
+
+
+## 烟火剂
+<GuideReagentGroupEmbed Group="Pyrotechnic"/>
+
+
+
+
+
+## 毒素
+<GuideReagentGroupEmbed Group="Toxins"/>
+
+
+
+
+
+## 食物
+<GuideReagentGroupEmbed Group="Foods"/>
+
+
+
+
+
+## 植物
+<GuideReagentGroupEmbed Group="Botanical"/>
+
+
+
+
+
+## 生物
+<GuideReagentGroupEmbed Group="Biological"/>
+
+
+
+
+
+## 特殊
+<GuideReagentGroupEmbed Group="Special"/>
+
+
+
+
+
+## 其他
+<GuideReagentGroupEmbed Group="Unknown"/>
+</Document>

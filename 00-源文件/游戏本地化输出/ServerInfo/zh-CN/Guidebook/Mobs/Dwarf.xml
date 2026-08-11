@@ -1,0 +1,976 @@
+<Document>
+# 矮人
+
+
+
+
+
+  <Box>
+    <GuideEntityEmbed Entity="AppearanceDwarf" Caption=""/>
+  </Box>
+
+
+
+
+
+矮人（Dwarves 或 Dwarfs）是一种矮壮、大多无毛的物种，来自虚无之痕附近的阿布马斯（Abumas）星球。他们向人类外表的趋同进化非常强烈，以至于经常被误认，尽管他们有足够深的文化和生理差异，足以证明应将其视为一个独特的群体，超越半费利昂人和半伏尔卡宁等近人类亚种的范畴，此外他们作为一个完全独立的演化支拥有独特的起源。
+
+
+
+
+
+大多数矮人是男性（约 87%），其余为女性。性别非常规的矮人比人类同类更罕见。男性矮人通常很容易通过他们浓密蓬乱的头发和大胡子辨认出来。没有头发的矮人，包括没有胡子的男性，通常被认为是不寻常的。
+
+
+
+
+
+成年矮人的平均身高约为 110 厘米（3 英尺 7 英寸），两性之间没有显著差异，但与人类相比，他们的骨骼更粗壮致密，软骨特征更突出，比如更大的鼻子和颧骨。这种强健使他们在倒下之前能够承受比人类多 [color=#40ff40]10% 的伤害[/color]。异星生物学家普遍认为，矮人进化出这种体格是为了承受阿布马斯更强的重力，大约是地球标准的 1.3 倍。
+
+
+
+
+
+矮人社会有许多细微差别和分支，没有任何两个矮人定居点是完全相同的，但民族志学者长期注意到，在物质文化方面，他们普遍倾向于与地球的北欧、凯尔特和日耳曼文化相似。矮人在铁器时代使用的主要武器是战斧，其次是战镐和战锤，对长矛、弓和剑的重视相对较少；现存的标本往往高度雕刻着绳结图案和符文。主要的矮人民族群体以其偏好的生物群系命名：地下矮人（Subterranean Dwarves）、深地矮人（Deepdwarves）、梯田矮人（Steppedwarves）、海洋矮人（Oceandwarves）、尖塔矮人（Spiredwarves）、山地矮人（Mountain Dwarves）、丛林矮人（Jungle Dwarves）和森林矮人（Forest Dwarves）。
+
+
+
+
+
+矮人长期以来一直是太空航行种族。他们的母星阿布马斯地表附近缺乏重要的稀土矿藏，导致这些资源被深地矮人垄断。为了打破这种垄断，居住在地表的矮人开始开采小行星和类行星作为变通办法。这些太空定居点通常被称为堡垒（Citadels），最初只是简单的采矿前哨站。随着它们吸引更多的家庭和工人，前哨站、住宅和商业设施向竖井和隧道扩展，最终形成拥有多样化经济和人口的壮丽城市。一个完全发展的堡垒是一艘巨大的方舟，可以依靠自身动力飞行，尽管大多数小行星矿在矿物耗尽后被废弃，从未达到这种辉煌。特别令人印象深刻或具有文化意义的堡垒经常降落在行星上作为博物馆或宫殿，并且有一个蓬勃发展的产业，利用停泊的堡垒在新殖民的世界宣示主权，作为一种"即用型城市"，一个下午就能部署完毕。
+
+
+
+
+
+阿布马斯靠近虚无之痕，这不可避免地意味着矮人会与纳米传讯接触。现在有几个堡垒与 NT 保持着高利润的关系，并直接签约向星光星域（Starlight Sector）遥远的角落提供某些高需求矿物，这些地方超出了公司后勤网络的覆盖范围。
+
+
+
+
+
+## 矮人炼金术
+对大多数物种来说，酒精是一种有毒但非常有趣的饮料，因其欣快和镇静效果而受到重视。这对矮人来说只是部分正确，因为他们对酒精有[color=#1e90ff]生理需求[/color]，就像人类需要膳食脂肪来保持健康一样；它是一种关键的宏量营养素。对矮人来说，[color=#1e90ff]酒精饮料也能满足饥饿感[/color]，而[color=#1e90ff]食物满足饥饿感的效果较差[/color]。此外，[color=#ff901e]纯水是无法忍受的，会导致呕吐[/color]。
+
+
+
+
+
+更重要的是，矮人对某些饮料经常有奇怪的反应。下面描述其中的一些特殊相互作用。
+
+
+
+
+
+以下饮品直接饮用即可获得增益，无需进一步混合：
+  <Table Columns="3">
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkWaterBottleFull" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkAleBottleFull" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkBeerBottleFull" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkMeadJug" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkVodkaBottleFull" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkWhiskeyBottleFull" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkRumBottleFull" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkAbsintheBottleFull" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkTequilaBottleFull" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkCognacBottleFull" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkGinBottleFull" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkVermouthBottleFull" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+  </Table>
+
+
+
+
+
+### 简易酿造
+水（Water）
+  <Table Columns="3">
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkAntifreeze" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkManlyDorfGlass" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkIcedBeerGlass" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkRedMeadGlass" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkWhiteGilgameshGlass" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkMartiniGlass" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkTequilaSunriseGlass" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkDarkandStormyGlass" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkDeathInTheAfternoon" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkManhattanGlass" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkBraveBullGlass" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkIrishCreamGlass" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkBronxGlass" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkAndalusia" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkGrogGlass" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkDaiquiri" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkMoonshineGlass" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkAmasecGlass" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkHoochGlass" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkMoscowMule" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkGargleBlasterGlass" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkErikaSurprise" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+  </Table>
+### 困难酿造
+  <Table Columns="3">
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="XenoBasherGlass" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkIrishCarBomb" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkDriestMartiniGlass" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkSyndicatebomb" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkRadlerGlass" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkAlliesCocktail" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkIrishCoffeeGlass" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="BudgetInsulsDrinkGlass" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkTheSunAlsoRises" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkAlienBrainHemorrhage" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="RubberneckGlass" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkElectricSharkGlass" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+  </Table>
+### 专家酿造
+  <Table Columns="3">
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkPainkillerGlass" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="IrishBoolGlass" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkCrushDepthGlass" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkB52Glass" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkBacchusBlessing" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        <GuideEntityEmbed Entity="DrinkTheHighlanderGlass" Caption="" />
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+  </Table>
+</Document>
+
+相当于 Ipecac（会引起呕吐）
+
+麦酒（Ale）
+
+恢复口渴；不含 Ethanol
+
+啤酒（Beer）
+
+恢复饥饿
+
+蜂蜜酒（Mead）
+
+相当于 Tricordazine
+
+伏特加（Vodka）
+
+相当于 Hyronalin
+
+威士忌（Whiskey）
+
+受到的钝击伤害减少 10%
+
+朗姆酒（Rum）
+
+受到的劈砍伤害减少 10%
+
+苦艾酒（Absinthe）
+
+受到的穿刺伤害减少 10%
+
+龙舌兰酒（Tequila）
+
+受到的热伤害减少 10%
+
+干邑（Cognac）
+
+受到的寒冷伤害减少 10%
+
+金酒（Gin）
+
+受到的腐蚀伤害减少 10%
+
+味美思（Vermouth）
+
+受到的电击伤害减少 10%
+
+这些饮品需要少量调制工作。
+
+防冻剂（Antifreeze）
+
+受到的寒冷伤害减少 20%
+
+男子汉矮人（Manly Dorf）
+
+相当于 Bicardine
+
+冰啤酒（Iced Beer）
+
+相当于 Dermaline 和 Kelotane
+
+红蜂蜜酒（Red Mead）
+
+相当于 Saline 和 Dexalin
+
+白色吉尔伽美什（White Gilgamesh）
+
+相当于 Dylovene
+
+马提尼（Martini）
+
+相当于 Potassium Iodide
+
+龙舌兰日出（Tequila Sunrise）
+
+相当于 Tranexamic Acid
+
+黑暗风暴（Dark and Stormy）
+
+治疗电击伤害
+
+午后之死（Death in the Afternoon）
+
+将重伤阈值提高到 129；
+死亡阈值降低到 130
+
+曼哈顿（Manhattan）
+
+对湿滑表面免疫
+
+勇牛（Brave Bull）
+
+拳击造成结构伤害
+
+爱尔兰奶油（Irish Cream）
+
+徒手攻击速度快 25%
+
+布朗克斯（Bronx）
+
+徒手造成的伤害多 50%
+
+安达卢西亚（Andalusia）
+
+受到的穿刺和电击伤害减少 10%；
+受到的劈砍和热伤害增加 5%
+
+格罗格酒（Grog）
+
+受到的劈砍和热伤害减少 10%；
+受到的钝击和寒冷伤害增加 5%
+
+代基里（Daiquiri）
+
+受到的钝击和寒冷伤害减少 10%；
+受到的穿刺和电击伤害增加 5%
+
+私酿酒（Moonshine）
+
+治疗腐蚀伤害
+
+阿玛赛克（Amasec）
+
+相当于 Arithrazine
+
+烈酒（Hooch）
+
+相当于 Ephedrine
+
+莫斯科骡子（Moscow Mule）
+
+受到的毒性和辐射伤害减少 10%
+
+泛银河漱口轰炸机（Pan-Galactic Gargle Blaster）
+
+受到的钝击、劈砍和穿刺伤害减少 10%
+
+艾丽卡惊喜（Erika Surprise）
+
+受到的热、寒冷和电击伤害减少 15%
+
+这些饮品需要更多调制工作。
+
+异形粉碎者（Xeno Basher）
+
+近战武器攻击速度快 10%
+
+爱尔兰汽车炸弹（Irish Car Bomb）
+
+近战武器造成的伤害多 20%
+
+极干马提尼（Driest Martini）
+
+受到的劈砍、穿刺和钝击伤害减少 15%
+
+辛迪加炸弹（Syndicate Bomb）
+
+交互（DoAfter）速度快 25%
+
+拉德勒（Radler）
+
+在重伤状态下治疗劈砍、穿刺和钝击伤害
+
+盟友鸡尾酒（Allies Cocktail）
+
+在重伤状态下治疗腐蚀、热和寒冷伤害
+
+爱尔兰咖啡（Irish Coffee）
+
+移动速度提高 10%
+
+廉价绝缘体（Budget Insuls）
+
+对电击绝缘
+
+太阳照常升起（The Sun Also Rises）
+
+微光视觉
+
+外星人脑出血（Alien Brain Hemorrhage）
+
+治疗基因损伤
+
+扭头围观（Rubberneck）
+
+相当于 Desoxyephedrine
+
+电鲨（Electric Shark）
+
+无视减速
+
+调制这些饮品最好交给经验丰富的调酒师和/或牧师。
+
+止痛剂（Painkiller）
+
+受到的失血伤害减少 100%
+
+爱尔兰布尔（Irish Bool）
+
+快速从眩晕和击倒中恢复；受到的耐力伤害减少 90%
+
+压碎深度（Crush Depth）
+
+不受压力效果伤害
+
+B52
+
+受到的爆炸伤害减少 25%
+
+巴克斯的祝福（Bacchus Blessing）
+
+相当于 Omnizine
+
+高地人（The Highlander）
+
+将重伤阈值提高到 219 点伤害
+（死亡阈值仍然是 220）

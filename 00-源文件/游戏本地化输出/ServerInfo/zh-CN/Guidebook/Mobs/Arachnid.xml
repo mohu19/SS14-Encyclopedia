@@ -1,0 +1,54 @@
+<Document>
+# 蛛人
+
+
+
+
+
+  <Box>
+    <GuideEntityEmbed Entity="AppearanceArachnid" Caption=""/>
+  </Box>
+
+
+
+
+
+他们的物品栏中有两个额外的口袋槽位。他们可以毫无不良影响地食用生肉，但一些食物如巧克力和洋葱会让他们中毒。
+他们窒息的速度快 50%，而且他们的蓝血无法从铁中代谢，而是基于铜。
+
+
+
+
+
+他们的徒手攻击造成穿刺伤害而不是钝击伤害。
+
+
+
+
+
+## 丝织
+
+
+
+
+
+  <Box>
+    <GuideEntityEmbed Entity="MaterialWebSilk" Caption=""/>
+    <GuideEntityEmbed Entity="ClothingUniformJumpskirtWeb" Caption=""/>
+    <GuideEntityEmbed Entity="WebShield" Caption=""/>
+    <GuideEntityEmbed Entity="WallWeb" Caption=""/>
+  </Box>
+
+
+
+
+
+蛛人可以制造蛛丝，代价是变得更饿。他们（也只有他们）可以把一捆捆蛛丝制作成各种物品，从衣物和盾牌到整面墙。
+
+
+
+
+
+
+</Document>
+

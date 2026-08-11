@@ -1,0 +1,48 @@
+<Document>
+# 医疗部
+医疗部是受伤的人会来的部门，在这里工作的人员负责治好他们。
+
+
+
+
+
+## 人员
+[color=#5b97bc]医疗部[/color]的工作人员由医疗实习生、医师、护理员和药剂师组成。[color=#5b97bc]医疗部[/color]由首席医疗官（CMO）管理。
+
+
+
+
+
+  <Box>
+    <GuideEntityEmbed Entity="ToyFigurineMedicalDoctor" Caption="Doctor"/>
+    <GuideEntityEmbed Entity="ToyFigurineParamedic" Caption="Paramedic"/>
+    <GuideEntityEmbed Entity="ToyFigurineChemist" Caption="Chemist"/>
+    <GuideEntityEmbed Entity="ToyFigurineChiefMedicalOfficer" Caption="CMO"/>
+  </Box>
+
+
+
+
+
+目前，医疗区分为两种不同的护理体系：
+
+
+
+
+
+## 医疗处置
+  <Box>
+    <GuideEntityEmbed Entity="Brutepack"/>
+    <GuideEntityEmbed Entity="Bloodpack"/>
+    <GuideEntityEmbed Entity="Ointment"/>
+    <GuideEntityEmbed Entity="Gauze"/>
+    <GuideEntityEmbed Entity="HandheldHealthAnalyzer"/>
+  </Box>
+## 化学品生产
+  <Box>
+    <GuideEntityEmbed Entity="ChemDispenser"/>
+    <GuideEntityEmbed Entity="LargeBeaker"/>
+    <GuideEntityEmbed Entity="PillCanister"/>
+    <GuideEntityEmbed Entity="ChemMaster"/>
+  </Box>
+</Document>

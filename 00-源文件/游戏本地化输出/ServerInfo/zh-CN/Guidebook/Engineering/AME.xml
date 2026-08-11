@@ -1,0 +1,143 @@
+<Document>
+# 反物质引擎（AME）
+反物质引擎是空间站的短期支援发电机，在有限时间内提供可观的电力。
+
+
+
+
+
+它主要用于辅助工程师启动更大的引擎，如奇点引擎或特斯拉引擎，方法是为空间站的电池补充部分电力，以延长其运行时间。
+
+
+
+
+
+## 建造
+  <Box>Required parts:</Box>
+  <Box>
+  <GuideEntityEmbed Entity="AmeController"/>
+  <GuideEntityEmbed Entity="AmePartFlatpack"/>
+  <GuideEntityEmbed Entity="AmeJar"/>
+  </Box>
+
+
+
+
+
+所需部件：
+
+
+
+
+
+AME 控制器是 AME 中通过HV 连接向空间站电网输出电力的部分。
+因此，你应该从将控制器放在[color=orange]HV 电线[/color]上开始建造 AME。
+
+
+
+
+
+大多数空间站都有裸露的[color=orange]HV 电线[/color]或指定的位置，可以用扳手将 AME 控制器固定其上，使其接入电网。
+
+
+
+
+
+AME 屏蔽层是构成反物质引擎的物理结构。通过用多功能工具将 AME 平板组件转换为屏蔽层来制造。
+
+
+
+
+
+  <Box>
+    <GuideEntityEmbed Entity="AmePartFlatpack" Caption=""/>
+    <GuideEntityEmbed Entity="AmePartFlatpack" Caption=""/>
+    <GuideEntityEmbed Entity="AmePartFlatpack" Caption=""/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="AmePartFlatpack" Caption=""/>
+    <GuideEntityEmbed Entity="AmePartFlatpack" Caption=""/>
+    <GuideEntityEmbed Entity="AmePartFlatpack" Caption=""/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="AmePartFlatpack" Caption=""/>
+    <GuideEntityEmbed Entity="AmePartFlatpack" Caption=""/>
+    <GuideEntityEmbed Entity="AmePartFlatpack" Caption=""/>
+  </Box>
+
+
+
+
+
+要建造 AME，先铺下一块 3x3 或更大的 AME 平板组件方块，为建造做准备，确保最大化八面都被包围的"中心"件数量。
+中心件越多，你的 AME 拥有的核心就越多，它就能越安全地输出更多电力。
+
+
+
+
+
+<GuideEntityEmbed Entity="AmeController" Caption=""/>
+  <Box>
+    <GuideEntityEmbed Entity="AmeShielding" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="AmeShielding" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="AmeShielding" Caption="" Margin="0"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="AmeShielding" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="AmeShielding" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="AmeShielding" Caption="" Margin="0"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="AmeShielding" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="AmeShielding" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="AmeShielding" Caption="" Margin="0"/>
+  </Box>
+  <Box>
+完成后，你可以使用多功能工具将每块 AME 平板组件转换为屏蔽层，从而形成完整的 AME 配置。
+  </Box>
+
+
+
+
+
+## 运行
+[color=#999999]单核心配置示例[/color]
+
+
+
+
+
+要启动 AME，将燃料罐插入 AME 控制器，并设置安全注入率。
+
+
+
+
+
+安全注入率是 AME 在不发生过热的情况下安全运行、同时最大化功率输出的注入点。
+
+
+
+
+
+这个注入率始终是核心数的两倍。
+
+
+
+
+
+例如，单核心 AME 的安全注入率为 2。双核心的安全注入率则为 4，依此类推。
+
+
+
+
+
+超过这个比例最终会导致引擎[color=#ff0000]过热[/color]，并很快[color=#ff0000]爆炸[/color]。
+
+AME 控制器会报告它向电网提供的电量，以及在需要时它能提供的理论最大电量。
+
+
+
+
+
+</Document>
+

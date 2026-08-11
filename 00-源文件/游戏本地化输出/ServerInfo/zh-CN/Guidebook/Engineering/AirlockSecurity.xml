@@ -1,0 +1,116 @@
+<Document>
+# 气闸门升级
+胆大包天的人试图通过摆弄气闸门内部接线来绕过它的情况并不少见。
+
+
+
+
+
+幸运的是，可以在气闸门上安装某些反制措施，给任何潜在的闯入者添点麻烦。
+
+
+
+
+
+# 气闸门升级
+最基本的入侵威慑方式，是安装一层加固的钢板，阻止他人接触气闸门的内部接线。
+
+
+
+
+
+要把基础气闸门升级为中等级安保气闸门，你需要以下材料：
+  <Box HorizontalAlignment="Stretch">
+	  <Box>
+		  <GuideEntityEmbed Entity="SheetSteel" Caption="2 steel sheets"/>
+	  </Box>
+	  <Box>
+		  <GuideEntityEmbed Entity="Screwdriver" Caption="Screwdriver"/>
+	  </Box>
+	  <Box>
+		  <GuideEntityEmbed Entity="Welder" Caption="Welder"/>
+	  </Box>
+  </Box>
+
+
+
+
+
+升级基础气闸门的步骤：
+- 用螺丝刀打开气闸门维护面板。
+- 把钢板加到气闸门上。
+- 把钢板焊接到位。
+- 用螺丝刀关闭维护面板。
+
+
+
+
+
+## 中等级安保气闸门
+对于通往空间站更敏感区域的气闸门，建议使用更强的威慑措施。高等级安保气闸门拥有改进的装甲板来保护其内部接线。
+
+
+
+
+
+要把中等级安保气闸门升级为高等级安保气闸门，你需要以下材料：
+  <Box HorizontalAlignment="Stretch">
+	  <Box>
+		  <GuideEntityEmbed Entity="SheetPlasteel" Caption="2 plasteel sheets"/>
+	  </Box>
+	  <Box>
+		  <GuideEntityEmbed Entity="Screwdriver" Caption="Screwdriver"/>
+	  </Box>
+	  <Box>
+		  <GuideEntityEmbed Entity="Welder" Caption="Welder"/>
+	  </Box>
+  </Box>
+
+
+
+
+
+升级中等级安保气闸门的步骤：
+- 用螺丝刀打开气闸门维护面板。
+- 把塑料钢板加到气闸门上。
+- 把塑料钢板焊接到位。
+- 用螺丝刀关闭维护面板。
+
+
+
+
+
+## 高等级安保气闸门
+你可以选择把高等级安保气闸门升级为最高等级安保气闸门。最高等级安保气闸门在其其他防护之上还多了一层通电金属丝网，可以电击任何试图篡改气闸门的未授权人员。
+
+
+
+
+
+要把高等级安保气闸门升级为最高等级安保气闸门，你需要以下材料：
+  <Box HorizontalAlignment="Stretch">
+	  <Box>
+		  <GuideEntityEmbed Entity="SheetPlasteel" Caption="2 plasteel sheets"/>
+	  </Box>
+    <Box>
+      <GuideEntityEmbed Entity="PartRodMetal" Caption="2 metal rods"/>
+    </Box>
+	  <Box>
+		  <GuideEntityEmbed Entity="Screwdriver" Caption="Screwdriver"/>
+	  </Box>
+	  <Box>
+		  <GuideEntityEmbed Entity="Welder" Caption="Welder"/>
+	  </Box>
+  </Box>
+
+
+
+
+
+升级高等级安保气闸门的步骤：
+- 用螺丝刀打开气闸门维护面板。
+- 把塑料钢板加到气闸门上。
+- 把塑料钢板焊接到位。
+- 把金属杆加到气闸门上。
+- 用螺丝刀关闭维护面板。
+</Document>

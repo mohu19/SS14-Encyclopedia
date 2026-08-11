@@ -1,0 +1,54 @@
+<Document>
+# 大气
+大气部门是工程部下属的分部门，负责维护空间站的大气环境，确保其安全且可供乘员呼吸。
+
+
+
+
+
+大气部门由大气技术员负责运行，他们受总工程师监督。
+
+
+
+
+
+<Box>
+    <GuideEntityEmbed Entity="ToyFigurineAtmosTech" Caption="Atmosian"/>
+    <GuideEntityEmbed Entity="ToyFigurineChiefEngineer" Caption="CE"/>
+  </Box>
+  <Box>
+[color=#999999][/color]
+  </Box>
+
+
+
+
+
+# 大气
+一般来说，你要去处理空间站各处发生的大气异常。
+这些情况小到轻微泄漏，大到全面爆发的火灾或太空泄漏事故。
+
+
+
+
+
+其他部门的人也可能为他们的部门工作申请罐装气体，例如给[textlink="科研部门" link="AtmosphericUpsets"]用的等离子体，或者给[textlink="药剂师" link="Fires"]用的二氧化碳。
+
+
+
+
+
+在空闲时间里，你可以尝试改善空间站，比如为[textlink="沃克斯" link="Spacing"]和其他物种设置不同大气环境的房间，或者为空间站的需求建立特殊气体的生产。
+
+
+
+
+
+在没有工作可做时，你可能需要帮助普通站内工程师处理他们的任务，并指导新入职的站内工程师和大气技术员。
+
+
+
+
+
+</Document>
+

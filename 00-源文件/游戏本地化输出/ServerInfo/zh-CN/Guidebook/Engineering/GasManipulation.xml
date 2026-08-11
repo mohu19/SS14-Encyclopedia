@@ -1,0 +1,145 @@
+<Document>
+# 气体操作
+大气部门手头有各种各样的工具和设备，用于在空间站各处操控气体。
+
+
+
+
+
+[bold]警告：解除（扳松）大多数装有气体的设备的锚定会把气体[color=red]泄漏[/color]到大气中。[/bold]
+你可以安全地解除储气罐、便携式洗涤器、冷凝器和温控机的锚定。
+
+
+
+
+
+<Box>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption=""/>
+    <GuideEntityEmbed Entity="GasPipeHalf" Caption=""/>
+    <GuideEntityEmbed Entity="GasPipeBend" Caption=""/>
+    <GuideEntityEmbed Entity="GasPipeTJunction" Caption=""/>
+    <GuideEntityEmbed Entity="GasPipeFourway" Caption=""/>
+  </Box>
+  <Box>
+# 气体操作
+  </Box>
+  <Box>
+[color=#999999]把气体从一处输送到另一处[/color]
+  </Box>
+
+
+
+
+
+<Box>
+    <GuideEntityEmbed Entity="GasPressurePump" Caption=""/>
+    <GuideEntityEmbed Entity="GasVolumePump" Caption=""/>
+  </Box>
+  <Box>
+## 管道
+  </Box>
+  <Box>
+[color=#999999]强制气体从一处流动到另一处[/color]
+  </Box>
+
+
+
+
+
+<Box>
+    <GuideEntityEmbed Entity="GasVentPump" Caption=""/>
+    <GuideEntityEmbed Entity="GasPassiveVent" Caption=""/>
+    <GuideEntityEmbed Entity="GasOutletInjector" Caption=""/>
+    <GuideEntityEmbed Entity="GasVentScrubber" Caption=""/>
+    <GuideEntityEmbed Entity="PortableScrubber" Caption=""/>
+  </Box>
+  <Box>
+## 泵
+  </Box>
+  <Box>
+[color=#999999]向现有（或不存在）的大气中注入和抽取气体[/color]
+  </Box>
+
+
+
+
+
+<Box>
+    <GuideEntityEmbed Entity="GasValve" Caption=""/>
+    <GuideEntityEmbed Entity="SignalControlledValve" Caption=""/>
+    <GuideEntityEmbed Entity="PressureControlledValve" Caption=""/>
+    <GuideEntityEmbed Entity="GasPassiveGate" Caption=""/>
+    <GuideEntityEmbed Entity="GasPressureRegulator" Caption=""/>
+  </Box>
+  <Box>
+## 大气输入与输出
+  </Box>
+  <Box>
+[color=#999999]控制气体在管道中的流动[/color]
+  </Box>
+
+
+
+
+
+<Box>
+    <GuideEntityEmbed Entity="GasMixer" Caption=""/>
+    <GuideEntityEmbed Entity="GasFilter" Caption=""/>
+  </Box>
+  <Box>
+## 阀门
+  </Box>
+  <Box>
+[color=#999999]操控气体的成分[/color]
+  </Box>
+
+
+
+
+
+<Box>
+    <GuideEntityEmbed Entity="AirCanister" Caption=""/>
+    <GuideEntityEmbed Entity="OxygenCanister" Caption=""/>
+    <GuideEntityEmbed Entity="NitrogenCanister" Caption=""/>
+    <GuideEntityEmbed Entity="CarbonDioxideCanister" Caption=""/>
+    <GuideEntityEmbed Entity="StorageCanister" Caption=""/>
+    <GuideEntityEmbed Entity="GasPort" Caption=""/>
+  </Box>
+  <Box>
+## 混合与过滤
+  </Box>
+  <Box>
+[color=#999999]储存和运输气体，方便乘员使用[/color]
+  </Box>
+
+
+
+
+
+<Box>
+    <GuideEntityEmbed Entity="SpaceHeater" Caption=""/>
+    <GuideEntityEmbed Entity="GasThermoMachineHeater" Caption=""/>
+    <GuideEntityEmbed Entity="GasThermoMachineFreezer" Caption=""/>
+    <GuideEntityEmbed Entity="HeatExchanger" Caption=""/>
+  </Box>
+  <Box>
+## 储气罐
+  </Box>
+  <Box>
+[color=#999999]操控管网或大气中气体的温度[/color]
+  </Box>
+
+
+
+
+
+<Box>
+    <GuideEntityEmbed Entity="BaseGasCondenser" Caption=""/>
+  </Box>
+  <Box>
+## 温控机与散热器
+  </Box>
+  <Box>
+[color=#999999]冷凝气体以供进一步使用[/color]
+  </Box>
+</Document>

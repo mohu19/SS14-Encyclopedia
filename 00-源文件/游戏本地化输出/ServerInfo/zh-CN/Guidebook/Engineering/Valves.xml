@@ -1,0 +1,21 @@
+<Document>
+# 阀门
+阀门是快速停止或允许气体流过管网的方式。
+  <Box>
+    <GuideEntityEmbed Entity="GasValve"/>
+    <GuideEntityEmbed Entity="SignalControlledValve"/>
+    <GuideEntityEmbed Entity="PressureControlledValve"/>
+    <GuideEntityEmbed Entity="GasPassiveGate"/>
+    <GuideEntityEmbed Entity="GasPressureRegulator"/>
+  </Box>
+
+
+
+
+
+所有阀门运行都不需要电力。
+</Document>
+
+阀门看起来可能很简单，但它们可以构建出各种各样复杂的管道系统，包括：
+- 响应空气警报器或逻辑门输出的信号阀
+- 控制燃烧室废气可变排放的气动阀

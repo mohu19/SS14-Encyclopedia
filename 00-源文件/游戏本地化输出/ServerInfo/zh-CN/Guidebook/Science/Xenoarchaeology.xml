@@ -1,0 +1,81 @@
+<Document>
+# 异星考古学
+
+
+
+
+
+异星考古学是科研部的一个分支，专注于研究外星[bold]文物[/bold]。
+
+
+
+
+
+解开它们的秘密可以获得研究点数，并揭示奇异、可能有用或危险的效果。
+
+
+
+
+
+回合开始时，科研部通常在实验室里有一两件文物。更多的文物可以通过以下方式获得：
+- 向[color=orange]货运部[/color]订购
+- 由[color=orange]打捞部门[/color]找到
+- 用[bold]碎片[/bold]组装
+- 在某些空间站事件中出现
+
+
+
+
+
+## 文物
+  <Box>
+    <GuideEntityEmbed Entity="ComplexXenoArtifact" Caption=""/>
+    <GuideEntityEmbed Entity="ComplexXenoArtifactItem" Caption=""/>
+  </Box>
+
+
+
+
+
+文物包含排列在[bold]层级[/bold]中的[bold]节点[/bold]。
+- 解锁一个节点会解锁上层中与之相连的节点。
+- 每个节点都有[bold]触发条件[/bold]，即在文物附近执行的、用于解锁节点的动作。
+- 当一个节点被解锁时，它的[bold]效果[/bold]会被触发，节点变为[bold][color=plum]激活[/color][/bold]状态。
+- 每个节点都有[bold]耐久度[/bold]：即解锁后可以被手动激活的次数。
+- 越高的节点越难到达，但提供更多的[bold]研究点数[/bold]。
+- 解锁所有节点没有特殊奖励，但每个节点都会产出研究点数。
+
+
+
+
+
+## 设备
+  <Box>
+    <GuideEntityEmbed Entity="MachineArtifactAnalyzer" Caption="Analyzer"/>
+    <GuideEntityEmbed Entity="ComputerAnalysisConsole" Caption="Analysis Console"/>
+    <GuideEntityEmbed Entity="NodeScanner" Caption="Node Scanner"/>
+  </Box>
+- [bold]文物分析仪：[/bold] 扫描文物的固定设备，将数据发送到控制台。
+- [bold]分析控制台：[/bold] 用于显示节点树的固定设备。必须用多用工具与一台分析仪连接。
+- [bold]节点扫描器：[/bold] 小型手持设备，可以显示当前正在激活的节点 ID，以及文物是否已准备好触发，让科学家在文物附近的舱室内工作时只需具备最少量的必要知识，无需直接接触控制台。
+
+
+
+
+
+<Box>
+    <GuideEntityEmbed Entity="CrateArtifactContainer" Caption="Artifact Container"/>
+    <GuideEntityEmbed Entity="HandheldArtifactContainer" Caption="Handheld Container"/>
+  </Box>
+- [bold]文物容器：[/bold] 安全存放和运输文物，并防止节点被触发。
+  <Box>
+    <GuideEntityEmbed Entity="MachineArtifactCrusher" Caption="Crusher"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="ArtifactFragment" Caption="Artifact Fragment"/>
+  </Box>
+</Document>
+
+- [bold]文物粉碎机：[/bold] 将文物粉碎成碎片。四块碎片可以重新组装成一件新文物。
+
+- [bold]文物碎片：[/bold] 被摧毁文物的碎片。四块碎片可以使用制造菜单重新组装成一件新文物。

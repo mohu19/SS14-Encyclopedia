@@ -1,0 +1,56 @@
+<Document>
+# 科技
+
+
+
+
+
+所有科技都有研究所需的费用和等级要求。解锁它们会添加各种可以在不同车床上打印的配方。
+
+
+
+
+
+不同的科技及其所属学科列在下面。
+
+
+
+
+
+## 工业
+<GuideTechDisciplineEmbed Discipline="Industrial"/>
+
+
+
+
+
+## 军械库
+<GuideTechDisciplineEmbed Discipline="Arsenal"/>
+
+
+
+
+
+## 实验
+<GuideTechDisciplineEmbed Discipline="Experimental"/>
+
+
+
+
+
+## 民用服务
+<GuideTechDisciplineEmbed Discipline="CivilianServices"/>
+
+
+
+
+
+## 生化
+<GuideTechDisciplineEmbed Discipline="Biochemical"/>
+
+
+
+
+
+</Document>
+

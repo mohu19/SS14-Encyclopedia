@@ -1,0 +1,128 @@
+<Document>
+# 典狱长
+
+
+
+
+
+<GuideEntityEmbed Entity="ToyFigurineWarden" Caption="Warden"/>
+
+
+
+
+
+### §1 标准绿色代码装备
+
+
+
+
+
+<Box>
+	<GuideEntityEmbed Entity="Stunbaton"/>
+	<GuideEntityEmbed Entity="WeaponPistolDP"/>
+	<GuideEntityEmbed Entity="WeaponEnergyShotgun"/>
+</Box>
+<Box>
+	<GuideEntityEmbed Entity="HoloprojectorSecurity"/>
+	<GuideEntityEmbed Entity="FlashlightSeclite"/>
+	<GuideEntityEmbed Entity="RadioHandheldSecurity"/>
+</Box>
+<Box>
+	<GuideEntityEmbed Entity="CombatKnife"/>
+置于
+	<GuideEntityEmbed Entity="ClothingShoesBootsJack"/>
+</Box>
+<Box>
+	<GuideEntityEmbed Entity="GrenadeFlashBang"/>
+	<GuideEntityEmbed Entity="TearGasGrenade"/>
+</Box>
+<Box>
+	<GuideEntityEmbed Entity="Handcuffs"/>
+	<GuideEntityEmbed Entity="Zipties"/>
+</Box>
+
+
+
+
+
+### §2 禁闭室管理
+- 1.
+
+
+
+
+
+### §3 起诉
+典狱长负责禁闭室的状态，必须确保其得到妥善维护。
+- 2.
+
+
+
+
+
+### §4 军械库管理
+典狱长负责禁闭室内囚犯的福祉，必须确保他们得到妥善对待。
+- 3.
+
+
+
+
+
+
+### §5
+典狱长同样负责上述囚犯的看管，包括：
+
+3.1
+
+从囚犯处没收武器和越狱工具。
+
+3.2
+
+在必要时约束并制服暴动的囚犯。
+
+- 1.
+
+在常规量刑过程中，典狱长担任安保部门的首席公诉人。
+- 2.
+
+典狱长有权对已判刑罪犯实施最长 [bold]20 分钟[/bold] 的监禁。
+- 3.
+
+典狱长负责确保犯罪记录保持及时更新，并确保警员妥善记录其判刑情况。
+- 4.
+
+典狱长必须时刻留意无线电，因为其批准对量刑至关重要。
+
+4.1
+
+典狱长不得有任何妨碍其履行该职责的残疾或疾病。
+
+- 1.
+
+典狱长负责军械库的整洁与有序。
+- 2.
+
+典狱长负责妥善锁存违禁品与归还的武器。
+- 3.
+
+典狱长负责军械库的安全，例如正确配置其内部炮塔，以及维护其结构完整性。
+- 4.
+
+典狱长有权在 [color=#2a6099]蓝色代码[/color] 期间备案并批准军械库装备的发放许可。
+- 5.
+
+典狱长可以在 [color=#ff0000]红色代码[/color] 期间自由发放军械库装备。
+- 6.
+
+典狱长负责在紧急状态结束后收回不再需要的军械库装备。
+
+- 1.
+
+§2、§3 与 §4 各条要求留在安保部门内，因此未经安保主管许可，典狱长不应离开该部门，紧急情况除外。
+
+
+
+
+
+</Document>
+

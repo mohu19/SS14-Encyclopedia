@@ -1,0 +1,69 @@
+<Document>
+# 安保干员
+
+
+
+
+
+<GuideEntityEmbed Entity="ToyFigurineSecurity" Caption="Security Officer"/>
+
+
+
+
+
+-1.
+
+
+
+
+
+<Box>
+	<GuideEntityEmbed Entity="WeaponDisabler"/>
+	<GuideEntityEmbed Entity="Stunbaton"/>
+	<GuideEntityEmbed Entity="WeaponPistolMk58"/>
+</Box>
+<Box>
+	<GuideEntityEmbed Entity="HoloprojectorSecurity"/>
+	<GuideEntityEmbed Entity="FlashlightSeclite"/>
+	<GuideEntityEmbed Entity="RadioHandheldSecurity"/>
+</Box>
+<Box>
+	<GuideEntityEmbed Entity="CombatKnife"/>
+标准[color=#00a933]绿色警戒[/color]装备为：
+	<GuideEntityEmbed Entity="ClothingShoesBootsJack"/>
+</Box>
+<Box>
+	<GuideEntityEmbed Entity="GrenadeFlashBang"/>
+	<GuideEntityEmbed Entity="TearGasGrenade"/>
+</Box>
+<Box>
+	<GuideEntityEmbed Entity="Handcuffs"/>
+	<GuideEntityEmbed Entity="Zipties"/>
+</Box>
+
+
+
+
+
+内
+</Document>
+
+或
+
+- 2.
+
+安保干员应随时待命，方便船员找到，无论是主动巡逻还是守卫部门。
+- 3.
+
+安保干员获准将已判刑的罪犯关押在禁闭室，最长 [bold]10 分钟[/bold]。
+
+3.1
+
+判决必须向典狱长或安保主管大声宣读方为有效。如果通过无线电进行，必须收到可听见的确认。
+
+3.2
+
+安保干员有责任确保自己参与的任何判决都在犯罪记录系统中妥善记录。
+- 4.
+
+可行时，安保干员应两人一组巡逻。

@@ -1,0 +1,162 @@
+<Document>
+# 植物学
+作为一名植物学家，你的工作是种植足够的食物，防止厨师去寻找"替代来源"。多种小麦，当你厌倦了，就种大麻。用荨麻做大麻冰沙和调制鸡尾酒。只要一直种植物，你就会做得很好！
+
+
+
+
+
+# 植物学
+首先辨认你周围将要使用的机器。与厨师协调，看看他们是否需要种植什么特定的东西，否则就种小麦、香蕉以及任何其他你想种的东西。你也可以为化学部（医疗区）、酒保种植植物，或者卖给货运部。
+
+
+
+
+
+
+# 植物学
+有很多工具可以用来让你的作物保持健康和生长。水培托盘是你作为植物学家花费大部分时间的地方。
+
+
+
+
+
+## 开始你的班次
+<Box>
+<GuideEntityEmbed Entity="hydroponicsTray"/>
+</Box>
+这是一个水培托盘，它用水种植植物。首先往托盘里加水，然后加入种子。
+水培托盘的指示灯根据颜色和位置表示不同的含义：
+- [color=red]红灯，左侧[/color]：植物已死，需要重新种植。使用铲子移除植物。
+- [color=orange]闪烁橙灯，中央[/color]：环境不理想。通过 Shift 点击植物来检查是什么在影响它。很可能是杂草，但也可能是不理想的气压或缺氧。如果是杂草，使用小锄头或喷洒1次除草喷雾。但请注意，过度使用除草剂会导致植物不健康，甚至可能杀死它们。
+- [color=#0336ff]蓝灯，右侧[/color]：需要浇水。用桶在水箱中取水并加满托盘。
+- [color=green]绿灯，左侧[/color]：可以收获了。左键点击收获。
+- [color=yellow]黄灯，右侧[/color]：需要营养。使用任何水果把它放进土壤里，或从化学部获取EZ营养剂。
+
+
+
+
+
+水培托盘的生命周期如下：
+- [color=lightgreen]空[/color]：没有水、种子或营养
+- [color=lightgreen]湿润[/color]：你加了水进去（例如从瓶子或桶）。
+- [color=lightgreen]可以种植[/color]：你加了水和营养（即肥料）进去。
+- [color=lightgreen]已种植[/color]：你加了种子进去
+- [color=lightgreen]可以收获[/color]：你等待植物生长
+- [color=lightgreen]已取样[/color]：你取了一个样本（种子）
+- [color=lightgreen]已收获[/color]：你采摘了成熟的植物。有些植物之后会再次生长。其他的会死亡，需要重新种植。
+- [color=lightgreen]不健康[/color]：你取样了太多种子，或者喷洒了致命化学品。植物状况不太好。它仍会继续生长。可以通过肥料恢复健康，或者你可以止损，提取一颗种子（植物剪）并重新种植。
+- [color=lightgreen]衰老/枯萎[/color]：植物已经成熟，很快会死亡。它仍然可以收获，你也可以提取种子，但时间很短。提取种子，然后把它拔掉/砍掉。
+- [color=lightgreen]死亡[/color]：植物已被收获并停止生长。应该拔掉/砍掉。无法提取种子。
+
+
+
+
+
+# 工具
+<Box>
+<GuideEntityEmbed Entity="SeedExtractor"/>
+</Box>
+它提取种子。放入作物，得到种子。
+
+
+
+
+
+
+# 植物学
+就像纳米传讯已知的所有其他生命形式一样，植物通过基因将性状遗传给后代。通过操纵植物遗传学，植物学家可以培育出带有理想突变的植物品种，从而提高植物健康和产量。
+
+
+
+
+
+## 水培托盘
+表现型，即植物的一组可观察的特征和性状，可以通过仔细观察和研究来确定。一些常见的性状包括：
+
+
+
+
+
+- [color=lightgreen]生物发光[/color]：具有此性状的植物在黑暗中发光
+- [color=lightgreen]高产[/color]：具有此性状的植物每次收获结出更多果实
+- [color=lightgreen]需水少[/color]：具有此性状的植物生长需要的水比正常少
+- [color=lightgreen]木质化[/color]：具有此性状的植物需要锋利的工具来收获
+- [color=lightgreen]长寿[/color]：具有此性状的植物在死亡前能经历更多收获周期
+- [color=lightgreen]需光少[/color]：具有此性状的植物生长需要的光比正常少
+- [color=lightgreen]抗虫害[/color]：具有此性状的植物对害虫更有抵抗力
+- [color=lightgreen]无籽[/color]：具有此性状的植物不产生可育的种子
+- [color=lightgreen]抗杂草[/color]：具有此性状的植物抑制杂草生长
+
+
+
+
+
+你只需种植并观察它们，就能确定植物的表现型！这就是遗传学之父格雷戈尔·孟德尔在1866年研究它们的方式。
+
+
+
+
+
+## 种子提取器
+用[color=cyan]不稳定诱变剂[/color]处理的植物会经历随机基因突变，这可以改变它们的基因并导致性状发生变化。你可以通过收获种子来保存带有你想要突变的植物。
+
+
+
+
+
+你使用的不稳定诱变剂越多，获得的突变就越多。由于许多基因对植物的生存至关重要，大多数突变会导致植物死亡。
+
+
+
+
+
+<Box>
+<GuideEntityEmbed Entity="ChemistryBottleUnstableMutagen"/>
+</Box>
+
+
+
+
+
+# 植物遗传学
+你可以使用[color=cyan]无菌拭子[/color]将花粉从一株植物转移到另一株。异花授粉的植物有机会转移性状。小心重复使用拭子；花粉是有黏性的！
+
+
+
+
+
+<Box>
+<GuideEntityEmbed Entity="BoxMouthSwab"/>
+<GuideEntityEmbed Entity="DiseaseSwab"/>
+</Box>
+
+
+
+
+
+## 性状
+有些化学品对植物有特殊效果。
+
+
+
+
+
+[textlink="Click here to see all botanical chemicals." link="Botanical"]
+
+
+
+
+
+<GuideReagentEmbed Reagent="Dylovene"/>
+<GuideReagentEmbed Reagent="Cryoxadone"/>
+<GuideReagentEmbed Reagent="Necrosol"/>
+<GuideReagentEmbed Reagent="Phalanximine"/>
+<GuideReagentGroupEmbed Group="Botanical"/>
+
+
+
+
+
+</Document>
+

@@ -1,0 +1,105 @@
+<Document>
+# 大气工具
+大气技术员拥有与工程师相同的核心工具集，但他们还可以使用两种新工具：全息风扇投影仪和气体分析仪。
+
+
+
+
+
+  <Box>
+    <GuideEntityEmbed Entity="HolofanProjector"/>
+    <GuideEntityEmbed Entity="GasAnalyzer"/>
+  </Box>
+
+
+
+
+
+## 全息风扇投影仪
+全息风扇投影仪是一种可以投射硬光屏障的工具，这种屏障可以阻挡空气和气体流动，同时仍允许人员穿过。
+
+
+
+
+
+  <Box>
+    <GuideEntityEmbed Entity="HolofanProjector"/>
+    <GuideEntityEmbed Entity="HoloFan"/>
+  </Box>
+
+
+
+
+
+这对于在防火门缓冲区之间移动而不会在房间之间泄漏气体非常有用，同时也能向普通船员示意某个房间可能不适合进入。
+它还可以用来形成临时屏障，让船员能够在破空区域和未破空区域之间快速移动，而不会有其他房间漏气的风险。
+
+
+
+
+
+它有一个内部电量，每次使用都会消耗，但你可以取出电池放入电池充电器或充电站中来充电。
+
+
+
+
+
+放置在防火门旁边的全息风扇会使防火门解除锁定，从而允许防火门被徒手打开。
+
+
+
+
+
+## 气体分析仪
+气体分析仪是一种可以分析暴露大气或任何含有气体的大气设备气体成分的工具。
+
+
+
+
+
+  <Box>
+    <GuideEntityEmbed Entity="GasAnalyzer"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="GasPipeBend" Caption=""/>
+    <GuideEntityEmbed Entity="GasPressurePump" Caption=""/>
+    <GuideEntityEmbed Entity="SignalControlledValve" Caption=""/>
+    <GuideEntityEmbed Entity="GasFilter" Caption=""/>
+    <GuideEntityEmbed Entity="StorageCanister" Caption=""/>
+    <GuideEntityEmbed Entity="GasThermoMachineFreezer" Caption=""/>
+  </Box>
+
+
+
+
+
+你可以通过点击含气体的设备，或点击房间中的空气来使用气体分析仪。
+
+
+
+
+
+使用时，气体分析仪会报告：
+- 所测设备的体积（不是气体的体积！）
+- 气体的总压强，单位 kPa
+- 气体的温度，单位开尔文（K）和摄氏度（C）
+- 气体以摩尔量表示的精确成分，以及占总气体体积的百分比
+
+
+
+
+
+在界面的底部，气体分析仪会显示成分中存在的不同气体的视觉指示，以及它们的相对浓度。
+
+
+
+
+
+当气体分析仪分析二元和三元设备（具有两个和三个输入/输出的设备）时，它会分别显示每个输入/输出的成分。这对于排查气体混合与过滤配置的问题非常有用。
+
+
+
+
+
+</Document>
+

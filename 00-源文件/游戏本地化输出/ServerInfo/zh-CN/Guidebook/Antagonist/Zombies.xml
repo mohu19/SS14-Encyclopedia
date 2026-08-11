@@ -1,0 +1,117 @@
+<Document>
+# 丧尸
+
+
+
+
+
+<Box>
+[color=#999999][italic]"他们来抓你了，芭芭拉！"[/italic][/color]
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="SignBiohazard" Caption=""/>
+  </Box>
+
+
+
+
+
+丧尸是转化型敌对角色，它们会通过撕咬，将 [color=#7e916e]Romerol[/color] 传染给所有被咬到的生物——这是一种致命且传染性极强的病毒，若不加控制很容易扩散。
+
+
+
+
+
+  <Box>
+    <GuideReagentEmbed Reagent="Romerol"/>
+  </Box>
+
+
+
+
+
+## 最初的感染者
+你就是零号病人。你的血管里流淌着 [color=#7e916e]Romerol[/color]，而你心中有一个宏伟的愿望：把它分享给你见到的每一个血肉之躯。
+
+
+
+
+
+一旦得知自己被感染，[italic]一切规矩都作废了[/italic]。你距离彻底转化只剩有限的时间，你要[bold]最大化夺取空间站的机会[/bold]。
+利用这段时间准备武器、装备和陷阱。[italic]太空法(Space Law)现在对你毫无意义。[/italic]
+
+
+
+
+
+## 传播
+丧尸只会蹒跚而行、撕咬和把自己往路障上撞。它们的撕咬[bold]可能并不总能穿透厚重的衣物传播 [color=#7e916e]Romerol[/color][/bold]，但肯定很疼。
+
+
+
+
+
+亡灵还可以啃咬重伤或死亡的尸体，[bold]将其瞬间转化[/bold]为丧尸。
+
+
+
+
+
+## 丧尸特征
+丧尸可以通过深绿色的皮肤、红色的眼睛、缓慢的动作、腐烂的气味以及丧失运动机能来识别。它们在转化时会丢掉耳机和手套，而手铐对它们凶猛的撕咬毫无作用。
+
+
+
+
+
+丧尸以[bold]对劈砍、钝击、毒性和寒冷的抗性[/bold]而闻名。它们能在真空中生存，不需要食物、水、空气或睡眠。不过，亡灵会[italic]受到更高的灼伤和电击伤害。[/italic]
+
+
+
+
+
+## 生存
+当感染席卷而来、[color=#cb0000]安保部门[/color] 沦陷时，就轮到[bold]幸存者[/bold]们设法前往中央指挥部(Central Command)了。
+
+
+
+
+
+在各部门周围[bold]构筑路障[/bold]或[bold]闩住大门[/bold]，可以争取到足够的时间来制造武器、拯救生命或制定计划。
+
+
+
+
+
+记住，当事情真正变得不可收拾时，[italic]你该做什么就得做什么[/italic]，只要不是以牺牲其他幸存者为代价。从没能撑过来的人身上搜刮你需要的东西。
+
+
+
+
+
+## 治疗方法
+[bold]已经亡灵化的人，只有 [color=red]死亡[/color] 才能"治愈"。[/bold]
+
+
+
+
+
+如果你已被感染但尚未丧尸化，使用 [color=#86caf7]Ambuzol[/color] 可以治愈你，但无法防止再次感染。[color=#1274b5]Ambuzol Plus[/color] 则能在你活着期间治愈你并防止再次感染。
+
+
+
+
+
+  <Box>
+    <GuideReagentEmbed Reagent="Ambuzol"/>
+  </Box>
+  <Box>
+    <GuideReagentEmbed Reagent="AmbuzolPlus"/>
+  </Box>
+
+
+
+
+
+</Document>
+

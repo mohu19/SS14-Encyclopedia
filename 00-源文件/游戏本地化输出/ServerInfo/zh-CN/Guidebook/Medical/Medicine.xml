@@ -1,0 +1,77 @@
+<Document>
+
+
+
+
+
+# 药品
+
+
+
+
+
+这些药物几乎总能以某种方式对医疗区派上用场。
+
+
+
+
+
+<GuideReagentEmbed Reagent="Bicaridine"/>
+<GuideReagentEmbed Reagent="Kelotane"/>
+<GuideReagentEmbed Reagent="Dermaline"/>
+<GuideReagentEmbed Reagent="Dylovene"/>
+<GuideReagentEmbed Reagent="Inaprovaline"/>
+<GuideReagentEmbed Reagent="Dexalin"/>
+<GuideReagentEmbed Reagent="DexalinPlus"/>
+<GuideReagentEmbed Reagent="Iron"/>
+
+
+
+
+
+# 药品
+
+
+
+
+
+这些药物往往有特定的使用场景。
+
+
+
+
+
+<GuideReagentEmbed Reagent="Cryoxadone"/>
+<GuideReagentEmbed Reagent="Epinephrine"/>
+<GuideReagentEmbed Reagent="Hyronalin"/>
+<GuideReagentEmbed Reagent="Arithrazine"/>
+<GuideReagentEmbed Reagent="Phalanximine"/>
+<GuideReagentEmbed Reagent="Tricordrazine"/>
+<GuideReagentEmbed Reagent="TranexamicAcid"/>
+<GuideReagentEmbed Reagent="Ambuzol"/>
+<GuideReagentEmbed Reagent="Oculine"/>
+
+
+
+
+
+# 药品
+
+
+
+
+
+这是所有可用药物的完整列表，包括前面已经列出的那些。
+
+
+
+
+
+<GuideReagentGroupEmbed Group="Medicine"/>
+
+
+
+
+
+</Document>
+

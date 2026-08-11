@@ -1,0 +1,417 @@
+<Document>
+# 热电发电机（TEG）
+
+
+
+
+
+TEG 通过在热气体和冷气体之间交换热量来发电。
+在空间站上，热气体通常通过燃烧等离子体产生，而太空中的一组换热管道会将热量辐射出去，以冷却循环气体。
+
+
+
+
+
+TEG 高度依赖大气部的管道。
+它唯一真正特殊的部件是发电机核心和循环器；其余都是现成的大气设备。
+请注意，虽然具体布局可能因空间站而异，但总体部件和配置通常是相同的。
+
+
+
+
+
+## 发电机
+
+
+
+
+
+主发电机本身由 3 个主要部分组成：中央发电机和两个"循环器"，布局如下：
+
+
+
+
+
+  <Box>
+    <GuideEntityEmbed Entity="TegCirculator" Rotation="180" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="TegCenter" Rotation="90" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="TegCirculator" Caption="" Margin="0"/>
+  </Box>
+
+
+
+
+
+循环器吸入热气体或冷气体，使其通过机器进行热交换。
+气体随后从循环器的另一端输出。发电机产生实际电力，并通过[color=orange]HV 电线[/color]输出。
+
+
+
+
+
+请注意，循环器是[color=#a4885c]定向的[/color]：它们只允许气体单向通过。
+你可以在游戏中通过检查循环器本身看到这个方向。
+输入端和输出端之间需要有压强差，因此通常配备泵，并且必须开启。
+
+
+
+
+
+对哪一侧必须是热侧或冷侧没有偏好，只需两者之间存在温度差即可。
+两个"回路"中的气体永远不会混合，[color=#a4885c]它们之间只交换能量[/color]。
+热侧会冷却，冷侧会升温。
+
+
+
+
+
+## 管道
+
+
+
+
+
+这里需要关注 2 个主要的管网：[color=red]热回路[/color]（气体在其中燃烧产生热量）和[color=cyan]冷回路[/color]（循环后变热的气体在其中被排入太空或重新冷却）。
+确保[color=#a4885c][bold]两个管网不要混合[/bold][/color]，因为两者之间只能通过 TEG 传递热量。
+
+
+
+
+
+# 热电发电机（TEG）
+
+
+
+
+
+我相信有位智者说过：让东西变热的最好方法就是把它点着。
+嗯，这取决于具体情况，那样说可能不太明智，但幸运的是，你的工程部恰好具备安全地做到这一点的条件。
+
+
+
+
+
+如上所述，加热（或冷却）气体有许多不同的布局可供选择；本指南的这一部分将介绍热回路常见的一些方法，涉及[color=red]燃烧室[/color]。
+
+
+
+
+
+附注：与氚火等相比，等离子体火的燃烧温度相对较低。
+也可以从萃取装置中提取氚，并与氧气反应，以获得真正恐怖的高温来发电。
+
+
+
+
+
+# 热回路
+
+
+
+
+
+燃烧室是加热气体的首选方法，它也常用于其他用途。（见：氚生产）
+
+
+
+
+
+大多数（如果不是全部）空间站都会将燃烧室与大气部主体隔开一个 1 格宽的破空带，以防止发生泄漏时滚烫的气体流向大气部。燃烧室由 3 个重要部分组成：
+- 空气注入器/被动排气口
+- 太空排气口
+- 净化器阵列
+
+
+
+
+
+下面是一个示例配置的一层：
+  <Box>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="BlastDoorOpen" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="ReinforcedPlasmaWindow" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="GasVentScrubber" Rotation="90" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="GasVentScrubber" Rotation="-90" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="ReinforcedPlasmaWindow" Rotation="0" Caption="" Margin="0"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="ReinforcedPlasmaWindow" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="GasPassiveVent" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="90" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="GasVentScrubber" Rotation="-90" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="ReinforcedPlasmaWindow" Rotation="0" Caption="" Margin="0"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="ReinforcedPlasmaWindow" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="ReinforcedPlasmaWindow" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="ReinforcedPlasmaWindow" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+  </Box>
+
+
+
+
+
+空气注入器（或被动排气口）将空气注入（或允许空气流入）燃烧室。
+两者之前都应配备一台泵，以保持高压。
+
+
+
+
+
+被动排气口和空气注入器之间有一个显著的区别；空气注入器只能持续注入空气直到 [color=#a4885c]9MPa[/color]，而一次好的燃烧很容易达到这个压力。
+理想情况下，应将空气注入器换成连接体积泵的被动排气口。
+
+
+
+
+
+太空排气口（在燃烧室一侧设为通往太空的防爆门）允许废气被排出并销毁。
+偶尔打开它以控制压强，或将多余的输入气体排入太空。
+你甚至可能会发现气动阀对偶尔排放气体很有用。
+
+
+
+
+
+净化器阵列会过滤掉所有燃烧后的气体，并将它们送入 TEG。
+请注意，在净化器上使用默认设置是个坏主意，因为宝贵的等离子体也会被过滤掉。
+
+
+
+
+
+相反，使用网络配置器将所有净化器连接到附近的空气警报器，并将空气警报器的净化器设置设为净化除氧气和等离子体之外的所有气体，同时开启抽吸空气。
+这可以确保尽可能多的热量被收集并送往 TEG。
+
+
+
+
+
+请注意，这只是搭建热回路的众多方法之一；[color=#a4885c]可以根据需要随意混搭各种配置！[/color]
+用体积泵代替压力泵，用散热器回路收集热量，甚至用火山碎屑异常体来提供热量！
+星辰才是极限！
+  [textlink="Volume pumps" link="Pumps"] in replacement of [textlink="pressure pumps" link="Pumps"], [textlink="radiator" link="Radiators"] loops for heat collection, or even a Pyroclastic anomaly to provide said heat!
+
+
+
+
+
+# 热电发电机（TEG）
+
+
+
+
+
+与热回路一样，冷回路也必须搭建好才能运行 TEG。
+不过，冷回路通常比热回路简单得多；实际上，冷回路只需要"相对"更冷——嘿，室温在技术上比太阳表面更冷，对吧？
+
+
+
+
+
+你会看到冷回路有 3 种主要方法：[color=#a4885c]水冷器[/color]（见：Liltenhead 关于 TEG 的视频）、[color=cyan]冷却剂阵列[/color]和[color=#a4885c]冷冻回路[/color]。
+
+
+
+
+
+## 燃烧室
+
+
+
+
+
+与管道燃烧一样朴素的方法，就是取一些没用的气体（这里是水蒸气），让它流过 TEG 并排入太空。它极其便宜简单，代价是效率低下和气体的永久损失。
+
+
+
+
+
+搭建这个简单到连哈姆雷特都能搞定。取一种气体的输出（这里指水蒸气），送入 TEG 的冷侧，然后排放到太空中。
+
+
+
+
+
+  <Box>
+    <GuideEntityEmbed Entity="GasPressurePump" Rotation="90" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPipeStraight" Rotation="90" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="TegCirculator" Rotation="90" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPipeStraight" Rotation="90" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="GasPassiveVent" Rotation="270" Caption="" Margin="-1"/>
+  </Box>
+
+
+
+
+
+# 冷回路
+
+
+
+
+
+这是你在各种空间站上会看到的冷回路默认方法。
+复杂度适中，没有任何资源损失，这[color=#a4885c]应该[/color]是冷却 TEG 的主要方法。
+然而，目前大多数空间站的散热器都以某种方式接错了（或建议了错误的管道），大大降低了效率。
+
+
+
+
+
+要正确使用换热器，它们必须[color=#a4885c]并联[/color]设置，而不是串联（就像你在大多数空间站看到的那样）。
+应在换热器之后放置一台最大压力的气体泵，并在换热器之前放置一台体积泵。
+体积泵的流速应使用以下公式设置：
+  <Box>
+  </Box>
+
+
+
+
+
+[color=cyan]( 200 / 换热器数量 )[/color] L/s。
+
+
+
+
+
+  <Box>
+    <GuideEntityEmbed Entity="GasPipeBend" Rotation="90" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="0" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="0" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="0" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="0" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPipeBend" Rotation="0" Caption="" Margin="-1"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="HeatExchanger" Rotation="0" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="HeatExchanger" Rotation="0" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="HeatExchanger" Rotation="0" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="HeatExchanger" Rotation="0" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="HeatExchanger" Rotation="0" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPipeStraight" Rotation="0" Caption="" Margin="-1"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="90" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="180" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="180" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="180" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPipeBend" Rotation="270" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPipeStraight" Rotation="0" Caption="" Margin="-1"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="ReinforcedWindow" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="ReinforcedWindow" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="ReinforcedWindow" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="ReinforcedWindow" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="GasPipeBend" Rotation="180" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPressurePump" Rotation="90" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="TegCirculator" Rotation="90" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="0" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasVolumePump" Rotation="90" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPipeBend" Rotation="270" Caption="" Margin="-1"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="TegCenter" Rotation="0" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPort" Rotation="180" Caption="" Margin="-1"/>
+  </Box>
+
+
+
+
+
+简单来说，冷却剂阵列由 3 个主要部分组成：输入连接端口、几台泵和太空中的换热器阵列。
+可以这样搭建：
+
+
+
+
+
+## 水冷器
+
+
+
+
+
+- 连接端口：用它输入高比热容的气体；大多数时候使用等离子体或 Frezon，因为它们都具有非常高的比热容（虽然几乎任何气体都可以）。（是的，等离子体 ≠ 热。你可以把它冷却，它是不错的换热介质。）
+- 输入/输出泵：用于确保气体持续流过循环器和散热器阵列。随着气体冷却和升温（以及流过换热器），必须施加压力才能让它持续流动。
+- 散热器：基本上就是太空中的一堆散热器。没什么好说的，除了它会冷却内部的气体。确保散热器[color=#a4885c]放在格构上，而不是地板上[/color]！否则，由于散热器下方没有直接暴露在太空中，换热效率会大大降低。
+
+
+
+
+
+大多数时候，你会看到这种方法用于高效的 TEG 配置。
+它基本上就是冷却剂阵列，只是把散热器换成了冷冻机。
+虽然冷冻机确实消耗电力，但这只是 TEG 发电量的一小部分，而且目前比默认的冷却剂阵列更好，所以尽管去用吧。
+  <Box>
+    <GuideEntityEmbed Entity="GasPort" Rotation="90" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPipeBend" Rotation="0" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasThermoMachineFreezerEnabled" Caption="" Rotation="0" Margin="0"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="GasPipeBend" Rotation="90" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasVolumePump" Rotation="270" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="180" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="180" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPipeBend" Rotation="0" Caption="" Margin="-1"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="GasPipeBend" Rotation="180" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPipeStraight" Rotation="90" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="TegCirculator" Rotation="90" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPipeStraight" Rotation="90" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPipeBend" Rotation="270" Caption="" Margin="-1"/>
+  </Box>
+
+
+
+
+
+按照冷却剂阵列的步骤，但用冷冻机代替换热器。如下：
+
+
+
+
+
+## 冷却剂阵列
+同样，在回路中使用等离子体或 Frezon 以获得最大效率（虽然几乎任何气体都可以）。
+
+
+
+
+
+请记住，大气学是一门科学，因此它总是在不断进化。
+上面的配置只是冰山一角；搭建 TEG 的方法有很多，改进上述配置的方法也有很多。
+[color=#a4885c]大胆实验！[/color]
+
+
+
+
+
+永远寻求改进你看到的设计，也永远寻求改进你做出的设计。
+TEG 是一件强大的工具，能力越大，责任越大。
+一定要明智地使用它，好好地使用它。
+
+空间站 14 的大气系统是一个复杂的系统，TEG 只是其中的一部分。
+[bold]它就像一个巨大的拼图，去解开它吧！[/bold]
+
+
+
+
+
+</Document>
+

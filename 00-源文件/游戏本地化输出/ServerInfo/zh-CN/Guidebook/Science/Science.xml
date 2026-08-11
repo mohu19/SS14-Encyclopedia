@@ -1,0 +1,107 @@
+<Document>
+# 科研部
+[color=#c96dbf]科研[/color]，常被称为研发部，是一个通过生成研究点数来解锁新科技，并利用这些科技在车床上生产新物品以帮助空间站的部门。
+
+
+
+
+
+## 人员
+[color=#c96dbf]科研[/color]部的员工由研究助理和科学家组成。[color=#c96dbf]科研[/color]部由研究主管领导。
+
+
+
+
+
+  <Box>
+   <GuideEntityEmbed Entity="ToyFigurineScientist" Caption="Scientist"/>
+   <GuideEntityEmbed Entity="ToyFigurineResearchDirector" Caption="RD"/>
+  </Box>
+
+
+
+
+
+## 科技
+  <Box>
+    <GuideEntityEmbed Entity="ComputerResearchAndDevelopment"/>
+    <GuideEntityEmbed Entity="ResearchAndDevelopmentServer"/>
+  </Box>
+部门内最重要的东西是研发服务器，它储存已解锁的科技，以及研发电脑，它可以让你解锁[color=#a4885c]科技[/color]。
+
+
+
+
+
+每项科技都花费[color=#a4885c]研究点数[/color]，并在车床上解锁配方。有些科技还有前置条件，必须先解锁这些前置科技才能研究它们。
+
+
+
+
+
+[textlink="Click here to see a list of technologies." link="Technologies"].
+
+
+
+
+
+## 学科
+点击这里查看科技列表。。
+  <Box>
+    <GuideEntityEmbed Entity="Wrench" Caption="Industrial"/>
+    <GuideEntityEmbed Entity="WeaponTetherGun" Caption="Experimental"/>
+    <GuideEntityEmbed Entity="ComputerTelevision" Caption="Civil Services"/>
+    <GuideEntityEmbed Entity="WeaponXrayCannon" Caption="Arsenal"/>
+  </Box>
+
+
+
+
+
+<GuideEntityEmbed Entity="ComputerResearchAndDevelopment"/> Use your nearest R&D console to take note of which kind of research is locked behind each Discipline tree.
+
+
+
+
+
+## 等级
+科技分布在 4 个不同的学科中：
+
+
+
+
+
+[EMBED] 使用你最近的研发控制台，记下每个学科树后面锁定的是哪种研究。
+
+
+
+
+
+每个学科树最多有 3 个等级的科技。刚开始，唯一开放且可供你研究的是 1 级。
+
+
+
+
+
+## 车床
+  <Box>
+    <GuideEntityEmbed Entity="Protolathe"/>
+    <GuideEntityEmbed Entity="CircuitImprinter"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="ExosuitFabricator"/>
+    <GuideEntityEmbed Entity="MedicalTechFab"/>
+    <GuideEntityEmbed Entity="SecurityTechFab"/>
+  </Box>
+为了进一步推进，你必须研究当前等级的 [color=brown]75%[/color] 才能进入下一等级。所以要解锁 2 级研究，你需要研究 1 级的 75%。
+
+现在[color=green]3 级[/color]才是真正有意思的地方。如果你研究了一项 3 级科技，你就会[color=brown]锁定[/color]其他学科树中的 3 级科技。除非你能找到其他办法绕过去……你或许应该问问你的[color=purple]研究主管[/color]。
+
+在车床上，你可以选择一个服务器，让它打印你已解锁的任何配方。配方需要各种材料（钢、玻璃、塑料、金、等离子体），可以从货运部或打捞部门获取。
+
+
+
+
+
+</Document>
+

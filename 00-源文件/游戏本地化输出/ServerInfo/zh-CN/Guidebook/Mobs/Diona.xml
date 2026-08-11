@@ -1,0 +1,69 @@
+<Document>
+# 狄奥娜
+
+
+
+
+
+  <Box>
+    <GuideEntityEmbed Entity="AppearanceDiona" Caption=""/>
+  </Box>
+
+
+
+
+
+他们不能穿鞋，但不会被葛藤（Kudzu）减速。
+他们饥饿和口渴的速度更慢。
+他们可以通过饮用某些水基饮料来恢复饥饿度。
+他们在受到 [color=lightgreen]125[/color] 点伤害时进入重伤状态。
+他们在受到 [color=red]250[/color] 点伤害时死亡。
+他们的"血液"是树液，无法从铁中代谢。
+作为植物，除草剂会让他们中毒，而强力丰收（Robust Harvest）能治疗他们（但过度使用并非没有风险！）
+
+
+
+
+
+他们受到的[color=#1e90ff]钝击伤害减少 30%，劈砍伤害减少 20%[/color]；
+但[color=#ffa500]受到的热伤害增加 50%，电击伤害增加 20%，而且只要从[italic]任何[/italic]来源受到足够的热伤害，他们就很容易着火，最多累积 5 层火焰。[/color]
+
+
+
+
+
+## 像树一样离开
+  <Box>
+    <GuideEntityEmbed Entity="FloraTree" Caption=""/>
+  </Box>
+暴露于过多的强力丰收会导致狄奥娜失控生长，变成一棵无法移动的树（掉落他们所有的装备）。
+砍倒这棵树会"恢复"狄奥娜的移动状态。
+
+
+
+
+
+## 狄奥娜若虫
+  <Box>
+    <GuideEntityEmbed Entity="MobDionaNymph" Caption=""/>
+    <GuideEntityEmbed Entity="MobDionaNymph" Caption=""/>
+    <GuideEntityEmbed Entity="MobDionaNymph" Caption=""/>
+  </Box>
+死亡后，狄奥娜可以自愿摧毁自己的身体，将"内脏"释放为三只若虫，
+玩家控制其中的脑若虫。
+它可以说话，但没有手或物品栏，也做不了太多事。
+
+
+
+
+
+5 分钟后，若虫可以重新变回一个完整的狄奥娜。这将是一个新的随机身体和随机名字，
+除了他们自己的话之外，几乎没有任何证据能证明他们以前是谁。
+
+
+
+
+
+
+</Document>
+

@@ -1,0 +1,45 @@
+<Document>
+# 管道
+管道用于把气体从一处输送到另一处。
+可以建造的管道种类繁多：
+
+
+
+
+
+  <Box>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption="straight"/>
+    <GuideEntityEmbed Entity="GasPipeHalf" Caption="half"/>
+    <GuideEntityEmbed Entity="GasPipeBend" Caption="bend"/>
+    <GuideEntityEmbed Entity="GasPipeTJunction" Caption="T junction"/>
+    <GuideEntityEmbed Entity="GasPipeFourway" Caption="fourway"/>
+  </Box>
+
+
+
+
+
+管道在锚定（或扳紧）到船体上时，会[color=#a4885c]自动连接[/color]到其他管道，形成管道网络。
+管道网络通常被称为管网。
+
+
+
+
+
+管道[color=red]不会连接[/color]到已经连接到另一根管道的管道。
+例如，在一根直管上面建造一根弯管来拼凑出一个临时的 T 形接头是行不通的。
+
+
+
+
+
+不过，只要一根管道不阻挡另一根管道与其他管道的连接，两根管道就可以共享一个格子。
+例如，两根弯管可以放在同一个格子上，一根把气体从北送到东，另一根把气体从西送到南。
+
+
+
+
+
+你可以用喷涂器给管道（以及大多数处理气体的设备）上色。
+这通常用来区分空间站输配管网中的供气（Distro）和废气（waste）部分。
+</Document>

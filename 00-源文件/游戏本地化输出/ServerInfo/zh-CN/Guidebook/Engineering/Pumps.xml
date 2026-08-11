@@ -1,0 +1,96 @@
+<Document>
+# 泵
+泵是主动推动气体穿过管网的主要方式。
+它们从一侧吸入气体，推到另一侧。
+泵有两种类型：
+
+
+
+
+
+  <Box>
+    <GuideEntityEmbed Entity="GasPressurePump" Caption="pressure pump"/>
+    <GuideEntityEmbed Entity="GasVolumePump" Caption="volumetric pump"/>
+  </Box>
+
+
+
+
+
+关于泵需要记住的一些重要事项：
+- 泵需要通过附近的低压电缆[color=#a4885c]供电[/color]才能工作。
+- 泵从带有红色条纹的一侧输出。
+- 气体不能通过泵反向流动（不过如果你只想用泵做反向这件事，应该改用被动单向阀）。
+- 泵无法把气体送入压力或体积超过其[color=#a4885c]上限[/color]的管道。这会导致泵[color=red]堵塞[/color]。
+
+
+
+
+
+泵在工作时会显示彩色的动画。
+如果没有气体可泵送或泵被堵塞，它会显示闪烁的[color=red]红色[/color]动画。
+关闭、没有供电或未锚定的泵不会显示动画。
+
+
+
+
+
+# 泵
+压力泵是最常见的泵类型。
+它们基于[color=#a4885c]压力[/color]移动气体，因此非常适合精确控制管道压力，或用于抽真空。
+
+
+
+
+
+  <Box>
+    <GuideEntityEmbed Entity="GasPressurePump" Caption="pressure pump"/>
+  </Box>
+
+
+
+
+
+压力泵[color=red]无法[/color]把气体送入压力高于或等于泵上设定压力的管道。
+
+
+
+
+
+例如，如果压力泵设定为 500 kPa，它就无法把气体泵送到当前压力为 500 kPa 的管道。
+
+
+
+
+
+压力泵最高可以泵送到 [color=orange][protodata="GasPressurePump" comp="GasPressurePump" member="MaxTargetPressure"/] kPa[/color] 的最大压力。
+如果它试图把气体推入压力高于此值的管道，就会[color=red]堵塞[/color]。
+
+
+
+
+
+## 压力泵
+体积泵是另一种泵，基于[color=#a4885c]体积[/color]移动气体。
+
+
+
+
+
+  <Box>
+    <GuideEntityEmbed Entity="GasVolumePump" Caption="volumetric pump"/>
+  </Box>
+
+
+
+
+
+它们对于快速移动大量气体极为有用。
+它们通常能达到比压力泵更高的压力。
+
+
+
+
+
+虽然体积泵的工作原理基于体积，但如果它们试图把气体推入压力高于 [color=orange][protodata="GasVolumePump" comp="GasVolumePump" member="HigherThreshold"/] kPa[/color] 的管道，就会[color=red]堵塞[/color]。
+</Document>

@@ -1,0 +1,71 @@
+<Document>
+# 警探
+
+
+
+
+
+<GuideEntityEmbed Entity="ToyFigurineDetective" Caption="Detective"/>
+
+
+
+
+
+- 1.
+
+
+
+
+
+
+<Box>
+	<GuideEntityEmbed Entity="ClothingHandsGlovesForensic"/>
+	<GuideEntityEmbed Entity="ForensicScanner"/>
+	<GuideEntityEmbed Entity="ForensicPad"/>
+</Box>
+<Box>
+	<GuideEntityEmbed Entity="Stunbaton"/>
+	<GuideEntityEmbed Entity="WeaponRevolverInspector"/>
+</Box>
+<Box>
+	<GuideEntityEmbed Entity="HoloprojectorSecurity"/>
+	<GuideEntityEmbed Entity="FlashlightSeclite"/>
+	<GuideEntityEmbed Entity="RadioHandheldSecurity"/>
+</Box>
+<Box>
+	<GuideEntityEmbed Entity="CombatKnife"/>
+标准 [color=#00a933]绿色代码[/color] 装备为：
+	<GuideEntityEmbed Entity="ClothingShoesBootsJack"/>
+</Box>
+
+
+
+
+
+置于
+</Document>
+
+- 2.
+
+警探在自身 SOP 未覆盖的情形下，继承警员的职责、权限与责任。
+- 3.
+
+警探负责犯罪现场的调查。
+- 4.
+
+警探负责在必要时对囚犯和被拘留者进行审讯。
+
+4.1
+
+审讯所花费的时间应从当事人的监禁时间中扣除。
+- 5.
+
+经安保主管批准，警探可以无视安保部 SOP §2 中的着装要求。
+
+5.1
+
+此例外仅允许用于卧底调查目的。
+
+5.2
+
+尽管如此，警探的真实 ID 必须始终随身携带。

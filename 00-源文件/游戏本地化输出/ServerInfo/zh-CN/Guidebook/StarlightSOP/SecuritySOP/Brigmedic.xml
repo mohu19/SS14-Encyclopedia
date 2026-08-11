@@ -1,0 +1,83 @@
+<Document>
+# 禁闭室医疗员
+
+
+
+
+
+<GuideEntityEmbed Entity="ToyFigurineSecurity" Caption="Brigmedic"/>
+
+
+
+
+
+- 1.
+
+
+
+
+
+<Box>
+	<GuideEntityEmbed Entity="MedkitAdvancedFilled"/>
+	<GuideEntityEmbed Entity="DefibrillatorBrigmedical"/>
+	<GuideEntityEmbed Entity="HandheldBrigmedicCrewMonitor"/>
+</Box>
+<Box>
+	<GuideEntityEmbed Entity="WeaponDisabler"/>
+	<GuideEntityEmbed Entity="Stunbaton"/>
+	<GuideEntityEmbed Entity="WeaponPistolMk58"/>
+</Box>
+<Box>
+	<GuideEntityEmbed Entity="FlashlightSeclite"/>
+	<GuideEntityEmbed Entity="RadioHandheldSecurity"/>
+</Box>
+<Box>
+	<GuideEntityEmbed Entity="CombatKnife"/>
+标准 [color=#00a933]绿色代码[/color] 装备为：
+	<GuideEntityEmbed Entity="ClothingShoesBootsJack"/>
+</Box>
+<Box>
+	<GuideEntityEmbed Entity="Handcuffs"/>
+	<GuideEntityEmbed Entity="Zipties"/>
+</Box>
+
+
+
+
+
+置于
+
+
+
+
+
+- 2.
+
+
+
+
+
+禁闭室医疗员不得履行警员的职责，但若其所在位置附近发生违规行为，可以介入。
+
+
+
+
+
+- 3.
+</Document>
+
+禁闭室医疗员有义务按重要性顺序向下列船员资产提供医疗援助：
+
+3.1 指挥层成员
+
+3.2 安保人员
+
+3.3 囚犯与被拘留者
+
+- 4.
+
+禁闭室医疗员没有义务向普通船员提供援助，但若有时间和资源，可以这么做。
+
+- 5.
+
+除非别无选择，禁闭室医疗员不得使自己置身险境。

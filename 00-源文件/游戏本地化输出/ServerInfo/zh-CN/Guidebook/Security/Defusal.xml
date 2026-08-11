@@ -1,0 +1,129 @@
+<Document>
+# 大型炸弹拆除
+那么，你发现了一枚大型炸弹，而且它正在哔哔作响。这种炸弹需要很长时间才会引爆，并会在船体上炸出一个大洞。继续往下读，就没人会被炸飞。
+
+
+
+
+
+# 大型炸弹拆除
+拆除炸弹需要两件必备工具，不过万用表在识别电线上极为有用。
+  <Box>
+    <GuideEntityEmbed Entity="Wirecutter"/>
+    <GuideEntityEmbed Entity="Screwdriver"/>
+    <GuideEntityEmbed Entity="Multitool"/>
+  </Box>
+
+
+
+
+
+防护装备方面，一件[color=yellow]防爆服[/color]或其他任何防护装备都能帮你不被炸成碎块。
+  <Box>
+    <GuideEntityEmbed Entity="ClothingHeadHelmetBombSuit"/>
+    <GuideEntityEmbed Entity="ClothingOuterSuitBomb"/>
+    <GuideEntityEmbed Entity="ClothingOuterHardsuitRd"/>
+    <GuideEntityEmbed Entity="ClothingOuterHardsuitAtmos"/>
+  </Box>
+
+
+
+
+
+## 工具
+下面列出的是你拆弹时会遇到的两种常见炸弹。训练炸弹只会对船体造成轻微损伤，通常不会炸死你。而辛迪加炸弹会在船体上炸出一个大洞，如果你没有穿戴防护装备，就会被炸成碎片。
+  <Box>
+    <GuideEntityEmbed Entity="SyndicateBomb"/>
+    <GuideEntityEmbed Entity="TrainingBomb"/>
+  </Box>
+
+
+
+
+
+## 炸弹类型
+要启动炸弹，你可以[color=yellow]右键[/color]点击并选择[color=yellow]开始倒计时[/click]，或按住 Alt 点击[/color]炸弹。炸弹随即开始哔哔作响。
+
+
+
+
+
+## 启动
+炸弹的引爆时间有限，最短为 [protodata="SyndicateBomb" comp="TimerTrigger" member="ShortestDelayOption"/] 秒，最长为 [protodata="SyndicateBomb" comp="TimerTrigger" member="LongestDelayOption"/] 秒。你可以通过检查炸弹查看计时器，除非“继续”电线已被剪断。计时器归零时，炸弹就会引爆。
+
+
+
+
+
+## 时间
+默认情况下，炸弹一旦启动就会用螺栓固定在地面上。你必须找到 BOLT 电线并剪断它来解除螺栓，之后才能拧下螺栓，把它扔进太空。
+
+
+
+
+
+## 螺栓
+要拆除炸弹，你必须打开其内部线路。你可以用[color=yellow]螺丝刀[/color]打开检修面板。里面有许多种电线。标准辛迪加炸弹内有大约 [color=yellow]10 根电线[/color]，其中 3 根是假线，[color=red]3 根会导致引爆[/color]，其余未提及的电线（以及 BOOM 线）列在下方。每根电线你都可以进行 3 种操作。你可以：
+- 用万用表[color=yellow]脉冲电线[/color]，这可以帮助你安全地识别大部分电线。
+- 用剪线钳[color=red]剪断电线[/color]，这会触发各种效果，切忌无缘无故剪线！
+- 用剪线钳[color=green]接回电线[/color]，如果炸弹不是一次性的，这可以恢复它的部分功能。
+
+
+
+
+
+接下来是电线种类。
+
+
+
+
+
+## 电线
+[color=#a4885c]激活电线（LIVE）[/color]
+- [color=yellow]脉冲电线[/color]：脉冲电线会让电线发出啁啾声，并将炸弹引爆时间推迟 30 秒。
+- [color=red]剪断电线[/color]：如果炸弹处于激活状态，剪断电线将拆除炸弹；否则，将开始倒计时。
+- [color=green]接回电线[/color]：无效果。
+
+
+
+
+
+[color=#a4885c]继续电线（PRCD）[/color]
+- [color=yellow]脉冲电线[/color]：脉冲电线会将引爆时间提前 15 秒。
+- [color=red]剪断电线[/color]：剪断电线后，检查时不再显示计时器。
+- [color=green]接回电线[/color]：无效果。
+
+
+
+
+
+[color=#a4885c]延迟电线（DLAY）[/color]
+- [color=yellow]脉冲电线[/color]：脉冲延迟电线会将炸弹引爆时间推迟 30 秒。
+- [color=red]剪断电线[/color]：无效果。
+- [color=green]接回电线[/color]：无效果。
+
+
+
+
+
+[color=#a4885c]引爆电线（BOOM）[/color]
+- [color=yellow]脉冲电线[/color]：[color=red]如果炸弹已启动，它会立即爆炸！[/color]
+- [color=red]剪断电线[/color]：[color=red]如果炸弹已启动，它会立即爆炸！[/color]否则，会禁用炸弹。
+- [color=green]接回电线[/color]：如果炸弹之前被禁用，会重新启用它。
+
+
+
+
+
+[color=#a4885c]螺栓电线（BOLT）[/color]
+- [color=yellow]脉冲电线[/color]：脉冲电线会让螺栓旋转。
+- [color=red]剪断电线[/color]：剪断电线将解除螺栓，把它扔进太空！
+- [color=green]接回电线[/color]：接回电线会重新启用螺栓。
+
+
+
+
+
+[color=#a4885c]假线（Dummy Wire）[/color]
+- 假线不会产生任何效果。你可以随意脉冲、剪断或接回它们，完全不会影响炸弹。
+</Document>

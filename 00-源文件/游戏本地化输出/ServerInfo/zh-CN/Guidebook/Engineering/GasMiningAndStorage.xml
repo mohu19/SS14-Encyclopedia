@@ -1,0 +1,114 @@
+<Document>
+# 气体开采与储存
+气体往往是永久消耗品。无论是流失到太空中，还是在燃烧室中被用掉，空间站都需要能够生产更多气体来补充损失。
+空间站还需要以安全高效的方式储存这些气体。
+
+
+
+
+
+## 气体采矿机
+气体采矿机用于补充空间站的气体供应。它们位于大气部的气体储罐中。
+
+
+
+
+
+  <Box>
+    <GuideEntityEmbed Entity="GasMinerOxygenStation"/>
+    <GuideEntityEmbed Entity="GasMinerNitrogenStation"/>
+  </Box>
+
+
+
+
+
+气体采矿机不断生产室温气体并将其推入暴露的大气中。它们运行不需要电力，除非达到设定的[bold]截止压力[/bold]，否则永远不会停止工作。
+
+
+
+
+
+你可以使用 [color=yellow][bold][keybind="ExamineEntity"][/bold][/color] 检查气体采矿机以了解更多信息。
+试试检查上面展示的气体采矿机。
+
+
+
+
+
+气体采矿机分为多个等级，较大的版本比小版本具有更高的截止压力。
+
+
+
+
+
+  <Box>
+    <GuideEntityEmbed Entity="GasMinerNitrogen" Caption="300 kPa"/>
+    <GuideEntityEmbed Entity="GasMinerNitrogenStation" Caption="1000 kPa"/>
+    <GuideEntityEmbed Entity="GasMinerNitrogenStationLarge" Caption="4500 kPa"/>
+  </Box>
+
+
+
+
+
+如果气体采矿机从空间站上被解除锚定，可以使用普通扳手重新锚定。
+
+
+
+
+
+## 气体储存
+气体储罐用于储存气体采矿机生产的气体，并使其可供其他流程使用。它们位于大气部。
+
+
+
+
+
+  <Box>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="ReinforcedPlasmaWindow" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="GasOutletInjector" Rotation="270" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="GasMinerOxygenStation" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="GasPassiveVent" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+  </Box>
+
+
+
+
+
+<Box>
+[color=#999999]小型气体储罐示例[/color]
+  </Box>
+
+
+
+
+
+各种大气流程会从气体储罐中注入和取出气体。
+例如：
+- 如果有空间，气体采矿机会向气体储罐提供新鲜气体。
+- 回收管网将回收的气体注入气体储罐以供再利用。
+- 分配管网和燃烧室等设施会从气体储罐中取出气体。
+
+
+
+
+
+气体储罐设计为可以使用气体分析仪进行测量。
+由于出口管是被动排气口，你可以使用气体分析仪测量泵输入端的气体含量，泵的输入端从气体储罐抽取气体。
+</Document>

@@ -1,0 +1,118 @@
+<Document>
+# 发电机
+发电机是为空间站生产电力的设备。它们的尺寸和功率输出各不相同，每台都有自己独特的特性和要求。
+
+
+
+
+
+工程部的预期玩法是在班次开始时搭建低等级发电机，如太阳能阵列和 AME，以便有足够时间搭建奇点引擎等高等级发电机，为接下来的班次提供持续电力。
+
+
+
+
+
+<Box>
+    <GuideEntityEmbed Entity="SingularityGenerator" Caption=""/>
+    <GuideEntityEmbed Entity="TeslaGenerator" Caption=""/>
+  </Box>
+  <Box>
+## 奇点引擎与特斯拉引擎
+  </Box>
+  <Box>
+[color=#999999]能够产生无限能量——同时也具备毁灭性潜力的设备[/color]
+  </Box>
+
+
+
+
+
+<Box>
+	  <GuideEntityEmbed Entity="NuclearReactorNormal" Caption="" Scale="1.5"/>
+	  <GuideEntityEmbed Entity="GasTurbineNormal" Caption="" Scale="1.5"/>
+  </Box>
+  <Box>
+## 核发电机
+  </Box>
+  <Box>
+[color=#999999]利用核裂变的力量为空间站供电。[/color]
+  </Box>
+
+
+
+
+
+<Box>
+    <GuideEntityEmbed Entity="AmeController" Caption=""/>
+    <GuideEntityEmbed Entity="AmePartFlatpack" Caption=""/>
+  </Box>
+  <Box>
+## 反物质引擎
+  </Box>
+  <Box>
+[color=#999999]空间站短期支援发电机[/color]
+  </Box>
+
+
+
+
+
+<Box>
+    <GuideEntityEmbed Entity="TegCirculator" Rotation="180" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="TegCenter" Rotation="90" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="TegCirculator" Caption="" Margin="0"/>
+  </Box>
+  <Box>
+## 热电发电机
+  </Box>
+  <Box>
+[color=#999999]利用气体能量的先进大气发电机[/color]
+  </Box>
+
+
+
+
+
+<Box>
+    <GuideEntityEmbed Entity="SolarPanel" Caption=""/>
+    <GuideEntityEmbed Entity="SolarPanel" Caption=""/>
+    <GuideEntityEmbed Entity="SolarPanel" Caption=""/>
+  </Box>
+  <Box>
+## 太阳能板
+  </Box>
+  <Box>
+[color=#999999]低维护被动电源[/color]
+  </Box>
+
+
+
+
+
+
+<Box>
+    <GuideEntityEmbed Entity="PortableGeneratorJrPacman" Caption="" />
+    <GuideEntityEmbed Entity="PortableGeneratorPacman" Caption="" />
+    <GuideEntityEmbed Entity="PortableGeneratorSuperPacman" Caption="" />
+  </Box>
+  <Box>
+## 便携式发电机
+  </Box>
+  <Box>
+[color=#999999]供船员使用与应急供电的便携式发电机[/color]
+  </Box>
+
+
+
+
+
+<Box>
+    <GuideEntityEmbed Entity="GeneratorRTG" Caption="" />
+  </Box>
+  <Box>
+## 放射性同位素热电发电机
+  </Box>
+  <Box>
+[color=#999999]零维护被动电源[/color]
+  </Box>
+</Document>

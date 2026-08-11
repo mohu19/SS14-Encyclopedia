@@ -1,0 +1,87 @@
+<Document>
+# 值班干员
+
+
+
+
+
+<GuideEntityEmbed Entity="ToyFigurineSecurity" Caption="Duty Officer"/>
+
+
+
+
+
+- 1.
+
+
+
+
+
+<Box>
+	<GuideEntityEmbed Entity="Stunbaton"/>
+	<GuideEntityEmbed Entity="WeaponDisabler"/>
+</Box>
+<Box>
+	<GuideEntityEmbed Entity="HoloprojectorSecurity"/>
+	<GuideEntityEmbed Entity="FlashlightSeclite"/>
+	<GuideEntityEmbed Entity="RadioHandheldSecurity"/>
+</Box>
+<Box>
+    <GuideEntityEmbed Entity="GrenadeFlashBang"/>
+	<GuideEntityEmbed Entity="TearGasGrenade"/>
+</Box>
+<Box>
+    <GuideEntityEmbed Entity="Handcuffs"/>
+	<GuideEntityEmbed Entity="Zipties"/>
+</Box>
+
+
+
+
+
+标准[color=#00a933]绿色警戒[/color]装备为：
+
+- 2.
+
+在绿色警戒下，如果需要在禁闭室平息骚乱，值班干员可以使用和穿戴防暴装备与武器。
+- 3.
+
+值班干员的职责是协助典狱长完成其所有职责，并直接向其汇报。在没有典狱长命令的情况下，其主要职责按重要性排序为：
+
+3.1
+
+协助平息禁闭室内的骚乱。
+
+3.2
+
+协助确保禁闭室以及整个部门的安全。
+
+3.3
+
+协助维护犯罪记录系统。
+
+3.4
+
+关注囚犯和被拘留者的福祉与健康。
+
+3.5
+
+在安保部门内部利用犯罪记录系统和船员监视系统协助外勤干员。
+- 4.
+
+值班干员获准将已判刑的罪犯关押在禁闭室，最长 [bold]15 分钟[/bold]。
+
+4.1
+
+判决必须向典狱长或安保主管大声宣读方为有效。如果通过无线电进行，必须收到可听见的确认。
+
+4.2
+
+值班干员尤其有义务确保这些判决得到妥善归档。
+
+
+
+
+
+</Document>
+

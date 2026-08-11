@@ -1,0 +1,83 @@
+<Document>
+# 大气系统
+大气部门拥有各种各样的设备，用于移动、管理以及以其他方式操控气体。
+这些设备经常协同工作，为乘员维持安全、可供呼吸的大气，或完成共同的任务。
+
+
+
+
+
+本节深入介绍大气部门可用的各种系统、它们如何相互连接，以及理想的使用方式。
+
+
+
+
+
+
+<Box>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption=""/>
+    <GuideEntityEmbed Entity="GasPipeHalf" Caption=""/>
+    <GuideEntityEmbed Entity="GasPipeBend" Caption=""/>
+    <GuideEntityEmbed Entity="GasPipeTJunction" Caption=""/>
+    <GuideEntityEmbed Entity="GasPipeFourway" Caption=""/>
+    <GuideEntityEmbed Entity="GasPressurePump" Caption=""/>
+    <GuideEntityEmbed Entity="GasVolumePump" Caption=""/>
+  </Box>
+  <Box>
+# 大气系统
+  </Box>
+  <Box>
+[color=#999999]具有共同任务的相互连接的管道——通常称为管网（Pipenets）[/color]
+  </Box>
+
+
+
+
+
+<Box>
+    <GuideEntityEmbed Entity="ComputerAlert" Caption=""/>
+    <GuideEntityEmbed Entity="AirAlarm" Caption=""/>
+  </Box>
+  <Box>
+## 管网
+  </Box>
+  <Box>
+[color=#999999]监控和控制管理局部大气环境的设备[/color]
+  </Box>
+
+
+
+
+
+<Box>
+    <GuideEntityEmbed Entity="Firelock" Caption=""/>
+    <GuideEntityEmbed Entity="FireAlarm" Caption=""/>
+  </Box>
+  <Box>
+## 设备监控与控制
+  </Box>
+  <Box>
+[color=#999999]控制和防止气体泄漏与火灾的设备[/color]
+  </Box>
+
+
+
+
+
+<Box>
+    <GuideEntityEmbed Entity="GasMinerOxygenStation" Caption=""/>
+    <GuideEntityEmbed Entity="AirCanister" Caption=""/>
+  </Box>
+  <Box>
+## 火灾与气体控制
+  </Box>
+  <Box>
+[color=#999999]开采供空间站使用的新气体，并将其储存起来以备后用[/color]
+  </Box>
+
+
+
+
+
+</Document>
+

@@ -1,0 +1,141 @@
+<Document>
+
+
+
+
+
+# 食物配方
+
+
+
+
+
+这是纳米传讯(NanoTrasen)中央指挥部厨房烹饪研究所（Kitchen de Cuisine）最新发布的配方集，供纳米传讯舰船上的厨师们烹制之用。
+
+
+
+
+
+# 微波炉食谱
+<GuideMicrowaveGroupEmbed Group="Pizza"/>
+
+
+
+
+
+## 比萨饼
+<GuideMicrowaveGroupEmbed Group="Savory"/>
+
+
+
+
+
+## 咸味烹饪
+<GuideMicrowaveGroupEmbed Group="Breads"/>
+
+
+
+
+
+## 面包
+<GuideMicrowaveGroupEmbed Group="Breakfast"/>
+
+
+
+
+
+## 早餐食品
+<GuideMicrowaveGroupEmbed Group="Moth"/>
+
+
+
+
+
+## 蛾人食品
+<GuideMicrowaveGroupEmbed Group="Pasta"/>
+
+
+
+
+
+## 意面与面条
+<GuideMicrowaveGroupEmbed Group="Dessert"/>
+
+
+
+
+
+## 糕点与甜点
+<GuideMicrowaveGroupEmbed Group="Soup"/>
+
+
+
+
+
+## 汤与炖菜
+<GuideMicrowaveGroupEmbed Group="Pie"/>
+
+
+
+
+
+## 派与挞
+<GuideMicrowaveGroupEmbed Group="BarsAndCookies"/>
+
+
+
+
+
+## 能量棒与饼干
+<GuideMicrowaveGroupEmbed Group="Cake"/>
+
+
+
+
+
+## 蛋糕
+<GuideMicrowaveGroupEmbed Group="Salad"/>
+
+
+
+
+
+<!-- Starlight start -->
+## 沙拉
+<GuideDeepFryerGroupEmbed Group="TP14-Deep-Fry"/>
+
+
+
+
+
+## 油炸食品
+<GuideMicrowaveGroupEmbed Group="IceCream"/>
+<!-- Starlight end -->
+
+
+
+
+
+## 冰淇淋
+<GuideMicrowaveGroupEmbed Group="Medicinal"/>
+
+
+
+
+
+## 药膳
+<GuideMicrowaveGroupEmbed Group="Other"/>
+
+
+
+
+
+## 其他
+<GuideMicrowaveGroupEmbed Group="Secret"/>
+
+
+
+
+
+</Document>
+

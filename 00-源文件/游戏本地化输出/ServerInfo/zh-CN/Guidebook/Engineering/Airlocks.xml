@@ -1,0 +1,247 @@
+<Document>
+# 气闸门
+气闸门用于控制空间站不同区域的进出权限。
+
+
+
+
+
+  <Box>
+    <GuideEntityEmbed Entity="Airlock" Caption=""/>
+    <GuideEntityEmbed Entity="AirlockGlass" Caption=""/>
+  </Box>
+
+
+
+
+
+气闸门可以用空手按 [color=yellow][bold][keybind="Use"][/bold][/color]、在双手占满时按 [color=yellow][bold][keybind="ActivateItemInWorld"][/bold][/color]，或者直接撞上气闸门来打开。
+
+
+
+
+
+气闸门只会在你持有访问级别正确的 ID 卡时打开。
+ID 卡必须拿在手里或放在你的 ID 槽中。
+如果你有多张 ID 卡，尝试开门时气闸门会逐一检查它们。
+PDA 中的 ID 卡也遵循同样的行为。
+
+
+
+
+
+打开门所需的访问级别可以用访问配置器修改，或者用万用表对气闸门的门电子元件（需要先拆解）操作来修改。
+
+
+
+
+
+  <Box>
+    <GuideEntityEmbed Entity="AccessConfigurator" Caption=""/>
+    <GuideEntityEmbed Entity="Multitool" Caption=""/>
+    <GuideEntityEmbed Entity="DoorElectronics" Caption=""/>
+  </Box>
+
+
+
+
+
+气闸门会阻断气体流动，因此可以用来在发生船体破损或火灾时封闭区域。
+即使关闭时，气闸门也会在自己的格子上储存气体，所以在气体泄漏期间或之后开门时要小心。
+
+
+
+
+
+# 气闸门
+气闸门可以被闩上，防止被打开或被徒手撬开。发生这种情况时，气闸门顶部会亮起红灯。
+
+
+
+
+
+气闸门也可以设置为紧急通行模式。在这种模式下，任何人都可以打开气闸门，无论访问级别如何。发生这种情况时，气闸门顶部会闪烁黄灯。
+
+
+
+
+
+## 门闩与紧急通行
+气闸门可以被远程控制，要么由空间站 AI 控制，要么使用门遥控器控制。
+  <Box>
+    <GuideEntityEmbed Entity="PlayerStationAiEmpty" Caption=""/>
+  </Box>
+  <Box>
+  </Box>
+
+
+
+
+
+<Box>
+    <GuideEntityEmbed Entity="DoorRemoteEngineering" Caption=""/>
+    <GuideEntityEmbed Entity="DoorRemoteCommand" Caption=""/>
+    <GuideEntityEmbed Entity="DoorRemoteMedical" Caption=""/>
+    <GuideEntityEmbed Entity="DoorRemoteService" Caption=""/>
+    <GuideEntityEmbed Entity="DoorRemoteSecurity" Caption=""/>
+    <GuideEntityEmbed Entity="DoorRemoteResearch" Caption=""/>
+  </Box>
+  <Box>
+[color=#999999]空间站 AI，对全部气闸门拥有远程控制权[/color]
+  </Box>
+
+
+
+
+
+
+[color=#999999]珍贵的门遥控器。拥有无限的力量……[/color]
+
+
+
+
+
+各部门主管通常会拿到各自部门的门遥控器。
+
+
+
+
+
+## 远程控制
+他们可以用这些遥控器开门、关门、上闩和设置紧急通行。
+
+
+
+
+
+## 链接
+气闸门可以通过链接系统与其他设备链接。
+这可以用来制作通往太空的正式空间站气闸，或者把多扇气闸门链接在一起。
+
+
+
+
+
+  <Box>
+    <GuideEntityEmbed Entity="Airlock" Caption=""/>
+    <GuideEntityEmbed Entity="AirlockCargo" Caption=""/>
+    <GuideEntityEmbed Entity="AirlockCommand" Caption=""/>
+    <GuideEntityEmbed Entity="AirlockEngineering" Caption=""/>
+    <GuideEntityEmbed Entity="AirlockMedical" Caption=""/>
+    <GuideEntityEmbed Entity="AirlockScience" Caption=""/>
+    <GuideEntityEmbed Entity="AirlockSecurity" Caption=""/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="AirlockGlass" Caption=""/>
+    <GuideEntityEmbed Entity="AirlockCargoGlass" Caption=""/>
+    <GuideEntityEmbed Entity="AirlockCommandGlass" Caption=""/>
+    <GuideEntityEmbed Entity="AirlockEngineeringGlass" Caption=""/>
+    <GuideEntityEmbed Entity="AirlockMedicalGlass" Caption=""/>
+    <GuideEntityEmbed Entity="AirlockScienceGlass" Caption=""/>
+    <GuideEntityEmbed Entity="AirlockSecurityGlass" Caption=""/>
+  </Box>
+
+
+
+
+
+气闸门可以有不同样式来匹配空间站各部门。部门样式通常反映了所需的访问级别。
+  <Box>
+    <GuideEntityEmbed Entity="SprayPainter" Caption=""/>
+  </Box>
+
+
+
+
+
+## 外观样式
+气闸门可以用喷涂器重新喷漆。
+
+
+
+
+
+气闸门的维护面板下有内部接线，可以用螺丝刀打开。
+每条线都控制气闸门功能的某个方面。
+当你脉冲、剪断或接合某条线时，会对气闸门产生不同的影响。
+
+
+
+
+
+线旁边的指示灯会显示线的状态：
+- 常亮灯表示系统运行正常。
+- 闪烁灯表示系统发生故障。它要么不工作，要么行为不符合预期。
+- 无灯表示系统未通电。
+
+
+
+
+
+下面是各条线及其功能列表：
+
+
+
+
+
+[color=#a4885c]门闩线 (BOLT)[/color]
+- [color=yellow]脉冲该线[/color]：给门上闩或开闩。
+- [color=red]剪断该线[/color]：给门上闩。
+- [color=green]接合该线[/color]：无效果。
+
+
+
+
+
+[color=#a4885c]电源线 (POWR)[/color]
+- [color=yellow]脉冲该线[/color]：短暂切断门的电源。
+- [color=red]剪断该线[/color]：如果两根电源线都被剪断，则切断门的电源；如果只剪断一根，则会造成短路，电击没有绝缘手套的人。
+- [color=green]接合该线[/color]：如果两根电源线都被剪断，则恢复门的电源；如果只剪断一根，则停止短路。
+
+
+
+
+
+[color=#a4885c]日志线 (LOG)[/color]
+- [color=yellow]脉冲该线[/color]：暂时禁用门的日志记录。
+- [color=red]剪断该线[/color]：禁用门的日志记录。
+- [color=green]接合该线[/color]：重新启用门的日志记录。
+
+
+
+
+
+[color=#a4885c]门闩指示灯 (BLIT)[/color]
+- [color=yellow]脉冲该线[/color]：暂时关闭该系统，或将其重新开启。
+- [color=red]剪断该线[/color]：阻止门闩指示灯亮起——该灯用于显示门是否已上闩。
+- [color=green]接合该线[/color]：将系统重新开启。
+
+
+
+
+
+[color=#a4885c]计时器指示灯 (TIMR)[/color]
+- [color=yellow]脉冲该线[/color]：暂时缩短门的计时器。
+- [color=red]剪断该线[/color]：禁用计时器。门将在安全时立即关闭。
+- [color=green]接合该线[/color]：重新启用计时器。
+
+
+
+
+
+[color=#a4885c]安全指示灯 (SAFE)[/color]
+- [color=yellow]脉冲该线[/color]：暂时禁用安全系统。
+- [color=red]剪断该线[/color]：禁用安全系统。即使存在障碍物，门也会关闭。
+- [color=green]接合该线[/color]：重新启用安全系统。
+
+[color=#a4885c]AI 访问指示灯 (AIA)[/color]
+- [color=yellow]脉冲该线[/color]：无效果。
+- [color=red]剪断该线[/color]：禁用 AI 访问权限。AI 将无法再控制这扇门。
+- [color=green]接合该线[/color]：重新启用 AI 访问权限。
+
+
+
+
+
+</Document>
+

@@ -1,0 +1,56 @@
+<Document>
+# 建造
+
+
+
+
+
+  <Box>
+    <GuideEntityEmbed Entity="Bed" Caption=""/>
+    <GuideEntityEmbed Entity="TableReinforced" Caption=""/>
+    <GuideEntityEmbed Entity="WeaponImprovisedPneumaticCannon" Caption=""/>
+    <GuideEntityEmbed Entity="Chair" Caption=""/>
+  </Box>
+
+
+
+
+
+
+建造菜单是你在游戏中建造和制作物品的方式。
+按下 [color=yellow][bold][keybind="OpenCraftingMenu"][/bold][/color] 即可打开它。
+
+
+
+
+
+放置会"吸附"到网格上的物体时，可以按住 [color=yellow][bold][keybind="EditorLinePlace"][/bold][/color] 一次放置一整行，按住 [color=yellow][bold][keybind="EditorGridPlace"][/bold][/color] 一次放置一整片网格。
+
+
+
+
+
+制作需要大量材料的物品时，请记住你不必把材料全部拿在手上；你可以直接把材料放在地板上、背包里或身边的桌子上，制作过程中它们会像平时一样被消耗掉。
+
+
+
+
+
+在世界上某处放置"建造幽灵"时，按 [color=yellow][bold][keybind="EditorRotateObject"][/bold][/color] 可以顺时针旋转幽灵。
+如果你要建造的是可镜像的部件（比如：气体混合器/过滤器），可以按 [color=yellow][bold][keybind="EditorFlipObject"][/bold][/color] 翻转幽灵。
+
+
+
+
+
+你也可以用 [color=yellow][bold][keybind="RotateObjectClockwise"][/bold][/color] 和 [color=yellow][bold][keybind="RotateObjectCounterclockwise"][/bold][/color] 来顺时针或逆时针旋转已经建好的物体，只要它处于未锚定（未扳紧）状态即可。
+
+
+
+
+
+
+
+
+</Document>
+

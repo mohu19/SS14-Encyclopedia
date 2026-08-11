@@ -1,0 +1,1119 @@
+<Document>
+# 罪名表
+罪名代码按关联罪行组着色，关联罪行组是一组不可叠加的罪行。快速罪行指南中还附有后缀，用于识别关联罪行。
+
+
+
+
+
+# 公司法：罪名表
+  <Table Columns="6">
+    <ColorBox>
+      <Box>
+1-XX - 轻微
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#593a4e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#593a4e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#593a4e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#593a4e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#2f3832">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#2f3832">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#2f3832">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#2e422e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#2e422e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#2e422e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+        <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#2e422e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#453a59">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#453a59">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#453a59">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#453a59">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#59563a">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#59563a">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#4d2e2e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#4d2e2e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#4d2e2e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#4d2e2e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#4d2e2e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#4d2e2e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#4d2e2e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#4d2e2e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#3b4354">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#3b4354">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#3b4354">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#4d2e2e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#475c7d">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#475c7d">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#475c7d">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#475c7d">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+  </Table>
+
+
+
+
+
+## 快速罪行指南
+2-XX - 中等
+
+
+
+
+
+3-XX - 重大
+
+
+
+
+
+4-XX - 极端
+
+
+
+
+
+5-XX - 极刑
+
+
+
+
+
+代码
+
+
+
+
+
+拒不服从 (1)
+
+
+
+
+
+抗拒逮捕 (1)
+
+
+
+
+
+逃脱羁押 (1)
+
+
+
+
+
+拒绝心智护盾 (1)
+
+
+
+
+
+## 关联罪行：
+00
+  <Table Columns="2">
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#2f3832">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#2f3832">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#2e422e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#2e422e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#453a59">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#453a59">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#59563a">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#59563a">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#3b4354">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#3b4354">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+  </Table>
+
+
+
+
+
+## 轻微罪行
+持有或使用轻微违禁品 (2)
+  <Table Columns="2">
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#593a4e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#593a4e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#2f3832">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#2f3832">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#453a59">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#453a59">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#453a59">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#453a59">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#4d2e2e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#4d2e2e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#4d2e2e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#4d2e2e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#3b4354">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#3b4354">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+  </Table>
+
+
+
+
+
+## 中等罪行
+持有：重大 (2)
+  <Table Columns="2">
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#475c7d">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#475c7d">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#2e422e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#2e422e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#475c7d">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#475c7d">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#593a4e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#593a4e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#2e422e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#2e422e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#2e422e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#59563a">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#59563a">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#4d2e2e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#4d2e2e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#4d2e2e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#4d2e2e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#3b4354">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#3b4354">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+  </Table>
+
+
+
+
+
+## 重大罪行
+持有：重大辛迪加 (2)
+  <Table Columns="2">
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#593a4e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#2f3832">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#2f3832">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#2e422e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#2e422e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#2e422e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#4d2e2e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#4d2e2e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#4d2e2e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#4d2e2e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#475c7d">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#475c7d">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+  </Table>
+
+
+
+
+
+## 极端罪行
+01
+  <Table Columns="2">
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#593a4e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#593a4e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#2e422e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#2e422e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#4d2e2e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#4d2e2e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#4d2e2e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#4d2e2e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#4d2e2e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#4d2e2e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+  </Table>
+</Document>
+
+轻微盗窃 (3)
+
+重大盗窃 (3)
+
+扰乱企业 (3)
+
+02
+
+篡改机器 (4)
+
+持械抢劫 (3)
+
+03
+
+故意破坏 (4)
+
+财产损害 (4)
+
+财产损毁 (4)
+
+大规模破坏 (4)
+
+恐怖主义 (4)
+
+04
+
+非法闯入 (5)
+
+闯入安全区域 (5)
+
+05
+
+轻微袭击 (6)
+
+严重袭击 (6)
+
+谋杀未遂 (6)
+
+阻止复活 (6)
+
+06
+
+危及安全 (6)
+
+过失杀人 (6)
+
+谋杀 (6)
+
+大规模谋杀 (6)
+
+07
+
+扰乱秩序 (7)
+
+义警行为 (7)
+
+暴动 (7)
+
+非法拘留
+
+非法处决 (6)
+
+08
+
+冒充与欺诈
+
+贿赂
+
+伪造
+
+09
+
+虐待动物
+
+伪证
+
+食人
+
+10
+
+煽动叛乱 (8)
+
+11
+
+共谋 (8)
+
+叛国 (8)
+
+12
+
+关联罪行不能合并起诉。更多信息请参阅量刑。
+
+1. 拒不服从、抗拒逮捕、逃脱羁押、拒绝心智护盾
+
+2. 持有或使用轻微违禁品、重大违禁品或重大辛迪加违禁品
+
+3. 轻微盗窃、重大盗窃和持械抢劫
+
+4. 故意破坏、篡改机器、财产损害、财产损毁、大规模破坏、恐怖主义
+
+5. 非法闯入、闯入安全区域
+
+6. 危及安全、轻微袭击、严重袭击、过失杀人、谋杀未遂、谋杀、阻止复活、大规模谋杀、非法处决
+
+7. 扰乱秩序、义警行为、暴动
+
+8. 煽动叛乱、共谋、叛国
+
+犯下轻微罪行的人首次犯罪应受到警告，但重复犯罪会累积，每犯一项轻微罪行应处以最高 5 分钟的监禁。
+
+罪名
+
+描述
+
+虐待动物
+
+以恶意故意对非智慧生物造成不必要的痛苦或伤害。这不包括合法且授权的动物实验，或为获取肉类而屠宰牲畜。也不适用于害虫或敌对生物。
+
+持有或使用轻微违禁品
+
+未经授权制造、持有或使用轻微违禁品。授权只能由典狱长、安保主管或船长授予。
+
+轻微盗窃
+
+未经同意拿走他人、组织或公共的非关键或廉价财产。盗窃安全或医疗设备，如呼吸面罩、气罐或必要的行动辅助器具，被视为关键物品，超出轻微盗窃范畴。
+
+故意破坏
+
+故意污损或表面损坏公共或私人财产。示例包括涂鸦、砸碎玻璃或窗户、过度乱扔垃圾以及过度制造泼洒。持有适当许可的艺术品或建筑工程不属于故意破坏。
+
+非法闯入
+
+非法闯入——未经许可进入非安全区域，例如翻过柜台进入酒吧或厨房等员工区域。
+
+扰乱秩序
+
+造成公共秩序混乱。这是对过度令人讨厌行为的兜底罪名，包括公共裸露、骚扰、煽动犯罪、反复故意误称他人性别，以及干扰当局或通讯。
+
+冒充与欺诈
+
+冒充他人身份，或以任何方式试图实施欺诈。如果作案者冒充安保部门成员，冒充罪可升级为中等罪行；如果冒充指挥部或中央指挥部成员，则升级为重大罪行。
+
+犯下中等罪行的人每犯一项中等罪行应处以最高 5 分钟的刑期。
+
+罪名
+
+描述
+
+拒不服从
+
+抗拒当局下达的合理命令。这包括合法拘留和授权搜查。警员在诉诸逮捕前必须警告当事人。
+
+持有/使用重大违禁品
+
+未经授权制造、持有或使用重大违禁品。授权只能由典狱长、安保主管或船长授予。任何仅限于某个部门或职务使用的物品均被视为重大违禁品。
+
+篡改机器
+
+篡改机器，例如剪断电线或修改其功能。包括但不限于：控制台、气闸和硅基生命体。
+
+财产损害
+
+恶意损坏或污损公共或私人财产或设备。这包括设备贩卖机、饮料机、计算机以及车床等机械。
+
+危及安全
+
+通过直接行动或未能行动，鲁莽地将自己或他人置于危险之中。这包括疏忽、事故、医疗事故、破坏或损害消防门和外部窗户等安全设施，以及鲁莽驾驶穿梭机。
+
+轻微袭击
+
+在无武器且未造成严重伤害的情况下袭击他人。严重伤害定义为任何改变生活的伤害，如肢体缺失、眼耳损伤，或由健康分析仪测得总伤害超过 30 的任何其他伤害。
+
+贿赂
+
+以任何报酬（包括但不限于：服务、人情、斯佩索、信用点、物资或任何物品）试图或成功贿赂官员玩忽职守或实施犯罪。这也适用于任何被抓到收受贿赂的人，并与他们被贿赂去犯的罪行累积计算。
+
+义警行为
+
+在未被赋予权力的情况下试图非法执行公司法。参见：执法。
+
+犯下重大罪行的人每犯一项重大罪行应处以最高 10 分钟的监禁。严重袭击和过失杀人是关联罪行，不能对同一嫌疑人叠加。
+
+罪名
+
+描述
+
+共谋
+
+共谋或策划实施中等或重大罪行，并有合理证据表明嫌疑人打算实施该计划。这包括宣称自己将实施犯罪。
+
+持械抢劫
+
+以暴力威胁并使用任何可被视为武器的物品（无论该武器是否为违禁品）进行盗窃。这可以包括刀具、工具箱、撬棍或任何其他临时武器。必须存在积极的暴力威胁，或受害者不配合即会施暴的暗示，才能构成持械抢劫。
+
+煽动叛乱
+
+煽动反抗空间站当局，包括但不限于：指挥部、安保部门、中央指挥部或纳米传讯。
+
+伪证
+
+在宣誓下故意撒谎，或在书面文件中作出虚假陈述。
+
+伪造
+
+通过非法手段伪造书面文件，例如重写已盖章的文件、未经授权使用官方印章，或任何其他手段。
+
+抗拒逮捕
+
+故意抗拒并逃避授权人员的逮捕或拘留。这仅适用于某人正被实际物理逮捕的情况。为他人解开手铐或协助他人逃脱逮捕也可被控此罪。逃脱羁押是单独的罪行。
+
+重大盗窃
+
+未经同意拿走他人或组织的关键或不可替代财产。这包括指挥物品，如门禁遥控器、硬质太空服、机器零件，以及劫持部门穿梭机。
+
+财产损毁
+
+毁坏他人或空间站的财产。包括但不限于工作控制台、气闸，以及毁坏或严重损坏机器人的外壳。
+
+闯入安全区域
+
+未经许可进入安全区域。如果该区域在锁着的门后，即为闯入安全区域。这包括非公开的部门空间，尤其是安保区域、指挥区域、金库和军械库。
+
+严重袭击
+
+使用武器袭击他人，或徒手袭击造成严重伤害。严重伤害定义为任何改变生活的伤害，如肢体缺失、眼耳损伤，或由健康分析仪测得总伤害超过 30 的任何其他伤害。
+
+过失杀人
+
+无意中杀死一个智慧类人生物。这包括自卫过失杀人和疏忽过失杀人。
+
+暴动
+
+参与一大群人员制造非法公共骚乱。暴动的领导者可被指控在其领导下犯下的所有罪行，外加煽动叛乱。
+
+犯下极端罪行的人每犯一项极端罪行应处以最高 20 分钟的监禁。特别暴力的罪犯可被关入永久监禁。谋杀未遂和谋杀是关联罪行，不能叠加。
+
+罪名
+
+描述
+
+逃脱羁押
+
+以逃跑为目的越出囚室或逃离羁押。这也适用于帮助他人越狱的人。如果嫌疑人屡次逃脱羁押，重复犯罪可将此指控升级为永久监禁，并仅在船长授权下进一步升级为处决。为保全生命而逃脱羁押——不包括逃避处决，例如撤离因枪战、火灾、失压或缺氧而变得危险的地点——可由典狱长或安保主管酌情减刑或不予追究。
+
+持有或使用重大辛迪加违禁品
+
+制造、持有或使用重大辛迪加违禁品。重大辛迪加违禁品只能在紧急情况下使用，且只能用于防止死亡或严重身体伤害。重大辛迪加违禁品是指任何能以明显方式妨碍空间站或帮助其敌人的辛迪加违禁品。不符合此定义的任何辛迪加违禁品应被视为轻微违禁品。
+
+扰乱企业
+
+对其他企业造成重大损失、损害或干扰。由于中央指挥部和纳米传讯需为这些行为负责，此类行为会受到严厉处理。这包括盗窃属于外部企业的设备或穿梭机，以及盗窃自动贸易站。
+
+大规模破坏
+
+对某个区域或空间站主要系统造成大规模损害。这包括重大爆炸以及对电力、医疗、化学、变电站和大气系统等关键空间站系统的蓄意破坏。
+
+非法拘留
+
+违背智慧类人生物的意愿，非法限制、运输、控制或监禁该个体。这是涵盖任何形式的绑架或强制控制的兜底罪名。
+
+谋杀未遂
+
+使用物理力量或其他方式试图结束某人的生命。必须有以杀意为目的采取行动的证据，例如使用了致命武器。
+
+谋杀
+
+以恶意故意杀死一个智慧类人生物。如果受害者必须被复活，则属于谋杀而非谋杀未遂。
+
+叛国
+
+蓄意背叛对纳米传讯的效忠。这包括与恐怖分子合作，尤其适用于试图非法背弃职责、损害空间站和纳米传讯利益的指挥部成员。
+
+食人
+
+食用智慧类人生物的任何部分。食用重要器官应受到更严厉的处理。如果嫌疑人为了获取所食用部分而犯下谋杀或袭击等罪行，可在这些指控之上追加本罪。
+
+犯下极刑罪行的人应经船长确认关入永久监禁。如果极刑罪犯逃脱，应将其处决，并在班次结束时用尸袋运往中央指挥部。紧急处决可由船长或安保主管在至少 3 名其他指挥部成员见证下执行，但之后必须直接向中央指挥部报告以供审查。
+
+罪名
+
+描述
+
+拒绝心智护盾
+
+拒绝配合合理的心智护盾植入程序。适用于嫌疑人极度不合作，或因囚犯精神状态过差导致植入失败的情况。[bold]如果植入失败，强烈建议执行处决，可由船长或中央指挥部批准。更多信息请参阅植入章节。[/bold]
+
+恐怖主义
+
+从事恶意破坏行动，威胁摧毁或成功摧毁船只、栖息地或空间站。这包括对空间站系统的极端蓄意破坏或触发自毁系统。
+
+非法处决
+
+未经授权或超出标准操作程序非法处决个人。本法律不同于谋杀，主要适用于安保部门、指挥部和中央指挥部部队，如应急响应小组。
+
+阻止复活
+
+使尸体无法复活。这包括炸碎尸体、将尸体抛入太空、故意藏匿尸体、非法焚烧尸体，或任何其他阻止带有灵魂的尸体复活的方式。
+
+大规模谋杀
+
+以恶意故意杀死三个或更多智慧类人生物。这仅适用于存在多次蓄意杀人的情况。

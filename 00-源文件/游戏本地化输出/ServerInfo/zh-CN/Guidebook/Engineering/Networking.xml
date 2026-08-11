@@ -1,0 +1,125 @@
+<Document>
+# 网络
+在空间站上，设备之间需要相互通信才能执行功能。
+空气警报器需要与各自的设备通信，门需要连接起来形成完整的气闸，诸如此类。
+  [textlink="Air alarms" link="AirAlarms"] need to talk to their respective devices, [textlink="doors" link="Airlocks"] need to be linked to form proper airlocks, and much more.
+
+
+
+
+
+这通过两个系统完成：链接系统和列表系统。
+
+
+
+
+
+你可以使用多功能工具或网络配置器与这些系统交互。
+你可以使用 [color=yellow][bold][keybind="AltActivateItemInHand"][/bold][/color] 或 [color=yellow][bold][keybind="AltActivateItemInWorld"][/bold][/color] 在不同的系统之间切换，后者需要将光标悬停在设备上。
+
+
+
+
+
+  <Box HorizontalAlignment="Stretch">
+    <Box>
+      <GuideEntityEmbed Entity="Multitool"/>
+    </Box>
+    <Box>
+      <GuideEntityEmbed Entity="NetworkConfigurator"/>
+    </Box>
+  </Box>
+
+
+
+
+
+有些设备需要权限才能将设备连接到它们。
+例如，你需要大气部权限才能将设备连接到空气警报器。
+对于门，你需要拥有你所连接之门的权限等级。
+
+
+
+
+
+## 链接系统
+链接系统用于显式地连接两个设备，例如将一扇门连接到另一扇门。
+
+
+
+
+
+  <Box>
+    <GuideEntityEmbed Entity="AirlockExternal"/>
+    <GuideEntityEmbed Entity="AirlockEngineering"/>
+    <GuideEntityEmbed Entity="BlastDoor"/>
+    <GuideEntityEmbed Entity="SignalButton"/>
+  </Box>
+
+
+
+
+
+在链接系统下，设备具有能够发送或接收信号的[bold]端口[/bold]。
+
+
+
+
+
+将光标悬停在端口上会显示一个提示框，告诉你该端口的用途。
+例如，输出端口会说明在什么条件下会发出信号，输入端口会说明设备在收到信号时会做什么。
+
+
+
+
+
+## 列表系统
+列表系统用于将多个设备连接到一个主设备，例如将多个大气设备连接到空气警报器。
+
+
+
+
+
+  <Box>
+    <GuideEntityEmbed Entity="AirAlarm" Caption=""/>
+    <GuideEntityEmbed Entity="GasVentPump" Caption=""/>
+    <GuideEntityEmbed Entity="GasVentScrubber" Caption=""/>
+    <GuideEntityEmbed Entity="AirSensor" Caption=""/>
+    <GuideEntityEmbed Entity="Firelock" Caption=""/>
+  </Box>
+
+
+
+
+
+每个设备都有自己的唯一地址，用于在列表系统中标识它。当你将设备连接到主设备时，就是把该设备的地址添加到主设备将与之通信的设备列表中。
+
+
+
+
+
+你可以使用 [color=yellow][bold][keybind="Use"][/bold][/color] 与设备交互，将设备的地址保存到你的工具上。
+
+
+
+
+
+一旦你的工具上保存了设备列表，就可以使用 [color=yellow][bold][keybind="Use"][/bold][/color] 与主设备交互，将它们连接到主设备，这会弹出一个界面。
+
+
+
+
+
+界面有多个选项：
+- 设置：用工具上保存的设备覆盖当前已连接设备的列表。
+- 添加：将工具上保存的设备添加到当前已连接设备的列表中。
+- 清除：从空气警报器中移除所有已连接的设备。
+- 复制：将当前已连接设备的列表复制到工具上。
+- 显示：在主设备与所有已连接设备之间画一条线。这对于直观了解空气警报器覆盖的区域很有用。
+
+
+
+
+
+如果你需要清空工具，可以对工具按 [color=yellow][bold][keybind="Use"][/bold][/color]，或使用 [color=yellow][bold][keybind="ActivateItemInHand"][/bold][/color] 调出已保存设备的列表，然后按下"清除"按钮。
+</Document>

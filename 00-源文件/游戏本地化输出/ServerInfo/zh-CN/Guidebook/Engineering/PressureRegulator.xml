@@ -1,0 +1,51 @@
+<Document>
+# 压力调节阀
+进气压力调节阀是一种被动设备，当管网压力超过某个阈值时，允许气体从管网中泄出。
+
+
+
+
+
+  <Box>
+    <GuideEntityEmbed Entity="GasPressureRegulator"/>
+  </Box>
+
+
+
+
+
+# 进气压力调节阀
+当管道内的压力超过设定的阈值时，阀门会自动[color=green]打开[/color]，让气体泄出到所连接的输出管道。
+
+
+
+
+
+当压力降到设定的阈值以下时，阀门会再次[color=red]关闭[/color]。
+
+
+
+
+
+阀门的流速上限为 [color=orange][protodata="GasPressureRegulator" comp="GasPressureRegulator" member="MaxTransferRate"/] L/s[/color]。
+
+
+
+
+
+## 运行方式
+该阀门通常用于防止气体系统中的超压情况，例如TEG冷却回路和管道，超压会导致系统故障（泵堵塞）。
+
+
+
+
+
+该阀门也可以用来泄放燃烧室中可用的热气。
+例如，让燃烧室的压力长时间低于某个特定值可能是不利的，因为这可能导致气体过度冷却而变稀薄，从而造成熄火。
+
+
+
+
+
+可以使用进气压力调节阀泄放过量的气体，同时保持燃烧室内的压力高于某个阈值，这可能有助于维持燃烧室内的火焰。
+</Document>
