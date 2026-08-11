@@ -2,11 +2,11 @@
 
 > 来源层分布: _Starlight 26
 
-- **闪现** — `ActionMobBlink` ｜_Starlight
-- **苏维埃熊** — `MobBearSoviet` ｜父类: SimpleSpaceMobBase ｜_Starlight
+- **闪现** — `ActionMobBlink` ｜_Starlight ｜描述: Teleport to the clicked location.
+- **苏维埃熊** — `MobBearSoviet` ｜父类: SimpleSpaceMobBase ｜_Starlight ｜描述: Smells like booze.
 - **长老** — `MobElder` ｜父类: SimpleSpaceMobBase,FlyingMobBase,MobCombat ｜_Starlight
 - **迷途小丑** — `MobLostClown` ｜父类: BaseMobHuman ｜_Starlight
-- **安保学员** — `MobSecurityCadet` ｜父类: MobSovietComrade ｜_Starlight
+- **安保学员** — `MobSecurityCadet` ｜父类: MobSovietComrade ｜_Starlight ｜描述: You've randomly been randomly selected for a random search
 - **安保学员** — `MobSecurityCadetHostile` ｜父类: MobSecurityCadet ｜_Starlight
 - **苏维埃同志** — `MobSovietComrade` ｜父类: BaseMobHuman ｜_Starlight
 - **苏维埃同志** — `MobSovietComradeAk` ｜父类: MobSovietComrade ｜_Starlight

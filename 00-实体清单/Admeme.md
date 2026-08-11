@@ -11,227 +11,231 @@
 - `模板` **BaseCasinoContraband** — `BaseCasinoContraband` ｜_Starlight
 - `模板` **BaseMedTakContraband** — `BaseMedTakContraband` ｜_Starlight
 - **黑卫 ID 卡** — `BlackstarBlackguardIDCard` ｜父类: BlackstarIDCard ｜_Starlight
-- **黑卫 PDA** — `BlackstarBlackguardPDA` ｜父类: BasePDA ｜_Starlight
+- **黑卫 PDA** — `BlackstarBlackguardPDA` ｜父类: BasePDA ｜_Starlight ｜描述: The last line of defence before the last resort.
 - **恐行者 ID 卡** — `BlackstarDreadwalkerIDCard` ｜父类: BlackstarIDCard ｜_Starlight
-- **恐行者 PDA** — `BlackstarDreadwalkerPDA` ｜父类: BasePDA ｜_Starlight
+- **恐行者 PDA** — `BlackstarDreadwalkerPDA` ｜父类: BasePDA ｜_Starlight ｜描述: Precision is the difference between a mission and a massacre.
 - **高阶军团使 ID 卡** — `BlackstarHighLegateIDCard` ｜父类: IDCardStandard ｜_Starlight
-- **高阶军团使 PDA** — `BlackstarHighLegatePDA` ｜父类: BasePDA ｜_Starlight
+- **高阶军团使 PDA** — `BlackstarHighLegatePDA` ｜父类: BasePDA ｜_Starlight ｜描述: Authority comes with a price.
 - **黑星 ID 卡** — `BlackstarIDCard` ｜父类: IDCardStandard ｜_Starlight
 - **新晋者 ID 卡** — `BlackstarInitiateIDCard` ｜父类: BlackstarIDCard ｜_Starlight
-- **新晋者 PDA** — `BlackstarInitiatePDA` ｜父类: BasePDA ｜_Starlight
+- **新晋者 PDA** — `BlackstarInitiatePDA` ｜父类: BasePDA ｜_Starlight ｜描述: You've earned your place. Now keep it.
 - **军团使 ID 卡** — `BlackstarLegateIDCard` ｜父类: IDCardStandard ｜_Starlight
-- **军团使 PDA** — `BlackstarLegatePDA` ｜父类: BasePDA ｜_Starlight
+- **军团使 PDA** — `BlackstarLegatePDA` ｜父类: BasePDA ｜_Starlight ｜描述: Keep your soldiers in line.
 - **军团指挥官 ID 卡** — `BlackstarLegionCommanderIDCard` ｜父类: IDCardStandard ｜_Starlight
-- **军团指挥官 PDA** — `BlackstarLegionCommanderPDA` ｜父类: BasePDA ｜_Starlight
+- **军团指挥官 PDA** — `BlackstarLegionCommanderPDA` ｜父类: BasePDA ｜_Starlight ｜描述: The weight of an entire legion behind every order.
 - **军团士兵 ID 卡** — `BlackstarLegionnaireIDCard` ｜父类: BlackstarIDCard ｜_Starlight
-- **军团士兵 PDA** — `BlackstarLegionnairePDA` ｜父类: BasePDA ｜_Starlight
+- **军团士兵 PDA** — `BlackstarLegionnairePDA` ｜父类: BasePDA ｜_Starlight ｜描述: Adapt. Overcome. Survive.
 - **安全运尸袋** — `BodyBagMedTak` ｜父类: BodyBagLockable,BaseMedTakContraband ｜_Starlight
 - **安全运尸袋** — `BodyBagMedTakFolded` ｜父类: BodyBagMedTak ｜_Starlight
-- `模板` **梅德塔克硅基机体** — `BorgChassisMedTak` ｜父类: BaseBorgChassisNotIonStormable ｜_Starlight
-- **梅德塔克医疗赛博格模块** — `BorgModuleMedTakMedical` ｜父类: BaseBorgModuleMedTak,BaseProviderBorgModule ｜_Starlight
-- **梅德塔克步枪赛博格模块** — `BorgModuleMedTakRifle` ｜父类: BaseBorgModuleMedTak,BaseProviderBorgModule ｜_Starlight
-- **化学药瓶箱** — `BottleCaseMedTak` ｜父类: BaseBottleCase,BaseMedTakContraband ｜_Starlight
+- `模板` **梅德塔克硅基机体** — `BorgChassisMedTak` ｜父类: BaseBorgChassisNotIonStormable ｜_Starlight ｜描述: A multirole heavy silicon chassis designed to support MedTak units.
+- **梅德塔克医疗赛博格模块** — `BorgModuleMedTakMedical` ｜父类: BaseBorgModuleMedTak,BaseProviderBorgModule ｜_Starlight ｜描述: A MedTak cyborg module for medical support.
+- **梅德塔克步枪赛博格模块** — `BorgModuleMedTakRifle` ｜父类: BaseBorgModuleMedTak,BaseProviderBorgModule ｜_Starlight ｜描述: A MedTak cyborg module equipped with a cut down CODE-9 and a breaching hammer.
+- **化学药瓶箱** — `BottleCaseMedTak` ｜父类: BaseBottleCase,BaseMedTakContraband ｜_Starlight ｜描述: A reinforced case with padded slots for bottles.
 - **化学品箱** — `BottleCaseMedTakFilled` ｜父类: BottleCaseMedTak ｜_Starlight
 - **文件夹** — `BoxFolderMedTak` ｜父类: BoxFolderBaseEmpty ｜_Starlight
 - **基础激光射线** — `BulletThruster` ｜父类: BulletTrace ｜_Starlight
 - **推进器弹药筒** — `CartridgeMinigunThruster` ｜父类: CartridgeMinigun ｜_Starlight
-- **戈莫拉黄金权杖** — `CasinoBaton` ｜父类: BaseItem,BaseCasinoContraband ｜_Starlight
+- **戈莫拉黄金权杖** — `CasinoBaton` ｜父类: BaseItem,BaseCasinoContraband ｜_Starlight ｜描述: If you want to see the fate of democracies, look out the windows. It has a odd twist at the end that allows easy disarming of Visitors. Its archaic design requires no external power source.
 - `模板` **CasinoIDCard** — `CasinoIDCard` ｜父类: IDCardStandard,BaseCasinoContraband ｜_Starlight
 - **蛾摩拉荷官 ID 卡** — `CasinoIDCardDealer` ｜父类: CasinoIDCard ｜_Starlight
 - **蛾摩拉经理 ID 卡** — `CasinoIDCardManager` ｜父类: CasinoIDCard ｜_Starlight
 - **蛾摩拉老板 ID 卡** — `CasinoIDCardOwner` ｜父类: CasinoIDCard ｜_Starlight
 - **蛾摩拉安保 ID 卡** — `CasinoIDCardSecurity` ｜父类: CasinoIDCard ｜_Starlight
 - `模板` **CasinoPDA** — `CasinoPDA` ｜父类: BasePDA,BaseCasinoContraband ｜_Starlight
-- **蛾摩拉荷官 PDA** — `CasinoPDADealer` ｜父类: CasinoPDA ｜_Starlight
-- **蛾摩拉经理 PDA** — `CasinoPDAManager` ｜父类: CasinoPDA ｜_Starlight
-- **蛾摩拉老板 PDA** — `CasinoPDAOwner` ｜父类: CasinoPDA ｜_Starlight
-- **蛾摩拉安保 PDA** — `CasinoPDASecurity` ｜父类: CasinoPDA ｜_Starlight
+- **蛾摩拉荷官 PDA** — `CasinoPDADealer` ｜父类: CasinoPDA ｜_Starlight ｜描述: Success depends on forethought, dispassionate calculation of probabilities, accounting for every stray variable.The house always wins.
+- **蛾摩拉经理 PDA** — `CasinoPDAManager` ｜父类: CasinoPDA ｜_Starlight ｜描述: The house always wins.
+- **蛾摩拉老板 PDA** — `CasinoPDAOwner` ｜父类: CasinoPDA ｜_Starlight ｜描述: The house always wins.
+- **蛾摩拉安保 PDA** — `CasinoPDASecurity` ｜父类: CasinoPDA ｜_Starlight ｜描述: I don't enjoy killing, but when done righteously, it's just a chore, like any other. The house always wins.
 - **鼠鼠特工弹药包** — `ClothingBackpackDuffelSyndicateAmmoMouse` ｜父类: ClothingBackpackDuffelSyndicate ｜_Starlight
-- **梅德塔克干员背包** — `ClothingBackpackMedTak` ｜父类: ClothingBackpack,BaseMedTakContraband ｜_Starlight
+- **梅德塔克干员背包** — `ClothingBackpackMedTak` ｜父类: ClothingBackpack,BaseMedTakContraband ｜_Starlight ｜描述: A spacious backpack with lots of pockets, worn by MedTak operators.
 - **梅德塔克干员背包** — `ClothingBackpackMedTakFilledBasic` ｜父类: ClothingBackpackMedTak ｜_Starlight
 - **梅德塔克干员背包** — `ClothingBackpackMedTakFilledHeavy` ｜父类: ClothingBackpackMedTak ｜_Starlight
 - **梅德塔克干员背包** — `ClothingBackpackMedTakFilledLeader` ｜父类: ClothingBackpackMedTak ｜_Starlight
 - **梅德塔克干员背包** — `ClothingBackpackMedTakFilledMedic` ｜父类: ClothingBackpackMedTak ｜_Starlight
 - **梅德塔克干员背包** — `ClothingBackpackMedTakFilledRifle` ｜父类: ClothingBackpackMedTak ｜_Starlight
-- **梅德塔克挎包** — `ClothingBackpackSatchelMedTak` ｜父类: ClothingBackpackSatchel,BaseMedTakContraband ｜_Starlight
+- **梅德塔克挎包** — `ClothingBackpackSatchelMedTak` ｜父类: ClothingBackpackSatchel,BaseMedTakContraband ｜_Starlight ｜描述: A spacious satchel.
 - **梅德塔克挎包** — `ClothingBackpackSatchelMedTakFilledDispatcher` ｜父类: ClothingBackpackSatchelMedTak ｜_Starlight
-- **背包** — `ClothingBackpackXenomoproach` ｜父类: ClothingBackpack ｜_Starlight
-- **MedTak 腰带** — `ClothingBeltMedTak` ｜父类: ClothingBeltStorageBase,ContentsExplosionResistanceBase,BaseMedTakContraband ｜_Starlight
+- **背包** — `ClothingBackpackXenomoproach` ｜父类: ClothingBackpack ｜_Starlight ｜描述: You wear this on your back and put items into it.
+- **MedTak 腰带** — `ClothingBeltMedTak` ｜父类: ClothingBeltStorageBase,ContentsExplosionResistanceBase,BaseMedTakContraband ｜_Starlight ｜描述: A versatile belt worn by MedTak operators.
 - **MedTak 腰带** — `ClothingBeltMedTakFilledHeavy` ｜父类: ClothingBeltMedTak ｜_Starlight
 - **MedTak 腰带** — `ClothingBeltMedTakFilledMedic` ｜父类: ClothingBeltMedTak ｜_Starlight
 - **MedTak 腰带** — `ClothingBeltMedTakFilledPilot` ｜父类: ClothingBeltMedTak ｜_Starlight
 - **MedTak 腰带** — `ClothingBeltMedTakFilledRifle` ｜父类: ClothingBeltMedTak ｜_Starlight
-- **NTNC 腰带** — `ClothingBeltNTNC` ｜父类: ClothingBeltNTNCRig ｜_Starlight
-- **NTNC 战术挂具** — `ClothingBeltNTNCRig` ｜父类: ClothingBeltStorageBase,ContentsExplosionResistanceBase,BaseNanoTrasenContraband ｜_Starlight
-- **黑星战术目镜** — `ClothingEyesGlassesBlackstar` ｜父类: ClothingEyesBase,ShowSecurityIcons,BaseMajorContraband ｜_Starlight
-- **MedTak眼镜** — `ClothingEyesGlassesMedTak` ｜父类: ClothingEyesVisorMedTak ｜_Starlight
-- **纳米传讯海军陆战队眼镜** — `ClothingEyesGlassesNTNC` ｜父类: ClothingEyesBase,BaseNanoTrasenContraband ｜_Starlight
-- **纳米传讯海军陆战队HUD** — `ClothingEyesHudNTNC` ｜父类: ClothingEyesBase,BaseNanoTrasenContraband ｜_Starlight
-- **梅德塔克目镜** — `ClothingEyesVisorMedTak` ｜父类: ClothingEyesBase,BaseMedTakContraband ｜_Starlight
-- **无法脱下的鼠鼠战斗手套** — `ClothingHandsGlovesCombatmous` ｜父类: ClothingHandsGlovesCombat ｜_Starlight
-- **高阶军团使贝雷帽** — `ClothingHeadHatBeretBlackstarHighLegate` ｜父类: ClothingHeadBase,BaseMajorContraband ｜_Starlight
-- **军团使贝雷帽** — `ClothingHeadHatBeretBlackstarLegate` ｜父类: ClothingHeadBase,BaseMajorContraband ｜_Starlight
-- **梅德塔克贝雷帽** — `ClothingHeadHatBeretMedTak` ｜父类: ClothingHeadBase ｜_Starlight
-- **军团指挥官军帽** — `ClothingHeadHatBlackstarLegionCommander` ｜父类: ClothingHeadBase,BaseMajorContraband ｜_Starlight
+- **NTNC 腰带** — `ClothingBeltNTNC` ｜父类: ClothingBeltNTNCRig ｜_Starlight ｜描述: A military belt worn by NanoTrasen Navy Marines.
+- **NTNC 战术挂具** — `ClothingBeltNTNCRig` ｜父类: ClothingBeltStorageBase,ContentsExplosionResistanceBase,BaseNanoTrasenContraband ｜_Starlight ｜描述: A military rig worn by NanoTrasen Navy Marines.
+- **黑星战术目镜** — `ClothingEyesGlassesBlackstar` ｜父类: ClothingEyesBase,ShowSecurityIcons,BaseMajorContraband ｜_Starlight ｜描述: A flash-resistant tactical visor issued to Blackstar Dreadwalker operatives. Provides complete flash immunity and a security HUD.
+- **MedTak眼镜** — `ClothingEyesGlassesMedTak` ｜父类: ClothingEyesVisorMedTak ｜_Starlight ｜描述: A pair of glasses issued to MedTak dispatchers, with a built in heads up display and active flash adjustment.
+- **纳米传讯海军陆战队眼镜** — `ClothingEyesGlassesNTNC` ｜父类: ClothingEyesBase,BaseNanoTrasenContraband ｜_Starlight ｜描述: Standard-issue glasses for NanoTrasen Navy Marines.
+- **纳米传讯海军陆战队HUD** — `ClothingEyesHudNTNC` ｜父类: ClothingEyesBase,BaseNanoTrasenContraband ｜_Starlight ｜描述: Standard issue heads up display for NanoTrasen Navy Marines
+- **梅德塔克目镜** — `ClothingEyesVisorMedTak` ｜父类: ClothingEyesBase,BaseMedTakContraband ｜_Starlight ｜描述: A visor for MedTak operators with a built in heads up display and active flash adjustment.
+- **无法脱下的鼠鼠战斗手套** — `ClothingHandsGlovesCombatmous` ｜父类: ClothingHandsGlovesCombat ｜_Starlight ｜描述: made by mouffs for mouffs!
+- **高阶军团使贝雷帽** — `ClothingHeadHatBeretBlackstarHighLegate` ｜父类: ClothingHeadBase,BaseMajorContraband ｜_Starlight ｜描述: A beret worn by High Legate officers of the Blackstar Legion.
+- **军团使贝雷帽** — `ClothingHeadHatBeretBlackstarLegate` ｜父类: ClothingHeadBase,BaseMajorContraband ｜_Starlight ｜描述: A beret worn by Legate officers of the Blackstar Legion.
+- **梅德塔克贝雷帽** — `ClothingHeadHatBeretMedTak` ｜父类: ClothingHeadBase ｜_Starlight ｜描述: A beret bearing the MedTak logo.
+- **军团指挥官军帽** — `ClothingHeadHatBlackstarLegionCommander` ｜父类: ClothingHeadBase,BaseMajorContraband ｜_Starlight ｜描述: The cap of a Legion Commander. Only one exists at a time.
 - **纳米传讯海军陆战队帽** — `ClothingHeadHatNTNC` ｜父类: ClothingHeadBase,BaseNanoTrasenContraband ｜_Starlight
 - **纳米传讯海军少尉帽** — `ClothingHeadHatNTNCEnsign` ｜父类: ClothingHeadBase,BaseNanoTrasenContraband ｜_Starlight
 - **纳米传讯海军陆战队灰帽** — `ClothingHeadHatNTNCGrey` ｜父类: ClothingHeadBase,BaseNanoTrasenContraband ｜_Starlight
-- **装甲高顶礼帽** — `ClothingHeadHatTophatArmored` ｜父类: ClothingHeadHatTophat,BaseMinorContraband ｜_Starlight
-- **装甲大高顶礼帽** — `ClothingHeadHatTophatBigArmored` ｜父类: ClothingHeadHatTophatBig,BaseMinorContraband ｜_Starlight
-- **装甲白色大高顶礼帽** — `ClothingHeadHatTophatBigWhiteArmored` ｜父类: ClothingHeadHatTophatBigWhite,BaseMinorContraband ｜_Starlight
-- **黑星雇佣兵头盔** — `ClothingHeadHelmetBlackstar` ｜父类: ClothingHeadHelmetArmoredBase,BaseMajorContraband ｜_Starlight
-- **军团使头盔** — `ClothingHeadHelmetBlackstarLegate` ｜父类: ClothingHeadHelmetArmoredBase,BaseMajorContraband ｜_Starlight
-- **赌场警卫头盔** — `ClothingHeadHelmetCasino` ｜父类: ClothingHeadHelmetBasic,BaseMajorContraband ｜_Starlight
-- **梅德塔克干员头盔** — `ClothingHeadHelmetHardsuitMedTak` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,BaseMedTakContraband ｜_Starlight
+- **装甲高顶礼帽** — `ClothingHeadHatTophatArmored` ｜父类: ClothingHeadHatTophat,BaseMinorContraband ｜_Starlight ｜描述: A stylish black tophat, lined in kevlar
+- **装甲大高顶礼帽** — `ClothingHeadHatTophatBigArmored` ｜父类: ClothingHeadHatTophatBig,BaseMinorContraband ｜_Starlight ｜描述: This hat clearly belongs to someone very, very important. It is lined in kevlar.
+- **装甲白色大高顶礼帽** — `ClothingHeadHatTophatBigWhiteArmored` ｜父类: ClothingHeadHatTophatBigWhite,BaseMinorContraband ｜_Starlight ｜描述: This hat clearly belongs to someone very, very important. It is lined in kevlar.
+- **黑星雇佣兵头盔** — `ClothingHeadHelmetBlackstar` ｜父类: ClothingHeadHelmetArmoredBase,BaseMajorContraband ｜_Starlight ｜描述: A reinforced combat helmet issued to Dreadwalker operatives of the Blackstar mercenary group. Offers superior protection over standard mercenary gear.
+- **军团使头盔** — `ClothingHeadHelmetBlackstarLegate` ｜父类: ClothingHeadHelmetArmoredBase,BaseMajorContraband ｜_Starlight ｜描述: A helmet issued to Legate officers of the Blackstar Legion.
+- **赌场警卫头盔** — `ClothingHeadHelmetCasino` ｜父类: ClothingHeadHelmetBasic,BaseMajorContraband ｜_Starlight ｜描述: Standard security gear. Protects the head from impacts.
+- **梅德塔克干员头盔** — `ClothingHeadHelmetHardsuitMedTak` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,BaseMedTakContraband ｜_Starlight ｜描述: An armoured helmet worn by MedTak operators.
 - **梅德塔克干员头盔** — `ClothingHeadHelmetHardsuitMedTakPilot` ｜父类: ClothingHeadHelmetHardsuitMedTak ｜_Starlight
-- **纳米传讯海军陆战队硬装宇航服头盔** — `ClothingHeadHelmetHardsuitNTNCConsortium` ｜父类: BaseNanoTrasenContraband,ClothingHeadLightParamsProfessional,ClothingHeadHelmetHardsuitSyndie ｜_Starlight
-- **纳米传讯海军陆战队医护硬装宇航服头盔** — `ClothingHeadHelmetHardsuitNTNCConsortiumMedic` ｜父类: BaseNanoTrasenContraband,ClothingHeadLightParamsAdvanced,ClothingHeadHelmetHardsuitSyndie ｜_Starlight
-- **梅德塔克干员耳麦** — `ClothingHeadsetAltMedTak` ｜父类: ClothingHeadsetAlt,BaseMedTakContraband ｜_Starlight
+- **纳米传讯海军陆战队硬装宇航服头盔** — `ClothingHeadHelmetHardsuitNTNCConsortium` ｜父类: BaseNanoTrasenContraband,ClothingHeadLightParamsProfessional,ClothingHeadHelmetHardsuitSyndie ｜_Starlight ｜描述: A protective hardsuit helmet worn by NanoTrasen Navy Marines.
+- **纳米传讯海军陆战队医护硬装宇航服头盔** — `ClothingHeadHelmetHardsuitNTNCConsortiumMedic` ｜父类: BaseNanoTrasenContraband,ClothingHeadLightParamsAdvanced,ClothingHeadHelmetHardsuitSyndie ｜_Starlight ｜描述: A protective hardsuit helmet worn by NanoTrasen Navy Marine medical personnel.
+- **梅德塔克干员耳麦** — `ClothingHeadsetAltMedTak` ｜父类: ClothingHeadsetAlt,BaseMedTakContraband ｜_Starlight ｜描述: A headset used by MedTak operators.
 - **NTNC 耳麦** — `ClothingHeadsetAltNTNC` ｜父类: ClothingHeadsetAlt,BaseNanoTrasenContraband ｜_Starlight
-- **纳米传讯海军陆战队少校肩甲** — `ClothingNeckMantleDecoratedMarineMajor` ｜父类: ClothingNeckBase,BaseNanoTrasenContraband ｜_Starlight
-- **纳米传讯海军陆战队中士肩甲** — `ClothingNeckMantleDecoratedMarineSergeant` ｜父类: ClothingNeckBase,BaseNanoTrasenContraband ｜_Starlight
-- **梅德塔克队长肩饰** — `ClothingNeckMantleMedTakLead` ｜父类: ClothingNeckBase,BaseMedTakContraband ｜_Starlight
-- **梅德塔克正式肩饰** — `ClothingNeckMantleMedTakLeadFormal` ｜父类: ClothingNeckBase,BaseMedTakContraband ｜_Starlight
-- **重型装甲背心** — `ClothingOuterArmorCasino` ｜父类: ClothingOuterArmorBasic,BaseMajorContraband ｜_Starlight
-- **黑星“军阀”战斗服** — `ClothingOuterHardsuitBlackstar` ｜父类: ClothingOuterBaseLarge,BaseMajorContraband ｜_Starlight
-- **梅德塔克干员硬装宇航服** — `ClothingOuterHardsuitMedTak` ｜父类: ClothingOuterHardsuitBase,BaseMedTakContraband ｜_Starlight
-- **梅德塔克重型硬装宇航服** — `ClothingOuterHardsuitMedTakHeavy` ｜父类: ClothingOuterHardsuitMedTak ｜_Starlight
-- **梅德塔克医护硬装宇航服** — `ClothingOuterHardsuitMedTakMedic` ｜父类: ClothingOuterHardsuitMedTak ｜_Starlight
+- **纳米传讯海军陆战队少校肩甲** — `ClothingNeckMantleDecoratedMarineMajor` ｜父类: ClothingNeckBase,BaseNanoTrasenContraband ｜_Starlight ｜描述: Used by NanoTrasen Navy Marines to indicate rank. This one indicates the wearer is at least a Major.
+- **纳米传讯海军陆战队中士肩甲** — `ClothingNeckMantleDecoratedMarineSergeant` ｜父类: ClothingNeckBase,BaseNanoTrasenContraband ｜_Starlight ｜描述: Used by NanoTrasen Navy Marines to indicate rank. This one indicates the wearer is at least a Sergeant.
+- **梅德塔克队长肩饰** — `ClothingNeckMantleMedTakLead` ｜父类: ClothingNeckBase,BaseMedTakContraband ｜_Starlight ｜描述: A mantle indicating the leader of a MedTak team.
+- **梅德塔克正式肩饰** — `ClothingNeckMantleMedTakLeadFormal` ｜父类: ClothingNeckBase,BaseMedTakContraband ｜_Starlight ｜描述: A formal mantle and cape given to decorated MedTak team leaders.
+- **重型装甲背心** — `ClothingOuterArmorCasino` ｜父类: ClothingOuterArmorBasic,BaseMajorContraband ｜_Starlight ｜描述: A reinforced Type II armored vest that provides decent protection against most types of damage.
+- **黑星“军阀”战斗服** — `ClothingOuterHardsuitBlackstar` ｜父类: ClothingOuterBaseLarge,BaseMajorContraband ｜_Starlight ｜描述: A heavily armored combat suit issued to elite Dreadwalker operatives of the Blackstar mercenary group. Built to survive anything the frontier can throw at it.
+- **梅德塔克干员硬装宇航服** — `ClothingOuterHardsuitMedTak` ｜父类: ClothingOuterHardsuitBase,BaseMedTakContraband ｜_Starlight ｜描述: An armoured hardsuit worn by MedTak operators.
+- **梅德塔克重型硬装宇航服** — `ClothingOuterHardsuitMedTakHeavy` ｜父类: ClothingOuterHardsuitMedTak ｜_Starlight ｜描述: A heavily armoured hardsuit worn by MedTak heavy security.
+- **梅德塔克医护硬装宇航服** — `ClothingOuterHardsuitMedTakMedic` ｜父类: ClothingOuterHardsuitMedTak ｜_Starlight ｜描述: An armoured hardsuit worn by MedTak medics, with a defibrillator system built into it.
 - **梅德塔克驾驶员硬装宇航服** — `ClothingOuterHardsuitMedTakPilot` ｜父类: ClothingOuterHardsuitMedTak ｜_Starlight
-- **纳米传讯海军陆战队硬装宇航服** — `ClothingOuterHardsuitNTNCConsortium` ｜父类: BaseNanoTrasenContraband,ClothingOuterHardsuitSyndieElite ｜_Starlight
-- **纳米传讯海军陆战队医护硬装宇航服** — `ClothingOuterHardsuitNTNCConsortiumMedic` ｜父类: BaseNanoTrasenContraband,ClothingOuterHardsuitSyndieMedic ｜_Starlight
-- **鼠鼠红色硬装宇航服** — `ClothingOuterHardsuitSyndieMouseOps` ｜父类: ClothingOuterHardsuitSyndie ｜_Starlight
-- **纳米传讯海军陆战队背心** — `ClothingOuterVestNTNC` ｜父类: ClothingOuterArmorBase,BaseNanoTrasenContraband ｜_Starlight
-- **纳米传讯海军陆战队少尉甲壳背心** — `ClothingOuterVestWebNTNCEnsign` ｜父类: BaseNanoTrasenContraband,ClothingOuterVestWeb ｜_Starlight
-- **MedTak 战斗磁力靴** — `ClothingShoesBootsMagMedTak` ｜父类: ClothingShoesBootsMagBase,BaseMedTakContraband,ClothingShoesMilitaryBase ｜_Starlight
-- **纳米传讯海军少尉连衣裙** — `ClothingUniformJumpskirtNTNCEnsign` ｜父类: ClothingUniformSkirtBase,BaseNanoTrasenContraband ｜_Starlight
-- **纳米传讯海军军官连衣裙** — `ClothingUniformJumpskirtNTNCOfficer` ｜父类: ClothingUniformSkirtBase,BaseNanoTrasenContraband ｜_Starlight
-- **军团指挥官制服** — `ClothingUniformJumpsuitBlackstarLegionCommander` ｜父类: UnsensoredClothingUniformBase,BaseMajorContraband ｜_Starlight
-- **纳米传讯海军少尉连体衣** — `ClothingUniformJumpsuitNTNCEnsign` ｜父类: ClothingUniformSkirtBase,BaseNanoTrasenContraband ｜_Starlight
-- **纳米传讯海军军官连体衣** — `ClothingUniformJumpsuitNTNCOfficer` ｜父类: ClothingUniformSkirtBase,BaseNanoTrasenContraband ｜_Starlight
-- **梅德塔克连衣裙** — `ClothingUniformMedTakJumpskirt` ｜父类: ClothingUniformSkirtBase,BaseMedTakContraband ｜_Starlight
-- **梅德塔克正式连衣裙** — `ClothingUniformMedTakJumpskirtFormal` ｜父类: ClothingUniformSkirtBase,BaseMedTakContraband ｜_Starlight
-- **梅德塔克连体衣** — `ClothingUniformMedTakJumpsuit` ｜父类: ClothingUniformBase,BaseMedTakContraband ｜_Starlight
-- **梅德塔克正式连体衣** — `ClothingUniformMedTakJumpsuitFormal` ｜父类: ClothingUniformBase,BaseMedTakContraband ｜_Starlight
-- **纳米传讯海军陆战队作训服** — `ClothingUniformNTNCFatigues` ｜父类: ClothingUniformBase,BaseNanoTrasenContraband ｜_Starlight
-- **一脸茫然** — `Clueless` ｜父类: BaseItem ｜_Starlight
+- **纳米传讯海军陆战队硬装宇航服** — `ClothingOuterHardsuitNTNCConsortium` ｜父类: BaseNanoTrasenContraband,ClothingOuterHardsuitSyndieElite ｜_Starlight ｜描述: A protective hardsuit worn by NanoTrasen Navy Marines.
+- **纳米传讯海军陆战队医护硬装宇航服** — `ClothingOuterHardsuitNTNCConsortiumMedic` ｜父类: BaseNanoTrasenContraband,ClothingOuterHardsuitSyndieMedic ｜_Starlight ｜描述: A protective hardsuit worn by NanoTrasen Navy Marine medical personnel.
+- **鼠鼠红色硬装宇航服** — `ClothingOuterHardsuitSyndieMouseOps` ｜父类: ClothingOuterHardsuitSyndie ｜_Starlight ｜描述: made by mouffs for mouffs!
+- **纳米传讯海军陆战队背心** — `ClothingOuterVestNTNC` ｜父类: ClothingOuterArmorBase,BaseNanoTrasenContraband ｜_Starlight ｜描述: Much better than a standard type-1 security vest. Don't lose it, you will NOT get a replacement.
+- **纳米传讯海军陆战队少尉甲壳背心** — `ClothingOuterVestWebNTNCEnsign` ｜父类: BaseNanoTrasenContraband,ClothingOuterVestWeb ｜_Starlight ｜描述: An armoured carapace designed for the best of the best within the navy, allowing the wearer to remain protected and stylish.
+- **MedTak 战斗磁力靴** — `ClothingShoesBootsMagMedTak` ｜父类: ClothingShoesBootsMagBase,BaseMedTakContraband,ClothingShoesMilitaryBase ｜_Starlight ｜描述: Standard issue combat magboots for any MedTak units deployed as non-planetary coverage.
+- **纳米传讯海军少尉连衣裙** — `ClothingUniformJumpskirtNTNCEnsign` ｜父类: ClothingUniformSkirtBase,BaseNanoTrasenContraband ｜_Starlight ｜描述: Standard issue NanoTrasen Navy Marine jumpskirt. This one's for an ensign.
+- **纳米传讯海军军官连衣裙** — `ClothingUniformJumpskirtNTNCOfficer` ｜父类: ClothingUniformSkirtBase,BaseNanoTrasenContraband ｜_Starlight ｜描述: Standard issue NanoTrasen Navy Marine jumpskirt. This one's for an officer.
+- **军团指挥官制服** — `ClothingUniformJumpsuitBlackstarLegionCommander` ｜父类: UnsensoredClothingUniformBase,BaseMajorContraband ｜_Starlight ｜描述: The uniform of a Legion Commander of the Blackstar Legion.
+- **纳米传讯海军少尉连体衣** — `ClothingUniformJumpsuitNTNCEnsign` ｜父类: ClothingUniformSkirtBase,BaseNanoTrasenContraband ｜_Starlight ｜描述: Standard issue NanoTrasen Navy Marine jumpsuit. This one's for an ensign.
+- **纳米传讯海军军官连体衣** — `ClothingUniformJumpsuitNTNCOfficer` ｜父类: ClothingUniformSkirtBase,BaseNanoTrasenContraband ｜_Starlight ｜描述: Standard issue NanoTrasen Navy Marine jumpsuit. This one's for an officer.
+- **梅德塔克连衣裙** — `ClothingUniformMedTakJumpskirt` ｜父类: ClothingUniformSkirtBase,BaseMedTakContraband ｜_Starlight ｜描述: Standard issue MedTak uniform.
+- **梅德塔克正式连衣裙** — `ClothingUniformMedTakJumpskirtFormal` ｜父类: ClothingUniformSkirtBase,BaseMedTakContraband ｜_Starlight ｜描述: A formal MedTak uniform.
+- **梅德塔克连体衣** — `ClothingUniformMedTakJumpsuit` ｜父类: ClothingUniformBase,BaseMedTakContraband ｜_Starlight ｜描述: Standard issue MedTak uniform.
+- **梅德塔克正式连体衣** — `ClothingUniformMedTakJumpsuitFormal` ｜父类: ClothingUniformBase,BaseMedTakContraband ｜_Starlight ｜描述: A formal MedTak uniform.
+- **纳米传讯海军陆战队作训服** — `ClothingUniformNTNCFatigues` ｜父类: ClothingUniformBase,BaseNanoTrasenContraband ｜_Starlight ｜描述: Standard issue NanoTrasen Navy Marine fatigues. Very airy.
+- **一脸茫然** — `Clueless` ｜父类: BaseItem ｜_Starlight ｜描述: :clueless:
 - **门控电子元件** — `DoorElectronicsMedTak` ｜父类: DoorElectronics ｜_Starlight
 - **MedTak 马克杯** — `DrinkMedTakCoffee` ｜父类: DrinkMugMedTak ｜_Starlight
-- **MedTak 马克杯** — `DrinkMugMedTak` ｜父类: DrinkBaseMug ｜_Starlight
-- **吉特叔叔的炮弹勇气酒** — `DrinkRumizineBottleFull` ｜父类: DrinkVisualsAllFilled,DrinkBottleGlassBaseFull ｜_Starlight
-- **MedTak加密密钥** — `EncryptionKeyMedTak` ｜父类: EncryptionKey ｜_Starlight
+- **MedTak 马克杯** — `DrinkMugMedTak` ｜父类: DrinkBaseMug ｜_Starlight ｜描述: A cheerful red mug emblazoned with the MedTak insignia.
+- **吉特叔叔的炮弹勇气酒** — `DrinkRumizineBottleFull` ｜父类: DrinkVisualsAllFilled,DrinkBottleGlassBaseFull ｜_Starlight ｜描述: A battered amber bottle bearing a skull-and-anchor label. The faded text reads "Uncle Git's Cannonball Courage Rumizine — Drink before battle, not after." Smells like rum, gunpowder, and questionable 
+- **MedTak加密密钥** — `EncryptionKeyMedTak` ｜父类: EncryptionKey ｜_Starlight ｜描述: An encryption key used by MedTak operators.
 - **CODE-12“破门者”** — `HammerMedTak` ｜父类: HammerMedTakOneHanded ｜_Starlight
-- **CODE-12“破门者”** — `HammerMedTakOneHanded` ｜父类: BaseItem ｜_Starlight
-- **梅德塔克手持监测仪** — `HandheldMedTakMonitor` ｜父类: PowerCellSlotHighItem,BaseHandheldComputer,BaseMedTakContraband ｜_Starlight
-- **常胜** — `MechAlways` ｜父类: BaseMech,CombatMech,BaseCasinoContraband ｜_Starlight
+- **CODE-12“破门者”** — `HammerMedTakOneHanded` ｜父类: BaseItem ｜_Starlight ｜描述: A charged concussive breaching hammer meant to put a sizeable hole in anything separating you from your client.
+- **梅德塔克手持监测仪** — `HandheldMedTakMonitor` ｜父类: PowerCellSlotHighItem,BaseHandheldComputer,BaseMedTakContraband ｜_Starlight ｜描述: The Interdyne M7 monitor can track the vital signs and coordinates of any implants on its secure frequency, to ensure rapid location of your clients.
+- **常胜** — `MechAlways` ｜父类: BaseMech,CombatMech,BaseCasinoContraband ｜_Starlight ｜描述: We Can't Expect God To Do All The Work. The house always wins.
 - **常胜** — `MechAlwaysBattery` ｜父类: MechAlways ｜_Starlight
 - **常胜** — `MechAlwaysFilled` ｜父类: MechAlwaysBattery ｜_Starlight
-- **庄家** — `MechHouse` ｜父类: BaseMech,CombatMech,BaseCasinoContraband,NanotrasenMech ｜_Starlight
+- **庄家** — `MechHouse` ｜父类: BaseMech,CombatMech,BaseCasinoContraband,NanotrasenMech ｜_Starlight ｜描述: The game was rigged from the start. The house always wins.
 - **庄家** — `MechHouseBattery` ｜父类: MechHouse ｜_Starlight
 - **庄家** — `MechHouseFilled` ｜父类: MechHouseBattery ｜_Starlight
-- **梅德塔克战斗医疗包** — `MedkitCombatMedTak` ｜父类: Medkit ｜_Starlight
+- **梅德塔克战斗医疗包** — `MedkitCombatMedTak` ｜父类: Medkit ｜_Starlight ｜描述: An operator's personal medical kit.
 - **梅德塔克战斗医疗包** — `MedkitCombatMedTakFilled` ｜父类: MedkitCombatMedTak ｜_Starlight
 - **梅德塔克战斗医疗包** — `MedkitCombatMedTakFilledBorg` ｜父类: MedkitCombatMedTak ｜_Starlight
 - **梅德塔克战斗医疗包** — `MedkitCombatMedTakFilledMedic` ｜父类: MedkitCombatMedTak ｜_Starlight
-- **梅德塔克悬浮担架** — `MedTakHoverBed` ｜父类: RollerBed,BaseMedTakContraband ｜_Starlight
+- **梅德塔克悬浮担架** — `MedTakHoverBed` ｜父类: RollerBed,BaseMedTakContraband ｜_Starlight ｜描述: A repulsor-suspended stretcher system used by MedTak operators to transport patients.
 - **梅德塔克悬浮担架** — `MedTakHoverBedSpawnFolded` ｜父类: MedTakHoverBed ｜_Starlight
-- **梅德塔克喷射注射器** — `MedTakHypo` ｜父类: BaseHypospray,BaseMedTakContraband ｜_Starlight
+- **梅德塔克喷射注射器** — `MedTakHypo` ｜父类: BaseHypospray,BaseMedTakContraband ｜_Starlight ｜描述: A high quality injector for rapid administration of chemicals, compatibile with most standard hardsuit injection ports.
 - `模板` **MedTakIDCard** — `MedTakIDCard` ｜父类: IDCardStandard ｜_Starlight
 - **梅德塔克调度员 ID 卡** — `MedTakIDCardDispatcher` ｜父类: MedTakIDCard ｜_Starlight
 - **梅德塔克医护员 ID 卡** — `MedTakIDCardMedic` ｜父类: MedTakIDCard ｜_Starlight
 - **梅德塔克驾驶员 ID 卡** — `MedTakIDCardPilot` ｜父类: MedTakIDCard ｜_Starlight
 - **梅德塔克安保 ID 卡** — `MedTakIDCardSecurity` ｜父类: MedTakIDCard ｜_Starlight
 - **梅德塔克队长 ID 卡** — `MedTakIDCardTeamLead` ｜父类: MedTakIDCard ｜_Starlight
-- `模板` **MedTakImplanter** — `MedTakImplanter` ｜父类: BaseImplantOnlyImplanter ｜_Starlight
+- `模板` **MedTakImplanter** — `MedTakImplanter` ｜父类: BaseImplantOnlyImplanter ｜_Starlight ｜描述: A compact disposable implanter meant to quickly and (mostly) painlessly place an implant below the skin.
 - **梅德塔克心灵护盾植入器** — `MedTakImplanterMindShield` ｜父类: MedTakImplanter ｜_Starlight
 - **梅德塔克青铜追踪植入器** — `MedTakImplanterTrackingBronze` ｜父类: MedTakImplanter ｜_Starlight
 - **梅德塔克黄金追踪植入器** — `MedTakImplanterTrackingGold` ｜父类: MedTakImplanter ｜_Starlight
 - **梅德塔克白银追踪植入器** — `MedTakImplanterTrackingSilver` ｜父类: MedTakImplanter ｜_Starlight
 - **梅德塔克小队追踪植入器** — `MedTakImplanterTrackingTeam` ｜父类: MedTakImplanter ｜_Starlight
-- **梅德塔克心灵护盾植入物** — `MedTakMindShieldImplant` ｜父类: MindShieldImplant ｜_Starlight
+- **梅德塔克心灵护盾植入物** — `MedTakMindShieldImplant` ｜父类: MindShieldImplant ｜_Starlight ｜描述: This implant protects operators from mind control devices.
 - `模板` **MedTakPDA** — `MedTakPDA` ｜父类: BasePDA,BaseMedTakContraband ｜_Starlight
-- **梅德塔克调度员 PDA** — `MedTakPDADispatcher` ｜父类: MedTakPDA ｜_Starlight
-- **梅德塔克医护员 PDA** — `MedTakPDAMedic` ｜父类: MedTakPDA ｜_Starlight
-- **梅德塔克驾驶员 PDA** — `MedTakPDAPilot` ｜父类: MedTakPDA ｜_Starlight
-- **梅德塔克安保 PDA** — `MedTakPDASecurity` ｜父类: MedTakPDA ｜_Starlight
-- **梅德塔克队长 PDA** — `MedTakPDATeamLead` ｜父类: MedTakPDA ｜_Starlight
-- **梅德塔克科技制造机** — `MedTakTechFab` ｜父类: BaseLatheLube ｜_Starlight
+- **梅德塔克调度员 PDA** — `MedTakPDADispatcher` ｜父类: MedTakPDA ｜_Starlight ｜描述: It's red paint.
+- **梅德塔克医护员 PDA** — `MedTakPDAMedic` ｜父类: MedTakPDA ｜_Starlight ｜描述: Is it blood or red paint?
+- **梅德塔克驾驶员 PDA** — `MedTakPDAPilot` ｜父类: MedTakPDA ｜_Starlight ｜描述: It's red paint.
+- **梅德塔克安保 PDA** — `MedTakPDASecurity` ｜父类: MedTakPDA ｜_Starlight ｜描述: It's blood.
+- **梅德塔克队长 PDA** — `MedTakPDATeamLead` ｜父类: MedTakPDA ｜_Starlight ｜描述: It's blood.
+- **梅德塔克科技制造机** — `MedTakTechFab` ｜父类: BaseLatheLube ｜_Starlight ｜描述: Prints equipment for a MedTak outpost.
 - **科妮·衣服克星** — `MobKoni` ｜父类: MobMoth ｜_Starlight
-- **鼠鼠特工** — `MobNyrMouseOps` ｜父类: SimpleMobBase,StripableInventoryBase ｜_Starlight
-- **斯卡布蛾** — `MobSkubmoth` ｜父类: MobMoth ｜_Starlight
-- **异形机蛾蠊** — `MobXenomoproach` ｜父类: BaseMob,StripableInventoryBase,BaseSiliconLanguages,BaseXenoborgTransponder ｜_Starlight
+- **鼠鼠特工** — `MobNyrMouseOps` ｜父类: SimpleMobBase,StripableInventoryBase ｜_Starlight ｜描述: THAT'S THE FUCKING MOUSE IT CAME FOR A FUCKING CHEESE
+- **斯卡布蛾** — `MobSkubmoth` ｜父类: MobMoth ｜_Starlight ｜描述: Huh, skub.
+- **异形机蛾蠊** — `MobXenomoproach` ｜父类: BaseMob,StripableInventoryBase,BaseSiliconLanguages,BaseXenoborgTransponder ｜_Starlight ｜描述: This little moproach appears to be part evil robot! How horrifying!
 - **异形机蛾蠊** — `MobXenomoproachEmpty` ｜父类: MobXenomoproach ｜_Starlight
 - **异形机蛾蠊** — `MobXenomoproachEmptyPacified` ｜父类: MobXenomoproachEmpty ｜_Starlight
 - **异形机蛾蠊** — `MobXenomoproachPacified` ｜父类: MobXenomoproach ｜_Starlight
 - **异形机蛾蠊** — `MobXenomoproachPlayer` ｜父类: MobXenomoproach ｜_Starlight
 - **异形机蛾蠊** — `MobXenomoproachPlayerPacified` ｜父类: MobXenomoproachPlayer ｜_Starlight
 - **蛾人胃** — `OrganCatMothStomach` ｜父类: OrganMothStomach ｜_Starlight
-- **梅德塔克信纸** — `PaperMedTak` ｜父类: Paper ｜_Starlight
-- **自动注射器包** — `PenPackMedTak` ｜父类: BasePenPack,BaseMedTakContraband ｜_Starlight
+- **梅德塔克信纸** — `PaperMedTak` ｜父类: Paper ｜_Starlight ｜描述: A piece of paper headed by the MedTak logo. It looks expensive. For you.
+- **自动注射器包** — `PenPackMedTak` ｜父类: BasePenPack,BaseMedTakContraband ｜_Starlight ｜描述: A pouch loaded with autoinjectors.
 - **梅德塔克硅基机体** — `PlayerBorgChassisMedTakBattery` ｜父类: BorgChassisMedTak ｜_Starlight
-- **智能分配器** — `PlumbingSmartDispenserMedTakFilled` ｜父类: PlumbingSmartDispenser ｜_Starlight
-- **壁挂式智能分配器** — `PlumbingSmartDispenserMedTakWallmountFilled` ｜父类: PlumbingSmartDispenserMedTakFilled ｜_Starlight
-- **彩虹蜥蜴人毛绒玩具** — `PlushieSuperLizard` ｜父类: PlushieRainbowLizard ｜_Starlight
+- **智能分配器** — `PlumbingSmartDispenserMedTakFilled` ｜父类: PlumbingSmartDispenser ｜_Starlight ｜描述: A smart dispenser prefilled with a broad set of medical reagents.
+- **壁挂式智能分配器** — `PlumbingSmartDispenserMedTakWallmountFilled` ｜父类: PlumbingSmartDispenserMedTakFilled ｜_Starlight ｜描述: A wallmount smart dispenser filled with a broad set of medical reagents.
+- **彩虹蜥蜴人毛绒玩具** — `PlushieSuperLizard` ｜父类: PlushieRainbowLizard ｜_Starlight ｜描述: An adorable stuffed toy that resembles a lizardperson of every color. Abnormally lightweight, allowing you to swing it with great speed.
 - **牵引枪** — `PocketTether` ｜父类: WeaponTetherGunAdmin ｜_Starlight
 - **梅德塔克保障合同** — `PrintedDocumentMedTakContract` ｜父类: PaperMedTak ｜_Starlight
 - **梅德塔克往来函件** — `PrintedDocumentMedTakCorrespondence` ｜父类: PaperMedTak ｜_Starlight
 - **梅德塔克发票** — `PrintedDocumentMedTakInvoice` ｜父类: PaperMedTak ｜_Starlight
 - **梅德塔克行动后报告** — `PrintedDocumentMedTakReport` ｜父类: PaperMedTak ｜_Starlight
-- **文件打印机** — `PrinterDocMedTak` ｜父类: PrinterDoc ｜_Starlight
+- **文件打印机** — `PrinterDocMedTak` ｜父类: PrinterDoc ｜_Starlight ｜描述: Bureaucratic perfection. Stores a database of relevant MedTak documents, and lets you print them as long as you have paper.
 - **黑星黑卫** — `RandomHumanoidSpawnerBlackstarBlackguard` ｜_Starlight
 - **黑星新晋者** — `RandomHumanoidSpawnerBlackstarInitiate` ｜_Starlight
 - **黑星军团士兵** — `RandomHumanoidSpawnerBlackstarLegionnaire` ｜_Starlight
 - **黑星恐行者** — `RandomHumanoidSpawnerBlackstarOperative` ｜_Starlight
 - **梅德塔克橡皮章** — `RubberStampMedTak` ｜父类: RubberStampBase,BaseMedTakContraband ｜_Starlight
-- **MedTak补给架** — `ShelfMedTak` ｜父类: ShelfChemistry ｜_Starlight
+- **MedTak补给架** — `ShelfMedTak` ｜父类: ShelfChemistry ｜_Starlight ｜描述: A sturdy and compact shelf for holding medical supplies.
 - **MedTak补给架** — `ShelfMedTakSecure` ｜父类: ShelfMedTak ｜_Starlight
 - **MedTak补给架** — `ShelfMedTakSecureFilledChems` ｜父类: ShelfMedTakSecure ｜_Starlight
 - **MedTak补给架** — `ShelfMedTakSecureFilledCryo` ｜父类: ShelfMedTakSecure ｜_Starlight
 - **MedTak补给架** — `ShelfMedTakSecureFilledTopicals` ｜父类: ShelfMedTakSecure ｜_Starlight
-- **高速竞速轮滑鞋** — `SkatesRacing` ｜父类: ClothingShoesSkates ｜_Starlight
-- **超酷高速竞速轮滑鞋** — `SkatesRacingCool` ｜父类: ClothingShoesSkatesCool ｜_Starlight
+- **高速竞速轮滑鞋** — `SkatesRacing` ｜父类: ClothingShoesSkates ｜_Starlight ｜描述: SuperGlideTM racing skates with built in collision protection!
+- **超酷高速竞速轮滑鞋** — `SkatesRacingCool` ｜父类: ClothingShoesSkatesCool ｜_Starlight ｜描述: SuperGlideTM racing skates with built in collision protection!
 - **泡沫军团太空王牌** — `SkubGun` ｜父类: WeaponRifleFoam ｜_Starlight
 - **Skub帽** — `SkubHat` ｜父类: ClothingHeadHatSkub ｜_Starlight
 - **万能ID卡** — `SkubIDCard` ｜父类: UniversalIDCard ｜_Starlight
-- **斯卡布包** — `SkubPack` ｜父类: ClothingBackpack ｜_Starlight
-- **斯卡布 PDA** — `SkubPDA` ｜父类: AdminPDA ｜_Starlight
+- **斯卡布包** — `SkubPack` ｜父类: ClothingBackpack ｜_Starlight ｜描述: what... the fuck...
+- **斯卡布 PDA** — `SkubPDA` ｜父类: AdminPDA ｜_Starlight ｜描述: Very skubular.
 - **斯卡布广域弹幕** — `SkubSpreadShot` ｜父类: Skub ｜_Starlight
 - **斯库布服** — `SkubSuit` ｜父类: ClothingOuterSkub ｜_Starlight
 - **常胜机甲生成器** — `SpawnMechAlwaysFilled` ｜父类: MarkerBase ｜_Starlight
 - **庄家机甲生成器** — `SpawnMechHouseFilled` ｜父类: MarkerBase ｜_Starlight
 - **斯卡布** — `SpeedySkub` ｜父类: Skub ｜_Starlight
-- **梅德塔克停滞医疗床** — `StasisBedMedTak` ｜父类: BaseMachine ｜_Starlight
-- **无袖高速竞速服** — `SuitRacingArmless` ｜父类: SuitRacingRandom,ClothingUniformRandomArmless ｜_Starlight
-- **露腰高速竞速服** — `SuitRacingBra` ｜父类: SuitRacingRandom,ClothingUniformRandomBra ｜_Starlight
-- `模板` **高速竞速服** — `SuitRacingRandom` ｜父类: ClothingUniformRandom ｜_Starlight
+- **梅德塔克停滞医疗床** — `StasisBedMedTak` ｜父类: BaseMachine ｜_Starlight ｜描述: A dual stasis/medical bed built for MedTak AV-40 shuttles.
+Ensure stasis is disabled before applying chemicals.
+- **无袖高速竞速服** — `SuitRacingArmless` ｜父类: SuitRacingRandom,ClothingUniformRandomArmless ｜_Starlight ｜描述: This just looks like normal clothing...
+- **露腰高速竞速服** — `SuitRacingBra` ｜父类: SuitRacingRandom,ClothingUniformRandomBra ｜_Starlight ｜描述: This just looks like normal clothing...
+- `模板` **高速竞速服** — `SuitRacingRandom` ｜父类: ClothingUniformRandom ｜_Starlight ｜描述: This just looks like normal clothing...
 - **随机高速竞速服生成器** — `SuitRacingRandomSpawner` ｜父类: SuitRacingRandom ｜_Starlight
-- **高速竞速衬衫** — `SuitRacingShirt` ｜父类: SuitRacingRandom,ClothingUniformRandomShirt ｜_Starlight
-- **赤膊高速竞速服** — `SuitRacingShorts` ｜父类: SuitRacingRandom,ClothingUniformRandomShorts ｜_Starlight
-- **标准高速竞速服** — `SuitRacingStandard` ｜父类: SuitRacingRandom,ClothingUniformRandomStandard ｜_Starlight
-- **高级手术工具包** — `SurgicalKitMedTak` ｜父类: BaseSurgicalKit,BaseMedTakContraband ｜_Starlight
+- **高速竞速衬衫** — `SuitRacingShirt` ｜父类: SuitRacingRandom,ClothingUniformRandomShirt ｜_Starlight ｜描述: This just looks like normal clothing...
+- **赤膊高速竞速服** — `SuitRacingShorts` ｜父类: SuitRacingRandom,ClothingUniformRandomShorts ｜_Starlight ｜描述: This just looks like normal clothing...
+- **标准高速竞速服** — `SuitRacingStandard` ｜父类: SuitRacingRandom,ClothingUniformRandomStandard ｜_Starlight ｜描述: This just looks like normal clothing...
+- **高级手术工具包** — `SurgicalKitMedTak` ｜父类: BaseSurgicalKit,BaseMedTakContraband ｜_Starlight ｜描述: A compact kit of surgical tools.
 - **摘下就会把你化成灰的帽子** — `TophatThatFuckingAshesYou` ｜父类: TophatThatFuckingKillsYou ｜_Starlight
 - **摘下就会把你化成灰的帽子** — `TophatThatFuckingAshesYouGhost` ｜父类: TophatThatFuckingKillsYouGhostBase,TophatThatFuckingAshesYou ｜_Starlight
 - **摘下就会把你炸成碎块的帽子** — `TophatThatFuckingGibsYou` ｜父类: TophatThatFuckingKillsYou ｜_Starlight
 - **摘下就会把你炸成碎块的帽子** — `TophatThatFuckingGibsYouGhost` ｜父类: TophatThatFuckingKillsYouGhostBase,TophatThatFuckingGibsYou ｜_Starlight
-- **摘下就会杀死你的帽子** — `TophatThatFuckingKillsYou` ｜父类: ClothingHeadHatMagician ｜_Starlight
+- **摘下就会杀死你的帽子** — `TophatThatFuckingKillsYou` ｜父类: ClothingHeadHatMagician ｜_Starlight ｜描述: Does what it says on the tin. Literally fucking evil ass hat. Don't wear this unless you hate yourself.
 - **摘下就会杀死你的帽子** — `TophatThatFuckingKillsYouGhost` ｜父类: TophatThatFuckingKillsYouGhostBase,TophatThatFuckingKillsYou ｜_Starlight
 - `模板` **TophatThatFuckingKillsYouGhostBase** — `TophatThatFuckingKillsYouGhostBase` ｜_Starlight
-- `模板` **梅德塔克信标植入物** — `TrackingImplantMedTak` ｜父类: DeathRattleImplant ｜_Starlight
+- `模板` **梅德塔克信标植入物** — `TrackingImplantMedTak` ｜父类: DeathRattleImplant ｜_Starlight ｜描述: This implant will inform the nearest MedTak unit should the user fall into critical condition or die.
 - **梅德塔克青铜信标植入物** — `TrackingImplantMedTakBronze` ｜父类: TrackingImplantMedTak ｜_Starlight
 - **梅德塔克黄金信标植入物** — `TrackingImplantMedTakGold` ｜父类: TrackingImplantMedTak ｜_Starlight
 - **梅德塔克白银信标植入物** — `TrackingImplantMedTakSilver` ｜父类: TrackingImplantMedTak ｜_Starlight
 - **梅德塔克小队信标植入物** — `TrackingImplantMedTakTeam` ｜父类: TrackingImplantMedTak ｜_Starlight
-- **CODE-6“仲裁”** — `WeaponMedTakLightMachineGun` ｜父类: BaseWeaponLightMachineGun,BaseMedTakContraband ｜_Starlight
-- **CODE-4“分诊”** — `WeaponMedTakPistol` ｜父类: BaseWeaponPistol,BaseMedTakContraband ｜_Starlight
-- **CODE-9“服从”** — `WeaponMedTakRifle` ｜父类: BaseWeaponRifle,BaseMedTakContraband ｜_Starlight
-- **CODE-9 ROW 型** — `WeaponMedTakRifleROW` ｜父类: BaseItem ｜_Starlight
-- **CODE-11“妥协”** — `WeaponMedTakShotgun` ｜父类: BaseWeaponShotgunAny,BaseGunWieldable,BaseMedTakContraband ｜_Starlight
-- **CODE-10“介入”** — `WeaponMedTakSubMachineGun` ｜父类: BaseWeaponSubMachineGun,BaseMedTakContraband ｜_Starlight
-- **飞鸟推进器** — `WeaponMinigunRacingThruster` ｜父类: BaseItem ｜_Starlight
-- **戈莫拉脉冲手枪** — `WeaponPulsePistolCasino` ｜父类: BaseWeaponBatterySmall,BaseCasinoContraband ｜_Starlight
-- **普罗米修斯战斗步枪** — `WeaponRiflePrometheus` ｜父类: WeaponRifleLecter,BaseMajorContraband ｜_Starlight
-- **黑星哨戒炮塔** — `WeaponTurretBlackstar` ｜父类: BaseWeaponBallisticTurret,BaseMajorContraband ｜_Starlight
-- **呜诶手雷** — `WehGrenade` ｜父类: BaseCivilianContraband,SmokeGrenade ｜_Starlight
-- **呜诶手雷+** — `WehGrenadePlus` ｜父类: WehGrenade ｜_Starlight
-- **呜诶手雷++** — `WehGrenadeUltraDeluxe` ｜父类: WehGrenade ｜_Starlight
+- **CODE-6“仲裁”** — `WeaponMedTakLightMachineGun` ｜父类: BaseWeaponLightMachineGun,BaseMedTakContraband ｜_Starlight ｜描述: An ultralight assault LMG developed for MedTak security.
+Accepts .30 box magazines.
+- **CODE-4“分诊”** — `WeaponMedTakPistol` ｜父类: BaseWeaponPistol,BaseMedTakContraband ｜_Starlight ｜描述: A heavy sidearm issued to MedTak operators.
+Accepts .40 pistol magazines.
+- **CODE-9“服从”** — `WeaponMedTakRifle` ｜父类: BaseWeaponRifle,BaseMedTakContraband ｜_Starlight ｜描述: A bullpuped heavy rifle designed for MedTak operators.
+Accepts heavy .20 rifle magazines.
+- **CODE-9 ROW 型** — `WeaponMedTakRifleROW` ｜父类: BaseItem ｜_Starlight ｜描述: A cut-down CODE-9 designed for cyborgs, feeding from a slowly recharging internal ammo fabricator
+- **CODE-11“妥协”** — `WeaponMedTakShotgun` ｜父类: BaseWeaponShotgunAny,BaseGunWieldable,BaseMedTakContraband ｜_Starlight ｜描述: An sleek drum-fed shotgun, rounds are chambered semi-automatically with the secondary trigger.
+- **CODE-10“介入”** — `WeaponMedTakSubMachineGun` ｜父类: BaseWeaponSubMachineGun,BaseMedTakContraband ｜_Starlight ｜描述: A compact submachine gun with an integral supressor. It features an advanced recoil system, but suffers slightly in rate of fire.
+- **飞鸟推进器** — `WeaponMinigunRacingThruster` ｜父类: BaseItem ｜_Starlight ｜描述: Vroom vroooooom!
+- **戈莫拉脉冲手枪** — `WeaponPulsePistolCasino` ｜父类: BaseWeaponBatterySmall,BaseCasinoContraband ｜_Starlight ｜描述: Success depends on forethought, dispassionate calculation of probabilities, accounting for every stray variable. Thats why this gun is the Gamorrah Weapon.
+- **普罗米修斯战斗步枪** — `WeaponRiflePrometheus` ｜父类: WeaponRifleLecter,BaseMajorContraband ｜_Starlight ｜描述: A heavily modified Lecter battle rifle issued to Blackstar Dreadwalker operatives. A 3-round burst mechanism has been machined into the action, making it lethal at any range. Feeds from .20 rifle maga
+- **黑星哨戒炮塔** — `WeaponTurretBlackstar` ｜父类: BaseWeaponBallisticTurret,BaseMajorContraband ｜_Starlight ｜描述: A high-cycle ballistic auto-turret deployed by Blackstar mercenary operatives.
+- **呜诶手雷** — `WehGrenade` ｜父类: BaseCivilianContraband,SmokeGrenade ｜_Starlight ｜描述: Grenade filled to the brim with weh foam.
+- **呜诶手雷+** — `WehGrenadePlus` ｜父类: WehGrenade ｜_Starlight ｜描述: Grenade filled to the brin with weh foam. Now with bluespace technology!
+- **呜诶手雷++** — `WehGrenadeUltraDeluxe` ｜父类: WehGrenade ｜_Starlight ｜描述: Grenade filled to the brin with weh foam. We heard you liked bluespace, so we put bluespace in your bluespace so you can bluespace while you bluespace. Weh.
 - **加固窗门** — `WindoorSecureMedTakLocked` ｜父类: WindoorSecure ｜_Starlight

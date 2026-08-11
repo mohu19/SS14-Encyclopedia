@@ -3,7 +3,7 @@
 > 来源层分布: 上游 572, _Starlight 238, _FarHorizons 4, _TP 1
 
 - **空气罐** — `AirTankFilled` ｜父类: AirTank
-- `模板` **Q 的终结 # no longer "the" since when you emote it would come out to "the the end of Q x"** — `BasePaperQuietChaos` ｜父类: BaseUnburnablePaper ｜_Starlight
+- `模板` **Q 的终结 # no longer "the" since when you emote it would come out to "the the end of Q x"** — `BasePaperQuietChaos` ｜父类: BaseUnburnablePaper ｜_Starlight ｜描述: dreadful paper that cant be faxed. but has it's own ways of getting around.
 - `模板` **BaseStarlightAdmemePaper** — `BaseStarlightAdmemePaper` ｜父类: BaseItem ｜_Starlight
 - `模板` **BaseUnburnablePaper** — `BaseUnburnablePaper` ｜父类: BaseItem ｜_Starlight
 - **BigBoxSyndicateBundle** — `BigBoxSyndicateBundle` ｜父类: BigBox ｜_Starlight
@@ -12,29 +12,29 @@
 - **化学品箱** — `BottleCaseParamedicFilled` ｜父类: BottleCaseMedical ｜_Starlight
 - **化学品箱** — `BottleCaseRoboticsFilled` ｜父类: BottleCaseRobotics ｜_Starlight
 - **化学品箱** — `BottleCaseSecurityFilled` ｜父类: BottleCaseSecurity ｜_Starlight
-- **NT“农化真有趣”套装** — `BoxAgrichem` ｜父类: BoxCardboard
-- **烧杯盒** — `BoxBeaker` ｜父类: BoxCardboard
-- **大烧杯箱** — `BoxBeakerLarge` ｜父类: BoxCardboard ｜_Starlight
-- **小烧杯箱** — `BoxBeakerSmall` ｜父类: BoxCardboard ｜_Starlight
-- **贝尔佩罗套装袋** — `BoxBelpero` ｜父类: ClothingBackpackDuffel ｜_Starlight
+- **NT“农化真有趣”套装** — `BoxAgrichem` ｜父类: BoxCardboard ｜描述: For the budding botanist ready to learn about maximizing farm output. This faded box must be at least 50 years old.
+- **烧杯盒** — `BoxBeaker` ｜父类: BoxCardboard ｜描述: A box full of beakers.
+- **大烧杯箱** — `BoxBeakerLarge` ｜父类: BoxCardboard ｜_Starlight ｜描述: A box containing four large beakers.
+- **小烧杯箱** — `BoxBeakerSmall` ｜父类: BoxCardboard ｜_Starlight ｜描述: A box containing four small beakers.
+- **贝尔佩罗套装袋** — `BoxBelpero` ｜父类: ClothingBackpackDuffel ｜_Starlight ｜描述: Standard-issue attire authorized for formal duels. Any damage sustained during engagement is considered acceptable under Association bylaws.
 - **黑光灯箱** — `Boxblacklight` ｜父类: BoxLightbulb ｜_Starlight
-- **贵族套装袋** — `BoxBloodstained` ｜父类: ClothingBackpackDuffel ｜_Starlight
-- **裹尸袋盒** — `BoxBodyBag` ｜父类: BoxCardboard
-- **瓶子盒** — `BoxBottle` ｜父类: BoxCardboard
-- **蜡烛盒** — `BoxCandle` ｜父类: BoxCardboard
+- **贵族套装袋** — `BoxBloodstained` ｜父类: ClothingBackpackDuffel ｜_Starlight ｜描述: I never drink… wine.
+- **裹尸袋盒** — `BoxBodyBag` ｜父类: BoxCardboard ｜描述: Contains body bags.
+- **瓶子盒** — `BoxBottle` ｜父类: BoxCardboard ｜描述: A box full of bottles.
+- **蜡烛盒** — `BoxCandle` ｜父类: BoxCardboard ｜描述: This box is specifically moulded to only carry candles.
 - **小蜡烛盒** — `BoxCandleSmall` ｜父类: BoxCandle
 - **舰桥电路板提箱** — `BoxCaptainCircuitboards` ｜父类: ToteBase
-- **纸板箱** — `BoxCardboard` ｜父类: BoxBase
-- **小纸板箱** — `BoxCardboardSmall` ｜父类: BoxBaseSmall
+- **纸板箱** — `BoxCardboard` ｜父类: BoxBase ｜描述: A cardboard box for storing things.
+- **小纸板箱** — `BoxCardboardSmall` ｜父类: BoxBaseSmall ｜描述: A small cardboard box for storing things.
 - **工程部电路板提箱** — `BoxCECircuitboards` ｜父类: ToteBase
-- **清洁手雷盒** — `BoxCleanerGrenades` ｜父类: BoxCardboard
+- **清洁手雷盒** — `BoxCleanerGrenades` ｜父类: BoxCardboard ｜描述: A box full of cleanades.
 - **医疗部电路板提箱** — `BoxCMOCircuitboards` ｜父类: ToteBase
-- **太空信使衣箱** — `BoxCourier` ｜父类: ClothingBackpackTrunkSpaceCourier ｜_Starlight
-- **太空信使衣箱** — `BoxCourierPAI` ｜父类: ClothingBackpackTrunkSpaceCourierPAI ｜_Starlight
-- **飞镖盒** — `BoxDarts` ｜父类: BoxCardboard
-- **死亡警报植入物盒** — `BoxDeathRattleImplants` ｜父类: BoxCardboard,BaseSyndicateContraband
-- **雷管盒** — `BoxDetonator` ｜父类: BoxCardboard
-- **助理加密密钥盒** — `BoxEncryptionKeyAssistant` ｜父类: BoxCardboard
+- **太空信使衣箱** — `BoxCourier` ｜父类: ClothingBackpackTrunkSpaceCourier ｜_Starlight ｜描述: A stylish green costume bundle themed after a legendary space courier. Ranked 9/13 on popular review websites!
+- **太空信使衣箱** — `BoxCourierPAI` ｜父类: ClothingBackpackTrunkSpaceCourierPAI ｜_Starlight ｜描述: A stylish green costume bundle themed after a legendary space courier. Ranked 9/13 on popular review websites!
+- **飞镖盒** — `BoxDarts` ｜父类: BoxCardboard ｜描述: A box filled with colorful darts.
+- **死亡警报植入物盒** — `BoxDeathRattleImplants` ｜父类: BoxCardboard,BaseSyndicateContraband ｜描述: Six deathrattle implants for the whole squad.
+- **雷管盒** — `BoxDetonator` ｜父类: BoxCardboard ｜描述: A box of explosive detonators and triggers.
+- **助理加密密钥盒** — `BoxEncryptionKeyAssistant` ｜父类: BoxCardboard ｜描述: A box of spare encryption keys.
 - **货运部加密密钥盒** — `BoxEncryptionKeyCargo` ｜父类: BoxEncryptionKeyAssistant
 - **工程部加密密钥盒** — `BoxEncryptionKeyEngineering` ｜父类: BoxEncryptionKeyAssistant
 - **远征加密密钥箱** — `BoxEncryptionKeyExpedition` ｜父类: BoxEncryptionKeyAssistant ｜_Starlight
@@ -45,104 +45,104 @@
 - **科研部加密密钥盒** — `BoxEncryptionKeyScience` ｜父类: BoxEncryptionKeyAssistant
 - **安保部加密密钥盒** — `BoxEncryptionKeySecurity` ｜父类: BoxEncryptionKeyAssistant
 - **服务部加密密钥盒** — `BoxEncryptionKeyService` ｜父类: BoxEncryptionKeyAssistant
-- **辛迪加加密密钥盒** — `BoxEncryptionKeySyndie` ｜父类: BoxEncryptionKeyAssistant,BaseSyndicateContraband
-- **信封盒** — `BoxEnvelope` ｜父类: BoxCardboard
-- **击发销箱** — `BoxFiringPin` ｜父类: BoxCardboard ｜_Starlight
-- **激光晶体箱** — `BoxFiringPinLaser` ｜父类: BoxCardboard ｜_Starlight
-- **手枪击发销箱** — `BoxFiringPinPistol` ｜父类: BoxCardboard ｜_Starlight
-- **信号棒盒** — `BoxFlare` ｜父类: BoxCardboard
-- **闪光弹盒** — `BoxFlashbang` ｜父类: BoxCardboard
+- **辛迪加加密密钥盒** — `BoxEncryptionKeySyndie` ｜父类: BoxEncryptionKeyAssistant,BaseSyndicateContraband ｜描述: Two syndicate encryption keys for the price of one. Miniaturized for ease of use.
+- **信封盒** — `BoxEnvelope` ｜父类: BoxCardboard ｜描述: A box filled with envelopes.
+- **击发销箱** — `BoxFiringPin` ｜父类: BoxCardboard ｜_Starlight ｜描述: a box full of standard firing pins
+- **激光晶体箱** — `BoxFiringPinLaser` ｜父类: BoxCardboard ｜_Starlight ｜描述: a box full of laser crystals
+- **手枪击发销箱** — `BoxFiringPinPistol` ｜父类: BoxCardboard ｜_Starlight ｜描述: a box full of pistol firing pins
+- **信号棒盒** — `BoxFlare` ｜父类: BoxCardboard ｜描述: A box of flares. Party time.
+- **闪光弹盒** — `BoxFlashbang` ｜父类: BoxCardboard ｜描述: WARNING: These devices are extremely dangerous and can cause blindness or deafness in repeated use.
 - **写字板** — `BoxFolderClipboardFilled` ｜父类: BoxFolderClipboard ｜_Starlight
-- **取证垫盒** — `BoxForensicPad` ｜父类: BoxCardboard
-- **手铐盒** — `BoxHandcuff` ｜父类: BoxCardboard
-- **耳机盒** — `BoxHeadset` ｜父类: BoxCardboard
+- **取证垫盒** — `BoxForensicPad` ｜父类: BoxCardboard ｜描述: A box of forensic pads.
+- **手铐盒** — `BoxHandcuff` ｜父类: BoxCardboard ｜描述: A box full of handcuffs.
+- **耳机盒** — `BoxHeadset` ｜父类: BoxCardboard ｜描述: A box of spare assistant headsets.
 - **人事主管电路板提箱** — `BoxHoPCircuitboards` ｜父类: ToteBase
 - **人事主管印章盒** — `BoxHoPStamps` ｜父类: BoxStamps
 - **安保部电路板提箱** — `BoxHoSCircuitboards` ｜父类: ToteBase
-- **拥抱盒** — `BoxHug` ｜父类: BoxSurvival
-- **拥抱箱** — `BoxHugDwarf` ｜父类: BoxSurvival ｜_Starlight
+- **拥抱盒** — `BoxHug` ｜父类: BoxSurvival ｜描述: A special box for sensitive people.
+- **拥抱箱** — `BoxHugDwarf` ｜父类: BoxSurvival ｜_Starlight ｜描述: A special box for sensitive people. This one is labelled to contain Dwarf rations.
 - **拥抱盒** — `BoxHugHealing` ｜父类: BoxHug
 - **拥抱盒** — `BoxHugNitrogen` ｜父类: BoxHug
-- **生存箱** — `BoxHugNonBreather` ｜父类: BoxSurvivalNonBreather ｜_Starlight
-- **ID卡盒** — `BoxID` ｜父类: BoxCardboard
-- **充气墙盒** — `BoxInflatable` ｜父类: BoxCardboard
-- **化学罐箱** — `BoxJug` ｜父类: BoxCardboard ｜_Starlight
-- **乳胶手套盒** — `BoxLatexGloves` ｜父类: BoxCardboard
-- **铅衬盒** — `BoxLeadLined` ｜父类: BoxCardboard
-- **灯泡盒** — `BoxLightbulb` ｜父类: BoxCardboard
+- **生存箱** — `BoxHugNonBreather` ｜父类: BoxSurvivalNonBreather ｜_Starlight ｜描述: A special box for sensitive people who don't need to breathe.
+- **ID卡盒** — `BoxID` ｜父类: BoxCardboard ｜描述: A box of spare blank ID cards.
+- **充气墙盒** — `BoxInflatable` ｜父类: BoxCardboard ｜描述: Inflatable walls are not to be used as floatation devices.
+- **化学罐箱** — `BoxJug` ｜父类: BoxCardboard ｜_Starlight ｜描述: A box containing four chemical storage jugs.
+- **乳胶手套盒** — `BoxLatexGloves` ｜父类: BoxCardboard ｜描述: Contains sterile latex gloves.
+- **铅衬盒** — `BoxLeadLined` ｜父类: BoxCardboard ｜描述: This box stymies the transmission of harmful radiation.
+- **灯泡盒** — `BoxLightbulb` ｜父类: BoxCardboard ｜描述: This box is shaped on the inside so that only light tubes and bulbs fit.
 - **彩色混装灯泡盒** — `BoxLightbulbColorfulMixed` ｜父类: BoxLightbulb
 - **混装灯具盒** — `BoxLightMixed` ｜父类: BoxLightbulb
 - **灯管盒** — `BoxLighttube` ｜父类: BoxLightbulb
 - **彩色混装灯管盒** — `BoxLighttubeColorfulMixed` ｜父类: BoxLighttube
 - **节日灯管盒** — `BoxLighttubeHoliday` ｜父类: BoxLightbulb
-- **弹匣盒** — `BoxMagazine` ｜父类: BoxCardboard
-- **.25 无壳橡胶弹弹匣箱** — `BoxMagazineCaselessRifleRubber` ｜父类: BoxMagazine ｜_Starlight
-- **.30步枪弹匣盒** — `BoxMagazineLightRifle` ｜父类: BoxMagazine
-- **.30步枪训练弹匣盒** — `BoxMagazineLightRiflePractice` ｜父类: BoxMagazine
-- **.30 步枪橡胶弹弹匣箱** — `BoxMagazineLightRifleRubber` ｜父类: BoxMagazine ｜_Starlight
-- **“维克托”橡胶弹弹匣箱** — `BoxMagazineMagnumSubMachineGunRubber` ｜父类: BoxMagazine ｜_Starlight
-- **.35自动手枪弹匣盒** — `BoxMagazinePistol` ｜父类: BoxMagazine
-- **.25无壳弹匣盒** — `BoxMagazinePistolCaselessRifle` ｜父类: BoxMagazine
-- **.25无壳训练弹匣盒** — `BoxMagazinePistolCaselessRiflePractice` ｜父类: BoxMagazine
-- **.35自动冲锋手枪弹匣盒** — `BoxMagazinePistolHighCapacity` ｜父类: BoxMagazine
-- **.35自动冲锋手枪训练弹匣盒** — `BoxMagazinePistolHighCapacityPractice` ｜父类: BoxMagazine
-- **.35 自动冲锋手枪橡胶弹弹匣箱** — `BoxMagazinePistolHighCapacityRubber` ｜父类: BoxMagazine ｜_Starlight
-- **.35自动手枪训练弹匣盒** — `BoxMagazinePistolPractice` ｜父类: BoxMagazine
-- **.35 自动手枪橡胶弹弹匣箱** — `BoxMagazinePistolRubber` ｜父类: BoxMagazine ｜_Starlight
-- **.35自动冲锋枪弹匣盒** — `BoxMagazinePistolSubMachineGun` ｜父类: BoxMagazine
-- **.35自动冲锋枪训练弹匣盒** — `BoxMagazinePistolSubMachineGunPractice` ｜父类: BoxMagazine
-- **.35 自动冲锋枪橡胶弹弹匣箱** — `BoxMagazinePistolSubMachineGunRubber` ｜父类: BoxMagazine ｜_Starlight
-- **WT550 .35自动弹匣盒** — `BoxMagazinePistolSubMachineGunTopMounted` ｜父类: BoxMagazine
-- **.20步枪训练弹匣盒** — `BoxMagazineRiflePractice` ｜父类: BoxMagazine
-- **.20 步枪橡胶弹弹匣箱** — `BoxMagazineRifleRubber` ｜父类: BoxMagazine ｜_Starlight
-- **.20步枪弹匣盒** — `BoxMagazineRifleSP` ｜父类: BoxMagazine
-- **12号鹿弹弹鼓盒 # Starlight change: .50 -> 12 gauge** — `BoxMagazineShotgun` ｜父类: BoxMagazine
-- **12号豆袋弹弹鼓盒 # Starlight change: .50 -> 12 gauge** — `BoxMagazineShotgunBeanbag` ｜父类: BoxMagazine
-- **12号燃烧弹弹鼓盒 # Starlight change: .50 -> 12 gauge** — `BoxMagazineShotgunIncendiary` ｜父类: BoxMagazine
-- **12号独头弹弹鼓盒 # Starlight change: .50 -> 12 gauge** — `BoxMagazineShotgunSlug` ｜父类: BoxMagazine
+- **弹匣盒** — `BoxMagazine` ｜父类: BoxCardboard ｜描述: A box full of magazines.
+- **.25 无壳橡胶弹弹匣箱** — `BoxMagazineCaselessRifleRubber` ｜父类: BoxMagazine ｜_Starlight ｜描述: A box full of
+- **.30步枪弹匣盒** — `BoxMagazineLightRifle` ｜父类: BoxMagazine ｜描述: A box full of .30 rifle magazines.
+- **.30步枪训练弹匣盒** — `BoxMagazineLightRiflePractice` ｜父类: BoxMagazine ｜描述: A box full of .30 rifle (practice) magazines.
+- **.30 步枪橡胶弹弹匣箱** — `BoxMagazineLightRifleRubber` ｜父类: BoxMagazine ｜_Starlight ｜描述: A box full of .30 rifle (practice) magazines.
+- **“维克托”橡胶弹弹匣箱** — `BoxMagazineMagnumSubMachineGunRubber` ｜父类: BoxMagazine ｜_Starlight ｜描述: A box full of Vector (rubber) magazines.
+- **.35自动手枪弹匣盒** — `BoxMagazinePistol` ｜父类: BoxMagazine ｜描述: A box full of pistol .35 auto magazines.
+- **.25无壳弹匣盒** — `BoxMagazinePistolCaselessRifle` ｜父类: BoxMagazine ｜描述: A box full of .25 caseless magazines.
+- **.25无壳训练弹匣盒** — `BoxMagazinePistolCaselessRiflePractice` ｜父类: BoxMagazine ｜描述: A box full of .25 caseless practice magazines.
+- **.35自动冲锋手枪弹匣盒** — `BoxMagazinePistolHighCapacity` ｜父类: BoxMagazine ｜描述: A box full of machine pistol .35 auto magazines.
+- **.35自动冲锋手枪训练弹匣盒** — `BoxMagazinePistolHighCapacityPractice` ｜父类: BoxMagazine ｜描述: A box full of machine pistol .35 auto (practice) magazines.
+- **.35 自动冲锋手枪橡胶弹弹匣箱** — `BoxMagazinePistolHighCapacityRubber` ｜父类: BoxMagazine ｜_Starlight ｜描述: A box full of machine pistol .35 auto (rubber) magazines.
+- **.35自动手枪训练弹匣盒** — `BoxMagazinePistolPractice` ｜父类: BoxMagazine ｜描述: A box full of  magazines.
+- **.35 自动手枪橡胶弹弹匣箱** — `BoxMagazinePistolRubber` ｜父类: BoxMagazine ｜_Starlight ｜描述: A box full of pistol .35 auto (rubber) magazines.
+- **.35自动冲锋枪弹匣盒** — `BoxMagazinePistolSubMachineGun` ｜父类: BoxMagazine ｜描述: A box full of SMG .35 auto magazines.
+- **.35自动冲锋枪训练弹匣盒** — `BoxMagazinePistolSubMachineGunPractice` ｜父类: BoxMagazine ｜描述: A box full of SMG .35 auto (practice) magazines.
+- **.35 自动冲锋枪橡胶弹弹匣箱** — `BoxMagazinePistolSubMachineGunRubber` ｜父类: BoxMagazine ｜_Starlight ｜描述: A box full of SMG .35 auto (rubber) magazines.
+- **WT550 .35自动弹匣盒** — `BoxMagazinePistolSubMachineGunTopMounted` ｜父类: BoxMagazine ｜描述: A box full of WT550 .35 auto magazines.
+- **.20步枪训练弹匣盒** — `BoxMagazineRiflePractice` ｜父类: BoxMagazine ｜描述: A box full of .20 rifle (practice) magazines.
+- **.20 步枪橡胶弹弹匣箱** — `BoxMagazineRifleRubber` ｜父类: BoxMagazine ｜_Starlight ｜描述: A box full of .20 rifle (rubber) magazines.
+- **.20步枪弹匣盒** — `BoxMagazineRifleSP` ｜父类: BoxMagazine ｜描述: A box full of .20 rifle magazines.
+- **12号鹿弹弹鼓盒 # Starlight change: .50 -> 12 gauge** — `BoxMagazineShotgun` ｜父类: BoxMagazine ｜描述: A box full of 12 gauge buckshot ammo drums.
+- **12号豆袋弹弹鼓盒 # Starlight change: .50 -> 12 gauge** — `BoxMagazineShotgunBeanbag` ｜父类: BoxMagazine ｜描述: A box full of 12 gauge beanbag ammo drums.
+- **12号燃烧弹弹鼓盒 # Starlight change: .50 -> 12 gauge** — `BoxMagazineShotgunIncendiary` ｜父类: BoxMagazine ｜描述: A box full of 12 gauge incendiary ammo drums.
+- **12号独头弹弹鼓盒 # Starlight change: .50 -> 12 gauge** — `BoxMagazineShotgunSlug` ｜父类: BoxMagazine ｜描述: A box full of 12 gauge slug ammo drums.
 - **法则电路提箱** — `BoxMagiCircuitBoards` ｜父类: ToteBase ｜_Starlight
-- **介子护目镜盒** — `BoxMesonScanners` ｜父类: BoxCardboard
+- **介子护目镜盒** — `BoxMesonScanners` ｜父类: BoxCardboard ｜描述: A box of spare meson goggles.
 - **生存箱** — `BoxMime` ｜父类: BoxSurvival
-- **生存箱** — `BoxMimeDwarf` ｜父类: BoxSurvival ｜_Starlight
+- **生存箱** — `BoxMimeDwarf` ｜父类: BoxSurvival ｜_Starlight ｜描述: It's a box with basic internals inside. This one is labelled to contain Dwarf rations.
 - **生存箱** — `BoxMimeMoth` ｜父类: BoxSurvival
 - **生存箱** — `BoxMimeNitrogen` ｜父类: BoxSurvivalNitrogen
 - **生存箱** — `BoxMimeNonBreather` ｜父类: BoxSurvivalNonBreather ｜_Starlight
-- **捕鼠夹盒** — `BoxMousetrap` ｜父类: BoxCardboard
-- **即食口粮** — `BoxMRE` ｜父类: BoxCardboard
-- **丁腈手套盒** — `BoxNitrileGloves` ｜父类: BoxCardboard
-- **甜点套装袋** — `BoxPancakes` ｜父类: ClothingBackpackDuffel ｜_Starlight
-- **PDA盒** — `BoxPDA` ｜父类: BoxCardboard
-- **初音未来日礼包** — `BoxPerformer` ｜父类: ClothingBackpackDuffel
-- **药瓶盒** — `BoxPillCanister` ｜父类: BoxCardboard
+- **捕鼠夹盒** — `BoxMousetrap` ｜父类: BoxCardboard ｜描述: This box is filled with mousetraps. Try not to get your hand stuck in one.
+- **即食口粮** — `BoxMRE` ｜父类: BoxCardboard ｜描述: A box of decades old military surplus rations. It is surprisingly not rotten.
+- **丁腈手套盒** — `BoxNitrileGloves` ｜父类: BoxCardboard ｜描述: Contains sterile nitrile gloves. Better than latex.
+- **甜点套装袋** — `BoxPancakes` ｜父类: ClothingBackpackDuffel ｜_Starlight ｜描述: Look like someone who cares more about pancakes than what others think of her. Look like-A ROBOT??!
+- **PDA盒** — `BoxPDA` ｜父类: BoxCardboard ｜描述: A box of spare PDA microcomputers.
+- **初音未来日礼包** — `BoxPerformer` ｜父类: ClothingBackpackDuffel ｜描述: Happy Hatsune Miku Day!
+- **药瓶盒** — `BoxPillCanister` ｜父类: BoxCardboard ｜描述: A box full of pill canisters.
 - **货运部电路板提箱** — `BoxQMCircuitboards` ｜父类: ToteBase
 - **军需官印章盒** — `BoxQMStamps` ｜父类: BoxStamps
 - **科研部电路板提箱** — `BoxRDCircuitboards` ｜父类: ToteBase
-- **礼服套装袋** — `BoxRegalia` ｜父类: ClothingBackpackDuffelBundle ｜_Starlight
-- **安保眼镜盒** — `BoxSecglasses` ｜父类: BoxCardboard
-- **安保 HUD 盒** — `BoxSechud` ｜父类: BoxCardboard
-- **印章盒** — `BoxStamps` ｜父类: BoxCardboardSmall
-- **无菌口罩盒** — `BoxSterileMask` ｜父类: BoxCardboard
-- **刺弹盒** — `BoxStinger` ｜父类: BoxCardboard
-- **太阳镜盒** — `BoxSunglasses` ｜父类: BoxCardboard
-- **生存盒** — `BoxSurvival` ｜父类: BoxCardboard
-- **芝士生存箱** — `BoxSurvivalCheese` ｜父类: BoxSurvival ｜_Starlight
-- **芝士拥抱箱** — `BoxSurvivalClownCheese` ｜父类: BoxHug ｜_Starlight
-- **生存箱** — `BoxSurvivalDwarf` ｜父类: BoxSurvival ｜_Starlight
-- **扩容生存盒** — `BoxSurvivalEngineering` ｜父类: BoxSurvival
-- **扩容生存箱** — `BoxSurvivalEngineeringDwarf` ｜父类: BoxSurvival ｜_Starlight
+- **礼服套装袋** — `BoxRegalia` ｜父类: ClothingBackpackDuffelBundle ｜_Starlight ｜描述: A fancy red mobster costume. The bag that contains it is marked with a shield insignia of what looks like a thumb.
+- **安保眼镜盒** — `BoxSecglasses` ｜父类: BoxCardboard ｜描述: A box of security glasses.
+- **安保 HUD 盒** — `BoxSechud` ｜父类: BoxCardboard ｜描述: A box of sechuds.
+- **印章盒** — `BoxStamps` ｜父类: BoxCardboardSmall ｜描述: A small box containing stamps.
+- **无菌口罩盒** — `BoxSterileMask` ｜父类: BoxCardboard ｜描述: This box contains sterile medical masks.
+- **刺弹盒** — `BoxStinger` ｜父类: BoxCardboard ｜描述: A box full of stinger grenades. Disperse!
+- **太阳镜盒** — `BoxSunglasses` ｜父类: BoxCardboard ｜描述: A box of cool flash-proof sunglasses.
+- **生存盒** — `BoxSurvival` ｜父类: BoxCardboard ｜描述: It's a box with basic internals inside.
+- **芝士生存箱** — `BoxSurvivalCheese` ｜父类: BoxSurvival ｜_Starlight ｜描述: It's a box with basic internals inside... and CHEESE!
+- **芝士拥抱箱** — `BoxSurvivalClownCheese` ｜父类: BoxHug ｜_Starlight ｜描述: A special box for sensitive people who also love cheese.
+- **生存箱** — `BoxSurvivalDwarf` ｜父类: BoxSurvival ｜_Starlight ｜描述: It's a box with basic internals inside. This one is labelled to contain Dwarf rations.
+- **扩容生存盒** — `BoxSurvivalEngineering` ｜父类: BoxSurvival ｜描述: It's a box with basic internals inside. This one is labelled to contain an extended-capacity tank.
+- **扩容生存箱** — `BoxSurvivalEngineeringDwarf` ｜父类: BoxSurvival ｜_Starlight ｜描述: It's a box with basic internals inside. This one is labelled to contain an extended-capacity tank and Dwarf rations.
 - **扩容生存箱** — `BoxSurvivalEngineeringNitrogen` ｜父类: BoxSurvivalEngineering
-- **扩容芝士生存箱** — `BoxSurvivalExtendedCheese` ｜父类: BoxSurvivalCheese ｜_Starlight
-- **生存箱** — `BoxSurvivalIPC` ｜父类: BoxSurvival ｜_Starlight
-- **生存箱** — `BoxSurvivalMedical` ｜父类: BoxSurvival
+- **扩容芝士生存箱** — `BoxSurvivalExtendedCheese` ｜父类: BoxSurvivalCheese ｜_Starlight ｜描述: It's a box with basic internals inside. This one is labelled to contain an extended-capacity tank... and CHEESE!
+- **生存箱** — `BoxSurvivalIPC` ｜父类: BoxSurvival ｜_Starlight ｜描述: It's a box with survival supplies for IPCs.
+- **生存箱** — `BoxSurvivalMedical` ｜父类: BoxSurvival ｜描述: It's a box with basic internals inside.
 - **芝士生存箱** — `BoxSurvivalMedicalCheese` ｜父类: BoxSurvivalCheese ｜_Starlight
 - **生存箱** — `BoxSurvivalMedicalDwarf` ｜父类: BoxSurvivalDwarf ｜_Starlight
 - **生存箱** — `BoxSurvivalMedicalNitrogen` ｜父类: BoxSurvivalMedical
-- **小纸箱** — `BoxSurvivalMilitaryDouble` ｜父类: BoxCardboardSmall
+- **小纸箱** — `BoxSurvivalMilitaryDouble` ｜父类: BoxCardboardSmall ｜描述: It's a box with basic internals inside. This one is labelled to contain an double extended-capacity tank.
 - **小纸箱** — `BoxSurvivalMilitaryDoubleNitrogen` ｜父类: BoxSurvivalMilitaryDouble
-- **生存箱** — `BoxSurvivalMimeCheese` ｜父类: BoxSurvivalCheese ｜_Starlight
+- **生存箱** — `BoxSurvivalMimeCheese` ｜父类: BoxSurvivalCheese ｜_Starlight ｜描述: It's a box with basic internals inside.
 - **生存箱** — `BoxSurvivalNitrogen` ｜父类: BoxSurvival
-- **生存箱** — `BoxSurvivalNonBreather` ｜父类: BoxSurvival ｜_Starlight
-- **生存箱** — `BoxSurvivalNonBreatherExtended` ｜父类: BoxSurvivalNonBreather ｜_Starlight
+- **生存箱** — `BoxSurvivalNonBreather` ｜父类: BoxSurvival ｜_Starlight ｜描述: It's a box with survival supplies for those with no need to breathe.
+- **生存箱** — `BoxSurvivalNonBreatherExtended` ｜父类: BoxSurvivalNonBreather ｜_Starlight ｜描述: It's a box with survival supplies for those with no need to breathe. This one is labelled to contain double rations.
 - **扩容生存箱** — `BoxSurvivalSecurity` ｜父类: BoxSurvivalEngineering
 - **扩容芝士生存箱** — `BoxSurvivalSecurityCheese` ｜父类: BoxSurvivalExtendedCheese ｜_Starlight
 - **扩容生存箱** — `BoxSurvivalSecurityDwarf` ｜父类: BoxSurvivalEngineeringDwarf ｜_Starlight
@@ -150,15 +150,15 @@
 - **扩容生存箱** — `BoxSurvivalSyndicate` ｜父类: BoxSurvivalEngineering
 - **芝士生存箱** — `BoxSurvivalSyndicateCheese` ｜父类: BoxSurvivalCheese ｜_Starlight
 - **扩容生存箱** — `BoxSurvivalSyndicateNitrogen` ｜父类: BoxSurvivalSyndicate
-- **注射器盒** — `BoxSyringe` ｜父类: BoxCardboard
-- **录音机箱** — `BoxTapeRecorder` ｜父类: BoxCardboard ｜_Starlight
-- **催泪瓦斯弹盒** — `BoxTearGas` ｜父类: BoxCardboard
-- **垃圾袋盒** — `BoxTrashbag` ｜父类: BoxCardboard
-- **餐具盒** — `BoxUtensil` ｜父类: BoxCardboard
-- **小瓶盒** — `BoxVial` ｜父类: BoxCardboard
+- **注射器盒** — `BoxSyringe` ｜父类: BoxCardboard ｜描述: A box full of syringes.
+- **录音机箱** — `BoxTapeRecorder` ｜父类: BoxCardboard ｜_Starlight ｜描述: A box with colorful cassette tapes and a tape recorder.
+- **催泪瓦斯弹盒** — `BoxTearGas` ｜父类: BoxCardboard ｜描述: A box full of tear gas grenades. Hold your breath.
+- **垃圾袋盒** — `BoxTrashbag` ｜父类: BoxCardboard ｜描述: A box of trashbags. Happy janitor noises.
+- **餐具盒** — `BoxUtensil` ｜父类: BoxCardboard ｜描述: A box filled with forks and spoons.
+- **小瓶盒** — `BoxVial` ｜父类: BoxCardboard ｜描述: A box full of vials.
 - **典狱长印章盒** — `BoxWardenStamps` ｜父类: BoxStamps ｜_Starlight
 - **暖光灯泡盒** — `BoxWarmLightbulb` ｜父类: BoxLightbulb
-- **束线带盒** — `BoxZiptie` ｜父类: BoxCardboard
+- **束线带盒** — `BoxZiptie` ｜父类: BoxCardboard ｜描述: A box full of zipties.
 - **棕色公文包** — `BriefcaseBrownFilled` ｜父类: BriefcaseBrown
 - **棕色公文包** — `BriefcaseIAAFilled` ｜父类: BriefcaseBrown ｜_Starlight
 - **棕色公文包** — `BriefcaseLawyerFilled` ｜父类: BriefcaseBrown ｜_Starlight
@@ -171,7 +171,7 @@
 - **中国湖安全武器箱** — `BriefcaseWeaponChinaLakeFilled` ｜父类: BriefcaseWeapon
 - **安全细剑箱** — `BriefcaseWeaponDMRFilled` ｜父类: BriefcaseWeapon ｜_Starlight
 - **Hushpup 安全武器箱** — `BriefcaseWeaponHushpupFilled` ｜父类: BriefcaseWeaponSmall
-- **化学合成套件** — `ChemicalSynthesisKit` ｜父类: BoxVial,BaseSyndicateContraband
+- **化学合成套件** — `ChemicalSynthesisKit` ｜父类: BoxVial,BaseSyndicateContraband ｜描述: A starter kit for the aspiring chemist, includes two vials of vestine for all your criminal needs!
 - **EOD 壁橱** — `ClosetBombFilled` ｜父类: ClosetBomb
 - **厨师壁橱** — `ClosetChefFilled` ｜父类: ClosetChef
 - **应急 壁橱** — `ClosetEmergencyFilledRandom` ｜父类: ClosetEmergency
@@ -192,7 +192,7 @@
 - **氮气应急 壁挂壁橱** — `ClosetWallEmergencyN2FilledRandom` ｜父类: ClosetWallEmergencyN2
 - **消防 壁挂壁橱** — `ClosetWallFireFilledRandom` ｜父类: ClosetWallFire
 - **维护 壁挂壁橱** — `ClosetWallMaintenanceFilledRandom` ｜父类: ClosetWall
-- **大气壁橱** — `ClosetWallWardrobeAtmosphericsFilled` ｜父类: ClosetWallAtmospherics
+- **大气壁橱** — `ClosetWallWardrobeAtmosphericsFilled` ｜父类: ClosetWallAtmospherics ｜描述: This locker contains a uniform for atmospheric technicians.
 - **黑色 壁挂壁橱** — `ClosetWallWardrobeBlackFilled` ｜父类: ClosetWallBlack
 - **蓝色 壁挂壁橱** — `ClosetWallWardrobeBlueFilled` ｜父类: ClosetWallBlue
 - **绿色 壁挂壁橱** — `ClosetWallWardrobeGreenFilled` ｜父类: ClosetWallGreen
@@ -203,47 +203,47 @@
 - **白色 壁挂壁橱** — `ClosetWallWardrobeWhiteFilled` ｜父类: ClosetWallWhite
 - **黄色 壁挂壁橱** — `ClosetWallWardrobeYellowFilled` ｜父类: ClosetWallYellow
 - **绑架者腰带** — `ClothingAbductorBeltFilled` ｜父类: ClothingAbductorBelt ｜_Starlight
-- **兔兔帮背包** — `ClothingBackpackBunnyGangBundle` ｜父类: ClothingBackpackBunnyGang ｜_Starlight
+- **兔兔帮背包** — `ClothingBackpackBunnyGangBundle` ｜父类: ClothingBackpackBunnyGang ｜_Starlight ｜描述: A sword that is actually a backpack. Its impressive how they managed to fit things in there, even so, inventory management will be a trial.
 - **背包** — `ClothingBackpackChameleonFill` ｜父类: ClothingBackpackChameleon
 - **背包** — `ClothingBackpackChameleonFillAgent` ｜父类: ClothingBackpackChameleon ｜_Starlight
 - **背包** — `ClothingBackpackChameleonFillAgentWorn` ｜父类: ClothingBackpackChameleon ｜_Starlight
-- **螳螂刀套装** — `ClothingBackpackDufelSyndicateFilledMantisBladeArms` ｜父类: ClothingBackpackDuffelSyndicateBundle ｜_Starlight
+- **螳螂刀套装** — `ClothingBackpackDufelSyndicateFilledMantisBladeArms` ｜父类: ClothingBackpackDuffelSyndicateBundle ｜_Starlight ｜描述: Contains a pair of cybernetic arms, watch out. You got a psycho on the loose.
 - **绑架者手术旅行包** — `ClothingBackpackDuffelAbductorFilled` ｜父类: ClothingBackpackDuffelAbductorBundle ｜_Starlight
-- **侍僧护甲套装** — `ClothingBackpackDuffelAcolyteBundle` ｜父类: ClothingBackpackDuffelBundle,BaseMajorContraband
-- **手术工具行李袋** — `ClothingBackpackDuffelSurgeryFilled` ｜父类: ClothingBackpackDuffelMedical
-- **弹药套装** — `ClothingBackpackDuffelSyndicateAmmoFilled` ｜父类: ClothingBackpackDuffelSyndicateAmmo
-- **辛迪加 C-4 套装** — `ClothingBackpackDuffelSyndicateC4tBundle` ｜父类: ClothingBackpackDuffelSyndicateBundle
-- **太空鲤鱼服行李袋** — `ClothingBackpackDuffelSyndicateCarpSuit` ｜父类: ClothingBackpackDuffelSyndicateBundle
+- **侍僧护甲套装** — `ClothingBackpackDuffelAcolyteBundle` ｜父类: ClothingBackpackDuffelBundle,BaseMajorContraband ｜描述: Contains the Acolyte Armor, the must have of any cult leader.
+- **手术工具行李袋** — `ClothingBackpackDuffelSurgeryFilled` ｜父类: ClothingBackpackDuffelMedical ｜描述: A large duffel bag for holding extra medical supplies - this one seems to be designed for holding surgical tools.
+- **弹药套装** — `ClothingBackpackDuffelSyndicateAmmoFilled` ｜父类: ClothingBackpackDuffelSyndicateAmmo ｜描述: Reloading! Contains 4 magazines for the C-20r, 4 drums for the Bulldog, and 3 ammo boxes for the L6 SAW.
+- **辛迪加 C-4 套装** — `ClothingBackpackDuffelSyndicateC4tBundle` ｜父类: ClothingBackpackDuffelSyndicateBundle ｜描述: Contains a lot of C-4 charges.
+- **太空鲤鱼服行李袋** — `ClothingBackpackDuffelSyndicateCarpSuit` ｜父类: ClothingBackpackDuffelSyndicateBundle ｜描述: Contains a carp suit and some friends to play with.
 - **小丑旅行包** — `ClothingBackpackDuffelSyndicateCostumeClown` ｜父类: ClothingBackpackDuffelClown
-- **诱饵套装** — `ClothingBackpackDuffelSyndicateDecoyKitFilled` ｜父类: ClothingBackpackDuffelSyndicateBundle
-- **辛迪加精英硬装宇航服套装** — `ClothingBackpackDuffelSyndicateEliteHardsuitBundle` ｜父类: ClothingBackpackDuffelSyndicateBundle
-- **辛迪加 EVA 套装** — `ClothingBackpackDuffelSyndicateEVABundle` ｜父类: ClothingBackpackDuffelSyndicateBundle
-- **比特犬套装** — `ClothingBackpackDuffelSyndicateFilledBullpup` ｜父类: ClothingBackpackDuffelSyndicateBundle ｜_Starlight
-- **沙漠之鹰套装** — `ClothingBackpackDuffelSyndicateFilledDeagle` ｜父类: ClothingBackpackDuffelSyndicateBundle ｜_Starlight
-- **中国湖套装** — `ClothingBackpackDuffelSyndicateFilledGrenadeLauncher` ｜父类: ClothingBackpackDuffelSyndicateBundle
-- **Hushpup 套装** — `ClothingBackpackDuffelSyndicateFilledHushpup` ｜父类: ClothingBackpackDuffelSyndicateBundle
-- **渗透型硬装宇航服套装** — `ClothingBackpackDuffelSyndicateFilledInfiltration` ｜父类: ClothingBackpackDuffelSyndicateBundle ｜_Starlight
-- **L6 SAW 套装** — `ClothingBackpackDuffelSyndicateFilledLMG` ｜父类: ClothingBackpackDuffelSyndicateBundle
-- **辛迪加手术工具行李袋** — `ClothingBackpackDuffelSyndicateFilledMedical` ｜父类: ClothingBackpackDuffelSyndicateMedicalBundle
-- **辛迪加药品行李袋** — `ClothingBackpackDuffelSyndicateFilledMedicine` ｜父类: ClothingBackpackDuffelSyndicateMedicalBundle
-- **米诺陶套装** — `ClothingBackpackDuffelSyndicateFilledMinotaurShotgun` ｜父类: ClothingBackpackDuffelSyndicateBundle ｜_Starlight
-- **蟒蛇套装 # Starlight, capitalization** — `ClothingBackpackDuffelSyndicateFilledRevolver` ｜父类: ClothingBackpackDuffelSyndicateBundle
-- **Estoc 精确射手步枪套装** — `ClothingBackpackDuffelSyndicateFilledRifle` ｜父类: ClothingBackpackDuffelSyndicateBundle
-- **火力支援套装** — `ClothingBackpackDuffelSyndicateFilledRifleGrenade` ｜父类: ClothingBackpackDuffelSyndicateBundleDeluxe ｜_Starlight
-- **斗牛犬套装** — `ClothingBackpackDuffelSyndicateFilledShotgun` ｜父类: ClothingBackpackDuffelSyndicateBundle
-- **C-20r 套装** — `ClothingBackpackDuffelSyndicateFilledSMG` ｜父类: ClothingBackpackDuffelSyndicateBundle
-- **基础特工套装** — `ClothingBackpackDuffelSyndicateFilledStarterKit` ｜父类: ClothingBackpackDuffelSyndicateBundle
-- **U3 型乌兹套装** — `ClothingBackpackDuffelSyndicateFilledUzi` ｜父类: ClothingBackpackDuffelSyndicateBundle ｜_Starlight
-- **辛迪加硬装宇航服套装** — `ClothingBackpackDuffelSyndicateHardsuitBundle` ｜父类: ClothingBackpackDuffelSyndicateBundle
-- **辛迪加硬装宇航服配件套装** — `ClothingBackpackDuffelSyndicateHardsuitExtrasBundle` ｜父类: ClothingBackpackDuffelSyndicateBundle
-- **医疗套装** — `ClothingBackpackDuffelSyndicateMedicalBundleFilled` ｜父类: ClothingBackpackDuffelSyndicateMedicalBundle
-- **辛迪加睡衣行李袋** — `ClothingBackpackDuffelSyndicatePyjamaBundle` ｜父类: ClothingBackpackDuffelSyndicateBundle
-- **辛迪加 X-4 套装** — `ClothingBackpackDuffelSyndicateX4tBundle` ｜父类: ClothingBackpackDuffelSyndicateBundle ｜_Starlight
-- **辛迪加丧尸套装** — `ClothingBackpackDuffelZombieBundle` ｜父类: ClothingBackpackDuffelSyndicateBundle
+- **诱饵套装** — `ClothingBackpackDuffelSyndicateDecoyKitFilled` ｜父类: ClothingBackpackDuffelSyndicateBundle ｜描述: Contains distractions, both auditory and visual. Smell coming soon.
+- **辛迪加精英硬装宇航服套装** — `ClothingBackpackDuffelSyndicateEliteHardsuitBundle` ｜父类: ClothingBackpackDuffelSyndicateBundle ｜描述: Contains the Syndicate's elite hardsuit, which comes with some more stuff in it.
+- **辛迪加 EVA 套装** — `ClothingBackpackDuffelSyndicateEVABundle` ｜父类: ClothingBackpackDuffelSyndicateBundle ｜描述: Contains the Syndicate approved EVA suit.
+- **比特犬套装** — `ClothingBackpackDuffelSyndicateFilledBullpup` ｜父类: ClothingBackpackDuffelSyndicateBundle ｜_Starlight ｜描述: Contains the Pitbull Rifle and 3 additional magazines.
+- **沙漠之鹰套装** — `ClothingBackpackDuffelSyndicateFilledDeagle` ｜父类: ClothingBackpackDuffelSyndicateBundle ｜_Starlight ｜描述: Contains high damage Desert Eagle, a 3 magnum magazines.
+- **中国湖套装** — `ClothingBackpackDuffelSyndicateFilledGrenadeLauncher` ｜父类: ClothingBackpackDuffelSyndicateBundle ｜描述: An old China-Lake grenade launcher bundled with 10 rounds of various destruction capability.
+- **Hushpup 套装** — `ClothingBackpackDuffelSyndicateFilledHushpup` ｜父类: ClothingBackpackDuffelSyndicateBundle ｜描述: Contains the Hushpup, bundled with a box of buckshot and a speedloader. Quarter included.
+- **渗透型硬装宇航服套装** — `ClothingBackpackDuffelSyndicateFilledInfiltration` ｜父类: ClothingBackpackDuffelSyndicateBundle ｜_Starlight ｜描述: Contains the latest in Syndicate chameleon technology, the infiltration hardsuit.
+- **L6 SAW 套装** — `ClothingBackpackDuffelSyndicateFilledLMG` ｜父类: ClothingBackpackDuffelSyndicateBundle ｜描述: More dakka: The iconic L6 lightmachinegun, bundled with a box magazine.
+- **辛迪加手术工具行李袋** — `ClothingBackpackDuffelSyndicateFilledMedical` ｜父类: ClothingBackpackDuffelSyndicateMedicalBundle ｜描述: A large duffel bag containing a full suite of surgical tools.
+- **辛迪加药品行李袋** — `ClothingBackpackDuffelSyndicateFilledMedicine` ｜父类: ClothingBackpackDuffelSyndicateMedicalBundle ｜描述: A large duffel bag containing essential medicinal reagents.
+- **米诺陶套装** — `ClothingBackpackDuffelSyndicateFilledMinotaurShotgun` ｜父类: ClothingBackpackDuffelSyndicateBundle ｜_Starlight ｜描述: Lean and mean: Contains smooth, powerful, highly illegal Shotgun, a 5 12g buckshot drums.
+- **蟒蛇套装 # Starlight, capitalization** — `ClothingBackpackDuffelSyndicateFilledRevolver` ｜父类: ClothingBackpackDuffelSyndicateBundle ｜描述: Go loud and proud with a fully loaded Magnum Python, bundled with two speed loaders.
+- **Estoc 精确射手步枪套装** — `ClothingBackpackDuffelSyndicateFilledRifle` ｜父类: ClothingBackpackDuffelSyndicateBundle ｜描述: For medium-range sharpshooting, the Estoc DMR. Bundled with three magazines.
+- **火力支援套装** — `ClothingBackpackDuffelSyndicateFilledRifleGrenade` ｜父类: ClothingBackpackDuffelSyndicateBundleDeluxe ｜_Starlight ｜描述: A marksman rifle and a grenade launcher, bundled with 4 magazines and 9 grenades of various capabilities.
+- **斗牛犬套装** — `ClothingBackpackDuffelSyndicateFilledShotgun` ｜父类: ClothingBackpackDuffelSyndicateBundle ｜描述: Lean and mean: Contains the popular Bulldog Shotgun, a 12g slug drum, and four 12g buckshot drums.
+- **C-20r 套装** — `ClothingBackpackDuffelSyndicateFilledSMG` ｜父类: ClothingBackpackDuffelSyndicateBundle ｜描述: Old faithful: The classic C-20r Submachine Gun, bundled with three magazines.
+- **基础特工套装** — `ClothingBackpackDuffelSyndicateFilledStarterKit` ｜父类: ClothingBackpackDuffelSyndicateBundle ｜描述: Contains a weapon, medical supplies, breaching tools, spare ammo, and some simple utilities.
+- **U3 型乌兹套装** — `ClothingBackpackDuffelSyndicateFilledUzi` ｜父类: ClothingBackpackDuffelSyndicateBundle ｜_Starlight ｜描述: Contains a sleek, dangerous uzi, and 3 additional magazines.
+- **辛迪加硬装宇航服套装** — `ClothingBackpackDuffelSyndicateHardsuitBundle` ｜父类: ClothingBackpackDuffelSyndicateBundle ｜描述: Contains the Syndicate's signature blood red hardsuit.
+- **辛迪加硬装宇航服配件套装** — `ClothingBackpackDuffelSyndicateHardsuitExtrasBundle` ｜父类: ClothingBackpackDuffelSyndicateBundle ｜描述: Contains stuff that you will absolutely want to have when purchasing a hardsuit.
+- **医疗套装** — `ClothingBackpackDuffelSyndicateMedicalBundleFilled` ｜父类: ClothingBackpackDuffelSyndicateMedicalBundle ｜描述: All you need to get your comrades back in the fight.
+- **辛迪加睡衣行李袋** — `ClothingBackpackDuffelSyndicatePyjamaBundle` ｜父类: ClothingBackpackDuffelSyndicateBundle ｜描述: Contains 3 pairs of syndicate pyjamas and 4 plushies for the ultimate sleepover.
+- **辛迪加 X-4 套装** — `ClothingBackpackDuffelSyndicateX4tBundle` ｜父类: ClothingBackpackDuffelSyndicateBundle ｜_Starlight ｜描述: Contains a lot of X-4 charges.
+- **辛迪加丧尸套装** — `ClothingBackpackDuffelZombieBundle` ｜父类: ClothingBackpackDuffelSyndicateBundle ｜描述: An all-in-one kit for unleashing the undead upon a station.
 - **绿盾斗篷** — `ClothingBackpackGreenshieldFilled` ｜父类: ClothingBackpackGreenshield ｜_Starlight
 - `模板` **ClothingBackpackSyndicateBundle** — `ClothingBackpackSyndicateBundle` ｜父类: ClothingBackpackSyndicate
-- **背包** — `ClothingBackpackSyndicateObserverBundle` ｜父类: ClothingBackpack ｜_Starlight
-- **辛迪加突袭服套装** — `ClothingBackpackSyndicateRaidBundle` ｜父类: ClothingBackpackSyndicateBundle
+- **背包** — `ClothingBackpackSyndicateObserverBundle` ｜父类: ClothingBackpack ｜_Starlight ｜描述: You wear this on your back and put items into it.
+- **辛迪加突袭服套装** — `ClothingBackpackSyndicateRaidBundle` ｜父类: ClothingBackpackSyndicateBundle ｜描述: Contains the Syndicate's durable raid armor suit.
 - **蓝盾医疗腰带** — `ClothingBeltBlueShieldMedicalBeltFilled` ｜父类: ClothingBeltBlueShieldMedicalBelt,StealTargetMedicalBeltCollection ｜_Starlight
 - **蓝盾携行具** — `ClothingBeltBlueShieldWebbingFilled` ｜父类: ClothingBeltBlueShieldWebbing,StealTargetMedicalBeltCollection ｜_Starlight
 - **战术创伤腰带** — `ClothingBeltBrigmedicFilled` ｜父类: ClothingBeltBrigmedic,StealTargetMedicalBeltCollection ｜_Starlight
@@ -283,193 +283,193 @@
 - **战斗靴** — `ClothingShoesBootsSyndieFilled` ｜父类: ClothingShoesBootsCombat
 - **ClothingShoesBootsWinterSecFilled** — `ClothingShoesBootsWinterSecFilled` ｜父类: ClothingShoesBootsWinterSec,ClothingShoesBootsSecFilled
 - **ClothingShoesHighheelBootsFilled** — `ClothingShoesHighheelBootsFilled` ｜父类: ClothingShoesHighheelBoots,ClothingShoesBootsSecFilled
-- **战斗烘焙套件** — `CombatBakeryKit` ｜父类: BoxCardboard,BaseSyndicateContraband
-- **空气手雷箱** — `CrateAirGrenade` ｜父类: CrateEngineering
-- **气闸门套件** — `CrateAirlockKit` ｜父类: CrateEngineering
-- **高级约束具箱** — `CrateArmoryAdvancedRestraints` ｜父类: CrateWeaponSecure,BaseSecurityContraband ｜_Starlight
-- **战斗霰弹枪箱** — `CrateArmoryCombatShotgun` ｜父类: CrateWeaponSecure,BaseRestrictedContraband ｜_Starlight
-- **激光武器板条箱** — `CrateArmoryLaser` ｜父类: CrateWeaponSecure,BaseSecurityContraband
-- **LR-30 箱** — `CrateArmoryLr30` ｜父类: CrateWeaponSecure,BaseRestrictedContraband ｜_Starlight
-- **LR-30 弹匣箱** — `CrateArmoryLr30Magazines` ｜父类: CrateWeaponSecure,BaseRestrictedContraband ｜_Starlight
-- **手枪板条箱** — `CrateArmoryPistols` ｜父类: CrateWeaponSecure,BaseSecurityContraband
-- **步枪板条箱** — `CrateArmoryRifle` ｜父类: CrateWeaponSecure,BaseSecurityContraband
-- **霰弹枪板条箱** — `CrateArmoryShotgun` ｜父类: CrateWeaponSecure,BaseSecurityContraband
-- **冲锋枪板条箱** — `CrateArmorySMG` ｜父类: CrateWeaponSecure,BaseSecurityContraband
-- **裹尸袋箱** — `CrateBodyBags` ｜父类: CrateMedical
-- **博尔矿控制棒箱** — `CrateBohrumControlRod` ｜父类: CrateEngineeringSecure ｜_FarHorizons
-- **蜡烛板条箱** — `CrateCandles` ｜父类: CrateGenericSteel
-- **超级大奖彩券 $$$** — `CrateCargoGambling` ｜父类: CratePrivateSecure
-- **豪华采矿硬装板条箱** — `CrateCargoLuxuryHardsuit` ｜父类: CratePirate
-- **包裹纸板条箱** — `CrateCargoParcelWrap` ｜父类: CrateGenericSteel
-- **中央指挥部医疗箱** — `CrateCentralCommandSecureChemicalFilled` ｜父类: CrateCentralCommandSecure ｜_Starlight
-- **塞伦矿燃料棒箱** — `CrateCerenkiteFuelRod` ｜父类: CrateEngineeringSecure ｜_FarHorizons
-- **化学品箱（D）** — `CrateChemistryD` ｜父类: CrateChemistrySecure
-- **化学品箱（P）** — `CrateChemistryP` ｜父类: CrateChemistrySecure
-- **化学品箱（S）** — `CrateChemistryS` ｜父类: CrateChemistrySecure
-- **化学用品箱** — `CrateChemistrySupplies` ｜父类: CrateMedical
-- **小瓶补给箱** — `CrateChemistryVials` ｜父类: CrateMedical
-- **指挥部追踪植入物箱** — `CrateCommandTrackingImplants` ｜父类: CrateCommandSecure,BaseCommandContraband ｜_Starlight
-- **船员监控板条箱** — `CrateCrewMonitoring` ｜父类: CrateScienceSecure
-- **破碎锤箱** — `CrateCrusher` ｜父类: CrateGenericSteel
-- **破碎匕首箱** — `CrateCrusherDagger` ｜父类: CrateGenericSteel
-- **破碎长刀箱** — `CrateCrusherGlaive` ｜父类: CrateGenericSteel
-- **赛博骄阳吉格斯套装** — `CrateCybersunDarkGygaxBundle` ｜父类: CrateSyndicate ｜_Starlight
-- **赛博之日无畏战士套装** — `CrateCybersunJuggernautBundle` ｜父类: CrateSyndicate
-- **赛博骄阳虐杀者套装** — `CrateCybersunMaulerBundle` ｜父类: CrateSyndicate ｜_Starlight
-- **双联应急气罐箱** — `CrateDoubleEmergencyTank` ｜父类: CrateGenericSteel
-- **高级应急套件** — `CrateEmergencyAdvancedKit` ｜父类: CrateMedical
-- **应急外伤套件** — `CrateEmergencyBruteKit` ｜父类: CrateMedical
-- **应急灼伤套件** — `CrateEmergencyBurnKit` ｜父类: CrateMedical
-- **防爆服板条箱** — `CrateEmergencyExplosive` ｜父类: CrateSecgear
-- **消防板条箱** — `CrateEmergencyFire` ｜父类: CrateGenericSteel
-- **充气墙板条箱** — `CrateEmergencyInflatablewall` ｜父类: CratePlastic
-- **内供板条箱** — `CrateEmergencyInternals` ｜父类: CrateInternalsO2N2
-- **内供板条箱（大型）** — `CrateEmergencyInternalsLarge` ｜父类: CrateInternalsO2N2
-- **应急缺氧套件** — `CrateEmergencyO2Kit` ｜父类: CrateMedical
-- **辐射防护板条箱** — `CrateEmergencyRadiation` ｜父类: CrateRadiation
-- **应急辐射套件** — `CrateEmergencyRadiationKit` ｜父类: CrateMedical
-- **紧急重启箱** — `CrateEmergencyRestart` ｜父类: CrateCommandSecure ｜_Starlight
-- **太空危险防护服箱** — `CrateEmergencySpaceHazard` ｜父类: CrateGenericSteel ｜_Starlight
-- **应急毒素套件** — `CrateEmergencyToxinKit` ｜父类: CrateMedical
-- **反物质控制单元板条箱** — `CrateEngineeringAMEControl` ｜父类: CrateEngineeringSecure
-- **反物质容器板条箱** — `CrateEngineeringAMEJar` ｜父类: CrateEngineeringSecure
-- **反物质反应堆组件板条箱** — `CrateEngineeringAMEShielding` ｜父类: CrateEngineeringSecure
-- **批量电缆箱** — `CrateEngineeringCableBulk` ｜父类: CrateElectrical
-- **高压电缆箱** — `CrateEngineeringCableHV` ｜父类: CrateElectrical
-- **低压电缆箱** — `CrateEngineeringCableLV` ｜父类: CrateElectrical
-- **中压电缆箱** — `CrateEngineeringCableMV` ｜父类: CrateElectrical
-- **电气用品箱** — `CrateEngineeringElectricalSupplies` ｜父类: CrateElectrical
-- **密封剂手雷箱** — `CrateEngineeringFoamGrenade` ｜父类: CrateEngineeringSecure
-- **工程装备箱** — `CrateEngineeringGear` ｜父类: CrateEngineering
+- **战斗烘焙套件** — `CombatBakeryKit` ｜父类: BoxCardboard,BaseSyndicateContraband ｜描述: A kit of clandestine baked weapons.
+- **空气手雷箱** — `CrateAirGrenade` ｜父类: CrateEngineering ｜描述: A crate containing 3 air grenades.
+- **气闸门套件** — `CrateAirlockKit` ｜父类: CrateEngineering ｜描述: A kit for building 6 airlocks, doesn't include tools.
+- **高级约束具箱** — `CrateArmoryAdvancedRestraints` ｜父类: CrateWeaponSecure,BaseSecurityContraband ｜_Starlight ｜描述: For the most annoying prisoners.
+- **战斗霰弹枪箱** — `CrateArmoryCombatShotgun` ｜父类: CrateWeaponSecure,BaseRestrictedContraband ｜_Starlight ｜描述: Contains two automatic combat shotguns, with two additional ammo boxes. Requires Armory access to open.
+- **激光武器板条箱** — `CrateArmoryLaser` ｜父类: CrateWeaponSecure,BaseSecurityContraband ｜描述: Contains two standard-issue laser rifles and two energy gun's. Requires Armory access to open.
+- **LR-30 箱** — `CrateArmoryLr30` ｜父类: CrateWeaponSecure,BaseRestrictedContraband ｜_Starlight ｜描述: Contains two automatic LR-30 energy weapons, with two additional magazines. Requires Armory access to open.
+- **LR-30 弹匣箱** — `CrateArmoryLr30Magazines` ｜父类: CrateWeaponSecure,BaseRestrictedContraband ｜_Starlight ｜描述: Contains six magazines for the LR-30 energy weapon. Requires Armory access to open.
+- **手枪板条箱** — `CrateArmoryPistols` ｜父类: CrateWeaponSecure,BaseSecurityContraband ｜描述: Contains two standard NT pistols with four mags. Requires Armory access to open.
+- **步枪板条箱** — `CrateArmoryRifle` ｜父类: CrateWeaponSecure,BaseSecurityContraband ｜描述: Contains two high-powered assault rifles with four mags. Requires Armory access to open.
+- **霰弹枪板条箱** — `CrateArmoryShotgun` ｜父类: CrateWeaponSecure,BaseSecurityContraband ｜描述: For when the enemy absolutely needs to be replaced with lead. Contains two Enforcer Combat Shotguns, and some standard shotgun shells. Requires Armory access to open.
+- **冲锋枪板条箱** — `CrateArmorySMG` ｜父类: CrateWeaponSecure,BaseSecurityContraband ｜描述: Contains two SMGs with four mags. Requires Armory access to open.
+- **裹尸袋箱** — `CrateBodyBags` ｜父类: CrateMedical ｜描述: Contains ten body bags.
+- **博尔矿控制棒箱** — `CrateBohrumControlRod` ｜父类: CrateEngineeringSecure ｜_FarHorizons ｜描述: 2 bohrum control rods for a nuclear reactor.
+- **蜡烛板条箱** — `CrateCandles` ｜父类: CrateGenericSteel ｜描述: Contains 4 boxes of candles, 2 large and 2 small. For atmosphere or something.
+- **超级大奖彩券 $$$** — `CrateCargoGambling` ｜父类: CratePrivateSecure ｜描述: A box containing treasure beyond your greatest imaginations!
+- **豪华采矿硬装板条箱** — `CrateCargoLuxuryHardsuit` ｜父类: CratePirate ｜描述: Finally, a hardsuit Quartermasters could call their own. Centcomm has heard you, now stop asking.
+- **包裹纸板条箱** — `CrateCargoParcelWrap` ｜父类: CrateGenericSteel ｜描述: All your parcel wrapping needs in one crate, containing three rolls of parcel wrap.
+- **中央指挥部医疗箱** — `CrateCentralCommandSecureChemicalFilled` ｜父类: CrateCentralCommandSecure ｜_Starlight ｜描述: A secure crate from Central Command stocked to the brim with medical chemicals.
+- **塞伦矿燃料棒箱** — `CrateCerenkiteFuelRod` ｜父类: CrateEngineeringSecure ｜_FarHorizons ｜描述: 3 cerenkite fuel rods, for fuelling a nuclear reactor.
+- **化学品箱（D）** — `CrateChemistryD` ｜父类: CrateChemistrySecure ｜描述: Contains chemicals from the D-Block of elements. Requires Chemistry access to open.
+- **化学品箱（P）** — `CrateChemistryP` ｜父类: CrateChemistrySecure ｜描述: Contains chemicals from the P-Block of elements. Requires Chemistry access to open.
+- **化学品箱（S）** — `CrateChemistryS` ｜父类: CrateChemistrySecure ｜描述: Contains chemicals from the S-Block of elements. Requires Chemistry access to open.
+- **化学用品箱** — `CrateChemistrySupplies` ｜父类: CrateMedical ｜描述: Basic chemistry supplies.
+- **小瓶补给箱** — `CrateChemistryVials` ｜父类: CrateMedical ｜描述: Crate filled with a box of vials.
+- **指挥部追踪植入物箱** — `CrateCommandTrackingImplants` ｜父类: CrateCommandSecure,BaseCommandContraband ｜_Starlight ｜描述: Contains a handful of command tracking implanters. Can't let them run around without supervision.
+- **船员监控板条箱** — `CrateCrewMonitoring` ｜父类: CrateScienceSecure ｜描述: Contains a flatpack of a crew monitoring server and a few crew monitoring computers. Requires Science access to open.
+- **破碎锤箱** — `CrateCrusher` ｜父类: CrateGenericSteel ｜描述: Contains 2 crushers for use by salvage.
+- **破碎匕首箱** — `CrateCrusherDagger` ｜父类: CrateGenericSteel ｜描述: Contains 4 crusher daggers for use by salvage.
+- **破碎长刀箱** — `CrateCrusherGlaive` ｜父类: CrateGenericSteel ｜描述: Contains a crusher glaive for use by salvage.
+- **赛博骄阳吉格斯套装** — `CrateCybersunDarkGygaxBundle` ｜父类: CrateSyndicate ｜_Starlight ｜描述: Contains a set of Cybersun light armored mechs.
+- **赛博之日无畏战士套装** — `CrateCybersunJuggernautBundle` ｜父类: CrateSyndicate ｜描述: Contains everything except a big gun to go postal.
+- **赛博骄阳虐杀者套装** — `CrateCybersunMaulerBundle` ｜父类: CrateSyndicate ｜_Starlight ｜描述: Contains a set of Cybersun heavy armored mechs.
+- **双联应急气罐箱** — `CrateDoubleEmergencyTank` ｜父类: CrateGenericSteel ｜描述: Contains 2 double emergency oxygen tanks, 2 double emergency nitrogen tanks, and 2 emergency cooling units
+- **高级应急套件** — `CrateEmergencyAdvancedKit` ｜父类: CrateMedical ｜描述: Crate filled with an advanced treatment kit.
+- **应急外伤套件** — `CrateEmergencyBruteKit` ｜父类: CrateMedical ｜描述: Crate filled with a brute treatment kit.
+- **应急灼伤套件** — `CrateEmergencyBurnKit` ｜父类: CrateMedical ｜描述: Crate filled with a burn treatment kit.
+- **防爆服板条箱** — `CrateEmergencyExplosive` ｜父类: CrateSecgear ｜描述: Science gone bonkers? Beeping behind the airlock? Buy now and be the hero the station des... I mean needs! (time not included)
+- **消防板条箱** — `CrateEmergencyFire` ｜父类: CrateGenericSteel ｜描述: Only you can prevent station fires. Partner up with two firefighter suits, gas masks, flashlights, large oxygen tanks, extinguishers, hardhats, and emergency cooling units!
+- **充气墙板条箱** — `CrateEmergencyInflatablewall` ｜父类: CratePlastic ｜描述: Three stacks of inflatable walls for when the stations metal walls don't want to hold atmosphere anymore.
+- **内供板条箱** — `CrateEmergencyInternals` ｜父类: CrateInternalsO2N2 ｜描述: Master your life energy and control your breathing with three breath masks, three gas masks, three emergency EVA suits, three oxygen tanks, three nitrogen tanks, and 3 cooling units.
+- **内供板条箱（大型）** — `CrateEmergencyInternalsLarge` ｜父类: CrateInternalsO2N2 ｜描述: Master your life energy and control your breathing with six breath masks, six gas masks, six emergency EVA suits, six oxygen tanks, six nitrogen tanks, and six cooling units.
+- **应急缺氧套件** — `CrateEmergencyO2Kit` ｜父类: CrateMedical ｜描述: Crate filled with an O2 treatment kit.
+- **辐射防护板条箱** — `CrateEmergencyRadiation` ｜父类: CrateRadiation ｜描述: Survive the Nuclear Apocalypse and Supermatter Engine alike with two sets of Radiation suits. Each set contains a helmet, suit, and Geiger counter. We'll even throw in a bottle of vodka and some glass
+- **应急辐射套件** — `CrateEmergencyRadiationKit` ｜父类: CrateMedical ｜描述: Crate filled with a radiation treatment kit.
+- **紧急重启箱** — `CrateEmergencyRestart` ｜父类: CrateCommandSecure ｜_Starlight ｜描述: A secure crate with the essential circuitboards to rebuild a station. For truly dire situations.
+- **太空危险防护服箱** — `CrateEmergencySpaceHazard` ｜父类: CrateGenericSteel ｜_Starlight ｜描述: For all your disastrous shifts.
+- **应急毒素套件** — `CrateEmergencyToxinKit` ｜父类: CrateMedical ｜描述: Crate filled with a toxin treatment kit.
+- **反物质控制单元板条箱** — `CrateEngineeringAMEControl` ｜父类: CrateEngineeringSecure ｜描述: The control unit of an antimatter reactor.
+- **反物质容器板条箱** — `CrateEngineeringAMEJar` ｜父类: CrateEngineeringSecure ｜描述: 3 antimatter jars, for fuelling an antimatter reactor.
+- **反物质反应堆组件板条箱** — `CrateEngineeringAMEShielding` ｜父类: CrateEngineeringSecure ｜描述: 9 parts for the main body of an antimatter reactor, or for expanding an existing one.
+- **批量电缆箱** — `CrateEngineeringCableBulk` ｜父类: CrateElectrical ｜描述: 2 coils each for every cable type.
+- **高压电缆箱** — `CrateEngineeringCableHV` ｜父类: CrateElectrical ｜描述: 3 coils of HV cables.
+- **低压电缆箱** — `CrateEngineeringCableLV` ｜父类: CrateElectrical ｜描述: 3 coils of LV cables.
+- **中压电缆箱** — `CrateEngineeringCableMV` ｜父类: CrateElectrical ｜描述: 3 coils of MV cables.
+- **电气用品箱** — `CrateEngineeringElectricalSupplies` ｜父类: CrateElectrical ｜描述: NT is not responsible for any workplace infighting relating to the insulated gloves included within these crates.
+- **密封剂手雷箱** — `CrateEngineeringFoamGrenade` ｜父类: CrateEngineeringSecure ｜描述: 5 metal foam sealant grenades.
+- **工程装备箱** — `CrateEngineeringGear` ｜父类: CrateEngineering ｜描述: Various engineering gear parts.
 - **发电机板条箱** — `CrateEngineeringGenerator` ｜父类: CrateEngineering
-- **陀螺仪箱** — `CrateEngineeringGyroscope` ｜父类: CrateEngineering
-- **喷气背包箱** — `CrateEngineeringJetpack` ｜父类: CrateGenericSteel
-- **迷你喷气背包箱** — `CrateEngineeringMiniJetpack` ｜父类: CrateGenericSteel
-- **粒子加速器电路板板条箱** — `CrateEngineeringParticleAccelerator` ｜父类: CrateEngineeringSecure
-- **反射器箱** — `CrateEngineeringReflector` ｜父类: CrateEngineeringSecure ｜_Starlight
-- **穿梭机供电板条箱** — `CrateEngineeringShuttle` ｜父类: CrateEngineeringSecure
-- **辐射收集器板条箱** — `CrateEngineeringSingularityCollector` ｜父类: CrateEngineeringSecure
-- **约束场发生器板条箱** — `CrateEngineeringSingularityContainment` ｜父类: CrateEngineeringSecure
-- **发射器板条箱** — `CrateEngineeringSingularityEmitter` ｜父类: CrateEngineeringSecure
-- **奇点发生器板条箱** — `CrateEngineeringSingularityGenerator` ｜父类: CrateEngineeringSecure
-- **太阳能组件板条箱** — `CrateEngineeringSolar` ｜父类: CrateEngineering
-- **空间加热器箱** — `CrateEngineeringSpaceHeater` ｜父类: CrateEngineering
-- **空间站信标套装** — `CrateEngineeringStationBeaconBundle` ｜父类: CratePlastic
-- **特斯拉线圈板条箱** — `CrateEngineeringTeslaCoil` ｜父类: CrateEngineeringSecure
-- **特斯拉发生器板条箱** — `CrateEngineeringTeslaGenerator` ｜父类: CrateEngineeringSecure
-- **特斯拉接地棒板条箱** — `CrateEngineeringTeslaGroundingRod` ｜父类: CrateEngineeringSecure
-- **推进器箱** — `CrateEngineeringThruster` ｜父类: CrateEngineering
-- **工具箱货箱** — `CrateEngineeringToolbox` ｜父类: CrateEngineering
-- **EVA 套件** — `CrateEvaKit` ｜父类: CrateCommandSecure
-- **酒吧用品箱** — `CrateFoodBarSupply` ｜父类: CrateFreezer
-- **厨房用品箱** — `CrateFoodCooking` ｜父类: CrateFreezer
-- **厨房餐具箱** — `CrateFoodDinnerware` ｜父类: CratePlastic
-- **Getmore Bakemore 货箱** — `CrateFoodGetMore` ｜父类: CrateFreezer
-- **快乐呵叫大口餐配送** — `CrateFoodHappyHonkBigBite` ｜父类: CratePlastic
-- **冰淇淋配送** — `CrateFoodIceCream` ｜父类: CrateFreezer
-- **MRE 货箱** — `CrateFoodMRE` ｜父类: CratePlastic
-- **应急披萨配送** — `CrateFoodPizza` ｜父类: CratePlastic
-- **灾难披萨配送箱** — `CrateFoodPizzaLarge` ｜父类: CratePlastic ｜_Starlight
-- **刨冰配送** — `CrateFoodSnowcone` ｜父类: CrateFreezer
-- **软饮料箱** — `CrateFoodSoftdrinks` ｜父类: CrateFreezer
-- **软饮料批发箱** — `CrateFoodSoftdrinksLarge` ｜父类: CratePlastic ｜_Starlight
-- **富尔顿回收箱** — `CrateFulton` ｜父类: CrateGenericSteel
-- **美术用品** — `CrateFunArtSupplies` ｜父类: CrateGenericSteel
-- **自行车喇叭植入物** — `CrateFunBikeHornImplants` ｜父类: CrateGenericSteel
-- **桌游板条箱** — `CrateFunBoardGames` ｜父类: CrateGenericSteel
-- **拳击板条箱** — `CrateFunBoxing` ｜父类: CrateGenericSteel
-- **飞镖整套箱** — `CrateFunDartsSet` ｜父类: CratePlastic
-- **泡沫力量板条箱** — `CrateFunFoamGuns` ｜父类: CratePlastic
-- **铜管乐器合奏板条箱** — `CrateFunInstrumentsBrass` ｜父类: CrateGenericSteel
-- **键盘与打击乐器合奏板条箱** — `CrateFunInstrumentsKeyedPercussion` ｜父类: CrateGenericSteel
-- **随机乐器套装** — `CrateFunInstrumentsRandom` ｜父类: CrateGenericSteel
-- **特殊乐器收藏板条箱** — `CrateFunInstrumentsSpecial` ｜父类: CrateGenericSteel
-- **弦乐器合奏板条箱** — `CrateFunInstrumentsString` ｜父类: CrateGenericSteel
-- **综合乐器套装** — `CrateFunInstrumentsVariety` ｜父类: CrateGenericSteel
-- **木管乐器合奏板条箱** — `CrateFunInstrumentsWoodwind` ｜父类: CrateGenericSteel
-- **发光植入物** — `CrateFunLightImplants` ｜父类: CrateGenericSteel
-- **蜥蜴毛绒玩具批发箱** — `CrateFunLizardPlushieBulk` ｜父类: CrateGenericSteel
-- **巨鲨玩偶箱** — `CrateFunMegaShark` ｜父类: CrateGenericSteel ｜_Starlight
-- **拖把蟑螂套件箱** — `CrateFunMoproach` ｜父类: CratePlastic ｜_Starlight
-- **神秘公仔板条箱** — `CrateFunMysteryFigurines` ｜父类: CratePlastic
-- **派对板条箱** — `CrateFunParty` ｜父类: CrateGenericSteel
-- **彩罐箱** — `CrateFunPinata` ｜父类: CrateGenericSteel ｜_Starlight
+- **陀螺仪箱** — `CrateEngineeringGyroscope` ｜父类: CrateEngineering ｜描述: Contains a gyroscope flatpack.
+- **喷气背包箱** — `CrateEngineeringJetpack` ｜父类: CrateGenericSteel ｜描述: Two jetpacks for those who don't know how to use fire extinguishers.
+- **迷你喷气背包箱** — `CrateEngineeringMiniJetpack` ｜父类: CrateGenericSteel ｜描述: Two mini jetpacks for those who want an extra challenge.
+- **粒子加速器电路板板条箱** — `CrateEngineeringParticleAccelerator` ｜父类: CrateEngineeringSecure ｜描述: Complex to setup, but rewarding as fuck. Contains boards for all particle accelerator components.
+- **反射器箱** — `CrateEngineeringReflector` ｜父类: CrateEngineeringSecure ｜_Starlight ｜描述: Reflector, for when you need to deflect your problems.
+- **穿梭机供电板条箱** — `CrateEngineeringShuttle` ｜父类: CrateEngineeringSecure ｜描述: A crate containing all needs for shuttle powering.
+- **辐射收集器板条箱** — `CrateEngineeringSingularityCollector` ｜父类: CrateEngineeringSecure ｜描述: A radiation collector, best used for singularity engines. Plasma is included.
+- **约束场发生器板条箱** — `CrateEngineeringSingularityContainment` ｜父类: CrateEngineeringSecure ｜描述: A containment field generator, keeps the singulo in submission.
+- **发射器板条箱** — `CrateEngineeringSingularityEmitter` ｜父类: CrateEngineeringSecure ｜描述: An emitter, best used for singularity engines.
+- **奇点发生器板条箱** — `CrateEngineeringSingularityGenerator` ｜父类: CrateEngineeringSecure ｜描述: A singularity generator, the mother of the beast.
+- **太阳能组件板条箱** — `CrateEngineeringSolar` ｜父类: CrateEngineering ｜描述: A kit with solar flatpacks and glass to construct ten solar panels.
+- **空间加热器箱** — `CrateEngineeringSpaceHeater` ｜父类: CrateEngineering ｜描述: Contains a space heater for climate control.
+- **空间站信标套装** — `CrateEngineeringStationBeaconBundle` ｜父类: CratePlastic ｜描述: A crate containing 5 station beacon assemblies for modifying the station map.
+- **特斯拉线圈板条箱** — `CrateEngineeringTeslaCoil` ｜父类: CrateEngineeringSecure ｜描述: Tesla coil. Attracts lightning and generates energy from it.
+- **特斯拉发生器板条箱** — `CrateEngineeringTeslaGenerator` ｜父类: CrateEngineeringSecure ｜描述: A tesla generator. God save you.
+- **特斯拉接地棒板条箱** — `CrateEngineeringTeslaGroundingRod` ｜父类: CrateEngineeringSecure ｜描述: Grounding rod, best for lightning protection.
+- **推进器箱** — `CrateEngineeringThruster` ｜父类: CrateEngineering ｜描述: Contains a thruster flatpack.
+- **工具箱货箱** — `CrateEngineeringToolbox` ｜父类: CrateEngineering ｜描述: Two mechanical and two electrical toolboxes.
+- **EVA 套件** — `CrateEvaKit` ｜父类: CrateCommandSecure ｜描述: A set consisting of two prestigious EVA suits and helmets.
+- **酒吧用品箱** — `CrateFoodBarSupply` ｜父类: CrateFreezer ｜描述: Extra Bar supplies, in case the clown was allowed in the bar unsupervised.
+- **厨房用品箱** — `CrateFoodCooking` ｜父类: CrateFreezer ｜描述: Extra kitchen supplies, in case the botanists are absent.
+- **厨房餐具箱** — `CrateFoodDinnerware` ｜父类: CratePlastic ｜描述: Extra kitchen supplies, in case the clown was allowed in the cafeteria unsupervised.
+- **Getmore Bakemore 货箱** — `CrateFoodGetMore` ｜父类: CrateFreezer ｜描述: Getmore branded snacks and baking supplies for the creative chef, all without the need of emptying your station's Getmore machines!
+- **快乐呵叫大口餐配送** — `CrateFoodHappyHonkBigBite` ｜父类: CratePlastic ｜描述: Two fully loaded Happy Honk Big Bite burger meals, complete with cheesy fries, a bottle of Space Cola, a slice of apple pie and a toy!
+- **冰淇淋配送** — `CrateFoodIceCream` ｜父类: CrateFreezer ｜描述: An assortment of ice cream delights for any occasion! Includes 16 frozen treats.
+- **MRE 货箱** — `CrateFoodMRE` ｜父类: CratePlastic ｜描述: A military style meal fit to feed a whole department.
+- **应急披萨配送** — `CrateFoodPizza` ｜父类: CratePlastic ｜描述: Help do your part to end station hunger by distributing pizza to underfunded departments! Includes 4 pizzas.
+- **灾难披萨配送箱** — `CrateFoodPizzaLarge` ｜父类: CratePlastic ｜_Starlight ｜描述: In the ultimate event that all else has failed, Find comfort in that more pizza solves everything. Includes 16 pizzas.
+- **刨冰配送** — `CrateFoodSnowcone` ｜父类: CrateFreezer ｜描述: A freezer packed with refreshing snowcones for a hard working crew, or even a lazy one! Includes 16 snowcones.
+- **软饮料箱** — `CrateFoodSoftdrinks` ｜父类: CrateFreezer ｜描述: A variety of sodas to complement a small party, without having to empty the soda machines. Includes 14 sodas.
+- **软饮料批发箱** — `CrateFoodSoftdrinksLarge` ｜父类: CratePlastic ｜_Starlight ｜描述: Lots of sodas taken straight out of Centcomm's own vending machines, because you just can't leave your department. Includes 32 sodas.
+- **富尔顿回收箱** — `CrateFulton` ｜父类: CrateGenericSteel ｜描述: Contains a fulton beacon and 8 fultons.
+- **美术用品** — `CrateFunArtSupplies` ｜父类: CrateGenericSteel ｜描述: Make some happy little accidents with lots of crayons!
+- **自行车喇叭植入物** — `CrateFunBikeHornImplants` ｜父类: CrateGenericSteel ｜描述: A thousand honks a day keeps security officers away!
+- **桌游板条箱** — `CrateFunBoardGames` ｜父类: CrateGenericSteel ｜描述: Game nights have been proven to either decrease boredom or increase murderous rage depending on the game.
+- **拳击板条箱** — `CrateFunBoxing` ｜父类: CrateGenericSteel ｜描述: Want to set up an underground fight club or host a tournament amongst station crew? This crate is for you!
+- **飞镖整套箱** — `CrateFunDartsSet` ｜父类: CratePlastic ｜描述: A box with everything you need for a fun game of darts.
+- **泡沫力量板条箱** — `CrateFunFoamGuns` ｜父类: CratePlastic ｜描述: Contains four Foam Force Battle Kits™. It's [REDACTED] or nothing!
+- **铜管乐器合奏板条箱** — `CrateFunInstrumentsBrass` ｜父类: CrateGenericSteel ｜描述: Bring some jazz to the station with the brass ensemble. Contains a variety of brass instruments for the whole station to play.
+- **键盘与打击乐器合奏板条箱** — `CrateFunInstrumentsKeyedPercussion` ｜父类: CrateGenericSteel ｜描述: Hit some keys with some sticks or your hands, with this Keyed and Percussion instrument ensemble crate.
+- **随机乐器套装** — `CrateFunInstrumentsRandom` ｜父类: CrateGenericSteel ｜描述: A box containing several randomly curated instruments, hand picked by Centcomm's top musicians!
+- **特殊乐器收藏板条箱** — `CrateFunInstrumentsSpecial` ｜父类: CrateGenericSteel ｜描述: Create some noise with this special collection of arguably-instruments! Centcomm is not responsible for any trauma caused by the contents.
+- **弦乐器合奏板条箱** — `CrateFunInstrumentsString` ｜父类: CrateGenericSteel ｜描述: Pluck or pick, slap or shred! Play a smooth melody or melt peoples' faces with this package of stringed instruments.
+- **综合乐器套装** — `CrateFunInstrumentsVariety` ｜父类: CrateGenericSteel ｜描述: Get your sad station movin' and groovin' with this catch-all variety pack! Contains seven different instruments.
+- **木管乐器合奏板条箱** — `CrateFunInstrumentsWoodwind` ｜父类: CrateGenericSteel ｜描述: If atmos is good at their job, use air to play music with these woodwind instruments! Real wood not guaranteed with every item.
+- **发光植入物** — `CrateFunLightImplants` ｜父类: CrateGenericSteel ｜描述: Light up your skin with these implants!
+- **蜥蜴毛绒玩具批发箱** — `CrateFunLizardPlushieBulk` ｜父类: CrateGenericSteel ｜描述: A buncha soft lizard plushies. Throw them around and then wonder how you're gonna explain this purchase to NT.
+- **巨鲨玩偶箱** — `CrateFunMegaShark` ｜父类: CrateGenericSteel ｜_Starlight ｜描述: One absolutely massive, huggable shark plushie. Perfect for those who need a BIG friend!
+- **拖把蟑螂套件箱** — `CrateFunMoproach` ｜父类: CratePlastic ｜_Starlight ｜描述: A box with one moproach kit that provides you with two moproaches.
+- **神秘公仔板条箱** — `CrateFunMysteryFigurines` ｜父类: CratePlastic ｜描述: A collection of 10 Mystery Figurine boxes. Duplicates non refundable.
+- **派对板条箱** — `CrateFunParty` ｜父类: CrateGenericSteel ｜描述: An entire party just waiting for you to open it. Includes party favors, party beverages, and even a cake.
+- **彩罐箱** — `CrateFunPinata` ｜父类: CrateGenericSteel ｜_Starlight ｜描述: Contains one Clown Pinata and a bat to beat it with.
 - **海盗宝箱** — `CrateFunPirate` ｜父类: CratePirate
-- **毛绒玩具板条箱** — `CrateFunPlushie` ｜父类: CrateGenericSteel
-- **悲伤长号植入物** — `CrateFunSadTromboneImplants` ｜父类: CrateGenericSteel
-- **泡发斯库雷特** — `CrateFunScurret` ｜父类: CrateLivestock
-- **软鲨鱼玩具批发箱** — `CrateFunSharkPlushieBulk` ｜父类: CrateGenericSteel
-- **超级合成器箱** — `CrateFunSuperSynth` ｜父类: CrateGenericSteel ｜_Starlight
+- **毛绒玩具板条箱** — `CrateFunPlushie` ｜父类: CrateGenericSteel ｜描述: A buncha soft plushies. Throw them around and then wonder how you're gonna explain this purchase to NT.
+- **悲伤长号植入物** — `CrateFunSadTromboneImplants` ｜父类: CrateGenericSteel ｜描述: Death's never been so fun before! Implant these to make dying a bit more happy.
+- **泡发斯库雷特** — `CrateFunScurret` ｜父类: CrateLivestock ｜描述: Wait, what?
+- **软鲨鱼玩具批发箱** — `CrateFunSharkPlushieBulk` ｜父类: CrateGenericSteel ｜描述: A crate filled with a variety of everyone's favorite finned friend. Rawr!
+- **超级合成器箱** — `CrateFunSuperSynth` ｜父类: CrateGenericSteel ｜_Starlight ｜描述: Contains one Super Synthesizer instrument. Groovy!
 - **玩具箱** — `CrateFunToyBox` ｜父类: CrateToyBox
-- **双向指针套件箱** — `CrateFunTwinPointer` ｜父类: CrateGenericSteel ｜_Starlight
-- **水枪板条箱** — `CrateFunWaterGuns` ｜父类: CratePlastic
-- **燃气轮机箱** — `CrateGasTurbineFlatpack` ｜父类: CrateEngineeringSecure ｜_Starlight
-- **小型燃气轮机箱** — `CrateGasTurbineSmallFlatpack` ｜父类: CrateEngineeringSecure ｜_Starlight
-- **应急生化防护服板条箱** — `CrateGenericBiosuit` ｜父类: CratePlastic
-- **种子箱** — `CrateHydroponicsSeeds` ｜父类: CrateHydroponics
-- **异域种子箱** — `CrateHydroponicsSeedsExotic` ｜父类: CrateHydroSecure
-- **药用种子箱** — `CrateHydroponicsSeedsMedicinal` ｜父类: CrateHydroSecure
-- **水培设备箱** — `CrateHydroponicsTools` ｜父类: CrateHydroponics
-- **水培托盘箱** — `CrateHydroponicsTray` ｜父类: CrateHydroponics
-- **清洁工生化防护服板条箱** — `CrateJanitorBiosuit` ｜父类: CratePlastic
-- **标签机补充纸箱** — `CrateLabellerRefillPaperFilled` ｜父类: CratePlastic ｜_Starlight
-- **AI 法则板箱** — `CrateLawboards` ｜父类: CrateRDSecure ｜_Starlight
-- **邮袋箱** — `CrateMailBags` ｜父类: CrateGenericSteel ｜_Starlight
-- **基础板材板条箱** — `CrateMaterialBasicResource` ｜父类: CrateGenericSteel
-- **黄铜板条箱** — `CrateMaterialBrass` ｜父类: CrateGenericSteel
-- **纸板板条箱** — `CrateMaterialCardboard` ｜父类: CrateGenericSteel
-- **玻璃板材板条箱** — `CrateMaterialGlass` ｜父类: CrateGenericSteel
-- **黄金板条箱** — `CrateMaterialGold` ｜父类: CrateGenericSteel
-- **纸张板条箱** — `CrateMaterialPaper` ｜父类: CrateGenericSteel
-- **固态等离子体板条箱** — `CrateMaterialPlasma` ｜父类: CratePlasma
-- **塑钢板条箱** — `CrateMaterialPlasteel` ｜父类: CrateGenericSteel
-- **塑料板材板条箱** — `CrateMaterialPlastic` ｜父类: CrateGenericSteel
-- **剩余材料** — `CrateMaterialRandom` ｜父类: CrateGenericSteel
-- **材料筒仓板条箱** — `CrateMaterialSilo` ｜父类: CrateGenericSteel
-- **白银板条箱** — `CrateMaterialSilver` ｜父类: CrateGenericSteel
-- **钢板材板条箱** — `CrateMaterialSteel` ｜父类: CrateGenericSteel
-- **纺织品板条箱** — `CrateMaterialTextiles` ｜父类: CrateGenericSteel
-- **木材板条箱** — `CrateMaterialWood` ｜父类: CrateGenericSteel
-- **医用洗手服箱** — `CrateMedicalScrubs` ｜父类: CrateMedical
-- **镇静剂箱** — `CrateMedicalSedative` ｜父类: CrateMedicalSecure ｜_Starlight
-- **医疗用品箱** — `CrateMedicalSupplies` ｜父类: CrateMedical
-- **手术用品箱** — `CrateMedicalSurgery` ｜父类: CrateSurgery
-- **心灵护盾植入物箱** — `CrateMindShieldImplants` ｜父类: CrateMedical
-- **捕鼠夹板条箱** — `CrateMousetrapBoxes` ｜父类: CrateGenericSteel
-- **友谊套装箱** — `CrateNameSyndicateFriendshipBundle` ｜父类: CrateSyndicate ｜_Starlight
-- **穿梭机套装箱** — `CrateNameSyndicateShuttleBundle` ｜父类: CrateSyndicate ｜_Starlight
-- **内供板条箱（氮气）** — `CrateNitrogenInternals` ｜父类: CrateInternals
-- **蜜蜂箱** — `CrateNPCBee` ｜父类: CrateLivestock
-- **蝴蝶箱** — `CrateNPCButterflies` ｜父类: CrateLivestock
-- **猫咪箱** — `CrateNPCCat` ｜父类: CrateLivestock
-- **鸡箱** — `CrateNPCChicken` ｜父类: CrateLivestock
-- **柯基犬箱** — `CrateNPCCorgi` ｜父类: CrateLivestock
-- **奶牛箱** — `CrateNPCCow` ｜父类: CrateLivestock
-- **螃蟹箱** — `CrateNPCCrab` ｜父类: CrateLivestock
-- **鸭子箱** — `CrateNPCDuck` ｜父类: CrateLivestock
-- **山羊箱** — `CrateNPCGoat` ｜父类: CrateLivestock
-- **鹅箱** — `CrateNPCGoose` ｜父类: CrateLivestock
-- **大猩猩箱** — `CrateNPCGorilla` ｜父类: CrateLivestock
+- **双向指针套件箱** — `CrateFunTwinPointer` ｜父类: CrateGenericSteel ｜_Starlight ｜描述: Contains one twinpointer kit for all your bidirectional wayfinding needs.
+- **水枪板条箱** — `CrateFunWaterGuns` ｜父类: CratePlastic ｜描述: A summer special with a variety of brightly colored water guns. Water not included.
+- **燃气轮机箱** — `CrateGasTurbineFlatpack` ｜父类: CrateEngineeringSecure ｜_Starlight ｜描述: A crate containing a flatpacked Gas Turbine. Parts sold Separately.
+- **小型燃气轮机箱** — `CrateGasTurbineSmallFlatpack` ｜父类: CrateEngineeringSecure ｜_Starlight ｜描述: A crate containing a flatpacked Small Gas Turbine. Parts sold Separately.
+- **应急生化防护服板条箱** — `CrateGenericBiosuit` ｜父类: CratePlastic ｜描述: Contains 2 biohazard suits to ensure that no disease will distract you from what you're doing there.
+- **种子箱** — `CrateHydroponicsSeeds` ｜父类: CrateHydroponics ｜描述: Big things have small beginnings. Contains twenty-four different seeds.
+- **异域种子箱** — `CrateHydroponicsSeedsExotic` ｜父类: CrateHydroSecure ｜描述: Any entrepreneuring botanist's dream. Contains many different exotic seeds. Requires Hydroponics access to open.
+- **药用种子箱** — `CrateHydroponicsSeedsMedicinal` ｜父类: CrateHydroSecure ｜描述: The wannabe chemist's dream. The power of medicine is at your fingertips! Requires Hydroponics access to open.
+- **水培设备箱** — `CrateHydroponicsTools` ｜父类: CrateHydroponics ｜描述: Supplies for growing a great garden! Contains some spray bottles of plant chemicals, a hatchet, a mini-hoe, scythe, as well as a pair of leather gloves and a botanist's apron.
+- **水培托盘箱** — `CrateHydroponicsTray` ｜父类: CrateHydroponics ｜描述: Contains a hydroponics tray flatpack.
+- **清洁工生化防护服板条箱** — `CrateJanitorBiosuit` ｜父类: CratePlastic ｜描述: Contains 2 biohazard suits to ensure that no disease will distract you from cleaning.
+- **标签机补充纸箱** — `CrateLabellerRefillPaperFilled` ｜父类: CratePlastic ｜_Starlight ｜描述: Contains a refill paper for the Labeller.
+- **AI 法则板箱** — `CrateLawboards` ｜父类: CrateRDSecure ｜_Starlight ｜描述: A crate filled with various AI lawboards.
+- **邮袋箱** — `CrateMailBags` ｜父类: CrateGenericSteel ｜_Starlight ｜描述: Contains two mail bags, in case you lost the ones we gave you already.
+- **基础板材板条箱** — `CrateMaterialBasicResource` ｜父类: CrateGenericSteel ｜描述: 30 sheets of steel, glass, and plastic.
+- **黄铜板条箱** — `CrateMaterialBrass` ｜父类: CrateGenericSteel ｜描述: 90 sheets of brass.
+- **纸板板条箱** — `CrateMaterialCardboard` ｜父类: CrateGenericSteel ｜描述: 90 pieces of cardboard.
+- **玻璃板材板条箱** — `CrateMaterialGlass` ｜父类: CrateGenericSteel ｜描述: 90 sheets of glass, packed with care.
+- **黄金板条箱** — `CrateMaterialGold` ｜父类: CrateGenericSteel ｜描述: 30 bars of gold.
+- **纸张板条箱** — `CrateMaterialPaper` ｜父类: CrateGenericSteel ｜描述: 90 sheets of paper.
+- **固态等离子体板条箱** — `CrateMaterialPlasma` ｜父类: CratePlasma ｜描述: 30 sheets of plasma.
+- **塑钢板条箱** — `CrateMaterialPlasteel` ｜父类: CrateGenericSteel ｜描述: 30 sheets of plasteel.
+- **塑料板材板条箱** — `CrateMaterialPlastic` ｜父类: CrateGenericSteel ｜描述: 90 sheets of plastic.
+- **剩余材料** — `CrateMaterialRandom` ｜父类: CrateGenericSteel ｜描述: Surplus materials from somewhere.
+- **材料筒仓板条箱** — `CrateMaterialSilo` ｜父类: CrateGenericSteel ｜描述: A package including all the materials to create a material silo.
+- **白银板条箱** — `CrateMaterialSilver` ｜父类: CrateGenericSteel ｜描述: 30 bars of silver.
+- **钢板材板条箱** — `CrateMaterialSteel` ｜父类: CrateGenericSteel ｜描述: 90 sheets of steel.
+- **纺织品板条箱** — `CrateMaterialTextiles` ｜父类: CrateGenericSteel ｜描述: 60 pieces of cloth and 30 pieces of durathread.
+- **木材板条箱** — `CrateMaterialWood` ｜父类: CrateGenericSteel ｜描述: Bunch of wood planks.
+- **医用洗手服箱** — `CrateMedicalScrubs` ｜父类: CrateMedical ｜描述: Medical clothings.
+- **镇静剂箱** — `CrateMedicalSedative` ｜父类: CrateMedicalSecure ｜_Starlight ｜描述: Contains two bottles of chloral hydrate, two tanks of NO2, and two breath masks
+- **医疗用品箱** — `CrateMedicalSupplies` ｜父类: CrateMedical ｜描述: Basic medical supplies.
+- **手术用品箱** — `CrateMedicalSurgery` ｜父类: CrateSurgery ｜描述: Surgical instruments.
+- **心灵护盾植入物箱** — `CrateMindShieldImplants` ｜父类: CrateMedical ｜描述: Crate filled with 3 MindShield implants.
+- **捕鼠夹板条箱** — `CrateMousetrapBoxes` ｜父类: CrateGenericSteel ｜描述: Mousetraps, for when all of service is being haunted by an entire horde of rats. Use sparingly... or not.
+- **友谊套装箱** — `CrateNameSyndicateFriendshipBundle` ｜父类: CrateSyndicate ｜_Starlight ｜描述: Friendship in a crate*. (Some assembly required)
+- **穿梭机套装箱** — `CrateNameSyndicateShuttleBundle` ｜父类: CrateSyndicate ｜_Starlight ｜描述: Everything but the shuttle board. It's a shuttle in a crate* (Some assembly required)
+- **内供板条箱（氮气）** — `CrateNitrogenInternals` ｜父类: CrateInternals ｜描述: Contains two breath masks, two gas masks, and four nitrogen tanks. Intended for nitrogen-breathing species.
+- **蜜蜂箱** — `CrateNPCBee` ｜父类: CrateLivestock ｜描述: A crate containing a swarm of eight bees.
+- **蝴蝶箱** — `CrateNPCButterflies` ｜父类: CrateLivestock ｜描述: A crate containing five butterflies.
+- **猫咪箱** — `CrateNPCCat` ｜父类: CrateLivestock ｜描述: A crate containing a single cat.
+- **鸡箱** — `CrateNPCChicken` ｜父类: CrateLivestock ｜描述: A crate containing four fully grown chickens.
+- **柯基犬箱** — `CrateNPCCorgi` ｜父类: CrateLivestock ｜描述: A crate containing a single corgi.
+- **奶牛箱** — `CrateNPCCow` ｜父类: CrateLivestock ｜描述: A crate containing a single cow.
+- **螃蟹箱** — `CrateNPCCrab` ｜父类: CrateLivestock ｜描述: A crate containing three huge crabs.
+- **鸭子箱** — `CrateNPCDuck` ｜父类: CrateLivestock ｜描述: A crate containing six fully grown ducks.
+- **山羊箱** — `CrateNPCGoat` ｜父类: CrateLivestock ｜描述: A crate containing a single goat.
+- **鹅箱** — `CrateNPCGoose` ｜父类: CrateLivestock ｜描述: A crate containing two geese.
+- **大猩猩箱** — `CrateNPCGorilla` ｜父类: CrateLivestock ｜描述: A crate containing a single gorilla.
 - **仓鼠笼** — `CrateNPCHamlet` ｜父类: CrateRodentCage
 - **仓鼠笼** — `CrateNPCHamster` ｜父类: CrateRodentCage
-- **袋鼠箱** — `CrateNPCKangaroo` ｜父类: CrateLivestock
-- **狗头人方块箱** — `CrateNPCKoboldCube` ｜父类: CrateGenericSteel
-- **蜥蜴箱** — `CrateNPCLizard` ｜父类: CrateLivestock
-- **猴子方块箱** — `CrateNPCMonkeyCube` ｜父类: CrateGenericSteel
-- **蛾蠊箱** — `CrateNPCMothroach` ｜父类: CrateLivestock
-- **老鼠箱** — `CrateNPCMouse` ｜父类: CrateLivestock
-- **鹦鹉箱** — `CrateNPCParrot` ｜父类: CrateLivestock
-- **企鹅箱** — `CrateNPCPenguin` ｜父类: CrateLivestock
-- **猪箱** — `CrateNPCPig` ｜父类: CrateLivestock
-- **柯基幼犬箱** — `CrateNPCPuppyCorgi` ｜父类: CrateLivestock
-- **蛇箱** — `CrateNPCSnake` ｜父类: CrateLivestock
-- **太空锦鲤箱** — `CrateNPCSpaceKoi` ｜父类: CrateLivestock ｜_Starlight
-- **核反应堆箱** — `CrateNuclearReactorFlatpack` ｜父类: CrateEngineeringSecure ｜_Starlight
-- **小型核反应堆箱** — `CrateNuclearReactorSmallFlatpack` ｜父类: CrateEngineeringSecure ｜_Starlight
-- **粒子减速器箱** — `CrateParticleDecelerators` ｜父类: CrateEngineeringSecure
-- **3级零件箱** — `CratePartsT3` ｜父类: CrateGenericSteel
-- **3/4级零件箱** — `CratePartsT3T4` ｜父类: CrateGenericSteel
-- **4级零件箱** — `CratePartsT4` ｜父类: CrateGenericSteel
+- **袋鼠箱** — `CrateNPCKangaroo` ｜父类: CrateLivestock ｜描述: A crate containing a kangaroo.
+- **狗头人方块箱** — `CrateNPCKoboldCube` ｜父类: CrateGenericSteel ｜描述: A crate containing single box of kobold cubes.
+- **蜥蜴箱** — `CrateNPCLizard` ｜父类: CrateLivestock ｜描述: A crate containing a lizard.
+- **猴子方块箱** — `CrateNPCMonkeyCube` ｜父类: CrateGenericSteel ｜描述: A crate containing single box of monkey cubes.
+- **蛾蠊箱** — `CrateNPCMothroach` ｜父类: CrateLivestock ｜描述: A crate containing four mothroaches.
+- **老鼠箱** — `CrateNPCMouse` ｜父类: CrateLivestock ｜描述: A crate containing five mice.
+- **鹦鹉箱** — `CrateNPCParrot` ｜父类: CrateLivestock ｜描述: A crate containing three parrots.
+- **企鹅箱** — `CrateNPCPenguin` ｜父类: CrateLivestock ｜描述: A crate containing two penguins.
+- **猪箱** — `CrateNPCPig` ｜父类: CrateLivestock ｜描述: A crate containing a single pig.
+- **柯基幼犬箱** — `CrateNPCPuppyCorgi` ｜父类: CrateLivestock ｜描述: A crate containing a single puppy corgi. Awww.
+- **蛇箱** — `CrateNPCSnake` ｜父类: CrateLivestock ｜描述: A crate containing three snakes.
+- **太空锦鲤箱** — `CrateNPCSpaceKoi` ｜父类: CrateLivestock ｜_Starlight ｜描述: A crate containing five space kois.
+- **核反应堆箱** — `CrateNuclearReactorFlatpack` ｜父类: CrateEngineeringSecure ｜_Starlight ｜描述: A crate containing a flatpacked Nuclear Reactor. Parts sold Separately.
+- **小型核反应堆箱** — `CrateNuclearReactorSmallFlatpack` ｜父类: CrateEngineeringSecure ｜_Starlight ｜描述: A crate containing a flatpacked  Small Nuclear Reactor. Parts sold Separately.
+- **粒子减速器箱** — `CrateParticleDecelerators` ｜父类: CrateEngineeringSecure ｜描述: A crate containing 3 Particle Decelerators.
+- **3级零件箱** — `CratePartsT3` ｜父类: CrateGenericSteel ｜描述: Contains 5 random tier 3 parts for upgrading machines.
+- **3/4级零件箱** — `CratePartsT3T4` ｜父类: CrateGenericSteel ｜描述: Contains 5 random tier 3 or 4 parts for upgrading machines.
+- **4级零件箱** — `CratePartsT4` ｜父类: CrateGenericSteel ｜描述: Contains 5 random tier 4 parts for upgrading machines.
 - **板条箱** — `CratePermaEscapeBureaucracy` ｜父类: CrateGenericSteel
 - **板条箱** — `CratePermaEscapeComs` ｜父类: CrateGenericSteel
 - **板条箱** — `CratePermaEscapeDigging` ｜父类: CrateGenericSteel
@@ -483,92 +483,92 @@
 - **板条箱** — `CratePermaEscapeTowercap` ｜父类: CrateGenericSteel
 - **海盗船员宝箱** — `CratePirateChest` ｜父类: CratePirate
 - **海盗船长宝箱** — `CratePirateChestCaptain` ｜父类: CratePirate
-- **Plant-B-Gone 批量货箱** — `CratePlantBGone` ｜父类: CrateGenericSteel
-- **盆栽板条箱** — `CratePlants` ｜父类: CrateGenericSteel
-- **RCD 货箱** — `CrateRCD` ｜父类: CrateEngineeringSecure
-- **压缩物质箱** — `CrateRCDAmmo` ｜父类: CrateEngineering
-- **约束用品箱** — `CrateRestraints` ｜父类: CrateSecgear
-- **RPD 箱** — `CrateRPD` ｜父类: CrateEngineeringSecure ｜_Starlight
-- **RPLD 箱** — `CrateRPLD` ｜父类: CrateMedicalSecure ｜_Starlight
-- **盐灯玩偶箱** — `CrateSaltLamp` ｜父类: CrateGenericSteel ｜_Starlight
+- **Plant-B-Gone 批量货箱** — `CratePlantBGone` ｜父类: CrateGenericSteel ｜描述: From Monstano. "Unwanted Weeds, Meet Your Celestial Roundup!"
+- **盆栽板条箱** — `CratePlants` ｜父类: CrateGenericSteel ｜描述: A variety pack of potted plants to spruce up your station!
+- **RCD 货箱** — `CrateRCD` ｜父类: CrateEngineeringSecure ｜描述: A crate containing a single rapid construction device.
+- **压缩物质箱** — `CrateRCDAmmo` ｜父类: CrateEngineering ｜描述: Contains three compressed matter cartridges.
+- **约束用品箱** — `CrateRestraints` ｜父类: CrateSecgear ｜描述: Contains two boxes each of handcuffs and zipties. Requires Security access to open.
+- **RPD 箱** — `CrateRPD` ｜父类: CrateEngineeringSecure ｜_Starlight ｜描述: A crate containing a single rapid piping device.
+- **RPLD 箱** — `CrateRPLD` ｜父类: CrateMedicalSecure ｜_Starlight ｜描述: A crate containing a single rapid plumbing device.
+- **盐灯玩偶箱** — `CrateSaltLamp` ｜父类: CrateGenericSteel ｜_Starlight ｜描述: Contains one small salt lamp plushie and one large salt lamp plushie. Perfect for adding a cozy ambiance to any room.
 - **板条箱** — `CrateSalvageAssortedGoodies` ｜父类: CrateGenericSteel
-- **打捞设备箱** — `CrateSalvageEquipment` ｜父类: CrateGenericSteel
-- **打捞外骨骼服箱** — `CrateSalvageHardsuit` ｜父类: CrateGenericSteel
-- **科学家生化防护服板条箱** — `CrateScienceBiosuit` ｜父类: CrateScienceSecure
-- **非致命投掷物箱** — `CrateSecNonlethalThrowables` ｜父类: CrateSecgear
-- **护甲箱** — `CrateSecurityArmor` ｜父类: CrateSecgear
-- **安保生化防护服箱** — `CrateSecurityBiosuit` ｜父类: CrateSecgear
-- **头盔箱** — `CrateSecurityHelmet` ｜父类: CrateSecgear
-- **非致命武器箱** — `CrateSecurityNonlethal` ｜父类: CrateSecgear
-- **反射护甲板条箱** — `CrateSecurityReflectiveArmor` ｜父类: CrateSecgear ｜_Starlight
-- **特警板条箱** — `CrateSecurityRiot` ｜父类: CrateWeaponSecure,BaseSecurityContraband
-- **安保用品箱** — `CrateSecuritySupplies` ｜父类: CrateSecgear
-- **植入器箱** — `CrateSecurityTrackingMindshieldImplants` ｜父类: CrateSecgear
-- **震波炸药箱** — `CrateSeismicCharge` ｜父类: CrateGenericSteel
-- **书籍板条箱** — `CrateServiceBooks` ｜父类: CrateGenericSteel
-- **酒类分配器补充装板条箱** — `CrateServiceBoozeDispenser` ｜父类: CrateFreezer
-- **空盒板条箱** — `CrateServiceBox` ｜父类: CratePlastic
-- **官僚办公板条箱** — `CrateServiceBureaucracy` ｜父类: CrateGenericSteel
-- **清洁手雷批发箱** — `CrateServiceCleanerGrenades` ｜父类: CratePlastic
-- **彩色灯具板条箱** — `CrateServiceColorfulLights` ｜父类: CrateGenericSteel
-- **自制烟草制品板条箱** — `CrateServiceCustomSmokable` ｜父类: CrateGenericSteel
-- **文件打印机箱** — `CrateServiceDocumentPrinter` ｜父类: CrateGenericSteel ｜_Starlight
-- **传真机板条箱** — `CrateServiceFaxMachine` ｜父类: CrateGenericSteel
-- **指南手册板条箱** — `CrateServiceGuidebooks` ｜父类: CrateGenericSteel
-- **节日灯具板条箱** — `CrateServiceHolidayLights` ｜父类: CrateGenericSteel
-- **九头蛇补充装箱** — `CrateServiceHydraRefill` ｜父类: CratePlastic ｜_Starlight
-- **冰淇淋机入门箱** — `CrateServiceIceCreamMakerStarter` ｜父类: CrateFreezer ｜_Starlight
-- **清洁用品板条箱** — `CrateServiceJanitorialSupplies` ｜父类: CratePlastic
-- **人事用品板条箱** — `CrateServicePersonnel` ｜父类: CrateCommandSecure
-- **替换灯具板条箱** — `CrateServiceReplacementLights` ｜父类: CrateGenericSteel
-- **烟草制品板条箱** — `CrateServiceSmokeables` ｜父类: CrateGenericSteel
-- **汽水分配器补充装板条箱** — `CrateServiceSodaDispenser` ｜父类: CrateFreezer
-- **舞台演出板条箱** — `CrateServiceTheatre` ｜父类: CrateGenericSteel
-- **异种生物学入门箱** — `CrateStarterXenobiology` ｜父类: CrateScienceSecure ｜_Starlight
-- **空间站 AI 核心板条箱** — `CrateStationAiCore` ｜父类: CrateScienceSecure
-- **气体通道棒箱** — `CrateSteelGasChannel` ｜父类: CrateEngineeringSecure ｜_FarHorizons
-- **热交换棒箱** — `CrateSteelHeatExhanger` ｜父类: CrateEngineeringSecure ｜_FarHorizons
-- **超物质箱** — `CrateSupermatterFlatpack` ｜父类: CrateEngineeringSecure ｜_Starlight
-- **至尊打捞员斗篷箱** — `CrateSupremeSalvagerCloak` ｜父类: CrateGenericSteel
-- **变色龙套件箱** — `CrateSyndicateChameleonBundle` ｜父类: CrateSyndicate,StorePresetUplink,BaseSyndicateContraband ｜_Starlight
-- **辛迪加超级剩余物资箱** — `CrateSyndicateSuperSurplusBundle` ｜父类: CrateSyndicate,StorePresetUplink,BaseSyndicateContraband
-- **辛迪加剩余物资箱** — `CrateSyndicateSurplusBundle` ｜父类: CrateSyndicate,StorePresetUplink,BaseSyndicateContraband
-- **剩余电路板** — `CrateTechBoardRandom` ｜父类: ToteBase
-- **TEG 箱** — `CrateTEGFlatpack` ｜父类: CrateEngineeringSecure ｜_Starlight
-- **追踪植入物** — `CrateTrackingImplants` ｜父类: CrateWeaponSecure,BaseSecurityContraband
-- **训练炸弹** — `CrateTrainingBombs` ｜父类: CrateWeaponSecure,BaseSecurityContraband
+- **打捞设备箱** — `CrateSalvageEquipment` ｜父类: CrateGenericSteel ｜描述: For the daring.
+- **打捞外骨骼服箱** — `CrateSalvageHardsuit` ｜父类: CrateGenericSteel ｜描述: Contains a salvage hardsuit, breath mask, and oxygen tank.
+- **科学家生化防护服板条箱** — `CrateScienceBiosuit` ｜父类: CrateScienceSecure ｜描述: Contains 2 biohazard suits to ensure that no disease will distract you from doing science. Requires Science access to open.
+- **非致命投掷物箱** — `CrateSecNonlethalThrowables` ｜父类: CrateSecgear ｜描述: Contains one box each of flashbangs, stingers, tear gas grenades, and four bolas. Requires Security access to open.
+- **护甲箱** — `CrateSecurityArmor` ｜父类: CrateSecgear ｜描述: Contains three bulletproof vests. Requires Security access to open.
+- **安保生化防护服箱** — `CrateSecurityBiosuit` ｜父类: CrateSecgear ｜描述: Contains 2 biohazard suits to ensure that no disease will distract you from your duties. Requires Security access to open.
+- **头盔箱** — `CrateSecurityHelmet` ｜父类: CrateSecgear ｜描述: Contains three standard-issue brain buckets. Requires Security access to open.
+- **非致命武器箱** — `CrateSecurityNonlethal` ｜父类: CrateSecgear ｜描述: Contains a mix of disablers, stun batons, and flashes. Requires Security access to open.
+- **反射护甲板条箱** — `CrateSecurityReflectiveArmor` ｜父类: CrateSecgear ｜_Starlight ｜描述: Contains three reflective vests. Requires Security access to open.
+- **特警板条箱** — `CrateSecurityRiot` ｜父类: CrateWeaponSecure,BaseSecurityContraband ｜描述: Contains two sets of riot armor, helmets, shields, and enforcers loaded with beanbags. Extra ammo is included. Requires Armory access to open.
+- **安保用品箱** — `CrateSecuritySupplies` ｜父类: CrateSecgear ｜描述: Contains various supplies for the station's Security team. Requires Security access to open.
+- **植入器箱** — `CrateSecurityTrackingMindshieldImplants` ｜父类: CrateSecgear ｜描述: Contains 4 MindShield implants and 4 tracking implant. Requires Security access to open.
+- **震波炸药箱** — `CrateSeismicCharge` ｜父类: CrateGenericSteel ｜描述: Contains 6 seismic charges for use by salvage.
+- **书籍板条箱** — `CrateServiceBooks` ｜父类: CrateGenericSteel ｜描述: Contains 10 empty books of random appearance.
+- **酒类分配器补充装板条箱** — `CrateServiceBoozeDispenser` ｜父类: CrateFreezer ｜描述: Contains refills for booze dispensers.
+- **空盒板条箱** — `CrateServiceBox` ｜父类: CratePlastic ｜描述: Contains 6 empty multipurpose boxes.
+- **官僚办公板条箱** — `CrateServiceBureaucracy` ｜父类: CrateGenericSteel ｜描述: Several stacks of paper, a few pens and an office toy. What more could you ask for?
+- **清洁手雷批发箱** — `CrateServiceCleanerGrenades` ｜父类: CratePlastic ｜描述: Contains two boxes of cleaner grenades, for those deeply-entrenched stains.
+- **彩色灯具板条箱** — `CrateServiceColorfulLights` ｜父类: CrateGenericSteel ｜描述: It's not a party until it's hard to see, a little disorienting, and your ears hurt. Contains twelve light tubes and twelve light bulbs in a variety of colors.
+- **自制烟草制品板条箱** — `CrateServiceCustomSmokable` ｜父类: CrateGenericSteel ｜描述: Want to get a little creative with what you use to destroy your lungs? Then this crate is for you! Has everything you need to roll your own cigarettes.
+- **文件打印机箱** — `CrateServiceDocumentPrinter` ｜父类: CrateGenericSteel ｜_Starlight ｜描述: A document printer.
+- **传真机板条箱** — `CrateServiceFaxMachine` ｜父类: CrateGenericSteel ｜描述: A fax machine and a screwdriver to set the name with.
+- **指南手册板条箱** — `CrateServiceGuidebooks` ｜父类: CrateGenericSteel ｜描述: Contains guidebooks.
+- **节日灯具板条箱** — `CrateServiceHolidayLights` ｜父类: CrateGenericSteel ｜描述: Deck the halls with these festive holiday lights! Contains twelve red light tubes and twelve green light tubes.
+- **九头蛇补充装箱** — `CrateServiceHydraRefill` ｜父类: CratePlastic ｜_Starlight ｜描述: Contains two refills for the Hydra cleanade launcher.
+- **冰淇淋机入门箱** — `CrateServiceIceCreamMakerStarter` ｜父类: CrateFreezer ｜_Starlight ｜描述: Contains a flatpack of an ice cream maker, a jug of ice cream, cream, cocoa powder, berries, pistachios, and glasses.
+- **清洁用品板条箱** — `CrateServiceJanitorialSupplies` ｜父类: CratePlastic ｜描述: Fight back against dirt and grime with NanoTrasen's Janitorial Essentials(tm)! Contains three buckets, caution signs, and cleaner grenades. Also has a single mop, broom, spray cleaner, wire brush, rag
+- **人事用品板条箱** — `CrateServicePersonnel` ｜父类: CrateCommandSecure ｜描述: Contains a box of blank ID cards and PDAs.
+- **替换灯具板条箱** — `CrateServiceReplacementLights` ｜父类: CrateGenericSteel ｜描述: May the light of Aether shine upon this station! Or at least, the light of twelve fluorescent light tubes and twelve incandescent light bulbs.
+- **烟草制品板条箱** — `CrateServiceSmokeables` ｜父类: CrateGenericSteel ｜描述: Tired of a quick death on the station? Order this crate and chain-smoke your way to a coughy demise!
+- **汽水分配器补充装板条箱** — `CrateServiceSodaDispenser` ｜父类: CrateFreezer ｜描述: Contains refills for soda dispensers.
+- **舞台演出板条箱** — `CrateServiceTheatre` ｜父类: CrateGenericSteel ｜描述: Contains a moth cloak, barber scissors, maid uniform, clown and mime attributes, and other performance charms.
+- **异种生物学入门箱** — `CrateStarterXenobiology` ｜父类: CrateScienceSecure ｜_Starlight ｜描述: Contains a gray slime extract and a box of monkey cubes to get you started on your xenobiology adventures. Or because you really messed up. Oh, and a camera tagger. Don't let any spies get their hands
+- **空间站 AI 核心板条箱** — `CrateStationAiCore` ｜父类: CrateScienceSecure ｜描述: Contains the components for constructing a station AI core. Positronic brain not included. Requires Science access to open.
+- **气体通道棒箱** — `CrateSteelGasChannel` ｜父类: CrateEngineeringSecure ｜_FarHorizons ｜描述: 4 steel gas channel rods for a nuclear reactor.
+- **热交换棒箱** — `CrateSteelHeatExhanger` ｜父类: CrateEngineeringSecure ｜_FarHorizons ｜描述: 4 steel heat exchanger rods for a nuclear reactor.
+- **超物质箱** — `CrateSupermatterFlatpack` ｜父类: CrateEngineeringSecure ｜_Starlight ｜描述: Supermatter, your solution for things regular matter can't handle.
+- **至尊打捞员斗篷箱** — `CrateSupremeSalvagerCloak` ｜父类: CrateGenericSteel ｜描述: Contains a cloak only to be worn by supreme salvagers. Wearing it undeservedly will result in your doom.
+- **变色龙套件箱** — `CrateSyndicateChameleonBundle` ｜父类: CrateSyndicate,StorePresetUplink,BaseSyndicateContraband ｜_Starlight ｜描述: Contains a backpack full of items that contain chameleon technology allowing you to disguise as pretty much anything on the station, and more!
+- **辛迪加超级剩余物资箱** — `CrateSyndicateSuperSurplusBundle` ｜父类: CrateSyndicate,StorePresetUplink,BaseSyndicateContraband ｜描述: Contains 125 telecrystals worth of completely random Syndicate items.
+- **辛迪加剩余物资箱** — `CrateSyndicateSurplusBundle` ｜父类: CrateSyndicate,StorePresetUplink,BaseSyndicateContraband ｜描述: Contains 50 telecrystals worth of completely random Syndicate items. It can be useless junk or really good.
+- **剩余电路板** — `CrateTechBoardRandom` ｜父类: ToteBase ｜描述: Surplus boards from somewhere.
+- **TEG 箱** — `CrateTEGFlatpack` ｜父类: CrateEngineeringSecure ｜_Starlight ｜描述: A crate containing a flatpacked Thermo-Electric Generator.
+- **追踪植入物** — `CrateTrackingImplants` ｜父类: CrateWeaponSecure,BaseSecurityContraband ｜描述: Contains a handful of tracking implanters. Good for prisoners you'd like to release but still keep track of.
+- **训练炸弹** — `CrateTrainingBombs` ｜父类: CrateWeaponSecure,BaseSecurityContraband ｜描述: Contains three low-yield training bombs for security to learn defusal and safe ordnance disposal, EOD suit not included. Requires Armory access to open.
 - **垃圾推车** — `CrateTrashCartFilled` ｜父类: CrateTrashCart
-- **自动衣柜补货板条箱** — `CrateVendingMachineRestockAutoDrobeFilled` ｜父类: CratePlastic
-- **酒客之家补货板条箱** — `CrateVendingMachineRestockBoozeFilled` ｜父类: CratePlastic
-- **老常补货板条箱** — `CrateVendingMachineRestockChangFilled` ｜父类: CratePlastic
-- **厨师售货机补货板条箱** — `CrateVendingMachineRestockChefvendFilled` ｜父类: CratePlastic
-- **化学售货机补货板条箱** — `CrateVendingMachineRestockChemVendFilled` ｜父类: CrateMedicalSecure
-- **服装补货板条箱** — `CrateVendingMachineRestockClothesFilled` ｜父类: CratePlastic
-- **调味品台补货板条箱** — `CrateVendingMachineRestockCondimentStationFilled` ｜父类: CratePlastic
-- **塑钢厨师补货板条箱** — `CrateVendingMachineRestockDinnerwareFilled` ｜父类: CratePlastic
-- **廉价丹补货板条箱** — `CrateVendingMachineRestockDiscountDansFilled` ｜父类: CratePlastic
-- **Donk 随行补货箱** — `CrateVendingMachineRestockDonkFilled` ｜父类: CratePlastic ｜_Starlight
-- **甜甜圈补货板条箱** — `CrateVendingMachineRestockDonutFilled` ｜父类: CratePlastic
-- **工程售货机补货板条箱** — `CrateVendingMachineRestockEngineeringFilled` ｜父类: CrateEngineeringSecure
-- **健康娱乐补货板条箱** — `CrateVendingMachineRestockGamesFilled` ｜父类: CratePlastic
-- **多拿巧克力公司补货板条箱** — `CrateVendingMachineRestockGetmoreChocolateCorpFilled` ｜父类: CratePlastic
-- **欢乐鸣笛补货板条箱** — `CrateVendingMachineRestockHappyHonkFilled` ｜父类: CratePlastic
-- **太阳之选补货板条箱** — `CrateVendingMachineRestockHotDrinksFilled` ｜父类: CratePlastic
-- **冰淇淋补货箱** — `CrateVendingMachineRestockIceCreamFilled` ｜父类: CratePlastic ｜_Starlight
-- **纳米医疗补货板条箱** — `CrateVendingMachineRestockMedicalFilled` ｜父类: CrateMedicalSecure
-- **营养至上补货板条箱** — `CrateVendingMachineRestockNutriMaxFilled` ｜父类: CrateHydroSecure
-- **PTech 补货板条箱** — `CrateVendingMachineRestockPTechFilled` ｜父类: CratePlastic
-- **豪华机器人科技补货板条箱** — `CrateVendingMachineRestockRoboticsFilled` ｜父类: CrateScienceSecure
-- **饮料售货机补货板条箱** — `CrateVendingMachineRestockRobustSoftdrinksFilled` ｜父类: CratePlastic
-- **打捞售货机补货板条箱** — `CrateVendingMachineRestockSalvageEquipmentFilled` ｜父类: CrateGenericSteel
-- **安保科技补货板条箱** — `CrateVendingMachineRestockSecTechFilled` ｜父类: CrateSecgear
-- **巨型种子补货板条箱** — `CrateVendingMachineRestockSeedsFilled` ｜父类: CrateHydroSecure
-- **黑心烟草补货板条箱** — `CrateVendingMachineRestockSmokesFilled` ｜父类: CratePlastic
-- **口粮售货机补货箱** — `CrateVendingMachineRestockSustenanceFilled` ｜父类: CratePlastic ｜_Starlight
-- **气罐售货机补货板条箱** — `CrateVendingMachineRestockTankDispenserFilled` ｜父类: CratePlastic
-- **万能售货机补货板条箱** — `CrateVendingMachineRestockVendomatFilled` ｜父类: CratePlastic
-- **病毒学防化服箱** — `CrateVirologyBiosuit` ｜父类: CrateMedicalSecure
-- **虚空喷气背包箱** — `CrateVoidJetpack` ｜父类: CrateGenericSteel
+- **自动衣柜补货板条箱** — `CrateVendingMachineRestockAutoDrobeFilled` ｜父类: CratePlastic ｜描述: Contains a restock box for the AutoDrobe.
+- **酒客之家补货板条箱** — `CrateVendingMachineRestockBoozeFilled` ｜父类: CratePlastic ｜描述: Contains a restock box for the Booze-O-Mat.
+- **老常补货板条箱** — `CrateVendingMachineRestockChangFilled` ｜父类: CratePlastic ｜描述: Contains a restock box for a Mr. Chang dispenser.
+- **厨师售货机补货板条箱** — `CrateVendingMachineRestockChefvendFilled` ｜父类: CratePlastic ｜描述: Contains a restock box for the ChefVend.
+- **化学售货机补货板条箱** — `CrateVendingMachineRestockChemVendFilled` ｜父类: CrateMedicalSecure ｜描述: Contains a restock box for the ChemVend.
+- **服装补货板条箱** — `CrateVendingMachineRestockClothesFilled` ｜父类: CratePlastic ｜描述: Contains a restock box for the clothes vending machines.
+- **调味品台补货板条箱** — `CrateVendingMachineRestockCondimentStationFilled` ｜父类: CratePlastic ｜描述: Contains a restock box for the condiment station.
+- **塑钢厨师补货板条箱** — `CrateVendingMachineRestockDinnerwareFilled` ｜父类: CratePlastic ｜描述: Contains a restock box for the Plasteel Chef vending machine.
+- **廉价丹补货板条箱** — `CrateVendingMachineRestockDiscountDansFilled` ｜父类: CratePlastic ｜描述: Contains a restock box for a Discount Dan's dispenser.
+- **Donk 随行补货箱** — `CrateVendingMachineRestockDonkFilled` ｜父类: CratePlastic ｜_Starlight ｜描述: Contains a restock box for the Donk on the Go Vendor.
+- **甜甜圈补货板条箱** — `CrateVendingMachineRestockDonutFilled` ｜父类: CratePlastic ｜描述: Contains a restock box for a Monkin' Donuts dispenser.
+- **工程售货机补货板条箱** — `CrateVendingMachineRestockEngineeringFilled` ｜父类: CrateEngineeringSecure ｜描述: Contains a restock box for the EngiVend. Also supports the YouTool.
+- **健康娱乐补货板条箱** — `CrateVendingMachineRestockGamesFilled` ｜父类: CratePlastic ｜描述: Contains a restock box for the Good Clean Fun vending machine.
+- **多拿巧克力公司补货板条箱** — `CrateVendingMachineRestockGetmoreChocolateCorpFilled` ｜父类: CratePlastic ｜描述: Contains a restock box for a Getmore Chocolate Corp dispenser.
+- **欢乐鸣笛补货板条箱** — `CrateVendingMachineRestockHappyHonkFilled` ｜父类: CratePlastic ｜描述: Contains a restock box for a happy honk dispenser.
+- **太阳之选补货板条箱** — `CrateVendingMachineRestockHotDrinksFilled` ｜父类: CratePlastic ｜描述: Contains two restock boxes for Solar's Best Hot Drinks vending machine.
+- **冰淇淋补货箱** — `CrateVendingMachineRestockIceCreamFilled` ｜父类: CratePlastic ｜_Starlight ｜描述: Contains a restock box for I Scream Ice-Cream.
+- **纳米医疗补货板条箱** — `CrateVendingMachineRestockMedicalFilled` ｜父类: CrateMedicalSecure ｜描述: Contains a restock box, compatible with the NanoMed and NanoMedPlus.
+- **营养至上补货板条箱** — `CrateVendingMachineRestockNutriMaxFilled` ｜父类: CrateHydroSecure ｜描述: Contains a restock box for the NutriMax vending machine.
+- **PTech 补货板条箱** — `CrateVendingMachineRestockPTechFilled` ｜父类: CratePlastic ｜描述: Contains a restock box for the PTech bureaucracy dispenser.
+- **豪华机器人科技补货板条箱** — `CrateVendingMachineRestockRoboticsFilled` ｜父类: CrateScienceSecure ｜描述: Contains a restock box for a Robotech Deluxe vending machine.
+- **饮料售货机补货板条箱** — `CrateVendingMachineRestockRobustSoftdrinksFilled` ｜父类: CratePlastic ｜描述: Contains restock boxes for beverage vending machines.
+- **打捞售货机补货板条箱** — `CrateVendingMachineRestockSalvageEquipmentFilled` ｜父类: CrateGenericSteel ｜描述: Contains a restock box for the salvage vendor.
+- **安保科技补货板条箱** — `CrateVendingMachineRestockSecTechFilled` ｜父类: CrateSecgear ｜描述: Contains a restock box for the SecTech vending machine.
+- **巨型种子补货板条箱** — `CrateVendingMachineRestockSeedsFilled` ｜父类: CrateHydroSecure ｜描述: Contains a restock box for the MegaSeed vending machine.
+- **黑心烟草补货板条箱** — `CrateVendingMachineRestockSmokesFilled` ｜父类: CratePlastic ｜描述: Contains two restock boxes for the ShadyCigs vending machine.
+- **口粮售货机补货箱** — `CrateVendingMachineRestockSustenanceFilled` ｜父类: CratePlastic ｜_Starlight ｜描述: Contains a restock box for the Sustenance Vendor.
+- **气罐售货机补货板条箱** — `CrateVendingMachineRestockTankDispenserFilled` ｜父类: CratePlastic ｜描述: Contains a restock box for an Engineering or Atmospherics tank dispenser.
+- **万能售货机补货板条箱** — `CrateVendingMachineRestockVendomatFilled` ｜父类: CratePlastic ｜描述: Contains a restock box for a Vendomat vending machine.
+- **病毒学防化服箱** — `CrateVirologyBiosuit` ｜父类: CrateMedicalSecure ｜描述: Contains 2 biohazard suits to ensure that no disease will distract you from treating the crew. Requires Medical access to open.
+- **虚空喷气背包箱** — `CrateVoidJetpack` ｜父类: CrateGenericSteel ｜描述: Contains a single void jetpack.
 - **双联应急氮气罐** — `DoubleEmergencyNitrogenTankFilled` ｜父类: DoubleEmergencyNitrogenTank
 - **双联应急氧气罐** — `DoubleEmergencyOxygenTankFilled` ｜父类: DoubleEmergencyOxygenTank
 - **衣柜** — `DresserCaptainFilled` ｜父类: Dresser
@@ -588,18 +588,18 @@
 - **笨蛋工具箱** — `FoolboxFilled` ｜父类: Foolbox
 - **致残枪保险柜** — `GunSafeDisabler` ｜父类: GunSafeBaseSecure,BaseSecurityContraband
 - **LWAP 枪械保险柜** — `GunSafeEnergySniper` ｜父类: GunSafeBaseSecure,BaseRestrictedContraband ｜_Starlight
-- **精确射手步枪保险柜** — `GunSafeHeavyWeapons` ｜父类: GunSafeBaseSecure,BaseSecurityContraband ｜_Starlight
+- **精确射手步枪保险柜** — `GunSafeHeavyWeapons` ｜父类: GunSafeBaseSecure,BaseSecurityContraband ｜_Starlight ｜描述: Contains a set of L10 DMRs
 - **激光枪保险柜** — `GunSafeLaserCarbine` ｜父类: GunSafeBaseSecure,BaseSecurityContraband
-- **重武器保险柜** — `GunSafeLMG` ｜父类: GunSafe,BaseSecurityContraband ｜_Starlight
+- **重武器保险柜** — `GunSafeLMG` ｜父类: GunSafe,BaseSecurityContraband ｜_Starlight ｜描述: For when talking it out just isn't enough.
 - **手枪保险柜** — `GunSafePistolMk58` ｜父类: GunSafeBaseSecure,BaseSecurityContraband
 - **步枪保险柜** — `GunSafeRifleLecter` ｜父类: GunSafeBaseSecure,BaseSecurityContraband
 - **重型霰弹枪保险柜** — `GunSafeShotgunEnforcer` ｜父类: GunSafeBaseSecure,BaseSecurityContraband
 - **霰弹枪保险柜** — `GunSafeShotgunKammerer` ｜父类: GunSafeBaseSecure,BaseSecurityContraband
 - **冲锋枪保险柜** — `GunSafeSubMachineGunDrozd` ｜父类: GunSafeBaseSecure,BaseSecurityContraband
 - **WT550保险柜** — `GunSafeSubMachineGunWt550` ｜父类: GunSafeBaseSecure,BaseSecurityContraband
-- **催眠气体罐** — `HealiumTankEmpty` ｜父类: AirTank ｜_Starlight
+- **催眠气体罐** — `HealiumTankEmpty` ｜父类: AirTank ｜_Starlight ｜描述: Contains a mixture of air and healium. Keep the pressure at 65 and it should put even those nitrogen breathers to sleep. It can hold 5 L of gas.
 - **催眠气体罐** — `HealiumTankFilled` ｜父类: HealiumTankEmpty ｜_Starlight
-- **全息寄生体条款与条件** — `HoloparasiteInfo` ｜父类: BaseItem
+- **全息寄生体条款与条件** — `HoloparasiteInfo` ｜父类: BaseItem ｜描述: A tiny volumetric display for documents, makes one wonder if Cybersun's legal budget is way too high.
 - **大气技师储物柜** — `LockerAtmosphericsFilled` ｜父类: LockerAtmospherics
 - **大气技师储物柜** — `LockerAtmosphericsFilledHardsuit` ｜父类: LockerAtmospherics
 - **储物容器** — `LockerBlueshieldFilled` ｜父类: LockerBlueshield ｜_Starlight
@@ -662,10 +662,10 @@
 - **安保干员储物柜** — `LockerSecurityFilled` ｜父类: LockerSecurity
 - **大型安保干员's 储物柜** — `LockerSecurityLargeFilled` ｜父类: LockerSecurityLarge ｜_Starlight
 - **储物容器** — `LockerSurgeonFilled` ｜父类: LockerSurgeon ｜_Starlight
-- **血红储物柜** — `LockerSyndicatePersonalFilled` ｜父类: LockerSyndicatePersonal
+- **血红储物柜** — `LockerSyndicatePersonalFilled` ｜父类: LockerSyndicatePersonal ｜描述: It's a personal storage unit for operative gear.
 - **血红色 壁橱** — `LockerSyndicateShipGearBasic` ｜父类: LockerSyndicate
 - **血红色 壁橱** — `LockerSyndicateShipGearBasicChameleonKit` ｜父类: LockerSyndicateShipGearBasic
-- **血红壁挂储物柜** — `LockerSyndicateWallFilled` ｜父类: LockerWallSyndicate
+- **血红壁挂储物柜** — `LockerSyndicateWallFilled` ｜父类: LockerWallSyndicate ｜描述: It's a personal storage unit for operative gear.
 - **储物容器** — `LockerVirologistFilled` ｜父类: LockerVirologist ｜_Starlight
 - **紧急撤离穿梭机应急壁挂储物柜** — `LockerWallEvacRepairFilled` ｜父类: LockerWallEvacRepair
 - **医师壁柜** — `LockerWallMedicalDoctorFilled` ｜父类: LockerWallMedical
@@ -687,18 +687,18 @@
 - **氮气罐** — `NitrogenTankFilled` ｜父类: NitrogenTank
 - **一氧化二氮气罐** — `NitrousOxideTankFilled` ｜父类: NitrousOxideTank
 - **氧气罐** — `OxygenTankFilled` ｜父类: OxygenTank
-- **NT《农化真有趣》手册** — `PaperAgrichemManual` ｜父类: Paper
-- **重新开始计时。** — `PaperEndGreenshift` ｜父类: BaseStarlightAdmemePaper ｜_Starlight
-- **机器人太守规矩了？** — `PaperIonstormBorgs` ｜父类: Paper ｜_Starlight
-- **Q 的终结** — `PaperTooQuietNeedChaos` ｜父类: BasePaperQuietChaos ｜_Starlight
+- **NT《农化真有趣》手册** — `PaperAgrichemManual` ｜父类: Paper ｜描述: The single sheet of instructions that came in the kit.
+- **重新开始计时。** — `PaperEndGreenshift` ｜父类: BaseStarlightAdmemePaper ｜_Starlight ｜描述: A paper that seems to "start the clock" again? the countdown causes it to be too big to fix into a fax.
+- **机器人太守规矩了？** — `PaperIonstormBorgs` ｜父类: Paper ｜_Starlight ｜描述: A paper. it seems to feel slightly electric in your hands. would probally destroy a fax if you insered it.
+- **Q 的终结** — `PaperTooQuietNeedChaos` ｜父类: BasePaperQuietChaos ｜_Starlight ｜描述: dreadful paper that cant fit in a fax machine.
 - **Q 的终结** — `PaperTooQuietNeedChaosFew` ｜父类: BasePaperQuietChaos ｜_Starlight
 - **纸** — `PaperWrittenAMEScribbles` ｜父类: Paper
-- **战斗烘焙套件说明** — `PaperWrittenCombatBakeryKit` ｜父类: Paper
+- **战斗烘焙套件说明** — `PaperWrittenCombatBakeryKit` ｜父类: Paper ｜描述: Eat note after reading.
 - **纸** — `PaperWrittenSupermatterGuide` ｜父类: Paper ｜_Starlight
 - **自动注射器包** — `PenPackMedicalFilled` ｜父类: PenPackMedical ｜_Starlight
 - **自动注射器包** — `PenPackSecurityFilled` ｜父类: PenPackSecurity ｜_Starlight
 - **等离子体罐** — `PlasmaTankFilled` ｜父类: PlasmaTank
-- `模板` **PrintedDocument** — `PrintedDocument` ｜父类: PaperNTCC ｜_Starlight
+- `模板` **PrintedDocument** — `PrintedDocument` ｜父类: PaperNTCC ｜_Starlight ｜描述: Bureaucratic unit. A document printed on a printer.
 - **权限申请** — `PrintedDocumentAccessRequestStatement` ｜父类: PrintedDocument ｜_Starlight
 - **权限撤销令** — `PrintedDocumentAccessRevocationOrder` ｜父类: PrintedDocument ｜_Starlight
 - **逮捕报告** — `PrintedDocumentArrestReport` ｜父类: PrintedDocument ｜_Starlight
@@ -750,7 +750,7 @@
 - **穿梭机登记表** — `PrintedDocumentShuttleRegistrationRequest` ｜父类: PrintedDocument ｜_Starlight
 - **临时指挥职位任命书** — `PrintedDocumentStatementAppointmentInterimChapter` ｜父类: PrintedDocument ｜_Starlight
 - **手术同意书** — `PrintedDocumentSurgeryConsentPermit` ｜父类: PrintedDocument ｜_Starlight
-- **安全简报文件** — `SecureBriefings` ｜父类: BoxFolderRedEmpty,BaseCommandContraband ｜_Starlight
+- **安全简报文件** — `SecureBriefings` ｜父类: BoxFolderRedEmpty,BaseCommandContraband ｜_Starlight ｜描述: A set of classified documents to inform new members of Security
 - **急救箱** — `StimkitFilled` ｜父类: Medkit
 - **太空服储存单元** — `SuitStorageAtmos` ｜父类: SuitStorageBase
 - **太空服储存单元** — `SuitStorageBlueShield` ｜父类: SuitStorageBase ｜_Starlight
@@ -775,11 +775,11 @@
 - **太空服储存单元** — `SuitStorageSyndie` ｜父类: SuitStorageBase
 - **太空服储存单元** — `SuitStorageWarden` ｜父类: SuitStorageBase
 - **太空服储存单元** — `SuitStorageWizard` ｜父类: SuitStorageBase
-- **辛迪加机器柯基套装** — `SyndiBorgiKit1Bundle` ｜父类: CrateSyndicate,BaseSyndicateContraband ｜_Starlight
-- **辛迪加机器柯基套装** — `SyndiBorgiKit2Bundle` ｜父类: CrateSyndicate,BaseSyndicateContraband ｜_Starlight
-- **辛迪加机器柯基套装** — `SyndiBorgiKitBasicBundle` ｜父类: CrateSyndicate,BaseSyndicateContraband ｜_Starlight
+- **辛迪加机器柯基套装** — `SyndiBorgiKit1Bundle` ｜父类: CrateSyndicate,BaseSyndicateContraband ｜_Starlight ｜描述: Quite the robust borgi.
+- **辛迪加机器柯基套装** — `SyndiBorgiKit2Bundle` ｜父类: CrateSyndicate,BaseSyndicateContraband ｜_Starlight ｜描述: Faster than the average borgi.
+- **辛迪加机器柯基套装** — `SyndiBorgiKitBasicBundle` ｜父类: CrateSyndicate,BaseSyndicateContraband ｜_Starlight ｜描述: Incoming delivery, man's best friend!
 - **辛迪加最高指挥部 # Used for radio announcement** — `SyndieDeadDropSpawner` ｜父类: MarkerBase ｜_Starlight
-- **飞刀套件** — `ThrowingKnivesKit` ｜父类: BoxCardboard,BaseSyndicateContraband
+- **飞刀套件** — `ThrowingKnivesKit` ｜父类: BoxCardboard,BaseSyndicateContraband ｜描述: A set of 8 syndicate branded throwing knives, perfect for embedding into the body of your victims.
 - **艺术工具箱** — `ToolboxArtisticFilled` ｜父类: ToolboxArtistic
 - **艺术工具箱** — `ToolboxArtisticFilledCleaner` ｜父类: ToolboxArtistic ｜_Starlight
 - **电气工具箱** — `ToolboxElectricalFilled` ｜父类: ToolboxElectrical
@@ -789,31 +789,31 @@
 - **金制工具箱** — `ToolboxGoldFilled` ｜父类: ToolboxGolden
 - **机械工具箱** — `ToolboxMechanicalFilled` ｜父类: ToolboxMechanical
 - **机械工具箱** — `ToolboxMechanicalFilledAllTools` ｜父类: ToolboxMechanical
-- **机器人专家工具箱** — `ToolboxRoboticist` ｜父类: ToolboxBase ｜_Starlight
+- **机器人专家工具箱** — `ToolboxRoboticist` ｜父类: ToolboxBase ｜_Starlight ｜描述: What, it's just a roboticist toolbox? Were you expecting something else?
 - **机器人专家工具箱** — `ToolboxRoboticistFilled` ｜父类: ToolboxRoboticist ｜_Starlight
 - **可疑工具箱** — `ToolboxSyndicateFilled` ｜父类: ToolboxSyndicate
-- **重音Teto夜间包** — `TP14BoxDarkPerformer` ｜父类: ClothingBackpackDuffel ｜_TP
-- **大气衣柜** — `WardrobeAtmosphericsFilled` ｜父类: WardrobeAtmospherics
+- **重音Teto夜间包** — `TP14BoxDarkPerformer` ｜父类: ClothingBackpackDuffel ｜_TP ｜描述: Darkness is this one's friend on the stage.
+- **大气衣柜** — `WardrobeAtmosphericsFilled` ｜父类: WardrobeAtmospherics ｜描述: This locker contains a uniform for atmospheric technicians.
 - **黑色 衣柜** — `WardrobeBlackFilled` ｜父类: WardrobeBlack
 - **蓝色 衣柜** — `WardrobeBlueFilled` ｜父类: WardrobeBlue
-- **植物学家衣柜** — `WardrobeBotanistFilled` ｜父类: WardrobeBotanist
-- **货运衣柜** — `WardrobeCargoFilled` ｜父类: WardrobeCargo
-- **牧师衣柜** — `WardrobeChapelFilled` ｜父类: WardrobeChapel
-- **化学衣柜** — `WardrobeChemistryFilled` ｜父类: WardrobeChemistry
-- **工程衣柜** — `WardrobeEngineeringFilled` ｜父类: WardrobeEngineering
-- **基因学衣柜** — `WardrobeGeneticsFilled` ｜父类: WardrobeGenetics
+- **植物学家衣柜** — `WardrobeBotanistFilled` ｜父类: WardrobeBotanist ｜描述: Plant yourself among the plant men with these 100% natural plant-derived clothes.
+- **货运衣柜** — `WardrobeCargoFilled` ｜父类: WardrobeCargo ｜描述: This locker? Maybe 500 spesos. Brotherhood? Priceless.
+- **牧师衣柜** — `WardrobeChapelFilled` ｜父类: WardrobeChapel ｜描述: You have to look presentable for your flock.
+- **化学衣柜** — `WardrobeChemistryFilled` ｜父类: WardrobeChemistry ｜描述: The sleek orange threads contained within make you much less likely to be thrown out of the chemistry lab.
+- **工程衣柜** — `WardrobeEngineeringFilled` ｜父类: WardrobeEngineering ｜描述: This locker contains a uniform for engineering or social engineering.
+- **基因学衣柜** — `WardrobeGeneticsFilled` ｜父类: WardrobeGenetics ｜描述: The sleek blue threads contained within make you much less likely to be thrown out of the genetics lab.
 - **绿色 衣柜** — `WardrobeGreenFilled` ｜父类: WardrobeGreen
 - **灰色 衣柜** — `WardrobeGreyFilled` ｜父类: WardrobeGrey
-- **医师衣柜** — `WardrobeMedicalDoctorFilled` ｜父类: WardrobeMedicalDoctor
+- **医师衣柜** — `WardrobeMedicalDoctorFilled` ｜父类: WardrobeMedicalDoctor ｜描述: We've all played doctor before, now practice medicine.
 - **混色 衣柜** — `WardrobeMixedFilled` ｜父类: WardrobeMixed
 - **粉色 衣柜** — `WardrobePinkFilled` ｜父类: WardrobePink
-- **监狱衣柜** — `WardrobePrisonFilled` ｜父类: WardrobePrison
-- **机械学衣柜** — `WardrobeRoboticsFilled` ｜父类: WardrobeRobotics
+- **监狱衣柜** — `WardrobePrisonFilled` ｜父类: WardrobePrison ｜描述: Contains a selection of nice orange clothes for people enjoying their stay in the brig.
+- **机械学衣柜** — `WardrobeRoboticsFilled` ｜父类: WardrobeRobotics ｜描述: You can build a robot out of this locker.
 - **打捞 衣柜** — `WardrobeSalvageFilled` ｜父类: WardrobeSalvage
-- **科研衣柜** — `WardrobeScienceFilled` ｜父类: WardrobeScience
-- **安保衣柜** — `WardrobeSecurityFilled` ｜父类: WardrobeSecurity
-- **病毒学衣柜** — `WardrobeVirologyFilled` ｜父类: WardrobeVirology
+- **科研衣柜** — `WardrobeScienceFilled` ｜父类: WardrobeScience ｜描述: You've read a couple pop science articles, now it's time for the real deal.
+- **安保衣柜** — `WardrobeSecurityFilled` ｜父类: WardrobeSecurity ｜描述: Cross the thin red line.
+- **病毒学衣柜** — `WardrobeVirologyFilled` ｜父类: WardrobeVirology ｜描述: The sleek green threads contained within make you much less likely to be thrown out of the virology lab.
 - **白色 衣柜** — `WardrobeWhiteFilled` ｜父类: WardrobeWhite
 - **黄色 衣柜** — `WardrobeYellowFilled` ｜父类: WardrobeYellow
-- **ZXA 气罐** — `ZXATankEmpty` ｜父类: AirTank ｜_Starlight
+- **ZXA 气罐** — `ZXATankEmpty` ｜父类: AirTank ｜_Starlight ｜描述: Contains a mixture of air and ZXA. Keep the pressure at 23.6 and it'll send anyone with lungs straight to dreamland. It can hold 5 L of gas.
 - **ZXA 气罐** — `ZXATankFilled` ｜父类: ZXATankEmpty ｜_Starlight

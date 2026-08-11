@@ -2,379 +2,379 @@
 
 > 来源层分布: 上游 1288, _Starlight 765, DeltaV 54, _Moffstation 15, _Funkystation 3, _TP 2, _FarHorizons 1
 
-- **变为有效猎物** — `ActionBecomeValid` ｜父类: BaseToggleAction
-- **启动全息徽章** — `ActionHoloPin` ｜父类: BaseToggleAction ｜_Starlight
+- **变为有效猎物** — `ActionBecomeValid` ｜父类: BaseToggleAction ｜描述: *notices your killsign* owo whats this
+- **启动全息徽章** — `ActionHoloPin` ｜父类: BaseToggleAction ｜_Starlight ｜描述: BREAKING NEWS! DON'T KILL ME PLEASE!
 - **Listenwith听诊器** — `ActionStethoscope` ｜父类: BaseAction
-- **切换正义头盔** — `ActionToggleJusticeHelm` ｜父类: BaseAction
-- **切换磁力靴** — `ActionToggleMagboots` ｜父类: BaseAction
-- **切换面罩** — `ActionToggleMask` ｜父类: BaseAction
-- **切换疾速靴** — `ActionToggleSpeedBoots` ｜父类: BaseAction
-- **调整焊接面具** — `ActionToggleWeldingMask` ｜_Starlight
+- **切换正义头盔** — `ActionToggleJusticeHelm` ｜父类: BaseAction ｜描述: Toggles the justice helm on and off.
+- **切换磁力靴** — `ActionToggleMagboots` ｜父类: BaseAction ｜描述: Toggles the magboots on and off.
+- **切换面罩** — `ActionToggleMask` ｜父类: BaseAction ｜描述: Handy, but prevents insertion of pie into your pie hole.
+- **切换疾速靴** — `ActionToggleSpeedBoots` ｜父类: BaseAction ｜描述: Toggles the speed boots on and off.
+- **调整焊接面具** — `ActionToggleWeldingMask` ｜_Starlight ｜描述: Covers or reveals your face.
 - `模板` **AllowSuitStorageClothing** — `AllowSuitStorageClothing`
 - `模板` **AllowSuitStorageClothingGasTanks** — `AllowSuitStorageClothingGasTanks`
 - `模板` **BaseClothingBeltEngineering** — `BaseClothingBeltEngineering` ｜父类: ClothingBeltStorageBase
 - `模板` **BaseSubfloorAnchorStorage** — `BaseSubfloorAnchorStorage`
 - `模板` **BaseSubfloorAnchorStorageAnchored** — `BaseSubfloorAnchorStorageAnchored` ｜父类: BaseSubfloorAnchorStorage
 - `模板` **BaseToggleClothing** — `BaseToggleClothing`
-- `模板` **基础毛巾** — `BaseTowel` ｜父类: UnsensoredClothingUniformBase,ClothingHeadBase,ClothingBeltBase
-- **紧身衣配牛仔裤** — `BodysuitJeansUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight
+- `模板` **基础毛巾** — `BaseTowel` ｜父类: UnsensoredClothingUniformBase,ClothingHeadBase,ClothingBeltBase ｜描述: If you want to survive out here, you gotta know where your towel is.
+- **紧身衣配牛仔裤** — `BodysuitJeansUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: Fashionable and practicle. You could fight someone in this.
 - **走私者公文包** — `BriefcaseSmugglerCash` ｜父类: BaseSubfloorAnchorStorageAnchored,BriefcaseSyndie,BaseMinorContraband
-- **迷彩连体衣** — `CamoUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight
-- **糖果小丑** — `CandyClownUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight
-- **纸板装甲** — `CardArmour` ｜父类: ClothingOuterArmorBase
-- **纸板头盔** — `CardHelmet` ｜父类: ClothingHeadHelmetBase
-- **货运工装裤** — `CargoOverallsUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight
-- **中央指挥部振动刃刀鞘** — `CentcommVibrobladeSheath` ｜父类: ClothingBeltBase,ClothingSlotBase,BaseCentcommContraband ｜_Starlight
-- **中央指挥部振动刃刀鞘** — `CentcommVibrobladeSheathFilled` ｜父类: CentcommVibrobladeSheath ｜_Starlight
-- **甲壳头盔** — `ChangelingClothingHeadHelmet` ｜父类: ClothingHeadBase ｜_Starlight
-- **有机太空头盔** — `ChangelingClothingHeadHelmetHardsuit` ｜父类: ClothingHeadHardsuitBase ｜_Starlight
-- **几丁质护甲** — `ChangelingClothingOuterArmor` ｜父类: ClothingOuterBaseLarge ｜_Starlight
-- **有机太空服** — `ChangelingClothingOuterHardsuit` ｜父类: ClothingOuterBaseLarge,AllowSuitStorageClothing ｜_Starlight
-- **基础型-Class轻型原型人框架** — `ChangelingClothingProtogenArmor` ｜父类: ClothingOuterArmorProtogenBase ｜_Starlight
+- **迷彩连体衣** — `CamoUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: Youd blend in if this was a forest.
+- **糖果小丑** — `CandyClownUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: Oh god this makes your eyes hurt!
+- **纸板装甲** — `CardArmour` ｜父类: ClothingOuterArmorBase ｜描述: A medieval chestpiece built from cardboard.
+- **纸板头盔** — `CardHelmet` ｜父类: ClothingHeadHelmetBase ｜描述: A medieval helmet built from cardboard.
+- **货运工装裤** — `CargoOverallsUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A durable set of overalls that smell like cardboard.
+- **中央指挥部振动刃刀鞘** — `CentcommVibrobladeSheath` ｜父类: ClothingBeltBase,ClothingSlotBase,BaseCentcommContraband ｜_Starlight ｜描述: Vulcan Industries believed that maintenance of the Vibroweapons should be delayed as much as possible and the quality of the blades to be at top notch at all times; for the Corporate Consortium, speci
+- **中央指挥部振动刃刀鞘** — `CentcommVibrobladeSheathFilled` ｜父类: CentcommVibrobladeSheath ｜_Starlight ｜描述: Vulcan Industries believed that maintenance of the Vibroweapons should be delayed as much as possible and the quality of the blades to be at top notch at all times; for the Corporate Consortium, speci
+- **甲壳头盔** — `ChangelingClothingHeadHelmet` ｜父类: ClothingHeadBase ｜_Starlight ｜描述: An all-consuming chitinous mass of armor.
+- **有机太空头盔** — `ChangelingClothingHeadHelmetHardsuit` ｜父类: ClothingHeadHardsuitBase ｜_Starlight ｜描述: A spaceworthy biomass of pressure and temperature resistant tissue.
+- **几丁质护甲** — `ChangelingClothingOuterArmor` ｜父类: ClothingOuterBaseLarge ｜_Starlight ｜描述: An all-consuming chitinous mass of armor.
+- **有机太空服** — `ChangelingClothingOuterHardsuit` ｜父类: ClothingOuterBaseLarge,AllowSuitStorageClothing ｜_Starlight ｜描述: A spaceworthy biomass of pressure and temperature resistant tissue.
+- **基础型-Class轻型原型人框架** — `ChangelingClothingProtogenArmor` ｜父类: ClothingOuterArmorProtogenBase ｜_Starlight ｜描述: Comes in-built with light armor plating to shield the cybernetics within. Removal of this would require killing you.
 - `模板` **Clothing** — `Clothing` ｜父类: BaseItem
-- **绑架者腰带** — `ClothingAbductorBelt` ｜父类: ClothingBeltStorageBase,BaseMajorContraband ｜_Starlight
-- **中央指挥部干员连体衣** — `ClothingAltUniformJumpsuitCentcomOfficial` ｜父类: ClothingUniformBase,BaseCentcommContraband ｜_Starlight
-- **背包** — `ClothingBackpack` ｜父类: Clothing,ContentsExplosionResistanceBase
-- **大气背包** — `ClothingBackpackAtmospherics` ｜父类: ClothingBackpack
-- **蓝盾背包** — `ClothingBackpackBlueShield` ｜父类: ClothingBackpack,BaseBlueShieldContraband ｜_Starlight
-- **狱医背包** — `ClothingBackpackBrigmedic` ｜父类: ClothingBackpack,BaseSecurityContraband
-- **兔子帮背包** — `ClothingBackpackBunnyGang` ｜父类: ClothingBackpack ｜_Starlight
-- **舰长背包** — `ClothingBackpackCaptain` ｜父类: ClothingBackpack,BaseCommandContraband
-- **货运背包** — `ClothingBackpackCargo` ｜父类: ClothingBackpack
-- **资深信使背包** — `ClothingBackpackCargoSenior` ｜父类: ClothingBackpack ｜_Starlight
-- **背包** — `ClothingBackpackChameleon` ｜父类: ClothingBackpack,BaseChameleon
-- **化学背包** — `ClothingBackpackChemistry` ｜父类: ClothingBackpack
-- **资深化学背包** — `ClothingBackpackChemistrySenior` ｜父类: ClothingBackpack ｜_Starlight
-- **呵呵·冯·呵肯顿** — `ClothingBackpackClown` ｜父类: ClothingBackpack
-- **吉格斯·冯·囧肯顿** — `ClothingBackpackCluwne` ｜父类: ClothingBackpackClown
-- **指挥部背包** — `ClothingBackpackCommandGeneric` ｜父类: ClothingBackpack,BaseCommandContraband ｜_Starlight
-- **卫生员背包** — `ClothingBackpackCorpsman` ｜父类: ClothingBackpack,BaseSecurityContraband ｜_Starlight
-- **纳米传讯特勤背包 #starlight** — `ClothingBackpackDeathSquad` ｜父类: ClothingBackpackNTNC
-- **怪包** — `ClothingBackpackDebug` ｜父类: ClothingBackpack
-- **大怪包** — `ClothingBackpackDebug2` ｜父类: ClothingBackpack
-- **彩虹怪包** — `ClothingBackpackDebug3` ｜父类: ClothingBackpack
-- **偏置怪包** — `ClothingBackpackDebug4` ｜父类: ClothingBackpack
-- **旅行包** — `ClothingBackpackDuffel` ｜父类: ClothingBackpack
-- **绑架者手术旅行包** — `ClothingBackpackDuffelAbductor` ｜父类: ClothingBackpackDuffel ｜_Starlight
+- **绑架者腰带** — `ClothingAbductorBelt` ｜父类: ClothingBeltStorageBase,BaseMajorContraband ｜_Starlight ｜描述: Can hold various OUR things.
+- **中央指挥部干员连体衣** — `ClothingAltUniformJumpsuitCentcomOfficial` ｜父类: ClothingUniformBase,BaseCentcommContraband ｜_Starlight ｜描述: It's a jumpsuit worn by CentComm officers.
+- **背包** — `ClothingBackpack` ｜父类: Clothing,ContentsExplosionResistanceBase ｜描述: You wear this on your back and put items into it.
+- **大气背包** — `ClothingBackpackAtmospherics` ｜父类: ClothingBackpack ｜描述: It's a backpack made of fire resistant fibers. Smells like plasma.
+- **蓝盾背包** — `ClothingBackpackBlueShield` ｜父类: ClothingBackpack,BaseBlueShieldContraband ｜_Starlight ｜描述: A lightweight but reliable backpack. Can't go wrong with the classics!
+- **狱医背包** — `ClothingBackpackBrigmedic` ｜父类: ClothingBackpack,BaseSecurityContraband ｜描述: It's a very sterile backpack.
+- **兔子帮背包** — `ClothingBackpackBunnyGang` ｜父类: ClothingBackpack ｜_Starlight ｜描述: A sword that is actually a backpack. It's impressive how they managed to fit things in there, even so, inventory management will be a trial.
+- **舰长背包** — `ClothingBackpackCaptain` ｜父类: ClothingBackpack,BaseCommandContraband ｜描述: It's a special backpack made exclusively for NanoTrasen officers.
+- **货运背包** — `ClothingBackpackCargo` ｜父类: ClothingBackpack ｜描述: A robust backpack for stealing cargo's loot.
+- **资深信使背包** — `ClothingBackpackCargoSenior` ｜父类: ClothingBackpack ｜_Starlight ｜描述: A robust backpack for those who know the station's map by heart.
+- **背包** — `ClothingBackpackChameleon` ｜父类: ClothingBackpack,BaseChameleon ｜描述: You wear this on your back and put items into it.
+- **化学背包** — `ClothingBackpackChemistry` ｜父类: ClothingBackpack ｜描述: A backpack specially designed to repel stains and hazardous liquids.
+- **资深化学背包** — `ClothingBackpackChemistrySenior` ｜父类: ClothingBackpack ｜_Starlight ｜描述: A specially designed backpack that will never be stained, no matter what liquids are spilled on it.
+- **呵呵·冯·呵肯顿** — `ClothingBackpackClown` ｜父类: ClothingBackpack ｜描述: It's a backpack made by Honk! Co.
+- **吉格斯·冯·囧肯顿** — `ClothingBackpackCluwne` ｜父类: ClothingBackpackClown ｜描述: It's a backpack made by Jonk! Co.
+- **指挥部背包** — `ClothingBackpackCommandGeneric` ｜父类: ClothingBackpack,BaseCommandContraband ｜_Starlight ｜描述: A Command-colored backpack with NanoTrasen's colors. It has an aura of non-descript authority.
+- **卫生员背包** — `ClothingBackpackCorpsman` ｜父类: ClothingBackpack,BaseSecurityContraband ｜_Starlight ｜描述: A backpack with easy to access pockets for the organized corpsman!
+- **纳米传讯特勤背包 #starlight** — `ClothingBackpackDeathSquad` ｜父类: ClothingBackpackNTNC ｜描述: Holds the kit of NanoTrasen's most feared agents.
+- **怪包** — `ClothingBackpackDebug` ｜父类: ClothingBackpack ｜描述: What the fuck is this?
+- **大怪包** — `ClothingBackpackDebug2` ｜父类: ClothingBackpack ｜描述: What the fuck is this?
+- **彩虹怪包** — `ClothingBackpackDebug3` ｜父类: ClothingBackpack ｜描述: What the fuck is this?
+- **偏置怪包** — `ClothingBackpackDebug4` ｜父类: ClothingBackpack ｜描述: What the fuck is this?
+- **旅行包** — `ClothingBackpackDuffel` ｜父类: ClothingBackpack ｜描述: A large duffel bag for holding extra things.
+- **绑架者手术旅行包** — `ClothingBackpackDuffelAbductor` ｜父类: ClothingBackpackDuffel ｜_Starlight ｜描述: A large duffel bag for holding various surgery goods.
 - `模板` **ClothingBackpackDuffelAbductorBundle** — `ClothingBackpackDuffelAbductorBundle` ｜父类: ClothingBackpackDuffelAbductor ｜_Starlight
-- **大气旅行包** — `ClothingBackpackDuffelAtmospherics` ｜父类: ClothingBackpackDuffel
-- **蓝盾旅行包** — `ClothingBackpackDuffelBlueShield` ｜父类: ClothingBackpackDuffel,BaseBlueShieldContraband ｜_Starlight
-- **狱医旅行包** — `ClothingBackpackDuffelBrigmedic` ｜父类: ClothingBackpackDuffel,BaseSecurityContraband
+- **大气旅行包** — `ClothingBackpackDuffelAtmospherics` ｜父类: ClothingBackpackDuffel ｜描述: A large duffel bag made of fire resistant fibers. Smells like plasma.
+- **蓝盾旅行包** — `ClothingBackpackDuffelBlueShield` ｜父类: ClothingBackpackDuffel,BaseBlueShieldContraband ｜_Starlight ｜描述: The bag for a Blueshield Officer who is ready for any contingency.
+- **狱医旅行包** — `ClothingBackpackDuffelBrigmedic` ｜父类: ClothingBackpackDuffel,BaseSecurityContraband ｜描述: A large duffel bag for holding extra medical related goods.
 - `模板` **ClothingBackpackDuffelBundle** — `ClothingBackpackDuffelBundle` ｜父类: ClothingBackpackDuffel
-- **舰长旅行包** — `ClothingBackpackDuffelCaptain` ｜父类: ClothingBackpackDuffel,BaseCommandContraband
-- **货运旅行包** — `ClothingBackpackDuffelCargo` ｜父类: ClothingBackpackDuffel
-- **资深信使旅行包** — `ClothingBackpackDuffelCargoSenior` ｜父类: ClothingBackpackDuffel ｜_Starlight
-- **生化快速响应队旅行包** — `ClothingBackpackDuffelCBURN` ｜父类: ClothingBackpackDuffel,BaseCentcommContraband
-- **化学旅行包** — `ClothingBackpackDuffelChemistry` ｜父类: ClothingBackpackDuffel
-- **资深化学旅行包** — `ClothingBackpackDuffelChemistrySenior` ｜父类: ClothingBackpackDuffel ｜_Starlight
-- **小丑旅行包** — `ClothingBackpackDuffelClown` ｜父类: ClothingBackpackDuffel
+- **舰长旅行包** — `ClothingBackpackDuffelCaptain` ｜父类: ClothingBackpackDuffel,BaseCommandContraband ｜描述: A large duffel bag for holding extra captainly goods.
+- **货运旅行包** — `ClothingBackpackDuffelCargo` ｜父类: ClothingBackpackDuffel ｜描述: A large duffel bag for stealing cargo's precious loot.
+- **资深信使旅行包** — `ClothingBackpackDuffelCargoSenior` ｜父类: ClothingBackpackDuffel ｜_Starlight ｜描述: A large duffel bag for the Quartermaster's most devoted couriers.
+- **生化快速响应队旅行包** — `ClothingBackpackDuffelCBURN` ｜父类: ClothingBackpackDuffel,BaseCentcommContraband ｜描述: A duffel bag containing a variety of biological containment equipment.
+- **化学旅行包** — `ClothingBackpackDuffelChemistry` ｜父类: ClothingBackpackDuffel ｜描述: A large duffel bag for holding extra beakers and test tubes.
+- **资深化学旅行包** — `ClothingBackpackDuffelChemistrySenior` ｜父类: ClothingBackpackDuffel ｜_Starlight ｜描述: A large duffel bag for holding a wide assortment of advanced chemical supplies.
+- **小丑旅行包** — `ClothingBackpackDuffelClown` ｜父类: ClothingBackpackDuffel ｜描述: A large duffel bag for holding extra honk goods.
 - **走私者小丑旅行包** — `ClothingBackpackDuffelClownSmuggler` ｜父类: BaseSubfloorAnchorStorageAnchored,ClothingBackpackDuffelClown,BaseMinorContraband
-- **指挥部旅行包** — `ClothingBackpackDuffelCommandGeneric` ｜父类: ClothingBackpackDuffel,BaseCommandContraband ｜_Starlight
-- **卫生员旅行包** — `ClothingBackpackDuffelCorpsman` ｜父类: ClothingBackpackDuffel,BaseSecurityContraband ｜_Starlight
-- **失物招领包** — `ClothingBackpackDuffelCryostorageBelongings` ｜父类: ClothingBackpackDuffel ｜_Starlight
+- **指挥部旅行包** — `ClothingBackpackDuffelCommandGeneric` ｜父类: ClothingBackpackDuffel,BaseCommandContraband ｜_Starlight ｜描述: A generic Command-colored duffel bag not associated with any particular department.
+- **卫生员旅行包** — `ClothingBackpackDuffelCorpsman` ｜父类: ClothingBackpackDuffel,BaseSecurityContraband ｜_Starlight ｜描述: An odd duffelbag that uses flaps instead of zippers for quicker access. Handy!
+- **失物招领包** — `ClothingBackpackDuffelCryostorageBelongings` ｜父类: ClothingBackpackDuffel ｜_Starlight ｜描述: A sealed bag holding the belongings of a crew member who left for cryosleep. Things can be taken out, but nothing can be put back in.
 - **SSF旅行包** — `ClothingBackpackDuffelDP28Bundle` ｜父类: ClothingBackpackDuffelSSF ｜_Starlight
-- **工程旅行包** — `ClothingBackpackDuffelEngineering` ｜父类: ClothingBackpackDuffel
-- **遗传学旅行包** — `ClothingBackpackDuffelGenetics` ｜父类: ClothingBackpackDuffel
-- **储物旅行包** — `ClothingBackpackDuffelHolding` ｜父类: ClothingBackpackDuffel
-- **人事主管旅行包** — `ClothingBackpackDuffelHoP` ｜父类: ClothingBackpackDuffel,BaseCommandContraband ｜_Starlight
-- **水培旅行包** — `ClothingBackpackDuffelHydroponics` ｜父类: ClothingBackpackDuffel
-- **SSF陆战队硬壳服套装包** — `ClothingBackpackDuffelMarineHardsuitBundle` ｜父类: ClothingBackpackDuffelSSF ｜_Starlight
-- **SSF旅行包** — `ClothingBackpackDuffelMarineLoadout` ｜父类: ClothingBackpackDuffelSSF ｜_Starlight
-- **医疗旅行包** — `ClothingBackpackDuffelMedical` ｜父类: ClothingBackpackDuffel
-- **哑剧演员旅行包** — `ClothingBackpackDuffelMime` ｜父类: ClothingBackpackDuffel
+- **工程旅行包** — `ClothingBackpackDuffelEngineering` ｜父类: ClothingBackpackDuffel ｜描述: A large duffel bag for holding extra tools and supplies.
+- **遗传学旅行包** — `ClothingBackpackDuffelGenetics` ｜父类: ClothingBackpackDuffel ｜描述: A large duffel bag for holding extra genetic mutations.
+- **储物旅行包** — `ClothingBackpackDuffelHolding` ｜父类: ClothingBackpackDuffel ｜描述: A duffelbag that opens into a localized pocket of bluespace.
+- **人事主管旅行包** — `ClothingBackpackDuffelHoP` ｜父类: ClothingBackpackDuffel,BaseCommandContraband ｜_Starlight ｜描述: A large duffel bag for the Captain's second in command.
+- **水培旅行包** — `ClothingBackpackDuffelHydroponics` ｜父类: ClothingBackpackDuffel ｜描述: A large duffel bag for holding extra gardening tools.
+- **SSF陆战队硬壳服套装包** — `ClothingBackpackDuffelMarineHardsuitBundle` ｜父类: ClothingBackpackDuffelSSF ｜_Starlight ｜描述: Contains the USSP's elite marine hardsuit.
+- **SSF旅行包** — `ClothingBackpackDuffelMarineLoadout` ｜父类: ClothingBackpackDuffelSSF ｜_Starlight ｜描述: Bulky olive-drab bag stamped with a faded SSF insignia.
+- **医疗旅行包** — `ClothingBackpackDuffelMedical` ｜父类: ClothingBackpackDuffel ｜描述: A large duffel bag for holding extra medical supplies.
+- **哑剧演员旅行包** — `ClothingBackpackDuffelMime` ｜父类: ClothingBackpackDuffel ｜描述: A large duffel bag for holding... mime... stuff.
 - **SSF旅行包** — `ClothingBackpackDuffelPPShBundle` ｜父类: ClothingBackpackDuffelSSF ｜_Starlight
-- **机器人专家旅行包** — `ClothingBackpackDuffelRoboticist` ｜父类: ClothingBackpackDuffel ｜_Starlight
-- **打捞旅行包** — `ClothingBackpackDuffelSalvage` ｜父类: ClothingBackpackDuffel
-- **科研旅行包** — `ClothingBackpackDuffelScience` ｜父类: ClothingBackpackDuffel
-- **安保旅行包** — `ClothingBackpackDuffelSecurity` ｜父类: ClothingBackpackDuffel,BaseSecurityContraband
-- **苏维埃舱外作业套装包** — `ClothingBackpackDuffelSovietEVABundle` ｜父类: ClothingBackpackDuffelSSF ｜_Starlight
-- **SSF旅行包** — `ClothingBackpackDuffelSSF` ｜父类: ClothingBackpackDuffel,BaseSovietContraband ｜_Starlight
+- **机器人专家旅行包** — `ClothingBackpackDuffelRoboticist` ｜父类: ClothingBackpackDuffel ｜_Starlight ｜描述: A large duffel bag for holding extra Roboticist related goods.
+- **打捞旅行包** — `ClothingBackpackDuffelSalvage` ｜父类: ClothingBackpackDuffel ｜描述: A large duffel bag for holding extra exotic treasures.
+- **科研旅行包** — `ClothingBackpackDuffelScience` ｜父类: ClothingBackpackDuffel ｜描述: A large duffel bag for holding extra science related goods.
+- **安保旅行包** — `ClothingBackpackDuffelSecurity` ｜父类: ClothingBackpackDuffel,BaseSecurityContraband ｜描述: A large duffel bag for holding extra security related goods.
+- **苏维埃舱外作业套装包** — `ClothingBackpackDuffelSovietEVABundle` ｜父类: ClothingBackpackDuffelSSF ｜_Starlight ｜描述: Contains a soviet EVA suit and helmet, along with emergency oxygen and nitrogen tanks. For the workers of space!
+- **SSF旅行包** — `ClothingBackpackDuffelSSF` ｜父类: ClothingBackpackDuffel,BaseSovietContraband ｜_Starlight ｜描述: Bulky olive-drab bag stamped with a faded SSF insignia.
 - **SSF旅行包** — `ClothingBackpackDuffelStechkinAPS` ｜父类: ClothingBackpackDuffelSSF ｜_Starlight
-- **辛迪加旅行包** — `ClothingBackpackDuffelSyndicate` ｜父类: ClothingBackpackDuffel,BaseMinorContraband
+- **辛迪加旅行包** — `ClothingBackpackDuffelSyndicate` ｜父类: ClothingBackpackDuffel,BaseMinorContraband ｜描述: A large duffel bag for holding various traitor goods.
 - **辛迪加旅行包** — `ClothingBackpackDuffelSyndicateAmmo` ｜父类: ClothingBackpackDuffelSyndicate
 - `模板` **ClothingBackpackDuffelSyndicateAmmoBundle** — `ClothingBackpackDuffelSyndicateAmmoBundle` ｜父类: ClothingBackpackDuffelSyndicateAmmo
 - `模板` **ClothingBackpackDuffelSyndicateBundle** — `ClothingBackpackDuffelSyndicateBundle` ｜父类: ClothingBackpackDuffelSyndicate,BaseMinorContraband
 - `模板` **ClothingBackpackDuffelSyndicateBundleDeluxe** — `ClothingBackpackDuffelSyndicateBundleDeluxe` ｜父类: ClothingBackpackDuffelSyndicateDeluxe,BaseMinorContraband ｜_Starlight
-- **豪华辛迪加旅行包** — `ClothingBackpackDuffelSyndicateDeluxe` ｜父类: ClothingBackpackDuffel,BaseMinorContraband ｜_Starlight
+- **豪华辛迪加旅行包** — `ClothingBackpackDuffelSyndicateDeluxe` ｜父类: ClothingBackpackDuffel,BaseMinorContraband ｜_Starlight ｜描述: A huge duffel bag for holding an obscene amount of Syndicate goods.
 - **辛迪加旅行包** — `ClothingBackpackDuffelSyndicateMedical` ｜父类: ClothingBackpackDuffelSyndicate
 - `模板` **ClothingBackpackDuffelSyndicateMedicalBundle** — `ClothingBackpackDuffelSyndicateMedicalBundle` ｜父类: ClothingBackpackDuffelSyndicateMedical
-- **病毒学旅行包** — `ClothingBackpackDuffelVirology` ｜父类: ClothingBackpackDuffel
-- **扎波罗热营地套装包** — `ClothingBackpackDuffelZaporozhianBundle` ｜父类: ClothingBackpackDuffelSSF ｜_Starlight
-- **电击背包** — `ClothingBackpackElectropack` ｜父类: ClothingBackpack
-- **工程背包** — `ClothingBackpackEngineering` ｜父类: ClothingBackpack
-- **应急响应队牧师背包** — `ClothingBackpackERTChaplain` ｜父类: ClothingBackpackERTLeader
-- **应急响应队小丑背包** — `ClothingBackpackERTClown` ｜父类: ClothingBackpackERTLeader
-- **应急响应队工程师背包** — `ClothingBackpackERTEngineer` ｜父类: ClothingBackpackERTLeader
-- **应急响应队清洁工背包** — `ClothingBackpackERTJanitor` ｜父类: ClothingBackpackERTLeader
-- **应急响应队队长背包** — `ClothingBackpackERTLeader` ｜父类: ClothingBackpack,BaseCentcommContraband
-- **应急响应队医疗背包** — `ClothingBackpackERTMedical` ｜父类: ClothingBackpackERTLeader
-- **应急响应队安保背包** — `ClothingBackpackERTSecurity` ｜父类: ClothingBackpackERTLeader
-- **遗传学背包** — `ClothingBackpackGenetics` ｜父类: ClothingBackpack
-- **绿盾斗篷** — `ClothingBackpackGreenshield` ｜父类: ClothingBackpack,BaseCentcommContraband ｜_Starlight
-- **多功能战斗背包** — `ClothingBackpackHarmpack` ｜父类: Clothing
-- **储物袋** — `ClothingBackpackHolding` ｜父类: ClothingBackpack
-- **人事主管背包** — `ClothingBackpackHoP` ｜父类: ClothingBackpack,BaseCommandContraband ｜_Starlight
-- **水培背包** — `ClothingBackpackHydroponics` ｜父类: ClothingBackpack
-- **伊恩背包** — `ClothingBackpackIan` ｜父类: ClothingBackpack
-- **医疗背包** — `ClothingBackpackMedical` ｜父类: ClothingBackpack
-- **雇佣兵背包** — `ClothingBackpackMerc` ｜父类: ClothingBackpack
-- **哑剧演员背包** — `ClothingBackpackMime` ｜父类: ClothingBackpack
-- **NTNC背包** — `ClothingBackpackNTNC` ｜父类: ClothingBackpackERTLeader,BaseNanoTrasenContraband ｜_Starlight
-- **TSF无线电电话背包** — `ClothingBackpackRadioTSF` ｜父类: BaseTSFContraband,ClothingBackpackSatchel ｜_Starlight
-- **机器人专家背包** — `ClothingBackpackRoboticist` ｜父类: ClothingBackpack ｜_Starlight
-- **打捞背包** — `ClothingBackpackSalvage` ｜父类: ClothingBackpack
-- **挎包** — `ClothingBackpackSatchel` ｜父类: ClothingBackpack
-- **管理员挎包** — `ClothingBackpackSatchelAdmin` ｜父类: ClothingBackpackSatchelHolding
-- **大气挎包** — `ClothingBackpackSatchelAtmospherics` ｜父类: ClothingBackpackSatchel
-- **蓝盾干员挎包** — `ClothingBackpackSatchelBlueShield` ｜父类: ClothingBackpackSatchel,BaseBlueShieldContraband ｜_Starlight
-- **狱医挎包** — `ClothingBackpackSatchelBrigmedic` ｜父类: ClothingBackpackSatchel,BaseSecurityContraband
-- **舰长挎包** — `ClothingBackpackSatchelCaptain` ｜父类: ClothingBackpackSatchel,BaseCommandContraband
-- **货运挎包** — `ClothingBackpackSatchelCargo` ｜父类: ClothingBackpackSatchel
-- **资深信使挎包** — `ClothingBackpackSatchelCargoSenior` ｜父类: ClothingBackpackSatchel ｜_Starlight
-- **中央指挥部操作员挎包** — `ClothingBackpackSatchelCentcomm` ｜父类: ClothingBackpackSatchel,BaseCentcommContraband ｜_Starlight
-- **化学挎包** — `ClothingBackpackSatchelChemistry` ｜父类: ClothingBackpackSatchel
-- **资深化学挎包** — `ClothingBackpackSatchelChemistrySenior` ｜父类: ClothingBackpackSatchel ｜_Starlight
-- **小丑挎包** — `ClothingBackpackSatchelClown` ｜父类: ClothingBackpackSatchel
-- **指挥部挎包** — `ClothingBackpackSatchelCommandGeneric` ｜父类: ClothingBackpackSatchel,BaseCommandContraband ｜_Starlight
-- **卫生员挎包** — `ClothingBackpackSatchelCorpsman` ｜父类: ClothingBackpackSatchel,BaseSecurityContraband ｜_Starlight
-- **工程挎包** — `ClothingBackpackSatchelEngineering` ｜父类: ClothingBackpackSatchel
-- **遗传学挎包** — `ClothingBackpackSatchelGenetics` ｜父类: ClothingBackpackSatchel
-- **储物挎包** — `ClothingBackpackSatchelHolding` ｜父类: ClothingBackpackSatchel
-- **人事主管挎包** — `ClothingBackpackSatchelHoP` ｜父类: ClothingBackpackSatchel,BaseCommandContraband ｜_Starlight
-- **水培挎包** — `ClothingBackpackSatchelHydroponics` ｜父类: ClothingBackpackSatchel
-- **皮革挎包** — `ClothingBackpackSatchelLeather` ｜父类: ClothingBackpackSatchel
-- **医疗挎包** — `ClothingBackpackSatchelMedical` ｜父类: ClothingBackpackSatchel
-- **哑剧演员挎包** — `ClothingBackpackSatchelMime` ｜父类: ClothingBackpackSatchel
-- **蜘蛛氏族挎包** — `ClothingBackpackSatchelNinja` ｜父类: ClothingBackpackSatchel,BaseHighlyIllegalContraband
-- **机器人专家挎包** — `ClothingBackpackSatchelRoboticist` ｜父类: ClothingBackpackSatchel ｜_Starlight
-- **打捞挎包** — `ClothingBackpackSatchelSalvage` ｜父类: ClothingBackpackSatchel
-- **科研挎包** — `ClothingBackpackSatchelScience` ｜父类: ClothingBackpackSatchel
-- **安保挎包** — `ClothingBackpackSatchelSecurity` ｜父类: ClothingBackpackSatchel,BaseSecurityContraband
-- **走私者挎包** — `ClothingBackpackSatchelSmuggler` ｜父类: BaseSubfloorAnchorStorageAnchored,ClothingBackpackSatchel,BaseMinorContraband
+- **病毒学旅行包** — `ClothingBackpackDuffelVirology` ｜父类: ClothingBackpackDuffel ｜描述: A large duffel bag made of hypo-allergenic fibers. It's designed to help prevent the spread of disease. Smells like monkey.
+- **扎波罗热营地套装包** — `ClothingBackpackDuffelZaporozhianBundle` ｜父类: ClothingBackpackDuffelSSF ｜_Starlight ｜描述: Cossacks- have gone to space, and have earned respect within the union.
+- **电击背包** — `ClothingBackpackElectropack` ｜父类: ClothingBackpack ｜描述: Shocks on the signal. It is used to keep a particularly dangerous criminal under control.
+- **工程背包** — `ClothingBackpackEngineering` ｜父类: ClothingBackpack ｜描述: It's a tough backpack for the daily grind of station life.
+- **应急响应队牧师背包** — `ClothingBackpackERTChaplain` ｜父类: ClothingBackpackERTLeader ｜描述: A spacious backpack with lots of pockets, worn by Chaplains of an Emergency Response Team.
+- **应急响应队小丑背包** — `ClothingBackpackERTClown` ｜父类: ClothingBackpackERTLeader ｜描述: A spacious backpack with lots of pockets, worn by Clowns of an Emergency Response Team.
+- **应急响应队工程师背包** — `ClothingBackpackERTEngineer` ｜父类: ClothingBackpackERTLeader ｜描述: A spacious backpack with lots of pockets, worn by Engineers of an Emergency Response Team.
+- **应急响应队清洁工背包** — `ClothingBackpackERTJanitor` ｜父类: ClothingBackpackERTLeader ｜描述: A spacious backpack with lots of pockets, worn by Janitors of an Emergency Response Team.
+- **应急响应队队长背包** — `ClothingBackpackERTLeader` ｜父类: ClothingBackpack,BaseCentcommContraband ｜描述: A spacious backpack with lots of pockets, worn by the Leader of an Emergency Response Team.
+- **应急响应队医疗背包** — `ClothingBackpackERTMedical` ｜父类: ClothingBackpackERTLeader ｜描述: A spacious backpack with lots of pockets, worn by Medical Officers of an Emergency Response Team.
+- **应急响应队安保背包** — `ClothingBackpackERTSecurity` ｜父类: ClothingBackpackERTLeader ｜描述: A spacious backpack with lots of pockets, worn by Security Officers of an Emergency Response Team.
+- **遗传学背包** — `ClothingBackpackGenetics` ｜父类: ClothingBackpack ｜描述: A backpack designed to be super tough, just in case someone hulks out on you.
+- **绿盾斗篷** — `ClothingBackpackGreenshield` ｜父类: ClothingBackpack,BaseCentcommContraband ｜_Starlight ｜描述: A spacious cloak with lots of pockets, worn by Greenshield officers.
+- **多功能战斗背包** — `ClothingBackpackHarmpack` ｜父类: Clothing ｜描述: Now you can reload, punch, and eat a snack - simultaneously.
+- **储物袋** — `ClothingBackpackHolding` ｜父类: ClothingBackpack ｜描述: A backpack that opens into a localized pocket of bluespace.
+- **人事主管背包** — `ClothingBackpackHoP` ｜父类: ClothingBackpack,BaseCommandContraband ｜_Starlight ｜描述: A luxurious backpack, perfect for filling to the brim with paperwork.
+- **水培背包** — `ClothingBackpackHydroponics` ｜父类: ClothingBackpack ｜描述: It's a backpack made of all-natural fibers.
+- **伊恩背包** — `ClothingBackpackIan` ｜父类: ClothingBackpack ｜描述: Sometimes he wears it.
+- **医疗背包** — `ClothingBackpackMedical` ｜父类: ClothingBackpack ｜描述: It's a backpack especially designed for use in a sterile environment.
+- **雇佣兵背包** — `ClothingBackpackMerc` ｜父类: ClothingBackpack ｜描述: A backpack that has been in many dangerous places, a reliable combat backpack.
+- **哑剧演员背包** — `ClothingBackpackMime` ｜父类: ClothingBackpack ｜描述: A silent backpack made for those silent workers. Silence Co.
+- **NTNC背包** — `ClothingBackpackNTNC` ｜父类: ClothingBackpackERTLeader,BaseNanoTrasenContraband ｜_Starlight ｜描述: A spacious backpack with lots of pockets, worn by NTNC Officers
+- **TSF无线电电话背包** — `ClothingBackpackRadioTSF` ｜父类: BaseTSFContraband,ClothingBackpackSatchel ｜_Starlight ｜描述: A heavy-duty pack, used for telecommunications between central command.
+- **机器人专家背包** — `ClothingBackpackRoboticist` ｜父类: ClothingBackpack ｜_Starlight ｜描述: A backpack specifically designed for oil and short circuit protection.
+- **打捞背包** — `ClothingBackpackSalvage` ｜父类: ClothingBackpack ｜描述: A robust backpack for stashing your loot.
+- **挎包** — `ClothingBackpackSatchel` ｜父类: ClothingBackpack ｜描述: A trendy looking satchel.
+- **管理员挎包** — `ClothingBackpackSatchelAdmin` ｜父类: ClothingBackpackSatchelHolding ｜描述: If you are somehow seeing this, no you're not.
+- **大气挎包** — `ClothingBackpackSatchelAtmospherics` ｜父类: ClothingBackpackSatchel ｜描述: A tough satchel made of fire resistant fibers. Smells like plasma.
+- **蓝盾干员挎包** — `ClothingBackpackSatchelBlueShield` ｜父类: ClothingBackpackSatchel,BaseBlueShieldContraband ｜_Starlight ｜描述: Useful for holding everything a speedy Blueshield Officer needs!
+- **狱医挎包** — `ClothingBackpackSatchelBrigmedic` ｜父类: ClothingBackpackSatchel,BaseSecurityContraband ｜描述: A sterile satchel for medical related needs.
+- **舰长挎包** — `ClothingBackpackSatchelCaptain` ｜父类: ClothingBackpackSatchel,BaseCommandContraband ｜描述: An exclusive satchel for NanoTrasen officers.
+- **货运挎包** — `ClothingBackpackSatchelCargo` ｜父类: ClothingBackpackSatchel ｜描述: A robust satchel for stealing cargo's loot.
+- **资深信使挎包** — `ClothingBackpackSatchelCargoSenior` ｜父类: ClothingBackpackSatchel ｜_Starlight ｜描述: A robust satchel for those who compartmentalize their bags exactly the same every shift.
+- **中央指挥部操作员挎包** — `ClothingBackpackSatchelCentcomm` ｜父类: ClothingBackpackSatchel,BaseCentcommContraband ｜_Starlight ｜描述: A rather stylish satchel plated with real gold, issued to Central Command Operators.
+- **化学挎包** — `ClothingBackpackSatchelChemistry` ｜父类: ClothingBackpackSatchel ｜描述: A sterile satchel with chemist colours.
+- **资深化学挎包** — `ClothingBackpackSatchelChemistrySenior` ｜父类: ClothingBackpackSatchel ｜_Starlight ｜描述: A sterile satchel with vibrant, senior chemist colors.
+- **小丑挎包** — `ClothingBackpackSatchelClown` ｜父类: ClothingBackpackSatchel ｜描述: For fast running from security.
+- **指挥部挎包** — `ClothingBackpackSatchelCommandGeneric` ｜父类: ClothingBackpackSatchel,BaseCommandContraband ｜_Starlight ｜描述: A satchel in command's distinctive shade of blue.
+- **卫生员挎包** — `ClothingBackpackSatchelCorpsman` ｜父类: ClothingBackpackSatchel,BaseSecurityContraband ｜_Starlight ｜描述: Has more than enough pockets to organize everything.
+- **工程挎包** — `ClothingBackpackSatchelEngineering` ｜父类: ClothingBackpackSatchel ｜描述: A tough satchel with extra pockets.
+- **遗传学挎包** — `ClothingBackpackSatchelGenetics` ｜父类: ClothingBackpackSatchel ｜描述: A sterile satchel with geneticist colours.
+- **储物挎包** — `ClothingBackpackSatchelHolding` ｜父类: ClothingBackpackSatchel ｜描述: A satchel that opens into a localized pocket of bluespace.
+- **人事主管挎包** — `ClothingBackpackSatchelHoP` ｜父类: ClothingBackpackSatchel,BaseCommandContraband ｜_Starlight ｜描述: Filled to the brim with dog treats and paperwork. Smells like wintergreen.
+- **水培挎包** — `ClothingBackpackSatchelHydroponics` ｜父类: ClothingBackpackSatchel ｜描述: A satchel made of all natural fibers.
+- **皮革挎包** — `ClothingBackpackSatchelLeather` ｜父类: ClothingBackpackSatchel ｜描述: A trend-setting satchel from a bygone era.
+- **医疗挎包** — `ClothingBackpackSatchelMedical` ｜父类: ClothingBackpackSatchel ｜描述: A sterile satchel used in medical departments.
+- **哑剧演员挎包** — `ClothingBackpackSatchelMime` ｜父类: ClothingBackpackSatchel ｜描述: A satchel designed for the silent and expressive art of miming.
+- **蜘蛛氏族挎包** — `ClothingBackpackSatchelNinja` ｜父类: ClothingBackpackSatchel,BaseHighlyIllegalContraband ｜描述: A robust satchel for stashing your loot.
+- **机器人专家挎包** — `ClothingBackpackSatchelRoboticist` ｜父类: ClothingBackpackSatchel ｜_Starlight ｜描述: Useful for holding borg parts.
+- **打捞挎包** — `ClothingBackpackSatchelSalvage` ｜父类: ClothingBackpackSatchel ｜描述: A robust satchel for stashing your loot.
+- **科研挎包** — `ClothingBackpackSatchelScience` ｜父类: ClothingBackpackSatchel ｜描述: Useful for holding research materials.
+- **安保挎包** — `ClothingBackpackSatchelSecurity` ｜父类: ClothingBackpackSatchel,BaseSecurityContraband ｜描述: A robust satchel for security related needs.
+- **走私者挎包** — `ClothingBackpackSatchelSmuggler` ｜父类: BaseSubfloorAnchorStorageAnchored,ClothingBackpackSatchel,BaseMinorContraband ｜描述: A handy, suspicious looking satchel. Just flat enough to fit underneath floor tiles.
 - **走私者挎包** — `ClothingBackpackSatchelSmugglerFilled` ｜父类: ClothingBackpackSatchelSmuggler
-- **走私者挎包** — `ClothingBackpackSatchelSmugglerUnanchored` ｜父类: BaseSubfloorAnchorStorage,ClothingBackpackSatchel,BaseMinorContraband
-- **辛迪加挎包** — `ClothingBackpackSatchelSyndicate` ｜父类: ClothingBackpackSatchel,BaseMinorContraband ｜_Starlight
-- **病毒学挎包** — `ClothingBackpackSatchelVirology` ｜父类: ClothingBackpackSatchel
-- **科研背包** — `ClothingBackpackScience` ｜父类: ClothingBackpack
-- **安保背包** — `ClothingBackpackSecurity` ｜父类: ClothingBackpack,BaseSecurityContraband
+- **走私者挎包** — `ClothingBackpackSatchelSmugglerUnanchored` ｜父类: BaseSubfloorAnchorStorage,ClothingBackpackSatchel,BaseMinorContraband ｜描述: A handy, suspicious looking satchel. Just flat enough to fit underneath floor tiles.
+- **辛迪加挎包** — `ClothingBackpackSatchelSyndicate` ｜父类: ClothingBackpackSatchel,BaseMinorContraband ｜_Starlight ｜描述: Ask not what the syndicate satchel can do for you, but rather, what can't it do.
+- **病毒学挎包** — `ClothingBackpackSatchelVirology` ｜父类: ClothingBackpackSatchel ｜描述: A satchel made of hypo-allergenic fibers. It's designed to help prevent the spread of disease. Smells like monkey.
+- **科研背包** — `ClothingBackpackScience` ｜父类: ClothingBackpack ｜描述: A backpack specially designed to repel stains and hazardous liquids.
+- **安保背包** — `ClothingBackpackSecurity` ｜父类: ClothingBackpack,BaseSecurityContraband ｜描述: It's a very robust backpack.
 - **辛迪加背包** — `ClothingBackpackSyndicate` ｜父类: ClothingBackpack,BaseMinorContraband
-- **幻影热能斗篷** — `ClothingBackpackThermalCloakTSF` ｜父类: BaseTSFContraband,ClothingBackpackSatchel,BaseToggleClothing ｜_Starlight
-- `模板` **大号箱包** — `ClothingBackpackTrunk` ｜父类: ClothingBackpack ｜_Starlight
-- **邮政大号箱包** — `ClothingBackpackTrunkMail` ｜父类: ClothingBackpackTrunk ｜_Starlight
-- **资深邮政大号箱包** — `ClothingBackpackTrunkMailSenior` ｜父类: ClothingBackpackTrunk ｜_Starlight
-- **太空信使大号箱包** — `ClothingBackpackTrunkSpaceCourier` ｜父类: ClothingBackpackTrunk ｜_Starlight
-- **太空信使大号箱包** — `ClothingBackpackTrunkSpaceCourierPAI` ｜父类: ClothingBackpackTrunkSpaceCourier ｜_Starlight
-- **辛迪加大号箱包** — `ClothingBackpackTrunkSyndicate` ｜父类: ClothingBackpackTrunk,BaseMinorContraband ｜_Starlight
-- **TSF陆战队帆布背包** — `ClothingBackpackTSF` ｜父类: BaseTSFContraband,ClothingBackpackERTLeader ｜_Starlight
-- **病毒学背包** — `ClothingBackpackVirology` ｜父类: ClothingBackpack
-- **背负式水箱** — `ClothingBackpackWaterTank` ｜父类: Clothing,ClothingSlotBase
-- **巫师背包** — `ClothingBackpackWizard` ｜父类: ClothingBackpack,BaseMagicalContraband ｜_Starlight
-- **宠物背包** — `ClothingBagPet` ｜父类: ClothingBackpack
+- **幻影热能斗篷** — `ClothingBackpackThermalCloakTSF` ｜父类: BaseTSFContraband,ClothingBackpackSatchel,BaseToggleClothing ｜_Starlight ｜描述: The lightweight thermal dampeners and optical camouflage provided by this cloak are weaker than those found in standard UNMC ghillie suits. In exchange, the cloak can be worn over combat armor and off
+- `模板` **大号箱包** — `ClothingBackpackTrunk` ｜父类: ClothingBackpack ｜_Starlight ｜描述: A large and heavy trunk for holding even more things.
+- **邮政大号箱包** — `ClothingBackpackTrunkMail` ｜父类: ClothingBackpackTrunk ｜_Starlight ｜描述: A huge trunk made of every aspiring mail technician's dreams.
+- **资深邮政大号箱包** — `ClothingBackpackTrunkMailSenior` ｜父类: ClothingBackpackTrunk ｜_Starlight ｜描述: A huge trunk for the station's strongest mail technicians.
+- **太空信使大号箱包** — `ClothingBackpackTrunkSpaceCourier` ｜父类: ClothingBackpackTrunk ｜_Starlight ｜描述: A huge trunk themed after a legendary space courier.
+- **太空信使大号箱包** — `ClothingBackpackTrunkSpaceCourierPAI` ｜父类: ClothingBackpackTrunkSpaceCourier ｜_Starlight ｜描述: A huge trunk themed after a legendary space courier.
+- **辛迪加大号箱包** — `ClothingBackpackTrunkSyndicate` ｜父类: ClothingBackpackTrunk,BaseMinorContraband ｜_Starlight ｜描述: Huge, metal, and stylish. All the other syndicates will want to get their hands on this trunk.
+- **TSF陆战队帆布背包** — `ClothingBackpackTSF` ｜父类: BaseTSFContraband,ClothingBackpackERTLeader ｜_Starlight ｜描述: A spacious rucksack covered in pouches and pockets, worn by marines of the Trans-Solar Federation.
+- **病毒学背包** — `ClothingBackpackVirology` ｜父类: ClothingBackpack ｜描述: A backpack made of hypo-allergenic fibers. It's designed to help prevent the spread of disease. Smells like monkey.
+- **背负式水箱** — `ClothingBackpackWaterTank` ｜父类: Clothing,ClothingSlotBase ｜描述: Holds a large amount of fluids. Supplies to spray nozzles in your hands, and has a slot on the side for said spray nozzles.
+- **巫师背包** — `ClothingBackpackWizard` ｜父类: ClothingBackpack,BaseMagicalContraband ｜_Starlight ｜描述: A magical backpack carried by members of the Space Wizards Federation.
+- **宠物背包** — `ClothingBagPet` ｜父类: ClothingBackpack ｜描述: A small bag designed for use by pets and small animals.
 - `模板` **ClothingBeltAmmoProviderBase** — `ClothingBeltAmmoProviderBase` ｜父类: ClothingBeltBase
-- **弹药带** — `ClothingBeltBandolier` ｜父类: ClothingBeltAmmoProviderBase,BaseSecurityBartenderContraband
+- **弹药带** — `ClothingBeltBandolier` ｜父类: ClothingBeltAmmoProviderBase,BaseSecurityBartenderContraband ｜描述: A bandolier for holding shotgun ammunition.
 - `模板` **ClothingBeltBase** — `ClothingBeltBase` ｜父类: Clothing
-- **蓝盾医疗腰带** — `ClothingBeltBlueShieldMedicalBelt` ｜父类: ClothingBeltStorageBase,ContentsExplosionResistanceBase,BaseBlueShieldContraband ｜_Starlight
-- **蓝盾携行具** — `ClothingBeltBlueShieldWebbing` ｜父类: ClothingBeltStorageBase,ContentsExplosionResistanceBase,BaseBlueShieldContraband ｜_Starlight
-- **战术创伤腰带** — `ClothingBeltBrigmedic` ｜父类: ClothingBeltMedical,ClothingBeltSecurity,BaseSecurityContraband ｜_Starlight
-- **战术创伤胸挂** — `ClothingBeltBrigmedicWeb` ｜父类: ClothingBeltBrigmedic ｜_Starlight
-- **货运工具腰带 # Starlight** — `ClothingBeltCargo` ｜父类: ClothingBeltStorageBase ｜_FarHorizons
-- **冠军腰带** — `ClothingBeltChampion` ｜父类: ClothingBeltBase
-- **厨师腰带** — `ClothingBeltChef` ｜父类: ClothingBeltStorageBase
-- **工程主管工具腰带** — `ClothingBeltChiefEngineer` ｜父类: BaseClothingBeltEngineering
-- **卫生员值勤腰带** — `ClothingBeltCorpsman` ｜父类: ClothingBeltBrigmedic ｜_Starlight
-- **绿盾医疗腰带** — `ClothingBeltGreenshield` ｜父类: BaseCentcommContraband,ClothingBeltBlueShieldMedicalBelt ｜_Starlight
-- **肩挂枪套** — `ClothingBeltHolster` ｜父类: ClothingBeltStorageBase
-- **清洁工腰带** — `ClothingBeltJanitor` ｜父类: ClothingBeltStorageBase
-- **医疗腰带** — `ClothingBeltMedical` ｜父类: ClothingBeltStorageBase
-- **急救员腰带** — `ClothingBeltMedicalEMT` ｜父类: ClothingBeltMedical
-- **雇佣兵携行具** — `ClothingBeltMercWebbing` ｜父类: ClothingBeltStorageBase
-- **战术胸挂** — `ClothingBeltMilitaryWebbing` ｜父类: ClothingBeltStorageBase,ContentsExplosionResistanceBase,BaseSyndicateContraband
-- **应急响应队战术胸挂** — `ClothingBeltMilitaryWebbingERT` ｜父类: ClothingBeltMilitaryWebbing
-- **医疗战术胸挂** — `ClothingBeltMilitaryWebbingMed` ｜父类: ClothingBeltMilitaryWebbing
-- **植物腰带** — `ClothingBeltPlant` ｜父类: ClothingBeltStorageBase
-- **箭袋** — `ClothingBeltQuiver` ｜父类: ClothingBeltStorageBase
-- **TSF干员值勤腰带** — `ClothingBeltRetroOfficer` ｜父类: BaseTSFContraband,ClothingBeltSecurity ｜_Starlight
-- **拾荒者携行具** — `ClothingBeltSalvageMercWebbing` ｜父类: BaseSalvageContraband,ClothingBeltStorageBase ｜_Starlight
-- **打捞携行具** — `ClothingBeltSalvageWebbing` ｜父类: ClothingBeltStorageBase
-- **安保腰带** — `ClothingBeltSecurity` ｜父类: ClothingBeltStorageBase,ContentsExplosionResistanceBase,BaseSecurityContraband
-- **安保携行具** — `ClothingBeltSecurityWebbing` ｜父类: ClothingBeltSecurity
-- **军刀鞘** — `ClothingBeltSheath` ｜父类: ClothingBeltBase,ClothingSlotBase,BaseCommandContraband
-- **SSF陆战队胸前胸挂** — `ClothingBeltSovietMarineWebbing` ｜父类: ClothingBeltStorageBase,ContentsExplosionResistanceBase,BaseSovietContraband ｜_Starlight
-- **SSF陆战队胸前胸挂** — `ClothingBeltSovietMarineWebbingLoadout` ｜父类: ClothingBeltSovietMarineWebbing ｜_Starlight
+- **蓝盾医疗腰带** — `ClothingBeltBlueShieldMedicalBelt` ｜父类: ClothingBeltStorageBase,ContentsExplosionResistanceBase,BaseBlueShieldContraband ｜_Starlight ｜描述: A tactical belt that can hold many items to save the lives of command.
+- **蓝盾携行具** — `ClothingBeltBlueShieldWebbing` ｜父类: ClothingBeltStorageBase,ContentsExplosionResistanceBase,BaseBlueShieldContraband ｜_Starlight ｜描述: A tactical rig that can hold many items to save the lives of command.
+- **战术创伤腰带** — `ClothingBeltBrigmedic` ｜父类: ClothingBeltMedical,ClothingBeltSecurity,BaseSecurityContraband ｜_Starlight ｜描述: Because why choose between being a medic or a security guard when you can be both?
+- **战术创伤胸挂** — `ClothingBeltBrigmedicWeb` ｜父类: ClothingBeltBrigmedic ｜_Starlight ｜描述: A stylish alternative to the belt.
+- **货运工具腰带 # Starlight** — `ClothingBeltCargo` ｜父类: ClothingBeltStorageBase ｜_FarHorizons ｜描述: Can hold various cargo related things.
+- **冠军腰带** — `ClothingBeltChampion` ｜父类: ClothingBeltBase ｜描述: Proves to the world that you are the strongest!
+- **厨师腰带** — `ClothingBeltChef` ｜父类: ClothingBeltStorageBase ｜描述: A belt used to hold kitchen knives and condiments for quick access.
+- **工程主管工具腰带** — `ClothingBeltChiefEngineer` ｜父类: BaseClothingBeltEngineering ｜描述: Holds tools, looks snazzy.
+- **卫生员值勤腰带** — `ClothingBeltCorpsman` ｜父类: ClothingBeltBrigmedic ｜_Starlight ｜描述: A tactical belt with as many pockets and bags to hold all the medical items you need!
+- **绿盾医疗腰带** — `ClothingBeltGreenshield` ｜父类: BaseCentcommContraband,ClothingBeltBlueShieldMedicalBelt ｜_Starlight ｜描述: A tactical belt that can hold many items to save the lives of CentComm.
+- **肩挂枪套** — `ClothingBeltHolster` ｜父类: ClothingBeltStorageBase ｜描述: A holster to carry a handgun and ammo. WARNING: Badasses only.
+- **清洁工腰带** — `ClothingBeltJanitor` ｜父类: ClothingBeltStorageBase ｜描述: A belt used to hold most janitorial supplies.
+- **医疗腰带** — `ClothingBeltMedical` ｜父类: ClothingBeltStorageBase ｜描述: Can hold various medical equipment.
+- **急救员腰带** — `ClothingBeltMedicalEMT` ｜父类: ClothingBeltMedical ｜描述: Perfect for holding various equipment for medical emergencies.
+- **雇佣兵携行具** — `ClothingBeltMercWebbing` ｜父类: ClothingBeltStorageBase ｜描述: Ideal for storing everything from ammo to weapons and combat essentials.
+- **战术胸挂** — `ClothingBeltMilitaryWebbing` ｜父类: ClothingBeltStorageBase,ContentsExplosionResistanceBase,BaseSyndicateContraband ｜描述: A set of tactical webbing worn by Syndicate boarding parties.
+- **应急响应队战术胸挂** — `ClothingBeltMilitaryWebbingERT` ｜父类: ClothingBeltMilitaryWebbing ｜描述: A set of tactical webbing worn by Emergency Response Team operatives.
+- **医疗战术胸挂** — `ClothingBeltMilitaryWebbingMed` ｜父类: ClothingBeltMilitaryWebbing ｜描述: A set of tactical webbing worn by Gorlex Marauder medic operatives.
+- **植物腰带** — `ClothingBeltPlant` ｜父类: ClothingBeltStorageBase ｜描述: A belt used to hold most hydroponics supplies. Suprisingly, not green.
+- **箭袋** — `ClothingBeltQuiver` ｜父类: ClothingBeltStorageBase ｜描述: Can hold up to 15 arrows, and fits snug around your waist.
+- **TSF干员值勤腰带** — `ClothingBeltRetroOfficer` ｜父类: BaseTSFContraband,ClothingBeltSecurity ｜_Starlight ｜描述: A leather duty belt from the Trans Solar Federation. Can hold security equipment and tools for patrol duty.
+- **拾荒者携行具** — `ClothingBeltSalvageMercWebbing` ｜父类: BaseSalvageContraband,ClothingBeltStorageBase ｜_Starlight ｜描述: Ideal for storing everything from tools, ammo, and salvage.
+- **打捞携行具** — `ClothingBeltSalvageWebbing` ｜父类: ClothingBeltStorageBase ｜描述: Universal unloading system for work in space.
+- **安保腰带** — `ClothingBeltSecurity` ｜父类: ClothingBeltStorageBase,ContentsExplosionResistanceBase,BaseSecurityContraband ｜描述: Can hold security gear like handcuffs and flashes.
+- **安保携行具** — `ClothingBeltSecurityWebbing` ｜父类: ClothingBeltSecurity ｜描述: Unique and versatile chest rig, can hold security gear.
+- **军刀鞘** — `ClothingBeltSheath` ｜父类: ClothingBeltBase,ClothingSlotBase,BaseCommandContraband ｜描述: An ornate sheath designed to hold an officer's blade.
+- **SSF陆战队胸前胸挂** — `ClothingBeltSovietMarineWebbing` ｜父类: ClothingBeltStorageBase,ContentsExplosionResistanceBase,BaseSovietContraband ｜_Starlight ｜描述: A set of tactical webbing worn by the iconic soviet elite marines.
+- **SSF陆战队胸前胸挂** — `ClothingBeltSovietMarineWebbingLoadout` ｜父类: ClothingBeltSovietMarineWebbing ｜_Starlight ｜描述: A set of tactical webbing worn by the iconic soviet elite marines.
 - `模板` **ClothingBeltStorageBase** — `ClothingBeltStorageBase` ｜父类: ClothingBeltBase
-- **皮革腰包** — `ClothingBeltStorageWaistbag` ｜父类: ClothingBeltStorageBase
-- **科研部腰包** — `ClothingBeltStorageWaistbagScience` ｜父类: ClothingBeltStorageBase ｜_Starlight
+- **皮革腰包** — `ClothingBeltStorageWaistbag` ｜父类: ClothingBeltStorageBase ｜描述: A leather waist bag meant for carrying small items.
+- **科研部腰包** — `ClothingBeltStorageWaistbagScience` ｜父类: ClothingBeltStorageBase ｜_Starlight ｜描述: A purple waist bag meant for carrying the tools of the luscious.
 - **黑色背带** — `ClothingBeltSuspendersBlack` ｜父类: ClothingBeltSuspendersRed
-- **红色背带** — `ClothingBeltSuspendersRed` ｜父类: ClothingBeltBase
-- **辛迪加肩挂枪套** — `ClothingBeltSyndieHolster` ｜父类: ClothingBeltStorageBase,BaseSyndicateContraband
-- **联邦战斗携行具** — `ClothingBeltTSFMarineWebbing` ｜父类: BaseTSFContraband,ClothingBeltStorageBase,ContentsExplosionResistanceBase ｜_Starlight
-- **工具腰带** — `ClothingBeltUtility` ｜父类: BaseClothingBeltEngineering
-- **魔杖腰带** — `ClothingBeltWand` ｜父类: ClothingBeltStorageBase,BaseMagicalContraband
-- **医疗主管的斗篷** — `ClothingCloakCmo` ｜父类: ClothingNeckBase,BaseCommandContraband
-- **精英主管医疗干员斗篷** — `ClothingCloakCmoElite` ｜父类: ClothingNeckBase,BaseCommandContraband ｜_Starlight
-- **布质裹带** — `ClothingClothWrap` ｜父类: ClothingShoesBase ｜_Starlight
-- **身份牌** — `ClothingDogTags` ｜父类: ClothingNeckBase ｜_Starlight
-- **处方化学分析眼镜** — `ClothingEyeGlassesChemicalPrescription` ｜父类: ClothingEyesGlassesChemical ｜_Starlight
-- **处方医疗眼镜** — `ClothingEyeGlassesMedicalPrescription` ｜父类: ClothingEyesBase,ShowMedicalIcons ｜_Starlight
-- **处方安保眼镜** — `ClothingEyeGlassesSecurityPrescription` ｜父类: ClothingEyesBase,ShowSecurityIcons,BaseSecurityContraband ｜_Starlight
+- **红色背带** — `ClothingBeltSuspendersRed` ｜父类: ClothingBeltBase ｜描述: For holding your pants up.
+- **辛迪加肩挂枪套** — `ClothingBeltSyndieHolster` ｜父类: ClothingBeltStorageBase,BaseSyndicateContraband ｜描述: A deep shoulder holster capable of holding many types of ballistics.
+- **联邦战斗携行具** — `ClothingBeltTSFMarineWebbing` ｜父类: BaseTSFContraband,ClothingBeltStorageBase,ContentsExplosionResistanceBase ｜_Starlight ｜描述: A tactical chest rig used by soldiers and marines of the Trans-Solar Federation. It's covered in pouches and attachment points.
+- **工具腰带** — `ClothingBeltUtility` ｜父类: BaseClothingBeltEngineering ｜描述: Can hold various things.
+- **魔杖腰带** — `ClothingBeltWand` ｜父类: ClothingBeltStorageBase,BaseMagicalContraband ｜描述: A belt designed to hold various rods of power. A veritable fanny pack of exotic magic.
+- **医疗主管的斗篷** — `ClothingCloakCmo` ｜父类: ClothingNeckBase,BaseCommandContraband ｜描述: A sterile blue cloak with a green cross, radiating with a sense of duty and willingness to help others.
+- **精英主管医疗干员斗篷** — `ClothingCloakCmoElite` ｜父类: ClothingNeckBase,BaseCommandContraband ｜_Starlight ｜描述: An elite chief medical officer's cloak made from the latest composite glowing fabric. Not recommended for breaking cancer diagnoses to patients.
+- **布质裹带** — `ClothingClothWrap` ｜父类: ClothingShoesBase ｜_Starlight ｜描述: A roll of treated canvas used for wrapping claws or paws.
+- **身份牌** — `ClothingDogTags` ｜父类: ClothingNeckBase ｜_Starlight ｜描述: Never forget.
+- **处方化学分析眼镜** — `ClothingEyeGlassesChemicalPrescription` ｜父类: ClothingEyesGlassesChemical ｜_Starlight ｜描述: A set of prescription glasses for chemists.
+- **处方医疗眼镜** — `ClothingEyeGlassesMedicalPrescription` ｜父类: ClothingEyesBase,ShowMedicalIcons ｜_Starlight ｜描述: A set of prescription glasses for Doctors. Not covered under insurance.
+- **处方安保眼镜** — `ClothingEyeGlassesSecurityPrescription` ｜父类: ClothingEyesBase,ShowSecurityIcons,BaseSecurityContraband ｜_Starlight ｜描述: A set of unshielded prescription glasses for Security.
 - `模板` **ClothingEyesBase** — `ClothingEyesBase` ｜父类: Clothing
-- **眼罩** — `ClothingEyesBlindfold` ｜父类: ClothingEyesBase
-- **太阳镜** — `ClothingEyesChameleon` ｜父类: ClothingEyesBase,BaseChameleon
-- **单眼眼罩** — `ClothingEyesEyepatch` ｜父类: ClothingHeadEyeBaseFlippable
+- **眼罩** — `ClothingEyesBlindfold` ｜父类: ClothingEyesBase ｜描述: The bind leading the blind.
+- **太阳镜** — `ClothingEyesChameleon` ｜父类: ClothingEyesBase,BaseChameleon ｜描述: Useful both for security and cargonia.
+- **单眼眼罩** — `ClothingEyesEyepatch` ｜父类: ClothingHeadEyeBaseFlippable ｜描述: Yarr.
 - **单眼眼罩** — `ClothingEyesEyepatchFlipped` ｜父类: ClothingEyesEyepatch,ClothingHeadEyeBaseFlipped
-- **啤酒HUD眼罩** — `ClothingEyesEyepatchHudBeer` ｜父类: ClothingHeadEyeBaseFlippable
+- **啤酒HUD眼罩** — `ClothingEyesEyepatchHudBeer` ｜父类: ClothingHeadEyeBaseFlippable ｜描述: A pair of sunHud outfitted with apparatus to scan reagents, as well as providing an innate understanding of liquid viscosity while in motion. For true patriots.
 - **啤酒HUD眼罩** — `ClothingEyesEyepatchHudBeerFlipped` ｜父类: ClothingEyesEyepatchHudBeer,ClothingHeadEyeBaseFlipped
-- **蓝盾HUD眼罩** — `ClothingEyesEyepatchHudBlueShield` ｜父类: ClothingEyesHudBlueShield,ClothingHeadEyeBaseFlippable ｜_Starlight
+- **蓝盾HUD眼罩** — `ClothingEyesEyepatchHudBlueShield` ｜父类: ClothingEyesHudBlueShield,ClothingHeadEyeBaseFlippable ｜_Starlight ｜描述: An innovative heads-up display that scans the humanoids in view and provides accurate data about their ID status, security records, and medical information. For true patriots.
 - **蓝盾HUD眼罩** — `ClothingEyesEyepatchHudBlueShieldFlipped` ｜父类: ClothingEyesEyepatchHudBlueShield,ClothingHeadEyeBaseFlipped ｜_Starlight
-- **狱医HUD眼罩** — `ClothingEyesEyepatchHudBrigmedic` ｜父类: ClothingEyesHudBrigmedic,ClothingHeadEyeBaseFlippable ｜_Starlight
+- **狱医HUD眼罩** — `ClothingEyesEyepatchHudBrigmedic` ｜父类: ClothingEyesHudBrigmedic,ClothingHeadEyeBaseFlippable ｜_Starlight ｜描述: Tamashi-upgraded HUDs for true patriots. Yes. Brigmedic ones.
 - **狱医HUD眼罩** — `ClothingEyesEyepatchHudBrigmedicFlipped` ｜父类: ClothingEyesEyepatchHudBrigmedic,ClothingHeadEyeBaseFlipped ｜_Starlight
-- **化学HUD眼罩** — `ClothingEyesEyepatchHudChemical` ｜父类: ClothingEyesHudChemical,ClothingHeadEyeBaseFlippable ｜_Starlight
+- **化学HUD眼罩** — `ClothingEyesEyepatchHudChemical` ｜父类: ClothingEyesHudChemical,ClothingHeadEyeBaseFlippable ｜_Starlight ｜描述: A heads-up display that scans the chemical composition of a solution. For true patriots.
 - **化学HUD眼罩** — `ClothingEyesEyepatchHudChemicalFlipped` ｜父类: ClothingEyesEyepatchHudChemical,ClothingHeadEyeBaseFlipped ｜_Starlight
-- **诊断HUD眼罩** — `ClothingEyesEyepatchHudDiag` ｜父类: ClothingEyesHudDiagnostic,ClothingHeadEyeBaseFlippable
+- **诊断HUD眼罩** — `ClothingEyesEyepatchHudDiag` ｜父类: ClothingEyesHudDiagnostic,ClothingHeadEyeBaseFlippable ｜描述: A heads-up display capable of analyzing the integrity and status of robotics and exosuits. Made out of see-borg-ium.
 - **诊断HUD眼罩** — `ClothingEyesEyepatchHudDiagFlipped` ｜父类: ClothingEyesEyepatchHudDiag,ClothingHeadEyeBaseFlipped
-- **医疗HUD眼罩** — `ClothingEyesEyepatchHudMedical` ｜父类: ClothingEyesHudMedical,ClothingHeadEyeBaseFlippable
+- **医疗HUD眼罩** — `ClothingEyesEyepatchHudMedical` ｜父类: ClothingEyesHudMedical,ClothingHeadEyeBaseFlippable ｜描述: A heads-up display that scans the humanoids in view and provides accurate data about their health status. For true patriots.
 - **医疗HUD眼罩** — `ClothingEyesEyepatchHudMedicalFlipped` ｜父类: ClothingEyesEyepatchHudMedical,ClothingHeadEyeBaseFlipped
-- **安保HUD眼罩** — `ClothingEyesEyepatchHudSecurity` ｜父类: ClothingEyesHudSecurity,ClothingHeadEyeBaseFlippable
+- **安保HUD眼罩** — `ClothingEyesEyepatchHudSecurity` ｜父类: ClothingEyesHudSecurity,ClothingHeadEyeBaseFlippable ｜描述: A heads-up display that scans the humanoids in view and provides accurate data about their ID status and security records. For true patriots.
 - **安保HUD眼罩** — `ClothingEyesEyepatchHudSecurityFlipped` ｜父类: ClothingEyesEyepatchHudSecurity,ClothingHeadEyeBaseFlipped
-- **眼镜** — `ClothingEyesGlasses` ｜父类: ClothingEyesBase
-- **蓝盾眼镜** — `ClothingEyesGlassesBlueShield` ｜父类: ClothingEyesBase,BaseBlueShieldContraband ｜_Starlight
-- **狱医眼镜** — `ClothingEyesGlassesBrigmedic` ｜父类: ClothingEyesBase,ShowSecurityIcons,BaseSecurityContraband ｜_Starlight
-- **处方狱医眼镜** — `ClothingEyesGlassesBrigmedicPrescription` ｜父类: ClothingEyesBase,ShowSecurityIcons,BaseSecurityContraband ｜_Starlight
-- **中央指挥部干员眼镜** — `ClothingEyesGlassesCentComm` ｜父类: ClothingEyesGlassesCentCommBase ｜_Starlight
+- **眼镜** — `ClothingEyesGlasses` ｜父类: ClothingEyesBase ｜描述: A pair of spectacular spectacles with prescription lenses.
+- **蓝盾眼镜** — `ClothingEyesGlassesBlueShield` ｜父类: ClothingEyesBase,BaseBlueShieldContraband ｜_Starlight ｜描述: The innovative blue lenses hide your eyes from light flashes and have a built-in visor.
+- **狱医眼镜** — `ClothingEyesGlassesBrigmedic` ｜父类: ClothingEyesBase,ShowSecurityIcons,BaseSecurityContraband ｜_Starlight ｜描述: High-quality hud that can protect against flashes. Tamashi-style!
+- **处方狱医眼镜** — `ClothingEyesGlassesBrigmedicPrescription` ｜父类: ClothingEyesBase,ShowSecurityIcons,BaseSecurityContraband ｜_Starlight ｜描述: A set of unshielded prescription glasses for Brigmedics.
+- **中央指挥部干员眼镜** — `ClothingEyesGlassesCentComm` ｜父类: ClothingEyesGlassesCentCommBase ｜_Starlight ｜描述: The innovative green lenses hide your eyes from light flashes and have a built-in visor.
 - `模板` **ClothingEyesGlassesCentCommBase** — `ClothingEyesGlassesCentCommBase` ｜父类: ClothingEyesBase,BaseCentcommContraband ｜_Starlight
-- **处方中央指挥部眼镜** — `ClothingEyesGlassesCentCommPrescription` ｜父类: ClothingEyesGlassesCentCommBase ｜_Starlight
-- **廉价太阳镜** — `ClothingEyesGlassesCheapSunglasses` ｜父类: ClothingEyesBase
-- **化学分析护目镜** — `ClothingEyesGlassesChemical` ｜父类: ClothingEyesBase
-- **管理眼镜** — `ClothingEyesGlassesCommand` ｜父类: ClothingEyesBase,BaseCommandContraband
-- **卫生员眼镜** — `ClothingEyesGlassesCorpsman` ｜父类: ClothingEyesBase,ShowSecurityIcons,BaseSecurityContraband ｜_Starlight
-- **钻头眼镜** — `ClothingEyesGlassesGar` ｜父类: ClothingEyesBase
-- **巨钻眼镜** — `ClothingEyesGlassesGarGiga` ｜父类: ClothingEyesBase
-- **橙钻眼镜** — `ClothingEyesGlassesGarOrange` ｜父类: ClothingEyesBase
+- **处方中央指挥部眼镜** — `ClothingEyesGlassesCentCommPrescription` ｜父类: ClothingEyesGlassesCentCommBase ｜_Starlight ｜描述: A set of prescription glasses for CentComm personnel. Protects against flashes and has a built-in visor.
+- **廉价太阳镜** — `ClothingEyesGlassesCheapSunglasses` ｜父类: ClothingEyesBase ｜描述: A pair of black sunglasses. Doesn't block light well, more of an accessory than something useful.
+- **化学分析护目镜** — `ClothingEyesGlassesChemical` ｜父类: ClothingEyesBase ｜描述: Goggles that can scan the chemical composition of a solution.
+- **管理眼镜** — `ClothingEyesGlassesCommand` ｜父类: ClothingEyesBase,BaseCommandContraband ｜描述: Upgraded sunglasses that provide flash immunity and show ID card status.
+- **卫生员眼镜** — `ClothingEyesGlassesCorpsman` ｜父类: ClothingEyesBase,ShowSecurityIcons,BaseSecurityContraband ｜_Starlight ｜描述: Can protect against flashes much like security glasses, and track vitals!
+- **钻头眼镜** — `ClothingEyesGlassesGar` ｜父类: ClothingEyesBase ｜描述: Go beyond impossible and kick reason to the curb!
+- **巨钻眼镜** — `ClothingEyesGlassesGarGiga` ｜父类: ClothingEyesBase ｜描述: We evolve past the person we were a minute before. Little by little we advance with each turn. That's how a drill works!
+- **橙钻眼镜** — `ClothingEyesGlassesGarOrange` ｜父类: ClothingEyesBase ｜描述: Just who the hell do you think I am?!
 - **太阳镜** — `ClothingEyesGlassesHiddenSecurity` ｜父类: ClothingEyesGlassesSunglasses,ShowSecurityIcons
-- **果酱罐眼镜** — `ClothingEyesGlassesJamjar` ｜父类: ClothingEyesBase
-- **中央指挥部厚底眼镜** — `ClothingEyesGlassesJamjarCentComm` ｜父类: ClothingEyesGlassesCentCommBase ｜_Starlight
-- **延森眼镜** — `ClothingEyesGlassesJensen` ｜父类: ClothingEyesBase
-- **高级延森眼镜** — `ClothingEyesGlassesJensenChemical` ｜父类: ClothingEyesBase ｜_Starlight
-- **雇佣兵眼镜** — `ClothingEyesGlassesMercenary` ｜父类: ClothingEyesBase
-- **工程护目镜 #less confusion** — `ClothingEyesGlassesMeson` ｜父类: ClothingEyesBase,BaseEngineeringSalvageContraband
-- **乐手墨镜** — `ClothingEyesGlassesMusicianSunglasses` ｜父类: ClothingEyesGlassesCheapSunglasses ｜_Starlight
-- **纳米传讯眼镜** — `ClothingEyesGlassesNanotrasen` ｜父类: ClothingEyesGlassesBlueShield ｜_Starlight
-- **侦探黑色电影科技眼镜** — `ClothingEyesGlassesNoir` ｜父类: ClothingEyesBase,ShowSecurityIcons,BaseSecurityContraband
-- **廉价黑白影像眼镜** — `ClothingEyesGlassesNoirAssistant` ｜父类: ClothingEyesBase ｜_Starlight
-- **虚无空间护目镜** — `ClothingEyesGlassesNullSpace` ｜父类: ClothingEyesBase,BaseSecurityScienceCommandContraband ｜_Starlight
-- **法外狂徒眼镜** — `ClothingEyesGlassesOutlawGlasses` ｜父类: ClothingEyesBase
-- **拾荒者眼镜** — `ClothingEyesGlassesSalvageMercenary` ｜父类: ClothingEyesBase,BaseSalvageContraband ｜_Starlight
-- **安保眼镜** — `ClothingEyesGlassesSecurity` ｜父类: ClothingEyesBase,ShowSecurityIcons,BaseSecurityContraband
-- **廉价太阳镜** — `ClothingEyesGlassesSKBGlasses` ｜父类: ClothingEyesBase ｜_Starlight
-- **太阳镜** — `ClothingEyesGlassesSunglasses` ｜父类: ClothingEyesGlassesCheapSunglasses
-- **光学热能扫描仪** — `ClothingEyesGlassesThermal` ｜父类: ClothingEyesBase
-- **啤酒护目镜** — `ClothingEyesHudBeer` ｜父类: ClothingEyesBase
-- **蓝盾HUD** — `ClothingEyesHudBlueShield` ｜父类: ClothingEyesBase,BaseBlueShieldContraband ｜_Starlight
-- **狱医HUD** — `ClothingEyesHudBrigmedic` ｜父类: ClothingEyesBase,ShowSecurityIcons,BaseSecurityContraband ｜_Starlight
-- **中央指挥部干员HUD** — `ClothingEyesHudCentComm` ｜父类: ClothingEyesBase,BaseCentcommContraband ｜_Starlight
-- **化学HUD** — `ClothingEyesHudChemical` ｜父类: ClothingEyesBase ｜_Starlight
-- **行政HUD** — `ClothingEyesHudCommand` ｜父类: ClothingEyesBase,BaseCommandContraband
-- **卫生员HUD** — `ClothingEyesHudCorpsman` ｜父类: ClothingEyesBase,ShowSecurityIcons,BaseSecurityContraband ｜_Starlight
-- **诊断HUD** — `ClothingEyesHudDiagnostic` ｜父类: ClothingEyesBase
-- **炸洋葱护目镜** — `ClothingEyesHudFriedOnion` ｜父类: ClothingEyesBase
-- **医疗HUD** — `ClothingEyesHudMedical` ｜父类: ClothingEyesBase,ShowMedicalIcons
-- **医疗洋葱HUD** — `ClothingEyesHudMedOnion` ｜父类: ClothingEyesBase,ShowMedicalIcons
-- **医疗洋葱啤酒HUD** — `ClothingEyesHudMedOnionBeer` ｜父类: ClothingEyesBase,ShowMedicalIcons
-- **医安HUD** — `ClothingEyesHudMedSec` ｜父类: ClothingEyesBase,ShowSecurityIcons,ShowMedicalIcons,BaseSecurityCommandContraband
-- **多元宇宙HUD** — `ClothingEyesHudMultiversal` ｜父类: ClothingEyesBase,ShowSecurityIcons,ShowMedicalIcons
-- **全能HUD** — `ClothingEyesHudOmni` ｜父类: ClothingEyesBase,ShowSecurityIcons,ShowMedicalIcons
-- **洋葱啤酒护目镜** — `ClothingEyesHudOnionBeer` ｜父类: ClothingEyesBase
-- **安保HUD** — `ClothingEyesHudSecurity` ｜父类: ClothingEyesBase,ShowSecurityIcons,BaseSecurityContraband
-- **技能HUD** — `ClothingEyesHudSkills` ｜父类: ClothingEyesBase ｜_Starlight
-- **SSF陆战队护目镜** — `ClothingEyesHudSovietMarine` ｜父类: ClothingEyesBase,ShowSecurityIcons,BaseSovietContraband ｜_Starlight
-- **辛迪加面罩** — `ClothingEyesHudSyndicate` ｜父类: ClothingEyesBase,ShowSecurityIcons,BaseSyndicateContraband
-- **辛迪加医疗面罩** — `ClothingEyesHudSyndicateAgent` ｜父类: ClothingEyesBase,ShowSecurityIcons,BaseSyndicateContraband
-- **纳米传讯代表单片眼镜** — `ClothingEyesNTRMonocle` ｜父类: ClothingEyesBase,BaseCommandContraband ｜_Starlight
-- **太空信使护目镜** — `ClothingEyesSpaceCourierGoggles` ｜父类: ClothingEyesBase,BaseToggleClothing ｜_Starlight
-- **技能太阳镜** — `ClothingEyesSunGlassesHudSkill` ｜父类: ClothingEyesBase ｜_Starlight
-- **机械装置** — `ClothingEyesTechnology` ｜父类: ClothingEyesBase ｜_Starlight
-- **失眠者眼镜** — `ClothingEyesTechnologyLudovic` ｜父类: ClothingEyesBase ｜_Starlight
-- **机械眼** — `ClothingEyesTechnologyTwo` ｜父类: ClothingEyesBase ｜_Starlight
-- **屏幕眼镜** — `ClothingEyesTechnologyX` ｜父类: ClothingEyesBase ｜_Starlight
-- **机械义眼** — `ClothingEyesTechnologyZero` ｜父类: ClothingEyesBase ｜_Starlight
-- **忍者面罩** — `ClothingEyesVisorNinja` ｜父类: ClothingEyesBase,BaseHighlyIllegalContraband
-- **焊接护目镜** — `ClothingEyesWeldingGoggles` ｜父类: ClothingEyesBase,BaseToggleClothing ｜_Starlight
+- **果酱罐眼镜** — `ClothingEyesGlassesJamjar` ｜父类: ClothingEyesBase ｜描述: These retro glasses remind you of a simpler time.
+- **中央指挥部厚底眼镜** — `ClothingEyesGlassesJamjarCentComm` ｜父类: ClothingEyesGlassesCentCommBase ｜_Starlight ｜描述: For looking at their profits with even wider eyes.
+- **延森眼镜** — `ClothingEyesGlassesJensen` ｜父类: ClothingEyesBase ｜描述: A pair of yellow tinted folding glasses. You never asked for these.
+- **高级延森眼镜** — `ClothingEyesGlassesJensenChemical` ｜父类: ClothingEyesBase ｜_Starlight ｜描述: A pair of magenta tinted folding glasses that can scan the chemical composition of a solution. You specifically asked for these.
+- **雇佣兵眼镜** — `ClothingEyesGlassesMercenary` ｜父类: ClothingEyesBase ｜描述: Glasses made for combat, to protect the eyes from bright blinding flashes.
+- **工程护目镜 #less confusion** — `ClothingEyesGlassesMeson` ｜父类: ClothingEyesBase,BaseEngineeringSalvageContraband ｜描述: Green-tinted goggles using a proprietary polymer that provides protection from eye damage of all types.
+- **乐手墨镜** — `ClothingEyesGlassesMusicianSunglasses` ｜父类: ClothingEyesGlassesCheapSunglasses ｜_Starlight ｜描述: A stylish pair of purple shades. They function as sunglasses, too.
+- **纳米传讯眼镜** — `ClothingEyesGlassesNanotrasen` ｜父类: ClothingEyesGlassesBlueShield ｜_Starlight ｜描述: The latest in NanoTrasen technology has lead up to these glasses, only given to the best of the best.
+- **侦探黑色电影科技眼镜** — `ClothingEyesGlassesNoir` ｜父类: ClothingEyesBase,ShowSecurityIcons,BaseSecurityContraband ｜描述: A pair of glasses that simulate what the world looked like before the invention of color.
+- **廉价黑白影像眼镜** — `ClothingEyesGlassesNoirAssistant` ｜父类: ClothingEyesBase ｜_Starlight ｜描述: A pair of glasses that simulate what the world looked like before the invention of color.
+- **虚无空间护目镜** — `ClothingEyesGlassesNullSpace` ｜父类: ClothingEyesBase,BaseSecurityScienceCommandContraband ｜_Starlight ｜描述: An unusual pair of goggles developed during a time of inhumane experimentation involving Shadekin. They are designed to allow the wearer to peer into NullSpace.
+- **法外狂徒眼镜** — `ClothingEyesGlassesOutlawGlasses` ｜父类: ClothingEyesBase ｜描述: A must for every self-respecting undercover agent.
+- **拾荒者眼镜** — `ClothingEyesGlassesSalvageMercenary` ｜父类: ClothingEyesBase,BaseSalvageContraband ｜_Starlight ｜描述: Glasses made for salvaging. They provide protection from welding and flashes.
+- **安保眼镜** — `ClothingEyesGlassesSecurity` ｜父类: ClothingEyesBase,ShowSecurityIcons,BaseSecurityContraband ｜描述: Upgraded sunglasses that provide flash immunity and a security HUD.
+- **廉价太阳镜** — `ClothingEyesGlassesSKBGlasses` ｜父类: ClothingEyesBase ｜_Starlight ｜描述: A pair of black sunglasses. Doesn't block light well, more of an accessory than something useful.
+- **太阳镜** — `ClothingEyesGlassesSunglasses` ｜父类: ClothingEyesGlassesCheapSunglasses ｜描述: A pair of black sunglasses.
+- **光学热能扫描仪** — `ClothingEyesGlassesThermal` ｜父类: ClothingEyesBase ｜描述: Thermals in the shape of glasses.
+- **啤酒护目镜** — `ClothingEyesHudBeer` ｜父类: ClothingEyesBase ｜描述: A pair of sunHud outfitted with apparatus to scan reagents, as well as providing an innate understanding of liquid viscosity while in motion.
+- **蓝盾HUD** — `ClothingEyesHudBlueShield` ｜父类: ClothingEyesBase,BaseBlueShieldContraband ｜_Starlight ｜描述: An innovative heads-up display that scans the humanoids in view and provides accurate data about their ID status, security records, and medical information.
+- **狱医HUD** — `ClothingEyesHudBrigmedic` ｜父类: ClothingEyesBase,ShowSecurityIcons,BaseSecurityContraband ｜_Starlight ｜描述: Tamashi-upgraded HUDs. Yes. Brigmedic ones.
+- **中央指挥部干员HUD** — `ClothingEyesHudCentComm` ｜父类: ClothingEyesBase,BaseCentcommContraband ｜_Starlight ｜描述: A Innovative heads-up display that scans the humanoids in view and provides accurate data about their ID status, security records, and medical information.
+- **化学HUD** — `ClothingEyesHudChemical` ｜父类: ClothingEyesBase ｜_Starlight ｜描述: A heads-up display that scans the chemical composition of a solution.
+- **行政HUD** — `ClothingEyesHudCommand` ｜父类: ClothingEyesBase,BaseCommandContraband ｜描述: A heads-up display that scans the humanoids in view and provides accurate data about their ID status.
+- **卫生员HUD** — `ClothingEyesHudCorpsman` ｜父类: ClothingEyesBase,ShowSecurityIcons,BaseSecurityContraband ｜_Starlight ｜描述: Tamashi-upgraded HUDs for true patriots. Yes. Corpsman ones.
+- **诊断HUD** — `ClothingEyesHudDiagnostic` ｜父类: ClothingEyesBase ｜描述: A heads-up display capable of analyzing the integrity and status of robotics and exosuits. Made out of see-borg-ium.
+- **炸洋葱护目镜** — `ClothingEyesHudFriedOnion` ｜父类: ClothingEyesBase ｜描述: Filler
+- **医疗HUD** — `ClothingEyesHudMedical` ｜父类: ClothingEyesBase,ShowMedicalIcons ｜描述: A heads-up display that scans the humanoids in view and provides accurate data about their health status.
+- **医疗洋葱HUD** — `ClothingEyesHudMedOnion` ｜父类: ClothingEyesBase,ShowMedicalIcons ｜描述: Filler
+- **医疗洋葱啤酒HUD** — `ClothingEyesHudMedOnionBeer` ｜父类: ClothingEyesBase,ShowMedicalIcons ｜描述: Filler
+- **医安HUD** — `ClothingEyesHudMedSec` ｜父类: ClothingEyesBase,ShowSecurityIcons,ShowMedicalIcons,BaseSecurityCommandContraband ｜描述: An eye display that looks like a mixture of medical and security huds.
+- **多元宇宙HUD** — `ClothingEyesHudMultiversal` ｜父类: ClothingEyesBase,ShowSecurityIcons,ShowMedicalIcons ｜描述: Filler
+- **全能HUD** — `ClothingEyesHudOmni` ｜父类: ClothingEyesBase,ShowSecurityIcons,ShowMedicalIcons ｜描述: Filler
+- **洋葱啤酒护目镜** — `ClothingEyesHudOnionBeer` ｜父类: ClothingEyesBase ｜描述: Filler
+- **安保HUD** — `ClothingEyesHudSecurity` ｜父类: ClothingEyesBase,ShowSecurityIcons,BaseSecurityContraband ｜描述: A heads-up display that scans the humanoids in view and provides accurate data about their ID status and security records.
+- **技能HUD** — `ClothingEyesHudSkills` ｜父类: ClothingEyesBase ｜_Starlight ｜描述: Visor with a built-in skills HUD, showing the employment history of nearby NT crew members.
+- **SSF陆战队护目镜** — `ClothingEyesHudSovietMarine` ｜父类: ClothingEyesBase,ShowSecurityIcons,BaseSovietContraband ｜_Starlight ｜描述: The iconic soviet goggles, in use broadly by the soviet forces throughout.
+- **辛迪加面罩** — `ClothingEyesHudSyndicate` ｜父类: ClothingEyesBase,ShowSecurityIcons,BaseSyndicateContraband ｜描述: The syndicate's professional head-up display, designed for better detection of humanoids and their subsequent elimination.
+- **辛迪加医疗面罩** — `ClothingEyesHudSyndicateAgent` ｜父类: ClothingEyesBase,ShowSecurityIcons,BaseSyndicateContraband ｜描述: The Syndicate corpsman's professional heads-up display, designed for quick diagnosis of their team's status.
+- **纳米传讯代表单片眼镜** — `ClothingEyesNTRMonocle` ｜父类: ClothingEyesBase,BaseCommandContraband ｜_Starlight ｜描述: A fancy monocle that also functions as a HUD to make sure no functionality is lost for style.
+- **太空信使护目镜** — `ClothingEyesSpaceCourierGoggles` ｜父类: ClothingEyesBase,BaseToggleClothing ｜_Starlight ｜描述: Stylish space courier replica goggles. Provides nominal eye protection, but you shouldn't count on it.
+- **技能太阳镜** — `ClothingEyesSunGlassesHudSkill` ｜父类: ClothingEyesBase ｜_Starlight ｜描述: Sunglasses with a build-in skills HUD, showing the employment history of nearby NT crew members.
+- **机械装置** — `ClothingEyesTechnology` ｜父类: ClothingEyesBase ｜_Starlight ｜描述: It’s heavy and covered in a mess of wires.
+- **失眠者眼镜** — `ClothingEyesTechnologyLudovic` ｜父类: ClothingEyesBase ｜_Starlight ｜描述: With these glasses I see everything! …Oh no, that’s just dust.
+- **机械眼** — `ClothingEyesTechnologyTwo` ｜父类: ClothingEyesBase ｜_Starlight ｜描述: A one-of-a-kind among the old.
+- **屏幕眼镜** — `ClothingEyesTechnologyX` ｜父类: ClothingEyesBase ｜_Starlight ｜描述: Time to step into the 8-bit world.
+- **机械义眼** — `ClothingEyesTechnologyZero` ｜父类: ClothingEyesBase ｜_Starlight ｜描述: A pair of oculars crackling with static electricity.
+- **忍者面罩** — `ClothingEyesVisorNinja` ｜父类: ClothingEyesBase,BaseHighlyIllegalContraband ｜描述: An advanced visor protecting a ninja's eyes from flashing lights.
+- **焊接护目镜** — `ClothingEyesWeldingGoggles` ｜父类: ClothingEyesBase,BaseToggleClothing ｜_Starlight ｜描述: Protects the eyes from welders, approved by the mad scientist association.
 - `模板` **ClothingGenderPinBase** — `ClothingGenderPinBase` ｜父类: ClothingNeckPinBase
 - `模板` **ClothingHandsBase** — `ClothingHandsBase` ｜父类: Clothing
 - `模板` **ClothingHandsButcherable** — `ClothingHandsButcherable` ｜父类: ClothingHandsBase
-- `模板` **猫爪连指手套** — `ClothingHandsCatPaws` ｜父类: ClothingHandsMittensBase ｜_Starlight
+- `模板` **猫爪连指手套** — `ClothingHandsCatPaws` ｜父类: ClothingHandsMittensBase ｜_Starlight ｜描述: Extra soft cat paws, especially made for the most stern assistants.
 - **黑色猫爪连指手套** — `ClothingHandsCatPawsBlack` ｜父类: ClothingHandsCatPaws ｜_Starlight
 - **黑白猫爪连指手套** — `ClothingHandsCatPawsBlackWhite` ｜父类: ClothingHandsCatPaws ｜_Starlight
 - **棕色猫爪连指手套** — `ClothingHandsCatPawsBrown` ｜父类: ClothingHandsCatPaws ｜_Starlight
 - **白色猫爪连指手套** — `ClothingHandsCatPawsWhite` ｜父类: ClothingHandsCatPaws ｜_Starlight
-- **黑手套** — `ClothingHandsChameleon` ｜父类: ClothingHandsButcherable,BaseChameleon
+- **黑手套** — `ClothingHandsChameleon` ｜父类: ClothingHandsButcherable,BaseChameleon ｜描述: Regular black gloves that do not keep you from frying.
 - **黑色手套** — `ClothingHandsChameleonThief` ｜父类: ClothingHandsChameleon
-- **黑色丁腈手套** — `ClothingHandsGlovesBlackNitrile` ｜父类: ClothingHandsButcherable ｜_Starlight
-- **蓝色拳击手套** — `ClothingHandsGlovesBoxingBlue` ｜父类: ClothingHandsGlovesBoxingRed
-- **绿色拳击手套** — `ClothingHandsGlovesBoxingGreen` ｜父类: ClothingHandsGlovesBoxingRed
-- **红色拳击手套** — `ClothingHandsGlovesBoxingRed` ｜父类: ClothingHandsBase
+- **黑色丁腈手套** — `ClothingHandsGlovesBlackNitrile` ｜父类: ClothingHandsButcherable ｜_Starlight ｜描述: High-quality nitrile gloves. Expensive medical PPE, now in black!
+- **蓝色拳击手套** — `ClothingHandsGlovesBoxingBlue` ｜父类: ClothingHandsGlovesBoxingRed ｜描述: Blue gloves for competitive boxing.
+- **绿色拳击手套** — `ClothingHandsGlovesBoxingGreen` ｜父类: ClothingHandsGlovesBoxingRed ｜描述: Green gloves for competitive boxing.
+- **红色拳击手套** — `ClothingHandsGlovesBoxingRed` ｜父类: ClothingHandsBase ｜描述: Red gloves for competitive boxing.
 - **蓝色拳击手套** — `ClothingHandsGlovesBoxingRigged` ｜父类: ClothingHandsGlovesBoxingBlue
-- **黄色拳击手套** — `ClothingHandsGlovesBoxingYellow` ｜父类: ClothingHandsGlovesBoxingRed
-- **舰长手套** — `ClothingHandsGlovesCaptain` ｜父类: ClothingHandsBase,BaseCommandContraband
-- **受诅小丑手套** — `ClothingHandsGlovesCluwne` ｜父类: ClothingHandsGlovesColorWhite
-- **黑色手套** — `ClothingHandsGlovesColorBlack` ｜父类: ClothingHandsGlovesSyntheticBase
-- **蓝色手套** — `ClothingHandsGlovesColorBlue` ｜父类: ClothingHandsGlovesSyntheticBase
-- **棕色手套** — `ClothingHandsGlovesColorBrown` ｜父类: ClothingHandsGlovesSyntheticBase
-- **灰色手套** — `ClothingHandsGlovesColorGray` ｜父类: ClothingHandsGlovesSyntheticBase
-- **绿色手套** — `ClothingHandsGlovesColorGreen` ｜父类: ClothingHandsGlovesSyntheticBase
-- **浅棕色手套** — `ClothingHandsGlovesColorLightBrown` ｜父类: ClothingHandsGlovesSyntheticBase
-- **橙色手套** — `ClothingHandsGlovesColorOrange` ｜父类: ClothingHandsGlovesSyntheticBase
-- **紫色手套** — `ClothingHandsGlovesColorPurple` ｜父类: ClothingHandsGlovesSyntheticBase
-- **红色手套** — `ClothingHandsGlovesColorRed` ｜父类: ClothingHandsGlovesSyntheticBase
-- **蓝绿色手套** — `ClothingHandsGlovesColorTeal` ｜父类: ClothingHandsGlovesSyntheticBase
-- **白色手套** — `ClothingHandsGlovesColorWhite` ｜父类: ClothingHandsGlovesSyntheticBase
-- **绝缘手套** — `ClothingHandsGlovesColorYellow` ｜父类: ClothingHandsBase
-- **廉价绝缘手套** — `ClothingHandsGlovesColorYellowBudget` ｜父类: ClothingHandsGlovesColorYellow
-- **战斗手套** — `ClothingHandsGlovesCombat` ｜父类: ClothingHandsGlovesColorBlack,BaseEngineeringSecurityCommandContraband
+- **黄色拳击手套** — `ClothingHandsGlovesBoxingYellow` ｜父类: ClothingHandsGlovesBoxingRed ｜描述: Yellow gloves for competitive boxing.
+- **舰长手套** — `ClothingHandsGlovesCaptain` ｜父类: ClothingHandsBase,BaseCommandContraband ｜描述: Regal blue gloves, with a nice gold trim. Swanky.
+- **受诅小丑手套** — `ClothingHandsGlovesCluwne` ｜父类: ClothingHandsGlovesColorWhite ｜描述: A cursed pair of cluwne hands.
+- **黑色手套** — `ClothingHandsGlovesColorBlack` ｜父类: ClothingHandsGlovesSyntheticBase ｜描述: Regular black gloves that do not keep you from frying.
+- **蓝色手套** — `ClothingHandsGlovesColorBlue` ｜父类: ClothingHandsGlovesSyntheticBase ｜描述: Regular blue gloves that do not keep you from frying.
+- **棕色手套** — `ClothingHandsGlovesColorBrown` ｜父类: ClothingHandsGlovesSyntheticBase ｜描述: Regular brown gloves that do not keep you from frying.
+- **灰色手套** — `ClothingHandsGlovesColorGray` ｜父类: ClothingHandsGlovesSyntheticBase ｜描述: Regular grey gloves that do not keep you from frying.
+- **绿色手套** — `ClothingHandsGlovesColorGreen` ｜父类: ClothingHandsGlovesSyntheticBase ｜描述: Regular green gloves that do not keep you from frying.
+- **浅棕色手套** — `ClothingHandsGlovesColorLightBrown` ｜父类: ClothingHandsGlovesSyntheticBase ｜描述: Regular light brown gloves that do not keep you from frying.
+- **橙色手套** — `ClothingHandsGlovesColorOrange` ｜父类: ClothingHandsGlovesSyntheticBase ｜描述: Regular orange gloves that do not keep you from frying.
+- **紫色手套** — `ClothingHandsGlovesColorPurple` ｜父类: ClothingHandsGlovesSyntheticBase ｜描述: Regular purple gloves that do not keep you from frying.
+- **红色手套** — `ClothingHandsGlovesColorRed` ｜父类: ClothingHandsGlovesSyntheticBase ｜描述: Regular red gloves that do not keep you from frying.
+- **蓝绿色手套** — `ClothingHandsGlovesColorTeal` ｜父类: ClothingHandsGlovesSyntheticBase ｜描述: Regular teal gloves that do not keep you from frying.
+- **白色手套** — `ClothingHandsGlovesColorWhite` ｜父类: ClothingHandsGlovesSyntheticBase ｜描述: Regular white gloves that do not keep you from frying.
+- **绝缘手套** — `ClothingHandsGlovesColorYellow` ｜父类: ClothingHandsBase ｜描述: These gloves will protect the wearer from electric shocks.
+- **廉价绝缘手套** — `ClothingHandsGlovesColorYellowBudget` ｜父类: ClothingHandsGlovesColorYellow ｜描述: These gloves are cheap knockoffs of the coveted ones - no way this can end badly.
+- **战斗手套** — `ClothingHandsGlovesCombat` ｜父类: ClothingHandsGlovesColorBlack,BaseEngineeringSecurityCommandContraband ｜描述: These tactical gloves are fireproof and shock resistant.
 - **绝缘手套** — `ClothingHandsGlovesConducting` ｜父类: ClothingHandsGlovesColorYellow
-- **露指手套** — `ClothingHandsGlovesFingerless` ｜父类: ClothingHandsButcherable
-- **露指经济型绝缘手套** — `ClothingHandsGlovesFingerlessBudget` ｜父类: ClothingHandsBase ｜_Starlight
-- **露指绝缘手套** — `ClothingHandsGlovesFingerlessInsulated` ｜父类: ClothingHandsBase
-- **法医手套** — `ClothingHandsGlovesForensic` ｜父类: ClothingHandsBase,BaseSecurityContraband
-- **防纸割手套** — `ClothingHandsGlovesHop` ｜父类: ClothingHandsBase
-- **橡胶手套** — `ClothingHandsGlovesJanitor` ｜父类: ClothingHandsBase
-- **乳胶手套** — `ClothingHandsGlovesLatex` ｜父类: ClothingHandsButcherable
-- **皮手套** — `ClothingHandsGlovesLeather` ｜父类: ClothingHandsButcherable
-- **雇佣兵露指手套** — `ClothingHandsGlovesMercFingerless` ｜父类: ClothingHandsButcherable
-- **丁腈手套** — `ClothingHandsGlovesNitrile` ｜父类: ClothingHandsButcherable
-- **北斗手套** — `ClothingHandsGlovesNorthStar` ｜父类: ClothingHandsButcherable,BaseSyndicateContraband
-- **动力手套** — `ClothingHandsGlovesPowerglove` ｜父类: ClothingHandsBase
-- **机器手手套** — `ClothingHandsGlovesRobohands` ｜父类: ClothingHandsButcherable
-- **露指红色安保手套** — `ClothingHandsGlovesSecurityFingerlessRed` ｜父类: ClothingHandsButcherable,BaseSecurityContraband ｜_Starlight
-- **红色安保手套** — `ClothingHandsGlovesSecurityRed` ｜父类: ClothingHandsButcherable,BaseSecurityContraband ｜_Starlight
-- **太空忍者手套** — `ClothingHandsGlovesSpaceNinja` ｜父类: ClothingHandsBase,BaseToggleClothing,BaseHighlyIllegalContraband
+- **露指手套** — `ClothingHandsGlovesFingerless` ｜父类: ClothingHandsButcherable ｜描述: Plain black gloves without fingertips for the hard working.
+- **露指经济型绝缘手套** — `ClothingHandsGlovesFingerlessBudget` ｜父类: ClothingHandsBase ｜_Starlight ｜描述: You're not sure what's more insulting, the fact that these are fingerless, or the fact that they're not even real insuls.
+- **露指绝缘手套** — `ClothingHandsGlovesFingerlessInsulated` ｜父类: ClothingHandsBase ｜描述: Insulated gloves resistant to shocks, or at least they used to.
+- **法医手套** — `ClothingHandsGlovesForensic` ｜父类: ClothingHandsBase,BaseSecurityContraband ｜描述: Do not leave fibers or fingerprints. If you work without them, you're A TERRIBLE DETECTIVE.
+- **防纸割手套** — `ClothingHandsGlovesHop` ｜父类: ClothingHandsBase ｜描述: Perfect for dealing with paperwork and matters with bureaucracy.
+- **橡胶手套** — `ClothingHandsGlovesJanitor` ｜父类: ClothingHandsBase ｜描述: High-quality rubber gloves, squeaky to do some cleaning!
+- **乳胶手套** — `ClothingHandsGlovesLatex` ｜父类: ClothingHandsButcherable ｜描述: Thin sterile latex gloves. Basic PPE for any doctor.
+- **皮手套** — `ClothingHandsGlovesLeather` ｜父类: ClothingHandsButcherable ｜描述: These leather gloves protect against thorns, barbs, prickles, spikes and other harmful objects of floral origin. They're also quite warm.
+- **雇佣兵露指手套** — `ClothingHandsGlovesMercFingerless` ｜父类: ClothingHandsButcherable ｜描述: Gloves that may not protect you from finger burns, but will make you cooler.
+- **丁腈手套** — `ClothingHandsGlovesNitrile` ｜父类: ClothingHandsButcherable ｜描述: High-quality nitrile gloves. Expensive medical PPE.
+- **北斗手套** — `ClothingHandsGlovesNorthStar` ｜父类: ClothingHandsButcherable,BaseSyndicateContraband ｜描述: These gloves allow you to punch incredibly fast.
+- **动力手套** — `ClothingHandsGlovesPowerglove` ｜父类: ClothingHandsBase ｜描述: Now I'm playin' with power! Wait... they're turned off.
+- **机器手手套** — `ClothingHandsGlovesRobohands` ｜父类: ClothingHandsButcherable ｜描述: Beep boop borp!
+- **露指红色安保手套** — `ClothingHandsGlovesSecurityFingerlessRed` ｜父类: ClothingHandsButcherable,BaseSecurityContraband ｜_Starlight ｜描述: Black gloves, but slightly red! The detective will HATE you if you wear these.
+- **红色安保手套** — `ClothingHandsGlovesSecurityRed` ｜父类: ClothingHandsButcherable,BaseSecurityContraband ｜_Starlight ｜描述: Black gloves, but slightly red! The detective will LOVE you if you wear these.
+- **太空忍者手套** — `ClothingHandsGlovesSpaceNinja` ｜父类: ClothingHandsBase,BaseToggleClothing,BaseHighlyIllegalContraband ｜描述: These black nano-enhanced gloves insulate from electricity and provide fire resistance.
 - `模板` **ClothingHandsGlovesSyntheticBase** — `ClothingHandsGlovesSyntheticBase` ｜父类: ClothingHandsButcherable
-- **bone crushers** — `ClothingHandsKnuckleBoneCrushers` ｜父类: ClothingHandsKnuckleDusters
-- **指虎** — `ClothingHandsKnuckleDusters` ｜父类: ClothingHandsBase,BaseMinorContraband
-- **黄铜指虎** — `ClothingHandsKnuckleDustersBrass` ｜父类: ClothingHandsKnuckleDusters,BaseMinorContraband
-- **军需官金质指虎** — `ClothingHandsKnuckleDustersQM` ｜父类: ClothingHandsBase,BaseGrandTheftContraband
-- **电击指虎** — `ClothingHandsKnuckleDustersStun` ｜父类: ClothingHandsBase,BaseToggleClothing,BaseSecurityContraband
-- **辛迪加指虎** — `ClothingHandsKnuckleDustersSyndicate` ｜父类: ClothingHandsBase,BaseSyndicateContraband
-- **优雅女仆手套** — `ClothingHandsMaidGlovesElegant` ｜父类: ClothingHandsGlovesSyntheticBase ｜_Starlight
-- **雇佣兵战斗手套** — `ClothingHandsMercGlovesCombat` ｜父类: BaseEngineeringSecurityCommandSalvageMiningContraband,ClothingHandsGlovesCombat
+- **bone crushers** — `ClothingHandsKnuckleBoneCrushers` ｜父类: ClothingHandsKnuckleDusters ｜描述: Blessed by the Gods to break all those who don't obey.
+- **指虎** — `ClothingHandsKnuckleDusters` ｜父类: ClothingHandsBase,BaseMinorContraband ｜描述: Cold plasteel knuckle dusters, makes your punches hit much harder.
+- **黄铜指虎** — `ClothingHandsKnuckleDustersBrass` ｜父类: ClothingHandsKnuckleDusters,BaseMinorContraband ｜描述: Brass knuckle dusters, just like how they used to make em and still hit just as hard.
+- **军需官金质指虎** — `ClothingHandsKnuckleDustersQM` ｜父类: ClothingHandsBase,BaseGrandTheftContraband ｜描述: 24karat gold infused with plasteel and branded with the NanoTrasen logo. A true symbol of the Quartermaster's might.
+- **电击指虎** — `ClothingHandsKnuckleDustersStun` ｜父类: ClothingHandsBase,BaseToggleClothing,BaseSecurityContraband ｜描述: A pair of knuckle dusters combined with the tech of a stun baton. This makes beating tiders a whole lot easier.
+- **辛迪加指虎** — `ClothingHandsKnuckleDustersSyndicate` ｜父类: ClothingHandsBase,BaseSyndicateContraband ｜描述: Plastitanium knuckle dusters branded with the blood-red S. A real man beats someone to death with these.
+- **优雅女仆手套** — `ClothingHandsMaidGlovesElegant` ｜父类: ClothingHandsGlovesSyntheticBase ｜_Starlight ｜描述: Pristine maid gloves, like any self-respecting maid should possess.
+- **雇佣兵战斗手套** — `ClothingHandsMercGlovesCombat` ｜父类: BaseEngineeringSecurityCommandSalvageMiningContraband,ClothingHandsGlovesCombat ｜描述: High-quality combat gloves to protect hands from mechanical damage during combat.
 - `模板` **ClothingHandsMittensBase** — `ClothingHandsMittensBase` ｜父类: ClothingHandsBase ｜_Starlight
-- **黑色连指手套** — `ClothingHandsMittensColorBlack` ｜父类: ClothingHandsMittensBase ｜_Starlight
-- **蓝色连指手套** — `ClothingHandsMittensColorBlue` ｜父类: ClothingHandsMittensBase ｜_Starlight
-- **棕色连指手套** — `ClothingHandsMittensColorBrown` ｜父类: ClothingHandsMittensBase ｜_Starlight
-- **深色黑色连指手套** — `ClothingHandsMittensColorDarkBlack` ｜父类: ClothingHandsMittensBase ｜_Starlight
-- **灰色连指手套** — `ClothingHandsMittensColorGray` ｜父类: ClothingHandsMittensBase ｜_Starlight
-- **绿色连指手套** — `ClothingHandsMittensColorGreen` ｜父类: ClothingHandsMittensBase ｜_Starlight
-- **浅色棕色连指手套** — `ClothingHandsMittensColorLightBrown` ｜父类: ClothingHandsMittensBase ｜_Starlight
-- **橙色连指手套** — `ClothingHandsMittensColorOrange` ｜父类: ClothingHandsMittensBase ｜_Starlight
-- **紫色连指手套** — `ClothingHandsMittensColorPurple` ｜父类: ClothingHandsMittensBase ｜_Starlight
-- **红色连指手套** — `ClothingHandsMittensColorRed` ｜父类: ClothingHandsMittensBase ｜_Starlight
-- **蓝绿色连指手套** — `ClothingHandsMittensColorTeal` ｜父类: ClothingHandsMittensBase ｜_Starlight
-- **白色连指手套** — `ClothingHandsMittensColorWhite` ｜父类: ClothingHandsMittensBase ｜_Starlight
-- **黄色连指手套** — `ClothingHandsMittensColorYellow` ｜父类: ClothingHandsMittensBase ｜_Starlight
-- **红色安保连指手套** — `ClothingHandsMittensSecurityRed` ｜父类: ClothingHandsMittensBase,BaseSecurityContraband ｜_Starlight
-- **拾荒者战斗手套** — `ClothingHandsSalvageMercGlovesCombat` ｜父类: BaseEngineeringSecurityCommandSalvageMiningContraband,ClothingHandsGlovesCombat ｜_Starlight
-- **战术女仆手套** — `ClothingHandsTacticalMaidGloves` ｜父类: ClothingHandsGlovesSyntheticBase
-- **精致战术女仆手套** — `ClothingHandsTacticalMaidGlovesDelicate` ｜父类: ClothingHandsGlovesSyntheticBase ｜_Starlight
+- **黑色连指手套** — `ClothingHandsMittensColorBlack` ｜父类: ClothingHandsMittensBase ｜_Starlight ｜描述: Regular black mittens to keep the cold out.
+- **蓝色连指手套** — `ClothingHandsMittensColorBlue` ｜父类: ClothingHandsMittensBase ｜_Starlight ｜描述: Regular blue mittens to keep the cold out.
+- **棕色连指手套** — `ClothingHandsMittensColorBrown` ｜父类: ClothingHandsMittensBase ｜_Starlight ｜描述: Regular brown mittens to keep the cold out.
+- **深色黑色连指手套** — `ClothingHandsMittensColorDarkBlack` ｜父类: ClothingHandsMittensBase ｜_Starlight ｜描述: Regular dark black mittens to keep the cold out.
+- **灰色连指手套** — `ClothingHandsMittensColorGray` ｜父类: ClothingHandsMittensBase ｜_Starlight ｜描述: Regular grey mittens to keep the cold out.
+- **绿色连指手套** — `ClothingHandsMittensColorGreen` ｜父类: ClothingHandsMittensBase ｜_Starlight ｜描述: Regular green mittens to keep the cold out.
+- **浅色棕色连指手套** — `ClothingHandsMittensColorLightBrown` ｜父类: ClothingHandsMittensBase ｜_Starlight ｜描述: Regular light brown mittens to keep the cold out.
+- **橙色连指手套** — `ClothingHandsMittensColorOrange` ｜父类: ClothingHandsMittensBase ｜_Starlight ｜描述: Regular orange mittens to keep the cold out.
+- **紫色连指手套** — `ClothingHandsMittensColorPurple` ｜父类: ClothingHandsMittensBase ｜_Starlight ｜描述: Regular purple mittens to keep the cold out.
+- **红色连指手套** — `ClothingHandsMittensColorRed` ｜父类: ClothingHandsMittensBase ｜_Starlight ｜描述: Regular red mittens to keep the cold out.
+- **蓝绿色连指手套** — `ClothingHandsMittensColorTeal` ｜父类: ClothingHandsMittensBase ｜_Starlight ｜描述: Regular teal mittens to keep the cold out.
+- **白色连指手套** — `ClothingHandsMittensColorWhite` ｜父类: ClothingHandsMittensBase ｜_Starlight ｜描述: Regular white mittens to keep the cold out.
+- **黄色连指手套** — `ClothingHandsMittensColorYellow` ｜父类: ClothingHandsMittensBase ｜_Starlight ｜描述: Regular yellow mittens to keep the cold out.
+- **红色安保连指手套** — `ClothingHandsMittensSecurityRed` ｜父类: ClothingHandsMittensBase,BaseSecurityContraband ｜_Starlight ｜描述: Black mittens, but slightly red! The detective will LOVE you if you wear these.
+- **拾荒者战斗手套** — `ClothingHandsSalvageMercGlovesCombat` ｜父类: BaseEngineeringSecurityCommandSalvageMiningContraband,ClothingHandsGlovesCombat ｜_Starlight ｜描述: High-quality insulated gloves that provide protection while salvaging.
+- **战术女仆手套** — `ClothingHandsTacticalMaidGloves` ｜父类: ClothingHandsGlovesSyntheticBase ｜描述: Tactical maid gloves, every self-respecting maid should be able to discreetly eliminate her goals.
+- **精致战术女仆手套** — `ClothingHandsTacticalMaidGlovesDelicate` ｜父类: ClothingHandsGlovesSyntheticBase ｜_Starlight ｜描述: Tactical maid gloves, every self-respecting maid should be able to discreetly eliminate her goals. Made of a thin material, far too thin to be insulated.
 - `模板` **ClothingHeadBandBase** — `ClothingHeadBandBase` ｜父类: ClothingHeadBaseButcherable,BaseFoldable
 - **黑色头巾** — `ClothingHeadBandBlack` ｜父类: ClothingHeadBandBase,ClothingMaskBandBlack
 - **蓝色头巾** — `ClothingHeadBandBlue` ｜父类: ClothingHeadBandBase,ClothingMaskBandBlue
@@ -387,112 +387,112 @@
 - **红色头巾** — `ClothingHeadBandRed` ｜父类: ClothingHeadBandBase,ClothingMaskBandRed
 - **骷髅头巾** — `ClothingHeadBandSkull` ｜父类: ClothingHeadBandBase,ClothingMaskBandSkull
 - `模板` **ClothingHeadBase** — `ClothingHeadBase` ｜父类: Clothing
-- **宽檐镀金帽** — `ClothingHeadBase0121` ｜父类: ClothingHeadBase ｜_Starlight
+- **宽檐镀金帽** — `ClothingHeadBase0121` ｜父类: ClothingHeadBase ｜_Starlight ｜描述: A cream-white wide-brimmed hat with large white feathers and golden trim.
 - `模板` **ClothingHeadBaseButcherable** — `ClothingHeadBaseButcherable` ｜父类: ClothingHeadBase
-- **鱼缸头盔** — `ClothingHeadBowlHelmet` ｜父类: ClothingHeadBase ｜_Starlight
-- **副手帽** — `ClothingHeadDeputyHat` ｜父类: ClothingHeadBase,BaseSecurityContraband ｜_Starlight
+- **鱼缸头盔** — `ClothingHeadBowlHelmet` ｜父类: ClothingHeadBase ｜_Starlight ｜描述: It looks like a fish bowl, but somehow it functions as an EVA helmet.
+- **副手帽** — `ClothingHeadDeputyHat` ｜父类: ClothingHeadBase,BaseSecurityContraband ｜_Starlight ｜描述: el desperados...
 - `模板` **基础太空头盔** — `ClothingHeadEVAHelmetBase` ｜父类: ClothingHeadBase
 - `模板` **ClothingHeadEyeBaseFlippable** — `ClothingHeadEyeBaseFlippable` ｜父类: ClothingEyesBase,BaseFoldable
 - `模板` **ClothingHeadEyeBaseFlipped** — `ClothingHeadEyeBaseFlipped` ｜父类: ClothingHeadEyeBaseFlippable
-- **钓鱼帽** — `ClothingHeadFishCap` ｜父类: ClothingHeadBase
+- **钓鱼帽** — `ClothingHeadFishCap` ｜父类: ClothingHeadBase ｜描述: "Women fear me. Fish fear me. Men turn their eyes away from me. As I walk no beast dares make a sound in my presence. I am alone on this barren Earth."
 - `模板` **基础外骨骼服头盔** — `ClothingHeadHardsuitBase`
-- **灰猫帽** — `ClothingHeadHatAnimalCat` ｜父类: ClothingHeadBase
-- **黑猫帽** — `ClothingHeadHatAnimalCatBlack` ｜父类: ClothingHeadBase
-- **棕猫帽** — `ClothingHeadHatAnimalCatBrown` ｜父类: ClothingHeadBase
-- **头部史莱姆帽** — `ClothingHeadHatAnimalHeadslime` ｜父类: ClothingHeadBase
-- **猴子帽** — `ClothingHeadHatAnimalMonkey` ｜父类: ClothingHeadBase
-- **海狸帽** — `ClothingHeadHatBeaverHat` ｜父类: ClothingHeadBase
-- **贝雷帽** — `ClothingHeadHatBeret` ｜父类: ClothingHeadBase
-- **蓝盾贝雷帽** — `ClothingHeadHatBeretBlueShield` ｜父类: ClothingHeadBase,BaseBlueShieldContraband ｜_Starlight
-- **狱医贝雷帽** — `ClothingHeadHatBeretBrigmedic` ｜父类: ClothingHeadBase
-- **货运部贝雷帽** — `ClothingHeadHatBeretCargo` ｜父类: ClothingHeadBase ｜_Starlight
-- **礼服货运部贝雷帽** — `ClothingHeadHatBeretCargoFormal` ｜父类: ClothingHeadBase ｜_Starlight
-- **化学贝雷帽** — `ClothingHeadHatBeretChemist` ｜父类: ClothingHeadBase ｜_Starlight
-- **医疗主管贝雷帽** — `ClothingHeadHatBeretCmo` ｜父类: ClothingHeadBase,BaseCommandContraband
-- **指挥部贝雷帽** — `ClothingHeadHatBeretCommand` ｜父类: ClothingHeadBase
-- **卫生员贝雷帽** — `ClothingHeadHatBeretCorpsman` ｜父类: ClothingHeadBase,BaseSecurityContraband ｜_Starlight
-- **值勤干员贝雷帽** — `ClothingHeadHatBeretDutyOfficer` ｜父类: ClothingHeadBase ｜_Starlight
-- **工程贝雷帽** — `ClothingHeadHatBeretEngineering` ｜父类: ClothingHeadBase
-- **法式贝雷帽** — `ClothingHeadHatBeretFrench` ｜父类: ClothingHeadBase
-- **安保主管贝雷帽** — `ClothingHeadHatBeretHoS` ｜父类: ClothingHeadBase
-- **医疗贝雷帽** — `ClothingHeadHatBeretMedic` ｜父类: ClothingHeadBase
-- **雇佣兵贝雷帽** — `ClothingHeadHatBeretMerc` ｜父类: ClothingHeadBase
-- **NT职业培训员贝雷帽** — `ClothingHeadHatBeretNCTBlack` ｜父类: ClothingHeadBase,BaseCommandContraband ｜_Starlight
-- **NT 职业训练师贝雷帽** — `ClothingHeadHatBeretNCTGreen` ｜父类: ClothingHeadHatBeretNCTBlack ｜_Starlight
-- **监狱贝雷帽** — `ClothingHeadHatBeretPrison` ｜父类: ClothingHeadBase ｜_Starlight
-- **军需官贝雷帽** — `ClothingHeadHatBeretQM` ｜父类: ClothingHeadBase
-- **科研贝雷帽** — `ClothingHeadHatBeretRND` ｜父类: ClothingHeadBase
-- **棕色拾荒者贝雷帽** — `ClothingHeadHatBeretSalvageMercBrown` ｜父类: ClothingHeadBase,BaseSalvageContraband ｜_Starlight
-- **绿色拾荒者贝雷帽** — `ClothingHeadHatBeretSalvageMercGreen` ｜父类: ClothingHeadBase,BaseSalvageContraband ｜_Starlight
-- **紫色拾荒者贝雷帽** — `ClothingHeadHatBeretSalvageMercPurple` ｜父类: ClothingHeadBase,BaseSalvageContraband ｜_Starlight
-- **安保贝雷帽** — `ClothingHeadHatBeretSecurity` ｜父类: ClothingHeadBase
-- **医师贝雷帽** — `ClothingHeadHatBeretSeniorPhysician` ｜父类: ClothingHeadBase
-- **TSF贝雷帽** — `ClothingHeadHatBeretTSF` ｜父类: BaseTSFContraband,ClothingHeadBase ｜_Starlight
-- **MARSOC贝雷帽** — `ClothingHeadHatBeretTSFElite` ｜父类: BaseTSFContraband,ClothingHeadBase ｜_Starlight
-- **典狱长贝雷帽** — `ClothingHeadHatBeretWarden` ｜父类: ClothingHeadBase
-- **捣蛋鬼的帽** — `ClothingHeadHatBizarreSoft` ｜父类: ClothingHeadHeadHatBaseFlippable
+- **灰猫帽** — `ClothingHeadHatAnimalCat` ｜父类: ClothingHeadBase ｜描述: A cute and fluffy head of a grey cat.
+- **黑猫帽** — `ClothingHeadHatAnimalCatBlack` ｜父类: ClothingHeadBase ｜描述: A cute and fluffy head of a black cat.
+- **棕猫帽** — `ClothingHeadHatAnimalCatBrown` ｜父类: ClothingHeadBase ｜描述: A cute and fluffy head of a brown cat.
+- **头部史莱姆帽** — `ClothingHeadHatAnimalHeadslime` ｜父类: ClothingHeadBase ｜描述: A green, sticky headslime, you put it on your head.
+- **猴子帽** — `ClothingHeadHatAnimalMonkey` ｜父类: ClothingHeadBase ｜描述: That's a monkey head. It has a hole on a mouth to eat bananas.
+- **海狸帽** — `ClothingHeadHatBeaverHat` ｜父类: ClothingHeadBase ｜描述: "Gentlemen?"
+- **贝雷帽** — `ClothingHeadHatBeret` ｜父类: ClothingHeadBase ｜描述: An artist's favorite headwear.
+- **蓝盾贝雷帽** — `ClothingHeadHatBeretBlueShield` ｜父类: ClothingHeadBase,BaseBlueShieldContraband ｜_Starlight ｜描述: This beret completes the outfit of any true Blueshield Officer.
+- **狱医贝雷帽** — `ClothingHeadHatBeretBrigmedic` ｜父类: ClothingHeadBase ｜描述: A white beret for brigmedics.
+- **货运部贝雷帽** — `ClothingHeadHatBeretCargo` ｜父类: ClothingHeadBase ｜_Starlight ｜描述: A beret with the cargo department's insignia. Deliver crates in style.
+- **礼服货运部贝雷帽** — `ClothingHeadHatBeretCargoFormal` ｜父类: ClothingHeadBase ｜_Starlight ｜描述: A distinguished beret with the cargo department's insignia. Reserved for cargo's finest.
+- **化学贝雷帽** — `ClothingHeadHatBeretChemist` ｜父类: ClothingHeadBase ｜_Starlight ｜描述: An orange beret. Defender of bald heads everywhere.
+- **医疗主管贝雷帽** — `ClothingHeadHatBeretCmo` ｜父类: ClothingHeadBase,BaseCommandContraband ｜描述: A turquoise beret with a cross on the front. The sight of it calms you down and makes it clear that you will be cured.
+- **指挥部贝雷帽** — `ClothingHeadHatBeretCommand` ｜父类: ClothingHeadBase ｜描述: A beret with the NanoTrasen logo. It has an aura of authority.
+- **卫生员贝雷帽** — `ClothingHeadHatBeretCorpsman` ｜父类: ClothingHeadBase,BaseSecurityContraband ｜_Starlight ｜描述: Losing this hat is considered grounds for demotion. Kidding, though you will be ridiculed by your fellow corpsmans.
+- **值勤干员贝雷帽** — `ClothingHeadHatBeretDutyOfficer` ｜父类: ClothingHeadBase ｜_Starlight ｜描述: A dark-red beret themed after the warden's. Not bad, not bad.
+- **工程贝雷帽** — `ClothingHeadHatBeretEngineering` ｜父类: ClothingHeadBase ｜描述: A beret with the engineering department's insignia. For engineers that are more inclined towards style than safety.
+- **法式贝雷帽** — `ClothingHeadHatBeretFrench` ｜父类: ClothingHeadBase ｜描述: A French beret. "Vive la France!"
+- **安保主管贝雷帽** — `ClothingHeadHatBeretHoS` ｜父类: ClothingHeadBase ｜描述: A black beret with a commander's rank emblem. For officers that are more inclined towards style than safety.
+- **医疗贝雷帽** — `ClothingHeadHatBeretMedic` ｜父类: ClothingHeadBase ｜描述: A sterile white beret.
+- **雇佣兵贝雷帽** — `ClothingHeadHatBeretMerc` ｜父类: ClothingHeadBase ｜描述: An olive beret with a badge depicting a jackal on a rock.
+- **NT职业培训员贝雷帽** — `ClothingHeadHatBeretNCTBlack` ｜父类: ClothingHeadBase,BaseCommandContraband ｜_Starlight ｜描述: A beret worn by the mentors and trainers of the Career Training Team. This one is black!
+- **NT 职业训练师贝雷帽** — `ClothingHeadHatBeretNCTGreen` ｜父类: ClothingHeadHatBeretNCTBlack ｜_Starlight ｜描述: A beret worn by the mentors and trainers of the Career Training Team. This one is green!
+- **监狱贝雷帽** — `ClothingHeadHatBeretPrison` ｜父类: ClothingHeadBase ｜_Starlight ｜描述: A criminal's least favorite headwear.
+- **军需官贝雷帽** — `ClothingHeadHatBeretQM` ｜父类: ClothingHeadBase ｜描述: A beret with the cargo department's insignia.
+- **科研贝雷帽** — `ClothingHeadHatBeretRND` ｜父类: ClothingHeadBase ｜描述: A beret for real scientists.
+- **棕色拾荒者贝雷帽** — `ClothingHeadHatBeretSalvageMercBrown` ｜父类: ClothingHeadBase,BaseSalvageContraband ｜_Starlight ｜描述: A brown beret.
+- **绿色拾荒者贝雷帽** — `ClothingHeadHatBeretSalvageMercGreen` ｜父类: ClothingHeadBase,BaseSalvageContraband ｜_Starlight ｜描述: A green beret.
+- **紫色拾荒者贝雷帽** — `ClothingHeadHatBeretSalvageMercPurple` ｜父类: ClothingHeadBase,BaseSalvageContraband ｜_Starlight ｜描述: A purple beret.
+- **安保贝雷帽** — `ClothingHeadHatBeretSecurity` ｜父类: ClothingHeadBase ｜描述: A beret with the security department's insignia. For officers that are more inclined towards style than safety.
+- **医师贝雷帽** — `ClothingHeadHatBeretSeniorPhysician` ｜父类: ClothingHeadBase ｜描述: Donning the colours of medical and chemistry, physicians are the pride of this department!
+- **TSF贝雷帽** — `ClothingHeadHatBeretTSF` ｜父类: BaseTSFContraband,ClothingHeadBase ｜_Starlight ｜描述: A beret worn by marines of the Trans-Solar Federation.
+- **MARSOC贝雷帽** — `ClothingHeadHatBeretTSFElite` ｜父类: BaseTSFContraband,ClothingHeadBase ｜_Starlight ｜描述: A beret worn by junior officers of the Trans-Solar Federation's Marine Special Operations Command.
+- **典狱长贝雷帽** — `ClothingHeadHatBeretWarden` ｜父类: ClothingHeadBase ｜描述: A corporate-blue beret with a warden's rank emblem. For officers that are more inclined towards style than safety.
+- **捣蛋鬼的帽** — `ClothingHeadHatBizarreSoft` ｜父类: ClothingHeadHeadHatBaseFlippable ｜描述: A truly.. bizarre accessory.
 - **捣蛋鬼的帽** — `ClothingHeadHatBizarreSoftFlipped` ｜父类: ClothingHeadHeadHatBaseFlipped,ClothingHeadHatBizarreSoft
-- **黑色帽** — `ClothingHeadHatBlacksoft` ｜父类: ClothingHeadHeadHatBaseFlippable
+- **黑色帽** — `ClothingHeadHatBlacksoft` ｜父类: ClothingHeadHeadHatBaseFlippable ｜描述: A black baseball cap.
 - **黑色帽** — `ClothingHeadHatBlacksoftFlipped` ｜父类: ClothingHeadHeadHatBaseFlipped,ClothingHeadHatBlacksoft
-- **蓝盾赏金猎人帽** — `ClothingHeadHatBlueShieldSheriff` ｜父类: ClothingHeadBase,BaseBlueShieldContraband ｜_Starlight
-- **蓝色帽** — `ClothingHeadHatBluesoft` ｜父类: ClothingHeadHeadHatBaseFlippable
+- **蓝盾赏金猎人帽** — `ClothingHeadHatBlueShieldSheriff` ｜父类: ClothingHeadBase,BaseBlueShieldContraband ｜_Starlight ｜描述: For when your charges do not wish to be tracked down.
+- **蓝色帽** — `ClothingHeadHatBluesoft` ｜父类: ClothingHeadHeadHatBaseFlippable ｜描述: A blue baseball cap.
 - **蓝色帽** — `ClothingHeadHatBluesoftFlipped` ｜父类: ClothingHeadHeadHatBaseFlipped,ClothingHeadHatBluesoft
-- **圆顶礼帽** — `ClothingHeadHatBowlerHat` ｜父类: ClothingHeadBase
-- **宽檐帽** — `ClothingHeadHatBrimHat` ｜父类: ClothingHeadBase ｜_Starlight
-- **棕色鸭舌帽** — `ClothingHeadHatBrownFlatcap` ｜父类: ClothingHeadBase
-- **兔子耳朵** — `ClothingHeadHatBunny` ｜父类: ClothingHeadBase
-- **兔子帮帽** — `ClothingHeadHatBunnyGang` ｜父类: ClothingHeadBase ｜_Starlight
-- **蛋糕帽** — `ClothingHeadHatCake` ｜父类: ClothingHeadBase
-- **针织帽** — `ClothingHeadHatCanadaBeanie` ｜父类: ClothingHeadBase
-- **舰长帽帽** — `ClothingHeadHatCapcap` ｜父类: ClothingHeadBase
-- **NT代表帽** — `ClothingHeadHatCapNtrep` ｜父类: ClothingHeadBase,BaseCommandContraband ｜_Starlight
-- **舰长安全帽** — `ClothingHeadHatCaptain` ｜父类: ClothingHeadBase,BaseCommandContraband
-- **纸箱赛博格头盔** — `ClothingHeadHatCardborg` ｜父类: ClothingHeadBase
-- **礼服货运部帽** — `ClothingHeadHatCargoFormalsoft` ｜父类: ClothingHeadHeadHatBaseFlippable ｜_Starlight
+- **圆顶礼帽** — `ClothingHeadHatBowlerHat` ｜父类: ClothingHeadBase ｜描述: A stylish bowler hat.
+- **宽檐帽** — `ClothingHeadHatBrimHat` ｜父类: ClothingHeadBase ｜_Starlight ｜描述: Keep that bloody sun out of your eyes.
+- **棕色鸭舌帽** — `ClothingHeadHatBrownFlatcap` ｜父类: ClothingHeadBase ｜描述: "Stupid clown! You made me look bad!"
+- **兔子耳朵** — `ClothingHeadHatBunny` ｜父类: ClothingHeadBase ｜描述: Cute bunny ears.
+- **兔子帮帽** — `ClothingHeadHatBunnyGang` ｜父类: ClothingHeadBase ｜_Starlight ｜描述: The hat of a secretive group of bunny mercenaries.
+- **蛋糕帽** — `ClothingHeadHatCake` ｜父类: ClothingHeadBase ｜描述: You put the cake on your head. Brilliant.
+- **针织帽** — `ClothingHeadHatCanadaBeanie` ｜父类: ClothingHeadBase ｜描述: Red, white and snug. It radiates a homely feeling, if your home happens to be chilly and filled with coffeehouses.
+- **舰长帽帽** — `ClothingHeadHatCapcap` ｜父类: ClothingHeadBase ｜描述: A grand, stylish cap worn by the Captain. Shows the station who's in charge.
+- **NT代表帽** — `ClothingHeadHatCapNtrep` ｜父类: ClothingHeadBase,BaseCommandContraband ｜_Starlight ｜描述: The cap of justice over command!
+- **舰长安全帽** — `ClothingHeadHatCaptain` ｜父类: ClothingHeadBase,BaseCommandContraband ｜描述: Feels good being the king.
+- **纸箱赛博格头盔** — `ClothingHeadHatCardborg` ｜父类: ClothingHeadBase ｜描述: A hat made out of a box.
+- **礼服货运部帽** — `ClothingHeadHatCargoFormalsoft` ｜父类: ClothingHeadHeadHatBaseFlippable ｜_Starlight ｜描述: A baseball cap colored to match cargo's formal uniforms.
 - **礼服货运部帽** — `ClothingHeadHatCargoFormalsoftFlipped` ｜父类: ClothingHeadHeadHatBaseFlipped,ClothingHeadHatCargoFormalsoft ｜_Starlight
-- **货运帽** — `ClothingHeadHatCargosoft` ｜父类: ClothingHeadHeadHatBaseFlippable
+- **货运帽** — `ClothingHeadHatCargosoft` ｜父类: ClothingHeadHeadHatBaseFlippable ｜描述: A baseball cap colored to match cargo's uniforms.
 - **货运帽** — `ClothingHeadHatCargosoftFlipped` ｜父类: ClothingHeadHeadHatBaseFlipped,ClothingHeadHatCargosoft
-- **卡萨** — `ClothingHeadHatCasa` ｜父类: ClothingHeadBase
-- **猫耳朵** — `ClothingHeadHatCatEars` ｜父类: ClothingHeadBase,BaseSyndicateContraband
+- **卡萨** — `ClothingHeadHatCasa` ｜父类: ClothingHeadBase ｜描述: Cone-shaped hat.
+- **猫耳朵** — `ClothingHeadHatCatEars` ｜父类: ClothingHeadBase,BaseSyndicateContraband ｜描述: NYAH!
 - **猫耳朵** — `ClothingHeadHatCatEarsValid` ｜父类: ClothingHeadHatCatEars,BaseToggleClothing
-- **中央指挥部贝雷帽** — `ClothingHeadHatCCberet` ｜父类: ClothingHeadBase,BaseCentcommContraband ｜_Starlight
-- **中央指挥部警长帽** — `ClothingHeadHatCCSheriffhat` ｜父类: ClothingHeadBase,BaseCentcommContraband ｜_Starlight
-- **中央指挥部品牌帽** — `ClothingHeadHatCentcom` ｜父类: ClothingHeadBase,BaseCentcommContraband
-- **中央指挥部帽** — `ClothingHeadHatCentcomcap` ｜父类: ClothingHeadBase,BaseCentcommContraband
-- **贝雷帽** — `ClothingHeadHatChameleon` ｜父类: ClothingHeadBase,BaseChameleon
-- **厨师帽** — `ClothingHeadHatChef` ｜父类: ClothingHeadBase
-- **鸡头套** — `ClothingHeadHatChickenhead` ｜父类: ClothingHeadBase
-- **指挥部帽** — `ClothingHeadHatCommandSoft` ｜父类: ClothingHeadHeadHatBaseFlippable
+- **中央指挥部贝雷帽** — `ClothingHeadHatCCberet` ｜父类: ClothingHeadBase,BaseCentcommContraband ｜_Starlight ｜描述: a green beret, like any other beret but green and you can't have it.
+- **中央指挥部警长帽** — `ClothingHeadHatCCSheriffhat` ｜父类: ClothingHeadBase,BaseCentcommContraband ｜_Starlight ｜描述: A sheriff's hat in the signature CC colors, one look at this might make a tider think twice from sneaking into debrief.
+- **中央指挥部品牌帽** — `ClothingHeadHatCentcom` ｜父类: ClothingHeadBase,BaseCentcommContraband ｜描述: Feels good being the king's boss.
+- **中央指挥部帽** — `ClothingHeadHatCentcomcap` ｜父类: ClothingHeadBase,BaseCentcommContraband ｜描述: An extravagant, stylish cap worn by CentComm officials. Shows the Captain who's in charge.
+- **贝雷帽** — `ClothingHeadHatChameleon` ｜父类: ClothingHeadBase,BaseChameleon ｜描述: A beret, an artists favorite headwear.
+- **厨师帽** — `ClothingHeadHatChef` ｜父类: ClothingHeadBase ｜描述: A hat used by chefs to keep their hair out of your food. Judging by the food in the mess, they don't work.
+- **鸡头套** — `ClothingHeadHatChickenhead` ｜父类: ClothingHeadBase ｜描述: It's a chicken head. Bok bok bok!
+- **指挥部帽** — `ClothingHeadHatCommandSoft` ｜父类: ClothingHeadHeadHatBaseFlippable ｜描述: A baseball cap in command's distinctive shade of blue.
 - **指挥部帽** — `ClothingHeadHatCommandSoftFlipped` ｜父类: ClothingHeadHeadHatBaseFlipped,ClothingHeadHatCommandSoft
-- **警示锥筒** — `ClothingHeadHatCone` ｜父类: ClothingHeadBase
-- **公司帽** — `ClothingHeadHatCorpsoft` ｜父类: ClothingHeadHeadHatBaseFlippable
+- **警示锥筒** — `ClothingHeadHatCone` ｜父类: ClothingHeadBase ｜描述: This cone is trying to warn you of something!
+- **公司帽** — `ClothingHeadHatCorpsoft` ｜父类: ClothingHeadHeadHatBaseFlippable ｜描述: A baseball cap in corporation colors.
 - **公司帽** — `ClothingHeadHatCorpsoftFlipped` ｜父类: ClothingHeadHeadHatBaseFlipped,ClothingHeadHatCorpsoft
 - **黑色牛仔帽** — `ClothingHeadHatCowboyBlack` ｜父类: ClothingHeadHatCowboyBrown
 - **赏金猎人牛仔帽** — `ClothingHeadHatCowboyBountyHunter` ｜父类: ClothingHeadHatCowboyBrown
-- **棕色牛仔帽** — `ClothingHeadHatCowboyBrown` ｜父类: ClothingHeadBase
+- **棕色牛仔帽** — `ClothingHeadHatCowboyBrown` ｜父类: ClothingHeadBase ｜描述: "This hat ain't big enough for the two of us."
 - **灰色牛仔帽** — `ClothingHeadHatCowboyGrey` ｜父类: ClothingHeadHatCowboyBrown
 - **红色牛仔帽** — `ClothingHeadHatCowboyRed` ｜父类: ClothingHeadHatCowboyBrown
 - **白色牛仔帽** — `ClothingHeadHatCowboyWhite` ｜父类: ClothingHeadHatCowboyBrown
-- **万能帽** — `ClothingHeadHatDetGadget` ｜父类: ClothingHeadHatFedoraBrown
-- **doggy耳朵** — `ClothingHeadHatDogEars` ｜父类: ClothingHeadBase
-- **教官帽** — `ClothingHeadHatDrilltrainer` ｜父类: ClothingHeadBase,BaseCommandContraband ｜_Starlight
-- **值勤干员帽** — `ClothingHeadHatDutyOfficer` ｜父类: ClothingHeadBase ｜_Starlight
-- **值班干员橙色帽** — `ClothingHeadHatDutyOfficerOrange` ｜父类: ClothingHeadBase,BaseSecurityContraband ｜DeltaV
-- **华丽王冠** — `ClothingHeadHatFancyCrown` ｜父类: ClothingHeadBase
-- **羽饰帽** — `ClothingHeadHatFeatheredHat` ｜父类: ClothingHeadBase ｜_Starlight
-- **棕色软呢帽** — `ClothingHeadHatFedoraBrown` ｜父类: ClothingHeadBase
-- **灰色软呢帽** — `ClothingHeadHatFedoraGrey` ｜父类: ClothingHeadBase
-- **土耳其毡帽** — `ClothingHeadHatFez` ｜父类: ClothingHeadBase
-- **化学钓鱼帽** — `ClothingHeadHatFishCapChemist` ｜父类: ClothingHeadBase ｜_Starlight
-- **花朵花环** — `ClothingHeadHatFlowerWreath` ｜父类: ClothingHeadBase
-- **角斗士头盔** — `ClothingHeadHatGladiator` ｜父类: ClothingHeadBase
-- **绿色帽** — `ClothingHeadHatGreensoft` ｜父类: ClothingHeadHeadHatBaseFlippable
+- **万能帽** — `ClothingHeadHatDetGadget` ｜父类: ClothingHeadHatFedoraBrown ｜描述: A novel hat with a built in toolkit. Automatically stores and retrieves items at the say of a phrase!
+- **doggy耳朵** — `ClothingHeadHatDogEars` ｜父类: ClothingHeadBase ｜描述: Only for good dogs.
+- **教官帽** — `ClothingHeadHatDrilltrainer` ｜父类: ClothingHeadBase,BaseCommandContraband ｜_Starlight ｜描述: A wide-brimmed campaign hat with a drill sergeant feel, worn by Career Trainers to project knowledge and guide new employees with classic style.
+- **值勤干员帽** — `ClothingHeadHatDutyOfficer` ｜父类: ClothingHeadBase ｜_Starlight ｜描述: I'm the only thing that can protect this station from chaos.
+- **值班干员橙色帽** — `ClothingHeadHatDutyOfficerOrange` ｜父类: ClothingHeadBase,BaseSecurityContraband ｜DeltaV ｜描述: The orange hat signifies your superiority towards the poor inmates that have to stand you.
+- **华丽王冠** — `ClothingHeadHatFancyCrown` ｜父类: ClothingHeadBase ｜描述: It smells like dead rat. Lets you speak like one!
+- **羽饰帽** — `ClothingHeadHatFeatheredHat` ｜父类: ClothingHeadBase ｜_Starlight ｜描述: You own theses streets.
+- **棕色软呢帽** — `ClothingHeadHatFedoraBrown` ｜父类: ClothingHeadBase ｜描述: A brown fedora.
+- **灰色软呢帽** — `ClothingHeadHatFedoraGrey` ｜父类: ClothingHeadBase ｜描述: A grey fedora.
+- **土耳其毡帽** — `ClothingHeadHatFez` ｜父类: ClothingHeadBase ｜描述: A red fez.
+- **化学钓鱼帽** — `ClothingHeadHatFishCapChemist` ｜父类: ClothingHeadBase ｜_Starlight ｜描述: Do mechanical brides fish in chemical spills?
+- **花朵花环** — `ClothingHeadHatFlowerWreath` ｜父类: ClothingHeadBase ｜描述: A wreath of colourful flowers. Can be worn both on head and neck.
+- **角斗士头盔** — `ClothingHeadHatGladiator` ｜父类: ClothingHeadBase ｜描述: Protects the head from harsh ash winds and toy spears.
+- **绿色帽** — `ClothingHeadHatGreensoft` ｜父类: ClothingHeadHeadHatBaseFlippable ｜描述: A green baseball cap.
 - **绿色帽** — `ClothingHeadHatGreensoftFlipped` ｜父类: ClothingHeadHeadHatBaseFlipped,ClothingHeadHatGreensoft
-- **绿色巫师帽** — `ClothingHeadHatGreenwizard` ｜父类: ClothingHeadHatWizard ｜_Starlight
-- **灰色鸭舌帽** — `ClothingHeadHatGreyFlatcap` ｜父类: ClothingHeadBase
-- **灰色帽** — `ClothingHeadHatGreysoft` ｜父类: ClothingHeadHeadHatBaseFlippable
+- **绿色巫师帽** — `ClothingHeadHatGreenwizard` ｜父类: ClothingHeadHatWizard ｜_Starlight ｜描述: A strange-looking green hat that most certainly belongs to a powerful magic-user.
+- **灰色鸭舌帽** — `ClothingHeadHatGreyFlatcap` ｜父类: ClothingHeadBase ｜描述: Fashionable for both the working class and old man Jenkins.
+- **灰色帽** — `ClothingHeadHatGreysoft` ｜父类: ClothingHeadHeadHatBaseFlippable ｜描述: A grey baseball cap.
 - **灰色帽** — `ClothingHeadHatGreysoftFlipped` ｜父类: ClothingHeadHeadHatBaseFlipped,ClothingHeadHatGreysoft
-- `模板` **发间花** — `ClothingHeadHatHairFlowerBase` ｜父类: ClothingHeadBase
+- `模板` **发间花** — `ClothingHeadHatHairFlowerBase` ｜父类: ClothingHeadBase ｜描述: A beautiful hairflower that can be inserted between locks of hair.
 - **虚空黑发饰花** — `ClothingHeadHatHairFlowerBlack` ｜父类: ClothingHeadHatHairFlowerBase ｜_Moffstation
 - **指挥蓝发饰花** — `ClothingHeadHatHairFlowerBlue` ｜父类: ClothingHeadHatHairFlowerBase ｜_Moffstation
 - **货运棕发饰花** — `ClothingHeadHatHairFlowerBrown` ｜父类: ClothingHeadHatHairFlowerBase ｜_Moffstation
@@ -508,38 +508,38 @@
 - **大气青发饰花** — `ClothingHeadHatHairFlowerTeal` ｜父类: ClothingHeadHatHairFlowerBase ｜_Moffstation
 - **纯白发饰花** — `ClothingHeadHatHairFlowerWhite` ｜父类: ClothingHeadHatHairFlowerBase ｜_Moffstation
 - **工程黄发饰花** — `ClothingHeadHatHairFlowerYellow` ｜父类: ClothingHeadHatHairFlowerBase ｜_Moffstation
-- **装甲安全帽** — `ClothingHeadHatHardhatArmored` ｜父类: ClothingHeadHatHardhatBase
+- **装甲安全帽** — `ClothingHeadHatHardhatArmored` ｜父类: ClothingHeadHatHardhatBase ｜描述: An armored hard hat. Provides the best of both worlds in both protection & utility - perfect for the engineer on the frontlines.
 - `模板` **ClothingHeadHatHardhatBase** — `ClothingHeadHatHardhatBase` ｜父类: ClothingHeadBase
-- **蓝色安全帽** — `ClothingHeadHatHardhatBlue` ｜父类: ClothingHeadHatHardhatBase
-- **橙色安全帽** — `ClothingHeadHatHardhatOrange` ｜父类: ClothingHeadHatHardhatBase
-- **红色安全帽** — `ClothingHeadHatHardhatRed` ｜父类: ClothingHeadHatHardhatBase
-- **白色安全帽** — `ClothingHeadHatHardhatWhite` ｜父类: ClothingHeadHatHardhatBase
-- **黄色安全帽** — `ClothingHeadHatHardhatYellow` ｜父类: ClothingHeadHatHardhatBase
-- **深黄色安全帽** — `ClothingHeadHatHardhatYellowDark` ｜父类: ClothingHeadHatHardhatBase
-- **盖特曼帽** — `ClothingHeadHatHetmanHat` ｜父类: ClothingHeadBase
-- **西瓜光环** — `ClothingHeadHatHolyWatermelon` ｜父类: ClothingHeadBase
-- **生化防护兜帽** — `ClothingHeadHatHoodBioCmo` ｜父类: ClothingHeadHatHoodBioGeneral
-- **生化防护兜帽** — `ClothingHeadHatHoodBioGeneral` ｜父类: ClothingHeadBase
-- **生化防护兜帽** — `ClothingHeadHatHoodBioJanitor` ｜父类: ClothingHeadHatHoodBioGeneral
-- **生化防护兜帽** — `ClothingHeadHatHoodBioScientist` ｜父类: ClothingHeadHatHoodBioGeneral
-- **生化防护兜帽** — `ClothingHeadHatHoodBioSecurity` ｜父类: ClothingHeadHatHoodBioGeneral
-- **生化防护兜帽** — `ClothingHeadHatHoodBioVirology` ｜父类: ClothingHeadHatHoodBioGeneral
-- **鲤鱼兜帽** — `ClothingHeadHatHoodCarp` ｜父类: ClothingHeadBase
-- **牧师兜帽 #Starlight, de-pluralifcation** — `ClothingHeadHatHoodChaplainHood` ｜父类: ClothingHeadBase
+- **蓝色安全帽** — `ClothingHeadHatHardhatBlue` ｜父类: ClothingHeadHatHardhatBase ｜描述: A hard hat, painted in blue, used in dangerous working conditions to protect the head. Comes with a built-in flashlight.
+- **橙色安全帽** — `ClothingHeadHatHardhatOrange` ｜父类: ClothingHeadHatHardhatBase ｜描述: A hard hat, painted in orange, used in dangerous working conditions to protect the head. Comes with a built-in flashlight.
+- **红色安全帽** — `ClothingHeadHatHardhatRed` ｜父类: ClothingHeadHatHardhatBase ｜描述: A hard hat, painted in red, used in dangerous working conditions to protect the head. Comes with a built-in flashlight.
+- **白色安全帽** — `ClothingHeadHatHardhatWhite` ｜父类: ClothingHeadHatHardhatBase ｜描述: A hard hat, painted in white, used in dangerous working conditions to protect the head. Comes with a built-in flashlight.
+- **黄色安全帽** — `ClothingHeadHatHardhatYellow` ｜父类: ClothingHeadHatHardhatBase ｜描述: A hard hat, painted in yellow, used in dangerous working conditions to protect the head. Comes with a built-in flashlight.
+- **深黄色安全帽** — `ClothingHeadHatHardhatYellowDark` ｜父类: ClothingHeadHatHardhatBase ｜描述: A hard hat, painted in dark yellow, used in dangerous working conditions to protect the head. Comes with a built-in flashlight.
+- **盖特曼帽** — `ClothingHeadHatHetmanHat` ｜父类: ClothingHeadBase ｜描述: From the Zaporozhian Sich with love.
+- **西瓜光环** — `ClothingHeadHatHolyWatermelon` ｜父类: ClothingHeadBase ｜描述: Holy moly.
+- **生化防护兜帽** — `ClothingHeadHatHoodBioCmo` ｜父类: ClothingHeadHatHoodBioGeneral ｜描述: An advanced hood for chief medical officers that protects the head and face from biological contaminants.
+- **生化防护兜帽** — `ClothingHeadHatHoodBioGeneral` ｜父类: ClothingHeadBase ｜描述: A hood that protects the head and face from biological contaminants.
+- **生化防护兜帽** — `ClothingHeadHatHoodBioJanitor` ｜父类: ClothingHeadHatHoodBioGeneral ｜描述: A hood that protects the head and face from biological contaminants.
+- **生化防护兜帽** — `ClothingHeadHatHoodBioScientist` ｜父类: ClothingHeadHatHoodBioGeneral ｜描述: A hood that protects the head and face from biological contaminants.
+- **生化防护兜帽** — `ClothingHeadHatHoodBioSecurity` ｜父类: ClothingHeadHatHoodBioGeneral ｜描述: A hood that protects the head and face from biological contaminants.
+- **生化防护兜帽** — `ClothingHeadHatHoodBioVirology` ｜父类: ClothingHeadHatHoodBioGeneral ｜描述: A hood that strongly protects the head and face from biological contaminants.
+- **鲤鱼兜帽** — `ClothingHeadHatHoodCarp` ｜父类: ClothingHeadBase ｜描述: A gnarly hood adorned with plastic space carp teeth.
+- **牧师兜帽 #Starlight, de-pluralifcation** — `ClothingHeadHatHoodChaplainHood` ｜父类: ClothingHeadBase ｜描述: Maximum piety in this star system.
 - **卫生员兜帽** — `ClothingHeadHatHoodCorpsman` ｜父类: ClothingHeadHatHoodWinterBase ｜_Starlight
-- **邪教兜帽** — `ClothingHeadHatHoodCulthood` ｜父类: ClothingHeadBase
-- **歌利亚兜帽** — `ClothingHeadHatHoodGoliathCloak` ｜父类: ClothingHeadBase
-- **伊恩兜帽** — `ClothingHeadHatHoodIan` ｜父类: ClothingHeadBase
-- **蛾人面具** — `ClothingHeadHatHoodMoth` ｜父类: ClothingHeadBase
-- **修女兜帽** — `ClothingHeadHatHoodNunHood` ｜父类: ClothingHeadBase
-- **辐射兜帽** — `ClothingHeadHatHoodRad` ｜父类: ClothingHeadBase
-- **虚空斗篷兜帽** — `ClothingHeadHatHoodVoidCloak` ｜父类: ClothingHeadBase
+- **邪教兜帽** — `ClothingHeadHatHoodCulthood` ｜父类: ClothingHeadBase ｜描述: There's no cult without cult hoods.
+- **歌利亚兜帽** — `ClothingHeadHatHoodGoliathCloak` ｜父类: ClothingHeadBase ｜描述: A hood of a goliath cloak, it is made from the hide of resilient fauna from a distant planet.
+- **伊恩兜帽** — `ClothingHeadHatHoodIan` ｜父类: ClothingHeadBase ｜描述: A hood to complete the 'Good boy' look.
+- **蛾人面具** — `ClothingHeadHatHoodMoth` ｜父类: ClothingHeadBase ｜描述: A mask in the form of a moths head is usually made of lightweight materials. It mimics the shape of a moths head with large eyes and long antennae. Such masks are often used in cosplay, or when shooti
+- **修女兜帽** — `ClothingHeadHatHoodNunHood` ｜父类: ClothingHeadBase ｜描述: Maximum piety in this star system.
+- **辐射兜帽** — `ClothingHeadHatHoodRad` ｜父类: ClothingHeadBase ｜描述: A hood of the hazmat suit, designed for protection from high radioactivity.
+- **虚空斗篷兜帽** — `ClothingHeadHatHoodVoidCloak` ｜父类: ClothingHeadBase ｜描述: The hood of a void cloak. For those who have gone to the dark side of the force.
 - **酒保冬季外套兜帽** — `ClothingHeadHatHoodWinterBartender` ｜父类: ClothingHeadHatHoodWinterBase
-- `模板` **基础冬大衣兜帽** — `ClothingHeadHatHoodWinterBase`
-- **舰长冬季外套兜帽** — `ClothingHeadHatHoodWinterCaptain` ｜父类: ClothingHeadHatHoodWinterBase
+- `模板` **基础冬大衣兜帽** — `ClothingHeadHatHoodWinterBase` ｜描述: A hood, made to keep your head warm.
+- **舰长冬季外套兜帽** — `ClothingHeadHatHoodWinterCaptain` ｜父类: ClothingHeadHatHoodWinterBase ｜描述: An expensive hood, to keep the captain's head warm.
 - **货运冬季外套兜帽** — `ClothingHeadHatHoodWinterCargo` ｜父类: ClothingHeadHatHoodWinterBase
 - **工程主管冬季外套兜帽** — `ClothingHeadHatHoodWinterCE` ｜父类: ClothingHeadHatHoodWinterBase
-- **中央指挥部冬季外套兜帽** — `ClothingHeadHatHoodWinterCentcom` ｜父类: ClothingHeadHatHoodWinterBase
+- **中央指挥部冬季外套兜帽** — `ClothingHeadHatHoodWinterCentcom` ｜父类: ClothingHeadHatHoodWinterBase ｜描述: A hood for keeping the central comander's head warm.
 - **药剂师冬季外套兜帽** — `ClothingHeadHatHoodWinterChem` ｜父类: ClothingHeadHatHoodWinterBase
 - **资深化学冬季外套兜帽** — `ClothingHeadHatHoodWinterChemSenior` ｜父类: ClothingHeadHatHoodWinterBase ｜_Starlight
 - **医疗主管的冬季外套兜帽** — `ClothingHeadHatHoodWinterCMO` ｜父类: ClothingHeadHatHoodWinterBase
@@ -574,855 +574,855 @@
 - **辛迪加外套兜帽** — `ClothingHeadHatHoodWinterSyndie` ｜父类: ClothingHeadHatHoodWinterBase
 - **典狱长的外套兜帽** — `ClothingHeadHatHoodWinterWarden` ｜父类: ClothingHeadHatHoodWinterBase
 - **战术外套兜帽** — `ClothingHeadHatHoodWinterWeb` ｜父类: ClothingHeadHatHoodWinterBase
-- **人事主管帽** — `ClothingHeadHatHopcap` ｜父类: ClothingHeadBase,BaseCommandContraband
-- **人事主管正式帽** — `ClothingHeadHatHopCapFormal` ｜父类: ClothingHeadBase,BaseCommandContraband ｜DeltaV
-- **安保主管帽** — `ClothingHeadHatHoshat` ｜父类: ClothingHeadBase,BaseCommandContraband
-- **弄臣帽** — `ClothingHeadHatJester` ｜父类: ClothingHeadBase
+- **人事主管帽** — `ClothingHeadHatHopcap` ｜父类: ClothingHeadBase,BaseCommandContraband ｜描述: A stylish cap worn by the Head of Personnel. Shows paperwork who's in charge.
+- **人事主管正式帽** — `ClothingHeadHatHopCapFormal` ｜父类: ClothingHeadBase,BaseCommandContraband ｜DeltaV ｜描述: An ever so slightly bluer cap to complement the dashing outfit of the modern HoP.
+- **安保主管帽** — `ClothingHeadHatHoshat` ｜父类: ClothingHeadBase,BaseCommandContraband ｜描述: The robust hat of the Head of Security. For showing the officers who's the real boss.
+- **弄臣帽** — `ClothingHeadHatJester` ｜父类: ClothingHeadBase ｜描述: A hat with bells, to add some merriness to your head.
 - **弄臣帽** — `ClothingHeadHatJesterAlt` ｜父类: ClothingHeadHatJester
-- **魔术师高顶礼帽** — `ClothingHeadHatMagician` ｜父类: ClothingHeadBase
-- **邮政护目镜** — `ClothingHeadHatMailsoftVisor` ｜父类: ClothingHeadHeadHatBaseFlippable ｜_Starlight
+- **魔术师高顶礼帽** — `ClothingHeadHatMagician` ｜父类: ClothingHeadBase ｜描述: A magician's top hat.
+- **邮政护目镜** — `ClothingHeadHatMailsoftVisor` ｜父类: ClothingHeadHeadHatBaseFlippable ｜_Starlight ｜描述: A lightweight sun visor for every aspiring mail technician.
 - **邮政护目镜** — `ClothingHeadHatMailsoftVisorFlipped` ｜父类: ClothingHeadHeadHatBaseFlipped,ClothingHeadHatMailsoftVisor ｜_Starlight
-- **资深邮政护目镜** — `ClothingHeadHatMailsoftVisorSenior` ｜父类: ClothingHeadHeadHatBaseFlippable ｜_Starlight
+- **资深邮政护目镜** — `ClothingHeadHatMailsoftVisorSenior` ｜父类: ClothingHeadHeadHatBaseFlippable ｜_Starlight ｜描述: A lightweight sun visor for the most devoted of mail technicians.
 - **资深邮政护目镜** — `ClothingHeadHatMailsoftVisorSeniorFlipped` ｜父类: ClothingHeadHeadHatBaseFlipped,ClothingHeadHatMailsoftVisorSenior ｜_Starlight
-- **白色帽** — `ClothingHeadHatMimesoft` ｜父类: ClothingHeadHeadHatBaseFlippable
+- **白色帽** — `ClothingHeadHatMimesoft` ｜父类: ClothingHeadHeadHatBaseFlippable ｜描述: A white baseball cap.
 - **白色帽** — `ClothingHeadHatMimesoftFlipped` ｜父类: ClothingHeadHeadHatBaseFlipped,ClothingHeadHatMimesoft
-- **NT代表精英礼帽** — `ClothingHeadHatNTREliteTophat` ｜父类: ClothingHeadBase ｜_Starlight
-- **NT代表礼帽** — `ClothingHeadHatNTRTophat` ｜父类: ClothingHeadBase ｜_Starlight
-- **橙色帽** — `ClothingHeadHatOrangesoft` ｜父类: ClothingHeadHeadHatBaseFlippable
+- **NT代表精英礼帽** — `ClothingHeadHatNTREliteTophat` ｜父类: ClothingHeadBase ｜_Starlight ｜描述: An expensive looking black tophat. the gold embossing on the front shows the NanoTrasen logo, fitting for an NT rep.
+- **NT代表礼帽** — `ClothingHeadHatNTRTophat` ｜父类: ClothingHeadBase ｜_Starlight ｜描述: A fancy black tophat, handmade for the NanoTrasen Rep. It looks expensive.
+- **橙色帽** — `ClothingHeadHatOrangesoft` ｜父类: ClothingHeadHeadHatBaseFlippable ｜描述: An orange baseball cap.
 - **橙色帽** — `ClothingHeadHatOrangesoftFlipped` ｜父类: ClothingHeadHeadHatBaseFlipped,ClothingHeadHatOrangesoft
-- **橙色巫师帽** — `ClothingHeadHatOrangewizard` ｜父类: ClothingHeadHatWizard ｜_Starlight
-- **法外狂徒帽** — `ClothingHeadHatOutlawHat` ｜父类: ClothingHeadBase
-- **纸帽** — `ClothingHeadHatPaper` ｜父类: ClothingHeadBase
-- **急救员帽** — `ClothingHeadHatParamedicsoft` ｜父类: ClothingHeadHeadHatBaseFlippable
+- **橙色巫师帽** — `ClothingHeadHatOrangewizard` ｜父类: ClothingHeadHatWizard ｜_Starlight ｜描述: A strange-looking orange hat that most certainly belongs to a powerful magic-user.
+- **法外狂徒帽** — `ClothingHeadHatOutlawHat` ｜父类: ClothingHeadBase ｜描述: A hat that makes you look like you carry a notched pistol, numbered one and nineteen more.
+- **纸帽** — `ClothingHeadHatPaper` ｜父类: ClothingHeadBase ｜描述: A hat made of paper.
+- **急救员帽** — `ClothingHeadHatParamedicsoft` ｜父类: ClothingHeadHeadHatBaseFlippable ｜描述: A blue baseball cap with a cross on the front.
 - **急救员帽** — `ClothingHeadHatParamedicsoftFlipped` ｜父类: ClothingHeadHeadHatBaseFlipped,ClothingHeadHatParamedicsoft
 - **蓝色派对帽** — `ClothingHeadHatPartyBlue` ｜父类: ClothingHeadHatPartyRed
 - **绿色派对帽** — `ClothingHeadHatPartyGreen` ｜父类: ClothingHeadHatPartyRed
-- **红色派对帽** — `ClothingHeadHatPartyRed` ｜父类: ClothingHeadBase
-- **水杯派对帽** — `ClothingHeadHatPartyWaterCup` ｜父类: ClothingHeadHatPartyRed
+- **红色派对帽** — `ClothingHeadHatPartyRed` ｜父类: ClothingHeadBase ｜描述: Spread a joy!
+- **水杯派对帽** — `ClothingHeadHatPartyWaterCup` ｜父类: ClothingHeadHatPartyRed ｜描述: Not as fulfilling as you had hoped...
 - **黄色派对帽** — `ClothingHeadHatPartyYellow` ｜父类: ClothingHeadHatPartyRed
-- **桃色巫师帽** — `ClothingHeadHatPeachwizard` ｜父类: ClothingHeadHatWizardBase ｜_Starlight
-- **海盗帽** — `ClothingHeadHatPirate` ｜父类: ClothingHeadBase
-- **海盗帽** — `ClothingHeadHatPirateTricord` ｜父类: ClothingHeadBase
-- **瘟疫医生帽** — `ClothingHeadHatPlaguedoctor` ｜父类: ClothingHeadBase
-- **南瓜帽** — `ClothingHeadHatPumpkin` ｜父类: ClothingHeadLightBase,ClothingHeadLightParamsBasic
-- **紫色帽** — `ClothingHeadHatPurplesoft` ｜父类: ClothingHeadHeadHatBaseFlippable
+- **桃色巫师帽** — `ClothingHeadHatPeachwizard` ｜父类: ClothingHeadHatWizardBase ｜_Starlight ｜描述: A strange-looking peach hat that most certainly belongs to a powerful magic-user.
+- **海盗帽** — `ClothingHeadHatPirate` ｜父类: ClothingHeadBase ｜描述: "Yo ho ho and a bottle of rum!"
+- **海盗帽** — `ClothingHeadHatPirateTricord` ｜父类: ClothingHeadBase ｜描述: "Yo ho ho and a bottle of rum!"
+- **瘟疫医生帽** — `ClothingHeadHatPlaguedoctor` ｜父类: ClothingHeadBase ｜描述: These were once used by plague doctors.
+- **南瓜帽** — `ClothingHeadHatPumpkin` ｜父类: ClothingHeadLightBase,ClothingHeadLightParamsBasic ｜描述: A jack o' lantern! Believed to ward off evil spirits.
+- **紫色帽** — `ClothingHeadHatPurplesoft` ｜父类: ClothingHeadHeadHatBaseFlippable ｜描述: A purple baseball cap.
 - **紫色帽** — `ClothingHeadHatPurplesoftFlipped` ｜父类: ClothingHeadHeadHatBaseFlipped,ClothingHeadHatPurplesoft
-- **紫色巫师帽** — `ClothingHeadHatPurplewizard` ｜父类: ClothingHeadHatWizard ｜_Starlight
-- **贵族假发** — `ClothingHeadHatPwig` ｜父类: ClothingHeadBase
-- **军需官的帽** — `ClothingHeadHatQMsoft` ｜父类: ClothingHeadHeadHatBaseFlippable
+- **紫色巫师帽** — `ClothingHeadHatPurplewizard` ｜父类: ClothingHeadHatWizard ｜_Starlight ｜描述: A strange-looking purple hat that most certainly belongs to a powerful magic-user.
+- **贵族假发** — `ClothingHeadHatPwig` ｜父类: ClothingHeadBase ｜描述: To be honest, those look ridiculous.
+- **军需官的帽** — `ClothingHeadHatQMsoft` ｜父类: ClothingHeadHeadHatBaseFlippable ｜描述: A baseball cap colored to match the Quartermaster's uniform.
 - **军需官的帽** — `ClothingHeadHatQMsoftFlipped` ｜父类: ClothingHeadHeadHatBaseFlipped,ClothingHeadHatQMsoft
-- **红色浣熊帽** — `ClothingHeadHatRedRacoon` ｜父类: ClothingHeadBase
-- **红色帽** — `ClothingHeadHatRedsoft` ｜父类: ClothingHeadHeadHatBaseFlippable
+- **红色浣熊帽** — `ClothingHeadHatRedRacoon` ｜父类: ClothingHeadBase ｜描述: Fluffy hat of red racoon!
+- **红色帽** — `ClothingHeadHatRedsoft` ｜父类: ClothingHeadHeadHatBaseFlippable ｜描述: A red baseball cap.
 - **红色帽** — `ClothingHeadHatRedsoftFlipped` ｜父类: ClothingHeadHeadHatBaseFlipped,ClothingHeadHatRedsoft
-- **红色巫师帽** — `ClothingHeadHatRedwizard` ｜父类: ClothingHeadHatWizardBase
-- **TSF干员帽** — `ClothingHeadHatRetroOfficer` ｜父类: ClothingHeadBase,BaseTSFContraband ｜_Starlight
-- **理查德** — `ClothingHeadHatRichard` ｜父类: ClothingHeadBase
-- **圣诞老人帽** — `ClothingHeadHatSantahat` ｜父类: ClothingHeadBase,BaseFoldable
-- **安保帽** — `ClothingHeadHatSecsoft` ｜父类: ClothingHeadHeadHatBaseFlippable
+- **红色巫师帽** — `ClothingHeadHatRedwizard` ｜父类: ClothingHeadHatWizardBase ｜描述: A strange-looking red hat that most certainly belongs to a powerful magic-user.
+- **TSF干员帽** — `ClothingHeadHatRetroOfficer` ｜父类: ClothingHeadBase,BaseTSFContraband ｜_Starlight ｜描述: A peaked cap from the Trans Solar Federation's law enforcement division. This peacekeeping headgear symbolizes TSF authority across known space.
+- **理查德** — `ClothingHeadHatRichard` ｜父类: ClothingHeadBase ｜描述: Do you like hurting people?
+- **圣诞老人帽** — `ClothingHeadHatSantahat` ｜父类: ClothingHeadBase,BaseFoldable ｜描述: A festive hat worn by Santa Claus. Now with a foldable beard.
+- **安保帽** — `ClothingHeadHatSecsoft` ｜父类: ClothingHeadHeadHatBaseFlippable ｜描述: A baseball cap colored to match security's uniforms.
 - **安保帽** — `ClothingHeadHatSecsoftFlipped` ｜父类: ClothingHeadHeadHatBaseFlipped,ClothingHeadHatSecsoft
-- **骑警帽** — `ClothingHeadHatSecurityTrooper` ｜父类: ClothingHeadBase
-- **安保主管警长帽** — `ClothingHeadHatSheriffHat` ｜父类: ClothingHeadBase,BaseCommandContraband ｜_Starlight
-- **巫女的假发** — `ClothingHeadHatShrineMaidenWig` ｜父类: ClothingHeadBase
-- **Skub帽** — `ClothingHeadHatSkub` ｜父类: ClothingHeadBase
-- **实色头带** — `ClothingHeadHatSolidHeadband` ｜父类: ClothingHeadBase
-- **宽边帽** — `ClothingHeadHatSombrero` ｜父类: ClothingHeadBase
-- **苏维埃海军上将帽** — `ClothingHeadHatSovietAdmiralHat` ｜父类: ClothingHeadBase,BaseSovietContraband ｜_Starlight
-- **小鱿鱿帽** — `ClothingHeadHatSquid` ｜父类: ClothingHeadBase
-- **草编帽** — `ClothingHeadHatStrawHat` ｜父类: ClothingHeadBase
-- **宽檐草编帽** — `ClothingHeadHatStrawHatWide` ｜父类: ClothingHeadBase ｜_Starlight
-- **黑色手术帽** — `ClothingHeadHatSurgcapBlack` ｜父类: ClothingHeadBase ｜DeltaV
-- **蓝色手术帽** — `ClothingHeadHatSurgcapBlue` ｜父类: ClothingHeadBase
-- **青色手术帽** — `ClothingHeadHatSurgcapCyan` ｜父类: ClothingHeadBase ｜DeltaV
-- **赛博之日手术帽** — `ClothingHeadHatSurgcapCybersun` ｜父类: ClothingHeadBase ｜DeltaV
-- **绿色手术帽** — `ClothingHeadHatSurgcapGreen` ｜父类: ClothingHeadBase
-- **粉色手术帽** — `ClothingHeadHatSurgcapPink` ｜父类: ClothingHeadBase ｜DeltaV
-- **紫色手术帽** — `ClothingHeadHatSurgcapPurple` ｜父类: ClothingHeadBase
-- **彩虹手术帽** — `ClothingHeadHatSurgcapRainbow` ｜父类: ClothingHeadBase ｜DeltaV
-- **白色手术帽** — `ClothingHeadHatSurgcapWhite` ｜父类: ClothingHeadBase ｜DeltaV
-- **辛迪加帽** — `ClothingHeadHatSyndie` ｜父类: ClothingHeadBase,BaseMinorContraband
-- **军械长帽** — `ClothingHeadHatSyndieMAA` ｜父类: ClothingHeadBase
-- **战术女仆头带** — `ClothingHeadHatTacticalMaidHeadband` ｜父类: ClothingHeadBase
-- **额头激光器** — `ClothingHeadHatTechnologyFive` ｜父类: ClothingHeadBase ｜_Starlight
-- **高顶礼帽** — `ClothingHeadHatTophat` ｜父类: ClothingHeadBase
-- **大号礼帽** — `ClothingHeadHatTophatBig` ｜父类: ClothingHeadBase ｜_Starlight
-- **大号礼帽** — `ClothingHeadHatTophatBigWhite` ｜父类: ClothingHeadHatTophatBig ｜_Starlight
-- **发条礼帽** — `ClothingHeadHatTophatBrass` ｜父类: ClothingHeadHatTophat ｜_Starlight
-- **卡车司机帽** — `ClothingHeadHatTrucker` ｜父类: ClothingHeadBase
-- **化学卡车司机帽** — `ClothingHeadHatTruckerChemist` ｜父类: ClothingHeadBase ｜_Starlight
-- **电视头套** — `ClothingHeadHatTVHead` ｜父类: ClothingHeadBase ｜_Starlight
-- **俄式毛帽** — `ClothingHeadHatUshanka` ｜父类: ClothingHeadBase,BaseFoldable
-- **SNKVD乌沙卡帽** — `ClothingHeadHatUshankaAlt` ｜父类: ClothingHeadBase,BaseSovietContraband ｜_Starlight
-- **紫罗兰色巫师帽** — `ClothingHeadHatVioletwizard` ｜父类: ClothingHeadHatWizardBase
-- **典狱长帽** — `ClothingHeadHatWarden` ｜父类: ClothingHeadBase
-- **西瓜头盔** — `ClothingHeadHatWatermelon` ｜父类: ClothingHeadBase
-- **焊接面罩** — `ClothingHeadHatWelding` ｜父类: ClothingHeadBase,BaseToggleClothing
-- **火焰焊接面罩** — `ClothingHeadHatWeldingMaskFlame` ｜父类: ClothingHeadHatWelding
-- **蓝色-火焰焊接面罩** — `ClothingHeadHatWeldingMaskFlameBlue` ｜父类: ClothingHeadHatWelding
-- **彩绘焊接面罩** — `ClothingHeadHatWeldingMaskPainted` ｜父类: ClothingHeadHatWelding
-- **白色猫耳** — `ClothingHeadHatWhiteCatEars` ｜父类: ClothingHeadBase ｜_Starlight
+- **骑警帽** — `ClothingHeadHatSecurityTrooper` ｜父类: ClothingHeadBase ｜描述: A campaign hat for the NanoTrasen Troopers. It's supposed to come with a case, too...
+- **安保主管警长帽** — `ClothingHeadHatSheriffHat` ｜父类: ClothingHeadBase,BaseCommandContraband ｜_Starlight ｜描述: It's high noon.
+- **巫女的假发** — `ClothingHeadHatShrineMaidenWig` ｜父类: ClothingHeadBase ｜描述: The tag reads "All proceeds go to the Hakurei Shrine."
+- **Skub帽** — `ClothingHeadHatSkub` ｜父类: ClothingHeadBase ｜描述: Best paired with the Skub Suit.
+- **实色头带** — `ClothingHeadHatSolidHeadband` ｜父类: ClothingHeadBase ｜描述: "You'll feel like you're Invisible while wearing this! (DISCLAIMER: DOES NOT ACTUALLY MAKE THE WEARER INVISIBLE)"
+- **宽边帽** — `ClothingHeadHatSombrero` ｜父类: ClothingHeadBase ｜描述: "Perfect for Space Mexico, si?"
+- **苏维埃海军上将帽** — `ClothingHeadHatSovietAdmiralHat` ｜父类: ClothingHeadBase,BaseSovietContraband ｜_Starlight ｜描述: This hat clearly belongs to someone very important.
+- **小鱿鱿帽** — `ClothingHeadHatSquid` ｜父类: ClothingHeadBase ｜描述: Scare your friends with this eldritch mask.
+- **草编帽** — `ClothingHeadHatStrawHat` ｜父类: ClothingHeadBase ｜描述: A fancy hat for hot days! Not recommended to wear near fires.
+- **宽檐草编帽** — `ClothingHeadHatStrawHatWide` ｜父类: ClothingHeadBase ｜_Starlight ｜描述: Makes you look mysterious.
+- **黑色手术帽** — `ClothingHeadHatSurgcapBlack` ｜父类: ClothingHeadBase ｜DeltaV ｜描述: A black cap surgeons wear during operations. Keeps their hair from tickling your internal organs.
+- **蓝色手术帽** — `ClothingHeadHatSurgcapBlue` ｜父类: ClothingHeadBase ｜描述: A blue cap surgeons wear during operations. Keeps their hair from tickling your internal organs.
+- **青色手术帽** — `ClothingHeadHatSurgcapCyan` ｜父类: ClothingHeadBase ｜DeltaV ｜描述: A cyan cap surgeons wear during operations. Keeps their hair from tickling your internal organs.
+- **赛博之日手术帽** — `ClothingHeadHatSurgcapCybersun` ｜父类: ClothingHeadBase ｜DeltaV ｜描述: A cybersun themed cap surgeons wear during operations. Keeps their hair from tickling your internal organs.
+- **绿色手术帽** — `ClothingHeadHatSurgcapGreen` ｜父类: ClothingHeadBase ｜描述: A green cap surgeons wear during operations. Keeps their hair from tickling your internal organs.
+- **粉色手术帽** — `ClothingHeadHatSurgcapPink` ｜父类: ClothingHeadBase ｜DeltaV ｜描述: A pink cap surgeons wear during operations. Keeps their hair from tickling your internal organs.
+- **紫色手术帽** — `ClothingHeadHatSurgcapPurple` ｜父类: ClothingHeadBase ｜描述: A purple cap surgeons wear during operations. Keeps their hair from tickling your internal organs.
+- **彩虹手术帽** — `ClothingHeadHatSurgcapRainbow` ｜父类: ClothingHeadBase ｜DeltaV ｜描述: A rainbow cap surgeons wear during operations. Keeps their hair from tickling your internal organs.
+- **白色手术帽** — `ClothingHeadHatSurgcapWhite` ｜父类: ClothingHeadBase ｜DeltaV ｜描述: A white cap surgeons wear during operations. Keeps their hair from tickling your internal organs.
+- **辛迪加帽** — `ClothingHeadHatSyndie` ｜父类: ClothingHeadBase,BaseMinorContraband ｜描述: A souvenir hat from "Syndieland", their production has already been closed.
+- **军械长帽** — `ClothingHeadHatSyndieMAA` ｜父类: ClothingHeadBase ｜描述: Master at arms hat, looks intimidating, I doubt that you will like to communicate with its owner...
+- **战术女仆头带** — `ClothingHeadHatTacticalMaidHeadband` ｜父类: ClothingHeadBase ｜描述: A red headband - don't imagine yourself a Rambo and don't pick up a few machine guns.
+- **额头激光器** — `ClothingHeadHatTechnologyFive` ｜父类: ClothingHeadBase ｜_Starlight ｜描述: A pointer for the lazy.
+- **高顶礼帽** — `ClothingHeadHatTophat` ｜父类: ClothingHeadBase ｜描述: A stylish black tophat.
+- **大号礼帽** — `ClothingHeadHatTophatBig` ｜父类: ClothingHeadBase ｜_Starlight ｜描述: This hat clearly belongs to someone very, very important.
+- **大号礼帽** — `ClothingHeadHatTophatBigWhite` ｜父类: ClothingHeadHatTophatBig ｜_Starlight ｜描述: This hat clearly belongs to someone very, very important.
+- **发条礼帽** — `ClothingHeadHatTophatBrass` ｜父类: ClothingHeadHatTophat ｜_Starlight ｜描述: This hat draws attention with it's whirly gizmos!
+- **卡车司机帽** — `ClothingHeadHatTrucker` ｜父类: ClothingHeadBase ｜描述: Formerly Chuck's, this hat is yours now.
+- **化学卡车司机帽** — `ClothingHeadHatTruckerChemist` ｜父类: ClothingHeadBase ｜_Starlight ｜描述: My chemical chariot cannot be stopped!
+- **电视头套** — `ClothingHeadHatTVHead` ｜父类: ClothingHeadBase ｜_Starlight ｜描述: The label says it will make you look like a true Tumblr sexyman. What does that even mean?
+- **俄式毛帽** — `ClothingHeadHatUshanka` ｜父类: ClothingHeadBase,BaseFoldable ｜描述: "Perfect for winter in Siberia, da?"
+- **SNKVD乌沙卡帽** — `ClothingHeadHatUshankaAlt` ｜父类: ClothingHeadBase,BaseSovietContraband ｜_Starlight ｜描述: Disappearances are entirely voluntary, tovarisch.
+- **紫罗兰色巫师帽** — `ClothingHeadHatVioletwizard` ｜父类: ClothingHeadHatWizardBase ｜描述: A strange-looking violet hat that most certainly belongs to a powerful magic-user.
+- **典狱长帽** — `ClothingHeadHatWarden` ｜父类: ClothingHeadBase ｜描述: This hat emphasizes that you are THE LAW.
+- **西瓜头盔** — `ClothingHeadHatWatermelon` ｜父类: ClothingHeadBase ｜描述: A carelessly cut half of a watermelon, gutted from the inside, to be worn as a helmet. It can soften the blow to the head.
+- **焊接面罩** — `ClothingHeadHatWelding` ｜父类: ClothingHeadBase,BaseToggleClothing ｜描述: A head-mounted face cover designed to protect the wearer completely from space-arc eye.
+- **火焰焊接面罩** — `ClothingHeadHatWeldingMaskFlame` ｜父类: ClothingHeadHatWelding ｜描述: A painted welding helmet, this one has flames on it.
+- **蓝色-火焰焊接面罩** — `ClothingHeadHatWeldingMaskFlameBlue` ｜父类: ClothingHeadHatWelding ｜描述: A painted welding helmet, this one has blue flames on it.
+- **彩绘焊接面罩** — `ClothingHeadHatWeldingMaskPainted` ｜父类: ClothingHeadHatWelding ｜描述: A welding helmet, painted in crimson.
+- **白色猫耳** — `ClothingHeadHatWhiteCatEars` ｜父类: ClothingHeadBase ｜_Starlight ｜描述: NYAH!
 - **白色猫耳** — `ClothingHeadHatWhiteCatEarsValid` ｜父类: ClothingHeadHatWhiteCatEars,BaseToggleClothing ｜_Starlight
-- **女巫帽** — `ClothingHeadHatWitch` ｜父类: ClothingHeadBase
-- **女巫帽** — `ClothingHeadHatWitch1` ｜父类: ClothingHeadBase
-- **女巫风帽** — `ClothingHeadHatWitchyHat` ｜父类: ClothingHeadHatWizard ｜_Starlight
-- **蓝色巫师帽 # Starlight name consistency** — `ClothingHeadHatWizard` ｜父类: ClothingHeadHatWizardBase
+- **女巫帽** — `ClothingHeadHatWitch` ｜父类: ClothingHeadBase ｜描述: A witch hat.
+- **女巫帽** — `ClothingHeadHatWitch1` ｜父类: ClothingHeadBase ｜描述: A witch hat.
+- **女巫风帽** — `ClothingHeadHatWitchyHat` ｜父类: ClothingHeadHatWizard ｜_Starlight ｜描述: Wicky-wicky-witchy hat!
+- **蓝色巫师帽 # Starlight name consistency** — `ClothingHeadHatWizard` ｜父类: ClothingHeadHatWizardBase ｜描述: A strange-looking blue hat that most certainly belongs to a powerful magic-user.
 - `模板` **ClothingHeadHatWizardBase** — `ClothingHeadHatWizardBase` ｜父类: ClothingHeadBase,BaseMagicalContraband
-- **仿制巫师帽** — `ClothingHeadHatWizardFake` ｜父类: ClothingHeadBase
-- **蓝色墨西哥摔角面具** — `ClothingHeadHatWrestlingMaskLuchaBlue` ｜父类: ClothingHeadBase ｜DeltaV
-- **红色墨西哥摔角面具** — `ClothingHeadHatWrestlingMaskLuchaRed` ｜父类: ClothingHeadBase ｜DeltaV
-- **圣诞王冠** — `ClothingHeadHatXmasCrown` ｜父类: ClothingHeadBase
-- **黄色帽** — `ClothingHeadHatYellowsoft` ｜父类: ClothingHeadHeadHatBaseFlippable
+- **仿制巫师帽** — `ClothingHeadHatWizardFake` ｜父类: ClothingHeadBase ｜描述: It has "WIZZARD" written across it in garish sequins. Comes with a cool beard.
+- **蓝色墨西哥摔角面具** — `ClothingHeadHatWrestlingMaskLuchaBlue` ｜父类: ClothingHeadBase ｜DeltaV ｜描述: Don't touch the mask
+- **红色墨西哥摔角面具** — `ClothingHeadHatWrestlingMaskLuchaRed` ｜父类: ClothingHeadBase ｜DeltaV ｜描述: The luchador never removes his mask
+- **圣诞王冠** — `ClothingHeadHatXmasCrown` ｜父类: ClothingHeadBase ｜描述: "Happy Christmas!"
+- **黄色帽** — `ClothingHeadHatYellowsoft` ｜父类: ClothingHeadHeadHatBaseFlippable ｜描述: A yellow baseball cap.
 - **黄色帽** — `ClothingHeadHatYellowsoftFlipped` ｜父类: ClothingHeadHeadHatBaseFlipped,ClothingHeadHatYellowsoft
-- **黄色巫师帽** — `ClothingHeadHatYellowwizard` ｜父类: ClothingHeadHatRedwizard ｜_Starlight
+- **黄色巫师帽** — `ClothingHeadHatYellowwizard` ｜父类: ClothingHeadHatRedwizard ｜_Starlight ｜描述: A strange-looking yellow hat that most certainly belongs to a powerful magic-user.
 - `模板` **ClothingHeadHeadHatBaseFlippable** — `ClothingHeadHeadHatBaseFlippable` ｜父类: ClothingHeadBaseButcherable,BaseFoldable
 - `模板` **ClothingHeadHeadHatBaseFlipped** — `ClothingHeadHeadHatBaseFlipped` ｜父类: ClothingHeadHeadHatBaseFlippable
 - **头盔** — `ClothingHeadHelmetAbductor` ｜父类: ClothingHeadHelmetBase,BaseMajorContraband ｜_Starlight
-- **NTSRA虚空头盔** — `ClothingHeadHelmetAncient` ｜父类: ClothingHeadEVAHelmetBase
+- **NTSRA虚空头盔** — `ClothingHeadHelmetAncient` ｜父类: ClothingHeadEVAHelmetBase ｜描述: An ancient space helmet, designed by the NTSRA branch of CentComm.
 - `模板` **ClothingHeadHelmetArmoredBase** — `ClothingHeadHelmetArmoredBase` ｜父类: ClothingHeadHelmetBase
-- **大气消防头盔** — `ClothingHeadHelmetAtmosFire` ｜父类: ClothingHeadLightBase,ClothingHeadLightParamsIntermediate,BaseEngineeringContraband
+- **大气消防头盔** — `ClothingHeadHelmetAtmosFire` ｜父类: ClothingHeadLightBase,ClothingHeadLightParamsIntermediate,BaseEngineeringContraband ｜描述: An atmos fire helmet, able to keep the user cool in any situation.
 - `模板` **ClothingHeadHelmetBase** — `ClothingHeadHelmetBase` ｜父类: ClothingHeadBase
-- **头盔** — `ClothingHeadHelmetBasic` ｜父类: ClothingHeadLightBase,ClothingHeadHelmetArmoredBase,BaseSecurityContraband,ClothingHeadLightParamsIntermediate
-- **小丑战斗服头盔** — `ClothingHeadHelmetBattlesuitClown` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsIntermediate ｜_Starlight
-- **防爆服头盔** — `ClothingHeadHelmetBombSuit` ｜父类: ClothingHeadBase
-- **骨制头盔** — `ClothingHeadHelmetBone` ｜父类: ClothingHeadHelmetArmoredBase,BaseMinorContraband
-- **防弹头盔** — `ClothingHeadHelmetBulletProof` ｜父类: ClothingHeadBase,BaseSecurityContraband,BaseToggleClothing ｜_Starlight
-- **生化快速响应队外骨骼服头盔** — `ClothingHeadHelmetCBURN` ｜父类: BaseCentcommContraband,ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsAdvanced
-- **宇航员头盔** — `ClothingHeadHelmetCosmonaut` ｜父类: ClothingHeadEVAHelmetBase
-- **邪教头盔** — `ClothingHeadHelmetCult` ｜父类: ClothingHeadHelmetBase,BaseMajorContraband
-- **头盔** — `ClothingHeadHelmetDredd` ｜父类: ClothingHeadHelmetBase,BaseSecurityContraband ｜_Starlight
-- **应急响应队工程师头盔** — `ClothingHeadHelmetERTEngineer` ｜父类: ClothingHeadHelmetERTLeader
-- **应急响应队清洁工头盔** — `ClothingHeadHelmetERTJanitor` ｜父类: ClothingHeadHelmetERTLeader
-- **应急响应队队长头盔** — `ClothingHeadHelmetERTLeader` ｜父类: BaseCentcommContraband,ClothingHeadHelmetArmoredBase
-- **应急响应队医疗员头盔** — `ClothingHeadHelmetERTMedic` ｜父类: ClothingHeadHelmetERTLeader
-- **应急响应队安保头盔** — `ClothingHeadHelmetERTSecurity` ｜父类: ClothingHeadHelmetERTLeader
-- **EVA头盔** — `ClothingHeadHelmetEVA` ｜父类: ClothingHeadEVAHelmetBase
-- **EVA头盔** — `ClothingHeadHelmetEVALarge` ｜父类: ClothingHeadEVAHelmetBase
-- **消防头盔** — `ClothingHeadHelmetFire` ｜父类: ClothingHeadLightBase,ClothingHeadLightParamsBasic
-- **锻造头盔** — `ClothingHeadHelmetForged` ｜父类: ClothingHeadHelmetBase,BaseMinorContraband ｜_Starlight
-- **绿盾头盔** — `ClothingHeadHelmetGreenshield` ｜父类: BaseCentcommContraband,ClothingHeadHelmetRaid ｜_Starlight
-- **高级采矿硬壳服头盔** — `ClothingHeadHelmetHardsuitAdvancedMining` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsFloodlight ｜_Starlight
-- **大气硬装宇航服头盔** — `ClothingHeadHelmetHardsuitAtmos` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsIntermediate
-- **金色大气硬壳服头盔** — `ClothingHeadHelmetHardsuitAtmosGolden` ｜父类: ClothingHeadHelmetHardsuitAtmos ｜_Starlight
+- **头盔** — `ClothingHeadHelmetBasic` ｜父类: ClothingHeadLightBase,ClothingHeadHelmetArmoredBase,BaseSecurityContraband,ClothingHeadLightParamsIntermediate ｜描述: Standard security gear. Protects the head from impacts.
+- **小丑战斗服头盔** — `ClothingHeadHelmetBattlesuitClown` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsIntermediate ｜_Starlight ｜描述: Armored battlesuit helmet for silly needs.
+- **防爆服头盔** — `ClothingHeadHelmetBombSuit` ｜父类: ClothingHeadBase ｜描述: A heavy helmet designed to withstand the pressure generated by a bomb and any fragments the bomb may produce.
+- **骨制头盔** — `ClothingHeadHelmetBone` ｜父类: ClothingHeadHelmetArmoredBase,BaseMinorContraband ｜描述: Cool-looking helmet made of skull of your enemies.
+- **防弹头盔** — `ClothingHeadHelmetBulletProof` ｜父类: ClothingHeadBase,BaseSecurityContraband,BaseToggleClothing ｜_Starlight ｜描述: Protects the face against bullets, can flip up and down.
+- **生化快速响应队外骨骼服头盔** — `ClothingHeadHelmetCBURN` ｜父类: BaseCentcommContraband,ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsAdvanced ｜描述: A pressure resistant and fireproof hood worn by special cleanup units.
+- **宇航员头盔** — `ClothingHeadHelmetCosmonaut` ｜父类: ClothingHeadEVAHelmetBase ｜描述: Ancient design, but advanced manufacturing.
+- **邪教头盔** — `ClothingHeadHelmetCult` ｜父类: ClothingHeadHelmetBase,BaseMajorContraband ｜描述: A robust, evil-looking cult helmet.
+- **头盔** — `ClothingHeadHelmetDredd` ｜父类: ClothingHeadHelmetBase,BaseSecurityContraband ｜_Starlight ｜描述: I AM THE LAW!
+- **应急响应队工程师头盔** — `ClothingHeadHelmetERTEngineer` ｜父类: ClothingHeadHelmetERTLeader ｜描述: An in-atmosphere helmet worn by engineering members of the NanoTrasen Emergency Response Team. Has orange highlights.
+- **应急响应队清洁工头盔** — `ClothingHeadHelmetERTJanitor` ｜父类: ClothingHeadHelmetERTLeader ｜描述: An in-atmosphere helmet worn by janitorial members of the NanoTrasen Emergency Response Team. Has dark purple highlights.
+- **应急响应队队长头盔** — `ClothingHeadHelmetERTLeader` ｜父类: BaseCentcommContraband,ClothingHeadHelmetArmoredBase ｜描述: An in-atmosphere helmet worn by the leader of a NanoTrasen Emergency Response Team. Has blue highlights.
+- **应急响应队医疗员头盔** — `ClothingHeadHelmetERTMedic` ｜父类: ClothingHeadHelmetERTLeader ｜描述: An in-atmosphere helmet worn by medical members of the NanoTrasen Emergency Response Team. Has white highlights.
+- **应急响应队安保头盔** — `ClothingHeadHelmetERTSecurity` ｜父类: ClothingHeadHelmetERTLeader ｜描述: An in-atmosphere helmet worn by security members of the NanoTrasen Emergency Response Team. Has red highlights.
+- **EVA头盔** — `ClothingHeadHelmetEVA` ｜父类: ClothingHeadEVAHelmetBase ｜描述: An old-but-gold helmet designed for extravehicular activites. Infamous for making security officers paranoid.
+- **EVA头盔** — `ClothingHeadHelmetEVALarge` ｜父类: ClothingHeadEVAHelmetBase ｜描述: An old-but-gold helmet designed for extravehicular activites.
+- **消防头盔** — `ClothingHeadHelmetFire` ｜父类: ClothingHeadLightBase,ClothingHeadLightParamsBasic ｜描述: An atmos tech's best friend. Provides some heat resistance and looks cool.
+- **锻造头盔** — `ClothingHeadHelmetForged` ｜父类: ClothingHeadHelmetBase,BaseMinorContraband ｜_Starlight ｜描述: A high-quality helmet made by some of the best Tidersmiths, it is finally worthwhile to have it on your head.
+- **绿盾头盔** — `ClothingHeadHelmetGreenshield` ｜父类: BaseCentcommContraband,ClothingHeadHelmetRaid ｜_Starlight ｜描述: A special helmet worn by Greenshield Officers.
+- **高级采矿硬壳服头盔** — `ClothingHeadHelmetHardsuitAdvancedMining` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsFloodlight ｜_Starlight ｜描述: A specially designed helmet for mining operations.
+- **大气硬装宇航服头盔** — `ClothingHeadHelmetHardsuitAtmos` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsIntermediate ｜描述: A special hardsuit helmet designed for working in low-pressure, high thermal environments.
+- **金色大气硬壳服头盔** — `ClothingHeadHelmetHardsuitAtmosGolden` ｜父类: ClothingHeadHelmetHardsuitAtmos ｜_Starlight ｜描述: A golden hardsuit that protects against hazardous, low pressure environments. Has thermal shielding. Use of expensive alloys have made it lighter than its non-golden counterpart.
 - **蓝盾硬壳服头盔** — `ClothingHeadHelmetHardsuitBlueshield` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsAdvanced ｜_Starlight
-- **狱医硬装宇航服头盔** — `ClothingHeadHelmetHardsuitBrigmedic` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsAdvanced
-- **舰长硬装宇航服头盔** — `ClothingHeadHelmetHardsuitCap` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsAdvanced
+- **狱医硬装宇航服头盔** — `ClothingHeadHelmetHardsuitBrigmedic` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsAdvanced ｜描述: The lightweight helmet of the brigmedic hardsuit. Protects against viruses, and clowns.
+- **舰长硬装宇航服头盔** — `ClothingHeadHelmetHardsuitCap` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsAdvanced ｜描述: Special hardsuit helmet, made for the captain of the station.
 - **鲤鱼兜帽** — `ClothingHeadHelmetHardsuitCarp` ｜父类: ClothingHeadHatHoodCarp
-- **小丑硬装宇航服头盔** — `ClothingHeadHelmetHardsuitClown` ｜父类: ClothingHeadHelmetHardsuitSecurity
-- **赛博桑重装头盔** — `ClothingHeadHelmetHardsuitCybersun` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsIntermediate
-- **死亡小队硬装宇航服头盔** — `ClothingHeadHelmetHardsuitDeathsquad` ｜父类: BaseCentcommContraband,ClothingHeadHardsuitBase
-- **十号硬壳服头盔** — `ClothingHeadHelmetHardsuitDecimus` ｜父类: BaseNanoTrasenContraband,ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsProfessional ｜_Starlight
-- **工程硬装宇航服头盔** — `ClothingHeadHelmetHardsuitEngineering` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsIntermediate
-- **金色工程部硬壳服头盔** — `ClothingHeadHelmetHardsuitEngineeringGolden` ｜父类: ClothingHeadHelmetHardsuitEngineering ｜_Starlight
-- **工程主管硬装宇航服头盔** — `ClothingHeadHelmetHardsuitEngineeringWhite` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsProfessional
-- **应急响应队牧师硬装宇航服头盔** — `ClothingHeadHelmetHardsuitERTChaplain` ｜父类: BaseCentcommContraband,ClothingHeadLightParamsProfessional,ClothingHeadHelmetHardsuitSyndie
-- **应急响应队工程师硬装宇航服头盔** — `ClothingHeadHelmetHardsuitERTEngineer` ｜父类: BaseCentcommContraband,ClothingHeadLightParamsProfessional,ClothingHeadHelmetHardsuitSyndie
-- **应急响应队清洁工硬装宇航服头盔** — `ClothingHeadHelmetHardsuitERTJanitor` ｜父类: BaseCentcommContraband,ClothingHeadLightParamsProfessional,ClothingHeadHelmetHardsuitSyndie
-- **应急响应队队长硬装宇航服头盔** — `ClothingHeadHelmetHardsuitERTLeader` ｜父类: BaseCentcommContraband,ClothingHeadLightParamsProfessional,ClothingHeadHelmetHardsuitSyndieCommander
-- **应急响应队医疗员硬装宇航服头盔** — `ClothingHeadHelmetHardsuitERTMedical` ｜父类: BaseCentcommContraband,ClothingHeadLightParamsProfessional,ClothingHeadHelmetHardsuitSyndieElite
-- **应急响应队安保硬装宇航服头盔** — `ClothingHeadHelmetHardsuitERTSecurity` ｜父类: BaseCentcommContraband,ClothingHeadLightParamsProfessional,ClothingHeadHelmetHardsuitSyndie
-- **歌利亚硬装宇航服头盔** — `ClothingHeadHelmetHardsuitGoliath` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsAdvanced
-- **绿盾硬壳服头盔** — `ClothingHeadHelmetHardsuitGreenshield` ｜父类: BaseCentcommContraband,ClothingHeadLightParamsProfessional,ClothingHeadHelmetHardsuitSyndieCommander ｜_Starlight
+- **小丑硬装宇航服头盔** — `ClothingHeadHelmetHardsuitClown` ｜父类: ClothingHeadHelmetHardsuitSecurity ｜描述: A clown hardsuit helmet.
+- **赛博桑重装头盔** — `ClothingHeadHelmetHardsuitCybersun` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsIntermediate ｜描述: Made of compressed red matter, this helmet was designed in the Tau chromosphere facility.
+- **死亡小队硬装宇航服头盔** — `ClothingHeadHelmetHardsuitDeathsquad` ｜父类: BaseCentcommContraband,ClothingHeadHardsuitBase ｜描述: A robust helmet for special operations.
+- **十号硬壳服头盔** — `ClothingHeadHelmetHardsuitDecimus` ｜父类: BaseNanoTrasenContraband,ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsProfessional ｜_Starlight ｜描述: A robust helmet for special operations.
+- **工程硬装宇航服头盔** — `ClothingHeadHelmetHardsuitEngineering` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsIntermediate ｜描述: An engineering hardsuit helmet designed for working in low-pressure, high radioactive environments.
+- **金色工程部硬壳服头盔** — `ClothingHeadHelmetHardsuitEngineeringGolden` ｜父类: ClothingHeadHelmetHardsuitEngineering ｜_Starlight ｜描述: A golden hardsuit that protects against hazardous, low pressure environments. Has radiation shielding. Use of expensive alloys have made it lighter than its non-golden counterpart.
+- **工程主管硬装宇航服头盔** — `ClothingHeadHelmetHardsuitEngineeringWhite` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsProfessional ｜描述: Special hardsuit helmet, made for the chief engineer of the station.
+- **应急响应队牧师硬装宇航服头盔** — `ClothingHeadHelmetHardsuitERTChaplain` ｜父类: BaseCentcommContraband,ClothingHeadLightParamsProfessional,ClothingHeadHelmetHardsuitSyndie ｜描述: A special hardsuit helmet worn by members of an emergency response team.
+- **应急响应队工程师硬装宇航服头盔** — `ClothingHeadHelmetHardsuitERTEngineer` ｜父类: BaseCentcommContraband,ClothingHeadLightParamsProfessional,ClothingHeadHelmetHardsuitSyndie ｜描述: A special hardsuit helmet worn by members of an emergency response team.
+- **应急响应队清洁工硬装宇航服头盔** — `ClothingHeadHelmetHardsuitERTJanitor` ｜父类: BaseCentcommContraband,ClothingHeadLightParamsProfessional,ClothingHeadHelmetHardsuitSyndie ｜描述: A special hardsuit helmet worn by members of an emergency response team.
+- **应急响应队队长硬装宇航服头盔** — `ClothingHeadHelmetHardsuitERTLeader` ｜父类: BaseCentcommContraband,ClothingHeadLightParamsProfessional,ClothingHeadHelmetHardsuitSyndieCommander ｜描述: A special hardsuit helmet worn by members of an emergency response team.
+- **应急响应队医疗员硬装宇航服头盔** — `ClothingHeadHelmetHardsuitERTMedical` ｜父类: BaseCentcommContraband,ClothingHeadLightParamsProfessional,ClothingHeadHelmetHardsuitSyndieElite ｜描述: A special hardsuit helmet worn by members of an emergency response team.
+- **应急响应队安保硬装宇航服头盔** — `ClothingHeadHelmetHardsuitERTSecurity` ｜父类: BaseCentcommContraband,ClothingHeadLightParamsProfessional,ClothingHeadHelmetHardsuitSyndie ｜描述: A special hardsuit helmet worn by members of an emergency response team.
+- **歌利亚硬装宇航服头盔** — `ClothingHeadHelmetHardsuitGoliath` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsAdvanced ｜描述: A sturdy hardsuit helmet, infused with a goliath's hide and an eerie, unblinking eye cut from its mass.
+- **绿盾硬壳服头盔** — `ClothingHeadHelmetHardsuitGreenshield` ｜父类: BaseCentcommContraband,ClothingHeadLightParamsProfessional,ClothingHeadHelmetHardsuitSyndieCommander ｜_Starlight ｜描述: A special hardsuit helmet worn by Greenshield Officers.
 - **辛迪加渗透硬壳服头盔** — `ClothingHeadHelmetHardsuitInfiltration` ｜父类: ClothingHeadHardsuitBase ｜_Starlight
-- **有机头盔** — `ClothingHeadHelmetHardsuitLing` ｜父类: ClothingHeadHardsuitBase
-- **军需官豪华至尊硬壳服头盔** — `ClothingHeadHelmetHardsuitLuxmax` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsAdvanced ｜_Starlight
-- **奢华采矿外骨骼装甲头盔** — `ClothingHeadHelmetHardsuitLuxury` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsAdvanced
-- **打捞员马克西姆头盔** — `ClothingHeadHelmetHardsuitMaxim` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsAdvanced
-- **医疗主管硬装宇航服头盔** — `ClothingHeadHelmetHardsuitMedical` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsIntermediate
+- **有机头盔** — `ClothingHeadHelmetHardsuitLing` ｜父类: ClothingHeadHardsuitBase ｜描述: A spaceworthy biomass of pressure and temperature resistant tissue.
+- **军需官豪华至尊硬壳服头盔** — `ClothingHeadHelmetHardsuitLuxmax` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsAdvanced ｜_Starlight ｜描述: This thing is made of solid gold, its a wonder you can keep your head up with it on.
+- **奢华采矿外骨骼装甲头盔** — `ClothingHeadHelmetHardsuitLuxury` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsAdvanced ｜描述: A refurbished mining hardsuit helmet, fitted with satin cushioning and an extra (non-functioning) antenna, because you're that extra.
+- **打捞员马克西姆头盔** — `ClothingHeadHelmetHardsuitMaxim` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsAdvanced ｜描述: A predication of decay washes over your mind.
+- **医疗主管硬装宇航服头盔** — `ClothingHeadHelmetHardsuitMedical` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsIntermediate ｜描述: Lightweight medical hardsuit helmet that doesn't restrict your head movements.
 - **佣兵硬壳服头盔** — `ClothingHeadHelmetHardsuitMercenary` ｜父类: ClothingHeadHardsuitBase ｜_Starlight
-- **哑剧演员硬装宇航服头盔** — `ClothingHeadHelmetHardsuitMime` ｜父类: ClothingHeadHelmetHardsuitSecurity
-- **采矿硬壳服头盔** — `ClothingHeadHelmetHardsuitMining` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsProfessional ｜_Starlight
+- **哑剧演员硬装宇航服头盔** — `ClothingHeadHelmetHardsuitMime` ｜父类: ClothingHeadHelmetHardsuitSecurity ｜描述: A mime hardsuit helmet.
+- **采矿硬壳服头盔** — `ClothingHeadHelmetHardsuitMining` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsProfessional ｜_Starlight ｜描述: A special helmet designed for work in a hazardous, low pressure environments encountered during space mining. Has dual floodlights.
 - **纳米传讯代表硬壳服头盔** — `ClothingHeadHelmetHardsuitNtrep` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsIntermediate ｜_Starlight
-- **纳米传讯特种部队硬壳服头盔** — `ClothingHeadHelmetHardsuitNTSF` ｜父类: BaseNanoTrasenContraband,ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsProfessional ｜_Starlight
-- **NTSF九号头盔** — `ClothingHeadHelmetHardsuitNTSFNonus` ｜父类: BaseNanoTrasenContraband,ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase ｜_Starlight
-- **NTSF八号头盔** — `ClothingHeadHelmetHardsuitNTSFOctavius` ｜父类: BaseNanoTrasenContraband,ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase ｜_Starlight
-- **NTSF一号头盔** — `ClothingHeadHelmetHardsuitNTSFPrimus` ｜父类: BaseNanoTrasenContraband,ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase ｜_Starlight
-- **NTSF四号头盔** — `ClothingHeadHelmetHardsuitNTSFQuartus` ｜父类: BaseNanoTrasenContraband,ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase ｜_Starlight
-- **NTSF五号头盔** — `ClothingHeadHelmetHardsuitNTSFQuintus` ｜父类: BaseNanoTrasenContraband,ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase ｜_Starlight
-- **NTSF二号头盔** — `ClothingHeadHelmetHardsuitNTSFSecundus` ｜父类: BaseNanoTrasenContraband,ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase ｜_Starlight
-- **NTSF七号头盔** — `ClothingHeadHelmetHardsuitNTSFSeptimus` ｜父类: BaseNanoTrasenContraband,ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase ｜_Starlight
-- **NTSF六号头盔** — `ClothingHeadHelmetHardsuitNTSFSextus` ｜父类: BaseNanoTrasenContraband,ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase ｜_Starlight
-- **NTSF三号头盔** — `ClothingHeadHelmetHardsuitNTSFTertius` ｜父类: BaseNanoTrasenContraband,ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase ｜_Starlight
-- **海盗舰长硬装宇航服头盔** — `ClothingHeadHelmetHardsuitPirateCap` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsAdvanced
-- **深空头盔** — `ClothingHeadHelmetHardsuitPirateEVA` ｜父类: ClothingHeadHardsuitBase
-- **实验研究硬装宇航服头盔** — `ClothingHeadHelmetHardsuitRd` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsIntermediate
-- **打捞硬装宇航服头盔** — `ClothingHeadHelmetHardsuitSalvage` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsAdvanced
-- **圣诞老人硬装宇航服头盔** — `ClothingHeadHelmetHardsuitSanta` ｜父类: ClothingHeadHardsuitBase
-- **安保硬装宇航服头盔** — `ClothingHeadHelmetHardsuitSecurity` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsAdvanced
-- **实验型安保硬壳服头盔** — `ClothingHeadHelmetHardsuitSecurityExperimental` ｜父类: ClothingHeadHelmetHardsuitSecurity,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsAdvanced ｜_Starlight
-- **安保主管硬装宇航服头盔** — `ClothingHeadHelmetHardsuitSecurityRed` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsAdvanced
-- **SSF陆战队硬壳服头盔** — `ClothingHeadHelmetHardsuitSovietMarine` ｜父类: ClothingHeadHardsuitBase,BaseSovietContraband,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsIntermediate ｜_Starlight
-- **太空危险环境头盔** — `ClothingHeadHelmetHardsuitSpaceHazard` ｜父类: ClothingHeadHardsuitBase ｜_Starlight
-- **太空作业员硬装宇航服头盔** — `ClothingHeadHelmetHardsuitSpatio` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsAdvanced
-- **太空作业队长硬壳服头盔** — `ClothingHeadHelmetHardsuitSpatioLead` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsAdvanced ｜_Starlight
-- **血红硬装宇航服头盔** — `ClothingHeadHelmetHardsuitSyndie` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsIntermediate
-- **辛迪加指挥官头盔** — `ClothingHeadHelmetHardsuitSyndieCommander` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsIntermediate
-- **辛迪加精英头盔** — `ClothingHeadHelmetHardsuitSyndieElite` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsIntermediate
-- **血红医疗员硬装宇航服头盔** — `ClothingHeadHelmetHardsuitSyndieMedic` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsIntermediate
-- **塔纳托斯头盔** — `ClothingHeadHelmetHardsuitThanatos` ｜父类: BaseCentcommContraband,ClothingHeadHardsuitBase ｜_Starlight
-- **MARSOC头盔** — `ClothingHeadHelmetHardsuitTSFMARSOC` ｜父类: BaseTSFContraband,ClothingHeadHardsuitBase ｜_Starlight
-- **幻影头盔** — `ClothingHeadHelmetHardsuitTSFPhantom` ｜父类: BaseTSFContraband,ClothingHeadHardsuitBase ｜_Starlight
-- **典狱长硬装宇航服头盔** — `ClothingHeadHelmetHardsuitWarden` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsAdvanced
-- **巫师硬装宇航服头盔** — `ClothingHeadHelmetHardsuitWizard` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsIntermediate
-- **隔热吸收型头盔** — `ClothingHeadHelmetHeatAbsorbent` ｜父类: ClothingHeadHelmetBase,BaseSecurityContraband ｜_Starlight
-- **简易头盔** — `ClothingHeadHelmetImprovised` ｜父类: ClothingHeadHelmetBase,BaseMinorContraband ｜_Starlight
-- **清洁防爆服头盔** — `ClothingHeadHelmetJanitorBombSuit` ｜父类: ClothingHeadHelmetBombSuit
-- **正义头盔** — `ClothingHeadHelmetJustice` ｜父类: ClothingHeadHelmetBasic
+- **纳米传讯特种部队硬壳服头盔** — `ClothingHeadHelmetHardsuitNTSF` ｜父类: BaseNanoTrasenContraband,ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsProfessional ｜_Starlight ｜描述: A robust helmet for special operations.
+- **NTSF九号头盔** — `ClothingHeadHelmetHardsuitNTSFNonus` ｜父类: BaseNanoTrasenContraband,ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase ｜_Starlight ｜描述: A robust helmet for special operations.
+- **NTSF八号头盔** — `ClothingHeadHelmetHardsuitNTSFOctavius` ｜父类: BaseNanoTrasenContraband,ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase ｜_Starlight ｜描述: A robust helmet for special operations.
+- **NTSF一号头盔** — `ClothingHeadHelmetHardsuitNTSFPrimus` ｜父类: BaseNanoTrasenContraband,ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase ｜_Starlight ｜描述: A robust helmet for special operations.
+- **NTSF四号头盔** — `ClothingHeadHelmetHardsuitNTSFQuartus` ｜父类: BaseNanoTrasenContraband,ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase ｜_Starlight ｜描述: A robust helmet for special operations.
+- **NTSF五号头盔** — `ClothingHeadHelmetHardsuitNTSFQuintus` ｜父类: BaseNanoTrasenContraband,ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase ｜_Starlight ｜描述: A robust helmet for special operations.
+- **NTSF二号头盔** — `ClothingHeadHelmetHardsuitNTSFSecundus` ｜父类: BaseNanoTrasenContraband,ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase ｜_Starlight ｜描述: A robust helmet for special operations.
+- **NTSF七号头盔** — `ClothingHeadHelmetHardsuitNTSFSeptimus` ｜父类: BaseNanoTrasenContraband,ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase ｜_Starlight ｜描述: A robust helmet for special operations.
+- **NTSF六号头盔** — `ClothingHeadHelmetHardsuitNTSFSextus` ｜父类: BaseNanoTrasenContraband,ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase ｜_Starlight ｜描述: A robust helmet for special operations.
+- **NTSF三号头盔** — `ClothingHeadHelmetHardsuitNTSFTertius` ｜父类: BaseNanoTrasenContraband,ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase ｜_Starlight ｜描述: A robust helmet for special operations.
+- **海盗舰长硬装宇航服头盔** — `ClothingHeadHelmetHardsuitPirateCap` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsAdvanced ｜描述: A special hardsuit helmet, made for the captain of a pirate ship.
+- **深空头盔** — `ClothingHeadHelmetHardsuitPirateEVA` ｜父类: ClothingHeadHardsuitBase ｜描述: A deep space EVA helmet, very heavy but provides good protection.
+- **实验研究硬装宇航服头盔** — `ClothingHeadHelmetHardsuitRd` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsIntermediate ｜描述: Lightweight hardsuit helmet that doesn't restrict your head movements.
+- **打捞硬装宇航服头盔** — `ClothingHeadHelmetHardsuitSalvage` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsAdvanced ｜描述: A special helmet designed for work in a hazardous, low pressure environment. Has reinforced plating for wildlife encounters and dual floodlights.
+- **圣诞老人硬装宇航服头盔** — `ClothingHeadHelmetHardsuitSanta` ｜父类: ClothingHeadHardsuitBase ｜描述: A festive-looking hardsuit helmet that provides the jolly gift-giver protection from low-pressure environments.
+- **安保硬装宇航服头盔** — `ClothingHeadHelmetHardsuitSecurity` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsAdvanced ｜描述: Armored hardsuit helmet for security needs.
+- **实验型安保硬壳服头盔** — `ClothingHeadHelmetHardsuitSecurityExperimental` ｜父类: ClothingHeadHelmetHardsuitSecurity,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsAdvanced ｜_Starlight ｜描述: Heavily armored hardsuit helmet for security needs, now with lights!
+- **安保主管硬装宇航服头盔** — `ClothingHeadHelmetHardsuitSecurityRed` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsAdvanced ｜描述: Security hardsuit helmet with the latest top secret NT-HUD software. Belongs to the HoS.
+- **SSF陆战队硬壳服头盔** — `ClothingHeadHelmetHardsuitSovietMarine` ｜父类: ClothingHeadHardsuitBase,BaseSovietContraband,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsIntermediate ｜_Starlight ｜描述: From the soviet dieselpunk world.
+- **太空危险环境头盔** — `ClothingHeadHelmetHardsuitSpaceHazard` ｜父类: ClothingHeadHardsuitBase ｜_Starlight ｜描述: Keeps the cold sulfuric embrace of space out.
+- **太空作业员硬装宇航服头盔** — `ClothingHeadHelmetHardsuitSpatio` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsAdvanced ｜描述: A sturdy helmet designed for complex industrial operations in space.
+- **太空作业队长硬壳服头盔** — `ClothingHeadHelmetHardsuitSpatioLead` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsAdvanced ｜_Starlight ｜描述: A sturdy decorated helmet designed for complex industrial operations in space.
+- **血红硬装宇航服头盔** — `ClothingHeadHelmetHardsuitSyndie` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsIntermediate ｜描述: A heavily armored helmet designed for work in special operations. Property of Gorlex Marauders.
+- **辛迪加指挥官头盔** — `ClothingHeadHelmetHardsuitSyndieCommander` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsIntermediate ｜描述: A bulked up version of the blood-red hardsuit's helmet, purpose-built for the commander of a syndicate operative squad. Has significantly improved armor for those deadly front-lines firefights.
+- **辛迪加精英头盔** — `ClothingHeadHelmetHardsuitSyndieElite` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsIntermediate ｜描述: An elite version of the blood-red hardsuit's helmet, with improved radiation resistance and fireproofing. Property of Gorlex Marauders.
+- **血红医疗员硬装宇航服头盔** — `ClothingHeadHelmetHardsuitSyndieMedic` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsIntermediate ｜描述: An advanced red hardsuit helmet specifically designed for field medic operations.
+- **塔纳托斯头盔** — `ClothingHeadHelmetHardsuitThanatos` ｜父类: BaseCentcommContraband,ClothingHeadHardsuitBase ｜_Starlight ｜描述: A robust helmet for special operations.
+- **MARSOC头盔** — `ClothingHeadHelmetHardsuitTSFMARSOC` ｜父类: BaseTSFContraband,ClothingHeadHardsuitBase ｜_Starlight ｜描述: A helmet worn by marines of the Trans-Solar Federation's Marine Special Operations Command. Armored, space ready, and fireproof.
+- **幻影头盔** — `ClothingHeadHelmetHardsuitTSFPhantom` ｜父类: BaseTSFContraband,ClothingHeadHardsuitBase ｜_Starlight ｜描述: A helmet worn by marines of the Trans-Solar Federation's Marine special Operations Phantom. Armored, space ready and stealthy.
+- **典狱长硬装宇航服头盔** — `ClothingHeadHelmetHardsuitWarden` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsAdvanced ｜描述: A modified riot helmet. Oddly comfortable.
+- **巫师硬装宇航服头盔** — `ClothingHeadHelmetHardsuitWizard` ｜父类: ClothingHeadHardsuitBase,ClothingHeadSuitWithLightBase,ClothingHeadLightParamsIntermediate ｜描述: A bizarre gem-encrusted helmet that radiates magical energies.
+- **隔热吸收型头盔** — `ClothingHeadHelmetHeatAbsorbent` ｜父类: ClothingHeadHelmetBase,BaseSecurityContraband ｜_Starlight ｜描述: Advanced helmet best paired with the vest for pure style, has minor reflective properties and can absorb heat fairly well.
+- **简易头盔** — `ClothingHeadHelmetImprovised` ｜父类: ClothingHeadHelmetBase,BaseMinorContraband ｜_Starlight ｜描述: Interlocking steel plates provides some decent protection, but is still barely better than nothing.
+- **清洁防爆服头盔** — `ClothingHeadHelmetJanitorBombSuit` ｜父类: ClothingHeadHelmetBombSuit ｜描述: A heavy helmet designed to withstand explosions formed from reactions between chemicals.
+- **正义头盔** — `ClothingHeadHelmetJustice` ｜父类: ClothingHeadHelmetBasic ｜描述: Advanced security gear. Protects the station from ne'er-do-wells.
 - **正义头盔** — `ClothingHeadHelmetJusticeEmpty` ｜父类: ClothingHeadHelmetJustice
-- **甲壳头盔** — `ClothingHeadHelmetLing` ｜父类: ClothingHeadHelmetBase,BaseMajorContraband
-- **土制头盔** — `ClothingHeadHelmetMakeshift` ｜父类: ClothingHeadHelmetBase,BaseMinorContraband ｜_Starlight
-- **雇佣兵头盔** — `ClothingHeadHelmetMerc` ｜父类: ClothingHeadHelmetArmoredBase
-- **金属氢头盔** — `ClothingHeadHelmetMetalHydrogen` ｜父类: ClothingHeadBase ｜_Funkystation
-- **NT-NC海军头盔** — `ClothingHeadHelmetNTNCConsortium` ｜父类: ClothingHeadHelmetERTLeader ｜_Starlight
-- **圣骑士头盔** — `ClothingHeadHelmetPaladin` ｜父类: ClothingHeadHelmetBase,BaseMajorContraband ｜_Starlight
-- **插板头盔** — `ClothingHeadHelmetPlate` ｜父类: ClothingHeadHelmetBase,BaseSecurityContraband ｜_Starlight
-- **铁甲二型头盔** — `ClothingHeadHelmetPodWars` ｜父类: ClothingHeadHelmetArmoredBase,BaseMinorContraband
-- **辛迪加突袭头盔** — `ClothingHeadHelmetRaid` ｜父类: BaseSyndicateContraband,ClothingHeadHelmetBase
-- **反射型头盔** — `ClothingHeadHelmetReflective` ｜父类: ClothingHeadHelmetBase,BaseSecurityContraband ｜_Starlight
-- **防暴头盔** — `ClothingHeadHelmetRiot` ｜父类: ClothingHeadHelmetBase,BaseSecurityContraband
-- **空间站冒险家头盔** — `ClothingHeadHelmetRisk` ｜父类: ClothingHeadBase ｜_Starlight
-- **拾荒者头盔** — `ClothingHeadHelmetSalvageMerc` ｜父类: ClothingHeadHelmetArmoredBase,BaseSalvageContraband ｜_Starlight
-- **废料头盔** — `ClothingHeadHelmetScrap` ｜父类: ClothingHeadHelmetBase,BaseMajorContraband
-- **传奇银色头盔** — `ClothingHeadHelmetSilverMusician` ｜父类: ClothingHeadBase ｜_Starlight
-- **巫师虚空兜帽** — `ClothingHeadHelmetsoftsuitWizard` ｜父类: ClothingHeadEVAHelmetBase ｜_Starlight
-- **苏维埃EVA头盔** — `ClothingHeadHelmetSovietEVA` ｜父类: ClothingHeadEVAHelmetBase,BaseSovietContraband ｜_Starlight
-- **太空忍者头盔** — `ClothingHeadHelmetSpaceNinja` ｜父类: ClothingHeadEVAHelmetBase,BaseHighlyIllegalContraband
-- **防刺头盔** — `ClothingHeadHelmetStabproof` ｜父类: ClothingHeadHelmetBase,BaseSecurityContraband ｜_Starlight
-- **特警头盔** — `ClothingHeadHelmetSwat` ｜父类: ClothingHeadHelmetBase,BaseSecurityContraband
-- **特警头盔** — `ClothingHeadHelmetSwatSyndicate` ｜父类: ClothingHeadHelmetSwat
-- **辛迪加EVA头盔** — `ClothingHeadHelmetSyndicate` ｜父类: ClothingHeadEVAHelmetBase,BaseMinorContraband
-- **骑士头盔** — `ClothingHeadHelmetTemplar` ｜父类: ClothingHeadHelmetBase
-- **雷霆穹顶头盔** — `ClothingHeadHelmetThunderdome` ｜父类: ClothingHeadHelmetBase
-- **联邦陆战队战斗头盔** — `ClothingHeadHelmetTSF` ｜父类: BaseTSFContraband,ClothingHeadEVAHelmetBase,ClothingHeadHelmetArmoredBase ｜_Starlight
-- **联邦陆战队干员战斗头盔** — `ClothingHeadHelmetTSFLeader` ｜父类: ClothingHeadHelmetTSF ｜_Starlight
-- **急救员虚空头盔** — `ClothingHeadHelmetVoidParamed` ｜父类: ClothingHeadSuitWithLightBase,ClothingHeadEVAHelmetBase,ClothingHeadLightParamsIntermediate
-- **巫师头盔** — `ClothingHeadHelmetWizardHelm` ｜父类: ClothingHeadHelmetBase
-- **蜂蜜煎饼帽** — `ClothingHeadHoney` ｜父类: ClothingHeadBase ｜_Starlight
+- **甲壳头盔** — `ClothingHeadHelmetLing` ｜父类: ClothingHeadHelmetBase,BaseMajorContraband ｜描述: An all-consuming chitinous mass of armor.
+- **土制头盔** — `ClothingHeadHelmetMakeshift` ｜父类: ClothingHeadHelmetBase,BaseMinorContraband ｜_Starlight ｜描述: Cobbled together steel held together with lv cables in the vauge shape of a helmet. Barely does anything.
+- **雇佣兵头盔** — `ClothingHeadHelmetMerc` ｜父类: ClothingHeadHelmetArmoredBase ｜描述: The combat helmet is commonly used by mercenaries, is strong, light and smells like gunpowder and the jungle.
+- **金属氢头盔** — `ClothingHeadHelmetMetalHydrogen` ｜父类: ClothingHeadBase ｜_Funkystation ｜描述: A superb helmet made with the toughest and rarest materials available to man.
+- **NT-NC海军头盔** — `ClothingHeadHelmetNTNCConsortium` ｜父类: ClothingHeadHelmetERTLeader ｜_Starlight ｜描述: An in-atmosphere helmet worn by NT-NC Naval Officers.
+- **圣骑士头盔** — `ClothingHeadHelmetPaladin` ｜父类: ClothingHeadHelmetBase,BaseMajorContraband ｜_Starlight ｜描述: No true paladin can go without their helmet!
+- **插板头盔** — `ClothingHeadHelmetPlate` ｜父类: ClothingHeadHelmetBase,BaseSecurityContraband ｜_Starlight ｜描述: A modified security helmet with a ceramic plate insert, which means less padding for blunt hits.
+- **铁甲二型头盔** — `ClothingHeadHelmetPodWars` ｜父类: ClothingHeadHelmetArmoredBase,BaseMinorContraband ｜描述: An ironclad II helmet, a relic of the pod wars.
+- **辛迪加突袭头盔** — `ClothingHeadHelmetRaid` ｜父类: BaseSyndicateContraband,ClothingHeadHelmetBase ｜描述: An armored helmet for use with the syndicate raid suit. Very stylish.
+- **反射型头盔** — `ClothingHeadHelmetReflective` ｜父类: ClothingHeadHelmetBase,BaseSecurityContraband ｜_Starlight ｜描述: A shiny helmet for your equally shiny vest. Provides 100% reflection when worn with the reflective vest.
+- **防暴头盔** — `ClothingHeadHelmetRiot` ｜父类: ClothingHeadHelmetBase,BaseSecurityContraband ｜描述: It's a helmet specifically designed to protect against close range attacks.
+- **空间站冒险家头盔** — `ClothingHeadHelmetRisk` ｜父类: ClothingHeadBase ｜_Starlight ｜描述: A strong helmet with a cool red line in the middle.
+- **拾荒者头盔** — `ClothingHeadHelmetSalvageMerc` ｜父类: ClothingHeadHelmetArmoredBase,BaseSalvageContraband ｜_Starlight ｜描述: A durable, lightweight helmet favored by salvagers.
+- **废料头盔** — `ClothingHeadHelmetScrap` ｜父类: ClothingHeadHelmetBase,BaseMajorContraband ｜描述: A cobbled-together helmet made from cabling, steel, and a bucket.
+- **传奇银色头盔** — `ClothingHeadHelmetSilverMusician` ｜父类: ClothingHeadBase ｜_Starlight ｜描述: The old silver helm of the famous musician duo. One more time?
+- **巫师虚空兜帽** — `ClothingHeadHelmetsoftsuitWizard` ｜父类: ClothingHeadEVAHelmetBase ｜_Starlight ｜描述: A bizarre gem-encrusted hood that radiates magical energies.
+- **苏维埃EVA头盔** — `ClothingHeadHelmetSovietEVA` ｜父类: ClothingHeadEVAHelmetBase,BaseSovietContraband ｜_Starlight ｜描述: A sturdy EVA helmet with a red star emblazoned on the front. Glory to the workers of space!
+- **太空忍者头盔** — `ClothingHeadHelmetSpaceNinja` ｜父类: ClothingHeadEVAHelmetBase,BaseHighlyIllegalContraband ｜描述: What may appear to be a simple black garment is in fact a highly sophisticated nano-weave helmet. Standard issue ninja gear.
+- **防刺头盔** — `ClothingHeadHelmetStabproof` ｜父类: ClothingHeadHelmetBase,BaseSecurityContraband ｜_Starlight ｜描述: The most "comfortable" security helmet, as rated by officers. Will take a blow to the head nicely, but a bullet'll go right through it.
+- **特警头盔** — `ClothingHeadHelmetSwat` ｜父类: ClothingHeadHelmetBase,BaseSecurityContraband ｜描述: An extremely robust helmet, commonly used by paramilitary forces. This one has the NanoTrasen logo emblazoned on the top.
+- **特警头盔** — `ClothingHeadHelmetSwatSyndicate` ｜父类: ClothingHeadHelmetSwat ｜描述: An extremely robust helmet, commonly used by paramilitary forces. It is adorned in a nefarious red and black stripe pattern.
+- **辛迪加EVA头盔** — `ClothingHeadHelmetSyndicate` ｜父类: ClothingHeadEVAHelmetBase,BaseMinorContraband ｜描述: A simple, stylish EVA helmet. Designed for maximum humble space-badassery.
+- **骑士头盔** — `ClothingHeadHelmetTemplar` ｜父类: ClothingHeadHelmetBase ｜描述: Decorative helmet fashioned to resemble the knights of old.
+- **雷霆穹顶头盔** — `ClothingHeadHelmetThunderdome` ｜父类: ClothingHeadHelmetBase ｜描述: Let the battle commence!
+- **联邦陆战队战斗头盔** — `ClothingHeadHelmetTSF` ｜父类: BaseTSFContraband,ClothingHeadEVAHelmetBase,ClothingHeadHelmetArmoredBase ｜_Starlight ｜描述: A powered combat helmet used by the Trans-Solar Marine Corps. Provides excellent protection in all areas, while a modern OCULUS array augments the wearer's vision.
+- **联邦陆战队干员战斗头盔** — `ClothingHeadHelmetTSFLeader` ｜父类: ClothingHeadHelmetTSF ｜_Starlight ｜描述: A powered combat helmet used by officers of the Trans-Solar Marine Corps. Provides excellent protection in all areas, while a next-gen OCULUS array augments the wearer's vision.
+- **急救员虚空头盔** — `ClothingHeadHelmetVoidParamed` ｜父类: ClothingHeadSuitWithLightBase,ClothingHeadEVAHelmetBase,ClothingHeadLightParamsIntermediate ｜描述: A void helmet made for paramedics.
+- **巫师头盔** — `ClothingHeadHelmetWizardHelm` ｜父类: ClothingHeadHelmetBase ｜描述: Strange-looking helmet that most certainly belongs to a real magic user.
+- **蜂蜜煎饼帽** — `ClothingHeadHoney` ｜父类: ClothingHeadBase ｜_Starlight ｜描述: Hat shaped like golden pancakes drizzled with honey, creating a warm and delightful look.
 - `模板` **基础带灯头盔** — `ClothingHeadLightBase` ｜父类: ClothingHeadBase
 - `模板` **ClothingHeadLightParamsAdvanced** — `ClothingHeadLightParamsAdvanced` ｜_Starlight
 - `模板` **ClothingHeadLightParamsBasic** — `ClothingHeadLightParamsBasic` ｜_Starlight
 - `模板` **ClothingHeadLightParamsFloodlight** — `ClothingHeadLightParamsFloodlight` ｜_Starlight
 - `模板` **ClothingHeadLightParamsIntermediate** — `ClothingHeadLightParamsIntermediate` ｜_Starlight
 - `模板` **ClothingHeadLightParamsProfessional** — `ClothingHeadLightParamsProfessional` ｜_Starlight
-- **额镜** — `ClothingHeadMirror` ｜父类: ClothingHeadBase
-- **护士帽** — `ClothingHeadNurseHat` ｜父类: ClothingHeadBase
-- **狱医医疗湾帽** — `ClothingHeadNurseHatBrigmedic` ｜父类: ClothingHeadBase,BaseSecurityContraband ｜_Starlight
-- **化学护士帽** — `ClothingHeadNurseHatChemist` ｜父类: ClothingHeadBase ｜_Starlight
-- **卫生员创伤医疗湾帽** — `ClothingHeadNurseHatCorpsman` ｜父类: ClothingHeadBase,BaseSecurityContraband ｜_Starlight
-- **生命护士帽** — `ClothingHeadNurseHatOfLife` ｜父类: ClothingHeadBase ｜_Starlight
-- **纸袋头套** — `ClothingHeadPaperSack` ｜父类: ClothingHeadBase
-- **笑脸纸袋头套** — `ClothingHeadPaperSackSmile` ｜父类: ClothingHeadBase
-- **表演者的假发** — `ClothingHeadPerformerWig` ｜父类: ClothingHeadBase
-- **螺旋桨帽** — `ClothingHeadPropellerHat` ｜父类: ClothingHeadBase
-- **辛迪加黑色睡衣帽** — `ClothingHeadPyjamaSyndicateBlack` ｜父类: ClothingHeadBase,BaseMinorContraband
-- **辛迪加粉色睡衣帽** — `ClothingHeadPyjamaSyndicatePink` ｜父类: ClothingHeadBase,BaseMinorContraband
-- **辛迪加红色睡衣帽** — `ClothingHeadPyjamaSyndicateRed` ｜父类: ClothingHeadBase,BaseMinorContraband
-- **拉斯塔帽** — `ClothingHeadRastaHat` ｜父类: ClothingHeadBase
-- **狩猎帽** — `ClothingHeadSafari` ｜父类: ClothingHeadBase
-- `模板` **耳机** — `ClothingHeadset` ｜父类: Clothing
-- `模板` **headset** — `ClothingHeadsetAlt` ｜父类: ClothingHeadset
+- **额镜** — `ClothingHeadMirror` ｜父类: ClothingHeadBase ｜描述: I doubt even the CMO knows how to use this thing.
+- **护士帽** — `ClothingHeadNurseHat` ｜父类: ClothingHeadBase ｜描述: Somehow I feel I'm not supposed to leave this place.
+- **狱医医疗湾帽** — `ClothingHeadNurseHatBrigmedic` ｜父类: ClothingHeadBase,BaseSecurityContraband ｜_Starlight ｜描述: For those long nights on the shift.
+- **化学护士帽** — `ClothingHeadNurseHatChemist` ｜父类: ClothingHeadBase ｜_Starlight ｜描述: I'm technically a doctor, you know.
+- **卫生员创伤医疗湾帽** — `ClothingHeadNurseHatCorpsman` ｜父类: ClothingHeadBase,BaseSecurityContraband ｜_Starlight ｜描述: Dark enough to hide blood and tears alike.
+- **生命护士帽** — `ClothingHeadNurseHatOfLife` ｜父类: ClothingHeadBase ｜_Starlight ｜描述: A hat that symbolizes the joy and positivity of our life.
+- **纸袋头套** — `ClothingHeadPaperSack` ｜父类: ClothingHeadBase ｜描述: A paper sack with crude holes cut out for eyes. Useful for hiding one's identity and/or ugliness.
+- **笑脸纸袋头套** — `ClothingHeadPaperSackSmile` ｜父类: ClothingHeadBase ｜描述: A paper sack with crude holes cut out for eyes and a sketchy smile drawn on the front. Not creepy at all.
+- **表演者的假发** — `ClothingHeadPerformerWig` ｜父类: ClothingHeadBase ｜描述: On a closer inspection, it appears that it is made from optic fiber.
+- **螺旋桨帽** — `ClothingHeadPropellerHat` ｜父类: ClothingHeadBase ｜描述: You're the bestest boy.
+- **辛迪加黑色睡衣帽** — `ClothingHeadPyjamaSyndicateBlack` ｜父类: ClothingHeadBase,BaseMinorContraband ｜描述: For keeping that traitor head of yours warm.
+- **辛迪加粉色睡衣帽** — `ClothingHeadPyjamaSyndicatePink` ｜父类: ClothingHeadBase,BaseMinorContraband ｜描述: For keeping that traitor head of yours warm.
+- **辛迪加红色睡衣帽** — `ClothingHeadPyjamaSyndicateRed` ｜父类: ClothingHeadBase,BaseMinorContraband ｜描述: For keeping that traitor head of yours warm.
+- **拉斯塔帽** — `ClothingHeadRastaHat` ｜父类: ClothingHeadBase ｜描述: Right near da beach, boyee.
+- **狩猎帽** — `ClothingHeadSafari` ｜父类: ClothingHeadBase ｜描述: Keeps the sun out of your eyes. Makes you a target for the locals.
+- `模板` **耳机** — `ClothingHeadset` ｜父类: Clothing ｜描述: An updated, modular intercom that fits over the head. Takes encryption keys.
+- `模板` **headset** — `ClothingHeadsetAlt` ｜父类: ClothingHeadset ｜描述: An updated, modular intercom that fits over the head. Takes encryption keys.
 - **绑架者头戴式耳机** — `ClothingHeadsetAltAbductor` ｜父类: ClothingHeadsetAlt ｜_Starlight
 - **行政中央指挥部头戴式耳机** — `ClothingHeadsetAltAdminCentCom` ｜父类: ClothingHeadsetAlt,BaseCentcommContraband ｜_Starlight
-- **管理员空间耳机** — `ClothingHeadsetAltAspace` ｜父类: ClothingHeadsetAlt ｜_Starlight
-- **黑星佣兵耳机** — `ClothingHeadsetAltBlackstar` ｜父类: ClothingHeadsetAlt ｜_Starlight
+- **管理员空间耳机** — `ClothingHeadsetAltAspace` ｜父类: ClothingHeadsetAlt ｜_Starlight ｜描述: A mystical headset bestowed by the deity known as The Admin.
+- **黑星佣兵耳机** — `ClothingHeadsetAltBlackstar` ｜父类: ClothingHeadsetAlt ｜_Starlight ｜描述: A headset used by elite Blackstar mercenaries.
 - **蓝盾头戴式耳机** — `ClothingHeadsetAltBSO` ｜父类: ClothingHeadsetAlt,BaseBlueShieldContraband ｜_Starlight
 - **军需官包耳式耳机** — `ClothingHeadsetAltCargo` ｜父类: ClothingHeadsetAlt
 - **中央指挥部头戴式耳机** — `ClothingHeadsetAltCentCom` ｜父类: ClothingHeadsetAlt,BaseCentcommContraband ｜_Starlight
 - **中央指挥部特工头戴式耳机** — `ClothingHeadsetAltCentComDS` ｜父类: ClothingHeadsetAltCentCom,BaseCentcommContraband ｜_Starlight
 - **指挥部包耳式耳机** — `ClothingHeadsetAltCommand` ｜父类: ClothingHeadsetAlt,BaseCommandContraband
-- **耳机** — `ClothingHeadsetAltEmpty` ｜父类: ClothingHeadsetAlt ｜_Starlight
+- **耳机** — `ClothingHeadsetAltEmpty` ｜父类: ClothingHeadsetAlt ｜_Starlight ｜描述: A standard headset.
 - **工程主管包耳式耳机** — `ClothingHeadsetAltEngineering` ｜父类: ClothingHeadsetAlt,BaseCommandContraband
 - **自由职业者包耳式耳机** — `ClothingHeadsetAltFreelancer` ｜父类: ClothingHeadsetAlt
-- **全局耳机** — `ClothingHeadsetAltGlobal` ｜父类: ClothingHeadsetAlt ｜_Starlight
+- **全局耳机** — `ClothingHeadsetAltGlobal` ｜父类: ClothingHeadsetAlt ｜_Starlight ｜描述: A headset capable of transmitting globally! Oh wait, that's just the name of the channel.
 - **医疗主管包耳式耳机** — `ClothingHeadsetAltMedical` ｜父类: ClothingHeadsetAlt,BaseCommandContraband
-- **商人耳机** — `ClothingHeadsetAltMerchant` ｜父类: ClothingHeadsetAlt ｜_Starlight
+- **商人耳机** — `ClothingHeadsetAltMerchant` ｜父类: ClothingHeadsetAlt ｜_Starlight ｜描述: A headset for merchants to communicate with one another.
 - **纳米传讯头戴式耳机** — `ClothingHeadsetAltNanoTrasen` ｜父类: ClothingHeadsetAlt,BaseNanoTrasenContraband ｜_Starlight
-- **纳米传讯职业培训员头戴式耳机** — `ClothingHeadsetAltNCTrainer` ｜父类: ClothingHeadsetAlt,BaseNanoTrasenContraband ｜_Starlight
+- **纳米传讯职业培训员头戴式耳机** — `ClothingHeadsetAltNCTrainer` ｜父类: ClothingHeadsetAlt,BaseNanoTrasenContraband ｜_Starlight ｜描述: This is used by your well-taught corporate training team.
 - **NTSF头戴式耳机** — `ClothingHeadsetAltNTSF` ｜父类: ClothingHeadsetAltNanoTrasen,BaseNanoTrasenContraband ｜_Starlight
 - **纳米传讯代表头戴式耳机** — `ClothingHeadsetAltRepresentative` ｜父类: ClothingHeadsetAlt,BaseNanoTrasenContraband ｜_Starlight
 - **研究主管包耳式耳机** — `ClothingHeadsetAltScience` ｜父类: ClothingHeadsetAlt,BaseCommandContraband
 - **安保主管包耳式耳机** — `ClothingHeadsetAltSecurity` ｜父类: ClothingHeadsetAlt,BaseCommandContraband
-- **SSF陆战队头戴式耳机** — `ClothingHeadsetAltSoviet` ｜父类: ClothingHeadsetAlt,BaseSovietContraband ｜_Starlight
-- **血红包耳式耳机** — `ClothingHeadsetAltSyndicate` ｜父类: ClothingHeadsetAlt,BaseSyndicateContraband
-- **血红色头戴式特工耳机** — `ClothingHeadsetAltSyndicateAgent` ｜父类: ClothingHeadsetAlt,BaseSyndicateContraband ｜_Starlight
-- **血红色头戴式指挥官耳机** — `ClothingHeadsetAltSyndicateCommander` ｜父类: ClothingHeadsetAlt,BaseSyndicateContraband ｜_Starlight
+- **SSF陆战队头戴式耳机** — `ClothingHeadsetAltSoviet` ｜父类: ClothingHeadsetAlt,BaseSovietContraband ｜_Starlight ｜描述: Priyom.
+- **血红包耳式耳机** — `ClothingHeadsetAltSyndicate` ｜父类: ClothingHeadsetAlt,BaseSyndicateContraband ｜描述: An updated, modular syndicate intercom that fits over the head and takes encryption keys (there are 5 key slots.).
+- **血红色头戴式特工耳机** — `ClothingHeadsetAltSyndicateAgent` ｜父类: ClothingHeadsetAlt,BaseSyndicateContraband ｜_Starlight ｜描述: An updated, modular syndicate intercom that fits over the head and takes encryption keys (there are 5 key slots.).
+- **血红色头戴式指挥官耳机** — `ClothingHeadsetAltSyndicateCommander` ｜父类: ClothingHeadsetAlt,BaseSyndicateContraband ｜_Starlight ｜描述: An updated, modular syndicate intercom that fits over the head and takes encryption keys (there are 5 key slots.).
 - **巫师包耳式耳机** — `ClothingHeadsetAltWizard` ｜父类: ClothingHeadsetAlt,BaseMagicalContraband
-- **助理耳机** — `ClothingHeadsetAssistant` ｜父类: ClothingHeadset
+- **助理耳机** — `ClothingHeadsetAssistant` ｜父类: ClothingHeadset ｜描述: A headset used by assistants.
 - **偷来的耳机** — `ClothingHeadsetAssistantNinja` ｜父类: ClothingHeadset,BaseMajorContraband ｜_Starlight
-- **狱医耳机 # Starlight** — `ClothingHeadsetBrigmedic` ｜父类: ClothingHeadset,BaseSecurityContraband
-- **货运部耳机** — `ClothingHeadsetCargo` ｜父类: ClothingHeadset
-- **工程主管耳机** — `ClothingHeadsetCE` ｜父类: ClothingHeadsetEngineering,BaseCommandContraband
-- **中央指挥部耳机** — `ClothingHeadsetCentCom` ｜父类: ClothingHeadset,BaseCentcommContraband
-- **助理耳机** — `ClothingHeadsetChameleon` ｜父类: ClothingHeadsetAssistant,BaseChameleon
-- **医疗主管耳机** — `ClothingHeadsetCMO` ｜父类: ClothingHeadsetMedical,BaseCommandContraband
-- **指挥部耳机** — `ClothingHeadsetCommand` ｜父类: ClothingHeadset,BaseCommandContraband
-- **侦探耳机** — `ClothingHeadsetDetective` ｜父类: ClothingHeadsetSecurity ｜_Starlight
-- **工程部耳机** — `ClothingHeadsetEngineering` ｜父类: ClothingHeadset
-- **自由职业者耳机** — `ClothingHeadsetFreelance` ｜父类: ClothingHeadset
+- **狱医耳机 # Starlight** — `ClothingHeadsetBrigmedic` ｜父类: ClothingHeadset,BaseSecurityContraband ｜描述: A headset that helps to hear the death cries.
+- **货运部耳机** — `ClothingHeadsetCargo` ｜父类: ClothingHeadset ｜描述: A headset used by supply employees.
+- **工程主管耳机** — `ClothingHeadsetCE` ｜父类: ClothingHeadsetEngineering,BaseCommandContraband ｜描述: A headset for the chief engineer to ignore all emergency calls on.
+- **中央指挥部耳机** — `ClothingHeadsetCentCom` ｜父类: ClothingHeadset,BaseCentcommContraband ｜描述: A headset used by the upper echelons of Central Command.
+- **助理耳机** — `ClothingHeadsetChameleon` ｜父类: ClothingHeadsetAssistant,BaseChameleon ｜描述: An updated, modular intercom that fits over the head. Takes encryption keys.
+- **医疗主管耳机** — `ClothingHeadsetCMO` ｜父类: ClothingHeadsetMedical,BaseCommandContraband ｜描述: A headset used by the CMO.
+- **指挥部耳机** — `ClothingHeadsetCommand` ｜父类: ClothingHeadset,BaseCommandContraband ｜描述: A headset with a commanding channel.
+- **侦探耳机** — `ClothingHeadsetDetective` ｜父类: ClothingHeadsetSecurity ｜_Starlight ｜描述: This is used by your wise detective.
+- **工程部耳机** — `ClothingHeadsetEngineering` ｜父类: ClothingHeadset ｜描述: A headset for engineers to chat while the station burns around them.
+- **自由职业者耳机** — `ClothingHeadsetFreelance` ｜父类: ClothingHeadset ｜描述: This is used by a roaming group of freelancers.
 - **指挥部头戴式耳机** — `ClothingHeadsetHoP` ｜父类: ClothingHeadsetAlt,BaseCommandContraband ｜_Starlight
-- **内部事务代理耳机** — `ClothingHeadsetIAA` ｜父类: ClothingHeadset,BaseNanoTrasenContraband ｜_Starlight
-- **律师耳机** — `ClothingHeadsetLawyer` ｜父类: ClothingHeadset ｜_Starlight
-- **裁判官耳机** — `ClothingHeadsetMagistrate` ｜父类: ClothingHeadset,BaseNanoTrasenContraband ｜_Starlight
-- **医疗部耳机** — `ClothingHeadsetMedical` ｜父类: ClothingHeadset
-- **医疗科研耳机** — `ClothingHeadsetMedicalScience` ｜父类: ClothingHeadsetScience
-- **采矿耳机** — `ClothingHeadsetMining` ｜父类: ClothingHeadsetCargo
-- **纳米传讯职业培训员无线电耳机** — `ClothingHeadsetNCT` ｜父类: ClothingHeadset,BaseNanoTrasenContraband ｜_Starlight
-- **绿色耳机** — `ClothingHeadsetNinja` ｜父类: ClothingHeadset,BaseMajorContraband
-- **军需官耳机** — `ClothingHeadsetQM` ｜父类: ClothingHeadsetCargo,BaseCommandContraband
-- **研究主管耳机** — `ClothingHeadsetRD` ｜父类: ClothingHeadsetScience,BaseCommandContraband
-- **机器人技术耳机** — `ClothingHeadsetRobotics` ｜父类: ClothingHeadsetScience
-- **打捞队长耳机** — `ClothingHeadsetSalvageLead` ｜父类: ClothingHeadsetCargo ｜_Starlight
-- **科研部耳机** — `ClothingHeadsetScience` ｜父类: ClothingHeadset
-- **安保部耳机** — `ClothingHeadsetSecurity` ｜父类: ClothingHeadset,BaseSecurityContraband
-- **典狱长耳机** — `ClothingHeadsetSecurityWarden` ｜父类: ClothingHeadset,BaseSecurityContraband ｜_Starlight
-- **服务部耳机** — `ClothingHeadsetService` ｜父类: ClothingHeadset
+- **内部事务代理耳机** — `ClothingHeadsetIAA` ｜父类: ClothingHeadset,BaseNanoTrasenContraband ｜_Starlight ｜描述: A headset for internal affairs agents to hear the captain's last words.
+- **律师耳机** — `ClothingHeadsetLawyer` ｜父类: ClothingHeadset ｜_Starlight ｜描述: Headset used by the lawyers, tasked with keeping the station's crew properly represented.
+- **裁判官耳机** — `ClothingHeadsetMagistrate` ｜父类: ClothingHeadset,BaseNanoTrasenContraband ｜_Starlight ｜描述: A headset for magistrates to hear the captain's last words.
+- **医疗部耳机** — `ClothingHeadsetMedical` ｜父类: ClothingHeadset ｜描述: A headset for the trained staff of the medbay.
+- **医疗科研耳机** — `ClothingHeadsetMedicalScience` ｜父类: ClothingHeadsetScience ｜描述: A headset that is a result of the mating between medical and science.
+- **采矿耳机** — `ClothingHeadsetMining` ｜父类: ClothingHeadsetCargo ｜描述: Headset used by mining specialists.
+- **纳米传讯职业培训员无线电耳机** — `ClothingHeadsetNCT` ｜父类: ClothingHeadset,BaseNanoTrasenContraband ｜_Starlight ｜描述: This is used by your well-taught corporate training team.
+- **绿色耳机** — `ClothingHeadsetNinja` ｜父类: ClothingHeadset,BaseMajorContraband ｜描述: Who could refuse to wear this stylish black and green headset?
+- **军需官耳机** — `ClothingHeadsetQM` ｜父类: ClothingHeadsetCargo,BaseCommandContraband ｜描述: A headset used by the quartermaster.
+- **研究主管耳机** — `ClothingHeadsetRD` ｜父类: ClothingHeadsetScience,BaseCommandContraband ｜描述: Lamarr used to love chewing on this...
+- **机器人技术耳机** — `ClothingHeadsetRobotics` ｜父类: ClothingHeadsetScience ｜描述: Made specifically for the roboticists, who cannot decide between departments.
+- **打捞队长耳机** — `ClothingHeadsetSalvageLead` ｜父类: ClothingHeadsetCargo ｜_Starlight ｜描述: Headset used by the salvage lead.
+- **科研部耳机** — `ClothingHeadsetScience` ｜父类: ClothingHeadset ｜描述: A sciency headset. Like usual.
+- **安保部耳机** — `ClothingHeadsetSecurity` ｜父类: ClothingHeadset,BaseSecurityContraband ｜描述: This is used by your elite security force.
+- **典狱长耳机** — `ClothingHeadsetSecurityWarden` ｜父类: ClothingHeadset,BaseSecurityContraband ｜_Starlight ｜描述: This is used by your elite warden.
+- **服务部耳机** — `ClothingHeadsetService` ｜父类: ClothingHeadset ｜描述: Headset used by the service staff, tasked with keeping the station full, happy and clean.
 - **跨太阳系商人耳机** — `ClothingHeadsetTSFTrader` ｜父类: BaseTSFContraband,ClothingHeadset ｜_Starlight
-- **访客耳机** — `ClothingHeadsetVisitor` ｜父类: ClothingHeadsetCargo ｜_Starlight
-- **巫师耳机** — `ClothingHeadsetWizard` ｜父类: ClothingHeadset,BaseMagicalContraband
-- **CBURN头盔** — `ClothingHeadSoftsuitCBURN` ｜父类: ClothingHeadEVAHelmetBase ｜_Starlight
+- **访客耳机** — `ClothingHeadsetVisitor` ｜父类: ClothingHeadsetCargo ｜_Starlight ｜描述: Headset used by people visiting the station, usually for a short time.
+- **巫师耳机** — `ClothingHeadsetWizard` ｜父类: ClothingHeadset,BaseMagicalContraband ｜描述: A headset used by the dreaded space wizards.
+- **CBURN头盔** — `ClothingHeadSoftsuitCBURN` ｜父类: ClothingHeadEVAHelmetBase ｜_Starlight ｜描述: A pressure resistant and fireproof hood worn by special cleanup units.
 - `模板` **基础带灯外骨骼服头盔** — `ClothingHeadSuitWithLightBase`
-- **威秀帽** — `ClothingHeadWehcellentCap` ｜父类: ClothingHeadBase
-- **索尔政府HUD** — `ClothingHudTSF` ｜父类: BaseTSFContraband,ClothingHeadset ｜_Starlight
-- **狐妖面具** — `ClothingKitsuneMask` ｜父类: ClothingMaskGas ｜_Starlight
+- **威秀帽** — `ClothingHeadWehcellentCap` ｜父类: ClothingHeadBase ｜描述: "It was a net hat! Tiders wear them all the time! It's got airholes in the back to keep a cross-breeze going and everything!"
+- **索尔政府HUD** — `ClothingHudTSF` ｜父类: BaseTSFContraband,ClothingHeadset ｜_Starlight ｜描述: Visor with a built-in modern OCULUS array augments the wearer's vision.
+- **狐妖面具** — `ClothingKitsuneMask` ｜父类: ClothingMaskGas ｜_Starlight ｜描述: A ceramic mask fox mask.
 - `模板` **ClothingMaskBandanaBase** — `ClothingMaskBandanaBase` ｜父类: ClothingMaskBaseButcherable,BaseFoldable
-- **黑色头巾** — `ClothingMaskBandBlack` ｜父类: ClothingMaskBandanaBase
-- **蓝色头巾** — `ClothingMaskBandBlue` ｜父类: ClothingMaskBandanaBase
-- **植物学头巾** — `ClothingMaskBandBotany` ｜父类: ClothingMaskBandanaBase
-- **棕色头巾** — `ClothingMaskBandBrown` ｜父类: ClothingMaskBandanaBase
-- **金头巾** — `ClothingMaskBandGold` ｜父类: ClothingMaskBandanaBase
-- **绿色头巾** — `ClothingMaskBandGreen` ｜父类: ClothingMaskBandanaBase
-- **灰色头巾** — `ClothingMaskBandGrey` ｜父类: ClothingMaskBandanaBase
-- **雇佣兵头巾** — `ClothingMaskBandMerc` ｜父类: ClothingMaskBandanaBase
-- **红色头巾** — `ClothingMaskBandRed` ｜父类: ClothingMaskBandanaBase
-- **骷髅头巾** — `ClothingMaskBandSkull` ｜父类: ClothingMaskBandanaBase
+- **黑色头巾** — `ClothingMaskBandBlack` ｜父类: ClothingMaskBandanaBase ｜描述: A black bandana to make you look cool.
+- **蓝色头巾** — `ClothingMaskBandBlue` ｜父类: ClothingMaskBandanaBase ｜描述: A blue bandana to make you look cool.
+- **植物学头巾** — `ClothingMaskBandBotany` ｜父类: ClothingMaskBandanaBase ｜描述: A botany bandana to make you look cool, made from natural fibers.
+- **棕色头巾** — `ClothingMaskBandBrown` ｜父类: ClothingMaskBandanaBase ｜描述: A brown bandana to make you look cool.
+- **金头巾** — `ClothingMaskBandGold` ｜父类: ClothingMaskBandanaBase ｜描述: A gold bandana to make you look cool.
+- **绿色头巾** — `ClothingMaskBandGreen` ｜父类: ClothingMaskBandanaBase ｜描述: A green bandana to make you look cool.
+- **灰色头巾** — `ClothingMaskBandGrey` ｜父类: ClothingMaskBandanaBase ｜描述: A grey bandana to make you look cool.
+- **雇佣兵头巾** — `ClothingMaskBandMerc` ｜父类: ClothingMaskBandanaBase ｜描述: To protect the head from the sun, insects and other dangers of the higher path.
+- **红色头巾** — `ClothingMaskBandRed` ｜父类: ClothingMaskBandanaBase ｜描述: A red bandana to make you look cool.
+- **骷髅头巾** — `ClothingMaskBandSkull` ｜父类: ClothingMaskBandanaBase ｜描述: A bandana with a skull to make you look even cooler.
 - `模板` **ClothingMaskBase** — `ClothingMaskBase` ｜父类: Clothing
 - `模板` **ClothingMaskBaseButcherable** — `ClothingMaskBaseButcherable` ｜父类: ClothingMaskBase
-- **蝙蝠面具** — `ClothingMaskBat` ｜父类: ClothingMaskBase
-- **熊面具** — `ClothingMaskBear` ｜父类: ClothingMaskBase
-- **蜜蜂面具** — `ClothingMaskBee` ｜父类: ClothingMaskBase
-- **红晕小丑面具** — `ClothingMaskBlushingClown` ｜父类: ClothingMaskClownBase
-- **红晕哑剧面具** — `ClothingMaskBlushingMime` ｜父类: ClothingMaskMime
-- **呼吸面罩** — `ClothingMaskBreath` ｜父类: ClothingMaskPullableBase
-- **医用面罩** — `ClothingMaskBreathMedical` ｜父类: ClothingMaskPullableBase
-- **军用型医用面罩** — `ClothingMaskBreathMedicalSecurity` ｜父类: ClothingMaskBreathMedical
-- **经济型军用型医疗面具** — `ClothingMaskBreathMedicalSecurityBudget` ｜父类: ClothingMaskBreathMedicalSecurity ｜_Starlight
-- **原兽打捞员面具** — `ClothingMaskCargoBorg` ｜父类: ClothingMaskGeneralBorg ｜_Starlight
-- **小丑假发面具** — `ClothingMaskClown` ｜父类: ClothingMaskClownBase,BaseFoldable
+- **蝙蝠面具** — `ClothingMaskBat` ｜父类: ClothingMaskBase ｜描述: A bloodsucker by night, and a cute, blinded beast by day.
+- **熊面具** — `ClothingMaskBear` ｜父类: ClothingMaskBase ｜描述: I'm a cloudy, cloudy, cloudy, I'm not a bear at all.
+- **蜜蜂面具** — `ClothingMaskBee` ｜父类: ClothingMaskBase ｜描述: For the queen!
+- **红晕小丑面具** — `ClothingMaskBlushingClown` ｜父类: ClothingMaskClownBase ｜描述: A mask for a blushing clown.
+- **红晕哑剧面具** — `ClothingMaskBlushingMime` ｜父类: ClothingMaskMime ｜描述: Those ruddy cheeks just want to be rubbed.
+- **呼吸面罩** — `ClothingMaskBreath` ｜父类: ClothingMaskPullableBase ｜描述: Might as well keep this on 24/7.
+- **医用面罩** — `ClothingMaskBreathMedical` ｜父类: ClothingMaskPullableBase ｜描述: A close-fitting sterile mask that can be connected to an air supply.
+- **军用型医用面罩** — `ClothingMaskBreathMedicalSecurity` ｜父类: ClothingMaskBreathMedical ｜描述: A medical mask with a small layer of protection against damage and viruses, similar to the one used in the medical units of the first corporate war.
+- **经济型军用型医疗面具** — `ClothingMaskBreathMedicalSecurityBudget` ｜父类: ClothingMaskBreathMedicalSecurity ｜_Starlight ｜描述: A low-cost medical mask with a small layer of protection against damage and viruses. It's less effective than the standard issue medical mask, but it's better than nothing.
+- **原兽打捞员面具** — `ClothingMaskCargoBorg` ｜父类: ClothingMaskGeneralBorg ｜_Starlight ｜描述: Now that's a mask that really digs the look.
+- **小丑假发面具** — `ClothingMaskClown` ｜父类: ClothingMaskClownBase,BaseFoldable ｜描述: A clown mask featuring a foldable wig; a true prankster's attire.
 - **banana小丑假发与面具** — `ClothingMaskClownBanana` ｜父类: ClothingMaskClownBase
-- `模板` **小丑假发与面具** — `ClothingMaskClownBase` ｜父类: ClothingMaskBase
-- **安保小丑假发与面具** — `ClothingMaskClownSecurity` ｜父类: ClothingMaskClownBase,BaseSecurityContraband
-- **受诅小丑面容** — `ClothingMaskCluwne` ｜父类: ClothingMaskClownBase
-- **原兽工程师面具** — `ClothingMaskEngiBorg` ｜父类: ClothingMaskGeneralBorg ｜_Starlight
-- **狐狸面具** — `ClothingMaskFox` ｜父类: ClothingMaskBase
-- **防毒面具** — `ClothingMaskGas` ｜父类: ClothingMaskPullableBase
-- **大气防毒面具** — `ClothingMaskGasAtmos` ｜父类: ClothingMaskGas
-- **蓝色特警防毒面具** — `ClothingMaskGasBSO` ｜父类: ClothingMaskGas,BaseBlueShieldContraband ｜_Starlight
-- **舰长的防毒面具** — `ClothingMaskGasCaptain` ｜父类: ClothingMaskGasAtmos,BaseCommandContraband
-- **舰长防毒面具** — `ClothingMaskGasCaptainPodWars` ｜父类: ClothingMaskGasAtmos,BaseCommandContraband ｜_Starlight
-- **中央指挥部防毒面具** — `ClothingMaskGasCentcom` ｜父类: ClothingMaskGasAtmos,BaseCentcommContraband
-- **防毒面具** — `ClothingMaskGasChameleon` ｜父类: ClothingMaskBase,BaseChameleon
-- **安保生化面具** — `ClothingMaskGasCorpsman` ｜父类: ClothingMaskGas,BaseSecurityContraband ｜_Starlight
-- **ntsf防毒面具 #starlight** — `ClothingMaskGasDeathSquad` ｜父类: ClothingMaskGasERT
-- **ert防毒面具** — `ClothingMaskGasERT` ｜父类: ClothingMaskGas,BaseCentcommContraband
-- **探险者防毒面具** — `ClothingMaskGasExplorer` ｜父类: ClothingMaskGas,BaseCargoContraband
-- **绿盾防毒面具** — `ClothingMaskGasGSO` ｜父类: ClothingMaskGasERT ｜_Starlight
-- **雇佣兵防毒面具** — `ClothingMaskGasMerc` ｜父类: ClothingMaskGas
-- **安保防毒面具** — `ClothingMaskGasSecurity` ｜父类: ClothingMaskGas,BaseSecurityContraband
-- **特警防毒面具** — `ClothingMaskGasSwat` ｜父类: ClothingMaskGas,BaseSecurityContraband
-- **辛迪加防毒面具** — `ClothingMaskGasSyndicate` ｜父类: ClothingMaskGas,BaseSyndicateContraband
+- `模板` **小丑假发与面具** — `ClothingMaskClownBase` ｜父类: ClothingMaskBase ｜描述: A true prankster's facial attire. A clown is incomplete without his wig and mask.
+- **安保小丑假发与面具** — `ClothingMaskClownSecurity` ｜父类: ClothingMaskClownBase,BaseSecurityContraband ｜描述: A debatably oxymoronic but protective mask and wig.
+- **受诅小丑面容** — `ClothingMaskCluwne` ｜父类: ClothingMaskClownBase ｜描述: Cursed cluwne face and hair.
+- **原兽工程师面具** — `ClothingMaskEngiBorg` ｜父类: ClothingMaskGeneralBorg ｜_Starlight ｜描述: Bolts it all together.
+- **狐狸面具** — `ClothingMaskFox` ｜父类: ClothingMaskBase ｜描述: What does the fox say?
+- **防毒面具** — `ClothingMaskGas` ｜父类: ClothingMaskPullableBase ｜描述: A face-covering mask that can be connected to an air supply.
+- **大气防毒面具** — `ClothingMaskGasAtmos` ｜父类: ClothingMaskGas ｜描述: Improved gas mask utilized by atmospheric technicians. It's flameproof!
+- **蓝色特警防毒面具** — `ClothingMaskGasBSO` ｜父类: ClothingMaskGas,BaseBlueShieldContraband ｜_Starlight ｜描述: A elite issue Security gas mask. Now in blue!
+- **舰长的防毒面具** — `ClothingMaskGasCaptain` ｜父类: ClothingMaskGasAtmos,BaseCommandContraband ｜描述: NanoTrasen cut corners and repainted a spare atmospheric gas mask, but don't tell anyone.
+- **舰长防毒面具** — `ClothingMaskGasCaptainPodWars` ｜父类: ClothingMaskGasAtmos,BaseCommandContraband ｜_Starlight ｜描述: A repainted military surplus gas mask from the Pod Wars. In pretty good shape, considering it is slightly over 100 years old.
+- **中央指挥部防毒面具** — `ClothingMaskGasCentcom` ｜父类: ClothingMaskGasAtmos,BaseCentcommContraband ｜描述: Oooh, gold and green. Fancy! This should help as you sit in your office.
+- **防毒面具** — `ClothingMaskGasChameleon` ｜父类: ClothingMaskBase,BaseChameleon ｜描述: A face-covering mask that can be connected to an air supply.
+- **安保生化面具** — `ClothingMaskGasCorpsman` ｜父类: ClothingMaskGas,BaseSecurityContraband ｜_Starlight ｜描述: VERY Expensive medical PPE that provides superior pathological protection.
+- **ntsf防毒面具 #starlight** — `ClothingMaskGasDeathSquad` ｜父类: ClothingMaskGasERT ｜描述: A unique gas mask for the NT's most elite squad.
+- **ert防毒面具** — `ClothingMaskGasERT` ｜父类: ClothingMaskGas,BaseCentcommContraband ｜描述: The gas mask of the elite squad of the ERT.
+- **探险者防毒面具** — `ClothingMaskGasExplorer` ｜父类: ClothingMaskGas,BaseCargoContraband ｜描述: A military-grade gas mask that can be connected to an air supply.
+- **绿盾防毒面具** — `ClothingMaskGasGSO` ｜父类: ClothingMaskGasERT ｜_Starlight ｜描述: The gas mask of the elite of the elite, even protects the user from the dangers of welding.
+- **雇佣兵防毒面具** — `ClothingMaskGasMerc` ｜父类: ClothingMaskGas ｜描述: Slightly outdated, but reliable military-style gas mask.
+- **安保防毒面具** — `ClothingMaskGasSecurity` ｜父类: ClothingMaskGas,BaseSecurityContraband ｜描述: A standard issue Security gas mask.
+- **特警防毒面具** — `ClothingMaskGasSwat` ｜父类: ClothingMaskGas,BaseSecurityContraband ｜描述: A elite issue Security gas mask.
+- **辛迪加防毒面具** — `ClothingMaskGasSyndicate` ｜父类: ClothingMaskGas,BaseSyndicateContraband ｜描述: A close-fitting tactical mask that can be connected to an air supply.
 - **防毒面具** — `ClothingMaskGasVoiceChameleon` ｜父类: ClothingMaskGasChameleon
-- **原兽面具** — `ClothingMaskGeneralBorg` ｜父类: ClothingMaskBase ｜_Starlight
-- **金色面具** — `ClothingMaskGoldenCursed` ｜父类: ClothingMaskBase
-- **意大利moustache** — `ClothingMaskItalianMoustache` ｜父类: ClothingMaskBase
-- **胡狼面具** — `ClothingMaskJackal` ｜父类: ClothingMaskBase
-- **原兽清洁工面具** — `ClothingMaskJanitorBorg` ｜父类: ClothingMaskGeneralBorg ｜_Starlight
-- **喜悦面具** — `ClothingMaskJoy` ｜父类: ClothingMaskBase
-- **原兽医护面具** — `ClothingMaskMedicBorg` ｜父类: ClothingMaskGeneralBorg ｜_Starlight
-- **哑剧面具** — `ClothingMaskMime` ｜父类: ClothingMaskBase
-- **安保哑剧面具** — `ClothingMaskMimeSecurity` ｜父类: ClothingMaskMime,BaseSecurityContraband
-- **止声口套** — `ClothingMaskMuzzle` ｜父类: ClothingMaskBase
-- **脖套** — `ClothingMaskNeckGaiter` ｜父类: ClothingMaskBase
+- **原兽面具** — `ClothingMaskGeneralBorg` ｜父类: ClothingMaskBase ｜_Starlight ｜描述: You don't understand, we are not cybor- POW POW POW
+- **金色面具** — `ClothingMaskGoldenCursed` ｜父类: ClothingMaskBase ｜描述: Previously used in strange pantomimes, after one of the actors went mad on stage these masks have avoided use. You swear its face contorts when you're not looking.
+- **意大利moustache** — `ClothingMaskItalianMoustache` ｜父类: ClothingMaskBase ｜描述: Made from authentic Italian moustache hairs. Gives the wearer an irresistable urge to gesticulate wildly.
+- **胡狼面具** — `ClothingMaskJackal` ｜父类: ClothingMaskBase ｜描述: It is better not to turn your back to the owner of the mask, it may bite.
+- **原兽清洁工面具** — `ClothingMaskJanitorBorg` ｜父类: ClothingMaskGeneralBorg ｜_Starlight ｜描述: Sweep the floor with protogen style!
+- **喜悦面具** — `ClothingMaskJoy` ｜父类: ClothingMaskBase ｜描述: Express your happiness or hide your sorrows with this laughing face with crying tears of joy cutout.
+- **原兽医护面具** — `ClothingMaskMedicBorg` ｜父类: ClothingMaskGeneralBorg ｜_Starlight ｜描述: Look me in the face while i cut you.
+- **哑剧面具** — `ClothingMaskMime` ｜父类: ClothingMaskBase ｜描述: The traditional mime's mask. It has an eerie facial posture.
+- **安保哑剧面具** — `ClothingMaskMimeSecurity` ｜父类: ClothingMaskMime,BaseSecurityContraband ｜描述: You have the right to remain silent.
+- **止声口套** — `ClothingMaskMuzzle` ｜父类: ClothingMaskBase ｜描述: To stop that awful noise.
+- **脖套** — `ClothingMaskNeckGaiter` ｜父类: ClothingMaskBase ｜描述: Stylish neck gaiter for your neck, can protect from the cosmic wind?...
 - **红色脖套** — `ClothingMaskNeckGaiterRed` ｜父类: ClothingMaskNeckGaiter
-- **忍者面具** — `ClothingMaskNinja` ｜父类: ClothingMaskBase
-- **瘟疫医生面具** — `ClothingMaskPlague` ｜父类: ClothingMaskPullableBase
+- **忍者面具** — `ClothingMaskNinja` ｜父类: ClothingMaskBase ｜描述: A close-fitting nano-enhanced mask that acts both as an air filter and a post-modern fashion statement.
+- **瘟疫医生面具** — `ClothingMaskPlague` ｜父类: ClothingMaskPullableBase ｜描述: A bad omen.
 - `模板` **ClothingMaskPullableBase** — `ClothingMaskPullableBase` ｜父类: ClothingMaskBase
-- **老鼠面具** — `ClothingMaskRat` ｜父类: ClothingMaskBase
-- **渡鸦面具** — `ClothingMaskRaven` ｜父类: ClothingMaskBase
-- **机器人专家防毒面具** — `ClothingMaskRoboticist` ｜父类: ClothingMaskGas ｜_Starlight
-- **悲伤哑剧面具** — `ClothingMaskSadMime` ｜父类: ClothingMaskMime
-- **惊恐哑剧面具** — `ClothingMaskScaredMime` ｜父类: ClothingMaskMime
-- **原兽安保面具** — `ClothingMaskSecBorg` ｜父类: ClothingMaskGeneralBorg ｜_Starlight
-- **无菌面具** — `ClothingMaskSterile` ｜父类: ClothingMaskPullableBase
-- **可疑哑剧演员面具** — `ClothingMaskSusMime` ｜父类: ClothingMaskMime ｜_Starlight
-- **焊接防毒面具** — `ClothingMaskWeldingGas` ｜父类: ClothingMaskGas
+- **老鼠面具** — `ClothingMaskRat` ｜父类: ClothingMaskBase ｜描述: A mask of a rat that looks like a rat. Perhaps they will take you for a fellow rat.
+- **渡鸦面具** — `ClothingMaskRaven` ｜父类: ClothingMaskBase ｜描述: Where I am, death... or glitter.
+- **机器人专家防毒面具** — `ClothingMaskRoboticist` ｜父类: ClothingMaskGas ｜_Starlight ｜描述: What a sublime color set, newbie.
+- **悲伤哑剧面具** — `ClothingMaskSadMime` ｜父类: ClothingMaskMime ｜描述: Many people think this is what a real mime mask looks like.
+- **惊恐哑剧面具** — `ClothingMaskScaredMime` ｜父类: ClothingMaskMime ｜描述: Looks like it would scream if it wasn't a mask.
+- **原兽安保面具** — `ClothingMaskSecBorg` ｜父类: ClothingMaskGeneralBorg ｜_Starlight ｜描述: Always on guard, nothing escapes those mechanical eyes.
+- **无菌面具** — `ClothingMaskSterile` ｜父类: ClothingMaskPullableBase ｜描述: A sterile mask designed to help prevent the spread of diseases.
+- **可疑哑剧演员面具** — `ClothingMaskSusMime` ｜父类: ClothingMaskMime ｜_Starlight ｜描述: For when your crewmates say something a little sus.
+- **焊接防毒面具** — `ClothingMaskWeldingGas` ｜父类: ClothingMaskGas ｜描述: A gas mask with built in welding goggles and face shield. Looks like a skull, clearly designed by a nerd.
 - `模板` **ClothingMiscBase** — `ClothingMiscBase` ｜父类: Clothing ｜_Starlight
-- **优秀船员金质奖章** — `ClothingMiscChameleon` ｜父类: ClothingMiscBase,BaseChameleon ｜_Starlight
-- **耳机** — `ClothingMultipleHeadphones` ｜父类: Clothing
-- **高端耳机** — `ClothingMultipleHeadphonesHighEnd` ｜父类: ClothingMultipleHeadphones ｜_Starlight
-- **记者耳机** — `ClothingMultipleHeadphonesReporter` ｜父类: ClothingMultipleHeadphones ｜_Starlight
-- **异性恋盟友胸针** — `ClothingNeckAllyPin` ｜父类: ClothingGenderPinBase
-- **善行徽章** — `ClothingNeckAngelPin` ｜父类: ClothingNeckPinBase ｜_Starlight
-- **aroace胸针** — `ClothingNeckAroacePin` ｜父类: ClothingGenderPinBase
-- **无浪漫倾向胸针** — `ClothingNeckAromanticPin` ｜父类: ClothingGenderPinBase
-- **无性恋胸针** — `ClothingNeckAsexualPin` ｜父类: ClothingGenderPinBase
-- **神经多样性胸针** — `ClothingNeckAutismPin` ｜父类: ClothingNeckPinBase
+- **优秀船员金质奖章** — `ClothingMiscChameleon` ｜父类: ClothingMiscBase,BaseChameleon ｜_Starlight ｜描述: Given to crewmates who display excellent crewmanship.
+- **耳机** — `ClothingMultipleHeadphones` ｜父类: Clothing ｜描述: Quality headphones from Drunk Masters, with good sound insulation.
+- **高端耳机** — `ClothingMultipleHeadphonesHighEnd` ｜父类: ClothingMultipleHeadphones ｜_Starlight ｜描述: Perfect for audiophiles everywhere.
+- **记者耳机** — `ClothingMultipleHeadphonesReporter` ｜父类: ClothingMultipleHeadphones ｜_Starlight ｜描述: Checking in with the studio now... you don't say!?
+- **异性恋盟友胸针** — `ClothingNeckAllyPin` ｜父类: ClothingGenderPinBase ｜描述: Be ally do crime.
+- **善行徽章** — `ClothingNeckAngelPin` ｜父类: ClothingNeckPinBase ｜_Starlight ｜描述: For the best!
+- **aroace胸针** — `ClothingNeckAroacePin` ｜父类: ClothingGenderPinBase ｜描述: Be aroace do crime.
+- **无浪漫倾向胸针** — `ClothingNeckAromanticPin` ｜父类: ClothingGenderPinBase ｜描述: Be aro do crime.
+- **无性恋胸针** — `ClothingNeckAsexualPin` ｜父类: ClothingGenderPinBase ｜描述: Be ace do crime.
+- **神经多样性胸针** — `ClothingNeckAutismPin` ｜父类: ClothingNeckPinBase ｜描述: Be neurodivergent, do crime.
 - `模板` **ClothingNeckBase** — `ClothingNeckBase` ｜父类: Clothing
-- **双性恋胸针** — `ClothingNeckBisexualPin` ｜父类: ClothingGenderPinBase
-- **金链子** — `ClothingNeckBling` ｜父类: ClothingNeckBase
-- **铜心奖章** — `ClothingNeckBronzeheart` ｜父类: ClothingMiscBase
-- **兔子帮围巾** — `ClothingNeckBunnyGang` ｜父类: ClothingScarfBase ｜_Starlight
-- **纳米传讯特种部队披风** — `ClothingNeckCapeNTSF1` ｜父类: ClothingNeckBase,BaseCommandContraband ｜_Starlight
-- **纳米传讯特种部队披风** — `ClothingNeckCapeNTSF2` ｜父类: ClothingNeckBase,BaseCommandContraband ｜_Starlight
-- **纳米传讯特种部队披风** — `ClothingNeckCapeNTSF3` ｜父类: ClothingNeckBase,BaseCommandContraband ｜_Starlight
-- **纳米传讯特种部队披风** — `ClothingNeckCapeNTSF4` ｜父类: ClothingNeckBase,BaseCommandContraband ｜_Starlight
-- **纳米传讯特种部队披风** — `ClothingNeckCapeNTSF5` ｜父类: ClothingNeckBase,BaseCommandContraband ｜_Starlight
-- **纳米传讯特种部队披风** — `ClothingNeckCapeNTSF6` ｜父类: ClothingNeckBase,BaseCommandContraband ｜_Starlight
-- **纳米传讯特种部队披风** — `ClothingNeckCapeNTSF7` ｜父类: ClothingNeckBase,BaseCommandContraband ｜_Starlight
-- **纳米传讯特种部队披风** — `ClothingNeckCapeNTSF8` ｜父类: ClothingNeckBase,BaseCommandContraband ｜_Starlight
-- **纳米传讯特种部队披风** — `ClothingNeckCapeNTSF9` ｜父类: ClothingNeckBase,BaseCommandContraband ｜_Starlight
-- **纳米传讯特种部队披风** — `ClothingNeckCapeNTSFLead` ｜父类: ClothingNeckBase,BaseCommandContraband ｜_Starlight
-- **货运奖章** — `ClothingNeckCargomedal` ｜父类: ClothingMiscBase
-- **条纹红色围巾** — `ClothingNeckChameleon` ｜父类: ClothingNeckBase,BaseChameleon
-- **飞行员的斗篷** — `ClothingNeckCloakAce` ｜父类: ClothingNeckBase
-- **weh斗篷** — `ClothingNeckCloakAdmin` ｜父类: ClothingNeckBase
-- **狼人斗篷** — `ClothingNeckCloakAro` ｜父类: ClothingNeckBase
-- **aero飞行员的斗篷 # thank you happyman442 this was  best name idea ever** — `ClothingNeckCloakAroace` ｜父类: ClothingNeckBase
-- **剧毒斗篷** — `ClothingNeckCloakBi` ｜父类: ClothingNeckBase
-- **舰长斗篷** — `ClothingNeckCloakBoat` ｜父类: ClothingNeckBase,BaseCommandContraband ｜DeltaV
-- **中央指挥部船形斗篷** — `ClothingNeckCloakBoatCC` ｜父类: ClothingNeckBase ｜DeltaV
-- **安保主管船形斗篷** — `ClothingNeckCloakBoatHos` ｜父类: ClothingNeckBase,BaseCommandContraband ｜DeltaV
-- **蓝盾礼服斗篷** — `ClothingNeckCloakBsoCape` ｜父类: ClothingNeckBase,BaseBlueShieldContraband ｜_Starlight
-- **精英蓝盾斗篷** — `ClothingNeckCloakBsoElite` ｜父类: ClothingNeckBase,BaseBlueShieldContraband ｜_Starlight
-- **蓝盾斗篷** — `ClothingNeckCloakBsoPoncho` ｜父类: ClothingNeckBase,BaseBlueShieldContraband ｜_Starlight
-- **舰长的斗篷** — `ClothingNeckCloakCap` ｜父类: ClothingNeckBase,BaseCommandContraband
-- **精英舰长斗篷** — `ClothingNeckCloakCapElite` ｜父类: ClothingNeckBase,BaseCommandContraband ｜_Starlight
-- **舰长的formal斗篷** — `ClothingNeckCloakCapFormal` ｜父类: ClothingNeckBase,BaseCommandContraband
-- **中央指挥部斗篷** — `ClothingNeckCloakCCponcho` ｜父类: ClothingNeckBase,BaseCentcommContraband ｜_Starlight
-- **工程主管的斗篷** — `ClothingNeckCloakCe` ｜父类: ClothingNeckBase,BaseCommandContraband
-- **中央工程部披肩** — `ClothingNeckCloakCEDMantle` ｜父类: ClothingNeckBase,BaseCentcommContraband ｜_Starlight
-- **精英主管工程师斗篷** — `ClothingNeckCloakCeElite` ｜父类: ClothingNeckBase,BaseCommandContraband ｜_Starlight
-- **centralcommander的斗篷** — `ClothingNeckCloakCentcom` ｜父类: ClothingNeckBase
-- **海军上将披风** — `ClothingNeckCloakCentcomAdmiral` ｜父类: ClothingNeckBase ｜_Starlight
-- **特种行动干员斗篷** — `ClothingNeckCloakCentcomBlack` ｜父类: ClothingNeckBase ｜_Starlight
-- **中央医疗部门披肩** — `ClothingNeckCloakCMDMantle` ｜父类: ClothingNeckMantleCMO,BaseCentcommContraband ｜_Starlight
-- **政委大衣** — `ClothingNeckCloakCommissar` ｜父类: BaseItem,ClothingNeckBase,ClothingOuterBaseLarge,AllowSuitStorageClothing,BaseSovietContraband ｜_Starlight
-- **中央科研部门披肩** — `ClothingNeckCloakCRDMantle` ｜父类: ClothingNeckMantleRD,BaseCentcommContraband ｜_Starlight
-- **宝藏hunter斗篷** — `ClothingNeckCloakEnby` ｜父类: ClothingNeckBase
-- **骄傲斗篷** — `ClothingNeckCloakGay` ｜父类: ClothingNeckBase
-- **歌利亚斗篷** — `ClothingNeckCloakGoliathCloak` ｜父类: ClothingNeckBase
-- **herald的斗篷** — `ClothingNeckCloakHerald` ｜父类: ClothingNeckBase
-- **honk斗篷** — `ClothingNeckCloakHonk` ｜父类: ClothingNeckBase
-- **人事主管的斗篷** — `ClothingNeckCloakHop` ｜父类: ClothingNeckBase,BaseCommandContraband
-- **精英人事主管斗篷** — `ClothingNeckCloakHopElite` ｜父类: ClothingNeckBase,BaseCommandContraband ｜_Starlight
-- **人事主管正式斗篷** — `ClothingNeckCloakHopFormal` ｜父类: ClothingNeckBase,BaseCommandContraband ｜DeltaV
-- **安保主管的斗篷** — `ClothingNeckCloakHos` ｜父类: ClothingNeckBase,BaseCommandContraband
-- **精英安保主管斗篷** — `ClothingNeckCloakHosElite` ｜父类: ClothingNeckBase,BaseCommandContraband ｜_Starlight
-- **M-81火线斗篷** — `ClothingNeckCloakHosFireline` ｜父类: ClothingNeckBase,BaseCommandContraband ｜_Starlight
-- **复古安保斗篷** — `ClothingNeckCloakHosRetro` ｜父类: ClothingNeckBase,BaseCommandContraband ｜_Starlight
-- **cyclops斗篷** — `ClothingNeckCloakIntersex` ｜父类: ClothingNeckBase
-- **诗人斗篷** — `ClothingNeckCloakLesbian` ｜父类: ClothingNeckBase
-- **蛾翼斗篷** — `ClothingNeckCloakMoth` ｜父类: ClothingNeckBase
-- **纳米传讯斗篷** — `ClothingNeckCloakNanotrasen` ｜父类: ClothingNeckBase
-- **NT代表斗篷** — `ClothingNeckCloakNtr` ｜父类: ClothingNeckBase,BaseCommandContraband ｜DeltaV
-- **厨师的斗篷** — `ClothingNeckCloakPan` ｜父类: ClothingNeckBase
-- **海盗舰长斗篷** — `ClothingNeckCloakPirateCap` ｜父类: ClothingNeckBase
-- **军需官的斗篷** — `ClothingNeckCloakQm` ｜父类: ClothingNeckBase,BaseCommandContraband
-- **精英军需官斗篷** — `ClothingNeckCloakQmElite` ｜父类: ClothingNeckBase,BaseCommandContraband ｜_Starlight
-- **研究主管的斗篷** — `ClothingNeckCloakRd` ｜父类: ClothingNeckBase,BaseCommandContraband
-- **精英科研主管斗篷** — `ClothingNeckCloakRdElite` ｜父类: ClothingNeckBase,BaseCommandContraband ｜_Starlight
-- **superemesalvager的斗篷** — `ClothingNeckCloakSalvagerSupreme` ｜父类: ClothingNeckBase
-- **至尊清洁工斗篷** — `ClothingNeckCloakSupremeJanitor` ｜父类: ClothingNeckBase ｜_Starlight
-- **吸血鬼斗篷** — `ClothingNeckCloakTrans` ｜父类: ClothingNeckBase
-- **虚空斗篷** — `ClothingNeckCloakVoid` ｜父类: ClothingNeckBase
-- **典狱长斗篷** — `ClothingNeckCloakwarden` ｜父类: ClothingNeckBase ｜_Starlight
-- **小丑奖章** — `ClothingNeckClownmedal` ｜父类: ClothingMiscBase
-- **医疗主管披肩外套** — `ClothingNeckCmoOverShoulder` ｜父类: ClothingNeckBase,BaseCommandContraband ｜DeltaV
-- **医疗主管披肩** — `ClothingNeckCmoShawl` ｜父类: ClothingNeckBase,BaseCommandContraband ｜DeltaV
-- **恶行徽章** — `ClothingNeckDevilPin` ｜父类: ClothingNeckAngelPin ｜_Starlight
-- **工程师奖章** — `ClothingNeckEngineermedal` ｜父类: ClothingMiscBase
-- **爆炸项圈** — `ClothingNeckExplosiveCollar` ｜父类: ClothingNeckBase,BaseSyndicateContraband ｜_Starlight
-- **眼之护符** — `ClothingNeckEyeAmulet` ｜父类: ClothingNeckBase ｜_Starlight
-- **男同性恋胸针** — `ClothingNeckGayPin` ｜父类: ClothingGenderPinBase
-- **genderfluid胸针** — `ClothingNeckGenderfluidPin` ｜父类: ClothingGenderPinBase
-- **genderqueer胸针** — `ClothingNeckGenderqueerPin` ｜父类: ClothingGenderPinBase
-- **autism胸针** — `ClothingNeckGoldAutismPin` ｜父类: ClothingNeckPinBase
-- **金奖章ofcrewmanship** — `ClothingNeckGoldmedal` ｜父类: ClothingMiscBase
-- **绿盾披肩** — `ClothingNeckGreenshield` ｜父类: ClothingNeckBase ｜_Starlight
-- **骇人领带** — `ClothingNeckHorrific` ｜父类: ClothingNeckBase ｜_Starlight
-- **安保主管奢华礼袍** — `ClothingNeckHosRobe` ｜父类: ClothingNeckBase,BaseCommandContraband ｜DeltaV
-- **间性胸针** — `ClothingNeckIntersexPin` ｜父类: ClothingGenderPinBase
-- **律师徽章** — `ClothingNeckLawyerbadge` ｜父类: ClothingMiscBase
-- **女同性恋胸针** — `ClothingNeckLesbianPin` ｜父类: ClothingGenderPinBase
-- **LGBT胸针** — `ClothingNeckLGBTPin` ｜父类: ClothingGenderPinBase
-- **法官披风** — `ClothingNeckMagistrateMantle` ｜父类: ClothingNeckBase,BaseCommandContraband ｜DeltaV
-- **披肩** — `ClothingNeckMantle` ｜父类: ClothingNeckBase
-- **舰长披肩** — `ClothingNeckMantleCap` ｜父类: ClothingNeckBase,BaseCommandContraband
-- **工程主管披肩** — `ClothingNeckMantleCE` ｜父类: ClothingNeckBase,BaseCommandContraband
-- **医疗主管披肩** — `ClothingNeckMantleCMO` ｜父类: ClothingNeckBase,BaseCommandContraband
-- **礼仪打捞员披肩** — `ClothingNeckMantleDecoratedSalvager` ｜父类: ClothingNeckBase,BaseSalvageContraband ｜_Starlight
-- **老兵打捞员披肩** — `ClothingNeckMantleDecoratedVeteranSalvager` ｜父类: ClothingNeckBase,BaseSalvageContraband ｜_Starlight
-- **应急响应队队长披肩** — `ClothingNeckMantleERTLeader` ｜父类: ClothingNeckBase ｜_Starlight
-- **人事主管披肩** — `ClothingNeckMantleHOP` ｜父类: ClothingNeckBase,BaseCommandContraband
-- **安保主管披肩** — `ClothingNeckMantleHOS` ｜父类: ClothingNeckBase,BaseCommandContraband
-- **军需官披肩** — `ClothingNeckMantleQM` ｜父类: ClothingNeckBase,BaseCommandContraband
-- **研究主管披肩** — `ClothingNeckMantleRD` ｜父类: ClothingNeckBase,BaseCommandContraband
-- **未识别披肩** — `ClothingNeckMantleUnidentified` ｜父类: ClothingNeckBase ｜_Starlight
-- **医疗奖章** — `ClothingNeckMedicalmedal` ｜父类: ClothingMiscBase
-- **月之护符** — `ClothingNeckMoonAmulet` ｜父类: ClothingNeckBase ｜_Starlight
-- **非二元胸针** — `ClothingNeckNonBinaryPin` ｜父类: ClothingGenderPinBase
-- **旧式裹巾** — `ClothingNeckOldMantle` ｜父类: ClothingNeckBase ｜_Starlight
-- **全性恋胸针** — `ClothingNeckOmnisexualPin` ｜父类: ClothingGenderPinBase
-- **泛性恋胸针** — `ClothingNeckPansexualPin` ｜父类: ClothingGenderPinBase
-- `模板` **胸针** — `ClothingNeckPinBase` ｜父类: ClothingMiscBase
-- **多意识体胸针** — `ClothingNeckPluralPin` ｜父类: ClothingGenderPinBase
-- **条纹无性恋围巾** — `ClothingNeckScarfStripedAce` ｜父类: ClothingScarfBase
-- **条纹无浪漫倾向围巾** — `ClothingNeckScarfStripedAro` ｜父类: ClothingScarfBase
-- **条纹aroace围巾** — `ClothingNeckScarfStripedAroace` ｜父类: ClothingScarfBase
-- **条纹双性恋围巾** — `ClothingNeckScarfStripedBiSexual` ｜父类: ClothingScarfBase
-- **条纹黑色围巾** — `ClothingNeckScarfStripedBlack` ｜父类: ClothingScarfBase
-- **条纹蓝色围巾** — `ClothingNeckScarfStripedBlue` ｜父类: ClothingScarfBase
-- **条纹棕色围巾** — `ClothingNeckScarfStripedBrown` ｜父类: ClothingScarfBase
-- **条纹中央指挥部围巾** — `ClothingNeckScarfStripedCentcom` ｜父类: ClothingScarfBase,BaseCentcommContraband
-- **条纹男同性恋围巾** — `ClothingNeckScarfStripedGay` ｜父类: ClothingScarfBase
-- **条纹绿色围巾** — `ClothingNeckScarfStripedGreen` ｜父类: ClothingScarfBase
-- **条纹间性围巾** — `ClothingNeckScarfStripedInter` ｜父类: ClothingScarfBase
-- **条纹女同性恋围巾** — `ClothingNeckScarfStripedLesbian` ｜父类: ClothingScarfBase
-- **长条纹围巾（培根款）** — `ClothingNeckScarfStripedLesbianLong` ｜父类: ClothingScarfBase
-- **条纹浅色蓝色围巾** — `ClothingNeckScarfStripedLightBlue` ｜父类: ClothingScarfBase
-- **条纹非二元围巾** — `ClothingNeckScarfStripedNonBinary` ｜父类: ClothingScarfBase
-- **条纹橙色围巾** — `ClothingNeckScarfStripedOrange` ｜父类: ClothingScarfBase
-- **条纹pan围巾** — `ClothingNeckScarfStripedPan` ｜父类: ClothingScarfBase
-- **条纹紫色围巾** — `ClothingNeckScarfStripedPurple` ｜父类: ClothingScarfBase
-- **彩虹围巾** — `ClothingNeckScarfStripedRainbow` ｜父类: ClothingScarfBase
-- **条纹红色围巾** — `ClothingNeckScarfStripedRed` ｜父类: ClothingScarfBase
-- **条纹辛迪加绿色围巾** — `ClothingNeckScarfStripedSyndieGreen` ｜父类: ClothingScarfBase,BaseMinorContraband
-- **条纹辛迪加红色围巾** — `ClothingNeckScarfStripedSyndieRed` ｜父类: ClothingScarfBase,BaseMinorContraband
-- **条纹trans围巾** — `ClothingNeckScarfStripedTrans` ｜父类: ClothingScarfBase
-- **斑马纹围巾** — `ClothingNeckScarfStripedZebra` ｜父类: ClothingScarfBase
-- **科研奖章** — `ClothingNeckSciencemedal` ｜父类: ClothingMiscBase
-- **安保奖章** — `ClothingNeckSecuritymedal` ｜父类: ClothingMiscBase
-- **星之护符** — `ClothingNeckStarAmulet` ｜父类: ClothingNeckBase ｜_Starlight
-- **听诊器** — `ClothingNeckStethoscope` ｜父类: Clothing
-- **牧师圣带** — `ClothingNeckStoleChaplain` ｜父类: ClothingNeckBase
-- **日之护符** — `ClothingNeckSunAmulet` ｜父类: ClothingNeckBase ｜_Starlight
-- **破旧兜帽** — `ClothingNeckTatteredHood` ｜父类: ClothingNeckBase ｜_Starlight
-- **侦探的领带** — `ClothingNeckTieDet` ｜父类: ClothingNeckBase
-- **贵族披肩** — `ClothingNeckTieGeoffroyblack12` ｜父类: ClothingNeckBase ｜_Starlight
-- **红色-领带** — `ClothingNeckTieRed` ｜父类: ClothingNeckBase
-- **科学家的领带** — `ClothingNeckTieSci` ｜父类: ClothingNeckBase
-- **跨性别胸针** — `ClothingNeckTransPin` ｜父类: ClothingGenderPinBase
-- **TSF徽章** — `ClothingNeckTSFBadge` ｜父类: ClothingNeckBase,BaseTSFContraband ｜_Starlight
-- **虚无空间汲取器** — `ClothingNullSpaceDrainer` ｜父类: Clothing,BaseSecurityScienceCommandContraband ｜_Starlight
-- **围裙** — `ClothingOuterApron` ｜父类: ClothingOuterStorageBase
-- **围裙** — `ClothingOuterApronBar` ｜父类: ClothingOuterStorageBase
-- **围裙** — `ClothingOuterApronBotanist` ｜父类: ClothingOuterStorageBase
-- **围裙** — `ClothingOuterApronChef` ｜父类: ClothingOuterStorageBase
+- **双性恋胸针** — `ClothingNeckBisexualPin` ｜父类: ClothingGenderPinBase ｜描述: Be bi do crime.
+- **金链子** — `ClothingNeckBling` ｜父类: ClothingNeckBase ｜描述: Damn, it feels good to be a gangster.
+- **铜心奖章** — `ClothingNeckBronzeheart` ｜父类: ClothingMiscBase ｜描述: Given to crewmates for exemplary bravery in the face of danger.
+- **兔子帮围巾** — `ClothingNeckBunnyGang` ｜父类: ClothingScarfBase ｜_Starlight ｜描述: The scarf of a secretive group of bunny mercenaries.
+- **纳米传讯特种部队披风** — `ClothingNeckCapeNTSF1` ｜父类: ClothingNeckBase,BaseCommandContraband ｜_Starlight ｜描述: An elite cape woven from reflective threads and integrated with state of the art technology to ensure NanoTrasens finest look their best.
+- **纳米传讯特种部队披风** — `ClothingNeckCapeNTSF2` ｜父类: ClothingNeckBase,BaseCommandContraband ｜_Starlight ｜描述: An elite cape woven from reflective threads and integrated with state of the art technology to ensure NanoTrasens finest look their best.
+- **纳米传讯特种部队披风** — `ClothingNeckCapeNTSF3` ｜父类: ClothingNeckBase,BaseCommandContraband ｜_Starlight ｜描述: An elite cape woven from reflective threads and integrated with state of the art technology to ensure NanoTrasens finest look their best.
+- **纳米传讯特种部队披风** — `ClothingNeckCapeNTSF4` ｜父类: ClothingNeckBase,BaseCommandContraband ｜_Starlight ｜描述: An elite cape woven from reflective threads and integrated with state of the art technology to ensure NanoTrasens finest look their best.
+- **纳米传讯特种部队披风** — `ClothingNeckCapeNTSF5` ｜父类: ClothingNeckBase,BaseCommandContraband ｜_Starlight ｜描述: An elite cape woven from reflective threads and integrated with state of the art technology to ensure NanoTrasens finest look their best.
+- **纳米传讯特种部队披风** — `ClothingNeckCapeNTSF6` ｜父类: ClothingNeckBase,BaseCommandContraband ｜_Starlight ｜描述: An elite cape woven from reflective threads and integrated with state of the art technology to ensure NanoTrasens finest look their best.
+- **纳米传讯特种部队披风** — `ClothingNeckCapeNTSF7` ｜父类: ClothingNeckBase,BaseCommandContraband ｜_Starlight ｜描述: An elite cape woven from reflective threads and integrated with state of the art technology to ensure NanoTrasens finest look their best.
+- **纳米传讯特种部队披风** — `ClothingNeckCapeNTSF8` ｜父类: ClothingNeckBase,BaseCommandContraband ｜_Starlight ｜描述: An elite cape woven from reflective threads and integrated with state of the art technology to ensure NanoTrasens finest look their best.
+- **纳米传讯特种部队披风** — `ClothingNeckCapeNTSF9` ｜父类: ClothingNeckBase,BaseCommandContraband ｜_Starlight ｜描述: An elite cape woven from reflective threads and integrated with state of the art technology to ensure NanoTrasens finest look their best.
+- **纳米传讯特种部队披风** — `ClothingNeckCapeNTSFLead` ｜父类: ClothingNeckBase,BaseCommandContraband ｜_Starlight ｜描述: An elite cape woven from reflective threads and integrated with state of the art technology to ensure NanoTrasens finest look their best.
+- **货运奖章** — `ClothingNeckCargomedal` ｜父类: ClothingMiscBase ｜描述: Given for the best work in the cargo department.
+- **条纹红色围巾** — `ClothingNeckChameleon` ｜父类: ClothingNeckBase,BaseChameleon ｜描述: A stylish striped red scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+- **飞行员的斗篷** — `ClothingNeckCloakAce` ｜父类: ClothingNeckBase ｜描述: Cloak awarded to NanoTrasen's finest space aces.
+- **weh斗篷** — `ClothingNeckCloakAdmin` ｜父类: ClothingNeckBase ｜描述: Weh!
+- **狼人斗篷** — `ClothingNeckCloakAro` ｜父类: ClothingNeckBase ｜描述: This cloak lets others know you're a lone wolf.
+- **aero飞行员的斗篷 # thank you happyman442 this was  best name idea ever** — `ClothingNeckCloakAroace` ｜父类: ClothingNeckBase ｜描述: Cloak awarded to NanoTrasen's finest pilots on planets with inhabitable atmospheres.
+- **剧毒斗篷** — `ClothingNeckCloakBi` ｜父类: ClothingNeckBase ｜描述: The purple color is a clear indicator you are poisonous.
+- **舰长斗篷** — `ClothingNeckCloakBoat` ｜父类: ClothingNeckBase,BaseCommandContraband ｜DeltaV ｜描述: A regal blue durathread boat cloak with a red felt lining and gold trim. Somehow, it's even more expensive than it looks.
+- **中央指挥部船形斗篷** — `ClothingNeckCloakBoatCC` ｜父类: ClothingNeckBase ｜DeltaV ｜描述: A emerald green durathread boat cloak with a red felt lining and gold trim. Somehow, it's even more expensive than it looks.
+- **安保主管船形斗篷** — `ClothingNeckCloakBoatHos` ｜父类: ClothingNeckBase,BaseCommandContraband ｜DeltaV ｜描述: A light gray durathread boat cloak with a red felt lining and gold trim. Somehow, it's even more expensive than it looks.
+- **蓝盾礼服斗篷** — `ClothingNeckCloakBsoCape` ｜父类: ClothingNeckBase,BaseBlueShieldContraband ｜_Starlight ｜描述: An incredibly large coat, owned only by the most experienced Blueshield Officers. It's said the sleeves have never been worn.
+- **精英蓝盾斗篷** — `ClothingNeckCloakBsoElite` ｜父类: ClothingNeckBase,BaseBlueShieldContraband ｜_Starlight ｜描述: An elite Blueshield Officer's cloak crafted from the latest composite glowing fabric. No true BSO is afraid of shining in the dark!
+- **蓝盾斗篷** — `ClothingNeckCloakBsoPoncho` ｜父类: ClothingNeckBase,BaseBlueShieldContraband ｜_Starlight ｜描述: This type of poncho was the signature garment of a legendary BSO with no name, or so it is said.
+- **舰长的斗篷** — `ClothingNeckCloakCap` ｜父类: ClothingNeckBase,BaseCommandContraband ｜描述: A pompous and comfy blue cloak with a nice gold trim, while not particularly valuable as your other possessions, it sure is fancy.
+- **精英舰长斗篷** — `ClothingNeckCloakCapElite` ｜父类: ClothingNeckBase,BaseCommandContraband ｜_Starlight ｜描述: An elite captain's cloak made from the latest composite glowing fabric, ensuring you stand out and are easier to target. Live bright, die young.
+- **舰长的formal斗篷** — `ClothingNeckCloakCapFormal` ｜父类: ClothingNeckBase,BaseCommandContraband ｜描述: A lavish and decorated cloak for special occasions.
+- **中央指挥部斗篷** — `ClothingNeckCloakCCponcho` ｜父类: ClothingNeckBase,BaseCentcommContraband ｜_Starlight ｜描述: a stylish poncho for a CC offical that prefers field-work to pushing papers.
+- **工程主管的斗篷** — `ClothingNeckCloakCe` ｜父类: ClothingNeckBase,BaseCommandContraband ｜描述: A dark green cloak with light blue ornaments, given to those who proved themselves to master the precise art of engineering.
+- **中央工程部披肩** — `ClothingNeckCloakCEDMantle` ｜父类: ClothingNeckBase,BaseCentcommContraband ｜_Starlight ｜描述: Supermatters, Teslas and TEGs all tremble in fear from anyone wearing this mantle.
+- **精英主管工程师斗篷** — `ClothingNeckCloakCeElite` ｜父类: ClothingNeckBase,BaseCommandContraband ｜_Starlight ｜描述: Chief engineer's cloak made from the latest composite glowing fabric, ensuring you stand out. The brightest cloak—so everyone knows where all the station's light went.
+- **centralcommander的斗篷** — `ClothingNeckCloakCentcom` ｜父类: ClothingNeckBase ｜描述: A pompous and elite green cloak with a nice gold trim, tailored specifically to the Central Commander. It's so heavy, the gold trim might be real.
+- **海军上将披风** — `ClothingNeckCloakCentcomAdmiral` ｜父类: ClothingNeckBase ｜_Starlight ｜描述: A vibrant green cape with gold stitching, worn by NanoTrasen Navy Admirals.
+- **特种行动干员斗篷** — `ClothingNeckCloakCentcomBlack` ｜父类: ClothingNeckBase ｜_Starlight ｜描述: The NanoTrasen logo embroidered in gold speaks for itself.
+- **中央医疗部门披肩** — `ClothingNeckCloakCMDMantle` ｜父类: ClothingNeckMantleCMO,BaseCentcommContraband ｜_Starlight ｜描述: No ailment or wound can hide from the gaze of the one draped in this mantle.
+- **政委大衣** — `ClothingNeckCloakCommissar` ｜父类: BaseItem,ClothingNeckBase,ClothingOuterBaseLarge,AllowSuitStorageClothing,BaseSovietContraband ｜_Starlight ｜描述: Rumor has it entire regiments of aides exist solely to press seams, polish buttons, and remind the Commissar which coat goes over which.
+- **中央科研部门披肩** — `ClothingNeckCloakCRDMantle` ｜父类: ClothingNeckMantleRD,BaseCentcommContraband ｜_Starlight ｜描述: Rumors say that anomalies stabilize on their own and artifacts start behaving the moment this mantle shows up in the lab.
+- **宝藏hunter斗篷** — `ClothingNeckCloakEnby` ｜父类: ClothingNeckBase ｜描述: This cloak belonged to a greedy treasure hunter.
+- **骄傲斗篷** — `ClothingNeckCloakGay` ｜父类: ClothingNeckBase ｜描述: This cloak is highly sought after in the NanoTrasen Marketing Offices.
+- **歌利亚斗篷** — `ClothingNeckCloakGoliathCloak` ｜父类: ClothingNeckBase ｜描述: A cloak made from the hide of resilient fauna from a distant planet, though its protective value has faded with its age.
+- **herald的斗篷** — `ClothingNeckCloakHerald` ｜父类: ClothingNeckBase ｜描述: An evil-looking red cloak with spikes on its shoulders.
+- **honk斗篷** — `ClothingNeckCloakHonk` ｜父类: ClothingNeckBase ｜描述: A cloak often worn by a sect of the honkmother.
+- **人事主管的斗篷** — `ClothingNeckCloakHop` ｜父类: ClothingNeckBase,BaseCommandContraband ｜描述: A blue cloak with red shoulders and gold buttons, proving you are the gatekeeper to any airlock on the station.
+- **精英人事主管斗篷** — `ClothingNeckCloakHopElite` ｜父类: ClothingNeckBase,BaseCommandContraband ｜_Starlight ｜描述: An elite hop's cloak made from the latest composite glowing fabric, ensuring you stand out and are easier to target. Live bright, hop hard, and pray your team knows how to catch!
+- **人事主管正式斗篷** — `ClothingNeckCloakHopFormal` ｜父类: ClothingNeckBase,BaseCommandContraband ｜DeltaV ｜描述: A fancier looking version of the regular cloak, bound to marginally increase the crew's admiration towards you.
+- **安保主管的斗篷** — `ClothingNeckCloakHos` ｜父类: ClothingNeckBase,BaseCommandContraband ｜描述: An exquisite dark and red cloak fitting for those who can assert dominance over wrongdoers. Take a stab at being civil in prosecution!
+- **精英安保主管斗篷** — `ClothingNeckCloakHosElite` ｜父类: ClothingNeckBase,BaseCommandContraband ｜_Starlight ｜描述: An elite head of security's cloak crafted from the latest composite glowing fabric. Only for a true paladin.
+- **M-81火线斗篷** — `ClothingNeckCloakHosFireline` ｜父类: ClothingNeckBase,BaseCommandContraband ｜_Starlight ｜描述: A cloak made for the most dedicated head of securities, it comes with durable warming fabric and has a fireline-like glow to it.
+- **复古安保斗篷** — `ClothingNeckCloakHosRetro` ｜父类: ClothingNeckBase,BaseCommandContraband ｜_Starlight ｜描述: A retro-styled cloak for the head of security, reminiscent of days gone by.
+- **cyclops斗篷** — `ClothingNeckCloakIntersex` ｜父类: ClothingNeckBase ｜描述: The circle on this cloak represents a cyclops' eye.
+- **诗人斗篷** — `ClothingNeckCloakLesbian` ｜父类: ClothingNeckBase ｜描述: This cloak belonged to an ancient poet, you forgot which one.
+- **蛾翼斗篷** — `ClothingNeckCloakMoth` ｜父类: ClothingNeckBase ｜描述: A cloak in the form of moth wings is an unusual and original element of the wardrobe that can attract the attention of others. It is made of a thin fabric imitating moth wings, with soft and fluffy ed
+- **纳米传讯斗篷** — `ClothingNeckCloakNanotrasen` ｜父类: ClothingNeckBase ｜描述: A stately blue cloak to represent NanoTrasen.
+- **NT代表斗篷** — `ClothingNeckCloakNtr` ｜父类: ClothingNeckBase,BaseCommandContraband ｜DeltaV ｜描述: A hefty cloak adorned with a modest insignia and grand fur trim.
+- **厨师的斗篷** — `ClothingNeckCloakPan` ｜父类: ClothingNeckBase ｜描述: Meant to be worn alongside a frying pan.
+- **海盗舰长斗篷** — `ClothingNeckCloakPirateCap` ｜父类: ClothingNeckBase ｜描述: A rather fetching black pirate cloak, complete with skull motif.
+- **军需官的斗篷** — `ClothingNeckCloakQm` ｜父类: ClothingNeckBase,BaseCommandContraband ｜描述: A strong brown cloak with a reflective stripe, while not as fancy as others, it does show your managing skills.
+- **精英军需官斗篷** — `ClothingNeckCloakQmElite` ｜父类: ClothingNeckBase,BaseCommandContraband ｜_Starlight ｜描述: Quartermaster's cloak made from the latest composite glowing fabric, of course, you don't want to sell it.
+- **研究主管的斗篷** — `ClothingNeckCloakRd` ｜父类: ClothingNeckBase,BaseCommandContraband ｜描述: A white cloak with violet stripes, showing your status as the arbiter of cutting-edge technology.
+- **精英科研主管斗篷** — `ClothingNeckCloakRdElite` ｜父类: ClothingNeckBase,BaseCommandContraband ｜_Starlight ｜描述: Research Director's cloak made from the latest composite glowing fabric, ensuring you stand out. Make sure to tell everyone you invented it.
+- **superemesalvager的斗篷** — `ClothingNeckCloakSalvagerSupreme` ｜父类: ClothingNeckBase ｜描述: Worn by the most skilled salvagers, for one who has mastered space and made the mining asteroid his domain. They don't just hand these things out, y'know?
+- **至尊清洁工斗篷** — `ClothingNeckCloakSupremeJanitor` ｜父类: ClothingNeckBase ｜_Starlight ｜描述: A magnificent cloak worn only by the most dedicated janitors. Its ethereal glow is said to ward off dirt itself.
+- **吸血鬼斗篷** — `ClothingNeckCloakTrans` ｜父类: ClothingNeckBase ｜描述: Worn by high ranking vampires of the transylvanian society of vampires.
+- **虚空斗篷** — `ClothingNeckCloakVoid` ｜父类: ClothingNeckBase ｜描述: A cloak of darkness. For those who have gone to the dark side of the force.
+- **典狱长斗篷** — `ClothingNeckCloakwarden` ｜父类: ClothingNeckBase ｜_Starlight ｜描述: A rough cloak that has seen better days.
+- **小丑奖章** — `ClothingNeckClownmedal` ｜父类: ClothingMiscBase ｜描述: Given for the best joke in the universe. HONK!
+- **医疗主管披肩外套** — `ClothingNeckCmoOverShoulder` ｜父类: ClothingNeckBase,BaseCommandContraband ｜DeltaV ｜描述: A coat for chief medical officers who know how to wear a coat but choose to otherwise as a power move.
+- **医疗主管披肩** — `ClothingNeckCmoShawl` ｜父类: ClothingNeckBase,BaseCommandContraband ｜DeltaV ｜描述: A shawl with a shoulder epaulette fitting of a chief medical officer who wants to stay warm yet professional.
+- **恶行徽章** — `ClothingNeckDevilPin` ｜父类: ClothingNeckAngelPin ｜_Starlight ｜描述: For the worst!
+- **工程师奖章** — `ClothingNeckEngineermedal` ｜父类: ClothingMiscBase ｜描述: Given for the best work in the engineering department.
+- **爆炸项圈** — `ClothingNeckExplosiveCollar` ｜父类: ClothingNeckBase,BaseSyndicateContraband ｜_Starlight ｜描述: The legally distinct reverse beartrap from a certin movie franchise
+- **眼之护符** — `ClothingNeckEyeAmulet` ｜父类: ClothingNeckBase ｜_Starlight ｜描述: It watches.
+- **男同性恋胸针** — `ClothingNeckGayPin` ｜父类: ClothingGenderPinBase ｜描述: Be gay~ do crime.
+- **genderfluid胸针** — `ClothingNeckGenderfluidPin` ｜父类: ClothingGenderPinBase ｜描述: be gender, be fluid
+- **genderqueer胸针** — `ClothingNeckGenderqueerPin` ｜父类: ClothingGenderPinBase ｜描述: be crime, do gender
+- **autism胸针** — `ClothingNeckGoldAutismPin` ｜父类: ClothingNeckPinBase ｜描述: Be autistic, do crime.
+- **金奖章ofcrewmanship** — `ClothingNeckGoldmedal` ｜父类: ClothingMiscBase ｜描述: Given to crewmates who display excellent crewmanship.
+- **绿盾披肩** — `ClothingNeckGreenshield` ｜父类: ClothingNeckBase ｜_Starlight ｜描述: Extraordinary decorative drape over the shoulders.
+- **骇人领带** — `ClothingNeckHorrific` ｜父类: ClothingNeckBase ｜_Starlight ｜描述: The necktie is adorned with a garish pattern. It's disturbingly vivid. Somehow you feel as if it would be wrong to ever take it off. It's your friend now. You will betray it if you change it for some 
+- **安保主管奢华礼袍** — `ClothingNeckHosRobe` ｜父类: ClothingNeckBase,BaseCommandContraband ｜DeltaV ｜描述: A comfy formal robe given to veteran heads of security
+- **间性胸针** — `ClothingNeckIntersexPin` ｜父类: ClothingGenderPinBase ｜描述: Be intersex do crime.
+- **律师徽章** — `ClothingNeckLawyerbadge` ｜父类: ClothingMiscBase ｜描述: A badge to show that the owner is a 'legitimate' lawyer who passed the NT bar exam required to practice law.
+- **女同性恋胸针** — `ClothingNeckLesbianPin` ｜父类: ClothingGenderPinBase ｜描述: Be lesbian do crime.
+- **LGBT胸针** — `ClothingNeckLGBTPin` ｜父类: ClothingGenderPinBase ｜描述: Be gay do crime.
+- **法官披风** — `ClothingNeckMagistrateMantle` ｜父类: ClothingNeckBase,BaseCommandContraband ｜DeltaV ｜描述: A fancy velvet mantle with fur trim, fitting for a judge.
+- **披肩** — `ClothingNeckMantle` ｜父类: ClothingNeckBase ｜描述: A soft mantle, made with the same 'synthetic' animal furs of the iconic winter coat.
+- **舰长披肩** — `ClothingNeckMantleCap` ｜父类: ClothingNeckBase,BaseCommandContraband ｜描述: A comfortable and chique mantle befitting of only the most experienced captain.
+- **工程主管披肩** — `ClothingNeckMantleCE` ｜父类: ClothingNeckBase,BaseCommandContraband ｜描述: High visibility, check. RIG system, check. High capacity cell, check. Everything a chief engineer could need in a stylish mantle.
+- **医疗主管披肩** — `ClothingNeckMantleCMO` ｜父类: ClothingNeckBase,BaseCommandContraband ｜描述: For a CMO that has been in enough medbays to know that more PPE means less central command dry cleaning visits when the shift is over.
+- **礼仪打捞员披肩** — `ClothingNeckMantleDecoratedSalvager` ｜父类: ClothingNeckBase,BaseSalvageContraband ｜_Starlight ｜描述: A ceremonial mantle, worn by salvagers that have distinguished themselves.
+- **老兵打捞员披肩** — `ClothingNeckMantleDecoratedVeteranSalvager` ｜父类: ClothingNeckBase,BaseSalvageContraband ｜_Starlight ｜描述: A ceremonial mantle with waist-capes, worn by veteran salvagers that have distinguished themselves even further.
+- **应急响应队队长披肩** — `ClothingNeckMantleERTLeader` ｜父类: ClothingNeckBase ｜_Starlight ｜描述: Extraordinary decorative drape over the shoulders.
+- **人事主管披肩** — `ClothingNeckMantleHOP` ｜父类: ClothingNeckBase,BaseCommandContraband ｜描述: A good HOP knows that paper pushing is only half the job... petting your dog and looking fashionable is the other half.
+- **安保主管披肩** — `ClothingNeckMantleHOS` ｜父类: ClothingNeckBase,BaseCommandContraband ｜描述: Shootouts with syndicate agents are just another Tuesday for this HoS. This mantle is a symbol of commitment to the station.
+- **军需官披肩** — `ClothingNeckMantleQM` ｜父类: ClothingNeckBase,BaseCommandContraband ｜描述: For the master of goods and materials to rule over the department, a befitting mantle to show off superiority!
+- **研究主管披肩** — `ClothingNeckMantleRD` ｜父类: ClothingNeckBase,BaseCommandContraband ｜描述: For when long days in the office consist of explosives, poisonous gas, murder robots, and a fresh pizza from cargo; this mantle will keep you comfy.
+- **未识别披肩** — `ClothingNeckMantleUnidentified` ｜父类: ClothingNeckBase ｜_Starlight ｜描述: A mysterious yet well made mantle of unknown origin.
+- **医疗奖章** — `ClothingNeckMedicalmedal` ｜父类: ClothingMiscBase ｜描述: Given for the best work in the medical department.
+- **月之护符** — `ClothingNeckMoonAmulet` ｜父类: ClothingNeckBase ｜_Starlight ｜描述: Shines in the moonlight.
+- **非二元胸针** — `ClothingNeckNonBinaryPin` ｜父类: ClothingGenderPinBase ｜描述: 01100010 01100101 00100000 01100101 01101110 01100010 01111001 00100000 01100100 01101111 00100000 01100011 01110010 01101001 01101101 01100101
+- **旧式裹巾** — `ClothingNeckOldMantle` ｜父类: ClothingNeckBase ｜_Starlight ｜描述: A tattered fabric wrap, faded over the years. Smells faintly of cigars.
+- **全性恋胸针** — `ClothingNeckOmnisexualPin` ｜父类: ClothingGenderPinBase ｜描述: Be omni do crime.
+- **泛性恋胸针** — `ClothingNeckPansexualPin` ｜父类: ClothingGenderPinBase ｜描述: Be pan do crime.
+- `模板` **胸针** — `ClothingNeckPinBase` ｜父类: ClothingMiscBase ｜描述: Be nothing do crime.
+- **多意识体胸针** — `ClothingNeckPluralPin` ｜父类: ClothingGenderPinBase ｜描述: Be plural, do crimes.
+- **条纹无性恋围巾** — `ClothingNeckScarfStripedAce` ｜父类: ClothingScarfBase ｜描述: A stylish striped asexual scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+- **条纹无浪漫倾向围巾** — `ClothingNeckScarfStripedAro` ｜父类: ClothingScarfBase ｜描述: A stylish striped aromantic scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+- **条纹aroace围巾** — `ClothingNeckScarfStripedAroace` ｜父类: ClothingScarfBase ｜描述: A stylish striped aroace scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+- **条纹双性恋围巾** — `ClothingNeckScarfStripedBiSexual` ｜父类: ClothingScarfBase ｜描述: A stylish striped bisexual scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+- **条纹黑色围巾** — `ClothingNeckScarfStripedBlack` ｜父类: ClothingScarfBase ｜描述: A stylish striped black scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+- **条纹蓝色围巾** — `ClothingNeckScarfStripedBlue` ｜父类: ClothingScarfBase ｜描述: A stylish striped blue scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+- **条纹棕色围巾** — `ClothingNeckScarfStripedBrown` ｜父类: ClothingScarfBase ｜描述: A stylish striped brown scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+- **条纹中央指挥部围巾** — `ClothingNeckScarfStripedCentcom` ｜父类: ClothingScarfBase,BaseCentcommContraband ｜描述: A stylish striped centcomm colored scarf. The perfect winter accessory for those with a keen fashion sense, and those who need to do paperwork in the cold.
+- **条纹男同性恋围巾** — `ClothingNeckScarfStripedGay` ｜父类: ClothingScarfBase ｜描述: A stylish striped gay scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+- **条纹绿色围巾** — `ClothingNeckScarfStripedGreen` ｜父类: ClothingScarfBase ｜描述: A stylish striped green scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+- **条纹间性围巾** — `ClothingNeckScarfStripedInter` ｜父类: ClothingScarfBase ｜描述: A stylish striped intersex scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+- **条纹女同性恋围巾** — `ClothingNeckScarfStripedLesbian` ｜父类: ClothingScarfBase ｜描述: A stylish striped lesbian scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+- **长条纹围巾（培根款）** — `ClothingNeckScarfStripedLesbianLong` ｜父类: ClothingScarfBase ｜描述: Long bacon! Perfect for sharing with your girlfriend!
+- **条纹浅色蓝色围巾** — `ClothingNeckScarfStripedLightBlue` ｜父类: ClothingScarfBase ｜描述: A stylish striped light blue scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+- **条纹非二元围巾** — `ClothingNeckScarfStripedNonBinary` ｜父类: ClothingScarfBase ｜描述: A stylish striped non-binary scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+- **条纹橙色围巾** — `ClothingNeckScarfStripedOrange` ｜父类: ClothingScarfBase ｜描述: A stylish striped orange scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+- **条纹pan围巾** — `ClothingNeckScarfStripedPan` ｜父类: ClothingScarfBase ｜描述: A stylish striped pan scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+- **条纹紫色围巾** — `ClothingNeckScarfStripedPurple` ｜父类: ClothingScarfBase ｜描述: A stylish striped purple scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+- **彩虹围巾** — `ClothingNeckScarfStripedRainbow` ｜父类: ClothingScarfBase ｜描述: A stylish rainbow scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+- **条纹红色围巾** — `ClothingNeckScarfStripedRed` ｜父类: ClothingScarfBase ｜描述: A stylish striped red scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+- **条纹辛迪加绿色围巾** — `ClothingNeckScarfStripedSyndieGreen` ｜父类: ClothingScarfBase,BaseMinorContraband ｜描述: A stylish striped syndicate green scarf. The perfect winter accessory for those with a keen fashion sense, and those who are in the mood to steal something.
+- **条纹辛迪加红色围巾** — `ClothingNeckScarfStripedSyndieRed` ｜父类: ClothingScarfBase,BaseMinorContraband ｜描述: A stylish striped syndicate red scarf. The perfect winter accessory for those with a keen fashion sense, and those who are in the mood to steal something.
+- **条纹trans围巾** — `ClothingNeckScarfStripedTrans` ｜父类: ClothingScarfBase ｜描述: A stylish striped trans scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+- **斑马纹围巾** — `ClothingNeckScarfStripedZebra` ｜父类: ClothingScarfBase ｜描述: A striped scarf, a mandatory accessory for artists.
+- **科研奖章** — `ClothingNeckSciencemedal` ｜父类: ClothingMiscBase ｜描述: Given for the best work in the science department.
+- **安保奖章** — `ClothingNeckSecuritymedal` ｜父类: ClothingMiscBase ｜描述: Given for the best work in the security department.
+- **星之护符** — `ClothingNeckStarAmulet` ｜父类: ClothingNeckBase ｜_Starlight ｜描述: Twinkles like a star.
+- **听诊器** — `ClothingNeckStethoscope` ｜父类: Clothing ｜描述: An outdated medical apparatus for listening to the sounds of the human body. It also makes you look like you know what you're doing.
+- **牧师圣带** — `ClothingNeckStoleChaplain` ｜父类: ClothingNeckBase ｜描述: An elegantly designed stole, with a vibrant gold holy symbol on either end.
+- **日之护符** — `ClothingNeckSunAmulet` ｜父类: ClothingNeckBase ｜_Starlight ｜描述: Glows like the sun.
+- **破旧兜帽** — `ClothingNeckTatteredHood` ｜父类: ClothingNeckBase ｜_Starlight ｜描述: A tattered hood of dull fabric. It's weave is thick and coarse, whatever tore this took some effort.
+- **侦探的领带** — `ClothingNeckTieDet` ｜父类: ClothingNeckBase ｜描述: A loosely tied necktie, a perfect accessory for the over-worked detective.
+- **贵族披肩** — `ClothingNeckTieGeoffroyblack12` ｜父类: ClothingNeckBase ｜_Starlight ｜描述: A light-colored cloak with golden patterns and lush white fur on the shoulders.
+- **红色-领带** — `ClothingNeckTieRed` ｜父类: ClothingNeckBase ｜描述: A neosilk clip-on red tie.
+- **科学家的领带** — `ClothingNeckTieSci` ｜父类: ClothingNeckBase ｜描述: Why do we all have to wear these ridiculous ties?
+- **跨性别胸针** — `ClothingNeckTransPin` ｜父类: ClothingGenderPinBase ｜描述: Be trans do crime.
+- **TSF徽章** — `ClothingNeckTSFBadge` ｜父类: ClothingNeckBase,BaseTSFContraband ｜_Starlight ｜描述: An official badge from the Trans Solar Federation. This polished piece of law enforcement equipment bears the distinctive TSF eagle emblem, a symbol of authority recognized across known space.
+- **虚无空间汲取器** — `ClothingNullSpaceDrainer` ｜父类: Clothing,BaseSecurityScienceCommandContraband ｜_Starlight ｜描述: A Superimposed device that occupies the physical and nullspace. Intaking external and foreign energy into data. This device restrains and blocks entities from entering and or leaving nullspace.
+- **围裙** — `ClothingOuterApron` ｜父类: ClothingOuterStorageBase ｜描述: A fancy apron for a stylish person.
+- **围裙** — `ClothingOuterApronBar` ｜父类: ClothingOuterStorageBase ｜描述: A darker apron designed for bartenders.
+- **围裙** — `ClothingOuterApronBotanist` ｜父类: ClothingOuterStorageBase ｜描述: A thick blue-apron, perfect for insulating your soft flesh from spills, soil and thorns.
+- **围裙** — `ClothingOuterApronChef` ｜父类: ClothingOuterStorageBase ｜描述: An apron-jacket used by a high class chef.
 - **特工背心** — `ClothingOuterArmorAbductor` ｜父类: BaseMajorContraband,ClothingOuterArmorBasic ｜_Starlight
-- **大气技师护甲** — `ClothingOuterArmorAtmosian` ｜父类: ClothingOuterBaseLarge,AllowSuitStorageClothing ｜_Funkystation
-- `模板` **防弹背心** — `ClothingOuterArmorBase` ｜父类: ClothingOuterBaseMedium,AllowSuitStorageClothing,BaseSecurityContraband
+- **大气技师护甲** — `ClothingOuterArmorAtmosian` ｜父类: ClothingOuterBaseLarge,AllowSuitStorageClothing ｜_Funkystation ｜描述: An atmos fire suit bolstered with metal hydrogen.
+- `模板` **防弹背心** — `ClothingOuterArmorBase` ｜父类: ClothingOuterBaseMedium,AllowSuitStorageClothing,BaseSecurityContraband ｜描述: A standard Type I armored vest that provides decent protection against most types of damage.
 - `模板` **ClothingOuterArmorBaseCarapace** — `ClothingOuterArmorBaseCarapace` ｜父类: ClothingOuterBaseMedium,AllowSuitStorageClothing
 - **防弹背心** — `ClothingOuterArmorBasic` ｜父类: BaseSecurityBartenderContraband,ClothingOuterArmorBase
-- **防弹背心** — `ClothingOuterArmorBasicSlim` ｜父类: ClothingOuterArmorBasic
-- **蓝盾防弹背心** — `ClothingOuterArmorBlueShield` ｜父类: ClothingOuterArmorBase,BaseBlueShieldContraband ｜_Starlight
-- **骨质护甲** — `ClothingOuterArmorBone` ｜父类: ClothingOuterBaseLarge,BaseMajorContraband,AllowSuitStorageClothing
-- **防弹背心** — `ClothingOuterArmorBulletproof` ｜父类: ClothingOuterArmorBase
-- **舰长的甲壳** — `ClothingOuterArmorCaptainCarapace` ｜父类: ClothingOuterArmorBaseCarapace,BaseCommandContraband
-- **中央指挥部甲壳** — `ClothingOuterArmorCentcommCarapace` ｜父类: ClothingOuterArmorBaseCarapace,BaseCentcommContraband
-- **chitinous护甲** — `ClothingOuterArmorChangeling` ｜父类: ClothingOuterBaseLarge,BaseMajorContraband,AllowSuitStorageClothing
-- **侍从护甲** — `ClothingOuterArmorCult` ｜父类: ClothingOuterBaseLarge,BaseMajorContraband,AllowSuitStorageClothing
-- **锻造背心** — `ClothingOuterArmorForged` ｜父类: ClothingOuterBaseMedium,AllowSuitStorageClothing,BaseMinorContraband ｜_Starlight
-- **吸热背心** — `ClothingOuterArmorHeatAbsorb` ｜父类: ClothingOuterArmorBase,BaseSecurityContraband ｜_Starlight
-- **重型装甲服** — `ClothingOuterArmorHeavy` ｜父类: ClothingOuterBaseLarge,AllowSuitStorageClothing
-- **绿色重型装甲服** — `ClothingOuterArmorHeavyGreen` ｜父类: ClothingOuterArmorHeavy
-- **红色重型装甲服** — `ClothingOuterArmorHeavyRed` ｜父类: ClothingOuterArmorHeavy
+- **防弹背心** — `ClothingOuterArmorBasicSlim` ｜父类: ClothingOuterArmorBasic ｜描述: A slim Type I armored vest that provides decent protection against most types of damage.
+- **蓝盾防弹背心** — `ClothingOuterArmorBlueShield` ｜父类: ClothingOuterArmorBase,BaseBlueShieldContraband ｜_Starlight ｜描述: Much better than a standard Type 1 security vest. Try not to lose it, you won't get a second replacement.
+- **骨质护甲** — `ClothingOuterArmorBone` ｜父类: ClothingOuterBaseLarge,BaseMajorContraband,AllowSuitStorageClothing ｜描述: Sits on you like a second skin.
+- **防弹背心** — `ClothingOuterArmorBulletproof` ｜父类: ClothingOuterArmorBase ｜描述: A Type III heavy bulletproof vest that excels in protecting the wearer against traditional projectile weaponry and explosives to a minor extent.
+- **舰长的甲壳** — `ClothingOuterArmorCaptainCarapace` ｜父类: ClothingOuterArmorBaseCarapace,BaseCommandContraband ｜描述: An armored chestpiece that provides protection whilst still offering maximum mobility and flexibility. Issued only to the station's finest.
+- **中央指挥部甲壳** — `ClothingOuterArmorCentcommCarapace` ｜父类: ClothingOuterArmorBaseCarapace,BaseCentcommContraband ｜描述: An armored chestpiece that provides protection whilst still offering maximum mobility and flexibility. Issued only to centcomm officials and agents.
+- **chitinous护甲** — `ClothingOuterArmorChangeling` ｜父类: ClothingOuterBaseLarge,BaseMajorContraband,AllowSuitStorageClothing ｜描述: Inflates the changeling's body into an all-consuming chitinous mass of armor.
+- **侍从护甲** — `ClothingOuterArmorCult` ｜父类: ClothingOuterBaseLarge,BaseMajorContraband,AllowSuitStorageClothing ｜描述: An evil-looking piece of cult armor, made of bones.
+- **锻造背心** — `ClothingOuterArmorForged` ｜父类: ClothingOuterBaseMedium,AllowSuitStorageClothing,BaseMinorContraband ｜_Starlight ｜描述: A product of high-quality tidesmithing, the additional leather padding and the swap for plasteel over steel ensures the armor is lightweight and effective.
+- **吸热背心** — `ClothingOuterArmorHeatAbsorb` ｜父类: ClothingOuterArmorBase,BaseSecurityContraband ｜_Starlight ｜描述: Advanced vest designed to absorb heat rather than reflect it, but still has some reflective properties itself. Not good against bullets or blunt impacts due to the fragile material.
+- **重型装甲服** — `ClothingOuterArmorHeavy` ｜父类: ClothingOuterBaseLarge,AllowSuitStorageClothing ｜描述: A heavily armored suit that protects against excessive damage.
+- **绿色重型装甲服** — `ClothingOuterArmorHeavyGreen` ｜父类: ClothingOuterArmorHeavy ｜描述: A heavily armored suit with green accents that protects against excessive damage.
+- **红色重型装甲服** — `ClothingOuterArmorHeavyRed` ｜父类: ClothingOuterArmorHeavy ｜描述: A heavily armored suit with red accents that protects against excessive damage.
 - `模板` **ClothingOuterArmorHoS** — `ClothingOuterArmorHoS` ｜父类: ClothingOuterArmorBase,ClothingOuterStorageBase
-- **简易背心** — `ClothingOuterArmorImprovised` ｜父类: ClothingOuterArmorForged,BaseMinorContraband ｜_Starlight
-- **蓝色术士护甲** — `ClothingOuterArmorMagusblue` ｜父类: ClothingOuterArmorHeavy
-- **红色术士护甲** — `ClothingOuterArmorMagusred` ｜父类: ClothingOuterArmorHeavy
-- **临时拼制背心** — `ClothingOuterArmorMakeshift` ｜父类: ClothingOuterArmorForged,BaseMinorContraband ｜_Starlight
-- **金属氢护甲** — `ClothingOuterArmorMetalHydrogen` ｜父类: ClothingOuterArmorBase ｜_Funkystation
-- **圣骑士护甲** — `ClothingOuterArmorPaladin` ｜父类: ClothingOuterBaseMedium,AllowSuitStorageClothing,BaseMajorContraband ｜_Starlight
-- **插板背心** — `ClothingOuterArmorPlate` ｜父类: ClothingOuterArmorBase,BaseSecurityContraband ｜_Starlight
-- **ironcladII护甲** — `ClothingOuterArmorPodWars` ｜父类: ClothingOuterBaseLarge,BaseMajorContraband,AllowSuitStorageClothing
+- **简易背心** — `ClothingOuterArmorImprovised` ｜父类: ClothingOuterArmorForged,BaseMinorContraband ｜_Starlight ｜描述: Interlocking metal plates ensure you're decently protected against stabs, but not much else.
+- **蓝色术士护甲** — `ClothingOuterArmorMagusblue` ｜父类: ClothingOuterArmorHeavy ｜描述: An blue armored suit that provides good protection.
+- **红色术士护甲** — `ClothingOuterArmorMagusred` ｜父类: ClothingOuterArmorHeavy ｜描述: A red armored suit that provides good protection.
+- **临时拼制背心** — `ClothingOuterArmorMakeshift` ｜父类: ClothingOuterArmorForged,BaseMinorContraband ｜_Starlight ｜描述: Might catch a bullet. Might.
+- **金属氢护甲** — `ClothingOuterArmorMetalHydrogen` ｜父类: ClothingOuterArmorBase ｜_Funkystation ｜描述: A superb armor made with the toughest and rarest materials available to man.
+- **圣骑士护甲** — `ClothingOuterArmorPaladin` ｜父类: ClothingOuterBaseMedium,AllowSuitStorageClothing,BaseMajorContraband ｜_Starlight ｜描述: Be the paladin you want to be! Swing swords in maints at the terrified security officer! Battle MONSTERS that are totally not vent creatures! Get shot by lasers and die-! Wait what?
+- **插板背心** — `ClothingOuterArmorPlate` ｜父类: ClothingOuterArmorBase,BaseSecurityContraband ｜_Starlight ｜描述: A standard Type II armored vest that provides good protection against bullets and lasers with the help of a plate inserted in the back and front, but not much else.
+- **ironcladII护甲** — `ClothingOuterArmorPodWars` ｜父类: ClothingOuterBaseLarge,BaseMajorContraband,AllowSuitStorageClothing ｜描述: A repurposed suit of ironclad II armor, a relic of the pod wars.
 - `模板` **ClothingOuterArmorProtogenBase** — `ClothingOuterArmorProtogenBase` ｜父类: ClothingOuterBaseMedium ｜_Starlight
-- **基础型-Class重型原型人框架** — `ClothingOuterArmorProtogenHeavyBasic` ｜父类: ClothingOuterArmorProtogenBase ｜_Starlight
+- **基础型-Class重型原型人框架** — `ClothingOuterArmorProtogenHeavyBasic` ｜父类: ClothingOuterArmorProtogenBase ｜_Starlight ｜描述: Comes in-built with heavy armor plating for active combat scenarios. Very heavy. Removal of this would require killing you.
 - **基础型-Class重型原型人框架** — `ClothingOuterArmorProtogenHeavyBasicUnremovable` ｜父类: ClothingOuterArmorProtogenHeavyBasic ｜_Starlight
-- **倪克斯级重型原型人框架** — `ClothingOuterArmorProtogenHeavySpace` ｜父类: ClothingOuterArmorProtogenBase,AllowSuitStorageClothing ｜_Starlight
+- **倪克斯级重型原型人框架** — `ClothingOuterArmorProtogenHeavySpace` ｜父类: ClothingOuterArmorProtogenBase,AllowSuitStorageClothing ｜_Starlight ｜描述: Comes in-built with heavy insulation for spacefaring. A bit weighty. Removal of this would require killing you.
 - **倪克斯级重型原型人框架** — `ClothingOuterArmorProtogenHeavySpaceUnremovable` ｜父类: ClothingOuterArmorProtogenHeavySpace ｜_Starlight
-- **基础型-Class轻型原型人框架** — `ClothingOuterArmorProtogenLightBasic` ｜父类: ClothingOuterArmorProtogenBase ｜_Starlight
+- **基础型-Class轻型原型人框架** — `ClothingOuterArmorProtogenLightBasic` ｜父类: ClothingOuterArmorProtogenBase ｜_Starlight ｜描述: Comes in-built with light armor plating to shield the cybernetics within. Removal of this would require killing you.
 - **基础型-Class轻型原型人框架** — `ClothingOuterArmorProtogenLightBasicUnremovable` ｜父类: ClothingOuterArmorProtogenLightBasic ｜_Starlight
-- **赫尔墨斯级轻型原型人框架** — `ClothingOuterArmorProtogenLightSpeed` ｜父类: ClothingOuterArmorProtogenBase ｜_Starlight
+- **赫尔墨斯级轻型原型人框架** — `ClothingOuterArmorProtogenLightSpeed` ｜父类: ClothingOuterArmorProtogenBase ｜_Starlight ｜描述: Augments your body's agility, at the cost of being incredibly susceptible to sharp objects. Removal of this would require killing you.
 - **赫尔墨斯级轻型原型人框架** — `ClothingOuterArmorProtogenLightSpeedUnremovable` ｜父类: ClothingOuterArmorProtogenLightSpeed ｜_Starlight
-- **基础型-Class中型原型人框架** — `ClothingOuterArmorProtogenMediumBasic` ｜父类: ClothingOuterArmorProtogenBase ｜_Starlight
+- **基础型-Class中型原型人框架** — `ClothingOuterArmorProtogenMediumBasic` ｜父类: ClothingOuterArmorProtogenBase ｜_Starlight ｜描述: Comes in-built with moderate armor plating to shield the cybernetics within and protect the user. Removal of this would require killing you.
 - **基础型-Class中型原型人框架** — `ClothingOuterArmorProtogenMediumBasicUnremovable` ｜父类: ClothingOuterArmorProtogenMediumBasic ｜_Starlight
-- **赫卡忒级中型原型人框架** — `ClothingOuterArmorProtogenMediumMagic` ｜父类: ClothingOuterArmorProtogenBase ｜_Starlight
+- **赫卡忒级中型原型人框架** — `ClothingOuterArmorProtogenMediumMagic` ｜父类: ClothingOuterArmorProtogenBase ｜_Starlight ｜描述: Its self-cleansing module grants resistance to biological hazards. Removal of this would require killing you.
 - **赫卡忒级中型原型人框架** — `ClothingOuterArmorProtogenMediumMagicUnremovable` ｜父类: ClothingOuterArmorProtogenMediumMagic ｜_Starlight
-- **辛迪加突袭服** — `ClothingOuterArmorRaid` ｜父类: ClothingOuterBaseLarge,AllowSuitStorageClothing,BaseSyndicateContraband
-- **反射背心** — `ClothingOuterArmorReflective` ｜父类: ClothingOuterArmorBase
-- **防暴服** — `ClothingOuterArmorRiot` ｜父类: ClothingOuterBaseLarge,AllowSuitStorageClothing,BaseSecurityContraband
-- **废料护甲** — `ClothingOuterArmorScrap` ｜父类: ClothingOuterBaseLarge,AllowSuitStorageClothing,BaseMajorContraband
-- **苏维埃护甲背心** — `ClothingOuterArmorSovietPlate` ｜父类: ClothingOuterBaseMedium,BaseSovietContraband,AllowSuitStorageClothing ｜_Starlight
-- **防刺背心** — `ClothingOuterArmorStab` ｜父类: ClothingOuterArmorBase,BaseSecurityContraband ｜_Starlight
-- **联邦陆战队战斗护甲** — `ClothingOuterArmorTSF` ｜父类: ClothingOuterEVASuitBase,BaseTSFContraband ｜_Starlight
-- **联邦陆战队干员's护甲** — `ClothingOuterArmorTSFLeader` ｜父类: ClothingOuterArmorTSF ｜_Starlight
+- **辛迪加突袭服** — `ClothingOuterArmorRaid` ｜父类: ClothingOuterBaseLarge,AllowSuitStorageClothing,BaseSyndicateContraband ｜描述: A flexible and well-armored suit, made for speed, with a powerful shoulder mounted flashlight manufactured in the Gorlex Marauder's iconic blood-red color scheme, it does not protect its wearer from s
+- **反射背心** — `ClothingOuterArmorReflective` ｜父类: ClothingOuterArmorBase ｜描述: An armored vest with advanced shielding to protect against energy weapons.
+- **防暴服** — `ClothingOuterArmorRiot` ｜父类: ClothingOuterBaseLarge,AllowSuitStorageClothing,BaseSecurityContraband ｜描述: A suit of semi-flexible polycarbonate body armor with heavy padding to protect against melee attacks. Perfect for fighting delinquents around the station.
+- **废料护甲** — `ClothingOuterArmorScrap` ｜父类: ClothingOuterBaseLarge,AllowSuitStorageClothing,BaseMajorContraband ｜描述: A tider's gleaming plate mail. Bail up, or you're a dead man.
+- **苏维埃护甲背心** — `ClothingOuterArmorSovietPlate` ｜父类: ClothingOuterBaseMedium,BaseSovietContraband,AllowSuitStorageClothing ｜_Starlight ｜描述: An old Soviet-era flak vest designed to mitigate damage from explosives, with minor penetration resistance. However, it's just a cheap reproduction model. quality may vary.
+- **防刺背心** — `ClothingOuterArmorStab` ｜父类: ClothingOuterArmorBase,BaseSecurityContraband ｜_Starlight ｜描述: Contrary to it's name, it's just a Type II armored vest that provides good protection against stabs and punches, but not much else.
+- **联邦陆战队战斗护甲** — `ClothingOuterArmorTSF` ｜父类: ClothingOuterEVASuitBase,BaseTSFContraband ｜_Starlight ｜描述: A full-body suit of semi-powered assault armor used by the Trans-Solar Marine Corps. Offers excellent protection in all areas without impairing movement.
+- **联邦陆战队干员's护甲** — `ClothingOuterArmorTSFLeader` ｜父类: ClothingOuterArmorTSF ｜_Starlight ｜描述: A full-body suit of semi-powered assault armor used by the Trans-Solar Marine Corps. Offers excellent protection in all areas without impairing movement. This suit has golden stripes instead of the ty
 - `模板` **ClothingOuterArmorWarden** — `ClothingOuterArmorWarden` ｜父类: ClothingOuterArmorBase,ClothingOuterStorageBase
 - `模板` **ClothingOuterBase** — `ClothingOuterBase` ｜父类: Clothing
 - `模板` **ClothingOuterBaseLarge** — `ClothingOuterBaseLarge` ｜父类: ClothingOuterBase
 - `模板` **ClothingOuterBaseMedium** — `ClothingOuterBaseMedium` ｜父类: ClothingOuterBase
 - `模板` **hoodiewith兜帽** — `ClothingOuterBaseToggleable` ｜父类: ClothingOuterBase
-- **小丑战斗服** — `ClothingOuterBattlesuitClown` ｜父类: ClothingOuterHardsuitBase ｜_Starlight
-- **生化防护服** — `ClothingOuterBioCmo` ｜父类: ClothingOuterBioGeneral
-- **生化防护服** — `ClothingOuterBioGeneral` ｜父类: ClothingOuterBaseLarge,AllowSuitStorageClothingGasTanks
-- **生化防护服** — `ClothingOuterBioJanitor` ｜父类: ClothingOuterBioGeneral
-- **生化防护服** — `ClothingOuterBioScientist` ｜父类: ClothingOuterBioGeneral
-- **生化防护服** — `ClothingOuterBioSecurity` ｜父类: ClothingOuterBaseLarge,AllowSuitStorageClothing,BaseSecurityContraband
-- **生化防护服** — `ClothingOuterBioVirology` ｜父类: ClothingOuterBioGeneral
-- **地狱印记** — `ClothingOuterBrimstoneDT4` ｜父类: ClothingOuterBase ｜_Starlight
-- **兔子帮长袍** — `ClothingOuterBunnyGang` ｜父类: ClothingOuterBase ｜_Starlight
-- **burned长袍** — `ClothingOuterBurnedRobes` ｜父类: ClothingOuterStorageBase,AllowSuitStorageClothing ｜_Starlight
-- **纸箱机器人服** — `ClothingOuterCardborg` ｜父类: ClothingOuterBase
-- **背心** — `ClothingOuterChameleon` ｜父类: ClothingOuterBase,AllowSuitStorageClothingGasTanks,BaseChameleon
-- **robesofhonk蛾翼er** — `ClothingOuterClownPriest` ｜父类: ClothingOuterStorageBase,AllowSuitStorageClothing,ClothingOuterColdBase
-- **armored医疗gown** — `ClothingOuterCoatAMG` ｜父类: ClothingOuterStorageBase,AllowSuitStorageClothing
-- **蓝盾大衣** — `ClothingOuterCoatBlueShield` ｜父类: ClothingOuterStorageBase,AllowSuitStorageClothing,BaseBlueShieldContraband ｜_Starlight
-- **飞行夹克** — `ClothingOuterCoatBomber` ｜父类: ClothingOuterStorageBase,ClothingOuterColdBase
-- **资深厨师's夹克** — `ClothingOuterCoatChefSenior` ｜父类: ClothingOuterStorageBase ｜_Starlight
-- **战地医护兵装甲夹克** — `ClothingOuterCoatCorpsman` ｜父类: ClothingOuterStorageBase,AllowSuitStorageClothing,BaseSecurityContraband,ClothingOuterWinterCoatToggleable ｜_Starlight
-- **侦探装甲风衣** — `ClothingOuterCoatDetective` ｜父类: ClothingOuterArmorBase,ClothingOuterStorageBase,AllowSuitStorageClothing,BaseSecurityContraband
+- **小丑战斗服** — `ClothingOuterBattlesuitClown` ｜父类: ClothingOuterHardsuitBase ｜_Starlight ｜描述: A funny suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
+- **生化防护服** — `ClothingOuterBioCmo` ｜父类: ClothingOuterBioGeneral ｜描述: An advanced suit that protects against biological contamination, in CMO colors.
+- **生化防护服** — `ClothingOuterBioGeneral` ｜父类: ClothingOuterBaseLarge,AllowSuitStorageClothingGasTanks ｜描述: A suit that protects against biological contamination.
+- **生化防护服** — `ClothingOuterBioJanitor` ｜父类: ClothingOuterBioGeneral ｜描述: A suit that protects against biological contamination and caustic spills.
+- **生化防护服** — `ClothingOuterBioScientist` ｜父类: ClothingOuterBioGeneral ｜描述: A suit that protects against biological contamination, in Scientist colors.
+- **生化防护服** — `ClothingOuterBioSecurity` ｜父类: ClothingOuterBaseLarge,AllowSuitStorageClothing,BaseSecurityContraband ｜描述: A suit that protects against biological contamination, kitted out with additional armor.
+- **生化防护服** — `ClothingOuterBioVirology` ｜父类: ClothingOuterBioGeneral ｜描述: A suit that strongly protects against biological contamination.
+- **地狱印记** — `ClothingOuterBrimstoneDT4` ｜父类: ClothingOuterBase ｜_Starlight ｜描述: Blood laser barrage!
+- **兔子帮长袍** — `ClothingOuterBunnyGang` ｜父类: ClothingOuterBase ｜_Starlight ｜描述: The robe of a secretive group of bunny mercenaries.
+- **burned长袍** — `ClothingOuterBurnedRobes` ｜父类: ClothingOuterStorageBase,AllowSuitStorageClothing ｜_Starlight ｜描述: They are riddles with burn marks and smell like ash.
+- **纸箱机器人服** — `ClothingOuterCardborg` ｜父类: ClothingOuterBase ｜描述: An ordinary cardboard box with holes cut in the sides.
+- **背心** — `ClothingOuterChameleon` ｜父类: ClothingOuterBase,AllowSuitStorageClothingGasTanks,BaseChameleon ｜描述: A thick vest with a rubbery, water-resistant shell.
+- **robesofhonk蛾翼er** — `ClothingOuterClownPriest` ｜父类: ClothingOuterStorageBase,AllowSuitStorageClothing,ClothingOuterColdBase ｜描述: Meant for a clown of the cloth.
+- **armored医疗gown** — `ClothingOuterCoatAMG` ｜父类: ClothingOuterStorageBase,AllowSuitStorageClothing ｜描述: The version of the medical gown, with elements of a bulletproof vest, looks strange, but your heart is protected.
+- **蓝盾大衣** — `ClothingOuterCoatBlueShield` ｜父类: ClothingOuterStorageBase,AllowSuitStorageClothing,BaseBlueShieldContraband ｜_Starlight ｜描述: A coat worn by Blueshield Officers who don't mind a lighter wear. Heavily reinforced, for when diplomacy won't cut it.
+- **飞行夹克** — `ClothingOuterCoatBomber` ｜父类: ClothingOuterStorageBase,ClothingOuterColdBase ｜描述: A thick, well-worn WW2 leather bomber jacket.
+- **资深厨师's夹克** — `ClothingOuterCoatChefSenior` ｜父类: ClothingOuterStorageBase ｜_Starlight ｜描述: A pristine black jacket worn by the head of the kitchen. Tasteful, with a hint of authority.
+- **战地医护兵装甲夹克** — `ClothingOuterCoatCorpsman` ｜父类: ClothingOuterStorageBase,AllowSuitStorageClothing,BaseSecurityContraband,ClothingOuterWinterCoatToggleable ｜_Starlight ｜描述: Stylish black and red jacket, with tacticooly placed armor plating.
+- **侦探装甲风衣** — `ClothingOuterCoatDetective` ｜父类: ClothingOuterArmorBase,ClothingOuterStorageBase,AllowSuitStorageClothing,BaseSecurityContraband ｜描述: An 18th-century multi-purpose trenchcoat. Someone who wears this means serious business.
 - **侦探装甲风衣** — `ClothingOuterCoatDetectiveLoadout` ｜父类: ClothingOuterCoatDetective
-- **黑色电影风装甲风衣** — `ClothingOuterCoatDetectiveLoadoutGrey` ｜父类: ClothingOuterCoatDetectiveLoadout
-- **粗犷防尘大衣** — `ClothingOuterCoatDuster` ｜父类: ClothingOuterStorageBase,ClothingOuterColdBase ｜DeltaV
-- **昂贵外套** — `ClothingOuterCoatExpensive` ｜父类: ClothingOuterStorageFoldableBase,ClothingOuterColdBase
+- **黑色电影风装甲风衣** — `ClothingOuterCoatDetectiveLoadoutGrey` ｜父类: ClothingOuterCoatDetectiveLoadout ｜描述: Ah, your trusty coat. There's a few tears here and there, giving it a more timely look. Or at least, that's what you told yourself when you found out gettin' it repaired would set you back 200 spesos.
+- **粗犷防尘大衣** — `ClothingOuterCoatDuster` ｜父类: ClothingOuterStorageBase,ClothingOuterColdBase ｜DeltaV ｜描述: A rugged duster with a bandana scarf made for keeping off the ash and dust. Not much of that up in space though.
+- **昂贵外套** — `ClothingOuterCoatExpensive` ｜父类: ClothingOuterStorageFoldableBase,ClothingOuterColdBase ｜描述: Very fluffy pink coat, made out of very expensive fur (clearly).
 - **昂贵外套** — `ClothingOuterCoatExpensiveOpened` ｜父类: ClothingOuterStorageFoldableBaseOpened,ClothingOuterCoatExpensive
-- **field夹克** — `ClothingOuterCoatField` ｜父类: ClothingOuterStorageBase,ClothingOuterColdBase ｜_Starlight
-- **gentle外套** — `ClothingOuterCoatGentle` ｜父类: ClothingOuterStorageBase,ClothingOuterColdBase
-- **灰色潮客战壕外套** — `ClothingOuterCoatGreytiderTrenchcoat` ｜父类: ClothingOuterStorageBase,ClothingOuterColdBase,AllowSuitStorageClothing ｜_Starlight
-- **安保主管的装甲风衣** — `ClothingOuterCoatHoSTrench` ｜父类: BaseSecurityCommandContraband,ClothingOuterArmorHoS
-- **监察员外套** — `ClothingOuterCoatInspector` ｜父类: ClothingOuterStorageBase ｜_Starlight
-- **jensen外套** — `ClothingOuterCoatJensen` ｜父类: ClothingOuterStorageToggleableBase,ClothingOuterColdBase
+- **field夹克** — `ClothingOuterCoatField` ｜父类: ClothingOuterStorageBase,ClothingOuterColdBase ｜_Starlight ｜描述: A thick, well-worn field jacket.
+- **gentle外套** — `ClothingOuterCoatGentle` ｜父类: ClothingOuterStorageBase,ClothingOuterColdBase ｜描述: A gentle coat for a gentle man, or woman.
+- **灰色潮客战壕外套** — `ClothingOuterCoatGreytiderTrenchcoat` ｜父类: ClothingOuterStorageBase,ClothingOuterColdBase,AllowSuitStorageClothing ｜_Starlight ｜描述: Ah, your trusty coat. There's a few tears here and there, giving it a more timely look. Or at least, that's what you told yourself when you found out gettin' it repaired would set you back 200 spesos.
+- **安保主管的装甲风衣** — `ClothingOuterCoatHoSTrench` ｜父类: BaseSecurityCommandContraband,ClothingOuterArmorHoS ｜描述: A greatcoat enhanced with a special alloy for some extra protection and style for those with a commanding presence.
+- **监察员外套** — `ClothingOuterCoatInspector` ｜父类: ClothingOuterStorageBase ｜_Starlight ｜描述: A strict inspector's coat from a bygone era.
+- **jensen外套** — `ClothingOuterCoatJensen` ｜父类: ClothingOuterStorageToggleableBase,ClothingOuterColdBase ｜描述: A jensen coat.
 - **jensen外套** — `ClothingOuterCoatJensenSyndie` ｜父类: ClothingOuterCoatJensen
-- **实验服** — `ClothingOuterCoatLab` ｜父类: ClothingOuterStorageFoldableBase
-- **长款黑色实验服** — `ClothingOuterCoatLabBlackLong` ｜父类: ClothingOuterCoatLab ｜_Starlight
+- **实验服** — `ClothingOuterCoatLab` ｜父类: ClothingOuterStorageFoldableBase ｜描述: A suit that protects against minor chemical spills.
+- **长款黑色实验服** — `ClothingOuterCoatLabBlackLong` ｜父类: ClothingOuterCoatLab ｜_Starlight ｜描述: A NanoTrasen standard labcoat for medical personnel but in black.
 - **长款黑色实验服** — `ClothingOuterCoatLabBlackLongOpened` ｜父类: ClothingOuterStorageFoldableBaseOpened,ClothingOuterCoatLabBlackLong ｜_Starlight
-- **狱医's怀旧大衣** — `ClothingOuterCoatLabBrigmedic` ｜父类: ClothingOuterStorageFoldableBase,AllowSuitStorageClothing,BaseSecurityContraband ｜_Starlight
+- **狱医's怀旧大衣** — `ClothingOuterCoatLabBrigmedic` ｜父类: ClothingOuterStorageFoldableBase,AllowSuitStorageClothing,BaseSecurityContraband ｜_Starlight ｜描述: A labcoat from reminisced, peaceful days. It's been reinforced several times over.
 - **狱医's怀旧大衣** — `ClothingOuterCoatLabBrigmedicOpened` ｜父类: ClothingOuterStorageFoldableBaseOpened,ClothingOuterCoatLabBrigmedic ｜_Starlight
-- **药剂师实验服** — `ClothingOuterCoatLabChem` ｜父类: ClothingOuterStorageFoldableBase
-- **药剂师长款实验服** — `ClothingOuterCoatLabChemistLong` ｜父类: ClothingOuterCoatLabChem ｜DeltaV
+- **药剂师实验服** — `ClothingOuterCoatLabChem` ｜父类: ClothingOuterStorageFoldableBase ｜描述: A suit that protects against minor chemical spills. Has an orange stripe on the shoulder.
+- **药剂师长款实验服** — `ClothingOuterCoatLabChemistLong` ｜父类: ClothingOuterCoatLabChem ｜DeltaV ｜描述: A NanoTrasen standard labcoat for medical personnel but long with bright orange accents.
 - **敞开式药剂师长款实验服** — `ClothingOuterCoatLabChemistLongOpened` ｜父类: ClothingOuterStorageFoldableBaseOpened,ClothingOuterCoatLabChemistLong ｜DeltaV
 - **药剂师实验服** — `ClothingOuterCoatLabChemOpened` ｜父类: ClothingOuterStorageFoldableBaseOpened,ClothingOuterCoatLabChem
-- **医疗主管的实验服** — `ClothingOuterCoatLabCmo` ｜父类: ClothingOuterStorageFoldableBase
-- **医疗主管长款实验服** — `ClothingOuterCoatLabCmoLong` ｜父类: ClothingOuterCoatLabCmo ｜DeltaV
+- **医疗主管的实验服** — `ClothingOuterCoatLabCmo` ｜父类: ClothingOuterStorageFoldableBase ｜描述: Custom made blue lab coat for the Chief Medical Officer, offers improved protection against chemical spills and minor cuts.
+- **医疗主管长款实验服** — `ClothingOuterCoatLabCmoLong` ｜父类: ClothingOuterCoatLabCmo ｜DeltaV ｜描述: A NanoTrasen blue long lab coat with green accents, designed for chief medical officers.
 - **敞开式医疗主管长款实验服** — `ClothingOuterCoatLabCmoLongOpened` ｜父类: ClothingOuterStorageFoldableBaseOpened,ClothingOuterCoatLabCmoLong ｜DeltaV
 - **医疗主管的实验服** — `ClothingOuterCoatLabCmoOpened` ｜父类: ClothingOuterStorageFoldableBaseOpened,ClothingOuterCoatLabCmo
-- **长款验尸官实验服** — `ClothingOuterCoatLabCoronerLong` ｜父类: ClothingOuterCoatLab ｜_Starlight
+- **长款验尸官实验服** — `ClothingOuterCoatLabCoronerLong` ｜父类: ClothingOuterCoatLab ｜_Starlight ｜描述: A NanoTrasen standard labcoat for medical personnel but in black with white accents.
 - **长款验尸官实验服** — `ClothingOuterCoatLabCoronerLongOpened` ｜父类: ClothingOuterStorageFoldableBaseOpened,ClothingOuterCoatLabCoronerLong ｜_Starlight
-- **战地医护兵怀旧大衣** — `ClothingOuterCoatLabCorpsman` ｜父类: ClothingOuterStorageFoldableBase,AllowSuitStorageClothing,BaseSecurityContraband ｜_Starlight
+- **战地医护兵怀旧大衣** — `ClothingOuterCoatLabCorpsman` ｜父类: ClothingOuterStorageFoldableBase,AllowSuitStorageClothing,BaseSecurityContraband ｜_Starlight ｜描述: A dark labcoat that's been reinforced several times over. Peaceful days died.
 - **战地医护兵怀旧大衣** — `ClothingOuterCoatLabCorpsmanOpened` ｜父类: ClothingOuterStorageFoldableBaseOpened,ClothingOuterCoatLabCorpsman ｜_Starlight
-- **遗传学家实验服** — `ClothingOuterCoatLabGene` ｜父类: ClothingOuterStorageFoldableBase
-- **遗传学家长款实验服** — `ClothingOuterCoatLabGeneLong` ｜父类: ClothingOuterCoatLabGene ｜DeltaV
+- **遗传学家实验服** — `ClothingOuterCoatLabGene` ｜父类: ClothingOuterStorageFoldableBase ｜描述: A suit that protects against minor chemical spills. Has an blue stripe on the shoulder.
+- **遗传学家长款实验服** — `ClothingOuterCoatLabGeneLong` ｜父类: ClothingOuterCoatLabGene ｜DeltaV ｜描述: A NanoTrasen standard labcoat for medical personnel but long with light blue accents.
 - **敞开式遗传学家长款实验服** — `ClothingOuterCoatLabGeneLongOpened` ｜父类: ClothingOuterStorageFoldableBaseOpened,ClothingOuterCoatLabGeneLong ｜DeltaV
 - **遗传学家实验服** — `ClothingOuterCoatLabGeneOpened` ｜父类: ClothingOuterStorageFoldableBaseOpened,ClothingOuterCoatLabGene
-- **长款实验服** — `ClothingOuterCoatLabLong` ｜父类: ClothingOuterCoatLab ｜DeltaV
+- **长款实验服** — `ClothingOuterCoatLabLong` ｜父类: ClothingOuterCoatLab ｜DeltaV ｜描述: A NanoTrasen standard labcoat for medical personnel but long.
 - **敞开式长款实验服** — `ClothingOuterCoatLabLongOpened` ｜父类: ClothingOuterStorageFoldableBaseOpened,ClothingOuterCoatLabLong ｜DeltaV
 - **实验服** — `ClothingOuterCoatLabOpened` ｜父类: ClothingOuterStorageFoldableBaseOpened,ClothingOuterCoatLab
-- **资深药剂师实验服** — `ClothingOuterCoatLabSeniorChemist` ｜父类: ClothingOuterStorageFoldableBase ｜_Starlight
-- **长款资深药剂师实验服** — `ClothingOuterCoatLabSeniorChemistLong` ｜父类: ClothingOuterCoatLabSeniorChemist ｜_Starlight
+- **资深药剂师实验服** — `ClothingOuterCoatLabSeniorChemist` ｜父类: ClothingOuterStorageFoldableBase ｜_Starlight ｜描述: A suit that protects against minor chemical spills. Has orange sleeves, an orange waist trim, and two pink stripes on the shoulders.
+- **长款资深药剂师实验服** — `ClothingOuterCoatLabSeniorChemistLong` ｜父类: ClothingOuterCoatLabSeniorChemist ｜_Starlight ｜描述: A NanoTrasen standard labcoat for medical personnel but long with bright orange and purple accents.
 - **长款资深药剂师实验服** — `ClothingOuterCoatLabSeniorChemistLongOpened` ｜父类: ClothingOuterStorageFoldableBaseOpened,ClothingOuterCoatLabSeniorChemistLong ｜_Starlight
 - **资深药剂师实验服** — `ClothingOuterCoatLabSeniorChemistOpened` ｜父类: ClothingOuterStorageFoldableBaseOpened,ClothingOuterCoatLabSeniorChemist ｜_Starlight
-- **资深医师实验服** — `ClothingOuterCoatLabSeniorPhysician` ｜父类: ClothingOuterStorageFoldableBase
+- **资深医师实验服** — `ClothingOuterCoatLabSeniorPhysician` ｜父类: ClothingOuterStorageFoldableBase ｜描述: A suit that protects against minor chemical spills. Has light blue sleeves and an orange waist trim.
 - **资深医师实验服** — `ClothingOuterCoatLabSeniorPhysicianOpened` ｜父类: ClothingOuterStorageFoldableBaseOpened,ClothingOuterCoatLabSeniorPhysician
-- **资深研究员实验服** — `ClothingOuterCoatLabSeniorResearcher` ｜父类: ClothingOuterStorageFoldableBase
+- **资深研究员实验服** — `ClothingOuterCoatLabSeniorResearcher` ｜父类: ClothingOuterStorageFoldableBase ｜描述: A suit that protects against minor chemical spills. Has a purple collar and wrist trims.
 - **资深研究员实验服** — `ClothingOuterCoatLabSeniorResearcherOpened` ｜父类: ClothingOuterStorageFoldableBaseOpened,ClothingOuterCoatLabSeniorResearcher
-- **病毒学家实验服** — `ClothingOuterCoatLabViro` ｜父类: ClothingOuterStorageFoldableBase
-- **长款病毒学家实验服** — `ClothingOuterCoatLabVirologyLong` ｜父类: ClothingOuterCoatLab ｜_Starlight
+- **病毒学家实验服** — `ClothingOuterCoatLabViro` ｜父类: ClothingOuterStorageFoldableBase ｜描述: A suit that protects against bacteria and viruses. Has an green stripe on the shoulder.
+- **长款病毒学家实验服** — `ClothingOuterCoatLabVirologyLong` ｜父类: ClothingOuterCoatLab ｜_Starlight ｜描述: A NanoTrasen standard labcoat for medical personnel but with bright green accents.
 - **长款病毒学家实验服** — `ClothingOuterCoatLabVirologyLongOpened` ｜父类: ClothingOuterStorageFoldableBaseOpened,ClothingOuterCoatLabVirologyLong ｜_Starlight
 - **病毒学家实验服** — `ClothingOuterCoatLabViroOpened` ｜父类: ClothingOuterStorageFoldableBaseOpened,ClothingOuterCoatLabViro
-- **裁判官长外套** — `ClothingOuterCoatMagi` ｜父类: ClothingOuterStorageBase,BaseNanoTrasenContraband ｜_Starlight
-- **NT职业导师's夹克** — `ClothingOuterCoatNCT` ｜父类: ClothingOuterStorageBase,BaseCommandContraband,AllowSuitStorageClothingGasTanks ｜_Starlight
-- **NT代表夹克** — `ClothingOuterCoatNtrep` ｜父类: ClothingOuterStorageFoldableBase,BaseNanoTrasenContraband,AllowSuitStorageClothingGasTanks ｜_Starlight
+- **裁判官长外套** — `ClothingOuterCoatMagi` ｜父类: ClothingOuterStorageBase,BaseNanoTrasenContraband ｜_Starlight ｜描述: New and improved, this jacket actually keeps you warm! Brought to you by the NanoTrasen Fashion Board.
+- **NT职业导师's夹克** — `ClothingOuterCoatNCT` ｜父类: ClothingOuterStorageBase,BaseCommandContraband,AllowSuitStorageClothingGasTanks ｜_Starlight ｜描述: A sharp black coat with beige trim around the cuffs and collar, offering a mix of professionalism and approachability.
+- **NT代表夹克** — `ClothingOuterCoatNtrep` ｜父类: ClothingOuterStorageFoldableBase,BaseNanoTrasenContraband,AllowSuitStorageClothingGasTanks ｜_Starlight ｜描述: A fancy black jacket, standard issue to NanoTrasen Representatives.
 - **NT代表夹克** — `ClothingOuterCoatNtrepOpen` ｜父类: ClothingOuterStorageFoldableBaseOpened,ClothingOuterCoatNtrep,BaseNanoTrasenContraband ｜_Starlight
-- **急救员夹克** — `ClothingOuterCoatParamedicJacket` ｜父类: ClothingOuterStorageFoldableBase,ClothingOuterColdBase ｜DeltaV
+- **急救员夹克** — `ClothingOuterCoatParamedicJacket` ｜父类: ClothingOuterStorageFoldableBase,ClothingOuterColdBase ｜DeltaV ｜描述: A stylish dark blue jacket decorated with white stripes and cross. Nine out of ten paramedic recommend "Do Not Revive."
 - **敞开式急救员夹克** — `ClothingOuterCoatParamedicJacketOpened` ｜父类: ClothingOuterStorageFoldableBaseOpened,ClothingOuterCoatParamedicJacket ｜DeltaV
-- **急救员风衣** — `ClothingOuterCoatParamedicWB` ｜父类: ClothingOuterStorageFoldableBase,ClothingOuterColdBase,AllowSuitStorageClothing
+- **急救员风衣** — `ClothingOuterCoatParamedicWB` ｜父类: ClothingOuterStorageFoldableBase,ClothingOuterColdBase,AllowSuitStorageClothing ｜描述: A paramedic's trusty windbreaker, for all the space wind.
 - **急救员风衣** — `ClothingOuterCoatParamedicWBOpened` ｜父类: ClothingOuterStorageFoldableBaseOpened,ClothingOuterCoatParamedicWB
-- **海盗garb** — `ClothingOuterCoatPirate` ｜父类: ClothingOuterStorageBase,ClothingOuterColdBase,AllowSuitStorageClothing
-- **dark海盗装束** — `ClothingOuterCoatPirateDark` ｜父类: ClothingOuterStorageBase,ClothingOuterColdBase,AllowSuitStorageClothing ｜_Starlight
-- **彩色外套** — `ClothingOuterCoatRandom` ｜父类: ClothingOuterCoatRandomBase ｜_Starlight
+- **海盗garb** — `ClothingOuterCoatPirate` ｜父类: ClothingOuterStorageBase,ClothingOuterColdBase,AllowSuitStorageClothing ｜描述: Yarr.
+- **dark海盗装束** — `ClothingOuterCoatPirateDark` ｜父类: ClothingOuterStorageBase,ClothingOuterColdBase,AllowSuitStorageClothing ｜_Starlight ｜描述: Yarr, but dark.
+- **彩色外套** — `ClothingOuterCoatRandom` ｜父类: ClothingOuterCoatRandomBase ｜_Starlight ｜描述: A colorful coat. Won't do much to keep you warm, but it's certainly a fashion statement!
 - `模板` **ClothingOuterCoatRandomBase** — `ClothingOuterCoatRandomBase` ｜父类: ClothingOuterStorageBase ｜_Starlight
-- **拉塔瓦长袍** — `ClothingOuterCoatRatvarRobes` ｜父类: ClothingOuterStorageBase,AllowSuitStorageClothing ｜_Starlight
-- **研究主管实验服** — `ClothingOuterCoatRD` ｜父类: ClothingOuterStorageFoldableBase
+- **拉塔瓦长袍** — `ClothingOuterCoatRatvarRobes` ｜父类: ClothingOuterStorageBase,AllowSuitStorageClothing ｜_Starlight ｜描述: A leathery coat adorned in dull gems, brass buttons, and brass sheets carved with clockwork patterns.
+- **研究主管实验服** — `ClothingOuterCoatRD` ｜父类: ClothingOuterStorageFoldableBase ｜描述: Woven with top of the line technology, this labcoat helps protect against radiation in similar way to the experimental hardsuit.
 - **研究主管实验服** — `ClothingOuterCoatRDOpened` ｜父类: ClothingOuterStorageFoldableBaseOpened,ClothingOuterCoatRD
-- **科学家实验服** — `ClothingOuterCoatRnd` ｜父类: ClothingOuterStorageFoldableBase
+- **科学家实验服** — `ClothingOuterCoatRnd` ｜父类: ClothingOuterStorageFoldableBase ｜描述: A suit that protects against minor chemical spills. Has a purple stripe on the shoulder.
 - **科学家实验服** — `ClothingOuterCoatRndOpened` ｜父类: ClothingOuterStorageFoldableBaseOpened,ClothingOuterCoatRnd
-- **机器人专家实验服** — `ClothingOuterCoatRobo` ｜父类: ClothingOuterStorageFoldableBase
+- **机器人专家实验服** — `ClothingOuterCoatRobo` ｜父类: ClothingOuterStorageFoldableBase ｜描述: More like an eccentric coat than a labcoat. Helps pass off bloodstains as part of the aesthetic. Comes with red shoulder pads.
 - **机器人专家实验服** — `ClothingOuterCoatRoboOpened` ｜父类: ClothingOuterStorageFoldableBaseOpened,ClothingOuterCoatRobo
-- **外套of太空asshole** — `ClothingOuterCoatSpaceAsshole` ｜父类: ClothingOuterStorageBase
-- **太空快递员重型外套** — `ClothingOuterCoatSpaceCourier` ｜父类: ClothingOuterStorageBase ｜_Starlight
-- **最后的外套** — `ClothingOuterCoatSquidPrisoner` ｜父类: ClothingOuterStorageBase ｜_Starlight
-- **辛迪加的外套** — `ClothingOuterCoatSyndieCap` ｜父类: ClothingOuterStorageBase,ClothingOuterColdBase,BaseMinorContraband
-- **辛迪加的装甲外套** — `ClothingOuterCoatSyndieCapArmored` ｜父类: BaseSyndicateContraband,ClothingOuterCoatHoSTrench
-- **风衣** — `ClothingOuterCoatTrench` ｜父类: ClothingOuterStorageBase
-- **典狱长的armoredjacket** — `ClothingOuterCoatWarden` ｜父类: ClothingOuterArmorWarden,BaseSecurityContraband
-- **中央指挥部装甲冬季外套** — `ClothingOuterCoatWardenCentcomm` ｜父类: ClothingOuterStorageBase,AllowSuitStorageClothing,BaseCentcommContraband ｜_Starlight
+- **外套of太空asshole** — `ClothingOuterCoatSpaceAsshole` ｜父类: ClothingOuterStorageBase ｜描述: And there he was...
+- **太空快递员重型外套** — `ClothingOuterCoatSpaceCourier` ｜父类: ClothingOuterStorageBase ｜_Starlight ｜描述: A luxurious coat, made to honor a legendary space courier. Fly, space courier!
+- **最后的外套** — `ClothingOuterCoatSquidPrisoner` ｜父类: ClothingOuterStorageBase ｜_Starlight ｜描述: Will look great on your body! Oh.
+- **辛迪加的外套** — `ClothingOuterCoatSyndieCap` ｜父类: ClothingOuterStorageBase,ClothingOuterColdBase,BaseMinorContraband ｜描述: The syndicate's coat is made of durable fabric, with gilded patterns.
+- **辛迪加的装甲外套** — `ClothingOuterCoatSyndieCapArmored` ｜父类: BaseSyndicateContraband,ClothingOuterCoatHoSTrench ｜描述: The syndicate's armored coat is made of durable fabric, with gilded patterns.
+- **风衣** — `ClothingOuterCoatTrench` ｜父类: ClothingOuterStorageBase ｜描述: A comfy trench coat.
+- **典狱长的armoredjacket** — `ClothingOuterCoatWarden` ｜父类: ClothingOuterArmorWarden,BaseSecurityContraband ｜描述: A sturdy, utilitarian jacket designed to protect a warden from any brig-bound threats.
+- **中央指挥部装甲冬季外套** — `ClothingOuterCoatWardenCentcomm` ｜父类: ClothingOuterStorageBase,AllowSuitStorageClothing,BaseCentcommContraband ｜_Starlight ｜描述: A extremely durable, stylish winter coat made for central command Operators to survive even in the coldest of winter
 - `模板` **ClothingOuterColdBase** — `ClothingOuterColdBase` ｜父类: ClothingOuterBase ｜_Starlight
-- **束腰** — `ClothingOutercorset` ｜父类: ClothingOuterStorageBase,AllowSuitStorageClothing ｜_Starlight
-- **极道外套** — `ClothingOuterDameDane` ｜父类: ClothingOuterStorageBase,ClothingOuterColdBase
-- **武士道服** — `ClothingOuterDogi` ｜父类: ClothingOuterStorageBase,BaseMajorContraband
+- **束腰** — `ClothingOutercorset` ｜父类: ClothingOuterStorageBase,AllowSuitStorageClothing ｜_Starlight ｜描述: A little bit tight.
+- **极道外套** — `ClothingOuterDameDane` ｜父类: ClothingOuterStorageBase,ClothingOuterColdBase ｜描述: Friday...
+- **武士道服** — `ClothingOuterDogi` ｜父类: ClothingOuterStorageBase,BaseMajorContraband ｜描述: Dogi is a type of traditional Japanese clothing. The dogi is made of heavy, durable fabric, it is practical in combat and stylish in appearance. It is decorated with intricate patterns and embroidery 
 - `模板` **基础EVASuit** — `ClothingOuterEVASuitBase` ｜父类: ClothingOuterBase,AllowSuitStorageClothing
-- **辛迪加EVA服** — `ClothingOuterEVASuitSyndicate` ｜父类: ClothingOuterEVASuitBase,BaseMinorContraband
-- **蓝色法兰绒夹克** — `ClothingOuterFlannelBlue` ｜父类: ClothingOuterBase
-- **绿色法兰绒夹克** — `ClothingOuterFlannelGreen` ｜父类: ClothingOuterBase
-- **红色法兰绒夹克** — `ClothingOuterFlannelRed` ｜父类: ClothingOuterBase
-- **幽灵床单** — `ClothingOuterGhostSheet` ｜父类: ClothingOuterBase
-- **高级mining硬服** — `ClothingOuterHardsuitAdvancedMining` ｜父类: ClothingOuterHardsuitBase,BaseSalvageMiningContraband ｜_Starlight
-- **NTSRA虚空服 #Nanotrasen Space Research Association** — `ClothingOuterHardsuitAncientEVA` ｜父类: ClothingOuterEVASuitBase
-- **atmos硬装宇航服** — `ClothingOuterHardsuitAtmos` ｜父类: ClothingOuterHardsuitBase,BaseEngineeringContraband
-- **金色atmos硬服** — `ClothingOuterHardsuitAtmosGolden` ｜父类: ClothingOuterHardsuitAtmos ｜_Starlight
+- **辛迪加EVA服** — `ClothingOuterEVASuitSyndicate` ｜父类: ClothingOuterEVASuitBase,BaseMinorContraband ｜描述: Has a tag on the back that reads: 'Totally not property of an enemy corporation, honest!'
+- **蓝色法兰绒夹克** — `ClothingOuterFlannelBlue` ｜父类: ClothingOuterBase ｜描述: An old fashioned blue flannel jacket for space autumn.
+- **绿色法兰绒夹克** — `ClothingOuterFlannelGreen` ｜父类: ClothingOuterBase ｜描述: An old fashioned green flannel jacket for space autumn.
+- **红色法兰绒夹克** — `ClothingOuterFlannelRed` ｜父类: ClothingOuterBase ｜描述: An old fashioned red flannel jacket for space autumn.
+- **幽灵床单** — `ClothingOuterGhostSheet` ｜父类: ClothingOuterBase ｜描述: Spooky!!!
+- **高级mining硬服** — `ClothingOuterHardsuitAdvancedMining` ｜父类: ClothingOuterHardsuitBase,BaseSalvageMiningContraband ｜_Starlight ｜描述: An advanced jetpack-equipped hardsuit designed for mining operations.
+- **NTSRA虚空服 #Nanotrasen Space Research Association** — `ClothingOuterHardsuitAncientEVA` ｜父类: ClothingOuterEVASuitBase ｜描述: An ancient space suit, designed by the NTSRA branch of CentComm. It is very finely crafted, allowing for greater mobility than most modern space suits.
+- **atmos硬装宇航服** — `ClothingOuterHardsuitAtmos` ｜父类: ClothingOuterHardsuitBase,BaseEngineeringContraband ｜描述: A special suit that protects against hazardous, low pressure environments. Has thermal shielding.
+- **金色atmos硬服** — `ClothingOuterHardsuitAtmosGolden` ｜父类: ClothingOuterHardsuitAtmos ｜_Starlight ｜描述: A golden hardsuit that protects against hazardous, low pressure environments. Has thermal shielding.
 - `模板` **基础硬装宇航服** — `ClothingOuterHardsuitBase` ｜父类: ClothingOuterBase,GeigerCounterClothing,AllowSuitStorageClothing
-- **蓝盾硬服** — `ClothingOuterHardsuitBlueshield` ｜父类: ClothingOuterHardsuitBase,BaseBlueShieldContraband ｜_Starlight
-- **狱医硬装宇航服** — `ClothingOuterHardsuitBrigmedic` ｜父类: ClothingOuterHardsuitBase,BaseSecurityContraband
-- **舰长的armoredspace服** — `ClothingOuterHardsuitCap` ｜父类: ClothingOuterHardsuitBase,BaseGrandTheftContraband
+- **蓝盾硬服** — `ClothingOuterHardsuitBlueshield` ｜父类: ClothingOuterHardsuitBase,BaseBlueShieldContraband ｜_Starlight ｜描述: A high-tech hardsuit perfect for diving in front of Mr. Pre- Er, Captain.
+- **狱医硬装宇航服** — `ClothingOuterHardsuitBrigmedic` ｜父类: ClothingOuterHardsuitBase,BaseSecurityContraband ｜描述: Special hardsuit of the guardian angel of the brig. It is the medical version of the security hardsuit.
+- **舰长的armoredspace服** — `ClothingOuterHardsuitCap` ｜父类: ClothingOuterHardsuitBase,BaseGrandTheftContraband ｜描述: A formal armored spacesuit, made for the station's captain.
 - **太空鲤鱼服** — `ClothingOuterHardsuitCarp` ｜父类: ClothingOuterSuitCarp
-- **CBURNexo服** — `ClothingOuterHardsuitCBURN` ｜父类: BaseCentcommContraband,ClothingOuterHardsuitBase
-- **小丑硬装宇航服** — `ClothingOuterHardsuitClown` ｜父类: ClothingOuterHardsuitBase
-- **死亡小队硬装宇航服** — `ClothingOuterHardsuitDeathsquad` ｜父类: BaseCentcommContraband,ClothingOuterHardsuitBase
-- **第十硬服** — `ClothingOuterHardsuitDecimus` ｜父类: BaseNanoTrasenContraband,ClothingOuterHardsuitBase ｜_Starlight
-- **工程硬装宇航服** — `ClothingOuterHardsuitEngineering` ｜父类: ClothingOuterHardsuitBase,BaseEngineeringContraband
-- **金色engineering硬服** — `ClothingOuterHardsuitEngineeringGolden` ｜父类: ClothingOuterHardsuitEngineering ｜_Starlight
-- **工程主管的硬装宇航服** — `ClothingOuterHardsuitEngineeringWhite` ｜父类: ClothingOuterHardsuitBase,BaseGrandTheftContraband
-- **ERT牧师硬装宇航服 # Starlight: remove possessive** — `ClothingOuterHardsuitERTChaplain` ｜父类: BaseCentcommContraband,ClothingOuterHardsuitSyndie
-- **ERT工程师的硬装宇航服** — `ClothingOuterHardsuitERTEngineer` ｜父类: BaseCentcommContraband,ClothingOuterHardsuitSyndieElite
-- **ERT清洁工的硬装宇航服** — `ClothingOuterHardsuitERTJanitor` ｜父类: BaseCentcommContraband,ClothingOuterHardsuitSyndieElite
-- **ERT队长的硬装宇航服** — `ClothingOuterHardsuitERTLeader` ｜父类: BaseCentcommContraband,ClothingOuterHardsuitSyndieCommander
-- **ERT医疗人员的硬装宇航服** — `ClothingOuterHardsuitERTMedical` ｜父类: BaseCentcommContraband,ClothingOuterHardsuitSyndieMedic
-- **ERT安保的硬装宇航服** — `ClothingOuterHardsuitERTSecurity` ｜父类: BaseCentcommContraband,ClothingOuterHardsuitSyndie
-- **EVA服** — `ClothingOuterHardsuitEVA` ｜父类: ClothingOuterEVASuitBase
-- **囚犯EVA服** — `ClothingOuterHardsuitEVAPrisoner` ｜父类: ClothingOuterEVASuitBase
-- **歌利亚硬装宇航服** — `ClothingOuterHardsuitGoliath` ｜父类: ClothingOuterHardsuitBase,BaseCargoContraband
-- **绿盾硬服** — `ClothingOuterHardsuitGreenshield` ｜父类: BaseCentcommContraband,ClothingOuterHardsuitSyndieCommander,AllowSuitStorageClothing,ClothingOuterStorageBase ｜_Starlight
-- **辛迪加渗透硬服** — `ClothingOuterHardsuitInfiltration` ｜父类: ClothingOuterHardsuitBase,AllowSuitStorageClothing,BaseToggleClothing,BaseSyndicateContraband ｜_Starlight
-- **cybersunjuggernaut服** — `ClothingOuterHardsuitJuggernaut` ｜父类: ClothingOuterHardsuitBase,BaseSyndicateContraband
+- **CBURNexo服** — `ClothingOuterHardsuitCBURN` ｜父类: BaseCentcommContraband,ClothingOuterHardsuitBase ｜描述: A lightweight yet strong exosuit used for special cleanup operations.
+- **小丑硬装宇航服** — `ClothingOuterHardsuitClown` ｜父类: ClothingOuterHardsuitBase ｜描述: A custom-made clown hardsuit.
+- **死亡小队硬装宇航服** — `ClothingOuterHardsuitDeathsquad` ｜父类: BaseCentcommContraband,ClothingOuterHardsuitBase ｜描述: An advanced hardsuit favored by commandos for use in special operations.
+- **第十硬服** — `ClothingOuterHardsuitDecimus` ｜父类: BaseNanoTrasenContraband,ClothingOuterHardsuitBase ｜_Starlight ｜描述: If you can read this, it's already too late.
+- **工程硬装宇航服** — `ClothingOuterHardsuitEngineering` ｜父类: ClothingOuterHardsuitBase,BaseEngineeringContraband ｜描述: A special suit that protects against hazardous, low pressure environments. Has radiation shielding.
+- **金色engineering硬服** — `ClothingOuterHardsuitEngineeringGolden` ｜父类: ClothingOuterHardsuitEngineering ｜_Starlight ｜描述: A golden hardsuit that protects against hazardous, low pressure environments. Has radiation shielding.
+- **工程主管的硬装宇航服** — `ClothingOuterHardsuitEngineeringWhite` ｜父类: ClothingOuterHardsuitBase,BaseGrandTheftContraband ｜描述: A special hardsuit that protects against hazardous, low pressure environments, made for the chief engineer of the station.
+- **ERT牧师硬装宇航服 # Starlight: remove possessive** — `ClothingOuterHardsuitERTChaplain` ｜父类: BaseCentcommContraband,ClothingOuterHardsuitSyndie ｜描述: A protective hardsuit worn by the Chaplains of an Emergency Response Team.
+- **ERT工程师的硬装宇航服** — `ClothingOuterHardsuitERTEngineer` ｜父类: BaseCentcommContraband,ClothingOuterHardsuitSyndieElite ｜描述: A protective hardsuit worn by the engineers of an emergency response team.
+- **ERT清洁工的硬装宇航服** — `ClothingOuterHardsuitERTJanitor` ｜父类: BaseCentcommContraband,ClothingOuterHardsuitSyndieElite ｜描述: A protective hardsuit worn by the janitors of an emergency response team.
+- **ERT队长的硬装宇航服** — `ClothingOuterHardsuitERTLeader` ｜父类: BaseCentcommContraband,ClothingOuterHardsuitSyndieCommander ｜描述: A protective hardsuit worn by the leader of an emergency response team.
+- **ERT医疗人员的硬装宇航服** — `ClothingOuterHardsuitERTMedical` ｜父类: BaseCentcommContraband,ClothingOuterHardsuitSyndieMedic ｜描述: A protective hardsuit worn by the medics of an emergency response team.
+- **ERT安保的硬装宇航服** — `ClothingOuterHardsuitERTSecurity` ｜父类: BaseCentcommContraband,ClothingOuterHardsuitSyndie ｜描述: A protective hardsuit worn by the security officers of an emergency response team.
+- **EVA服** — `ClothingOuterHardsuitEVA` ｜父类: ClothingOuterEVASuitBase ｜描述: A lightweight space suit with the basic ability to protect the wearer from the vacuum of space during emergencies.
+- **囚犯EVA服** — `ClothingOuterHardsuitEVAPrisoner` ｜父类: ClothingOuterEVASuitBase ｜描述: An emergency EVA suit meant for prisoners. It's horribly slow and lacking in temperature protection, but enough to buy you time from the harsh vacuum of space.
+- **歌利亚硬装宇航服** — `ClothingOuterHardsuitGoliath` ｜父类: ClothingOuterHardsuitBase,BaseCargoContraband ｜描述: A lightweight hardsuit, adorned with a patchwork of thick, chitinous goliath hide.
+- **绿盾硬服** — `ClothingOuterHardsuitGreenshield` ｜父类: BaseCentcommContraband,ClothingOuterHardsuitSyndieCommander,AllowSuitStorageClothing,ClothingOuterStorageBase ｜_Starlight ｜描述: A protective hardsuit worn by Greenshields. It even has pockets!
+- **辛迪加渗透硬服** — `ClothingOuterHardsuitInfiltration` ｜父类: ClothingOuterHardsuitBase,AllowSuitStorageClothing,BaseToggleClothing,BaseSyndicateContraband ｜_Starlight ｜描述: The Syndicate's Special Operations' hardsuit of choice, this hardsuit, as well as durability, has been built with stealth in mind.
+- **cybersunjuggernaut服** — `ClothingOuterHardsuitJuggernaut` ｜父类: ClothingOuterHardsuitBase,BaseSyndicateContraband ｜描述: A suit made by the cutting edge R&D department at cybersun to be hyper resilient.
 - **cybersunjuggernaut服** — `ClothingOuterHardsuitJuggernautLocked` ｜父类: ClothingOuterHardsuitJuggernaut,BaseSyndicateContraband ｜_Starlight
-- **有机宇航服** — `ClothingOuterHardsuitLing` ｜父类: ClothingOuterHardsuitBase
-- **QM'sluxurymaxim硬服** — `ClothingOuterHardsuitLuxmax` ｜父类: ClothingOuterHardsuitBase,BaseGrandTheftContraband ｜_Starlight
-- **奢华采矿外骨骼装甲** — `ClothingOuterHardsuitLuxury` ｜父类: ClothingOuterHardsuitBase
-- **salvagermaxim硬装宇航服** — `ClothingOuterHardsuitMaxim` ｜父类: ClothingOuterHardsuitBase,BaseSalvageContraband
-- **医疗主管的硬装宇航服** — `ClothingOuterHardsuitMedical` ｜父类: ClothingOuterHardsuitBase,BaseGrandTheftContraband
-- **雇佣兵硬服** — `ClothingOuterHardsuitMercenary` ｜父类: ClothingOuterHardsuitBase,BaseSalvageContraband ｜_Starlight
-- **哑剧演员硬装宇航服** — `ClothingOuterHardsuitMime` ｜父类: ClothingOuterHardsuitClown
-- **mining硬服** — `ClothingOuterHardsuitMining` ｜父类: ClothingOuterHardsuitBase,BaseSalvageMiningContraband ｜_Starlight
-- **纳米传讯代表硬服** — `ClothingOuterHardsuitNtrep` ｜父类: ClothingOuterHardsuitBase,BaseGrandTheftContraband ｜_Starlight
-- **纳米传讯特种部队硬服** — `ClothingOuterHardsuitNTSF` ｜父类: BaseNanoTrasenContraband,ClothingOuterHardsuitBase ｜_Starlight
-- **NTSF第九硬服** — `ClothingOuterHardsuitNTSFNonus` ｜父类: BaseNanoTrasenContraband,ClothingOuterHardsuitBase,BaseToggleClothing ｜_Starlight
-- **NTSF第八硬服** — `ClothingOuterHardsuitNTSFOctavius` ｜父类: BaseNanoTrasenContraband,ClothingOuterHardsuitBase ｜_Starlight
-- **NTSF第一硬服** — `ClothingOuterHardsuitNTSFPrimus` ｜父类: BaseNanoTrasenContraband,ClothingOuterHardsuitBase ｜_Starlight
-- **NTSF第四硬服** — `ClothingOuterHardsuitNTSFQuartus` ｜父类: BaseNanoTrasenContraband,ClothingOuterHardsuitBase ｜_Starlight
-- **NTSF第五硬服** — `ClothingOuterHardsuitNTSFQuintus` ｜父类: BaseNanoTrasenContraband,ClothingOuterHardsuitBase ｜_Starlight
-- **NTSF第二硬服** — `ClothingOuterHardsuitNTSFSecundus` ｜父类: BaseNanoTrasenContraband,ClothingOuterHardsuitBase ｜_Starlight
-- **NTSF第七硬服** — `ClothingOuterHardsuitNTSFSeptimus` ｜父类: BaseNanoTrasenContraband,ClothingOuterHardsuitBase ｜_Starlight
-- **NTSF第六硬服** — `ClothingOuterHardsuitNTSFSextus` ｜父类: BaseNanoTrasenContraband,ClothingOuterHardsuitBase ｜_Starlight
-- **NTSF第三硬服** — `ClothingOuterHardsuitNTSFTertius` ｜父类: BaseNanoTrasenContraband,ClothingOuterHardsuitBase ｜_Starlight
-- **海盗舰长的硬装宇航服** — `ClothingOuterHardsuitPirateCap` ｜父类: ClothingOuterHardsuitBase,BaseMajorContraband
-- **deep太空舱外服** — `ClothingOuterHardsuitPirateEVA` ｜父类: ClothingOuterHardsuitBase,BaseMajorContraband
-- **实验型research硬装宇航服** — `ClothingOuterHardsuitRd` ｜父类: ClothingOuterHardsuitBase,BaseGrandTheftContraband
-- **打捞硬装宇航服 # Starlight - rename for mining hard服 addition** — `ClothingOuterHardsuitSalvage` ｜父类: ClothingOuterHardsuitBase,BaseSalvageMiningContraband
-- **圣诞老人的硬装宇航服** — `ClothingOuterHardsuitSanta` ｜父类: ClothingOuterHardsuitBase
-- **安保硬装宇航服** — `ClothingOuterHardsuitSecurity` ｜父类: ClothingOuterHardsuitBase,BaseSecurityContraband
-- **实验型安保硬服** — `ClothingOuterHardsuitSecurityExperimental` ｜父类: ClothingOuterHardsuitBase,BaseSecurityContraband ｜_Starlight
-- **安保主管的硬装宇航服** — `ClothingOuterHardsuitSecurityRed` ｜父类: ClothingOuterHardsuitBase,BaseGrandTheftContraband
-- **苏维埃EVA服** — `ClothingOuterHardsuitSovietEVA` ｜父类: ClothingOuterEVASuitBase,BaseSovietContraband ｜_Starlight
-- **SSF陆战队硬服** — `ClothingOuterHardsuitSovietMarine` ｜父类: ClothingOuterHardsuitBase,BaseSovietContraband ｜_Starlight
-- **太空危境硬服** — `ClothingOuterHardsuitSpaceHazard` ｜父类: ClothingOuterHardsuitBase,BaseCargoContraband ｜_Starlight
-- **太空作业员硬装宇航服** — `ClothingOuterHardsuitSpatio` ｜父类: ClothingOuterHardsuitBase,BaseCargoContraband
-- **太空领航员领队硬服** — `ClothingOuterHardsuitSpatioLead` ｜父类: ClothingOuterHardsuitBase,BaseSalvageContraband ｜_Starlight
-- **血红色硬装宇航服** — `ClothingOuterHardsuitSyndie` ｜父类: ClothingOuterHardsuitBase,BaseSyndicateContraband
-- **辛迪加commander硬装宇航服** — `ClothingOuterHardsuitSyndieCommander` ｜父类: ClothingOuterHardsuitBase,BaseSyndicateContraband
-- **辛迪加精英硬装宇航服** — `ClothingOuterHardsuitSyndieElite` ｜父类: ClothingOuterHardsuitBase,BaseSyndicateContraband
-- **血红色医疗人员硬装宇航服** — `ClothingOuterHardsuitSyndieMedic` ｜父类: ClothingOuterHardsuitSyndie,BaseSyndicateContraband
-- **塔纳托斯** — `ClothingOuterHardsuitThanatos` ｜父类: BaseCentcommContraband,ClothingOuterHardsuitBase ｜_Starlight
-- **陆战特种作战司令部硬服** — `ClothingOuterHardsuitTSFMARSOC` ｜父类: BaseTSFContraband,ClothingOuterHardsuitDecimus ｜_Starlight
-- **幻影硬服** — `ClothingOuterHardsuitTSFPhantom` ｜父类: BaseTSFContraband,ClothingOuterHardsuitNTSF ｜_Starlight
-- **急救员虚空服** — `ClothingOuterHardsuitVoidParamed` ｜父类: ClothingOuterEVASuitBase,BaseMedicalContraband
-- **典狱长的硬装宇航服** — `ClothingOuterHardsuitWarden` ｜父类: ClothingOuterHardsuitBase,BaseSecurityContraband
-- **巫师硬装宇航服** — `ClothingOuterHardsuitWizard` ｜父类: ClothingOuterHardsuitBase,BaseMagicalContraband
-- **黑色连帽衫** — `ClothingOuterHoodieBlack` ｜父类: ClothingOuterBase
-- **牧师连帽衫 # Starlight** — `ClothingOuterHoodieChaplain` ｜父类: ClothingOuterBaseToggleable
-- **灰色连帽衫** — `ClothingOuterHoodieGrey` ｜父类: ClothingOuterBase
-- **病号服** — `ClothingOuterHospitalGown` ｜父类: ClothingOuterBase
-- **厨师夹克** — `ClothingOuterJacketChef` ｜父类: ClothingOuterStorageBase
-- **宽大衬衫** — `ClothingOuterLargeShirt` ｜父类: ClothingOuterStorageBase,AllowSuitStorageClothing ｜_Starlight
-- **修女袍** — `ClothingOuterNunRobe` ｜父类: ClothingOuterBase
-- **瘟疫医生服** — `ClothingOuterPlagueSuit` ｜父类: ClothingOuterBase
-- **斗篷** — `ClothingOuterPoncho` ｜父类: ClothingOuterBase
-- **经典斗篷** — `ClothingOuterPonchoClassic` ｜父类: ClothingOuterBase
-- **新闻护甲** — `ClothingOuterPressArmor` ｜父类: BaseReporterContraband,ClothingOuterArmorBase ｜_Starlight
-- **反应式护甲外壳** — `ClothingOuterReactiveArmourShell` ｜父类: BaseGrandTheftContraband,ClothingOuterArmorBase ｜_Starlight
+- **有机宇航服** — `ClothingOuterHardsuitLing` ｜父类: ClothingOuterHardsuitBase ｜描述: A spaceworthy biomass of pressure and temperature resistant tissue.
+- **QM'sluxurymaxim硬服** — `ClothingOuterHardsuitLuxmax` ｜父类: ClothingOuterHardsuitBase,BaseGrandTheftContraband ｜_Starlight ｜描述: This luxury maxim hardsuit has been retrofitted with solid gold fittings and furnishings, making it more cumbersome, and less protective than a standard maxim hardsuit.
+- **奢华采矿外骨骼装甲** — `ClothingOuterHardsuitLuxury` ｜父类: ClothingOuterHardsuitBase ｜描述: A refurbished mining hardsuit, fashioned after the Quartermaster's colors. Graphene lining provides less protection, but is much easier to move.
+- **salvagermaxim硬装宇航服** — `ClothingOuterHardsuitMaxim` ｜父类: ClothingOuterHardsuitBase,BaseSalvageContraband ｜描述: Fire. Heat. These things forge great weapons, they also forge great salvagers.
+- **医疗主管的硬装宇航服** — `ClothingOuterHardsuitMedical` ｜父类: ClothingOuterHardsuitBase,BaseGrandTheftContraband ｜描述: A special suit that protects against hazardous, low pressure environments. Built with lightweight materials for easier movement.
+- **雇佣兵硬服** — `ClothingOuterHardsuitMercenary` ｜父类: ClothingOuterHardsuitBase,BaseSalvageContraband ｜_Starlight ｜描述: It's a hardsuit. It could stop a bullet. It's sealed with top of the line duct tape.
+- **哑剧演员硬装宇航服** — `ClothingOuterHardsuitMime` ｜父类: ClothingOuterHardsuitClown ｜描述: A custom-made mime hardsuit.
+- **mining硬服** — `ClothingOuterHardsuitMining` ｜父类: ClothingOuterHardsuitBase,BaseSalvageMiningContraband ｜_Starlight ｜描述: A special suit that protects against hazardous, low pressure environments encountered during space mining.
+- **纳米传讯代表硬服** — `ClothingOuterHardsuitNtrep` ｜父类: ClothingOuterHardsuitBase,BaseGrandTheftContraband ｜_Starlight ｜描述: It used to be blue, but too many premium cigars turned it tobacco brown.
+- **纳米传讯特种部队硬服** — `ClothingOuterHardsuitNTSF` ｜父类: BaseNanoTrasenContraband,ClothingOuterHardsuitBase ｜_Starlight ｜描述: An advanced hardsuit favored by commandos for use in special operations.
+- **NTSF第九硬服** — `ClothingOuterHardsuitNTSFNonus` ｜父类: BaseNanoTrasenContraband,ClothingOuterHardsuitBase,BaseToggleClothing ｜_Starlight ｜描述: May NanoTrasen have mercy, for I have none.
+- **NTSF第八硬服** — `ClothingOuterHardsuitNTSFOctavius` ｜父类: BaseNanoTrasenContraband,ClothingOuterHardsuitBase ｜_Starlight ｜描述: Start prayin', commie.
+- **NTSF第一硬服** — `ClothingOuterHardsuitNTSFPrimus` ｜父类: BaseNanoTrasenContraband,ClothingOuterHardsuitBase ｜_Starlight ｜描述: The famous blue striped armor of NTSF Task Force One "Primus". The best of the best NanoTrasen has to offer.
+- **NTSF第四硬服** — `ClothingOuterHardsuitNTSFQuartus` ｜父类: BaseNanoTrasenContraband,ClothingOuterHardsuitBase ｜_Starlight ｜描述: Only the most dangerous transports, volatile artifacts, and deadly prisoners fall under the watchful eye of NTSF Task Force Quartus.
+- **NTSF第五硬服** — `ClothingOuterHardsuitNTSFQuintus` ｜父类: BaseNanoTrasenContraband,ClothingOuterHardsuitBase ｜_Starlight ｜描述: Specially designed to combat Syndicate weaponry, there's no better gear for crushing Gorlex skulls.
+- **NTSF第二硬服** — `ClothingOuterHardsuitNTSFSecundus` ｜父类: BaseNanoTrasenContraband,ClothingOuterHardsuitBase ｜_Starlight ｜描述: The reinforced chassis of this armor makes it extremely slow, but supremely durable. Worn by NTSF Task force "Secundus", and their steamroller approach to combat.
+- **NTSF第七硬服** — `ClothingOuterHardsuitNTSFSeptimus` ｜父类: BaseNanoTrasenContraband,ClothingOuterHardsuitBase ｜_Starlight ｜描述: I am pest control guy. *Grabs Pulse Rifle* - and THIS is my pest control.
+- **NTSF第六硬服** — `ClothingOuterHardsuitNTSFSextus` ｜父类: BaseNanoTrasenContraband,ClothingOuterHardsuitBase ｜_Starlight ｜描述: The uncanny markings upon the armor cause great discomfort to all who see them. Its labyrinthine gold inlays tell an esoteric story of magecraft.
+- **NTSF第三硬服** — `ClothingOuterHardsuitNTSFTertius` ｜父类: BaseNanoTrasenContraband,ClothingOuterHardsuitBase ｜_Starlight ｜描述: Nailing it down won't save you. Utilized by Task Force "Tertius", infamous for being the "Repo Men" of NanoTrasen, taking what is theirs - and usually plenty more. Comes with built in blue space stora
+- **海盗舰长的硬装宇航服** — `ClothingOuterHardsuitPirateCap` ｜父类: ClothingOuterHardsuitBase,BaseMajorContraband ｜描述: An ancient armored hardsuit, perfect for defending against space scurvy and toolbox-wielding scallywags.
+- **deep太空舱外服** — `ClothingOuterHardsuitPirateEVA` ｜父类: ClothingOuterHardsuitBase,BaseMajorContraband ｜描述: A heavy space suit that provides some basic protection from the cold harsh realities of deep space.
+- **实验型research硬装宇航服** — `ClothingOuterHardsuitRd` ｜父类: ClothingOuterHardsuitBase,BaseGrandTheftContraband ｜描述: A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
+- **打捞硬装宇航服 # Starlight - rename for mining hard服 addition** — `ClothingOuterHardsuitSalvage` ｜父类: ClothingOuterHardsuitBase,BaseSalvageMiningContraband ｜描述: A special suit that protects against hazardous, low pressure environments. Has reinforced plating for wildlife encounters.
+- **圣诞老人的硬装宇航服** — `ClothingOuterHardsuitSanta` ｜父类: ClothingOuterHardsuitBase ｜描述: A festive, cheerful hardsuit that protects the jolly gift-giver while on sleighrides in space. Offers some resistance against asteroid strikes.
+- **安保硬装宇航服** — `ClothingOuterHardsuitSecurity` ｜父类: ClothingOuterHardsuitBase,BaseSecurityContraband ｜描述: A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
+- **实验型安保硬服** — `ClothingOuterHardsuitSecurityExperimental` ｜父类: ClothingOuterHardsuitBase,BaseSecurityContraband ｜_Starlight ｜描述: A high-tech hardsuit meant to eventually replace the standard security suit, it boasts an ID-Lock and Gun-Lock system. Rumors have it that the first prototype was stolen by the syndicate..
+- **安保主管的硬装宇航服** — `ClothingOuterHardsuitSecurityRed` ｜父类: ClothingOuterHardsuitBase,BaseGrandTheftContraband ｜描述: A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
+- **苏维埃EVA服** — `ClothingOuterHardsuitSovietEVA` ｜父类: ClothingOuterEVASuitBase,BaseSovietContraband ｜_Starlight ｜描述: A rugged space suit with the hammer and sickle emblazoned on the back. For the workers of space!
+- **SSF陆战队硬服** — `ClothingOuterHardsuitSovietMarine` ｜父类: ClothingOuterHardsuitBase,BaseSovietContraband ｜_Starlight ｜描述: SMIRNO!
+- **太空危境硬服** — `ClothingOuterHardsuitSpaceHazard` ｜父类: ClothingOuterHardsuitBase,BaseCargoContraband ｜_Starlight ｜描述: A special suit that protects against hazardous, low pressure environments. Specifically for the dangers of space mining.
+- **太空作业员硬装宇航服** — `ClothingOuterHardsuitSpatio` ｜父类: ClothingOuterHardsuitBase,BaseCargoContraband ｜描述: A lightweight hardsuit designed for industrial EVA in zero gravity.
+- **太空领航员领队硬服** — `ClothingOuterHardsuitSpatioLead` ｜父类: ClothingOuterHardsuitBase,BaseSalvageContraband ｜_Starlight ｜描述: A lightweight decorated hardsuit designed for industrial EVA in zero gravity.
+- **血红色硬装宇航服** — `ClothingOuterHardsuitSyndie` ｜父类: ClothingOuterHardsuitBase,BaseSyndicateContraband ｜描述: A heavily armored hardsuit designed for work in special operations. Property of Gorlex Marauders.
+- **辛迪加commander硬装宇航服** — `ClothingOuterHardsuitSyndieCommander` ｜父类: ClothingOuterHardsuitBase,BaseSyndicateContraband ｜描述: A bulked up version of the blood-red hardsuit, purpose-built for the commander of a syndicate operative squad. Has significantly improved armor for those deadly front-lines firefights.
+- **辛迪加精英硬装宇航服** — `ClothingOuterHardsuitSyndieElite` ｜父类: ClothingOuterHardsuitBase,BaseSyndicateContraband ｜描述: An elite version of the blood-red hardsuit, with improved radiation resistance and fireproofing. Property of Gorlex Marauders.
+- **血红色医疗人员硬装宇航服** — `ClothingOuterHardsuitSyndieMedic` ｜父类: ClothingOuterHardsuitSyndie,BaseSyndicateContraband ｜描述: A heavily armored and agile advanced hardsuit specifically designed for field medic operations.
+- **塔纳托斯** — `ClothingOuterHardsuitThanatos` ｜父类: BaseCentcommContraband,ClothingOuterHardsuitBase ｜_Starlight ｜描述: An advanced hardsuit favored by commandos for use in special operations.
+- **陆战特种作战司令部硬服** — `ClothingOuterHardsuitTSFMARSOC` ｜父类: BaseTSFContraband,ClothingOuterHardsuitDecimus ｜_Starlight ｜描述: A suit worn by marines of the Trans-Solar Federation's Marine Special Operations Command. Armored, space ready, and fireproof.
+- **幻影硬服** — `ClothingOuterHardsuitTSFPhantom` ｜父类: BaseTSFContraband,ClothingOuterHardsuitNTSF ｜_Starlight ｜描述: A suit worn by marines of the Trans-Solar Federation's Marine special Operations Phantom. Armored, space ready and stealthy.
+- **急救员虚空服** — `ClothingOuterHardsuitVoidParamed` ｜父类: ClothingOuterEVASuitBase,BaseMedicalContraband ｜描述: A void suit made for paramedics.
+- **典狱长的硬装宇航服** — `ClothingOuterHardsuitWarden` ｜父类: ClothingOuterHardsuitBase,BaseSecurityContraband ｜描述: A specialized, heavy riot suit geared to combat low pressure environments.
+- **巫师硬装宇航服** — `ClothingOuterHardsuitWizard` ｜父类: ClothingOuterHardsuitBase,BaseMagicalContraband ｜描述: A bizarre gem-encrusted suit that radiates magical energies.
+- **黑色连帽衫** — `ClothingOuterHoodieBlack` ｜父类: ClothingOuterBase ｜描述: Oh my God, it's a black hoodie!
+- **牧师连帽衫 # Starlight** — `ClothingOuterHoodieChaplain` ｜父类: ClothingOuterBaseToggleable ｜描述: Black and strict Chaplai hoodie.
+- **灰色连帽衫** — `ClothingOuterHoodieGrey` ｜父类: ClothingOuterBase ｜描述: A grey hoodie.
+- **病号服** — `ClothingOuterHospitalGown` ｜父类: ClothingOuterBase ｜描述: Made from the wool of slaughtered baby lambs.  The cruelty makes it softer.
+- **厨师夹克** — `ClothingOuterJacketChef` ｜父类: ClothingOuterStorageBase ｜描述: An apron-jacket used by a high class chef.
+- **宽大衬衫** — `ClothingOuterLargeShirt` ｜父类: ClothingOuterStorageBase,AllowSuitStorageClothing ｜_Starlight ｜描述: It could fit two of you!
+- **修女袍** — `ClothingOuterNunRobe` ｜父类: ClothingOuterBase ｜描述: Maximum piety in this star system.
+- **瘟疫医生服** — `ClothingOuterPlagueSuit` ｜父类: ClothingOuterBase ｜描述: A bad omen.
+- **斗篷** — `ClothingOuterPoncho` ｜父类: ClothingOuterBase ｜描述: A warm and comfy poncho.
+- **经典斗篷** — `ClothingOuterPonchoClassic` ｜父类: ClothingOuterBase ｜描述: A warm and comfy classic poncho.
+- **新闻护甲** — `ClothingOuterPressArmor` ｜父类: BaseReporterContraband,ClothingOuterArmorBase ｜_Starlight ｜描述: It has 'PRESS' written on it in white. It will help you stay alive while sniffing out ledes!
+- **反应式护甲外壳** — `ClothingOuterReactiveArmourShell` ｜父类: BaseGrandTheftContraband,ClothingOuterArmorBase ｜_Starlight ｜描述: An experimental suit of armour, awaiting installation of an anomaly core.
 - **反应式护甲外壳** — `ClothingOuterReactiveArmourShellRandom` ｜父类: ClothingOuterReactiveArmourShell ｜_Starlight
-- **红色leather夹克** — `ClothingOuterRedLeather` ｜父类: ClothingOuterStorageBase,AllowSuitStorageClothing ｜_Starlight
-- **红浣熊服** — `ClothingOuterRedRacoon` ｜父类: ClothingOuterBase
-- **邪教长袍** — `ClothingOuterRobesCult` ｜父类: ClothingOuterBase
-- **法官长袍** — `ClothingOuterRobesJudge` ｜父类: ClothingOuterBase
-- **裁判官长袍** — `ClothingOuterRobesMagistrate` ｜父类: ClothingOuterBase,BaseNanoTrasenContraband,AllowSuitStorageClothingGasTanks ｜_Starlight
-- **粗织毛衣** — `ClothingOuterRoughSweater` ｜父类: ClothingOuterStorageBase,AllowSuitStorageClothing ｜_Starlight
-- **圣诞老人服** — `ClothingOuterSanta` ｜父类: ClothingOuterBase
-- **安保飞行夹克** — `ClothingOuterSecurityBomber` ｜父类: ClothingOuterStorageFoldableBase,AllowSuitStorageClothing,BaseSecurityContraband ｜_Starlight
+- **红色leather夹克** — `ClothingOuterRedLeather` ｜父类: ClothingOuterStorageBase,AllowSuitStorageClothing ｜_Starlight ｜描述: Slick. Would look greasy with a pair of sunglasses.
+- **红浣熊服** — `ClothingOuterRedRacoon` ｜父类: ClothingOuterBase ｜描述: Fluffy suit of red racoon!
+- **邪教长袍** — `ClothingOuterRobesCult` ｜父类: ClothingOuterBase ｜描述: There's no cult without classic red/crimson cult robes.
+- **法官长袍** — `ClothingOuterRobesJudge` ｜父类: ClothingOuterBase ｜描述: This robe commands authority.
+- **裁判官长袍** — `ClothingOuterRobesMagistrate` ｜父类: ClothingOuterBase,BaseNanoTrasenContraband,AllowSuitStorageClothingGasTanks ｜_Starlight ｜描述: This robe commands authority. Much more dense than the commoner variants.
+- **粗织毛衣** — `ClothingOuterRoughSweater` ｜父类: ClothingOuterStorageBase,AllowSuitStorageClothing ｜_Starlight ｜描述: Smells like buttercups.
+- **圣诞老人服** — `ClothingOuterSanta` ｜父类: ClothingOuterBase ｜描述: Ho ho ho!
+- **安保飞行夹克** — `ClothingOuterSecurityBomber` ｜父类: ClothingOuterStorageFoldableBase,AllowSuitStorageClothing,BaseSecurityContraband ｜_Starlight ｜描述: A regular bomber, but with armored inserts.
 - **安保飞行夹克** — `ClothingOuterSecurityBomberOpened` ｜父类: ClothingOuterStorageFoldableBaseOpened,ClothingOuterSecurityBomber ｜_Starlight
-- **斯库布服** — `ClothingOuterSkub` ｜父类: ClothingOuterBase
-- **CBURN隔热舱外服** — `ClothingOuterSoftsuitCBURN` ｜父类: BaseCentcommContraband,ClothingOuterEVASuitBase ｜_Starlight
-- **巫师void长袍** — `ClothingOuterSoftsuitWizard` ｜父类: ClothingOuterEVASuitBase,BaseMagicalContraband ｜_Starlight
-- **柔软毛衣** — `ClothingOuterSoftSweater` ｜父类: ClothingOuterStorageBase,AllowSuitStorageClothing ｜_Starlight
-- **苏维埃great外套** — `ClothingOuterSovietCoat` ｜父类: ClothingOuterStorageBase,AllowSuitStorageClothing,BaseSovietContraband ｜_Starlight
+- **斯库布服** — `ClothingOuterSkub` ｜父类: ClothingOuterBase ｜描述: Skub is crudely written on the outside of this cylindrical suit.
+- **CBURN隔热舱外服** — `ClothingOuterSoftsuitCBURN` ｜父类: BaseCentcommContraband,ClothingOuterEVASuitBase ｜_Starlight ｜描述: A heavyweight, tough and padded EVA capable biosuit used for special cleanup operations.
+- **巫师void长袍** — `ClothingOuterSoftsuitWizard` ｜父类: ClothingOuterEVASuitBase,BaseMagicalContraband ｜_Starlight ｜描述: A cumbersome gem-encrusted robe that is magically resistant to the void of space
+- **柔软毛衣** — `ClothingOuterSoftSweater` ｜父类: ClothingOuterStorageBase,AllowSuitStorageClothing ｜_Starlight ｜描述: Smells like determination.
+- **苏维埃great外套** — `ClothingOuterSovietCoat` ｜父类: ClothingOuterStorageBase,AllowSuitStorageClothing,BaseSovietContraband ｜_Starlight ｜描述: Smells like damp concrete and expired rations.
 - `模板` **ClothingOuterStorageBase** — `ClothingOuterStorageBase` ｜父类: ClothingOuterBase
 - `模板` **ClothingOuterStorageFoldableBase** — `ClothingOuterStorageFoldableBase` ｜父类: ClothingOuterStorageBase,BaseFoldable
 - `模板` **ClothingOuterStorageFoldableBaseOpened** — `ClothingOuterStorageFoldableBaseOpened` ｜父类: ClothingOuterStorageFoldableBase
 - `模板` **ClothingOuterStorageToggleableBase** — `ClothingOuterStorageToggleableBase` ｜父类: ClothingOuterStorageBase
-- **大气防火服** — `ClothingOuterSuitAtmosFire` ｜父类: ClothingOuterBaseLarge,AllowSuitStorageClothing
-- **防爆服** — `ClothingOuterSuitBomb` ｜父类: ClothingOuterBaseLarge
-- **太空鲤鱼服** — `ClothingOuterSuitCarp` ｜父类: ClothingOuterBase
-- **鸡服** — `ClothingOuterSuitChicken` ｜父类: ClothingOuterBase
-- **应急EVA服** — `ClothingOuterSuitEmergency` ｜父类: ClothingOuterEVASuitBase
-- **防火服** — `ClothingOuterSuitFire` ｜父类: ClothingOuterBaseLarge,AllowSuitStorageClothing
-- **伊恩服** — `ClothingOuterSuitIan` ｜父类: ClothingOuterBase
-- **清洁工防爆服** — `ClothingOuterSuitJanitorBomb` ｜父类: ClothingOuterSuitBomb
-- **猴子服** — `ClothingOuterSuitMonkey` ｜父类: ClothingOuterBase
-- **防辐射服** — `ClothingOuterSuitRad` ｜父类: ClothingOuterBaseLarge,GeigerCounterClothing,AllowSuitStorageClothing
-- **巫女服** — `ClothingOuterSuitShrineMaiden` ｜父类: ClothingOuterBase
-- **太空忍者服** — `ClothingOuterSuitSpaceNinja` ｜父类: ClothingOuterBaseLarge,AllowSuitStorageClothing,BaseToggleClothing,BaseHighlyIllegalContraband
-- **女巫长袍** — `ClothingOuterSuitWitchRobes` ｜父类: ClothingOuterBase
-- **背心** — `ClothingOuterVest` ｜父类: ClothingOuterBase
-- **侦探的背心** — `ClothingOuterVestDetective` ｜父类: ClothingOuterArmorBase,BaseSecurityContraband
-- **绿盾背心** — `ClothingOuterVestGreenshield` ｜父类: BaseCentcommContraband,ClothingOuterArmorRaid,ClothingOuterStorageBase ｜_Starlight
-- **高可视度背心** — `ClothingOuterVestHazard` ｜父类: ClothingOuterStorageBase
-- **TSF干员's勤务背心** — `ClothingOuterVestRetroOfficer` ｜父类: ClothingOuterStorageBase,AllowSuitStorageClothing,BaseTSFContraband ｜_Starlight
-- **TSF干员's高可见度背心** — `ClothingOuterVestRetroOfficerHiVis` ｜父类: ClothingOuterVestRetroOfficer ｜_Starlight
-- **气罐背带** — `ClothingOuterVestTank` ｜父类: ClothingOuterBase,AllowSuitStorageClothingGasTanks
-- **战术背心** — `ClothingOuterVestWeb` ｜父类: ClothingOuterArmorBase,ClothingOuterStorageBase,BaseSyndicateContraband
-- **精英战术背心** — `ClothingOuterVestWebElite` ｜父类: ClothingOuterVestWeb
-- **中央指挥部战术背心** — `ClothingOuterVestWebEliteCentcomm` ｜父类: BaseCentcommContraband,ClothingOuterVestWeb ｜_Starlight
-- **雇佣兵战术背心** — `ClothingOuterVestWebMerc` ｜父类: BaseMajorContraband,ClothingOuterVestWeb
-- **拾荒者战术背心** — `ClothingOuterVestWebSalvageMerc` ｜父类: BaseSalvageContraband,ClothingOuterVestWeb ｜_Starlight
-- **货运风衣** — `ClothingOuterWindbreakerCargo` ｜父类: ClothingOuterStorageFoldableBase,ClothingOuterColdBase,AllowSuitStorageClothing ｜_Starlight
+- **大气防火服** — `ClothingOuterSuitAtmosFire` ｜父类: ClothingOuterBaseLarge,AllowSuitStorageClothing ｜描述: An expensive firesuit that protects against even the most deadly of station fires. Designed to protect even if the wearer is set aflame.
+- **防爆服** — `ClothingOuterSuitBomb` ｜父类: ClothingOuterBaseLarge ｜描述: A heavy suit designed to withstand the pressure generated by a bomb and any fragments the bomb may produce.
+- **太空鲤鱼服** — `ClothingOuterSuitCarp` ｜父类: ClothingOuterBase ｜描述: A special suit that makes you look just like a space carp, if your eyesight is bad.
+- **鸡服** — `ClothingOuterSuitChicken` ｜父类: ClothingOuterBase ｜描述: Bok bok bok!
+- **应急EVA服** — `ClothingOuterSuitEmergency` ｜父类: ClothingOuterEVASuitBase ｜描述: An emergency EVA suit with a built-in helmet. It's horribly slow and lacking in temperature protection, but enough to buy you time from the harsh vacuum of space.
+- **防火服** — `ClothingOuterSuitFire` ｜父类: ClothingOuterBaseLarge,AllowSuitStorageClothing ｜描述: A suit that helps protect against hazardous temperatures.
+- **伊恩服** — `ClothingOuterSuitIan` ｜父类: ClothingOuterBase ｜描述: Who's a good boy?
+- **清洁工防爆服** — `ClothingOuterSuitJanitorBomb` ｜父类: ClothingOuterSuitBomb ｜描述: Heavy body armor designed to withstand explosions formed from reactions between chemicals.
+- **猴子服** — `ClothingOuterSuitMonkey` ｜父类: ClothingOuterBase ｜描述: A suit that looks like a primate.
+- **防辐射服** — `ClothingOuterSuitRad` ｜父类: ClothingOuterBaseLarge,GeigerCounterClothing,AllowSuitStorageClothing ｜描述: A suit that protects against radiation. The label reads, 'Made with lead. Please do not consume insulation.'
+- **巫女服** — `ClothingOuterSuitShrineMaiden` ｜父类: ClothingOuterBase ｜描述: Makes you want to go deal with some troublesome youkai.
+- **太空忍者服** — `ClothingOuterSuitSpaceNinja` ｜父类: ClothingOuterBaseLarge,AllowSuitStorageClothing,BaseToggleClothing,BaseHighlyIllegalContraband ｜描述: This black technologically advanced, cybernetically-enhanced suit provides many abilities like invisibility or teleportation.
+- **女巫长袍** — `ClothingOuterSuitWitchRobes` ｜父类: ClothingOuterBase ｜描述: Magic is all about the spell power, ZE!
+- **背心** — `ClothingOuterVest` ｜父类: ClothingOuterBase ｜描述: A thick vest with a rubbery, water-resistant shell.
+- **侦探的背心** — `ClothingOuterVestDetective` ｜父类: ClothingOuterArmorBase,BaseSecurityContraband ｜描述: A hard-boiled private investigator's armored vest.
+- **绿盾背心** — `ClothingOuterVestGreenshield` ｜父类: BaseCentcommContraband,ClothingOuterArmorRaid,ClothingOuterStorageBase ｜_Starlight ｜描述: A protective vest worn by Greenshields. It even has pockets and a flashlight!
+- **高可视度背心** — `ClothingOuterVestHazard` ｜父类: ClothingOuterStorageBase ｜描述: A high-visibility vest used in work zones.
+- **TSF干员's勤务背心** — `ClothingOuterVestRetroOfficer` ｜父类: ClothingOuterStorageBase,AllowSuitStorageClothing,BaseTSFContraband ｜_Starlight ｜描述: A tactical vest from the Trans Solar Federation. Provides basic protection and some storage for patrol duty.
+- **TSF干员's高可见度背心** — `ClothingOuterVestRetroOfficerHiVis` ｜父类: ClothingOuterVestRetroOfficer ｜_Starlight ｜描述: A high-visibility tactical vest from the Trans Solar Federation. Essential for traffic control and maintaining visibility in dangerous situations.
+- **气罐背带** — `ClothingOuterVestTank` ｜父类: ClothingOuterBase,AllowSuitStorageClothingGasTanks ｜描述: A simple harness that can hold a gas tank.
+- **战术背心** — `ClothingOuterVestWeb` ｜父类: ClothingOuterArmorBase,ClothingOuterStorageBase,BaseSyndicateContraband ｜描述: A synthetic armor vest. This one has added webbing and ballistic plates.
+- **精英战术背心** — `ClothingOuterVestWebElite` ｜父类: ClothingOuterVestWeb ｜描述: A synthetic armor vest. This one has added webbing and heat resistant fibers.
+- **中央指挥部战术背心** — `ClothingOuterVestWebEliteCentcomm` ｜父类: BaseCentcommContraband,ClothingOuterVestWeb ｜_Starlight ｜描述: A synthetic armor vest redesignated for use by the Corporate Consortium, webbing and heat resistant fibers included.
+- **雇佣兵战术背心** — `ClothingOuterVestWebMerc` ｜父类: BaseMajorContraband,ClothingOuterVestWeb ｜描述: A high-quality armored vest made from a hard synthetic material. It's surprisingly flexible and light, despite formidable armor plating.
+- **拾荒者战术背心** — `ClothingOuterVestWebSalvageMerc` ｜父类: BaseSalvageContraband,ClothingOuterVestWeb ｜_Starlight ｜描述: A versatile armored vest, popular among salvagers for its protective yet lightweight design.
+- **货运风衣** — `ClothingOuterWindbreakerCargo` ｜父类: ClothingOuterStorageFoldableBase,ClothingOuterColdBase,AllowSuitStorageClothing ｜_Starlight ｜描述: A simple windbreaker with a fur collar.
 - **货运风衣** — `ClothingOuterWindbreakerCargoOpened` ｜父类: ClothingOuterStorageFoldableBaseOpened,ClothingOuterWindbreakerCargo ｜_Starlight
-- **engineering风衣** — `ClothingOuterWindbreakerEngineering` ｜父类: ClothingOuterStorageFoldableBase,ClothingOuterColdBase,AllowSuitStorageClothing ｜_Starlight
+- **engineering风衣** — `ClothingOuterWindbreakerEngineering` ｜父类: ClothingOuterStorageFoldableBase,ClothingOuterColdBase,AllowSuitStorageClothing ｜_Starlight ｜描述: A reflective windbreaker for engineers.
 - **engineering风衣** — `ClothingOuterWindbreakerEngineeringOpened` ｜父类: ClothingOuterStorageFoldableBaseOpened,ClothingOuterWindbreakerEngineering ｜_Starlight
-- **medical风衣** — `ClothingOuterWindbreakerMedical` ｜父类: ClothingOuterStorageFoldableBase,ClothingOuterColdBase,AllowSuitStorageClothing ｜_Starlight
+- **medical风衣** — `ClothingOuterWindbreakerMedical` ｜父类: ClothingOuterStorageFoldableBase,ClothingOuterColdBase,AllowSuitStorageClothing ｜_Starlight ｜描述: A light windbreaker to see when you accidentally cut an artery.
 - **medical风衣** — `ClothingOuterWindbreakerMedicalOpened` ｜父类: ClothingOuterStorageFoldableBaseOpened,ClothingOuterWindbreakerMedical ｜_Starlight
-- **science风衣** — `ClothingOuterWindbreakerScience` ｜父类: ClothingOuterStorageFoldableBase,ClothingOuterColdBase,AllowSuitStorageClothing ｜_Starlight
+- **science风衣** — `ClothingOuterWindbreakerScience` ｜父类: ClothingOuterStorageFoldableBase,ClothingOuterColdBase,AllowSuitStorageClothing ｜_Starlight ｜描述: a labcoat style windbreaker with a pocket for all of your pens.
 - **science风衣** — `ClothingOuterWindbreakerScienceOpened` ｜父类: ClothingOuterStorageFoldableBaseOpened,ClothingOuterWindbreakerScience ｜_Starlight
-- **安保风衣** — `ClothingOuterWindbreakerSecurity` ｜父类: ClothingOuterStorageFoldableBase,AllowSuitStorageClothing,BaseSecurityContraband ｜_Starlight
+- **安保风衣** — `ClothingOuterWindbreakerSecurity` ｜父类: ClothingOuterStorageFoldableBase,AllowSuitStorageClothing,BaseSecurityContraband ｜_Starlight ｜描述: A stylish red windbreaker with additional inserted plate padding for security usage.
 - **安保风衣** — `ClothingOuterWindbreakerSecurityOpened` ｜父类: ClothingOuterStorageFoldableBaseOpened,ClothingOuterWindbreakerSecurity ｜_Starlight
 - **大气冬季大衣** — `ClothingOuterWinterAtmos` ｜父类: ClothingOuterWinterCoatToggleable
 - **酒保冬季大衣** — `ClothingOuterWinterBar` ｜父类: ClothingOuterWinterCoatToggleable,AllowSuitStorageClothing
 - **舰长冬季大衣** — `ClothingOuterWinterCap` ｜父类: ClothingOuterWinterCapUnarmored
-- **舰长's冬季外套** — `ClothingOuterWinterCapUnarmored` ｜父类: ClothingOuterWinterCoatToggleable,BaseCommandContraband,AllowSuitStorageClothing ｜_Starlight
+- **舰长's冬季外套** — `ClothingOuterWinterCapUnarmored` ｜父类: ClothingOuterWinterCoatToggleable,BaseCommandContraband,AllowSuitStorageClothing ｜_Starlight ｜描述: A sturdy coat, a warm coat, but not an armored coat.
 - **货运部冬季大衣** — `ClothingOuterWinterCargo` ｜父类: ClothingOuterWinterCoatToggleable
 - **礼服货运冬季外套** — `ClothingOuterWinterCargoSenior` ｜父类: ClothingOuterWinterCoatToggleable ｜_Starlight
 - **工程主管冬季大衣** — `ClothingOuterWinterCE` ｜父类: ClothingOuterWinterCoatToggleable,BaseCommandContraband
 - **中央指挥部冬季大衣** — `ClothingOuterWinterCentcom` ｜父类: ClothingOuterWinterCoatToggleable,BaseCentcommContraband
-- **厨师冷库大衣** — `ClothingOuterWinterChef` ｜父类: ClothingOuterWinterCoat
+- **厨师冷库大衣** — `ClothingOuterWinterChef` ｜父类: ClothingOuterWinterCoat ｜描述: A coat specifically designed for work inside cold storage, sorely needed by cold-blooded lizard chefs.
 - **化学冬季大衣** — `ClothingOuterWinterChem` ｜父类: ClothingOuterWinterCoatToggleable
 - **资深化学冬季外套** — `ClothingOuterWinterChemSenior` ｜父类: ClothingOuterWinterCoatToggleable ｜_Starlight
 - **小丑冬季大衣** — `ClothingOuterWinterClown` ｜父类: ClothingOuterWinterCoat,AllowSuitStorageClothing
 - **医疗主管冬季大衣** — `ClothingOuterWinterCMO` ｜父类: ClothingOuterWinterCoatToggleable,BaseCommandContraband
-- **冬季大衣** — `ClothingOuterWinterCoat` ｜父类: ClothingOuterStorageBase
+- **冬季大衣** — `ClothingOuterWinterCoat` ｜父类: ClothingOuterStorageBase ｜描述: A heavy jacket made from 'synthetic' animal furs.
 - **带兜帽的冬季大衣** — `ClothingOuterWinterCoatToggleable` ｜父类: ClothingOuterWinterCoat
 - **黑色冬季大衣** — `ClothingOuterWinterColorBlack` ｜父类: ClothingOuterWinterCoatToggleable
 - **蓝色冬季大衣** — `ClothingOuterWinterColorBlue` ｜父类: ClothingOuterWinterCoatToggleable
@@ -1435,79 +1435,79 @@
 - **红色冬季大衣** — `ClothingOuterWinterColorRed` ｜父类: ClothingOuterWinterCoatToggleable
 - **白色冬季大衣** — `ClothingOuterWinterColorWhite` ｜父类: ClothingOuterWinterCoatToggleable
 - **黄色冬季大衣** — `ClothingOuterWinterColorYellow` ｜父类: ClothingOuterWinterCoatToggleable
-- **值班干员's装甲冬季外套** — `ClothingOuterWinterDutyOfficer` ｜父类: ClothingOuterWinterCoatToggleable,BaseSecurityContraband,AllowSuitStorageClothing ｜_Starlight
+- **值班干员's装甲冬季外套** — `ClothingOuterWinterDutyOfficer` ｜父类: ClothingOuterWinterCoatToggleable,BaseSecurityContraband,AllowSuitStorageClothing ｜_Starlight ｜描述: A sturdy, utilitarian winter coat designed to protect a duty officer from any uppity perma prisoners.
 - **工程部冬季大衣** — `ClothingOuterWinterEngi` ｜父类: ClothingOuterWinterCoatToggleable
 - **遗传学冬季大衣** — `ClothingOuterWinterGen` ｜父类: ClothingOuterWinterCoatToggleable
 - **人事主管冬季大衣** — `ClothingOuterWinterHoP` ｜父类: ClothingOuterWinterCoatToggleable,BaseCommandContraband
-- **安保主管装甲冬季大衣** — `ClothingOuterWinterHoS` ｜父类: ClothingOuterArmorHoS,ClothingOuterWinterCoatToggleable,BaseSecurityCommandContraband
-- **安保主管冬季大衣** — `ClothingOuterWinterHoSUnarmored` ｜父类: ClothingOuterWinterCoatToggleable,BaseSecurityCommandContraband
+- **安保主管装甲冬季大衣** — `ClothingOuterWinterHoS` ｜父类: ClothingOuterArmorHoS,ClothingOuterWinterCoatToggleable,BaseSecurityCommandContraband ｜描述: A sturdy, utilitarian winter coat designed to protect a head of security from any brig-bound threats and hypothermic events.
+- **安保主管冬季大衣** — `ClothingOuterWinterHoSUnarmored` ｜父类: ClothingOuterWinterCoatToggleable,BaseSecurityCommandContraband ｜描述: A sturdy coat, a warm coat, but not an armored coat.
 - **水培冬季大衣** — `ClothingOuterWinterHydro` ｜父类: ClothingOuterWinterCoatToggleable
 - **清洁工冬季大衣** — `ClothingOuterWinterJani` ｜父类: ClothingOuterWinterCoatToggleable
 - **医疗部冬季大衣** — `ClothingOuterWinterMed` ｜父类: ClothingOuterWinterCoatToggleable
 - **哑剧演员冬季大衣** — `ClothingOuterWinterMime` ｜父类: ClothingOuterWinterCoatToggleable
 - **采矿冬季大衣** — `ClothingOuterWinterMiner` ｜父类: ClothingOuterWinterCoatToggleable
-- **乐手冬季大衣** — `ClothingOuterWinterMusician` ｜父类: ClothingOuterWinterCoat
+- **乐手冬季大衣** — `ClothingOuterWinterMusician` ｜父类: ClothingOuterWinterCoat ｜描述: An oversized, plasticine space tuxedo that'll have people asking "do you know me?"
 - **急救员冬季大衣** — `ClothingOuterWinterPara` ｜父类: ClothingOuterWinterCoatToggleable
 - **军需官冬季大衣** — `ClothingOuterWinterQM` ｜父类: ClothingOuterWinterCoatToggleable,BaseCommandContraband
 - **研究主管冬季大衣** — `ClothingOuterWinterRD` ｜父类: ClothingOuterWinterCoatToggleable,BaseCommandContraband
 - **机器人学冬季大衣** — `ClothingOuterWinterRobo` ｜父类: ClothingOuterWinterCoatToggleable
 - **科研部冬季大衣** — `ClothingOuterWinterSci` ｜父类: ClothingOuterWinterCoatToggleable
 - **安保部冬季大衣** — `ClothingOuterWinterSec` ｜父类: ClothingOuterWinterCoatToggleable,BaseSecurityContraband,AllowSuitStorageClothing
-- **辛迪加冬季大衣** — `ClothingOuterWinterSyndie` ｜父类: ClothingOuterWinterCoatToggleable,BaseMinorContraband
-- **辛迪加冬季大衣** — `ClothingOuterWinterSyndieCap` ｜父类: ClothingOuterWinterCoatToggleable,BaseMinorContraband
-- **辛迪加装甲冬季大衣** — `ClothingOuterWinterSyndieCapArmored` ｜父类: BaseSyndicateContraband,ClothingOuterWinterWarden
+- **辛迪加冬季大衣** — `ClothingOuterWinterSyndie` ｜父类: ClothingOuterWinterCoatToggleable,BaseMinorContraband ｜描述: Insulated winter coat, looks like a merch from "Syndieland".
+- **辛迪加冬季大衣** — `ClothingOuterWinterSyndieCap` ｜父类: ClothingOuterWinterCoatToggleable,BaseMinorContraband ｜描述: The syndicate's winter coat is made of durable fabric, with gilded patterns, and coarse wool.
+- **辛迪加装甲冬季大衣** — `ClothingOuterWinterSyndieCapArmored` ｜父类: BaseSyndicateContraband,ClothingOuterWinterWarden ｜描述: The syndicate's armored winter coat is made of durable fabric, with gilded patterns, and coarse wool.
 - **病毒学冬季大衣** — `ClothingOuterWinterViro` ｜父类: ClothingOuterWinterCoatToggleable
-- **典狱长装甲冬季大衣** — `ClothingOuterWinterWarden` ｜父类: ClothingOuterArmorWarden,ClothingOuterWinterCoatToggleable,BaseSecurityContraband
-- **典狱长冬季大衣** — `ClothingOuterWinterWardenUnarmored` ｜父类: ClothingOuterWinterCoatToggleable,BaseSecurityContraband
-- **蛛网冬季大衣** — `ClothingOuterWinterWeb` ｜父类: ClothingOuterWinterCoatToggleable
-- **蓝色巫师长袍 # Starlight name consistency** — `ClothingOuterWizard` ｜父类: ClothingOuterWizardBase
+- **典狱长装甲冬季大衣** — `ClothingOuterWinterWarden` ｜父类: ClothingOuterArmorWarden,ClothingOuterWinterCoatToggleable,BaseSecurityContraband ｜描述: A sturdy, utilitarian winter coat designed to protect a warden from any brig-bound threats and hypothermic events.
+- **典狱长冬季大衣** — `ClothingOuterWinterWardenUnarmored` ｜父类: ClothingOuterWinterCoatToggleable,BaseSecurityContraband ｜描述: A sturdy coat, a warm coat, but not an armored coat.
+- **蛛网冬季大衣** — `ClothingOuterWinterWeb` ｜父类: ClothingOuterWinterCoatToggleable ｜描述: Feels like the inside of a cocoon, not that this would make you less afraid of being in one.
+- **蓝色巫师长袍 # Starlight name consistency** — `ClothingOuterWizard` ｜父类: ClothingOuterWizardBase ｜描述: A bizarre gem-encrusted blue robe that radiates magical energies.
 - `模板` **ClothingOuterWizardBase** — `ClothingOuterWizardBase` ｜父类: ClothingOuterBase,AllowSuitStorageClothingGasTanks,BaseMagicalContraband
-- **绿色巫师长袍** — `ClothingOuterWizardGreen` ｜父类: ClothingOuterWizard ｜_Starlight
-- **橙色巫师长袍** — `ClothingOuterWizardOrange` ｜父类: ClothingOuterWizard ｜_Starlight
-- **peach巫师长袍** — `ClothingOuterWizardPeach` ｜父类: ClothingOuterWizard ｜_Starlight
-- **紫色巫师长袍** — `ClothingOuterWizardPurple` ｜父类: ClothingOuterWizard ｜_Starlight
-- **红色巫师长袍** — `ClothingOuterWizardRed` ｜父类: ClothingOuterWizardBase
-- **紫罗兰色巫师长袍** — `ClothingOuterWizardViolet` ｜父类: ClothingOuterWizardBase
-- **黄色巫师长袍** — `ClothingOuterWizardYellow` ｜父类: ClothingOuterWizard ｜_Starlight
-- **低致命性手榴弹小包** — `ClothingPouchPeacekeeper` ｜父类: ClothingBeltStorageBase,BaseSecurityContraband ｜_Starlight
+- **绿色巫师长袍** — `ClothingOuterWizardGreen` ｜父类: ClothingOuterWizard ｜_Starlight ｜描述: A bizarre gem-encrusted green robe that radiates magical energies.
+- **橙色巫师长袍** — `ClothingOuterWizardOrange` ｜父类: ClothingOuterWizard ｜_Starlight ｜描述: A bizarre gem-encrusted orange robe that radiates magical energies.
+- **peach巫师长袍** — `ClothingOuterWizardPeach` ｜父类: ClothingOuterWizard ｜_Starlight ｜描述: A bizarre gem-encrusted peach robe that radiates magical energies.
+- **紫色巫师长袍** — `ClothingOuterWizardPurple` ｜父类: ClothingOuterWizard ｜_Starlight ｜描述: A bizarre gem-encrusted purple robe that radiates magical energies.
+- **红色巫师长袍** — `ClothingOuterWizardRed` ｜父类: ClothingOuterWizardBase ｜描述: A bizarre gem-encrusted red robe that radiates magical energies.
+- **紫罗兰色巫师长袍** — `ClothingOuterWizardViolet` ｜父类: ClothingOuterWizardBase ｜描述: A bizarre gem-encrusted violet robe that radiates magical energies.
+- **黄色巫师长袍** — `ClothingOuterWizardYellow` ｜父类: ClothingOuterWizard ｜_Starlight ｜描述: A bizarre gem-encrusted yellow robe that radiates magical energies.
+- **低致命性手榴弹小包** — `ClothingPouchPeacekeeper` ｜父类: ClothingBeltStorageBase,BaseSecurityContraband ｜_Starlight ｜描述: Tactical storage for less lethal grenades.
 - **随机彩色服装** — `ClothingRandomSpawner` ｜父类: ClothingUniformRandom
-- **皮革挎包** — `ClothingSatchelLeatherSovietOfficialLoadout` ｜父类: ClothingBackpackSatchelLeather ｜_Starlight
+- **皮革挎包** — `ClothingSatchelLeatherSovietOfficialLoadout` ｜父类: ClothingBackpackSatchelLeather ｜_Starlight ｜描述: A trend-setting satchel from a bygone era.
 - `模板` **ClothingScarfBase** — `ClothingScarfBase` ｜父类: ClothingNeckBase
-- **静空气靴** — `ClothingShoesAerostatic` ｜父类: ClothingShoesBase ｜_Starlight
+- **静空气靴** — `ClothingShoesAerostatic` ｜父类: ClothingShoesBase ｜_Starlight ｜描述: A crisp, clean set of boots for working long hours on the beat.
 - `模板` **ClothingShoesBase** — `ClothingShoesBase` ｜父类: Clothing
 - `模板` **ClothingShoesBaseButcherable** — `ClothingShoesBaseButcherable` ｜父类: ClothingShoesBase
 - `模板` **ClothingShoesBaseUnprotected** — `ClothingShoesBaseUnprotected` ｜父类: Clothing ｜_Starlight
-- `模板` **ClothingShoesBaseWinterBoots** — `ClothingShoesBaseWinterBoots` ｜父类: ClothingShoesBaseButcherable
-- **炫富小丑鞋** — `ClothingShoesBling` ｜父类: ClothingShoesClownBase
-- **战斗靴** — `ClothingShoesBootsCombat` ｜父类: ClothingShoesMilitaryBase,BaseSecurityContraband
+- `模板` **ClothingShoesBaseWinterBoots** — `ClothingShoesBaseWinterBoots` ｜父类: ClothingShoesBaseButcherable ｜描述: Fluffy boots to help survive even the coldest of winters.
+- **炫富小丑鞋** — `ClothingShoesBling` ｜父类: ClothingShoesClownBase ｜描述: Made of refined bananium and shined with the pulp of a fresh banana peel. These make a flashy statement.
+- **战斗靴** — `ClothingShoesBootsCombat` ｜父类: ClothingShoesMilitaryBase,BaseSecurityContraband ｜描述: Robust combat boots for combat scenarios or combat situations. All combat, all the time.
 - **黑色牛仔靴** — `ClothingShoesBootsCowboyBlack` ｜父类: ClothingShoesBootsCowboyBrown
-- **棕色牛仔靴** — `ClothingShoesBootsCowboyBrown` ｜父类: ClothingShoesMilitaryBase
+- **棕色牛仔靴** — `ClothingShoesBootsCowboyBrown` ｜父类: ClothingShoesMilitaryBase ｜描述: They got spurs that jingle and/or jangle.
 - **华丽牛仔靴** — `ClothingShoesBootsCowboyFancy` ｜父类: ClothingShoesBootsCowboyBrown
 - **白色牛仔靴** — `ClothingShoesBootsCowboyWhite` ｜父类: ClothingShoesBootsCowboyBrown
-- **军靴** — `ClothingShoesBootsJack` ｜父类: ClothingShoesMilitaryBase,BaseSecurityContraband
-- **跳跃靴** — `ClothingShoesBootsJump` ｜父类: ClothingShoesBase
-- **系带鞋** — `ClothingShoesBootsLaceup` ｜父类: ClothingShoesBaseButcherable
+- **军靴** — `ClothingShoesBootsJack` ｜父类: ClothingShoesMilitaryBase,BaseSecurityContraband ｜描述: NanoTrasen-issue Security combat boots for combat scenarios or combat situations. All combat, all the time.
+- **跳跃靴** — `ClothingShoesBootsJump` ｜父类: ClothingShoesBase ｜描述: High-tech boots that give you the incredible ability to JUMP! With these boots you can jump over lava, chasms and weird chemicals on the floor!
+- **系带鞋** — `ClothingShoesBootsLaceup` ｜父类: ClothingShoesBaseButcherable ｜描述: The height of fashion, and they're pre-polished!
 - **磁力靴** — `ClothingShoesBootsMag` ｜父类: ClothingShoesBootsMagBase
-- **高级磁力靴** — `ClothingShoesBootsMagAdv` ｜父类: ClothingShoesBootsMagBase,BaseGrandTheftContraband
-- `模板` **磁力靴** — `ClothingShoesBootsMagBase` ｜父类: ClothingShoesBase,BaseToggleClothing
-- **炫目疾速磁力靴** — `ClothingShoesBootsMagBlinding` ｜父类: ClothingShoesBootsMagBase
-- **蓝盾磁力靴** — `ClothingShoesBootsMagBSO` ｜父类: ClothingShoesBootsMagBase,BaseBlueShieldContraband,ClothingShoesMilitaryBase ｜_Starlight
-- **应急响应队磁力靴** — `ClothingShoesBootsMagERT` ｜父类: BaseCentcommContraband,ClothingShoesBootsMagSyndie
-- **绿盾磁力靴** — `ClothingShoesBootsMagGreenshield` ｜父类: BaseCentcommContraband,ClothingShoesBootsMagSyndie ｜_Starlight
+- **高级磁力靴** — `ClothingShoesBootsMagAdv` ｜父类: ClothingShoesBootsMagBase,BaseGrandTheftContraband ｜描述: State-of-the-art magnetic boots that do not slow down their wearer.
+- `模板` **磁力靴** — `ClothingShoesBootsMagBase` ｜父类: ClothingShoesBase,BaseToggleClothing ｜描述: Magnetic boots, often used during extravehicular activity to ensure the user remains safely attached to the vehicle.
+- **炫目疾速磁力靴** — `ClothingShoesBootsMagBlinding` ｜父类: ClothingShoesBootsMagBase ｜描述: These would look fetching on a fetcher like you.
+- **蓝盾磁力靴** — `ClothingShoesBootsMagBSO` ｜父类: ClothingShoesBootsMagBase,BaseBlueShieldContraband,ClothingShoesMilitaryBase ｜_Starlight ｜描述: A pair of standard magnetic boots, issued alongside the BSO hardsuit.
+- **应急响应队磁力靴** — `ClothingShoesBootsMagERT` ｜父类: BaseCentcommContraband,ClothingShoesBootsMagSyndie ｜描述: Upgraded magnetic boots utilized by NanoTrasen's Emergency Response Teams, they have a heavy magnetic pull and integrated thrusters. It can hold 0.75 L of gas.
+- **绿盾磁力靴** — `ClothingShoesBootsMagGreenshield` ｜父类: BaseCentcommContraband,ClothingShoesBootsMagSyndie ｜_Starlight ｜描述: Upgraded magnetic boots that you swiped from the ERT lockers.
 - **磁力靴** — `ClothingShoesBootsMagSci` ｜父类: ClothingShoesBootsMagBase
-- **安保磁力靴** — `ClothingShoesBootsMagSec` ｜父类: ClothingShoesBootsMagBase,BaseSecurityContraband,ClothingShoesMilitaryBase ｜_Starlight
-- **血红磁力靴** — `ClothingShoesBootsMagSyndie` ｜父类: ClothingShoesBootsMagBase,BaseJetpack,BaseSyndicateContraband,ClothingShoesMilitaryBase
-- **邮件技师靴子** — `ClothingShoesBootsMail` ｜父类: ClothingShoesBaseButcherable ｜_Starlight
-- **雇佣兵靴** — `ClothingShoesBootsMerc` ｜父类: ClothingShoesMilitaryBase
-- **月球靴** — `ClothingShoesBootsMoon` ｜父类: ClothingShoesBase
-- **表演者靴** — `ClothingShoesBootsPerformer` ｜父类: ClothingShoesBaseButcherable
-- **打捞靴** — `ClothingShoesBootsSalvage` ｜父类: ClothingShoesBaseButcherable
-- **黑色高筒毛绒靴子** — `ClothingShoesBootsSalvage1208134` ｜父类: ClothingShoesBaseButcherable ｜_Starlight
-- **拾荒者靴子** — `ClothingShoesBootsSalvageMerc` ｜父类: ClothingShoesMilitaryBase,BaseSalvageContraband ｜_Starlight
+- **安保磁力靴** — `ClothingShoesBootsMagSec` ｜父类: ClothingShoesBootsMagBase,BaseSecurityContraband,ClothingShoesMilitaryBase ｜_Starlight ｜描述: A pair of standard magnetic boots, issued alongside the Security Hardsuit.
+- **血红磁力靴** — `ClothingShoesBootsMagSyndie` ｜父类: ClothingShoesBootsMagBase,BaseJetpack,BaseSyndicateContraband,ClothingShoesMilitaryBase ｜描述: Reverse-engineered from ERT magboots, they have a heavy magnetic pull, integrated thrusters, and are designed for combat. It can hold 0.75 L of gas.
+- **邮件技师靴子** — `ClothingShoesBootsMail` ｜父类: ClothingShoesBaseButcherable ｜_Starlight ｜描述: Perfect for delivering mail in the vacuum of space!
+- **雇佣兵靴** — `ClothingShoesBootsMerc` ｜父类: ClothingShoesMilitaryBase ｜描述: Boots that have gone through many conflicts and that have proven their combat reliability.
+- **月球靴** — `ClothingShoesBootsMoon` ｜父类: ClothingShoesBase ｜描述: Special anti-gravity boots developed with a speciality blend of lunar rock gel. Shipped from the Netherlands.
+- **表演者靴** — `ClothingShoesBootsPerformer` ｜父类: ClothingShoesBaseButcherable ｜描述: These boots provide great traction for when you're up on stage.
+- **打捞靴** — `ClothingShoesBootsSalvage` ｜父类: ClothingShoesBaseButcherable ｜描述: Steel-toed salvage boots for salvaging in hazardous environments.
+- **黑色高筒毛绒靴子** — `ClothingShoesBootsSalvage1208134` ｜父类: ClothingShoesBaseButcherable ｜_Starlight ｜描述: Tall black thigh-high boots with fur, golden accents, and straps.
+- **拾荒者靴子** — `ClothingShoesBootsSalvageMerc` ｜父类: ClothingShoesMilitaryBase,BaseSalvageContraband ｜_Starlight ｜描述: Boots capable of withstanding any terrain that a salvager may encounter.
 - `模板` **ClothingShoesBootsSecFilled** — `ClothingShoesBootsSecFilled`
-- **资深邮件技师靴子** — `ClothingShoesBootsSeniorMail` ｜父类: ClothingShoesBaseButcherable ｜_Starlight
-- **太空快递员靴子** — `ClothingShoesBootsSpaceCourier` ｜父类: ClothingShoesBaseWinterBoots ｜_Starlight
-- **疾速靴** — `ClothingShoesBootsSpeed` ｜父类: ClothingShoesBase,PowerCellSlotSmallItem,BaseToggleClothing
+- **资深邮件技师靴子** — `ClothingShoesBootsSeniorMail` ｜父类: ClothingShoesBaseButcherable ｜_Starlight ｜描述: Stylish boots reserved for the most senior of mail technicians.
+- **太空快递员靴子** — `ClothingShoesBootsSpaceCourier` ｜父类: ClothingShoesBaseWinterBoots ｜_Starlight ｜描述: Pristine courier boots themed after a legendary courier who completed all of their deliveries within 9 days, 9 hours, and 9 minutes.
+- **疾速靴** — `ClothingShoesBootsSpeed` ｜父类: ClothingShoesBase,PowerCellSlotSmallItem,BaseToggleClothing ｜描述: High-tech boots woven with quantum fibers, able to convert electricity into pure speed!
 - **冬靴** — `ClothingShoesBootsWinter` ｜父类: ClothingShoesBaseWinterBoots
 - **货运部冬靴** — `ClothingShoesBootsWinterCargo` ｜父类: ClothingShoesBaseWinterBoots
 - **化学winter靴子** — `ClothingShoesBootsWinterChem` ｜父类: ClothingShoesBaseWinterBoots ｜_Starlight
@@ -1516,575 +1516,575 @@
 - **科研部冬靴** — `ClothingShoesBootsWinterSci` ｜父类: ClothingShoesBaseWinterBoots
 - **安保部冬靴** — `ClothingShoesBootsWinterSec` ｜父类: ClothingShoesBaseWinterBoots,ClothingShoesMilitaryBase,BaseSecurityContraband
 - **礼服货运winter靴子** — `ClothingShoesBootsWinterSeniorCourier` ｜父类: ClothingShoesBaseWinterBoots ｜_Starlight
-- **辛迪加冬靴** — `ClothingShoesBootsWinterSyndicate` ｜父类: ClothingShoesBaseWinterBoots,BaseMinorContraband
-- **蛛网冬靴** — `ClothingShoesBootsWinterWeb` ｜父类: ClothingShoesBaseWinterBoots
-- **工作靴** — `ClothingShoesBootsWork` ｜父类: ClothingShoesBaseButcherable
-- **黑色鞋** — `ClothingShoesChameleon` ｜父类: ClothingShoesBase,BaseChameleon
-- **黑色鞋 #actual name and description in uplink_catalog.yml** — `ClothingShoesChameleonNoSlips` ｜父类: ClothingShoesChameleon
-- **厨师鞋** — `ClothingShoesChef` ｜父类: ClothingShoesBaseButcherable
-- **小丑鞋** — `ClothingShoesClown` ｜父类: ClothingShoesClownBase
-- **香蕉小丑鞋** — `ClothingShoesClownBanana` ｜父类: ClothingShoesClown
+- **辛迪加冬靴** — `ClothingShoesBootsWinterSyndicate` ｜父类: ClothingShoesBaseWinterBoots,BaseMinorContraband ｜描述: Durable heavy boots, looks like merch from "Syndieland".
+- **蛛网冬靴** — `ClothingShoesBootsWinterWeb` ｜父类: ClothingShoesBaseWinterBoots ｜描述: Boots made out of dense webbing to help survive even the coldest of winters.
+- **工作靴** — `ClothingShoesBootsWork` ｜父类: ClothingShoesBaseButcherable ｜描述: Engineering lace-up work boots for the especially blue-collar.
+- **黑色鞋** — `ClothingShoesChameleon` ｜父类: ClothingShoesBase,BaseChameleon ｜描述: Stylish black shoes.
+- **黑色鞋 #actual name and description in uplink_catalog.yml** — `ClothingShoesChameleonNoSlips` ｜父类: ClothingShoesChameleon ｜描述: Stylish black shoes.
+- **厨师鞋** — `ClothingShoesChef` ｜父类: ClothingShoesBaseButcherable ｜描述: Sturdy shoes that minimize injury from falling objects or knives.
+- **小丑鞋** — `ClothingShoesClown` ｜父类: ClothingShoesClownBase ｜描述: The prankster's standard-issue clowning shoes. Damn they're huge!
+- **香蕉小丑鞋** — `ClothingShoesClownBanana` ｜父类: ClothingShoesClown ｜描述: When humor and footwear combine into new levels of absurdity.
 - `模板` **ClothingShoesClownBase** — `ClothingShoesClownBase` ｜父类: ClothingShoesBaseButcherable,ClothingSlotBase
-- **大号小丑鞋** — `ClothingShoesClownLarge` ｜父类: ClothingShoesClown
-- **受诅小丑鞋** — `ClothingShoesCluwne` ｜父类: ClothingShoesClown
-- **黑色鞋** — `ClothingShoesColorBlack` ｜父类: ClothingShoesBaseButcherable
-- **蓝色鞋** — `ClothingShoesColorBlue` ｜父类: ClothingShoesBaseButcherable
-- **棕色鞋** — `ClothingShoesColorBrown` ｜父类: ClothingShoesBaseButcherable
-- **绿色鞋** — `ClothingShoesColorGreen` ｜父类: ClothingShoesBaseButcherable
-- **橙色鞋** — `ClothingShoesColorOrange` ｜父类: ClothingShoesBaseButcherable
-- **紫色鞋** — `ClothingShoesColorPurple` ｜父类: ClothingShoesBaseButcherable
-- **红色鞋** — `ClothingShoesColorRed` ｜父类: ClothingShoesBaseButcherable
-- **白色鞋** — `ClothingShoesColorWhite` ｜父类: ClothingShoesBaseButcherable
-- **黄色鞋** — `ClothingShoesColorYellow` ｜父类: ClothingShoesBaseButcherable
-- **邪教鞋** — `ClothingShoesCult` ｜父类: ClothingShoesBaseButcherable
-- **极道皮鞋** — `ClothingShoesDameDane` ｜父类: ClothingShoesBaseButcherable
-- **脚蹼** — `ClothingShoesFlippers` ｜父类: ClothingShoesBase
-- **胶套靴** — `ClothingShoesGaloshes` ｜父类: ClothingShoesBase,BaseJanitorContraband
-- **胶套鞋** — `ClothingShoesGaloshnt` ｜父类: ClothingShoesBase,BaseJanitorContraband ｜_Starlight
-- **绿色蜥蜴皮鞋** — `ClothingShoesGreenLizardskin` ｜父类: ClothingShoesBase ｜_Starlight
-- **高跟靴** — `ClothingShoesHighheelBoots` ｜父类: ClothingShoesMilitaryBase
-- **高跟鞋** — `ClothingShoesHighheelShoes` ｜父类: ClothingShoesBaseButcherable ｜_Starlight
-- **弄臣鞋** — `ClothingShoesJester` ｜父类: ClothingShoesClown
-- **皮鞋** — `ClothingShoesLeather` ｜父类: ClothingShoesBaseButcherable
-- **小鸭拖鞋** — `ClothingShoeSlippersDuck` ｜父类: ClothingShoesBaseButcherable
-- **蜥蜴人毛绒拖鞋** — `ClothingShoeSlippersLizard` ｜父类: ClothingShoesBaseButcherable
+- **大号小丑鞋** — `ClothingShoesClownLarge` ｜父类: ClothingShoesClown ｜描述: When you need to stand out in a room full of clowns!
+- **受诅小丑鞋** — `ClothingShoesCluwne` ｜父类: ClothingShoesClown ｜描述: Cursed pair of cluwne shoes.
+- **黑色鞋** — `ClothingShoesColorBlack` ｜父类: ClothingShoesBaseButcherable ｜描述: Stylish black shoes.
+- **蓝色鞋** — `ClothingShoesColorBlue` ｜父类: ClothingShoesBaseButcherable ｜描述: Stylish blue shoes.
+- **棕色鞋** — `ClothingShoesColorBrown` ｜父类: ClothingShoesBaseButcherable ｜描述: A pair of brown shoes.
+- **绿色鞋** — `ClothingShoesColorGreen` ｜父类: ClothingShoesBaseButcherable ｜描述: Stylish green shoes.
+- **橙色鞋** — `ClothingShoesColorOrange` ｜父类: ClothingShoesBaseButcherable ｜描述: Stylish orange shoes.
+- **紫色鞋** — `ClothingShoesColorPurple` ｜父类: ClothingShoesBaseButcherable ｜描述: Stylish purple shoes.
+- **红色鞋** — `ClothingShoesColorRed` ｜父类: ClothingShoesBaseButcherable ｜描述: Stylish red shoes.
+- **白色鞋** — `ClothingShoesColorWhite` ｜父类: ClothingShoesBaseButcherable ｜描述: Don't take them off at your office Christmas party.
+- **黄色鞋** — `ClothingShoesColorYellow` ｜父类: ClothingShoesBaseButcherable ｜描述: Stylish yellow shoes.
+- **邪教鞋** — `ClothingShoesCult` ｜父类: ClothingShoesBaseButcherable ｜描述: A pair of boots worn by the followers of Nar'Sie.
+- **极道皮鞋** — `ClothingShoesDameDane` ｜父类: ClothingShoesBaseButcherable ｜描述: At last...
+- **脚蹼** — `ClothingShoesFlippers` ｜父类: ClothingShoesBase ｜描述: A pair of rubber flippers that improves swimming ability when worn.
+- **胶套靴** — `ClothingShoesGaloshes` ｜父类: ClothingShoesBase,BaseJanitorContraband ｜描述: Specialised non-slip rubber boots, designed to reduce janitorial workplace accidents; a tider's treasure.
+- **胶套鞋** — `ClothingShoesGaloshnt` ｜父类: ClothingShoesBase,BaseJanitorContraband ｜_Starlight ｜描述: Specialized slippery rubber boots, designed to increase janitorial workplace accidents; a tider's nightmare.
+- **绿色蜥蜴皮鞋** — `ClothingShoesGreenLizardskin` ｜父类: ClothingShoesBase ｜_Starlight ｜描述: They may have lost some of their lustre over the years, but these green lizardskin shoes fit you perfectly.
+- **高跟靴** — `ClothingShoesHighheelBoots` ｜父类: ClothingShoesMilitaryBase ｜描述: Snazy boots for when you want to be stylish, yet prepared.
+- **高跟鞋** — `ClothingShoesHighheelShoes` ｜父类: ClothingShoesBaseButcherable ｜_Starlight ｜描述: Snazy shoes for when you want to be stylish and noticed.
+- **弄臣鞋** — `ClothingShoesJester` ｜父类: ClothingShoesClown ｜描述: A court jester's shoes, updated with modern squeaking technology.
+- **皮鞋** — `ClothingShoesLeather` ｜父类: ClothingShoesBaseButcherable ｜描述: Very stylish pair of boots, made from fine leather.
+- **小鸭拖鞋** — `ClothingShoeSlippersDuck` ｜父类: ClothingShoesBaseButcherable ｜描述: You wish these made quacking sounds as you walked. It's a good thing they don't, though.
+- **蜥蜴人毛绒拖鞋** — `ClothingShoeSlippersLizard` ｜父类: ClothingShoesBaseButcherable ｜描述: An adorable pair of slippers that resemble a lizardperson. Combine this with some other green clothing and you'll be the coolest crewmember on the station!
 - `模板` **ClothingShoesMilitaryBase** — `ClothingShoesMilitaryBase` ｜父类: ClothingShoesBase,ClothingSlotBase
-- **爪足靴** — `ClothingShoesPawBoots` ｜父类: ClothingShoesBaseUnprotected ｜_Starlight
-- **拉塔瓦靴** — `ClothingShoesRatvar` ｜父类: ClothingShoesBase ｜_Starlight
-- **校服黑色鞋** — `ClothingShoesSchoolBlack` ｜父类: ClothingShoesBaseButcherable ｜_Starlight
-- **校服白色鞋** — `ClothingShoesSchoolWhite` ｜父类: ClothingShoesBaseButcherable ｜_Starlight
-- **旱冰鞋** — `ClothingShoesSkates` ｜父类: ClothingShoesBaseButcherable
-- **炫酷旱冰鞋** — `ClothingShoesSkatesCool` ｜父类: ClothingShoesSkates ｜_Starlight
-- **拖鞋** — `ClothingShoesSlippers` ｜父类: ClothingShoesBaseButcherable
-- **蛇皮靴** — `ClothingShoesSnakeskinBoots` ｜父类: ClothingShoesBase
-- **太空忍者鞋** — `ClothingShoesSpaceNinja` ｜父类: ClothingShoesBaseButcherable,BaseHighlyIllegalContraband
-- **蛾绒拖鞋** — `ClothingShoesSpecificMoffers` ｜父类: ClothingShoesClownBase ｜DeltaV
-- **特警靴** — `ClothingShoesSwat` ｜父类: ClothingShoesBaseButcherable
-- **游客凉鞋** — `ClothingShoesTourist` ｜父类: ClothingShoesBaseButcherable
-- **巫师鞋** — `ClothingShoesWizard` ｜父类: ClothingShoesBaseButcherable
+- **爪足靴** — `ClothingShoesPawBoots` ｜父类: ClothingShoesBaseUnprotected ｜_Starlight ｜描述: Special boots made specifically for Felionoid paws, the thin soles do not protect against sharp objects
+- **拉塔瓦靴** — `ClothingShoesRatvar` ｜父类: ClothingShoesBase ｜_Starlight ｜描述: Coated with a shiny brass paint to show your dedication to the clockwork god.
+- **校服黑色鞋** — `ClothingShoesSchoolBlack` ｜父类: ClothingShoesBaseButcherable ｜_Starlight ｜描述: Stylish and comfortable school shoes in dark color with stockings.
+- **校服白色鞋** — `ClothingShoesSchoolWhite` ｜父类: ClothingShoesBaseButcherable ｜_Starlight ｜描述: Stylish and comfortable school shoes in light color with stockings.
+- **旱冰鞋** — `ClothingShoesSkates` ｜父类: ClothingShoesBaseButcherable ｜描述: Get your skates on!
+- **炫酷旱冰鞋** — `ClothingShoesSkatesCool` ｜父类: ClothingShoesSkates ｜_Starlight ｜描述: They're cooler than the other ones.
+- **拖鞋** — `ClothingShoesSlippers` ｜父类: ClothingShoesBaseButcherable ｜描述: Fluffy!
+- **蛇皮靴** — `ClothingShoesSnakeskinBoots` ｜父类: ClothingShoesBase ｜描述: Boots made of once-valuable snakeskin, everyone around you would have been jealous.
+- **太空忍者鞋** — `ClothingShoesSpaceNinja` ｜父类: ClothingShoesBaseButcherable,BaseHighlyIllegalContraband ｜描述: A pair of nano-enhanced boots with built-in magnetic suction cups.
+- **蛾绒拖鞋** — `ClothingShoesSpecificMoffers` ｜父类: ClothingShoesClownBase ｜DeltaV ｜描述: No moths were harmed in the making of these slippers.
+- **特警靴** — `ClothingShoesSwat` ｜父类: ClothingShoesBaseButcherable ｜描述: When you want to turn up the heat.
+- **游客凉鞋** — `ClothingShoesTourist` ｜父类: ClothingShoesBaseButcherable ｜描述: These cheap sandals don't look very comfortable.
+- **巫师鞋** — `ClothingShoesWizard` ｜父类: ClothingShoesBaseButcherable ｜描述: A pair of magic shoes.
 - `模板` **ClothingSlotBase** — `ClothingSlotBase`
-- **陆战队弹药带** — `ClothingSovietBandolier` ｜父类: ClothingBeltStorageBase,BaseSovietContraband ｜_Starlight
-- **苏维埃腰带** — `ClothingSovietBelt` ｜父类: ClothingBeltStorageBase,BaseSovietContraband ｜_Starlight
-- **GP-32防毒面具** — `ClothingSovietGasMask` ｜父类: ClothingMaskGas,BaseSovietContraband ｜_Starlight
-- **苏维埃套勋章组** — `ClothingSovietMedals` ｜父类: ClothingMiscBase ｜_Starlight
-- **圆形危险面具** — `ClothingSquidOneMask` ｜父类: ClothingMaskGas ｜_Starlight
-- **三角形危险面具** — `ClothingSquidThreeMask` ｜父类: ClothingMaskGas ｜_Starlight
-- **方形危险面具** — `ClothingSquidTwoMask` ｜父类: ClothingMaskGas ｜_Starlight
-- **蜜蜂袜** — `ClothingUnderSocksBee` ｜父类: ClothingShoesBase
-- **程序员袜** — `ClothingUnderSocksCoder` ｜父类: ClothingShoesBase
-- **哑剧演员袜子** — `ClothingUnderSocksMime` ｜父类: ClothingShoesBase ｜_Starlight
-- **踩脚袜** — `ClothingUnderSocksStirrup` ｜父类: ClothingShoesBase ｜_Starlight
-- **黄色袜子** — `ClothingUnderSocksYellow` ｜父类: ClothingShoesBase ｜_Starlight
-- **elegant围裙** — `ClothingUniformApron` ｜父类: ClothingOuterStorageBase ｜_Starlight
+- **陆战队弹药带** — `ClothingSovietBandolier` ｜父类: ClothingBeltStorageBase,BaseSovietContraband ｜_Starlight ｜描述: Smells of oil, sweat, and questionable decisions.
+- **苏维埃腰带** — `ClothingSovietBelt` ｜父类: ClothingBeltStorageBase,BaseSovietContraband ｜_Starlight ｜描述: Can hold various OUR things.
+- **GP-32防毒面具** — `ClothingSovietGasMask` ｜父类: ClothingMaskGas,BaseSovietContraband ｜_Starlight ｜描述: An old uncomfortable mechanical gas mask of standard use in USSP. Meant to protect from radioactive fallout.
+- **苏维埃套勋章组** — `ClothingSovietMedals` ｜父类: ClothingMiscBase ｜_Starlight ｜描述: A collection of medals meant to be replicas of the ones decorated. Wait, I think these actually might be real.
+- **圆形危险面具** — `ClothingSquidOneMask` ｜父类: ClothingMaskGas ｜_Starlight ｜描述: SEE MY EYE?
+- **三角形危险面具** — `ClothingSquidThreeMask` ｜父类: ClothingMaskGas ｜_Starlight ｜描述: On top. Like always.
+- **方形危险面具** — `ClothingSquidTwoMask` ｜父类: ClothingMaskGas ｜_Starlight ｜描述: Glory to square!
+- **蜜蜂袜** — `ClothingUnderSocksBee` ｜父类: ClothingShoesBase ｜描述: Make them loins buzz!
+- **程序员袜** — `ClothingUnderSocksCoder` ｜父类: ClothingShoesBase ｜描述: It's time to code sisters!!11!
+- **哑剧演员袜子** — `ClothingUnderSocksMime` ｜父类: ClothingShoesBase ｜_Starlight ｜描述: Silently creep up to your target.
+- **踩脚袜** — `ClothingUnderSocksStirrup` ｜父类: ClothingShoesBase ｜_Starlight ｜描述: All of the fashion, none of the practicality.
+- **黄色袜子** — `ClothingUnderSocksYellow` ｜父类: ClothingShoesBase ｜_Starlight ｜描述: Bright yellow, but lacking any bees.
+- **elegant围裙** — `ClothingUniformApron` ｜父类: ClothingOuterStorageBase ｜_Starlight ｜描述: Apron made from high-quality, smooth fabric with a soft sheen. Fits perfectly.
 - `模板` **ClothingUniformBase** — `ClothingUniformBase` ｜父类: UnsensoredClothingUniformBase
-- **染血贵族靴子** — `ClothingUniformBootsVampir` ｜父类: ClothingShoesBaseButcherable ｜_Starlight
-- **彩虹裙装** — `ClothingUniformColorJumpskirtRainbow` ｜父类: ClothingUniformSkirtBase ｜_Starlight
-- **彩虹色连体衣** — `ClothingUniformColorRainbow` ｜父类: ClothingUniformBase
-- **黑色毛皮斗篷** — `ClothingUniformDama0965` ｜父类: ClothingNeckBase ｜_Starlight
-- **贵族西装** — `ClothingUniformDama235123` ｜父类: ClothingUniformBase ｜_Starlight
-- **优雅淑女's连衣裙** — `ClothingUniformElegantLadyDress` ｜父类: ClothingUniformBase ｜_Starlight
+- **染血贵族靴子** — `ClothingUniformBootsVampir` ｜父类: ClothingShoesBaseButcherable ｜_Starlight ｜描述: Old boots with a gray sole, faint bloodstains are visible.
+- **彩虹裙装** — `ClothingUniformColorJumpskirtRainbow` ｜父类: ClothingUniformSkirtBase ｜_Starlight ｜描述: A multi-colored jumpskirt!
+- **彩虹色连体衣** — `ClothingUniformColorRainbow` ｜父类: ClothingUniformBase ｜描述: A multi-colored jumpsuit!
+- **黑色毛皮斗篷** — `ClothingUniformDama0965` ｜父类: ClothingNeckBase ｜_Starlight ｜描述: Neat cloak with fur around the neck and hem.
+- **贵族西装** — `ClothingUniformDama235123` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A blue noble suit that exudes elegance and refinement.
+- **优雅淑女's连衣裙** — `ClothingUniformElegantLadyDress` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A voluminous white blouse with a black skirt-perfect for highlighting your beauty, darling!
 - `模板` **ClothingUniformFoldableBase** — `ClothingUniformFoldableBase`
-- **烟熏味酒保制服** — `ClothingUniformJulianneVA11HALLA` ｜父类: ClothingUniformBase ｜_Starlight
-- **助理裙装** — `ClothingUniformJumpskirtAssistant` ｜父类: ClothingUniformSkirtBase ｜_Starlight
-- **大气技师连衣裙制服** — `ClothingUniformJumpskirtAtmos` ｜父类: ClothingUniformSkirtBase
-- **酒保制服** — `ClothingUniformJumpskirtBartender` ｜父类: ClothingUniformSkirtBase
-- **fancy酒保制服** — `ClothingUniformJumpskirtBartenderBlackAlt` ｜父类: ClothingUniformBase ｜_Starlight
-- **黑色优雅连衣裙** — `ClothingUniformJumpskirtBlackElegantDress` ｜父类: ClothingUniformSkirtBase
-- **蓝色优雅连衣裙** — `ClothingUniformJumpskirtBlueElegantDress` ｜父类: ClothingUniformSkirtBase
-- **蓝盾裙装** — `ClothingUniformJumpskirtBlueShield` ｜父类: ClothingUniformSkirtBase,BaseBlueShieldContraband ｜_Starlight
-- **蓝盾干员's铅笔裙** — `ClothingUniformJumpskirtBlueShieldSkirt` ｜父类: ClothingUniformBase,BaseBlueShieldContraband ｜_Starlight
-- **蓝色高领连衣裙** — `ClothingUniformJumpskirtBlueTurtleneckDress` ｜父类: ClothingUniformSkirtBase
-- **狱医连衣裙制服** — `ClothingUniformJumpskirtBrigmedic` ｜父类: ClothingUniformSkirtBase
-- **舰长礼服裙** — `ClothingUniformJumpskirtCapFormalDress` ｜父类: ClothingUniformSkirtBase
-- **舰长连衣裙制服** — `ClothingUniformJumpskirtCaptain` ｜父类: ClothingUniformSkirtBase,BaseCommandContraband
-- **舰长's高领衫** — `ClothingUniformJumpskirtCapTurtleneck` ｜父类: ClothingUniformBase ｜_Starlight
-- **货运技师连衣裙制服** — `ClothingUniformJumpskirtCargo` ｜父类: ClothingUniformSkirtBase
-- **礼服货运裙装** — `ClothingUniformJumpskirtCargoFormal` ｜父类: ClothingUniformSkirtBase ｜_Starlight
-- **打捞专员裙装** — `ClothingUniformJumpskirtCargoSalvage` ｜父类: ClothingUniformSkirtBase ｜_Starlight
-- **礼服打捞裙装** — `ClothingUniformJumpskirtCargoSalvageFormal` ｜父类: ClothingUniformSkirtBase ｜_Starlight
-- **蓝色休闲连衣裙制服** — `ClothingUniformJumpskirtCasualBlue` ｜父类: ClothingUniformSkirtBase
-- **绿色休闲连衣裙制服** — `ClothingUniformJumpskirtCasualGreen` ｜父类: ClothingUniformSkirtBase
-- **紫色休闲连衣裙制服** — `ClothingUniformJumpskirtCasualPurple` ｜父类: ClothingUniformSkirtBase
-- **红色休闲连衣裙制服** — `ClothingUniformJumpskirtCasualRed` ｜父类: ClothingUniformSkirtBase
-- **中央指挥部礼服裙** — `ClothingUniformJumpskirtCentcomFormalDress` ｜父类: ClothingUniformSkirtBase
-- **中央指挥部行政部门礼服wear** — `ClothingUniformJumpskirtCentcommAdminFormalWear` ｜父类: ClothingUniformSkirtBase,BaseCentcommContraband ｜_Starlight
-- **中央指挥部货运部门礼服wear** — `ClothingUniformJumpskirtCentcommCargoFormalWear` ｜父类: ClothingUniformSkirtBase,BaseCentcommContraband ｜_Starlight
-- **中央指挥部内务部门礼服wear** — `ClothingUniformJumpskirtCentcommDomesticFormalWear` ｜父类: ClothingUniformSkirtBase,BaseCentcommContraband ｜_Starlight
-- **中央指挥部情报部门礼服wear** — `ClothingUniformJumpskirtCentcommIntelFormalWear` ｜父类: ClothingUniformSkirtBase,BaseCentcommContraband ｜_Starlight
-- **中央指挥部医疗部门礼服wear** — `ClothingUniformJumpskirtCentcommMedFormalWear` ｜父类: ClothingUniformSkirtBase,BaseCentcommContraband ｜_Starlight
-- **中央指挥部科研部门礼服wear** — `ClothingUniformJumpskirtCentcommResearchFormalWear` ｜父类: ClothingUniformSkirtBase,BaseCentcommContraband ｜_Starlight
-- **中央指挥部安保部门礼服wear** — `ClothingUniformJumpskirtCentcommSecurityFormalWear` ｜父类: ClothingUniformSkirtBase,BaseCentcommContraband ｜_Starlight
-- **中央指挥部特种行动部门礼服wear** — `ClothingUniformJumpskirtCentcommSpecialOpsFormalWear` ｜父类: ClothingUniformSkirtBase,BaseCentcommContraband ｜_Starlight
-- **CentComm高领衫裙装** — `ClothingUniformJumpskirtCentcomOfficer` ｜父类: ClothingUniformSkirtBase ｜_Starlight
-- **CentComm干员's西装裙** — `ClothingUniformJumpskirtCentcomOfficial` ｜父类: ClothingUniformSkirtBase ｜_Starlight
-- **牧师连衣裙制服 # Starlight: chaplain's -> chaplain** — `ClothingUniformJumpskirtChaplain` ｜父类: ClothingUniformSkirtBase
-- **厨师制服** — `ClothingUniformJumpskirtChef` ｜父类: ClothingUniformSkirtBase
-- **化学连衣裙制服** — `ClothingUniformJumpskirtChemistry` ｜父类: ClothingUniformSkirtBase
-- **工程主管连衣裙制服** — `ClothingUniformJumpskirtChiefEngineer` ｜父类: ClothingUniformSkirtBase,BaseCommandContraband
-- **工程主管高领衫** — `ClothingUniformJumpskirtChiefEngineerTurtle` ｜父类: ClothingUniformSkirtBase,BaseCommandContraband
-- **小丑裙** — `ClothingUniformJumpskirtClown` ｜父类: ClothingUniformSkirtBase
-- **高雅小丑裙装** — `ClothingUniformJumpskirtClownFormal` ｜父类: ClothingUniformBase ｜_Starlight
-- **医疗主管连衣裙制服** — `ClothingUniformJumpskirtCMO` ｜父类: ClothingUniformSkirtBase,BaseCommandContraband
-- **医疗主管正式连衣裙** — `ClothingUniformJumpskirtCmoFormal` ｜父类: ClothingUniformBase,BaseCommandContraband ｜DeltaV
-- **医疗主管高领连衣裙制服** — `ClothingUniformJumpskirtCMOTurtle` ｜父类: ClothingUniformSkirtBase,BaseCommandContraband
-- **医疗主管背心连衣裙** — `ClothingUniformJumpskirtCmoVest` ｜父类: ClothingUniformBase,BaseCommandContraband ｜DeltaV
-- **黑色连衣裙制服** — `ClothingUniformJumpskirtColorBlack` ｜父类: ClothingUniformSkirtBase
-- **蓝色连衣裙制服** — `ClothingUniformJumpskirtColorBlue` ｜父类: ClothingUniformSkirtBase
-- **棕色连衣裙制服** — `ClothingUniformJumpskirtColorBrown` ｜父类: ClothingUniformSkirtBase
-- **深蓝色连衣裙制服** — `ClothingUniformJumpskirtColorDarkBlue` ｜父类: ClothingUniformSkirtBase
-- **深绿色连衣裙制服** — `ClothingUniformJumpskirtColorDarkGreen` ｜父类: ClothingUniformSkirtBase
-- **绿色连衣裙制服** — `ClothingUniformJumpskirtColorGreen` ｜父类: ClothingUniformSkirtBase
-- **灰色连衣裙制服** — `ClothingUniformJumpskirtColorGrey` ｜父类: ClothingUniformSkirtBase
-- **浅棕色连衣裙制服** — `ClothingUniformJumpskirtColorLightBrown` ｜父类: ClothingUniformSkirtBase
-- **栗色连衣裙制服** — `ClothingUniformJumpskirtColorMaroon` ｜父类: ClothingUniformSkirtBase
-- **橙色连衣裙制服** — `ClothingUniformJumpskirtColorOrange` ｜父类: ClothingUniformSkirtBase
-- **粉色连衣裙制服** — `ClothingUniformJumpskirtColorPink` ｜父类: ClothingUniformSkirtBase
-- **紫色连衣裙制服** — `ClothingUniformJumpskirtColorPurple` ｜父类: ClothingUniformSkirtBase
-- **彩虹色连衣裙制服** — `ClothingUniformJumpskirtColorRainbow` ｜父类: ClothingUniformBase
-- **红色连衣裙制服** — `ClothingUniformJumpskirtColorRed` ｜父类: ClothingUniformSkirtBase
-- **青绿色连衣裙制服** — `ClothingUniformJumpskirtColorTeal` ｜父类: ClothingUniformSkirtBase
-- **白色连衣裙制服** — `ClothingUniformJumpskirtColorWhite` ｜父类: ClothingUniformSkirtBase
-- **黄色连衣裙制服** — `ClothingUniformJumpskirtColorYellow` ｜父类: ClothingUniformSkirtBase
-- **指挥部连衣裙制服** — `ClothingUniformJumpskirtCommandGeneric` ｜父类: ClothingUniformSkirtBase,BaseCommandContraband
-- **验尸官裙装** — `ClothingUniformJumpskirtCoroner` ｜父类: ClothingUniformSkirtBase ｜_Starlight
-- **战地医护兵裙装** — `ClothingUniformJumpskirtCorpsman` ｜父类: ClothingUniformSkirtBase,BaseSecurityContraband ｜_Starlight
-- **战地医护兵创伤救援服** — `ClothingUniformJumpskirtCorpsmanTrauma` ｜父类: ClothingUniformSkirtBase,BaseSecurityContraband ｜_Starlight
-- **端庄裙** — `ClothingUniformJumpskirtCurator` ｜父类: ClothingUniformSkirtBase
-- **青色条纹连衣裙** — `ClothingUniformJumpskirtCyanStripedDress` ｜父类: ClothingUniformSkirtBase
-- **旧硬派西装裙** — `ClothingUniformJumpskirtDetective` ｜父类: ClothingUniformSkirtBase
-- **黑色电影风西装裙** — `ClothingUniformJumpskirtDetectiveGrey` ｜父类: ClothingUniformSkirtBase
-- **晚礼红色连衣裙** — `ClothingUniformJumpskirtDressRed` ｜父类: ClothingUniformSkirtBase ｜_Starlight
-- **值班干员's制服** — `ClothingUniformJumpskirtDutyOfficer` ｜父类: ClothingUniformSkirtBase,BaseSecurityContraband ｜_Starlight
-- **值班干员橙色制服裙** — `ClothingUniformJumpskirtDutyOfficerOrange` ｜父类: ClothingUniformBase,BaseSecurityContraband ｜DeltaV
-- **elegant女仆制服** — `ClothingUniformJumpskirtElegantMaid` ｜父类: ClothingUniformSkirtBase ｜_Starlight
-- **精英蓝盾裙装** — `ClothingUniformJumpskirtEliteBlueShield` ｜父类: ClothingUniformSkirtBase,BaseBlueShieldContraband ｜_Starlight
-- **中央指挥部工程部门礼服wear** — `ClothingUniformJumpskirtEngiCentcommFormalWear` ｜父类: ClothingUniformSkirtBase,BaseCentcommContraband ｜_Starlight
-- **工程部连衣裙制服** — `ClothingUniformJumpskirtEngineering` ｜父类: ClothingUniformSkirtBase
-- **礼服狱医裙装** — `ClothingUniformJumpskirtFormalBrigmedic` ｜父类: ClothingUniformSkirtBase,BaseSecurityContraband ｜_Starlight
-- **副警长裙装** — `ClothingUniformJumpskirtFormalDeputy` ｜父类: ClothingUniformSkirtBase,BaseSecurityContraband ｜_Starlight
-- **礼服安保裙装** — `ClothingUniformJumpskirtFormalSecoff` ｜父类: ClothingUniformSkirtBase,BaseSecurityContraband ｜_Starlight
-- **礼服资深安保裙装** — `ClothingUniformJumpskirtFormalSeniorSecoff` ｜父类: ClothingUniformSkirtBase,BaseSecurityContraband ｜_Starlight
-- **典狱长礼服裙装** — `ClothingUniformJumpskirtFormalWarden` ｜父类: ClothingUniformSkirtBase,BaseSecurityContraband ｜_Starlight
-- **遗传学连衣裙制服** — `ClothingUniformJumpskirtGenetics` ｜父类: ClothingUniformSkirtBase
-- **哥特式连衣裙** — `ClothingUniformJumpskirtGothic` ｜父类: ClothingUniformSkirtBase ｜_Starlight
-- **绿色优雅连衣裙** — `ClothingUniformJumpskirtGreenElegantDress` ｜父类: ClothingUniformSkirtBase
-- **绿色条纹连衣裙** — `ClothingUniformJumpskirtGreenStripedDress` ｜父类: ClothingUniformSkirtBase
-- **绿色高领连衣裙** — `ClothingUniformJumpskirtGreenTurtleneckDress` ｜父类: ClothingUniformSkirtBase
-- **人事主管连衣裙制服** — `ClothingUniformJumpskirtHoP` ｜父类: ClothingUniformSkirtBase,BaseCommandContraband
-- **人事主管正式礼裙** — `ClothingUniformJumpskirtHopFormal` ｜父类: ClothingUniformBase,BaseCommandContraband ｜DeltaV
-- **人事主管's高领衫** — `ClothingUniformJumpskirtHoPTurtleneck` ｜父类: ClothingUniformBase ｜_Starlight
-- **安保主管连衣裙制服** — `ClothingUniformJumpskirtHoS` ｜父类: ClothingUniformSkirtBase,BaseCommandContraband
-- **安保主管高领衫** — `ClothingUniformJumpskirtHoSAlt` ｜父类: ClothingUniformSkirtBase,BaseCommandContraband
-- **安保主管's黑色裙装** — `ClothingUniformJumpskirtHoSBlack` ｜父类: ClothingUniformBase ｜_Starlight
-- **安保主管礼服裙** — `ClothingUniformJumpskirtHosFormal` ｜父类: ClothingUniformSkirtBase,BaseCommandContraband
-- **安保主管阅兵制服** — `ClothingUniformJumpskirtHoSParadeMale` ｜父类: ClothingUniformSkirtBase,BaseCommandContraband
-- **水培连衣裙制服** — `ClothingUniformJumpskirtHydroponics` ｜父类: ClothingUniformSkirtBase
-- **清洁女仆制服** — `ClothingUniformJumpskirtJanimaid` ｜父类: ClothingUniformSkirtBase
-- **清洁女仆迷你裙制服** — `ClothingUniformJumpskirtJanimaidmini` ｜父类: ClothingUniformSkirtBase
-- **清洁工连衣裙制服** — `ClothingUniformJumpskirtJanitor` ｜父类: ClothingUniformSkirtBase
-- **新闻记者裙装** — `ClothingUniformJumpskirtJournalist` ｜父类: ClothingUniformSkirtBase ｜_Starlight
-- **无良律师's西装裙** — `ClothingUniformJumpskirtLawyerBad` ｜父类: ClothingUniformBase ｜_Starlight
-- **黑色律师西装裙** — `ClothingUniformJumpskirtLawyerBlack` ｜父类: ClothingUniformSkirtBase
-- **表演律师西装裙** — `ClothingUniformJumpskirtLawyerBlackTwo` ｜父类: ClothingUniformBase ｜_Starlight
-- **蓝色律师西装裙** — `ClothingUniformJumpskirtLawyerBlue` ｜父类: ClothingUniformSkirtBase
-- **“良心”律师西装裙** — `ClothingUniformJumpskirtLawyerGood` ｜父类: ClothingUniformSkirtBase
-- **灰色律师西装裙** — `ClothingUniformJumpskirtLawyerGray` ｜父类: ClothingUniformBase ｜_Starlight
-- **粉色律师西装裙** — `ClothingUniformJumpskirtLawyerPink` ｜父类: ClothingUniformBase ｜_Starlight
-- **紫色律师西装裙** — `ClothingUniformJumpskirtLawyerPurple` ｜父类: ClothingUniformSkirtBase
-- **红色律师西装裙** — `ClothingUniformJumpskirtLawyerRed` ｜父类: ClothingUniformSkirtBase
-- **绿色律师西装裙** — `ClothingUniformJumpskirtLawyerService` ｜父类: ClothingUniformBase ｜_Starlight
-- **图书管理员连衣裙制服** — `ClothingUniformJumpskirtLibrarian` ｜父类: ClothingUniformSkirtBase
-- **晚礼女仆连衣裙** — `ClothingUniformJumpskirtMaid` ｜父类: ClothingUniformSkirtBase ｜_Starlight
-- **邮件技师裙装** — `ClothingUniformJumpskirtMail` ｜父类: ClothingUniformBase ｜_Starlight
-- **医师连衣裙制服** — `ClothingUniformJumpskirtMedicalDoctor` ｜父类: ClothingUniformSkirtBase
-- **哑剧演员连衣裙制服** — `ClothingUniformJumpskirtMime` ｜父类: ClothingUniformSkirtBase
-- **采矿专员's裙装** — `ClothingUniformJumpskirtMiningSpecialist` ｜父类: ClothingUniformBase ｜_Starlight
-- **乐手裙** — `ClothingUniformJumpskirtMusician` ｜父类: ClothingUniformSkirtBase
-- **NT职业导师's裙装** — `ClothingUniformJumpskirtNCT` ｜父类: ClothingUniformSkirtBase,BaseCommandContraband ｜_Starlight
-- **NT代表裙装** — `ClothingUniformJumpskirtNtrep` ｜父类: ClothingUniformSkirtBase,BaseCommandContraband ｜_Starlight
-- **NT代表's高领衫裙装** — `ClothingUniformJumpskirtNtrepTurtleneck` ｜父类: ClothingUniformSkirtBase,BaseCommandContraband ｜_Starlight
-- **生命之裙** — `ClothingUniformJumpskirtOfLife` ｜父类: ClothingUniformSkirtBase
-- **旧式连衣裙** — `ClothingUniformJumpskirtOldDress` ｜父类: ClothingUniformSkirtBase
-- **特工连衣裙制服** — `ClothingUniformJumpskirtOperative` ｜父类: UnsensoredClothingUniformSkirtBase,BaseSyndicateContraband
-- **橙色条纹连衣裙** — `ClothingUniformJumpskirtOrangeStripedDress` ｜父类: ClothingUniformSkirtBase
-- **急救员连衣裙制服** — `ClothingUniformJumpskirtParamedic` ｜父类: ClothingUniformSkirtBase
-- **CentComm"pencil"style裙装** — `ClothingUniformJumpskirtPencilCentcomOfficial` ｜父类: ClothingUniformSkirtBase ｜_Starlight
-- **SOC干员"pencil"裙装** — `ClothingUniformJumpskirtPencilSpecialOperationsOfficer` ｜父类: ClothingUniformSkirtBase ｜_Starlight
-- **米色"pencil"style裙装** — `ClothingUniformJumpskirtPencilTan` ｜父类: ClothingUniformSkirtBase ｜_Starlight
-- **表演者连衣裙制服** — `ClothingUniformJumpskirtPerformer` ｜父类: ClothingUniformSkirtBase
-- **助理小丑裙装** — `ClothingUniformJumpskirtPerformerClown` ｜父类: ClothingUniformBase ｜_Starlight
-- **哑剧演员apprentice裙装** — `ClothingUniformJumpskirtPerformerMime` ｜父类: ClothingUniformBase ｜_Starlight
-- **伴奏乐手裙装** — `ClothingUniformJumpskirtPerformerMusician` ｜父类: ClothingUniformBase ｜_Starlight
-- **粉色条纹连衣裙** — `ClothingUniformJumpskirtPinkStripedDress` ｜父类: ClothingUniformSkirtBase
-- **囚犯连衣裙制服** — `ClothingUniformJumpskirtPrisoner` ｜父类: ClothingUniformBase
-- **心理医生西装裙** — `ClothingUniformJumpskirtPsychologist` ｜父类: ClothingUniformSkirtBase
-- **朋克裙装and袜子** — `ClothingUniformJumpskirtPunkSkirt` ｜父类: ClothingUniformBase ｜_Starlight
-- **紫色优雅连衣裙** — `ClothingUniformJumpskirtPurpleElegantDress` ｜父类: ClothingUniformSkirtBase
-- **紫色高领连衣裙** — `ClothingUniformJumpskirtPurpleTurtleneckDress` ｜父类: ClothingUniformSkirtBase
-- **军需官连衣裙制服** — `ClothingUniformJumpskirtQM` ｜父类: ClothingUniformSkirtBase,BaseCommandContraband
-- **军需官正式礼裙** — `ClothingUniformJumpskirtQmFormal` ｜父类: ClothingUniformBase,BaseCommandContraband ｜DeltaV
-- **军需官高领衫** — `ClothingUniformJumpskirtQMTurtleneck` ｜父类: ClothingUniformSkirtBase,BaseCommandContraband
-- **研究主管's古典式裙装** — `ClothingUniformJumpskirtRDClassical` ｜父类: ClothingUniformBase ｜_Starlight
-- **红色优雅连衣裙** — `ClothingUniformJumpskirtRedElegantDress` ｜父类: ClothingUniformSkirtBase
-- **红色条纹连衣裙** — `ClothingUniformJumpskirtRedStripedDress` ｜父类: ClothingUniformSkirtBase
-- **红色高领连衣裙** — `ClothingUniformJumpskirtRedTurtleneckDress` ｜父类: ClothingUniformSkirtBase
-- **记者裙装** — `ClothingUniformJumpskirtReporter` ｜父类: ClothingUniformSkirtBase ｜_Starlight
-- **研究主管高领衫** — `ClothingUniformJumpskirtResearchDirector` ｜父类: ClothingUniformSkirtBase,BaseCommandContraband
-- **机器人专家连衣裙制服** — `ClothingUniformJumpskirtRoboticist` ｜父类: ClothingUniformSkirtBase
-- **打捞领队s's裙装** — `ClothingUniformJumpskirtSalvageLead` ｜父类: ClothingUniformBase ｜_Starlight
-- **校服裙装** — `ClothingUniformJumpskirtSchool` ｜父类: ClothingUniformSkirtBase ｜_Starlight
-- **科学家连衣裙制服** — `ClothingUniformJumpskirtScientist` ｜父类: ClothingUniformSkirtBase
-- **礼服科学家裙装** — `ClothingUniformJumpskirtScientistFormal` ｜父类: ClothingUniformSkirtBase ｜_Starlight
-- **安保部连衣裙制服** — `ClothingUniformJumpskirtSec` ｜父类: ClothingUniformSkirtBase,BaseSecurityContraband
-- **蓝色裙装andtie** — `ClothingUniformJumpskirtSecBlue` ｜父类: ClothingUniformBase ｜_Starlight
-- **灰色安保连衣裙制服** — `ClothingUniformJumpskirtSecGrey` ｜父类: ClothingUniformSkirtBase,BaseSecurityContraband
-- **资深礼服狱医裙装** — `ClothingUniformJumpskirtSeniorBrigmedic` ｜父类: ClothingUniformSkirtBase,BaseSecurityContraband ｜_Starlight
-- **资深药剂师裙装** — `ClothingUniformJumpskirtSeniorChemist` ｜父类: ClothingUniformSkirtBase ｜_Starlight
-- **资深工程师连衣裙制服** — `ClothingUniformJumpskirtSeniorEngineer` ｜父类: ClothingUniformSkirtBase
-- **资深邮件技师裙装** — `ClothingUniformJumpskirtSeniorMail` ｜父类: ClothingUniformBase ｜_Starlight
-- **资深安保干员连衣裙制服** — `ClothingUniformJumpskirtSeniorOfficer` ｜父类: ClothingUniformSkirtBase,BaseSecurityContraband
-- **资深急救员裙装** — `ClothingUniformJumpskirtSeniorParamedic` ｜父类: ClothingUniformSkirtBase ｜_Starlight
-- **资深医师连衣裙制服** — `ClothingUniformJumpskirtSeniorPhysician` ｜父类: ClothingUniformSkirtBase
-- **资深研究员连衣裙制服** — `ClothingUniformJumpskirtSeniorResearcher` ｜父类: ClothingUniformSkirtBase
-- **侍者裙装** — `ClothingUniformJumpskirtServiceWorkerBartender` ｜父类: ClothingUniformBase ｜_Starlight
-- **园丁裙装** — `ClothingUniformJumpskirtServiceWorkerBotany` ｜父类: ClothingUniformBase ｜_Starlight
-- **副厨师裙装** — `ClothingUniformJumpskirtServiceWorkerChef` ｜父类: ClothingUniformBase ｜_Starlight
-- **护士's制服** — `ClothingUniformJumpskirtSuitNurse` ｜父类: ClothingUniformSkirtBase ｜_Starlight
-- **辛迪加礼服裙** — `ClothingUniformJumpskirtSyndieFormalDress` ｜父类: ClothingUniformSkirtBase,BaseMinorContraband
-- **战术女仆西装裙** — `ClothingUniformJumpskirtTacticalMaid` ｜父类: ClothingUniformSkirtBase
-- **战术潮人连衣裙制服** — `ClothingUniformJumpskirtTacticool` ｜父类: ClothingUniformSkirtBase
-- **探戈连衣裙** — `ClothingUniformJumpskirtTango` ｜父类: ClothingUniformSkirtBase ｜_Starlight
-- **维多利亚式黑色连衣裙** — `ClothingUniformJumpskirtVictorianBlack` ｜父类: ClothingUniformSkirtBase ｜_Starlight
-- **维多利亚式红色连衣裙** — `ClothingUniformJumpskirtVictorianrRed` ｜父类: ClothingUniformSkirtBase ｜_Starlight
-- **病毒学连衣裙制服** — `ClothingUniformJumpskirtVirology` ｜父类: ClothingUniformSkirtBase
-- **典狱长制服** — `ClothingUniformJumpskirtWarden` ｜父类: ClothingUniformSkirtBase,BaseSecurityContraband
-- **蛛网连衣裙制服** — `ClothingUniformJumpskirtWeb` ｜父类: ClothingUniformSkirtBase
-- **黄色古典连衣裙** — `ClothingUniformJumpskirtYellowOldDress` ｜父类: ClothingUniformSkirtBase
-- **黄色高领连衣裙** — `ClothingUniformJumpskirtYellowTurtleneckDress` ｜父类: ClothingUniformSkirtBase
+- **烟熏味酒保制服** — `ClothingUniformJulianneVA11HALLA` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: Smoke clings to it, heavy and suffocating. Somehow, it makes you want to cry. Care for another round, sir?
+- **助理裙装** — `ClothingUniformJumpskirtAssistant` ｜父类: ClothingUniformSkirtBase ｜_Starlight ｜描述: A tasteful green jumpskirt that reminds you of the good old days.
+- **大气技师连衣裙制服** — `ClothingUniformJumpskirtAtmos` ｜父类: ClothingUniformSkirtBase ｜描述: I am at work. I can't leave work. Work is breathing. I am testing air quality.
+- **酒保制服** — `ClothingUniformJumpskirtBartender` ｜父类: ClothingUniformSkirtBase ｜描述: A nice and tidy uniform. Shame about the bar though.
+- **fancy酒保制服** — `ClothingUniformJumpskirtBartenderBlackAlt` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A nice and tidy uniform, with leggings to match.
+- **黑色优雅连衣裙** — `ClothingUniformJumpskirtBlackElegantDress` ｜父类: ClothingUniformSkirtBase ｜描述: Elegant dress with a beautiful bow.
+- **蓝色优雅连衣裙** — `ClothingUniformJumpskirtBlueElegantDress` ｜父类: ClothingUniformSkirtBase ｜描述: Elegant dress with a beautiful bow.
+- **蓝盾裙装** — `ClothingUniformJumpskirtBlueShield` ｜父类: ClothingUniformSkirtBase,BaseBlueShieldContraband ｜_Starlight ｜描述: The skirt of a glorified bodyguard.
+- **蓝盾干员's铅笔裙** — `ClothingUniformJumpskirtBlueShieldSkirt` ｜父类: ClothingUniformBase,BaseBlueShieldContraband ｜_Starlight ｜描述: A collared shirt and pencil skirt for the blueshield officer who likes to keep it business casual.
+- **蓝色高领连衣裙** — `ClothingUniformJumpskirtBlueTurtleneckDress` ｜父类: ClothingUniformSkirtBase ｜描述: Turtleneck dress with a unique design.
+- **狱医连衣裙制服** — `ClothingUniformJumpskirtBrigmedic` ｜父类: ClothingUniformSkirtBase ｜描述: This uniform is issued to qualified personnel who have been trained. No one cares that the training took half a day.
+- **舰长礼服裙** — `ClothingUniformJumpskirtCapFormalDress` ｜父类: ClothingUniformSkirtBase ｜描述: A dress for special occasions.
+- **舰长连衣裙制服** — `ClothingUniformJumpskirtCaptain` ｜父类: ClothingUniformSkirtBase,BaseCommandContraband ｜描述: It's a blue jumpskirt with some gold markings denoting the rank of "Captain".
+- **舰长's高领衫** — `ClothingUniformJumpskirtCapTurtleneck` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: True captain's turtleneck.
+- **货运技师连衣裙制服** — `ClothingUniformJumpskirtCargo` ｜父类: ClothingUniformSkirtBase ｜描述: A sturdy jumpskirt, issued to members of the Cargo department.
+- **礼服货运裙装** — `ClothingUniformJumpskirtCargoFormal` ｜父类: ClothingUniformSkirtBase ｜_Starlight ｜描述: An official jumpsuit skirt combines practicality with a professional appearance. The tailored design offers comfort and mobility, while maintaining a structured look suitable for work settings requiri
+- **打捞专员裙装** — `ClothingUniformJumpskirtCargoSalvage` ｜父类: ClothingUniformSkirtBase ｜_Starlight ｜描述: Perfectly pairs with a pickaxe, this versatile and durable skirt jumpsuit is designed for tough work, offering both practicality and a rugged, stylish appearance.
+- **礼服打捞裙装** — `ClothingUniformJumpskirtCargoSalvageFormal` ｜父类: ClothingUniformSkirtBase ｜_Starlight ｜描述: Perfectly pairs with a pickaxe, this rugged yet stylish skirt jumpsuit combines functionality and toughness, ideal for salvaging work with a practical, efficient design.
+- **蓝色休闲连衣裙制服** — `ClothingUniformJumpskirtCasualBlue` ｜父类: ClothingUniformSkirtBase ｜描述: A loose worn blue shirt with a grey skirt, perfect for someone looking to relax.
+- **绿色休闲连衣裙制服** — `ClothingUniformJumpskirtCasualGreen` ｜父类: ClothingUniformSkirtBase ｜描述: A loose worn green shirt with a grey skirt, perfect for someone looking to relax.
+- **紫色休闲连衣裙制服** — `ClothingUniformJumpskirtCasualPurple` ｜父类: ClothingUniformSkirtBase ｜描述: A loose worn purple shirt with a grey skirt, perfect for someone looking to relax.
+- **红色休闲连衣裙制服** — `ClothingUniformJumpskirtCasualRed` ｜父类: ClothingUniformSkirtBase ｜描述: A loose worn red shirt with a grey skirt, perfect for someone looking to relax.
+- **中央指挥部礼服裙** — `ClothingUniformJumpskirtCentcomFormalDress` ｜父类: ClothingUniformSkirtBase ｜描述: A dress for special occasions.
+- **中央指挥部行政部门礼服wear** — `ClothingUniformJumpskirtCentcommAdminFormalWear` ｜父类: ClothingUniformSkirtBase,BaseCentcommContraband ｜_Starlight ｜描述: A dress for special occasions.
+- **中央指挥部货运部门礼服wear** — `ClothingUniformJumpskirtCentcommCargoFormalWear` ｜父类: ClothingUniformSkirtBase,BaseCentcommContraband ｜_Starlight ｜描述: A dress for special occasions.
+- **中央指挥部内务部门礼服wear** — `ClothingUniformJumpskirtCentcommDomesticFormalWear` ｜父类: ClothingUniformSkirtBase,BaseCentcommContraband ｜_Starlight ｜描述: A dress for special occasions.
+- **中央指挥部情报部门礼服wear** — `ClothingUniformJumpskirtCentcommIntelFormalWear` ｜父类: ClothingUniformSkirtBase,BaseCentcommContraband ｜_Starlight ｜描述: A dress for special occasions.
+- **中央指挥部医疗部门礼服wear** — `ClothingUniformJumpskirtCentcommMedFormalWear` ｜父类: ClothingUniformSkirtBase,BaseCentcommContraband ｜_Starlight ｜描述: A dress for special occasions.
+- **中央指挥部科研部门礼服wear** — `ClothingUniformJumpskirtCentcommResearchFormalWear` ｜父类: ClothingUniformSkirtBase,BaseCentcommContraband ｜_Starlight ｜描述: A dress for special occasions.
+- **中央指挥部安保部门礼服wear** — `ClothingUniformJumpskirtCentcommSecurityFormalWear` ｜父类: ClothingUniformSkirtBase,BaseCentcommContraband ｜_Starlight ｜描述: A dress for special occasions.
+- **中央指挥部特种行动部门礼服wear** — `ClothingUniformJumpskirtCentcommSpecialOpsFormalWear` ｜父类: ClothingUniformSkirtBase,BaseCentcommContraband ｜_Starlight ｜描述: A dress for special occasions.
+- **CentComm高领衫裙装** — `ClothingUniformJumpskirtCentcomOfficer` ｜父类: ClothingUniformSkirtBase ｜_Starlight ｜描述: A skirt version of the CentComm turtleneck, rarer and more sought after than the original.
+- **CentComm干员's西装裙** — `ClothingUniformJumpskirtCentcomOfficial` ｜父类: ClothingUniformSkirtBase ｜_Starlight ｜描述: It's a suitskirt worn by CentComm's highest-tier Commanders.
+- **牧师连衣裙制服 # Starlight: chaplain's -> chaplain** — `ClothingUniformJumpskirtChaplain` ｜父类: ClothingUniformSkirtBase ｜描述: It's a black jumpskirt, often worn by religious folk.
+- **厨师制服** — `ClothingUniformJumpskirtChef` ｜父类: ClothingUniformSkirtBase ｜描述: Can't cook without this.
+- **化学连衣裙制服** — `ClothingUniformJumpskirtChemistry` ｜父类: ClothingUniformSkirtBase ｜描述: There's some odd stains on this jumpskirt. Hm.
+- **工程主管连衣裙制服** — `ClothingUniformJumpskirtChiefEngineer` ｜父类: ClothingUniformSkirtBase,BaseCommandContraband ｜描述: It's a high visibility jumpskirt given to those engineers insane enough to achieve the rank of Chief Engineer.
+- **工程主管高领衫** — `ClothingUniformJumpskirtChiefEngineerTurtle` ｜父类: ClothingUniformSkirtBase,BaseCommandContraband ｜描述: A yellow turtleneck designed specifically for work in conditions of the engineering department.
+- **小丑裙** — `ClothingUniformJumpskirtClown` ｜父类: ClothingUniformSkirtBase ｜描述: HONK!
+- **高雅小丑裙装** — `ClothingUniformJumpskirtClownFormal` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: Why, I daresay, HONK!
+- **医疗主管连衣裙制服** — `ClothingUniformJumpskirtCMO` ｜父类: ClothingUniformSkirtBase,BaseCommandContraband ｜描述: It's a jumpskirt worn by those with the experience to be Chief Medical Officer. It provides minor biological protection.
+- **医疗主管正式连衣裙** — `ClothingUniformJumpskirtCmoFormal` ｜父类: ClothingUniformBase,BaseCommandContraband ｜DeltaV ｜描述: A lavish greenish blue skirtsuit with golden buttons and a green cross pin, fitted for the head of medical.
+- **医疗主管高领连衣裙制服** — `ClothingUniformJumpskirtCMOTurtle` ｜父类: ClothingUniformSkirtBase,BaseCommandContraband ｜描述: It's a turtleneck worn by those with the experience to be Chief Medical Officer. It provides minor biological protection.
+- **医疗主管背心连衣裙** — `ClothingUniformJumpskirtCmoVest` ｜父类: ClothingUniformBase,BaseCommandContraband ｜DeltaV ｜描述: A cozy teal cotton vest with a green cross pin paired with a white button-up.
+- **黑色连衣裙制服** — `ClothingUniformJumpskirtColorBlack` ｜父类: ClothingUniformSkirtBase ｜描述: A generic black jumpskirt with no rank markings.
+- **蓝色连衣裙制服** — `ClothingUniformJumpskirtColorBlue` ｜父类: ClothingUniformSkirtBase ｜描述: A generic blue jumpskirt with no rank markings.
+- **棕色连衣裙制服** — `ClothingUniformJumpskirtColorBrown` ｜父类: ClothingUniformSkirtBase ｜描述: A generic brown jumpskirt with no rank markings.
+- **深蓝色连衣裙制服** — `ClothingUniformJumpskirtColorDarkBlue` ｜父类: ClothingUniformSkirtBase ｜描述: A generic dark blue jumpskirt with no rank markings.
+- **深绿色连衣裙制服** — `ClothingUniformJumpskirtColorDarkGreen` ｜父类: ClothingUniformSkirtBase ｜描述: A generic dark green jumpskirt with no rank markings.
+- **绿色连衣裙制服** — `ClothingUniformJumpskirtColorGreen` ｜父类: ClothingUniformSkirtBase ｜描述: A generic green jumpskirt with no rank markings.
+- **灰色连衣裙制服** — `ClothingUniformJumpskirtColorGrey` ｜父类: ClothingUniformSkirtBase ｜描述: A tasteful grey jumpskirt that reminds you of the good old days.
+- **浅棕色连衣裙制服** — `ClothingUniformJumpskirtColorLightBrown` ｜父类: ClothingUniformSkirtBase ｜描述: A generic light brown jumpskirt with no rank markings.
+- **栗色连衣裙制服** — `ClothingUniformJumpskirtColorMaroon` ｜父类: ClothingUniformSkirtBase ｜描述: A generic maroon jumpskirt with no rank markings.
+- **橙色连衣裙制服** — `ClothingUniformJumpskirtColorOrange` ｜父类: ClothingUniformSkirtBase ｜描述: Don't wear this near paranoid security officers.
+- **粉色连衣裙制服** — `ClothingUniformJumpskirtColorPink` ｜父类: ClothingUniformSkirtBase ｜描述: Just looking at this makes you feel <i>fabulous</i>.
+- **紫色连衣裙制服** — `ClothingUniformJumpskirtColorPurple` ｜父类: ClothingUniformSkirtBase ｜描述: A generic light purple jumpskirt with no rank markings.
+- **彩虹色连衣裙制服** — `ClothingUniformJumpskirtColorRainbow` ｜父类: ClothingUniformBase ｜描述: A multi-colored jumpskirt!
+- **红色连衣裙制服** — `ClothingUniformJumpskirtColorRed` ｜父类: ClothingUniformSkirtBase ｜描述: A generic red jumpskirt with no rank markings.
+- **青绿色连衣裙制服** — `ClothingUniformJumpskirtColorTeal` ｜父类: ClothingUniformSkirtBase ｜描述: A generic teal jumpskirt with no rank markings.
+- **白色连衣裙制服** — `ClothingUniformJumpskirtColorWhite` ｜父类: ClothingUniformSkirtBase ｜描述: A generic white jumpskirt with no rank markings.
+- **黄色连衣裙制服** — `ClothingUniformJumpskirtColorYellow` ｜父类: ClothingUniformSkirtBase ｜描述: A generic yellow jumpskirt with no rank markings.
+- **指挥部连衣裙制服** — `ClothingUniformJumpskirtCommandGeneric` ｜父类: ClothingUniformSkirtBase,BaseCommandContraband ｜描述: A generic Command-colored jumpsuit not associated with any particular department.
+- **验尸官裙装** — `ClothingUniformJumpskirtCoroner` ｜父类: ClothingUniformSkirtBase ｜_Starlight ｜描述: Made from specialized fibers offering minimal protection against biological hazards, this jumpsuit proves that style doesn’t have to die with the patients. Perfect for the professional with a sense of
+- **战地医护兵裙装** — `ClothingUniformJumpskirtCorpsman` ｜父类: ClothingUniformSkirtBase,BaseSecurityContraband ｜_Starlight ｜描述: Die in style on the front lines!
+- **战地医护兵创伤救援服** — `ClothingUniformJumpskirtCorpsmanTrauma` ｜父类: ClothingUniformSkirtBase,BaseSecurityContraband ｜_Starlight ｜描述: I've seen worse. I've seen far worse.
+- **端庄裙** — `ClothingUniformJumpskirtCurator` ｜父类: ClothingUniformSkirtBase ｜描述: It's sensible. Too sensible...
+- **青色条纹连衣裙** — `ClothingUniformJumpskirtCyanStripedDress` ｜父类: ClothingUniformSkirtBase ｜描述: Cute striped dress.
+- **旧硬派西装裙** — `ClothingUniformJumpskirtDetective` ｜父类: ClothingUniformSkirtBase ｜描述: Someone who wears this means business.
+- **黑色电影风西装裙** — `ClothingUniformJumpskirtDetectiveGrey` ｜父类: ClothingUniformSkirtBase ｜描述: A hard-boiled private investigator's grey suit, complete with tie clip.
+- **晚礼红色连衣裙** — `ClothingUniformJumpskirtDressRed` ｜父类: ClothingUniformSkirtBase ｜_Starlight ｜描述: This stunning evening gown embodies passion and boldness, blended with elegance and sophistication. Crafted from deep red silk, it captivates attention and exudes luxury and sensuality.
+- **值班干员's制服** — `ClothingUniformJumpskirtDutyOfficer` ｜父类: ClothingUniformSkirtBase,BaseSecurityContraband ｜_Starlight ｜描述: A vibrant security skirt for the warden's partner in chains.
+- **值班干员橙色制服裙** — `ClothingUniformJumpskirtDutyOfficerOrange` ｜父类: ClothingUniformBase,BaseSecurityContraband ｜DeltaV ｜描述: A bright security skirt to distinguish yourself from the warden, while giving them an excuse to beat you saying you looked like a prisoner.
+- **elegant女仆制服** — `ClothingUniformJumpskirtElegantMaid` ｜父类: ClothingUniformSkirtBase ｜_Starlight ｜描述: Call me master and bring me some beer.
+- **精英蓝盾裙装** — `ClothingUniformJumpskirtEliteBlueShield` ｜父类: ClothingUniformSkirtBase,BaseBlueShieldContraband ｜_Starlight ｜描述: The skirt of an elite BSO. To reach such a level, you must have protected Command from [REDACTED].
+- **中央指挥部工程部门礼服wear** — `ClothingUniformJumpskirtEngiCentcommFormalWear` ｜父类: ClothingUniformSkirtBase,BaseCentcommContraband ｜_Starlight ｜描述: A dress for special occasions.
+- **工程部连衣裙制服** — `ClothingUniformJumpskirtEngineering` ｜父类: ClothingUniformSkirtBase ｜描述: If this suit was non-conductive, maybe engineers would actually do their damn job.
+- **礼服狱医裙装** — `ClothingUniformJumpskirtFormalBrigmedic` ｜父类: ClothingUniformSkirtBase,BaseSecurityContraband ｜_Starlight ｜描述: A formal suit for the brigmedic.
+- **副警长裙装** — `ClothingUniformJumpskirtFormalDeputy` ｜父类: ClothingUniformSkirtBase,BaseSecurityContraband ｜_Starlight ｜描述: An attire for one who feels destined for the desert.
+- **礼服安保裙装** — `ClothingUniformJumpskirtFormalSecoff` ｜父类: ClothingUniformSkirtBase,BaseSecurityContraband ｜_Starlight ｜描述: A formal attire for the security officer.
+- **礼服资深安保裙装** — `ClothingUniformJumpskirtFormalSeniorSecoff` ｜父类: ClothingUniformSkirtBase,BaseSecurityContraband ｜_Starlight ｜描述: A formal attire for the senior security officer.
+- **典狱长礼服裙装** — `ClothingUniformJumpskirtFormalWarden` ｜父类: ClothingUniformSkirtBase,BaseSecurityContraband ｜_Starlight ｜描述: A formal attire for the warden, missing a holster for the truncheon sadly...
+- **遗传学连衣裙制服** — `ClothingUniformJumpskirtGenetics` ｜父类: ClothingUniformSkirtBase ｜描述: It's made of a special fiber that gives special protection against biohazards. It has a geneticist rank stripe on it.
+- **哥特式连衣裙** — `ClothingUniformJumpskirtGothic` ｜父类: ClothingUniformSkirtBase ｜_Starlight ｜描述: A gothic dress is an elegant and mysterious garment characterized by its dark and intriguing style. Deep, dark shades like black, burgundy, or navy blue add an aura of mystery and aristocratic allure.
+- **绿色优雅连衣裙** — `ClothingUniformJumpskirtGreenElegantDress` ｜父类: ClothingUniformSkirtBase ｜描述: Elegant dress with a beautiful bow.
+- **绿色条纹连衣裙** — `ClothingUniformJumpskirtGreenStripedDress` ｜父类: ClothingUniformSkirtBase ｜描述: Cute striped dress.
+- **绿色高领连衣裙** — `ClothingUniformJumpskirtGreenTurtleneckDress` ｜父类: ClothingUniformSkirtBase ｜描述: Turtleneck dress with a unique design.
+- **人事主管连衣裙制服** — `ClothingUniformJumpskirtHoP` ｜父类: ClothingUniformSkirtBase,BaseCommandContraband ｜描述: Rather bland and inoffensive. Perfect for vanishing off the face of the universe.
+- **人事主管正式礼裙** — `ClothingUniformJumpskirtHopFormal` ｜父类: ClothingUniformBase,BaseCommandContraband ｜DeltaV ｜描述: A well-made dress with gold buttons and a red trim. Might as well look sharp when botany goes up in flames.
+- **人事主管's高领衫** — `ClothingUniformJumpskirtHoPTurtleneck` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: It's Head of Personal's turtleneck.
+- **安保主管连衣裙制服** — `ClothingUniformJumpskirtHoS` ｜父类: ClothingUniformSkirtBase,BaseCommandContraband ｜描述: It's bright red and rather crisp, much like security's victims tend to be.
+- **安保主管高领衫** — `ClothingUniformJumpskirtHoSAlt` ｜父类: ClothingUniformSkirtBase,BaseCommandContraband ｜描述: It's a turtleneck worn by those strong and disciplined enough to achieve the position of Head of Security.
+- **安保主管's黑色裙装** — `ClothingUniformJumpskirtHoSBlack` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: It's Head of Security's black skirt.
+- **安保主管礼服裙** — `ClothingUniformJumpskirtHosFormal` ｜父类: ClothingUniformSkirtBase,BaseCommandContraband ｜描述: A dress for special occasions.
+- **安保主管阅兵制服** — `ClothingUniformJumpskirtHoSParadeMale` ｜父类: ClothingUniformSkirtBase,BaseCommandContraband ｜描述: A head of security's luxury-wear, for special occasions.
+- **水培连衣裙制服** — `ClothingUniformJumpskirtHydroponics` ｜父类: ClothingUniformSkirtBase ｜描述: Has a strong earthy smell to it. Hopefully it's merely dirty as opposed to soiled.
+- **清洁女仆制服** — `ClothingUniformJumpskirtJanimaid` ｜父类: ClothingUniformSkirtBase ｜描述: For professionals, not the posers.
+- **清洁女仆迷你裙制服** — `ClothingUniformJumpskirtJanimaidmini` ｜父类: ClothingUniformSkirtBase ｜描述: Elite service, not some candy wrappers.
+- **清洁工连衣裙制服** — `ClothingUniformJumpskirtJanitor` ｜父类: ClothingUniformSkirtBase ｜描述: The jumpskirt for the poor sop with a mop.
+- **新闻记者裙装** — `ClothingUniformJumpskirtJournalist` ｜父类: ClothingUniformSkirtBase ｜_Starlight ｜描述: If journalism is good, it is contradictory by nature.
+- **无良律师's西装裙** — `ClothingUniformJumpskirtLawyerBad` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A bold suitskirt. Perfect for finding your one way, going wherever you want to go.
+- **黑色律师西装裙** — `ClothingUniformJumpskirtLawyerBlack` ｜父类: ClothingUniformSkirtBase ｜描述: A subtle black suitskirt worn by lawyers and gangsters.
+- **表演律师西装裙** — `ClothingUniformJumpskirtLawyerBlackTwo` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A stylish black piece worn by lawyers and show people.
+- **蓝色律师西装裙** — `ClothingUniformJumpskirtLawyerBlue` ｜父类: ClothingUniformSkirtBase ｜描述: A flashy blue suitskirt worn by lawyers and show-offs.
+- **“良心”律师西装裙** — `ClothingUniformJumpskirtLawyerGood` ｜父类: ClothingUniformSkirtBase ｜描述: A tacky suitskirt perfect for a CRIMINAL lawyer!
+- **灰色律师西装裙** — `ClothingUniformJumpskirtLawyerGray` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A plain gray suitskirt worn by lawyers and show-offs.
+- **粉色律师西装裙** — `ClothingUniformJumpskirtLawyerPink` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A bright pink suitskirt worn by lawyers that you should call.
+- **紫色律师西装裙** — `ClothingUniformJumpskirtLawyerPurple` ｜父类: ClothingUniformSkirtBase ｜描述: A stylish purple piece worn by lawyers and show people.
+- **红色律师西装裙** — `ClothingUniformJumpskirtLawyerRed` ｜父类: ClothingUniformSkirtBase ｜描述: A flashy red suitskirt worn by lawyers and show-offs.
+- **绿色律师西装裙** — `ClothingUniformJumpskirtLawyerService` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A flashy green suitskirt worn by lawyers and show-offs.
+- **图书管理员连衣裙制服** — `ClothingUniformJumpskirtLibrarian` ｜父类: ClothingUniformSkirtBase ｜描述: A cosy green jumper fit for a curator of books.
+- **晚礼女仆连衣裙** — `ClothingUniformJumpskirtMaid` ｜父类: ClothingUniformSkirtBase ｜_Starlight ｜描述: This refined evening dress, inspired by the elegant maid's style, combines sophistication with a touch of playful femininity. Made from high-quality black satin, it is designed to highlight the refine
+- **邮件技师裙装** — `ClothingUniformJumpskirtMail` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A stylish cargo yellow and mail bag-blue uniform custom made for mail technicians.
+- **医师连衣裙制服** — `ClothingUniformJumpskirtMedicalDoctor` ｜父类: ClothingUniformSkirtBase ｜描述: It's made of a special fiber that provides minor protection against biohazards. It has a cross on the chest denoting that the wearer is trained medical personnel.
+- **哑剧演员连衣裙制服** — `ClothingUniformJumpskirtMime` ｜父类: ClothingUniformSkirtBase ｜描述: ...
+- **采矿专员's裙装** — `ClothingUniformJumpskirtMiningSpecialist` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A suit passed down through many generations. a fine layer of dust trails behind it.
+- **乐手裙** — `ClothingUniformJumpskirtMusician` ｜父类: ClothingUniformSkirtBase ｜描述: A fancy skirt for the musically inclined. Perfect for any lounge act!
+- **NT职业导师's裙装** — `ClothingUniformJumpskirtNCT` ｜父类: ClothingUniformSkirtBase,BaseCommandContraband ｜_Starlight ｜描述: A neatly pressed olive green shirt paired with a sleek black skirt, worn by those committed to mentoring the next generation.
+- **NT代表裙装** — `ClothingUniformJumpskirtNtrep` ｜父类: ClothingUniformSkirtBase,BaseCommandContraband ｜_Starlight ｜描述: That skirt that is better not to see.
+- **NT代表's高领衫裙装** — `ClothingUniformJumpskirtNtrepTurtleneck` ｜父类: ClothingUniformSkirtBase,BaseCommandContraband ｜_Starlight ｜描述: For a more casual look while on the job.
+- **生命之裙** — `ClothingUniformJumpskirtOfLife` ｜父类: ClothingUniformSkirtBase ｜描述: A skirt that symbolizes the joy and positivity of our life.
+- **旧式连衣裙** — `ClothingUniformJumpskirtOldDress` ｜父类: ClothingUniformSkirtBase ｜描述: A worn-looking dress from a very long time ago.
+- **特工连衣裙制服** — `ClothingUniformJumpskirtOperative` ｜父类: UnsensoredClothingUniformSkirtBase,BaseSyndicateContraband ｜描述: Uniform for elite syndicate operatives performing tactical operations in deep space.
+- **橙色条纹连衣裙** — `ClothingUniformJumpskirtOrangeStripedDress` ｜父类: ClothingUniformSkirtBase ｜描述: Cute striped dress.
+- **急救员连衣裙制服** — `ClothingUniformJumpskirtParamedic` ｜父类: ClothingUniformSkirtBase ｜描述: It's got a plus on it, that's a good thing right?
+- **CentComm"pencil"style裙装** — `ClothingUniformJumpskirtPencilCentcomOfficial` ｜父类: ClothingUniformSkirtBase ｜_Starlight ｜描述: A strict green "pencil" skirt exudes authority and poise. The fitted blazer and straight skirt form an elegant silhouette, suitable for various occasions, from business meetings to a captain's dismiss
+- **SOC干员"pencil"裙装** — `ClothingUniformJumpskirtPencilSpecialOperationsOfficer` ｜父类: ClothingUniformSkirtBase ｜_Starlight ｜描述: A formal black Special Operations Corps officer's "pencil" skirt embodies authority and sophistication. The tailored blazer and straight skirt create a refined silhouette, suitable for various occasio
+- **米色"pencil"style裙装** — `ClothingUniformJumpskirtPencilTan` ｜父类: ClothingUniformSkirtBase ｜_Starlight ｜描述: The beige "pencil" style skirt exudes softness and elegance. The fitted blazer and straight skirt create a refined silhouette, making it suitable for various occasions, from business meetings to eveni
+- **表演者连衣裙制服** — `ClothingUniformJumpskirtPerformer` ｜父类: ClothingUniformSkirtBase ｜描述: Hi, I'm Scott, president of Donk Pizza. Have you heard of [FAMOUS VIRTUAL PERFORMER]?
+- **助理小丑裙装** — `ClothingUniformJumpskirtPerformerClown` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: Yet to be worthy of honking.
+- **哑剧演员apprentice裙装** — `ClothingUniformJumpskirtPerformerMime` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: Still have to learn how to be quiet...
+- **伴奏乐手裙装** — `ClothingUniformJumpskirtPerformerMusician` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A formal suit with a luxurious pair of pants. It's time to act!
+- **粉色条纹连衣裙** — `ClothingUniformJumpskirtPinkStripedDress` ｜父类: ClothingUniformSkirtBase ｜描述: Cute striped dress.
+- **囚犯连衣裙制服** — `ClothingUniformJumpskirtPrisoner` ｜父类: ClothingUniformBase ｜描述: A jumpskirt used for prisoners. It has suit sensors automatically enabled at all times.
+- **心理医生西装裙** — `ClothingUniformJumpskirtPsychologist` ｜父类: ClothingUniformSkirtBase ｜描述: I don't lose things. I place things in locations which later elude me.
+- **朋克裙装and袜子** — `ClothingUniformJumpskirtPunkSkirt` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: Slightly metal, very goth.
+- **紫色优雅连衣裙** — `ClothingUniformJumpskirtPurpleElegantDress` ｜父类: ClothingUniformSkirtBase ｜描述: Elegant dress with a beautiful bow.
+- **紫色高领连衣裙** — `ClothingUniformJumpskirtPurpleTurtleneckDress` ｜父类: ClothingUniformSkirtBase ｜描述: Turtleneck dress with a unique design.
+- **军需官连衣裙制服** — `ClothingUniformJumpskirtQM` ｜父类: ClothingUniformSkirtBase,BaseCommandContraband ｜描述: What can brown do for you?
+- **军需官正式礼裙** — `ClothingUniformJumpskirtQmFormal` ｜父类: ClothingUniformBase,BaseCommandContraband ｜DeltaV ｜描述: Inspired by the logistics officers of military's past, the perfect outfit for supplying a formal occasion.
+- **军需官高领衫** — `ClothingUniformJumpskirtQMTurtleneck` ｜父类: ClothingUniformSkirtBase,BaseCommandContraband ｜描述: A sharp turtleneck made for the hardy work environment of supply.
+- **研究主管's古典式裙装** — `ClothingUniformJumpskirtRDClassical` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: It's Research Director's classical skirt.
+- **红色优雅连衣裙** — `ClothingUniformJumpskirtRedElegantDress` ｜父类: ClothingUniformSkirtBase ｜描述: Elegant dress with a beautiful bow.
+- **红色条纹连衣裙** — `ClothingUniformJumpskirtRedStripedDress` ｜父类: ClothingUniformSkirtBase ｜描述: Cute striped dress.
+- **红色高领连衣裙** — `ClothingUniformJumpskirtRedTurtleneckDress` ｜父类: ClothingUniformSkirtBase ｜描述: Turtleneck dress with a unique design.
+- **记者裙装** — `ClothingUniformJumpskirtReporter` ｜父类: ClothingUniformSkirtBase ｜_Starlight ｜描述: A good reporter remains a skeptic for life.
+- **研究主管高领衫** — `ClothingUniformJumpskirtResearchDirector` ｜父类: ClothingUniformSkirtBase,BaseCommandContraband ｜描述: It's a turtleneck worn by those with the know-how to achieve the position of Research Director. Its fabric provides minor protection from biological contaminants.
+- **机器人专家连衣裙制服** — `ClothingUniformJumpskirtRoboticist` ｜父类: ClothingUniformSkirtBase ｜描述: It's a slimming black with reinforced seams; great for industrial work.
+- **打捞领队s's裙装** — `ClothingUniformJumpskirtSalvageLead` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: It's a snappy jumpskirt with a sturdy set of overalls. It's very dirty.
+- **校服裙装** — `ClothingUniformJumpskirtSchool` ｜父类: ClothingUniformSkirtBase ｜_Starlight ｜描述: Stylish and comfortable school skirt.
+- **科学家连衣裙制服** — `ClothingUniformJumpskirtScientist` ｜父类: ClothingUniformSkirtBase ｜描述: It's made of a special fiber that increases perceived intelligence and decreases personal ethics. It has markings that denote the wearer as a scientist.
+- **礼服科学家裙装** — `ClothingUniformJumpskirtScientistFormal` ｜父类: ClothingUniformSkirtBase ｜_Starlight ｜描述: A uniform for discerning scientists, best paired with a matching tie, offering a blend of professionalism and intellectual flair. Perfect for prestigious events or high-level research settings.
+- **安保部连衣裙制服** — `ClothingUniformJumpskirtSec` ｜父类: ClothingUniformSkirtBase,BaseSecurityContraband ｜描述: A jumpskirt made of strong material, providing robust protection.
+- **蓝色裙装andtie** — `ClothingUniformJumpskirtSecBlue` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: Stylish and functional.
+- **灰色安保连衣裙制服** — `ClothingUniformJumpskirtSecGrey` ｜父类: ClothingUniformSkirtBase,BaseSecurityContraband ｜描述: A tactical relic of years past before NanoTrasen decided it was cheaper to dye the suits red instead of washing out the blood.
+- **资深礼服狱医裙装** — `ClothingUniformJumpskirtSeniorBrigmedic` ｜父类: ClothingUniformSkirtBase,BaseSecurityContraband ｜_Starlight ｜描述: A formal suit for the seasoned brigmedic.
+- **资深药剂师裙装** — `ClothingUniformJumpskirtSeniorChemist` ｜父类: ClothingUniformSkirtBase ｜_Starlight ｜描述: A sign of skill, prestige, and alchemical prowess
+- **资深工程师连衣裙制服** — `ClothingUniformJumpskirtSeniorEngineer` ｜父类: ClothingUniformSkirtBase ｜描述: A sign of skill and prestige within the engineering department.
+- **资深邮件技师裙装** — `ClothingUniformJumpskirtSeniorMail` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A more vibrant mail technician outfit made in the color of cargo's formal uniforms. Perfect for deliver the mail in style, and looking good while doing it.
+- **资深安保干员连衣裙制服** — `ClothingUniformJumpskirtSeniorOfficer` ｜父类: ClothingUniformSkirtBase,BaseSecurityContraband ｜描述: A sign of skill and prestige within the security department.
+- **资深急救员裙装** — `ClothingUniformJumpskirtSeniorParamedic` ｜父类: ClothingUniformSkirtBase ｜_Starlight ｜描述: These epaulettes mark a paramedic that has walked through fire and void to save those in need
+- **资深医师连衣裙制服** — `ClothingUniformJumpskirtSeniorPhysician` ｜父类: ClothingUniformSkirtBase ｜描述: A sign of skill and prestige within the medical department.
+- **资深研究员连衣裙制服** — `ClothingUniformJumpskirtSeniorResearcher` ｜父类: ClothingUniformSkirtBase ｜描述: A sign of skill and prestige within the science department.
+- **侍者裙装** — `ClothingUniformJumpskirtServiceWorkerBartender` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A sharp and tidy uniform for the bartender's footsoldiers.
+- **园丁裙装** — `ClothingUniformJumpskirtServiceWorkerBotany` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: Has a light earthy smell to it. Has to be routinely bleached.
+- **副厨师裙装** — `ClothingUniformJumpskirtServiceWorkerChef` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: The noble jumpsuit of the chef's co-conspirator.
+- **护士's制服** — `ClothingUniformJumpskirtSuitNurse` ｜父类: ClothingUniformSkirtBase ｜_Starlight ｜描述: This nurse uniform combines functionality and style. Durable, comfortable pants paired with a blouse and signature cap create a professional and neat look, making it an ideal choice for healthcare sta
+- **辛迪加礼服裙** — `ClothingUniformJumpskirtSyndieFormalDress` ｜父类: ClothingUniformSkirtBase,BaseMinorContraband ｜描述: The syndicate's uniform is made in an elegant style, it's even a pity to do dirty tricks in this.
+- **战术女仆西装裙** — `ClothingUniformJumpskirtTacticalMaid` ｜父类: ClothingUniformSkirtBase ｜描述: It is assumed that the best maids should have designer suits.
+- **战术潮人连衣裙制服** — `ClothingUniformJumpskirtTacticool` ｜父类: ClothingUniformSkirtBase ｜描述: Uniform for subpar operative LARPers performing tactical insulated glove theft in deep space.
+- **探戈连衣裙** — `ClothingUniformJumpskirtTango` ｜父类: ClothingUniformSkirtBase ｜_Starlight ｜描述: This dress is made for tango, embodying passion and elegance. Its fitted silhouette, with a back cutout and decorative draping, accentuates feminine curves while offering freedom of movement and enhan
+- **维多利亚式黑色连衣裙** — `ClothingUniformJumpskirtVictorianBlack` ｜父类: ClothingUniformSkirtBase ｜_Starlight ｜描述: This black Victorian dress captures the essence of the era. Cutouts, lace, and cuffs add mystery, while the corset creates a refined silhouette. It's perfect for evening events where elegance and intr
+- **维多利亚式红色连衣裙** — `ClothingUniformJumpskirtVictorianrRed` ｜父类: ClothingUniformSkirtBase ｜_Starlight ｜描述: Inspired by Victorian style, this red dress embodies passion and luxury. Intricate details like lace, puffed sleeves, and a voluminous skirt make it the perfect choice for special events where standin
+- **病毒学连衣裙制服** — `ClothingUniformJumpskirtVirology` ｜父类: ClothingUniformSkirtBase ｜描述: It's made of a special fiber that gives special protection against biohazards. It has a virologist rank stripe on it.
+- **典狱长制服** — `ClothingUniformJumpskirtWarden` ｜父类: ClothingUniformSkirtBase,BaseSecurityContraband ｜描述: A formal security suit for officers complete with NanoTrasen belt buckle.
+- **蛛网连衣裙制服** — `ClothingUniformJumpskirtWeb` ｜父类: ClothingUniformSkirtBase ｜描述: Makes it clear that you are one with the webs.
+- **黄色古典连衣裙** — `ClothingUniformJumpskirtYellowOldDress` ｜父类: ClothingUniformSkirtBase ｜描述: Classic western dress.
+- **黄色高领连衣裙** — `ClothingUniformJumpskirtYellowTurtleneckDress` ｜父类: ClothingUniformSkirtBase ｜描述: Turtleneck dress with a unique design.
 - **绑架者制服** — `ClothingUniformJumpsuitAbductor` ｜父类: UnsensoredClothingUniformBase,BaseMajorContraband ｜_Starlight
-- **静空气套装** — `ClothingUniformJumpsuitAerostatic` ｜父类: ClothingUniformBase ｜_Starlight
-- **古旧连体衣** — `ClothingUniformJumpsuitAncient` ｜父类: ClothingUniformBase
-- **助手连体衣** — `ClothingUniformJumpsuitAssistant` ｜父类: ClothingUniformBase ｜_Starlight
-- **大气技师连体衣** — `ClothingUniformJumpsuitAtmos` ｜父类: ClothingUniformBase,ClothingUniformFoldableBase
-- **大气技师休闲连体衣** — `ClothingUniformJumpsuitAtmosCasual` ｜父类: ClothingUniformBase,ClothingUniformFoldableBase
+- **静空气套装** — `ClothingUniformJumpsuitAerostatic` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A crisp and well-pressed suit; professional, comfortable and curiously authoritative.
+- **古旧连体衣** — `ClothingUniformJumpsuitAncient` ｜父类: ClothingUniformBase ｜描述: A terribly ragged and frayed grey jumpsuit. It looks like it hasn't been washed in over a decade.
+- **助手连体衣** — `ClothingUniformJumpsuitAssistant` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A tasteful green jumpsuit that reminds you of the good old days.
+- **大气技师连体衣** — `ClothingUniformJumpsuitAtmos` ｜父类: ClothingUniformBase,ClothingUniformFoldableBase ｜描述: I am at work. I can't leave work. Work is breathing. I am testing air quality.
+- **大气技师休闲连体衣** — `ClothingUniformJumpsuitAtmosCasual` ｜父类: ClothingUniformBase,ClothingUniformFoldableBase ｜描述: Might as well relax with a job as easy as yours.
 - **柔术师连体衣** — `ClothingUniformJumpsuitAtmosSyndie` ｜父类: ClothingUniformJumpsuitAtmos ｜_Starlight
-- **酒保制服** — `ClothingUniformJumpsuitBartender` ｜父类: ClothingUniformBase,ClothingUniformFoldableBase
-- **紫色酒保制服** — `ClothingUniformJumpsuitBartenderPurple` ｜父类: ClothingUniformBase
-- **蓝盾套装** — `ClothingUniformJumpsuitBlueShield` ｜父类: ClothingUniformBase,BaseBlueShieldContraband ｜_Starlight
-- **蓝盾干员's衬衫** — `ClothingUniformJumpsuitBlueShieldShirt` ｜父类: ClothingUniformBase,BaseBlueShieldContraband ｜_Starlight
-- **狱医连体衣** — `ClothingUniformJumpsuitBrigmedic` ｜父类: ClothingUniformBase
-- **舰长正装** — `ClothingUniformJumpsuitCapFormal` ｜父类: ClothingUniformBase,BaseCommandContraband
-- **舰长连体衣** — `ClothingUniformJumpsuitCaptain` ｜父类: ClothingUniformBase,BaseCommandContraband
-- **舰长贵族连体衣** — `ClothingUniformJumpsuitCaptainNoble` ｜父类: ClothingUniformBase,BaseCommandContraband ｜_Starlight
-- **舰长高领衫** — `ClothingUniformJumpsuitCapTurtleneck` ｜父类: ClothingUniformBase ｜_Starlight
-- **货运技师连体衣** — `ClothingUniformJumpsuitCargo` ｜父类: ClothingUniformBase,ClothingUniformFoldableBase
-- **货运套装** — `ClothingUniformJumpsuitCargoAlt` ｜父类: ClothingUniformBase ｜_Starlight
-- **礼服货运连体衣** — `ClothingUniformJumpsuitCargoFormal` ｜父类: ClothingUniformBase ｜_Starlight
-- **货运休闲连体衣** — `ClothingUniformJumpsuitCargoInformal` ｜父类: ClothingUniformBase ｜DeltaV
-- **蓝色休闲连体衣** — `ClothingUniformJumpsuitCasualBlue` ｜父类: ClothingUniformBase
-- **绿色休闲连体衣** — `ClothingUniformJumpsuitCasualGreen` ｜父类: ClothingUniformBase
-- **紫色休闲连体衣** — `ClothingUniformJumpsuitCasualPurple` ｜父类: ClothingUniformBase
-- **红色休闲连体衣** — `ClothingUniformJumpsuitCasualRed` ｜父类: ClothingUniformBase
-- **海军上将制服** — `ClothingUniformJumpsuitCentcomAdmiral` ｜父类: ClothingUniformBase ｜_Starlight
-- **中央指挥部特工连体衣** — `ClothingUniformJumpsuitCentcomAgent` ｜父类: ClothingUniformBase,BaseCentcommContraband
-- **中央指挥部正装** — `ClothingUniformJumpsuitCentcomFormal` ｜父类: ClothingUniformBase
-- **中央指挥部军官连体衣** — `ClothingUniformJumpsuitCentcomOfficer` ｜父类: ClothingUniformBase,BaseCentcommContraband
-- **特种作战干员制服** — `ClothingUniformJumpsuitCentcomOfficerBlack` ｜父类: ClothingUniformBase ｜_Starlight
-- **中央指挥部官员连体衣** — `ClothingUniformJumpsuitCentcomOfficial` ｜父类: ClothingUniformBase,BaseCentcommContraband
-- **黑色连体衣** — `ClothingUniformJumpsuitChameleon` ｜父类: ClothingUniformBase,BaseChameleon
-- **牧师连体衣 # Starlight: chaplain's -> chaplain** — `ClothingUniformJumpsuitChaplain` ｜父类: ClothingUniformBase
-- **厨师制服** — `ClothingUniformJumpsuitChef` ｜父类: ClothingUniformBase
-- **高级厨师连体衣** — `ClothingUniformJumpsuitChefSenior` ｜父类: ClothingUniformBase ｜_Starlight
-- **化学连体衣** — `ClothingUniformJumpsuitChemistry` ｜父类: ClothingUniformBase,ClothingUniformFoldableBase
-- **工程主管连体衣** — `ClothingUniformJumpsuitChiefEngineer` ｜父类: ClothingUniformBase,BaseCommandContraband,ClothingUniformFoldableBase
-- **辛迪加工程主管连体衣** — `ClothingUniformJumpsuitChiefEngineerSyndie` ｜父类: ClothingUniformBase,BaseMinorContraband
-- **工程主管高领衫** — `ClothingUniformJumpsuitChiefEngineerTurtle` ｜父类: ClothingUniformBase,BaseCommandContraband
-- **小丑服** — `ClothingUniformJumpsuitClown` ｜父类: ClothingUniformBase
+- **酒保制服** — `ClothingUniformJumpsuitBartender` ｜父类: ClothingUniformBase,ClothingUniformFoldableBase ｜描述: A nice and tidy uniform. Shame about the bar though.
+- **紫色酒保制服** — `ClothingUniformJumpsuitBartenderPurple` ｜父类: ClothingUniformBase ｜描述: A special purple outfit to serve drinks.
+- **蓝盾套装** — `ClothingUniformJumpsuitBlueShield` ｜父类: ClothingUniformBase,BaseBlueShieldContraband ｜_Starlight ｜描述: The suit of a glorified bodyguard.
+- **蓝盾干员's衬衫** — `ClothingUniformJumpsuitBlueShieldShirt` ｜父类: ClothingUniformBase,BaseBlueShieldContraband ｜_Starlight ｜描述: A collared shirt and pants for the blueshield officer who likes to keep it business casual.
+- **狱医连体衣** — `ClothingUniformJumpsuitBrigmedic` ｜父类: ClothingUniformBase ｜描述: This uniform is issued to qualified personnel who have been trained. No one cares that the training took half a day.
+- **舰长正装** — `ClothingUniformJumpsuitCapFormal` ｜父类: ClothingUniformBase,BaseCommandContraband ｜描述: A suit for special occasions.
+- **舰长连体衣** — `ClothingUniformJumpsuitCaptain` ｜父类: ClothingUniformBase,BaseCommandContraband ｜描述: It's a blue jumpsuit with some gold markings denoting the rank of "Captain".
+- **舰长贵族连体衣** — `ClothingUniformJumpsuitCaptainNoble` ｜父类: ClothingUniformBase,BaseCommandContraband ｜_Starlight ｜描述: A more classical and elegant style of clothing, designed to emulate the fashion of old earth nobility.
+- **舰长高领衫** — `ClothingUniformJumpsuitCapTurtleneck` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: True captain's turtleneck.
+- **货运技师连体衣** — `ClothingUniformJumpsuitCargo` ｜父类: ClothingUniformBase,ClothingUniformFoldableBase ｜描述: A sturdy jumpsuit, issued to members of the Cargo department.
+- **货运套装** — `ClothingUniformJumpsuitCargoAlt` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A good suit for supply department workers combines practicality and professionalism. Featuring durable fabric, functional pockets, and a comfortable fit, it ensures ease of movement while maintaining 
+- **礼服货运连体衣** — `ClothingUniformJumpsuitCargoFormal` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: Designed for fashion shows on a conveyor belt, this sleek and structured cargo jumpsuit blends utility with high-fashion appeal. Perfect for showcasing bold, industrial-inspired looks with a refined e
+- **货运休闲连体衣** — `ClothingUniformJumpsuitCargoInformal` ｜父类: ClothingUniformBase ｜DeltaV ｜描述: For the cargo tech that favors form AND function instead of just function.
+- **蓝色休闲连体衣** — `ClothingUniformJumpsuitCasualBlue` ｜父类: ClothingUniformBase ｜描述: A loose worn blue shirt with a grey pants, perfect for someone looking to relax.
+- **绿色休闲连体衣** — `ClothingUniformJumpsuitCasualGreen` ｜父类: ClothingUniformBase ｜描述: A loose worn green shirt with a grey pants, perfect for someone looking to relax.
+- **紫色休闲连体衣** — `ClothingUniformJumpsuitCasualPurple` ｜父类: ClothingUniformBase ｜描述: A loose worn purple shirt with a grey pants, perfect for someone looking to relax.
+- **红色休闲连体衣** — `ClothingUniformJumpsuitCasualRed` ｜父类: ClothingUniformBase ｜描述: A loose worn red shirt with a grey pants, perfect for someone looking to relax.
+- **海军上将制服** — `ClothingUniformJumpsuitCentcomAdmiral` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A uniform worn by those with the rank Admiral in the NanoTrasen Navy.
+- **中央指挥部特工连体衣** — `ClothingUniformJumpsuitCentcomAgent` ｜父类: ClothingUniformBase,BaseCentcommContraband ｜描述: A suit worn by CentComm's legal team. Smells of burnt coffee.
+- **中央指挥部正装** — `ClothingUniformJumpsuitCentcomFormal` ｜父类: ClothingUniformBase ｜描述: A suit for special occasions.
+- **中央指挥部军官连体衣** — `ClothingUniformJumpsuitCentcomOfficer` ｜父类: ClothingUniformBase,BaseCentcommContraband ｜描述: It's a jumpsuit worn by CentComm Officers.
+- **特种作战干员制服** — `ClothingUniformJumpsuitCentcomOfficerBlack` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: Special Operations Officer uniform, nothing like that. Although... If you have time to read this, it's too late...
+- **中央指挥部官员连体衣** — `ClothingUniformJumpsuitCentcomOfficial` ｜父类: ClothingUniformBase,BaseCentcommContraband ｜描述: It's a jumpsuit worn by CentComm's officials.
+- **黑色连体衣** — `ClothingUniformJumpsuitChameleon` ｜父类: ClothingUniformBase,BaseChameleon ｜描述: A generic black jumpsuit with no rank markings.
+- **牧师连体衣 # Starlight: chaplain's -> chaplain** — `ClothingUniformJumpsuitChaplain` ｜父类: ClothingUniformBase ｜描述: It's a black jumpsuit, often worn by religious folk.
+- **厨师制服** — `ClothingUniformJumpsuitChef` ｜父类: ClothingUniformBase ｜描述: Can't cook without this.
+- **高级厨师连体衣** — `ClothingUniformJumpsuitChefSenior` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A sharp black jumpsuit for that Kitchen drip.
+- **化学连体衣** — `ClothingUniformJumpsuitChemistry` ｜父类: ClothingUniformBase,ClothingUniformFoldableBase ｜描述: There's some odd stains on this jumpsuit. Hm.
+- **工程主管连体衣** — `ClothingUniformJumpsuitChiefEngineer` ｜父类: ClothingUniformBase,BaseCommandContraband,ClothingUniformFoldableBase ｜描述: It's a high visibility jumpsuit given to those engineers insane enough to achieve the rank of Chief Engineer.
+- **辛迪加工程主管连体衣** — `ClothingUniformJumpsuitChiefEngineerSyndie` ｜父类: ClothingUniformBase,BaseMinorContraband ｜描述: An evil-looking jumpsuit with a reflective vest & red undershirt.
+- **工程主管高领衫** — `ClothingUniformJumpsuitChiefEngineerTurtle` ｜父类: ClothingUniformBase,BaseCommandContraband ｜描述: A yellow turtleneck designed specifically for work in conditions of the engineering department.
+- **小丑服** — `ClothingUniformJumpsuitClown` ｜父类: ClothingUniformBase ｜描述: HONK!
 - **香蕉小丑服** — `ClothingUniformJumpsuitClownBanana` ｜父类: ClothingUniformJumpsuitClown
-- **高雅小丑套装** — `ClothingUniformJumpsuitClownFormal` ｜父类: ClothingUniformBase ｜_Starlight
-- **受诅小丑服** — `ClothingUniformJumpsuitCluwne` ｜父类: ClothingUniformJumpsuitClown
-- **医疗主管连体衣** — `ClothingUniformJumpsuitCMO` ｜父类: ClothingUniformBase,BaseCommandContraband,ClothingUniformFoldableBase
-- **医疗主管正式礼服** — `ClothingUniformJumpsuitCmoFormal` ｜父类: ClothingUniformBase,BaseCommandContraband ｜DeltaV
-- **医疗主管夏威夷衫** — `ClothingUniformJumpsuitCmoSummer` ｜父类: ClothingUniformBase,BaseCommandContraband ｜DeltaV
-- **医疗主管高领连体衣** — `ClothingUniformJumpsuitCMOTurtle` ｜父类: ClothingUniformBase,BaseCommandContraband
-- **医疗主管背心连体衣** — `ClothingUniformJumpsuitCmoVest` ｜父类: ClothingUniformBase,BaseCommandContraband ｜DeltaV
-- **黑色连体衣** — `ClothingUniformJumpsuitColorBlack` ｜父类: ClothingUniformBase
-- **蓝色连体衣** — `ClothingUniformJumpsuitColorBlue` ｜父类: ClothingUniformBase
-- **棕色连体衣** — `ClothingUniformJumpsuitColorBrown` ｜父类: ClothingUniformBase
-- **深蓝色连体衣** — `ClothingUniformJumpsuitColorDarkBlue` ｜父类: ClothingUniformBase
-- **深绿色连体衣** — `ClothingUniformJumpsuitColorDarkGreen` ｜父类: ClothingUniformBase
-- **绿色连体衣** — `ClothingUniformJumpsuitColorGreen` ｜父类: ClothingUniformBase
-- **灰色连体衣** — `ClothingUniformJumpsuitColorGrey` ｜父类: ClothingUniformBase
-- **浅棕色连体衣** — `ClothingUniformJumpsuitColorLightBrown` ｜父类: ClothingUniformBase
-- **栗色连体衣** — `ClothingUniformJumpsuitColorMaroon` ｜父类: ClothingUniformBase
-- **橙色连体衣** — `ClothingUniformJumpsuitColorOrange` ｜父类: ClothingUniformBase
-- **粉色连体衣** — `ClothingUniformJumpsuitColorPink` ｜父类: ClothingUniformBase
-- **紫色连体衣** — `ClothingUniformJumpsuitColorPurple` ｜父类: ClothingUniformBase
-- **红色连体衣** — `ClothingUniformJumpsuitColorRed` ｜父类: ClothingUniformBase
-- **青绿色连体衣** — `ClothingUniformJumpsuitColorTeal` ｜父类: ClothingUniformBase
-- **白色连体衣** — `ClothingUniformJumpsuitColorWhite` ｜父类: ClothingUniformBase
-- **黄色连体衣** — `ClothingUniformJumpsuitColorYellow` ｜父类: ClothingUniformBase
-- **指挥部连体衣** — `ClothingUniformJumpsuitCommandGeneric` ｜父类: ClothingUniformBase,BaseCommandContraband
-- **验尸官连体衣** — `ClothingUniformJumpsuitCoroner` ｜父类: ClothingUniformBase ｜_Starlight
-- **手术服** — `ClothingUniformJumpsuitCoronerAlt` ｜父类: ClothingUniformBase ｜_Starlight
-- **战地医护兵套装** — `ClothingUniformJumpsuitCorpsman` ｜父类: ClothingUniformBase,BaseSecurityContraband ｜_Starlight
-- **战地医护兵应急服** — `ClothingUniformJumpsuitCorpsmanResponse` ｜父类: ClothingUniformBase,BaseSecurityContraband ｜_Starlight
-- **哥萨克服** — `ClothingUniformJumpsuitCossack` ｜父类: ClothingUniformBase
-- **端庄西装** — `ClothingUniformJumpsuitCurator` ｜父类: ClothingUniformBase
-- **极道服** — `ClothingUniformJumpsuitDameDane` ｜父类: ClothingUniformBase
-- **死亡小队制服** — `ClothingUniformJumpsuitDeathSquad` ｜父类: ClothingUniformBase
-- **旧硬派西装** — `ClothingUniformJumpsuitDetective` ｜父类: ClothingUniformBase
-- **黑色电影风西装** — `ClothingUniformJumpsuitDetectiveGrey` ｜父类: ClothingUniformBase
-- **值班干员's制服** — `ClothingUniformJumpsuitDutyOfficer` ｜父类: ClothingUniformBase,BaseSecurityContraband ｜_Starlight
-- **值班干员橙色制服** — `ClothingUniformJumpsuitDutyOfficerOrange` ｜父类: ClothingUniformBase,BaseSecurityContraband ｜DeltaV
-- **精英蓝盾套装** — `ClothingUniformJumpsuitEliteBlueShield` ｜父类: ClothingUniformBase,BaseBlueShieldContraband ｜_Starlight
-- **工程部连体衣** — `ClothingUniformJumpsuitEngineering` ｜父类: ClothingUniformBase,ClothingUniformFoldableBase
-- **工程警示连体衣** — `ClothingUniformJumpsuitEngineeringHazard` ｜父类: ClothingUniformBase,ClothingUniformFoldableBase
-- **应急响应队牧师制服** — `ClothingUniformJumpsuitERTChaplain` ｜父类: BaseCentcommContraband,ClothingUniformBase
-- **应急响应队工程制服** — `ClothingUniformJumpsuitERTEngineer` ｜父类: BaseCentcommContraband,ClothingUniformBase
-- **应急响应队清洁制服** — `ClothingUniformJumpsuitERTJanitor` ｜父类: BaseCentcommContraband,ClothingUniformBase
-- **应急响应队队长制服** — `ClothingUniformJumpsuitERTLeader` ｜父类: BaseCentcommContraband,ClothingUniformBase
-- **应急响应队医疗制服** — `ClothingUniformJumpsuitERTMedic` ｜父类: BaseCentcommContraband,ClothingUniformBase
-- **应急响应队安保制服** — `ClothingUniformJumpsuitERTSecurity` ｜父类: BaseCentcommContraband,ClothingUniformBase
-- **熟悉的行头** — `ClothingUniformJumpsuitFamilyGuy` ｜父类: ClothingUniformBase
-- **法兰绒连体衣** — `ClothingUniformJumpsuitFlannel` ｜父类: ClothingUniformBase
-- **蓝盾干员礼服** — `ClothingUniformJumpsuitFormalBlueShield` ｜父类: ClothingUniformBase,BaseBlueShieldContraband ｜_Starlight
-- **礼服狱医连体衣** — `ClothingUniformJumpsuitFormalBrigmedic` ｜父类: ClothingUniformBase,BaseSecurityContraband ｜_Starlight
-- **副警长连体衣** — `ClothingUniformJumpsuitFormalDeputy` ｜父类: ClothingUniformBase,BaseSecurityContraband ｜_Starlight
-- **礼服安保连体衣** — `ClothingUniformJumpsuitFormalSecoff` ｜父类: ClothingUniformBase,BaseSecurityContraband ｜_Starlight
-- **礼服资深安保连体衣** — `ClothingUniformJumpsuitFormalSeniorSecoff` ｜父类: ClothingUniformBase,BaseSecurityContraband ｜_Starlight
-- **典狱长礼服连体衣** — `ClothingUniformJumpsuitFormalWarden` ｜父类: ClothingUniformBase,BaseSecurityContraband ｜_Starlight
-- **遗传学连体衣** — `ClothingUniformJumpsuitGenetics` ｜父类: ClothingUniformBase
-- **角斗士制服** — `ClothingUniformJumpsuitGladiator` ｜父类: ClothingUniformBase
-- **绿盾制服** — `ClothingUniformJumpsuitGreenshield` ｜父类: BaseCentcommContraband,ClothingUniformBase ｜_Starlight
-- **黑色夏威夷衫** — `ClothingUniformJumpsuitHawaiBlack` ｜父类: ClothingUniformBase
-- **蓝色夏威夷衫** — `ClothingUniformJumpsuitHawaiBlue` ｜父类: ClothingUniformBase
-- **红色夏威夷衫** — `ClothingUniformJumpsuitHawaiRed` ｜父类: ClothingUniformBase
-- **黄色夏威夷衫** — `ClothingUniformJumpsuitHawaiYellow` ｜父类: ClothingUniformBase
-- **人事主管连体衣** — `ClothingUniformJumpsuitHoP` ｜父类: ClothingUniformBase,BaseCommandContraband,ClothingUniformFoldableBase
-- **人事主管正式礼服** — `ClothingUniformJumpsuitHopFormal` ｜父类: ClothingUniformBase,BaseCommandContraband ｜DeltaV
-- **人事主管高领衫** — `ClothingUniformJumpsuitHoPTurtleneck` ｜父类: ClothingUniformBase ｜_Starlight
-- **安保主管连体衣** — `ClothingUniformJumpsuitHoS` ｜父类: ClothingUniformBase,BaseCommandContraband
-- **安保主管高领衫** — `ClothingUniformJumpsuitHoSAlt` ｜父类: ClothingUniformBase,BaseCommandContraband
-- **安保主管黑色西装** — `ClothingUniformJumpsuitHoSBlack` ｜父类: ClothingUniformBase ｜_Starlight
-- **安保主管蓝色连体衣** — `ClothingUniformJumpsuitHoSBlue` ｜父类: ClothingUniformBase,BaseCommandContraband
-- **安保主管正装** — `ClothingUniformJumpsuitHosFormal` ｜父类: ClothingUniformBase,BaseCommandContraband
-- **安保主管灰色连体衣** — `ClothingUniformJumpsuitHoSGrey` ｜父类: ClothingUniformBase,BaseCommandContraband
-- **安保主管阅兵制服** — `ClothingUniformJumpsuitHoSParadeMale` ｜父类: ClothingUniformBase,BaseCommandContraband
-- **水培连体衣** — `ClothingUniformJumpsuitHydroponics` ｜父类: ClothingUniformBase,ClothingUniformFoldableBase
-- **酒保猴夹克** — `ClothingUniformJumpsuitJacketMonkey` ｜父类: ClothingUniformBase
-- **清洁工连体衣** — `ClothingUniformJumpsuitJanitor` ｜父类: ClothingUniformBase,ClothingUniformFoldableBase
-- **弄臣服** — `ClothingUniformJumpsuitJester` ｜父类: ClothingUniformBase
+- **高雅小丑套装** — `ClothingUniformJumpsuitClownFormal` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: Why, I daresay, HONK!
+- **受诅小丑服** — `ClothingUniformJumpsuitCluwne` ｜父类: ClothingUniformJumpsuitClown ｜描述: Cursed cluwne suit.
+- **医疗主管连体衣** — `ClothingUniformJumpsuitCMO` ｜父类: ClothingUniformBase,BaseCommandContraband,ClothingUniformFoldableBase ｜描述: It's a jumpsuit worn by those with the experience to be Chief Medical Officer. It provides minor biological protection.
+- **医疗主管正式礼服** — `ClothingUniformJumpsuitCmoFormal` ｜父类: ClothingUniformBase,BaseCommandContraband ｜DeltaV ｜描述: A lavish greenish blue suit with golden buttons and a green cross pin, fitted for the head of medical.
+- **医疗主管夏威夷衫** — `ClothingUniformJumpsuitCmoSummer` ｜父类: ClothingUniformBase,BaseCommandContraband ｜DeltaV ｜描述: The cyan aloha shirt with a green floral design is perfect to catch the wind on a hot summer day, it almost makes you forget you have people to heal.
+- **医疗主管高领连体衣** — `ClothingUniformJumpsuitCMOTurtle` ｜父类: ClothingUniformBase,BaseCommandContraband ｜描述: It's a turtleneck worn by those with the experience to be Chief Medical Officer. It provides minor biological protection.
+- **医疗主管背心连体衣** — `ClothingUniformJumpsuitCmoVest` ｜父类: ClothingUniformBase,BaseCommandContraband ｜DeltaV ｜描述: A cozy teal cotton vest with a green cross pin paired with a white button-up.
+- **黑色连体衣** — `ClothingUniformJumpsuitColorBlack` ｜父类: ClothingUniformBase ｜描述: A generic black jumpsuit with no rank markings.
+- **蓝色连体衣** — `ClothingUniformJumpsuitColorBlue` ｜父类: ClothingUniformBase ｜描述: A generic blue jumpsuit with no rank markings.
+- **棕色连体衣** — `ClothingUniformJumpsuitColorBrown` ｜父类: ClothingUniformBase ｜描述: A generic brown jumpsuit with no rank markings.
+- **深蓝色连体衣** — `ClothingUniformJumpsuitColorDarkBlue` ｜父类: ClothingUniformBase ｜描述: A generic dark blue jumpsuit with no rank markings.
+- **深绿色连体衣** — `ClothingUniformJumpsuitColorDarkGreen` ｜父类: ClothingUniformBase ｜描述: A generic dark green jumpsuit with no rank markings.
+- **绿色连体衣** — `ClothingUniformJumpsuitColorGreen` ｜父类: ClothingUniformBase ｜描述: A generic green jumpsuit with no rank markings.
+- **灰色连体衣** — `ClothingUniformJumpsuitColorGrey` ｜父类: ClothingUniformBase ｜描述: A tasteful grey jumpsuit that reminds you of the good old days.
+- **浅棕色连体衣** — `ClothingUniformJumpsuitColorLightBrown` ｜父类: ClothingUniformBase ｜描述: A generic light brown jumpsuit with no rank markings.
+- **栗色连体衣** — `ClothingUniformJumpsuitColorMaroon` ｜父类: ClothingUniformBase ｜描述: A generic maroon jumpsuit with no rank markings.
+- **橙色连体衣** — `ClothingUniformJumpsuitColorOrange` ｜父类: ClothingUniformBase ｜描述: Don't wear this near paranoid security officers.
+- **粉色连体衣** — `ClothingUniformJumpsuitColorPink` ｜父类: ClothingUniformBase ｜描述: Just looking at this makes you feel <i>fabulous</i>.
+- **紫色连体衣** — `ClothingUniformJumpsuitColorPurple` ｜父类: ClothingUniformBase ｜描述: A generic light purple jumpsuit with no rank markings.
+- **红色连体衣** — `ClothingUniformJumpsuitColorRed` ｜父类: ClothingUniformBase ｜描述: A generic red jumpsuit with no rank markings.
+- **青绿色连体衣** — `ClothingUniformJumpsuitColorTeal` ｜父类: ClothingUniformBase ｜描述: A generic teal jumpsuit with no rank markings.
+- **白色连体衣** — `ClothingUniformJumpsuitColorWhite` ｜父类: ClothingUniformBase ｜描述: A generic white jumpsuit with no rank markings.
+- **黄色连体衣** — `ClothingUniformJumpsuitColorYellow` ｜父类: ClothingUniformBase ｜描述: A generic yellow jumpsuit with no rank markings.
+- **指挥部连体衣** — `ClothingUniformJumpsuitCommandGeneric` ｜父类: ClothingUniformBase,BaseCommandContraband ｜描述: A generic Command-colored jumpsuit not associated with any particular department.
+- **验尸官连体衣** — `ClothingUniformJumpsuitCoroner` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: Issued to qualified and trained professionals, this jumpsuit features the phrase "I don't just work with the dead, I dance with them on their final parade!" adding a unique touch of dark humor to the 
+- **手术服** — `ClothingUniformJumpsuitCoronerAlt` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: Guaranteed to protect your wardrobe from bloody details, but we can't make any promises. Ideal for medical professionals who need both protection and a touch of uncertainty.
+- **战地医护兵套装** — `ClothingUniformJumpsuitCorpsman` ｜父类: ClothingUniformBase,BaseSecurityContraband ｜_Starlight ｜描述: Die in style on the front lines!
+- **战地医护兵应急服** — `ClothingUniformJumpsuitCorpsmanResponse` ｜父类: ClothingUniformBase,BaseSecurityContraband ｜_Starlight ｜描述: If only I'd been faster.
+- **哥萨克服** — `ClothingUniformJumpsuitCossack` ｜父类: ClothingUniformBase ｜描述: The good old pants and brigantine.
+- **端庄西装** — `ClothingUniformJumpsuitCurator` ｜父类: ClothingUniformBase ｜描述: It's sensible. Too sensible...
+- **极道服** — `ClothingUniformJumpsuitDameDane` ｜父类: ClothingUniformBase ｜描述: Baka mitai...
+- **死亡小队制服** — `ClothingUniformJumpsuitDeathSquad` ｜父类: ClothingUniformBase ｜描述: Advanced armored jumpsuit used by special forces in special operations.
+- **旧硬派西装** — `ClothingUniformJumpsuitDetective` ｜父类: ClothingUniformBase ｜描述: Someone who wears this means business.
+- **黑色电影风西装** — `ClothingUniformJumpsuitDetectiveGrey` ｜父类: ClothingUniformBase ｜描述: A hard-boiled private investigator's grey suit, complete with tie clip.
+- **值班干员's制服** — `ClothingUniformJumpsuitDutyOfficer` ｜父类: ClothingUniformBase,BaseSecurityContraband ｜_Starlight ｜描述: A vibrant security suit for the warden's partner in chains.
+- **值班干员橙色制服** — `ClothingUniformJumpsuitDutyOfficerOrange` ｜父类: ClothingUniformBase,BaseSecurityContraband ｜DeltaV ｜描述: A bright security suit to distinguish yourself from the warden, while giving them an excuse to beat you saying you looked like a prisoner.
+- **精英蓝盾套装** — `ClothingUniformJumpsuitEliteBlueShield` ｜父类: ClothingUniformBase,BaseBlueShieldContraband ｜_Starlight ｜描述: The suit of an elite BSO. To reach such a level, you must have protected Command from [REDACTED].
+- **工程部连体衣** — `ClothingUniformJumpsuitEngineering` ｜父类: ClothingUniformBase,ClothingUniformFoldableBase ｜描述: If this suit was non-conductive, maybe engineers would actually do their damn job.
+- **工程警示连体衣** — `ClothingUniformJumpsuitEngineeringHazard` ｜父类: ClothingUniformBase,ClothingUniformFoldableBase ｜描述: Woven in a grungy, warm orange. Lets others around you know that you really mean business when it comes to work.
+- **应急响应队牧师制服** — `ClothingUniformJumpsuitERTChaplain` ｜父类: BaseCentcommContraband,ClothingUniformBase ｜描述: A special suit made for Central Command's elite Chaplain corps.
+- **应急响应队工程制服** — `ClothingUniformJumpsuitERTEngineer` ｜父类: BaseCentcommContraband,ClothingUniformBase ｜描述: A special suit made for the elite engineers under CentComm.
+- **应急响应队清洁制服** — `ClothingUniformJumpsuitERTJanitor` ｜父类: BaseCentcommContraband,ClothingUniformBase ｜描述: A special suit made for the elite janitors under CentComm.
+- **应急响应队队长制服** — `ClothingUniformJumpsuitERTLeader` ｜父类: BaseCentcommContraband,ClothingUniformBase ｜描述: A special suit made for the best of the elites under CentComm.
+- **应急响应队医疗制服** — `ClothingUniformJumpsuitERTMedic` ｜父类: BaseCentcommContraband,ClothingUniformBase ｜描述: A special suit made for the elite medics under CentComm.
+- **应急响应队安保制服** — `ClothingUniformJumpsuitERTSecurity` ｜父类: BaseCentcommContraband,ClothingUniformBase ｜描述: A special suit made for the elite security under CentComm.
+- **熟悉的行头** — `ClothingUniformJumpsuitFamilyGuy` ｜父类: ClothingUniformBase ｜描述: Makes you remember the time you did something funny.
+- **法兰绒连体衣** — `ClothingUniformJumpsuitFlannel` ｜父类: ClothingUniformBase ｜描述: Smells like someones been grillin'.
+- **蓝盾干员礼服** — `ClothingUniformJumpsuitFormalBlueShield` ｜父类: ClothingUniformBase,BaseBlueShieldContraband ｜_Starlight ｜描述: A textile jumpsuit, reinforced with thick leather in some areas.
+- **礼服狱医连体衣** — `ClothingUniformJumpsuitFormalBrigmedic` ｜父类: ClothingUniformBase,BaseSecurityContraband ｜_Starlight ｜描述: A formal suit for the brigmedic.
+- **副警长连体衣** — `ClothingUniformJumpsuitFormalDeputy` ｜父类: ClothingUniformBase,BaseSecurityContraband ｜_Starlight ｜描述: An attire for one who feels destined for the desert.
+- **礼服安保连体衣** — `ClothingUniformJumpsuitFormalSecoff` ｜父类: ClothingUniformBase,BaseSecurityContraband ｜_Starlight ｜描述: A formal attire for the security officer.
+- **礼服资深安保连体衣** — `ClothingUniformJumpsuitFormalSeniorSecoff` ｜父类: ClothingUniformBase,BaseSecurityContraband ｜_Starlight ｜描述: A formal attire for the senior security officer.
+- **典狱长礼服连体衣** — `ClothingUniformJumpsuitFormalWarden` ｜父类: ClothingUniformBase,BaseSecurityContraband ｜_Starlight ｜描述: A formal attire for the warden, missing a holster for the truncheon sadly.
+- **遗传学连体衣** — `ClothingUniformJumpsuitGenetics` ｜父类: ClothingUniformBase ｜描述: It's made of a special fiber that gives special protection against biohazards. It has a geneticist rank stripe on it.
+- **角斗士制服** — `ClothingUniformJumpsuitGladiator` ｜父类: ClothingUniformBase ｜描述: Made for true gladiators (or Ash Walkers).
+- **绿盾制服** — `ClothingUniformJumpsuitGreenshield` ｜父类: BaseCentcommContraband,ClothingUniformBase ｜_Starlight ｜描述: A special suit made for the best of the elites under CentComm.
+- **黑色夏威夷衫** — `ClothingUniformJumpsuitHawaiBlack` ｜父类: ClothingUniformBase ｜描述: Black as a starry night.
+- **蓝色夏威夷衫** — `ClothingUniformJumpsuitHawaiBlue` ｜父类: ClothingUniformBase ｜描述: Blue as a huge ocean.
+- **红色夏威夷衫** — `ClothingUniformJumpsuitHawaiRed` ｜父类: ClothingUniformBase ｜描述: Red as a juicy watermelons.
+- **黄色夏威夷衫** — `ClothingUniformJumpsuitHawaiYellow` ｜父类: ClothingUniformBase ｜描述: Yellow as a bright sun.
+- **人事主管连体衣** — `ClothingUniformJumpsuitHoP` ｜父类: ClothingUniformBase,BaseCommandContraband,ClothingUniformFoldableBase ｜描述: Rather bland and inoffensive. Perfect for vanishing off the face of the universe.
+- **人事主管正式礼服** — `ClothingUniformJumpsuitHopFormal` ｜父类: ClothingUniformBase,BaseCommandContraband ｜DeltaV ｜描述: A well-made suit with gold buttons and a red trim. Might as well look sharp when botany goes up in flames.
+- **人事主管高领衫** — `ClothingUniformJumpsuitHoPTurtleneck` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: It's Head of Personal's turtleneck.
+- **安保主管连体衣** — `ClothingUniformJumpsuitHoS` ｜父类: ClothingUniformBase,BaseCommandContraband ｜描述: It's bright red and rather crisp, much like security's victims tend to be.
+- **安保主管高领衫** — `ClothingUniformJumpsuitHoSAlt` ｜父类: ClothingUniformBase,BaseCommandContraband ｜描述: It's a turtleneck worn by those strong and disciplined enough to achieve the position of Head of Security.
+- **安保主管黑色西装** — `ClothingUniformJumpsuitHoSBlack` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: It's Head of Security's black suit.
+- **安保主管蓝色连体衣** — `ClothingUniformJumpsuitHoSBlue` ｜父类: ClothingUniformBase,BaseCommandContraband ｜描述: A blue jumpsuit of Head of Security.
+- **安保主管正装** — `ClothingUniformJumpsuitHosFormal` ｜父类: ClothingUniformBase,BaseCommandContraband ｜描述: A suit for special occasions.
+- **安保主管灰色连体衣** — `ClothingUniformJumpsuitHoSGrey` ｜父类: ClothingUniformBase,BaseCommandContraband ｜描述: A grey jumpsuit of Head of Security, which make him look somewhat like a assistant.
+- **安保主管阅兵制服** — `ClothingUniformJumpsuitHoSParadeMale` ｜父类: ClothingUniformBase,BaseCommandContraband ｜描述: A male head of security's luxury-wear, for special occasions.
+- **水培连体衣** — `ClothingUniformJumpsuitHydroponics` ｜父类: ClothingUniformBase,ClothingUniformFoldableBase ｜描述: Has a strong earthy smell to it. Hopefully it's merely dirty as opposed to soiled.
+- **酒保猴夹克** — `ClothingUniformJumpsuitJacketMonkey` ｜父类: ClothingUniformBase ｜描述: A decent jacket, for a decent monkey.
+- **清洁工连体衣** — `ClothingUniformJumpsuitJanitor` ｜父类: ClothingUniformBase,ClothingUniformFoldableBase ｜描述: The jumpsuit for the poor sop with a mop.
+- **弄臣服** — `ClothingUniformJumpsuitJester` ｜父类: ClothingUniformBase ｜描述: A jolly dress, well suited to entertain your master, nuncle.
 - **弄臣服** — `ClothingUniformJumpsuitJesterAlt` ｜父类: ClothingUniformJumpsuitJester
-- **新闻工作者制服** — `ClothingUniformJumpsuitJournalist` ｜父类: ClothingUniformBase
-- **苏格兰短裙** — `ClothingUniformJumpsuitKilt` ｜父类: ClothingUniformBase ｜DeltaV
-- **和服** — `ClothingUniformJumpsuitKimono` ｜父类: ClothingUniformBase
-- **无良律师's套装** — `ClothingUniformJumpsuitLawyerBad` ｜父类: ClothingUniformBase ｜_Starlight
-- **黑色律师西装** — `ClothingUniformJumpsuitLawyerBlack` ｜父类: ClothingUniformBase
-- **表演律师套装** — `ClothingUniformJumpsuitLawyerBlackTwo` ｜父类: ClothingUniformBase ｜_Starlight
-- **蓝色律师西装** — `ClothingUniformJumpsuitLawyerBlue` ｜父类: ClothingUniformBase
-- **“良心”律师西装** — `ClothingUniformJumpsuitLawyerGood` ｜父类: ClothingUniformBase
-- **灰色律师套装** — `ClothingUniformJumpsuitLawyerGray` ｜父类: ClothingUniformBase ｜_Starlight
-- **粉色律师套装** — `ClothingUniformJumpsuitLawyerPink` ｜父类: ClothingUniformBase ｜_Starlight
-- **紫色律师西装** — `ClothingUniformJumpsuitLawyerPurple` ｜父类: ClothingUniformBase
-- **红色律师西装** — `ClothingUniformJumpsuitLawyerRed` ｜父类: ClothingUniformBase
-- **绿色律师套装** — `ClothingUniformJumpsuitLawyerService` ｜父类: ClothingUniformBase ｜_Starlight
-- **图书管理员连体衣** — `ClothingUniformJumpsuitLibrarian` ｜父类: ClothingUniformBase
-- **小家伙背带裤** — `ClothingUniformJumpsuitLittleGuyOveralls` ｜父类: ClothingUniformBase ｜DeltaV
-- **居家服** — `ClothingUniformJumpsuitLoungewear` ｜父类: ClothingUniformBase
-- **邮件技师连体衣** — `ClothingUniformJumpsuitMail` ｜父类: ClothingUniformBase ｜_Starlight
-- **医师连体衣** — `ClothingUniformJumpsuitMedicalDoctor` ｜父类: ClothingUniformBase,ClothingUniformFoldableBase
-- **雇佣兵连体衣** — `ClothingUniformJumpsuitMercenary` ｜父类: ClothingUniformBase
-- **哑剧演员服** — `ClothingUniformJumpsuitMime` ｜父类: ClothingUniformBase
-- **潇洒哑剧演员服装with黑色pants** — `ClothingUniformJumpsuitMimeSuaveBlack` ｜父类: ClothingUniformBase ｜_Starlight
-- **潇洒哑剧演员服装with白色pants** — `ClothingUniformJumpsuitMimeSuaveWhite` ｜父类: ClothingUniformBase ｜_Starlight
-- **采矿专员's连体衣** — `ClothingUniformJumpsuitMiningSpecialist` ｜父类: ClothingUniformBase ｜_Starlight
-- **深色修道袍** — `ClothingUniformJumpsuitMonasticRobeDark` ｜父类: ClothingUniformBase
-- **浅色修道袍** — `ClothingUniformJumpsuitMonasticRobeLight` ｜父类: ClothingUniformBase
-- **乐手燕尾服** — `ClothingUniformJumpsuitMusician` ｜父类: ClothingUniformBase
-- **纳米传讯连体衣** — `ClothingUniformJumpsuitNanotrasen` ｜父类: ClothingUniformBase
-- **纳米传讯职业培训师制服** — `ClothingUniformJumpsuitNCT` ｜父类: ClothingUniformBase,BaseCommandContraband ｜_Starlight
-- **忍者连体衣** — `ClothingUniformJumpsuitNinja` ｜父类: UnsensoredClothingUniformBase
-- **NT代表套装** — `ClothingUniformJumpsuitNtrep` ｜父类: ClothingUniformBase,BaseCommandContraband ｜_Starlight
-- **NT代表礼服套装** — `ClothingUniformJumpsuitNtrepFormal` ｜父类: ClothingUniformBase,BaseCommandContraband ｜_Starlight
-- **NT代表's贵族式连体衣** — `ClothingUniformJumpsuitNtrepNoble` ｜父类: ClothingUniformBase,BaseCommandContraband ｜_Starlight
-- **NT代表's高领衫连体衣** — `ClothingUniformJumpsuitNtrepTurtleNeck` ｜父类: ClothingUniformBase,BaseCommandContraband ｜_Starlight
-- **生命套装** — `ClothingUniformJumpsuitOfLife` ｜父类: ClothingUniformBase,ClothingUniformFoldableBase ｜_Starlight
-- **特工连体衣** — `ClothingUniformJumpsuitOperative` ｜父类: UnsensoredClothingUniformBase,BaseSyndicateContraband
-- **急救员连体衣** — `ClothingUniformJumpsuitParamedic` ｜父类: ClothingUniformBase
-- **辛迪加急救员连体衣** — `ClothingUniformJumpsuitParamedicSyndie` ｜父类: ClothingUniformBase,BaseMinorContraband
-- **助理小丑连体衣** — `ClothingUniformJumpsuitPerformerClown` ｜父类: ClothingUniformBase ｜_Starlight
-- **哑剧演员apprentice连体衣** — `ClothingUniformJumpsuitPerformerMime` ｜父类: ClothingUniformBase ｜_Starlight
-- **伴奏乐手连体衣** — `ClothingUniformJumpsuitPerformerMusician` ｜父类: ClothingUniformBase ｜_Starlight
-- **海盗便装** — `ClothingUniformJumpsuitPirate` ｜父类: ClothingUniformBase
-- **囚犯连体衣** — `ClothingUniformJumpsuitPrisoner` ｜父类: ClothingUniformBase
-- **心理医生西装** — `ClothingUniformJumpsuitPsychologist` ｜父类: ClothingUniformBase
-- **黑色辛迪加睡衣** — `ClothingUniformJumpsuitPyjamaSyndicateBlack` ｜父类: UnsensoredClothingUniformBase,BaseMinorContraband
-- **粉色辛迪加睡衣** — `ClothingUniformJumpsuitPyjamaSyndicatePink` ｜父类: UnsensoredClothingUniformBase,BaseMinorContraband
-- **红色辛迪加睡衣** — `ClothingUniformJumpsuitPyjamaSyndicateRed` ｜父类: UnsensoredClothingUniformBase,BaseMinorContraband
-- **军需官连体衣** — `ClothingUniformJumpsuitQM` ｜父类: ClothingUniformBase,BaseCommandContraband
-- **军需官正装** — `ClothingUniformJumpsuitQMFormal` ｜父类: ClothingUniformBase,BaseCommandContraband
-- **军需官高领衫** — `ClothingUniformJumpsuitQMTurtleneck` ｜父类: ClothingUniformBase,BaseCommandContraband
-- **研究主管古典西装** — `ClothingUniformJumpsuitRDClassical` ｜父类: ClothingUniformBase ｜_Starlight
-- **新兵连体衣** — `ClothingUniformJumpsuitRecruitNT` ｜父类: ClothingUniformBase
-- **辛迪加新兵连体衣** — `ClothingUniformJumpsuitRecruitSyndie` ｜父类: ClothingUniformBase,BaseMinorContraband
-- **维修工连体衣** — `ClothingUniformJumpsuitRepairmanNT` ｜父类: ClothingUniformBase
-- **辛迪加维修工连体衣** — `ClothingUniformJumpsuitRepairmanSyndie` ｜父类: ClothingUniformBase,BaseMinorContraband
-- **记者制服** — `ClothingUniformJumpsuitReporter` ｜父类: ClothingUniformBase
-- **研究主管高领衫** — `ClothingUniformJumpsuitResearchDirector` ｜父类: ClothingUniformBase,BaseCommandContraband
-- **TSF 执法官制服** — `ClothingUniformJumpsuitRetroOfficer` ｜父类: ClothingUniformBase,BaseTSFContraband ｜_Starlight
-- **空间站冒险家连体衣** — `ClothingUniformJumpsuitRisk` ｜父类: ClothingUniformBase ｜_Starlight
-- **机器人专家连体衣** — `ClothingUniformJumpsuitRoboticist` ｜父类: ClothingUniformBase,ClothingUniformFoldableBase
-- **探险服** — `ClothingUniformJumpsuitSafari` ｜父类: ClothingUniformBase
-- **礼服打捞连体衣** — `ClothingUniformJumpsuitSalvageFormal` ｜父类: ClothingUniformBase ｜_Starlight
-- **打捞领队's连体衣** — `ClothingUniformJumpsuitSalvageLead` ｜父类: ClothingUniformBase ｜_Starlight
-- **棕色拾荒者连体衣** — `ClothingUniformJumpsuitSalvageMercBrown` ｜父类: ClothingUniformBase,BaseSalvageContraband ｜_Starlight
-- **绿色拾荒者连体衣** — `ClothingUniformJumpsuitSalvageMercGreen` ｜父类: ClothingUniformBase,BaseSalvageContraband ｜_Starlight
-- **白色拾荒者连体衣** — `ClothingUniformJumpsuitSalvageMercWhite` ｜父类: ClothingUniformBase,BaseSalvageContraband ｜_Starlight
-- **打捞专员连体衣** — `ClothingUniformJumpsuitSalvageSpecialist` ｜父类: ClothingUniformBase,ClothingUniformFoldableBase
-- **科学家连体衣** — `ClothingUniformJumpsuitScientist` ｜父类: ClothingUniformBase,ClothingUniformFoldableBase
-- **科学家正装连体衣** — `ClothingUniformJumpsuitScientistFormal` ｜父类: ClothingUniformBase
-- **安保部连体衣** — `ClothingUniformJumpsuitSec` ｜父类: ClothingUniformBase,BaseSecurityContraband,ClothingUniformFoldableBase
-- **蓝衬衫配领带** — `ClothingUniformJumpsuitSecBlue` ｜父类: ClothingUniformBase
-- **灰色安保连体衣** — `ClothingUniformJumpsuitSecGrey` ｜父类: ClothingUniformBase,BaseSecurityContraband
-- **资深礼服狱医连体衣** — `ClothingUniformJumpsuitSeniorBrigmedic` ｜父类: ClothingUniformBase,BaseSecurityContraband ｜_Starlight
-- **资深药剂师连体衣** — `ClothingUniformJumpsuitSeniorChemist` ｜父类: ClothingUniformBase,ClothingUniformFoldableBase ｜_Starlight
-- **高级工程师连体衣** — `ClothingUniformJumpsuitSeniorEngineer` ｜父类: ClothingUniformBase
-- **资深邮件技师连体衣** — `ClothingUniformJumpsuitSeniorMail` ｜父类: ClothingUniformBase ｜_Starlight
-- **高级安保干员连体衣** — `ClothingUniformJumpsuitSeniorOfficer` ｜父类: ClothingUniformBase,BaseSecurityContraband
-- **高级急救员连体衣** — `ClothingUniformJumpsuitSeniorParamedic` ｜父类: ClothingUniformBase ｜_Starlight
-- **高级医师连体衣** — `ClothingUniformJumpsuitSeniorPhysician` ｜父类: ClothingUniformBase
-- **高级研究员连体衣** — `ClothingUniformJumpsuitSeniorResearcher` ｜父类: ClothingUniformBase
-- **侍者连体衣** — `ClothingUniformJumpsuitServiceWorkerBartender` ｜父类: ClothingUniformBase,ClothingUniformFoldableBase ｜_Starlight
-- **园丁连体衣** — `ClothingUniformJumpsuitServiceWorkerBotany` ｜父类: ClothingUniformBase,ClothingUniformFoldableBase ｜_Starlight
-- **副厨师连体衣** — `ClothingUniformJumpsuitServiceWorkerChef` ｜父类: ClothingUniformBase ｜_Starlight
-- **旧式战争制服** — `ClothingUniformJumpsuitSoviet` ｜父类: UnsensoredClothingUniformBase,BaseSovietContraband ｜_Starlight
-- **苏维埃海军上将连体衣** — `ClothingUniformJumpsuitSovietAdmiral` ｜父类: UnsensoredClothingUniformBase,BaseSovietContraband ｜_Starlight
-- **SSF 海军陆战队作战服** — `ClothingUniformJumpsuitSovietFatigues` ｜父类: UnsensoredClothingUniformBase,BaseSovietContraband ｜_Starlight
-- **太空信使内衣** — `ClothingUniformJumpsuitSpaceCourier` ｜父类: ClothingUniformBase ｜_Starlight
-- **危险制服** — `ClothingUniformJumpsuitSquidDangerous` ｜父类: ClothingUniformBase ｜_Starlight
-- **这些游戏制服** — `ClothingUniformJumpsuitSquidTheseGames` ｜父类: ClothingUniformBase ｜_Starlight
-- **晚礼格纹套装** — `ClothingUniformJumpsuitSuitCheckered` ｜父类: ClothingUniformSkirtBase ｜_Starlight
-- **晚礼米色套装** — `ClothingUniformJumpsuitSuitTan` ｜父类: ClothingUniformSkirtBase ｜_Starlight
-- **侍者's套装** — `ClothingUniformJumpsuitSuitWaiter` ｜父类: ClothingUniformSkirtBase ｜_Starlight
-- **超级明星警探制服** — `ClothingUniformJumpsuitSuperstarCop` ｜父类: ClothingUniformBase ｜_Starlight
-- **辛迪加正装** — `ClothingUniformJumpsuitSyndieFormal` ｜父类: ClothingUniformBase,BaseMinorContraband
-- **战术潮人连体衣** — `ClothingUniformJumpsuitTacticool` ｜父类: ClothingUniformBase
-- **黑色运动服** — `ClothingUniformJumpsuitTrackSuit` ｜父类: ClothingUniformBase ｜_Starlight
-- **蜥蜴人传统服饰** — `ClothingUniformJumpsuitTraditionalReptilian` ｜父类: ClothingUniformBase ｜_Starlight
-- **TSF 海军陆战队制服** — `ClothingUniformJumpsuitTSF` ｜父类: ClothingUniformBase,BaseTSFContraband ｜_Starlight
-- **MARSOC 制服** — `ClothingUniformJumpsuitTSFElite` ｜父类: ClothingUniformBase,BaseTSFContraband ｜_Starlight
-- **TSF 代表制服** — `ClothingUniformJumpsuitTSFRep` ｜父类: ClothingUniformBase,BaseTSFContraband ｜_Starlight
-- **染血贵族西装** — `ClothingUniformJumpsuitVampir` ｜父类: ClothingUniformBase ｜_Starlight
-- **病毒学连体衣** — `ClothingUniformJumpsuitVirology` ｜父类: ClothingUniformBase
-- **典狱长制服** — `ClothingUniformJumpsuitWarden` ｜父类: ClothingUniformBase,BaseSecurityContraband
-- **蛛网连体衣** — `ClothingUniformJumpsuitWeb` ｜父类: ClothingUniformBase
-- **华丽摔角紧身衣** — `ClothingUniformJumpsuitWrestlerBlue` ｜父类: ClothingUniformBase ｜DeltaV
-- **朴素摔角紧身衣** — `ClothingUniformJumpsuitWrestlerGreen` ｜父类: ClothingUniformBase ｜DeltaV
-- **豪迈摔角短裤** — `ClothingUniformJumpsuitWrestlerRed` ｜父类: ClothingUniformBase ｜DeltaV
-- **条纹摔角紧身衣** — `ClothingUniformJumpsuitWrestlerYellow` ｜父类: ClothingUniformBase ｜DeltaV
-- **工装背带裤** — `ClothingUniformOveralls` ｜父类: ClothingUniformBase
-- **甜点连衣裙** — `ClothingUniformPastryDress` ｜父类: ClothingUniformBase ｜_Starlight
-- `模板` **ClothingUniformRandom** — `ClothingUniformRandom` ｜父类: ClothingUniformBase
+- **新闻工作者制服** — `ClothingUniformJumpsuitJournalist` ｜父类: ClothingUniformBase ｜描述: If journalism is good, it is controversial, by nature.
+- **苏格兰短裙** — `ClothingUniformJumpsuitKilt` ｜父类: ClothingUniformBase ｜DeltaV ｜描述: A fine bit o' garb for the lad an' lasses.
+- **和服** — `ClothingUniformJumpsuitKimono` ｜父类: ClothingUniformBase ｜描述: Traditional chinese clothing.
+- **无良律师's套装** — `ClothingUniformJumpsuitLawyerBad` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A bold suit. Perfect for finding your one way, going wherever you want to go.
+- **黑色律师西装** — `ClothingUniformJumpsuitLawyerBlack` ｜父类: ClothingUniformBase ｜描述: A subtle black suit worn by lawyers and gangsters.
+- **表演律师套装** — `ClothingUniformJumpsuitLawyerBlackTwo` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A stylish black piece worn by lawyers and show people.
+- **蓝色律师西装** — `ClothingUniformJumpsuitLawyerBlue` ｜父类: ClothingUniformBase ｜描述: A flashy blue suit worn by lawyers and show-offs.
+- **“良心”律师西装** — `ClothingUniformJumpsuitLawyerGood` ｜父类: ClothingUniformBase ｜描述: A tacky suit perfect for a CRIMINAL lawyer!
+- **灰色律师套装** — `ClothingUniformJumpsuitLawyerGray` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A plain gray suit worn by lawyers and show-offs.
+- **粉色律师套装** — `ClothingUniformJumpsuitLawyerPink` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A bright pink suit worn by lawyers that you should call.
+- **紫色律师西装** — `ClothingUniformJumpsuitLawyerPurple` ｜父类: ClothingUniformBase ｜描述: A stylish purple piece worn by lawyers and show people.
+- **红色律师西装** — `ClothingUniformJumpsuitLawyerRed` ｜父类: ClothingUniformBase ｜描述: A flashy red suit worn by lawyers and show-offs.
+- **绿色律师套装** — `ClothingUniformJumpsuitLawyerService` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A flashy green suit worn by lawyers and show-offs.
+- **图书管理员连体衣** — `ClothingUniformJumpsuitLibrarian` ｜父类: ClothingUniformBase ｜描述: A cosy green jumper fit for a curator of books.
+- **小家伙背带裤** — `ClothingUniformJumpsuitLittleGuyOveralls` ｜父类: ClothingUniformBase ｜DeltaV ｜描述: I'm just a little guy!
+- **居家服** — `ClothingUniformJumpsuitLoungewear` ｜父类: ClothingUniformBase ｜描述: A long stretch of fabric that wraps around your body for comfort.
+- **邮件技师连体衣** — `ClothingUniformJumpsuitMail` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A stylish cargo yellow and mail bag-blue uniform custom made for mail technicians.
+- **医师连体衣** — `ClothingUniformJumpsuitMedicalDoctor` ｜父类: ClothingUniformBase,ClothingUniformFoldableBase ｜描述: It's made of a special fiber that provides minor protection against biohazards. It has a cross on the chest denoting that the wearer is trained medical personnel.
+- **雇佣兵连体衣** — `ClothingUniformJumpsuitMercenary` ｜父类: ClothingUniformBase ｜描述: Clothing for real mercenaries who have gone through fire, water and the jungle of planets flooded with dangerous monsters or targets for which a reward has been assigned.
+- **哑剧演员服** — `ClothingUniformJumpsuitMime` ｜父类: ClothingUniformBase ｜描述: ...
+- **潇洒哑剧演员服装with黑色pants** — `ClothingUniformJumpsuitMimeSuaveBlack` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A suave mime costume with black pants combines playful charm and allure. The outfit typically features a fitted top, suspenders, and white trousers, with bold black-and-white details. It's perfect for
+- **潇洒哑剧演员服装with白色pants** — `ClothingUniformJumpsuitMimeSuaveWhite` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A suave mime costume with white pants combines playful charm and allure. The outfit typically features a fitted top, suspenders, and white trousers, with bold black-and-white details. It's perfect for
+- **采矿专员's连体衣** — `ClothingUniformJumpsuitMiningSpecialist` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A suit passed down through many generations. A fine layer of dust trails behind it.
+- **深色修道袍** — `ClothingUniformJumpsuitMonasticRobeDark` ｜父类: ClothingUniformBase ｜描述: It's a dark robe, often worn by religious folk.
+- **浅色修道袍** — `ClothingUniformJumpsuitMonasticRobeLight` ｜父类: ClothingUniformBase ｜描述: It's a light robe, often worn by religious folk.
+- **乐手燕尾服** — `ClothingUniformJumpsuitMusician` ｜父类: ClothingUniformBase ｜描述: A fancy tuxedo for the musically inclined.  Perfect for any lounge act!
+- **纳米传讯连体衣** — `ClothingUniformJumpsuitNanotrasen` ｜父类: ClothingUniformBase ｜描述: A stately blue jumpsuit to represent NanoTrasen.
+- **纳米传讯职业培训师制服** — `ClothingUniformJumpsuitNCT` ｜父类: ClothingUniformBase,BaseCommandContraband ｜_Starlight ｜描述: A neatly pressed olive green shirt paired with black jeans, worn by those dedicated to shaping the future of the workforce.
+- **忍者连体衣** — `ClothingUniformJumpsuitNinja` ｜父类: UnsensoredClothingUniformBase ｜描述: Comfortable ninja suit, for convenience when relaxing and when you need to practice.
+- **NT代表套装** — `ClothingUniformJumpsuitNtrep` ｜父类: ClothingUniformBase,BaseCommandContraband ｜_Starlight ｜描述: That suit that is better not to see.
+- **NT代表礼服套装** — `ClothingUniformJumpsuitNtrepFormal` ｜父类: ClothingUniformBase,BaseCommandContraband ｜_Starlight ｜描述: That suit that is better not to see.
+- **NT代表's贵族式连体衣** — `ClothingUniformJumpsuitNtrepNoble` ｜父类: ClothingUniformBase,BaseCommandContraband ｜_Starlight ｜描述: A more classical and elegant style of clothing, designed to emulate the fashion of old earth nobility.
+- **NT代表's高领衫连体衣** — `ClothingUniformJumpsuitNtrepTurtleNeck` ｜父类: ClothingUniformBase,BaseCommandContraband ｜_Starlight ｜描述: For a more casual look while on the job.
+- **生命套装** — `ClothingUniformJumpsuitOfLife` ｜父类: ClothingUniformBase,ClothingUniformFoldableBase ｜_Starlight ｜描述: A suit that symbolizes the joy and positivity of our life.
+- **特工连体衣** — `ClothingUniformJumpsuitOperative` ｜父类: UnsensoredClothingUniformBase,BaseSyndicateContraband ｜描述: Uniform for elite syndicate operatives performing tactical operations in deep space.
+- **急救员连体衣** — `ClothingUniformJumpsuitParamedic` ｜父类: ClothingUniformBase ｜描述: It's got a plus on it, that's a good thing right?
+- **辛迪加急救员连体衣** — `ClothingUniformJumpsuitParamedicSyndie` ｜父类: ClothingUniformBase,BaseMinorContraband ｜描述: For some reason, wearing this makes you feel like you're awfully close to violating the Geneva Convention.
+- **助理小丑连体衣** — `ClothingUniformJumpsuitPerformerClown` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: Yet to be worthy of honking.
+- **哑剧演员apprentice连体衣** — `ClothingUniformJumpsuitPerformerMime` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: Still have to learn how to be quiet...
+- **伴奏乐手连体衣** — `ClothingUniformJumpsuitPerformerMusician` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A formal suit with a luxurious pair of pants. It's time to act!
+- **海盗便装** — `ClothingUniformJumpsuitPirate` ｜父类: ClothingUniformBase ｜描述: A pirate variation of a space sailor's jumpsuit.
+- **囚犯连体衣** — `ClothingUniformJumpsuitPrisoner` ｜父类: ClothingUniformBase ｜描述: A jumpsuit used for prisoners. It has suit sensors automatically enabled at all times.
+- **心理医生西装** — `ClothingUniformJumpsuitPsychologist` ｜父类: ClothingUniformBase ｜描述: I don't lose things. I place things in locations which later elude me.
+- **黑色辛迪加睡衣** — `ClothingUniformJumpsuitPyjamaSyndicateBlack` ｜父类: UnsensoredClothingUniformBase,BaseMinorContraband ｜描述: For those long nights in perma.
+- **粉色辛迪加睡衣** — `ClothingUniformJumpsuitPyjamaSyndicatePink` ｜父类: UnsensoredClothingUniformBase,BaseMinorContraband ｜描述: For those long nights in perma.
+- **红色辛迪加睡衣** — `ClothingUniformJumpsuitPyjamaSyndicateRed` ｜父类: UnsensoredClothingUniformBase,BaseMinorContraband ｜描述: For those long nights in perma.
+- **军需官连体衣** — `ClothingUniformJumpsuitQM` ｜父类: ClothingUniformBase,BaseCommandContraband ｜描述: What can brown do for you?
+- **军需官正装** — `ClothingUniformJumpsuitQMFormal` ｜父类: ClothingUniformBase,BaseCommandContraband ｜描述: Inspired by the quartermasters of military's past, the perfect outfit for supplying a formal occasion.
+- **军需官高领衫** — `ClothingUniformJumpsuitQMTurtleneck` ｜父类: ClothingUniformBase,BaseCommandContraband ｜描述: A sharp turtleneck made for the hardy work environment of supply.
+- **研究主管古典西装** — `ClothingUniformJumpsuitRDClassical` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: It's Research Director's сlassical suit.
+- **新兵连体衣** — `ClothingUniformJumpsuitRecruitNT` ｜父类: ClothingUniformBase ｜描述: A classy grey jumpsuit with blue trims. Perfect for the dignified helper.
+- **辛迪加新兵连体衣** — `ClothingUniformJumpsuitRecruitSyndie` ｜父类: ClothingUniformBase,BaseMinorContraband ｜描述: A dubious, dark-grey jumpsuit. As if assistants weren't dubious enough already.
+- **维修工连体衣** — `ClothingUniformJumpsuitRepairmanNT` ｜父类: ClothingUniformBase ｜描述: A jumpsuit that reminds you of a certain crew-sector work position. Hopefully, you won't have to do the same job as THOSE freaks.
+- **辛迪加维修工连体衣** — `ClothingUniformJumpsuitRepairmanSyndie` ｜父类: ClothingUniformBase,BaseMinorContraband ｜描述: Functional, fashionable, and badass. NanoTrasen's engineers wish they could look as good as this.
+- **记者制服** — `ClothingUniformJumpsuitReporter` ｜父类: ClothingUniformBase ｜描述: A good reporter remains a skeptic all their life.
+- **研究主管高领衫** — `ClothingUniformJumpsuitResearchDirector` ｜父类: ClothingUniformBase,BaseCommandContraband ｜描述: It's a turtleneck worn by those with the know-how to achieve the position of Research Director. Its fabric provides minor protection from biological contaminants.
+- **TSF 执法官制服** — `ClothingUniformJumpsuitRetroOfficer` ｜父类: ClothingUniformBase,BaseTSFContraband ｜_Starlight ｜描述: A standard uniform from the Trans Solar Federation's law enforcement division. This classic peacekeeping attire represents TSF authority across the galaxy.
+- **空间站冒险家连体衣** — `ClothingUniformJumpsuitRisk` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A jumpsuit with red lines along the sides.
+- **机器人专家连体衣** — `ClothingUniformJumpsuitRoboticist` ｜父类: ClothingUniformBase,ClothingUniformFoldableBase ｜描述: It's a slimming black with reinforced seams; great for industrial work.
+- **探险服** — `ClothingUniformJumpsuitSafari` ｜父类: ClothingUniformBase ｜描述: Perfect for a jungle excursion.
+- **礼服打捞连体衣** — `ClothingUniformJumpsuitSalvageFormal` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A practical and durable outfit designed for waste management and reclamation tasks, combining functionality with a professional look. Perfect for those in the field, ensuring comfort, efficiency, and 
+- **打捞领队's连体衣** — `ClothingUniformJumpsuitSalvageLead` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: It's a snappy jumpsuit with a sturdy set of overalls. It's very dirty.
+- **棕色拾荒者连体衣** — `ClothingUniformJumpsuitSalvageMercBrown` ｜父类: ClothingUniformBase,BaseSalvageContraband ｜_Starlight ｜描述: Utilitarian clothing for salvagers.
+- **绿色拾荒者连体衣** — `ClothingUniformJumpsuitSalvageMercGreen` ｜父类: ClothingUniformBase,BaseSalvageContraband ｜_Starlight ｜描述: Utilitarian clothing for salvagers.
+- **白色拾荒者连体衣** — `ClothingUniformJumpsuitSalvageMercWhite` ｜父类: ClothingUniformBase,BaseSalvageContraband ｜_Starlight ｜描述: Utilitarian clothing for salvagers.
+- **打捞专员连体衣** — `ClothingUniformJumpsuitSalvageSpecialist` ｜父类: ClothingUniformBase,ClothingUniformFoldableBase ｜描述: It's a snappy jumpsuit with a sturdy set of overalls. It's very dirty.
+- **科学家连体衣** — `ClothingUniformJumpsuitScientist` ｜父类: ClothingUniformBase,ClothingUniformFoldableBase ｜描述: It's made of a special fiber that increases perceived intelligence and decreases personal ethics. It has markings that denote the wearer as a scientist.
+- **科学家正装连体衣** — `ClothingUniformJumpsuitScientistFormal` ｜父类: ClothingUniformBase ｜描述: A uniform for sophisticated scientists, best worn with its matching tie.
+- **安保部连体衣** — `ClothingUniformJumpsuitSec` ｜父类: ClothingUniformBase,BaseSecurityContraband,ClothingUniformFoldableBase ｜描述: A jumpsuit made of strong material, providing robust protection.
+- **蓝衬衫配领带** — `ClothingUniformJumpsuitSecBlue` ｜父类: ClothingUniformBase ｜描述: I'm a little busy right now, Calhoun.
+- **灰色安保连体衣** — `ClothingUniformJumpsuitSecGrey` ｜父类: ClothingUniformBase,BaseSecurityContraband ｜描述: A tactical relic of years past before NanoTrasen decided it was cheaper to dye the suits red instead of washing out the blood.
+- **资深礼服狱医连体衣** — `ClothingUniformJumpsuitSeniorBrigmedic` ｜父类: ClothingUniformBase,BaseSecurityContraband ｜_Starlight ｜描述: A formal suit for the seasoned brigmedic.
+- **资深药剂师连体衣** — `ClothingUniformJumpsuitSeniorChemist` ｜父类: ClothingUniformBase,ClothingUniformFoldableBase ｜_Starlight ｜描述: A sign of skill, prestige, and alchemical prowess.
+- **高级工程师连体衣** — `ClothingUniformJumpsuitSeniorEngineer` ｜父类: ClothingUniformBase ｜描述: A sign of skill and prestige within the engineering department.
+- **资深邮件技师连体衣** — `ClothingUniformJumpsuitSeniorMail` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A more vibrant mail technician outfit made in the color of cargo's formal uniforms. Perfect for deliver the mail in style, and looking good while doing it.
+- **高级安保干员连体衣** — `ClothingUniformJumpsuitSeniorOfficer` ｜父类: ClothingUniformBase,BaseSecurityContraband ｜描述: A sign of skill and prestige within the security department.
+- **高级急救员连体衣** — `ClothingUniformJumpsuitSeniorParamedic` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: These epaulettes mark a paramedic that has walked through fire and void to save those in need
+- **高级医师连体衣** — `ClothingUniformJumpsuitSeniorPhysician` ｜父类: ClothingUniformBase ｜描述: A sign of skill and prestige within the medical department.
+- **高级研究员连体衣** — `ClothingUniformJumpsuitSeniorResearcher` ｜父类: ClothingUniformBase ｜描述: A sign of skill and prestige within the science department.
+- **侍者连体衣** — `ClothingUniformJumpsuitServiceWorkerBartender` ｜父类: ClothingUniformBase,ClothingUniformFoldableBase ｜_Starlight ｜描述: A sharp and tidy uniform for the bartender's footsoldiers.
+- **园丁连体衣** — `ClothingUniformJumpsuitServiceWorkerBotany` ｜父类: ClothingUniformBase,ClothingUniformFoldableBase ｜_Starlight ｜描述: Has a light earthy smell to it. Has to be routinely bleached.
+- **副厨师连体衣** — `ClothingUniformJumpsuitServiceWorkerChef` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: The noble jumpsuit of the chef's co-conspirator.
+- **旧式战争制服** — `ClothingUniformJumpsuitSoviet` ｜父类: UnsensoredClothingUniformBase,BaseSovietContraband ｜_Starlight ｜描述: Relics of war, many of which have laid the foundation of the USSP. Wearing this may cause unsolicited war stories.
+- **苏维埃海军上将连体衣** — `ClothingUniformJumpsuitSovietAdmiral` ｜父类: UnsensoredClothingUniformBase,BaseSovietContraband ｜_Starlight ｜描述: They are one phone call away from ruining your life.
+- **SSF 海军陆战队作战服** — `ClothingUniformJumpsuitSovietFatigues` ｜父类: UnsensoredClothingUniformBase,BaseSovietContraband ｜_Starlight ｜描述: Not one step back.
+- **太空信使内衣** — `ClothingUniformJumpsuitSpaceCourier` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: Luxurious underclothes, styled after a legendary space courier. Fly, my space courier!
+- **危险制服** — `ClothingUniformJumpsuitSquidDangerous` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: Please, no, i will give yo-POW POW POW!
+- **这些游戏制服** — `ClothingUniformJumpsuitSquidTheseGames` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: I PLAYED THESE GAMES B4!!! I said i play-GET OUT!
+- **晚礼格纹套装** — `ClothingUniformJumpsuitSuitCheckered` ｜父类: ClothingUniformSkirtBase ｜_Starlight ｜描述: This plaid suit blends formality and style. The expertly tailored blazer and straight trousers create a modern silhouette, while the plaid pattern adds a fashionable touch. Perfect for office meetings
+- **晚礼米色套装** — `ClothingUniformJumpsuitSuitTan` ｜父类: ClothingUniformSkirtBase ｜_Starlight ｜描述: This chocolate-colored evening suit embodies luxury and elegance. The fitted blazer and flared trousers create a refined silhouette, while the rich chocolate hue adds warmth and sophistication. Perfec
+- **侍者's套装** — `ClothingUniformJumpsuitSuitWaiter` ｜父类: ClothingUniformSkirtBase ｜_Starlight ｜描述: This waiter uniform combines style and comfort. The collared blouse and cuffed trousers create a formal yet relaxed look. Additional details like the apron and bowtie add a playful touch, completing t
+- **超级明星警探制服** — `ClothingUniformJumpsuitSuperstarCop` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: Flare cut trousers and a dirty shirt that might have been classy before someone took a piss in the armpits. It's the dress of a superstar.
+- **辛迪加正装** — `ClothingUniformJumpsuitSyndieFormal` ｜父类: ClothingUniformBase,BaseMinorContraband ｜描述: The syndicate's uniform is made in an elegant style, it's even a pity to do dirty tricks in this.
+- **战术潮人连体衣** — `ClothingUniformJumpsuitTacticool` ｜父类: ClothingUniformBase ｜描述: Uniform for subpar operative LARPers performing tactical insulated glove theft in deep space.
+- **黑色运动服** — `ClothingUniformJumpsuitTrackSuit` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: Tider? Nyet, gopnik.
+- **蜥蜴人传统服饰** — `ClothingUniformJumpsuitTraditionalReptilian` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: Traditional garments crafted from cloth, worn by the reptilians. This does not stop you from wearing it, if you want.
+- **TSF 海军陆战队制服** — `ClothingUniformJumpsuitTSF` ｜父类: ClothingUniformBase,BaseTSFContraband ｜_Starlight ｜描述: A comfortable and durable combat uniform worn by the forces of the Trans-Solar Marine Corps.
+- **MARSOC 制服** — `ClothingUniformJumpsuitTSFElite` ｜父类: ClothingUniformBase,BaseTSFContraband ｜_Starlight ｜描述: A comfortable and durable combat uniform worn by marines of the Trans-Solar Federation's Marine Special Operations Command.
+- **TSF 代表制服** — `ClothingUniformJumpsuitTSFRep` ｜父类: ClothingUniformBase,BaseTSFContraband ｜_Starlight ｜描述: A formal uniform worn by the diplomatic representatives of the Trans-Solar Federation.
+- **染血贵族西装** — `ClothingUniformJumpsuitVampir` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: An aristocratic suit reeking of blood and lost dreams.
+- **病毒学连体衣** — `ClothingUniformJumpsuitVirology` ｜父类: ClothingUniformBase ｜描述: It's made of a special fiber that gives special protection against biohazards. It has a virologist rank stripe on it.
+- **典狱长制服** — `ClothingUniformJumpsuitWarden` ｜父类: ClothingUniformBase,BaseSecurityContraband ｜描述: A formal security suit for officers complete with NanoTrasen belt buckle.
+- **蛛网连体衣** — `ClothingUniformJumpsuitWeb` ｜父类: ClothingUniformBase ｜描述: Makes it clear that you are one with the webs.
+- **华丽摔角紧身衣** — `ClothingUniformJumpsuitWrestlerBlue` ｜父类: ClothingUniformBase ｜DeltaV ｜描述: Power, Technique, and Beauty! Master the basics!
+- **朴素摔角紧身衣** — `ClothingUniformJumpsuitWrestlerGreen` ｜父类: ClothingUniformBase ｜DeltaV ｜描述: When you wanta show off your muscles, but don't wanta show off too much skin.
+- **豪迈摔角短裤** — `ClothingUniformJumpsuitWrestlerRed` ｜父类: ClothingUniformBase ｜DeltaV ｜描述: OOHHH YEAH, SNAP INTO A SUS JERKY, BROTHER!
+- **条纹摔角紧身衣** — `ClothingUniformJumpsuitWrestlerYellow` ｜父类: ClothingUniformBase ｜DeltaV ｜描述: Punching tiger, hidden dragon.
+- **工装背带裤** — `ClothingUniformOveralls` ｜父类: ClothingUniformBase ｜描述: Great for working outdoors.
+- **甜点连衣裙** — `ClothingUniformPastryDress` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A delicate pastry dress made from light, comfortable fabric with an elegant cut.
+- `模板` **ClothingUniformRandom** — `ClothingUniformRandom` ｜父类: ClothingUniformBase ｜描述: Generated by neural networks based on the latest fashion trends.
 - **彩色无袖服装** — `ClothingUniformRandomArmless` ｜父类: ClothingUniformRandom
 - **彩色胸衣** — `ClothingUniformRandomBra` ｜父类: ClothingUniformRandom
 - **彩色服装** — `ClothingUniformRandomShirt` ｜父类: ClothingUniformRandom
 - **彩色长裤** — `ClothingUniformRandomShorts` ｜父类: ClothingUniformRandom
 - **彩色服装** — `ClothingUniformRandomStandard` ｜父类: ClothingUniformRandom
-- **纳米传讯骑警制服** — `ClothingUniformSecurityTrooper` ｜父类: ClothingUniformBase,BaseSecurityContraband
-- **安保 T 恤制服** — `ClothingUniformSecurityTshirt` ｜父类: ClothingUniformBase,BaseSecurityContraband ｜_Starlight
-- **染血贵族斗篷** — `ClothingUniformShinelVampir` ｜父类: ClothingNeckBase ｜_Starlight
+- **纳米传讯骑警制服** — `ClothingUniformSecurityTrooper` ｜父类: ClothingUniformBase,BaseSecurityContraband ｜描述: A formal uniform issued to the NanoTrasen Troopers, usually it comes with a car.
+- **安保 T 恤制服** — `ClothingUniformSecurityTshirt` ｜父类: ClothingUniformBase,BaseSecurityContraband ｜_Starlight ｜描述: Light and unrestrictive uniform, so that nothing can stop you from swinging a stunbaton.
+- **染血贵族斗篷** — `ClothingUniformShinelVampir` ｜父类: ClothingNeckBase ｜_Starlight ｜描述: A dark leather greatcoat soaked in blood.
 - `模板` **ClothingUniformSkirtBase** — `ClothingUniformSkirtBase` ｜父类: ClothingUniformBase
-- **永恒裙装** — `ClothingUniformTimelessSkirt` ｜父类: ClothingUniformBase ｜_Starlight
-- **永恒西装** — `ClothingUniformTimelessSuit` ｜父类: ClothingUniformBase ｜_Starlight
-- **黑色高领衫** — `ClothingUniformTurtleneckColorBlack` ｜父类: ClothingUniformBase ｜_Starlight
-- **蓝色高领衫** — `ClothingUniformTurtleneckColorBlue` ｜父类: ClothingUniformBase ｜_Starlight
-- **棕色高领衫** — `ClothingUniformTurtleneckColorBrown` ｜父类: ClothingUniformBase ｜_Starlight
-- **深蓝色高领衫** — `ClothingUniformTurtleneckColorDarkBlue` ｜父类: ClothingUniformBase ｜_Starlight
-- **深绿色高领衫** — `ClothingUniformTurtleneckColorDarkGreen` ｜父类: ClothingUniformBase ｜_Starlight
-- **绿色高领衫** — `ClothingUniformTurtleneckColorGreen` ｜父类: ClothingUniformBase ｜_Starlight
-- **灰色高领衫** — `ClothingUniformTurtleneckColorGrey` ｜父类: ClothingUniformBase ｜_Starlight
-- **浅棕色高领衫** — `ClothingUniformTurtleneckColorLightBrown` ｜父类: ClothingUniformBase ｜_Starlight
-- **栗色高领衫** — `ClothingUniformTurtleneckColorMaroon` ｜父类: ClothingUniformBase ｜_Starlight
-- **橙色高领衫** — `ClothingUniformTurtleneckColorOrange` ｜父类: ClothingUniformBase ｜_Starlight
-- **粉色高领衫** — `ClothingUniformTurtleneckColorPink` ｜父类: ClothingUniformBase ｜_Starlight
-- **紫色高领衫** — `ClothingUniformTurtleneckColorPurple` ｜父类: ClothingUniformBase ｜_Starlight
-- **红色高领衫** — `ClothingUniformTurtleneckColorRed` ｜父类: ClothingUniformBase ｜_Starlight
-- **青色高领衫** — `ClothingUniformTurtleneckColorTeal` ｜父类: ClothingUniformBase ｜_Starlight
-- **白色高领衫** — `ClothingUniformTurtleneckColorWhite` ｜父类: ClothingUniformBase ｜_Starlight
-- **黄色高领衫** — `ClothingUniformTurtleneckColorYellow` ｜父类: ClothingUniformBase ｜_Starlight
-- **黑色高领衫with裙装** — `ClothingUniformTurtleneckSkirtColorBlack` ｜父类: ClothingUniformBase ｜_Starlight
-- **蓝色高领衫with裙装** — `ClothingUniformTurtleneckSkirtColorBlue` ｜父类: ClothingUniformBase ｜_Starlight
-- **棕色高领衫with裙装** — `ClothingUniformTurtleneckSkirtColorBrown` ｜父类: ClothingUniformBase ｜_Starlight
-- **深蓝色高领衫with裙装** — `ClothingUniformTurtleneckSkirtColorDarkBlue` ｜父类: ClothingUniformBase ｜_Starlight
-- **深绿色高领衫with裙装** — `ClothingUniformTurtleneckSkirtColorDarkGreen` ｜父类: ClothingUniformBase ｜_Starlight
-- **绿色高领衫with裙装** — `ClothingUniformTurtleneckSkirtColorGreen` ｜父类: ClothingUniformBase ｜_Starlight
-- **灰色高领衫with裙装** — `ClothingUniformTurtleneckSkirtColorGrey` ｜父类: ClothingUniformBase ｜_Starlight
-- **浅棕色高领衫with裙装** — `ClothingUniformTurtleneckSkirtColorLightBrown` ｜父类: ClothingUniformBase ｜_Starlight
-- **栗色高领衫with裙装** — `ClothingUniformTurtleneckSkirtColorMaroon` ｜父类: ClothingUniformBase ｜_Starlight
-- **橙色高领衫with裙装** — `ClothingUniformTurtleneckSkirtColorOrange` ｜父类: ClothingUniformBase ｜_Starlight
-- **粉色高领衫with裙装** — `ClothingUniformTurtleneckSkirtColorPink` ｜父类: ClothingUniformBase ｜_Starlight
-- **紫色高领衫with裙装** — `ClothingUniformTurtleneckSkirtColorPurple` ｜父类: ClothingUniformBase ｜_Starlight
-- **红色高领衫with裙装** — `ClothingUniformTurtleneckSkirtColorRed` ｜父类: ClothingUniformBase ｜_Starlight
-- **青色高领衫with裙装** — `ClothingUniformTurtleneckSkirtColorTeal` ｜父类: ClothingUniformBase ｜_Starlight
-- **白色高领衫with裙装** — `ClothingUniformTurtleneckSkirtColorWhite` ｜父类: ClothingUniformBase ｜_Starlight
-- **黄色高领衫with裙装** — `ClothingUniformTurtleneckSkirtColorYellow` ｜父类: ClothingUniformBase ｜_Starlight
-- **防滑小丑鞋** — `ClownShoesNoSlip` ｜父类: ClothingShoesClown,BaseSyndicateContraband ｜_Starlight
+- **永恒裙装** — `ClothingUniformTimelessSkirt` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A luxury skirt with a timeless design.
+- **永恒西装** — `ClothingUniformTimelessSuit` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A luxury suit with a timeless design.
+- **黑色高领衫** — `ClothingUniformTurtleneckColorBlack` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A generic black turtleneck with no rank markings.
+- **蓝色高领衫** — `ClothingUniformTurtleneckColorBlue` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A generic blue turtleneck with no rank markings.
+- **棕色高领衫** — `ClothingUniformTurtleneckColorBrown` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A generic brown turtleneck with no rank markings.
+- **深蓝色高领衫** — `ClothingUniformTurtleneckColorDarkBlue` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A generic dark blue turtleneck with no rank markings.
+- **深绿色高领衫** — `ClothingUniformTurtleneckColorDarkGreen` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A generic dark green turtleneck with no rank markings.
+- **绿色高领衫** — `ClothingUniformTurtleneckColorGreen` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A generic green turtleneck with no rank markings.
+- **灰色高领衫** — `ClothingUniformTurtleneckColorGrey` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A tasteful grey turtleneck that reminds you of the good old days.
+- **浅棕色高领衫** — `ClothingUniformTurtleneckColorLightBrown` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A generic light brown turtleneck with no rank markings.
+- **栗色高领衫** — `ClothingUniformTurtleneckColorMaroon` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A generic maroon turtleneck with no rank markings.
+- **橙色高领衫** — `ClothingUniformTurtleneckColorOrange` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A generic orange turtleneck with no rank markings.
+- **粉色高领衫** — `ClothingUniformTurtleneckColorPink` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A generic pink turtleneck with no rank markings.
+- **紫色高领衫** — `ClothingUniformTurtleneckColorPurple` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A generic light purple turtleneck with no rank markings.
+- **红色高领衫** — `ClothingUniformTurtleneckColorRed` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A generic red turtleneck with no rank markings.
+- **青色高领衫** — `ClothingUniformTurtleneckColorTeal` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A generic teal turtleneck with no rank markings.
+- **白色高领衫** — `ClothingUniformTurtleneckColorWhite` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A generic white turtleneck with no rank markings.
+- **黄色高领衫** — `ClothingUniformTurtleneckColorYellow` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A generic yellow turtleneck with no rank markings.
+- **黑色高领衫with裙装** — `ClothingUniformTurtleneckSkirtColorBlack` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A generic black turtleneck with no rank markings.
+- **蓝色高领衫with裙装** — `ClothingUniformTurtleneckSkirtColorBlue` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A generic blue turtleneck with no rank markings.
+- **棕色高领衫with裙装** — `ClothingUniformTurtleneckSkirtColorBrown` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A generic brown turtleneck with no rank markings.
+- **深蓝色高领衫with裙装** — `ClothingUniformTurtleneckSkirtColorDarkBlue` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A generic dark blue turtleneck with no rank markings.
+- **深绿色高领衫with裙装** — `ClothingUniformTurtleneckSkirtColorDarkGreen` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A generic dark green turtleneck with no rank markings.
+- **绿色高领衫with裙装** — `ClothingUniformTurtleneckSkirtColorGreen` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A generic green turtleneck with no rank markings.
+- **灰色高领衫with裙装** — `ClothingUniformTurtleneckSkirtColorGrey` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A tasteful grey turtleneck that reminds you of the good old days.
+- **浅棕色高领衫with裙装** — `ClothingUniformTurtleneckSkirtColorLightBrown` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A generic light brown turtleneck with no rank markings.
+- **栗色高领衫with裙装** — `ClothingUniformTurtleneckSkirtColorMaroon` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A generic maroon turtleneck with no rank markings.
+- **橙色高领衫with裙装** — `ClothingUniformTurtleneckSkirtColorOrange` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A generic orange turtleneck with no rank markings.
+- **粉色高领衫with裙装** — `ClothingUniformTurtleneckSkirtColorPink` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A generic pink turtleneck with no rank markings.
+- **紫色高领衫with裙装** — `ClothingUniformTurtleneckSkirtColorPurple` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A generic light purple turtleneck with no rank markings.
+- **红色高领衫with裙装** — `ClothingUniformTurtleneckSkirtColorRed` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A generic red turtleneck with no rank markings.
+- **青色高领衫with裙装** — `ClothingUniformTurtleneckSkirtColorTeal` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A generic teal turtleneck with no rank markings.
+- **白色高领衫with裙装** — `ClothingUniformTurtleneckSkirtColorWhite` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A generic white turtleneck with no rank markings.
+- **黄色高领衫with裙装** — `ClothingUniformTurtleneckSkirtColorYellow` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A generic yellow turtleneck with no rank markings.
+- **防滑小丑鞋** — `ClownShoesNoSlip` ｜父类: ClothingShoesClown,BaseSyndicateContraband ｜_Starlight ｜描述: Tyranny of Honk's latest clothing line targets more specialized clowning niches. Now with 100% less operator slipping!
 - `模板` **ContentsExplosionResistanceBase** — `ContentsExplosionResistanceBase`
-- **酷炫背心** — `CoolTanktopUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight
-- **dark高领衫** — `DarkTurtleneckSuit` ｜父类: ClothingUniformBase,ClothingUniformFoldableBase ｜_Starlight
-- **星星贴纸** — `Dinkystar` ｜父类: ClothingMiscBase
-- **德鲁伊长袍** — `DruidRobesUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight
-- **华丽服装** — `FlamboyantUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight
-- **弗拉门戈连衣裙** — `FlamencoUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight
-- **潮酷舰长制服** — `FlyCaptainUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight
+- **酷炫背心** — `CoolTanktopUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: Just like heroes wear when they fight Xenos.
+- **dark高领衫** — `DarkTurtleneckSuit` ｜父类: ClothingUniformBase,ClothingUniformFoldableBase ｜_Starlight ｜描述: The look of an innovator, or a killer, depending on the context.
+- **星星贴纸** — `Dinkystar` ｜父类: ClothingMiscBase ｜描述: A dinky lil star for only the hardest working security officers! It's not even sticky anymore.
+- **德鲁伊长袍** — `DruidRobesUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A humble robe, for a humble druid.
+- **华丽服装** — `FlamboyantUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: You must really like vampires.
+- **弗拉门戈连衣裙** — `FlamencoUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: Very festive!
+- **潮酷舰长制服** — `FlyCaptainUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: People born in the 2480s think this is really cool. It has a certain retro appeal.
 - `模板` **GeigerCounterClothing** — `GeigerCounterClothing`
-- **金戒指** — `GoldRing` ｜父类: RingBase,GoldRingBase
+- **金戒指** — `GoldRing` ｜父类: RingBase,GoldRingBase ｜描述: A precious ring.
 - `模板` **GoldRingBase** — `GoldRingBase`
-- **金质钻石戒指** — `GoldRingDiamond` ｜父类: RingBase,GoldRingBase
-- **金质宝石戒指** — `GoldRingGem` ｜父类: RingBase,GoldRingBase
-- **记者全息徽章** — `HoloReporterPin` ｜父类: BaseItem,BaseToggleClothing,BaseReporterContraband ｜_Starlight
-- **苏格兰短裙** — `KiltUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight
-- **丁香色连衣裙** — `LilacDressUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight
-- **小黑连衣裙** — `LittleBlackDressUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight
-- **伐木工工装裤** — `LumberjackOverallsUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight
+- **金质钻石戒指** — `GoldRingDiamond` ｜父类: RingBase,GoldRingBase ｜描述: Made from ethically mined space diamonds.
+- **金质宝石戒指** — `GoldRingGem` ｜父类: RingBase,GoldRingBase ｜描述: Shiny and valuable!
+- **记者全息徽章** — `HoloReporterPin` ｜父类: BaseItem,BaseToggleClothing,BaseReporterContraband ｜_Starlight ｜描述: It's an electronic pin with a microphone-shaped button. A way of more clearly saying, DON'T SHOOT!
+- **苏格兰短裙** — `KiltUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: SCOOOOOOTLAAAANDDDDD!!!
+- **丁香色连衣裙** — `LilacDressUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: An elaborate dress that seems woven from lilac petals at a glance.
+- **小黑连衣裙** — `LittleBlackDressUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: Just a little too short, only worn by the brave.
+- **伐木工工装裤** — `LumberjackOverallsUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: Worn by real hard people who hate trees. Smells like pine.
 - **裁判官's裙装** — `MagistrateUniformSkirt` ｜父类: ClothingUniformBase,BaseCommandContraband ｜_Starlight
 - **裁判官's连体衣** — `MagistrateUniformSuit` ｜父类: ClothingUniformBase,BaseCommandContraband ｜_Starlight
-- **机械师工装裤** — `MechanicOverallsUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight
-- **凌乱连衣裙衬衫** — `MessyDressShirtUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight
-- **荷叶边哑剧演员连衣裙** — `MimeFrillsUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight
-- **老妇人衣服** — `OldWomanUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight
-- **原型振动刃刀鞘** — `PrototypeVibrobladeSheath` ｜父类: ClothingBeltBase,ClothingSlotBase,BaseCentcommContraband ｜_Starlight
-- **原型振动刃刀鞘** — `PrototypeVibrobladeSheathFilled` ｜父类: PrototypeVibrobladeSheath ｜_Starlight
-- **朋克牛仔裤** — `PunkJeansUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight
+- **机械师工装裤** — `MechanicOverallsUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A durable set of threads for hard working mechanics. Smells like oil.
+- **凌乱连衣裙衬衫** — `MessyDressShirtUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: Thrown on in a hurry, probably hasnt been washed in a few days.
+- **荷叶边哑剧演员连衣裙** — `MimeFrillsUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: How do they move so silently in these things?
+- **老妇人衣服** — `OldWomanUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: Makes anyone look like theyre 65.
+- **原型振动刃刀鞘** — `PrototypeVibrobladeSheath` ｜父类: ClothingBeltBase,ClothingSlotBase,BaseCentcommContraband ｜_Starlight ｜描述: Vulcan Industries believed that maintenance of the Vibroweapons should be delayed as much as possible and the quality of the blades to be at top notch at all times, even for the prototypes of the fina
+- **原型振动刃刀鞘** — `PrototypeVibrobladeSheathFilled` ｜父类: PrototypeVibrobladeSheath ｜_Starlight ｜描述: Vulcan Industries believed that maintenance of the Vibroweapons should be delayed as much as possible and the quality of the blades to be at top notch at all times, even for the prototypes of the fina
+- **朋克牛仔裤** — `PunkJeansUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: Slightly goth, very metal.
 - **随机走私者挎包生成器** — `RandomSatchelSpawner` ｜父类: MarkerBase
-- **红色礼装斗篷** — `RedRegaliaCloak` ｜父类: ClothingNeckBase ｜_Starlight
-- **红色礼服手套** — `RedRegaliaGloves` ｜父类: ClothingHandsButcherable ｜_Starlight
-- **红色礼服帽** — `RedRegaliaHat` ｜父类: ClothingHeadBase ｜_Starlight
-- **红色礼装套装** — `RedRegaliaSuit` ｜父类: ClothingUniformBase ｜_Starlight
-- **裁判制服** — `RefereeUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight
+- **红色礼装斗篷** — `RedRegaliaCloak` ｜父类: ClothingNeckBase ｜_Starlight ｜描述: A fancy red cloak like a mafiaoso would wear.
+- **红色礼服手套** — `RedRegaliaGloves` ｜父类: ClothingHandsButcherable ｜_Starlight ｜描述: A pair of fancy red gloves like a mafiaoso would wear.
+- **红色礼服帽** — `RedRegaliaHat` ｜父类: ClothingHeadBase ｜_Starlight ｜描述: A fancy red hat like a mafiaoso would wear.
+- **红色礼装套装** — `RedRegaliaSuit` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A fancy red suit like a mafiaoso would wear.
+- **裁判制服** — `RefereeUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: If theyre holding a red card you might as well shoot them. The time in genpop would be less painful.
 - `模板` **RingBase** — `RingBase` ｜父类: BaseItem
-- **粗犷衣服** — `RuggedClothesUniformSuit` ｜父类: ClothingUniformBase,ClothingUniformFoldableBase ｜_Starlight
-- **水手制服** — `SailorUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight
+- **粗犷衣服** — `RuggedClothesUniformSuit` ｜父类: ClothingUniformBase,ClothingUniformFoldableBase ｜_Starlight ｜描述: Don't ask me how my day's going.
+- **水手制服** — `SailorUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: Worn by the saltiest seamen. Wait what?
 - `模板` **ShowMedicalIcons** — `ShowMedicalIcons`
 - `模板` **ShowSecurityIcons** — `ShowSecurityIcons`
-- **银戒指** — `SilverRing` ｜父类: RingBase,SilverRingBase
-- `模板` **银戒指** — `SilverRingBase`
-- **银质钻石戒指** — `SilverRingDiamond` ｜父类: RingBase,SilverRingBase
-- **银质宝石戒指** — `SilverRingGem` ｜父类: RingBase,SilverRingBase
-- **开缝水桶** — `SlicedBucketBase` ｜父类: BaseItem
-- **油头鞋** — `SlickShoes` ｜父类: ClothingShoesBaseButcherable ｜_Starlight
-- **斑点小丑** — `SpottedClownUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight
-- **花朵胸针** — `SprayFlowerPin` ｜父类: BaseItem
-- **覆钢围裙** — `SteelApronBase` ｜父类: BaseItem
-- **钢制水桶** — `SteelBucketBase` ｜父类: BaseItem
-- **条纹小丑制服** — `StripedClownUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight
-- **夏日裙** — `SundressUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight
-- **破烂衣服** — `TatteredClothesUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight
+- **银戒指** — `SilverRing` ｜父类: RingBase,SilverRingBase ｜描述: Looks slightly less valuable than a gold one.
+- `模板` **银戒指** — `SilverRingBase` ｜描述: Looks slightly less valuable than a gold one.
+- **银质钻石戒指** — `SilverRingDiamond` ｜父类: RingBase,SilverRingBase ｜描述: Made from ethically mined space diamonds.
+- **银质宝石戒指** — `SilverRingGem` ｜父类: RingBase,SilverRingBase ｜描述: Shiny and not quite as valuable!
+- **开缝水桶** — `SlicedBucketBase` ｜父类: BaseItem ｜描述: A bucket with a vision slit cut into the side.
+- **油头鞋** — `SlickShoes` ｜父类: ClothingShoesBaseButcherable ｜_Starlight ｜描述: Slick shoes like a Mafiaoso would wear.
+- **斑点小丑** — `SpottedClownUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: An older clown suit from a more civilized time.
+- **花朵胸针** — `SprayFlowerPin` ｜父类: BaseItem ｜描述: A cute flower pin. Something seems off with it...
+- **覆钢围裙** — `SteelApronBase` ｜父类: BaseItem ｜描述: An apron with steel plating haphazardly affixed by spare cabling. In it's current state, it would fall apart immediately if worn.
+- **钢制水桶** — `SteelBucketBase` ｜父类: BaseItem ｜描述: A bucket that's had steel welded onto it's exterior. It requires better shaping before it can be worn comfortably.
+- **条纹小丑制服** — `StripedClownUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: Somehow its brighter than anything youve ever seen.
+- **夏日裙** — `SundressUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: A lovely sundress, perfect for any summer stroll.
+- **破烂衣服** — `TatteredClothesUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: What one shift as Head of Personnel does to a motherfucker.
 - **黑色手套** — `ThievingGloves` ｜父类: ClothingHandsGlovesColorBlack
 - **黑色手套** — `ThievingGlovesReinforcement` ｜父类: ClothingHandsGlovesColorBlack ｜_Starlight
-- **扎染衬衫** — `TieDyeUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight
-- **托加袍** — `TogaUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight
+- **扎染衬衫** — `TieDyeUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: Straight out of the 2470s, or the 1970s. You get those two confused a lot.
+- **托加袍** — `TogaUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: TO-GA TO-GA TO-GA!
 - **黑色毛巾** — `TowelColorBlack` ｜父类: BaseTowel
 - **蓝色毛巾** — `TowelColorBlue` ｜父类: BaseTowel ｜_Starlight
 - **棕色毛巾** — `TowelColorBrown` ｜父类: BaseTowel ｜_Starlight
@@ -2108,25 +2108,25 @@
 - **蓝绿色毛巾** — `TowelColorTeal` ｜父类: BaseTowel ｜_Starlight
 - **白色毛巾** — `TowelColorWhite` ｜父类: BaseTowel
 - **黄色毛巾** — `TowelColorYellow` ｜父类: BaseTowel ｜_Starlight
-- **暗黑表演者靴** — `TP14ClothingShoesBootsDarkPerformer` ｜父类: ClothingShoesBaseButcherable ｜_TP
-- **暗黑表演者连衣裙** — `TP14ClothingUniformJumpskirtDarkPerformer` ｜父类: ClothingUniformSkirtBase ｜_TP
-- **时髦上衣** — `TrendyTopSuit` ｜父类: ClothingUniformBase,ClothingUniformFoldableBase ｜_Starlight
-- **黑色手术服** — `UniformScrubsColorBlack` ｜父类: ClothingUniformBase ｜DeltaV
-- **蓝色手术服** — `UniformScrubsColorBlue` ｜父类: ClothingUniformBase
-- **青色手术服** — `UniformScrubsColorCyan` ｜父类: ClothingUniformBase ｜DeltaV
-- **赛博之日手术服** — `UniformScrubsColorCybersun` ｜父类: ClothingUniformBase ｜DeltaV
-- **绿色手术服** — `UniformScrubsColorGreen` ｜父类: ClothingUniformBase
-- **粉色手术服** — `UniformScrubsColorPink` ｜父类: ClothingUniformBase ｜DeltaV
-- **紫色手术服** — `UniformScrubsColorPurple` ｜父类: ClothingUniformBase
-- **彩虹手术服** — `UniformScrubsColorRainbow` ｜父类: ClothingUniformBase ｜DeltaV
-- **白色手术服** — `UniformScrubsColorWhite` ｜父类: ClothingUniformBase ｜DeltaV
-- **拳击短裤** — `UniformShortsRed` ｜父类: ClothingUniformBase
-- **带上衣的拳击短裤** — `UniformShortsRedWithTop` ｜父类: ClothingUniformBase
+- **暗黑表演者靴** — `TP14ClothingShoesBootsDarkPerformer` ｜父类: ClothingShoesBaseButcherable ｜_TP ｜描述: With these, you could dance, and be a ninja in the night!
+- **暗黑表演者连衣裙** — `TP14ClothingUniformJumpskirtDarkPerformer` ｜父类: ClothingUniformSkirtBase ｜_TP ｜描述: The true AI, once hired by SolGov to fight off Hatsune Miku. Real story.
+- **时髦上衣** — `TrendyTopSuit` ｜父类: ClothingUniformBase,ClothingUniformFoldableBase ｜_Starlight ｜描述: A trendy top. What determines a trend, anyways?
+- **黑色手术服** — `UniformScrubsColorBlack` ｜父类: ClothingUniformBase ｜DeltaV ｜描述: A combination of comfort and utility intended to make removing every last organ someone has and selling them to a space robot much more official looking.
+- **蓝色手术服** — `UniformScrubsColorBlue` ｜父类: ClothingUniformBase ｜描述: A combination of comfort and utility intended to make removing every last organ someone has and selling them to a space robot much more official looking.
+- **青色手术服** — `UniformScrubsColorCyan` ｜父类: ClothingUniformBase ｜DeltaV ｜描述: A combination of comfort and utility intended to make removing every last organ someone has and selling them to a space robot much more official looking.
+- **赛博之日手术服** — `UniformScrubsColorCybersun` ｜父类: ClothingUniformBase ｜DeltaV ｜描述: The official uniform of Cybersun's biotechnology division
+- **绿色手术服** — `UniformScrubsColorGreen` ｜父类: ClothingUniformBase ｜描述: A combination of comfort and utility intended to make removing every last organ someone has and selling them to a space robot much more official looking.
+- **粉色手术服** — `UniformScrubsColorPink` ｜父类: ClothingUniformBase ｜DeltaV ｜描述: A combination of comfort and utility intended to make removing every last organ someone has and selling them to a space robot much more official looking.
+- **紫色手术服** — `UniformScrubsColorPurple` ｜父类: ClothingUniformBase ｜描述: A combination of comfort and utility intended to make removing every last organ someone has and selling them to a space robot much more official looking.
+- **彩虹手术服** — `UniformScrubsColorRainbow` ｜父类: ClothingUniformBase ｜DeltaV ｜描述: A combination of comfort and utility intended to make removing every last organ someone has and selling them to a space robot much more official looking.
+- **白色手术服** — `UniformScrubsColorWhite` ｜父类: ClothingUniformBase ｜DeltaV ｜描述: A combination of comfort and utility intended to make removing every last organ someone has and selling them to a space robot much more official looking.
+- **拳击短裤** — `UniformShortsRed` ｜父类: ClothingUniformBase ｜描述: These are shorts, not boxers.
+- **带上衣的拳击短裤** — `UniformShortsRedWithTop` ｜父类: ClothingUniformBase ｜描述: These are shorts, not boxers.
 - `模板` **UnsensoredClothingUniformBase** — `UnsensoredClothingUniformBase` ｜父类: Clothing
 - `模板` **UnsensoredClothingUniformSkirtBase** — `UnsensoredClothingUniformSkirtBase` ｜父类: UnsensoredClothingUniformBase
-- **复古衣服** — `VintageUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight
-- **水滴** — `WaterDropletHat` ｜父类: Clothing
-- **焊钢围裙** — `WeldedSteelApronBase` ｜父类: BaseItem
-- **接线围裙** — `WiredApronBase` ｜父类: BaseItem
-- **带线水桶** — `WiredBucketBase` ｜父类: BaseItem
-- **硅基储物方包** — `XenoborgMaterialBag` ｜父类: ClothingBackpack
+- **复古衣服** — `VintageUniformSuit` ｜父类: ClothingUniformBase ｜_Starlight ｜描述: Very retro.
+- **水滴** — `WaterDropletHat` ｜父类: Clothing ｜描述: Makes 8-eyed friends 8 times more adorable!
+- **焊钢围裙** — `WeldedSteelApronBase` ｜父类: BaseItem ｜描述: An apron affixed with welded steel plating attached to spare cabling. The armor is no longer in danger of falling apart, but requires additional work to be worn securely.
+- **接线围裙** — `WiredApronBase` ｜父类: BaseItem ｜描述: An apron threaded with cabling. It looks incomplete.
+- **带线水桶** — `WiredBucketBase` ｜父类: BaseItem ｜描述: A bucket with attached wiring to better serve as a chinstrap.
+- **硅基储物方包** — `XenoborgMaterialBag` ｜父类: ClothingBackpack ｜描述: A knockoff version of a bluespace bag, can vacumn up select materials, unfit for use by humanoids due to harmful emissions.

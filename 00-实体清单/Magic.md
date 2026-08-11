@@ -2,44 +2,44 @@
 
 > 来源层分布: 上游 43, _Starlight 12
 
-- **活化** — `ActionAnimateSpell` ｜父类: BaseEntitySpellAction
-- **闪现** — `ActionBlink` ｜父类: BaseAction
-- **回春种子** — `ActionCantripAntidote` ｜父类: BaseAction ｜_Starlight
-- **止血符文** — `ActionCantripBandage` ｜父类: BaseAction ｜_Starlight
-- **光明法球** — `ActionCantripGlow` ｜父类: BaseAction ｜_Starlight
-- **心灵低语** — `ActionCantripMessage` ｜父类: BaseAction ｜_Starlight
-- **净化** — `ActionCantripMop` ｜父类: BaseAction ｜_Starlight
-- **魔法余烬** — `ActionCantripSpark` ｜父类: BaseAction ｜_Starlight
-- **充能** — `ActionChargeSpell` ｜父类: BaseAction
-- **受诅小丑的诅咒** — `ActionCluwne` ｜父类: BaseSmiteAction
-- **爆炸符文** — `ActionExplosionRune` ｜父类: BaseRuneAction
-- **火球术** — `ActionFireball` ｜父类: BaseAction
-- **火球术 II** — `ActionFireballII` ｜父类: ActionFireball
-- **火球术 III** — `ActionFireballIII` ｜父类: ActionFireball
-- **闪光符文** — `ActionFlashRune` ｜父类: BaseRuneAction
-- **力场墙** — `ActionForceWall` ｜父类: BaseAction
-- **冰风暴** — `ActionIceStorm` ｜父类: BaseAction ｜_Starlight
-- **点燃符文** — `ActionIgniteRune` ｜父类: BaseRuneAction
-- **标记物品** — `ActionItemRecall` ｜父类: BaseAction
-- **敲门术** — `ActionKnock` ｜父类: BaseAction
-- **心智交换** — `ActionMindSwap` ｜父类: BaseEntitySpellAction
-- **语言变换** — `ActionRandomizeLanguages` ｜父类: BaseAction ｜_Starlight
-- **斥力** — `ActionRepulse` ｜父类: BaseAction
-- **显化灵能之刃** — `ActionRetractableItemManaBlade` ｜父类: BaseAction ｜_Starlight
+- **活化** — `ActionAnimateSpell` ｜父类: BaseEntitySpellAction ｜描述: Bring an inanimate object to life!
+- **闪现** — `ActionBlink` ｜父类: BaseAction ｜描述: Teleport to the clicked location.
+- **回春种子** — `ActionCantripAntidote` ｜父类: BaseAction ｜_Starlight ｜描述: Creates a magic seed that restores vitality to an ailing plant. Vanishes if not used within 15 seconds.
+- **止血符文** — `ActionCantripBandage` ｜父类: BaseAction ｜_Starlight ｜描述: Creates a magic rune that stops bleeding. Vanishes if not used within 15 seconds.
+- **光明法球** — `ActionCantripGlow` ｜父类: BaseAction ｜_Starlight ｜描述: Creates a short-lived luminous ball of light. Decays after 25 seconds.
+- **心灵低语** — `ActionCantripMessage` ｜父类: BaseAction ｜_Starlight ｜描述: Transmits a secret message into the mind of a single target.
+- **净化** — `ActionCantripMop` ｜父类: BaseAction ｜_Starlight ｜描述: Removes filth around you. Like a tiny cleanade. Only affects tiles adjacent to where you stand.
+- **魔法余烬** — `ActionCantripSpark` ｜父类: BaseAction ｜_Starlight ｜描述: Creates a short-lived flame suitable for use as an ignition source. Decays after 5 seconds.
+- **充能** — `ActionChargeSpell` ｜父类: BaseAction ｜描述: Adds a charge back to your wand
+- **受诅小丑的诅咒** — `ActionCluwne` ｜父类: BaseSmiteAction ｜描述: Turns someone into a Cluwne!
+- **爆炸符文** — `ActionExplosionRune` ｜父类: BaseRuneAction ｜描述: Summons a rune that explodes if used.
+- **火球术** — `ActionFireball` ｜父类: BaseAction ｜描述: Fires an explosive fireball towards the clicked location. (Cooldown of 5 minutes)
+- **火球术 II** — `ActionFireballII` ｜父类: ActionFireball ｜描述: Fires a fireball, but faster! (Cooldown of 3 minutes)
+- **火球术 III** — `ActionFireballIII` ｜父类: ActionFireball ｜描述: The fastest fireball in the west! (Cooldown of 2 minutes)
+- **闪光符文** — `ActionFlashRune` ｜父类: BaseRuneAction ｜描述: Summons a rune that flashes if used.
+- **力场墙** — `ActionForceWall` ｜父类: BaseAction ｜描述: Creates a magical barrier.
+- **冰风暴** — `ActionIceStorm` ｜父类: BaseAction ｜_Starlight ｜描述: Summon a freezing blast of ice that chills everything it touches! (Cooldown of 2 minutes)
+- **点燃符文** — `ActionIgniteRune` ｜父类: BaseRuneAction ｜描述: Summons a rune that ignites if used.
+- **标记物品** — `ActionItemRecall` ｜父类: BaseAction ｜描述: Mark a held item to later summon into your hand.
+- **敲门术** — `ActionKnock` ｜父类: BaseAction ｜描述: This spell opens nearby doors.
+- **心智交换** — `ActionMindSwap` ｜父类: BaseEntitySpellAction ｜描述: Exchange bodies with another person! You'll lose access to most wizard equipment while in another body... is it worth it?
+- **语言变换** — `ActionRandomizeLanguages` ｜父类: BaseAction ｜_Starlight ｜描述: You ever heard of the Tower of Babel?
+- **斥力** — `ActionRepulse` ｜父类: BaseAction ｜描述: Pushes entities away from the user.
+- **显化灵能之刃** — `ActionRetractableItemManaBlade` ｜父类: BaseAction ｜_Starlight ｜描述: Channel your power into your hand and create a sword out of hardened mana.
 - **ActionRgbLight** — `ActionRgbLight` ｜父类: BaseAction
-- **滑坡** — `ActionSlippery` ｜父类: BaseSmiteAction
-- **天谴** — `ActionSmite` ｜父类: BaseSmiteAction
+- **滑坡** — `ActionSlippery` ｜父类: BaseSmiteAction ｜描述: Make someone slippery.
+- **天谴** — `ActionSmite` ｜父类: BaseSmiteAction ｜描述: Instantly shocks a target.
 - **天谴** — `ActionSmiteNoReq` ｜父类: ActionSmite
-- **烟雾** — `ActionSmoke` ｜父类: BaseAction
-- **召唤魔法鲤鱼** — `ActionSpawnMagicarpSpell` ｜父类: BaseAction
-- **击晕符文** — `ActionStunRune` ｜父类: BaseRuneAction
-- **召唤奶酪** — `ActionSummonCheese` ｜父类: BaseAction ｜_Starlight
-- **召唤幽灵** — `ActionSummonGhosts` ｜父类: BaseAction
-- **召唤枪械** — `ActionSummonGuns` ｜父类: BaseAction
-- **召唤魔法** — `ActionSummonMagic` ｜父类: BaseAction
-- **虚空鼓掌** — `ActionVoidApplause` ｜父类: BaseEntitySpellAction
+- **烟雾** — `ActionSmoke` ｜父类: BaseAction ｜描述: Summons smoke around the user.
+- **召唤魔法鲤鱼** — `ActionSpawnMagicarpSpell` ｜父类: BaseAction ｜描述: This spell summons three Magi-Carp to your aid! May or may not turn on user.
+- **击晕符文** — `ActionStunRune` ｜父类: BaseRuneAction ｜描述: Summons a rune that stuns if used.
+- **召唤奶酪** — `ActionSummonCheese` ｜父类: BaseAction ｜_Starlight ｜描述: Places a slice of cheese in your hand. delicious!
+- **召唤幽灵** — `ActionSummonGhosts` ｜父类: BaseAction ｜描述: Makes all current ghosts permanently visible
+- **召唤枪械** — `ActionSummonGuns` ｜父类: BaseAction ｜描述: AK47s for everyone! Places a random gun in front of everybody.
+- **召唤魔法** — `ActionSummonMagic` ｜父类: BaseAction ｜描述: Places a random magical item in front of everybody. Nothing could go wrong!
+- **虚空鼓掌** — `ActionVoidApplause` ｜父类: BaseEntitySpellAction ｜描述: Clap your hands and swap places with the target.
 - `模板` **激活符文** — `ActivateRune` ｜父类: CollideRune
-- **活化法杖** — `AnimationStaff` ｜父类: BaseItem,BaseMagicalContraband
+- **活化法杖** — `AnimationStaff` ｜父类: BaseItem,BaseMagicalContraband ｜描述: Brings inanimate objects to life! Seems to be simpler to use than the other ones, anyone could use this.
 - `模板` **BaseEntitySpellAction** — `BaseEntitySpellAction` ｜父类: BaseAction
 - `模板` **rune** — `BaseRune`
 - `模板` **BaseRuneAction** — `BaseRuneAction` ｜父类: BaseAction
@@ -52,8 +52,8 @@
 - **闪光符文** — `FlashRune` ｜父类: ActivateRune
 - **定时闪光符文** — `FlashRuneTimer` ｜父类: CollideTimerRune
 - **点燃符文** — `IgniteRune` ｜父类: CollideRune
-- **冰刺** — `ProjectileIceStormSingle` ｜父类: BaseBulletTrigger ｜_Starlight
-- **RGB 法杖** — `RGBStaff` ｜父类: BaseItem
+- **冰刺** — `ProjectileIceStormSingle` ｜父类: BaseBulletTrigger ｜_Starlight ｜描述: A freezing spike of magical ice!
+- **RGB 法杖** — `RGBStaff` ｜父类: BaseItem ｜描述: Helps fix the underabundance of RGB gear on the station.
 - **击晕符文** — `StunRune` ｜父类: CollideRune
-- **巴别塔** — `TowerOfBabel` ｜父类: BaseStructure ｜_Starlight
+- **巴别塔** — `TowerOfBabel` ｜父类: BaseStructure ｜_Starlight ｜描述: Me Grug. You?. <unintelligible>
 - **传送卷轴** — `WizardTeleportScroll` ｜父类: BaseItem,BaseMagicalContraband

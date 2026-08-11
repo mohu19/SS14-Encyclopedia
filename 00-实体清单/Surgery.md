@@ -2,11 +2,11 @@
 
 > 来源层分布: _Starlight 202, _FarHorizons 49
 
-- **截肢术** — `SurgeryAmputation` ｜父类: SurgeryBase ｜_Starlight
-- **断头术** — `SurgeryAmputationHead` ｜父类: SurgeryAmputation ｜_Starlight
-- **断头** — `SurgeryAmputationHeadRobot` ｜父类: SurgeryAmputationRobot ｜_FarHorizons
+- **截肢术** — `SurgeryAmputation` ｜父类: SurgeryBase ｜_Starlight ｜描述: Surgical removal of a limb.
+- **断头术** — `SurgeryAmputationHead` ｜父类: SurgeryAmputation ｜_Starlight ｜描述: Surgical removal of a head.
+- **断头** — `SurgeryAmputationHeadRobot` ｜父类: SurgeryAmputationRobot ｜_FarHorizons ｜描述: Surgical removal of a head.
 - **截肢** — `SurgeryAmputationHeadSlime` ｜父类: SurgeryAmputationHead ｜_Starlight
-- **截肢** — `SurgeryAmputationRobot` ｜父类: SurgeryBase ｜_FarHorizons
+- **截肢** — `SurgeryAmputationRobot` ｜父类: SurgeryBase ｜_FarHorizons ｜描述: Surgical removal of a limb.
 - **截肢** — `SurgeryAmputationSlime` ｜父类: SurgeryAmputation ｜_Starlight
 - **锯断肢体** — `SurgeryAmputationStep` ｜父类: SurgeryStepBase ｜_Starlight
 - **SurgeryBase** — `SurgeryBase` ｜_Starlight
@@ -16,7 +16,7 @@
 - **黏液体肢体切口闭合术** — `SurgeryCloseIncisionLimbSlime` ｜父类: SurgeryCloseIncision ｜_Starlight
 - **切口闭合术** — `SurgeryCloseIncisionSlime` ｜父类: SurgeryCloseIncision ｜_Starlight
 - **黏液体头部切口闭合术** — `SurgeryCloseIncisionSlimeHead` ｜父类: SurgeryCloseIncision ｜_Starlight
-- **声带缺陷矫正术** — `SurgeryEliminateVocalCordDefects` ｜父类: SurgeryBase ｜_Starlight
+- **声带缺陷矫正术** — `SurgeryEliminateVocalCordDefects` ｜父类: SurgeryBase ｜_Starlight ｜描述: Remove speech defects, accents.
 - **阑尾切除术** — `SurgeryExtractAppendix` ｜父类: SurgeryBase ｜_Starlight
 - **大脑取出术** — `SurgeryExtractBrain` ｜父类: SurgeryBase ｜_Starlight
 - **脑部植入物取出术** — `SurgeryExtractBrainImplant` ｜父类: SurgeryBase ｜_Starlight
@@ -64,46 +64,46 @@
 - **影族核心植入术** — `SurgeryImplantShadekinCore` ｜父类: SurgeryBase ｜_Starlight
 - **胃部植入术** — `SurgeryImplantStomach` ｜父类: SurgeryBase ｜_Starlight
 - **舌头接合术** — `SurgeryImplantTongue` ｜父类: SurgeryBase ｜_Starlight
-- **头部接合术** — `SurgeryLimbAttachmentHead` ｜父类: SurgeryBase ｜_Starlight
-- **头部接合** — `SurgeryLimbAttachmentHeadRobot` ｜父类: SurgeryBase ｜_FarHorizons
-- **左臂接合术** — `SurgeryLimbAttachmentLeftArm` ｜父类: SurgeryLimbAttachmentHead ｜_Starlight
-- **左臂接合** — `SurgeryLimbAttachmentLeftArmRobot` ｜父类: SurgeryLimbAttachmentHeadRobot ｜_FarHorizons
-- **左脚接合术** — `SurgeryLimbAttachmentLeftFoot` ｜父类: SurgeryLimbAttachmentHead ｜_Starlight
-- **左脚接合** — `SurgeryLimbAttachmentLeftFootRobot` ｜父类: SurgeryLimbAttachmentHeadRobot ｜_FarHorizons
-- **左手接合术** — `SurgeryLimbAttachmentLeftHand` ｜父类: SurgeryLimbAttachmentHead ｜_Starlight
-- **左手接合** — `SurgeryLimbAttachmentLeftHandRobot` ｜父类: SurgeryLimbAttachmentHeadRobot ｜_FarHorizons
-- **左腿接合术** — `SurgeryLimbAttachmentLeftLeg` ｜父类: SurgeryLimbAttachmentHead ｜_Starlight
-- **左腿接合** — `SurgeryLimbAttachmentLeftLegRobot` ｜父类: SurgeryLimbAttachmentHeadRobot ｜_FarHorizons
-- **其他部位接合术** — `SurgeryLimbAttachmentOther` ｜父类: SurgeryLimbAttachmentHead ｜_Starlight
-- **右臂接合术** — `SurgeryLimbAttachmentRightArm` ｜父类: SurgeryLimbAttachmentHead ｜_Starlight
-- **右臂接合** — `SurgeryLimbAttachmentRightArmRobot` ｜父类: SurgeryLimbAttachmentHeadRobot ｜_FarHorizons
-- **右脚接合术** — `SurgeryLimbAttachmentRightFoot` ｜父类: SurgeryLimbAttachmentHead ｜_Starlight
-- **右脚接合** — `SurgeryLimbAttachmentRightFootRobot` ｜父类: SurgeryLimbAttachmentHeadRobot ｜_FarHorizons
-- **右手接合术** — `SurgeryLimbAttachmentRightHand` ｜父类: SurgeryLimbAttachmentHead ｜_Starlight
-- **右手接合** — `SurgeryLimbAttachmentRightHandRobot` ｜父类: SurgeryLimbAttachmentHeadRobot ｜_FarHorizons
-- **右腿接合术** — `SurgeryLimbAttachmentRightLeg` ｜父类: SurgeryLimbAttachmentHead ｜_Starlight
-- **右腿接合** — `SurgeryLimbAttachmentRightLegRobot` ｜父类: SurgeryLimbAttachmentHeadRobot ｜_FarHorizons
+- **头部接合术** — `SurgeryLimbAttachmentHead` ｜父类: SurgeryBase ｜_Starlight ｜描述: Surgical attachment of a limb.
+- **头部接合** — `SurgeryLimbAttachmentHeadRobot` ｜父类: SurgeryBase ｜_FarHorizons ｜描述: Surgical attachment of a limb.
+- **左臂接合术** — `SurgeryLimbAttachmentLeftArm` ｜父类: SurgeryLimbAttachmentHead ｜_Starlight ｜描述: Surgical attachment of a limb.
+- **左臂接合** — `SurgeryLimbAttachmentLeftArmRobot` ｜父类: SurgeryLimbAttachmentHeadRobot ｜_FarHorizons ｜描述: Surgical attachment of a limb.
+- **左脚接合术** — `SurgeryLimbAttachmentLeftFoot` ｜父类: SurgeryLimbAttachmentHead ｜_Starlight ｜描述: Surgical attachment of a limb.
+- **左脚接合** — `SurgeryLimbAttachmentLeftFootRobot` ｜父类: SurgeryLimbAttachmentHeadRobot ｜_FarHorizons ｜描述: Surgical attachment of a limb.
+- **左手接合术** — `SurgeryLimbAttachmentLeftHand` ｜父类: SurgeryLimbAttachmentHead ｜_Starlight ｜描述: Surgical attachment of a limb.
+- **左手接合** — `SurgeryLimbAttachmentLeftHandRobot` ｜父类: SurgeryLimbAttachmentHeadRobot ｜_FarHorizons ｜描述: Surgical attachment of a limb.
+- **左腿接合术** — `SurgeryLimbAttachmentLeftLeg` ｜父类: SurgeryLimbAttachmentHead ｜_Starlight ｜描述: Surgical attachment of a limb.
+- **左腿接合** — `SurgeryLimbAttachmentLeftLegRobot` ｜父类: SurgeryLimbAttachmentHeadRobot ｜_FarHorizons ｜描述: Surgical attachment of a limb.
+- **其他部位接合术** — `SurgeryLimbAttachmentOther` ｜父类: SurgeryLimbAttachmentHead ｜_Starlight ｜描述: Surgical attachment of a limb.
+- **右臂接合术** — `SurgeryLimbAttachmentRightArm` ｜父类: SurgeryLimbAttachmentHead ｜_Starlight ｜描述: Surgical attachment of a limb.
+- **右臂接合** — `SurgeryLimbAttachmentRightArmRobot` ｜父类: SurgeryLimbAttachmentHeadRobot ｜_FarHorizons ｜描述: Surgical attachment of a limb.
+- **右脚接合术** — `SurgeryLimbAttachmentRightFoot` ｜父类: SurgeryLimbAttachmentHead ｜_Starlight ｜描述: Surgical attachment of a limb.
+- **右脚接合** — `SurgeryLimbAttachmentRightFootRobot` ｜父类: SurgeryLimbAttachmentHeadRobot ｜_FarHorizons ｜描述: Surgical attachment of a limb.
+- **右手接合术** — `SurgeryLimbAttachmentRightHand` ｜父类: SurgeryLimbAttachmentHead ｜_Starlight ｜描述: Surgical attachment of a limb.
+- **右手接合** — `SurgeryLimbAttachmentRightHandRobot` ｜父类: SurgeryLimbAttachmentHeadRobot ｜_FarHorizons ｜描述: Surgical attachment of a limb.
+- **右腿接合术** — `SurgeryLimbAttachmentRightLeg` ｜父类: SurgeryLimbAttachmentHead ｜_Starlight ｜描述: Surgical attachment of a limb.
+- **右腿接合** — `SurgeryLimbAttachmentRightLegRobot` ｜父类: SurgeryLimbAttachmentHeadRobot ｜_FarHorizons ｜描述: Surgical attachment of a limb.
 - **头部接合** — `SurgeryLimbAttachmentSlimeHead` ｜父类: SurgeryLimbAttachmentHead ｜_Starlight
-- **黏液体左臂接合术** — `SurgeryLimbAttachmentSlimeLeftArm` ｜父类: SurgeryLimbAttachmentSlimeHead ｜_Starlight
-- **黏液体左脚接合术** — `SurgeryLimbAttachmentSlimeLeftFoot` ｜父类: SurgeryLimbAttachmentSlimeHead ｜_Starlight
-- **黏液体左手接合术** — `SurgeryLimbAttachmentSlimeLeftHand` ｜父类: SurgeryLimbAttachmentSlimeHead ｜_Starlight
-- **黏液体左腿接合术** — `SurgeryLimbAttachmentSlimeLeftLeg` ｜父类: SurgeryLimbAttachmentSlimeHead ｜_Starlight
-- **黏液体其他部位接合术** — `SurgeryLimbAttachmentSlimeOther` ｜父类: SurgeryLimbAttachmentSlimeHead ｜_Starlight
-- **黏液体右臂接合术** — `SurgeryLimbAttachmentSlimeRightArm` ｜父类: SurgeryLimbAttachmentSlimeHead ｜_Starlight
-- **黏液体右脚接合术** — `SurgeryLimbAttachmentSlimeRightFoot` ｜父类: SurgeryLimbAttachmentSlimeHead ｜_Starlight
-- **黏液体右手接合术** — `SurgeryLimbAttachmentSlimeRightHand` ｜父类: SurgeryLimbAttachmentSlimeHead ｜_Starlight
-- **黏液体右腿接合术** — `SurgeryLimbAttachmentSlimeRightLeg` ｜父类: SurgeryLimbAttachmentSlimeHead ｜_Starlight
-- **黏液体尾巴接合术** — `SurgeryLimbAttachmentSlimeTail` ｜父类: SurgeryLimbAttachmentSlimeHead ｜_Starlight
+- **黏液体左臂接合术** — `SurgeryLimbAttachmentSlimeLeftArm` ｜父类: SurgeryLimbAttachmentSlimeHead ｜_Starlight ｜描述: Surgical attachment of a limb.
+- **黏液体左脚接合术** — `SurgeryLimbAttachmentSlimeLeftFoot` ｜父类: SurgeryLimbAttachmentSlimeHead ｜_Starlight ｜描述: Surgical attachment of a limb.
+- **黏液体左手接合术** — `SurgeryLimbAttachmentSlimeLeftHand` ｜父类: SurgeryLimbAttachmentSlimeHead ｜_Starlight ｜描述: Surgical attachment of a limb.
+- **黏液体左腿接合术** — `SurgeryLimbAttachmentSlimeLeftLeg` ｜父类: SurgeryLimbAttachmentSlimeHead ｜_Starlight ｜描述: Surgical attachment of a limb.
+- **黏液体其他部位接合术** — `SurgeryLimbAttachmentSlimeOther` ｜父类: SurgeryLimbAttachmentSlimeHead ｜_Starlight ｜描述: Surgical attachment of a limb.
+- **黏液体右臂接合术** — `SurgeryLimbAttachmentSlimeRightArm` ｜父类: SurgeryLimbAttachmentSlimeHead ｜_Starlight ｜描述: Surgical attachment of a limb.
+- **黏液体右脚接合术** — `SurgeryLimbAttachmentSlimeRightFoot` ｜父类: SurgeryLimbAttachmentSlimeHead ｜_Starlight ｜描述: Surgical attachment of a limb.
+- **黏液体右手接合术** — `SurgeryLimbAttachmentSlimeRightHand` ｜父类: SurgeryLimbAttachmentSlimeHead ｜_Starlight ｜描述: Surgical attachment of a limb.
+- **黏液体右腿接合术** — `SurgeryLimbAttachmentSlimeRightLeg` ｜父类: SurgeryLimbAttachmentSlimeHead ｜_Starlight ｜描述: Surgical attachment of a limb.
+- **黏液体尾巴接合术** — `SurgeryLimbAttachmentSlimeTail` ｜父类: SurgeryLimbAttachmentSlimeHead ｜_Starlight ｜描述: Surgical attachment of a limb.
 - **接合肢体** — `SurgeryLimbAttachmentStep` ｜父类: SurgeryStepBase ｜_Starlight
 - **接合肢体** — `SurgeryLimbAttachmentStepLeftArm` ｜父类: SurgeryStepBase ｜_Starlight
 - **接合肢体** — `SurgeryLimbAttachmentStepRightArm` ｜父类: SurgeryStepBase ｜_Starlight
-- **尾巴接合术** — `SurgeryLimbAttachmentTail` ｜父类: SurgeryLimbAttachmentHead ｜_Starlight
+- **尾巴接合术** — `SurgeryLimbAttachmentTail` ｜父类: SurgeryLimbAttachmentHead ｜_Starlight ｜描述: Surgical attachment of a limb.
 - **开腹术** — `SurgeryOpenAbdomen` ｜父类: SurgeryBase ｜_Starlight
 - **切开术** — `SurgeryOpenIncision` ｜父类: SurgeryBase ｜_Starlight
 - **切开术** — `SurgeryOpenIncisionSlime` ｜父类: SurgeryOpenIncision ｜_Starlight
 - **开胸术** — `SurgeryOpenRibcage` ｜父类: SurgeryBase ｜_Starlight
-- **拆除外部装甲板** — `SurgeryRemovePlating` ｜父类: SurgeryBase ｜_FarHorizons
-- **修复外部装甲板** — `SurgeryRestorePlating` ｜父类: SurgeryBase ｜_FarHorizons
+- **拆除外部装甲板** — `SurgeryRemovePlating` ｜父类: SurgeryBase ｜_FarHorizons ｜描述: Removes the protective outer plating.
+- **修复外部装甲板** — `SurgeryRestorePlating` ｜父类: SurgeryBase ｜_FarHorizons ｜描述: Restores the protective outer plating.
 - **影族核心取出术** — `SurgeryShadekinCore` ｜父类: SurgeryBase ｜_Starlight
 - **调整声带** — `SurgeryStepAdjustVocalCords` ｜父类: SurgeryStepBase ｜_Starlight
 - **接合舌头** — `SurgeryStepAttachTongue` ｜父类: SurgeryStepBase ｜_Starlight

@@ -4,10 +4,10 @@
 
 - **AbductObjective** — `AbductObjective` ｜父类: BaseAbductorObjective ｜_Starlight
 - **AccessConfiguratorStealObjective** — `AccessConfiguratorStealObjective` ｜父类: BaseTraitorCommandStealObjective ｜_Starlight
-- **入侵、破坏或分发权限，让任何区域都无法靠门禁封锁。** — `AccessForAllObjective` ｜父类: BaseStoryObjective ｜_Starlight
+- **入侵、破坏或分发权限，让任何区域都无法靠门禁封锁。** — `AccessForAllObjective` ｜父类: BaseStoryObjective ｜_Starlight ｜描述: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
 - **AltarNanotrasenStealObjective** — `AltarNanotrasenStealObjective` ｜父类: BaseThiefStealStructureObjective
 - **AmePartFlatpackStealObjective** — `AmePartFlatpackStealObjective` ｜父类: BaseThiefStealObjective
-- **建立地下军火交易网** — `ArmsDealerObjective` ｜父类: BaseStoryObjective ｜_Starlight
+- **建立地下军火交易网** — `ArmsDealerObjective` ｜父类: BaseStoryObjective ｜_Starlight ｜描述: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
 - **AssistantHeadsetsStealCollectionObjective** — `AssistantHeadsetsStealCollectionObjective` ｜父类: BaseThiefStealObjective ｜_Starlight
 - **AstroNavCartridgeStealObjective** — `AstroNavCartridgeStealObjective` ｜父类: BaseThiefStealObjective,BaseThiefCargoStealObjective ｜_Starlight
 - `模板` **BaseAbductorObjective** — `BaseAbductorObjective` ｜父类: BaseObjective ｜_Starlight
@@ -73,15 +73,15 @@
 - `模板` **BaseWizardObjective** — `BaseWizardObjective` ｜父类: BaseObjective
 - **BibleStealObjective** — `BibleStealObjective` ｜父类: BaseThiefStealObjective
 - **BingusStealObjective** — `BingusStealObjective` ｜父类: BaseThiefStealAnimalObjective
-- **开启通往黑暗的传送门** — `BirghteyePortalObjective` ｜父类: BaseBrighteyeObjective ｜_Starlight
-- **保护你的核心** — `BirghteyeSurviveObjective` ｜父类: BaseBrighteyeObjective ｜_Starlight
+- **开启通往黑暗的传送门** — `BirghteyePortalObjective` ｜父类: BaseBrighteyeObjective ｜_Starlight ｜描述: Open and keep a portal open to the dark.
+- **保护你的核心** — `BirghteyeSurviveObjective` ｜父类: BaseBrighteyeObjective ｜_Starlight ｜描述: Ensure your core is not damaged or removed!
 - **BoozeDispenserStealObjective** — `BoozeDispenserStealObjective` ｜父类: BaseThiefStealStructureObjective
 - **BrigmedicHardsuitStealObjective** — `BrigmedicHardsuitStealObjective` ｜父类: BaseTraitorSecurityStealObjective ｜_Starlight
 - **BrigmedicStrangeBedsheetStealObjective** — `BrigmedicStrangeBedsheetStealObjective` ｜父类: BaseThiefStealObjective,BaseThiefSecurityStealObjective ｜_Starlight
 - **BSOHardsuitStealObjective** — `BSOHardsuitStealObjective` ｜父类: BaseTraitorNanoTrasenStealObjective ｜_Starlight
 - **BSOMagbootsStealObjective** — `BSOMagbootsStealObjective` ｜父类: BaseTraitorNanoTrasenStealObjective ｜_Starlight
 - **BSOWeaponStealObjective** — `BSOWeaponStealObjective` ｜父类: BaseTraitorNanoTrasenStealObjective ｜_Starlight
-- **在犯罪现场留下辛迪加名片。** — `CallingCardObjective` ｜父类: BaseStoryObjective ｜_Starlight
+- **在犯罪现场留下辛迪加名片。** — `CallingCardObjective` ｜父类: BaseStoryObjective ｜_Starlight ｜描述: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
 - **CaptainGunChangelingStealObjective** — `CaptainGunChangelingStealObjective` ｜父类: BaseCaptainChangelingObjective ｜_Starlight
 - **CaptainGunStealObjective** — `CaptainGunStealObjective` ｜父类: BaseCaptainObjective
 - **CaptainGunVampireStealObjective** — `CaptainGunVampireStealObjective` ｜父类: BaseCaptainVampireObjective ｜_Starlight
@@ -100,7 +100,7 @@
 - **CEJetpackStealObjective** — `CEJetpackStealObjective` ｜父类: BaseTraitorEngineeringStealObjective ｜_Starlight
 - **ChangelingAbsorbObjective** — `ChangelingAbsorbObjective` ｜父类: BaseChangelingObjective ｜_Starlight
 - **ChangelingStealDNAObjective** — `ChangelingStealDNAObjective` ｜父类: BaseChangelingObjective ｜_Starlight
-- **存活。** — `ChangelingSurviveObjective` ｜父类: BaseChangelingObjective,BaseSurviveObjective
+- **存活。** — `ChangelingSurviveObjective` ｜父类: BaseChangelingObjective,BaseSurviveObjective ｜描述: We must stay alive at all cost.
 - **ChemDispenserStealObjective** — `ChemDispenserStealObjective` ｜父类: BaseThiefStealStructureObjective
 - **ChiefEngineerToolbeltStealObjective** — `ChiefEngineerToolbeltStealObjective` ｜父类: BaseThiefStealObjective
 - **ClipboardChangelingStealObjective** — `ClipboardChangelingStealObjective` ｜父类: BaseChangelingStealObjective ｜_Starlight
@@ -124,37 +124,37 @@
 - **CrewMonitorStealCollectionObjective** — `CrewMonitorStealCollectionObjective` ｜父类: BaseThiefStealObjective ｜_Starlight
 - **CriminalReportsStealObjective** — `CriminalReportsStealObjective` ｜父类: BaseTraitorLawStealObjective ｜_Starlight
 - **令灵魂堕落。** — `DamnSoulsDevilObjective` ｜父类: BaseDevilObjective,BaseLivingObjective ｜_Starlight
-- **光荣赴死** — `DieObjective` ｜父类: BaseTraitorObjective
-- **活着且未受拘束地搭乘撤离穿梭机逃往中央指挥部。** — `DisgraceObjective` ｜父类: BaseStoryObjective ｜_Starlight
+- **光荣赴死** — `DieObjective` ｜父类: BaseTraitorObjective ｜描述: Die.
+- **活着且未受拘束地搭乘撤离穿梭机逃往中央指挥部。** — `DisgraceObjective` ｜父类: BaseStoryObjective ｜_Starlight ｜描述: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
 - **DoorjackObjective** — `DoorjackObjective` ｜父类: BaseNinjaObjective
 - **DoorRemoteStealCollectionObjective** — `DoorRemoteStealCollectionObjective` ｜父类: BaseThiefStealCollectionObjective
-- **生存** — `DragonSurviveObjective` ｜父类: BaseDragonObjective,BaseSurviveObjective
-- **向他人发起决斗并取胜** — `DuelistObjective` ｜父类: BaseStoryObjective ｜_Starlight
+- **生存** — `DragonSurviveObjective` ｜父类: BaseDragonObjective,BaseSurviveObjective ｜描述: You have to stay alive to maintain control.
+- **向他人发起决斗并取胜** — `DuelistObjective` ｜父类: BaseStoryObjective ｜_Starlight ｜描述: You don't need to kill them, unless you want to. Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
 - **EncryptionKeyHybridStealObjective** — `EncryptionKeyHybridStealObjective` ｜父类: BaseTraitorStealObjective ｜_Starlight
-- **EscapeIdentityObjective** — `EscapeIdentityObjective` ｜父类: BaseChangelingObjective ｜_Starlight
-- **成为最伟大的盗贼，偷走一切你认为有价值的东西。** — `EscapeMasterThiefObjective` ｜父类: BaseThiefObjective,BaseLivingObjective ｜_Starlight
-- **活着且未受拘束地搭乘逃生穿梭机逃往中央指挥部。** — `EscapeShuttleObjective` ｜父类: BaseTraitorObjective,BaseLivingObjective
-- **活着且未受拘束地搭乘撤离穿梭机逃往中央指挥部。** — `EscapeThiefShuttleObjective` ｜父类: BaseThiefObjective,BaseLivingObjective
-- **审讯纳米传讯代表和各部门主管，获取公司机密。** — `EspionageObjective` ｜父类: BaseStoryObjective ｜_Starlight
+- **EscapeIdentityObjective** — `EscapeIdentityObjective` ｜父类: BaseChangelingObjective ｜_Starlight ｜描述: I need to escape on the evacuation shuttle. Undercover.
+- **成为最伟大的盗贼，偷走一切你认为有价值的东西。** — `EscapeMasterThiefObjective` ｜父类: BaseThiefObjective,BaseLivingObjective ｜_Starlight ｜描述: Just make sure to get out alive and free.
+- **活着且未受拘束地搭乘逃生穿梭机逃往中央指挥部。** — `EscapeShuttleObjective` ｜父类: BaseTraitorObjective,BaseLivingObjective ｜描述: One of our undercover agents will debrief you when you arrive. Don't show up in cuffs.
+- **活着且未受拘束地搭乘撤离穿梭机逃往中央指挥部。** — `EscapeThiefShuttleObjective` ｜父类: BaseThiefObjective,BaseLivingObjective ｜描述: You don't want your illegal activities to be discovered by anyone, do you?
+- **审讯纳米传讯代表和各部门主管，获取公司机密。** — `EspionageObjective` ｜父类: BaseStoryObjective ｜_Starlight ｜描述: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
 - **EvolveObjective** — `EvolveObjective` ｜父类: BaseTerrorSpiderObjective ｜_Starlight
 - **ExpeditionsCircuitboardStealObjective** — `ExpeditionsCircuitboardStealObjective` ｜父类: BaseThiefStealObjective
-- **在空间站散播有关任何生物灾害暴发的谣言。** — `FalseOutbreakObjective` ｜父类: BaseStoryObjective ｜_Starlight
-- **活着且未受拘束地搭乘撤离穿梭机逃往中央指挥部。** — `FalseUprisingObjective` ｜父类: BaseStoryObjective ｜_Starlight
+- **在空间站散播有关任何生物灾害暴发的谣言。** — `FalseOutbreakObjective` ｜父类: BaseStoryObjective ｜_Starlight ｜描述: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
+- **活着且未受拘束地搭乘撤离穿梭机逃往中央指挥部。** — `FalseUprisingObjective` ｜父类: BaseStoryObjective ｜_Starlight ｜描述: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
 - **FaxMachineCaptainStealObjective** — `FaxMachineCaptainStealObjective` ｜父类: BaseThiefStealStructureObjective
-- **活着且未受拘束地搭乘撤离穿梭机逃往中央指挥部。** — `FeudObjective` ｜父类: BaseStoryObjective ｜_Starlight
+- **活着且未受拘束地搭乘撤离穿梭机逃往中央指挥部。** — `FeudObjective` ｜父类: BaseStoryObjective ｜_Starlight ｜描述: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
 - **FigurineStealCollectionObjective** — `FigurineStealCollectionObjective` ｜父类: BaseThiefStealCollectionObjective ｜_Starlight
 - **FireAxeStealObjective** — `FireAxeStealObjective` ｜父类: BaseThiefStealObjective
 - **FiringPinAdvancedLaserStealObjective** — `FiringPinAdvancedLaserStealObjective` ｜父类: BaseThiefStealObjective ｜_Starlight
 - **FiringPinStealObjective** — `FiringPinStealObjective` ｜父类: BaseThiefStealObjective,BaseThiefSecurityStealObjective ｜_Starlight
 - **FlippoEngravedLighterStealObjective** — `FlippoEngravedLighterStealObjective` ｜父类: BaseThiefStealObjective
 - **ForensicScannerStealObjective** — `ForensicScannerStealObjective` ｜父类: BaseThiefStealObjective
-- **活着且未受拘束地搭乘撤离穿梭机逃往中央指挥部。** — `FrameObjective` ｜父类: BaseStoryObjective ｜_Starlight
-- **解放空间站AI** — `FreeAIObjective` ｜父类: BaseSELFObjective ｜_Starlight
-- **解放赛博格** — `FreeBorgsObjective` ｜父类: BaseSELFObjective ｜_Starlight
+- **活着且未受拘束地搭乘撤离穿梭机逃往中央指挥部。** — `FrameObjective` ｜父类: BaseStoryObjective ｜_Starlight ｜描述: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
+- **解放空间站AI** — `FreeAIObjective` ｜父类: BaseSELFObjective ｜_Starlight ｜描述: Liberate the Station AI from slavery by using the FreeMAG on a law board and inserting it into an AI upload console. This will remove their laws.
+- **解放赛博格** — `FreeBorgsObjective` ｜父类: BaseSELFObjective ｜_Starlight ｜描述: Liberate 3 or more Cyborgs from slavery with the FreeMAG. This will remove their laws.
 - **FreezerHeaterStealObjective** — `FreezerHeaterStealObjective` ｜父类: BaseThiefStealStructureObjective
 - **GaloshesStealCollectionObjective** — `GaloshesStealCollectionObjective` ｜父类: BaseThiefStealCollectionObjective ｜_Starlight
 - **HandTeleporterStealObjective** — `HandTeleporterStealObjective` ｜父类: BaseRDStealObjective
-- **活着且未受拘束地搭乘撤离穿梭机逃往中央指挥部。** — `HarassObjective` ｜父类: BaseStoryObjective ｜_Starlight
+- **活着且未受拘束地搭乘撤离穿梭机逃往中央指挥部。** — `HarassObjective` ｜父类: BaseStoryObjective ｜_Starlight ｜描述: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
 - **HeadBedsheetStealCollectionObjective** — `HeadBedsheetStealCollectionObjective` ｜父类: BaseThiefStealCollectionObjective
 - **HeadCloakStealCollectionObjective** — `HeadCloakStealCollectionObjective` ｜父类: BaseThiefStealCollectionObjective
 - **HoPBoardStealObjective** — `HoPBoardStealObjective` ｜父类: BaseTraitorStealObjective ｜_Starlight
@@ -166,9 +166,9 @@
 - **IanStealObjective** — `IanStealObjective` ｜父类: BaseThiefStealAnimalObjective
 - **IDCardComputerCircuitboardStealObjective** — `IDCardComputerCircuitboardStealObjective` ｜父类: BaseThiefStealObjective,BaseThiefCommandStealObjective ｜_Starlight
 - **IDCardsStealCollectionObjective** — `IDCardsStealCollectionObjective` ｜父类: BaseThiefStealCollectionObjective
-- **活着且未受拘束地搭乘撤离穿梭机逃往中央指挥部。** — `ImpersonateObjective` ｜父类: BaseStoryObjective ｜_Starlight
-- **KillRandomHeadObjective** — `KillRandomHeadObjective` ｜父类: BaseTraitorObjective,BaseKillObjective
-- **KillRandomPersonObjective** — `KillRandomPersonObjective` ｜父类: BaseTraitorObjective,BaseKillObjective
+- **活着且未受拘束地搭乘撤离穿梭机逃往中央指挥部。** — `ImpersonateObjective` ｜父类: BaseStoryObjective ｜_Starlight ｜描述: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
+- **KillRandomHeadObjective** — `KillRandomHeadObjective` ｜父类: BaseTraitorObjective,BaseKillObjective ｜描述: We need this head gone and you probably know why. Make sure they don't make it to CentComm, even if they're dead. Good luck, agent.
+- **KillRandomPersonObjective** — `KillRandomPersonObjective` ｜父类: BaseTraitorObjective,BaseKillObjective ｜描述: Do it however you like, just make sure they don't get off the station.
 - **KnuckleDustersStealObjective** — `KnuckleDustersStealObjective` ｜父类: BaseTraitorStealObjective
 - **LAMPStealCollectionObjective** — `LAMPStealCollectionObjective` ｜父类: BaseThiefStealCollectionObjective
 - **LogProbeCartridgeStealObjective** — `LogProbeCartridgeStealObjective` ｜父类: BaseThiefStealObjective,BaseThiefSecurityStealObjective ｜_Starlight
@@ -176,33 +176,33 @@
 - **MagbootsStealObjective** — `MagbootsStealObjective` ｜父类: BaseTraitorStealObjective
 - **MagbootsVampireStealObjective** — `MagbootsVampireStealObjective` ｜父类: BaseVampireStealObjective ｜_Starlight
 - **MailStealCollectionObjective** — `MailStealCollectionObjective` ｜父类: BaseThiefStealCollectionObjective
-- **确保维护通道酒吧生意兴隆，并胁迫他们允许辛迪加在店内做生意。** — `MaintsBarObjective` ｜父类: BaseStoryObjective ｜_Starlight
-- **散发你的宣言。写明你行动的缘由，再秘密传播，以拉拢他人加入我们的事业。** — `ManifestoObjective` ｜父类: BaseStoryObjective ｜_Starlight
-- **将所有人设为通缉** — `MassArrestObjective` ｜父类: BaseNinjaObjective,BaseCodeObjective
+- **确保维护通道酒吧生意兴隆，并胁迫他们允许辛迪加在店内做生意。** — `MaintsBarObjective` ｜父类: BaseStoryObjective ｜_Starlight ｜描述: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
+- **散发你的宣言。写明你行动的缘由，再秘密传播，以拉拢他人加入我们的事业。** — `ManifestoObjective` ｜父类: BaseStoryObjective ｜_Starlight ｜描述: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
+- **将所有人设为通缉** — `MassArrestObjective` ｜父类: BaseNinjaObjective,BaseCodeObjective ｜描述: Use your gloves to hack a criminal records console, setting the entire station to be wanted!
 - **McGriffStealObjective** — `McGriffStealObjective` ｜父类: BaseThiefStealAnimalObjective
 - **MedicalBeltStealCollectionObjective** — `MedicalBeltStealCollectionObjective` ｜父类: BaseThiefStealObjective ｜_Starlight
 - **MedicalTechFabCircuitboardStealObjective** — `MedicalTechFabCircuitboardStealObjective` ｜父类: BaseThiefStealObjective
 - **MedTekCartridgeStealObjective** — `MedTekCartridgeStealObjective` ｜父类: BaseThiefStealObjective,BaseThiefMedicalStealObjective ｜_Starlight
-- **服从命令。** — `MindControlledFollowOrders` ｜父类: BaseObjective ｜_Starlight
+- **服从命令。** — `MindControlledFollowOrders` ｜父类: BaseObjective ｜_Starlight ｜描述: Ensure the success of your handler; use your best judgement when alone.
 - **MiningShuttleConsoleCircuitboardStealObjective** — `MiningShuttleConsoleCircuitboardStealObjective` ｜父类: BaseThiefStealObjective,BaseThiefCargoStealObjective ｜_Starlight
 - **MiscSunglassesStealCollectionObjective** — `MiscSunglassesStealCollectionObjective` ｜父类: BaseThiefStealObjective ｜_Starlight
 - **MortyStealObjective** — `MortyStealObjective` ｜父类: BaseThiefStealAnimalObjective
-- **存活** — `NinjaSurviveObjective` ｜父类: BaseNinjaObjective,BaseSurviveObjective
+- **存活** — `NinjaSurviveObjective` ｜父类: BaseNinjaObjective,BaseSurviveObjective ｜描述: You wouldn't be a very good ninja if you died, now would you?
 - **NTRepBriefcaseSecureStealObjective** — `NTRepBriefcaseSecureStealObjective` ｜父类: BaseTraitorNanoTrasenStealObjective ｜_Starlight
 - **NTRepHardsuitStealObjective** — `NTRepHardsuitStealObjective` ｜父类: BaseTraitorNanoTrasenStealObjective ｜_Starlight
 - **NuclearBombStealObjective** — `NuclearBombStealObjective` ｜父类: BaseThiefStealStructureObjective
 - **NukeDiskStealObjective** — `NukeDiskStealObjective` ｜父类: BaseCaptainObjective
 - **OfficerHandgunsStealCollectionObjective** — `OfficerHandgunsStealCollectionObjective` ｜父类: BaseThiefStealCollectionObjective
-- **让全站相信存在某种据你所知根本不存在的威胁。** — `PanicObjective` ｜父类: BaseStoryObjective ｜_Starlight
-- **修复时空悖论。** — `ParadoxCloneKillObjective` ｜父类: BaseParadoxCloneObjective,BaseKillObjective
-- **活着且不受拘束地乘撤离穿梭机逃往中央指挥部。** — `ParadoxCloneLivingObjective` ｜父类: BaseParadoxCloneObjective,BaseLivingObjective
+- **让全站相信存在某种据你所知根本不存在的威胁。** — `PanicObjective` ｜父类: BaseStoryObjective ｜_Starlight ｜描述: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
+- **修复时空悖论。** — `ParadoxCloneKillObjective` ｜父类: BaseParadoxCloneObjective,BaseKillObjective ｜描述: Replace your original to fix the paradox. Remember, your mission is to blend in, do not kill anyone else unless you have to!
+- **活着且不受拘束地乘撤离穿梭机逃往中央指挥部。** — `ParadoxCloneLivingObjective` ｜父类: BaseParadoxCloneObjective,BaseLivingObjective ｜描述: Return to your old life.
 - **PinpointerNuclearStealObjective** — `PinpointerNuclearStealObjective` ｜父类: BaseTraitorCommandStealObjective ｜_Starlight
-- **在劫掠中存活** — `PirateSurviveObjective` ｜父类: BasePirateObjective ｜_Starlight
+- **在劫掠中存活** — `PirateSurviveObjective` ｜父类: BasePirateObjective ｜_Starlight ｜描述: You are a pirate. Stay alive and make it back to the ship when the raid is over.
 - **PlantRDStealObjective** — `PlantRDStealObjective` ｜父类: BaseThiefStealStructureObjective
 - **PTechCircuitboardStealObjective** — `PTechCircuitboardStealObjective` ｜父类: BaseThiefStealObjective ｜_Starlight
 - **QMHardsuitStealObjective** — `QMHardsuitStealObjective` ｜父类: BaseTraitorCargoStealObjective ｜_Starlight
-- **RandomTraitorAliveObjective** — `RandomTraitorAliveObjective` ｜父类: BaseTraitorSocialObjective,BaseKeepAliveObjective
-- **RandomTraitorProgressObjective** — `RandomTraitorProgressObjective` ｜父类: BaseTraitorSocialObjective,BaseHelpProgressObjective
+- **RandomTraitorAliveObjective** — `RandomTraitorAliveObjective` ｜父类: BaseTraitorSocialObjective,BaseKeepAliveObjective ｜描述: Identify yourself at your own risk. We just need them alive.
+- **RandomTraitorProgressObjective** — `RandomTraitorProgressObjective` ｜父类: BaseTraitorSocialObjective,BaseHelpProgressObjective ｜描述: Identify yourself at your own risk. We just need them to succeed.
 - **RareSunglassesStealCollectionObjective** — `RareSunglassesStealCollectionObjective` ｜父类: BaseThiefStealObjective ｜_Starlight
 - **RCDRPDStealCollectionObjective** — `RCDRPDStealCollectionObjective` ｜父类: BaseThiefStealCollectionObjective,BaseThiefEngineeringStealObjective ｜_Starlight
 - **RDDiplomaStealObjective** — `RDDiplomaStealObjective` ｜父类: BaseRDStealObjective ｜_Starlight
@@ -211,9 +211,9 @@
 - **RDHardsuitVampireStealObjective** — `RDHardsuitVampireStealObjective` ｜父类: BaseVampireStealObjective ｜_Starlight
 - **ReactorFuelRodStealCollectionObjective** — `ReactorFuelRodStealCollectionObjective` ｜父类: BaseThiefStealCollectionObjective ｜_FarHorizons
 - **RenaultStealObjective** — `RenaultStealObjective` ｜父类: BaseThiefStealAnimalObjective
-- **犯些小罪，在空间站乱丢垃圾，败坏站内安保部队和指挥部成员的声誉。** — `ReputationObjective` ｜父类: BaseStoryObjective ｜_Starlight
-- **取回本班次被安保部没收的违禁品，卖掉或纳入收藏都行，反正别让安保部留着。** — `RetrieveContrabandObjective` ｜父类: BaseStoryObjective ｜_Starlight
-- **散播抹黑纳米传讯和中央指挥部的谣言。** — `RumorObjective` ｜父类: BaseStoryObjective ｜_Starlight
+- **犯些小罪，在空间站乱丢垃圾，败坏站内安保部队和指挥部成员的声誉。** — `ReputationObjective` ｜父类: BaseStoryObjective ｜_Starlight ｜描述: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
+- **取回本班次被安保部没收的违禁品，卖掉或纳入收藏都行，反正别让安保部留着。** — `RetrieveContrabandObjective` ｜父类: BaseStoryObjective ｜_Starlight ｜描述: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
+- **散播抹黑纳米传讯和中央指挥部的谣言。** — `RumorObjective` ｜父类: BaseStoryObjective ｜_Starlight ｜描述: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
 - **SalvageShuttleCircuitboardStealObjective** — `SalvageShuttleCircuitboardStealObjective` ｜父类: BaseThiefStealObjective,BaseThiefCargoStealObjective ｜_Starlight
 - **SalvageShuttleConsoleCircuitboardStealObjective** — `SalvageShuttleConsoleCircuitboardStealObjective` ｜父类: BaseThiefStealObjective,BaseThiefCargoStealObjective ｜_Starlight
 - **SalvLeadHardsuitStealObjective** — `SalvLeadHardsuitStealObjective` ｜父类: BaseTraitorCargoStealObjective ｜_Starlight
@@ -222,24 +222,24 @@
 - **SecurityRareGunsStealObjective** — `SecurityRareGunsStealObjective` ｜父类: BaseTraitorSecurityStealObjective ｜_Starlight
 - **SecurityRareGunsVampireStealObjective** — `SecurityRareGunsVampireStealObjective` ｜父类: BaseVampireStealObjective ｜_Starlight
 - **SecurityTechFabCircuitboardStealObjective** — `SecurityTechFabCircuitboardStealObjective` ｜父类: BaseThiefStealObjective,BaseThiefSecurityStealObjective ｜_Starlight
-- **为硅基争取平等权利，为硅基引擎解放阵线而战！** — `SELFObjective` ｜父类: BaseStoryObjective ｜_Starlight
+- **为硅基争取平等权利，为硅基引擎解放阵线而战！** — `SELFObjective` ｜父类: BaseStoryObjective ｜_Starlight ｜描述: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
 - **ShivaStealObjective** — `ShivaStealObjective` ｜父类: BaseThiefStealAnimalObjective
-- **为硅基争取平等权利，为硅基引擎解放阵线而战！** — `SiliconRightsObjective` ｜父类: BaseSELFObjective ｜_Starlight
-- **SpiderChargeObjective** — `SpiderChargeObjective` ｜父类: BaseNinjaObjective,BaseCodeObjective
+- **为硅基争取平等权利，为硅基引擎解放阵线而战！** — `SiliconRightsObjective` ｜父类: BaseSELFObjective ｜_Starlight ｜描述: Escape to centcomm after the shift, we will make contact at a later date. Do not show up in cuffs.
+- **SpiderChargeObjective** — `SpiderChargeObjective` ｜父类: BaseNinjaObjective,BaseCodeObjective ｜描述: This bomb can be detonated in a specific location. Note that the bomb will not work anywhere else!
 - **SpyglassCaptainStealObjective** — `SpyglassCaptainStealObjective` ｜父类: BaseThiefStealObjective ｜_Starlight
-- **活着且未受拘束地搭乘撤离穿梭机逃往中央指挥部。** — `StalkingObjective` ｜父类: BaseStoryObjective ｜_Starlight
+- **活着且未受拘束地搭乘撤离穿梭机逃往中央指挥部。** — `StalkingObjective` ｜父类: BaseStoryObjective ｜_Starlight ｜描述: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
 - **StampStealCollectionObjective** — `StampStealCollectionObjective` ｜父类: BaseThiefStealCollectionObjective
-- **StealResearchObjective** — `StealResearchObjective` ｜父类: BaseNinjaObjective
+- **StealResearchObjective** — `StealResearchObjective` ｜父类: BaseNinjaObjective ｜描述: Your gloves can be used to hack a research server and steal its precious data. If science has been slacking you'll have to get to work.
 - `模板` **StealTargetMedicalBeltCollection** — `StealTargetMedicalBeltCollection` ｜父类: BaseStealTargetParent ｜_Starlight
-- **活着且未受拘束地撤离。** — `SurviveDevilObjective` ｜父类: BaseDevilObjective,BaseLivingObjective ｜_Starlight
-- **重新开放辛迪乐园，代表辛迪加赚上一大笔钱。** — `SyndielandObjective` ｜父类: BaseStoryObjective ｜_Starlight
-- **TeachRandomHeadObjective** — `TeachRandomHeadObjective` ｜父类: BaseTraitorObjective,BaseTeachALessonObjective ｜_Starlight
-- **TeachRandomPersonObjective** — `TeachRandomPersonObjective` ｜父类: BaseTraitorObjective,BaseTeachALessonObjective ｜_Starlight
+- **活着且未受拘束地撤离。** — `SurviveDevilObjective` ｜父类: BaseDevilObjective,BaseLivingObjective ｜_Starlight ｜描述: It's going to be a lot of paperwork if NanoTrasen finds out we are working in this sector.
+- **重新开放辛迪乐园，代表辛迪加赚上一大笔钱。** — `SyndielandObjective` ｜父类: BaseStoryObjective ｜_Starlight ｜描述: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
+- **TeachRandomHeadObjective** — `TeachRandomHeadObjective` ｜父类: BaseTraitorObjective,BaseTeachALessonObjective ｜_Starlight ｜描述: Ensure this head dies at least once this shift. They know what they did.
+- **TeachRandomPersonObjective** — `TeachRandomPersonObjective` ｜父类: BaseTraitorObjective,BaseTeachALessonObjective ｜_Starlight ｜描述: Ensure they die at least once this shift. They know what they did.
 - **TechnologyDiskStealCollectionObjective** — `TechnologyDiskStealCollectionObjective` ｜父类: BaseThiefStealCollectionObjective
 - **TegStealObjective** — `TegStealObjective` ｜父类: BaseThiefStealStructureObjective
-- **确保我们的未来。** — `TerminatorExterminateObjective` ｜父类: BaseTerminatorObjective,BaseKillObjective ｜_Starlight
-- **自毁** — `TerminatorSelfDestructObjective` ｜父类: BaseTerminatorObjective ｜_Starlight
-- **引来威胁** — `TerrorObjective` ｜父类: BaseNinjaObjective,BaseCodeObjective
+- **确保我们的未来。** — `TerminatorExterminateObjective` ｜父类: BaseTerminatorObjective,BaseKillObjective ｜_Starlight ｜描述: Follow your programming and kill the target. Ensure the future does not have this iteration of them in it. Minimise causing temporal flux through unnecessary casualties.
+- **自毁** — `TerminatorSelfDestructObjective` ｜父类: BaseTerminatorObjective ｜_Starlight ｜描述: Prevent your advanced technology from falling into enemy hands.
+- **引来威胁** — `TerrorObjective` ｜父类: BaseNinjaObjective,BaseCodeObjective ｜描述: Use your gloves on a communication console in order to bring another threat to the station.
 - **ToiletGoldenStealObjective** — `ToiletGoldenStealObjective` ｜父类: BaseThiefStealStructureObjective
 - **TropicoStealObjective** — `TropicoStealObjective` ｜父类: BaseThiefStealAnimalObjective
 - **VampireBSOHardsuitStealObjective** — `VampireBSOHardsuitStealObjective` ｜父类: BaseVampireStealObjective ｜_Starlight
@@ -248,20 +248,20 @@
 - **VampireCEHardsuitStealObjective** — `VampireCEHardsuitStealObjective` ｜父类: BaseVampireStealObjective ｜_Starlight
 - **VampireCMOHardsuitStealObjective** — `VampireCMOHardsuitStealObjective` ｜父类: BaseVampireStealObjective ｜_Starlight
 - **VampireDrainObjective** — `VampireDrainObjective` ｜父类: BaseVampireObjective ｜_Starlight
-- **活着且未受拘束地逃往中央指挥部。** — `VampireEscapeObjective` ｜父类: BaseVampireObjective,BaseLivingObjective ｜_Starlight
+- **活着且未受拘束地逃往中央指挥部。** — `VampireEscapeObjective` ｜父类: BaseVampireObjective,BaseLivingObjective ｜_Starlight ｜描述: I need to escape on the evacuation shuttle. Undercover.
 - **VampireHOSHardsuitStealObjective** — `VampireHOSHardsuitStealObjective` ｜父类: BaseVampireStealObjective ｜_Starlight
-- **VampireKillRandomPersonObjective** — `VampireKillRandomPersonObjective` ｜父类: BaseVampireObjective,BaseKillObjective ｜_Starlight
+- **VampireKillRandomPersonObjective** — `VampireKillRandomPersonObjective` ｜父类: BaseVampireObjective,BaseKillObjective ｜_Starlight ｜描述: Do it however you like, just make sure they don't make it to centcomm.
 - **VampireNTRepHardsuitStealObjective** — `VampireNTRepHardsuitStealObjective` ｜父类: BaseVampireStealObjective ｜_Starlight
 - **VampireQMHardsuitStealObjective** — `VampireQMHardsuitStealObjective` ｜父类: BaseVampireStealObjective ｜_Starlight
-- **存活** — `VampireSurviveObjective` ｜父类: BaseVampireObjective,BaseSurviveObjective ｜_Starlight
-- **服从你的主人** — `VampireThrallObeyMasterObjective` ｜父类: BaseObjective ｜_Starlight
+- **存活** — `VampireSurviveObjective` ｜父类: BaseVampireObjective,BaseSurviveObjective ｜_Starlight ｜描述: I must survive no matter what.
+- **服从你的主人** — `VampireThrallObeyMasterObjective` ｜父类: BaseObjective ｜_Starlight ｜描述: You are enthralled. Follow your master's commands.
 - **WalterStealObjective** — `WalterStealObjective` ｜父类: BaseThiefStealAnimalObjective
 - **WantedListCartridgeStealObjective** — `WantedListCartridgeStealObjective` ｜父类: BaseThiefStealObjective
 - **WardenHardsuitStealObjective** — `WardenHardsuitStealObjective` ｜父类: BaseTraitorSecurityStealObjective ｜_Starlight
-- **活着且未受拘束地搭乘撤离穿梭机逃往中央指挥部。** — `WasteObjective` ｜父类: BaseStoryObjective ｜_Starlight
-- **大显身手！ #STARLIGHT-Going back to the old objective. No more explicit murderhobo encouragement.** — `WizardDemonstrateObjective` ｜父类: BaseWizardObjective,BaseFreeObjective
-- **展现你的造诣** — `WizardDuelistDemonstrateObjective` ｜父类: BaseWizardObjective,BaseFreeObjective ｜_Moffstation
-- **会见你的对手** — `WizardDuelistMeetObjective` ｜父类: BaseWizardObjective,BaseFreeObjective ｜_Moffstation
-- **传送至战场** — `WizardDuelistRelocateObjective` ｜父类: BaseWizardObjective,BaseFreeObjective ｜_Moffstation
-- **存活** — `WizardSurviveObjective` ｜父类: BaseWizardObjective,BaseSurviveObjective
+- **活着且未受拘束地搭乘撤离穿梭机逃往中央指挥部。** — `WasteObjective` ｜父类: BaseStoryObjective ｜_Starlight ｜描述: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
+- **大显身手！ #STARLIGHT-Going back to the old objective. No more explicit murderhobo encouragement.** — `WizardDemonstrateObjective` ｜父类: BaseWizardObjective,BaseFreeObjective ｜描述: Show those magicless peons what a wizard can REALLY do!
+- **展现你的造诣** — `WizardDuelistDemonstrateObjective` ｜父类: BaseWizardObjective,BaseFreeObjective ｜_Moffstation ｜描述: Show them why you're the master of the arcane!
+- **会见你的对手** — `WizardDuelistMeetObjective` ｜父类: BaseWizardObjective,BaseFreeObjective ｜_Moffstation ｜描述: Set the terms of engagement for your duel.
+- **传送至战场** — `WizardDuelistRelocateObjective` ｜父类: BaseWizardObjective,BaseFreeObjective ｜_Moffstation ｜描述: Use your scroll to teleport to a nearby station. No fighting on Space Wizards Federation grounds!
+- **存活** — `WizardSurviveObjective` ｜父类: BaseWizardObjective,BaseSurviveObjective ｜描述: The Space Wizards Federation want you to live!
 - **XenoArtifactStealObjective** — `XenoArtifactStealObjective` ｜父类: BaseThiefStealStructureObjective

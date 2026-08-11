@@ -3,7 +3,7 @@
 > 来源层分布: 上游 110, _Starlight 65, _FarHorizons 4
 
 - **绑架者腺体效果** — `AbductorGravityGlandGravityWell` ｜父类: GlandEffectBase ｜_Starlight
-- **酸液** — `Acidifier`
+- **酸液** — `Acidifier` ｜描述: Melts you into a puddle of yuck!
 - `模板` **即时效果** — `AdminInstantEffectBase`
 - **即时效果** — `AdminInstantEffectBluespace` ｜父类: AdminInstantEffectBase
 - **即时效果** — `AdminInstantEffectEMP` ｜父类: AdminInstantEffectBase
@@ -16,13 +16,13 @@
 - **即时效果** — `AdminInstantEffectTearGas` ｜父类: AdminInstantEffectBase
 - **铝金属泡沫** — `AluminiumMetalFoam` ｜父类: MetalFoam
 - **AmbientSoundSourceFlies** — `AmbientSoundSourceFlies`
-- **火花** — `ArmorSparkEffect` ｜_Starlight
+- **火花** — `ArmorSparkEffect` ｜_Starlight ｜描述: Sparks flying from armor impact.
 - `模板` **BaseFoam** — `BaseFoam`
 - `模板` **基础泡沫金属** — `BaseFoamedMetal`
 - `模板` **闪电** — `BaseLightning`
-- `模板` **蓝空间传送门** — `BasePortal`
-- **蓝空间裂隙** — `BluespaceHarvesterPortal` ｜_Starlight
-- **蓝空间植入物效果** — `BluespaceImplantEffect` ｜父类: Acidifier ｜_Starlight
+- `模板` **蓝空间传送门** — `BasePortal` ｜描述: Transports you to a linked destination!
+- **蓝空间裂隙** — `BluespaceHarvesterPortal` ｜_Starlight ｜描述: A tear in reality leading to somewhere... else. Hostile entities pour through.
+- **蓝空间植入物效果** — `BluespaceImplantEffect` ｜父类: Acidifier ｜_Starlight ｜描述: Bluespace Portal
 - **带电闪电** — `ChargedLightning` ｜父类: BaseLightning
 - **低温传送门** — `CryoPortal` ｜_Starlight
 - **EffectAnomalyFloraBulb** — `EffectAnomalyFloraBulb`
@@ -56,7 +56,7 @@
 - **传送** — `EffectTeleportation` ｜_Starlight
 - **传送** — `EffectTeleportationEntity` ｜_Starlight
 - **EffectTerminatorChronospace** — `EffectTerminatorChronospace` ｜_Starlight
-- **茧** — `EffectTerrorCocoon` ｜_Starlight
+- **茧** — `EffectTerrorCocoon` ｜_Starlight ｜描述: Web cocoon with people inside!
 - **EffectTeslaSparks** — `EffectTeslaSparks`
 - **热成像视觉** — `EffectThermalVision` ｜_Starlight
 - **热成像视觉** — `EffectThermalVisionRevenant` ｜父类: EffectThermalVision ｜_Starlight
@@ -73,12 +73,12 @@
 - **感叹号** — `Exclamation`
 - **爆炸光效** — `ExplosionLight`
 - **泡沫** — `Foam` ｜父类: BaseFoam
-- **泡沫铝** — `FoamedAluminiumMetal` ｜父类: BaseFoamedMetal
-- **泡沫铁** — `FoamedIronMetal` ｜父类: BaseFoamedMetal
-- **FtlVisualizerEntity** — `FtlVisualizerEntity`
+- **泡沫铝** — `FoamedAluminiumMetal` ｜父类: BaseFoamedMetal ｜描述: Leftover sparse foam from an aluminum foam grenade. Easily destroyed.
+- **泡沫铁** — `FoamedIronMetal` ｜父类: BaseFoamedMetal ｜描述: For sealing hull breaches.
+- **FtlVisualizerEntity** — `FtlVisualizerEntity` ｜描述: Visualizer for shuttles arriving. You shouldn't see this!
 - **GasTurbineSmokeEffect** — `GasTurbineSmokeEffect` ｜_FarHorizons
 - **GasTurbineSparkEffect** — `GasTurbineSparkEffect` ｜_FarHorizons
-- **酸液** — `GearAcidifier` ｜_Starlight
+- **酸液** — `GearAcidifier` ｜_Starlight ｜描述: Melts your gear into a puddle of yuck!
 - `模板` **绑架者腺体效果** — `GlandEffectBase` ｜_Starlight
 - **极充能闪电** — `HyperchargedLightning` ｜父类: ChargedLightning
 - **铁金属泡沫** — `IronMetalFoam` ｜父类: MetalFoam
@@ -98,9 +98,9 @@
 - **蓝空间传送门** — `PortalBlue` ｜父类: BasePortal
 - **蓝空间传送门** — `PortalGatewayBlue` ｜父类: BasePortal
 - **蓝空间传送门** — `PortalGatewayOrange` ｜父类: BasePortal
-- **PortalGreeny** — `PortalGreeny` ｜_Starlight
-- **蓝空间传送门** — `PortalRed` ｜父类: BasePortal
-- **水洼** — `Puddle`
+- **PortalGreeny** — `PortalGreeny` ｜_Starlight ｜描述: A mysterious green portal!
+- **蓝空间传送门** — `PortalRed` ｜父类: BasePortal ｜描述: This one looks more like a redspace portal.
+- **水洼** — `Puddle` ｜描述: A puddle of liquid.
 - **水洼** — `PuddleBlood` ｜父类: PuddleTemporary
 - **水洼** — `PuddleBloodSmall` ｜父类: PuddleTemporary
 - **水洼** — `PuddleEgg` ｜父类: PuddleTemporary
@@ -113,15 +113,15 @@
 - **水洼** — `PuddleTomato` ｜父类: PuddleTemporary
 - **水洼** — `PuddleVomit` ｜父类: PuddleTemporary
 - **水洼** — `PuddleWatermelon` ｜父类: PuddleTemporary
-- **闪烁异常** — `RadiationPulse`
+- **闪烁异常** — `RadiationPulse` ｜描述: Looking at this anomaly makes you feel strange, like something is pushing at your eyes.
 - **ReactionFlash** — `ReactionFlash`
-- **红空间植入物效果** — `RedspaceImplantEffect` ｜父类: Acidifier ｜_Starlight
+- **红空间植入物效果** — `RedspaceImplantEffect` ｜父类: Acidifier ｜_Starlight ｜描述: Redspace Portal
 - **影裔相位进入** — `ShadekinPhaseInEffect` ｜_Starlight
 - **影裔相位进入 2** — `ShadekinPhaseInEffect2` ｜父类: ShadekinPhaseInEffect ｜_Starlight
 - **影裔相位退出** — `ShadekinPhaseOutEffect` ｜父类: ShadekinPhaseInEffect ｜_Starlight
 - **ShadekinShadegen** — `ShadekinShadegen` ｜_Starlight
 - **影裔雾霭** — `ShadekinShadow` ｜父类: BaseShadow ｜_Starlight
-- **暗影裂隙** — `ShadowPortal` ｜父类: BasePortal,BaseShadow
+- **暗影裂隙** — `ShadowPortal` ｜父类: BasePortal,BaseShadow ｜描述: Looks unstable.
 - **烟雾** — `Smoke` ｜父类: BaseFoam
 - **闪电** — `Spark` ｜父类: BaseLightning
 - **超充能闪电** — `SuperchargedLightning` ｜父类: ChargedLightning
@@ -130,15 +130,15 @@
 - **催泪瓦斯** — `TearGasSmokeYellow` ｜父类: TearGasSmoke ｜_Starlight
 - **铝热剂** — `ThermiteEntity` ｜_Starlight
 - **ThermiteFire** — `ThermiteFire` ｜_Starlight
-- **鲜血屏障** — `VampireBloodBarrier` ｜_Starlight
+- **鲜血屏障** — `VampireBloodBarrier` ｜_Starlight ｜描述: A barrier made of solidified blood that blocks movement.
 - **VampireBloodBondBeamVisual** — `VampireBloodBondBeamVisual` ｜_Starlight
 - **鲜血喷发** — `VampireBloodEruptionVisual` ｜_Starlight
 - **鲜血触须** — `VampireBloodTendrilVisual` ｜_Starlight
 - **VampireDarkPassageMistIn** — `VampireDarkPassageMistIn` ｜_Starlight
 - **VampireDarkPassageMistOut** — `VampireDarkPassageMistOut` ｜_Starlight
 - **VampireDemonicGraspEffect** — `VampireDemonicGraspEffect` ｜_Starlight
-- **汲取光束** — `VampireDrainBeam` ｜_Starlight
-- **汲取光束视觉效果** — `VampireDrainBeamVisual` ｜_Starlight
+- **汲取光束** — `VampireDrainBeam` ｜_Starlight ｜描述: A crimson beam of life-draining energy.
+- **汲取光束视觉效果** — `VampireDrainBeamVisual` ｜_Starlight ｜描述: A smooth client-side vampire drain beam.
 - **VampireEternalDarknessAura** — `VampireEternalDarknessAura` ｜_Starlight
 - **VampireImmobilizedEffect** — `VampireImmobilizedEffect` ｜_Starlight
 - **闪电** — `VampireLightning` ｜父类: BaseLightning ｜_Starlight
@@ -146,10 +146,10 @@
 - **吸血鬼变身入场** — `VampireSanguinePoolIn` ｜_Starlight
 - **吸血鬼变身离场** — `VampireSanguinePoolOut` ｜_Starlight
 - **VampireSeismicStompEffect** — `VampireSeismicStompEffect` ｜_Starlight
-- **暗影锚点** — `VampireShadowAnchorBeacon` ｜_Starlight
+- **暗影锚点** — `VampireShadowAnchorBeacon` ｜_Starlight ｜描述: A pulsing knot of shadow you can return to.
 - **暗影拳** — `VampireShadowBoxingPunch` ｜_Starlight
-- **暗影陷阱** — `VampireShadowSnare` ｜_Starlight
-- **暗影触须** — `VampireShadowSnareEnsnare` ｜_Starlight
+- **暗影陷阱** — `VampireShadowSnare` ｜_Starlight ｜描述: A nearly invisible trap made of condensed shadows.
+- **暗影触须** — `VampireShadowSnareEnsnare` ｜_Starlight ｜描述: Dark tendrils binding your legs.
 - **WallSpawnAsteroid** — `WallSpawnAsteroid`
 - **WallSpawnAsteroidBananium** — `WallSpawnAsteroidBananium` ｜父类: WallSpawnAsteroid
 - **WallSpawnAsteroidBananiumCrab** — `WallSpawnAsteroidBananiumCrab` ｜父类: WallSpawnAsteroid
@@ -180,4 +180,4 @@
 - **WeaponArcThrustOld** — `WeaponArcThrustOld` ｜父类: WeaponArcStatic ｜_Starlight
 - **感叹号** — `WhistleExclamation`
 - **烟雾** — `WizardSmoke` ｜父类: Smoke
-- **酸液** — `XenoborgAcidifier` ｜父类: Acidifier ｜_Starlight
+- **酸液** — `XenoborgAcidifier` ｜父类: Acidifier ｜_Starlight ｜描述: Dissolves a xenoborg chassis into a puddle of acid.

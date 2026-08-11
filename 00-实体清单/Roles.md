@@ -2,8 +2,8 @@
 
 > 来源层分布: 上游 36, _Starlight 28, _Moffstation 7
 
-- **制造隐形墙** — `ActionMimeInvisibleWall` ｜父类: BaseAction
-- `模板` **心智角色** — `BaseMindRole`
+- **制造隐形墙** — `ActionMimeInvisibleWall` ｜父类: BaseAction ｜描述: Create an invisible wall in front of you, if placeable there.
+- `模板` **心智角色** — `BaseMindRole` ｜描述: Mind Role entity
 - `模板` **BaseMindRoleAntag** — `BaseMindRoleAntag` ｜父类: BaseMindRole
 - **辛迪加背包** — `ClothingBackpackSyndicateGMNDamageControl` ｜父类: ClothingBackpackSyndicate ｜_Starlight
 - **辛迪加背包** — `ClothingBackpackSyndicateGMNGunner` ｜父类: ClothingBackpackSyndicate ｜_Starlight

@@ -2,24 +2,24 @@
 
 > 来源层分布: _Starlight 140
 
-- **强行侵入** — `ActionCosmicAnomalyIngress` ｜_Starlight
-- **转移主观意识** — `ActionCosmicBlank` ｜_Starlight
-- **召来塑像** — `ActionCosmicColossusEffigy` ｜_Starlight
-- **沉眠之壳** — `ActionCosmicColossusHibernate` ｜_Starlight
-- **巨像侵入** — `ActionCosmicColossusIngress` ｜_Starlight
-- **熵能崩解** — `ActionCosmicColossusSunder` ｜_Starlight
-- **虚无碎裂** — `ActionCosmicFragmentation` ｜_Starlight
-- **虚无眩光** — `ActionCosmicGlare` ｜_Starlight
-- **空无加护** — `ActionCosmicImposition` ｜_Starlight
-- **强行侵入** — `ActionCosmicIngress` ｜_Starlight
-- **异常停滞** — `ActionCosmicLapse` ｜_Starlight
-- **迁移纪念碑** — `ActionCosmicMoveMonument` ｜_Starlight
-- **星界新星** — `ActionCosmicNova` ｜_Starlight
-- **召来纪念碑** — `ActionCosmicPlaceMonument` ｜_Starlight
-- **返回** — `ActionCosmicReturn` ｜_Starlight
-- **汲取熵** — `ActionCosmicSiphon` ｜_Starlight
+- **强行侵入** — `ActionCosmicAnomalyIngress` ｜_Starlight ｜描述: Direct the energies from your Anomaly Infection to force a secure doorway open.
+- **转移主观意识** — `ActionCosmicBlank` ｜_Starlight ｜描述: Shunt your target's mind out of their body and unto the cosmic dark, temporarily rendering their body mindless.
+- **召来塑像** — `ActionCosmicColossusEffigy` ｜_Starlight ｜描述: Draw out an Effigy of Entropy into realspace.
+- **沉眠之壳** — `ActionCosmicColossusHibernate` ｜_Starlight ｜描述: Slumber your body for a period of time to regenerate integrity. Must be done on stable ground.
+- **巨像侵入** — `ActionCosmicColossusIngress` ｜_Starlight ｜描述: Use your colossal strength to force open a doorway.
+- **熵能崩解** — `ActionCosmicColossusSunder` ｜_Starlight ｜描述: Warp to the target location and unleash a cascading detonation of malign energy.
+- **虚无碎裂** — `ActionCosmicFragmentation` ｜_Starlight ｜描述: Transfer your malign empowerment into a digital system, such as an AI Upload Console, Cyborg or IPC, corrupting it in the process. Doing so will expend your empowerment.
+- **虚无眩光** — `ActionCosmicGlare` ｜_Starlight ｜描述: Emit a horrific pulse of cosmic light, slowing and disorienting everyone around you. Its effects are amplified against silicon-based entities.
+- **空无加护** — `ActionCosmicImposition` ｜_Starlight ｜描述: You negate any incoming damage for a short time.
+- **强行侵入** — `ActionCosmicIngress` ｜_Starlight ｜描述: Use a concentrated blast of power to force a secure doorway open.
+- **异常停滞** — `ActionCosmicLapse` ｜_Starlight ｜描述: Lapse your target's corporeal form, temporarily rendering it immutable, impassible, and frozen in place.
+- **迁移纪念碑** — `ActionCosmicMoveMonument` ｜_Starlight ｜描述: Your work is imperative, and the end is inevitable. Ensure that it is completed under your watch.
+- **星界新星** — `ActionCosmicNova` ｜_Starlight ｜描述: Hurl a large and disruptive blast of astral energy.
+- **召来纪念碑** — `ActionCosmicPlaceMonument` ｜_Starlight ｜描述: Call forth The Monument into realspace. Keep it hidden and safe from non-cultists!
+- **返回** — `ActionCosmicReturn` ｜_Starlight ｜描述: Dissipate your astral projection and return to your body.
+- **汲取熵** — `ActionCosmicSiphon` ｜_Starlight ｜描述: Silently siphon entropy from your target, dealing some damage in the process.
 - **AlertCosmicEntropySpriteView** — `AlertCosmicEntropySpriteView` ｜_Starlight
-- **宇宙祭坛** — `AltarCosmic` ｜父类: AltarNanotrasen ｜_Starlight
+- **宇宙祭坛** — `AltarCosmic` ｜父类: AltarNanotrasen ｜_Starlight ｜描述: Altar of.. Something.
 - `模板` **BaseCosmicColossusObjective** — `BaseCosmicColossusObjective` ｜父类: BaseObjective ｜_Starlight
 - `模板` **BaseCosmicCultItem** — `BaseCosmicCultItem` ｜父类: BaseItem,BaseMagicalContraband ｜_Starlight
 - `模板` **BaseCosmicCultObjective** — `BaseCosmicCultObjective` ｜父类: BaseObjective ｜_Starlight
@@ -27,33 +27,33 @@
 - `模板` **BaseMobCosmicHostile** — `BaseMobCosmicHostile` ｜父类: BaseSimpleMob,FlyingMobBase ｜_Starlight
 - **BulletImpactEffectCosmic** — `BulletImpactEffectCosmic` ｜_Starlight
 - **CleanseEffectVFX** — `CleanseEffectVFX` ｜父类: BaseCosmicVFX ｜_Starlight
-- **熵能头盔** — `ClothingHeadHelmetCosmicCult` ｜父类: ClothingHeadHardsuitBase,BaseCosmicCultItem ｜_Starlight
-- **熵能装甲** — `ClothingOuterHardsuitCosmicCult` ｜父类: ClothingOuterHardsuitBase,BaseCosmicCultItem ｜_Starlight
-- **召来** — `ColossusEffigyObjective` ｜父类: BaseCosmicColossusObjective,BaseCodeObjective ｜_Starlight
+- **熵能头盔** — `ClothingHeadHelmetCosmicCult` ｜父类: ClothingHeadHardsuitBase,BaseCosmicCultItem ｜_Starlight ｜描述: This headpiece seems to extrude from the hardsuit it's attached to as if the material is one single, contiguous whole.
+- **熵能装甲** — `ClothingOuterHardsuitCosmicCult` ｜父类: ClothingOuterHardsuitBase,BaseCosmicCultItem ｜_Starlight ｜描述: An unsettling hardsuit, numbing to the touch. It pulses with a glow that makes you feel like you've forgotten something..
+- **召来** — `ColossusEffigyObjective` ｜父类: BaseCosmicColossusObjective,BaseCodeObjective ｜_Starlight ｜描述: Call forth an Effigy of Entropy.
 - **ColossusSpawn** — `ColossusSpawn` ｜父类: BaseGameRule ｜_Starlight
-- **坚持** — `ColossusSurviveObjective` ｜父类: BaseCosmicColossusObjective,BaseSurviveObjective ｜_Starlight
+- **坚持** — `ColossusSurviveObjective` ｜父类: BaseCosmicColossusObjective,BaseSurviveObjective ｜_Starlight ｜描述: Persist until the end of all things.
 - **CosmicAnomalyInjection** — `CosmicAnomalyInjection` ｜_Starlight
 - **异常注入器** — `CosmicAnomalyTrap` ｜父类: BaseAnomalyInjector ｜_Starlight
 - **CosmicBlankAbilityVFX** — `CosmicBlankAbilityVFX` ｜父类: BaseCosmicVFX ｜_Starlight
-- **空无圣堂** — `CosmicBorgChantry` ｜父类: BaseStructure ｜_Starlight
-- **炽诚香炉** — `CosmicCenser` ｜父类: BaseItem ｜_Starlight
+- **空无圣堂** — `CosmicBorgChantry` ｜父类: BaseStructure ｜_Starlight ｜描述: Its surface churns with rampant malign light.
+- **炽诚香炉** — `CosmicCenser` ｜父类: BaseItem ｜_Starlight ｜描述: Cleanses and sanctifies the air around it.
 - **邪异长椅** — `CosmicChair` ｜父类: SeatBase ｜_Starlight
 - **被困的灵火** — `CosmicChantryWisp` ｜_Starlight
 - **CosmicChaplainObjective** — `CosmicChaplainObjective` ｜父类: BaseCosmicCultObjective ｜_Starlight
 - **CosmicColossusAttack1Vfx** — `CosmicColossusAttack1Vfx` ｜父类: BaseCosmicVFX ｜_Starlight
 - **CosmicConversionObjective** — `CosmicConversionObjective` ｜父类: BaseCosmicCultObjective ｜_Starlight
 - **CosmicCult** — `CosmicCult` ｜父类: BaseGameRule ｜_Starlight
-- **邪异法则板** — `CosmicCultLawBoard` ｜父类: BaseElectronics,BaseCosmicCultItem ｜_Starlight
-- **星界心智沉池** — `CosmicCultMindSink` ｜父类: PositronicBrain,BaseCosmicCultItem ｜_Starlight
-- **收容遗忘牢** — `CosmicDeconversionJail` ｜父类: ConstructibleMachine ｜_Starlight
-- **邪异回响** — `CosmicEchoVfx` ｜父类: BaseCosmicVFX ｜_Starlight
-- **熵之塑像** — `CosmicEffigy` ｜父类: BaseStructure ｜_Starlight
+- **邪异法则板** — `CosmicCultLawBoard` ｜父类: BaseElectronics,BaseCosmicCultItem ｜_Starlight ｜描述: An eerie circuit board, suited for slotting into an AI law upload console. Its circuitry is interwoven with dendritic strands that twitch of their own accord.
+- **星界心智沉池** — `CosmicCultMindSink` ｜父类: PositronicBrain,BaseCosmicCultItem ｜_Starlight ｜描述: A strange artifact. Though comprised of malign materials, it instills no feelings of discomfort.
+- **收容遗忘牢** — `CosmicDeconversionJail` ｜父类: ConstructibleMachine ｜_Starlight ｜描述: An advanced mobile containment cell. When powered, its interior space is actively caustic towards anomalous influences.
+- **邪异回响** — `CosmicEchoVfx` ｜父类: BaseCosmicVFX ｜_Starlight ｜描述: A trace of malign light..
+- **熵之塑像** — `CosmicEffigy` ｜父类: BaseStructure ｜_Starlight ｜描述: An abhorrent malign anomaly. Raw entropy oozes forth, betraying its instability.
 - **CosmicEntropyObjective** — `CosmicEntropyObjective` ｜父类: BaseCosmicCultObjective ｜_Starlight
 - **CosmicFinalityObjective** — `CosmicFinalityObjective` ｜父类: BaseCosmicCultObjective ｜_Starlight
 - **CosmicFloorSpawnVFX** — `CosmicFloorSpawnVFX` ｜_Starlight
 - **CosmicGenericVFX** — `CosmicGenericVFX` ｜父类: BaseCosmicVFX ｜_Starlight
 - **CosmicGlareAbilityVFX** — `CosmicGlareAbilityVFX` ｜父类: BaseCosmicVFX ｜_Starlight
-- `模板` **基础符文** — `CosmicGlyphBase` ｜_Starlight
+- `模板` **基础符文** — `CosmicGlyphBase` ｜_Starlight ｜描述: A strange, otherworldly marking.
 - **刀刃符文** — `CosmicGlyphBlades` ｜父类: CosmicGlyphBase ｜_Starlight
 - **终止符文** — `CosmicGlyphCessation` ｜父类: CosmicGlyphBase ｜_Starlight
 - **知识符文** — `CosmicGlyphKnowledge` ｜父类: CosmicGlyphBase ｜_Starlight
@@ -62,12 +62,12 @@
 - **守护符文** — `CosmicGlyphWarding` ｜父类: CosmicGlyphBase ｜_Starlight
 - **CosmicImpositionAbilityVFX** — `CosmicImpositionAbilityVFX` ｜父类: BaseCosmicVFX ｜_Starlight
 - **零空间稳定光束** — `CosmicLambdaBeam` ｜父类: BasicHitscan ｜_Starlight
-- **邪异灯** — `CosmicLamp` ｜_Starlight
+- **邪异灯** — `CosmicLamp` ｜_Starlight ｜描述: A mote of un-light shimmers within.
 - **CosmicLapseAbilityVFX** — `CosmicLapseAbilityVFX` ｜父类: BaseCosmicVFX ｜_Starlight
 - **CosmicMonumentObjective** — `CosmicMonumentObjective` ｜父类: BaseCosmicCultObjective ｜_Starlight
 - **CosmicNovaImpactVfx** — `CosmicNovaImpactVfx` ｜_Starlight
-- **邪异方尖碑** — `CosmicObelisk` ｜父类: BaseStructure ｜_Starlight
-- `模板` **？？？** — `CosmicPolymorphEnt` ｜父类: BaseStructure ｜_Starlight
+- **邪异方尖碑** — `CosmicObelisk` ｜父类: BaseStructure ｜_Starlight ｜描述: A mysterious-yet-inert sturcture. Unsettling.
+- `模板` **？？？** — `CosmicPolymorphEnt` ｜父类: BaseStructure ｜_Starlight ｜描述: Trapped in a lapse between here and there.
 - **？？？** — `CosmicPolymorphEntArachnid` ｜父类: CosmicPolymorphEnt ｜_Starlight
 - **？？？** — `CosmicPolymorphEntDecapoid` ｜父类: CosmicPolymorphEnt ｜_Starlight
 - **？？？** — `CosmicPolymorphEntDiona` ｜父类: CosmicPolymorphEnt ｜_Starlight
@@ -75,21 +75,21 @@
 - **？？？** — `CosmicPolymorphEntMoth` ｜父类: CosmicPolymorphEnt ｜_Starlight
 - **？？？** — `CosmicPolymorphEntSnail` ｜父类: CosmicPolymorphEnt ｜_Starlight
 - **？？？** — `CosmicPolymorphEntVox` ｜父类: CosmicPolymorphEnt ｜_Starlight
-- **邪异仪器** — `CosmicShuttleCore` ｜父类: BaseStructure ｜_Starlight
-- **邪异桌** — `CosmicTable` ｜父类: CounterBase ｜_Starlight
+- **邪异仪器** — `CosmicShuttleCore` ｜父类: BaseStructure ｜_Starlight ｜描述: Its surface glows with a myriad of inscrutable glyphs that commmunicate a single word into your mind; "Flight".
+- **邪异桌** — `CosmicTable` ｜父类: CounterBase ｜_Starlight ｜描述: Unfathomably, cosmically.. Square.
 - **邪异引擎** — `CosmicThruster` ｜父类: BaseStructure ｜_Starlight
-- **空无尖塔** — `CosmicVacuousSpire` ｜父类: BaseStructure ｜_Starlight
+- **空无尖塔** — `CosmicVacuousSpire` ｜父类: BaseStructure ｜_Starlight ｜描述: Also known as the "chuuni fork".
 - **幽光生成点** — `CosmicVoidspawner` ｜父类: MarkerBase ｜_Starlight
 - **宗教用品箱** — `CrateChaplain` ｜父类: CratePlastic ｜_Starlight
-- **异常收容物资箱** — `CrateScienceAnomalousContainment` ｜父类: CrateScience ｜_Starlight
-- **宗教物资箱** — `CrateServiceReligious` ｜父类: CrateChaplain ｜_Starlight
-- **邪异通道** — `DoorCosmicCult` ｜父类: BaseMaterialDoorNavMap ｜_Starlight
+- **异常收容物资箱** — `CrateScienceAnomalousContainment` ｜父类: CrateScience ｜_Starlight ｜描述: Contains a Containment Oubliette circuit board and two A.P.E circuit boards.
+- **宗教物资箱** — `CrateServiceReligious` ｜父类: CrateChaplain ｜_Starlight ｜描述: Contains holy water, a censer and a bible.
+- **邪异通道** — `DoorCosmicCult` ｜父类: BaseMaterialDoorNavMap ｜_Starlight ｜描述: A strange, disquieting structure.
 - **熵化衰退** — `EntropicDegen` ｜父类: MobStatusEffectBase ｜_Starlight
-- **熵化腐朽** — `FloorCosmicDecay` ｜_Starlight
+- **熵化腐朽** — `FloorCosmicDecay` ｜_Starlight ｜描述: Just one look at this sends a chill running down your spine.
 - **？？？** — `FloorCosmicDecayAlt` ｜_Starlight
 - **水壶** — `JugHolywater` ｜父类: Jug ｜_Starlight
 - **MalignRiftSpawn** — `MalignRiftSpawn` ｜父类: BaseStationEvent ｜_Starlight
-- **熵微粒** — `MaterialCosmicCultEntropy` ｜父类: MaterialBase,BaseCosmicCultItem ｜_Starlight
+- **熵微粒** — `MaterialCosmicCultEntropy` ｜父类: MaterialBase,BaseCosmicCultItem ｜_Starlight ｜描述: A solidified mote of entropic essence. Feels numbing to the touch.
 - **熵微粒** — `MaterialCosmicCultEntropy1` ｜父类: MaterialCosmicCultEntropy ｜_Starlight
 - **熵微粒** — `MaterialCosmicCultEntropy2` ｜父类: MaterialCosmicCultEntropy ｜_Starlight
 - **熵微粒** — `MaterialCosmicCultEntropy3` ｜父类: MaterialCosmicCultEntropy ｜_Starlight
@@ -97,19 +97,19 @@
 - **熵微粒** — `MaterialCosmicCultEntropy5` ｜父类: MaterialCosmicCultEntropy ｜_Starlight
 - **巨像角色** — `MindRoleCosmicColossus` ｜父类: BaseMindRoleAntag ｜_Starlight
 - **宇宙教团角色** — `MindRoleCosmicCult` ｜父类: BaseMindRoleAntag ｜_Starlight
-- **星界飞升者** — `MobCosmicAstralAscended` ｜父类: BaseSimpleMob ｜_Starlight
-- **星界投影** — `MobCosmicAstralProjection` ｜父类: Incorporeal,BaseMob ｜_Starlight
+- **星界飞升者** — `MobCosmicAstralAscended` ｜父类: BaseSimpleMob ｜_Starlight ｜描述: Transcendant, ascendant.
+- **星界投影** — `MobCosmicAstralProjection` ｜父类: Incorporeal,BaseMob ｜_Starlight ｜描述: Neither here nor there.
 - **熵能巨像** — `MobCosmicColossus` ｜父类: MobCosmicColossusBase ｜_Starlight
-- `模板` **熵能巨像** — `MobCosmicColossusBase` ｜父类: BaseSimpleMob,FlyingMobBase ｜_Starlight
-- **熵变巨像** — `MobCosmicColossusLone` ｜父类: MobCosmicColossusBase ｜_Starlight
-- **邪异守卫** — `MobCosmicCustodian` ｜父类: MobCosmicAstralAscended ｜_Starlight
+- `模板` **熵能巨像** — `MobCosmicColossusBase` ｜父类: BaseSimpleMob,FlyingMobBase ｜_Starlight ｜描述: A colossal monstrosity of malign plating and dendritic infestation.
+- **熵变巨像** — `MobCosmicColossusLone` ｜父类: MobCosmicColossusBase ｜_Starlight ｜描述: An ancient monstrosity of malign plating and dendritic infestation.
+- **邪异守卫** — `MobCosmicCustodian` ｜父类: MobCosmicAstralAscended ｜_Starlight ｜描述: An abomination wrought of malign mass. It floats with a weightless, unnerving grace.
 - **邪异守卫** — `MobCosmicCustodianHostile` ｜父类: BaseMobCosmicHostile,MobCosmicCustodian ｜_Starlight
 - **未知存在** — `MobCosmicGod` ｜父类: MobCosmicGodBase,BaseMob ｜_Starlight
-- `模板` **未知存在** — `MobCosmicGodBase` ｜_Starlight
+- `模板` **未知存在** — `MobCosmicGodBase` ｜_Starlight ｜描述: Your mind begins to fracture and break as it fails to comprehend what looms before you.
 - **未知存在** — `MobCosmicGodSpawn` ｜父类: MobCosmicGodBase ｜_Starlight
-- **邪异引路星** — `MobCosmicLodestar` ｜父类: MobCosmicAstralAscended ｜_Starlight
+- **邪异引路星** — `MobCosmicLodestar` ｜父类: MobCosmicAstralAscended ｜_Starlight ｜描述: An abomination wrought of malign mass. A searing light glimmers within.
 - **邪异引路星** — `MobCosmicLodestarHostile` ｜父类: BaseMobCosmicHostile,MobCosmicLodestar ｜_Starlight
-- **邪异神谕者** — `MobCosmicOracle` ｜父类: MobCosmicAstralAscended ｜_Starlight
+- **邪异神谕者** — `MobCosmicOracle` ｜父类: MobCosmicAstralAscended ｜_Starlight ｜描述: An abomination wrought of malign mass. Its gaze seeks relentlessly.
 - **邪异神谕者** — `MobCosmicOracleHostile` ｜父类: BaseMobCosmicHostile,MobCosmicOracle ｜_Starlight
 - **灵火** — `MobCosmicWisp` ｜父类: BaseSimpleMob,FlyingMobBase ｜_Starlight
 - **MobTileDamageArea** — `MobTileDamageArea` ｜_Starlight
@@ -119,26 +119,26 @@
 - **纪念碑** — `MonumentCosmicCult1` ｜父类: MonumentCosmicCultBase ｜_Starlight
 - **MonumentCosmicCult2** — `MonumentCosmicCult2` ｜_Starlight
 - **MonumentCosmicCult3** — `MonumentCosmicCult3` ｜_Starlight
-- `模板` **纪念碑** — `MonumentCosmicCultBase` ｜父类: BaseStructure ｜_Starlight
+- `模板` **纪念碑** — `MonumentCosmicCultBase` ｜父类: BaseStructure ｜_Starlight ｜描述: A great slab of unknowledge, only visible to those aware of it. Built of a thousand little nothings, its surface reflects a starless emptiness...
 - **纪念碑** — `MonumentCosmicCultMoveEnd` ｜父类: BaseStructure ｜_Starlight
 - **纪念碑** — `MonumentCosmicCultMoveStart` ｜父类: BaseStructure ｜_Starlight
 - **纪念碑** — `MonumentCosmicCultSpawnIn` ｜父类: BaseStructure ｜_Starlight
 - **MonumentSlowZone** — `MonumentSlowZone` ｜_Starlight
 - **NoosphericVFX1** — `NoosphericVFX1` ｜父类: BaseCosmicVFX ｜_Starlight
 - **NoosphericVFX2** — `NoosphericVFX2` ｜父类: BaseCosmicVFX ｜_Starlight
-- **收容遗忘牢机器电路板** — `OublietteCircuitBoard` ｜父类: BaseMachineCircuitboard ｜_Starlight
-- **未知毛绒玩具** — `PlushieCosmicCult` ｜父类: BasePlushie ｜_Starlight
-- **邪异能量弹** — `ProjectileCosmic` ｜父类: BaseBullet ｜_Starlight
-- **星界新星** — `ProjectileCosmicNova` ｜父类: BaseBullet ｜_Starlight
-- **星界能量弹** — `ProjectileCosmicRazor` ｜父类: ProjectileCosmic ｜_Starlight
+- **收容遗忘牢机器电路板** — `OublietteCircuitBoard` ｜父类: BaseMachineCircuitboard ｜_Starlight ｜描述: A machine printed circuit board for a containment oubliette.
+- **未知毛绒玩具** — `PlushieCosmicCult` ｜父类: BasePlushie ｜_Starlight ｜描述: A small stuffed doll resembling the indistinct likeness of an unknown cosmic force. That doesn't really make sense, but the marketing department was really insistent about it.
+- **邪异能量弹** — `ProjectileCosmic` ｜父类: BaseBullet ｜_Starlight ｜描述: Ouch.
+- **星界新星** — `ProjectileCosmicNova` ｜父类: BaseBullet ｜_Starlight ｜描述: Uh oh.
+- **星界能量弹** — `ProjectileCosmicRazor` ｜父类: ProjectileCosmic ｜_Starlight ｜描述: Ouch.
 - **星界剃刀** — `ScytheCosmicCult` ｜父类: BaseCosmicCultItem ｜_Starlight
 - **幽灵角色生成点** — `SpawnPointCosmicColossus` ｜父类: BaseAntagSpawner ｜_Starlight
-- **空无长枪** — `SpearCosmicCult` ｜父类: BaseCosmicCultItem ｜_Starlight
-- **熵能巨刃** — `SwordCosmicCult` ｜父类: BaseSword,BaseCosmicCultItem ｜_Starlight
-- **邪异墙** — `WallCosmicCult` ｜父类: BaseWall ｜_Starlight
+- **空无长枪** — `SpearCosmicCult` ｜父类: BaseCosmicCultItem ｜_Starlight ｜描述: An unnerving spear, wrought of indescribable material. Being near it feels like a prickle of static spreading through your nerves.
+- **熵能巨刃** — `SwordCosmicCult` ｜父类: BaseSword,BaseCosmicCultItem ｜_Starlight ｜描述: An eerie greatsword wrought of indescribable material, forcibly extruded down into reality. Your instincts tell you that it does not belong here.
+- **邪异墙** — `WallCosmicCult` ｜父类: BaseWall ｜_Starlight ｜描述: A strange-looking wall. Staring at it for too long instills a sense of discomfort.
 - **邪异饰边墙** — `WallCosmicCultTrimmed` ｜父类: WallCosmicCult ｜_Starlight
 - **WeaponArcCosmic** — `WeaponArcCosmic` ｜父类: WeaponArcStatic ｜_Starlight
-- **邪异窗格** — `WindowCosmicCult` ｜父类: WindowRCDResistant ｜_Starlight
+- **邪异窗格** — `WindowCosmicCult` ｜父类: WindowRCDResistant ｜_Starlight ｜描述: An odd-looking window. Something about it unnerves you.
 - **邪异暗色窗格** — `WindowCosmicCultDark` ｜父类: WindowCosmicCult ｜_Starlight
-- **邪异斜角窗格** — `WindowCosmicCultDiagonal` ｜父类: WallShuttleDiagonal ｜_Starlight
+- **邪异斜角窗格** — `WindowCosmicCultDiagonal` ｜父类: WallShuttleDiagonal ｜_Starlight ｜描述: An odd-looking window. Something about it unnerves you.
 - **邪异暗色斜角窗格** — `WindowCosmicCultDiagonalDark` ｜父类: WindowCosmicCultDiagonal ｜_Starlight

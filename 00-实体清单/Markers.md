@@ -4,14 +4,14 @@
 
 - **AI 定时生成点** — `AITimedSpawner` ｜父类: MarkerBase
 - **随机祭坛 生成器** — `AltarSpawner` ｜父类: MarkerBase
-- **大气修复空气标记** — `AtmosFixAirMarker` ｜父类: MarkerBase
-- **大气修复真空标记** — `AtmosFixBlockerMarker` ｜父类: MarkerBase
-- **大气修复冷冻室标记** — `AtmosFixFreezerMarker` ｜父类: MarkerBase
-- **大气修复即时等离子体火灾标记** — `AtmosFixInstantPlasmaFireMarker` ｜父类: MarkerBase
-- **大气修复氮气标记** — `AtmosFixNitrogenMarker` ｜父类: MarkerBase
-- **大气修复氧气标记** — `AtmosFixOxygenMarker` ｜父类: MarkerBase
-- **大气修复等离子体标记** — `AtmosFixPlasmaMarker` ｜父类: MarkerBase
-- **大气修复氮气标记** — `AtmosFixVoxMarker` ｜父类: AtmosFixNitrogenMarker
+- **大气修复空气标记** — `AtmosFixAirMarker` ｜父类: MarkerBase ｜描述: Oxygen (21%) and nitrogen (79%) @ gas miner pressure, T20C
+- **大气修复真空标记** — `AtmosFixBlockerMarker` ｜父类: MarkerBase ｜描述: Vacuum, T20C
+- **大气修复冷冻室标记** — `AtmosFixFreezerMarker` ｜父类: MarkerBase ｜描述: Change air temp to 235K, for freezer with a bit of wiggle room to get set up.
+- **大气修复即时等离子体火灾标记** — `AtmosFixInstantPlasmaFireMarker` ｜父类: MarkerBase ｜描述: INSTANT PLASMAFIRE
+- **大气修复氮气标记** — `AtmosFixNitrogenMarker` ｜父类: MarkerBase ｜描述: Nitrogen @ gas miner pressure, T20C
+- **大气修复氧气标记** — `AtmosFixOxygenMarker` ｜父类: MarkerBase ｜描述: Oxygen @ gas miner pressure, T20C
+- **大气修复等离子体标记** — `AtmosFixPlasmaMarker` ｜父类: MarkerBase ｜描述: Plasma @ gas miner pressure, T20C
+- **大气修复氮气标记** — `AtmosFixVoxMarker` ｜父类: AtmosFixNitrogenMarker ｜描述: Nitrogen @ 101 kPa, 20C
 - `模板` **幽灵角色出生点** — `BaseAntagSpawner` ｜父类: MarkerBase
 - **房间生成点** — `BaseRoomMarker` ｜父类: MarkerBase
 - **战斗地图生成点** — `BattleMapSpawner100` ｜父类: MarkerBase

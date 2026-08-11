@@ -2,201 +2,201 @@
 
 > 来源层分布: _Starlight 147, 上游 88, _FarHorizons 1
 
-- **酸蚀通风口** — `ActionAcidVent` ｜_Starlight
-- **高级蓝空间皮下植入物，激活后会将使用者传送至远处。** — `ActionActivateBluespaceImplant` ｜父类: BaseMentalAction,BaseImplantAction ｜_Starlight
-- **启动死亡酸液装置** — `ActionActivateDeathAcidifier` ｜父类: BaseSuicideAction,BaseImplantAction
-- **扰乱DNA** — `ActionActivateDnaScramblerImplant` ｜父类: BaseImplantAction
-- **启动电磁脉冲** — `ActionActivateEmpImplant` ｜父类: BaseImplantAction
-- **挣脱束缚** — `ActionActivateFreedomImplant` ｜父类: BaseImplantAction
-- **启动装备溶酸器** — `ActionActivateGearAcidifier` ｜父类: BaseMentalAction,BaseImplantAction ｜_Starlight
-- **呵！** — `ActionActivateHonkImplant` ｜父类: BaseImplantAction
-- **巨猿症血清** — `ActionActivateMagillitisSerumImplant` ｜父类: BaseImplantAction ｜_Starlight
-- **启动微型炸弹** — `ActionActivateMicroBomb` ｜父类: BaseSuicideAction,BaseImplantAction
-- **高级红空间皮下植入物，激活后会将使用者传送至远处。** — `ActionActivateRedspaceImplant` ｜父类: BaseMentalAction,BaseImplantAction ｜_Starlight
-- **快溜！** — `ActionActivateScramImplant` ｜父类: BaseImplantAction
-- **启动生物降解机制** — `ActionActivateTerminatorDeathAcidifier` ｜父类: BaseSuicideAction,BaseImplantAction ｜_Starlight
-- **自毁** — `ActionActivateXenoroachSelfDestruct` ｜父类: BaseSuicideAction,BaseImplantAction ｜_Starlight
-- **查看法则** — `ActionAIViewLaws` ｜父类: BaseMentalAction
-- **汞合金过量** — `ActionAmalgamOverdose` ｜_Starlight
-- **解剖学万灵药** — `ActionAnatomicPanacea` ｜_Starlight
-- **产卵** — `ActionAnimalLayEgg` ｜父类: BaseAction
-- **异常脉冲** — `ActionAnomalyPulse` ｜父类: BaseAction
-- **增强视觉** — `ActionAugmentedEyesight` ｜_Starlight
-- **生物降解** — `ActionBiodegrade` ｜_Starlight
-- **呼叫支援！** — `ActionBorgCallForHelp` ｜父类: BaseAction ｜_Starlight
-- **弹奏吉他** — `ActionBorgiPlayMidi` ｜_Starlight
-- **打开法律数据库** — `ActionBorgOpenLawbook` ｜父类: BaseAction ｜_Starlight
-- **控制服装** — `ActionChameleonController`
-- **变色龙皮肤** — `ActionChameleonSkin` ｜_Starlight
-- **吞噬** — `ActionChangelingDevour`
-- **DNA 商店** — `ActionChangelingStore` ｜父类: ActionIntrinsicStore
-- **变形** — `ActionChangelingTransform`
-- **设置姓名** — `ActionChangeVoiceMask` ｜父类: BaseAction
+- **酸蚀通风口** — `ActionAcidVent` ｜_Starlight ｜描述: Unwelds vents.
+- **高级蓝空间皮下植入物，激活后会将使用者传送至远处。** — `ActionActivateBluespaceImplant` ｜父类: BaseMentalAction,BaseImplantAction ｜_Starlight ｜描述: An advanced subdermal implant that, when activated, teleports the user far away.
+- **启动死亡酸液装置** — `ActionActivateDeathAcidifier` ｜父类: BaseSuicideAction,BaseImplantAction ｜描述: Activates your death-acidifier, completely melting you and your equipment
+- **扰乱DNA** — `ActionActivateDnaScramblerImplant` ｜父类: BaseImplantAction ｜描述: Randomly changes your name and appearance.
+- **启动电磁脉冲** — `ActionActivateEmpImplant` ｜父类: BaseImplantAction ｜描述: Triggers a small EMP pulse around you
+- **挣脱束缚** — `ActionActivateFreedomImplant` ｜父类: BaseImplantAction ｜描述: Activating your freedom implant will free you from any hand restraints
+- **启动装备溶酸器** — `ActionActivateGearAcidifier` ｜父类: BaseMentalAction,BaseImplantAction ｜_Starlight ｜描述: Activates your gear-acidifier, melting your equipment but leaving your body intact
+- **呵！** — `ActionActivateHonkImplant` ｜父类: BaseImplantAction ｜描述: Activates your honking implant, which will produce the signature sound of the clown.
+- **巨猿症血清** — `ActionActivateMagillitisSerumImplant` ｜父类: BaseImplantAction ｜_Starlight ｜描述: An experimental biochip which causes irreversable rapid muscular growth in Hominidae. Side-affects may include hypertrichosis, violent outbursts, and an unending affinity for bananas.
+- **启动微型炸弹** — `ActionActivateMicroBomb` ｜父类: BaseSuicideAction,BaseImplantAction ｜描述: Activates your internal microbomb, completely destroying you and your equipment
+- **高级红空间皮下植入物，激活后会将使用者传送至远处。** — `ActionActivateRedspaceImplant` ｜父类: BaseMentalAction,BaseImplantAction ｜_Starlight ｜描述: An advanced subdermal implant that, when activated, teleports the user far away.
+- **快溜！** — `ActionActivateScramImplant` ｜父类: BaseImplantAction ｜描述: Randomly teleports you within a large distance.
+- **启动生物降解机制** — `ActionActivateTerminatorDeathAcidifier` ｜父类: BaseSuicideAction,BaseImplantAction ｜_Starlight ｜描述: Activates your first-phase bio-degradation mechanism, completely melting your outer layer and all equipped items. Your inner endoskeleton is revealed and left fully exposed.
+- **自毁** — `ActionActivateXenoroachSelfDestruct` ｜父类: BaseSuicideAction,BaseImplantAction ｜_Starlight ｜描述: Activates your self-destruct sequence, dissolving your chassis and leaving only a pool of acid.
+- **查看法则** — `ActionAIViewLaws` ｜父类: BaseMentalAction ｜描述: View the laws that you must follow.
+- **汞合金过量** — `ActionAmalgamOverdose` ｜_Starlight ｜描述: Inject some incredibly strong stimulants into yourself. Costs 40 chemicals.
+- **解剖学万灵药** — `ActionAnatomicPanacea` ｜_Starlight ｜描述: Cure yourself of diseases, disabilities, radiation, toxins, drunkedness and brain damage. Costs 30 chemicals.
+- **产卵** — `ActionAnimalLayEgg` ｜父类: BaseAction ｜描述: Uses hunger to lay an egg.
+- **异常脉冲** — `ActionAnomalyPulse` ｜父类: BaseAction ｜描述: Release a pulse of energy of your abnormal nature
+- **增强视觉** — `ActionAugmentedEyesight` ｜_Starlight ｜描述: Toggle flash protection. Must be disabled in order to use other eye augments.
+- **生物降解** — `ActionBiodegrade` ｜_Starlight ｜描述: Vomit a caustic substance onto any restraints, or someone's face. Costs 30 chemicals.
+- **呼叫支援！** — `ActionBorgCallForHelp` ｜父类: BaseAction ｜_Starlight ｜描述: Broadcast a distress signal to the Security channel with your current location. 120 second cooldown.
+- **弹奏吉他** — `ActionBorgiPlayMidi` ｜_Starlight ｜描述: Open your internal BASS GUITAR MIDI interface to soothe the station.
+- **打开法律数据库** — `ActionBorgOpenLawbook` ｜父类: BaseAction ｜_Starlight ｜描述: Access your integrated Space Law database.
+- **控制服装** — `ActionChameleonController` ｜描述: Change your entire outfit fast!
+- **变色龙皮肤** — `ActionChameleonSkin` ｜_Starlight ｜描述: Slowly blend in with the environment. Costs 15 chemicals.
+- **吞噬** — `ActionChangelingDevour` ｜描述: Consume the essence of your victims and subsume their identity and mind into your own.
+- **DNA 商店** — `ActionChangelingStore` ｜父类: ActionIntrinsicStore ｜描述: Opens the ability store.
+- **变形** — `ActionChangelingTransform` ｜描述: Transform and assume the identities of those you have devoured.
+- **设置姓名** — `ActionChangeVoiceMask` ｜父类: BaseAction ｜描述: Change the name others hear to something else.
 - **设置姓名** — `ActionChangeVoiceMaskImplant` ｜父类: ActionChangeVoiceMask
-- **选择吸血鬼职业** — `ActionClassSelectId` ｜父类: BaseAction ｜_Starlight
-- **清除网络连接标记** — `ActionClearNetworkLinkOverlays` ｜父类: BaseMentalAction
-- **战斗模式** — `ActionCombatModeToggle` ｜父类: BaseMentalAction
+- **选择吸血鬼职业** — `ActionClassSelectId` ｜父类: BaseAction ｜_Starlight ｜描述: Choose your vampire subclass.
+- **清除网络连接标记** — `ActionClearNetworkLinkOverlays` ｜父类: BaseMentalAction ｜描述: Clear network link overlays.
+- **战斗模式** — `ActionCombatModeToggle` ｜父类: BaseMentalAction ｜描述: Enter combat mode
 - **战斗模式** — `ActionCombatModeToggleOff` ｜父类: ActionCombatModeToggle
-- **设置战吼** — `ActionConfigureMeleeSpeech` ｜父类: BaseAction
-- **塑造骨片** — `ActionCreateBoneShard` ｜_Starlight
-- **制造工具箱** — `ActionCreateRobustToolbox` ｜父类: BaseAction ｜_Starlight
-- **制造手里剑** — `ActionCreateThrowingStar` ｜父类: BaseAction
-- **装死** — `ActionCritFakeDeath` ｜父类: BaseCritAction
-- **说出遗言** — `ActionCritLastWords` ｜父类: ActionCritSuccumb
-- **放弃求生** — `ActionCritSuccumb` ｜父类: BaseCritAction
-- **打开诅咒之书** — `ActionDamnationsMenu` ｜_Starlight
-- **脱氧麻黄碱过量** — `ActionDesoxyephedrineOverdose` ｜_Starlight
-- **自我复原** — `ActionDevilRejuvenate` ｜父类: BaseAction ｜_Starlight
-- **注入虫卵** — `ActionEggInjection` ｜_Starlight
-- **产卵** — `ActionEggsLaying` ｜_Starlight
-- **武士刀突进** — `ActionEnergyKatanaDash` ｜父类: BaseAction
-- **进入再生休眠** — `ActionEnterStasis` ｜_Starlight
-- **缠裹** — `ActionEntityWrap` ｜_Starlight
-- **麻黄碱过量** — `ActionEphedrineOverdose` ｜_Starlight
-- **打开进化菜单** — `ActionEvolutionMenu` ｜_Starlight
-- **进化** — `ActionEvolve` ｜_Starlight
-- **退出控制台** — `ActionExitConsole` ｜_Starlight
-- **退出休眠** — `ActionExitStasis` ｜_Starlight
-- **点燃** — `ActionFireStarter` ｜父类: BaseAction
-- **血肉修复** — `ActionFleshmend` ｜_Starlight
-- **标记** — `ActionGizmoMark` ｜_Starlight
-- **跳跃** — `ActionGravityJump` ｜父类: BaseAction
-- **接入蜂巢思维** — `ActionHivemindAccess` ｜_Starlight
-- **地狱漫步** — `ActionInfernalJaunt` ｜父类: BaseActionPolymorph ｜_Starlight
-- **自我复原** — `ActionInstantRejuvenate` ｜父类: BaseAction ｜_Starlight
-- **商店** — `ActionIntrinsicStore` ｜父类: BaseMentalAction
+- **设置战吼** — `ActionConfigureMeleeSpeech` ｜父类: BaseAction ｜描述: Set a custom battlecry for when you attack!
+- **塑造骨片** — `ActionCreateBoneShard` ｜_Starlight ｜描述: Break off shards of your bone and shape them into a throwing star, laced with a disorienting neurotoxin. Costs 15 chemicals.
+- **制造工具箱** — `ActionCreateRobustToolbox` ｜父类: BaseAction ｜_Starlight ｜描述: Creates a robust toolbox.
+- **制造手里剑** — `ActionCreateThrowingStar` ｜父类: BaseAction ｜描述: Channels suit power into creating a throwing star that deals extra stamina damage.
+- **装死** — `ActionCritFakeDeath` ｜父类: BaseCritAction ｜描述: Pretend to take your final breath while staying alive.
+- **说出遗言** — `ActionCritLastWords` ｜父类: ActionCritSuccumb ｜描述: Whisper your last words to anyone nearby, and then succumb to your fate. You only have 30 characters to work with.
+- **放弃求生** — `ActionCritSuccumb` ｜父类: BaseCritAction ｜描述: Accept your fate.
+- **打开诅咒之书** — `ActionDamnationsMenu` ｜_Starlight ｜描述: Refer to your list of damnations, see what ways you can oblige the crew.
+- **脱氧麻黄碱过量** — `ActionDesoxyephedrineOverdose` ｜_Starlight ｜描述: Inject some stronger stimulants into yourself, poisoning yourself mildly. Costs 30 chemicals.
+- **自我复原** — `ActionDevilRejuvenate` ｜父类: BaseAction ｜_Starlight ｜描述: Restore your body. Package does not include the SureRevive (tm) SuperCell (R) cellular damage cover. Fifteen minute cooldown.
+- **注入虫卵** — `ActionEggInjection` ｜_Starlight ｜描述: Injection of eggs into the body.
+- **产卵** — `ActionEggsLaying` ｜_Starlight ｜描述: Lay the egg.
+- **武士刀突进** — `ActionEnergyKatanaDash` ｜父类: BaseAction ｜描述: Teleport to anywhere you can see, if your Energy Katana is in your hand.
+- **进入再生休眠** — `ActionEnterStasis` ｜_Starlight ｜描述: Fake your death and start regenerating. Drains all your chemicals. Consumes biomass.
+- **缠裹** — `ActionEntityWrap` ｜_Starlight ｜描述: Wrap a target in web, immobilizing them.
+- **麻黄碱过量** — `ActionEphedrineOverdose` ｜_Starlight ｜描述: Inject some stimulants into yourself. Costs 20 chemicals.
+- **打开进化菜单** — `ActionEvolutionMenu` ｜_Starlight ｜描述: Opens the evolution menu. Can be used while unconscious.
+- **进化** — `ActionEvolve` ｜_Starlight ｜描述: evolve into a new entity.
+- **退出控制台** — `ActionExitConsole` ｜_Starlight ｜描述: Exit console.
+- **退出休眠** — `ActionExitStasis` ｜_Starlight ｜描述: Rise from the dead with full health. Costs 60 chemicals.
+- **点燃** — `ActionFireStarter` ｜父类: BaseAction ｜描述: Ignites enemies in a radius around you.
+- **血肉修复** — `ActionFleshmend` ｜_Starlight ｜描述: Rapidly heal yourself. Costs 35 chemicals.
+- **标记** — `ActionGizmoMark` ｜_Starlight ｜描述: using gizmo from your pockets to mark agent.
+- **跳跃** — `ActionGravityJump` ｜父类: BaseAction ｜描述: Activating the advanced propulsion system, you propel yourself a short distance in the direction of your gaze.
+- **接入蜂巢思维** — `ActionHivemindAccess` ｜_Starlight ｜描述: Tune your chemical receptors for hivemind communication.
+- **地狱漫步** — `ActionInfernalJaunt` ｜父类: BaseActionPolymorph ｜_Starlight ｜描述: Make an entrance! Comes with two charges - one for the entrance, and one for the exit. 5 minute recharge.
+- **自我复原** — `ActionInstantRejuvenate` ｜父类: BaseAction ｜_Starlight ｜描述: Restore your body to its original condition. Single use.
+- **商店** — `ActionIntrinsicStore` ｜父类: BaseMentalAction ｜描述: Opens the store
 - **跳跃助推** — `ActionJumpBoost` ｜父类: ActionGravityJump
-- **跳转至核心** — `ActionJumpToCore` ｜父类: BaseAction
+- **跳转至核心** — `ActionJumpToCore` ｜父类: BaseAction ｜描述: Sends your eye back to the core.
 - **清除实体** — `ActionMappingEraser` ｜父类: BaseMappingAction
-- **叭——————！！！** — `ActionMechActivateAirHorn` ｜_Starlight
-- **切换** — `ActionMechCycleEquipment` ｜父类: BaseMechAction
-- **弹出** — `ActionMechEject` ｜父类: BaseMechAction
-- **控制面板** — `ActionMechOpenUI` ｜父类: BaseMechAction
-- **切换内供气** — `ActionMechToggleInternals` ｜_Starlight
-- **切换照明** — `ActionMechToggleLights` ｜_Starlight
-- **切换摄像头** — `ActionMechToggleNightVision` ｜_Starlight
-- **切换警笛** — `ActionMechToggleSirens` ｜_Starlight
-- **切换推进器** — `ActionMechToggleThrusters` ｜_Starlight
-- **夜视视觉** — `ActionNightEyesight` ｜_Starlight
-- **电磁脉冲** — `ActionNinjaEmp` ｜父类: BaseAction
-- **质量扫描仪界面** — `ActionObserverShowRadar` ｜父类: BaseAGhostAction ｜_Starlight
-- **打开颊囊** — `ActionOpenMouthStorage` ｜_Starlight
-- **查看器官储气罐** — `ActionOpenOrganGasTankUI` ｜父类: BaseAction ｜_Starlight
-- **打开 Svyaz-UZL** — `ActionOpenSKBUplinkImplant` ｜_Starlight
-- **切换储物植入物** — `ActionOpenStorageImplant` ｜父类: BaseAction
-- **切换储物器官** — `ActionOpenStorageLeftLeg` ｜父类: BaseAction ｜_Starlight
-- **切换储物器官** — `ActionOpenStorageRightLeg` ｜父类: BaseAction ｜_Starlight
-- **打开升链** — `ActionOpenUplinkImplant` ｜父类: BaseAction
-- **灵界漫游** — `ActionPolymorphJaunt` ｜父类: BaseActionPolymorph
-- **灵界漫游 II** — `ActionPolymorphJauntII` ｜父类: ActionPolymorphJaunt
-- **灵界漫游 III** — `ActionPolymorphJauntIII` ｜父类: ActionPolymorphJaunt
-- **不可阻挡之杆形态** — `ActionPolymorphWizardRod` ｜父类: BaseActionPolymorph
-- **蜘蛛变形术** — `ActionPolymorphWizardSpider` ｜父类: BaseActionPolymorph
-- **召回武士刀** — `ActionRecallKatana` ｜父类: BaseAction
-- **高级利爪** — `ActionRetractableItemAdvancedClaws` ｜父类: BaseAction ｜_Starlight
-- **臂刃** — `ActionRetractableItemArmBlade` ｜父类: BaseAction
-- **真·臂刃** — `ActionRetractableItemArmBladePlus` ｜父类: BaseAction ｜_Starlight
-- **返回** — `ActionReturnToShip` ｜_Starlight
-- **亵渎** — `ActionRevenantDefile` ｜父类: BaseAction
-- **故障** — `ActionRevenantMalfunction` ｜父类: BaseAction
-- **过载灯具** — `ActionRevenantOverloadLights` ｜父类: BaseAction
-- **商店** — `ActionRevenantShop` ｜父类: ActionIntrinsicStore
-- **恢复原形** — `ActionRevertPolymorph` ｜父类: BaseAction
-- **蜂王浆** — `ActionRoyalJelly` ｜_Starlight
-- **尖叫** — `ActionScream` ｜父类: BaseAction
+- **叭——————！！！** — `ActionMechActivateAirHorn` ｜_Starlight ｜描述: Spread joy to everyone in hearing distance.
+- **切换** — `ActionMechCycleEquipment` ｜父类: BaseMechAction ｜描述: Cycles currently selected equipment
+- **弹出** — `ActionMechEject` ｜父类: BaseMechAction ｜描述: Ejects the pilot from the mech
+- **控制面板** — `ActionMechOpenUI` ｜父类: BaseMechAction ｜描述: Opens the control panel for the mech
+- **切换内供气** — `ActionMechToggleInternals` ｜_Starlight ｜描述: Start ventilating the interior from the gas tank.
+- **切换照明** — `ActionMechToggleLights` ｜_Starlight ｜描述: Turn on mech-mounted spotlights for visibility in poorly lit areas.
+- **切换摄像头** — `ActionMechToggleNightVision` ｜_Starlight ｜描述: Turn on the night vision camera mounted on the Mech.
+- **切换警笛** — `ActionMechToggleSirens` ｜_Starlight ｜描述: Turn on mech-mounted siren for everyone knows who's coming.
+- **切换推进器** — `ActionMechToggleThrusters` ｜_Starlight ｜描述: Turn on mech-mounted thrusters for flying in space.
+- **夜视视觉** — `ActionNightEyesight` ｜_Starlight ｜描述: Toggle night vision.
+- **电磁脉冲** — `ActionNinjaEmp` ｜父类: BaseAction ｜描述: Disable any nearby technology with an electro-magnetic pulse.
+- **质量扫描仪界面** — `ActionObserverShowRadar` ｜父类: BaseAGhostAction ｜_Starlight ｜描述: View a Mass Scanner Interface.
+- **打开颊囊** — `ActionOpenMouthStorage` ｜_Starlight ｜描述: Allows you to store items in your cheeks.
+- **查看器官储气罐** — `ActionOpenOrganGasTankUI` ｜父类: BaseAction ｜_Starlight ｜描述: View the gas contents of your organ.
+- **打开 Svyaz-UZL** — `ActionOpenSKBUplinkImplant` ｜_Starlight ｜描述: Opens the SKB uplink embedded under your skin
+- **切换储物植入物** — `ActionOpenStorageImplant` ｜父类: BaseAction ｜描述: Opens or closes the storage implant embedded under your skin
+- **切换储物器官** — `ActionOpenStorageLeftLeg` ｜父类: BaseAction ｜_Starlight ｜描述: Opens or closes the storage attached to your left leg
+- **切换储物器官** — `ActionOpenStorageRightLeg` ｜父类: BaseAction ｜_Starlight ｜描述: Opens or closes the storage attached to your right leg
+- **打开升链** — `ActionOpenUplinkImplant` ｜父类: BaseAction ｜描述: Opens the syndicate uplink embedded under your skin
+- **灵界漫游** — `ActionPolymorphJaunt` ｜父类: BaseActionPolymorph ｜描述: Melt into the Ethereal Plane for a quick getaway!
+- **灵界漫游 II** — `ActionPolymorphJauntII` ｜父类: ActionPolymorphJaunt ｜描述: Melt into the Ethereal Plane for an even quicker getaway!
+- **灵界漫游 III** — `ActionPolymorphJauntIII` ｜父类: ActionPolymorphJaunt ｜描述: Are you even tangible anymore?
+- **不可阻挡之杆形态** — `ActionPolymorphWizardRod` ｜父类: BaseActionPolymorph ｜描述: CLANG!
+- **蜘蛛变形术** — `ActionPolymorphWizardSpider` ｜父类: BaseActionPolymorph ｜描述: Polymorphs you into a Spider.
+- **召回武士刀** — `ActionRecallKatana` ｜父类: BaseAction ｜描述: Teleports the Energy Katana linked to this suit to its wearer, cost based on distance.
+- **高级利爪** — `ActionRetractableItemAdvancedClaws` ｜父类: BaseAction ｜_Starlight ｜描述: Extend or retract your claws!
+- **臂刃** — `ActionRetractableItemArmBlade` ｜父类: BaseAction ｜描述: Shed your flesh and reform it into a fleshy blade. Costs 20 chemicals to summon, and 20 chemicals to retract.
+- **真·臂刃** — `ActionRetractableItemArmBladePlus` ｜父类: BaseAction ｜_Starlight ｜描述: Shed your flesh and reform it into a truly beautiful blade. Costs 30 chemicals to summon, and 30 chemicals to retract.
+- **返回** — `ActionReturnToShip` ｜_Starlight ｜描述: return to the ship.
+- **亵渎** — `ActionRevenantDefile` ｜父类: BaseAction ｜描述: Costs 30 Essence.
+- **故障** — `ActionRevenantMalfunction` ｜父类: BaseAction ｜描述: Costs 60 Essence.
+- **过载灯具** — `ActionRevenantOverloadLights` ｜父类: BaseAction ｜描述: Costs 40 Essence.
+- **商店** — `ActionRevenantShop` ｜父类: ActionIntrinsicStore ｜描述: Opens the ability shop.
+- **恢复原形** — `ActionRevertPolymorph` ｜父类: BaseAction ｜描述: Revert back into your original form.
+- **蜂王浆** — `ActionRoyalJelly` ｜_Starlight ｜描述: lay royal jelly which can be eaten by spiders and heal them.
+- **尖叫** — `ActionScream` ｜父类: BaseAction ｜描述: AAAAAAAAAAAAAAAAAAAAAAAAA
 - **选择赛博格类型** — `ActionSelectBorgType` ｜父类: BaseAction
-- **传送自己** — `ActionSendYourself` ｜_Starlight
-- **织丝** — `ActionSericulture` ｜父类: BaseAction
-- **喷水！** — `ActionShootWater` ｜父类: BaseAction
-- **失谐尖啸** — `ActionShriekDissonant` ｜_Starlight
-- **共振尖啸** — `ActionShriekResonant` ｜_Starlight
-- **播放MIDI** — `ActionSiliconPlayMidi` ｜父类: BaseMentalAction ｜_FarHorizons
-- **睡觉** — `ActionSleep` ｜父类: BaseMentalAction
-- **蛛网茧** — `ActionSpiderBuildingCocoon` ｜父类: BaseAction ｜_Starlight
-- **氨气发生器** — `ActionSpiderBuildingGenerator` ｜父类: BaseAction ｜_Starlight
-- **蛛网柱** — `ActionSpiderBuildingPole` ｜父类: BaseAction ｜_Starlight
-- **EMP 尖啸** — `ActionSpiderEMPScream` ｜_Starlight
-- **蜘蛛网** — `ActionSpiderWeb` ｜父类: BaseAction
-- **进入休眠** — `ActionStasisEnter` ｜_Starlight
-- **退出休眠** — `ActionStasisExit` ｜_Starlight
-- **致盲刺** — `ActionStingBlind` ｜_Starlight
-- **燃血刺** — `ActionStingBurn` ｜_Starlight
-- **冷冻刺** — `ActionStingCryo` ｜_Starlight
-- **汲取刺** — `ActionStingDrain` ｜_Starlight
-- **DNA 提取刺** — `ActionStingExtractDNA` ｜_Starlight
-- **伪臂刃刺** — `ActionStingFakeArmblade` ｜_Starlight
-- **昏沉刺** — `ActionStingLethargic` ｜_Starlight
-- **禁言刺** — `ActionStingMute` ｜_Starlight
-- **变形刺** — `ActionStingTransform` ｜_Starlight
-- **召回双叉戟** — `ActionSummonBident` ｜父类: BaseAction ｜_Starlight
-- **召唤地狱契约** — `ActionSummonDemonicContract` ｜_Starlight
-- **显化羽毛笔** — `ActionSummonDevilPen` ｜父类: BaseAction ｜_Starlight
-- **切换摄像头灯光** — `ActionSurvCameraLights` ｜父类: BaseAction
-- **热成像视觉** — `ActionThermalEyesight` ｜_Starlight
-- **格挡** — `ActionToggleBlock` ｜父类: BaseToggleAction
-- **切换护甲** — `ActionToggleChitinousArmor` ｜_Starlight
-- **切换冷却装置** — `ActionToggleCoolingUnit` ｜父类: BaseAction ｜_Starlight
-- **切换手部** — `ActionToggleCyberHandLeft` ｜_Starlight
-- **切换手部** — `ActionToggleCyberHandRight` ｜_Starlight
-- **切换义肢** — `ActionToggleCyberLimb` ｜_Starlight
-- **切换能量穹顶** — `ActionToggleDome` ｜父类: BaseAction ｜_Starlight
-- **睁眼/闭眼** — `ActionToggleEyes` ｜父类: BaseMentalAction
-- **切换内循环** — `ActionToggleInternals` ｜父类: BaseAction
-- **切换内供气** — `ActionToggleInternalsOrgan` ｜父类: BaseAction ｜_Starlight
-- **切换指虎电击** — `ActionToggleKnuckleDustersStun` ｜父类: BaseAction
-- **低等形态** — `ActionToggleLesserForm` ｜_Starlight
-- **切换灯光** — `ActionToggleLight` ｜父类: BaseToggleAction
-- **切换忍者手套** — `ActionToggleNinjaGloves` ｜父类: BaseToggleAction
-- **塑造盾牌** — `ActionToggleOrganicShield` ｜父类: BaseAction ｜_Starlight
-- **切换急救员警笛** — `ActionToggleParamedicSiren` ｜父类: BaseToggleAction
-- **相位隐形** — `ActionTogglePhaseCloak` ｜父类: BaseAction
-- **切换原兽伪装** — `ActionToggleProtogenDisguise` ｜_Starlight
-- **扎根** — `ActionToggleRootable` ｜父类: BaseToggleAction
-- **切换潜行模式** — `ActionToggleSneakMode` ｜_Starlight
-- **切换太空服** — `ActionToggleSpacesuit` ｜_Starlight
-- **绷紧肌肉** — `ActionToggleStrainedMuscles` ｜_Starlight
-- **切换服装部件** — `ActionToggleSuitPiece` ｜父类: BaseAction
-- **切换热成像视觉** — `ActionToggleThermal` ｜_Starlight
-- **摇尾巴** — `ActionToggleWagging` ｜父类: BaseToggleAction
-- **化为亡灵** — `ActionTurnUndead` ｜父类: BaseMentalAction
-- **鲜血屏障（40）** — `ActionVampireBloodBarrier` ｜父类: BaseAction ｜_Starlight
-- **血之纽带（2.5/1秒）** — `ActionVampireBloodBond` ｜父类: BaseAction ｜_Starlight
-- **血之使者仪式（10/2秒）** — `ActionVampireBloodBringersRite` ｜父类: BaseAction ｜_Starlight
-- **鲜血喷发（100）** — `ActionVampireBloodEruption` ｜父类: BaseAction ｜_Starlight
-- **血液奔涌（30）** — `ActionVampireBloodRush` ｜父类: BaseAction ｜_Starlight
-- **血液膨胀（30）** — `ActionVampireBloodSwell` ｜父类: BaseAction ｜_Starlight
-- **冲锋（30）** — `ActionVampireCharge` ｜父类: BaseAction ｜_Starlight
-- **黑暗斗篷** — `ActionVampireCloakOfDarkness` ｜父类: BaseAction ｜_Starlight
-- **黑暗通道（20）** — `ActionVampireDarkPassage` ｜父类: BaseAction ｜_Starlight
-- **诱饵（30）** — `ActionVampireDecoy` ｜父类: BaseAction ｜_Starlight
-- **恶魔之握（20）** — `ActionVampireDemonicGrasp` ｜父类: BaseAction ｜_Starlight
-- **魅惑（150）** — `ActionVampireEnthrall` ｜父类: BaseAction ｜_Starlight
-- **永恒黑暗** — `ActionVampireEternalDarkness` ｜父类: BaseAction ｜_Starlight
-- **熄灭灯光** — `ActionVampireExtinguish` ｜父类: BaseAction ｜_Starlight
-- **凝视** — `ActionVampireGlare` ｜父类: BaseAction ｜_Starlight
-- **吸血鬼之爪（30）** — `ActionVampireHemomancerClaws` ｜父类: BaseAction ｜_Starlight
-- **鲜血触须（25）** — `ActionVampireHemomancerTendrils` ｜父类: BaseAction ｜_Starlight
-- **集体歇斯底里（70）** — `ActionVampireMassHysteria` ｜父类: BaseAction ｜_Starlight
-- **压倒性力量** — `ActionVampireOverwhelmingForce` ｜父类: BaseAction ｜_Starlight
-- **安抚（30）** — `ActionVampirePacify` ｜父类: BaseAction ｜_Starlight
-- **猎食者感知（20）** — `ActionVampirePredatorSense` ｜父类: BaseAction ｜_Starlight
-- **召集血仆（100）** — `ActionVampireRallyThralls` ｜父类: BaseAction ｜_Starlight
-- **复原** — `ActionVampireRejuvenateI` ｜父类: BaseAction ｜_Starlight
-- **复原 II** — `ActionVampireRejuvenateII` ｜父类: BaseAction ｜_Starlight
-- **血池（30）** — `ActionVampireSanguinePool` ｜父类: BaseAction ｜_Starlight
-- **震地践踏（30）** — `ActionVampireSeismicStomp` ｜父类: BaseAction ｜_Starlight
-- **暗影锚（20）** — `ActionVampireShadowAnchor` ｜父类: BaseAction ｜_Starlight
-- **暗影拳击（50）** — `ActionVampireShadowBoxing` ｜父类: BaseAction ｜_Starlight
-- **暗影陷阱（20）** — `ActionVampireShadowSnare` ｜父类: BaseAction ｜_Starlight
-- **沉睡（15）** — `ActionVampireSleep` ｜父类: BaseAction ｜_Starlight
-- **亚空间互换（30）** — `ActionVampireSubspaceSwap` ｜父类: BaseAction ｜_Starlight
-- **切换獠牙** — `ActionVampireToggleFangs` ｜父类: BaseAction ｜_Starlight
-- **发放物品** — `ActionVendingThrow` ｜父类: BaseAction
-- **查看法则** — `ActionViewLaws` ｜父类: BaseMentalAction
-- **查看心情** — `ActionViewMoods` ｜父类: BaseAction ｜_Starlight
-- **飞跃** — `ActionVulpkaninGravityJump` ｜父类: BaseAction
-- **醒来** — `ActionWake` ｜父类: BaseMentalAction
-- **蛛网球** — `ActionWebball` ｜_Starlight
+- **传送自己** — `ActionSendYourself` ｜_Starlight ｜描述: send yourself.
+- **织丝** — `ActionSericulture` ｜父类: BaseAction ｜描述: Weave a bit of silk for use in arts and crafts.
+- **喷水！** — `ActionShootWater` ｜父类: BaseAction ｜描述: Spray water towards your enemies.
+- **失谐尖啸** — `ActionShriekDissonant` ｜_Starlight ｜描述: Emit an EMP blast, with just your voice. Costs 30 chemicals.
+- **共振尖啸** — `ActionShriekResonant` ｜_Starlight ｜描述: Disorient people and break lights, with just your voice. Costs 25 chemicals.
+- **播放MIDI** — `ActionSiliconPlayMidi` ｜父类: BaseMentalAction ｜_FarHorizons ｜描述: Open your in-built MIDI program to jam to some electronic tunes.
+- **睡觉** — `ActionSleep` ｜父类: BaseMentalAction ｜描述: Go to sleep.
+- **蛛网茧** — `ActionSpiderBuildingCocoon` ｜父类: BaseAction ｜_Starlight ｜描述: Spawns a web cocoon that heals spider which entered in it.
+- **氨气发生器** — `ActionSpiderBuildingGenerator` ｜父类: BaseAction ｜_Starlight ｜描述: Spawns an ammonia generator that fills rooms with atmosphere.
+- **蛛网柱** — `ActionSpiderBuildingPole` ｜父类: BaseAction ｜_Starlight ｜描述: Spawns a web pole that spawns webs around at free tiles.
+- **EMP 尖啸** — `ActionSpiderEMPScream` ｜_Starlight ｜描述: Emit an EMP scream that disables electronics in a radius.
+- **蜘蛛网** — `ActionSpiderWeb` ｜父类: BaseAction ｜描述: Spawns a web that slows your prey down.
+- **进入休眠** — `ActionStasisEnter` ｜_Starlight ｜描述: Enter a state of suspended animation, healing damage over time but preventing movement and most actions.
+- **退出休眠** — `ActionStasisExit` ｜_Starlight ｜描述: Exit the state of suspended animation.
+- **致盲刺** — `ActionStingBlind` ｜_Starlight ｜描述: Silently sting your target, blinding them for a short time and rendering them near sighted. Costs 35 chemicals.
+- **燃血刺** — `ActionStingBurn` ｜_Starlight ｜描述: Silently sting your target, disorienting them while burning them from the inside out. Costs 35 chemicals.
+- **冷冻刺** — `ActionStingCryo` ｜_Starlight ｜描述: Silently sting your target, constantly slowing and freezing them. Costs 30 chemicals.
+- **汲取刺** — `ActionStingDrain` ｜_Starlight ｜描述: Silently sting your target, draining them of all their hunger and thirst. Costs 35 chemicals.
+- **DNA 提取刺** — `ActionStingExtractDNA` ｜_Starlight ｜描述: Steal your target's genetic information. Costs 25 chemicals.
+- **伪臂刃刺** — `ActionStingFakeArmblade` ｜_Starlight ｜描述: Silently sting your target, making them grow a dull armblade for a short time. Costs 50 chemicals.
+- **昏沉刺** — `ActionStingLethargic` ｜_Starlight ｜描述: Silently inject a cocktail of anesthetics into the target. Costs 25 chemicals.
+- **禁言刺** — `ActionStingMute` ｜_Starlight ｜描述: Silently sting your target, completely silencing them for a short time. Costs 35 chemicals.
+- **变形刺** — `ActionStingTransform` ｜_Starlight ｜描述: Silently sting your target, transforming them into a person of your choosing. Costs 75 chemicals.
+- **召回双叉戟** — `ActionSummonBident` ｜父类: BaseAction ｜_Starlight ｜描述: Summon a suitably evil looking weapon for diplomatic purposes.
+- **召唤地狱契约** — `ActionSummonDemonicContract` ｜_Starlight ｜描述: Summon an incredibly ominous piece of paper.
+- **显化羽毛笔** — `ActionSummonDevilPen` ｜父类: BaseAction ｜_Starlight ｜描述: Something to write with...
+- **切换摄像头灯光** — `ActionSurvCameraLights` ｜父类: BaseAction ｜描述: Enable surveillance camera lights near wherever you're viewing.
+- **热成像视觉** — `ActionThermalEyesight` ｜_Starlight ｜描述: Toggle thermal vision.
+- **格挡** — `ActionToggleBlock` ｜父类: BaseToggleAction ｜描述: Raise or lower your shield.
+- **切换护甲** — `ActionToggleChitinousArmor` ｜_Starlight ｜描述: Inflate your body into an all-consuming chitinous mass of armor. Costs 25 chemicals.
+- **切换冷却装置** — `ActionToggleCoolingUnit` ｜父类: BaseAction ｜_Starlight ｜描述: Toggle the portable cooling unit.
+- **切换手部** — `ActionToggleCyberHandLeft` ｜_Starlight ｜描述: Toggle the left hand
+- **切换手部** — `ActionToggleCyberHandRight` ｜_Starlight ｜描述: Toggle the right hand
+- **切换义肢** — `ActionToggleCyberLimb` ｜_Starlight ｜描述: Toggle Limb.
+- **切换能量穹顶** — `ActionToggleDome` ｜父类: BaseAction ｜_Starlight ｜描述: Turn the energy barrier on or off.
+- **睁眼/闭眼** — `ActionToggleEyes` ｜父类: BaseMentalAction ｜描述: Close your eyes to protect your peepers, or open your eyes to enjoy the pretty lights.
+- **切换内循环** — `ActionToggleInternals` ｜父类: BaseAction ｜描述: Breathe from the equipped gas tank. Also requires equipped breath mask.
+- **切换内供气** — `ActionToggleInternalsOrgan` ｜父类: BaseAction ｜_Starlight ｜描述: Breathe from your organ.
+- **切换指虎电击** — `ActionToggleKnuckleDustersStun` ｜父类: BaseAction ｜描述: Toggles the duster's built in stun baton.
+- **低等形态** — `ActionToggleLesserForm` ｜_Starlight ｜描述: Abandon your current form and transform into a monkey. Costs 20 chemicals.
+- **切换灯光** — `ActionToggleLight` ｜父类: BaseToggleAction ｜描述: Turn the light on and off.
+- **切换忍者手套** — `ActionToggleNinjaGloves` ｜父类: BaseToggleAction ｜描述: Toggles all glove actions on left click. Includes your doorjack, draining power, stunning enemies and hacking certain computers.
+- **塑造盾牌** — `ActionToggleOrganicShield` ｜父类: BaseAction ｜_Starlight ｜描述: Reform one of your arms into a large, fleshy shield. Costs 20 chemicals.
+- **切换急救员警笛** — `ActionToggleParamedicSiren` ｜父类: BaseToggleAction ｜描述: Toggles the paramedic siren on and off.
+- **相位隐形** — `ActionTogglePhaseCloak` ｜父类: BaseAction ｜描述: Toggles your suit's phase cloak. Beware that if you are hit, all abilities are disabled for 5 seconds, including your cloak!
+- **切换原兽伪装** — `ActionToggleProtogenDisguise` ｜_Starlight ｜描述: Form a fake protogen cybernetic frame. Costs 0 chemicals.
+- **扎根** — `ActionToggleRootable` ｜父类: BaseToggleAction ｜描述: Begin or stop being rooted to the floor.
+- **切换潜行模式** — `ActionToggleSneakMode` ｜_Starlight ｜描述: Sneak underneath tables.
+- **切换太空服** — `ActionToggleSpacesuit` ｜_Starlight ｜描述: Make your body space proof. Costs 20 chemicals.
+- **绷紧肌肉** — `ActionToggleStrainedMuscles` ｜_Starlight ｜描述: Move at extremely fast speeds. Deals stamina damage.
+- **切换服装部件** — `ActionToggleSuitPiece` ｜父类: BaseAction ｜描述: Remember to equip the important pieces of your suit before going into action.
+- **切换热成像视觉** — `ActionToggleThermal` ｜_Starlight ｜描述: Enable or disable thermal vision.
+- **摇尾巴** — `ActionToggleWagging` ｜父类: BaseToggleAction ｜描述: Start or stop wagging your tail.
+- **化为亡灵** — `ActionTurnUndead` ｜父类: BaseMentalAction ｜描述: Succumb to your infection and become a zombie.
+- **鲜血屏障（40）** — `ActionVampireBloodBarrier` ｜父类: BaseAction ｜_Starlight ｜描述: Conjure blood barriers in a line at the target location. Only you may pass the barriers.
+- **血之纽带（2.5/1秒）** — `ActionVampireBloodBond` ｜父类: BaseAction ｜_Starlight ｜描述: Toggle to attach blood tethers to nearby visible thralls, splitting your incoming damage across the group.
+- **血之使者仪式（10/2秒）** — `ActionVampireBloodBringersRite` ｜父类: BaseAction ｜_Starlight ｜描述: Toggle a devastating aura that siphons the life force of nearby victims to heal you.
+- **鲜血喷发（100）** — `ActionVampireBloodEruption` ｜父类: BaseAction ｜_Starlight ｜描述: Erupt damage-dealing blood puddles around you.
+- **血液奔涌（30）** — `ActionVampireBloodRush` ｜父类: BaseAction ｜_Starlight ｜描述: For a limited time, run with unnatural swiftness.
+- **血液膨胀（30）** — `ActionVampireBloodSwell` ｜父类: BaseAction ｜_Starlight ｜描述: Enter a temporary state that hardens your skin. Unable to use guns. At (400) blood, deal bonus melee damage.
+- **冲锋（30）** — `ActionVampireCharge` ｜父类: BaseAction ｜_Starlight ｜描述: Charge until impacting an obstacle or the void. Deals heavy damage and flings creatures backward, while obliterating walls and structures.
+- **黑暗斗篷** — `ActionVampireCloakOfDarkness` ｜父类: BaseAction ｜_Starlight ｜描述: Toggle stealth that is strongest in darkness and weakest in bright light. Nearby mobs reveal you.
+- **黑暗通道（20）** — `ActionVampireDarkPassage` ｜父类: BaseAction ｜_Starlight ｜描述: Teleport to target location using the shadows.
+- **诱饵（30）** — `ActionVampireDecoy` ｜父类: BaseAction ｜_Starlight ｜描述: Manifest a decoy that allows you to become invisible. The decoy flashes a blinding effect at attackers when harmed.
+- **恶魔之握（20）** — `ActionVampireDemonicGrasp` ｜父类: BaseAction ｜_Starlight ｜描述: Launch a demonic hand that immobilizes the target. In combat mode, also pulls them towards you.
+- **魅惑（150）** — `ActionVampireEnthrall` ｜父类: BaseAction ｜_Starlight ｜描述: Channel to bend a humanoid target to your will. Movement by you or them will break the link.
+- **永恒黑暗** — `ActionVampireEternalDarkness` ｜父类: BaseAction ｜_Starlight ｜描述: Toggle to shroud the area around you in darkness; you radiate an unnatural chill.
+- **熄灭灯光** — `ActionVampireExtinguish` ｜父类: BaseAction ｜_Starlight ｜描述: Shatter nearby powered lights.
+- **凝视** — `ActionVampireGlare` ｜父类: BaseAction ｜_Starlight ｜描述: Stare down nearby targets to paralyze and mute them.
+- **吸血鬼之爪（30）** — `ActionVampireHemomancerClaws` ｜父类: BaseAction ｜_Starlight ｜描述: Morph hands into blood claws. Siphon blood with every strike. Your claws will vanish after several successful drains or active use.
+- **鲜血触须（25）** — `ActionVampireHemomancerTendrils` ｜父类: BaseAction ｜_Starlight ｜描述: Tendrils erupt in a square formation, poisoning and slowing victims.
+- **集体歇斯底里（70）** — `ActionVampireMassHysteria` ｜父类: BaseAction ｜_Starlight ｜描述: Flood all nearby non-thrall humanoids with terror causing hysteria.
+- **压倒性力量** — `ActionVampireOverwhelmingForce` ｜父类: BaseAction ｜_Starlight ｜描述: When toggled, you cannot be shoved, pushed or pulled. You automatically pry open powered doors at a blood cost. (15)
+- **安抚（30）** — `ActionVampirePacify` ｜父类: BaseAction ｜_Starlight ｜描述: Flood a victim's mind with bliss, pacifying them.
+- **猎食者感知（20）** — `ActionVampirePredatorSense` ｜父类: BaseAction ｜_Starlight ｜描述: Hunt down your prey, there's nowhere to hide...
+- **召集血仆（100）** — `ActionVampireRallyThralls` ｜父类: BaseAction ｜_Starlight ｜描述: Command thralls to shake off stuns, wake up, and regain their stamina.
+- **复原** — `ActionVampireRejuvenateI` ｜父类: BaseAction ｜_Starlight ｜描述: Removes any and all stuns, restores stamina.
+- **复原 II** — `ActionVampireRejuvenateII` ｜父类: BaseAction ｜_Starlight ｜描述: Removes any and all stuns, restores stamina. Purges poisons and heals you over time.
+- **血池（30）** — `ActionVampireSanguinePool` ｜父类: BaseAction ｜_Starlight ｜描述: Melt into a pool of blood, allowing you to slip under doors and windows.
+- **震地践踏（30）** — `ActionVampireSeismicStomp` ｜父类: BaseAction ｜_Starlight ｜描述: Slam the ground, throwing all creatures away from you.
+- **暗影锚（20）** — `ActionVampireShadowAnchor` ｜父类: BaseAction ｜_Starlight ｜描述: Plant a shadow anchor at your feet. Reactivate to warp back to your anchor or face an automatic recall.
+- **暗影拳击（50）** — `ActionVampireShadowBoxing` ｜父类: BaseAction ｜_Starlight ｜描述: Command your shadow bats to assault. The swarm disperses if you move too far away.
+- **暗影陷阱（20）** — `ActionVampireShadowSnare` ｜父类: BaseAction ｜_Starlight ｜描述: Place a damaging shadow trap in wait for victims. The trap slows and emits a blinding flash.
+- **沉睡（15）** — `ActionVampireSleep` ｜父类: BaseAction ｜_Starlight ｜描述: Send a victim to a temporary sleep.
+- **亚空间互换（30）** — `ActionVampireSubspaceSwap` ｜父类: BaseAction ｜_Starlight ｜描述: Swap places with a mortal. The victim is slowed and spirals into madness.
+- **切换獠牙** — `ActionVampireToggleFangs` ｜父类: BaseAction ｜_Starlight ｜描述: Extend or retract your fangs to drink blood from victims.
+- **发放物品** — `ActionVendingThrow` ｜父类: BaseAction ｜描述: Randomly dispense an item from your stock.
+- **查看法则** — `ActionViewLaws` ｜父类: BaseMentalAction ｜描述: View the laws that you must follow.
+- **查看心情** — `ActionViewMoods` ｜父类: BaseAction ｜_Starlight ｜描述: View your current moods.
+- **飞跃** — `ActionVulpkaninGravityJump` ｜父类: BaseAction ｜描述: Use your agile legs to leap a short distance. Be careful not to bump into anything!
+- **醒来** — `ActionWake` ｜父类: BaseMentalAction ｜描述: Stop sleeping.
+- **蛛网球** — `ActionWebball` ｜_Starlight ｜描述: Fires a webball towards the clicked location.
 - `模板` **BaseAction** — `BaseAction`
 - `模板` **BaseActionPolymorph** — `BaseActionPolymorph` ｜父类: BaseAction
 - `模板` **BaseCritAction** — `BaseCritAction` ｜父类: BaseMentalAction
@@ -210,31 +210,31 @@
 - `模板` **BaseMentalAction** — `BaseMentalAction` ｜父类: BaseAction
 - `模板` **BaseSuicideAction** — `BaseSuicideAction` ｜父类: BaseMentalAction
 - `模板` **BaseToggleAction** — `BaseToggleAction` ｜父类: BaseAction
-- **创造暗影** — `BrighteyeCreateShadeAction` ｜_Starlight
-- **创造陷阱** — `BrighteyeDarkTrapAction` ｜_Starlight
+- **创造暗影** — `BrighteyeCreateShadeAction` ｜_Starlight ｜描述: Create a field of darkness that follows you.
+- **创造陷阱** — `BrighteyeDarkTrapAction` ｜_Starlight ｜描述: Create a dark trap at your current location.
 - **相位转移** — `BrighteyePhaseAction` ｜父类: NullPhaseAction ｜_Starlight
-- **创造传送门** — `BrighteyePortalAction` ｜_Starlight
-- **影跃** — `BrighteyeShadeSkipAction` ｜_Starlight
-- **撕裂自己！** — `DionaGibAction` ｜父类: BaseSuicideAction
-- **重组** — `DionaReformAction` ｜父类: BaseAction
-- **切换伪造心灵护盾** — `FakeMindShieldToggleAction` ｜父类: BaseAction
-- **跳跃** — `Jump` ｜_Starlight
+- **创造传送门** — `BrighteyePortalAction` ｜_Starlight ｜描述: Create a portal to the dark at your current location.
+- **影跃** — `BrighteyeShadeSkipAction` ｜_Starlight ｜描述: Stun a creature with the dark.
+- **撕裂自己！** — `DionaGibAction` ｜父类: BaseSuicideAction ｜描述: Split apart into 3 nymphs.
+- **重组** — `DionaReformAction` ｜父类: BaseAction ｜描述: Reform back into a whole Diona.
+- **切换伪造心灵护盾** — `FakeMindShieldToggleAction` ｜父类: BaseAction ｜描述: Turn the Fake Mindshield's transmission on/off
+- **跳跃** — `Jump` ｜_Starlight ｜描述: You jumps at the selected direction.
 - **跳跃** — `JumpCat` ｜父类: Jump ｜_Starlight
 - **跳跃** — `JumpJet` ｜父类: Jump ｜_Starlight
 - **跳跃** — `JumpJetNoMoles` ｜父类: Jump ｜_Starlight
 - **跳跃** — `JumpMoth` ｜父类: Jump ｜_Starlight
 - **跳跃** — `JumpPilebunkerLeg` ｜父类: Jump ｜_Starlight
 - **跳跃** — `JumpResomi` ｜父类: Jump ｜_Starlight
-- **相位转移** — `NullPhaseAction` ｜_Starlight
+- **相位转移** — `NullPhaseAction` ｜_Starlight ｜描述: Shift yourself out of alignment with realspace to travel quickly to different areas.
 - **蛛网球** — `ProjectileWebball` ｜父类: BaseBulletTrigger ｜_Starlight
-- **耐力激增** — `StaminaSurge` ｜_Starlight
-- **退出** — `SyntrunnerActionExitConsole` ｜_Starlight
-- **离开通风管** — `VentCrawlExitAction` ｜父类: BaseAction ｜_Starlight
-- **分析史莱姆** — `XenobiologyConsoleActionAnalyzeSlime` ｜_Starlight
-- **使用突变药剂** — `XenobiologyConsoleActionApplyMutationPotion` ｜_Starlight
-- **使用稳定药剂** — `XenobiologyConsoleActionApplyStabilizerPotion` ｜_Starlight
-- **抓取史莱姆** — `XenobiologyConsoleActionGrabSlime` ｜_Starlight
-- **放置猴子** — `XenobiologyConsoleActionPlaceMonkey` ｜_Starlight
-- **放置史莱姆** — `XenobiologyConsoleActionPlaceSlime` ｜_Starlight
-- **回收猴子** — `XenobiologyConsoleActionRecycleMonkey` ｜_Starlight
-- **撒欢！！** — `Zoomies` ｜_Starlight
+- **耐力激增** — `StaminaSurge` ｜_Starlight ｜描述: Grants increased stamina regeneration and resistance for a while at the cost of drastically increased hunger.
+- **退出** — `SyntrunnerActionExitConsole` ｜_Starlight ｜描述: Exit console.
+- **离开通风管** — `VentCrawlExitAction` ｜父类: BaseAction ｜_Starlight ｜描述: leave these old, decrepit pipes.
+- **分析史莱姆** — `XenobiologyConsoleActionAnalyzeSlime` ｜_Starlight ｜描述: Get the info of a slime right under the camera's eye.
+- **使用突变药剂** — `XenobiologyConsoleActionApplyMutationPotion` ｜_Starlight ｜描述: Increase a slime's mutation chance using a stored mutation potion.
+- **使用稳定药剂** — `XenobiologyConsoleActionApplyStabilizerPotion` ｜_Starlight ｜描述: Decrease a slime's mutation chance using a stored stabilizer potion.
+- **抓取史莱姆** — `XenobiologyConsoleActionGrabSlime` ｜_Starlight ｜描述: Grab a slime from right under the camera's eye.
+- **放置猴子** — `XenobiologyConsoleActionPlaceMonkey` ｜_Starlight ｜描述: Place down a monkey, so long as you have the cubes.
+- **放置史莱姆** — `XenobiologyConsoleActionPlaceSlime` ｜_Starlight ｜描述: Place down a slime from the console's inventory.
+- **回收猴子** — `XenobiologyConsoleActionRecycleMonkey` ｜_Starlight ｜描述: Recover a dead monkey for half a monkey cube.
+- **撒欢！！** — `Zoomies` ｜_Starlight ｜描述: Boost sprint speed at the cost of drastically increased thirst.

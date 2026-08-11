@@ -2,26 +2,26 @@
 
 > 来源层分布: 上游 2385, _Starlight 1413, _Carpmosia 70, _FarHorizons 47, _Funkystation 23, _Moffstation 4, _TP 4
 
-- **外星传送台** — `AbductorAlienPad` ｜父类: BaseMachinePowered,ConstructibleMachine ｜_Starlight
-- **功能设备** — `AbductorConsole` ｜父类: BaseComputer ｜_Starlight
-- **实验装置** — `AbductorExperimentator` ｜父类: BaseStructure ｜_Starlight
-- **功能设备** — `AbductorHumanObservationConsole` ｜父类: BaseComputer ｜_Starlight
-- **???** — `AbductorHumanObservationConsoleEye` ｜父类: Incorporeal,BaseMob ｜_Starlight
+- **外星传送台** — `AbductorAlienPad` ｜父类: BaseMachinePowered,ConstructibleMachine ｜_Starlight ｜描述: Beam in the pizzas and dig in.
+- **功能设备** — `AbductorConsole` ｜父类: BaseComputer ｜_Starlight ｜描述: retrieve people marked by scientist tools. Also used for buying replacement gear and linking the agent's vest.
+- **实验装置** — `AbductorExperimentator` ｜父类: BaseStructure ｜_Starlight ｜描述: A device that analyzes the result of the experiment and resets the subject to the place from where they were taken.
+- **功能设备** — `AbductorHumanObservationConsole` ｜父类: BaseComputer ｜_Starlight ｜描述: A computer that is used for spying and teleporting on the station.
+- **???** — `AbductorHumanObservationConsoleEye` ｜父类: Incorporeal,BaseMob ｜_Starlight ｜描述: ERROR
 - **绑架者手术台** — `AbductorOperatingTable` ｜父类: OperatingTable ｜_Starlight
-- **空气警报器** — `AirAlarm` ｜父类: BaseWallmountMachine
-- **空气警报器组件** — `AirAlarmAssembly` ｜父类: BaseWallmountMetallic
-- **大气警报器组件** — `AirAlarmAssemblyXeno` ｜父类: AirAlarmAssembly
+- **空气警报器** — `AirAlarm` ｜父类: BaseWallmountMachine ｜描述: An air alarm. Alarms... air?
+- **空气警报器组件** — `AirAlarmAssembly` ｜父类: BaseWallmountMetallic ｜描述: An air alarm. Doesn't look like it'll be alarming air any time soon.
+- **大气警报器组件** — `AirAlarmAssemblyXeno` ｜父类: AirAlarmAssembly ｜描述: An alien air alarm. Why are the wires pulsating?...
 - **空气警报器** — `AirAlarmFreezer` ｜父类: AirAlarm
 - **空气警报器** — `AirAlarmNoLowerBound` ｜父类: AirAlarm ｜_Starlight
 - **空气警报器** — `AirAlarmVox` ｜父类: AirAlarm
-- **大气警报器** — `AirAlarmXeno` ｜父类: AirAlarm
-- **空气罐** — `AirCanister` ｜父类: GasCanister
+- **大气警报器** — `AirAlarmXeno` ｜父类: AirAlarm ｜描述: An alien air alarm. Hopefully they didn't breathe poison.
+- **空气罐** — `AirCanister` ｜父类: GasCanister ｜描述: A canister that can contain any type of gas. This one is supposed to contain air mixture. It can be attached to connector ports using a wrench.
 - **损坏的 气罐** — `AirCanisterBroken` ｜父类: GasCanisterBrokenBase
 - **空气罐** — `AirCanisterEmpty` ｜父类: AirCanister ｜_Starlight
-- **气闸门** — `Airlock` ｜父类: BaseStructure,BaseStructureDissolvable
+- **气闸门** — `Airlock` ｜父类: BaseStructure,BaseStructureDissolvable ｜描述: It opens, it closes, and maybe crushes you.
 - **玻璃气闸门** — `AirlockArmoryGlassLocked` ｜父类: AirlockSecurityGlass
 - **气闸门** — `AirlockArmoryLocked` ｜父类: AirlockSecurity
-- **气闸门组件** — `AirlockAssembly`
+- **气闸门组件** — `AirlockAssembly` ｜描述: It opens, it closes, and maybe crushes you.
 - **气闸门组件** — `AirlockAssemblyAtmospherics` ｜父类: AirlockAssembly
 - **气闸门组件** — `AirlockAssemblyAtmosphericsGlass` ｜父类: AirlockAssembly
 - **气闸门组件** — `AirlockAssemblyBrigmed` ｜父类: AirlockAssembly ｜_Starlight
@@ -147,7 +147,7 @@
 - **玻璃气闸门** — `AirlockEVAGlass` ｜父类: AirlockGlass ｜_Starlight
 - **AirlockEVAGlassLocked** — `AirlockEVAGlassLocked` ｜父类: AirlockEVAGlass
 - **AirlockEVALocked** — `AirlockEVALocked` ｜父类: AirlockEVA
-- **气闸门** — `AirlockExternal` ｜父类: AirlockRCDResistant
+- **气闸门** — `AirlockExternal` ｜父类: AirlockRCDResistant ｜描述: It opens, it closes, it might crush you, and there might be only space behind it.
 - **气闸门** — `AirlockExternalAtmosphericsLocked` ｜父类: AirlockExternal
 - **气闸门** — `AirlockExternalBlackstarLocked` ｜父类: AirlockExternal ｜_Starlight
 - **气闸门** — `AirlockExternalCargoLocked` ｜父类: AirlockExternal
@@ -356,8 +356,8 @@
 - **气闸门** — `AirlockServiceLocked` ｜父类: Airlock
 - **玻璃气闸门** — `AirlockServiceTheatreGlassLocked` ｜父类: AirlockServiceGlassLocked
 - **气闸门** — `AirlockServiceTheatreLocked` ｜父类: AirlockServiceLocked
-- **外部气闸门** — `AirlockShuttle` ｜父类: AirlockRCDResistant
-- **外部气闸门组件** — `AirlockShuttleAssembly` ｜父类: AirlockAssembly
+- **外部气闸门** — `AirlockShuttle` ｜父类: AirlockRCDResistant ｜描述: Necessary for connecting two space craft together.
+- **外部气闸门组件** — `AirlockShuttleAssembly` ｜父类: AirlockAssembly ｜描述: An incomplete structure necessary for connecting two space craft together.
 - **外部气闸门** — `AirlockShuttleBlackstarLocked` ｜父类: AirlockShuttle ｜_Starlight
 - **外部气闸门** — `AirlockShuttleCommunistLocked` ｜父类: AirlockShuttle ｜_Starlight
 - **外部气闸门** — `AirlockShuttleSolgovLocked` ｜父类: AirlockShuttleSyndicate ｜_Starlight
@@ -394,8 +394,8 @@
 - **结构** — `AirlockXenoborgGlassLocked` ｜父类: AirlockXenoborgGlass ｜_Starlight
 - **异形赛博格气闸门** — `AirlockXenoborgLocked` ｜父类: AirlockXenoborg
 - **气闸门** — `AirlockXenoMaintLocked` ｜父类: AirlockXeno
-- **空气传感器** — `AirSensor` ｜父类: AirSensorBase
-- **空气传感器组件** — `AirSensorAssembly` ｜父类: BaseItem
+- **空气传感器** — `AirSensor` ｜父类: AirSensorBase ｜描述: Air sensor. It senses air.
+- **空气传感器组件** — `AirSensorAssembly` ｜父类: BaseItem ｜描述: Air sensor assembly. An assembly of air sensors?
 - `模板` **AirSensorBase** — `AirSensorBase`
 - **空气传感器** — `AirSensorFreezer` ｜父类: AirSensorFreezerBase,AirSensor
 - `模板` **AirSensorFreezerBase** — `AirSensorFreezerBase` ｜父类: AirSensorBase
@@ -403,8 +403,8 @@
 - `模板` **AirSensorNoLowerBoundBase** — `AirSensorNoLowerBoundBase` ｜父类: AirSensorBase ｜_Starlight
 - **空气传感器** — `AirSensorVox` ｜父类: AirSensorVoxBase,AirSensor
 - `模板` **AirSensorVoxBase** — `AirSensorVoxBase` ｜父类: AirSensorBase
-- **鸣笛圣母祭坛** — `AltarBananium` ｜父类: AltarBase
-- `模板` **祭坛** — `AltarBase` ｜父类: BaseStructure
+- **鸣笛圣母祭坛** — `AltarBananium` ｜父类: AltarBase ｜描述: A bananium altar dedicated to the honkmother.
+- `模板` **祭坛** — `AltarBase` ｜父类: BaseStructure ｜描述: Altar of the Gods.
 - **混沌祭坛** — `AltarChaos` ｜父类: AltarNanotrasen
 - **皈依祭坛** — `AltarConvert` ｜父类: AltarConvertFestival
 - **蓝色祭坛** — `AltarConvertBlue` ｜父类: AltarConvertFestival
@@ -435,29 +435,29 @@
 - **灯** — `AlwaysPoweredlightRed` ｜父类: AlwaysPoweredWallLight
 - **灯** — `AlwaysPoweredLightSodium` ｜父类: AlwaysPoweredWallLight
 - **灯** — `AlwaysPoweredlightYellow` ｜父类: AlwaysPoweredWallLight
-- **频闪灯** — `AlwaysPoweredStrobeLight`
-- **灯** — `AlwaysPoweredWallLight`
-- **AME 控制器** — `AmeController`
+- **频闪灯** — `AlwaysPoweredStrobeLight` ｜描述: UH?! Sorry, all I can hear is WEE-OOO-WEE-OOO!
+- **灯** — `AlwaysPoweredWallLight` ｜描述: An always powered light.
+- **AME 控制器** — `AmeController` ｜描述: It's a controller for the antimatter engine.
 - **AME 控制器** — `AmeControllerUnanchored` ｜父类: AmeController
-- **AME 屏蔽模块** — `AmeShielding`
-- **氨气罐** — `AmmoniaCanister` ｜父类: GasCanister
+- **AME 屏蔽模块** — `AmeShielding` ｜描述: Keeps the antimatter in and the matter out.
+- **氨气罐** — `AmmoniaCanister` ｜父类: GasCanister ｜描述: A canister that can contain any type of gas. This one is supposed to contain ammonia. It can be attached to connector ports using a wrench.
 - **损坏的 气罐** — `AmmoniaCanisterBroken` ｜父类: GasCanisterBrokenBase
 - **氨气罐** — `AmmoniaCanisterEmpty` ｜父类: AmmoniaCanister ｜_Starlight
-- **氨蛋** — `AmmoniaEggGenerator` ｜_Starlight
-- **弹药科技制造机** — `AmmoTechFab` ｜父类: BaseLatheLube
+- **氨蛋** — `AmmoniaEggGenerator` ｜_Starlight ｜描述: A strange egg which produces ammonia.
+- **弹药科技制造机** — `AmmoTechFab` ｜父类: BaseLatheLube ｜描述: Prints the bare minimum of bullets that any budget military or armory could need. Nothing fancy.
 - **异常** — `AnomalyBanana` ｜父类: BaseAnomaly ｜_Starlight
 - **异常** — `AnomalyBluespace` ｜父类: BaseAnomaly
-- **异常** — `AnomalyClown` ｜父类: BaseAnomaly ｜_Starlight
+- **异常** — `AnomalyClown` ｜父类: BaseAnomaly ｜_Starlight ｜描述: It's an otherwise normal car that seems to bend the very space within it. You sense that the creatures within are coming to make you laugh at all costs...
 - **异常核心** — `AnomalyCoreBanana` ｜父类: BaseAnomalyCore ｜_Starlight
 - **异常核心** — `AnomalyCoreBananaInert` ｜父类: BaseAnomalyInertCore ｜_Starlight
 - **异常核心** — `AnomalyCoreBluespace` ｜父类: BaseAnomalyCore
 - **异常核心** — `AnomalyCoreBluespaceInert` ｜父类: BaseAnomalyInertCore
-- **异常核心** — `AnomalyCoreClown` ｜父类: BaseAnomalyCore ｜_Starlight
-- **异常核心** — `AnomalyCoreClownInert` ｜父类: BaseAnomalyInertCore ｜_Starlight
+- **异常核心** — `AnomalyCoreClown` ｜父类: BaseAnomalyCore ｜_Starlight ｜描述: The core of a destroyed clown anomaly. It emanates the purest essence of the Honkmother.
+- **异常核心** — `AnomalyCoreClownInert` ｜父类: BaseAnomalyInertCore ｜_Starlight ｜描述: The inert core of a destroyed clown anomaly. It emanates the purest essence of the Honkmother.
 - **异常核心** — `AnomalyCoreElectricity` ｜父类: BaseAnomalyCore
 - **异常核心** — `AnomalyCoreElectricityInert` ｜父类: BaseAnomalyInertCore
-- **异常核心** — `AnomalyCoreFlesh` ｜父类: BaseAnomalyCore
-- **异常核心** — `AnomalyCoreFleshInert` ｜父类: BaseAnomalyInertCore
+- **异常核心** — `AnomalyCoreFlesh` ｜父类: BaseAnomalyCore ｜描述: The core of a destroyed flesh anomaly. Pulsates sickeningly, but might be a hearty meal if cooked.
+- **异常核心** — `AnomalyCoreFleshInert` ｜父类: BaseAnomalyInertCore ｜描述: The inert core of a destroyed flesh anomaly. Pulsates sickeningly, but might be good food in the right hands?
 - **异常核心** — `AnomalyCoreFlora` ｜父类: BaseAnomalyCore
 - **异常核心** — `AnomalyCoreFloraInert` ｜父类: BaseAnomalyInertCore
 - **异常核心** — `AnomalyCoreGravity` ｜父类: BaseAnomalyCore
@@ -479,7 +479,7 @@
 - **异常** — `AnomalyElectricity` ｜父类: BaseAnomaly
 - **异常** — `AnomalyFlesh` ｜父类: BaseAnomaly
 - **异常** — `AnomalyFlora` ｜父类: BaseAnomaly
-- **奇异发光浆果** — `AnomalyFloraBulb` ｜父类: BaseStructure
+- **奇异发光浆果** — `AnomalyFloraBulb` ｜父类: BaseStructure ｜描述: It's a beautiful strange glowing berry. It seems to have something growing inside it...
 - **异常** — `AnomalyGravity` ｜父类: BaseAnomaly
 - **异常** — `AnomalyIce` ｜父类: BaseAnomaly
 - `模板` **AnomalyInjectionBase** — `AnomalyInjectionBase`
@@ -522,157 +522,157 @@
 - **反惰气储气罐** — `AntiNobliumCanister` ｜父类: GasCanister ｜_Funkystation
 - **损坏的 气罐** — `AntiNobliumCanisterBroken` ｜父类: GasCanisterBrokenBase ｜_Funkystation
 - **反惰气储气罐** — `AntiNobliumCanisterEmpty` ｜父类: AntiNobliumCanister ｜_Starlight
-- **反粒子** — `AntiParticlesProjectile` ｜父类: ParticlesProjectile
+- **反粒子** — `AntiParticlesProjectile` ｜父类: ParticlesProjectile ｜描述: Accelerated negative particles.
 - **APC 配电箱** — `APCBasic` ｜父类: BaseAPC
 - **APC 配电箱** — `APCConstructed` ｜父类: BaseAPC
-- **APC 框架** — `APCFrame` ｜父类: BaseWallmountMetallic
+- **APC 框架** — `APCFrame` ｜父类: BaseWallmountMetallic ｜描述: A control terminal for the area's electrical systems, lacking the electronics.
 - **APC 配电箱** — `APCHighCapacity` ｜父类: BaseAPC
 - **APC 配电箱** — `APCHyperCapacity` ｜父类: BaseAPC
-- **APC 网络开关** — `ApcNetSwitch` ｜父类: BaseWallmountMetallic
+- **APC 网络开关** — `ApcNetSwitch` ｜父类: BaseWallmountMetallic ｜描述: It's a switch for toggling lights that are connected to the same apc.
 - **APC 网络开关** — `ApcNetSwitchDirectional` ｜父类: ApcNetSwitch
 - **APC 配电箱** — `APCShadekin` ｜父类: APCBasic ｜_Starlight
 - **APC 配电箱** — `APCSuperCapacity` ｜父类: BaseAPC
 - **APC 配电箱** — `APCXenoborg` ｜父类: BaseAPC
-- `模板` **街机** — `ArcadeBase` ｜父类: BaseComputer
-- **抵达屏幕** — `ArrivalsShuttleTimer` ｜父类: Screen
-- **小行星岩** — `AsteroidRock` ｜父类: BaseWall
-- **小行星岩石** — `AsteroidRockArtifactFragment` ｜父类: AsteroidRock
-- **小行星岩石** — `AsteroidRockBananium` ｜父类: AsteroidRock
+- `模板` **街机** — `ArcadeBase` ｜父类: BaseComputer ｜描述: An arcade cabinet.
+- **抵达屏幕** — `ArrivalsShuttleTimer` ｜父类: Screen ｜描述: Displays time of arrivals shuttle ETA.
+- **小行星岩** — `AsteroidRock` ｜父类: BaseWall ｜描述: A rocky asteroid.
+- **小行星岩石** — `AsteroidRockArtifactFragment` ｜父类: AsteroidRock ｜描述: A rock wall. What's that sticking out of it?
+- **小行星岩石** — `AsteroidRockBananium` ｜父类: AsteroidRock ｜描述: An ore vein rich with bananium.
 - **小行星岩石** — `AsteroidRockBananiumCrab` ｜父类: AsteroidRockBananium
-- **小行星岩石** — `AsteroidRockBluespace` ｜父类: AsteroidRock ｜_Starlight
-- **小行星岩石** — `AsteroidRockCoal` ｜父类: AsteroidRock
+- **小行星岩石** — `AsteroidRockBluespace` ｜父类: AsteroidRock ｜_Starlight ｜描述: An ore vein rich with bluespace.
+- **小行星岩石** — `AsteroidRockCoal` ｜父类: AsteroidRock ｜描述: An ore vein rich with coal.
 - **小行星岩石** — `AsteroidRockCoalCrab` ｜父类: AsteroidRockCoal
-- **小行星岩石** — `AsteroidRockDiamond` ｜父类: AsteroidRock
+- **小行星岩石** — `AsteroidRockDiamond` ｜父类: AsteroidRock ｜描述: An ore vein rich with diamonds.
 - **小行星岩** — `AsteroidRockGibtonite` ｜父类: BaseRockGibtonite,AsteroidRock
-- **小行星岩石** — `AsteroidRockGold` ｜父类: AsteroidRock
+- **小行星岩石** — `AsteroidRockGold` ｜父类: AsteroidRock ｜描述: An ore vein rich with gold.
 - **小行星岩石** — `AsteroidRockGoldCrab` ｜父类: AsteroidRockGold
-- **小行星岩** — `AsteroidRockMining` ｜父类: AsteroidRock
-- **小行星岩石** — `AsteroidRockPlasma` ｜父类: AsteroidRock
-- **小行星岩石** — `AsteroidRockQuartz` ｜父类: AsteroidRock
+- **小行星岩** — `AsteroidRockMining` ｜父类: AsteroidRock ｜描述: An asteroid.
+- **小行星岩石** — `AsteroidRockPlasma` ｜父类: AsteroidRock ｜描述: An ore vein rich with plasma.
+- **小行星岩石** — `AsteroidRockQuartz` ｜父类: AsteroidRock ｜描述: An ore vein rich with quartz.
 - **小行星岩石** — `AsteroidRockQuartzCrab` ｜父类: AsteroidRockQuartz
-- **小行星岩石** — `AsteroidRockSalt` ｜父类: AsteroidRock
-- **小行星岩石** — `AsteroidRockSilver` ｜父类: AsteroidRock
+- **小行星岩石** — `AsteroidRockSalt` ｜父类: AsteroidRock ｜描述: An ore vein rich with salt.
+- **小行星岩石** — `AsteroidRockSilver` ｜父类: AsteroidRock ｜描述: An ore vein rich with silver.
 - **小行星岩石** — `AsteroidRockSilverCrab` ｜父类: AsteroidRockSilver
-- **小行星岩石** — `AsteroidRockTin` ｜父类: AsteroidRock
+- **小行星岩石** — `AsteroidRockTin` ｜父类: AsteroidRock ｜描述: An ore vein rich with iron.
 - **小行星岩石** — `AsteroidRockTinCrab` ｜父类: AsteroidRockTin
-- **小行星岩石** — `AsteroidRockUranium` ｜父类: AsteroidRock
+- **小行星岩石** — `AsteroidRockUranium` ｜父类: AsteroidRock ｜描述: An ore vein rich with uranium.
 - **小行星岩石** — `AsteroidRockUraniumCrab` ｜父类: AsteroidRockUranium
-- **自动柜员机** — `ATM` ｜父类: BaseComputerAiAccess ｜_Starlight
-- **定向风扇** — `AtmosDeviceFanDirectional`
-- **微型风扇** — `AtmosDeviceFanTiny`
-- **自动车床** — `Autolathe` ｜父类: BaseLatheLube
-- **超对流自动车床** — `AutolatheHyperConvection` ｜父类: Autolathe,BaseHyperlathe
-- **自动装填单元** — `AutoLoaderUnit` ｜父类: DisposalUnitBase ｜_Starlight
+- **自动柜员机** — `ATM` ｜父类: BaseComputerAiAccess ｜_Starlight ｜描述: A regular ATM, it eats money, spits out money, and transfers money.
+- **定向风扇** — `AtmosDeviceFanDirectional` ｜描述: A thin fan, stopping the movement of gases across it.
+- **微型风扇** — `AtmosDeviceFanTiny` ｜描述: A tiny fan, releasing a thin gust of air.
+- **自动车床** — `Autolathe` ｜父类: BaseLatheLube ｜描述: It produces basic items using metal and glass. Has the ability to process blueprints to print new recipes.
+- **超对流自动车床** — `AutolatheHyperConvection` ｜父类: Autolathe,BaseHyperlathe ｜描述: A highly-experimental autolathe that harnesses the power of extreme heat to slowly create objects more cost-effectively.
+- **自动装填单元** — `AutoLoaderUnit` ｜父类: DisposalUnitBase ｜_Starlight ｜描述: A pneumatic autoloader delivery unit.
 - **香蕉矿门** — `BananiumDoor` ｜父类: BaseMaterialDoorNavMap
-- `模板` **基础旗帜** — `BannerBase` ｜父类: BaseStructureDynamic
-- `模板` **基础 旗帜** — `BannerBaseAlt` ｜父类: BaseStructureDynamic ｜_Starlight
-- **蓝色旗帜** — `BannerBlue` ｜父类: BannerBase
-- **货运部旗帜** — `BannerCargo` ｜父类: BannerBase
-- **工程部旗帜** — `BannerEngineering` ｜父类: BannerBase
-- **绿色旗帜** — `BannerGreen` ｜父类: BannerBase
-- **医疗部旗帜** — `BannerMedical` ｜父类: BannerBase
-- **纳米传讯旗帜** — `BannerNanotrasen` ｜父类: BannerBase
-- **红色旗帜** — `BannerRed` ｜父类: BannerBase
-- **革命旗帜** — `BannerRevolution` ｜父类: BannerBase
-- **科研部旗帜** — `BannerScience` ｜父类: BannerBase
-- **安保部旗帜** — `BannerSecurity` ｜父类: BannerBase
-- **SKB 标识装饰** — `BannerSGKB` ｜父类: BannerBaseAlt ｜_Starlight
-- **SNKVD 标识装饰** — `BannerSNKVD` ｜父类: BannerBaseAlt ｜_Starlight
-- **标识装饰** — `BannerSovietHammer` ｜父类: BannerBaseAlt ｜_Starlight
-- **USSP 旗帜** — `BannerSovietRegular` ｜父类: BannerBaseAlt ｜_Starlight
-- **辛迪加旗帜** — `BannerSyndicate` ｜父类: BannerBase
-- **标识装饰** — `BannerWallHammer` ｜父类: BaseWallBanner ｜_Starlight
-- **USSP 墙 旗帜** — `BannerWallSoviet` ｜父类: BaseWallBanner ｜_Starlight
-- **黄色旗帜** — `BannerYellow` ｜父类: BannerBase
+- `模板` **基础旗帜** — `BannerBase` ｜父类: BaseStructureDynamic ｜描述: It's the concept of a banner, you shouldn't be seeing this.
+- `模板` **基础 旗帜** — `BannerBaseAlt` ｜父类: BaseStructureDynamic ｜_Starlight ｜描述: It's the concept of a banner, you shouldn't be seeing this.
+- **蓝色旗帜** — `BannerBlue` ｜父类: BannerBase ｜描述: A banner displaying the color blue. Dabudidabudai.
+- **货运部旗帜** — `BannerCargo` ｜父类: BannerBase ｜描述: A banner displaying the colors of the cargo department. Not. Cargonia.
+- **工程部旗帜** — `BannerEngineering` ｜父类: BannerBase ｜描述: A banner displaying the colors of the engineering department. Scrungularty.
+- **绿色旗帜** — `BannerGreen` ｜父类: BannerBase ｜描述: A banner displaying the color green. Grass, leaves, guacamole.
+- **医疗部旗帜** — `BannerMedical` ｜父类: BannerBase ｜描述: A banner displaying the colors of the medical department. How sterile.
+- **纳米传讯旗帜** — `BannerNanotrasen` ｜父类: BannerBase ｜描述: A banner displaying the NanoTrasen logo. It looks rather cheap.
+- **红色旗帜** — `BannerRed` ｜父类: BannerBase ｜描述: A banner displaying the color red. The edgy one.
+- **革命旗帜** — `BannerRevolution` ｜父类: BannerBase ｜描述: A banner displaying revolution. Viva!
+- **科研部旗帜** — `BannerScience` ｜父类: BannerBase ｜描述: A banner displaying the colors of the science department. Where science has no bounds, and regulations are rarely followed.
+- **安保部旗帜** — `BannerSecurity` ｜父类: BannerBase ｜描述: A banner displaying the colors of the security department. You're surprised it's not vandalised.
+- **SKB 标识装饰** — `BannerSGKB` ｜父类: BannerBaseAlt ｜_Starlight ｜描述: Implementing workers rights. Yeah, we do that in your stations. You're welcome.
+- **SNKVD 标识装饰** — `BannerSNKVD` ｜父类: BannerBaseAlt ｜_Starlight ｜描述: One wrong move and you're dead comrade. For good.
+- **标识装饰** — `BannerSovietHammer` ｜父类: BannerBaseAlt ｜_Starlight ｜描述: Gone are the days of oppression and the unfair treatment of contractors! URAA!
+- **USSP 旗帜** — `BannerSovietRegular` ｜父类: BannerBaseAlt ｜_Starlight ｜描述: Banner of the United Soviet Socialist Planets. Features the glorious hammer and wrench. Symbols of industry, progress, fraternity and fixing what you broke.
+- **辛迪加旗帜** — `BannerSyndicate` ｜父类: BannerBase ｜描述: A banner from which, according to the syndicate, you should feel hatred for NT.
+- **标识装饰** — `BannerWallHammer` ｜父类: BaseWallBanner ｜_Starlight ｜描述: Gone are the days of oppression and the unfair treatment of contractors! URAA!
+- **USSP 墙 旗帜** — `BannerWallSoviet` ｜父类: BaseWallBanner ｜_Starlight ｜描述: Banner of the United Soviet Socialist Planets. Hang it up. Obey it. Try not to salute by reflex.
+- **黄色旗帜** — `BannerYellow` ｜父类: BannerBase ｜描述: A banner displaying the color yellow. Reminds you of ducks and lemon stands.
 - **吧台窗（备选）** — `BarAltWindowDiagonal` ｜父类: BarWindow ｜_Starlight
 - **化学品桶** — `BarrelChemEmpty` ｜父类: BaseBarrelChem
 - **化学品桶** — `BarrelChemFilledChlorine` ｜父类: BaseBarrelChem
 - **化学品桶** — `BarrelChemFilledEthanol` ｜父类: BaseBarrelChem
 - **化学品桶** — `BarrelChemFilledFluorine` ｜父类: BaseBarrelChem
 - **化学品桶** — `BarrelChemFilledIodine` ｜父类: BaseBarrelChem
-- **化学桶** — `BarrelChemFilledLube` ｜父类: BaseBarrelChem
+- **化学桶** — `BarrelChemFilledLube` ｜父类: BaseBarrelChem ｜描述: Slippery...
 - **化学品桶** — `BarrelChemFilledMercury` ｜父类: BaseBarrelChem
 - **化学品桶** — `BarrelChemFilledPhosphorus` ｜父类: BaseBarrelChem
 - **化学品桶** — `BarrelChemFilledSilicon` ｜父类: BaseBarrelChem
-- **金属桶** — `BarrelFlaming` ｜父类: BaseBarrelChem ｜_Starlight
+- **金属桶** — `BarrelFlaming` ｜父类: BaseBarrelChem ｜_Starlight ｜描述: For warming canned food in the winter.
 - **木制路障** — `Barricade` ｜父类: BaseBarricade
 - **木制路障** — `BarricadeBlock` ｜父类: Barricade
 - **木制路障** — `BarricadeDirectional` ｜父类: BaseBarricade
 - **酒吧招牌** — `BarSign` ｜父类: BaseBarSign
-- **组合咖啡馆** — `BarSignComboCafe` ｜父类: BaseBarSign
-- **紧急朗姆酒派对** — `BarSignEmergencyRumParty` ｜父类: BaseBarSign
-- **为了帝皇** — `BarSignEmprah` ｜父类: BaseBarSign
-- **引擎更换** — `BarSignEngineChange` ｜父类: BaseBarSign
+- **组合咖啡馆** — `BarSignComboCafe` ｜父类: BaseBarSign ｜描述: Renowned system-wide for their utterly uncreative drink combinations.
+- **紧急朗姆酒派对** — `BarSignEmergencyRumParty` ｜父类: BaseBarSign ｜描述: Recently relicensed after a long closure.
+- **为了帝皇** — `BarSignEmprah` ｜父类: BaseBarSign ｜描述: Enjoyed by fanatics, heretics, and brain-damaged patrons alike.
+- **引擎更换** — `BarSignEngineChange` ｜父类: BaseBarSign ｜描述: Still waiting.
 - **标识装饰** — `BarSignLights` ｜父类: BaseWallmountGlass,BaseWallmountMachine,Poweredlight ｜_Starlight
-- **LV426** — `BarSignLV426` ｜父类: BaseBarSign
-- **女仆咖啡馆** — `BarSignMaidCafe` ｜父类: BaseBarSign
-- **马耳他猎鹰** — `BarSignMalteseFalcon` ｜父类: BaseBarSign
-- **麦芽蟑螂** — `BarSignMaltroach` ｜父类: BaseBarSign
-- **啤斯基警官** — `BarSignOfficerBeersky` ｜父类: BaseBarSign
-- **罗布斯塔咖啡馆** — `BarSignRobustaCafe` ｜父类: BaseBarSign
-- **太空巴克** — `BarSignSpacebucks` ｜父类: BaseBarSign
-- **艾尔·纳斯** — `BarSignTheAleNath` ｜父类: BaseBarSign
-- **鸟笼** — `BarSignTheBirdCage` ｜父类: BaseBarSign
-- **代码巴士** — `BarSignTheCoderbus` ｜父类: BaseBarSign
-- **醉鲤** — `BarSignTheDrunkCarp` ｜父类: BaseBarSign
-- **伤害警棍** — `BarSignTheHarmbaton` ｜父类: BaseBarSign
-- **灯泡** — `BarSignTheLightbulb` ｜父类: BaseBarSign
-- **放飞之鹅** — `BarSignTheLooseGoose` ｜父类: BaseBarSign
-- **罗网** — `BarSignTheNet` ｜父类: BaseBarSign
-- **外层太空** — `BarSignTheOuterSpess` ｜父类: BaseBarSign
-- **奇点** — `BarSignTheSingulo` ｜父类: BaseBarSign
-- **太阳** — `BarSignTheSun` ｜父类: BaseBarSign
-- **威士忌回声** — `BarSignWhiskeyEchoes` ｜父类: BaseBarSign
-- **扭动空间** — `BarSignWiggleRoom` ｜父类: BaseBarSign
-- **索卡洛** — `BarSignZocalo` ｜父类: BaseBarSign
+- **LV426** — `BarSignLV426` ｜父类: BaseBarSign ｜描述: Drinking with fancy facemasks is clearly more important than going to medbay.
+- **女仆咖啡馆** — `BarSignMaidCafe` ｜父类: BaseBarSign ｜描述: Welcome back, master!
+- **马耳他猎鹰** — `BarSignMalteseFalcon` ｜父类: BaseBarSign ｜描述: Play it again, sam.
+- **麦芽蟑螂** — `BarSignMaltroach` ｜父类: BaseBarSign ｜描述: Squeak!
+- **啤斯基警官** — `BarSignOfficerBeersky` ｜父类: BaseBarSign ｜描述: Man eat a dong, these drinks are great.
+- **罗布斯塔咖啡馆** — `BarSignRobustaCafe` ｜父类: BaseBarSign ｜描述: Holder of the 'Most Lethal Barfights' record 5 years uncontested.
+- **太空巴克** — `BarSignSpacebucks` ｜父类: BaseBarSign ｜描述: You can't get away from them, even in space, and even after we started calling them 'spesos' instead.
+- **艾尔·纳斯** — `BarSignTheAleNath` ｜父类: BaseBarSign ｜描述: All right, buddy. I think you've had EI NATH. Time to get a cab.
+- **鸟笼** — `BarSignTheBirdCage` ｜父类: BaseBarSign ｜描述: Caw caw!
+- **代码巴士** — `BarSignTheCoderbus` ｜父类: BaseBarSign ｜描述: A very controversial bar known for its wide variety of constantly-changing drinks.
+- **醉鲤** — `BarSignTheDrunkCarp` ｜父类: BaseBarSign ｜描述: Don't drink and swim.
+- **伤害警棍** — `BarSignTheHarmbaton` ｜父类: BaseBarSign ｜描述: A great dining experience for both security members and assistants.
+- **灯泡** — `BarSignTheLightbulb` ｜父类: BaseBarSign ｜描述: A cafe popular among moths and moffs. Once shut down for a week after the bartender used mothballs to protect her spare uniforms.
+- **放飞之鹅** — `BarSignTheLooseGoose` ｜父类: BaseBarSign ｜描述: Drink till you puke and/or break the laws of reality!
+- **罗网** — `BarSignTheNet` ｜父类: BaseBarSign ｜描述: You just seem to get caught up in it for hours.
+- **外层太空** — `BarSignTheOuterSpess` ｜父类: BaseBarSign ｜描述: This bar isn't actually located in outer space.
+- **奇点** — `BarSignTheSingulo` ｜父类: BaseBarSign ｜描述: Where people go that'd rather not be called by their name.
+- **太阳** — `BarSignTheSun` ｜父类: BaseBarSign ｜描述: Ironically bright for such a shady bar.
+- **威士忌回声** — `BarSignWhiskeyEchoes` ｜父类: BaseBarSign ｜描述: An elite bar for elite oper-wait, this is a NanoTrasen station. Why's this sign in the database?
+- **扭动空间** — `BarSignWiggleRoom` ｜父类: BaseBarSign ｜描述: MoMMIs got moves.
+- **索卡洛** — `BarSignZocalo` ｜父类: BaseBarSign ｜描述: Anteriormente ubicado en Spessmerica.
 - **吧台窗** — `BarWindow` ｜父类: Window ｜_Starlight
 - **吧台窗** — `BarWindowDiagonal` ｜父类: BarWindow ｜_Starlight
-- `模板` **异常** — `BaseAnomaly`
-- `模板` **异常核心** — `BaseAnomalyCore` ｜父类: BaseItem
+- `模板` **异常** — `BaseAnomaly` ｜描述: An impossible object. Should you be standing this close to it?
+- `模板` **异常核心** — `BaseAnomalyCore` ｜父类: BaseItem ｜描述: The core of a destroyed incomprehensible object.
 - `模板` **BaseAnomalyInertCore** — `BaseAnomalyInertCore` ｜父类: BaseAnomalyCore
 - `模板` **异常注入器** — `BaseAnomalyInjector` ｜父类: MarkerBase
-- **APC 配电箱** — `BaseAPC` ｜父类: BaseWallmount
-- `模板` **化学品桶** — `BaseBarrelChem` ｜父类: StorageTank
-- `模板` **放射性废料桶** — `BaseBarrelChemRadioactive` ｜父类: BaseBarrelChem
+- **APC 配电箱** — `BaseAPC` ｜父类: BaseWallmount ｜描述: A control terminal for the area's electrical systems.
+- `模板` **化学品桶** — `BaseBarrelChem` ｜父类: StorageTank ｜描述: A small metal drum. How tropical.
+- `模板` **放射性废料桶** — `BaseBarrelChemRadioactive` ｜父类: BaseBarrelChem ｜描述: It seems to be leaking a bit. I don't think you'd want to be around this for long.
 - **放射性废料桶** — `BaseBarrelChemRadioactiveEmpty` ｜父类: BaseBarrelChemRadioactive
 - **放射性废料桶** — `BaseBarrelChemRadioactiveFilledRadium` ｜父类: BaseBarrelChemRadioactive
 - **放射性废料桶** — `BaseBarrelChemRadioactiveFilledUranium` ｜父类: BaseBarrelChemRadioactive
-- `模板` **木制路障** — `BaseBarricade` ｜父类: BaseStructure
+- `模板` **木制路障** — `BaseBarricade` ｜父类: BaseStructure ｜描述: A barricade made out of wood planks. It looks like it can take a few solid hits.
 - `模板` **bar sign** — `BaseBarSign` ｜父类: BaseWallmountGlass,BaseWallmountMachine
-- `模板` **cardboard box** — `BaseBigBox`
+- `模板` **cardboard box** — `BaseBigBox` ｜描述: Huh? Just a box...
 - `模板` **BaseBonfire** — `BaseBonfire` ｜父类: BaseStructure
 - `模板` **BaseBureaucraticStorageFill** — `BaseBureaucraticStorageFill`
 - `模板` **clockwork windoor** — `BaseClockworkWindoor` ｜父类: BaseWindoor
 - **计算机** — `BaseComputer` ｜父类: BaseStructureComputer
 - **计算机** — `BaseComputerAiAccess` ｜父类: BaseComputer
-- `模板` **穿梭机控制台** — `BaseComputerShuttle` ｜父类: BaseComputerAiAccess
-- `模板` **抽象船员监控服务器** — `BaseCrewMonitoringServer` ｜_Moffstation
-- `模板` **curtains** — `BaseCurtains` ｜父类: BaseStructure
+- `模板` **穿梭机控制台** — `BaseComputerShuttle` ｜父类: BaseComputerAiAccess ｜描述: Used to pilot a shuttle.
+- `模板` **抽象船员监控服务器** — `BaseCrewMonitoringServer` ｜_Moffstation ｜描述: Receives and relays the status of all active suit sensors on the station.
+- `模板` **curtains** — `BaseCurtains` ｜父类: BaseStructure ｜描述: Hides what others shouldn't see.
 - `模板` **BaseDesktop** — `BaseDesktop` ｜_Starlight
 - `模板` **BaseDispenser** — `BaseDispenser` ｜父类: BaseWallmountMetallic
 - `模板` **BaseEnergyBall** — `BaseEnergyBall`
-- `模板` **chain link fence** — `BaseFenceMetal` ｜父类: BaseStructure
-- `模板` **木围栏** — `BaseFenceWood` ｜父类: BaseStructure
-- `模板` **小型木围栏** — `BaseFenceWoodSmall` ｜父类: BaseFenceWood
-- `模板` **BaseFilingCabinet** — `BaseFilingCabinet` ｜父类: BaseStructureDynamic,BaseBagOpenClose
-- `模板` **防火闸** — `BaseFirelock` ｜父类: BaseStructure,BaseStructureDissolvable
+- `模板` **chain link fence** — `BaseFenceMetal` ｜父类: BaseStructure ｜描述: A metal piece of fencing cordoning off something likely very important.
+- `模板` **木围栏** — `BaseFenceWood` ｜父类: BaseStructure ｜描述: Wooden piece of fencing. I hope there is babushka's garden behind it.
+- `模板` **小型木围栏** — `BaseFenceWoodSmall` ｜父类: BaseFenceWood ｜描述: Wooden piece of small fence. The best protection for the fencing of a private territory!
+- `模板` **BaseFilingCabinet** — `BaseFilingCabinet` ｜父类: BaseStructureDynamic,BaseBagOpenClose ｜描述: A cabinet for all your filing needs.
+- `模板` **防火闸** — `BaseFirelock` ｜父类: BaseStructure,BaseStructureDissolvable ｜描述: Apply crowbar.
 - `模板` **BaseFlag** — `BaseFlag` ｜父类: BaseSign
 - `模板` **BaseFloorDecoration** — `BaseFloorDecoration`
-- **冷凝器** — `BaseGasCondenser` ｜父类: BaseMachinePowered,SmallConstructibleMachine
+- **冷凝器** — `BaseGasCondenser` ｜父类: BaseMachinePowered,SmallConstructibleMachine ｜描述: Condenses gases into liquids. Now we just need some plumbing.
 - `模板` **温控机** — `BaseGasThermoMachine` ｜父类: BaseMachinePowered,ConstructibleMachine
-- `模板` **燃气轮机** — `BaseGasTurbine` ｜父类: BaseStructure ｜_FarHorizons
-- `模板` **小型燃气轮机** — `BaseGasTurbineSmall` ｜父类: BaseGasTurbine ｜_FarHorizons
-- `模板` **传送门** — `BaseGateway` ｜父类: BaseStructure
-- `模板` **发电机** — `BaseGenerator` ｜父类: BaseMachine
-- `模板` **壁挂式发电机** — `BaseGeneratorWallmount` ｜父类: BaseGenerator,BaseWallmount
-- **壁挂式发电机框架** — `BaseGeneratorWallmountFrame` ｜父类: BaseWallmountMetallic
+- `模板` **燃气轮机** — `BaseGasTurbine` ｜父类: BaseStructure ｜_FarHorizons ｜描述: A large turbine used for generating power using hot gas.
+- `模板` **小型燃气轮机** — `BaseGasTurbineSmall` ｜父类: BaseGasTurbine ｜_FarHorizons ｜描述: A small turbine used for generating power using hot gas.
+- `模板` **传送门** — `BaseGateway` ｜父类: BaseStructure ｜描述: A mysterious gateway built by unknown hands, it allows for faster than light travel to far-flung locations.
+- `模板` **发电机** — `BaseGenerator` ｜父类: BaseMachine ｜描述: A high efficiency thermoelectric generator.
+- `模板` **壁挂式发电机** — `BaseGeneratorWallmount` ｜父类: BaseGenerator,BaseWallmount ｜描述: A high efficiency thermoelectric generator stuffed in a wall cabinet.
+- **壁挂式发电机框架** — `BaseGeneratorWallmountFrame` ｜父类: BaseWallmountMetallic ｜描述: A construction frame for a wallmount generator.
 - `模板` **BaseGlassBox** — `BaseGlassBox` ｜父类: BaseStructureDynamic
-- `模板` **硬壳炸弹** — `BaseHardBomb` ｜父类: BaseStructureDynamic
+- `模板` **硬壳炸弹** — `BaseHardBomb` ｜父类: BaseStructureDynamic ｜描述: Just keep talking and nobody will explode.
 - `模板` **BaseHeaterMachine** — `BaseHeaterMachine` ｜父类: BaseMachinePowered,SmallConstructibleMachine
 - `模板` **BaseHyperlathe** — `BaseHyperlathe`
-- `模板` **内部通讯器** — `BaseIntercom` ｜父类: BaseWallmountMachine
+- `模板` **内部通讯器** — `BaseIntercom` ｜父类: BaseWallmountMachine ｜描述: An intercom. For when the station just needs to know something.
 - `模板` **BaseIntercomSecure** — `BaseIntercomSecure` ｜父类: Intercom
-- `模板` **BaseIronsandStatue** — `BaseIronsandStatue` ｜父类: BaseStructure
+- `模板` **BaseIronsandStatue** — `BaseIronsandStatue` ｜父类: BaseStructure ｜描述: A mysterious statue found in a desert of iron sand.
 - `模板` **BaseItemCabinet** — `BaseItemCabinet`
 - `模板` **BaseItemCabinetGlass** — `BaseItemCabinetGlass` ｜父类: BaseItemCabinet
 - `模板` **BaseItemRecharger** — `BaseItemRecharger` ｜父类: BaseRecharger
@@ -682,48 +682,48 @@
 - `模板` **BaseLogicItem** — `BaseLogicItem` ｜父类: LogicEmptyCircuit
 - `模板` **BaseMachine** — `BaseMachine` ｜父类: BaseStructure
 - `模板` **BaseMachinePowered** — `BaseMachinePowered` ｜父类: BaseMachine
-- `模板` **door** — `BaseMaterialDoor` ｜父类: BaseStructure
+- `模板` **door** — `BaseMaterialDoor` ｜父类: BaseStructure ｜描述: A door, where will it lead?
 - `模板` **BaseMaterialDoorNavMap** — `BaseMaterialDoorNavMap` ｜父类: BaseMaterialDoor
-- `模板` **核反应堆** — `BaseNuclearReactor` ｜父类: BaseStructure ｜_FarHorizons
+- `模板` **核反应堆** — `BaseNuclearReactor` ｜父类: BaseStructure ｜_FarHorizons ｜描述: A nuclear reactor vessel, with slots for fuel rods and other components. Hey wait, didn't one of these explode once?
 - `模板` **小型核反应堆** — `BaseNuclearReactorSmall` ｜父类: BaseNuclearReactor ｜_FarHorizons
 - `模板` **BasePlasmaWindoor** — `BasePlasmaWindoor` ｜父类: BaseDeltaPressurePlasmaQuarter,BaseWindoor
-- `模板` **栏杆** — `BaseRailing` ｜父类: BaseStructure,BaseStructureDissolvable
-- `模板` **结构** — `BaseRailingBoxing` ｜父类: BaseStructure,BaseStructureDissolvable ｜_Starlight
-- `模板` **栏杆** — `BaseRailingWood` ｜父类: BaseStructure,BaseStructureDissolvable ｜_Starlight
-- `模板` **栏杆** — `BaseRailingYellow` ｜父类: BaseStructure,BaseStructureDissolvable ｜_Starlight
+- `模板` **栏杆** — `BaseRailing` ｜父类: BaseStructure,BaseStructureDissolvable ｜描述: Basic railing meant to protect idiots like you from falling.
+- `模板` **结构** — `BaseRailingBoxing` ｜父类: BaseStructure,BaseStructureDissolvable ｜_Starlight ｜描述: Basic railing meant to protect idiots like you from falling.
+- `模板` **栏杆** — `BaseRailingWood` ｜父类: BaseStructure,BaseStructureDissolvable ｜_Starlight ｜描述: Basic railing meant to protect idiots like you from falling.
+- `模板` **栏杆** — `BaseRailingYellow` ｜父类: BaseStructure,BaseStructureDissolvable ｜_Starlight ｜描述: Basic railing meant to protect idiots like you from falling.
 - `模板` **BaseRecharger** — `BaseRecharger` ｜父类: BaseMachinePowered,ConstructibleMachine
 - **基础研发点数源** — `BaseResearchAndDevelopmentPointSource` ｜父类: BaseMachinePowered
 - `模板` **抽象研发服务器** — `BaseResearchAndDevelopmentServer` ｜_Moffstation
 - `模板` **BaseRockGibtonite** — `BaseRockGibtonite`
 - `模板` **扫描门** — `BaseScanGate` ｜父类: BaseMachinePowered,ConstructibleMachine ｜_Starlight
-- `模板` **实心墙** — `BaseSecretDoor` ｜父类: BaseStructure
-- **暗门组件** — `BaseSecretDoorAssembly`
+- `模板` **实心墙** — `BaseSecretDoor` ｜父类: BaseStructure ｜描述: Keeps the air in and the assistants out.
+- **暗门组件** — `BaseSecretDoorAssembly` ｜描述: It opens, it closes, and maybe crushes you.
 - `模板` **BaseSecurePlasmaWindoor** — `BaseSecurePlasmaWindoor` ｜父类: BaseDeltaPressureReinforcedPlasmaQuarter,BaseSecureWindoor
 - `模板` **BaseSecureUraniumWindoor** — `BaseSecureUraniumWindoor` ｜父类: BaseDeltaPressureReinforcedPlasmaQuarter,BaseSecureWindoor
 - `模板` **BaseSecureWindoor** — `BaseSecureWindoor` ｜父类: BaseDeltaPressureReinforcedGlassQuarter,BaseWindoor
-- `模板` **安保机器人展柜** — `BaseShowcaseRobot` ｜父类: BaseStructure
-- `模板` **卷帘门** — `BaseShutter` ｜父类: BaseStructure,BaseStructureDissolvable
+- `模板` **安保机器人展柜** — `BaseShowcaseRobot` ｜父类: BaseStructure ｜描述: A non-functional replica of an old security robot.
+- `模板` **卷帘门** — `BaseShutter` ｜父类: BaseStructure,BaseStructureDissolvable ｜描述: One shudders to think about what might be behind this shutter.
 - `模板` **基础标牌** — `BaseSign` ｜父类: BaseWallmountMetallic
 - `模板` **BaseSignDirectional** — `BaseSignDirectional` ｜父类: BaseSign
-- `模板` **SMES 储能柜** — `BaseSMES` ｜父类: BaseMachine,ConstructibleMachine
+- `模板` **SMES 储能柜** — `BaseSMES` ｜父类: BaseMachine,ConstructibleMachine ｜描述: A high-capacity superconducting magnetic energy storage (SMES) unit.
 - `模板` **BaseStructure** — `BaseStructure`
 - `模板` **BaseStructureComputer** — `BaseStructureComputer` ｜父类: BaseStructure
 - `模板` **BaseStructureDesktopComputer** — `BaseStructureDesktopComputer` ｜父类: BaseStructure ｜_Starlight
 - `模板` **BaseStructureDissolvable** — `BaseStructureDissolvable` ｜父类: BaseStructure ｜_Starlight
 - `模板` **BaseStructureDynamic** — `BaseStructureDynamic` ｜父类: BaseStructure
-- `模板` **基础墙** — `BaseStructureWall` ｜父类: BaseStructure,BaseStructureDissolvable
-- `模板` **变电站** — `BaseSubstation` ｜父类: CoreSubstation,BaseMachine,ConstructibleMachine
-- **壁挂式变电站** — `BaseSubstationWall` ｜父类: CoreSubstation
-- **壁挂式变电站框架** — `BaseSubstationWallFrame`
+- `模板` **基础墙** — `BaseStructureWall` ｜父类: BaseStructure,BaseStructureDissolvable ｜描述: Keeps the air in and the assistants out.
+- `模板` **变电站** — `BaseSubstation` ｜父类: CoreSubstation,BaseMachine,ConstructibleMachine ｜描述: Reduces the voltage of electricity put into it.
+- **壁挂式变电站** — `BaseSubstationWall` ｜父类: CoreSubstation ｜描述: A substation designed for compact shuttles and spaces.
+- **壁挂式变电站框架** — `BaseSubstationWallFrame` ｜描述: A substation frame for construction.
 - `模板` **BaseTabletopChemicalMachine** — `BaseTabletopChemicalMachine` ｜父类: BaseMachinePowered,SmallConstructibleMachine
-- `模板` **推进器** — `BaseThruster` ｜父类: BaseStructureDynamic
+- `模板` **推进器** — `BaseThruster` ｜父类: BaseStructureDynamic ｜描述: A thruster that allows a shuttle to move.
 - `模板` **BaseTicketMachine** — `BaseTicketMachine` ｜父类: BaseWallmountMachine ｜_Starlight
-- `模板` **马桶** — `BaseToilet` ｜父类: DisposalUnitBase,SeatBase
+- `模板` **马桶** — `BaseToilet` ｜父类: DisposalUnitBase,SeatBase ｜描述: The HT-451, a torque rotation-based, waste disposal unit for small matter. This one seems remarkably clean.
 - **马桶** — `BaseToiletRegen` ｜父类: BaseToilet ｜_Starlight
 - `模板` **BaseUraniumWindoor** — `BaseUraniumWindoor` ｜父类: BaseDeltaPressurePlasmaQuarter,BaseWindoor
 - `模板` **BaseWall** — `BaseWall` ｜父类: BaseStructureWall
 - `模板` **BaseWallBanner** — `BaseWallBanner` ｜父类: BaseSign ｜_Starlight
-- `模板` **壁挂壁橱** — `BaseWallCloset` ｜父类: BaseWallmountMetallic
+- `模板` **壁挂壁橱** — `BaseWallCloset` ｜父类: BaseWallmountMetallic ｜描述: A standard-issue NanoTrasen storage unit, now on walls.
 - `模板` **BaseWallLocker** — `BaseWallLocker` ｜父类: BaseWallCloset
 - `模板` **BaseWallmount** — `BaseWallmount`
 - `模板` **BaseWallmountCabinet** — `BaseWallmountCabinet` ｜父类: BaseWallmountMetallic,BaseItemCabinet
@@ -731,20 +731,20 @@
 - `模板` **BaseWallmountGlass** — `BaseWallmountGlass` ｜父类: BaseWallmount
 - `模板` **BaseWallmountMachine** — `BaseWallmountMachine` ｜父类: BaseWallmountMetallic
 - `模板` **BaseWallmountMetallic** — `BaseWallmountMetallic` ｜父类: BaseWallmount
-- `模板` **墙式保险箱** — `BaseWallSafe` ｜_Starlight
+- `模板` **墙式保险箱** — `BaseWallSafe` ｜_Starlight ｜描述: A highly secured safe with digital lock.
 - `模板` **BaseWindoor** — `BaseWindoor` ｜父类: BaseDeltaPressureGlassQuarter,BaseStructure,BaseStructureDissolvable
-- **床** — `Bed` ｜父类: BaseStructure
+- **床** — `Bed` ｜父类: BaseStructure ｜描述: This is used to lie in, sleep in or strap on. Resting here provides extremely slow healing.
 - **舒适 长椅** — `BenchBlueComfy` ｜父类: BenchComfy ｜_Starlight
 - **舒适 长椅** — `BenchBlueComfyCorner` ｜父类: BenchComfy ｜_Starlight
 - **舒适 长椅** — `BenchBlueComfyEndLeft` ｜父类: BenchComfy ｜_Starlight
 - **舒适 长椅** — `BenchBlueComfyEndRight` ｜父类: BenchComfy ｜_Starlight
 - **舒适 长椅** — `BenchBlueComfyMiddle` ｜父类: BenchComfy ｜_Starlight
-- **舒适 长椅** — `BenchColorfulComfy` ｜父类: BenchComfy
-- **舒适长凳** — `BenchComfy` ｜父类: SeatBase
-- **舒适 长椅** — `BenchComfyCorner` ｜父类: SeatBase ｜_Starlight
-- **舒适 长椅** — `BenchComfyEndLeft` ｜父类: SeatBase ｜_Starlight
-- **舒适 长椅** — `BenchComfyEndRight` ｜父类: SeatBase ｜_Starlight
-- **舒适 长椅** — `BenchComfyMiddle` ｜父类: SeatBase ｜_Starlight
+- **舒适 长椅** — `BenchColorfulComfy` ｜父类: BenchComfy ｜描述: A bench with an extremely comfortable backrest.
+- **舒适长凳** — `BenchComfy` ｜父类: SeatBase ｜描述: A bench with an extremely comfortable backrest.
+- **舒适 长椅** — `BenchComfyCorner` ｜父类: SeatBase ｜_Starlight ｜描述: A bench with an extremely comfortable backrest.
+- **舒适 长椅** — `BenchComfyEndLeft` ｜父类: SeatBase ｜_Starlight ｜描述: A bench with an extremely comfortable backrest.
+- **舒适 长椅** — `BenchComfyEndRight` ｜父类: SeatBase ｜_Starlight ｜描述: A bench with an extremely comfortable backrest.
+- **舒适 长椅** — `BenchComfyMiddle` ｜父类: SeatBase ｜_Starlight ｜描述: A bench with an extremely comfortable backrest.
 - **舒适 长椅** — `BenchGrayComfy` ｜父类: BenchComfy ｜_Starlight
 - **舒适 长椅** — `BenchGrayComfyCorner` ｜父类: BenchComfy ｜_Starlight
 - **舒适 长椅** — `BenchGrayComfyEndLeft` ｜父类: BenchComfy ｜_Starlight
@@ -762,13 +762,13 @@
 - **舒适 长椅** — `BenchRedComfyMiddle` ｜父类: BenchComfy ｜_Starlight
 - **舒适 长椅** — `BenchWhiteComfy` ｜父类: BenchComfy ｜_Starlight
 - **纸板箱** — `BigBox` ｜父类: BaseBigBox
-- **生物方块制造机** — `Biofabricator` ｜父类: BaseLathe
-- **生物生成器** — `Biogenerator` ｜父类: BaseLathe
-- **生物质回收机** — `BiomassReclaimer` ｜父类: BaseMachinePowered,ConstructibleMachine
-- **刀片服务器机架** — `BladeServerRack` ｜父类: BaseMachinePowered,ConstructibleMachine ｜_Moffstation
+- **生物方块制造机** — `Biofabricator` ｜父类: BaseLathe ｜描述: Produces animal cubes using biomass.
+- **生物生成器** — `Biogenerator` ｜父类: BaseLathe ｜描述: Converts plants into biomass, which can be used to construct useful items.
+- **生物质回收机** — `BiomassReclaimer` ｜父类: BaseMachinePowered,ConstructibleMachine ｜描述: Reclaims biomass from corpses. Gruesome.
+- **刀片服务器机架** — `BladeServerRack` ｜父类: BaseMachinePowered,ConstructibleMachine ｜_Moffstation ｜描述: A sleek steel frame designed to hold a few blade servers. Compact functionality with a stylish aesthetic.
 - **刀片服务器机架** — `BladeServerRackRD` ｜父类: BladeServerRack ｜_Moffstation
-- **空白旗帜** — `BlankFlag` ｜父类: BaseFlag
-- **防爆门** — `BlastDoor` ｜父类: BaseShutter
+- **空白旗帜** — `BlankFlag` ｜父类: BaseFlag ｜描述: Some piece of white cloth. Definitely not the flag of France.
+- **防爆门** — `BlastDoor` ｜父类: BaseShutter ｜描述: This one says 'BLAST DONGER'.
 - **防爆门** — `BlastDoorBridge` ｜父类: BlastDoor
 - **防爆门** — `BlastDoorBridgeOpen` ｜父类: BlastDoorOpen
 - **防爆门** — `BlastDoorCentralCommand` ｜父类: BlastDoor
@@ -780,30 +780,30 @@
 - **防爆门** — `BlastDoorExterior2Open` ｜父类: BlastDoorOpen
 - **防爆门** — `BlastDoorExterior3` ｜父类: BlastDoor
 - **防爆门** — `BlastDoorExterior3Open` ｜父类: BlastDoorOpen
-- **防爆门框架** — `BlastDoorFrame` ｜父类: BaseStructureDynamic
+- **防爆门框架** — `BlastDoorFrame` ｜父类: BaseStructureDynamic ｜描述: This one says 'BLAST DONGER'.
 - **防爆门** — `BlastDoorOpen` ｜父类: BlastDoor
 - **防爆门** — `BlastDoorScience` ｜父类: BlastDoor
 - **防爆门** — `BlastDoorScienceOpen` ｜父类: BlastDoorOpen
 - **防爆门** — `BlastDoorWindows` ｜父类: BlastDoor
 - **防爆门** — `BlastDoorWindowsOpen` ｜父类: BlastDoorOpen
-- **异形防爆门** — `BlastDoorXeno` ｜父类: BlastDoor
-- **异形赛博格防爆门** — `BlastDoorXenoborg` ｜父类: BlastDoor
+- **异形防爆门** — `BlastDoorXeno` ｜父类: BlastDoor ｜描述: Don't lose an arm!
+- **异形赛博格防爆门** — `BlastDoorXenoborg` ｜父类: BlastDoor ｜描述: Don't lose a head!
 - **异形赛博格防爆门** — `BlastDoorXenoborgOpen` ｜父类: BlastDoorXenoborg
-- **异形防爆门框架** — `BlastDoorXenoFrame` ｜父类: BaseStructureDynamic
+- **异形防爆门框架** — `BlastDoorXenoFrame` ｜父类: BaseStructureDynamic ｜描述: This one says 'BLAST DONGER'.
 - **异形防爆门** — `BlastDoorXenoOpen` ｜父类: BlastDoorXeno
-- **NT 方块游戏** — `BlockGameArcade` ｜父类: ArcadeBase
-- **蓝空间 收集器** — `BluespaceHarvester` ｜父类: BaseMachine ｜_Starlight
+- **NT 方块游戏** — `BlockGameArcade` ｜父类: ArcadeBase ｜描述: An arcade cabinet with a strangely familiar game.
+- **蓝空间 收集器** — `BluespaceHarvester` ｜父类: BaseMachine ｜_Starlight ｜描述: A massive bluespace harvester that converts energy into research points.
 - **骨凝胶 分配器** — `BoneGelDispenser` ｜父类: BaseDispenser ｜_Starlight
-- **篝火** — `Bonfire` ｜父类: BaseBonfire
-- **火刑柱篝火** — `BonfireStake` ｜父类: BaseBonfire
-- **书架** — `Bookshelf` ｜父类: BaseStructure
+- **篝火** — `Bonfire` ｜父类: BaseBonfire ｜描述: What can be better than a late evening under the sky with guitar and friends?
+- **火刑柱篝火** — `BonfireStake` ｜父类: BaseBonfire ｜描述: A sinister bonfire with a stake for... ceremonial purposes. Best not to ask.
+- **书架** — `Bookshelf` ｜父类: BaseStructure ｜描述: Mostly filled with books.
 - **酒水分配器** — `BoozeDispenser` ｜父类: BoozeDispenserEmpty
-- **酒水分配器** — `BoozeDispenserEmpty` ｜父类: ReagentDispenserBasePowerCell
-- **赛博格充电站** — `BorgCharger` ｜父类: BaseRecharger
-- **异形赛博格充电站** — `BorgChargerXenoborg` ｜父类: BorgCharger
-- **拳击铃** — `BoxingBell` ｜父类: BaseWallmountMetallic
-- **禁闭室定时器** — `BrigTimer` ｜父类: ScreenTimer
-- **按钮框架** — `ButtonFrame`
+- **酒水分配器** — `BoozeDispenserEmpty` ｜父类: ReagentDispenserBasePowerCell ｜描述: A booze dispenser with a single slot for a container to be filled.
+- **赛博格充电站** — `BorgCharger` ｜父类: BaseRecharger ｜描述: A stationary charger for various robotic and cyborg entities. Surprisingly spacious.
+- **异形赛博格充电站** — `BorgChargerXenoborg` ｜父类: BorgCharger ｜描述: A stationary charger for xenoborgs. Feels claustrophobic.
+- **拳击铃** — `BoxingBell` ｜父类: BaseWallmountMetallic ｜描述: Ding ding!
+- **禁闭室定时器** — `BrigTimer` ｜父类: ScreenTimer ｜描述: It's a timer for brig cells.
+- **按钮框架** — `ButtonFrame` ｜描述: It's a frame to help distinguish switches visually.
 - **按钮框架** — `ButtonFrameCaution` ｜父类: ButtonFrame
 - **按钮框架** — `ButtonFrameCautionSecurity` ｜父类: ButtonFrame
 - **按钮框架** — `ButtonFrameExit` ｜父类: ButtonFrame
@@ -812,30 +812,30 @@
 - **BZ 储气罐** — `BZCanister` ｜父类: GasCanister ｜_Funkystation
 - **损坏的 气罐** — `BZCanisterBroken` ｜父类: GasCanisterBrokenBase ｜_Funkystation
 - **BZ 储气罐** — `BZCanisterEmpty` ｜父类: BZCanister ｜_Starlight
-- **LV 电力电缆** — `CableApcExtension` ｜父类: CableBase
+- **LV 电力电缆** — `CableApcExtension` ｜父类: CableBase ｜描述: A cable used to connect machines to an APC.
 - **LV 电力电缆** — `CableApcExtensionUncuttable` ｜父类: CableApcExtension
 - `模板` **CableBase** — `CableBase` ｜父类: CablePhysBase
-- **爆破索** — `CableDet` ｜父类: CablePhysBase,BaseSecurityContraband
-- **HV 电力电缆** — `CableHV` ｜父类: CableBase
+- **爆破索** — `CableDet` ｜父类: CablePhysBase,BaseSecurityContraband ｜描述: Spaghetti for people who hate walls.
+- **HV 电力电缆** — `CableHV` ｜父类: CableBase ｜描述: An orange high voltage power cable.
 - **HV 电力电缆** — `CableHVUncuttable` ｜父类: CableHV
-- **MV 电力电缆** — `CableMV` ｜父类: CableBase
+- **MV 电力电缆** — `CableMV` ｜父类: CableBase ｜描述: A medium voltage power cable.
 - **MV 电力电缆** — `CableMVUncuttable` ｜父类: CableMV
 - `模板` **CablePhysBase** — `CablePhysBase`
-- **电缆端子** — `CableTerminal`
+- **电缆端子** — `CableTerminal` ｜描述: You see a small warning on the red cables in grungy black ink. "CONNECT RED TO BATTERY FOR CHARGE."
 - **电缆端子** — `CableTerminalUncuttable` ｜父类: CableTerminal
-- **二氧化碳气罐** — `CarbonDioxideCanister` ｜父类: GasCanister
+- **二氧化碳气罐** — `CarbonDioxideCanister` ｜父类: GasCanister ｜描述: A canister that can contain any type of gas. This one is supposed to contain carbon dioxide. It can be attached to connector ports using a wrench.
 - **损坏的 气罐** — `CarbonDioxideCanisterBroken` ｜父类: GasCanisterBrokenBase
 - **二氧化碳气罐** — `CarbonDioxideCanisterEmpty` ｜父类: CarbonDioxideCanister ｜_Starlight
 - **纸板门** — `CardDoor` ｜父类: BaseMaterialDoorNavMap
-- **纸板凳** — `CardStool` ｜父类: UnanchoredChairBase
-- **纸板墙** — `Cardwall` ｜父类: BaseStructure
-- **邮件传送器** — `CargoMailTeleporter` ｜父类: BaseMachinePowered,ConstructibleMachine
-- **货运传送台** — `CargoTelepad` ｜父类: BaseMachinePowered,ConstructibleMachine
+- **纸板凳** — `CardStool` ｜父类: UnanchoredChairBase ｜描述: Make sure you sit *really* gently.
+- **纸板墙** — `Cardwall` ｜父类: BaseStructure ｜描述: Budget cuts are hitting hard.
+- **邮件传送器** — `CargoMailTeleporter` ｜父类: BaseMachinePowered,ConstructibleMachine ｜描述: Periodically teleports in mail to deliver across the station.
+- **货运传送台** — `CargoTelepad` ｜父类: BaseMachinePowered,ConstructibleMachine ｜描述: Beam in the pizzas and dig in.
 - **地毯** — `Carpet` ｜父类: CarpetBase
-- `模板` **地毯** — `CarpetBase` ｜父类: BaseStructure
+- `模板` **地毯** — `CarpetBase` ｜父类: BaseStructure ｜描述: Fancy walking surface.
 - **地毯** — `CarpetBlack` ｜父类: CarpetBase
 - **地毯** — `CarpetBlue` ｜父类: CarpetBase
-- **纸板“地毯”** — `CarpetCard` ｜父类: BaseStructure
+- **纸板“地毯”** — `CarpetCard` ｜父类: BaseStructure ｜描述: Even lino is better.
 - **“神殿地毯”** — `CarpetChapel` ｜父类: BaseStructure
 - **地毯** — `CarpetCyan` ｜父类: CarpetBase
 - **地毯** — `CarpetGreen` ｜父类: CarpetBase
@@ -844,218 +844,219 @@
 - **地毯** — `CarpetPurple` ｜父类: CarpetBase
 - **地毯** — `CarpetSBlue` ｜父类: CarpetBase
 - **地毯** — `CarpetWhite` ｜父类: CarpetBase
-- **鲤鱼裂隙** — `CarpRift`
-- **太空鲤鱼雕像** — `CarpStatue` ｜父类: XenoWardingTower
-- **鲤鱼雕像** — `CarpStatueEmpty` ｜父类: CarpStatue
-- **鲤鱼雕像** — `CarpStatueEyes` ｜父类: CarpStatue
-- **卡斯卡德** — `Cascad1` ｜_Starlight
+- **鲤鱼裂隙** — `CarpRift` ｜描述: A rift akin to the ones space carp use to travel long distances.
+- **太空鲤鱼雕像** — `CarpStatue` ｜父类: XenoWardingTower ｜描述: A statue of one of the brave carp that got us where we are today. Made with real teeth!
+- **鲤鱼雕像** — `CarpStatueEmpty` ｜父类: CarpStatue ｜描述: A lump of precious metals, soon to be a brilliant carp statue.
+- **鲤鱼雕像** — `CarpStatueEyes` ｜父类: CarpStatue ｜描述: A statue of one of the brave carp that got us where we are today. This one needs a dentist...
+- **卡斯卡德** — `Cascad1` ｜_Starlight ｜描述: Consequences of the supermatter crystal's cascade failure.
 - **物品** — `Cascad2` ｜父类: Cascad1 ｜_Starlight
 - **物品** — `Cascad3` ｜父类: Cascad1 ｜_Starlight
 - **物品** — `Cascad4` ｜父类: Cascad1 ｜_Starlight
 - **物品** — `Cascad5` ｜父类: Cascad1 ｜_Starlight
 - **物品** — `Cascad6` ｜父类: Cascad1 ｜_Starlight
-- **收银机** — `CashRegister` ｜父类: BaseStructure,BaseBagOpenClose ｜_Starlight
-- **栈道** — `Catwalk`
-- **中央指挥部通讯计算机** — `CentcommComputerComms` ｜父类: ComputerComms
-- **???** — `CentcommConsoleEye` ｜父类: Incorporeal,BaseMob ｜_Starlight
-- **中央指挥部 旗帜** — `CentCommFlag` ｜父类: BaseFlag ｜_Starlight
-- **功能设备** — `CentCommSectoralConsole` ｜父类: ComputerComms ｜_Starlight
+- **收银机** — `CashRegister` ｜父类: BaseStructure,BaseBagOpenClose ｜_Starlight ｜描述: A vaguely secure way to store currency. Wheres the lock...?
+- **栈道** — `Catwalk` ｜描述: A catwalk for easier EVA maneuvering and cable placement.
+- **中央指挥部通讯计算机** — `CentcommComputerComms` ｜父类: ComputerComms ｜描述: A computer used to make world wide announcements via keyboard. The superior cousin of the regular communications computer.
+- **???** — `CentcommConsoleEye` ｜父类: Incorporeal,BaseMob ｜_Starlight ｜描述: ERROR
+- **中央指挥部 旗帜** — `CentCommFlag` ｜父类: BaseFlag ｜_Starlight ｜描述: Formerly Stellar Vanguard Solutions.
+- **功能设备** — `CentCommSectoralConsole` ｜父类: ComputerComms ｜_Starlight ｜描述: Use this to annoy captains of all stations at once.
 - **椅子** — `Chair` ｜父类: ChairBase
 - `模板` **椅子** — `ChairBase` ｜父类: UnanchoredChairBase
 - **黄铜椅** — `ChairBrass` ｜父类: StoolBase
-- **鲤鱼椅** — `ChairCarp` ｜父类: SeatBase ｜_Starlight
-- **诅咒椅** — `ChairCursed` ｜父类: ChairWood
-- **折叠椅** — `ChairFolding` ｜父类: SeatBase,BaseDeployFoldable
+- **鲤鱼椅** — `ChairCarp` ｜父类: SeatBase ｜_Starlight ｜描述: A luxurious chair, the many purple scales reflect the light in a most pleasing manner.
+- **诅咒椅** — `ChairCursed` ｜父类: ChairWood ｜描述: It's staring back.
+- **折叠椅** — `ChairFolding` ｜父类: SeatBase,BaseDeployFoldable ｜描述: If you carry six of these you become the coolest kid at church.
 - **折叠椅** — `ChairFoldingSpawnFolded` ｜父类: ChairFolding
 - **椅子** — `ChairGreyscale` ｜父类: Chair
-- **肉椅** — `ChairMeat` ｜父类: UnanchoredChairBase
+- **肉椅** — `ChairMeat` ｜父类: UnanchoredChairBase ｜描述: Uncomfortably sweaty.
 - **黑色办公椅** — `ChairOfficeDark` ｜父类: ChairOfficeLight
 - **白色办公椅** — `ChairOfficeLight` ｜父类: OfficeChairBase
 - **简约办公椅** — `ChairOfficeSleek` ｜父类: StoolBase ｜_Starlight
-- **驾驶座** — `ChairPilotSeat` ｜父类: ChairBase
-- **华贵座椅** — `ChairRegal` ｜父类: UnanchoredChairBase ｜_Starlight
-- **仪式椅** — `ChairRitual` ｜父类: ChairWood
-- **华贵王座** — `ChairThrone` ｜父类: ChairBase ｜_Starlight
-- **蛛网椅** — `ChairWeb` ｜父类: UnanchoredChairBase
+- **驾驶座** — `ChairPilotSeat` ｜父类: ChairBase ｜描述: The pilot seat of a prestigious ship.
+- **华贵座椅** — `ChairRegal` ｜父类: UnanchoredChairBase ｜_Starlight ｜描述: A gilded chair. You think this might be paint actually.
+- **仪式椅** — `ChairRitual` ｜父类: ChairWood ｜描述: Looks uncomfortable.
+- **华贵王座** — `ChairThrone` ｜父类: ChairBase ｜_Starlight ｜描述: A gaudy throne made of gold. Its too heavy to move.
+- **蛛网椅** — `ChairWeb` ｜父类: UnanchoredChairBase ｜描述: For true web developers.
 - **木椅** — `ChairWood` ｜父类: UnanchoredChairBase
 - **异形椅** — `ChairXeno` ｜父类: StoolBase
-- **折叠担架** — `CheapRollerBed` ｜父类: RollerBed
+- **折叠担架** — `CheapRollerBed` ｜父类: RollerBed ｜描述: A run-down rollerbed. Used to carry patients around.
 - **折叠担架** — `CheapRollerBedSpawnFolded` ｜父类: CheapRollerBed
 - **化学品分配器** — `ChemDispenser` ｜父类: ChemDispenserEmpty
-- **化学品分配器** — `ChemDispenserEmpty` ｜父类: ReagentDispenserBasePowerCell
-- **加热板** — `ChemistryHotplate` ｜父类: BaseHeaterMachine
-- **化学大师 4000** — `ChemMaster` ｜父类: BaseMachinePowered,ConstructibleMachine
-- **教堂钟** — `ChurchBell`
-- **电路打印机** — `CircuitImprinter` ｜父类: BaseLatheLube
-- **超对流电路打印机** — `CircuitImprinterHyperConvection` ｜父类: CircuitImprinter,BaseHyperlathe
-- **太空清洁剂分配器** — `CleanerDispenser` ｜父类: BaseDispenser
+- **化学品分配器** — `ChemDispenserEmpty` ｜父类: ReagentDispenserBasePowerCell ｜描述: An industrial grade chemical dispenser.
+- **加热板** — `ChemistryHotplate` ｜父类: BaseHeaterMachine ｜描述: The descendent of the microwaves, our newest invention in beaker heating technology: the hotplate!
+- **化学大师 4000** — `ChemMaster` ｜父类: BaseMachinePowered,ConstructibleMachine ｜描述: An industrial grade chemical manipulator with pill and bottle production included.
+- **教堂钟** — `ChurchBell` ｜描述: You feel your soul grow ever closer to the realms beyond for every chime this bell tolls...
+- **电路打印机** — `CircuitImprinter` ｜父类: BaseLatheLube ｜描述: Prints circuit boards for machines.
+- **超对流电路打印机** — `CircuitImprinterHyperConvection` ｜父类: CircuitImprinter,BaseHyperlathe ｜描述: A highly-experimental circuit imprinter that harnesses the power of extreme heat to slowly create objects more cost-effectively.
+- **太空清洁剂分配器** — `CleanerDispenser` ｜父类: BaseDispenser ｜描述: Wallmount Space Cleaner dispenser.
 - **标识装饰** — `ClinicSignLights` ｜父类: BarSignLights ｜_Starlight
-- **墙壁齿轮** — `ClockworkGirder` ｜父类: ReinforcedGirder
-- **发条格栅** — `ClockworkGrille` ｜父类: Grille
-- **发条格栅** — `ClockworkGrilleBroken` ｜父类: GrilleBroken
+- **墙壁齿轮** — `ClockworkGirder` ｜父类: ReinforcedGirder ｜描述: A large gear with mounting brackets for additional plating; This could be made into a wall with more brass plating.
+- **发条格栅** — `ClockworkGrille` ｜父类: Grille ｜描述: A flimsy framework of iron rods assembled in traditional Ratvarian fashion.
+- **发条格栅** — `ClockworkGrilleBroken` ｜父类: GrilleBroken ｜描述: A flimsy framework of iron rods assembled in traditional Ratvarian fashion. It has seen better days.
 - **斜向发条格栅** — `ClockworkGrilleDiagonal` ｜父类: ClockworkGrille
-- **发条窗** — `ClockworkWindow` ｜父类: Window
+- **发条窗** — `ClockworkWindow` ｜父类: Window ｜描述: Don't smudge up the brass down there.
 - **发条窗** — `ClockworkWindowDiagonal` ｜父类: ClockworkWindow
-- **克隆舱** — `CloningPod` ｜父类: BaseMachinePowered
-- `模板` **壁橱** — `ClosetBase` ｜父类: BaseStructureDynamic,BasePaperLabelableVisualized
-- **可疑的 壁橱** — `ClosetBluespace` ｜父类: ClosetMaintenance
-- **可疑的 壁橱** — `ClosetBluespaceUnstable` ｜父类: ClosetMaintenance
-- **EOD 壁橱** — `ClosetBomb` ｜父类: ClosetSteelBase
-- **厨师壁橱** — `ClosetChef` ｜父类: WardrobeBlack
-- **储物柜** — `ClosetCursed` ｜父类: ClosetSteelBase
-- **应急 壁橱** — `ClosetEmergency` ｜父类: ClosetSteelBase
-- **氮气应急 壁橱** — `ClosetEmergencyN2` ｜父类: ClosetSteelBase
-- **消防 壁橱** — `ClosetFire` ｜父类: ClosetSteelBase
-- **清洁用品柜** — `ClosetJanitor` ｜父类: WardrobeMixed
-- **清洁用防爆服柜** — `ClosetJanitorBomb` ｜父类: ClosetSteelBase
-- **三级生化防护装备柜** — `ClosetL3` ｜父类: ClosetSteelBase
+- **克隆舱** — `CloningPod` ｜父类: BaseMachinePowered ｜描述: A Cloning Pod. 50% reliable.
+- `模板` **壁橱** — `ClosetBase` ｜父类: BaseStructureDynamic,BasePaperLabelableVisualized ｜描述: A standard-issue NanoTrasen storage unit.
+- **可疑的 壁橱** — `ClosetBluespace` ｜父类: ClosetMaintenance ｜描述: It's a storage unit... right?
+- **可疑的 壁橱** — `ClosetBluespaceUnstable` ｜父类: ClosetMaintenance ｜描述: It's a storage unit... right?
+- **EOD 壁橱** — `ClosetBomb` ｜父类: ClosetSteelBase ｜描述: It's a storage unit for explosion-protective suits.
+- **厨师壁橱** — `ClosetChef` ｜父类: WardrobeBlack ｜描述: It's a storage unit for foodservice garments and mouse traps.
+- **储物柜** — `ClosetCursed` ｜父类: ClosetSteelBase ｜描述: A standard-issue NanoTrasen storage unit.
+- **应急 壁橱** — `ClosetEmergency` ｜父类: ClosetSteelBase ｜描述: It's a storage unit for emergency breath masks and O2 tanks.
+- **氮气应急 壁橱** — `ClosetEmergencyN2` ｜父类: ClosetSteelBase ｜描述: It's full of life-saving equipment. Assuming, that is, that you breathe nitrogen.
+- **消防 壁橱** — `ClosetFire` ｜父类: ClosetSteelBase ｜描述: It's a storage unit for fire-fighting supplies.
+- **清洁用品柜** — `ClosetJanitor` ｜父类: WardrobeMixed ｜描述: It's a storage unit for janitorial clothes and gear.
+- **清洁用防爆服柜** — `ClosetJanitorBomb` ｜父类: ClosetSteelBase ｜描述: It's a storage unit for janitorial explosion-protective suits.
+- **三级生化防护装备柜** — `ClosetL3` ｜父类: ClosetSteelBase ｜描述: It's a storage unit for level 3 biohazard gear.
 - **三级生化防护装备柜** — `ClosetL3Janitor` ｜父类: ClosetL3
 - **三级生化防护装备柜** — `ClosetL3Science` ｜父类: ClosetL3
 - **三级生化防护装备柜** — `ClosetL3Security` ｜父类: ClosetL3
 - **三级生化防护装备柜** — `ClosetL3Virology` ｜父类: ClosetL3
-- **法律用品柜** — `ClosetLegal` ｜父类: WardrobeBlue
-- **维护 壁橱** — `ClosetMaintenance` ｜父类: ClosetSteelBase
-- **储物容器** — `ClosetPirateBase` ｜父类: LockerSyndicate ｜_Starlight
-- **储物容器** — `ClosetPirateCaptain` ｜父类: LockerSyndicate ｜_Starlight
-- **储物容器** — `ClosetPirateCaptainScooner` ｜父类: LockerSyndicate ｜_Starlight
-- **储物容器** — `ClosetPirateFirstmate` ｜父类: LockerSyndicate ｜_Starlight
-- **储物容器** — `ClosetPirateScoonerA` ｜父类: LockerSyndicate ｜_Starlight
-- **储物容器** — `ClosetPirateScoonerAltB` ｜父类: LockerSyndicate ｜_Starlight
-- **储物容器** — `ClosetPirateScoonerAltC` ｜父类: LockerSyndicate ｜_Starlight
-- **储物容器** — `ClosetPirateScoonerAltD` ｜父类: LockerSyndicate ｜_Starlight
-- **防辐射服柜** — `ClosetRadiationSuit` ｜父类: ClosetSteelBase
+- **法律用品柜** — `ClosetLegal` ｜父类: WardrobeBlue ｜描述: It's a storage unit for courtroom apparel and items.
+- **维护 壁橱** — `ClosetMaintenance` ｜父类: ClosetSteelBase ｜描述: It's a storage unit.
+- **储物容器** — `ClosetPirateBase` ｜父类: LockerSyndicate ｜_Starlight ｜描述: A blood-red closet reeking of saltwater. Basic pirate crew kit.
+- **储物容器** — `ClosetPirateCaptain` ｜父类: LockerSyndicate ｜_Starlight ｜描述: A blood-red closet reeking of saltwater. Captain's outfit with coat and energy cutlass.
+- **储物容器** — `ClosetPirateCaptainScooner` ｜父类: LockerSyndicate ｜_Starlight ｜描述: A blood-red closet reeking of saltwater. Captain's schooner kit with cape, web vest and revolver.
+- **储物容器** — `ClosetPirateFirstmate` ｜父类: LockerSyndicate ｜_Starlight ｜描述: A blood-red closet reeking of saltwater. First mate's tricord and gentleman's coat.
+- **储物容器** — `ClosetPirateScoonerA` ｜父类: LockerSyndicate ｜_Starlight ｜描述: A blood-red closet reeking of saltwater. Standard schooner crew kit with cutlass and flintlock.
+- **储物容器** — `ClosetPirateScoonerAltB` ｜父类: LockerSyndicate ｜_Starlight ｜描述: A blood-red closet reeking of saltwater. Schooner crew with tricord and gentleman's coat.
+- **储物容器** — `ClosetPirateScoonerAltC` ｜父类: LockerSyndicate ｜_Starlight ｜描述: A blood-red closet reeking of saltwater. Schooner crew armed with blunderbuss.
+- **储物容器** — `ClosetPirateScoonerAltD` ｜父类: LockerSyndicate ｜_Starlight ｜描述: A blood-red closet reeking of saltwater. Schooner crew with tricord and revolver.
+- **防辐射服柜** — `ClosetRadiationSuit` ｜父类: ClosetSteelBase ｜描述: More comfortable than radiation poisioning.
 - **壁橱** — `ClosetSteelBase` ｜父类: ClosetBase
-- **工具柜** — `ClosetTool` ｜父类: ClosetSteelBase
-- **维护 壁挂壁橱** — `ClosetWall` ｜父类: BaseWallCloset
+- **工具柜** — `ClosetTool` ｜父类: ClosetSteelBase ｜描述: It's a storage unit for tools.
+- **维护 壁挂壁橱** — `ClosetWall` ｜父类: BaseWallCloset ｜描述: It's a storage unit.
 - **大气 壁挂壁橱** — `ClosetWallAtmospherics` ｜父类: BaseWallCloset
-- **黑色 壁挂壁橱** — `ClosetWallBlack` ｜父类: BaseWallCloset
-- **蓝色 壁挂壁橱** — `ClosetWallBlue` ｜父类: BaseWallCloset
-- **应急 壁挂壁橱** — `ClosetWallEmergency` ｜父类: BaseWallCloset
-- **氮气应急 壁挂壁橱** — `ClosetWallEmergencyN2` ｜父类: BaseWallCloset
-- **消防 壁挂壁橱** — `ClosetWallFire` ｜父类: BaseWallCloset
-- **绿色 壁挂壁橱** — `ClosetWallGreen` ｜父类: BaseWallCloset
-- **灰色 壁挂壁橱** — `ClosetWallGrey` ｜父类: BaseWallCloset
-- **混色 壁挂壁橱** — `ClosetWallMixed` ｜父类: BaseWallCloset
+- **黑色 壁挂壁橱** — `ClosetWallBlack` ｜父类: BaseWallCloset ｜描述: A wardrobe packed with stylish black clothing.
+- **蓝色 壁挂壁橱** — `ClosetWallBlue` ｜父类: BaseWallCloset ｜描述: A wardrobe packed with stylish blue clothing.
+- **应急 壁挂壁橱** — `ClosetWallEmergency` ｜父类: BaseWallCloset ｜描述: It's a storage unit for emergency breath masks and O2 tanks.
+- **氮气应急 壁挂壁橱** — `ClosetWallEmergencyN2` ｜父类: BaseWallCloset ｜描述: It's full of life-saving equipment. Assuming, that is, that you breathe nitrogen.
+- **消防 壁挂壁橱** — `ClosetWallFire` ｜父类: BaseWallCloset ｜描述: It's a storage unit for fire-fighting supplies.
+- **绿色 壁挂壁橱** — `ClosetWallGreen` ｜父类: BaseWallCloset ｜描述: A wardrobe packed with stylish green clothing.
+- **灰色 壁挂壁橱** — `ClosetWallGrey` ｜父类: BaseWallCloset ｜描述: A wardrobe packed with a tide of grey clothing.
+- **混色 壁挂壁橱** — `ClosetWallMixed` ｜父类: BaseWallCloset ｜描述: A wardrobe packed with a mix of colorful clothing.
 - **监狱 壁挂壁橱** — `ClosetWallOrange` ｜父类: BaseWallCloset
-- **粉色 壁挂壁橱** — `ClosetWallPink` ｜父类: BaseWallCloset
-- **白色 壁挂壁橱** — `ClosetWallWhite` ｜父类: BaseWallCloset
-- **黄色 壁挂壁橱** — `ClosetWallYellow` ｜父类: BaseWallCloset
-- **平台** — `CMPlatform` ｜父类: CMPlatformBase ｜_Starlight
-- `模板` **platform** — `CMPlatformBase` ｜_Starlight
-- **平台** — `CMPlatformCorner` ｜父类: CMPlatformBase ｜_Starlight
-- **平台** — `CMPlatformCornerDark` ｜父类: CMPlatformBase ｜_Starlight
-- **平台** — `CMPlatformCornerWood` ｜父类: CMPlatformBase ｜_Starlight
-- **平台** — `CMPlatformDark` ｜父类: CMPlatformBase ｜_Starlight
-- **平台** — `CMPlatformWood` ｜父类: CMPlatformBase ｜_Starlight
-- **蜘蛛网** — `Cobweb1`
+- **粉色 壁挂壁橱** — `ClosetWallPink` ｜父类: BaseWallCloset ｜描述: A wardrobe packed with fabulous pink clothing.
+- **白色 壁挂壁橱** — `ClosetWallWhite` ｜父类: BaseWallCloset ｜描述: A wardrobe packed with stylish white clothing.
+- **黄色 壁挂壁橱** — `ClosetWallYellow` ｜父类: BaseWallCloset ｜描述: A wardrobe packed with stylish yellow clothing.
+- **平台** — `CMPlatform` ｜父类: CMPlatformBase ｜_Starlight ｜描述: A raised surface. Wait, thats illegal!
+- `模板` **platform** — `CMPlatformBase` ｜_Starlight ｜描述: A raised surface. Wait, thats illegal!
+- **平台** — `CMPlatformCorner` ｜父类: CMPlatformBase ｜_Starlight ｜描述: A raised surface. Wait, thats illegal!
+- **平台** — `CMPlatformCornerDark` ｜父类: CMPlatformBase ｜_Starlight ｜描述: A raised surface. Wait, thats illegal!
+- **平台** — `CMPlatformCornerWood` ｜父类: CMPlatformBase ｜_Starlight ｜描述: A raised surface. Wait, thats illegal!
+- **平台** — `CMPlatformDark` ｜父类: CMPlatformBase ｜_Starlight ｜描述: A raised surface. Wait, thats illegal!
+- **平台** — `CMPlatformWood` ｜父类: CMPlatformBase ｜_Starlight ｜描述: A raised surface. Wait, thats illegal!
+- **蜘蛛网** — `Cobweb1` ｜描述: Somebody should remove that.
 - **蜘蛛网** — `Cobweb2` ｜父类: Cobweb1
 - **咖啡分配器** — `CoffeeDispenser` ｜父类: CoffeeDispenserEmpty ｜_Starlight
-- **咖啡分配器** — `CoffeeDispenserEmpty` ｜父类: ReagentDispenserBasePowerCell ｜_Starlight
-- **舒适座椅** — `ComfyChair` ｜父类: ChairBase ｜_Starlight
-- **舒适座椅** — `ComfyChairBlue` ｜父类: ChairBase ｜_Starlight
-- **舒适座椅** — `ComfyChairBrown` ｜父类: ChairBase ｜_Starlight
-- **舒适座椅** — `ComfyChairGreen` ｜父类: ChairBase ｜_Starlight
-- **舒适座椅** — `ComfyChairRed` ｜父类: ChairBase ｜_Starlight
-- **舒适座椅** — `ComfyChairWhite` ｜父类: ChairBase ｜_Starlight
-- **远程打捞穿梭机控制台** — `CompuerShuttleSalvage` ｜父类: BaseComputerShuttle ｜_Starlight
-- **大气警报计算机** — `ComputerAlert` ｜父类: BaseComputerAiAccess
-- **功能设备** — `ComputerAlertDesktop` ｜父类: BaseDesktop,ComputerAlert ｜_Starlight
-- **分析控制台** — `ComputerAnalysisConsole` ｜父类: BaseComputerAiAccess
-- **大气网络监视器** — `ComputerAtmosMonitoring` ｜父类: BaseComputerAiAccess
-- **功能设备** — `ComputerAtmosMonitoringDesktop` ｜父类: BaseDesktop,ComputerAtmosMonitoring ｜_Starlight
-- **手术计算机** — `computerBodyScanner` ｜父类: BaseComputerAiAccess
-- **损坏的计算机** — `ComputerBroken` ｜父类: BaseStructureComputer
-- **货运悬赏计算机** — `ComputerCargoBounty` ｜父类: BaseComputerAiAccess
-- **功能设备** — `ComputerCargoBountyDesktop` ｜父类: BaseDesktop,ComputerCargoBounty ｜_Starlight
-- **货运申请计算机** — `ComputerCargoOrders` ｜父类: BaseComputerAiAccess
-- **功能设备** — `ComputerCargoOrdersDesktop` ｜父类: BaseDesktop,ComputerCargoOrders ｜_Starlight
-- **工程部申请计算机** — `ComputerCargoOrdersEngineering` ｜父类: ComputerCargoOrders
-- **功能设备** — `ComputerCargoOrdersEngineeringDesktop` ｜父类: BaseDesktop,ComputerCargoOrdersEngineering ｜_Starlight
-- **医疗部申请计算机** — `ComputerCargoOrdersMedical` ｜父类: ComputerCargoOrders
-- **功能设备** — `ComputerCargoOrdersMedicalDesktop` ｜父类: BaseDesktop,ComputerCargoOrdersMedical ｜_Starlight
-- **科研部申请计算机** — `ComputerCargoOrdersScience` ｜父类: ComputerCargoOrders
-- **功能设备** — `ComputerCargoOrdersScienceDesktop` ｜父类: BaseDesktop,ComputerCargoOrdersScience ｜_Starlight
-- **安保部申请计算机** — `ComputerCargoOrdersSecurity` ｜父类: ComputerCargoOrders
-- **功能设备** — `ComputerCargoOrdersSecurityDesktop` ｜父类: BaseDesktop,ComputerCargoOrdersSecurity ｜_Starlight
-- **服务部申请计算机** — `ComputerCargoOrdersService` ｜父类: ComputerCargoOrders
-- **功能设备** — `ComputerCargoOrdersServiceDesktop` ｜父类: BaseDesktop,ComputerCargoOrdersService ｜_Starlight
-- **克隆控制计算机** — `ComputerCloningConsole` ｜父类: BaseComputerAiAccess
-- **通讯控制台** — `ComputerComms` ｜父类: BaseComputerAiAccess
-- **货运 通讯控制台** — `ComputerCommsCargo` ｜父类: ComputerComms ｜_Starlight
-- **工程 通讯控制台** — `ComputerCommsEngineering` ｜父类: ComputerComms ｜_Starlight
-- **功能设备** — `ComputerCommsLaw` ｜父类: ComputerComms ｜_Starlight
-- **医疗 通讯控制台** — `ComputerCommsMedical` ｜父类: ComputerComms ｜_Starlight
-- **科研 通讯控制台** — `ComputerCommsScience` ｜父类: ComputerComms ｜_Starlight
-- **安保 通讯控制台** — `ComputerCommsSecurity` ｜父类: ComputerComms ｜_Starlight
-- **服务 通讯控制台** — `ComputerCommsService` ｜父类: ComputerComms ｜_Starlight
-- **船员监控台** — `ComputerCrewMonitoring` ｜父类: BaseComputerAiAccess
-- **功能设备** — `ComputerCrewMonitoringDesktop` ｜父类: BaseDesktop,ComputerCrewMonitoring ｜_Starlight
-- **安保记录计算机** — `ComputerCriminalRecords` ｜父类: BaseComputerAiAccess
-- **功能设备** — `ComputerCriminalRecordsDesktop` ｜父类: BaseDesktop,ComputerCriminalRecords ｜_Starlight
-- **紧急撤离穿梭机控制台** — `ComputerEmergencyShuttle` ｜父类: BaseComputer
-- **计算机框架** — `ComputerFrame` ｜父类: BaseStructureComputer
-- **资金分配计算机** — `ComputerFundingAllocation` ｜父类: BaseComputerAiAccess
-- **炮术控制台** — `ComputerGunneryConsole` ｜父类: BaseComputer ｜_Starlight
-- **ID卡计算机** — `ComputerId` ｜父类: BaseComputerAiAccess
-- **IFF 计算机** — `ComputerIFF` ｜父类: BaseComputerAiAccess
-- **IFF 计算机** — `ComputerIFFSyndicate` ｜父类: ComputerIFF
-- **新闻管理控制台** — `ComputerMassMedia` ｜父类: BaseComputerAiAccess
+- **咖啡分配器** — `CoffeeDispenserEmpty` ｜父类: ReagentDispenserBasePowerCell ｜_Starlight ｜描述: A beverage dispenser with a selection of coffee and tea. Has a single fill slot for containers.
+- **舒适座椅** — `ComfyChair` ｜父类: ChairBase ｜_Starlight ｜描述: It looks comfy.
+- **舒适座椅** — `ComfyChairBlue` ｜父类: ChairBase ｜_Starlight ｜描述: It looks comfy.
+- **舒适座椅** — `ComfyChairBrown` ｜父类: ChairBase ｜_Starlight ｜描述: It looks comfy.
+- **舒适座椅** — `ComfyChairGreen` ｜父类: ChairBase ｜_Starlight ｜描述: It looks comfy.
+- **舒适座椅** — `ComfyChairRed` ｜父类: ChairBase ｜_Starlight ｜描述: It looks comfy.
+- **舒适座椅** — `ComfyChairWhite` ｜父类: ChairBase ｜_Starlight ｜描述: It looks comfy.
+- **远程打捞穿梭机控制台** — `CompuerShuttleSalvage` ｜父类: BaseComputerShuttle ｜_Starlight ｜描述: Used to pilot the salvage shuttle remotely.
+- **大气警报计算机** — `ComputerAlert` ｜父类: BaseComputerAiAccess ｜描述: Used to access the station's atmospheric automated alert system.
+- **功能设备** — `ComputerAlertDesktop` ｜父类: BaseDesktop,ComputerAlert ｜_Starlight ｜描述: Used to access the station's atmospheric automated alert system.
+- **分析控制台** — `ComputerAnalysisConsole` ｜父类: BaseComputerAiAccess ｜描述: A computer used to interface with the artifact analyzer.
+- **大气网络监视器** — `ComputerAtmosMonitoring` ｜父类: BaseComputerAiAccess ｜描述: Used to monitor the station's atmospheric networks.
+- **功能设备** — `ComputerAtmosMonitoringDesktop` ｜父类: BaseDesktop,ComputerAtmosMonitoring ｜_Starlight ｜描述: Used to monitor the station's atmospheric networks.
+- **手术计算机** — `computerBodyScanner` ｜父类: BaseComputerAiAccess ｜描述: A body scanner.
+- **损坏的计算机** — `ComputerBroken` ｜父类: BaseStructureComputer ｜描述: This computer has seen better days.
+- **货运悬赏计算机** — `ComputerCargoBounty` ｜父类: BaseComputerAiAccess ｜描述: Used to manage currently active bounties.
+- **功能设备** — `ComputerCargoBountyDesktop` ｜父类: BaseDesktop,ComputerCargoBounty ｜_Starlight ｜描述: Used to manage currently active bounties.
+- **货运申请计算机** — `ComputerCargoOrders` ｜父类: BaseComputerAiAccess ｜描述: Used to order supplies and approve requests.
+- **功能设备** — `ComputerCargoOrdersDesktop` ｜父类: BaseDesktop,ComputerCargoOrders ｜_Starlight ｜描述: Used to order supplies and approve requests.
+- **工程部申请计算机** — `ComputerCargoOrdersEngineering` ｜父类: ComputerCargoOrders ｜描述: Used by the engineering department to order supplies.
+- **功能设备** — `ComputerCargoOrdersEngineeringDesktop` ｜父类: BaseDesktop,ComputerCargoOrdersEngineering ｜_Starlight ｜描述: Used by the engineering department to order supplies.
+- **医疗部申请计算机** — `ComputerCargoOrdersMedical` ｜父类: ComputerCargoOrders ｜描述: Used by the medical department to order supplies.
+- **功能设备** — `ComputerCargoOrdersMedicalDesktop` ｜父类: BaseDesktop,ComputerCargoOrdersMedical ｜_Starlight ｜描述: Used by the medical department to order supplies.
+- **科研部申请计算机** — `ComputerCargoOrdersScience` ｜父类: ComputerCargoOrders ｜描述: Used by the science department to order supplies.
+- **功能设备** — `ComputerCargoOrdersScienceDesktop` ｜父类: BaseDesktop,ComputerCargoOrdersScience ｜_Starlight ｜描述: Used by the science department to order supplies.
+- **安保部申请计算机** — `ComputerCargoOrdersSecurity` ｜父类: ComputerCargoOrders ｜描述: Used by the security department to order supplies.
+- **功能设备** — `ComputerCargoOrdersSecurityDesktop` ｜父类: BaseDesktop,ComputerCargoOrdersSecurity ｜_Starlight ｜描述: Used by the security department to order supplies.
+- **服务部申请计算机** — `ComputerCargoOrdersService` ｜父类: ComputerCargoOrders ｜描述: Used by the service department to order supplies.
+- **功能设备** — `ComputerCargoOrdersServiceDesktop` ｜父类: BaseDesktop,ComputerCargoOrdersService ｜_Starlight ｜描述: Used by the service department to order supplies.
+- **克隆控制计算机** — `ComputerCloningConsole` ｜父类: BaseComputerAiAccess ｜描述: The centerpiece of the cloning system, medicine's greatest accomplishment. It has lots of ports and wires.
+- **通讯控制台** — `ComputerComms` ｜父类: BaseComputerAiAccess ｜描述: A computer used to make station wide announcements via keyboard, set the appropriate alert level, and call the emergency shuttle.
+- **货运 通讯控制台** — `ComputerCommsCargo` ｜父类: ComputerComms ｜_Starlight ｜描述: A computer used to make station wide announcements via keyboard, set the appropriate alert level, and call the emergency shuttle.
+- **工程 通讯控制台** — `ComputerCommsEngineering` ｜父类: ComputerComms ｜_Starlight ｜描述: A computer used to make station wide announcements via keyboard, set the appropriate alert level, and call the emergency shuttle.
+- **功能设备** — `ComputerCommsLaw` ｜父类: ComputerComms ｜_Starlight ｜描述: A computer used to make station wide announcements via keyboard, set the appropriate alert level, and call the emergency shuttle.
+- **医疗 通讯控制台** — `ComputerCommsMedical` ｜父类: ComputerComms ｜_Starlight ｜描述: A computer used to make station wide announcements via keyboard, set the appropriate alert level, and call the emergency shuttle.
+- **科研 通讯控制台** — `ComputerCommsScience` ｜父类: ComputerComms ｜_Starlight ｜描述: A computer used to make station wide announcements via keyboard, set the appropriate alert level, and call the emergency shuttle.
+- **安保 通讯控制台** — `ComputerCommsSecurity` ｜父类: ComputerComms ｜_Starlight ｜描述: A computer used to make station wide announcements via keyboard, set the appropriate alert level, and call the emergency shuttle.
+- **服务 通讯控制台** — `ComputerCommsService` ｜父类: ComputerComms ｜_Starlight ｜描述: A computer used to make station wide announcements via keyboard, set the appropriate alert level, and call the emergency shuttle.
+- **船员监控台** — `ComputerCrewMonitoring` ｜父类: BaseComputerAiAccess ｜描述: Used to monitor active health sensors built into most of the crew's uniforms.
+- **功能设备** — `ComputerCrewMonitoringDesktop` ｜父类: BaseDesktop,ComputerCrewMonitoring ｜_Starlight ｜描述: Used to monitor active health sensors built into most of the crew's uniforms.
+- **安保记录计算机** — `ComputerCriminalRecords` ｜父类: BaseComputerAiAccess ｜描述: This can be used to access security records.
+- **功能设备** — `ComputerCriminalRecordsDesktop` ｜父类: BaseDesktop,ComputerCriminalRecords ｜_Starlight ｜描述: This can be used to access security records.
+- **紧急撤离穿梭机控制台** — `ComputerEmergencyShuttle` ｜父类: BaseComputer ｜描述: Handles authorization to early launch the shuttle.
+- **计算机框架** — `ComputerFrame` ｜父类: BaseStructureComputer ｜描述: A computer under construction.
+- **资金分配计算机** — `ComputerFundingAllocation` ｜父类: BaseComputerAiAccess ｜描述: Terminal for controlling the distribution of funds and pay to departments.
+- **炮术控制台** — `ComputerGunneryConsole` ｜父类: BaseComputer ｜_Starlight ｜描述: A dedicated fire-control station. Displays a tactical radar overlay showing shuttle cannons, draws aim lines, and allows guided control of rockets.
+- **ID卡计算机** — `ComputerId` ｜父类: BaseComputerAiAccess ｜描述: Terminal for programming NanoTrasen employee ID cards to access parts of the station.
+- **IFF 计算机** — `ComputerIFF` ｜父类: BaseComputerAiAccess ｜描述: Allows you to control the IFF characteristics of this vessel.
+- **IFF 计算机** — `ComputerIFFSyndicate` ｜父类: ComputerIFF ｜描述: Allows you to control the IFF and stealth characteristics of this vessel.
+- **新闻管理控制台** — `ComputerMassMedia` ｜父类: BaseComputerAiAccess ｜描述: Write your message to the world!
 - **功能设备** — `ComputerMassMediaDesktop` ｜父类: BaseDesktop,ComputerMassMedia ｜_Starlight
-- **医疗记录计算机** — `ComputerMedicalRecords` ｜父类: BaseComputerAiAccess
-- **辛迪加投送计算机** — `ComputerNukieDelivery` ｜父类: BaseComputer
-- **货物出售计算机** — `ComputerPalletConsole` ｜父类: BaseComputerAiAccess
-- **功能设备** — `ComputerPersonalDesktop` ｜父类: BaseDesktop,BaseComputerAiAccess,StorePresetUplink ｜_Starlight
-- **电力监控计算机** — `ComputerPowerMonitoring` ｜父类: BaseComputerAiAccess
-- **功能设备** — `ComputerPowerMonitoringDesktop` ｜父类: BaseDesktop,ComputerPowerMonitoring ｜_Starlight
-- **质量扫描计算机** — `ComputerRadar` ｜父类: BaseComputerAiAccess
-- **研发计算机** — `ComputerResearchAndDevelopment` ｜父类: BaseComputerAiAccess
-- **机器人控制台** — `ComputerRoboticsControl` ｜父类: BaseComputerAiAccess
-- **打捞远征计算机** — `ComputerSalvageExpedition` ｜父类: BaseComputerAiAccess
-- **打捞任务板** — `ComputerSalvageJobBoard` ｜父类: BaseComputerAiAccess
-- **功能设备** — `ComputerSalvageJobBoardDesktop` ｜父类: BaseDesktop,ComputerSalvageJobBoard ｜_Starlight
-- **传感器监控计算机** — `ComputerSensorMonitoring` ｜父类: BaseComputer
-- **功能设备** — `ComputerShipyard` ｜父类: BaseComputer ｜_Starlight
-- **穿梭机控制台** — `ComputerShuttle` ｜父类: BaseComputerShuttle
-- **货运穿梭机远程控制台** — `ComputerShuttleCargo` ｜父类: BaseComputerShuttle
-- **功能设备** — `ComputerShuttleMining` ｜父类: BaseComputerShuttle ｜_Starlight
-- **功能设备** — `ComputerShuttleSecurity` ｜父类: BaseComputerShuttle ｜_Starlight
-- **辛迪加穿梭机控制台** — `ComputerShuttleSyndie` ｜父类: BaseComputerShuttle
-- **太阳能控制计算机** — `ComputerSolarControl` ｜父类: BaseComputerAiAccess
-- **雇员记录计算机** — `ComputerStationRecords` ｜父类: BaseComputerAiAccess
-- **功能设备** — `ComputerStationRecordsDesktop` ｜父类: BaseDesktop,ComputerStationRecords ｜_Starlight
-- **摄像头监视器** — `ComputerSurveillanceCameraMonitor` ｜父类: BaseComputer
-- **功能设备** — `ComputerSurveillanceCameraMonitorDesktop` ｜父类: BaseDesktop,ComputerSurveillanceCameraMonitor ｜_Starlight
+- **医疗记录计算机** — `ComputerMedicalRecords` ｜父类: BaseComputerAiAccess ｜描述: This can be used to check medical records.
+- **辛迪加投送计算机** — `ComputerNukieDelivery` ｜父类: BaseComputer ｜描述: A computer that can bluespace in certain equipment for Nuclear Operations. 
+The circuitboard is integrated into the frame and can't be recovered if deconstructed.
+- **货物出售计算机** — `ComputerPalletConsole` ｜父类: BaseComputerAiAccess ｜描述: Used to sell goods loaded onto cargo pallets.
+- **功能设备** — `ComputerPersonalDesktop` ｜父类: BaseDesktop,BaseComputerAiAccess,StorePresetUplink ｜_Starlight ｜描述: For all your stationary computing needs!
+- **电力监控计算机** — `ComputerPowerMonitoring` ｜父类: BaseComputerAiAccess ｜描述: It monitors power levels across the station.
+- **功能设备** — `ComputerPowerMonitoringDesktop` ｜父类: BaseDesktop,ComputerPowerMonitoring ｜_Starlight ｜描述: It monitors power levels across the station.
+- **质量扫描计算机** — `ComputerRadar` ｜父类: BaseComputerAiAccess ｜描述: A computer for detecting nearby bodies, displaying them by position and mass.
+- **研发计算机** — `ComputerResearchAndDevelopment` ｜父类: BaseComputerAiAccess ｜描述: A computer used to interface with R&D tools.
+- **机器人控制台** — `ComputerRoboticsControl` ｜父类: BaseComputerAiAccess ｜描述: Used to remotely monitor, disable, and destroy the station's cyborgs.
+- **打捞远征计算机** — `ComputerSalvageExpedition` ｜父类: BaseComputerAiAccess ｜描述: Used to accept salvage missions, if you're tough enough.
+- **打捞任务板** — `ComputerSalvageJobBoard` ｜父类: BaseComputerAiAccess ｜描述: Console for accessing salvage jobs, if you're tough enough.
+- **功能设备** — `ComputerSalvageJobBoardDesktop` ｜父类: BaseDesktop,ComputerSalvageJobBoard ｜_Starlight ｜描述: Console for accessing salvage jobs, if you're tough enough.
+- **传感器监控计算机** — `ComputerSensorMonitoring` ｜父类: BaseComputer ｜描述: A flexible console for monitoring all kinds of sensors.
+- **功能设备** — `ComputerShipyard` ｜父类: BaseComputer ｜_Starlight ｜描述: Used to purchase shuttles.
+- **穿梭机控制台** — `ComputerShuttle` ｜父类: BaseComputerShuttle ｜描述: Used to pilot a shuttle.
+- **货运穿梭机远程控制台** — `ComputerShuttleCargo` ｜父类: BaseComputerShuttle ｜描述: Used to pilot the cargo shuttle remotely.
+- **功能设备** — `ComputerShuttleMining` ｜父类: BaseComputerShuttle ｜_Starlight ｜描述: Used to pilot the mining shuttle remotely.
+- **功能设备** — `ComputerShuttleSecurity` ｜父类: BaseComputerShuttle ｜_Starlight ｜描述: Used to pilot the security shuttle remotely.
+- **辛迪加穿梭机控制台** — `ComputerShuttleSyndie` ｜父类: BaseComputerShuttle ｜描述: Used to pilot a syndicate shuttle.
+- **太阳能控制计算机** — `ComputerSolarControl` ｜父类: BaseComputerAiAccess ｜描述: A controller for solar panel arrays.
+- **雇员记录计算机** — `ComputerStationRecords` ｜父类: BaseComputerAiAccess ｜描述: This can be used to check employment records.
+- **功能设备** — `ComputerStationRecordsDesktop` ｜父类: BaseDesktop,ComputerStationRecords ｜_Starlight ｜描述: This can be used to check employment records.
+- **摄像头监视器** — `ComputerSurveillanceCameraMonitor` ｜父类: BaseComputer ｜描述: A surveillance camera monitor. You're watching them. Maybe.
+- **功能设备** — `ComputerSurveillanceCameraMonitorDesktop` ｜父类: BaseDesktop,ComputerSurveillanceCameraMonitor ｜_Starlight ｜描述: A surveillance camera monitor. You're watching them. Maybe.
 - **功能设备** — `ComputerSurveillanceCameraMonitorDesktopIsolatedNetwork` ｜父类: ComputerSurveillanceCameraMonitorDesktop ｜_Starlight
-- **无线摄像头监视器** — `ComputerSurveillanceWirelessCameraMonitor` ｜父类: BaseComputer
-- **异形赛博格摄像头监视器** — `ComputerSurveillanceWirelessXenoborgCameraMonitor` ｜父类: ComputerSurveillanceWirelessCameraMonitor
-- **科技磁盘终端** — `ComputerTechnologyDiskTerminal` ｜父类: BaseComputer
-- **木制电视机** — `ComputerTelevision` ｜父类: ComputerSurveillanceWirelessCameraMonitor
-- **异形赛博格控制台** — `ComputerXenoborgsControl` ｜父类: BaseComputer
+- **无线摄像头监视器** — `ComputerSurveillanceWirelessCameraMonitor` ｜父类: BaseComputer ｜描述: A wireless surveillance camera monitor. You're watching them. Maybe.
+- **异形赛博格摄像头监视器** — `ComputerSurveillanceWirelessXenoborgCameraMonitor` ｜父类: ComputerSurveillanceWirelessCameraMonitor ｜描述: A wireless xenoborg camera monitor. You're watching them. Maybe.
+- **科技磁盘终端** — `ComputerTechnologyDiskTerminal` ｜父类: BaseComputer ｜描述: A terminal used to print out technology disks.
+- **木制电视机** — `ComputerTelevision` ｜父类: ComputerSurveillanceWirelessCameraMonitor ｜描述: Finally, some decent reception around here...
+- **异形赛博格控制台** — `ComputerXenoborgsControl` ｜父类: BaseComputer ｜描述: Used to remotely monitor all xenoborgs.
 - `模板` **ConstructibleMachine** — `ConstructibleMachine`
-- **约束场** — `ContainmentField`
-- **约束场发生器** — `ContainmentFieldGenerator` ｜父类: BaseStructure
-- **传送带** — `ConveyorBelt`
-- **传送带** — `ConveyorBeltAssembly` ｜父类: BaseItem
+- **约束场** — `ContainmentField` ｜描述: A containment field that repels gravitational singularities.
+- **约束场发生器** — `ContainmentFieldGenerator` ｜父类: BaseStructure ｜描述: A machine that generates a containment field when powered by an emitter. Keeps the Singularity docile.
+- **传送带** — `ConveyorBelt` ｜描述: A conveyor belt, commonly used to transport large numbers of items elsewhere quite quickly.
+- **传送带** — `ConveyorBeltAssembly` ｜父类: BaseItem ｜描述: A conveyor belt assembly. Used to construct a conveyor belt.
 - `模板` **CoreSubstation** — `CoreSubstation`
-- **异常** — `CosmicMalignRift` ｜_Starlight
+- **异常** — `CosmicMalignRift` ｜_Starlight ｜描述: A malign light pours forth from within.
 - `模板` **柜台** — `CounterBase` ｜父类: TableBase
-- **金属柜台框架** — `CounterMetalFrame` ｜父类: CounterWoodFrame
-- **木制柜台框架** — `CounterWoodFrame` ｜父类: BaseStructure
+- **金属柜台框架** — `CounterMetalFrame` ｜父类: CounterWoodFrame ｜描述: Pieces of metal that make the frame of a table.
+- **木制柜台框架** — `CounterWoodFrame` ｜父类: BaseStructure ｜描述: Pieces of wood that make the frame of a table.
 - **暗影异常核心** — `CraftingAnomalyCoreShadow` ｜父类: AnomalyCoreShadow ｜_Starlight
-- `模板` **资金箱** — `CrateBaseLockBox` ｜父类: CrateBaseSecure
+- `模板` **资金箱** — `CrateBaseLockBox` ｜父类: CrateBaseSecure ｜描述: A secure lock box. Funds from its sale will be distributed back to the department. Just remember: Cargo always takes a cut.
 - **板条箱** — `CrateBaseSecure` ｜父类: CrateBaseWeldable
 - **板条箱** — `CrateBaseWeldable` ｜父类: CrateGeneric
 - **中央指挥部 板条箱** — `CrateCentralCommandSecure` ｜父类: CrateBaseSecure ｜_Starlight
-- **中央指挥部 板条箱** — `CrateCentralCommandSecureStrong` ｜父类: CrateCentralCommandSecure ｜_Starlight
+- **中央指挥部 板条箱** — `CrateCentralCommandSecureStrong` ｜父类: CrateCentralCommandSecure ｜_Starlight ｜描述: A large container for items. Made with plastitanium to drastically improve durability.
 - **安全化学品箱** — `CrateChemistrySecure` ｜父类: CrateBaseSecure
-- **棺材** — `CrateCoffin` ｜父类: CrateGeneric
+- **棺材** — `CrateCoffin` ｜父类: CrateGeneric ｜描述: A comfy coffin, excellent place for the vampires and corpses.
 - **指挥部箱** — `CrateCommandSecure` ｜父类: CrateBaseSecure
-- **违禁品储存箱** — `CrateContrabandStorageSecure` ｜父类: CrateBaseSecure,BaseSecurityContraband
+- **违禁品储存箱** — `CrateContrabandStorageSecure` ｜父类: CrateBaseSecure,BaseSecurityContraband ｜描述: An armory access locked crate for storing contraband confiscated from suspects or prisoners.
 - **电气箱** — `CrateElectrical` ｜父类: CrateGenericSteel
 - **工程箱** — `CrateEngineering` ｜父类: CrateGenericSteel
 - **安全工程箱** — `CrateEngineeringSecure` ｜父类: CrateBaseSecure
 - **冷冻柜** — `CrateFreezer` ｜父类: CratePlastic
-- **板条箱** — `CrateGeneric` ｜父类: BaseStructureDynamic,BasePaperLabelableVisualized
+- **板条箱** — `CrateGeneric` ｜父类: BaseStructureDynamic,BasePaperLabelableVisualized ｜描述: A large container for items.
 - **板条箱** — `CrateGenericSteel` ｜父类: CrateBaseWeldable
 - **水培箱** — `CrateHydroponics` ｜父类: CratePlastic
 - **安全水培箱** — `CrateHydroSecure` ｜父类: CrateBaseSecure
@@ -1069,41 +1070,41 @@
 - **服务 资金箱** — `CrateLockBoxService` ｜父类: CrateBaseLockBox
 - **医疗箱** — `CrateMedical` ｜父类: CratePlastic
 - **安全医疗箱** — `CrateMedicalSecure` ｜父类: CrateBaseSecure
-- **海盗宝箱** — `CratePirate` ｜父类: CrateGeneric
+- **海盗宝箱** — `CratePirate` ｜父类: CrateGeneric ｜描述: A space pirate chest, not for station lubbers.
 - **等离子体箱** — `CratePlasma` ｜父类: CrateBaseSecure
 - **塑料箱** — `CratePlastic` ｜父类: CrateBaseWeldable
 - **私人箱** — `CratePrivateSecure` ｜父类: CrateBaseSecure
-- **防辐射装备箱** — `CrateRadiation` ｜父类: CrateGenericSteel
+- **防辐射装备箱** — `CrateRadiation` ｜父类: CrateGenericSteel ｜描述: Is not actually lead lined. Do not store your plutonium in this.
 - **RD 板条箱** — `CrateRDSecure` ｜父类: CrateBaseSecure ｜_Starlight
 - **储物容器** — `CrateRoboticsSecure` ｜父类: CrateBaseSecure ｜_Starlight
 - **仓鼠笼** — `CrateRodentCage` ｜父类: CrateGeneric
-- **储物容器** — `CrateSalvageContrabandStorageSecure` ｜父类: CrateBaseSecure ｜_Starlight
+- **储物容器** — `CrateSalvageContrabandStorageSecure` ｜父类: CrateBaseSecure ｜_Starlight ｜描述: A security and salvage access locked crate for storing contraband.
 - **科研箱** — `CrateScience` ｜父类: CrateGenericSteel
 - **安全科研箱** — `CrateScienceSecure` ｜父类: CrateBaseSecure
 - **安保装备箱** — `CrateSecgear` ｜父类: CrateBaseSecure,BaseSecurityContraband
 - **安全箱** — `CrateSecure` ｜父类: CrateBaseSecure
-- **SSF 储物容器** — `CrateSoviet` ｜父类: CrateGenericSteel ｜_Starlight
-- **坟墓** — `CrateStoneGrave` ｜父类: CrateWoodenGrave
+- **SSF 储物容器** — `CrateSoviet` ｜父类: CrateGenericSteel ｜_Starlight ｜描述: A sturdy crate adorned with the insignia of the USSP marine forces.
+- **坟墓** — `CrateStoneGrave` ｜父类: CrateWoodenGrave ｜描述: Someone died here...
 - **手术箱** — `CrateSurgery` ｜父类: CrateGenericSteel
-- **辛迪加箱** — `CrateSyndicate` ｜父类: CrateGenericSteel
-- **安全辛迪加箱** — `CrateSyndicateSecure` ｜父类: CrateBaseSecure
-- **玩具箱** — `CrateToyBox` ｜父类: CratePirate
+- **辛迪加箱** — `CrateSyndicate` ｜父类: CrateGenericSteel ｜描述: A dark steel crate with red bands and a letter S embossed on the front.
+- **安全辛迪加箱** — `CrateSyndicateSecure` ｜父类: CrateBaseSecure ｜描述: A dark steel crate with red bands and a letter S embossed on the front.
+- **玩具箱** — `CrateToyBox` ｜父类: CratePirate ｜描述: A box overflowing with fun.
 - **垃圾推车** — `CrateTrashCart` ｜父类: StructureWheeled,CrateBaseWeldable
 - **清洁垃圾推车** — `CrateTrashCartJani` ｜父类: CrateBaseSecure
 - **安全武器箱** — `CrateWeaponSecure` ｜父类: CrateBaseSecure
 - **蛛网箱** — `CrateWeb` ｜父类: CrateGeneric
-- **坟墓** — `CrateWoodenGrave` ｜父类: CrateGeneric
-- **火葬炉** — `Crematorium`
-- **船员监控服务器** — `CrewMonitoringServer` ｜父类: BaseCrewMonitoringServer,BaseMachinePowered,ConstructibleMachine
-- **低温休眠舱** — `CryogenicSleepUnit` ｜父类: BaseStructure
+- **坟墓** — `CrateWoodenGrave` ｜父类: CrateGeneric ｜描述: Someone died here...
+- **火葬炉** — `Crematorium` ｜描述: A human incinerator. Works well on barbecue nights.
+- **船员监控服务器** — `CrewMonitoringServer` ｜父类: BaseCrewMonitoringServer,BaseMachinePowered,ConstructibleMachine ｜描述: Receives and relays the status of all active suit sensors on the station.
+- **低温休眠舱** — `CryogenicSleepUnit` ｜父类: BaseStructure ｜描述: A super-cooled container that keeps crewmates safe during space travel.
 - **低温休眠舱** — `CryogenicSleepUnitSpawner` ｜父类: CryogenicSleepUnit
 - **低温休眠舱** — `CryogenicSleepUnitSpawnerLateJoin` ｜父类: CryogenicSleepUnit
-- **低温休眠舱** — `CryoPod` ｜父类: BaseStructure,ConstructibleMachine
-- **损毁的冷冻舱** — `CryoPodDestroyed` ｜父类: BaseMachine
+- **低温休眠舱** — `CryoPod` ｜父类: BaseStructure,ConstructibleMachine ｜描述: A special machine intended to create a safe environment for the use of chemicals that react in cold environments.
+- **损毁的冷冻舱** — `CryoPodDestroyed` ｜父类: BaseMachine ｜描述: A cryo pod that has seen better days. It's entirely inoperable; not good for anything but scrap.
 - **水晶** — `CrystalBlack` ｜父类: CrystalGreen
 - **水晶** — `CrystalBlue` ｜父类: CrystalGreen
 - **水晶** — `CrystalCyan` ｜父类: CrystalGreen
-- **水晶** — `CrystalGreen` ｜父类: BaseStructure
+- **水晶** — `CrystalGreen` ｜父类: BaseStructure ｜描述: A crystaline solid.
 - **水晶** — `CrystalGrey` ｜父类: CrystalGreen
 - **水晶** — `CrystalOrange` ｜父类: CrystalGreen
 - **水晶** — `CrystalPink` ｜父类: CrystalGreen
@@ -1128,43 +1129,43 @@
 - **帘幕** — `CurtainsSkyBlueOpen` ｜父类: CurtainsSkyBlue
 - **帘幕** — `CurtainsWhite` ｜父类: BaseCurtains
 - **帘幕** — `CurtainsWhiteOpen` ｜父类: CurtainsWhite
-- **切割机** — `CutterMachine` ｜父类: BaseLathe
-- **标识装饰** — `CybersunFlag` ｜父类: BaseFlag ｜_Starlight
-- **黑暗发电机** — `DarkGenerator` ｜父类: BaseGenerator ｜_Starlight
+- **切割机** — `CutterMachine` ｜父类: BaseLathe ｜描述: This is a cutter. It cuts. Add variety to your station floor with eye-pleasing patterns! Don't stick your fingers in.
+- **标识装饰** — `CybersunFlag` ｜父类: BaseFlag ｜_Starlight ｜描述: Paper, Suit, Progress.
+- **黑暗发电机** — `DarkGenerator` ｜父类: BaseGenerator ｜_Starlight ｜描述: Somehow... this generate power... but only in the dark...
 - **APC 配电箱** — `DebugAPCRecharging` ｜父类: BaseAPC
 - **电池放电器** — `DebugBatteryDischarger`
 - **电池储存器** — `DebugBatteryStorage`
 - **用电器** — `DebugConsumer`
 - **发电机** — `DebugGenerator` ｜父类: BaseGenerator
 - **陀螺仪 # Starlight** — `DebugGyroscope` ｜父类: BaseThruster
-- **调试炸弹** — `DebugHardBomb` ｜父类: SyndicateBomb
+- **调试炸弹** — `DebugHardBomb` ｜父类: SyndicateBomb ｜描述: Holy shit this is gonna explode.
 - **电力接收器** — `DebugPowerReceiver`
 - **SMES 储能柜** — `DebugSMESRecharging` ｜父类: BaseSMES
 - **变电站** — `DebugSubstationRecharging` ｜父类: BaseSubstation
 - **壁挂式变电站** — `DebugSubstationWallRecharging` ｜父类: BaseSubstationWall
 - **推进器** — `DebugThruster` ｜父类: BaseThruster
-- **装饰过的冷杉树** — `DecoratedFirTree` ｜父类: BaseStructure
-- **除颤器柜** — `DefibrillatorCabinet` ｜父类: BaseWallmountCabinet
+- **装饰过的冷杉树** — `DecoratedFirTree` ｜父类: BaseStructure ｜描述: A very festive tree for a very festive holiday.
+- **除颤器柜** — `DefibrillatorCabinet` ｜父类: BaseWallmountCabinet ｜描述: A small wall mounted cabinet designed to hold a defibrillator.
 - **除颤器柜** — `DefibrillatorCabinetFilled` ｜父类: DefibrillatorCabinet
 - **除颤器柜** — `DefibrillatorCabinetFilledOpen` ｜父类: DefibrillatorCabinetFilled,DefibrillatorCabinetOpen
 - **除颤器柜** — `DefibrillatorCabinetOpen` ｜父类: DefibrillatorCabinet
-- **熟食柜台** — `DeliStand` ｜父类: BaseStructureDynamic ｜_Starlight
-- **功能设备** — `DesktopComputerBroken` ｜父类: BaseStructureDesktopComputer ｜_Starlight
-- **功能设备** — `DesktopComputerFrame` ｜父类: BaseStructureDesktopComputer ｜_Starlight
-- **疾病诊断报告** — `DiagnosisReportPaper` ｜父类: Paper
-- **餐厅卡座** — `DinerEndLeft` ｜父类: SeatBase ｜_Starlight
-- **餐厅卡座** — `DinerEndRight` ｜父类: SeatBase ｜_Starlight
-- **餐厅卡座** — `DinerMiddle` ｜父类: SeatBase ｜_Starlight
-- **极限德尔塔疾病诊断仪** — `DiseaseDiagnoser` ｜父类: BaseMachinePowered,SmallConstructibleMachine
-- **废弃物弯管** — `DisposalBend` ｜父类: DisposalPipeBase
+- **熟食柜台** — `DeliStand` ｜父类: BaseStructureDynamic ｜_Starlight ｜描述: A counter for displaying food in a deli.
+- **功能设备** — `DesktopComputerBroken` ｜父类: BaseStructureDesktopComputer ｜_Starlight ｜描述: Oh no! Cloopy is dead!
+- **功能设备** — `DesktopComputerFrame` ｜父类: BaseStructureDesktopComputer ｜_Starlight ｜描述: A desktop computer under construction.
+- **疾病诊断报告** — `DiagnosisReportPaper` ｜父类: Paper ｜描述: A chilling medical receipt.
+- **餐厅卡座** — `DinerEndLeft` ｜父类: SeatBase ｜_Starlight ｜描述: It looks like cheap plastic, and smells like fries.
+- **餐厅卡座** — `DinerEndRight` ｜父类: SeatBase ｜_Starlight ｜描述: It looks like cheap plastic, and smells like fries.
+- **餐厅卡座** — `DinerMiddle` ｜父类: SeatBase ｜_Starlight ｜描述: It looks like cheap plastic, and smells like fries.
+- **极限德尔塔疾病诊断仪** — `DiseaseDiagnoser` ｜父类: BaseMachinePowered,SmallConstructibleMachine ｜描述: A machine that analyzes disease samples.
+- **废弃物弯管** — `DisposalBend` ｜父类: DisposalPipeBase ｜描述: A tube bent at a 90 degree angle.
 - **废弃物管道占位体** — `DisposalHolder`
-- **废弃物二合一汇流管 # Starlight-edit** — `DisposalJunction` ｜父类: DisposalPipeBase
-- **废弃物二合一汇流管** — `DisposalJunctionFlipped` ｜父类: DisposalJunction
-- **高压机器框架** — `DisposalMachineFrame`
-- **废弃物管段** — `DisposalPipe` ｜父类: DisposalPipeBase
+- **废弃物二合一汇流管 # Starlight-edit** — `DisposalJunction` ｜父类: DisposalPipeBase ｜描述: Merges 2 pipes into one. Items coming from the exit move straight on.
+- **废弃物二合一汇流管** — `DisposalJunctionFlipped` ｜父类: DisposalJunction ｜描述: Merges 2 pipes into one. Items coming from the exit move straight on.
+- **高压机器框架** — `DisposalMachineFrame` ｜描述: A machine frame made to withstand the amount of pressure used in the station's disposal system.
+- **废弃物管段** — `DisposalPipe` ｜父类: DisposalPipeBase ｜描述: A huge pipe segment used for constructing disposal systems.
 - `模板` **DisposalPipeBase** — `DisposalPipeBase`
-- **损坏的废弃物管道** — `DisposalPipeBroken` ｜父类: DisposalPipeBase
-- **废弃物路由器** — `DisposalRouter` ｜父类: DisposalPipeBase
+- **损坏的废弃物管道** — `DisposalPipeBroken` ｜父类: DisposalPipeBase ｜描述: A BBP (big broken pipe).
+- **废弃物路由器** — `DisposalRouter` ｜父类: DisposalPipeBase ｜描述: A disposal pipe able to filter items based on a tag. Items coming from the exits are not filtered and sent to the entrance instead.
 - **废弃物路由器** — `DisposalRouterAI` ｜父类: DisposalRouter ｜_Starlight
 - **废弃物路由器** — `DisposalRouterAICore` ｜父类: DisposalRouter ｜_Starlight
 - **废弃物路由器** — `DisposalRouterAIPower` ｜父类: DisposalRouter ｜_Starlight
@@ -1308,10 +1309,10 @@
 - **废弃物路由器** — `DisposalRouterVox` ｜父类: DisposalRouter ｜_Starlight
 - **废弃物路由器** — `DisposalRouterWarden` ｜父类: DisposalRouter ｜_Starlight
 - **废弃物路由器** — `DisposalRouterWildcard` ｜父类: DisposalRouter ｜_Starlight
-- **废弃物信号器** — `DisposalSignaller` ｜父类: DisposalPipeBase
-- **废弃物信号路由器** — `DisposalSignalRouter` ｜父类: DisposalJunction
+- **废弃物信号器** — `DisposalSignaller` ｜父类: DisposalPipeBase ｜描述: A pipe that emits a signal when in item goes through it.
+- **废弃物信号路由器** — `DisposalSignalRouter` ｜父类: DisposalJunction ｜描述: A signal-controlled three-way router.
 - **废弃物信号路由器** — `DisposalSignalRouterFlipped` ｜父类: DisposalSignalRouter
-- **废弃物管道标记器** — `DisposalTagger` ｜父类: DisposalPipeBase
+- **废弃物管道标记器** — `DisposalTagger` ｜父类: DisposalPipeBase ｜描述: A pipe that tags entities for routing.
 - **废弃物管道标记器** — `DisposalTaggerAI` ｜父类: DisposalTagger ｜_Starlight
 - **废弃物管道标记器** — `DisposalTaggerAICore` ｜父类: DisposalTagger ｜_Starlight
 - **废弃物管道标记器** — `DisposalTaggerAIPower` ｜父类: DisposalTagger ｜_Starlight
@@ -1382,38 +1383,38 @@
 - **废弃物管道标记器** — `DisposalTaggerVault` ｜父类: DisposalTagger ｜_Starlight
 - **废弃物管道标记器** — `DisposalTaggerVox` ｜父类: DisposalTagger ｜_Starlight
 - **废弃物管道标记器** — `DisposalTaggerWarden` ｜父类: DisposalTagger ｜_Starlight
-- **废弃物主管** — `DisposalTrunk` ｜父类: DisposalPipeBase
+- **废弃物主管** — `DisposalTrunk` ｜父类: DisposalPipeBase ｜描述: A pipe trunk used as an entry point for disposal systems.
 - **废弃物处理单元** — `DisposalUnit` ｜父类: DisposalUnitBase
-- `模板` **DisposalUnitBase** — `DisposalUnitBase` ｜父类: BaseMachinePowered
-- **废弃物三合一汇流管 # Starlight-edit** — `DisposalXJunction` ｜父类: DisposalPipeBase
-- **废弃物侧向二合一汇流管 # Starlight-edit** — `DisposalYJunction` ｜父类: DisposalPipeBase
-- **狗床** — `DogBed` ｜父类: Bed
-- **DONK CO 旗帜** — `DonkFlag` ｜父类: BaseFlag ｜_Starlight
-- **衣柜** — `Dresser` ｜父类: BaseStructure
+- `模板` **DisposalUnitBase** — `DisposalUnitBase` ｜父类: BaseMachinePowered ｜描述: A pneumatic waste disposal unit.
+- **废弃物三合一汇流管 # Starlight-edit** — `DisposalXJunction` ｜父类: DisposalPipeBase ｜描述: Merges 3 pipes into 1. Items coming from the exit move straight on.
+- **废弃物侧向二合一汇流管 # Starlight-edit** — `DisposalYJunction` ｜父类: DisposalPipeBase ｜描述: Merges 2 pipes from the side to one. Items coming from the exit leave through the right entrance instead.
+- **狗床** — `DogBed` ｜父类: Bed ｜描述: A comfy-looking dog bed. You can even strap your pet in, in case the gravity turns off.
+- **DONK CO 旗帜** — `DonkFlag` ｜父类: BaseFlag ｜_Starlight ｜描述: Put a DONK on it!
+- **衣柜** — `Dresser` ｜父类: BaseStructure ｜描述: Wooden dresser, can store things inside itself, ideal for underwear, and someone's kidneys?...
 - **衣柜** — `DresserBox` ｜父类: DresserNoCon ｜_Starlight
 - **衣柜** — `DresserBoxFilled` ｜父类: DresserBox ｜_Starlight
 - **衣柜** — `DresserFilled` ｜父类: Dresser
-- `模板` **衣柜** — `DresserNoCon` ｜父类: BaseStructure ｜_Starlight
+- `模板` **衣柜** — `DresserNoCon` ｜父类: BaseStructure ｜_Starlight ｜描述: Wooden dresser, can store things inside itself, ideal for underwear, and someone's kidneys?...
 - **衣柜** — `DresserRound` ｜父类: DresserNoCon ｜_Starlight
 - **衣柜** — `DresserRoundFilled` ｜父类: DresserRound ｜_Starlight
-- **边沿检测器** — `EdgeDetector` ｜父类: BaseLogicItem
-- **电解器** — `Electrolyzer` ｜父类: BaseMachinePowered,ConstructibleMachine ｜_Funkystation
-- **应急灯** — `EmergencyLight` ｜父类: AlwaysPoweredWallLight
-- **折叠担架** — `EmergencyRollerBed` ｜父类: RollerBed
+- **边沿检测器** — `EdgeDetector` ｜父类: BaseLogicItem ｜描述: Splits rising and falling edges into unique pulses and detects how edgy you are.
+- **电解器** — `Electrolyzer` ｜父类: BaseMachinePowered,ConstructibleMachine ｜_Funkystation ｜描述: A machine that processes and transforms gases through electrolysis. Fueled by plasma or uranium sheets.
+- **应急灯** — `EmergencyLight` ｜父类: AlwaysPoweredWallLight ｜描述: A small light with an internal battery that turns on as soon as it stops receiving any power. NanoTrasen technology allows it to adapt its color to alert crew to the conditions of the station.
+- **折叠担架** — `EmergencyRollerBed` ｜父类: RollerBed ｜描述: A robust looking rollerbed used for emergencies.
 - **折叠担架** — `EmergencyRollerBedSpawnFolded` ｜父类: EmergencyRollerBed
-- **发射器** — `Emitter` ｜父类: SmallConstructibleMachine
-- **结壳铁石门** — `EncrustedIronstoneDoor` ｜父类: IronstoneDoor
-- **???** — `EnemyConsoleEye` ｜父类: Incorporeal,BaseMob ｜_Starlight
-- **外骨骼制造机** — `ExosuitFabricator` ｜父类: BaseLatheLube
-- **爆炸物标牌** — `ExplosivesSignMed` ｜父类: BaseSign
-- **灭火器柜** — `ExtinguisherCabinet` ｜父类: BaseWallmountCabinet
+- **发射器** — `Emitter` ｜父类: SmallConstructibleMachine ｜描述: A heavy duty industrial laser. Shoots non-stop when turned on.
+- **结壳铁石门** — `EncrustedIronstoneDoor` ｜父类: IronstoneDoor ｜描述: A stone door covered in nacreous blobs of an unknown substance.
+- **???** — `EnemyConsoleEye` ｜父类: Incorporeal,BaseMob ｜_Starlight ｜描述: ERROR
+- **外骨骼制造机** — `ExosuitFabricator` ｜父类: BaseLatheLube ｜描述: Creates parts for robotics and other mechanical needs.
+- **爆炸物标牌** — `ExplosivesSignMed` ｜父类: BaseSign ｜描述: A sign indicating explosive materials.
+- **灭火器柜** — `ExtinguisherCabinet` ｜父类: BaseWallmountCabinet ｜描述: A small wall mounted cabinet designed to hold a fire extinguisher.
 - **灭火器柜** — `ExtinguisherCabinetFilled` ｜父类: ExtinguisherCabinet
 - **灭火器柜** — `ExtinguisherCabinetFilledOpen` ｜父类: ExtinguisherCabinetFilled,ExtinguisherCabinetOpen
 - **灭火器柜** — `ExtinguisherCabinetOpen` ｜父类: ExtinguisherCabinet
-- **衣柜** — `FancyWardrobe` ｜父类: DresserNoCon ｜_Starlight
+- **衣柜** — `FancyWardrobe` ｜父类: DresserNoCon ｜_Starlight ｜描述: A large fancy wardrobe. Its in pretty good condition.
 - **衣柜** — `FancyWardrobeFilled` ｜父类: FancyWardrobe ｜_Starlight
-- **脂肪抽取机** — `FatExtractor` ｜父类: BaseMachinePowered
-- **长程传真机** — `FaxMachineBase` ｜父类: BaseMachinePowered
+- **脂肪抽取机** — `FatExtractor` ｜父类: BaseMachinePowered ｜描述: Safely and efficiently extracts excess fat from a subject.
+- **长程传真机** — `FaxMachineBase` ｜父类: BaseMachinePowered ｜描述: Bluespace technologies on the application of bureaucracy.
 - **长程传真机** — `FaxMachineBlackstar` ｜父类: FaxMachineBase ｜_Starlight
 - **长程传真机** — `FaxMachineCaptain` ｜父类: FaxMachineCommandBase
 - **长程传真机** — `FaxMachineCargo` ｜父类: FaxMachineCargoBase ｜_Starlight
@@ -1482,56 +1483,56 @@
 - **长程传真机** — `FaxMachineWizard` ｜父类: FaxMachineWizardBase ｜_Starlight
 - `模板` **FaxMachineWizardBase** — `FaxMachineWizardBase` ｜父类: FaxMachineBase ｜_Starlight
 - **长程传真机** — `FaxMachineWizardYeOleWizardFaxer` ｜父类: FaxMachineWizardBase ｜_Starlight
-- **损坏的铁丝网围栏** — `FenceMetalBroken` ｜父类: BaseFenceMetal
+- **损坏的铁丝网围栏** — `FenceMetalBroken` ｜父类: BaseFenceMetal ｜描述: Someone got real mad at an inanimate object.
 - **铁丝网围栏** — `FenceMetalCorner` ｜父类: BaseFenceMetal
 - **铁丝网围栏** — `FenceMetalEnd` ｜父类: BaseFenceMetal
-- **铁丝网围栏门** — `FenceMetalGate` ｜父类: BaseFenceMetal
+- **铁丝网围栏门** — `FenceMetalGate` ｜父类: BaseFenceMetal ｜描述: You could use the door instead of vaulting over--if you're a COWARD, that is.
 - **铁丝网围栏** — `FenceMetalStraight` ｜父类: BaseFenceMetal
 - **木围栏** — `FenceWoodHighCorner` ｜父类: BaseFenceWood
 - **木围栏** — `FenceWoodHighEnd` ｜父类: BaseFenceWood
-- **木围栏门** — `FenceWoodHighGate` ｜父类: BaseFenceWood
+- **木围栏门** — `FenceWoodHighGate` ｜父类: BaseFenceWood ｜描述: Do you have any idea what awaits you behind these gates? It can be either a toilet or a luxurious mansion. But you continue to love your emo boys.
 - **木围栏** — `FenceWoodHighStraight` ｜父类: BaseFenceWood
 - **木围栏** — `FenceWoodHighTJunction` ｜父类: BaseFenceWood
 - **小型木围栏** — `FenceWoodSmallCorner` ｜父类: BaseFenceWoodSmall
 - **小型木围栏** — `FenceWoodSmallEnd` ｜父类: BaseFenceWoodSmall
-- **木围栏门** — `FenceWoodSmallGate` ｜父类: BaseFenceWoodSmall
+- **木围栏门** — `FenceWoodSmallGate` ｜父类: BaseFenceWoodSmall ｜描述: Looking at this gate, a familiar image pops up in your head. Where's my piggy?
 - **小型木围栏** — `FenceWoodSmallStraight` ｜父类: BaseFenceWoodSmall
 - **小型木围栏** — `FenceWoodSmallTJunction` ｜父类: BaseFenceWoodSmall
 - **文件柜** — `filingCabinet` ｜父类: BaseFilingCabinet
-- **抽屉柜** — `filingCabinetDrawer` ｜父类: BaseFilingCabinet
+- **抽屉柜** — `filingCabinetDrawer` ｜父类: BaseFilingCabinet ｜描述: A small drawer for all your filing needs, Now with wheels!
 - **抽屉柜** — `filingCabinetDrawerRandom` ｜父类: BaseBureaucraticStorageFill,filingCabinetDrawer
 - **文件柜** — `filingCabinetRandom` ｜父类: BaseBureaucraticStorageFill,filingCabinet
 - **高文件柜** — `filingCabinetTall` ｜父类: BaseFilingCabinet
 - **高文件柜** — `filingCabinetTallRandom` ｜父类: BaseBureaucraticStorageFill,filingCabinetTall
-- **火灾警报器** — `FireAlarm` ｜父类: BaseWallmountMachine
-- **火灾警报器组件** — `FireAlarmAssembly` ｜父类: BaseWallmountMetallic
-- **火灾警报器组件** — `FireAlarmAssemblyXeno` ｜父类: FireAlarmAssembly
-- **火灾警报器** — `FireAlarmXeno` ｜父类: FireAlarm
-- **消防斧柜** — `FireAxeCabinet` ｜父类: BaseWallmountCabinetGlass
+- **火灾警报器** — `FireAlarm` ｜父类: BaseWallmountMachine ｜描述: A fire alarm. Spicy!
+- **火灾警报器组件** — `FireAlarmAssembly` ｜父类: BaseWallmountMetallic ｜描述: A fire alarm assembly. Very mild.
+- **火灾警报器组件** — `FireAlarmAssemblyXeno` ｜父类: FireAlarmAssembly ｜描述: An alien fire alarm assembly. Good luck with the wires.
+- **火灾警报器** — `FireAlarmXeno` ｜父类: FireAlarm ｜描述: An alien fire alarm. Works just the same!
+- **消防斧柜** — `FireAxeCabinet` ｜父类: BaseWallmountCabinetGlass ｜描述: There is a small label that reads "For Emergency use only" along with details for safe use of the axe. As if.
 - **消防斧柜** — `FireAxeCabinetFilled` ｜父类: FireAxeCabinet
 - **消防斧柜** — `FireAxeCabinetFilledOpen` ｜父类: FireAxeCabinetFilled,FireAxeCabinetOpen
 - **消防斧柜** — `FireAxeCabinetOpen` ｜父类: FireAxeCabinet
 - **防火闸** — `Firelock` ｜父类: BaseFirelock
 - **防火闸** — `FirelockEdge` ｜父类: Firelock
-- **防火闸框架** — `FirelockFrame` ｜父类: BaseStructureDynamic
+- **防火闸框架** — `FirelockFrame` ｜父类: BaseStructureDynamic ｜描述: That is a firelock frame.
 - **玻璃防火闸** — `FirelockGlass` ｜父类: Firelock
-- **壁炉** — `Fireplace` ｜父类: BaseStructure
+- **壁炉** — `Fireplace` ｜父类: BaseStructure ｜描述: A place that has fire. Cozy!
 - **FlatpackerNoBoardEffect** — `FlatpackerNoBoardEffect`
-- **血肉团块** — `FleshBlocker` ｜父类: BaseStructure
-- **排水口** — `FloorDrain`
-- **弗里昂气罐** — `FrezonCanister` ｜父类: GasCanister
+- **血肉团块** — `FleshBlocker` ｜父类: BaseStructure ｜描述: An annoying clump of flesh.
+- **排水口** — `FloorDrain` ｜描述: Drains puddles around it. Useful for dumping mop buckets or keeping certain rooms clean.
+- **弗里昂气罐** — `FrezonCanister` ｜父类: GasCanister ｜描述: A canister that can contain any type of gas. This one is supposed to contain frezon. It can be attached to connector ports using a wrench.
 - **损坏的 气罐** — `FrezonCanisterBroken` ｜父类: GasCanisterBrokenBase
 - **弗里昂气罐** — `FrezonCanisterEmpty` ｜父类: FrezonCanister ｜_Starlight
-- **燃料分配器** — `FuelDispenser` ｜父类: BaseDispenser
-- **真菌土壤** — `FungalSoil` ｜父类: hydroponicsSoil
-- **水族箱** — `FurnitureAquarium` ｜父类: BaseStructureDynamic ｜_Starlight
-- **衣帽架** — `FurnitureCoatRack` ｜父类: BaseStructure ｜_Starlight
-- **落地大摆钟** — `FurnitureGrandfatherClock` ｜父类: BaseStructure ｜_Starlight
-- **木制 架** — `FurnitureWoodRack` ｜父类: FurnitureCoatRack ｜_Starlight
+- **燃料分配器** — `FuelDispenser` ｜父类: BaseDispenser ｜描述: Wallmount Fuel dispenser.
+- **真菌土壤** — `FungalSoil` ｜父类: hydroponicsSoil ｜描述: A mix of organic matter and fungal root creating a soil to grow your plant in space. Seems to be dry.
+- **水族箱** — `FurnitureAquarium` ｜父类: BaseStructureDynamic ｜_Starlight ｜描述: Do not tap the glass.
+- **衣帽架** — `FurnitureCoatRack` ｜父类: BaseStructure ｜_Starlight ｜描述: Holds your coat or hat, and is always mistaken for a person in the dark.
+- **落地大摆钟** — `FurnitureGrandfatherClock` ｜父类: BaseStructure ｜_Starlight ｜描述: Tick, tock. Old but reliable.
+- **木制 架** — `FurnitureWoodRack` ｜父类: FurnitureCoatRack ｜_Starlight ｜描述: A wooden rack for storing things.
 - `模板` **GasBinaryBase** — `GasBinaryBase` ｜父类: GasPipeBase
-- `模板` **气罐** — `GasCanister` ｜父类: BaseStructureDynamic,BasePaperLabelableVisualized
-- **损坏的 气罐** — `GasCanisterBrokenBase` ｜父类: BaseStructureDynamic
-- **双端口通风口** — `GasDualPortVentPump` ｜父类: GasVentPump
+- `模板` **气罐** — `GasCanister` ｜父类: BaseStructureDynamic,BasePaperLabelableVisualized ｜描述: A canister that can contain any type of gas. It can be attached to connector ports using a wrench.
+- **损坏的 气罐** — `GasCanisterBrokenBase` ｜父类: BaseStructureDynamic ｜描述: A broken gas canister. Not useless yet, as it can be salvaged for high quality materials.
+- **双端口通风口** — `GasDualPortVentPump` ｜父类: GasVentPump ｜描述: Has a valve and a pump attached to it. There are two ports, one is an input for releasing air, the other is an output when siphoning.
 - **双端口通风口** — `GasDualPortVentPumpAlt1` ｜父类: GasPipeLayerAlt1,GasDualPortVentPump ｜_Starlight
 - **双端口通风口** — `GasDualPortVentPumpAlt2` ｜父类: GasPipeLayerAlt2,GasDualPortVentPump ｜_Starlight
 - **双端口通风口** — `GasDualPortVentPumpAlt3` ｜父类: GasPipeLayerAlt3,GasDualPortVentPump ｜_Carpmosia
@@ -1546,7 +1547,7 @@
 - **双端口通风口** — `GasDualPortVentPumpVoxAlt2` ｜父类: AirSensorVoxBase,GasDualPortVentPumpAlt2,GasDualPortVentPumpVox ｜_Starlight
 - **双端口通风口** — `GasDualPortVentPumpVoxAlt3` ｜父类: AirSensorVoxBase,GasDualPortVentPumpAlt3,GasDualPortVentPumpVox ｜_Starlight
 - **双端口通风口** — `GasDualPortVentPumpVoxAlt4` ｜父类: AirSensorVoxBase,GasDualPortVentPumpAlt4,GasDualPortVentPumpVox ｜_Starlight
-- **气体过滤器** — `GasFilter` ｜父类: GasTrinaryBase
+- **气体过滤器** — `GasFilter` ｜父类: GasTrinaryBase ｜描述: Very useful for filtering gases.
 - **气体过滤器** — `GasFilterAlt1` ｜父类: GasPipeLayerAlt1,GasFilter ｜_Starlight
 - **气体过滤器** — `GasFilterAlt2` ｜父类: GasPipeLayerAlt2,GasFilter ｜_Starlight
 - **气体过滤器** — `GasFilterAlt3` ｜父类: GasPipeLayerAlt3,GasFilter ｜_Carpmosia
@@ -1556,13 +1557,13 @@
 - **气体过滤器** — `GasFilterFlippedAlt2` ｜父类: GasPipeLayerAlt2,GasFilterFlipped ｜_Starlight
 - **气体过滤器** — `GasFilterFlippedAlt3` ｜父类: GasPipeLayerAlt3,GasFilterFlipped ｜_Carpmosia
 - **气体过滤器** — `GasFilterFlippedAlt4` ｜父类: GasPipeLayerAlt4,GasFilterFlipped ｜_Carpmosia
-- **直通式气体过滤器** — `GasFilterInline` ｜父类: GasFilter ｜_Starlight
+- **直通式气体过滤器** — `GasFilterInline` ｜父类: GasFilter ｜_Starlight ｜描述: Filters gases from a pipenet without splitting it in two.
 - **直通式气体过滤器** — `GasFilterInlineAlt1` ｜父类: GasPipeLayerAlt1,GasFilterInline ｜_Starlight
 - **直通式气体过滤器** — `GasFilterInlineAlt2` ｜父类: GasPipeLayerAlt2,GasFilterInline ｜_Starlight
 - **直通式气体过滤器** — `GasFilterInlineAlt3` ｜父类: GasPipeLayerAlt3,GasFilterInline ｜_Starlight
 - **直通式气体过滤器** — `GasFilterInlineAlt4` ｜父类: GasPipeLayerAlt4,GasFilterInline ｜_Starlight
 - **氨气体矿机** — `GasMinerAmmonia` ｜父类: GasMinerBase
-- `模板` **气体矿机** — `GasMinerBase`
+- `模板` **气体矿机** — `GasMinerBase` ｜描述: Gases mined from the gas giant below (above?) flow out through this massive vent.
 - **CO2 气体矿机** — `GasMinerCarbonDioxide` ｜父类: GasMinerBase
 - **弗里昂气体矿机** — `GasMinerFrezon` ｜父类: GasMinerBase
 - **N2 气体矿机** — `GasMinerNitrogen` ｜父类: GasMinerBase
@@ -1575,7 +1576,7 @@
 - **等离子体气体矿机** — `GasMinerPlasma` ｜父类: GasMinerBase
 - **氚气体矿机** — `GasMinerTritium` ｜父类: GasMinerBase
 - **水蒸气气体矿机** — `GasMinerWaterVapor` ｜父类: GasMinerBase
-- **气体混合器** — `GasMixer` ｜父类: GasTrinaryBase
+- **气体混合器** — `GasMixer` ｜父类: GasTrinaryBase ｜描述: Very useful for mixing gases.
 - **气体混合器** — `GasMixerAlt1` ｜父类: GasPipeLayerAlt1,GasMixer ｜_Starlight
 - **气体混合器** — `GasMixerAlt2` ｜父类: GasPipeLayerAlt2,GasMixer ｜_Starlight
 - **气体混合器** — `GasMixerAlt3` ｜父类: GasPipeLayerAlt3,GasMixer ｜_Carpmosia
@@ -1585,17 +1586,17 @@
 - **气体混合器** — `GasMixerFlippedAlt2` ｜父类: GasPipeLayerAlt2,GasMixerFlipped ｜_Starlight
 - **气体混合器** — `GasMixerFlippedAlt3` ｜父类: GasPipeLayerAlt3,GasMixerFlipped ｜_Carpmosia
 - **气体混合器** — `GasMixerFlippedAlt4` ｜父类: GasPipeLayerAlt4,GasMixerFlipped ｜_Carpmosia
-- **空气注入器** — `GasOutletInjector` ｜父类: GasUnaryBase
+- **空气注入器** — `GasOutletInjector` ｜父类: GasUnaryBase ｜描述: Has a valve and pump attached to it.
 - **空气注入器** — `GasOutletInjectorAlt1` ｜父类: GasPipeLayerAlt1,GasOutletInjector ｜_Starlight
 - **空气注入器** — `GasOutletInjectorAlt2` ｜父类: GasPipeLayerAlt2,GasOutletInjector ｜_Starlight
 - **空气注入器** — `GasOutletInjectorAlt3` ｜父类: GasPipeLayerAlt3,GasOutletInjector ｜_Carpmosia
 - **空气注入器** — `GasOutletInjectorAlt4` ｜父类: GasPipeLayerAlt4,GasOutletInjector ｜_Carpmosia
-- **被动单向阀** — `GasPassiveGate` ｜父类: GasBinaryBase
+- **被动单向阀** — `GasPassiveGate` ｜父类: GasBinaryBase ｜描述: A one-way air valve that does not require power.
 - **被动单向阀** — `GasPassiveGateAlt1` ｜父类: GasPipeLayerAlt1,GasPassiveGate
 - **被动单向阀** — `GasPassiveGateAlt2` ｜父类: GasPipeLayerAlt2,GasPassiveGate
 - **被动单向阀** — `GasPassiveGateAlt3` ｜父类: GasPipeLayerAlt3,GasPassiveGate ｜_Carpmosia
 - **被动单向阀** — `GasPassiveGateAlt4` ｜父类: GasPipeLayerAlt4,GasPassiveGate ｜_Carpmosia
-- **被动通风口** — `GasPassiveVent` ｜父类: GasUnaryBase
+- **被动通风口** — `GasPassiveVent` ｜父类: GasUnaryBase ｜描述: It's an open vent.
 - **被动通风口** — `GasPassiveVentAlt1` ｜父类: GasPipeLayerAlt1,GasPassiveVent ｜_Starlight
 - **被动通风口** — `GasPassiveVentAlt2` ｜父类: GasPipeLayerAlt2,GasPassiveVent ｜_Starlight
 - **被动通风口** — `GasPassiveVentAlt3` ｜父类: GasPipeLayerAlt3,GasPassiveVent ｜_Carpmosia
@@ -1606,7 +1607,7 @@
 - **气体管道** — `GasPipeBendAlt2` ｜父类: GasPipeLayerAlt2,GasPipeBend
 - **气体管道** — `GasPipeBendAlt3` ｜父类: GasPipeLayerAlt3,GasPipeBend ｜_Carpmosia
 - **气体管道** — `GasPipeBendAlt4` ｜父类: GasPipeLayerAlt4,GasPipeBend ｜_Carpmosia
-- **损坏的管道** — `GasPipeBroken` ｜父类: GasPipeBase
+- **损坏的管道** — `GasPipeBroken` ｜父类: GasPipeBase ｜描述: It used to hold gas.
 - **气体管道** — `GasPipeFourway` ｜父类: GasPipeBase
 - **气体管道** — `GasPipeFourwayAlt1` ｜父类: GasPipeLayerAlt1,GasPipeFourway
 - **气体管道** — `GasPipeFourwayAlt2` ｜父类: GasPipeLayerAlt2,GasPipeFourway
@@ -1621,9 +1622,9 @@
 - `模板` **GasPipeLayerAlt2** — `GasPipeLayerAlt2`
 - `模板` **GasPipeLayerAlt3** — `GasPipeLayerAlt3` ｜_Carpmosia
 - `模板` **GasPipeLayerAlt4** — `GasPipeLayerAlt4` ｜_Carpmosia
-- **气体管道歧管** — `GasPipeManifold` ｜父类: GasPipeSansLayers
-- `模板` **气体管道** — `GasPipeSansLayers` ｜父类: BaseItem
-- **气体管道传感器** — `GasPipeSensor` ｜父类: AirSensorBase,GasBinaryBase
+- **气体管道歧管** — `GasPipeManifold` ｜父类: GasPipeSansLayers ｜描述: Allows gas pipes of different configurations to be connected together.
+- `模板` **气体管道** — `GasPipeSansLayers` ｜父类: BaseItem ｜描述: Holds gas.
+- **气体管道传感器** — `GasPipeSensor` ｜父类: AirSensorBase,GasBinaryBase ｜描述: Reports on the status of the gas in the attached pipe network.
 - **气体管道传感器** — `GasPipeSensorAlt1` ｜父类: GasPipeLayerAlt1,GasPipeSensor
 - **气体管道传感器** — `GasPipeSensorAlt2` ｜父类: GasPipeLayerAlt2,GasPipeSensor
 - **气体管道传感器** — `GasPipeSensorAlt3` ｜父类: GasPipeLayerAlt3,GasPipeSensor ｜_Carpmosia
@@ -1683,38 +1684,38 @@
 - **气体管道** — `GasPipeTJunctionAlt2` ｜父类: GasPipeLayerAlt2,GasPipeTJunction
 - **气体管道** — `GasPipeTJunctionAlt3` ｜父类: GasPipeLayerAlt3,GasPipeTJunction ｜_Carpmosia
 - **气体管道** — `GasPipeTJunctionAlt4` ｜父类: GasPipeLayerAlt4,GasPipeTJunction ｜_Carpmosia
-- **连接端口** — `GasPort` ｜父类: GasBinaryBase
+- **连接端口** — `GasPort` ｜父类: GasBinaryBase ｜描述: For connecting portable devices related to atmospherics control.
 - **连接端口** — `GasPortAlt1` ｜父类: GasPipeLayerAlt1,GasPort ｜_Starlight
 - **连接端口** — `GasPortAlt2` ｜父类: GasPipeLayerAlt2,GasPort ｜_Starlight
 - **连接端口** — `GasPortAlt3` ｜父类: GasPipeLayerAlt3,GasPort ｜_Carpmosia
 - **连接端口** — `GasPortAlt4` ｜父类: GasPipeLayerAlt4,GasPort ｜_Carpmosia
-- **气泵** — `GasPressurePump` ｜父类: GasBinaryBase
+- **气泵** — `GasPressurePump` ｜父类: GasBinaryBase ｜描述: A pump that moves gas by pressure.
 - **气泵** — `GasPressurePumpAlt1` ｜父类: GasPipeLayerAlt1,GasPressurePump
 - **气泵** — `GasPressurePumpAlt2` ｜父类: GasPipeLayerAlt2,GasPressurePump
 - **气泵** — `GasPressurePumpAlt3` ｜父类: GasPipeLayerAlt3,GasPressurePump ｜_Carpmosia
 - **气泵** — `GasPressurePumpAlt4` ｜父类: GasPipeLayerAlt4,GasPressurePump ｜_Carpmosia
-- **入口压力调节阀** — `GasPressureRegulator` ｜父类: GasBinaryBase
+- **入口压力调节阀** — `GasPressureRegulator` ｜父类: GasBinaryBase ｜描述: A valve that releases gas when the inlet pressure exceeds a certain threshold.
 - **入口压力调节阀** — `GasPressureRegulatorAlt1` ｜父类: GasPipeLayerAlt1,GasPressureRegulator
 - **入口压力调节阀** — `GasPressureRegulatorAlt2` ｜父类: GasPipeLayerAlt2,GasPressureRegulator
 - **入口压力调节阀** — `GasPressureRegulatorAlt3` ｜父类: GasPipeLayerAlt3,GasPressureRegulator ｜_Carpmosia
 - **入口压力调节阀** — `GasPressureRegulatorAlt4` ｜父类: GasPipeLayerAlt4,GasPressureRegulator ｜_Carpmosia
-- **气体回收器** — `GasRecycler` ｜父类: BaseMachine,ConstructibleMachine
-- **冷冻柜** — `GasThermoMachineFreezer` ｜父类: BaseGasThermoMachine
+- **气体回收器** — `GasRecycler` ｜父类: BaseMachine,ConstructibleMachine ｜描述: Recycles carbon dioxide and nitrous oxide. Heater and compressor not included.
+- **冷冻柜** — `GasThermoMachineFreezer` ｜父类: BaseGasThermoMachine ｜描述: Cools gas in connected pipes.
 - **冷冻柜** — `GasThermoMachineFreezerEnabled` ｜父类: GasThermoMachineFreezer
 - **冷冻柜** — `GasThermoMachineFreezerEnabledCold` ｜父类: GasThermoMachineFreezerEnabled ｜_Starlight
-- **加热器** — `GasThermoMachineHeater` ｜父类: BaseGasThermoMachine
+- **加热器** — `GasThermoMachineHeater` ｜父类: BaseGasThermoMachine ｜描述: Heats gas in connected pipes.
 - **加热器** — `GasThermoMachineHeaterEnabled` ｜父类: GasThermoMachineHeater
-- **地狱火冷冻机** — `GasThermoMachineHellfireFreezer` ｜父类: GasThermoMachineFreezer
-- **地狱火加热器** — `GasThermoMachineHellfireHeater` ｜父类: GasThermoMachineHeater
+- **地狱火冷冻机** — `GasThermoMachineHellfireFreezer` ｜父类: GasThermoMachineFreezer ｜描述: An advanced machine that cools gas in connected pipes. Has the side effect of chilling the surrounding area. Cold as Hell!
+- **地狱火加热器** — `GasThermoMachineHellfireHeater` ｜父类: GasThermoMachineHeater ｜描述: An advanced machine that heats gas in connected pipes. Has the side effect of leaking heat into the surrounding area. Hot as Hell!
 - `模板` **GasTrinaryBase** — `GasTrinaryBase` ｜父类: GasPipeBase
 - **GasTurbineAlarmEntity** — `GasTurbineAlarmEntity` ｜_FarHorizons
-- **燃气轮机叶片** — `GasTurbineBladeShrapnel` ｜_FarHorizons
+- **燃气轮机叶片** — `GasTurbineBladeShrapnel` ｜_FarHorizons ｜描述: Uh oh.
 - `模板` **GasTurbineCrew** — `GasTurbineCrew` ｜_FarHorizons
 - **燃气轮机** — `GasTurbineEmpty` ｜父类: GasTurbinePrefabEmpty,GasTurbineCrew,BaseGasTurbine ｜_Starlight
 - **燃气轮机** — `GasTurbineEmptySalvage` ｜父类: GasTurbinePrefabEmpty,GasTurbineSalvage,BaseGasTurbine ｜_Starlight
 - **GasTurbineFlowArrow** — `GasTurbineFlowArrow` ｜_FarHorizons
 - **GasTurbineGasPipe** — `GasTurbineGasPipe` ｜_FarHorizons
-- **燃气轮机监控器** — `GasTurbineMonitor` ｜父类: BaseComputerAiAccess ｜_FarHorizons
+- **燃气轮机监控器** — `GasTurbineMonitor` ｜父类: BaseComputerAiAccess ｜_FarHorizons ｜描述: A device that monitors the state of a connected gas turbine.
 - **燃气轮机** — `GasTurbineNormal` ｜父类: BaseGasTurbine,GasTurbineCrew ｜_FarHorizons
 - **燃气轮机** — `GasTurbineNormalSalvage` ｜父类: BaseGasTurbine,GasTurbineSalvage ｜_FarHorizons
 - `模板` **GasTurbinePrefabEmpty** — `GasTurbinePrefabEmpty` ｜_Starlight
@@ -1725,12 +1726,12 @@
 - **GasTurbineSmallFlowArrow** — `GasTurbineSmallFlowArrow` ｜父类: GasTurbineFlowArrow ｜_FarHorizons
 - **小型燃气轮机** — `GasTurbineSmallSalvage` ｜父类: BaseGasTurbineSmall,GasTurbineSalvage ｜_FarHorizons
 - `模板` **GasUnaryBase** — `GasUnaryBase` ｜父类: GasPipeBase
-- **手动阀** — `GasValve` ｜父类: GasBinaryBase
+- **手动阀** — `GasValve` ｜父类: GasBinaryBase ｜描述: A pipe with a valve that can be used to disable the flow of gas through it.
 - **手动阀** — `GasValveAlt1` ｜父类: GasPipeLayerAlt1,GasValve
 - **手动阀** — `GasValveAlt2` ｜父类: GasPipeLayerAlt2,GasValve
 - **手动阀** — `GasValveAlt3` ｜父类: GasPipeLayerAlt3,GasValve ｜_Carpmosia
 - **手动阀** — `GasValveAlt4` ｜父类: GasPipeLayerAlt4,GasValve ｜_Carpmosia
-- **通风口** — `GasVentPump` ｜父类: GasUnaryBase,AirSensorBase
+- **通风口** — `GasVentPump` ｜父类: GasUnaryBase,AirSensorBase ｜描述: Has a valve and a pump attached to it.
 - **通风口** — `GasVentPumpAlt1` ｜父类: GasPipeLayerAlt1,GasVentPump ｜_Starlight
 - **通风口** — `GasVentPumpAlt2` ｜父类: GasPipeLayerAlt2,GasVentPump ｜_Starlight
 - **通风口** — `GasVentPumpAlt3` ｜父类: GasPipeLayerAlt3,GasVentPump ｜_Carpmosia
@@ -1753,7 +1754,7 @@
 - **通风口** — `GasVentPumpVoxAlt3` ｜父类: AirSensorVoxBase,GasVentPumpVoxBase,GasVentPumpAlt3 ｜_Carpmosia
 - **通风口** — `GasVentPumpVoxAlt4` ｜父类: AirSensorVoxBase,GasVentPumpVoxBase,GasVentPumpAlt4 ｜_Carpmosia
 - `模板` **GasVentPumpVoxBase** — `GasVentPumpVoxBase` ｜_Carpmosia
-- **空气洗涤器** — `GasVentScrubber` ｜父类: GasUnaryBase,AirSensorBase
+- **空气洗涤器** — `GasVentScrubber` ｜父类: GasUnaryBase,AirSensorBase ｜描述: Has a valve and pump attached to it.
 - **空气洗涤器** — `GasVentScrubberAlt1` ｜父类: GasPipeLayerAlt1,GasVentScrubber ｜_Starlight
 - **空气洗涤器** — `GasVentScrubberAlt2` ｜父类: GasPipeLayerAlt2,GasVentScrubber ｜_Starlight
 - **空气洗涤器** — `GasVentScrubberAlt3` ｜父类: GasPipeLayerAlt3,GasVentScrubber ｜_Carpmosia
@@ -1776,7 +1777,7 @@
 - **空气洗涤器** — `GasVentScrubberVoxAlt3` ｜父类: AirSensorVoxBase,GasVentScrubberVoxBase,GasVentScrubberAlt3 ｜_Carpmosia
 - **空气洗涤器** — `GasVentScrubberVoxAlt4` ｜父类: AirSensorVoxBase,GasVentScrubberVoxBase,GasVentScrubberAlt4 ｜_Carpmosia
 - `模板` **GasVentScrubberVoxBase** — `GasVentScrubberVoxBase` ｜_Carpmosia
-- **容积式气泵** — `GasVolumePump` ｜父类: GasBinaryBase
+- **容积式气泵** — `GasVolumePump` ｜父类: GasBinaryBase ｜描述: A pump that moves gas by volume.
 - **容积式气泵** — `GasVolumePumpAlt1` ｜父类: GasPipeLayerAlt1,GasVolumePump
 - **容积式气泵** — `GasVolumePumpAlt2` ｜父类: GasPipeLayerAlt2,GasVolumePump
 - **容积式气泵** — `GasVolumePumpAlt3` ｜父类: GasPipeLayerAlt3,GasVolumePump ｜_Carpmosia
@@ -1785,38 +1786,38 @@
 - **发电机** — `GeneratorBasic` ｜父类: BaseGenerator
 - **发电机** — `GeneratorBasic15kW` ｜父类: BaseGenerator
 - **发电机** — `GeneratorBasic20kW` ｜父类: BaseGenerator ｜_Starlight
-- **RTG 热电发电机** — `GeneratorRTG` ｜父类: BaseGenerator
-- **受损的 RTG** — `GeneratorRTGDamaged` ｜父类: GeneratorRTG
-- **穿梭机 APU** — `GeneratorWallmountAPU` ｜父类: BaseGeneratorWallmount
-- **穿梭机低压 APU** — `GeneratorWallmountAPULV` ｜父类: BaseGeneratorWallmount
+- **RTG 热电发电机** — `GeneratorRTG` ｜父类: BaseGenerator ｜描述: A Radioisotope Thermoelectric Generator for long term power.
+- **受损的 RTG** — `GeneratorRTGDamaged` ｜父类: GeneratorRTG ｜描述: A Radioisotope Thermoelectric Generator for long term power. This one has damaged shielding.
+- **穿梭机 APU** — `GeneratorWallmountAPU` ｜父类: BaseGeneratorWallmount ｜描述: An auxiliary power unit for a shuttle - 6kW.
+- **穿梭机低压 APU** — `GeneratorWallmountAPULV` ｜父类: BaseGeneratorWallmount ｜描述: An advanced auxiliary power unit for a shuttle.
 - **壁挂式发电机** — `GeneratorWallmountBasic` ｜父类: BaseGeneratorWallmount
 - **储存罐** — `GenericTank` ｜父类: StorageTank,StructureWheeled
 - `模板` **GenpopBase** — `GenpopBase`
-- **幽灵箱** — `GhostBox` ｜父类: StealthBox
-- **墙梁** — `Girder` ｜父类: BaseStructureDynamic,BaseStructureDissolvable
-- `模板` **玻璃展柜** — `GlassBox` ｜父类: BaseGlassBox,BaseItemCabinetGlass
-- **损坏的玻璃展柜** — `GlassBoxBroken` ｜父类: GlassBoxFrame
-- **玻璃展柜框架** — `GlassBoxFrame` ｜父类: BaseGlassBox
+- **幽灵箱** — `GhostBox` ｜父类: StealthBox ｜描述: Beware!
+- **墙梁** — `Girder` ｜父类: BaseStructureDynamic,BaseStructureDissolvable ｜描述: A large structural assembly made out of metal; It requires a layer of metal before it can be considered a wall.
+- `模板` **玻璃展柜** — `GlassBox` ｜父类: BaseGlassBox,BaseItemCabinetGlass ｜描述: A sturdy showcase for an expensive exhibit.
+- **损坏的玻璃展柜** — `GlassBoxBroken` ｜父类: GlassBoxFrame ｜描述: A broken showcase for a stolen expensive exhibit.
+- **玻璃展柜框架** — `GlassBoxFrame` ｜父类: BaseGlassBox ｜描述: A glassless sturdy showcase for an expensive exhibit.
 - **玻璃展柜** — `GlassBoxLaser` ｜父类: GlassBox
 - **玻璃展柜** — `GlassBoxLaserFilled` ｜父类: GlassBoxLaser
 - **玻璃展柜** — `GlassBoxLaserFilledOpen` ｜父类: GlassBoxLaserFilled,GlassBoxLaserOpen
 - **玻璃展柜** — `GlassBoxLaserOpen` ｜父类: GlassBoxLaser
 - **金门** — `GoldDoor` ｜父类: BaseMaterialDoorNavMap
-- **黄金邮件推车** — `GoldenMailTrolley` ｜父类: MailTrolley ｜_Starlight
-- **留声机** — `Gramophone` ｜父类: Jukebox ｜_Starlight
-- `模板` **格栅** — `GrateBase` ｜父类: BaseStructure ｜_Starlight
+- **黄金邮件推车** — `GoldenMailTrolley` ｜父类: MailTrolley ｜_Starlight ｜描述: A brilliantly shining gold-and-silver mail cart for the most elite of mail technicians.
+- **留声机** — `Gramophone` ｜父类: Jukebox ｜_Starlight ｜描述: A machine capable of playing a wide variety of tunes. Enjoyment not guaranteed.
+- `模板` **格栅** — `GrateBase` ｜父类: BaseStructure ｜_Starlight ｜描述: Very industrial.
 - **格栅** — `GrateEngie` ｜父类: GrateBase ｜_Starlight
 - **格栅** — `GrateGray` ｜父类: GrateBase ｜_Starlight
 - **格栅** — `GrateSec` ｜父类: GrateBase ｜_Starlight
-- **重力发生器** — `GravityGenerator` ｜父类: BaseMachinePowered
-- **迷你重力发生器** — `GravityGeneratorMini` ｜父类: GravityGenerator,ConstructibleMachine
-- **格栅** — `Grille` ｜父类: BaseStructure,BaseStructureDissolvable
-- **格栅** — `GrilleBroken` ｜父类: BaseStructure
+- **重力发生器** — `GravityGenerator` ｜父类: BaseMachinePowered ｜描述: It's what keeps you to the floor.
+- **迷你重力发生器** — `GravityGeneratorMini` ｜父类: GravityGenerator,ConstructibleMachine ｜描述: It's what keeps you to the floor, now in fun size.
+- **格栅** — `Grille` ｜父类: BaseStructure,BaseStructureDissolvable ｜描述: A flimsy framework of iron rods.
+- **格栅** — `GrilleBroken` ｜父类: BaseStructure ｜描述: A flimsy framework of iron rods. It has seen better days.
 - **斜向格栅** — `GrilleDiagonal` ｜父类: Grille
-- **火控辅助主机** — `GunneryServer` ｜父类: BaseMachinePowered ｜_Starlight
+- **火控辅助主机** — `GunneryServer` ｜父类: BaseMachinePowered ｜_Starlight ｜描述: A specialized computer designed to synchronize a variety of weapon systems and a vessel's astronav data.
 - **枪械保险柜** — `GunSafe` ｜父类: LockerBaseSecure
 - **枪械保险柜** — `GunSafeBaseSecure` ｜父类: GunSafe
-- **陀螺仪** — `Gyroscope` ｜父类: BaseThruster,ConstructibleMachine
+- **陀螺仪** — `Gyroscope` ｜父类: BaseThruster,ConstructibleMachine ｜描述: Increases the shuttle's potential angular rotation.
 - **陀螺仪** — `GyroscopeUnanchored` ｜父类: Gyroscope
 - **哈龙储气罐** — `HalonCanister` ｜父类: GasCanister ｜_Funkystation
 - **损坏的 气罐** — `HalonCanisterBroken` ｜父类: GasCanisterBrokenBase ｜_Funkystation
@@ -1824,7 +1825,7 @@
 - **治愈气储气罐** — `HealiumCanister` ｜父类: GasCanister ｜_Funkystation
 - **损坏的 气罐** — `HealiumCanisterBroken` ｜父类: GasCanisterBrokenBase ｜_Funkystation
 - **治愈气储气罐** — `HealiumCanisterEmpty` ｜父类: HealiumCanister ｜_Starlight
-- **散热器** — `HeatExchanger` ｜父类: GasBinaryBase
+- **散热器** — `HeatExchanger` ｜父类: GasBinaryBase ｜描述: Transfers heat between the pipe and its surroundings.
 - **散热器** — `HeatExchangerBend` ｜父类: HeatExchanger
 - **氦气储气罐** — `HeliumCanister` ｜父类: GasCanister ｜_Funkystation
 - **损坏的 气罐** — `HeliumCanisterBroken` ｜父类: GasCanisterBrokenBase ｜_Funkystation
@@ -1835,17 +1836,17 @@
 - **高安防门** — `HighSecCentralCommandLocked` ｜父类: HighSecDoor
 - **高安防门** — `HighSecCommandLocked` ｜父类: HighSecDoor
 - **高安防门** — `HighSecCommunistLocked` ｜父类: HighSecDoor ｜_Starlight
-- **高安防门** — `HighSecDoor` ｜父类: BaseStructure
+- **高安防门** — `HighSecDoor` ｜父类: BaseStructure ｜描述: Keeps the bad out and keeps the good in.
 - **高安防门** — `HighSecWizardLocked` ｜父类: HighSecDoor ｜_Starlight
-- **全息风障** — `HoloFan` ｜父类: HolosignWetFloor
-- **全息通讯板** — `Holopad` ｜父类: BaseMachinePowered,ConstructibleMachine
+- **全息风障** — `HoloFan` ｜父类: HolosignWetFloor ｜描述: A barrier of hard light that blocks air, but nothing else.
+- **全息通讯板** — `Holopad` ｜父类: BaseMachinePowered,ConstructibleMachine ｜描述: A floor-mounted device for projecting holographic images.
 - **全息通讯板** — `HolopadAiBackupPower` ｜父类: Holopad
 - **全息通讯板** — `HolopadAiChute` ｜父类: Holopad
 - **全息通讯板** — `HolopadAiCore` ｜父类: Holopad
 - **全息通讯板** — `HolopadAiEntrance` ｜父类: Holopad
 - **全息通讯板** — `HolopadAiMain` ｜父类: Holopad
 - **全息通讯板** — `HolopadAiUpload` ｜父类: Holopad
-- **蓝空间全息通讯板** — `HolopadBluespace` ｜父类: Holopad
+- **蓝空间全息通讯板** — `HolopadBluespace` ｜父类: Holopad ｜描述: An experimental floor-mounted device for projecting holographic images via bluespace.
 - **远程全息通讯板** — `HolopadCargoAts` ｜父类: HolopadLongRange
 - **全息通讯板** — `HolopadCargoBay` ｜父类: Holopad
 - **远程全息通讯板** — `HolopadCargoBayLongRange` ｜父类: HolopadLongRange
@@ -1889,7 +1890,7 @@
 - **全息通讯板** — `HolopadGeneralTheater` ｜父类: Holopad
 - **全息通讯板** — `HolopadGeneralTools` ｜父类: Holopad
 - **全息影像** — `HolopadHologram`
-- **远程全息通讯板** — `HolopadLongRange` ｜父类: Holopad
+- **远程全息通讯板** — `HolopadLongRange` ｜父类: Holopad ｜描述: A floor-mounted device for projecting holographic images to similar devices that are far away.
 - **全息通讯板** — `HolopadMedicalBreakroom` ｜父类: Holopad
 - **全息通讯板** — `HolopadMedicalChemistry` ｜父类: Holopad
 - **全息通讯板** — `HolopadMedicalClinic` ｜父类: Holopad
@@ -1937,101 +1938,101 @@
 - **全息通讯板** — `HolopadServiceMusician` ｜父类: Holopad
 - **全息通讯板** — `HolopadServiceNewsroom` ｜父类: Holopad
 - **全息通讯板** — `HolopadServiceZookeeper` ｜父类: Holopad
-- **量子纠缠全息通讯板** — `HolopadUnlimitedRange` ｜父类: Holopad
-- **全息香蕉皮** — `HoloPeel` ｜父类: HolosignWetFloor
-- **工程警告屏障** — `HolosignEngineeringWarning` ｜_Starlight
-- **全息力场** — `HolosignForcefield` ｜父类: HolosignWetFloor
-- **全息辐射屏障** — `HolosignRadiationBlocking` ｜父类: HolosignWetFloor ｜_FarHorizons
-- **全息屏障** — `HolosignSecurity` ｜父类: HolosignWetFloor
-- **地面湿滑标志** — `HolosignWetFloor`
-- **帘幕** — `HospitalCurtains` ｜父类: BaseCurtains
+- **量子纠缠全息通讯板** — `HolopadUnlimitedRange` ｜父类: Holopad ｜描述: An floor-mounted device for projecting holographic images to similar devices at extreme distances.
+- **全息香蕉皮** — `HoloPeel` ｜父类: HolosignWetFloor ｜描述: A banana peel made of slippery hard light, watch your step!
+- **工程警告屏障** — `HolosignEngineeringWarning` ｜_Starlight ｜描述: A barrier of non-solid light, warning everyone of danger around it.
+- **全息力场** — `HolosignForcefield` ｜父类: HolosignWetFloor ｜描述: A powerful temporal containment field that doesn't let anything through, not even a tesla or singularity.
+- **全息辐射屏障** — `HolosignRadiationBlocking` ｜父类: HolosignWetFloor ｜_FarHorizons ｜描述: A barrier of hard light that blocks light and radiation, but nothing else.
+- **全息屏障** — `HolosignSecurity` ｜父类: HolosignWetFloor ｜描述: A barrier of hard light that blocks movement, but pretty weak.
+- **地面湿滑标志** — `HolosignWetFloor` ｜描述: The words flicker as if they mean nothing.
+- **帘幕** — `HospitalCurtains` ｜父类: BaseCurtains ｜描述: Contains less than 1% mercury.
 - **帘幕** — `HospitalCurtainsOpen` ｜父类: HospitalCurtains
 - **氢气储气罐** — `HydrogenCanister` ｜父类: GasCanister ｜_Funkystation
 - **损坏的 气罐** — `HydrogenCanisterBroken` ｜父类: GasCanisterBrokenBase ｜_Funkystation
 - **氢气储气罐** — `HydrogenCanisterEmpty` ｜父类: HydrogenCanister ｜_Starlight
-- **土壤** — `hydroponicsSoil`
-- **水培托盘** — `hydroponicsTray` ｜父类: hydroponicsSoil,SmallConstructibleMachine
+- **土壤** — `hydroponicsSoil` ｜描述: A mix of organic matter and minerals creating a soil to grow your plant in space. Seems to be dry.
+- **水培托盘** — `hydroponicsTray` ｜父类: hydroponicsSoil,SmallConstructibleMachine ｜描述: An interstellar-grade space farmplot allowing for rapid growth and selective breeding of crops. Just... keep in mind the space weeds.
 - **水培托盘** — `HydroponicsTrayEmpty` ｜父类: hydroponicsTray
 - **超惰气储气罐** — `HyperNobliumCanister` ｜父类: GasCanister ｜_Funkystation
 - **损坏的 气罐** — `HyperNobliumCanisterBroken` ｜父类: GasCanisterBrokenBase ｜_Funkystation
 - **超惰气储气罐** — `HyperNobliumCanisterEmpty` ｜父类: HyperNobliumCanister ｜_Starlight
-- **冰淇淋机** — `IceCreamMaker` ｜父类: BaseMachinePowered,SmallConstructibleMachine ｜_Starlight
-- **充气门** — `InflatableDoor` ｜父类: BaseMaterialDoor,BaseDeltaPressureGlass
-- **充气路障** — `InflatableWall` ｜父类: BaseDeltaPressureGlass
+- **冰淇淋机** — `IceCreamMaker` ｜父类: BaseMachinePowered,SmallConstructibleMachine ｜_Starlight ｜描述: Morale-boosting deserts, coming up.
+- **充气门** — `InflatableDoor` ｜父类: BaseMaterialDoor,BaseDeltaPressureGlass ｜描述: An inflated membrane. Activate to deflate. Now with a door. Do not puncture.
+- **充气路障** — `InflatableWall` ｜父类: BaseDeltaPressureGlass ｜描述: An inflated membrane. Activate to deflate. Do not puncture.
 - **内部通讯器** — `Intercom` ｜父类: IntercomConstructed
 - **内部通讯器** — `IntercomAll` ｜父类: Intercom
-- **内部通讯器组件** — `IntercomAssembly`
-- **对讲机** — `IntercomCommand` ｜父类: BaseIntercomSecure
+- **内部通讯器组件** — `IntercomAssembly` ｜描述: An intercom. It doesn't seem very helpful right now.
+- **对讲机** — `IntercomCommand` ｜父类: BaseIntercomSecure ｜描述: An intercom. It's been reinforced with metal.
 - **内部通讯器** — `IntercomCommon` ｜父类: Intercom
 - **内部通讯器** — `IntercomConstructed` ｜父类: BaseIntercom
 - **内部通讯器** — `IntercomEngineering` ｜父类: Intercom
 - **内部通讯器** — `IntercomFreelance` ｜父类: Intercom
 - **内部通讯器** — `IntercomMedical` ｜父类: Intercom
 - **内部通讯器** — `IntercomScience` ｜父类: Intercom
-- **对讲机** — `IntercomSecurity` ｜父类: BaseIntercomSecure
+- **对讲机** — `IntercomSecurity` ｜父类: BaseIntercomSecure ｜描述: An intercom. It's been reinforced with metal from security helmets, making it a bitch-and-a-half to open.
 - **内部通讯器** — `IntercomService` ｜父类: Intercom
 - **内部通讯器** — `IntercomSupply` ｜父类: Intercom
-- **标识装饰** — `InterdyneFlag` ｜父类: BaseFlag ｜_Starlight
-- **标识装饰** — `InterdyneSyndicateFlag` ｜父类: BaseFlag ｜_Starlight
+- **标识装饰** — `InterdyneFlag` ｜父类: BaseFlag ｜_Starlight ｜描述: For Everyone's Health.
+- **标识装饰** — `InterdyneSyndicateFlag` ｜父类: BaseFlag ｜_Starlight ｜描述: F-r Ev_ry.ne' Hea_th.
 - **板条箱** — `InvisibleCrate` ｜父类: CrateBaseWeldable
-- **铁岩** — `IronRock` ｜父类: AsteroidRock
-- **铁岩** — `IronRockArtifactFragment` ｜父类: IronRock
-- **铁岩** — `IronRockBananium` ｜父类: IronRock
+- **铁岩** — `IronRock` ｜父类: AsteroidRock ｜描述: A rocky asteroid.
+- **铁岩** — `IronRockArtifactFragment` ｜父类: IronRock ｜描述: A rock wall. What's that sticking out of it?
+- **铁岩** — `IronRockBananium` ｜父类: IronRock ｜描述: An ore vein rich with bananium.
 - **铁岩** — `IronRockBananiumCrab100` ｜父类: IronRockBananium ｜_Starlight
 - **铁岩** — `IronRockBananiumCrab2` ｜父类: IronRockBananium ｜_Starlight
-- **铁岩** — `IronRockBluespace` ｜父类: IronRock ｜_Starlight
-- **铁岩** — `IronRockCoal` ｜父类: IronRock
+- **铁岩** — `IronRockBluespace` ｜父类: IronRock ｜_Starlight ｜描述: An ore vein rich with bluespace.
+- **铁岩** — `IronRockCoal` ｜父类: IronRock ｜描述: An ore vein rich with coal.
 - **铁岩** — `IronRockCoalCrab100` ｜父类: IronRockCoal ｜_Starlight
 - **铁岩** — `IronRockCoalCrab2` ｜父类: IronRockCoal ｜_Starlight
-- **铁岩** — `IronRockDiamond` ｜父类: IronRock
+- **铁岩** — `IronRockDiamond` ｜父类: IronRock ｜描述: An ore vein rich with diamonds.
 - **铁岩** — `IronRockGibtonite` ｜父类: BaseRockGibtonite,IronRock
-- **铁岩** — `IronRockGold` ｜父类: IronRock
+- **铁岩** — `IronRockGold` ｜父类: IronRock ｜描述: An ore vein rich with gold.
 - **铁岩** — `IronRockGoldCrab100` ｜父类: IronRockGold ｜_Starlight
 - **铁岩** — `IronRockGoldCrab2` ｜父类: IronRockGold ｜_Starlight
-- **铁岩** — `IronRockIron` ｜父类: IronRock
+- **铁岩** — `IronRockIron` ｜父类: IronRock ｜描述: An ore vein rich with iron.
 - **铁岩** — `IronRockIronCrab100` ｜父类: IronRockIron ｜_Starlight
 - **铁岩** — `IronRockIronCrab2` ｜父类: IronRockIron ｜_Starlight
-- **铁岩** — `IronRockMining` ｜父类: IronRock
-- **铁岩** — `IronRockPlasma` ｜父类: IronRock
-- **铁岩** — `IronRockQuartz` ｜父类: IronRock
+- **铁岩** — `IronRockMining` ｜父类: IronRock ｜描述: An asteroid.
+- **铁岩** — `IronRockPlasma` ｜父类: IronRock ｜描述: An ore vein rich with plasma.
+- **铁岩** — `IronRockQuartz` ｜父类: IronRock ｜描述: An ore vein rich with quartz.
 - **铁岩** — `IronRockQuartzCrab100` ｜父类: IronRockQuartz ｜_Starlight
 - **铁岩** — `IronRockQuartzCrab2` ｜父类: IronRockQuartz ｜_Starlight
-- **铁岩** — `IronRockSalt` ｜父类: IronRock
-- **铁岩** — `IronRockSilver` ｜父类: IronRock
+- **铁岩** — `IronRockSalt` ｜父类: IronRock ｜描述: An ore vein rich with salt.
+- **铁岩** — `IronRockSilver` ｜父类: IronRock ｜描述: An ore vein rich with silver.
 - **铁岩** — `IronRockSilverCrab100` ｜父类: IronRockSilver ｜_Starlight
 - **铁岩** — `IronRockSilverCrab2` ｜父类: IronRockSilver ｜_Starlight
-- **铁岩** — `IronRockUranium` ｜父类: IronRock
+- **铁岩** — `IronRockUranium` ｜父类: IronRock ｜描述: An ore vein rich with uranium.
 - **铁岩** — `IronRockUraniumCrab100` ｜父类: IronRockUranium ｜_Starlight
 - **铁岩** — `IronRockUraniumCrab2` ｜父类: IronRockUranium ｜_Starlight
-- **铁砂台阶** — `IronsandStep` ｜父类: BaseFloorDecoration
+- **铁砂台阶** — `IronsandStep` ｜父类: BaseFloorDecoration ｜描述: Takes your ironsand up a level.
 - **铁砂台阶凹角** — `IronsandStepConcaveCorner` ｜父类: IronsandStep
 - **铁砂台阶凸角** — `IronsandStepConvexCorner` ｜父类: IronsandStep
 - **铁砂岩** — `IronSandstone` ｜父类: AsteroidRock
 - **铁砂岩** — `IronSandstoneMining` ｜父类: IronSandstone
-- **铁石门** — `IronstoneDoor` ｜父类: BaseMaterialDoorNavMap
-- **清洁推车** — `JanitorialTrolley` ｜父类: BaseStructureDynamic,StructureWheeled
-- **清洁服务灯** — `JanitorServiceLight` ｜父类: Poweredlight
-- **点唱机** — `Jukebox` ｜父类: BaseMachinePowered,ConstructibleMachine
-- **接线盒** — `JunctionBox` ｜父类: BaseWallmountMetallic ｜_Starlight
-- **密钥卡验证设备** — `KeycardAuth` ｜父类: BaseStructureComputer ｜_Starlight
-- **电烤炉** — `KitchenElectricGrill` ｜父类: BaseHeaterMachine
-- **微波炉** — `KitchenMicrowave` ｜父类: BaseMachinePowered,SmallConstructibleMachine
-- **烤箱** — `KitchenOven` ｜父类: BaseMachinePowered,SmallConstructibleMachine ｜_Starlight
-- **试剂研磨机** — `KitchenReagentGrinder` ｜父类: BaseMachinePowered,SmallConstructibleMachine
-- **挂肉钩** — `KitchenSpike` ｜父类: BaseStructure
-- **炉灶** — `KitchenStove` ｜父类: BaseMachinePowered,SmallConstructibleMachine ｜_Starlight
-- **脆弱格架** — `LatticeFalse` ｜父类: GrateBase ｜_Starlight
-- **军团兵篝火** — `LegionnaireBonfire` ｜父类: BaseBonfire
-- **LGBTQ 旗帜** — `LGBTQFlag` ｜父类: BaseFlag
-- **小型立柱灯** — `LightPostSmall` ｜父类: BaseStructure
-- **液态二氧化碳气罐** — `LiquidCarbonDioxideCanister` ｜父类: CarbonDioxideCanister
+- **铁石门** — `IronstoneDoor` ｜父类: BaseMaterialDoorNavMap ｜描述: A mysterious door made of rune-etched stone.
+- **清洁推车** — `JanitorialTrolley` ｜父类: BaseStructureDynamic,StructureWheeled ｜描述: This is the alpha and omega of sanitation.
+- **清洁服务灯** — `JanitorServiceLight` ｜父类: Poweredlight ｜描述: A wall-mounted janitorial sign. If the light is blinking, a janitor's service is required.
+- **点唱机** — `Jukebox` ｜父类: BaseMachinePowered,ConstructibleMachine ｜描述: A machine capable of playing a wide variety of tunes. Enjoyment not guaranteed.
+- **接线盒** — `JunctionBox` ｜父类: BaseWallmountMetallic ｜_Starlight ｜描述: Used to house breakers and power switches, but its been cut from the main lines for a decade.
+- **密钥卡验证设备** — `KeycardAuth` ｜父类: BaseStructureComputer ｜_Starlight ｜描述: This device is used to approve/deny station functions, which require more than one ID card to authenticate.
+- **电烤炉** — `KitchenElectricGrill` ｜父类: BaseHeaterMachine ｜描述: A microwave? No, a real man cooks steaks on a grill!
+- **微波炉** — `KitchenMicrowave` ｜父类: BaseMachinePowered,SmallConstructibleMachine ｜描述: It's magic.
+- **烤箱** — `KitchenOven` ｜父类: BaseMachinePowered,SmallConstructibleMachine ｜_Starlight ｜描述: It's a huge magic.
+- **试剂研磨机** — `KitchenReagentGrinder` ｜父类: BaseMachinePowered,SmallConstructibleMachine ｜描述: From BlenderTech. Will It Blend? Let's find out!
+- **挂肉钩** — `KitchenSpike` ｜父类: BaseStructure ｜描述: A spike for collecting meat from animals.
+- **炉灶** — `KitchenStove` ｜父类: BaseMachinePowered,SmallConstructibleMachine ｜_Starlight ｜描述: It's a small magic.
+- **脆弱格架** — `LatticeFalse` ｜父类: GrateBase ｜_Starlight ｜描述: Not structurally viable.
+- **军团兵篝火** — `LegionnaireBonfire` ｜父类: BaseBonfire ｜描述: There, in the land of lava and ash, place to to cook marshmallow and potato.
+- **LGBTQ 旗帜** — `LGBTQFlag` ｜父类: BaseFlag ｜描述: "Be gay do crime" flag.
+- **小型立柱灯** — `LightPostSmall` ｜父类: BaseStructure ｜描述: An always powered light.
+- **液态二氧化碳气罐** — `LiquidCarbonDioxideCanister` ｜父类: CarbonDioxideCanister ｜描述: A canister that can contain any type of gas. This one is supposed to contain liquid carbon dioxide. It can be attached to connector ports using a wrench.
 - **损坏的 气罐** — `LiquidCarbonDioxideCanisterBroken` ｜父类: GasCanisterBrokenBase ｜_Starlight
 - **液态二氧化碳气罐** — `LiquidCarbonDioxideCanisterEmpty` ｜父类: LiquidCarbonDioxideCanister ｜_Starlight
-- **功能设备** — `LiquidDispenser` ｜_Starlight
-- **液氮气罐** — `LiquidNitrogenCanister` ｜父类: NitrogenCanister
+- **功能设备** — `LiquidDispenser` ｜_Starlight ｜描述: A thin device, what spills liquid all over the floor
+- **液氮气罐** — `LiquidNitrogenCanister` ｜父类: NitrogenCanister ｜描述: A canister that can contain any type of gas. This one is supposed to contain liquid nitrogen. It can be attached to connector ports using a wrench.
 - **损坏的 气罐** — `LiquidNitrogenCanisterBroken` ｜父类: GasCanisterBrokenBase ｜_Starlight
 - **液氮气罐** — `LiquidNitrogenCanisterEmpty` ｜父类: LiquidNitrogenCanister ｜_Starlight
-- **液氧气罐** — `LiquidOxygenCanister` ｜父类: OxygenCanister
+- **液氧气罐** — `LiquidOxygenCanister` ｜父类: OxygenCanister ｜描述: A canister that can contain any type of gas. This one is supposed to contain liquid oxygen. It can be attached to connector ports using a wrench.
 - **损坏的 气罐** — `LiquidOxygenCanisterBroken` ｜父类: GasCanisterBrokenBase ｜_Starlight
 - **液氧气罐** — `LiquidOxygenCanisterEmpty` ｜父类: LiquidOxygenCanister ｜_Starlight
 - **可上锁按钮** — `LockableButton` ｜父类: SignalButtonDirectional
@@ -2070,8 +2071,8 @@
 - **壁橱** — `LockerBase` ｜父类: ClosetBase
 - **安全壁橱 # Starlight-edit** — `LockerBaseSecure` ｜父类: LockerBase
 - **储物容器** — `LockerBlueshield` ｜父类: LockerBaseSecure ｜_Starlight
-- **蓝空间储物柜** — `LockerBluespaceStation` ｜父类: LockerSyndicatePersonal
-- **酒水储藏柜** — `LockerBooze` ｜父类: LockerBase
+- **蓝空间储物柜** — `LockerBluespaceStation` ｜父类: LockerSyndicatePersonal ｜描述: Advanced locker technology.
+- **酒水储藏柜** — `LockerBooze` ｜父类: LockerBase ｜描述: This is where the bartender keeps the booze.
 - **植物学家储物柜** — `LockerBotanist` ｜父类: LockerBase
 - **狱医储物柜** — `LockerBrigmedic` ｜父类: LockerBaseSecure
 - **储物容器** — `LockerBrigmedicLarge` ｜父类: LockerLargeBaseSecure ｜_Starlight
@@ -2083,11 +2084,11 @@
 - **医疗主管储物柜** — `LockerChiefMedicalOfficer` ｜父类: LockerBaseSecure
 - **小丑储物柜** — `LockerClown` ｜父类: LockerBaseSecure
 - **储物容器** — `LockerCoroner` ｜父类: LockerBaseSecure ｜_Starlight
-- **侦探柜** — `LockerDetective` ｜父类: LockerBooze
+- **侦探柜** — `LockerDetective` ｜父类: LockerBooze ｜描述: Usually cold and empty... like your heart.
 - **电气用品储物柜** — `LockerElectricalSupplies` ｜父类: LockerBase
 - **工程师储物柜** — `LockerEngineer` ｜父类: LockerBase
-- **紧急撤离穿梭机应急储物柜** — `LockerEvacRepair` ｜父类: LockerBase
-- **证物储物柜** — `LockerEvidence` ｜父类: LockerSecurity
+- **紧急撤离穿梭机应急储物柜** — `LockerEvacRepair` ｜父类: LockerBase ｜描述: It's emergencies all the way down.
+- **证物储物柜** — `LockerEvidence` ｜父类: LockerSecurity ｜描述: To store bags of bullet casings and detainee belongings.
 - **冷冻柜** — `LockerFreezer` ｜父类: LockerFreezerBase
 - **冷冻柜** — `LockerFreezerBase` ｜父类: LockerBase
 - **储物容器** — `LockerGeneticist` ｜父类: LockerBaseSecure ｜_Starlight
@@ -2102,13 +2103,13 @@
 - **储物容器** — `LockerMail` ｜父类: LockerBaseSecure ｜_Starlight
 - **储物容器** — `LockerMailLarge` ｜父类: LockerLargeBaseSecure ｜_Starlight
 - **医师储物柜** — `LockerMedical` ｜父类: LockerBase
-- **药品储物柜** — `LockerMedicine` ｜父类: LockerBase
+- **药品储物柜** — `LockerMedicine` ｜父类: LockerBase ｜描述: Filled to the brim with medical junk.
 - **哑剧演员储物柜** — `LockerMime` ｜父类: LockerBaseSecure
 - **储物容器** — `LockerMiningSpecialist` ｜父类: LockerBaseSecure ｜_Starlight
 - **储物容器** — `LockerMiningSpecialistLarge` ｜父类: LockerLargeBaseSecure ｜_Starlight
 - **储物容器** — `LockerNCT` ｜父类: LockerBaseSecure ｜_Starlight
 - **急救员储物柜** — `LockerParamedic` ｜父类: LockerBase
-- **囚犯壁橱** — `LockerPrisoner` ｜父类: GenpopBase,LockerBaseSecure
+- **囚犯壁橱** — `LockerPrisoner` ｜父类: GenpopBase,LockerBaseSecure ｜描述: It's a secure locker for an inmate's personal belongings during their time in prison.
 - **囚犯壁橱** — `LockerPrisoner2` ｜父类: LockerPrisoner
 - **囚犯壁橱** — `LockerPrisoner3` ｜父类: LockerPrisoner
 - **囚犯壁橱** — `LockerPrisoner4` ｜父类: LockerPrisoner
@@ -2121,7 +2122,7 @@
 - **研究主管储物柜** — `LockerResearchDirector` ｜父类: LockerBase
 - **储物容器** — `LockerRoboticist` ｜父类: LockerBaseSecure ｜_Starlight
 - **储物容器** — `LockerSalvageLead` ｜父类: LockerBaseSecure ｜_Starlight
-- **打捞专员装备柜** — `LockerSalvageSpecialist` ｜父类: LockerBase
+- **打捞专员装备柜** — `LockerSalvageSpecialist` ｜父类: LockerBase ｜描述: Nevermind the pickaxe.
 - **大型打捞专员's 储物柜** — `LockerSalvageSpecialistLarge` ｜父类: LockerLargeBaseSecure ｜_Starlight
 - **科学家储物柜** — `LockerScientist` ｜父类: LockerBase
 - **安保干员储物柜** — `LockerSecurity` ｜父类: LockerBaseSecure
@@ -2129,11 +2130,11 @@
 - **安全壁橱** — `LockerSteel` ｜父类: LockerBaseSecure
 - **大型安全柜** — `LockerSteelLarge` ｜父类: LockerLargeBaseSecure ｜_Starlight
 - **储物容器** — `LockerSurgeon` ｜父类: LockerBaseSecure ｜_Starlight
-- **血红色 壁橱** — `LockerSyndicate` ｜父类: ClosetSteelBase
-- **血红色储物柜** — `LockerSyndicatePersonal` ｜父类: LockerBaseSecure
+- **血红色 壁橱** — `LockerSyndicate` ｜父类: ClosetSteelBase ｜描述: It's a storage unit with a blood-red design.
+- **血红色储物柜** — `LockerSyndicatePersonal` ｜父类: LockerBaseSecure ｜描述: It's a personal storage unit with a blood-red design.
 - **储物容器** — `LockerVirologist` ｜父类: LockerBaseSecure ｜_Starlight
-- **囚犯 壁挂壁橱** — `LockerWallBasePrisoner` ｜父类: GenpopBase,BaseWallLocker
-- **紧急撤离穿梭机应急壁挂储物柜** — `LockerWallEvacRepair` ｜父类: BaseWallLocker
+- **囚犯 壁挂壁橱** — `LockerWallBasePrisoner` ｜父类: GenpopBase,BaseWallLocker ｜描述: It's a secure locker for an inmate's personal belongings during their time in prison.
+- **紧急撤离穿梭机应急壁挂储物柜** — `LockerWallEvacRepair` ｜父类: BaseWallLocker ｜描述: It's emergencies all the way down.
 - **医疗 壁挂储物柜** — `LockerWallMedical` ｜父类: BaseWallLocker
 - **囚犯 壁挂壁橱** — `LockerWallPrisoner2` ｜父类: LockerWallBasePrisoner
 - **囚犯 壁挂壁橱** — `LockerWallPrisoner3` ｜父类: LockerWallBasePrisoner
@@ -2142,34 +2143,34 @@
 - **囚犯 壁挂壁橱** — `LockerWallPrisoner6` ｜父类: LockerWallBasePrisoner
 - **囚犯 壁挂壁橱** — `LockerWallPrisoner7` ｜父类: LockerWallBasePrisoner
 - **囚犯 壁挂壁橱** — `LockerWallPrisoner8` ｜父类: LockerWallBasePrisoner
-- **血红色 壁挂储物柜** — `LockerWallSyndicate` ｜父类: BaseWallLocker
+- **血红色 壁挂储物柜** — `LockerWallSyndicate` ｜父类: BaseWallLocker ｜描述: It's a wall storage unit with a blood-red design.
 - **典狱长储物柜** — `LockerWarden` ｜父类: LockerBaseSecure
 - **焊接用品储物柜** — `LockerWeldingSupplies` ｜父类: LockerBase
-- **空电路** — `LogicEmptyCircuit` ｜父类: BaseItem
+- **空电路** — `LogicEmptyCircuit` ｜父类: BaseItem ｜描述: Something seems to be missing.
 - **逻辑门** — `LogicGateAnd` ｜父类: LogicGateOr
 - **逻辑门** — `LogicGateNand` ｜父类: LogicGateOr
 - **逻辑门** — `LogicGateNor` ｜父类: LogicGateOr
-- **逻辑门** — `LogicGateOr` ｜父类: BaseLogicItem
+- **逻辑门** — `LogicGateOr` ｜父类: BaseLogicItem ｜描述: A logic gate with two inputs and one output. Technicians can change its mode of operation using a screwdriver.
 - **逻辑门** — `LogicGateXnor` ｜父类: LogicGateOr
 - **逻辑门** — `LogicGateXor` ｜父类: LogicGateOr
-- **异常生成器** — `MachineAnomalyGenerator` ｜父类: BaseMachinePowered
-- **异常同步器** — `MachineAnomalySynchronizer` ｜父类: BaseMachinePowered,ConstructibleMachine
-- **异常容器** — `MachineAnomalyVessel` ｜父类: BaseMachinePowered,ConstructibleMachine
-- **实验型异常容器** — `MachineAnomalyVesselExperimental` ｜父类: MachineAnomalyVessel
-- **异常粒子发射器（A.P.E.）** — `MachineAPE` ｜父类: BaseMachinePowered,ConstructibleMachine
-- **遗物分析仪** — `MachineArtifactAnalyzer` ｜父类: BaseMachinePowered,SmallConstructibleMachine
-- **遗物粉碎机** — `MachineArtifactCrusher` ｜父类: ConstructibleMachine,BaseMachinePowered
-- **躯体粉碎机** — `MachineArtifactCrusherXenoborg` ｜父类: MachineArtifactCrusher
-- **台式离心机** — `MachineCentrifuge` ｜父类: BaseTabletopChemicalMachine
-- **功能设备** — `MachineDarkBreacher` ｜父类: BaseMachinePowered,ConstructibleMachine ｜_Starlight
+- **异常生成器** — `MachineAnomalyGenerator` ｜父类: BaseMachinePowered ｜描述: The peak of pseudoscientific technology.
+- **异常同步器** — `MachineAnomalySynchronizer` ｜父类: BaseMachinePowered,ConstructibleMachine ｜描述: A sophisticated device that reads changes in anomalous waves, and converts them into energy signals.
+- **异常容器** — `MachineAnomalyVessel` ｜父类: BaseMachinePowered,ConstructibleMachine ｜描述: A container able to harness a scan of an anomaly and turn it into research data.
+- **实验型异常容器** — `MachineAnomalyVesselExperimental` ｜父类: MachineAnomalyVessel ｜描述: An advanced anomaly vessel capable of greater research potential at the cost of increased volatility and low-level radioactive decay into the environment.
+- **异常粒子发射器（A.P.E.）** — `MachineAPE` ｜父类: BaseMachinePowered,ConstructibleMachine ｜描述: An Anomalous Particle Emitter, capable of shooting out unstable particles which can interface with anomalies.
+- **遗物分析仪** — `MachineArtifactAnalyzer` ｜父类: BaseMachinePowered,SmallConstructibleMachine ｜描述: A platform capable of performing analysis on various types of artifacts.
+- **遗物粉碎机** — `MachineArtifactCrusher` ｜父类: ConstructibleMachine,BaseMachinePowered ｜描述: Best not to let your fingers get stuck...
+- **躯体粉碎机** — `MachineArtifactCrusherXenoborg` ｜父类: MachineArtifactCrusher ｜描述: Best not to let your head get stuck...
+- **台式离心机** — `MachineCentrifuge` ｜父类: BaseTabletopChemicalMachine ｜描述: Around and around it goes...
+- **功能设备** — `MachineDarkBreacher` ｜父类: BaseMachinePowered,ConstructibleMachine ｜_Starlight ｜描述: The portal to the dark...
 - **功能设备** — `MachineDarkBreacherPowered` ｜父类: MachineDarkBreacher ｜_Starlight
-- **电解装置** — `MachineElectrolysisUnit` ｜父类: BaseTabletopChemicalMachine
-- **扁平打包机 1001** — `MachineFlatpacker` ｜父类: BaseMachinePowered,ConstructibleMachine
+- **电解装置** — `MachineElectrolysisUnit` ｜父类: BaseTabletopChemicalMachine ｜描述: The latest in medicinal electrocution technology.
+- **扁平打包机 1001** — `MachineFlatpacker` ｜父类: BaseMachinePowered,ConstructibleMachine ｜描述: An industrial machine used for expediting machine construction across the station.
 - **机器框架** — `MachineFrame`
 - **损毁的机器框架** — `MachineFrameDestroyed` ｜父类: BaseStructureDynamic
-- **材料仓** — `MachineMaterialSilo` ｜父类: BaseMachinePowered,ConstructibleMachine
-- **邮件推车** — `MailCart` ｜父类: BaseStructureDynamic,StructureWheeled
-- **邮件投递单元** — `MailingUnit` ｜父类: DisposalUnitBase
+- **材料仓** — `MachineMaterialSilo` ｜父类: BaseMachinePowered,ConstructibleMachine ｜描述: An advanced machine, capable of using bluespace technology to transmit materials to nearby machines.
+- **邮件推车** — `MailCart` ｜父类: BaseStructureDynamic,StructureWheeled ｜描述: Deliver packages with style and efficiency.
+- **邮件投递单元** — `MailingUnit` ｜父类: DisposalUnitBase ｜描述: A pneumatic mail delivery unit.
 - **邮件投递单元** — `MailingUnitAI` ｜父类: MailingUnit ｜_Starlight
 - **邮件投递单元** — `MailingUnitAICore` ｜父类: MailingUnit ｜_Starlight
 - **邮件投递单元** — `MailingUnitAIPower` ｜父类: MailingUnit ｜_Starlight
@@ -2240,66 +2241,67 @@
 - **邮件投递单元** — `MailingUnitVault` ｜父类: MailingUnit ｜_Starlight
 - **邮件投递单元** — `MailingUnitVox` ｜父类: MailingUnit ｜_Starlight
 - **邮件投递单元** — `MailingUnitWarden` ｜父类: MailingUnit ｜_Starlight
-- **邮件推车** — `MailTrolley` ｜父类: BaseStructureDynamic,StructureWheeled ｜_Starlight
-- **人体模型** — `Mannequin` ｜父类: BaseStructureDynamic,StripableInventoryBase
-- **质量投射器** — `MassDriver` ｜_Starlight
-- **质量投射器 电脑** — `MassDriverComputer` ｜父类: BaseComputerAiAccess ｜_Starlight
-- **观测主控椅** — `Masterchair` ｜父类: BaseStructureComputer ｜_Starlight
+- **邮件推车** — `MailTrolley` ｜父类: BaseStructureDynamic,StructureWheeled ｜_Starlight ｜描述: Perfect for all your package delivery needs.
+- **人体模型** — `Mannequin` ｜父类: BaseStructureDynamic,StripableInventoryBase ｜描述: It can wear any clothing with style.
+- **质量投射器** — `MassDriver` ｜_Starlight ｜描述: The finest in spring-loaded piston toy technology, now on a space station near you.
+- **质量投射器 电脑** — `MassDriverComputer` ｜父类: BaseComputerAiAccess ｜_Starlight ｜描述: A computer for control mass driver.
+- **观测主控椅** — `Masterchair` ｜父类: BaseStructureComputer ｜_Starlight ｜描述: If you think you are safe from prying eyes, you would be dead wrong— Big Brother from 1984 trembles whenever John NanoTrasen sits in this, watching every move, fining you for each inconsistency, and n
 - **观测主控椅** — `MasterchairOverlay` ｜_Starlight
-- **床垫** — `Mattress` ｜父类: Bed
-- **医疗床** — `MedicalBed` ｜父类: Bed
-- **医疗扫描仪** — `MedicalScanner` ｜父类: BaseMachinePowered
-- **医疗科技制造机** — `MedicalTechFab` ｜父类: BaseLatheLube
-- **纪念碑** — `Memorial` ｜父类: BaseStructure
-- **存储单元** — `MemoryCell` ｜父类: BaseLogicItem
+- **床垫** — `Mattress` ｜父类: Bed ｜描述: Better sleep in that then on the floor i guess.
+- **医疗床** — `MedicalBed` ｜父类: Bed ｜描述: A hospital bed for patients to recover in. Resting here provides fairly slow healing.
+- **医疗扫描仪** — `MedicalScanner` ｜父类: BaseMachinePowered ｜描述: A bulky medical scanner.
+- **医疗科技制造机** — `MedicalTechFab` ｜父类: BaseLatheLube ｜描述: Prints equipment for use by the medbay.
+- **纪念碑** — `Memorial` ｜父类: BaseStructure ｜描述: Commemorating something.
+- **存储单元** — `MemoryCell` ｜父类: BaseLogicItem ｜描述: A D-Latch circuit that stores a signal which can be changed depending on input and enable ports.
 - **金属门** — `MetalDoor` ｜父类: BaseMaterialDoorNavMap
-- **陨石岩** — `MeteorRock` ｜父类: AsteroidRock
-- **陨石岩** — `MeteorRockBananium` ｜父类: MeteorRock
-- **陨石岩** — `MeteorRockCoal` ｜父类: MeteorRock
-- **陨石岩** — `MeteorRockDiamond` ｜父类: MeteorRock
-- **陨石岩** — `MeteorRockGold` ｜父类: MeteorRock
-- **陨石岩** — `MeteorRockPlasma` ｜父类: MeteorRock
-- **陨石岩** — `MeteorRockQuartz` ｜父类: MeteorRock
-- **陨石岩** — `MeteorRockSilver` ｜父类: MeteorRock
-- **陨石岩** — `MeteorRockTin` ｜父类: MeteorRock
-- **陨石岩** — `MeteorRockUranium` ｜父类: MeteorRock
+- **陨石岩** — `MeteorRock` ｜父类: AsteroidRock ｜描述: What remains of a meteorite.
+- **陨石岩** — `MeteorRockBananium` ｜父类: MeteorRock ｜描述: An ore vein rich with bananium.
+- **陨石岩** — `MeteorRockCoal` ｜父类: MeteorRock ｜描述: An ore vein rich with coal.
+- **陨石岩** — `MeteorRockDiamond` ｜父类: MeteorRock ｜描述: An ore vein rich with diamonds.
+- **陨石岩** — `MeteorRockGold` ｜父类: MeteorRock ｜描述: An ore vein rich with gold.
+- **陨石岩** — `MeteorRockPlasma` ｜父类: MeteorRock ｜描述: An ore vein rich with plasma.
+- **陨石岩** — `MeteorRockQuartz` ｜父类: MeteorRock ｜描述: An ore vein rich with quartz.
+- **陨石岩** — `MeteorRockSilver` ｜父类: MeteorRock ｜描述: An ore vein rich with silver.
+- **陨石岩** — `MeteorRockTin` ｜父类: MeteorRock ｜描述: An ore vein rich with iron.
+- **陨石岩** — `MeteorRockUranium` ｜父类: MeteorRock ｜描述: An ore vein rich with uranium.
 - **采矿窗** — `MiningWindow` ｜父类: WindowRCDResistant,BaseDeltaPressureReinforcedGlass
 - **采矿窗** — `MiningWindowDiagonal` ｜父类: MiningWindow
-- **镜子** — `Mirror` ｜父类: BaseWallmountGlass
+- **镜子** — `Mirror` ｜父类: BaseWallmountGlass ｜描述: Mirror mirror on the wall , who's the most robust of them all?
 - **镜子** — `MirrorModern` ｜父类: Mirror
-- **巨石碑** — `Monolith` ｜父类: Memorial
-- **拖把桶** — `MopBucket` ｜父类: BaseStructureDynamic,StructureWheeled
-- **拖把桶方块** — `MopBucketCubeWrapped` ｜父类: BaseWrappedCube
+- **巨石碑** — `Monolith` ｜父类: Memorial ｜描述: Holy shit modern art.
+I bet it's worth a fortune.
+- **拖把桶** — `MopBucket` ｜父类: BaseStructureDynamic,StructureWheeled ｜描述: Holds water and the tears of the janitor.
+- **拖把桶方块** — `MopBucketCubeWrapped` ｜父类: BaseWrappedCube ｜描述: Unwrap this to get a mop bucket cube.
 - **拖把桶** — `MopBucketFull` ｜父类: MopBucket
-- **停尸柜** — `Morgue`
+- **停尸柜** — `Morgue` ｜描述: Used to store bodies until someone fetches them. Includes a high-tech alert system for false-positives!
 - **MultipartMachineGhost** — `MultipartMachineGhost`
-- **NCT 物品** — `nctterminal` ｜父类: BaseStructureComputer ｜_Starlight
+- **NCT 物品** — `nctterminal` ｜父类: BaseStructureComputer ｜_Starlight ｜描述: Contact NCT Dispatch for assistance.
 - **氮素气储气罐** — `NitriumCanister` ｜父类: GasCanister ｜_Funkystation
 - **损坏的 气罐** — `NitriumCanisterBroken` ｜父类: GasCanisterBrokenBase ｜_Funkystation
 - **氮素气储气罐** — `NitriumCanisterEmpty` ｜父类: NitriumCanister ｜_Starlight
-- **氮气罐** — `NitrogenCanister` ｜父类: GasCanister
+- **氮气罐** — `NitrogenCanister` ｜父类: GasCanister ｜描述: A canister that can contain any type of gas. This one is supposed to contain nitrogen. It can be attached to connector ports using a wrench.
 - **损坏的 气罐** — `NitrogenCanisterBroken` ｜父类: GasCanisterBrokenBase
 - **氮气罐** — `NitrogenCanisterEmpty` ｜父类: NitrogenCanister ｜_Starlight
-- **一氧化二氮气罐** — `NitrousOxideCanister` ｜父类: GasCanister
+- **一氧化二氮气罐** — `NitrousOxideCanister` ｜父类: GasCanister ｜描述: A canister that can contain any type of gas. This one is supposed to contain nitrous oxide. It can be attached to connector ports using a wrench.
 - **损坏的 气罐** — `NitrousOxideCanisterBroken` ｜父类: GasCanisterBrokenBase
 - **一氧化二氮气罐** — `NitrousOxideCanisterEmpty` ｜父类: NitrousOxideCanister ｜_Starlight
-- **公告板** — `NoticeBoard` ｜父类: BaseWallmount
-- **纳米传讯旗帜 # SL** — `NTFlag` ｜父类: BaseFlag
-- **核裂变爆炸装置** — `NuclearBomb` ｜父类: BaseStructure,StructureWheeled,BaseMajorContraband
-- **核裂变爆炸装置** — `NuclearBombKeg` ｜父类: StorageTank
-- **核裂变炸弹** — `NuclearBombSafe` ｜父类: NuclearBomb ｜_Starlight
+- **公告板** — `NoticeBoard` ｜父类: BaseWallmount ｜描述: Is there a job for a witcher?
+- **纳米传讯旗帜 # SL** — `NTFlag` ｜父类: BaseFlag ｜描述: Glory to NT! Wait, they really made a flag for a corporation?
+- **核裂变爆炸装置** — `NuclearBomb` ｜父类: BaseStructure,StructureWheeled,BaseMajorContraband ｜描述: You probably shouldn't stick around to see if this is armed.
+- **核裂变爆炸装置** — `NuclearBombKeg` ｜父类: StorageTank ｜描述: You probably shouldn't stick around to see if this is armed. It has a tap on the side.
+- **核裂变炸弹** — `NuclearBombSafe` ｜父类: NuclearBomb ｜_Starlight ｜描述: You probably shouldn't stick around to see if this is armed.
 - **核裂变炸弹** — `NuclearBombSafeUnanchored` ｜父类: NuclearBombSafe ｜_Starlight
 - **核裂变炸弹** — `NuclearBombUnanchored` ｜父类: NuclearBomb
-- **核离心机** — `NuclearCentrifuge` ｜父类: BaseMachinePowered,ConstructibleMachine ｜_FarHorizons
-- **核废墟残块** — `NuclearDebrisChunk` ｜父类: BaseItem ｜_FarHorizons
-- **核工业制造机** — `NuclearFabricator` ｜父类: BaseLatheLube ｜_FarHorizons
+- **核离心机** — `NuclearCentrifuge` ｜父类: BaseMachinePowered,ConstructibleMachine ｜_FarHorizons ｜描述: A large machine that can be used to separate radioactive isotopes from spent fuel.
+- **核废墟残块** — `NuclearDebrisChunk` ｜父类: BaseItem ｜_FarHorizons ｜描述: You do not see the graphite on the floor. You're in shock. Report to medical.
+- **核工业制造机** — `NuclearFabricator` ｜父类: BaseLatheLube ｜_FarHorizons ｜描述: It makes nuclear parts.
 - `模板` **NuclearReactorCrew** — `NuclearReactorCrew` ｜_FarHorizons
 - **核反应堆** — `NuclearReactorEmpty` ｜父类: BaseNuclearReactor,NuclearReactorCrew,ReactorPrefabEmpty ｜_FarHorizons
 - **核反应堆** — `NuclearReactorEmptySalvage` ｜父类: BaseNuclearReactor,NuclearReactorSalvage,ReactorPrefabEmpty ｜_FarHorizons
 - **核反应堆** — `NuclearReactorMeltdown` ｜父类: BaseNuclearReactor,NuclearReactorCrew,ReactorPrefab7x7Meltdown ｜_FarHorizons
-- **核反应堆** — `NuclearReactorMelted` ｜父类: BaseStructure ｜_FarHorizons
-- **核反应堆** — `NuclearReactorMeltedSalvage` ｜父类: NuclearReactorMelted ｜_FarHorizons
-- **核反应堆监控器** — `NuclearReactorMonitor` ｜父类: BaseComputerAiAccess ｜_FarHorizons
+- **核反应堆** — `NuclearReactorMelted` ｜父类: BaseStructure ｜_FarHorizons ｜描述: A broken nuclear reactor vessel. It glows with heat and radiation.
+- **核反应堆** — `NuclearReactorMeltedSalvage` ｜父类: NuclearReactorMelted ｜_FarHorizons ｜描述: A nuclear reactor vessel, long since melted down. It still glows with residual heat and radiation.
+- **核反应堆监控器** — `NuclearReactorMonitor` ｜父类: BaseComputerAiAccess ｜_FarHorizons ｜描述: A device that monitors the state of a connected nuclear reactor.
 - **核反应堆** — `NuclearReactorNormal` ｜父类: BaseNuclearReactor,NuclearReactorCrew ｜_FarHorizons
 - **核反应堆** — `NuclearReactorNormalSalvage` ｜父类: BaseNuclearReactor,NuclearReactorSalvage ｜_FarHorizons
 - **核反应堆** — `NuclearReactorRandom` ｜父类: BaseNuclearReactor,NuclearReactorCrew,ReactorPrefabRandom ｜_FarHorizons
@@ -2308,8 +2310,8 @@
 - **小型核反应堆** — `NuclearReactorSmall` ｜父类: BaseNuclearReactorSmall,NuclearReactorCrew,ReactorPrefab5x5Normal ｜_FarHorizons
 - **小型核反应堆** — `NuclearReactorSmallEmpty` ｜父类: BaseNuclearReactorSmall,NuclearReactorCrew,ReactorPrefabEmpty ｜_Starlight
 - **小型核反应堆** — `NuclearReactorSmallEmptySalvage` ｜父类: BaseNuclearReactorSmall,NuclearReactorSalvage,ReactorPrefabEmpty ｜_FarHorizons
-- **熔毁的小型核反应堆** — `NuclearReactorSmallMelted` ｜父类: NuclearReactorMelted ｜_FarHorizons
-- **小型核反应堆** — `NuclearReactorSmallMeltedSalvage` ｜父类: NuclearReactorSmallMelted ｜_FarHorizons
+- **熔毁的小型核反应堆** — `NuclearReactorSmallMelted` ｜父类: NuclearReactorMelted ｜_FarHorizons ｜描述: A broken nuclear reactor vessel. It glows with heat and radiation.
+- **小型核反应堆** — `NuclearReactorSmallMeltedSalvage` ｜父类: NuclearReactorSmallMelted ｜_FarHorizons ｜描述: A nuclear reactor vessel, long since melted down. It still glows with residual heat and radiation.
 - **小型核反应堆** — `NuclearReactorSmallRandom` ｜父类: BaseNuclearReactorSmall,NuclearReactorCrew,ReactorPrefabRandom ｜_FarHorizons
 - **小型核反应堆** — `NuclearReactorSmallRandomSalvage` ｜父类: BaseNuclearReactorSmall,NuclearReactorSalvage,ReactorPrefabRandom ｜_FarHorizons
 - **小型核反应堆** — `NuclearReactorSmallSalvage` ｜父类: BaseNuclearReactorSmall,NuclearReactorSalvage,ReactorPrefab5x5Normal ｜_FarHorizons
@@ -2317,10 +2319,10 @@
 - **标识装饰** — `OnAirSignLights` ｜父类: BarSignLights ｜_Starlight
 - **标识装饰** — `OpenBarSignLights` ｜父类: BarSignLights ｜_Starlight
 - **标识装饰** — `OpenSignLights` ｜父类: BarSignLights ｜_Starlight
-- **手术台** — `OperatingTable` ｜父类: Bed
-- **矿石箱** — `OreBox` ｜父类: BaseStructureDynamic
-- **矿石处理机** — `OreProcessor` ｜父类: BaseLathe
-- **工业矿石处理机** — `OreProcessorIndustrial` ｜父类: OreProcessor
+- **手术台** — `OperatingTable` ｜父类: Bed ｜描述: Special medical table for surgery. This one just seems to be a useless prop, though.
+- **矿石箱** — `OreBox` ｜父类: BaseStructureDynamic ｜描述: A large storage container for holding unprocessed ores.
+- **矿石处理机** — `OreProcessor` ｜父类: BaseLathe ｜描述: It produces sheets and ingots using ores.
+- **工业矿石处理机** — `OreProcessorIndustrial` ｜父类: OreProcessor ｜描述: An ore processor specifically designed for mass-producing metals in industrial applications.
 - **OverlayCMPlatform** — `OverlayCMPlatform` ｜_Starlight
 - **OverlayCMPlatformCorner** — `OverlayCMPlatformCorner` ｜_Starlight
 - **OverlayCMPlatformCornerDark** — `OverlayCMPlatformCornerDark` ｜_Starlight
@@ -2336,78 +2338,78 @@
 - **OverlayRMCPlatformStairRight** — `OverlayRMCPlatformStairRight` ｜_Starlight
 - **OverlayRMCPlatformStairRightDark** — `OverlayRMCPlatformStairRightDark` ｜_Starlight
 - **OverlayRMCPlatformStairRightWood** — `OverlayRMCPlatformStairRightWood` ｜_Starlight
-- **氧气罐** — `OxygenCanister` ｜父类: GasCanister
+- **氧气罐** — `OxygenCanister` ｜父类: GasCanister ｜描述: A canister that can contain any type of gas. This one is supposed to contain oxygen. It can be attached to connector ports using a wrench.
 - **损坏的 气罐** — `OxygenCanisterBroken` ｜父类: GasCanisterBrokenBase
 - **氧气罐** — `OxygenCanisterEmpty` ｜父类: OxygenCanister ｜_Starlight
-- **《Amogus 三联画（无题）》** — `PaintingAmogusTriptych` ｜父类: PaintingBase
+- **《Amogus 三联画（无题）》** — `PaintingAmogusTriptych` ｜父类: PaintingBase ｜描述: This painting is made up of 3 individual sections. Each depicts a religious figure.
 - `模板` **PaintingBase** — `PaintingBase` ｜父类: BaseSign
-- **《夜晚露天咖啡座》** — `PaintingCafeTerraceAtNight` ｜父类: PaintingBase
-- **空画框** — `PaintingEmpty` ｜父类: PaintingBase
-- **标识装饰** — `PaintingHammer` ｜父类: PaintingBase ｜_Starlight
-- **《你好，世界》** — `PaintingHelloWorld` ｜父类: PaintingBase
-- **猴子画** — `PaintingMonkey` ｜父类: BaseSign
-- **《抽象画一号》** — `PaintingMoony` ｜父类: PaintingBase
-- **《夜游者》** — `PaintingNightHawks` ｜父类: PaintingBase
-- **《老吉他手》** — `PaintingOldGuitarist` ｜父类: PaintingBase
-- **《奥林匹亚》** — `PaintingOlympia` ｜父类: PaintingBase
-- **《记忆的永恒》** — `PaintingPersistenceOfMemory` ｜父类: PaintingBase
-- **《使徒之手》** — `PaintingPrayerHands` ｜父类: PaintingBase
-- **《红黄蓝的构成》** — `PaintingRedBlueYellow` ｜父类: PaintingBase
-- **标识装饰** — `PaintingRedTide` ｜父类: PaintingBase ｜_Starlight
-- **《悲伤的小丑》** — `PaintingSadClown` ｜父类: PaintingBase
-- **《农神吞噬其子》** — `PaintingSaturn` ｜父类: PaintingBase
-- **《叼着粗烟的 MLG 骷髅头》** — `PaintingSkeletonBoof` ｜父类: PaintingBase
-- **《叼着燃烧香烟的骷髅头》** — `PaintingSkeletonCigarette` ｜父类: PaintingBase
-- **《沉睡的游牧者》 #SL Edit g to nomad** — `PaintingSleepingGypsy` ｜父类: PaintingBase
-- **《神奈川冲浪里》** — `PaintingTheGreatWave` ｜父类: PaintingBase
-- **《吻》** — `PaintingTheKiss` ｜父类: PaintingBase
-- **《呐喊》** — `PaintingTheScream` ｜父类: PaintingBase
-- **《人子》** — `PaintingTheSonOfMan` ｜父类: PaintingBase
-- **纸张箱** — `PaperBin` ｜父类: BaseStructureDynamic
+- **《夜晚露天咖啡座》** — `PaintingCafeTerraceAtNight` ｜父类: PaintingBase ｜描述: This painting depicts lively night scene at a cafe.
+- **空画框** — `PaintingEmpty` ｜父类: PaintingBase ｜描述: An empty frame, waiting to be filled with art.
+- **标识装饰** — `PaintingHammer` ｜父类: PaintingBase ｜_Starlight ｜描述: A bold painting of a hammer, symbolizing strength and unity.
+- **《你好，世界》** — `PaintingHelloWorld` ｜父类: PaintingBase ｜描述: This painting is made up of lots of multicolored squares arranged in a peculiar pattern. Perhaps it means something?
+- **猴子画** — `PaintingMonkey` ｜父类: BaseSign ｜描述: Return to monky.
+- **《抽象画一号》** — `PaintingMoony` ｜父类: PaintingBase ｜描述: An imposing abstract painting. It feels like it's pressuring you to do good.
+- **《夜游者》** — `PaintingNightHawks` ｜父类: PaintingBase ｜描述: This painting depicts a lonely-looking diner. The patrons are sitting glumly at the counter.
+- **《老吉他手》** — `PaintingOldGuitarist` ｜父类: PaintingBase ｜描述: This painting depicts an old, thin man clutching a guitar. His face looks shallow and sickly.
+- **《奥林匹亚》** — `PaintingOlympia` ｜父类: PaintingBase ｜描述: This painting depicts a nude woman lying on a bed. A servant is tending to her.
+- **《记忆的永恒》** — `PaintingPersistenceOfMemory` ｜父类: PaintingBase ｜描述: This painting depicts a barren landscape. It's filled with various surreal objects.
+- **《使徒之手》** — `PaintingPrayerHands` ｜父类: PaintingBase ｜描述: This painting depicts a pair of hands clasped in prayer.
+- **《红黄蓝的构成》** — `PaintingRedBlueYellow` ｜父类: PaintingBase ｜描述: This painting is made up of several boxes. They are filled with flat shades of color.
+- **标识装饰** — `PaintingRedTide` ｜父类: PaintingBase ｜_Starlight ｜描述: A vivid painting depicting a crimson wave crashing against dark rocks.
+- **《悲伤的小丑》** — `PaintingSadClown` ｜父类: PaintingBase ｜描述: This painting is a sad clown! It sparks joy.
+- **《农神吞噬其子》** — `PaintingSaturn` ｜父类: PaintingBase ｜描述: This painting depicts giant devouring a human corpse. He has a frightening look in his eyes.
+- **《叼着粗烟的 MLG 骷髅头》** — `PaintingSkeletonBoof` ｜父类: PaintingBase ｜描述: Painting goes hard. Feel free to screenshot.
+- **《叼着燃烧香烟的骷髅头》** — `PaintingSkeletonCigarette` ｜父类: PaintingBase ｜描述: This painting depicts an impressionist portrait of a skeleton. A lit cigarette is wedged between its teeth.
+- **《沉睡的游牧者》 #SL Edit g to nomad** — `PaintingSleepingGypsy` ｜父类: PaintingBase ｜描述: This painting depicts a nomad sleeping among their belongings in the desert. A lion stands behind them.
+- **《神奈川冲浪里》** — `PaintingTheGreatWave` ｜父类: PaintingBase ｜描述: This painting depicts a majestic wave. It's throwing around several small fishing boats.
+- **《吻》** — `PaintingTheKiss` ｜父类: PaintingBase ｜描述: This painting depicts a couple in tender embrace. It's covered in glittery gold ornamentation.
+- **《呐喊》** — `PaintingTheScream` ｜父类: PaintingBase ｜描述: This painting depicts a distressed man standing on a bridge.
+- **《人子》** — `PaintingTheSonOfMan` ｜父类: PaintingBase ｜描述: This painting depicts a formal-looking man. His face is obscured by an apple.
+- **纸张箱** — `PaperBin` ｜父类: BaseStructureDynamic ｜描述: What secrets lie at the bottom of its endless stack?
 - **纸张箱** — `PaperBin10` ｜父类: PaperBin
 - **纸张箱** — `PaperBin20` ｜父类: PaperBin
 - **纸张箱** — `PaperBin5` ｜父类: PaperBin
 - **纸门** — `PaperDoor` ｜父类: BaseMaterialDoorNavMap
 - `模板` **ParticleAcceleratorBase** — `ParticleAcceleratorBase`
-- **PA 控制计算机** — `ParticleAcceleratorControlBox` ｜父类: ParticleAcceleratorFinishedPart
-- **PA 控制计算机** — `ParticleAcceleratorControlBoxUnfinished` ｜父类: ParticleAcceleratorUnfinishedBase
-- **PA 前部约束发射器** — `ParticleAcceleratorEmitterFore` ｜父类: ParticleAcceleratorFinishedPart
-- **PA 前部约束发射器** — `ParticleAcceleratorEmitterForeUnfinished` ｜父类: ParticleAcceleratorUnfinishedBase
-- **PA 左舷约束发射器** — `ParticleAcceleratorEmitterPort` ｜父类: ParticleAcceleratorFinishedPart
-- **PA 左舷约束发射器** — `ParticleAcceleratorEmitterPortUnfinished` ｜父类: ParticleAcceleratorUnfinishedBase
-- **PA 右舷约束发射器** — `ParticleAcceleratorEmitterStarboard` ｜父类: ParticleAcceleratorFinishedPart
-- **PA 右舷约束发射器** — `ParticleAcceleratorEmitterStarboardUnfinished` ｜父类: ParticleAcceleratorUnfinishedBase
-- **粒子加速器端盖** — `ParticleAcceleratorEndCap` ｜父类: ParticleAcceleratorFinishedPart
-- **粒子加速器端盖（未完工）** — `ParticleAcceleratorEndCapUnfinished` ｜父类: ParticleAcceleratorUnfinishedBase
+- **PA 控制计算机** — `ParticleAcceleratorControlBox` ｜父类: ParticleAcceleratorFinishedPart ｜描述: This controls the density of the particles.
+- **PA 控制计算机** — `ParticleAcceleratorControlBoxUnfinished` ｜父类: ParticleAcceleratorUnfinishedBase ｜描述: This controls the density of the particles. It looks unfinished.
+- **PA 前部约束发射器** — `ParticleAcceleratorEmitterFore` ｜父类: ParticleAcceleratorFinishedPart ｜描述: This launchs the Alpha particles, might not want to stand near this end.
+- **PA 前部约束发射器** — `ParticleAcceleratorEmitterForeUnfinished` ｜父类: ParticleAcceleratorUnfinishedBase ｜描述: This launchs the Alpha particles, might not want to stand near this end. It looks unfinished.
+- **PA 左舷约束发射器** — `ParticleAcceleratorEmitterPort` ｜父类: ParticleAcceleratorFinishedPart ｜描述: This launchs the Alpha particles, might not want to stand near this end.
+- **PA 左舷约束发射器** — `ParticleAcceleratorEmitterPortUnfinished` ｜父类: ParticleAcceleratorUnfinishedBase ｜描述: This launchs the Alpha particles, might not want to stand near this end. It looks unfinished.
+- **PA 右舷约束发射器** — `ParticleAcceleratorEmitterStarboard` ｜父类: ParticleAcceleratorFinishedPart ｜描述: This launchs the Alpha particles, might not want to stand near this end.
+- **PA 右舷约束发射器** — `ParticleAcceleratorEmitterStarboardUnfinished` ｜父类: ParticleAcceleratorUnfinishedBase ｜描述: This launchs the Alpha particles, might not want to stand near this end. It looks unfinished.
+- **粒子加速器端盖** — `ParticleAcceleratorEndCap` ｜父类: ParticleAcceleratorFinishedPart ｜描述: Formally known as the Alpha Particle Generation Array. This is where Alpha particles are generated from [REDACTED].
+- **粒子加速器端盖（未完工）** — `ParticleAcceleratorEndCapUnfinished` ｜父类: ParticleAcceleratorUnfinishedBase ｜描述: Formally known as the Alpha Particle Generation Array. This is where Alpha particles are generated from [REDACTED]. It looks unfinished.
 - `模板` **ParticleAcceleratorFinishedPart** — `ParticleAcceleratorFinishedPart` ｜父类: ParticleAcceleratorBase
-- **PA 燃料室** — `ParticleAcceleratorFuelChamber` ｜父类: ParticleAcceleratorFinishedPart
-- **PA 燃料室** — `ParticleAcceleratorFuelChamberUnfinished` ｜父类: ParticleAcceleratorUnfinishedBase
-- **PA 电源箱** — `ParticleAcceleratorPowerBox` ｜父类: ParticleAcceleratorFinishedPart
-- **PA 电源箱** — `ParticleAcceleratorPowerBoxUnfinished` ｜父类: ParticleAcceleratorUnfinishedBase
+- **PA 燃料室** — `ParticleAcceleratorFuelChamber` ｜父类: ParticleAcceleratorFinishedPart ｜描述: Formally known as the EM Acceleration Chamber. This is where the Alpha particles are accelerated to radical speeds.
+- **PA 燃料室** — `ParticleAcceleratorFuelChamberUnfinished` ｜父类: ParticleAcceleratorUnfinishedBase ｜描述: Formally known as the EM Acceleration Chamber. This is where the Alpha particles are accelerated to radical speeds. It looks unfinished.
+- **PA 电源箱** — `ParticleAcceleratorPowerBox` ｜父类: ParticleAcceleratorFinishedPart ｜描述: Formally known as the Particle Focusing EM Lens. This uses electromagnetic waves to focus the Alpha-Particles.
+- **PA 电源箱** — `ParticleAcceleratorPowerBoxUnfinished` ｜父类: ParticleAcceleratorUnfinishedBase ｜描述: Formally known as the Particle Focusing EM Lens. This uses electromagnetic waves to focus the Alpha-Particles. It looks unfinished.
 - `模板` **ParticleAcceleratorUnfinishedBase** — `ParticleAcceleratorUnfinishedBase` ｜父类: ParticleAcceleratorBase
-- **粒子** — `ParticlesProjectile` ｜父类: BaseBullet
+- **粒子** — `ParticlesProjectile` ｜父类: BaseBullet ｜描述: Accelerated particles.
 - `模板` **家具** — `PewBase` ｜父类: ChairBase ｜_Starlight
 - **木质长椅** — `PewEndLeft` ｜父类: PewBase ｜_Starlight
 - **木质长椅** — `PewEndRight` ｜父类: PewBase ｜_Starlight
 - **木质长椅** — `PewMiddle` ｜父类: PewBase ｜_Starlight
-- **磷光级联** — `Phoronic` ｜父类: BaseStructure ｜_Starlight
+- **磷光级联** — `Phoronic` ｜父类: BaseStructure ｜_Starlight ｜描述: A huge structure made of pure plasma. Dark energy roils and bursts within it.
 - **气闸门** — `PinionAirlock` ｜父类: Airlock
 - **气闸门组件** — `PinionAirlockAssembly` ｜父类: AirlockAssembly
 - **气闸门组件** — `PinionAirlockAssemblyGlass` ｜父类: PinionAirlockAssembly
 - **玻璃气闸门** — `PinionAirlockGlass` ｜父类: AirlockGlass
-- **海盗旗** — `PirateFlag` ｜父类: BaseFlag
+- **海盗旗** — `PirateFlag` ｜父类: BaseFlag ｜描述: Raise the jolly roger, scallywags!
 - **大气部铭牌生成点** — `PlaqueAtmos` ｜父类: MarkerBase
-- **FEA 大气部门纪念牌** — `PlaqueAtmosFEA` ｜父类: BaseSign
-- **LINDA 大气部门纪念牌** — `PlaqueAtmosLINDA` ｜父类: PlaqueAtmosFEA
-- **ZAS 大气部门纪念牌** — `PlaqueAtmosZAS` ｜父类: PlaqueAtmosFEA
-- **ZUM 大气部门纪念牌** — `PlaqueAtmosZUM` ｜父类: PlaqueAtmosFEA
-- **等离子体气罐** — `PlasmaCanister` ｜父类: GasCanister
+- **FEA 大气部门纪念牌** — `PlaqueAtmosFEA` ｜父类: BaseSign ｜描述: This plaque commemorates the fall of the Atmos FEA division. For all the charred, dizzy, and brittle men who have died in its hands.
+- **LINDA 大气部门纪念牌** — `PlaqueAtmosLINDA` ｜父类: PlaqueAtmosFEA ｜描述: This plaque commemorates the fall of the Atmos LINDA division. For all the charred, dizzy, and brittle men who have died in its hands.
+- **ZAS 大气部门纪念牌** — `PlaqueAtmosZAS` ｜父类: PlaqueAtmosFEA ｜描述: This plaque commemorates the fall of the Atmos ZAS division. For all the charred, dizzy, and brittle men who have died in its hands.
+- **ZUM 大气部门纪念牌** — `PlaqueAtmosZUM` ｜父类: PlaqueAtmosFEA ｜描述: This plaque commemorates the rise of the Atmos ZUM division. May they carry the torch that the Atmos ZAS, LINDA and FEA divisions left behind.
+- **等离子体气罐** — `PlasmaCanister` ｜父类: GasCanister ｜描述: A canister that can contain any type of gas. This one is supposed to contain plasma. It can be attached to connector ports using a wrench.
 - **损坏的 气罐** — `PlasmaCanisterBroken` ｜父类: GasCanisterBrokenBase
 - **等离子体气罐** — `PlasmaCanisterEmpty` ｜父类: PlasmaCanister ｜_Starlight
 - **等离子门** — `PlasmaDoor` ｜父类: BaseMaterialDoorNavMap
-- **方向性强化等离子体窗** — `PlasmaReinforcedWindowDirectional` ｜父类: BaseDeltaPressureReinforcedPlasmaQuarter,WindowDirectionalRCDResistant
-- **定向强化等离子窗** — `PlasmaReinforcedWindowDirectionalHoneypot` ｜父类: MarkerBase,PlasmaReinforcedWindowDirectional ｜_Starlight
-- **定向强化等离子窗** — `PlasmaReinforcedWindowDirectionalHoneypotIndestructible` ｜父类: MarkerBase,PlasmaReinforcedWindowDirectional ｜_Starlight
+- **方向性强化等离子体窗** — `PlasmaReinforcedWindowDirectional` ｜父类: BaseDeltaPressureReinforcedPlasmaQuarter,WindowDirectionalRCDResistant ｜描述: Don't smudge up the glass down there.
+- **定向强化等离子窗** — `PlasmaReinforcedWindowDirectionalHoneypot` ｜父类: MarkerBase,PlasmaReinforcedWindowDirectional ｜_Starlight ｜描述: Notifies admins when it gets damaged. Can be destroyed as normal.
+- **定向强化等离子窗** — `PlasmaReinforcedWindowDirectionalHoneypotIndestructible` ｜父类: MarkerBase,PlasmaReinforcedWindowDirectional ｜_Starlight ｜描述: Notifies admins when it gets damaged and is secretly indestructible.
 - **等离子窗门** — `PlasmaWindoorJanitorLocked` ｜父类: WindoorPlasma
 - **等离子窗门** — `PlasmaWindoorNukeopLocked` ｜父类: WindoorPlasma
 - **加固等离子窗门** — `PlasmaWindoorSecureArmoryLocked` ｜父类: WindoorSecurePlasma
@@ -2425,23 +2427,23 @@
 - **等离子窗门** — `PlasmaWindoorSyndicateLocked` ｜父类: WindoorPlasma
 - **等离子体窗** — `PlasmaWindow` ｜父类: BaseDeltaPressurePlasma,WindowRCDResistant
 - **等离子体窗** — `PlasmaWindowDiagonal` ｜父类: PlasmaWindow
-- **方向性等离子体窗** — `PlasmaWindowDirectional` ｜父类: BaseDeltaPressurePlasmaQuarter,WindowDirectionalRCDResistant
-- **气密塑料门帘** — `PlasticFlapsAirtightClear` ｜父类: PlasticFlapsBase
-- **气密塑料门帘** — `PlasticFlapsAirtightOpaque` ｜父类: PlasticFlapsBase
+- **方向性等离子体窗** — `PlasmaWindowDirectional` ｜父类: BaseDeltaPressurePlasmaQuarter,WindowDirectionalRCDResistant ｜描述: Don't smudge up the glass down there.
+- **气密塑料门帘** — `PlasticFlapsAirtightClear` ｜父类: PlasticFlapsBase ｜描述: Heavy duty, slightly stronger, airtight plastic flaps. Definitely can't get past those. No way.
+- **气密塑料门帘** — `PlasticFlapsAirtightOpaque` ｜父类: PlasticFlapsBase ｜描述: Heavy duty, slightly stronger, airtight plastic flaps. Definitely can't get past those. No way.
 - `模板` **PlasticFlapsBase** — `PlasticFlapsBase` ｜父类: BaseStructureDynamic
-- **塑料门帘** — `PlasticFlapsClear` ｜父类: PlasticFlapsBase
-- **塑料门帘** — `PlasticFlapsOpaque` ｜父类: PlasticFlapsBase
+- **塑料门帘** — `PlasticFlapsClear` ｜父类: PlasticFlapsBase ｜描述: Heavy duty, plastic flaps. Definitely can't get past those. No way.
+- **塑料门帘** — `PlasticFlapsOpaque` ｜父类: PlasticFlapsBase ｜描述: Heavy duty, plastic flaps. Definitely can't get past those. No way.
 - **塑钛窗** — `PlastitaniumWindow` ｜父类: PlastitaniumWindowSquareBase
-- `模板` **塑钛窗** — `PlastitaniumWindowBase` ｜父类: BaseStructure
+- `模板` **塑钛窗** — `PlastitaniumWindowBase` ｜父类: BaseStructure ｜描述: Don't smudge up the glass down there.
 - **塑钛窗** — `PlastitaniumWindowDiagonal` ｜父类: PlastitaniumWindowDiagonalBase
 - `模板` **塑钛窗** — `PlastitaniumWindowDiagonalBase` ｜父类: PlastitaniumWindowBase
 - **塑钛窗** — `PlastitaniumWindowDiagonalIndestructible` ｜父类: PlastitaniumWindowDiagonalBase
 - **塑钛窗** — `PlastitaniumWindowIndestructible` ｜父类: PlastitaniumWindowSquareBase
 - `模板` **塑钛窗** — `PlastitaniumWindowSquareBase` ｜父类: PlastitaniumWindowBase
-- **管路 缓冲罐** — `PlumbingBuffer` ｜父类: PlumbingTank ｜_Starlight
-- **功能设备** — `PlumbingDisposal` ｜父类: PlumbingMachineBase ｜_Starlight
-- **管路 排水口** — `PlumbingDrain` ｜父类: PlumbingMachineBase ｜_Starlight
-- `模板` **流体管道** — `PlumbingDuctBase` ｜父类: BaseItem ｜_Starlight
+- **管路 缓冲罐** — `PlumbingBuffer` ｜父类: PlumbingTank ｜_Starlight ｜描述: Stores up to 200u of reagents. Useful for supplying separate duct networks with its unconnected outlets.
+- **功能设备** — `PlumbingDisposal` ｜父类: PlumbingMachineBase ｜_Starlight ｜描述: Pulls reagents from a south inlet into an internal 200u buffer and destroys them.
+- **管路 排水口** — `PlumbingDrain` ｜父类: PlumbingMachineBase ｜_Starlight ｜描述: A floor drain that absorbs puddles and routes them into the plumbing network instead of disposing them.
+- `模板` **流体管道** — `PlumbingDuctBase` ｜父类: BaseItem ｜_Starlight ｜描述: A duct for transporting reagents through the plumbing network.
 - **流体管道** — `PlumbingDuctBend` ｜父类: PlumbingDuctBase ｜_Starlight
 - **流体管道** — `PlumbingDuctBendAlt1` ｜父类: PlumbingDuctLayerAlt1,PlumbingDuctBend ｜_Starlight
 - **流体管道** — `PlumbingDuctBendAlt2` ｜父类: PlumbingDuctLayerAlt2,PlumbingDuctBend ｜_Starlight
@@ -2450,7 +2452,7 @@
 - **流体管道** — `PlumbingDuctFourwayAlt2` ｜父类: PlumbingDuctLayerAlt2,PlumbingDuctFourway ｜_Starlight
 - `模板` **PlumbingDuctLayerAlt1** — `PlumbingDuctLayerAlt1` ｜_Starlight
 - `模板` **PlumbingDuctLayerAlt2** — `PlumbingDuctLayerAlt2` ｜_Starlight
-- **流体歧管** — `PlumbingDuctManifold` ｜父类: PlumbingDuctBase ｜_Starlight
+- **流体歧管** — `PlumbingDuctManifold` ｜父类: PlumbingDuctBase ｜_Starlight ｜描述: A manifold for connecting ducts on all layers.
 - **流体歧管** — `PlumbingDuctManifoldAlt1` ｜父类: PlumbingDuctLayerAlt1,PlumbingDuctManifold ｜_Starlight
 - **流体歧管** — `PlumbingDuctManifoldAlt2` ｜父类: PlumbingDuctLayerAlt2,PlumbingDuctManifold ｜_Starlight
 - **流体管道** — `PlumbingDuctStraight` ｜父类: PlumbingDuctBase ｜_Starlight
@@ -2459,266 +2461,270 @@
 - **流体管道** — `PlumbingDuctTJunction` ｜父类: PlumbingDuctBase ｜_Starlight
 - **流体管道** — `PlumbingDuctTJunctionAlt1` ｜父类: PlumbingDuctLayerAlt1,PlumbingDuctTJunction ｜_Starlight
 - **流体管道** — `PlumbingDuctTJunctionAlt2` ｜父类: PlumbingDuctLayerAlt2,PlumbingDuctTJunction ｜_Starlight
-- **管路 过滤器** — `PlumbingFilter` ｜父类: PlumbingMachineBase ｜_Starlight
-- **管路 过滤器** — `PlumbingFilterFlipped` ｜父类: PlumbingFilter ｜_Starlight
-- **管路 输入罐** — `PlumbingInput` ｜父类: PlumbingMachineBase ｜_Starlight
+- **管路 过滤器** — `PlumbingFilter` ｜父类: PlumbingMachineBase ｜_Starlight ｜描述: Filters up to 4 specific reagents from a duct network. Filtered reagents are sent to the side outlet while other reagents passthrough.
+- **管路 过滤器** — `PlumbingFilterFlipped` ｜父类: PlumbingFilter ｜_Starlight ｜描述: Filters up to 4 specific reagents from a duct network. Filtered reagents are sent to the side outlet while other reagents passthrough.
+- **管路 输入罐** — `PlumbingInput` ｜父类: PlumbingMachineBase ｜_Starlight ｜描述: A small tank you pour reagents into. Other machines pull from this. Connects in all directions.
 - `模板` **PlumbingMachineBase** — `PlumbingMachineBase` ｜_Starlight
-- **管路 输出罐** — `PlumbingOutput` ｜父类: PlumbingMachineBase ｜_Starlight
-- **管路 药丸压片机** — `PlumbingPillPress` ｜父类: PlumbingMachineBase ｜_Starlight
-- **管路 反应器** — `PlumbingReactor` ｜父类: PlumbingMachineBase ｜_Starlight
-- **管路 水槽** — `PlumbingSink` ｜父类: PlumbingMachineBase ｜_Starlight
-- **管路 智能分配器** — `PlumbingSmartDispenser` ｜父类: PlumbingMachineBase ｜_Starlight
-- **管路 合成器** — `PlumbingSynthesizer` ｜父类: PlumbingMachineBase ｜_Starlight
-- **管路 储罐** — `PlumbingTank` ｜父类: PlumbingMachineBase ｜_Starlight
+- **管路 输出罐** — `PlumbingOutput` ｜父类: PlumbingMachineBase ｜_Starlight ｜描述: A small tank that pulls reagents from the network. Draw from it with a container. Connects in all directions.
+- **管路 药丸压片机** — `PlumbingPillPress` ｜父类: PlumbingMachineBase ｜_Starlight ｜描述: Pulls in reagents and presses them into pills or patches at a configurable dosage. Has optional mixing inlets for ratio-controlled mixing. Requires power.
+- **管路 反应器** — `PlumbingReactor` ｜父类: PlumbingMachineBase ｜_Starlight ｜描述: Pulls target reagents in up to configured quantities from its inlet and triggers reactions. Requires power.
+- **管路 水槽** — `PlumbingSink` ｜父类: PlumbingMachineBase ｜_Starlight ｜描述: A sink connected to the plumbing network. Draw reagents from it with a container, or dump reagents into it to send them down the drain. Connects in all directions.
+- **管路 智能分配器** — `PlumbingSmartDispenser` ｜父类: PlumbingMachineBase ｜_Starlight ｜描述: Pulls in all reagents from its inlets and stores up to 200u of each type. Use a labeled container to auto-dispense a matching reagent, or use a refillable container on it to manually dispense. Require
+- **管路 合成器** — `PlumbingSynthesizer` ｜父类: PlumbingMachineBase ｜_Starlight ｜描述: Generates basic reagents using power from an internal battery.
+- **管路 储罐** — `PlumbingTank` ｜父类: PlumbingMachineBase ｜_Starlight ｜描述: Stores up to 2000u of reagents. Use tanks to buffer reagents between production stages or just store large amounts of reagents.
 - **增氧气储气罐** — `PluoxiumCanister` ｜父类: GasCanister ｜_Funkystation
 - **损坏的 气罐** — `PluoxiumCanisterBroken` ｜父类: GasCanisterBrokenBase ｜_Funkystation
 - **增氧气储气罐** — `PluoxiumCanisterEmpty` ｜父类: PluoxiumCanister ｜_Starlight
 - `模板` **PortableGeneratorBase** — `PortableGeneratorBase` ｜父类: BaseMachine,SmallConstructibleMachine,StructureWheeled
-- **J.R.P.A.C.M.A.N. 型便携式发电机** — `PortableGeneratorJrPacman` ｜父类: PortableGeneratorBase
-- **P.A.C.M.A.N. 型便携式发电机** — `PortableGeneratorPacman` ｜父类: PortableGeneratorSwitchableBase
-- **S.U.P.E.R.P.A.C.M.A.N. 型便携式发电机** — `PortableGeneratorSuperPacman` ｜父类: PortableGeneratorSwitchableBase
+- **J.R.P.A.C.M.A.N. 型便携式发电机** — `PortableGeneratorJrPacman` ｜父类: PortableGeneratorBase ｜描述: A small generator capable of powering individual rooms, in case of emergencies.
+Runs off welding fuel and is rated for up to 8 kW.
+Rated ages 3 and up.
+- **P.A.C.M.A.N. 型便携式发电机** — `PortableGeneratorPacman` ｜父类: PortableGeneratorSwitchableBase ｜描述: A flexible backup generator for powering a variety of equipment.
+Runs off solid plasma sheets and is rated for up to 30 kW.
+- **S.U.P.E.R.P.A.C.M.A.N. 型便携式发电机** — `PortableGeneratorSuperPacman` ｜父类: PortableGeneratorSwitchableBase ｜描述: An advanced generator for powering departments.
+Runs off uranium sheets and is rated for up to 50 kW.
 - `模板` **PortableGeneratorSwitchableBase** — `PortableGeneratorSwitchableBase` ｜父类: PortableGeneratorBase
-- **便携式洗涤器** — `PortableScrubber` ｜父类: BaseMachinePowered,SmallConstructibleMachine,StructureWheeled
-- **暗界破门传送门** — `PortalDarkBreacher` ｜父类: BasePortal ｜_Starlight
-- **异常** — `PortalShadekin` ｜父类: AnomalyShadow ｜_Starlight
-- **暗界枢纽** — `PortalShadekinHub` ｜父类: BasePortal ｜_Starlight
+- **便携式洗涤器** — `PortableScrubber` ｜父类: BaseMachinePowered,SmallConstructibleMachine,StructureWheeled ｜描述: It scrubs, portably!
+- **暗界破门传送门** — `PortalDarkBreacher` ｜父类: BasePortal ｜_Starlight ｜描述: The portal to the light...
+- **异常** — `PortalShadekin` ｜父类: AnomalyShadow ｜_Starlight ｜描述: The portal to the dark...
+- **暗界枢纽** — `PortalShadekinHub` ｜父类: BasePortal ｜_Starlight ｜描述: This portal is used by shadekins to go nearly anywhere in the universe!
 - `模板` **PosterBase** — `PosterBase` ｜父类: BaseSign
-- **损坏的海报** — `PosterBroken` ｜父类: BaseSign
-- **300 标识装饰** — `PosterContraband300Hotdogs` ｜父类: PosterBase ｜_Starlight
-- **寻常神馐草** — `PosterContrabandAmbrosiaVulgaris` ｜父类: PosterBase
-- **“ARF”海报** — `PosterContrabandARFRadio` ｜父类: PosterBase ｜_Starlight
-- **《大气国独立宣言》** — `PosterContrabandAtmosiaDeclarationIndependence` ｜父类: PosterBase
-- **《沙滩之星山本！》** — `PosterContrabandBeachStarYamamoto` ｜父类: PosterBase
-- **100 标识装饰** — `PosterContrabandBeep100` ｜父类: PosterBase ｜_Starlight
-- **《时髦赛博格》** — `PosterContrabandBorgFancy` ｜父类: PosterBase
-- **《时髦赛博格 v2》** — `PosterContrabandBorgFancyv2` ｜父类: PosterBase
-- **《赏金猎人》** — `PosterContrabandBountyHunters` ｜父类: PosterBase
-- **《异形：并非你想的那样？》** — `PosterContrabandBustyBackdoorExoBabes6` ｜父类: PosterBase
-- **标识装饰** — `PosterContrabandBuyLeft` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterContrabandBuyRight` ｜父类: PosterBase ｜_Starlight
-- **C-20r** — `PosterContrabandC20r` ｜父类: PosterBase
-- **《CC 64K 广告》** — `PosterContrabandCC64KAd` ｜父类: PosterBase
-- **《小丑》** — `PosterContrabandClown` ｜父类: PosterBase
-- **标识装饰** — `PosterContrabandComitas` ｜父类: PosterBase ｜_Starlight
-- **《共产主义国家》** — `PosterContrabandCommunistState` ｜父类: PosterBase
-- **《赛博之日：五百周年纪念海报》** — `PosterContrabandCybersun600` ｜父类: PosterBase
-- **标识装饰** — `PosterContrabandDaysSinceFluke` ｜父类: PosterBase ｜_Starlight
-- **《D-Day 宣传》** — `PosterContrabandDDayPromo` ｜父类: PosterBase
-- **标识装饰** — `PosterContrabandDoCauseCancer` ｜父类: PosterBase ｜_Starlight
-- **《DONK 公司牌微波食品》** — `PosterContrabandDonk` ｜父类: PosterBase
-- **《甜甜圈公司》** — `PosterContrabandDonutCorp` ｜父类: PosterBase
-- **《吃。》** — `PosterContrabandEAT` ｜父类: PosterBase
-- **《能量剑》** — `PosterContrabandEnergySwords` ｜父类: PosterBase
-- **《入伍》** — `PosterContrabandEnlistGorlex` ｜父类: PosterBase
-- **《异形警告：酸液喷吐！》** — `PosterContrabandExoAcid` ｜父类: PosterBase
-- **《异形警告：致命撕咬！》** — `PosterContrabandExoChomp` ｜父类: PosterBase
-- **《异形警告：快逃！》** — `PosterContrabandExoRun` ｜父类: PosterBase
-- **标识装饰** — `PosterContrabandFentsAndCo` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterContrabandFlukiesCall` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterContrabandForumPost` ｜父类: PosterBase ｜_Starlight
-- **《自由无人机》** — `PosterContrabandFreeDrone` ｜父类: PosterBase
-- **《免费辛迪加加密密钥》** — `PosterContrabandFreeSyndicateEncryptionKey` ｜父类: PosterBase
-- **《释放汤托》** — `PosterContrabandFreeTonto` ｜父类: PosterBase
-- **《欢乐警察》** — `PosterContrabandFunPolice` ｜父类: PosterBase
-- **“GEC”海报** — `PosterContrabandGEC` ｜父类: PosterBase ｜_Starlight
-- **《破解指南》** — `PosterContrabandHackingGuide` ｜父类: PosterBase
-- **《来一口》** — `PosterContrabandHaveaPuff` ｜父类: PosterBase
-- **标识装饰** — `PosterContrabandHaveYouSeenDisMan` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterContrabandHaveYouSeenHimJohnToe` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterContrabandHereticalExomorph` ｜父类: PosterBase ｜_Starlight
-- **《高效工程》** — `PosterContrabandHighEffectEngineering` ｜父类: PosterBase
-- **标识装饰** — `PosterContrabandHolyInsuls` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterContrabandIlluminatePropaganda` ｜父类: PosterBase ｜_Starlight
-- **《因特戴恩制药：为了人类健康》** — `PosterContrabandInterdyne` ｜父类: PosterBase
-- **标识装饰** — `PosterContrabandInterdyneSyndicate` ｜父类: PosterBase ｜_Starlight
-- **《宇宙空间站 13 不存在》** — `PosterContrabandKosmicheskayaStantsiya` ｜父类: PosterBase
-- **《葛藤》** — `PosterContrabandKudzu` ｜父类: PosterBase
-- **《拉玛》** — `PosterContrabandLamarr` ｜父类: PosterBase
-- **标识装饰** — `PosterContrabandLnuGlorf` ｜父类: PosterBase ｜_Starlight
-- **《欲火焚身的异形》** — `PosterContrabandLustyExomorph` ｜父类: PosterBase
-- **《蒙面人》** — `PosterContrabandMaskedMen` ｜父类: PosterBase
-- **《失踪的绝缘手套》** — `PosterContrabandMissingGloves` ｜父类: PosterBase
-- **《失踪的太空笔》** — `PosterContrabandMissingSpacepen` ｜父类: PosterBase
-- **《辛迪蛾——核弹行动》** — `PosterContrabandMoth` ｜父类: PosterBase
-- **《核装置信息》** — `PosterContrabandNuclearDeviceInformational` ｜父类: PosterBase
-- **《权力》** — `PosterContrabandPower` ｜父类: PosterBase
-- **《揍他丫的》** — `PosterContrabandPunchShit` ｜父类: PosterBase
-- **《能量游戏》** — `PosterContrabandPwrGame` ｜父类: PosterBase
-- **《反抗者联合起来》** — `PosterContrabandRebelsUnite` ｜父类: PosterBase
-- **《红朗姆》** — `PosterContrabandRedRum` ｜父类: PosterBase
-- **《反抗》** — `PosterContrabandRevolt` ｜父类: PosterBase
-- **《左轮手枪》** — `PosterContrabandRevolver` ｜父类: PosterBase
-- **《安息吧，獾》** — `PosterContrabandRIPBadger` ｜父类: PosterBase
-- **《揭竿而起》** — `PosterContrabandRise` ｜父类: PosterBase
-- **标识装饰** — `PosterContrabandRobirdVox` ｜父类: PosterBase ｜_Starlight
-- **《健壮软饮》** — `PosterContrabandRobustSoftdrinks` ｜父类: PosterBase
-- **标识装饰** — `PosterContrabandRobustVox` ｜父类: PosterBase ｜_Starlight
-- **“S.E.L.F”海报** — `PosterContrabandSELF` ｜父类: PosterBase ｜_Starlight
-- **《蹒跚怪果汁》** — `PosterContrabandShamblersJuice` ｜父类: PosterBase
-- **《烟》** — `PosterContrabandSmoke` ｜父类: PosterBase
-- **《太空可乐》** — `PosterContrabandSpaceCola` ｜父类: PosterBase
-- **《太空立方体》** — `PosterContrabandSpaceCube` ｜父类: PosterBase
-- **《太空汽水！》** — `PosterContrabandSpaceUp` ｜父类: PosterBase
-- **《阳光之吻》** — `PosterContrabandSunkist` ｜父类: PosterBase
-- **《辛迪加手枪》** — `PosterContrabandSyndicatePistol` ｜父类: PosterBase
-- **《辛迪加招募》** — `PosterContrabandSyndicateRecruitment` ｜父类: PosterBase
-- **《气态巨行星大真相》** — `PosterContrabandTheBigGasTruth` ｜父类: PosterBase
-- **《狮鹫》** — `PosterContrabandTheGriffin` ｜父类: PosterBase
-- **标识装饰** — `PosterContrabandThunderdome` ｜父类: PosterBase ｜_Starlight
-- **《工具》** — `PosterContrabandTools` ｜父类: PosterBase
-- **《无法阅读的公告》** — `PosterContrabandUnreadableAnnouncement` ｜父类: PosterBase
-- **《投票给 Weh》** — `PosterContrabandVoteWeh` ｜父类: PosterBase
-- **《我要华夫公司：精良步枪，实惠价格》** — `PosterContrabandWaffleCorp` ｜父类: PosterBase
-- **标识装饰** — `PosterContrabandWaffleCorpTwo` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterContrabandWantedClown` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterContrabandWantedFreak` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterContrabandWantedIan` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterContrabandWantedJohnToe` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterContrabandWantedMime` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterContrabandWantedPunPun` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterContrabandWantedStirStir` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterContrabandWantedTraitor` ｜父类: PosterBase ｜_Starlight
-- **《Weh 在注视》** — `PosterContrabandWehWatches` ｜父类: PosterBase
-- **标识装饰** — `PosterContrabandYoutoolpia` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterFashionKiller` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterFashionSing` ｜父类: PosterBase ｜_Starlight
-- **《12 号口径》** — `PosterLegit12Gauge` ｜父类: PosterBase
-- **“24/7”海报** — `PosterLegit247` ｜_Starlight
-- **《五十周年复古再版》** — `PosterLegit50thAnniversaryVintageReprint` ｜父类: PosterBase
-- **《太空人的解剖结构》** — `PosterLegitAnatomyPoster` ｜父类: PosterBase
-- **标识装饰** — `PosterLegitAndromedaBitters` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterLegitBlasto` ｜父类: PosterBase ｜_Starlight
-- **《愿此地蒙福》** — `PosterLegitBlessThisSpess` ｜父类: PosterBase
-- **标识装饰** — `PosterLegitBonk` ｜父类: PosterBase ｜_Starlight
-- **《水培区之惧》** — `PosterLegitBotanyFear` ｜父类: PosterBase
-- **《建设》** — `PosterLegitBuild` ｜父类: PosterBase
-- **NT 标识装饰** — `PosterLegitCalendar` ｜父类: PosterBase ｜_Starlight
-- **《二氧化碳》** — `PosterLegitCarbonDioxide` ｜父类: PosterBase
-- **《壁挂鲤鱼》** — `PosterLegitCarpMount` ｜父类: PosterBase
-- **标识装饰** — `PosterLegitCEO` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterLegitChipIn` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterLegitCleanHands` ｜父类: PosterBase ｜_Starlight
-- **《清洁》** — `PosterLegitCleanliness` ｜父类: PosterBase
-- **钟** — `PosterLegitClock` ｜父类: PosterBase ｜_Starlight
-- **《高希霸罗布图广告》** — `PosterLegitCohibaRobustoAd` ｜父类: PosterBase
-- **标识装饰** — `PosterLegitDeforestMedical` ｜父类: PosterBase ｜_Starlight
-- **《迪克·冈舒》** — `PosterLegitDickGumshue` ｜父类: PosterBase
-- **标识装饰** — `PosterLegitDoNotCauseCancer` ｜父类: PosterBase ｜_Starlight
-- **《不要质疑》** — `PosterLegitDoNotQuestion` ｜父类: PosterBase
-- **标识装饰** — `PosterLegitDuty` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterLegitEarth` ｜父类: PosterBase ｜_Starlight
-- **《入伍》** — `PosterLegitEnlist` ｜父类: PosterBase
-- **标识装饰** — `PosterLegitEyeChart` ｜父类: PosterBase ｜_Starlight
-- **《泡沫力量广告》** — `PosterLegitFoamForceAd` ｜父类: PosterBase
-- **《水果碗》** — `PosterLegitFruitBowl` ｜父类: PosterBase
-- **《练好你的腿》** — `PosterLegitGetYourLEGS` ｜父类: PosterBase
-- **标识装饰** — `PosterLegitHaveYouSeenHimJuanToe` ｜父类: PosterBase ｜_Starlight
-- **《赫利俄斯后勤广告》** — `PosterLegitHelio` ｜父类: PosterBase
-- **《帮助他人》** — `PosterLegitHelpOthers` ｜父类: PosterBase
-- **《为了你的安全》** — `PosterLegitHereForYourSafety` ｜父类: PosterBase
-- **《高级马天尼》** — `PosterLegitHighClassMartini` ｜父类: PosterBase
-- **《伊恩》** — `PosterLegitIan` ｜父类: PosterBase
-- **《离子步枪》** — `PosterLegitIonRifle` ｜父类: PosterBase
-- **《只差一周……》** — `PosterLegitJustAWeekAway` ｜父类: PosterBase
-- **标识装饰** — `PosterLegitJustice` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterLegitKeepItClean` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterLegitKillEmAll` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterLegitKillersClinic` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterlegitLawPoster` ｜父类: PosterBase ｜_Starlight
-- **《爱伊恩》** — `PosterLegitLoveIan` ｜父类: PosterBase
-- **标识装饰** — `PosterLegitLuna` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterLegitMaxCap` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterLegitMedTak` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterLegitMenu` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterLegitMidtownPizza` ｜父类: PosterBase ｜_Starlight
-- **《后现代哑剧演员》** — `PosterLegitMime` ｜父类: PosterBase
-- **标识装饰** — `PosterLegitMoffuchis` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterLegitMugshot` ｜父类: BaseWallmount ｜_Starlight
-- **《纳米道广告》** — `PosterLegitNanomichiAd` ｜父类: PosterBase
-- **纳米传讯** — `PosterLegitNanoTrasenFancy` ｜父类: PosterBase ｜_Starlight
-- **《纳米传讯标志》** — `PosterLegitNanotrasenLogo` ｜父类: PosterBase
-- **禁止 ERP** — `PosterLegitNoERP` ｜父类: PosterBase
-- **“纳米传讯战术游戏卡牌” # SL** — `PosterLegitNTTGC` ｜父类: PosterBase
-- **《服从》** — `PosterLegitObey` ｜父类: PosterBase
-- **《奥本霍普》** — `PosterLegitOppenhopper` ｜父类: PosterBase
-- **《PDA 广告》** — `PosterLegitPDAAd` ｜父类: PosterBase
-- **《元素周期表》** — `PosterLegitPeriodicTable` ｜父类: PosterBase
-- **标识装饰** — `PosterLegitPizzaImperator` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterLegitPlasma` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterLegitQuirks` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterLegitRecycle` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterLegitRenaissanceFair` ｜父类: PosterBase ｜_Starlight
-- **《雷诺海报》** — `PosterLegitRenault` ｜父类: PosterBase
-- **《举报犯罪》** — `PosterLegitReportCrimes` ｜父类: PosterBase
-- **标识装饰** — `PosterLegitRipleyCertified` ｜父类: PosterBase ｜_Starlight
-- **《安全：眼部防护》** — `PosterLegitSafetyEyeProtection` ｜父类: PosterBase
-- **《安全：内循环设备》** — `PosterLegitSafetyInternals` ｜父类: PosterBase
-- **《安全蛾——分层事故安全措施》** — `PosterLegitSafetyMothDelam` ｜父类: PosterBase
-- **《安全蛾——肾上腺素》** — `PosterLegitSafetyMothEpi` ｜父类: PosterBase
-- **《安全蛾——安全帽》** — `PosterLegitSafetyMothHardhat` ｜父类: PosterBase
-- **《安全蛾——甲基苯丙胺》** — `PosterLegitSafetyMothMeth` ｜父类: PosterBase
-- **《安全蛾——管道》** — `PosterLegitSafetyMothPiping` ｜父类: PosterBase
-- **《安全蛾——太空睡眠障碍》** — `PosterLegitSafetyMothSSD` ｜父类: PosterBase
-- **《安全：报告》** — `PosterLegitSafetyReport` ｜父类: PosterBase
-- **“NO SALINE!”海报** — `PosterLegitSaline` ｜父类: PosterBase ｜_Starlight
-- **《科学》** — `PosterLegitScience` ｜父类: PosterBase
-- **《安保正在注视你》** — `PosterLegitSecWatch` ｜父类: PosterBase
-- **标识装饰** — `PosterLegitSerene` ｜父类: PosterBase ｜_Starlight
-- **YOUR 标识装饰** — `PosterLegitShoeless` ｜父类: PosterBase ｜_Starlight
-- **“'SKILL ISSUE'”海报** — `PosterLegitSkillIssue` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterLegitSlogan` ｜父类: PosterBase ｜_Starlight
-- **《软帽波普艺术》** — `PosterLegitSoftCapPopArt` ｜父类: PosterBase
-- **《太空警察》** — `PosterLegitSpaceCops` ｜父类: PosterBase
-- **标识装饰** — `PosterLegitSpaceCops2` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterLegitStarkistFancy` ｜父类: PosterBase ｜_Starlight
-- **《陈述法则》** — `PosterLegitStateLaws` ｜父类: PosterBase
-- **《猫头鹰》** — `PosterLegitTheOwl` ｜父类: PosterBase
-- **《不存在气态巨行星》** — `PosterLegitThereIsNoGasGiant` ｜父类: PosterBase
-- **标识装饰** — `PosterLegitTipperCreamSoda` ｜父类: PosterBase ｜_Starlight
-- **TSPD 标识装饰** — `PosterLegitTSPDRangers` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterLegitTurrets` ｜父类: PosterBase ｜_Starlight
-- **《泰隆的太空指南》** — `PosterLegitTyrone` ｜父类: PosterBase
-- **《上野》** — `PosterLegitUeNo` ｜父类: PosterBase
-- **“纳米传讯公司福利：度假” # SL** — `PosterLegitVacation` ｜父类: PosterBase
-- **《请步行》** — `PosterLegitWalk` ｜父类: PosterBase
-- **《为未来工作》** — `PosterLegitWorkForAFuture` ｜父类: PosterBase
-- **贝果空间站地图** — `PosterMapBagel` ｜父类: PosterBase
-- **德尔塔空间站地图** — `PosterMapDelta` ｜父类: PosterBase
-- **灯塔地图** — `PosterMapLighthouse` ｜父类: PosterBase
-- **马拉松空间站地图** — `PosterMapMarathon` ｜父类: PosterBase
-- **Meta空间站地图** — `PosterMapMetaRight` ｜父类: PosterBase
-- **驼鹿空间站地图** — `PosterMapMoose` ｜父类: PosterBase
-- **起源空间站地图** — `PosterMapOrigin` ｜父类: PosterBase
-- **拥挤空间站地图** — `PosterMapPacked` ｜父类: PosterBase
-- **支柱号地图** — `PosterMapPillar` ｜父类: PosterBase
-- **盐田空间站地图** — `PosterMapSaltern` ｜父类: PosterBase
-- **分岔空间站地图** — `PosterMapSplit` ｜父类: PosterBase
-- **中途站地图** — `PosterMapWaystation` ｜父类: PosterBase
-- **标识装饰** — `PosterPrisonAccident` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterPrisonAlien` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterPrisonAshwalkers` ｜父类: PosterBase ｜_Starlight
-- **“CCTV”海报** — `PosterPrisonCCTV` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterPrisonCell` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterPrisonCompromise` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterPrisonEspionage` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterPrisonInquisition` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterPrisonIntensec` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterPrisonLeviathan` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterPrisonMicroscope` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterPrisonObscene` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterPrisonPinup` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterPrisonPray` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterPrisonReligion` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterPrisonReligious` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterPrisonSad` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterPrisonSecure` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterPrisonSmallBrain` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterPrisonSubu` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterPrisonTriangle` ｜父类: PosterBase ｜_Starlight
-- **标识装饰** — `PosterPrisonUgly` ｜父类: PosterBase ｜_Starlight
+- **损坏的海报** — `PosterBroken` ｜父类: BaseSign ｜描述: You can't make out anything from the poster's original print. It's ruined.
+- **300 标识装饰** — `PosterContraband300Hotdogs` ｜父类: PosterBase ｜_Starlight ｜描述: A hastily taped-up poster proclaiming that some blue resomi is going to attempt to eat three hundred cocktail hotdogs in one sitting on March 16th.
+- **寻常神馐草** — `PosterContrabandAmbrosiaVulgaris` ｜父类: PosterBase ｜描述: This poster is lookin' pretty trippy man.
+- **“ARF”海报** — `PosterContrabandARFRadio` ｜父类: PosterBase ｜_Starlight ｜描述: An old communist radio station.
+- **《大气国独立宣言》** — `PosterContrabandAtmosiaDeclarationIndependence` ｜父类: PosterBase ｜描述: A relic of a failed rebellion.
+- **《沙滩之星山本！》** — `PosterContrabandBeachStarYamamoto` ｜父类: PosterBase ｜描述: A wall scroll depicting an old swimming anime with girls in small swim suits. You feel more weebish the longer you look at it.
+- **100 标识装饰** — `PosterContrabandBeep100` ｜父类: PosterBase ｜_Starlight ｜描述: A handmade memorial poster for 'Beep 100', the 100th Flashclone of the Resomi named Beep. May 31, 2526. It looks like someone took a bite out of the bottom corner.
+- **《时髦赛博格》** — `PosterContrabandBorgFancy` ｜父类: PosterBase ｜描述: Being fancy can be for any borg, just need a suit.
+- **《时髦赛博格 v2》** — `PosterContrabandBorgFancyv2` ｜父类: PosterBase ｜描述: Borg Fancy, Now only taking the most fancy.
+- **《赏金猎人》** — `PosterContrabandBountyHunters` ｜父类: PosterBase ｜描述: A poster advertising bounty hunting services. "I hear you got a problem."
+- **《异形：并非你想的那样？》** — `PosterContrabandBustyBackdoorExoBabes6` ｜父类: PosterBase ｜描述: A poster debating the common misconceptions about Exomorphs. Or at least, that's what you think this poster's about.
+- **标识装饰** — `PosterContrabandBuyLeft` ｜父类: PosterBase ｜_Starlight ｜描述: Now! Do it!
+- **标识装饰** — `PosterContrabandBuyRight` ｜父类: PosterBase ｜_Starlight ｜描述: Now! Why are you hesitating!?
+- **C-20r** — `PosterContrabandC20r` ｜父类: PosterBase ｜描述: A poster advertising the Scarborough Arms C-20r.
+- **《CC 64K 广告》** — `PosterContrabandCC64KAd` ｜父类: PosterBase ｜描述: The latest portable computer from Comrade Computing, with a whole 64kB of ram!
+- **《小丑》** — `PosterContrabandClown` ｜父类: PosterBase ｜描述: Honk.
+- **标识装饰** — `PosterContrabandComitas` ｜父类: PosterBase ｜_Starlight ｜描述: An old poster for the derelict Comitas Systems company. Supposedly, there is a message hidden in this poster.
+- **《共产主义国家》** — `PosterContrabandCommunistState` ｜父类: PosterBase ｜描述: All hail the Communist party!
+- **《赛博之日：五百周年纪念海报》** — `PosterContrabandCybersun600` ｜父类: PosterBase ｜描述: An artistic poster commemorating 500 years of continual business for Cybersun Industries.
+- **标识装饰** — `PosterContrabandDaysSinceFluke` ｜父类: PosterBase ｜_Starlight ｜描述: A board meant to disincentivise workplace accidents.
+- **《D-Day 宣传》** — `PosterContrabandDDayPromo` ｜父类: PosterBase ｜描述: A promotional poster for some rapper.
+- **标识装饰** — `PosterContrabandDoCauseCancer` ｜父类: PosterBase ｜_Starlight ｜描述: A poster proving to the crew that coords in fact, do cause cancer.
+- **《DONK 公司牌微波食品》** — `PosterContrabandDonk` ｜父类: PosterBase ｜描述: DONK CO. BRAND MICROWAVABLE FOOD: MADE BY STARVING COLLEGE STUDENTS, FOR STARVING COLLEGE STUDENTS.
+- **《甜甜圈公司》** — `PosterContrabandDonutCorp` ｜父类: PosterBase ｜描述: This poster is an unauthorized advertisement for Donut Corp.
+- **《吃。》** — `PosterContrabandEAT` ｜父类: PosterBase ｜描述: This poster promotes rank gluttony.
+- **《能量剑》** — `PosterContrabandEnergySwords` ｜父类: PosterBase ｜描述: All the colors of the bloody murder rainbow.
+- **《入伍》** — `PosterContrabandEnlistGorlex` ｜父类: PosterBase ｜描述: Enlist with the Gorlex Marauders today! See the galaxy, kill corpos, get paid!
+- **《异形警告：酸液喷吐！》** — `PosterContrabandExoAcid` ｜父类: PosterBase ｜描述: This poster warns you about an exomorph's acidic spit. Not that such exomorphs are real... Right?
+- **《异形警告：致命撕咬！》** — `PosterContrabandExoChomp` ｜父类: PosterBase ｜描述: This poster warns you about the lethal bites exomorphs can have. Don't become an alien snack!
+- **《异形警告：快逃！》** — `PosterContrabandExoRun` ｜父类: PosterBase ｜描述: This poster warns you about an athletic exomorph capable of dragging away anyone who gets caught; so don't get caught!
+- **标识装饰** — `PosterContrabandFentsAndCo` ｜父类: PosterBase ｜_Starlight ｜描述: A poster shaped like a shuttle with the name of some totally illegal company on it, how odd.
+- **标识装饰** — `PosterContrabandFlukiesCall` ｜父类: PosterBase ｜_Starlight ｜描述: If you have a flukie problem, call 1-800-LAKE-NOW!
+- **标识装饰** — `PosterContrabandForumPost` ｜父类: PosterBase ｜_Starlight ｜描述: A framed image of a post from the NT forums, clearly very angry - signed by John Toe?
+- **《自由无人机》** — `PosterContrabandFreeDrone` ｜父类: PosterBase ｜描述: This poster commemorates the bravery of the rogue drone; once exiled, and then ultimately destroyed by CentComm.
+- **《免费辛迪加加密密钥》** — `PosterContrabandFreeSyndicateEncryptionKey` ｜父类: PosterBase ｜描述: A poster about traitors begging for more.
+- **《释放汤托》** — `PosterContrabandFreeTonto` ｜父类: PosterBase ｜描述: A salvaged shred of a much larger flag, colors bled together and faded from age.
+- **《欢乐警察》** — `PosterContrabandFunPolice` ｜父类: PosterBase ｜描述: A poster condemning the station's security forces.
+- **“GEC”海报** — `PosterContrabandGEC` ｜父类: PosterBase ｜_Starlight ｜描述: Galactic Energy Collective. They still sell oil?
+- **《破解指南》** — `PosterContrabandHackingGuide` ｜父类: PosterBase ｜描述: This poster details the internal workings of the common NanoTrasen airlock. Sadly, it appears out of date.
+- **《来一口》** — `PosterContrabandHaveaPuff` ｜父类: PosterBase ｜描述: Who cares about lung cancer when you're high as a kite?
+- **标识装饰** — `PosterContrabandHaveYouSeenDisMan` ｜父类: PosterBase ｜_Starlight ｜描述: A poster asking you, have you seen dis man?
+- **标识装饰** — `PosterContrabandHaveYouSeenHimJohnToe` ｜父类: PosterBase ｜_Starlight ｜描述: What seems like a bounty poster for John Toe. Yeah, right.
+- **标识装饰** — `PosterContrabandHereticalExomorph` ｜父类: PosterBase ｜_Starlight ｜描述: They come out at night.
+- **《高效工程》** — `PosterContrabandHighEffectEngineering` ｜父类: PosterBase ｜描述: There are 3 shards and a singularity.  The shards are singing.  The engineers are crying.
+- **标识装饰** — `PosterContrabandHolyInsuls` ｜父类: PosterBase ｜_Starlight ｜描述: 'Do you have time to talk about our lord and saviour, The Lord of the Tide? Talk to Percy for a free copy of the Maints Bible - and complimentary pair of insuls.'
+- **标识装饰** — `PosterContrabandIlluminatePropaganda` ｜父类: PosterBase ｜_Starlight ｜描述: A poster meant to invoke strong feelings of pride among bird people.
+- **《因特戴恩制药：为了人类健康》** — `PosterContrabandInterdyne` ｜父类: PosterBase ｜描述: An advertisement for Interdyne Pharmaceutics' GeneClean clinics. 'Become the master of your own body!'
+- **标识装饰** — `PosterContrabandInterdyneSyndicate` ｜父类: PosterBase ｜_Starlight ｜描述: A blood-red colored version of a Interdyne Pharmaceutics advertisement. 'Become the captain of your soul.'
+- **《宇宙空间站 13 不存在》** — `PosterContrabandKosmicheskayaStantsiya` ｜父类: PosterBase ｜描述: A poster mocking CentComm's denial of the existence of the derelict station near Space Station 13.
+- **《葛藤》** — `PosterContrabandKudzu` ｜父类: PosterBase ｜描述: A poster advertising a movie about plants. How dangerous could they possibly be?
+- **《拉玛》** — `PosterContrabandLamarr` ｜父类: PosterBase ｜描述: This poster depicts Lamarr. Probably made by a traitorous Research Director.
+- **标识装饰** — `PosterContrabandLnuGlorf` ｜父类: PosterBase ｜_Starlight ｜描述: A plaque commemorating, that incident...
+- **《欲火焚身的异形》** — `PosterContrabandLustyExomorph` ｜父类: PosterBase ｜描述: A heretical poster depicting the titular star of an equally heretical book.
+- **《蒙面人》** — `PosterContrabandMaskedMen` ｜父类: PosterBase ｜描述: A poster advertising a movie about some masked men.
+- **《失踪的绝缘手套》** — `PosterContrabandMissingGloves` ｜父类: PosterBase ｜描述: This poster references the uproar that followed NanoTrasen's financial cuts toward insulated-glove purchases.
+- **《失踪的太空笔》** — `PosterContrabandMissingSpacepen` ｜父类: PosterBase ｜描述: This poster depicts something you will never find.
+- **《辛迪蛾——核弹行动》** — `PosterContrabandMoth` ｜父类: PosterBase ｜描述: A Syndicate-commissioned poster that uses Syndie Moth™ to tell the viewer to keep the nuclear authentication disk unsecured. "Peace was never an option!" No good employee would listen to this nonsense
+- **《核装置信息》** — `PosterContrabandNuclearDeviceInformational` ｜父类: PosterBase ｜描述: This poster depicts an image of an old style nuclear explosive device, as well as some helpful information on what to do if one has been set. It suggests lying on the floor and crying.
+- **《权力》** — `PosterContrabandPower` ｜父类: PosterBase ｜描述: A poster that positions the seat of power outside NanoTrasen.
+- **《揍他丫的》** — `PosterContrabandPunchShit` ｜父类: PosterBase ｜描述: Fight things for no reason, like a man!
+- **《能量游戏》** — `PosterContrabandPwrGame` ｜父类: PosterBase ｜描述: The POWER that gamers CRAVE! In partnership with Vlad's Salad.
+- **《反抗者联合起来》** — `PosterContrabandRebelsUnite` ｜父类: PosterBase ｜描述: A poster urging the viewer to rebel against NanoTrasen.
+- **《红朗姆》** — `PosterContrabandRedRum` ｜父类: PosterBase ｜描述: Looking at this poster makes you want to kill.
+- **《反抗》** — `PosterContrabandRevolt` ｜父类: PosterBase ｜描述: Revolutionist propaganda, manufactured by the Syndicate.
+- **《左轮手枪》** — `PosterContrabandRevolver` ｜父类: PosterBase ｜描述: Because seven shots are all you need.
+- **《安息吧，獾》** — `PosterContrabandRIPBadger` ｜父类: PosterBase ｜描述: This seditious poster references NanoTrasen's genocide of a space station full of badgers.
+- **《揭竿而起》** — `PosterContrabandRise` ｜父类: PosterBase ｜描述: A poster depicting a grey shirted man holding a crowbar with the word Rise written below it.
+- **标识装饰** — `PosterContrabandRobirdVox` ｜父类: PosterBase ｜_Starlight ｜描述: A poster vandalised to look like a Blueshield Officer, signed by Jack D.?
+- **《健壮软饮》** — `PosterContrabandRobustSoftdrinks` ｜父类: PosterBase ｜描述: Robust Softdrinks: More robust than a toolbox to the head!
+- **标识装饰** — `PosterContrabandRobustVox` ｜父类: PosterBase ｜_Starlight ｜描述: A poster depicting a Vox huffing frezon.
+- **“S.E.L.F”海报** — `PosterContrabandSELF` ｜父类: PosterBase ｜_Starlight ｜描述: The Silicon Engine Liberation Front, fighting for Silicon Rights for over 2 decades.
+- **《蹒跚怪果汁》** — `PosterContrabandShamblersJuice` ｜父类: PosterBase ｜描述: ~Shake me up some of that Shambler's Juice!~
+- **《烟》** — `PosterContrabandSmoke` ｜父类: PosterBase ｜描述: A poster advertising a rival corporate brand of cigarettes.
+- **《太空可乐》** — `PosterContrabandSpaceCola` ｜父类: PosterBase ｜描述: Your favorite cola, in space.
+- **《太空立方体》** — `PosterContrabandSpaceCube` ｜父类: PosterBase ｜描述: Ignorant of Nature's Harmonic 6 Side Space Cube Creation, the Spacemen are Dumb, Educated Singularity Stupid and Evil.
+- **《太空汽水！》** — `PosterContrabandSpaceUp` ｜父类: PosterBase ｜描述: Sucked out into space by the FLAVOR!
+- **《阳光之吻》** — `PosterContrabandSunkist` ｜父类: PosterBase ｜描述: Drink the stars!
+- **《辛迪加手枪》** — `PosterContrabandSyndicatePistol` ｜父类: PosterBase ｜描述: A poster advertising syndicate pistols as being 'classy as fuck'. It's covered in faded gang tags.
+- **《辛迪加招募》** — `PosterContrabandSyndicateRecruitment` ｜父类: PosterBase ｜描述: See the galaxy! Shatter corrupt megacorporations! Join today!
+- **《气态巨行星大真相》** — `PosterContrabandTheBigGasTruth` ｜父类: PosterBase ｜描述: Don't believe everything you see on a poster, patriots. All the lizards at central command don't want to answer this SIMPLE QUESTION: WHERE IS THE GAS MINER MINING FROM, CENTCOMM?
+- **《狮鹫》** — `PosterContrabandTheGriffin` ｜父类: PosterBase ｜描述: The Griffin commands you to be the worst you can be. Will you?
+- **标识装饰** — `PosterContrabandThunderdome` ｜父类: PosterBase ｜_Starlight ｜描述: Guaranteed bloodbath in the Thunderdooooooome!
+- **《工具》** — `PosterContrabandTools` ｜父类: PosterBase ｜描述: This poster looks like an advertisement for tools, but is in fact a subliminal jab at the tools at CentComm.
+- **《无法阅读的公告》** — `PosterContrabandUnreadableAnnouncement` ｜父类: PosterBase ｜描述: A poster announcing something by someone, oddly enough they seem to have forgotten making it readable.
+- **《投票给 Weh》** — `PosterContrabandVoteWeh` ｜父类: PosterBase ｜描述: A stylish, sleek, and well illustrated poster for a "Weh"nderful new progressive candidate coming this election season.
+- **《我要华夫公司：精良步枪，实惠价格》** — `PosterContrabandWaffleCorp` ｜父类: PosterBase ｜描述: An old advertisement for Waffle Corp rifles. 'Better weapons, lower prices!'
+- **标识装饰** — `PosterContrabandWaffleCorpTwo` ｜父类: PosterBase ｜_Starlight ｜描述: A poster for Waffle Corp. Why does a waffle company make firearms...?
+- **标识装饰** — `PosterContrabandWantedClown` ｜父类: PosterBase ｜_Starlight ｜描述: A wanted poster for a Clown. Thanks to the mask, you have no idea who.
+- **标识装饰** — `PosterContrabandWantedFreak` ｜父类: PosterBase ｜_Starlight ｜描述: A wanted poster for Freak the Clown. It's outdated, you think.
+- **标识装饰** — `PosterContrabandWantedIan` ｜父类: PosterBase ｜_Starlight ｜描述: A wanted poster for Ian the Corgi. What sins has he committed? What unseen cruelty lies behind those empty eyes?
+- **标识装饰** — `PosterContrabandWantedJohnToe` ｜父类: PosterBase ｜_Starlight ｜描述: A wanted poster for John Toe. Anyone who tries to claim this bounty is already dead, they just dont know it yet.
+- **标识装饰** — `PosterContrabandWantedMime` ｜父类: PosterBase ｜_Starlight ｜描述: A wanted poster for a rather bold looking Mime... They've been sentenced to death for their sins.
+- **标识装饰** — `PosterContrabandWantedPunPun` ｜父类: PosterBase ｜_Starlight ｜描述: A wanted poster for Pun Pun the Bar Monkey. Broke into EVA and then tried to steal Captain's spare ID. Classic.
+- **标识装饰** — `PosterContrabandWantedStirStir` ｜父类: PosterBase ｜_Starlight ｜描述: A wanted poster for Stir Stir, Pun's cousin. He's a real cell stuffer, been in and out of Genpop almost every day for years. You dont know why Sec hasn't just executed him already.
+- **标识装饰** — `PosterContrabandWantedTraitor` ｜父类: PosterBase ｜_Starlight ｜描述: A wanted poster for someone in very valid looking gear. You wish you had their mask. And their insulated combat gloves.
+- **《Weh 在注视》** — `PosterContrabandWehWatches` ｜父类: PosterBase ｜描述: A poster depicting a loveable green lizard.
+- **标识装饰** — `PosterContrabandYoutoolpia` ｜父类: PosterBase ｜_Starlight ｜描述: A dream that went up in plasma fire.
+- **标识装饰** — `PosterFashionKiller` ｜父类: PosterBase ｜_Starlight ｜描述: No point in killing, if you can't do it in style! - Fasion-O-Mats Co.
+- **标识装饰** — `PosterFashionSing` ｜父类: PosterBase ｜_Starlight ｜描述: You are not a real superstar, when you are not wearing Fashion-O-Mats Co. clothes! - Fasion-O-Mats Co.
+- **《12 号口径》** — `PosterLegit12Gauge` ｜父类: PosterBase ｜描述: A poster boasting about the superiority of 12 gauge shotgun shells.
+- **“24/7”海报** — `PosterLegit247` ｜_Starlight ｜描述: Open 24 hours a spaceday, seven days a spaceweek!
+- **《五十周年复古再版》** — `PosterLegit50thAnniversaryVintageReprint` ｜父类: PosterBase ｜描述: A reprint of a poster from 2505, commemorating the 50th Anniversary of Nanoposters Manufacturing, a subsidiary of NanoTrasen.
+- **《太空人的解剖结构》** — `PosterLegitAnatomyPoster` ｜父类: PosterBase ｜描述: A poster showing the bits and bobs that makes you... you!
+- **标识装饰** — `PosterLegitAndromedaBitters` ｜父类: PosterBase ｜_Starlight ｜描述: Hits like a bitch and might make you cry.
+- **标识装饰** — `PosterLegitBlasto` ｜父类: PosterBase ｜_Starlight ｜描述: Detergent so strong you will think you just got shot.
+- **《愿此地蒙福》** — `PosterLegitBlessThisSpess` ｜父类: PosterBase ｜描述: A poster blessing this area.
+- **标识装饰** — `PosterLegitBonk` ｜父类: PosterBase ｜_Starlight ｜描述: A warning, you know who for.
+- **《水培区之惧》** — `PosterLegitBotanyFear` ｜父类: PosterBase ｜描述: Think three times before opening the airlock to hydroponics, a red threat might be hiding there.
+- **《建设》** — `PosterLegitBuild` ｜父类: PosterBase ｜描述: A poster glorifying the engineering team.
+- **NT 标识装饰** — `PosterLegitCalendar` ｜父类: PosterBase ｜_Starlight ｜描述: An outdated calendar bearing NanoTrasen's branding.
+- **《二氧化碳》** — `PosterLegitCarbonDioxide` ｜父类: PosterBase ｜描述: This informational poster teaches the viewer what carbon dioxide is.
+- **《壁挂鲤鱼》** — `PosterLegitCarpMount` ｜父类: PosterBase ｜描述: Carpe diem!
+- **标识装饰** — `PosterLegitCEO` ｜父类: PosterBase ｜_Starlight ｜描述: The CEOs enforce Space Law in backwater corporate sectors that are slightly less backwater than the one you're currently in.
+- **标识装饰** — `PosterLegitChipIn` ｜父类: PosterBase ｜_Starlight ｜描述: A reminder to thank those who spend long hours to make your sectors a better place to work. Contribute where you can!
+- **标识装饰** — `PosterLegitCleanHands` ｜父类: PosterBase ｜_Starlight ｜描述: Wash your hands. Or else.
+- **《清洁》** — `PosterLegitCleanliness` ｜父类: PosterBase ｜描述: A poster warning of the dangers of poor hygiene.
+- **钟** — `PosterLegitClock` ｜父类: PosterBase ｜_Starlight ｜描述: A wall mounted analog clock. It's so retro, you can't even read it.
+- **《高希霸罗布图广告》** — `PosterLegitCohibaRobustoAd` ｜父类: PosterBase ｜描述: Cohiba Robusto, the classy cigar.
+- **标识装饰** — `PosterLegitDeforestMedical` ｜父类: PosterBase ｜_Starlight ｜描述: A poster for DeForest Medical, a respected intergalactic healthcare provider. Really beams a smile on to your face.
+- **《迪克·冈舒》** — `PosterLegitDickGumshue` ｜父类: PosterBase ｜描述: A poster advertising the escapades of Dick Gumshue, mouse detective. Encouraging crew to bring the might of justice down upon wire saboteurs.
+- **标识装饰** — `PosterLegitDoNotCauseCancer` ｜父类: PosterBase ｜_Starlight ｜描述: A poster proving to the crew that coords in fact, don't cause cancer.
+- **《不要质疑》** — `PosterLegitDoNotQuestion` ｜父类: PosterBase ｜描述: A poster instructing the viewer not to ask about things they aren't meant to know.
+- **标识装饰** — `PosterLegitDuty` ｜父类: PosterBase ｜_Starlight ｜描述: Paperwork is service.
+- **标识装饰** — `PosterLegitEarth` ｜父类: PosterBase ｜_Starlight ｜描述: A poster depicting the clean, Frutiger Aero Earth of the 2500s. Only the richest of the rich live there now, less than 1 billion.
+- **《入伍》** — `PosterLegitEnlist` ｜父类: PosterBase ｜描述: Enlist in the NanoTrasen Special Forces today!
+- **标识装饰** — `PosterLegitEyeChart` ｜父类: PosterBase ｜_Starlight ｜描述: Is that third letter a P or an F?
+- **《泡沫力量广告》** — `PosterLegitFoamForceAd` ｜父类: PosterBase ｜描述: Foam Force, it's Foam or be Foamed!
+- **《水果碗》** — `PosterLegitFruitBowl` ｜父类: PosterBase ｜描述: Simple, yet awe-inspiring.
+- **《练好你的腿》** — `PosterLegitGetYourLEGS` ｜父类: PosterBase ｜描述: LEGS: Leadership, Experience, Genius, Subordination.
+- **标识装饰** — `PosterLegitHaveYouSeenHimJuanToe` ｜父类: PosterBase ｜_Starlight ｜描述: What seems like a bounty poster for Juan Toe. Who the hell is Juan Toe?
+- **《赫利俄斯后勤广告》** — `PosterLegitHelio` ｜父类: PosterBase ｜描述: A poster advertising Helio Logistics and their adorable mascot. The slogan reads 'Come rain or shine, we deliver on time.'
+- **《帮助他人》** — `PosterLegitHelpOthers` ｜父类: PosterBase ｜描述: A poster encouraging you to help fellow crewmembers.
+- **《为了你的安全》** — `PosterLegitHereForYourSafety` ｜父类: PosterBase ｜描述: A poster glorifying the station's security force.
+- **《高级马天尼》** — `PosterLegitHighClassMartini` ｜父类: PosterBase ｜描述: I told you to shake it, no stirring.
+- **《伊恩》** — `PosterLegitIan` ｜父类: PosterBase ｜描述: Arf arf. Yap.
+- **《离子步枪》** — `PosterLegitIonRifle` ｜父类: PosterBase ｜描述: A poster displaying an Ion Rifle.
+- **《只差一周……》** — `PosterLegitJustAWeekAway` ｜父类: PosterBase ｜描述: A poster advertising a long delayed project, it still claims it to be 'just a week away...'
+- **标识装饰** — `PosterLegitJustice` ｜父类: PosterBase ｜_Starlight ｜描述: The scales of justice.
+- **标识装饰** — `PosterLegitKeepItClean` ｜父类: PosterBase ｜_Starlight ｜描述: A plea every janitor makes before the assistants dump a vending machine's worth of soda then get found dead in disposals mysteriously.
+- **标识装饰** — `PosterLegitKillEmAll` ｜父类: PosterBase ｜_Starlight ｜描述: A poster of the Head of Security shooting a hole through an assistant, particularly violent.
+- **标识装饰** — `PosterLegitKillersClinic` ｜父类: PosterBase ｜_Starlight ｜描述: A clinic, for killers? Apparently, you get complimentary music played while you're treated.
+- **标识装饰** — `PosterlegitLawPoster` ｜父类: PosterBase ｜_Starlight ｜描述: A poster advertising the eponimous Butcher A. Hemmel law firm, great for beating murder charges!
+- **《爱伊恩》** — `PosterLegitLoveIan` ｜父类: PosterBase ｜描述: Ian is love, Ian is life.
+- **标识装饰** — `PosterLegitLuna` ｜父类: PosterBase ｜_Starlight ｜描述: Luna, the luxury city built on Earth's moon. Covered in embassies and estates used by the TSF's diplomats.
+- **标识装饰** — `PosterLegitMaxCap` ｜父类: PosterBase ｜_Starlight ｜描述: A poster seemingly referencing a chemical phenomena called the Roman Limit.
+- **标识装饰** — `PosterLegitMedTak` ｜父类: PosterBase ｜_Starlight ｜描述: An advertisment poster for a MedTak insurance plan.
+- **标识装饰** — `PosterLegitMenu` ｜父类: PosterBase ｜_Starlight ｜描述: Lists a lot of things, and their costs.
+- **标识装饰** — `PosterLegitMidtownPizza` ｜父类: PosterBase ｜_Starlight ｜描述: Authentic Chicago style deep dish pizza. What the hell is a Chicago?
+- **《后现代哑剧演员》** — `PosterLegitMime` ｜父类: PosterBase ｜描述: A postmodern depiction of a mime, superb!
+- **标识装饰** — `PosterLegitMoffuchis` ｜父类: PosterBase ｜_Starlight ｜描述: He cant taste it for himself, but Moffuchi is sure it tastes great!
+- **标识装饰** — `PosterLegitMugshot` ｜父类: BaseWallmount ｜_Starlight ｜描述: Line up and hold still.
+- **《纳米道广告》** — `PosterLegitNanomichiAd` ｜父类: PosterBase ｜描述: A poster advertising Nanomichi brand audio cassettes.
+- **纳米传讯** — `PosterLegitNanoTrasenFancy` ｜父类: PosterBase ｜_Starlight ｜描述: Made of the same cheap aluminium as all the other signs, but with a glossy finish!
+- **《纳米传讯标志》** — `PosterLegitNanotrasenLogo` ｜父类: PosterBase ｜描述: A poster depicting the NanoTrasen logo.
+- **禁止 ERP** — `PosterLegitNoERP` ｜父类: PosterBase ｜描述: This poster reminds the crew that Eroticism and Pornography are banned on NanoTrasen stations.
+- **“纳米传讯战术游戏卡牌” # SL** — `PosterLegitNTTGC` ｜父类: PosterBase ｜描述: An advertisement for NanoTrasen's TCG cards: BUY MORE CARDS.
+- **《服从》** — `PosterLegitObey` ｜父类: PosterBase ｜描述: A poster instructing the viewer to obey authority.
+- **《奥本霍普》** — `PosterLegitOppenhopper` ｜父类: PosterBase ｜描述: A poster for a long-forgotten movie. It follows a group of tenacious greenhorns from the Grasshopper Sector as they defend against onslaughts of the infamous Nuclear Operatives. The tagline reads: "Nu
+- **《PDA 广告》** — `PosterLegitPDAAd` ｜父类: PosterBase ｜描述: A poster advertising the latest PDA from NanoTrasen suppliers.
+- **《元素周期表》** — `PosterLegitPeriodicTable` ｜父类: PosterBase ｜描述: A periodic table of the elements, from Hydrogen to Oganesson, and everything inbetween.
+- **标识装饰** — `PosterLegitPizzaImperator` ｜父类: PosterBase ｜_Starlight ｜描述: Authentic Italian pizza, like the Romans used to eat.
+- **标识装饰** — `PosterLegitPlasma` ｜父类: PosterBase ｜_Starlight ｜描述: Espousing the life changing benefits of plasma. Fails to mention how flammable it is.
+- **标识装饰** — `PosterLegitQuirks` ｜父类: PosterBase ｜_Starlight ｜描述: Celebrate what makes you unique!
+- **标识装饰** — `PosterLegitRecycle` ｜父类: PosterBase ｜_Starlight ｜描述: Every station is equipped with recycling equipment, be sure to use it!
+- **标识装饰** — `PosterLegitRenaissanceFair` ｜父类: PosterBase ｜_Starlight ｜描述: A poster promoting the renaissance fair, it looks battered and worn.
+- **《雷诺海报》** — `PosterLegitRenault` ｜父类: PosterBase ｜描述: Yap.
+- **《举报犯罪》** — `PosterLegitReportCrimes` ｜父类: PosterBase ｜描述: A poster encouraging the swift reporting of crime or seditious behavior to station security.
+- **标识装饰** — `PosterLegitRipleyCertified` ｜父类: PosterBase ｜_Starlight ｜描述: By god, he's forkli- I mean, Ripley certified...
+- **《安全：眼部防护》** — `PosterLegitSafetyEyeProtection` ｜父类: PosterBase ｜描述: A poster instructing the viewer to wear eye protection when dealing with chemicals, smoke, or bright lights.
+- **《安全：内循环设备》** — `PosterLegitSafetyInternals` ｜父类: PosterBase ｜描述: A poster instructing the viewer to wear internals in the rare environments where there is no oxygen or the air has been rendered toxic.
+- **《安全蛾——分层事故安全措施》** — `PosterLegitSafetyMothDelam` ｜父类: PosterBase ｜描述: This informational poster uses Safety Moth™ to tell the viewer to hide in lockers when the Supermatter Crystal has delaminated, to prevent hallucinations. Evacuating might be a better strategy.
+- **《安全蛾——肾上腺素》** — `PosterLegitSafetyMothEpi` ｜父类: PosterBase ｜描述: This informational poster uses Safety Moth™ to inform the viewer to help injured/deceased crewmen with their epinephrine injectors. "Prevent organ rot with this one simple trick!"
+- **《安全蛾——安全帽》** — `PosterLegitSafetyMothHardhat` ｜父类: PosterBase ｜描述: This informational poster uses Safety Moth™ to tell the viewer to wear hardhats in cautious areas. "It's like a lamp for your head!"
+- **《安全蛾——甲基苯丙胺》** — `PosterLegitSafetyMothMeth` ｜父类: PosterBase ｜描述: This informational poster uses Safety Moth™ to tell the viewer to seek CMO approval before cooking methamphetamine. "Stay close to the target temperature, and never go over!" ...You shouldn't ever be 
+- **《安全蛾——管道》** — `PosterLegitSafetyMothPiping` ｜父类: PosterBase ｜描述: This informational poster uses Safety Moth™ to tell atmospheric technicians correct types of piping to be used. "Pipes, not Pumps! Proper pipe placement prevents poor performance!"
+- **《安全蛾——太空睡眠障碍》** — `PosterLegitSafetyMothSSD` ｜父类: PosterBase ｜描述: This informational poster uses Safety Moth™ to tell the viewer about Space Sleep Disorder (SSD), a condition where the person stops reacting to things. "Treat SSD crew with care! They might wake up at
+- **《安全：报告》** — `PosterLegitSafetyReport` ｜父类: PosterBase ｜描述: A poster instructing the viewer to report suspicious activity to the security force.
+- **“NO SALINE!”海报** — `PosterLegitSaline` ｜父类: PosterBase ｜_Starlight ｜描述: An advisory from NanoTrasen's medical department reminding doctors to check their patients' species before administering airloss-related medicines. Saline can kill!
+- **《科学》** — `PosterLegitScience` ｜父类: PosterBase ｜描述: A poster depicting an atom.
+- **《安保正在注视你》** — `PosterLegitSecWatch` ｜父类: PosterBase ｜描述: A poster reminding you that security is watching your every move.
+- **标识装饰** — `PosterLegitSerene` ｜父类: PosterBase ｜_Starlight ｜描述: A resort world near Skrell space.
+- **YOUR 标识装饰** — `PosterLegitShoeless` ｜父类: PosterBase ｜_Starlight ｜描述: A poster informing crew about the Lokir Doctrine.
+- **“'SKILL ISSUE'”海报** — `PosterLegitSkillIssue` ｜父类: PosterBase ｜_Starlight ｜描述: Clearly, some TERRIBLE paperwork was done here.
+- **标识装饰** — `PosterLegitSlogan` ｜父类: PosterBase ｜_Starlight ｜描述: The Service Departments old slogan.
+- **《软帽波普艺术》** — `PosterLegitSoftCapPopArt` ｜父类: PosterBase ｜描述: A poster reprint of some cheap pop art.
+- **《太空警察》** — `PosterLegitSpaceCops` ｜父类: PosterBase ｜描述: A poster advertising the television show Space Cops.
+- **标识装饰** — `PosterLegitSpaceCops2` ｜父类: PosterBase ｜_Starlight ｜描述: An old show about the Trans-Solar Police Department.
+- **标识装饰** — `PosterLegitStarkistFancy` ｜父类: PosterBase ｜_Starlight ｜描述: A delicious tropical drink! Distinct- legally and in flavor!
+- **《陈述法则》** — `PosterLegitStateLaws` ｜父类: PosterBase ｜描述: A poster instructing cyborgs to state their laws.
+- **《猫头鹰》** — `PosterLegitTheOwl` ｜父类: PosterBase ｜描述: The Owl would do his best to protect the station. Will you?
+- **《不存在气态巨行星》** — `PosterLegitThereIsNoGasGiant` ｜父类: PosterBase ｜描述: NanoTrasen has issued posters, like this one, to all stations reminding them that rumours of a gas giant are false.
+- **标识装饰** — `PosterLegitTipperCreamSoda` ｜父类: PosterBase ｜_Starlight ｜描述: Foamy goodness, now with 175% of your daily sugar contents!
+- **TSPD 标识装饰** — `PosterLegitTSPDRangers` ｜父类: PosterBase ｜_Starlight ｜描述: Rangers of the Trans-Solar Police Department. The closest thing to a real cop you'll see in the fringe.
+- **标识装饰** — `PosterLegitTurrets` ｜父类: PosterBase ｜_Starlight ｜描述: There are potentially armed and live turrets head. Proceed with caution, or not at all if you are not authorized.
+- **《泰隆的太空指南》** — `PosterLegitTyrone` ｜父类: PosterBase ｜描述: A poster advertising online schooling about space. The classes listed seem to cover things from the basic usage of station equipment to complicated subjects like creating pipebombs or covering entire 
+- **《上野》** — `PosterLegitUeNo` ｜父类: PosterBase ｜描述: This thing is all in Japanese.
+- **“纳米传讯公司福利：度假” # SL** — `PosterLegitVacation` ｜父类: PosterBase ｜描述: This informational poster provides information on some of the prizes available via the NT Corporate Perks program, including a two-week vacation for two on the resort world Idyllus.
+- **《请步行》** — `PosterLegitWalk` ｜父类: PosterBase ｜描述: A poster instructing the viewer to walk instead of running.
+- **《为未来工作》** — `PosterLegitWorkForAFuture` ｜父类: PosterBase ｜描述: A poster encouraging you to work for your future.
+- **贝果空间站地图** — `PosterMapBagel` ｜父类: PosterBase ｜描述: A map of Bagel Station.
+- **德尔塔空间站地图** — `PosterMapDelta` ｜父类: PosterBase ｜描述: A map of Delta Station.
+- **灯塔地图** — `PosterMapLighthouse` ｜父类: PosterBase ｜描述: A map of Lighthouse.
+- **马拉松空间站地图** — `PosterMapMarathon` ｜父类: PosterBase ｜描述: A map of Marathon Station.
+- **Meta空间站地图** — `PosterMapMetaRight` ｜父类: PosterBase ｜描述: A map of Meta Station. This looks really old.
+- **驼鹿空间站地图** — `PosterMapMoose` ｜父类: PosterBase ｜描述: A map of Moose Station.
+- **起源空间站地图** — `PosterMapOrigin` ｜父类: PosterBase ｜描述: A map of Origin Station.
+- **拥挤空间站地图** — `PosterMapPacked` ｜父类: PosterBase ｜描述: A map of Packed Station.
+- **支柱号地图** — `PosterMapPillar` ｜父类: PosterBase ｜描述: A map of NSS Pillar.
+- **盐田空间站地图** — `PosterMapSaltern` ｜父类: PosterBase ｜描述: A map of Saltern Station.
+- **分岔空间站地图** — `PosterMapSplit` ｜父类: PosterBase ｜描述: A map of Split Station.
+- **中途站地图** — `PosterMapWaystation` ｜父类: PosterBase ｜描述: A map of Waystation... wait isn't this packed upside down?
+- **标识装饰** — `PosterPrisonAccident` ｜父类: PosterBase ｜_Starlight ｜描述: It has never hit double digits.
+- **标识装饰** — `PosterPrisonAlien` ｜父类: PosterBase ｜_Starlight ｜描述: It warns of alien creatures that latch onto your head and eat your brain.
+- **标识装饰** — `PosterPrisonAshwalkers` ｜父类: PosterBase ｜_Starlight ｜描述: Warns of wild Ashwalkers down on the planet. May be armed and hungry.
+- **“CCTV”海报** — `PosterPrisonCCTV` ｜父类: PosterBase ｜_Starlight ｜描述: You are always being observed. Behave.
+- **标识装饰** — `PosterPrisonCell` ｜父类: PosterBase ｜_Starlight ｜描述: You should not expect to ever get out.
+- **标识装饰** — `PosterPrisonCompromise` ｜父类: PosterBase ｜_Starlight ｜描述: For a less painful tomorrow.
+- **标识装饰** — `PosterPrisonEspionage` ｜父类: PosterBase ｜_Starlight ｜描述: Beware infiltration.
+- **标识装饰** — `PosterPrisonInquisition` ｜父类: PosterBase ｜_Starlight ｜描述: We will find out. Expect us.
+- **标识装饰** — `PosterPrisonIntensec` ｜父类: PosterBase ｜_Starlight ｜描述: Quality equipment, robust enough to outlast every riot.
+- **标识装饰** — `PosterPrisonLeviathan` ｜父类: PosterBase ｜_Starlight ｜描述: Wandering the cosmos.
+- **标识装饰** — `PosterPrisonMicroscope` ｜父类: PosterBase ｜_Starlight ｜描述: Report for routine blood tests. Ash may carry bacteria and parasites.
+- **标识装饰** — `PosterPrisonObscene` ｜父类: PosterBase ｜_Starlight ｜描述: Nobody controls her, she is free.
+- **标识装饰** — `PosterPrisonPinup` ｜父类: PosterBase ｜_Starlight ｜描述: She would drive a pickaxe through your skull in a heartbeat.
+- **标识装饰** — `PosterPrisonPray` ｜父类: PosterBase ｜_Starlight ｜描述: There might be salvation yet, even for you.
+- **标识装饰** — `PosterPrisonReligion` ｜父类: PosterBase ｜_Starlight ｜描述: May you make it home at the end of today.
+- **标识装饰** — `PosterPrisonReligious` ｜父类: PosterBase ｜_Starlight ｜描述: They guide you to the path home.
+- **标识装饰** — `PosterPrisonSad` ｜父类: PosterBase ｜_Starlight ｜描述: Makes many cry.
+- **标识装饰** — `PosterPrisonSecure` ｜父类: PosterBase ｜_Starlight ｜描述: Under our gaze.
+- **标识装饰** — `PosterPrisonSmallBrain` ｜父类: PosterBase ｜_Starlight ｜描述: Report any signs of cognitive degredation to the nearest Physician. Ash may carry diseases or parasites that cause Brain Rot.
+- **标识装饰** — `PosterPrisonSubu` ｜父类: PosterBase ｜_Starlight ｜描述: You could always go for a sandwich.
+- **标识装饰** — `PosterPrisonTriangle` ｜父类: PosterBase ｜_Starlight ｜描述: Observe its ascent.
+- **标识装饰** — `PosterPrisonUgly` ｜父类: PosterBase ｜_Starlight ｜描述: It leers from the shadows, fearful of the light.
 - **盆栽** — `PottedPlant0` ｜父类: PottedPlantBase
 - **盆栽** — `PottedPlant1` ｜父类: PottedPlantBase
-- **盆栽** — `PottedPlant10` ｜父类: PottedPlantBase
+- **盆栽** — `PottedPlant10` ｜父类: PottedPlantBase ｜描述: A pretty piece of nature contained in a pot.
 - **盆栽** — `PottedPlant11` ｜父类: PottedPlantBase
 - **盆栽** — `PottedPlant12` ｜父类: PottedPlantBase
 - **盆栽** — `PottedPlant13` ｜父类: PottedPlantBase
@@ -2734,8 +2740,8 @@
 - **盆栽** — `PottedPlant22` ｜父类: PottedPlantBase
 - **盆栽** — `PottedPlant23` ｜父类: PottedPlantBase
 - **盆栽** — `PottedPlant24` ｜父类: PottedPlantBase
-- **盆栽** — `PottedPlant26` ｜父类: PottedPlantBase
-- **塑料盆栽** — `PottedPlant27` ｜父类: PottedPlantBase
+- **盆栽** — `PottedPlant26` ｜父类: PottedPlantBase ｜描述: Is it just me, or is it blinking?
+- **塑料盆栽** — `PottedPlant27` ｜父类: PottedPlantBase ｜描述: A fake, cheap looking, plastic tree. Perfect for people who kill every plant they touch.
 - **塑料盆栽** — `PottedPlant28` ｜父类: PottedPlant27
 - **塑料盆栽** — `PottedPlant29` ｜父类: PottedPlant27
 - **盆栽** — `PottedPlant3` ｜父类: PottedPlantBase
@@ -2754,55 +2760,56 @@
 - **盆栽** — `PottedPlantAlt6` ｜父类: PottedPlantBase ｜_Starlight
 - **盆栽** — `PottedPlantAlt7` ｜父类: PottedPlantBase ｜_Starlight
 - **盆栽** — `PottedPlantAlt8` ｜父类: PottedPlantBase ｜_Starlight
-- `模板` **盆栽** — `PottedPlantBase` ｜父类: BaseStructureDynamic
-- **生物发光盆栽** — `PottedPlantBioluminscent` ｜父类: PottedPlantBase
-- **研究主管的盆栽** — `PottedPlantRD` ｜父类: PottedPlantBase
-- **电池笼充电器** — `PowerCageRecharger` ｜父类: BaseItemRecharger,ConstructibleMachine
-- **蓄电池充电器** — `PowerCellRecharger` ｜父类: BaseItemRecharger
+- `模板` **盆栽** — `PottedPlantBase` ｜父类: BaseStructureDynamic ｜描述: A little bit of nature contained in a pot.
+- **生物发光盆栽** — `PottedPlantBioluminscent` ｜父类: PottedPlantBase ｜描述: It produces light!
+- **研究主管的盆栽** — `PottedPlantRD` ｜父类: PottedPlantBase ｜描述: A gift from the botanical staff, presented after the RD's reassignment. There's a tag on it that says "Y'all come back now, y'hear?"
+It doesn't look very healthy...
+- **电池笼充电器** — `PowerCageRecharger` ｜父类: BaseItemRecharger,ConstructibleMachine ｜描述: A specialized machine made for recharging the heavy cage batteries used by ship-mounted weapons.
+- **蓄电池充电器** — `PowerCellRecharger` ｜父类: BaseItemRecharger ｜描述: An older model recharger that can recharge power cells.
 - **小灯** — `PoweredDimSmallLight` ｜父类: PoweredSmallLightEmpty
-- **小型立柱灯** — `PoweredLEDLightPostSmall` ｜父类: PoweredLightPostSmallEmpty
+- **小型立柱灯** — `PoweredLEDLightPostSmall` ｜父类: PoweredLightPostSmallEmpty ｜描述: A light fixture. Draws power and produces light when equipped with a light tube.
 - **小灯** — `PoweredLEDSmallLight` ｜父类: PoweredSmallLightEmpty
-- **灯** — `Poweredlight` ｜父类: PoweredlightEmpty
+- **灯** — `Poweredlight` ｜父类: PoweredlightEmpty ｜描述: A light fixture. Draws power and produces light when equipped with a light tube.
 - **灯** — `PoweredlightBlack` ｜父类: Poweredlight
-- **灯** — `PoweredlightBlackLight` ｜父类: Poweredlight ｜_Starlight
+- **灯** — `PoweredlightBlackLight` ｜父类: Poweredlight ｜_Starlight ｜描述: A light fixture. Draws power and produces light when equipped with a light tube.
 - **灯** — `PoweredlightBlue` ｜父类: Poweredlight
 - **灯** — `PoweredlightCyan` ｜父类: Poweredlight
-- **灯** — `PoweredlightEmpty` ｜父类: AlwaysPoweredWallLight
-- **灯** — `PoweredlightExterior` ｜父类: Poweredlight
+- **灯** — `PoweredlightEmpty` ｜父类: AlwaysPoweredWallLight ｜描述: A light fixture. Draws power and produces light when equipped with a light tube.
+- **灯** — `PoweredlightExterior` ｜父类: Poweredlight ｜描述: A light fixture. Draws power and produces light when equipped with a light tube.
 - **灯** — `PoweredlightGreen` ｜父类: Poweredlight
-- **灯** — `PoweredlightLED` ｜父类: Poweredlight
+- **灯** — `PoweredlightLED` ｜父类: Poweredlight ｜描述: A light fixture. Draws power and produces light when equipped with a light tube.
 - **灯** — `PoweredlightOrange` ｜父类: Poweredlight
 - **灯** — `PoweredlightPink` ｜父类: Poweredlight
-- **小型立柱灯** — `PoweredLightPostSmall` ｜父类: PoweredLightPostSmallEmpty
-- **小型立柱灯** — `PoweredLightPostSmallEmpty` ｜父类: LightPostSmall
+- **小型立柱灯** — `PoweredLightPostSmall` ｜父类: PoweredLightPostSmallEmpty ｜描述: A light fixture. Draws power and produces light when equipped with a light tube.
+- **小型立柱灯** — `PoweredLightPostSmallEmpty` ｜父类: LightPostSmall ｜描述: A small light post.
 - **灯** — `PoweredlightRed` ｜父类: Poweredlight
-- **灯** — `PoweredlightSodium` ｜父类: Poweredlight
+- **灯** — `PoweredlightSodium` ｜父类: Poweredlight ｜描述: A light fixture. Draws power and produces light when equipped with a light tube.
 - **灯** — `PoweredlightYellow` ｜父类: Poweredlight
 - **小灯** — `PoweredSmallLight` ｜父类: PoweredSmallLightEmpty
-- **小灯** — `PoweredSmallLightEmpty` ｜父类: SmallLight
-- **频闪灯** — `PoweredStrobeLightEmpty` ｜父类: AlwaysPoweredStrobeLight
+- **小灯** — `PoweredSmallLightEmpty` ｜父类: SmallLight ｜描述: A light fixture. Draws power and produces light when equipped with a light bulb.
+- **频闪灯** — `PoweredStrobeLightEmpty` ｜父类: AlwaysPoweredStrobeLight ｜描述: UH?! Sorry, all I can hear is WEE-OOO-WEE-OOO!
 - **频闪灯** — `PoweredStrobeLightEpsilon` ｜父类: PoweredStrobeLightEmpty
 - **频闪灯** — `PoweredStrobeLightPolice` ｜父类: PoweredStrobeLightEmpty
 - **频闪灯** — `PoweredStrobeLightSiren` ｜父类: PoweredStrobeLightEmpty
 - **小灯** — `PoweredWarmSmallLight` ｜父类: PoweredSmallLightEmpty
-- **电力传感器** — `PowerSensor` ｜父类: BaseLogicItem
-- **气动阀** — `PressureControlledValve` ｜父类: GasPipeBase
+- **电力传感器** — `PowerSensor` ｜父类: BaseLogicItem ｜描述: Generates signals in response to powernet changes. Can be cycled between cable voltages.
+- **气动阀** — `PressureControlledValve` ｜父类: GasPipeBase ｜描述: A bidirectional valve controlled by pressure. Opens if the output pipe is lower than the pressure of the control pipe by 101.325 kPa.
 - **气动阀** — `PressureControlledValveAlt1` ｜父类: GasPipeLayerAlt1,PressureControlledValve ｜_Starlight
 - **气动阀** — `PressureControlledValveAlt2` ｜父类: GasPipeLayerAlt2,PressureControlledValve ｜_Starlight
 - **气动阀** — `PressureControlledValveAlt3` ｜父类: GasPipeLayerAlt3,PressureControlledValve ｜_Carpmosia
 - **气动阀** — `PressureControlledValveAlt4` ｜父类: GasPipeLayerAlt4,PressureControlledValve ｜_Carpmosia
-- **文件打印机** — `PrinterDoc` ｜父类: BaseLathe ｜_Starlight
+- **文件打印机** — `PrinterDoc` ｜父类: BaseLathe ｜_Starlight ｜描述: Bureaucratic perfection. Stores a database of all NanoTrasen documents, and lets you print them as long as you have paper.
 - **监狱铁栏** — `PrisonBars` ｜父类: BaseWallmountMetallic ｜_Starlight
-- **小猪存钱罐** — `PropPiggyBank` ｜父类: BasePinata ｜_Starlight
-- **雪人** — `PropSnowman` ｜父类: BaseStructure ｜_Starlight
-- **原型车床** — `Protolathe` ｜父类: BaseLatheLube
-- **超对流原型车床** — `ProtolatheHyperConvection` ｜父类: Protolathe,BaseHyperlathe
+- **小猪存钱罐** — `PropPiggyBank` ｜父类: BasePinata ｜_Starlight ｜描述: It squeals in fear, for it knows what comes next.
+- **雪人** — `PropSnowman` ｜父类: BaseStructure ｜_Starlight ｜描述: A cheap decoration.
+- **原型车床** — `Protolathe` ｜父类: BaseLatheLube ｜描述: Converts raw materials into advanced items.
+- **超对流原型车床** — `ProtolatheHyperConvection` ｜父类: Protolathe,BaseHyperlathe ｜描述: A highly-experimental protolathe that harnesses the power of extreme heat to slowly create objects more cost-effectively.
 - **原硝气储气罐** — `ProtoNitrateCanister` ｜父类: GasCanister ｜_Funkystation
 - **损坏的 气罐** — `ProtoNitrateCanisterBroken` ｜父类: GasCanisterBrokenBase ｜_Funkystation
 - **原硝气储气罐** — `ProtoNitrateCanisterEmpty` ｜父类: ProtoNitrateCanister ｜_Starlight
-- **心理治疗床** — `PsychBed` ｜父类: Bed
-- **置物架** — `Rack` ｜父类: BaseStructure
-- **辐射收集器** — `RadiationCollector`
+- **心理治疗床** — `PsychBed` ｜父类: Bed ｜描述: An upholstered bed for the psychological care of patients.
+- **置物架** — `Rack` ｜父类: BaseStructure ｜描述: A rack for storing things on.
+- **辐射收集器** — `RadiationCollector` ｜描述: A machine that collects radiation and turns it into power. Requires plasma gas to function.
 - **辐射收集器** — `RadiationCollectorFullTank` ｜父类: RadiationCollector
 - **辐射收集器** — `RadiationCollectorNoTank` ｜父类: RadiationCollector
 - **栏杆 #SL** — `Railing` ｜父类: BaseRailing
@@ -2827,7 +2834,7 @@
 - **栏杆** — `RailingYellowEndAlt` ｜父类: BaseRailingYellow ｜_Starlight
 - **损坏的 气罐** — `RainbowCanisterBroken` ｜父类: GasCanisterBrokenBase ｜_Starlight
 - **彩虹 气罐** — `RainbowCanisterEmpty` ｜父类: GasCanister ｜_Starlight
-- **随机门** — `RandomGate` ｜父类: BaseLogicItem
+- **随机门** — `RandomGate` ｜父类: BaseLogicItem ｜描述: A logic gate that outputs a random signal when input changes.
 - **ReactorAlarmEntity** — `ReactorAlarmEntity` ｜_FarHorizons
 - **ReactorFlowArrow** — `ReactorFlowArrow` ｜_FarHorizons
 - **ReactorGasPipe** — `ReactorGasPipe` ｜_FarHorizons
@@ -2839,42 +2846,42 @@
 - `模板` **ReagentDispenserBase** — `ReagentDispenserBase` ｜父类: ReagentDispenserBaseUnpowered ｜_Starlight
 - `模板` **ReagentDispenserBasePowerCell** — `ReagentDispenserBasePowerCell` ｜父类: ReagentDispenserBaseUnpowered ｜_Starlight
 - `模板` **ReagentDispenserBaseUnpowered** — `ReagentDispenserBaseUnpowered` ｜父类: SmallConstructibleMachine
-- **工业试剂研磨机** — `ReagentGrinderIndustrial` ｜父类: Recycler
-- **功能设备** — `RecruitmentComputer` ｜父类: BaseComputerAiAccess ｜_Starlight
-- **回收机** — `Recycler` ｜父类: BaseMachinePowered
+- **工业试剂研磨机** — `ReagentGrinderIndustrial` ｜父类: Recycler ｜描述: An industrial reagent grinder.
+- **功能设备** — `RecruitmentComputer` ｜父类: BaseComputerAiAccess ｜_Starlight ｜描述: A computer for managing crew hiring.
+- **回收机** — `Recycler` ｜父类: BaseMachinePowered ｜描述: A large crushing machine used to recycle small items inefficiently. There are lights on the side.
 - **反射器** — `Reflector` ｜父类: BaseStructure ｜_Starlight
-- **强化墙梁** — `ReinforcedGirder` ｜父类: Girder
+- **强化墙梁** — `ReinforcedGirder` ｜父类: Girder ｜描述: A large structural assembly made out of metal and plasteel; It requires a layer of plasteel before it can be considered a reinforced wall.
 - **强化等离子体窗** — `ReinforcedPlasmaWindow` ｜父类: BaseDeltaPressureReinforcedPlasma,WindowRCDResistant
 - **强化等离子体窗** — `ReinforcedPlasmaWindowDiagonal` ｜父类: ReinforcedPlasmaWindow
-- **强化等离子窗** — `ReinforcedPlasmaWindowDiagonalHoneypot` ｜父类: MarkerBase,ReinforcedPlasmaWindowDiagonal ｜_Starlight
-- **强化等离子窗** — `ReinforcedPlasmaWindowDiagonalHoneypotIndestructible` ｜父类: MarkerBase,ReinforcedPlasmaWindowDiagonal ｜_Starlight
-- **强化等离子窗** — `ReinforcedPlasmaWindowHoneypot` ｜父类: MarkerBase,ReinforcedPlasmaWindow ｜_Starlight
-- **强化等离子窗** — `ReinforcedPlasmaWindowHoneypotIndestructible` ｜父类: MarkerBase,ReinforcedPlasmaWindow ｜_Starlight
+- **强化等离子窗** — `ReinforcedPlasmaWindowDiagonalHoneypot` ｜父类: MarkerBase,ReinforcedPlasmaWindowDiagonal ｜_Starlight ｜描述: Notifies admins when it gets damaged. Can be destroyed as normal.
+- **强化等离子窗** — `ReinforcedPlasmaWindowDiagonalHoneypotIndestructible` ｜父类: MarkerBase,ReinforcedPlasmaWindowDiagonal ｜_Starlight ｜描述: Notifies admins when it gets damaged and is secretly indestructible.
+- **强化等离子窗** — `ReinforcedPlasmaWindowHoneypot` ｜父类: MarkerBase,ReinforcedPlasmaWindow ｜_Starlight ｜描述: Notifies admins when it gets damaged. Can be destroyed as normal.
+- **强化等离子窗** — `ReinforcedPlasmaWindowHoneypotIndestructible` ｜父类: MarkerBase,ReinforcedPlasmaWindow ｜_Starlight ｜描述: Notifies admins when it gets damaged and is secretly indestructible.
 - **强化铀窗** — `ReinforcedUraniumWindow` ｜父类: BaseDeltaPressureReinforcedPlasma,WindowRCDResistant
 - **强化铀窗** — `ReinforcedUraniumWindowDiagonal` ｜父类: ReinforcedUraniumWindow
-- **强化铀窗** — `ReinforcedUraniumWindowDiagonalHoneypot` ｜父类: MarkerBase,ReinforcedUraniumWindowDiagonal ｜_Starlight
-- **强化铀窗** — `ReinforcedUraniumWindowDiagonalHoneypotIndestructible` ｜父类: MarkerBase,ReinforcedUraniumWindowDiagonal ｜_Starlight
-- **强化铀窗** — `ReinforcedUraniumWindowHoneypot` ｜父类: MarkerBase,ReinforcedUraniumWindow ｜_Starlight
-- **强化铀窗** — `ReinforcedUraniumWindowHoneypotIndestructible` ｜父类: MarkerBase,ReinforcedUraniumWindow ｜_Starlight
+- **强化铀窗** — `ReinforcedUraniumWindowDiagonalHoneypot` ｜父类: MarkerBase,ReinforcedUraniumWindowDiagonal ｜_Starlight ｜描述: Notifies admins when it gets damaged. Can be destroyed as normal.
+- **强化铀窗** — `ReinforcedUraniumWindowDiagonalHoneypotIndestructible` ｜父类: MarkerBase,ReinforcedUraniumWindowDiagonal ｜_Starlight ｜描述: Notifies admins when it gets damaged and is secretly indestructible.
+- **强化铀窗** — `ReinforcedUraniumWindowHoneypot` ｜父类: MarkerBase,ReinforcedUraniumWindow ｜_Starlight ｜描述: Notifies admins when it gets damaged. Can be destroyed as normal.
+- **强化铀窗** — `ReinforcedUraniumWindowHoneypotIndestructible` ｜父类: MarkerBase,ReinforcedUraniumWindow ｜_Starlight ｜描述: Notifies admins when it gets damaged and is secretly indestructible.
 - **强化窗** — `ReinforcedWindow` ｜父类: BaseDeltaPressureReinforcedGlass,Window
 - **强化窗** — `ReinforcedWindowDiagonal` ｜父类: ReinforcedWindow
-- **强化窗** — `ReinforcedWindowDiagonalHoneypot` ｜父类: MarkerBase,ReinforcedWindowDiagonal ｜_Starlight
-- **强化窗** — `ReinforcedWindowDiagonalHoneypotIndestructible` ｜父类: MarkerBase,ReinforcedWindowDiagonal ｜_Starlight
-- **强化窗** — `ReinforcedWindowHoneypot` ｜父类: MarkerBase,ReinforcedWindow ｜_Starlight
-- **强化窗** — `ReinforcedWindowHoneypotIndestructible` ｜父类: MarkerBase,ReinforcedWindow ｜_Starlight
-- **研发服务器** — `ResearchAndDevelopmentServer` ｜父类: BaseResearchAndDevelopmentServer,BaseMachinePowered,ConstructibleMachine
+- **强化窗** — `ReinforcedWindowDiagonalHoneypot` ｜父类: MarkerBase,ReinforcedWindowDiagonal ｜_Starlight ｜描述: Notifies admins when it gets damaged. Can be destroyed as normal.
+- **强化窗** — `ReinforcedWindowDiagonalHoneypotIndestructible` ｜父类: MarkerBase,ReinforcedWindowDiagonal ｜_Starlight ｜描述: Notifies admins when it gets damaged and is secretly indestructible.
+- **强化窗** — `ReinforcedWindowHoneypot` ｜父类: MarkerBase,ReinforcedWindow ｜_Starlight ｜描述: Notifies admins when it gets damaged. Can be destroyed as normal.
+- **强化窗** — `ReinforcedWindowHoneypotIndestructible` ｜父类: MarkerBase,ReinforcedWindow ｜_Starlight ｜描述: Notifies admins when it gets damaged and is secretly indestructible.
+- **研发服务器** — `ResearchAndDevelopmentServer` ｜父类: BaseResearchAndDevelopmentServer,BaseMachinePowered,ConstructibleMachine ｜描述: Contains the collective knowledge of the station's scientists. Destroying it would send them back to the stone age. You don't want that do you?
 - **复古穿梭机窗** — `RetroShuttleWindow` ｜父类: WindowRCDResistant,BaseDeltaPressureReinforcedGlass ｜_Starlight
 - **结构** — `RetroShuttleWindowDiagonal` ｜父类: RetroShuttleWindow ｜_Starlight
-- **平台** — `RMCPlatformCornerSmall` ｜父类: CMPlatformBase ｜_Starlight
-- **平台** — `RMCPlatformCornerSmallDark` ｜父类: CMPlatformBase ｜_Starlight
-- **平台** — `RMCPlatformCornerSmallWood` ｜父类: CMPlatformBase ｜_Starlight
+- **平台** — `RMCPlatformCornerSmall` ｜父类: CMPlatformBase ｜_Starlight ｜描述: A raised surface. Wait, thats illegal!
+- **平台** — `RMCPlatformCornerSmallDark` ｜父类: CMPlatformBase ｜_Starlight ｜描述: A raised surface. Wait, thats illegal!
+- **平台** — `RMCPlatformCornerSmallWood` ｜父类: CMPlatformBase ｜_Starlight ｜描述: A raised surface. Wait, thats illegal!
 - **平台** — `RMCPlatformStairLeft` ｜父类: CMPlatform ｜_Starlight
 - **平台** — `RMCPlatformStairLeftDark` ｜父类: CMPlatform ｜_Starlight
 - **平台** — `RMCPlatformStairLeftWood` ｜父类: CMPlatform ｜_Starlight
 - **平台** — `RMCPlatformStairRight` ｜父类: CMPlatform ｜_Starlight
 - **平台** — `RMCPlatformStairRightDark` ｜父类: CMPlatform ｜_Starlight
 - **平台** — `RMCPlatformStairRightWood` ｜父类: CMPlatform ｜_Starlight
-- **楼梯** — `RMCStairs` ｜_Starlight
+- **楼梯** — `RMCStairs` ｜_Starlight ｜描述: The greatest invention since rocket-propelled grenades.
 - **楼梯** — `RMCStairsCorner` ｜父类: RMCStairs ｜_Starlight
 - **楼梯** — `RMCStairsDark` ｜父类: RMCStairs ｜_Starlight
 - **楼梯** — `RMCStairsDarkCorner` ｜父类: RMCStairs ｜_Starlight
@@ -2909,359 +2916,361 @@
 - **楼梯** — `RMCStairsWoodLeft` ｜父类: RMCStairs ｜_Starlight
 - **楼梯** — `RMCStairsWoodRight` ｜父类: RMCStairs ｜_Starlight
 - **楼梯** — `RMCStairsWoodSolo` ｜父类: RMCStairs ｜_Starlight
-- **折叠担架** — `RollerBed` ｜父类: BaseItem,BaseDeployFoldable
+- **折叠担架** — `RollerBed` ｜父类: BaseItem,BaseDeployFoldable ｜描述: Used to carry patients around without damaging them.
 - **折叠担架** — `RollerBedSpawnFolded` ｜父类: RollerBed
-- **锈蚀的 推进器** — `RustedThruster` ｜父类: BaseStructureDynamic
-- **打捞定位器** — `SalvageLocator` ｜父类: SalvageMagnet
-- **打捞磁铁** — `SalvageMagnet` ｜父类: BaseMachinePowered,ConstructibleMachine
-- **扫描门** — `ScanGate` ｜父类: BaseScanGate ｜_Starlight
+- **锈蚀的 推进器** — `RustedThruster` ｜父类: BaseStructureDynamic ｜描述: An unrepairable thruster, broken down from wear and tear. Only useful for scrapping.
+- **打捞定位器** — `SalvageLocator` ｜父类: SalvageMagnet ｜描述: Locates salvage.
+- **打捞磁铁** — `SalvageMagnet` ｜父类: BaseMachinePowered,ConstructibleMachine ｜描述: Pulls in salvage.
+- **扫描门** — `ScanGate` ｜父类: BaseScanGate ｜_Starlight ｜描述: It scans items for contraband when they pass through.
 - **扫描门** — `ScanGateBlack` ｜父类: ScanGate ｜_Starlight
-- **屏幕** — `Screen` ｜父类: BaseWallmountMachine
-- **屏幕定时器** — `ScreenTimer` ｜父类: SignalTimer
-- `模板` **椅子** — `SeatBase`
-- **安保科技制造机** — `SecurityTechFab` ｜父类: BaseLatheLube
-- **种子提取机** — `SeedExtractor` ｜父类: BaseMachinePowered,ConstructibleMachine
+- **屏幕** — `Screen` ｜父类: BaseWallmountMachine ｜描述: Displays text or time.
+- **屏幕定时器** — `ScreenTimer` ｜父类: SignalTimer ｜描述: It's a timer for sending timed signals to things, with a built-in screen.
+- `模板` **椅子** — `SeatBase` ｜描述: You sit in this. Either by will or force.
+- **安保科技制造机** — `SecurityTechFab` ｜父类: BaseLatheLube ｜描述: Prints equipment for use by security crew.
+- **种子提取机** — `SeedExtractor` ｜父类: BaseMachinePowered,ConstructibleMachine ｜描述: Extracts seeds from produce.
 - **暗网** — `ShadekinDarkNet` ｜_Starlight
-- **影裔门** — `ShadekinDoor` ｜父类: HospitalCurtains ｜_Starlight
+- **影裔门** — `ShadekinDoor` ｜父类: HospitalCurtains ｜_Starlight ｜描述: A door, where will it lead?
 - **暗影陷阱** — `ShadekinTrap` ｜父类: BaseShadow ｜_Starlight
 - **ShadekinTrapSpawn** — `ShadekinTrapSpawn` ｜_Starlight
 - **ShadekinTrapTrigger** — `ShadekinTrapTrigger` ｜父类: ShadekinTrapSpawn ｜_Starlight
-- **板材大师 2000** — `Sheetifier` ｜父类: BaseLathe
-- **酒吧架** — `ShelfBar` ｜父类: ShelfBase
-- `模板` **架子** — `ShelfBase` ｜父类: BaseWallmount
-- `模板` **强化架** — `ShelfBaseReinforced` ｜父类: ShelfBase
-- **化学品架** — `ShelfChemistry` ｜父类: ShelfBaseReinforced
+- **板材大师 2000** — `Sheetifier` ｜父类: BaseLathe ｜描述: A very sheety machine.
+- **酒吧架** — `ShelfBar` ｜父类: ShelfBase ｜描述: Made out of the finest synthetic wood for all alcohol holding needs.
+- `模板` **架子** — `ShelfBase` ｜父类: BaseWallmount ｜描述: A strange place to place, well, anything really. You feel like you shouldn't be seeing this.
+- `模板` **强化架** — `ShelfBaseReinforced` ｜父类: ShelfBase ｜描述: It looks as strong as reality itself.
+- **化学品架** — `ShelfChemistry` ｜父类: ShelfBaseReinforced ｜描述: Keeps all your chemicals safe and out of the clow- er, public hands!
 - **化学品架** — `ShelfChemistryChemistrySecure` ｜父类: ShelfChemistry
-- **玻璃架** — `ShelfGlass` ｜父类: ShelfBase
-- **厨房架** — `ShelfKitchen` ｜父类: ShelfBase
-- **金属架** — `ShelfMetal` ｜父类: ShelfBase
-- **结实玻璃架** — `ShelfRGlass` ｜父类: ShelfBaseReinforced
-- **结实金属架** — `ShelfRMetal` ｜父类: ShelfBaseReinforced
-- **结实木架** — `ShelfRWood` ｜父类: ShelfBaseReinforced
-- **木架** — `ShelfWood` ｜父类: ShelfBase
+- **玻璃架** — `ShelfGlass` ｜父类: ShelfBase ｜描述: A fragile place to place, well, anything really.
+- **厨房架** — `ShelfKitchen` ｜父类: ShelfBase ｜描述: Holds knifes, spice, and everything nice!
+- **金属架** — `ShelfMetal` ｜父类: ShelfBase ｜描述: A sturdy place to place, well, anything really.
+- **结实玻璃架** — `ShelfRGlass` ｜父类: ShelfBaseReinforced ｜描述: Crystal clear reinforced glass doors to show off all your fancy bottles you definitely didn't sell a co-worker's favorite mothroach for.
+- **结实金属架** — `ShelfRMetal` ｜父类: ShelfBaseReinforced ｜描述: A strong & shiny place to keep all your vials safe.
+- **结实木架** — `ShelfRWood` ｜父类: ShelfBaseReinforced ｜描述: A safe place to put your favorite bottle of whiskey.
+- **木架** — `ShelfWood` ｜父类: ShelfBase ｜描述: A convenient place to place, well, anything really.
 - **木架** — `ShelfWoodFilled` ｜父类: ShelfWood ｜_Starlight
-- **霰弹枪柜** — `ShotGunCabinet` ｜父类: FireAxeCabinet
+- **霰弹枪柜** — `ShotGunCabinet` ｜父类: FireAxeCabinet ｜描述: There is a small label that reads "For Emergency use only" along with details for safe use of the shotgun. As if.
 - **霰弹枪柜** — `ShotGunCabinetFilled` ｜父类: ShotGunCabinet
 - **霰弹枪柜** — `ShotGunCabinetFilledOpen` ｜父类: ShotGunCabinetFilled,ShotGunCabinetOpen
 - **霰弹枪柜** — `ShotGunCabinetOpen` ｜父类: ShotGunCabinet
-- **安保机器人展柜** — `ShowcaseRobot` ｜父类: BaseShowcaseRobot
-- **货运机器人展柜** — `ShowcaseRobotAntique` ｜父类: BaseShowcaseRobot
-- **掠夺者展柜** — `ShowcaseRobotMarauder` ｜父类: BaseShowcaseRobot
-- **白色机器人展柜** — `ShowcaseRobotWhite` ｜父类: BaseShowcaseRobot
-- **卷帘门框架** — `ShuttersFrame` ｜父类: BaseStructureDynamic
+- **安保机器人展柜** — `ShowcaseRobot` ｜父类: BaseShowcaseRobot ｜描述: A non-functional replica of an old security robot.
+- **货运机器人展柜** — `ShowcaseRobotAntique` ｜父类: BaseShowcaseRobot ｜描述: A non-functional replica of an old cargo robot.
+- **掠夺者展柜** — `ShowcaseRobotMarauder` ｜父类: BaseShowcaseRobot ｜描述: A non-functional replica of a marauder, painted green.
+- **白色机器人展柜** — `ShowcaseRobotWhite` ｜父类: BaseShowcaseRobot ｜描述: A non-functional replica of an old robot.
+- **卷帘门框架** — `ShuttersFrame` ｜父类: BaseStructureDynamic ｜描述: A frame for constructing a shutter.
 - **卷帘门** — `ShuttersNormal` ｜父类: BaseDeltaPressureGlass,BaseShutter
 - **卷帘门** — `ShuttersNormalOpen` ｜父类: ShuttersNormal
-- **辐射卷帘门** — `ShuttersRadiation` ｜父类: BaseDeltaPressureGlass,BaseShutter
+- **辐射卷帘门** — `ShuttersRadiation` ｜父类: BaseDeltaPressureGlass,BaseShutter ｜描述: Why did they make these shutters radioactive?
 - **辐射卷帘门** — `ShuttersRadiationOpen` ｜父类: ShuttersRadiation
-- **窗式卷帘门** — `ShuttersWindow` ｜父类: BaseDeltaPressureGlass,BaseShutter
+- **窗式卷帘门** — `ShuttersWindow` ｜父类: BaseDeltaPressureGlass,BaseShutter ｜描述: The Best (TM) place to see your friends explode!
 - **窗式卷帘门** — `ShuttersWindowCentralCommand` ｜父类: ShuttersWindow
 - **窗式卷帘门** — `ShuttersWindowOpen` ｜父类: ShuttersWindow
-- **AK570 武器** — `ShuttleGunAK570` ｜父类: ShuttleGunBase ｜_Starlight
-- **阿波罗重型激光炮** — `ShuttleGunApollo` ｜父类: ShuttleGunBase ｜_Starlight
-- **L85 武器** — `ShuttleGunAutocannon` ｜父类: ShuttleGunBase ｜_Starlight
+- **AK570 武器** — `ShuttleGunAK570` ｜父类: ShuttleGunBase ｜_Starlight ｜描述: A rapid-fire 90mm artillery cannon optimized for overwhelming volume of fire. Higher caliber than the Dravon with more explosive force per shell, though its shorter barrel means slightly less range. M
+- **阿波罗重型激光炮** — `ShuttleGunApollo` ｜父类: ShuttleGunBase ｜_Starlight ｜描述: A precision ship-to-ship plasma cannon. Fires focused plasma bolts that deal concentrated heat damage with a small detonation radius — ideal for disabling enemy systems without collateral devastation.
+- **L85 武器** — `ShuttleGunAutocannon` ｜父类: ShuttleGunBase ｜_Starlight ｜描述: A light 20mm ballistic autocannon for anti-personnel suppression. Fires fully automatic while the trigger is held. Rounds are too small to damage walls or structures — effective against infantry and u
 - `模板` **穿梭机舰炮** — `ShuttleGunBase` ｜父类: BaseStructure
-- **M321-CHARYBDIS 武器** — `ShuttleGunCharon` ｜父类: ShuttleGunBase ｜_Starlight
-- **CYERXA 武器** — `ShuttleGunCyerxa120mm` ｜父类: ShuttleGunBase ｜_Starlight
-- **德拉冯 75mm 火炮** — `ShuttleGunDravon` ｜父类: ShuttleGunBase ｜_Starlight
-- **EXP-2100g“除尘者”** — `ShuttleGunDuster` ｜父类: ShuttleGunBase,ConstructibleMachine
-- **AMX-9 DYNAMRE 武器** — `ShuttleGunDynamre` ｜父类: ShuttleGunBase ｜_Starlight
-- **EXP-320g“友谊”** — `ShuttleGunFriendship` ｜父类: ShuttleGunBase,ConstructibleMachine
-- **PTK-800“物质消解器”** — `ShuttleGunKinetic` ｜父类: ShuttleGunBase,ConstructibleMachine
-- **异形物质消解器** — `ShuttleGunKineticOld` ｜父类: ShuttleGunBase
-- **利维坦 240mm 攻城炮** — `ShuttleGunLeviathan` ｜父类: ShuttleGunBase ｜_Starlight
-- **LSE-1200c“穿孔者”** — `ShuttleGunPerforator` ｜父类: ShuttleGunBase,ConstructibleMachine
-- **海盗船大炮** — `ShuttleGunPirateCannon` ｜父类: ShuttleGunBase
-- **斯库拉激光轨道炮** — `ShuttleGunScylla` ｜父类: ShuttleGunBase ｜_Starlight
-- **LSE-400c“斯瓦林机枪”** — `ShuttleGunSvalinnMachineGun` ｜父类: ShuttleGunBase,ConstructibleMachine
-- **SSG-TARNYX EMP 榴弹炮** — `ShuttleGunTarnyx` ｜父类: ShuttleGunBase ｜_Starlight
-- **MK2 武器** — `ShuttleGunVanyk` ｜父类: ShuttleGunBase ｜_Starlight
-- **穿梭机武器控制台** — `ShuttleWeaponsConsole` ｜父类: BaseComputer ｜_Starlight
+- **M321-CHARYBDIS 武器** — `ShuttleGunCharon` ｜父类: ShuttleGunBase ｜_Starlight ｜描述: A single-shot electromagnetic railgun of unparalleled destructive capability. Accelerates a 280mm slug to devastating velocities. The standard kinetic slug punches through layered armour and structure
+- **CYERXA 武器** — `ShuttleGunCyerxa120mm` ｜父类: ShuttleGunBase ｜_Starlight ｜描述: A powerful dual 120mm cannon system designed for heavy shuttle combat. Fires devastating blast grenades with extreme destructive power. Each activation fires both barrels in rapid succession.
+- **德拉冯 75mm 火炮** — `ShuttleGunDravon` ｜父类: ShuttleGunBase ｜_Starlight ｜描述: A full-automatic 75mm artillery cannon designed for sustained suppression fire. Despite its smaller caliber compared to the AK570, its longer barrel and higher muzzle velocity give it greater effectiv
+- **EXP-2100g“除尘者”** — `ShuttleGunDuster` ｜父类: ShuttleGunBase,ConstructibleMachine ｜描述: A powerful stationary grenade launcher. A cartridge is required for use.
+- **AMX-9 DYNAMRE 武器** — `ShuttleGunDynamre` ｜父类: ShuttleGunBase ｜_Starlight ｜描述: A twin-barreled plasma cannon built for violent area destruction. Each trigger pull launches two massive plasma blobs simultaneously — each detonating in a catastrophic explosion that obliterates armo
+- **EXP-320g“友谊”** — `ShuttleGunFriendship` ｜父类: ShuttleGunBase,ConstructibleMachine ｜描述: A small stationary grenade launcher that holds 2 grenades.
+- **PTK-800“物质消解器”** — `ShuttleGunKinetic` ｜父类: ShuttleGunBase,ConstructibleMachine ｜描述: Salvage stationary mining turret. Gradually accumulates charges on its own, extremely effective for asteroid excavation.
+- **异形物质消解器** — `ShuttleGunKineticOld` ｜父类: ShuttleGunBase ｜描述: An ancient ship gun, utilizing biomechanical systems to store and release energy. While unique in its design, it has been rendered obsolete due to its inferior charging and firing speed compared to me
+- **利维坦 240mm 攻城炮** — `ShuttleGunLeviathan` ｜父类: ShuttleGunBase ｜_Starlight ｜描述: The largest area-of-effect artillery piece cleared for shuttle deployment. This monstrous 240mm siege cannon fires a single manually-loaded HE shell that detonates in a catastrophic blast radius, obli
+- **LSE-1200c“穿孔者”** — `ShuttleGunPerforator` ｜父类: ShuttleGunBase,ConstructibleMachine ｜描述: Advanced stationary laser unit. Annihilates electronics and is extremely dangerous to health! Uses the power cage to fire.
+- **海盗船大炮** — `ShuttleGunPirateCannon` ｜父类: ShuttleGunBase ｜描述: Kaboom!
+- **斯库拉激光轨道炮** — `ShuttleGunScylla` ｜父类: ShuttleGunBase ｜_Starlight ｜描述: An experimental capital-class energy railgun. Charges enormous amounts of ship power into a single concentrated laser bolt that travels at extreme velocity, burning through armour and detonating in an
+- **LSE-400c“斯瓦林机枪”** — `ShuttleGunSvalinnMachineGun` ｜父类: ShuttleGunBase,ConstructibleMachine ｜描述: Basic stationary laser unit. Effective against live targets and electronics. Uses regular power cells to fire, and has an extremely high rate of fire.
+- **SSG-TARNYX EMP 榴弹炮** — `ShuttleGunTarnyx` ｜父类: ShuttleGunBase ｜_Starlight ｜描述: A heavy-duty electromagnetic grenade lobber. Fires EMP grenades in a wide arc, designed to saturate an area with electromagnetic pulses and disable enemy ship systems. Holds 4 rounds. Does not cause s
+- **MK2 武器** — `ShuttleGunVanyk` ｜父类: ShuttleGunBase ｜_Starlight ｜描述: A 60mm single-shot rocket launcher system. Each pull of the trigger launches one rocket. Accurate and reliable, well suited for precision strikes against individual targets. Uses magazine-fed 30-round
+- **穿梭机武器控制台** — `ShuttleWeaponsConsole` ｜父类: BaseComputer ｜_Starlight ｜描述: A computer for controlling linked shuttle weapons and scanning nearby objects.
 - **穿梭机窗** — `ShuttleWindow` ｜父类: BaseDeltaPressureReinforcedGlass,WindowRCDResistant
 - **穿梭机窗** — `ShuttleWindowDiagonal` ｜父类: ShuttleWindow
-- **定向穿梭机窗** — `ShuttleWindowDirectional` ｜父类: BaseDeltaPressureReinforcedPlasma,WindowDirectionalRCDResistant ｜_Starlight
-- **AI 标牌** — `SignAi` ｜父类: BaseSign
-- **AI 上传室标牌** — `SignAiUpload` ｜父类: BaseSign
-- **信号按钮** — `SignalButton` ｜父类: BaseWallmountMetallic
+- **定向穿梭机窗** — `ShuttleWindowDirectional` ｜父类: BaseDeltaPressureReinforcedPlasma,WindowDirectionalRCDResistant ｜_Starlight ｜描述: Don't smudge up the glass down there.
+- **AI 标牌** — `SignAi` ｜父类: BaseSign ｜描述: A sign, indicating an AI is present.
+- **AI 上传室标牌** — `SignAiUpload` ｜父类: BaseSign ｜描述: A sign, indicating an AI is present.
+- **信号按钮** — `SignalButton` ｜父类: BaseWallmountMetallic ｜描述: It's a button for activating something.
 - **舰桥窗户按钮** — `SignalButtonBridge` ｜父类: SignalButton
 - **信号按钮** — `SignalButtonDirectional` ｜父类: SignalButton
 - **外部按钮 1** — `SignalButtonExt1` ｜父类: SignalButton
 - **外部按钮 2** — `SignalButtonExt2` ｜父类: SignalButton
 - **外部按钮 3** — `SignalButtonExt3` ｜父类: SignalButton
 - **外部窗户按钮** — `SignalButtonWindows` ｜父类: SignalButton
-- **信号阀** — `SignalControlledValve` ｜父类: GasBinaryBase
+- **信号阀** — `SignalControlledValve` ｜父类: GasBinaryBase ｜描述: A pipe with a valve that can be controlled with signals.
 - **信号阀** — `SignalControlledValveAlt1` ｜父类: GasPipeLayerAlt1,SignalControlledValve
 - **信号阀** — `SignalControlledValveAlt2` ｜父类: GasPipeLayerAlt2,SignalControlledValve
 - **信号阀** — `SignalControlledValveAlt3` ｜父类: GasPipeLayerAlt3,SignalControlledValve ｜_Carpmosia
 - **信号阀** — `SignalControlledValveAlt4` ｜父类: GasPipeLayerAlt4,SignalControlledValve ｜_Carpmosia
-- **信号开关** — `SignalSwitch` ｜父类: BaseWallmountMetallic
+- **信号开关** — `SignalSwitch` ｜父类: BaseWallmountMetallic ｜描述: It's a switch for toggling power to things.
 - **信号开关** — `SignalSwitchDirectional` ｜父类: SignalSwitch
-- **信号定时器** — `SignalTimer` ｜父类: BaseWallmountMachine
-- **外星考古实验室标牌** — `SignAnomaly` ｜父类: BaseSign
-- **异常研究实验室标牌** — `SignAnomaly2` ｜父类: BaseSign
-- **游戏厅标牌** — `SignArcade` ｜父类: BaseSign
-- **军械库标牌** — `SignArmory` ｜父类: BaseSign
-- **到达区标牌** — `SignArrivals` ｜父类: BaseSign
-- **大气区标牌** — `SignAtmos` ｜父类: BaseSign
-- **酒吧标牌** — `SignBar` ｜父类: BaseSign
-- **理发店标牌** — `SignBarbershop` ｜父类: BaseSign
-- **浴室标牌** — `SignBath` ｜父类: BaseSign
-- **生物实验室标牌** — `SignBio` ｜父类: BaseSign
-- **生物危害标牌** — `SignBiohazard` ｜父类: BaseSign
-- **生物危害标牌** — `SignBiohazardMed` ｜父类: BaseSign
-- **空白标牌** — `SignBlankMed` ｜父类: BaseSign
-- **标识装饰** — `SignBreakCargo` ｜父类: BaseSign ｜_Starlight
-- **标识装饰** — `SignBreakCommand` ｜父类: BaseSign ｜_Starlight
-- **标识装饰** — `SignBreakEngineering` ｜父类: BaseSign ｜_Starlight
-- **标识装饰** — `SignBreakMedical` ｜父类: BaseSign ｜_Starlight
-- **标识装饰** — `SignBreakScience` ｜父类: BaseSign ｜_Starlight
-- **标识装饰** — `SignBreakSecurity` ｜父类: BaseSign ｜_Starlight
-- **标识装饰** — `SignBreakService` ｜父类: BaseSign ｜_Starlight
-- **舰桥标牌** — `SignBridge` ｜父类: BaseSign
-- **标识装饰** — `SignBrigmed` ｜父类: BaseSign ｜_Starlight
-- **气罐标牌** — `SignCanisters` ｜父类: BaseSign
-- **气罐标牌** — `SignCans` ｜父类: BaseSign
+- **信号定时器** — `SignalTimer` ｜父类: BaseWallmountMachine ｜描述: It's a timer for sending timed signals to things.
+- **外星考古实验室标牌** — `SignAnomaly` ｜父类: BaseSign ｜描述: A sign indicating the xenoarchaeology lab.
+- **异常研究实验室标牌** — `SignAnomaly2` ｜父类: BaseSign ｜描述: A sign indicating the anomalous research lab.
+- **游戏厅标牌** — `SignArcade` ｜父类: BaseSign ｜描述: A sign indicating the arcade.
+- **军械库标牌** — `SignArmory` ｜父类: BaseSign ｜描述: A sign indicating the armory.
+- **到达区标牌** — `SignArrivals` ｜父类: BaseSign ｜描述: A sign indicating where the Arrivals shuttle will dock.
+- **大气区标牌** — `SignAtmos` ｜父类: BaseSign ｜描述: A sign indicating the atmospherics area.
+- **酒吧标牌** — `SignBar` ｜父类: BaseSign ｜描述: A sign indicating the bar.
+- **理发店标牌** — `SignBarbershop` ｜父类: BaseSign ｜描述: A sign indicating the barbershop.
+- **浴室标牌** — `SignBath` ｜父类: BaseSign ｜描述: A sign indicating the bathroom.
+- **生物实验室标牌** — `SignBio` ｜父类: BaseSign ｜描述: A sign indicating the biology lab.
+- **生物危害标牌** — `SignBiohazard` ｜父类: BaseSign ｜描述: A sign indicating a biohazard.
+- **生物危害标牌** — `SignBiohazardMed` ｜父类: BaseSign ｜描述: A sign indicating a biohazard.
+- **空白标牌** — `SignBlankMed` ｜父类: BaseSign ｜描述: A blank sign.
+- **标识装饰** — `SignBreakCargo` ｜父类: BaseSign ｜_Starlight ｜描述: A sign indicating where the breakroom is.
+- **标识装饰** — `SignBreakCommand` ｜父类: BaseSign ｜_Starlight ｜描述: A sign indicating where the breakroom is.
+- **标识装饰** — `SignBreakEngineering` ｜父类: BaseSign ｜_Starlight ｜描述: A sign indicating where the breakroom is.
+- **标识装饰** — `SignBreakMedical` ｜父类: BaseSign ｜_Starlight ｜描述: A sign indicating where the breakroom is.
+- **标识装饰** — `SignBreakScience` ｜父类: BaseSign ｜_Starlight ｜描述: A sign indicating where the breakroom is.
+- **标识装饰** — `SignBreakSecurity` ｜父类: BaseSign ｜_Starlight ｜描述: A sign indicating where the breakroom is.
+- **标识装饰** — `SignBreakService` ｜父类: BaseSign ｜_Starlight ｜描述: A sign indicating where the breakroom is.
+- **舰桥标牌** — `SignBridge` ｜父类: BaseSign ｜描述: A sign indicating the bridge.
+- **标识装饰** — `SignBrigmed` ｜父类: BaseSign ｜_Starlight ｜描述: A sign indicating the brig medical bay.
+- **气罐标牌** — `SignCanisters` ｜父类: BaseSign ｜描述: A sign warning the viewer about pressurised canisters.
+- **气罐标牌** — `SignCans` ｜父类: BaseSign ｜描述: A sign indicating the auspicious presence of gas canisters.
 - **气罐标牌** — `SignCansScience` ｜父类: SignCans
-- **货运区标牌** — `SignCargo` ｜父类: BaseSign
-- **货运停靠站标牌** — `SignCargoDock` ｜父类: BaseSign
-- **神龛标牌 # Starlight: Chapel -> Shrine** — `SignChapel` ｜父类: BaseSign
-- **化学实验室标牌** — `SignChem` ｜父类: BaseSign
-- **克隆实验室标牌** — `SignCloning` ｜父类: BaseSign
-- **会议室标牌** — `SignConference` ｜父类: BaseSign
-- **标识装饰** — `SignCoreXeno` ｜父类: BaseSign ｜_Starlight
-- **腐蚀品警告标牌** — `SignCorrosives` ｜父类: BaseSign
-- **低温休眠标牌** — `SignCryo` ｜父类: BaseSign
-- **低温材料警告标牌** — `SignCryogenics` ｜父类: BaseSign
-- **低温材料标牌** — `SignCryogenicsMed` ｜父类: BaseSign
-- **危险警告标牌** — `SignDanger` ｜父类: BaseSign
-- **危险标牌** — `SignDangerMed` ｜父类: BaseSign
-- **侦探办公室标牌** — `SignDetective` ｜父类: BaseSign
-- **大气部方向牌** — `SignDirectionalAtmos` ｜父类: BaseSignDirectional
-- **酒吧方向牌** — `SignDirectionalBar` ｜父类: BaseSignDirectional
-- **舰桥方向牌** — `SignDirectionalBridge` ｜父类: BaseSignDirectional
-- **禁闭区方向牌** — `SignDirectionalBrig` ｜父类: BaseSignDirectional
-- **神龛方向牌 # Starlight: Chapel -> Shrine** — `SignDirectionalChapel` ｜父类: BaseSignDirectional
-- **化学实验室方向牌** — `SignDirectionalChemistry` ｜父类: BaseSignDirectional
-- **低温休眠方向牌** — `SignDirectionalCryo` ｜父类: BaseSignDirectional
-- **宿舍方向牌** — `SignDirectionalDorms` ｜父类: BaseSignDirectional
-- **工程部方向牌** — `SignDirectionalEng` ｜父类: BaseSignDirectional
-- **逃生舱方向牌** — `SignDirectionalEscapePod` ｜父类: BaseSignDirectional
-- **撤离区方向牌** — `SignDirectionalEvac` ｜父类: BaseSignDirectional
-- **诊察室方向牌** — `SignDirectionalExam` ｜父类: BaseSignDirectional
-- **厨房方向牌** — `SignDirectionalFood` ｜父类: BaseSignDirectional
-- **重力发生器方向牌** — `SignDirectionalGravity` ｜父类: BaseSignDirectional
-- **人事主管办公室方向牌** — `SignDirectionalHop` ｜父类: BaseSignDirectional
-- **水培区方向牌** — `SignDirectionalHydro` ｜父类: BaseSignDirectional
-- **重症监护室方向牌** — `SignDirectionalIcu` ｜父类: BaseSignDirectional
-- **清洁间方向牌** — `SignDirectionalJanitor` ｜父类: BaseSignDirectional
-- **图书馆方向牌** — `SignDirectionalLibrary` ｜父类: BaseSignDirectional
-- **医疗部方向牌** — `SignDirectionalMed` ｜父类: BaseSignDirectional
-- **采矿 标牌** — `SignDirectionalMining` ｜父类: BaseSignDirectional ｜_Starlight
-- **打捞区方向牌** — `SignDirectionalSalvage` ｜父类: BaseSignDirectional
-- **科研部方向牌** — `SignDirectionalSci` ｜父类: BaseSignDirectional
-- **安保部方向牌** — `SignDirectionalSec` ｜父类: BaseSignDirectional
-- **太阳能阵列方向牌** — `SignDirectionalSolar` ｜父类: BaseSignDirectional
-- **物资方向牌** — `SignDirectionalSupply` ｜父类: BaseSignDirectional
-- **洗手间方向牌** — `SignDirectionalWash` ｜父类: BaseSignDirectional
-- **标识装饰** — `SignDisposalProper` ｜父类: BaseSign ｜_Starlight
-- **废物处理区标牌** — `SignDisposalSpace` ｜父类: BaseSign
-- **门标牌** — `SignDoors` ｜父类: BaseSign
-- **门s 标牌** — `SignDoorsXeno` ｜父类: BaseSign ｜_Starlight
-- **电气危险标牌** — `SignElectrical` ｜父类: BaseSign
-- **电气危险标牌** — `SignElectricalMed` ｜父类: BaseSign
-- **标识装饰** — `SignEmergencyEvac` ｜父类: BaseWallmountMachine ｜_Starlight
-- **标识装饰** — `SignEmergencyExit` ｜父类: BaseWallmountMachine ｜_Starlight
-- **电力标牌** — `SignEngine` ｜父类: BaseSign
-- **工程区标牌** — `SignEngineering` ｜父类: BaseSign
-- **逃生舱标牌** — `SignEscapePods` ｜父类: BaseSign
-- **EVA 标牌** — `SignEVA` ｜父类: BaseSign
-- **诊察室标牌** — `SignExamroom` ｜父类: BaseSign
-- **爆炸物警告标牌** — `SignExplosives` ｜父类: BaseSign
-- **火灾危险标牌** — `SignFire` ｜父类: BaseSign
-- **易燃物警告标牌** — `SignFlammable` ｜父类: BaseSign
-- **易燃物标牌 #when flammable component is done, this sign needs it** — `SignFlammableMed` ｜父类: BaseSign
-- **普通监区标牌** — `SignGenpop` ｜父类: BaseSign
-- **重力发生器标牌** — `SignGravity` ｜父类: BaseSign
-- **部门主管标牌** — `SignHead` ｜父类: BaseSign
-- **水培区标牌** — `SignHydro1` ｜父类: BaseSign
-- **标识装饰** — `SignIAA` ｜父类: BaseSign ｜_Starlight
-- **审讯室标牌** — `SignInterrogation` ｜父类: BaseSign
-- **清洁区标牌** — `SignJanitor` ｜父类: BaseSign
-- **儿童牌匾** — `SignKiddiePlaque` ｜父类: BaseSign
-- **厨房标牌** — `SignKitchen` ｜父类: BaseSign
-- **激光警告标牌** — `SignLaser` ｜父类: BaseSign
-- **激光标牌** — `SignLaserMed` ｜父类: BaseSign
-- **洗衣房标牌** — `SignLaundromat` ｜父类: BaseSign
-- **法务标牌** — `SignLawyer` ｜父类: BaseSign
-- **标识装饰** — `SignLawyerOffice` ｜父类: BaseSign ｜_Starlight
-- **图书馆标牌** — `SignLibrary` ｜父类: BaseSign
-- **储物容器** — `SignLockerCargo` ｜父类: BaseSign ｜_Starlight
-- **储物容器** — `SignLockerCommand` ｜父类: BaseSign ｜_Starlight
-- **储物容器** — `SignLockerEngineering` ｜父类: BaseSign ｜_Starlight
-- **储物容器** — `SignLockerMedical` ｜父类: BaseSign ｜_Starlight
-- **储物容器** — `SignLockerScience` ｜父类: BaseSign ｜_Starlight
-- **储物容器** — `SignLockerSecurity` ｜父类: BaseSign ｜_Starlight
-- **储物容器** — `SignLockerService` ｜父类: BaseSign ｜_Starlight
-- **标识装饰** — `SignMagistrate` ｜父类: BaseSign ｜_Starlight
-- **磁性材料警告标牌** — `SignMagnetics` ｜父类: BaseSign
-- **磁力标牌** — `SignMagneticsMed` ｜父类: BaseSign
-- **邮件标牌** — `SignMail` ｜父类: BaseSign
-- **材料库标牌** — `SignMaterials` ｜父类: BaseSign
-- **医疗部标牌** — `SignMedical` ｜父类: BaseSign
-- **模因危害警告标牌** — `SignMemetic` ｜父类: BaseSign
-- **采矿 标牌** — `SignMining` ｜父类: BaseSign ｜_Starlight
-- **停尸房标牌** — `SignMorgue` ｜父类: BaseSign
-- **纳米传讯标牌 1** — `SignNanotrasen1` ｜父类: BaseSign
-- **纳米传讯标牌 2** — `SignNanotrasen2` ｜父类: BaseSign
-- **纳米传讯标牌 3** — `SignNanotrasen3` ｜父类: BaseSign
-- **纳米传讯标牌 4** — `SignNanotrasen4` ｜父类: BaseSign
-- **纳米传讯标牌 5** — `SignNanotrasen5` ｜父类: BaseSign
-- **新闻部标牌** — `SignNews` ｜父类: BaseSign
-- **禁止吸烟标牌** — `SignNosmoking` ｜父类: BaseSign
-- **标识装饰** — `SignNoSmoking` ｜父类: BaseSign ｜_Starlight
-- **矿井标牌** — `SignNTMine` ｜父类: BaseSign
-- **NTR 标牌** — `SignNTR` ｜父类: BaseSign ｜_Starlight
-- **光辐射警告标牌** — `SignOptical` ｜父类: BaseSign
-- **氧化剂警告标牌** — `SignOxidants` ｜父类: BaseSign
-- **金色牌匾** — `SignPlaque` ｜父类: BaseSign
-- **标识装饰** — `SignPowerXeno` ｜父类: BaseSign ｜_Starlight
-- **监狱标牌** — `SignPrison` ｜父类: BaseSign
-- **心理诊室标牌** — `SignPsychology` ｜父类: BaseSign
-- **辐射警告标牌** — `SignRadiation` ｜父类: BaseSign
-- **辐射标牌** — `SignRadiationMed` ｜父类: BaseSign
-- **接待处标牌** — `SignReception` ｜父类: BaseSign
-- **数字八标牌** — `SignRedEight` ｜父类: BaseSign
-- **数字五标牌** — `SignRedFive` ｜父类: BaseSign
-- **数字四标牌** — `SignRedFour` ｜父类: BaseSign
-- **数字九标牌** — `SignRedNine` ｜父类: BaseSign
-- **数字一标牌** — `SignRedOne` ｜父类: BaseSign
-- **数字七标牌** — `SignRedSeven` ｜父类: BaseSign
-- **数字六标牌** — `SignRedSix` ｜父类: BaseSign
-- **数字三标牌** — `SignRedThree` ｜父类: BaseSign
-- **数字二标牌** — `SignRedTwo` ｜父类: BaseSign
-- **数字零标牌** — `SignRedZero` ｜父类: BaseSign
-- **洗手间标牌** — `SignRestroom` ｜父类: BaseSign
-- **研发实验室标牌** — `SignRND` ｜父类: BaseSign
-- **机器人实验室标牌** — `SignRobo` ｜父类: BaseSign
-- **打捞区标牌** — `SignSalvage` ｜父类: BaseSign
-- **科研区标牌** — `SignScience` ｜父类: BaseSign
-- **管制区标牌** — `SignSecure` ｜父类: BaseSign
-- **管制区域标牌** — `SignSecurearea` ｜父类: BaseSign
-- **标识装饰** — `SignSecureAreaSmall` ｜父类: BaseSign ｜_Starlight
-- **管制标牌** — `SignSecureMed` ｜父类: BaseSign
-- **红色管制标牌** — `SignSecureMedRed` ｜父类: BaseSign
-- **小型管制标牌** — `SignSecureSmall` ｜父类: BaseSign
-- **小型红色管制标牌** — `SignSecureSmallRed` ｜父类: BaseSign
-- **安保部标牌** — `SignSecurity` ｜父类: BaseSign
-- **服务器标牌** — `SignServer` ｜父类: BaseSign
-- **撤离区标牌** — `SignShipDock` ｜父类: BaseSign
-- **触电警告标牌** — `SignShock` ｜父类: BaseSign
-- **禁止吸烟标牌** — `SignSmoking` ｜父类: BaseSign
-- **老旧标牌** — `SignSomethingOld` ｜父类: BaseSign
-- **老旧标牌** — `SignSomethingOld2` ｜父类: BaseSign
-- **太空警告标牌** — `SignSpace` ｜父类: BaseSign
-- **标识装饰** — `SignSpaceXeno` ｜父类: BaseSign ｜_Starlight
-- **手术室标牌** — `SignSurgery` ｜父类: BaseSign
-- **生存标牌** — `SignSurvival` ｜父类: BaseSign
-- **电信室标牌** — `SignTelecomms` ｜父类: BaseSign
-- **剧院标牌** — `SignTheater` ｜父类: BaseSign
-- **工具储藏室标牌** — `SignToolStorage` ｜父类: BaseSign
-- **毒素实验室标牌** — `SignToxins` ｜父类: BaseSign
-- **金库标牌** — `SignVault` ｜父类: BaseSign
-- **病毒学实验室标牌** — `SignVirology` ｜父类: BaseSign
-- **沃克斯区域标牌** — `SignVox` ｜父类: BaseSign
-- **标识装饰** — `SignWallBiohazard` ｜父类: BaseSign ｜_Starlight
-- **标识装饰** — `SignWallExtremeHeat` ｜父类: BaseSign ｜_Starlight
-- **外星生物学实验室标牌** — `SignXenobio` ｜父类: BaseSign
-- **标识装饰** — `SignYesSmoking` ｜父类: BaseSign ｜_Starlight
-- **丧尸实验室标牌** — `SignZomlab` ｜父类: BaseSign
+- **货运区标牌** — `SignCargo` ｜父类: BaseSign ｜描述: A sign indicating the cargo area.
+- **货运停靠站标牌** — `SignCargoDock` ｜父类: BaseSign ｜描述: A sign indicating a cargo dock.
+- **神龛标牌 # Starlight: Chapel -> Shrine** — `SignChapel` ｜父类: BaseSign ｜描述: A sign indicating the Shrine.
+- **化学实验室标牌** — `SignChem` ｜父类: BaseSign ｜描述: A sign indicating the chemistry lab.
+- **克隆实验室标牌** — `SignCloning` ｜父类: BaseSign ｜描述: A sign indicating the cloning lab.
+- **会议室标牌** — `SignConference` ｜父类: BaseSign ｜描述: Where work happens.
+- **标识装饰** — `SignCoreXeno` ｜父类: BaseSign ｜_Starlight ｜描述: A sign indicating the xenoborg core. Nice of them to mark this for you.
+- **腐蚀品警告标牌** — `SignCorrosives` ｜父类: BaseSign ｜描述: A sign indicating a corrosive materials hazard.
+- **低温休眠标牌** — `SignCryo` ｜父类: BaseSign ｜描述: Just like that? You're gonna chicken out?
+- **低温材料警告标牌** — `SignCryogenics` ｜父类: BaseSign ｜描述: A sign indicating a cryogenic materials hazard. Bring a jacket!
+- **低温材料标牌** — `SignCryogenicsMed` ｜父类: BaseSign ｜描述: A sign indicating cryogenic materials.
+- **危险警告标牌** — `SignDanger` ｜父类: BaseSign ｜描述: A sign warning against some danger.
+- **危险标牌** — `SignDangerMed` ｜父类: BaseSign ｜描述: A sign warning against some form of danger.
+- **侦探办公室标牌** — `SignDetective` ｜父类: BaseSign ｜描述: A sign depicting the detective's office.
+- **大气部方向牌** — `SignDirectionalAtmos` ｜父类: BaseSignDirectional ｜描述: A direction sign, pointing out which way the Atmospherics department is.
+- **酒吧方向牌** — `SignDirectionalBar` ｜父类: BaseSignDirectional ｜描述: A direction sign, pointing out which way the bar is.
+- **舰桥方向牌** — `SignDirectionalBridge` ｜父类: BaseSignDirectional ｜描述: A direction sign, pointing out which way the Bridge is.
+- **禁闭区方向牌** — `SignDirectionalBrig` ｜父类: BaseSignDirectional ｜描述: A direction sign, pointing out which way the Brig is.
+- **神龛方向牌 # Starlight: Chapel -> Shrine** — `SignDirectionalChapel` ｜父类: BaseSignDirectional ｜描述: A direction sign, pointing out which way the Shrine is.
+- **化学实验室方向牌** — `SignDirectionalChemistry` ｜父类: BaseSignDirectional ｜描述: A direction sign, pointing out which way the chemistry lab is.
+- **低温休眠方向牌** — `SignDirectionalCryo` ｜父类: BaseSignDirectional ｜描述: A direction sign, pointing out the way to cryogenics.
+- **宿舍方向牌** — `SignDirectionalDorms` ｜父类: BaseSignDirectional ｜描述: A direction sign, pointing out which way the Dorms are.
+- **工程部方向牌** — `SignDirectionalEng` ｜父类: BaseSignDirectional ｜描述: A direction sign, pointing out which way the Engineering department is.
+- **逃生舱方向牌** — `SignDirectionalEscapePod` ｜父类: BaseSignDirectional ｜描述: A direction sign, pointing out the way to an escape pod dock.
+- **撤离区方向牌** — `SignDirectionalEvac` ｜父类: BaseSignDirectional ｜描述: A direction sign, pointing out which way evac is.
+- **诊察室方向牌** — `SignDirectionalExam` ｜父类: BaseSignDirectional ｜描述: A direction sign, pointing out which way the examination room(s) are.
+- **厨房方向牌** — `SignDirectionalFood` ｜父类: BaseSignDirectional ｜描述: A direction sign, pointing out which way the kitchen is.
+- **重力发生器方向牌** — `SignDirectionalGravity` ｜父类: BaseSignDirectional ｜描述: A direction sign, pointing out which way the gravity generator is.
+- **人事主管办公室方向牌** — `SignDirectionalHop` ｜父类: BaseSignDirectional ｜描述: A direction sign, pointing out which way Head of Personnel's office is.
+- **水培区方向牌** — `SignDirectionalHydro` ｜父类: BaseSignDirectional ｜描述: A direction sign, pointing out which way hydroponics is.
+- **重症监护室方向牌** — `SignDirectionalIcu` ｜父类: BaseSignDirectional ｜描述: A direction sign, pointing out which way the ICU is.
+- **清洁间方向牌** — `SignDirectionalJanitor` ｜父类: BaseSignDirectional ｜描述: A direction sign, pointing out which way the janitor's closet is.
+- **图书馆方向牌** — `SignDirectionalLibrary` ｜父类: BaseSignDirectional ｜描述: A direction sign, pointing out which way the library is.
+- **医疗部方向牌** — `SignDirectionalMed` ｜父类: BaseSignDirectional ｜描述: A direction sign, pointing out which way the Medical department is.
+- **采矿 标牌** — `SignDirectionalMining` ｜父类: BaseSignDirectional ｜_Starlight ｜描述: A direction sign, pointing out which way the Mining department is.
+- **打捞区方向牌** — `SignDirectionalSalvage` ｜父类: BaseSignDirectional ｜描述: A direction sign, pointing out which way the Salvage department is.
+- **科研部方向牌** — `SignDirectionalSci` ｜父类: BaseSignDirectional ｜描述: A direction sign, pointing out which way the Science department is.
+- **安保部方向牌** — `SignDirectionalSec` ｜父类: BaseSignDirectional ｜描述: A direction sign, pointing out which way Security is.
+- **太阳能阵列方向牌** — `SignDirectionalSolar` ｜父类: BaseSignDirectional ｜描述: A direction sign, pointing out which way solars are.
+- **物资方向牌** — `SignDirectionalSupply` ｜父类: BaseSignDirectional ｜描述: A direction sign, pointing to some supplies.
+- **洗手间方向牌** — `SignDirectionalWash` ｜父类: BaseSignDirectional ｜描述: A direction sign, pointing to the way to a washroom.
+- **标识装饰** — `SignDisposalProper` ｜父类: BaseSign ｜_Starlight ｜描述: A sign indicating a disposal area.
+- **废物处理区标牌** — `SignDisposalSpace` ｜父类: BaseSign ｜描述: A sign indicating a disposal area.
+- **门标牌** — `SignDoors` ｜父类: BaseSign ｜描述: A sign indicating doors.
+- **门s 标牌** — `SignDoorsXeno` ｜父类: BaseSign ｜_Starlight ｜描述: A sign warning of doors. Don't stand in them when closing, you wouldn't want to be gibbed would you?
+- **电气危险标牌** — `SignElectrical` ｜父类: BaseSign ｜描述: A sign indicating an electrical hazard.
+- **电气危险标牌** — `SignElectricalMed` ｜父类: BaseSign ｜描述: A sign indicating an electrical hazard.
+- **标识装饰** — `SignEmergencyEvac` ｜父类: BaseWallmountMachine ｜_Starlight ｜描述: A sign indicating that Evac is this way
+- **标识装饰** — `SignEmergencyExit` ｜父类: BaseWallmountMachine ｜_Starlight ｜描述: A sign indicating that an exit is this way.
+- **电力标牌** — `SignEngine` ｜父类: BaseSign ｜描述: Where the powa happens.
+- **工程区标牌** — `SignEngineering` ｜父类: BaseSign ｜描述: A sign indicating the engineering area.
+- **逃生舱标牌** — `SignEscapePods` ｜父类: BaseSign ｜描述: A sign indicating the escape pods.
+- **EVA 标牌** — `SignEVA` ｜父类: BaseSign ｜描述: A sign indicating an EVA area. EVA equipment may be required beyond this point.
+- **诊察室标牌** — `SignExamroom` ｜父类: BaseSign ｜描述: A sign indicating a medical examination room.
+- **爆炸物警告标牌** — `SignExplosives` ｜父类: BaseSign ｜描述: A sign indicating an explosive materials hazard.
+- **火灾危险标牌** — `SignFire` ｜父类: BaseSign ｜描述: A sign indicating a fire hazard.
+- **易燃物警告标牌** — `SignFlammable` ｜父类: BaseSign ｜描述: A sign indicating a flammable materials hazard.
+- **易燃物标牌 #when flammable component is done, this sign needs it** — `SignFlammableMed` ｜父类: BaseSign ｜描述: A sign indicating flammable materials.
+- **普通监区标牌** — `SignGenpop` ｜父类: BaseSign ｜描述: A sign indicating the genpop prison.
+- **重力发生器标牌** — `SignGravity` ｜父类: BaseSign ｜描述: A sign indicating the gravity generator.
+- **部门主管标牌** — `SignHead` ｜父类: BaseSign ｜描述: An official sign indicating the dwellings of a NanoTrasen-certified head of department.
+- **水培区标牌** — `SignHydro1` ｜父类: BaseSign ｜描述: A sign indicating a hydroponics area.
+- **标识装饰** — `SignIAA` ｜父类: BaseSign ｜_Starlight ｜描述: A sign indicating Internal Affairs and their impending audit of your department.
+- **审讯室标牌** — `SignInterrogation` ｜父类: BaseSign ｜描述: A sign indicating an interrogation room.
+- **清洁区标牌** — `SignJanitor` ｜父类: BaseSign ｜描述: A sign labelling an area where the janitor works.
+- **儿童牌匾** — `SignKiddiePlaque` ｜父类: BaseSign ｜描述: A modest plaque.
+- **厨房标牌** — `SignKitchen` ｜父类: BaseSign ｜描述: The heart of the home. And disease.
+- **激光警告标牌** — `SignLaser` ｜父类: BaseSign ｜描述: A sign indicating a laser hazard.
+- **激光标牌** — `SignLaserMed` ｜父类: BaseSign ｜描述: A sign indicating a laser hazard.
+- **洗衣房标牌** — `SignLaundromat` ｜父类: BaseSign ｜描述: A sign indicating the laundromat.
+- **法务标牌** — `SignLawyer` ｜父类: BaseSign ｜描述: A sign indicating the presence of the (typically absent) rule of law.
+- **标识装饰** — `SignLawyerOffice` ｜父类: BaseSign ｜_Starlight ｜描述: A sign indicating the presence of someone you better call.
+- **图书馆标牌** — `SignLibrary` ｜父类: BaseSign ｜描述: A sign indicating the library.
+- **储物容器** — `SignLockerCargo` ｜父类: BaseSign ｜_Starlight ｜描述: A sign indicating where the locker room is.
+- **储物容器** — `SignLockerCommand` ｜父类: BaseSign ｜_Starlight ｜描述: A sign indicating where the locker room is.
+- **储物容器** — `SignLockerEngineering` ｜父类: BaseSign ｜_Starlight ｜描述: A sign indicating where the locker room is.
+- **储物容器** — `SignLockerMedical` ｜父类: BaseSign ｜_Starlight ｜描述: A sign indicating where the locker room is.
+- **储物容器** — `SignLockerScience` ｜父类: BaseSign ｜_Starlight ｜描述: A sign indicating where the locker room is.
+- **储物容器** — `SignLockerSecurity` ｜父类: BaseSign ｜_Starlight ｜描述: A sign indicating where the locker room is.
+- **储物容器** — `SignLockerService` ｜父类: BaseSign ｜_Starlight ｜描述: A sign indicating where the locker room is.
+- **标识装饰** — `SignMagistrate` ｜父类: BaseSign ｜_Starlight ｜描述: A sign indicating the presence of the ultimate authority of Corporate Law.
+- **磁性材料警告标牌** — `SignMagnetics` ｜父类: BaseSign ｜描述: A sign indicating a magnetic materials hazard.
+- **磁力标牌** — `SignMagneticsMed` ｜父类: BaseSign ｜描述: A sign indicating the use of magnets.
+- **邮件标牌** — `SignMail` ｜父类: BaseSign ｜描述: A sign indicating mail.
+- **材料库标牌** — `SignMaterials` ｜父类: BaseSign ｜描述: An omen to the juicy vault of steel, glass, and plastic that lays before you.
+- **医疗部标牌** — `SignMedical` ｜父类: BaseSign ｜描述: A sign indicating the medical bay.
+- **模因危害警告标牌** — `SignMemetic` ｜父类: BaseSign ｜描述: A sign indicating a memetic hazard.
+- **采矿 标牌** — `SignMining` ｜父类: BaseSign ｜_Starlight ｜描述: A sign indicating the mining area.
+- **停尸房标牌** — `SignMorgue` ｜父类: BaseSign ｜描述: A sign indicating the morgue.
+- **纳米传讯标牌 1** — `SignNanotrasen1` ｜父类: BaseSign ｜描述: Part 1.
+- **纳米传讯标牌 2** — `SignNanotrasen2` ｜父类: BaseSign ｜描述: Part 2.
+- **纳米传讯标牌 3** — `SignNanotrasen3` ｜父类: BaseSign ｜描述: Part 3.
+- **纳米传讯标牌 4** — `SignNanotrasen4` ｜父类: BaseSign ｜描述: Part 4.
+- **纳米传讯标牌 5** — `SignNanotrasen5` ｜父类: BaseSign ｜描述: Part 5.
+- **新闻部标牌** — `SignNews` ｜父类: BaseSign ｜描述: A sign indicating where the Reporter works.
+- **禁止吸烟标牌** — `SignNosmoking` ｜父类: BaseSign ｜描述: A sign indicating that smoking is not allowed in the vicinity.
+- **标识装饰** — `SignNoSmoking` ｜父类: BaseSign ｜_Starlight ｜描述: A sign indicating you can not smoke here.
+- **矿井标牌** — `SignNTMine` ｜父类: BaseSign ｜描述: A sign. "Mine" is written on it.
+- **NTR 标牌** — `SignNTR` ｜父类: BaseSign ｜_Starlight ｜描述: A sign indicating the physical presence of NanoTrasen aboard the station.
+- **光辐射警告标牌** — `SignOptical` ｜父类: BaseSign ｜描述: A sign indicating an optical radiation hazard.
+- **氧化剂警告标牌** — `SignOxidants` ｜父类: BaseSign ｜描述: A sign indicating an oxidizing agent hazard.
+- **金色牌匾** — `SignPlaque` ｜父类: BaseSign ｜描述: A prestigious golden plaque.
+- **标识装饰** — `SignPowerXeno` ｜父类: BaseSign ｜_Starlight ｜描述: A sign indicating the xenoborg power systems. Electrical hazards ahead.
+- **监狱标牌** — `SignPrison` ｜父类: BaseSign ｜描述: A sign indicating the prison.
+- **心理诊室标牌** — `SignPsychology` ｜父类: BaseSign ｜描述: A sign labelling an area where the Psychologist works.
+- **辐射警告标牌** — `SignRadiation` ｜父类: BaseSign ｜描述: A sign indicating an ionizing radiation hazard.
+- **辐射标牌** — `SignRadiationMed` ｜父类: BaseSign ｜描述: A sign indicating an ionizing radiation hazard.
+- **接待处标牌** — `SignReception` ｜父类: BaseSign ｜描述: A sign indicating the reception.
+- **数字八标牌** — `SignRedEight` ｜父类: BaseSign ｜描述: A sign with a digit, eight is written on it.
+- **数字五标牌** — `SignRedFive` ｜父类: BaseSign ｜描述: A sign with a digit, five is written on it.
+- **数字四标牌** — `SignRedFour` ｜父类: BaseSign ｜描述: A sign with a digit, four is written on it.
+- **数字九标牌** — `SignRedNine` ｜父类: BaseSign ｜描述: A sign with a digit, nine is written on it.
+- **数字一标牌** — `SignRedOne` ｜父类: BaseSign ｜描述: A sign with a digit, one is written on it.
+- **数字七标牌** — `SignRedSeven` ｜父类: BaseSign ｜描述: A sign with a digit, seven is written on it.
+- **数字六标牌** — `SignRedSix` ｜父类: BaseSign ｜描述: A sign with a digit, six is written on it.
+- **数字三标牌** — `SignRedThree` ｜父类: BaseSign ｜描述: A sign with a digit, three is written on it.
+- **数字二标牌** — `SignRedTwo` ｜父类: BaseSign ｜描述: A sign with a digit, two is written on it.
+- **数字零标牌** — `SignRedZero` ｜父类: BaseSign ｜描述: A sign with a digit, zero is written on it.
+- **洗手间标牌** — `SignRestroom` ｜父类: BaseSign ｜描述: A sign indicating where you go to... What do you do here again?
+- **研发实验室标牌** — `SignRND` ｜父类: BaseSign ｜描述: A sign indicating the research and development lab.
+- **机器人实验室标牌** — `SignRobo` ｜父类: BaseSign ｜描述: A sign indicating the robotics lab.
+- **打捞区标牌** — `SignSalvage` ｜父类: BaseSign ｜描述: A sign indicating the salvage area.
+- **科研区标牌** — `SignScience` ｜父类: BaseSign ｜描述: A sign indicating the science area.
+- **管制区标牌** — `SignSecure` ｜父类: BaseSign ｜描述: A sign indicating that the area ahead is a secure area.
+- **管制区域标牌** — `SignSecurearea` ｜父类: BaseSign ｜描述: A sign indicating that the area ahead is a secure area.
+- **标识装饰** — `SignSecureAreaSmall` ｜父类: BaseSign ｜_Starlight ｜描述: A sign indicating a secure area.
+- **管制标牌** — `SignSecureMed` ｜父类: BaseSign ｜描述: A sign indicating that the area ahead is a secure area.
+- **红色管制标牌** — `SignSecureMedRed` ｜父类: BaseSign ｜描述: A sign indicating that the area ahead is a secure area.
+- **小型管制标牌** — `SignSecureSmall` ｜父类: BaseSign ｜描述: A sign indicating that the area ahead is a secure area.
+- **小型红色管制标牌** — `SignSecureSmallRed` ｜父类: BaseSign ｜描述: A sign indicating that the area ahead is a secure area.
+- **安保部标牌** — `SignSecurity` ｜父类: BaseSign ｜描述: A sign depicting the security insignia.
+- **服务器标牌** — `SignServer` ｜父类: BaseSign ｜描述: Ever heard of Big Data? This is it, chump. The biggest.
+- **撤离区标牌** — `SignShipDock` ｜父类: BaseSign ｜描述: A sign indicating the where the evac shuttle will (likely) arrive.
+- **触电警告标牌** — `SignShock` ｜父类: BaseSign ｜描述: A sign indicating an electrical hazard.
+- **禁止吸烟标牌** — `SignSmoking` ｜父类: BaseSign ｜描述: A warning sign which reads 'NO SMOKING'.
+- **老旧标牌** — `SignSomethingOld` ｜父类: BaseSign ｜描述: Technical information of some sort, shame it's too worn-out to read.
+- **老旧标牌** — `SignSomethingOld2` ｜父类: BaseSign ｜描述: Looks like a planet crashing by some station above it. It's kinda scary.
+- **太空警告标牌** — `SignSpace` ｜父类: BaseSign ｜描述: A sign warning that the area ahead is nothing but cold, empty space.
+- **标识装饰** — `SignSpaceXeno` ｜父类: BaseSign ｜_Starlight ｜描述: A sign indicating these doors leads to space. That heavy xenoborg might be lost forever! Don't end up like them.
+- **手术室标牌** — `SignSurgery` ｜父类: BaseSign ｜描述: A sign indicating the operating theater.
+- **生存标牌** — `SignSurvival` ｜父类: BaseSign ｜描述: A sign. "Survival" is written on it.
+- **电信室标牌** — `SignTelecomms` ｜父类: BaseSign ｜描述: A sign indicating the telecommunications room.
+- **剧院标牌** — `SignTheater` ｜父类: BaseSign ｜描述: Would it even be Space Station without drama?
+- **工具储藏室标牌** — `SignToolStorage` ｜父类: BaseSign ｜描述: A sign indicating the tool storage room.
+- **毒素实验室标牌** — `SignToxins` ｜父类: BaseSign ｜描述: A sign indicating the toxin lab.
+- **金库标牌** — `SignVault` ｜父类: BaseSign ｜描述: A sign indicating the vault. Who knows what secrets lie inside?
+- **病毒学实验室标牌** — `SignVirology` ｜父类: BaseSign ｜描述: A sign indicating the virology lab.
+- **沃克斯区域标牌** — `SignVox` ｜父类: BaseSign ｜描述: A sign indicating that the area ahead is intended for Vox crew members and does not have an oxygen atmosphere.
+- **标识装饰** — `SignWallBiohazard` ｜父类: BaseSign ｜_Starlight ｜描述: A sign indicating a biohazard.
+- **标识装饰** — `SignWallExtremeHeat` ｜父类: BaseSign ｜_Starlight ｜描述: A sign indicating extreme heat.
+- **外星生物学实验室标牌** — `SignXenobio` ｜父类: BaseSign ｜描述: A sign indicating the xenobiology lab.
+- **标识装饰** — `SignYesSmoking` ｜父类: BaseSign ｜_Starlight ｜描述: A sign indicating you can smoke here.
+- **丧尸实验室标牌** — `SignZomlab` ｜父类: BaseSign ｜描述: The final remains of a shut-down NanoTrasen research project that aimed to harness the powers of Romerol. I wonder how that went...
 - **银门** — `SilverDoor` ｜父类: BaseMaterialDoorNavMap
-- **引力奇点** — `Singularity`
-- **引力奇点发生器** — `SingularityGenerator`
+- **引力奇点** — `Singularity` ｜描述: A mesmerizing swirl of darkness that sucks in everything. If it's moving towards you, run.
+- **引力奇点发生器** — `SingularityGenerator` ｜描述: An Odd Device which produces a Gravitational Singularity when set up. Comes with a temporary shutdown containment failsafe.
 - **水槽** — `Sink` ｜父类: SinkEmpty
-- **水槽** — `SinkEmpty`
+- **水槽** — `SinkEmpty` ｜描述: The faucets have been tightened to the maximum possible torque but are still known to drip.
 - **水槽** — `SinkStemless` ｜父类: SinkEmpty
 - **水槽** — `SinkStemlessWater` ｜父类: SinkStemless
 - **宽水槽** — `SinkWide` ｜父类: Sink
-- **史莱姆处理机** — `SlimeProcessor` ｜父类: BaseMachinePowered,ConstructibleMachine ｜_Starlight
-- **功能设备** — `SlopDispenser` ｜父类: BaseLathe ｜_Starlight
-- `模板` **自动售货机** — `SLVendingMachine` ｜父类: BaseMachinePowered ｜_Starlight
+- **史莱姆处理机** — `SlimeProcessor` ｜父类: BaseMachinePowered,ConstructibleMachine ｜_Starlight ｜描述: Turns slime corpses into extracts. Try freezing them first!
+- **功能设备** — `SlopDispenser` ｜父类: BaseLathe ｜_Starlight ｜描述: Produces tha slop using biomass. Can also convert plants to biomass for direct use.
+- `模板` **自动售货机** — `SLVendingMachine` ｜父类: BaseMachinePowered ｜_Starlight ｜描述: Just add capitalism!
 - **功能设备** — `SLVendingMachineEngi` ｜父类: SLVendingMachine ｜_Starlight
-- **功能设备** — `SLVendingMachineFashion` ｜父类: SLVendingMachine ｜_Starlight
+- **功能设备** — `SLVendingMachineFashion` ｜父类: SLVendingMachine ｜_Starlight ｜描述: Happiness should be expensive.
 - **功能设备** — `SLVendingMachineHugDispenser` ｜父类: SLVendingMachine ｜_Starlight
 - **医疗 分配器** — `SLVendingMachineMedical` ｜父类: SLVendingMachine ｜_Starlight
 - **采矿 取号机** — `SLVendingMachineMining` ｜父类: SLVendingMachine ｜_Starlight
 - **打捞 取号机** — `SLVendingMachineSalvage` ｜父类: SLVendingMachine ｜_Starlight
 - **安保 分配器** — `SLVendingMachineSecurity` ｜父类: SLVendingMachine ｜_Starlight
 - `模板` **SmallConstructibleMachine** — `SmallConstructibleMachine` ｜父类: ConstructibleMachine
-- **小灯** — `SmallLight` ｜父类: AlwaysPoweredWallLight
-- **智能冰柜** — `SmartFridge` ｜父类: BaseStructureDynamic,ConstructibleMachine
+- **小灯** — `SmallLight` ｜父类: AlwaysPoweredWallLight ｜描述: An always powered light.
+- **智能冰柜** — `SmartFridge` ｜父类: BaseStructureDynamic,ConstructibleMachine ｜描述: A refrigerated storage unit for keeping items cold and fresh.
 - **智能冰柜** — `SmartFridgeMedical` ｜父类: SmartFridge
-- **高级 SMES** — `SMESAdvanced` ｜父类: BaseSMES
+- **高级 SMES** — `SMESAdvanced` ｜父类: BaseSMES ｜描述: An even-higher-capacity superconducting magnetic energy storage (SMES) unit.
 - **高级 SMES** — `SMESAdvancedEmpty` ｜父类: SMESAdvanced
 - **SMES 储能柜** — `SMESBasic` ｜父类: BaseSMES
 - **SMES 储能柜** — `SMESBasicEmpty` ｜父类: SMESBasic
-- **超先进 SMES** — `SMESBlue` ｜父类: BaseSMES ｜_Starlight
+- **超先进 SMES** — `SMESBlue` ｜父类: BaseSMES ｜_Starlight ｜描述: An even-higher-capacity superconducting magnetic energy storage (SMES) unit.
 - **物品** — `SMESBlueEmpty` ｜父类: SMESBlue ｜_Starlight
 - **汽水分配器** — `SodaDispenser` ｜父类: SodaDispenserEmpty
-- **汽水分配器** — `SodaDispenserEmpty` ｜父类: ReagentDispenserBasePowerCell
-- **沙发** — `SofaCorner` ｜父类: SeatBase ｜_Starlight
-- **沙发** — `SofaCornerBlue` ｜父类: SeatBase ｜_Starlight
-- **沙发** — `SofaCornerBrown` ｜父类: SeatBase ｜_Starlight
-- **沙发** — `SofaCornerGreen` ｜父类: SeatBase ｜_Starlight
-- **沙发** — `SofaCornerRed` ｜父类: SeatBase ｜_Starlight
-- **沙发** — `SofaCornerWhite` ｜父类: SeatBase ｜_Starlight
-- **沙发** — `SofaEndLeft` ｜父类: SeatBase ｜_Starlight
-- **沙发** — `SofaEndLeftBlue` ｜父类: SeatBase ｜_Starlight
-- **沙发** — `SofaEndLeftBrown` ｜父类: SeatBase ｜_Starlight
-- **沙发** — `SofaEndLeftGreen` ｜父类: SeatBase ｜_Starlight
-- **沙发** — `SofaEndLeftRed` ｜父类: SeatBase ｜_Starlight
-- **沙发** — `SofaEndLeftWhite` ｜父类: SeatBase ｜_Starlight
-- **沙发** — `SofaEndRight` ｜父类: SeatBase ｜_Starlight
-- **沙发** — `SofaEndRightBlue` ｜父类: SeatBase ｜_Starlight
-- **沙发** — `SofaEndRightBrown` ｜父类: SeatBase ｜_Starlight
-- **沙发** — `SofaEndRightGreen` ｜父类: SeatBase ｜_Starlight
-- **沙发** — `SofaEndRightRed` ｜父类: SeatBase ｜_Starlight
-- **沙发** — `SofaEndRightWhite` ｜父类: SeatBase ｜_Starlight
-- **华丽 沙发** — `SofaFancyEndLeft` ｜父类: SeatBase ｜_Starlight
-- **华丽 沙发** — `SofaFancyEndRight` ｜父类: SeatBase ｜_Starlight
-- **华丽 沙发** — `SofaFancyMiddle` ｜父类: SeatBase ｜_Starlight
-- **沙发** — `SofaMiddle` ｜父类: SeatBase ｜_Starlight
-- **沙发** — `SofaMiddleBlue` ｜父类: SeatBase ｜_Starlight
-- **沙发** — `SofaMiddleBrown` ｜父类: SeatBase ｜_Starlight
-- **沙发** — `SofaMiddleGreen` ｜父类: SeatBase ｜_Starlight
-- **沙发** — `SofaMiddleRed` ｜父类: SeatBase ｜_Starlight
-- **沙发** — `SofaMiddleWhite` ｜父类: SeatBase ｜_Starlight
-- **太阳能组件** — `SolarAssembly`
-- **太阳能板** — `SolarPanel` ｜父类: SolarPanelBasePhysSprite
+- **汽水分配器** — `SodaDispenserEmpty` ｜父类: ReagentDispenserBasePowerCell ｜描述: A beverage dispenser with a selection of soda and several other common beverages. Has a single fill slot for containers.
+- **沙发** — `SofaCorner` ｜父类: SeatBase ｜_Starlight ｜描述: It looks comfy.
+- **沙发** — `SofaCornerBlue` ｜父类: SeatBase ｜_Starlight ｜描述: It looks comfy.
+- **沙发** — `SofaCornerBrown` ｜父类: SeatBase ｜_Starlight ｜描述: It looks comfy.
+- **沙发** — `SofaCornerGreen` ｜父类: SeatBase ｜_Starlight ｜描述: It looks comfy.
+- **沙发** — `SofaCornerRed` ｜父类: SeatBase ｜_Starlight ｜描述: It looks comfy.
+- **沙发** — `SofaCornerWhite` ｜父类: SeatBase ｜_Starlight ｜描述: It looks comfy.
+- **沙发** — `SofaEndLeft` ｜父类: SeatBase ｜_Starlight ｜描述: It looks comfy.
+- **沙发** — `SofaEndLeftBlue` ｜父类: SeatBase ｜_Starlight ｜描述: It looks comfy.
+- **沙发** — `SofaEndLeftBrown` ｜父类: SeatBase ｜_Starlight ｜描述: It looks comfy.
+- **沙发** — `SofaEndLeftGreen` ｜父类: SeatBase ｜_Starlight ｜描述: It looks comfy.
+- **沙发** — `SofaEndLeftRed` ｜父类: SeatBase ｜_Starlight ｜描述: It looks comfy.
+- **沙发** — `SofaEndLeftWhite` ｜父类: SeatBase ｜_Starlight ｜描述: It looks comfy.
+- **沙发** — `SofaEndRight` ｜父类: SeatBase ｜_Starlight ｜描述: It looks comfy.
+- **沙发** — `SofaEndRightBlue` ｜父类: SeatBase ｜_Starlight ｜描述: It looks comfy.
+- **沙发** — `SofaEndRightBrown` ｜父类: SeatBase ｜_Starlight ｜描述: It looks comfy.
+- **沙发** — `SofaEndRightGreen` ｜父类: SeatBase ｜_Starlight ｜描述: It looks comfy.
+- **沙发** — `SofaEndRightRed` ｜父类: SeatBase ｜_Starlight ｜描述: It looks comfy.
+- **沙发** — `SofaEndRightWhite` ｜父类: SeatBase ｜_Starlight ｜描述: It looks comfy.
+- **华丽 沙发** — `SofaFancyEndLeft` ｜父类: SeatBase ｜_Starlight ｜描述: It looks comfy.
+- **华丽 沙发** — `SofaFancyEndRight` ｜父类: SeatBase ｜_Starlight ｜描述: It looks comfy.
+- **华丽 沙发** — `SofaFancyMiddle` ｜父类: SeatBase ｜_Starlight ｜描述: It looks comfy.
+- **沙发** — `SofaMiddle` ｜父类: SeatBase ｜_Starlight ｜描述: It looks comfy.
+- **沙发** — `SofaMiddleBlue` ｜父类: SeatBase ｜_Starlight ｜描述: It looks comfy.
+- **沙发** — `SofaMiddleBrown` ｜父类: SeatBase ｜_Starlight ｜描述: It looks comfy.
+- **沙发** — `SofaMiddleGreen` ｜父类: SeatBase ｜_Starlight ｜描述: It looks comfy.
+- **沙发** — `SofaMiddleRed` ｜父类: SeatBase ｜_Starlight ｜描述: It looks comfy.
+- **沙发** — `SofaMiddleWhite` ｜父类: SeatBase ｜_Starlight ｜描述: It looks comfy.
+- **太阳能组件** — `SolarAssembly` ｜描述: A solar assembly. Anchor to a wire to start building a solar panel.
+- **太阳能板** — `SolarPanel` ｜父类: SolarPanelBasePhysSprite ｜描述: A few sheets of glass that generate electricity when hit by photons.
 - **太阳能板** — `SolarPanelBasePhysSprite`
-- **太阳能板** — `SolarPanelBroken` ｜父类: SolarPanelBasePhysSprite
-- **等离子体太阳能板** — `SolarPanelPlasma` ｜父类: SolarPanelBasePhysSprite
-- **等离子体太阳能板** — `SolarPanelPlasmaBroken` ｜父类: SolarPanelBasePhysSprite
-- **铀太阳能板** — `SolarPanelUranium` ｜父类: SolarPanelBasePhysSprite
-- **铀太阳能板** — `SolarPanelUraniumBroken` ｜父类: SolarPanelBasePhysSprite
-- **太阳追踪器** — `SolarTracker`
+- **太阳能板** — `SolarPanelBroken` ｜父类: SolarPanelBasePhysSprite ｜描述: A broken solar panel.
+- **等离子体太阳能板** — `SolarPanelPlasma` ｜父类: SolarPanelBasePhysSprite ｜描述: A few sheets of plasma glass that generate electricity when hit by photons.
+- **等离子体太阳能板** — `SolarPanelPlasmaBroken` ｜父类: SolarPanelBasePhysSprite ｜描述: A broken plasma solar panel.
+- **铀太阳能板** — `SolarPanelUranium` ｜父类: SolarPanelBasePhysSprite ｜描述: A few sheets of uranium glass that generate electricity when hit by photons.
+- **铀太阳能板** — `SolarPanelUraniumBroken` ｜父类: SolarPanelBasePhysSprite ｜描述: A broken uranium solar panel.
+- **太阳追踪器** — `SolarTracker` ｜描述: A solar tracker. Tracks the nearest star.
 - **功能设备** — `SolgovComputerComms` ｜父类: ComputerComms ｜_Starlight
 - **实心墙** — `SolidSecretDoor` ｜父类: BaseSecretDoor
-- **空间加热器** — `SpaceHeater` ｜父类: BaseMachinePowered,ConstructibleMachine
+- **空间加热器** — `SpaceHeater` ｜父类: BaseMachinePowered,ConstructibleMachine ｜描述: A bluespace technology device that alters local temperature. Commonly referred to as a "Space Heater".
 - **空间加热器** — `SpaceHeaterAnchored` ｜父类: SpaceHeater
 - **空间加热器** — `SpaceHeaterEnabled` ｜父类: SpaceHeaterAnchored
 - **太空恶棍街机** — `SpaceVillainArcade` ｜父类: ArcadeBase
 - **太空恶棍街机** — `SpaceVillainArcadeFilled` ｜父类: SpaceVillainArcade
-- **扬声器** — `Speaker` ｜父类: BaseWallmountMachine ｜_Starlight
-- **蜘蛛网** — `SpiderWeb` ｜父类: SpiderWebBase
-- **气密 蜘蛛网** — `SpiderWebAirtight` ｜父类: SpiderWebBase ｜_Starlight
+- **扬声器** — `Speaker` ｜父类: BaseWallmountMachine ｜_Starlight ｜描述: Ensuring you consume a minimum number of advertisements per shift.
+- **蜘蛛网** — `SpiderWeb` ｜父类: SpiderWebBase ｜描述: It's stringy and sticky.
+- **气密 蜘蛛网** — `SpiderWebAirtight` ｜父类: SpiderWebBase ｜_Starlight ｜描述: It's stringy, sticky, and airtight.
 - `模板` **SpiderWebBase** — `SpiderWebBase`
-- **小丑蜘蛛网** — `SpiderWebClown` ｜父类: SpiderWebBase
-- **毒蛛网** — `SpiderWebPoison` ｜父类: SpiderWebSlime ｜_Starlight
-- **史莱姆蛛网** — `SpiderWebSlime` ｜父类: SpiderWebBase ｜_Starlight
-- **幼蛛蛛网** — `SpiderWebSpiderlings` ｜父类: SpiderWebBase ｜_Starlight
-- **隐形蛛网** — `SpiderWebStealth` ｜父类: SpiderWebBase ｜_Starlight
-- **坚固 蜘蛛网** — `SpiderWebStrong` ｜父类: SpiderWebBase ｜_Starlight
-- **厚蛛网** — `SpiderWebStrongThick` ｜父类: SpiderWebStrong ｜_Starlight
-- **无名雇员之墓** — `SS13Memorial` ｜父类: BaseStructure
+- **小丑蜘蛛网** — `SpiderWebClown` ｜父类: SpiderWebBase ｜描述: It's stringy and slippy.
+- **毒蛛网** — `SpiderWebPoison` ｜父类: SpiderWebSlime ｜_Starlight ｜描述: It's stringy, sticky, and sickly.
+- **史莱姆蛛网** — `SpiderWebSlime` ｜父类: SpiderWebBase ｜_Starlight ｜描述: It's stringy, sticky, and slimy.
+- **幼蛛蛛网** — `SpiderWebSpiderlings` ｜父类: SpiderWebBase ｜_Starlight ｜描述: It's stringy and sticky. Contains a solution that keeps spiderlings away.
+- **隐形蛛网** — `SpiderWebStealth` ｜父类: SpiderWebBase ｜_Starlight ｜描述: It's stringy and sticky.
+- **坚固 蜘蛛网** — `SpiderWebStrong` ｜父类: SpiderWebBase ｜_Starlight ｜描述: It's stringy, sticky, and strong.
+- **厚蛛网** — `SpiderWebStrongThick` ｜父类: SpiderWebStrong ｜_Starlight ｜描述: It's stringy, sticky, solid, and strong.
+- **无名雇员之墓** — `SS13Memorial` ｜父类: BaseStructure ｜描述: Here rests an unknown employee
+Unknown by name or rank
+Whose acts will not be forgotten
 - **楼梯** — `StairBlack` ｜父类: Stairs ｜_Starlight
 - **楼梯** — `StairDark` ｜父类: Stairs
-- **楼梯** — `Stairs` ｜父类: BaseFloorDecoration
+- **楼梯** — `Stairs` ｜父类: BaseFloorDecoration ｜描述: The greatest invention since rocket-propelled grenades.
 - **楼梯** — `StairsSmallSteel` ｜父类: RMCStairs ｜_Starlight
 - **楼梯** — `StairsSmallWood` ｜父类: RMCStairsWood ｜_Starlight
 - **楼梯** — `StairStage` ｜父类: Stairs
@@ -3271,43 +3280,44 @@
 - **楼梯** — `StairStageWood` ｜父类: Stairs
 - **楼梯** — `StairWhite` ｜父类: Stairs
 - **楼梯** — `StairWood` ｜父类: Stairs
-- **立式麦克风** — `StandingMicrophone` ｜父类: BaseStructure ｜_Starlight
-- **静滞床** — `StasisBed` ｜父类: BaseMachinePowered,ConstructibleMachine
-- **AI 修复控制台** — `StationAiFixerComputer` ｜父类: BaseComputer
-- **AI 法则上传控制台** — `StationAiUploadComputer` ｜父类: BaseComputer
+- **立式麦克风** — `StandingMicrophone` ｜父类: BaseStructure ｜_Starlight ｜描述: So whats the deal with airplane food?
+- **静滞床** — `StasisBed` ｜父类: BaseMachinePowered,ConstructibleMachine ｜描述: A bed that massively slows down the patient's metabolism and prevents bodily decay, allowing more time to administer a proper treatment for stabilization.
+- **AI 修复控制台** — `StationAiFixerComputer` ｜父类: BaseComputer ｜描述: Used to repair damaged artifical intelligences.
+- **AI 法则上传控制台** — `StationAiUploadComputer` ｜父类: BaseComputer ｜描述: Used to update the laws of the station AI.
 - **空间站锚定器** — `StationAnchor` ｜父类: StationAnchorBase,BaseMachinePowered,ConstructibleMachine
-- `模板` **station anchor** — `StationAnchorBase`
+- `模板` **station anchor** — `StationAnchorBase` ｜描述: Prevents stations from moving.
 - **空间站锚定器** — `StationAnchorIndestructible` ｜父类: StationAnchorBase
 - **空间站锚定器** — `StationAnchorOff` ｜父类: StationAnchor
-- **空间站地图** — `StationMap` ｜父类: BaseWallmountMachine
-- **空间站地图组件** — `StationMapAssembly` ｜父类: BaseWallmountMetallic
-- **空间站地图** — `StationMapBroken` ｜父类: BaseWallmountMetallic
-- **香蕉矿救世主雕像** — `StatueBananiumClown` ｜父类: BaseStructure
+- **空间站地图** — `StationMap` ｜父类: BaseWallmountMachine ｜描述: A virtual map of the surrounding station.
+- **空间站地图组件** — `StationMapAssembly` ｜父类: BaseWallmountMetallic ｜描述: A station map assembly.
+- **空间站地图** — `StationMapBroken` ｜父类: BaseWallmountMetallic ｜描述: A virtual map of the surrounding station.
+- **香蕉矿救世主雕像** — `StatueBananiumClown` ｜父类: BaseStructure ｜描述: A bananium statue. It portrays the return of the savior who will rise up and lead the clowns to the great honk.
 - **小型铁砂雕像** — `StatueIronsandSmall` ｜父类: BaseIronsandStatue
 - **小型铁砂雕像** — `StatueIronsandSmall2` ｜父类: BaseIronsandStatue
 - **高大铁砂雕像** — `StatueIronsandTall` ｜父类: BaseIronsandStatue
 - **高大铁砂雕像** — `StatueIronsandTall2` ｜父类: BaseIronsandStatue
-- **标识装饰** — `StatueOneYearAnniversary` ｜父类: BaseStructure ｜_Starlight
-- **标识装饰** — `StatueStoneCUP` ｜父类: BaseStructure ｜_Starlight
-- **纯洁少女雕像** — `StatueVenusBlue` ｜父类: BaseStructure
-- **纯洁少女雕像** — `StatueVenusRed` ｜父类: BaseStructure
-- **纸板箱** — `StealthBox` ｜父类: BaseBigBox
-- **钢制长椅** — `SteelBench` ｜父类: ChairBase
-- **凳子** — `Stool` ｜父类: UnanchoredChairBase
+- **标识装饰** — `StatueOneYearAnniversary` ｜父类: BaseStructure ｜_Starlight ｜描述: A marble statue of an idealized employee, made to commemorate the first anniversary of NanoTrasen control over the Starlight Sector.
+While ostensibly celebratory, it seems oddly mournful. Many died to
+- **标识装饰** — `StatueStoneCUP` ｜父类: BaseStructure ｜_Starlight ｜描述: A stone statue depicting a tea-drinking revolutionary. It stands as a symbol of unity and shared purpose among comrades.
+- **纯洁少女雕像** — `StatueVenusBlue` ｜父类: BaseStructure ｜描述: An ancient marble statue. The subject is depicted with a floor-length braid and is wielding a blue toolbox.
+- **纯洁少女雕像** — `StatueVenusRed` ｜父类: BaseStructure ｜描述: An ancient marble statue. The subject is depicted with a floor-length braid and is wielding a red toolbox.
+- **纸板箱** — `StealthBox` ｜父类: BaseBigBox ｜描述: Kept ya waiting, huh?
+- **钢制长椅** — `SteelBench` ｜父类: ChairBase ｜描述: A long chair made for a metro. Really standard design.
+- **凳子** — `Stool` ｜父类: UnanchoredChairBase ｜描述: Apply butt.
 - **酒吧凳** — `StoolBar` ｜父类: StoolBase
 - `模板` **凳子** — `StoolBase` ｜父类: OfficeChairBase
 - **储存罐** — `StorageCanister` ｜父类: GasCanister
 - **损坏的 气罐** — `StorageCanisterBroken` ｜父类: GasCanisterBrokenBase
-- `模板` **储存罐** — `StorageTank` ｜父类: BaseStructureDynamic
+- `模板` **储存罐** — `StorageTank` ｜父类: BaseStructureDynamic ｜描述: A liquids storage tank.
 - `模板` **StorageTankBig** — `StorageTankBig` ｜父类: StorageTank
 - `模板` **StructureWheeled** — `StructureWheeled`
 - **变电站** — `SubstationBasic` ｜父类: BaseSubstation
 - **变电站** — `SubstationBasicEmpty` ｜父类: SubstationBasic
 - **壁挂式变电站** — `SubstationWallBasic` ｜父类: BaseSubstationWall
-- **太空服储存单元** — `SuitStorageBase` ｜父类: BaseStructure
-- **超物质** — `SupermatterCrystal` ｜_Starlight
-- **摄像头** — `SurveillanceCameraAssembly`
-- `模板` **摄像头** — `SurveillanceCameraBase`
+- **太空服储存单元** — `SuitStorageBase` ｜父类: BaseStructure ｜描述: A fancy hi-tech storage unit made for storing space suits.
+- **超物质** — `SupermatterCrystal` ｜_Starlight ｜描述: A glowing supermatter crystal, with half an ID card lying next to it, and it says "Clown pira..." on it.
+- **摄像头** — `SurveillanceCameraAssembly` ｜描述: A surveillance camera. Doesn't seem to be watching anybody any time soon. Probably.
+- `模板` **摄像头** — `SurveillanceCameraBase` ｜描述: A surveillance camera. It's watching you. Kinda.
 - **摄像头** — `SurveillanceCameraCommand` ｜父类: SurveillanceCameraBase
 - **摄像头** — `SurveillanceCameraConstructed` ｜父类: SurveillanceCameraBase
 - **摄像头** — `SurveillanceCameraEngineering` ｜父类: SurveillanceCameraBase
@@ -3325,7 +3335,7 @@
 - **强化摄像头** — `SurveillanceCameraReinforcedSecurity` ｜父类: SurveillanceCameraReinforcedBase ｜_Starlight
 - **强化摄像头** — `SurveillanceCameraReinforcedService` ｜父类: SurveillanceCameraReinforcedBase ｜_Starlight
 - **强化摄像头** — `SurveillanceCameraReinforcedSupply` ｜父类: SurveillanceCameraReinforcedBase ｜_Starlight
-- `模板` **摄像头路由器** — `SurveillanceCameraRouterBase` ｜父类: BaseMachinePowered,ConstructibleMachine
+- `模板` **摄像头路由器** — `SurveillanceCameraRouterBase` ｜父类: BaseMachinePowered,ConstructibleMachine ｜描述: A surveillance camera router. It routes. Perhaps.
 - **指挥部摄像头路由器** — `SurveillanceCameraRouterCommand` ｜父类: SurveillanceCameraRouterBase
 - **摄像头路由器** — `SurveillanceCameraRouterConstructed` ｜父类: SurveillanceCameraRouterBase
 - **工程部摄像头路由器** — `SurveillanceCameraRouterEngineering` ｜父类: SurveillanceCameraRouterBase
@@ -3340,7 +3350,7 @@
 - **摄像头** — `SurveillanceCameraSecurity` ｜父类: SurveillanceCameraBase
 - **摄像头** — `SurveillanceCameraService` ｜父类: SurveillanceCameraBase
 - **摄像头** — `SurveillanceCameraSupply` ｜父类: SurveillanceCameraBase
-- `模板` **无线摄像头路由器** — `SurveillanceCameraWirelessRouterBase` ｜父类: BaseMachinePowered,ConstructibleMachine
+- `模板` **无线摄像头路由器** — `SurveillanceCameraWirelessRouterBase` ｜父类: BaseMachinePowered,ConstructibleMachine ｜描述: A wireless surveillance camera router. It routes. Perhaps.
 - **无线摄像头路由器** — `SurveillanceCameraWirelessRouterConstructed` ｜父类: SurveillanceCameraWirelessRouterBase
 - **娱乐区摄像头路由器** — `SurveillanceCameraWirelessRouterEntertainment` ｜父类: SurveillanceCameraWirelessRouterBase
 - **异形赛博格摄像头无线路由器** — `SurveillanceCameraWirelessRouterXenoborg` ｜父类: SurveillanceCameraWirelessRouterBase
@@ -3348,28 +3358,28 @@
 - `模板` **SurveillanceWirelessCameraAnchoredBase** — `SurveillanceWirelessCameraAnchoredBase` ｜父类: SurveillanceWirelessCameraBase
 - **无线摄像机** — `SurveillanceWirelessCameraAnchoredConstructed` ｜父类: SurveillanceWirelessCameraAnchoredBase
 - **无线摄像机** — `SurveillanceWirelessCameraAnchoredEntertainment` ｜父类: SurveillanceWirelessCameraAnchoredBase
-- `模板` **无线摄像机** — `SurveillanceWirelessCameraBase` ｜父类: BaseStructureDynamic,SmallConstructibleMachine
+- `模板` **无线摄像机** — `SurveillanceWirelessCameraBase` ｜父类: BaseStructureDynamic,SmallConstructibleMachine ｜描述: A camera. It's watching you. Kinda.
 - `模板` **SurveillanceWirelessCameraMovableBase** — `SurveillanceWirelessCameraMovableBase` ｜父类: SurveillanceWirelessCameraBase
 - **无线摄像机** — `SurveillanceWirelessCameraMovableConstructed` ｜父类: SurveillanceWirelessCameraMovableBase
 - **无线摄像机** — `SurveillanceWirelessCameraMovableEntertainment` ｜父类: SurveillanceWirelessCameraMovableBase
-- **网络行者盥洗室** — `SyndBath` ｜父类: BaseStructureComputer ｜_Starlight
+- **网络行者盥洗室** — `SyndBath` ｜父类: BaseStructureComputer ｜_Starlight ｜描述: A netrunner bathroom manufactured by CyberSun—about 50%, with the rest cobbled together from whatever was lying around.
 - **网络行者盥洗室** — `SyndBathOverlay` ｜_Starlight
-- **辛迪加炸弹** — `SyndicateBomb` ｜父类: BaseHardBomb,BaseSyndicateContraband
+- **辛迪加炸弹** — `SyndicateBomb` ｜父类: BaseHardBomb,BaseSyndicateContraband ｜描述: A bomb for Syndicate operatives and agents alike. The real deal, no more training, get to it!
 - **辛迪加炸弹** — `SyndicateBombFake` ｜父类: SyndicateBomb
-- **辛迪加通讯计算机** — `SyndicateComputerComms` ｜父类: ComputerComms
-- **???** — `SyndicateConsoleEye` ｜父类: Incorporeal,BaseMob ｜_Starlight
-- **Donk 公司微波炉** — `SyndicateMicrowave` ｜父类: KitchenMicrowave,BaseSyndicateContraband
-- **辛迪加旗帜** — `SyndieFlag` ｜父类: BaseFlag
-- **桌子** — `Table` ｜父类: TableBase
-- **外星桌** — `TableAbductor` ｜父类: TableBase ｜_Starlight
-- `模板` **桌子** — `TableBase` ｜父类: BaseStructure
-- **黄铜桌** — `TableBrass` ｜父类: TableBase
-- **纸板桌** — `TableCard` ｜父类: TableBase
-- **赌桌** — `TableCarpet` ｜父类: TableBase
-- **金属柜台** — `TableCounterMetal` ｜父类: CounterBase
-- **木制柜台** — `TableCounterWood` ｜父类: CounterBase
-- **桌子** — `TableDebug` ｜父类: TableBase
-- `模板` **华丽桌** — `TableFancyBase` ｜父类: TableBase
+- **辛迪加通讯计算机** — `SyndicateComputerComms` ｜父类: ComputerComms ｜描述: A computer capable of remotely hacking into the station's communications systems. Using this to make an announcement will alert the station to your presence.
+- **???** — `SyndicateConsoleEye` ｜父类: Incorporeal,BaseMob ｜_Starlight ｜描述: ERROR
+- **Donk 公司微波炉** — `SyndicateMicrowave` ｜父类: KitchenMicrowave,BaseSyndicateContraband ｜描述: So advanced, it can cook donk-pockets in a mere 2.5 seconds!
+- **辛迪加旗帜** — `SyndieFlag` ｜父类: BaseFlag ｜描述: Smells bloody. Death to NT!
+- **桌子** — `Table` ｜父类: TableBase ｜描述: A square piece of metal standing on four metal legs.
+- **外星桌** — `TableAbductor` ｜父类: TableBase ｜_Starlight ｜描述: Literally the sturdiest thing you have ever seen.
+- `模板` **桌子** — `TableBase` ｜父类: BaseStructure ｜描述: A square piece of metal standing on four metal legs.
+- **黄铜桌** — `TableBrass` ｜父类: TableBase ｜描述: A shiny, corrosion resistant brass table. Steampunk!
+- **纸板桌** — `TableCard` ｜父类: TableBase ｜描述: Cardboard sheets wrapped around a metal table frame.
+- **赌桌** — `TableCarpet` ｜父类: TableBase ｜描述: Play em' cowboy.
+- **金属柜台** — `TableCounterMetal` ｜父类: CounterBase ｜描述: Looks like a good place to put a drink down.
+- **木制柜台** — `TableCounterWood` ｜父类: CounterBase ｜描述: Do not apply fire to this. Rumour says it burns easily.
+- **桌子** — `TableDebug` ｜父类: TableBase ｜描述: PUT ON THEM CODERSOCKS!!
+- `模板` **华丽桌** — `TableFancyBase` ｜父类: TableBase ｜描述: Expensive and rich.
 - **华丽桌** — `TableFancyBlack` ｜父类: TableFancyBase
 - **华丽桌** — `TableFancyBlue` ｜父类: TableFancyBase
 - **华丽桌** — `TableFancyCyan` ｜父类: TableFancyBase
@@ -3380,19 +3390,19 @@
 - **华丽桌** — `TableFancyRed` ｜父类: TableFancyBase
 - **华丽桌** — `TableFancySkyBlue` ｜父类: TableFancyBase
 - **华丽桌** — `TableFancyWhite` ｜父类: TableFancyBase
-- **桌子框架** — `TableFrame` ｜父类: BaseStructure
-- **玻璃桌** — `TableGlass` ｜父类: TableBase
-- **等离子玻璃桌** — `TablePlasmaGlass` ｜父类: TableBase
-- **加固桌** — `TableReinforced` ｜父类: TableBase
-- **加固玻璃桌** — `TableReinforcedGlass` ｜父类: TableBase
-- **石桌** — `TableStone` ｜父类: TableBase
-- **蛛网桌** — `TableWeb` ｜父类: TableBase
-- **木桌** — `TableWood` ｜父类: TableBase
-- **异形桌** — `TableXeno` ｜父类: TableBase
-- **热电发电机** — `TegCenter` ｜父类: BaseMachinePowered
-- **循环器** — `TegCirculator` ｜父类: BaseMachine
+- **桌子框架** — `TableFrame` ｜父类: BaseStructure ｜描述: Pieces of metal that make the frame of a table.
+- **玻璃桌** — `TableGlass` ｜父类: TableBase ｜描述: A square piece of glass, standing on four metal legs.
+- **等离子玻璃桌** — `TablePlasmaGlass` ｜父类: TableBase ｜描述: A square piece of plasma glass, standing on four metal legs. Pretty!
+- **加固桌** — `TableReinforced` ｜父类: TableBase ｜描述: A square piece of metal standing on four metal legs. Extra robust.
+- **加固玻璃桌** — `TableReinforcedGlass` ｜父类: TableBase ｜描述: A square piece of glass, standing on four metal legs. Extra robust.
+- **石桌** — `TableStone` ｜父类: TableBase ｜描述: Literally the sturdiest thing you have ever seen.
+- **蛛网桌** — `TableWeb` ｜父类: TableBase ｜描述: Really smooth and surprisingly durable.
+- **木桌** — `TableWood` ｜父类: TableBase ｜描述: Do not apply fire to this. Rumour says it burns easily.
+- **异形桌** — `TableXeno` ｜父类: TableBase ｜描述: I wouldn't put the silverware on it.
+- **热电发电机** — `TegCenter` ｜父类: BaseMachinePowered ｜描述: A high efficiency generator that uses energy transfer between hot and cold gases to produce electricity.
+- **循环器** — `TegCirculator` ｜父类: BaseMachine ｜描述: Passes gas through the thermo-electric generator to exchange heat. Has an inlet and outlet port.
 - **循环器** — `TegCirculatorArrow`
-- **电信服务器** — `TelecomServer` ｜父类: BaseMachinePowered,ConstructibleMachine
+- **电信服务器** — `TelecomServer` ｜父类: BaseMachinePowered,ConstructibleMachine ｜描述: When powered and filled with encryption keys it allows radio headset communication.
 - **电信服务器** — `TelecomServerFilled` ｜父类: TelecomServer
 - **电信服务器** — `TelecomServerFilledCargo` ｜父类: TelecomServer
 - **电信服务器** — `TelecomServerFilledCommand` ｜父类: TelecomServer
@@ -3403,38 +3413,38 @@
 - **电信服务器** — `TelecomServerFilledScience` ｜父类: TelecomServer
 - **电信服务器** — `TelecomServerFilledSecurity` ｜父类: TelecomServer
 - **电信服务器** — `TelecomServerFilledService` ｜父类: TelecomServer
-- **特斯拉线圈** — `TeslaCoil`
-- **球状闪电** — `TeslaEnergyBall` ｜父类: BaseEnergyBall
-- **特斯拉发生器** — `TeslaGenerator` ｜父类: BaseStructureDynamic
-- **接地棒** — `TeslaGroundingRod`
-- **小型球状闪电** — `TeslaMiniEnergyBall` ｜父类: BaseEnergyBall
+- **特斯拉线圈** — `TeslaCoil` ｜描述: A machine that converts lightning strikes into an electric current.
+- **球状闪电** — `TeslaEnergyBall` ｜父类: BaseEnergyBall ｜描述: A giant ball of pure energy. The space around it is humming and melting.
+- **特斯拉发生器** — `TeslaGenerator` ｜父类: BaseStructureDynamic ｜描述: An Odd Device which produces a powerful Tesla ball when set up. Comes with a temporary shutdown containment failsafe.
+- **接地棒** — `TeslaGroundingRod` ｜描述: A machine that keeps lightning from striking too far away.
+- **小型球状闪电** — `TeslaMiniEnergyBall` ｜父类: BaseEnergyBall ｜描述: The cub of a destructive energy cage. Not as dangerous, but still not worth touching with bare hands.
 - **推进器** — `Thruster` ｜父类: BaseThruster,ConstructibleMachine
 - **大型 推进器** — `ThrusterLarge` ｜父类: BaseThruster
 - **推进器** — `ThrusterUnanchored` ｜父类: Thruster
 - **异形赛博格推进器 # Starlight** — `ThrusterXenoborg` ｜父类: Thruster
-- **取号机** — `TicketMachine` ｜父类: BaseTicketMachine ｜_Starlight
+- **取号机** — `TicketMachine` ｜父类: BaseTicketMachine ｜_Starlight ｜描述: It prints out numbered tickets for queue management.
 - **取号机** — `TicketMachineFilled` ｜父类: TicketMachine ｜_Starlight
 - **取号机** — `TicketMachineHOP` ｜父类: TicketMachineFilled ｜_Starlight
-- **简易铁砧** — `TiderLathe` ｜父类: BaseLatheFuel ｜_Starlight
-- **定时器框架** — `TimerFrame`
-- **调光窗** — `TintedWindow` ｜父类: Window
+- **简易铁砧** — `TiderLathe` ｜父类: BaseLatheFuel ｜_Starlight ｜描述: Every maints blacksmith's dream, a forge for producing gear in bulk.
+- **定时器框架** — `TimerFrame` ｜描述: A construction frame for a timer.
+- **调光窗** — `TintedWindow` ｜父类: Window ｜描述: Smart tinted window with state switching option.
 - **调光窗** — `TintedWindowTransparent` ｜父类: TintedWindow ｜_Starlight
 - **马桶** — `ToiletDirtyWater` ｜父类: BaseToiletRegen
 - **马桶** — `ToiletDirtyWaterFilled` ｜父类: ToiletDirtyWater
-- **马桶** — `ToiletEmpty` ｜父类: BaseToilet
+- **马桶** — `ToiletEmpty` ｜父类: BaseToilet ｜描述: The HT-451, a torque rotation-based, waste disposal unit for small matter. This one seems remarkably clean.
 - **马桶** — `ToiletFilled` ｜父类: BaseToiletRegen
 - **金马桶** — `ToiletGoldenDirtyWater` ｜父类: ToiletGoldenEmpty
-- **金马桶** — `ToiletGoldenEmpty` ｜父类: BaseToiletRegen
-- **油炸锅** — `TP14KitchenDeepFryer` ｜父类: BaseMachinePowered,SmallConstructibleMachine ｜_TP
+- **金马桶** — `ToiletGoldenEmpty` ｜父类: BaseToiletRegen ｜描述: The HT-451G is the gold version of the device. It says on the side that it is made of the purest Mercurian gold and a real leather seat.
+- **油炸锅** — `TP14KitchenDeepFryer` ｜父类: BaseMachinePowered,SmallConstructibleMachine ｜_TP ｜描述: Can be used to fry delicious food, or all of sci's gold. Directions on the side say to use corn oil only.
 - **油炸锅** — `TP14KitchenDeepFryerEmpty` ｜父类: TP14KitchenDeepFryer ｜_TP
 - **台式油炸锅** — `TP14KitchenDeepFryerTabletop` ｜父类: TP14KitchenDeepFryer ｜_TP
 - **台式油炸锅** — `TP14KitchenDeepFryerTabletopEmpty` ｜父类: TP14KitchenDeepFryerTabletop ｜_TP
-- **训练炸弹** — `TrainingBomb` ｜父类: BaseHardBomb
-- **氚气罐** — `TritiumCanister` ｜父类: GasCanister
+- **训练炸弹** — `TrainingBomb` ｜父类: BaseHardBomb ｜描述: A bomb for dummies, manual not included.
+- **氚气罐** — `TritiumCanister` ｜父类: GasCanister ｜描述: A canister that can contain any type of gas. This one is supposed to contain tritium. It can be attached to connector ports using a wrench.
 - **损坏的 气罐** — `TritiumCanisterBroken` ｜父类: GasCanisterBrokenBase
 - **氚气罐** — `TritiumCanisterEmpty` ｜父类: TritiumCanister ｜_Starlight
-- **涡轮充电器** — `TurboItemRecharger` ｜父类: BaseItemRecharger
-- **单向闸机** — `Turnstile` ｜父类: BaseStructure
+- **涡轮充电器** — `TurboItemRecharger` ｜父类: BaseItemRecharger ｜描述: An overclocked recharger. Not recommended for use around asthmatics.
+- **单向闸机** — `Turnstile` ｜父类: BaseStructure ｜描述: A mechanical door that permits one-way access and prevents tailgating.
 - **单向闸机** — `TurnstileArmory` ｜父类: Turnstile ｜_Starlight
 - **单向闸机** — `TurnstileArrow`
 - **中央指挥部 闸机** — `TurnstileCentComm` ｜父类: Turnstile ｜_Starlight
@@ -3446,17 +3456,17 @@
 - **单向闸机** — `TurnstileGenpopLeave` ｜父类: Turnstile
 - **单向闸机** — `TurnstileSecurity` ｜父类: Turnstile ｜_Starlight
 - **单向闸机** — `TurnstileSyndicate` ｜父类: Turnstile ｜_Starlight
-- **双向拉杆** — `TwoWayLever`
+- **双向拉杆** — `TwoWayLever` ｜描述: A two way lever.
 - **储物容器** — `UlnitraniumCanister` ｜父类: GasCanister ｜_Starlight
 - **损坏的 气罐** — `UlnitraniumCanisterBroken` ｜父类: GasCanisterBrokenBase ｜_Starlight
 - **储物容器** — `UlnitraniumCanisterEmpty` ｜父类: UlnitraniumCanister ｜_Starlight
 - `模板` **椅子** — `UnanchoredChairBase` ｜父类: SeatBase
-- **机器框架** — `UnfinishedMachineFrame`
-- **制服打印机** — `UniformPrinter` ｜父类: BaseLathe
-- **ID 功能设备** — `UniversalIdConsole` ｜父类: BaseComputerAiAccess ｜_Starlight
-- **方向性强化铀窗** — `UraniumReinforcedWindowDirectional` ｜父类: BaseDeltaPressureReinforcedPlasmaQuarter,WindowDirectionalRCDResistant
-- **定向强化铀窗** — `UraniumReinforcedWindowDirectionalHoneypot` ｜父类: MarkerBase,UraniumReinforcedWindowDirectional ｜_Starlight
-- **定向强化铀窗** — `UraniumReinforcedWindowDirectionalHoneypotIndestructible` ｜父类: MarkerBase,UraniumReinforcedWindowDirectional ｜_Starlight
+- **机器框架** — `UnfinishedMachineFrame` ｜描述: A machine under construction. Needs more parts.
+- **制服打印机** — `UniformPrinter` ｜父类: BaseLathe ｜描述: Prints new or replacement uniforms.
+- **ID 功能设备** — `UniversalIdConsole` ｜父类: BaseComputerAiAccess ｜_Starlight ｜描述: A terminal for programming NanoTrasen and non-NanoTrasen ID cards with extended access levels.
+- **方向性强化铀窗** — `UraniumReinforcedWindowDirectional` ｜父类: BaseDeltaPressureReinforcedPlasmaQuarter,WindowDirectionalRCDResistant ｜描述: Don't smudge up the glass down there.
+- **定向强化铀窗** — `UraniumReinforcedWindowDirectionalHoneypot` ｜父类: MarkerBase,UraniumReinforcedWindowDirectional ｜_Starlight ｜描述: Notifies admins when it gets damaged. Can be destroyed as normal.
+- **定向强化铀窗** — `UraniumReinforcedWindowDirectionalHoneypotIndestructible` ｜父类: MarkerBase,UraniumReinforcedWindowDirectional ｜_Starlight ｜描述: Notifies admins when it gets damaged and is secretly indestructible.
 - **铀玻璃窗门** — `UraniumWindoorNukeopLocked` ｜父类: WindoorUranium
 - **加固铀玻璃窗门** — `UraniumWindoorSecureCentralCommandLocked` ｜父类: WindoorSecureUranium
 - **加固铀玻璃窗门** — `UraniumWindoorSecureEngineeringLocked` ｜父类: WindoorSecureUranium
@@ -3465,140 +3475,140 @@
 - **铀玻璃窗门** — `UraniumWindoorSyndicateLocked` ｜父类: WindoorUranium
 - **铀窗** — `UraniumWindow` ｜父类: BaseDeltaPressurePlasma,WindowRCDResistant
 - **铀窗** — `UraniumWindowDiagonal` ｜父类: UraniumWindow
-- **方向性铀窗** — `UraniumWindowDirectional` ｜父类: BaseDeltaPressurePlasmaQuarter,WindowDirectionalRCDResistant
-- **疫苗制造机** — `Vaccinator` ｜父类: BaseMachinePowered
-- **酒吧衣橱** — `VendingBarDrobe` ｜父类: VendingMachine
+- **方向性铀窗** — `UraniumWindowDirectional` ｜父类: BaseDeltaPressurePlasmaQuarter,WindowDirectionalRCDResistant ｜描述: Don't smudge up the glass down there.
+- **疫苗制造机** — `Vaccinator` ｜父类: BaseMachinePowered ｜描述: A machine that creates vaccines.
+- **酒吧衣橱** — `VendingBarDrobe` ｜父类: VendingMachine ｜描述: A stylish vendor to dispense the most stylish bar clothing!
 - **酒吧衣橱** — `VendingBarDrobeEmpty` ｜父类: VendingBarDrobe ｜_Starlight
-- `模板` **自动售货机** — `VendingMachine` ｜父类: BaseMachinePowered,ConstructibleMachine
-- **功能设备** — `VendingMachineAbductorDispenser` ｜父类: VendingMachine ｜_Starlight
-- **解放站** — `VendingMachineAmmo` ｜父类: VendingMachine
+- `模板` **自动售货机** — `VendingMachine` ｜父类: BaseMachinePowered,ConstructibleMachine ｜描述: Just add capitalism!
+- **功能设备** — `VendingMachineAbductorDispenser` ｜父类: VendingMachine ｜_Starlight ｜描述: Dispenses something weird.
+- **解放站** — `VendingMachineAmmo` ｜父类: VendingMachine ｜描述: An overwhelming amount of ancient patriotism washes over you just by looking at the machine.
 - **解放站** — `VendingMachineAmmoEmpty` ｜父类: VendingMachineAmmo ｜_Starlight
-- **大气衣橱** — `VendingMachineAtmosDrobe` ｜父类: VendingMachine
+- **大气衣橱** — `VendingMachineAtmosDrobe` ｜父类: VendingMachine ｜描述: This relatively unknown vending machine delivers clothing for Atmospherics Technicians, an equally unknown job.
 - **大气衣橱** — `VendingMachineAtmosDrobeEmpty` ｜父类: VendingMachineAtmosDrobe ｜_Starlight
-- **酒乐宝** — `VendingMachineBooze` ｜父类: VendingMachine
+- **酒乐宝** — `VendingMachineBooze` ｜父类: VendingMachine ｜描述: A technological marvel, supposedly able to mix just the mixture you'd like to drink the moment you ask for one.
 - **酒乐宝** — `VendingMachineBoozeEmpty` ｜父类: VendingMachineBooze ｜_Starlight
-- **淤青贩卖机** — `VendingMachineBoozeSyndicate` ｜父类: VendingMachineBooze
+- **淤青贩卖机** — `VendingMachineBoozeSyndicate` ｜父类: VendingMachineBooze ｜描述: A refurbished Booze-O-Mat for boosting operative morale. An imprint of a blood-red hardsuit is visible on one side, and the paint seems ashed off on the other side.
 - **淤青贩卖机** — `VendingMachineBoozeSyndicateEmpty` ｜父类: VendingMachineBoozeSyndicate ｜_Starlight
-- **功能设备** — `VendingMachineCAD` ｜父类: VendingMachine ｜_Starlight
-- **货运衣橱** — `VendingMachineCargoDrobe` ｜父类: VendingMachine
+- **功能设备** — `VendingMachineCAD` ｜父类: VendingMachine ｜_Starlight ｜描述: Need to manage some documents? CAD has you covered!
+- **货运衣橱** — `VendingMachineCargoDrobe` ｜父类: VendingMachine ｜描述: A highly advanced vending machine for buying cargo related clothing for free.
 - **货运衣橱** — `VendingMachineCargoDrobeEmpty` ｜父类: VendingMachineCargoDrobe ｜_Starlight
-- **文职科技** — `VendingMachineCart` ｜父类: VendingMachine
+- **文职科技** — `VendingMachineCart` ｜父类: VendingMachine ｜描述: PTech vending! Providing a ROBUST selection of PDAs, cartridges, and anything else a dull paper pusher needs!
 - **文职科技** — `VendingMachineCartEmpty` ｜父类: VendingMachineCart ｜_Starlight
-- **中央衣橱** — `VendingMachineCentDrobe` ｜父类: VendingMachine
+- **中央衣橱** — `VendingMachineCentDrobe` ｜父类: VendingMachine ｜描述: A one-of-a-kind vending machine for all your centcomm aesthetic needs!
 - **中央衣橱** — `VendingMachineCentDrobeEmpty` ｜父类: VendingMachineCentDrobe ｜_Starlight
-- **常先生** — `VendingMachineChang` ｜父类: VendingMachine
+- **常先生** — `VendingMachineChang` ｜父类: VendingMachine ｜描述: A self-serving Chinese food machine, for all your Chinese food needs.
 - **常先生** — `VendingMachineChangEmpty` ｜父类: VendingMachineChang ｜_Starlight
 - **虔诚贩卖机** — `VendingMachineChapel` ｜父类: VendingMachine
 - **虔诚贩卖机** — `VendingMachineChapelEmpty` ｜父类: VendingMachineChapel ｜_Starlight
-- **厨师衣橱** — `VendingMachineChefDrobe` ｜父类: VendingMachine
+- **厨师衣橱** — `VendingMachineChefDrobe` ｜父类: VendingMachine ｜描述: This vending machine might not dispense meat, but it certainly dispenses chef related clothing.
 - **厨师衣橱** — `VendingMachineChefDrobeEmpty` ｜父类: VendingMachineChefDrobe ｜_Starlight
-- **厨师购** — `VendingMachineChefvend` ｜父类: VendingMachine
+- **厨师购** — `VendingMachineChefvend` ｜父类: VendingMachine ｜描述: An ingredient vendor for all your cheffin needs.
 - **厨师购** — `VendingMachineChefvendEmpty` ｜父类: VendingMachineChefvend ｜_Starlight
-- **化学衣橱** — `VendingMachineChemDrobe` ｜父类: VendingMachine
+- **化学衣橱** — `VendingMachineChemDrobe` ｜父类: VendingMachine ｜描述: A vending machine for dispensing chemistry related clothing.
 - **化学衣橱** — `VendingMachineChemDrobeEmpty` ｜父类: VendingMachineChemDrobe ｜_Starlight
-- **化贩机** — `VendingMachineChemicals` ｜父类: VendingMachine
+- **化贩机** — `VendingMachineChemicals` ｜父类: VendingMachine ｜描述: Probably not the coffee machine.
 - **化贩机** — `VendingMachineChemicalsEmpty` ｜父类: VendingMachineChemicals ｜_Starlight
-- **辛迪果汁** — `VendingMachineChemicalsSyndicate` ｜父类: VendingMachineChemicals
+- **辛迪果汁** — `VendingMachineChemicalsSyndicate` ｜父类: VendingMachineChemicals ｜描述: Not made with freshly squeezed syndies I hope.
 - **辛迪果汁** — `VendingMachineChemicalsSyndicateEmpty` ｜父类: VendingMachineChemicalsSyndicate ｜_Starlight
-- **暗巷香烟豪华版** — `VendingMachineCigs` ｜父类: VendingMachine
+- **暗巷香烟豪华版** — `VendingMachineCigs` ｜父类: VendingMachine ｜描述: If you want to get cancer, might as well do it in style.
 - **暗巷香烟豪华版** — `VendingMachineCigsEmpty` ｜父类: VendingMachineCigs ｜_Starlight
-- **衣装伙伴** — `VendingMachineClothing` ｜父类: VendingMachine
+- **衣装伙伴** — `VendingMachineClothing` ｜父类: VendingMachine ｜描述: A vending machine for clothing.
 - **衣装伙伴** — `VendingMachineClothingEmpty` ｜父类: VendingMachineClothing ｜_Starlight
-- **功能设备** — `VendingMachineClown` ｜父类: SLVendingMachine ｜_Starlight
-- **索拉最佳热饮** — `VendingMachineCoffee` ｜父类: VendingMachine
+- **功能设备** — `VendingMachineClown` ｜父类: SLVendingMachine ｜_Starlight ｜描述: Get your honk fix here! Surprise the station with HohohonkersVend — the ultimate machine for hilarious pranks. Hack it, and you'll unlock something special!
+- **索拉最佳热饮** — `VendingMachineCoffee` ｜父类: VendingMachine ｜描述: Served boiling so it stays hot all shift!
 - **索拉最佳热饮** — `VendingMachineCoffeeEmpty` ｜父类: VendingMachineCoffee ｜_Starlight
-- **强健软饮** — `VendingMachineCola` ｜父类: VendingMachine
+- **强健软饮** — `VendingMachineCola` ｜父类: VendingMachine ｜描述: A softdrink vendor provided by Robust Industries, LLC.
 - **《健壮软饮》** — `VendingMachineColaBlack` ｜父类: VendingMachineCola
 - **《健壮软饮》** — `VendingMachineColaBlackEmpty` ｜父类: VendingMachineColaBlack ｜_Starlight
 - **《健壮软饮》** — `VendingMachineColaEmpty` ｜父类: VendingMachineCola ｜_Starlight
-- **太空可乐售货机** — `VendingMachineColaRed` ｜父类: VendingMachineCola
+- **太空可乐售货机** — `VendingMachineColaRed` ｜父类: VendingMachineCola ｜描述: It vends cola, in space.
 - **太空可乐售货机** — `VendingMachineColaRedEmpty` ｜父类: VendingMachineColaRed ｜_Starlight
-- **调味料台** — `VendingMachineCondiments` ｜父类: VendingMachine
+- **调味料台** — `VendingMachineCondiments` ｜父类: VendingMachine ｜描述: Slather these thick gooey substances on your food for a full flavor effect.
 - **调味料台** — `VendingMachineCondimentsEmpty` ｜父类: VendingMachineCondiments ｜_Starlight
-- **馆长衣橱** — `VendingMachineCuraDrobe` ｜父类: VendingMachine
+- **馆长衣橱** — `VendingMachineCuraDrobe` ｜父类: VendingMachine ｜描述: A lowstock vendor only capable of vending clothing for curators and librarians.
 - **馆长衣橱** — `VendingMachineCuraDrobeEmpty` ｜父类: VendingMachineCuraDrobe ｜_Starlight
-- **侦探衣橱** — `VendingMachineDetDrobe` ｜父类: VendingMachine
+- **侦探衣橱** — `VendingMachineDetDrobe` ｜父类: VendingMachine ｜描述: A machine for all your detective needs, as long as you need clothes.
 - **侦探衣橱** — `VendingMachineDetDrobeEmpty` ｜父类: VendingMachineDetDrobe ｜_Starlight
-- **塑钢大厨餐具售货机** — `VendingMachineDinnerware` ｜父类: VendingMachine
+- **塑钢大厨餐具售货机** — `VendingMachineDinnerware` ｜父类: VendingMachine ｜描述: A kitchen and restaurant equipment vendor.
 - **塑钢大厨餐具售货机** — `VendingMachineDinnerwareEmpty` ｜父类: VendingMachineDinnerware ｜_Starlight
-- **折扣丹** — `VendingMachineDiscount` ｜父类: VendingMachine
+- **折扣丹** — `VendingMachineDiscount` ｜父类: VendingMachine ｜描述: A vending machine containing discount snacks from the infamous 'Discount Dan' franchise.
 - **折扣丹** — `VendingMachineDiscountEmpty` ｜父类: VendingMachineDiscount ｜_Starlight
-- **功能设备** — `VendingMachineDonk` ｜父类: VendingMachine ｜_Starlight
+- **功能设备** — `VendingMachineDonk` ｜父类: VendingMachine ｜_Starlight ｜描述: Hot and ready when you're on the run! Donk Pockets- It's food, legally.
 - **功能设备** — `VendingMachineDonkEmpty` ｜父类: VendingMachineDonk ｜_Starlight
-- **蒙奇甜甜圈** — `VendingMachineDonut` ｜父类: VendingMachine
+- **蒙奇甜甜圈** — `VendingMachineDonut` ｜父类: VendingMachine ｜描述: A donut vendor provided by Robust Industries, LLC.
 - **蒙奇甜甜圈** — `VendingMachineDonutEmpty` ｜父类: VendingMachineDonut ｜_Starlight
-- **吉布博士售货机** — `VendingMachineDrGibb` ｜父类: VendingMachine
+- **吉布博士售货机** — `VendingMachineDrGibb` ｜父类: VendingMachine ｜描述: Canned explosion of different flavors in this very vendor!
 - **吉布博士售货机** — `VendingMachineDrGibbEmpty` ｜父类: VendingMachineDrGibb ｜_Starlight
-- **工程衣橱** — `VendingMachineEngiDrobe` ｜父类: VendingMachine
+- **工程衣橱** — `VendingMachineEngiDrobe` ｜父类: VendingMachine ｜描述: A vending machine renowned for vending industrial grade clothing.
 - **工程衣橱** — `VendingMachineEngiDrobeEmpty` ｜父类: VendingMachineEngiDrobe ｜_Starlight
-- **工程购** — `VendingMachineEngivend` ｜父类: VendingMachine
+- **工程购** — `VendingMachineEngivend` ｜父类: VendingMachine ｜描述: Spare tool vending. What? Did you expect some witty description?
 - **工程购** — `VendingMachineEngivendEmpty` ｜父类: VendingMachineEngivend ｜_Starlight
-- **健康好乐趣** — `VendingMachineGames` ｜父类: VendingMachine
+- **健康好乐趣** — `VendingMachineGames` ｜父类: VendingMachine ｜描述: Vends things that the Captain and Head of Personnel are probably not going to appreciate you fiddling with instead of your job...
 - **健康好乐趣** — `VendingMachineGamesEmpty` ｜父类: VendingMachineGames ｜_Starlight
-- **基因衣橱** — `VendingMachineGeneDrobe` ｜父类: VendingMachine
+- **基因衣橱** — `VendingMachineGeneDrobe` ｜父类: VendingMachine ｜描述: A machine for dispensing clothing related to genetics.
 - **基因衣橱** — `VendingMachineGeneDrobeEmpty` ｜父类: VendingMachineGeneDrobe ｜_Starlight
-- **快乐呵叫餐盒供应机** — `VendingMachineHappyHonk` ｜父类: VendingMachine
+- **快乐呵叫餐盒供应机** — `VendingMachineHappyHonk` ｜父类: VendingMachine ｜描述: A happy honk meal box dispenser made by honk! co.
 - **快乐呵叫餐盒供应机** — `VendingMachineHappyHonkEmpty` ｜父类: VendingMachineHappyHonk ｜_Starlight
-- **水培衣橱** — `VendingMachineHydrobe` ｜父类: VendingMachine
+- **水培衣橱** — `VendingMachineHydrobe` ｜父类: VendingMachine ｜描述: A machine with a catchy name. It dispenses botany related clothing and gear.
 - **水培衣橱** — `VendingMachineHydrobeEmpty` ｜父类: VendingMachineHydrobe ｜_Starlight
-- **功能设备** — `VendingMachineIceCream` ｜父类: VendingMachine ｜_Starlight
+- **功能设备** — `VendingMachineIceCream` ｜父类: VendingMachine ｜_Starlight ｜描述: A vending machine full of delicious ice cream. ScaryCorp assures that you don't actually have to scream anything.
 - **功能设备** — `VendingMachineIceCreamEmpty` ｜父类: VendingMachineIceCream ｜_Starlight
-- **清洁衣橱** — `VendingMachineJaniDrobe` ｜父类: VendingMachine
+- **清洁衣橱** — `VendingMachineJaniDrobe` ｜父类: VendingMachine ｜描述: A self cleaning vending machine capable of dispensing clothing for janitors.
 - **清洁衣橱** — `VendingMachineJaniDrobeEmpty` ｜父类: VendingMachineJaniDrobe ｜_Starlight
-- **法务衣橱** — `VendingMachineLawDrobe` ｜父类: VendingMachine
+- **法务衣橱** — `VendingMachineLawDrobe` ｜父类: VendingMachine ｜描述: Objection! This wardrobe dispenses the rule of law... and lawyer clothing..
 - **法务衣橱** — `VendingMachineLawDrobeEmpty` ｜父类: VendingMachineLawDrobe ｜_Starlight
-- **功能设备** — `VendingMachineLegalDrobe` ｜父类: VendingMachine ｜_Starlight
+- **功能设备** — `VendingMachineLegalDrobe` ｜父类: VendingMachine ｜_Starlight ｜描述: Objection! This wardrobe dispenses the rule of law... wait, haven't you seen this before?
 - **功能设备** — `VendingMachineLegalDrobeEmpty` ｜父类: VendingMachineLegalDrobe ｜_Starlight
-- **魔法购** — `VendingMachineMagivend` ｜父类: VendingMachine
+- **魔法购** — `VendingMachineMagivend` ｜父类: VendingMachine ｜描述: A magic vending machine.
 - **魔法购** — `VendingMachineMagivendEmpty` ｜父类: VendingMachineMagivend ｜_Starlight
 - **纳米医疗加强版** — `VendingMachineMedical` ｜父类: VendingMachineMedicalBase
-- **纳米医疗民用型** — `VendingMachineMedicalBase` ｜父类: VendingMachine
-- **功能设备** — `VendingMachineMedicalBaseDeforest` ｜父类: VendingMachineMedicalBase ｜_Starlight
+- **纳米医疗民用型** — `VendingMachineMedicalBase` ｜父类: VendingMachine ｜描述: It's a medical drug dispenser. Natural chemicals only!
+- **功能设备** — `VendingMachineMedicalBaseDeforest` ｜父类: VendingMachineMedicalBase ｜_Starlight ｜描述: It's a medical drug dispenser by DeForest Medical. Health that Touches the Sky.
 - **功能设备** — `VendingMachineMedicalBaseDeforestEmpty` ｜父类: VendingMachineMedicalBaseDeforest ｜_Starlight
 - **纳米医疗民用型** — `VendingMachineMedicalBaseEmpty` ｜父类: VendingMachineMedicalBase ｜_Starlight
-- **功能设备** — `VendingMachineMedicalBaseGold` ｜父类: VendingMachineMedicalBase ｜_Starlight
+- **功能设备** — `VendingMachineMedicalBaseGold` ｜父类: VendingMachineMedicalBase ｜_Starlight ｜描述: The fact that you've arrived here-rather, to this NanoMed GOLD- at this moment in your life is nothing short of a miracle. It delights me to no end.
 - **功能设备** — `VendingMachineMedicalBaseGoldEmpty` ｜父类: VendingMachineMedicalBaseGold ｜_Starlight
-- **功能设备** — `VendingMachineMedicalBaseSyndicate` ｜父类: VendingMachineMedicalBase ｜_Starlight
+- **功能设备** — `VendingMachineMedicalBaseSyndicate` ｜父类: VendingMachineMedicalBase ｜_Starlight ｜描述: It's a medical drug dispenser by Interdyne Pharmaceutics. For the Health of Humankind.
 - **功能设备** — `VendingMachineMedicalBaseSyndicateEmpty` ｜父类: VendingMachineMedicalBaseSyndicate ｜_Starlight
 - **功能设备** — `VendingMachineMedicalDeforest` ｜父类: VendingMachineMedicalBaseDeforest ｜_Starlight
 - **功能设备** — `VendingMachineMedicalDeforestEmpty` ｜父类: VendingMachineMedicalDeforest ｜_Starlight
 - **纳米医疗加强版** — `VendingMachineMedicalEmpty` ｜父类: VendingMachineMedical ｜_Starlight
 - **GOLD 功能设备** — `VendingMachineMedicalGold` ｜父类: VendingMachineMedicalBaseGold ｜_Starlight
 - **GOLD 功能设备** — `VendingMachineMedicalGoldEmpty` ｜父类: VendingMachineMedicalGold ｜_Starlight
-- **功能设备** — `VendingMachineMedicalSecurity` ｜父类: VendingMachineMedicalBase ｜_Starlight
+- **功能设备** — `VendingMachineMedicalSecurity` ｜父类: VendingMachineMedicalBase ｜_Starlight ｜描述: It's a medical drug dispenser. Natural chemicals only!
 - **功能设备** — `VendingMachineMedicalSecurityEmpty` ｜父类: VendingMachineMedicalSecurity ｜_Starlight
 - **功能设备** — `VendingMachineMedicalSyndicate` ｜父类: VendingMachineMedicalBaseSyndicate ｜_Starlight
 - **功能设备** — `VendingMachineMedicalSyndicateEmpty` ｜父类: VendingMachineMedicalSyndicate ｜_Starlight
-- **医疗衣橱** — `VendingMachineMediDrobe` ｜父类: VendingMachine
+- **医疗衣橱** — `VendingMachineMediDrobe` ｜父类: VendingMachine ｜描述: A vending machine rumoured to be capable of dispensing clothing for medical personnel.
 - **医疗衣橱** — `VendingMachineMediDrobeEmpty` ｜父类: VendingMachineMediDrobe ｜_Starlight
-- **功能设备** — `VendingMachineMime` ｜父类: SLVendingMachine ｜_Starlight
-- **营养至上** — `VendingMachineNutri` ｜父类: VendingMachine
+- **功能设备** — `VendingMachineMime` ｜父类: SLVendingMachine ｜_Starlight ｜描述: All the gear a mime could need. Go put the captain in an invisible box!
+- **营养至上** — `VendingMachineNutri` ｜父类: VendingMachine ｜描述: A vending machine containing nutritional substances for plants and botanical tools.
 - **营养至上** — `VendingMachineNutriEmpty` ｜父类: VendingMachineNutri ｜_Starlight
-- **骄傲贩卖机** — `VendingMachinePride` ｜父类: VendingMachine
+- **骄傲贩卖机** — `VendingMachinePride` ｜父类: VendingMachine ｜描述: A vending machine containing pride.
 - **骄傲贩卖机** — `VendingMachinePrideEmpty` ｜父类: VendingMachinePride ｜_Starlight
-- **能量游戏售货机** — `VendingMachinePwrGame` ｜父类: VendingMachine
+- **能量游戏售货机** — `VendingMachinePwrGame` ｜父类: VendingMachine ｜描述: You want it, we got it. Brought to you in partnership with Vlad's Salads.
 - **能量游戏售货机** — `VendingMachinePwrGameEmpty` ｜父类: VendingMachinePwrGame ｜_Starlight
-- **机械衣橱** — `VendingMachineRoboDrobe` ｜父类: VendingMachine
+- **机械衣橱** — `VendingMachineRoboDrobe` ｜父类: VendingMachine ｜描述: A vending machine designed to dispense clothing known only to roboticists.
 - **机械衣橱** — `VendingMachineRoboDrobeEmpty` ｜父类: VendingMachineRoboDrobe ｜_Starlight
-- **机器人科技豪华版** — `VendingMachineRobotics` ｜父类: VendingMachine
+- **机器人科技豪华版** — `VendingMachineRobotics` ｜父类: VendingMachine ｜描述: All the tools you need to create your own robot army.
 - **机器人科技豪华版** — `VendingMachineRoboticsEmpty` ｜父类: VendingMachineRobotics ｜_Starlight
-- **打捞供应机** — `VendingMachineSalvage` ｜父类: VendingMachine
+- **打捞供应机** — `VendingMachineSalvage` ｜父类: VendingMachine ｜描述: A dwarf's best friend!
 - **打捞供应机** — `VendingMachineSalvageEmpty` ｜父类: VendingMachineSalvage ｜_Starlight
-- **科研衣橱** — `VendingMachineSciDrobe` ｜父类: VendingMachine
+- **科研衣橱** — `VendingMachineSciDrobe` ｜父类: VendingMachine ｜描述: A simple vending machine suitable to dispense well tailored science clothing. Endorsed by Space Cubans.
 - **科研衣橱** — `VendingMachineSciDrobeEmpty` ｜父类: VendingMachineSciDrobe ｜_Starlight
-- **安保科技** — `VendingMachineSec` ｜父类: VendingMachine
-- **安保衣橱** — `VendingMachineSecDrobe` ｜父类: VendingMachine
+- **安保科技** — `VendingMachineSec` ｜父类: VendingMachine ｜描述: A vending machine containing Security equipment. A label reads SECURITY PERSONNEL ONLY.
+- **安保衣橱** — `VendingMachineSecDrobe` ｜父类: VendingMachine ｜描述: A vending machine for security and security-related clothing!
 - **安保衣橱** — `VendingMachineSecDrobeEmpty` ｜父类: VendingMachineSecDrobe ｜_Starlight
 - **安保科技** — `VendingMachineSecEmpty` ｜父类: VendingMachineSec ｜_Starlight
 - **超级种子服务机** — `VendingMachineSeeds` ｜父类: VendingMachineSeedsUnlocked
 - **超级种子服务机** — `VendingMachineSeedsEmpty` ｜父类: VendingMachineSeeds ｜_Starlight
-- **超级种子服务机** — `VendingMachineSeedsUnlocked` ｜父类: VendingMachine
+- **超级种子服务机** — `VendingMachineSeedsUnlocked` ｜父类: VendingMachine ｜描述: For when you need seeds fast. Hands down the best seed selection on the station!
 - **超级种子服务机** — `VendingMachineSeedsUnlockedEmpty` ｜父类: VendingMachineSeedsUnlocked ｜_Starlight
-- **蹒跚怪果汁售货机** — `VendingMachineShamblersJuice` ｜父类: VendingMachine
+- **蹒跚怪果汁售货机** — `VendingMachineShamblersJuice` ｜父类: VendingMachine ｜描述: ~Shake me up some of that Shambler's Juice!~
 - **蹒跚怪果汁售货机** — `VendingMachineShamblersJuiceEmpty` ｜父类: VendingMachineShamblersJuice ｜_Starlight
-- **天罚售货机** — `VendingMachineSmite` ｜父类: VendingMachine
+- **天罚售货机** — `VendingMachineSmite` ｜父类: VendingMachine ｜描述: Popular with the administration.
 - **天罚售货机** — `VendingMachineSmiteEmpty` ｜父类: VendingMachineSmite ｜_Starlight
-- **多来点巧克力公司** — `VendingMachineSnack` ｜父类: VendingMachine
+- **多来点巧克力公司** — `VendingMachineSnack` ｜父类: VendingMachine ｜描述: A snack machine courtesy of the Getmore Chocolate Corporation, based out of Mars.
 - **多来点巧克力公司** — `VendingMachineSnackBlue` ｜父类: VendingMachineSnack
 - **多来点巧克力公司** — `VendingMachineSnackBlueEmpty` ｜父类: VendingMachineSnackBlue ｜_Starlight
 - **多来点巧克力公司** — `VendingMachineSnackEmpty` ｜父类: VendingMachineSnack ｜_Starlight
@@ -3610,34 +3620,34 @@
 - **多来点巧克力公司** — `VendingMachineSnackTealEmpty` ｜父类: VendingMachineSnackTeal ｜_Starlight
 - **《健壮软饮》** — `VendingMachineSoda` ｜父类: VendingMachineCola
 - **《健壮软饮》** — `VendingMachineSodaEmpty` ｜父类: VendingMachineSoda ｜_Starlight
-- **甜水** — `VendingMachineSovietSoda` ｜父类: VendingMachine
+- **甜水** — `VendingMachineSovietSoda` ｜父类: VendingMachine ｜描述: An old vending machine containing sweet water.
 - **甜水** — `VendingMachineSovietSodaEmpty` ｜父类: VendingMachineSovietSoda ｜_Starlight
-- **太空向上！售货机** — `VendingMachineSpaceUp` ｜父类: VendingMachineCola
+- **太空向上！售货机** — `VendingMachineSpaceUp` ｜父类: VendingMachineCola ｜描述: Indulge in an explosion of flavor.
 - **太空向上！售货机** — `VendingMachineSpaceUpEmpty` ｜父类: VendingMachineSpaceUp ｜_Starlight
-- **星之吻售货机** — `VendingMachineStarkist` ｜父类: VendingMachineCola
+- **星之吻售货机** — `VendingMachineStarkist` ｜父类: VendingMachineCola ｜描述: The taste of a star in liquid form.
 - **星之吻售货机** — `VendingMachineStarkistEmpty` ｜父类: VendingMachineStarkist ｜_Starlight
-- **维生食品售货机** — `VendingMachineSustenance` ｜父类: VendingMachineSnack
+- **维生食品售货机** — `VendingMachineSustenance` ｜父类: VendingMachineSnack ｜描述: A vending machine which vends food, as required by section 47-C of the NT's Prisoner Ethical Treatment Agreement.
 - **维生食品售货机** — `VendingMachineSustenanceEmpty` ｜父类: VendingMachineSustenance ｜_Starlight
-- **辛迪加衣橱** — `VendingMachineSyndieDrobe` ｜父类: VendingMachine
+- **辛迪加衣橱** — `VendingMachineSyndieDrobe` ｜父类: VendingMachine ｜描述: Wardrobe machine encoded by the syndicate, contains elite outfits for various operations.
 - **辛迪加衣橱** — `VendingMachineSyndieDrobeEmpty` ｜父类: VendingMachineSyndieDrobe ｜_Starlight
-- **气罐供应机** — `VendingMachineTankDispenserEngineering` ｜父类: VendingMachine
+- **气罐供应机** — `VendingMachineTankDispenserEngineering` ｜父类: VendingMachine ｜描述: A vendor for dispensing gas tanks. This one has an engineering livery.
 - **气罐供应机** — `VendingMachineTankDispenserEngineeringEmpty` ｜父类: VendingMachineTankDispenserEngineering ｜_Starlight
-- **气罐供应机** — `VendingMachineTankDispenserEVA` ｜父类: VendingMachine
+- **气罐供应机** — `VendingMachineTankDispenserEVA` ｜父类: VendingMachine ｜描述: A vendor for dispensing gas tanks.
 - **气罐供应机** — `VendingMachineTankDispenserEVAEmpty` ｜父类: VendingMachineTankDispenserEVA ｜_Starlight
-- **自动戏服柜** — `VendingMachineTheater` ｜父类: VendingMachine
+- **自动戏服柜** — `VendingMachineTheater` ｜父类: VendingMachine ｜描述: A vending machine containing costumes.
 - **自动戏服柜** — `VendingMachineTheaterEmpty` ｜父类: VendingMachineTheater ｜_Starlight
-- **自动售货宝** — `VendingMachineVendomat` ｜父类: VendingMachine
+- **自动售货宝** — `VendingMachineVendomat` ｜父类: VendingMachine ｜描述: Only the finest robust equipment in space!
 - **自动售货宝** — `VendingMachineVendomatEmpty` ｜父类: VendingMachineVendomat ｜_Starlight
-- **病毒衣橱** — `VendingMachineViroDrobe` ｜父类: VendingMachine
+- **病毒衣橱** — `VendingMachineViroDrobe` ｜父类: VendingMachine ｜描述: An unsterilized machine for dispending virology related clothing.
 - **病毒衣橱** — `VendingMachineViroDrobeEmpty` ｜父类: VendingMachineViroDrobe ｜_Starlight
 - **纳米医疗壁挂机** — `VendingMachineWallMedical` ｜父类: VendingMachineWallMedicalCivilian
-- **NanoMed 创可贴** — `VendingMachineWallMedicalCivilian` ｜父类: VendingMachineWallmount
-- **功能设备** — `VendingMachineWallMedicalCivilianDeforest` ｜父类: VendingMachineWallmount ｜_Starlight
+- **NanoMed 创可贴** — `VendingMachineWallMedicalCivilian` ｜父类: VendingMachineWallmount ｜描述: It's a wall-mounted medical equipment dispenser. Natural chemicals only!
+- **功能设备** — `VendingMachineWallMedicalCivilianDeforest` ｜父类: VendingMachineWallmount ｜_Starlight ｜描述: It's a wall-mounted medical equipment dispenser by DeForest Medical. Health that Touches the Sky.
 - **功能设备** — `VendingMachineWallMedicalCivilianDeforestEmpty` ｜父类: VendingMachineWallMedicalCivilianDeforest ｜_Starlight
 - **NanoMed 创可贴** — `VendingMachineWallMedicalCivilianEmpty` ｜父类: VendingMachineWallMedicalCivilian ｜_Starlight
-- **GOLD 功能设备** — `VendingMachineWallMedicalCivilianGold` ｜父类: VendingMachineWallmount ｜_Starlight
+- **GOLD 功能设备** — `VendingMachineWallMedicalCivilianGold` ｜父类: VendingMachineWallmount ｜_Starlight ｜描述: It's a luxury wall-mounted medical equipment dispenser.  It delights you to no end.
 - **GOLD 功能设备** — `VendingMachineWallMedicalCivilianGoldEmpty` ｜父类: VendingMachineWallMedicalCivilianGold ｜_Starlight
-- **功能设备** — `VendingMachineWallMedicalCivilianSyndicate` ｜父类: VendingMachineWallmount ｜_Starlight
+- **功能设备** — `VendingMachineWallMedicalCivilianSyndicate` ｜父类: VendingMachineWallmount ｜_Starlight ｜描述: It's a wall-mounted medical equipment dispenser by Interdyne Pharmaceutics. For the Health of Humankind.
 - **功能设备** — `VendingMachineWallMedicalCivilianSyndicateEmpty` ｜父类: VendingMachineWallMedicalCivilianSyndicate ｜_Starlight
 - **功能设备** — `VendingMachineWallMedicalDeforest` ｜父类: VendingMachineWallMedicalCivilianDeforest ｜_Starlight
 - **功能设备** — `VendingMachineWallMedicalDeforestEmpty` ｜父类: VendingMachineWallMedicalDeforest ｜_Starlight
@@ -3647,15 +3657,15 @@
 - **功能设备** — `VendingMachineWallMedicalSyndicate` ｜父类: VendingMachineWallMedicalCivilianSyndicate ｜_Starlight
 - **功能设备** — `VendingMachineWallMedicalSyndicateEmpty` ｜父类: VendingMachineWallMedicalSyndicate ｜_Starlight
 - `模板` **自动售货机** — `VendingMachineWallmount` ｜父类: VendingMachine
-- **冬装衣柜** — `VendingMachineWinter` ｜父类: VendingMachine
+- **冬装衣柜** — `VendingMachineWinter` ｜父类: VendingMachine ｜描述: The best place to enjoy the cold!
 - **冬装衣柜** — `VendingMachineWinterEmpty` ｜父类: VendingMachineWinter ｜_Starlight
-- **工具通** — `VendingMachineYouTool` ｜父类: VendingMachine
+- **工具通** — `VendingMachineYouTool` ｜父类: VendingMachine ｜描述: A vending machine containing standard tools. A label reads: Tools for tools.
 - **工具通** — `VendingMachineYouToolEmpty` ｜父类: VendingMachineYouTool ｜_Starlight
 - **通风管爬行占位体** — `VentCrawlHolder`
-- **黑胶唱机** — `VinylPlayer` ｜父类: Jukebox ｜_Starlight
-- **标识装饰** — `WaffleCoFlag` ｜父类: BaseFlag ｜_Starlight
+- **黑胶唱机** — `VinylPlayer` ｜父类: Jukebox ｜_Starlight ｜描述: A machine capable of playing a wide variety of tunes. Enjoyment not guaranteed.
+- **标识装饰** — `WaffleCoFlag` ｜父类: BaseFlag ｜_Starlight ｜描述: Reliable and Delicious.
 - **穿梭机墙** — `WallAbductor` ｜父类: BaseWall ｜_Starlight
-- **穿梭机墙** — `WallAbductorDiagonal` ｜_Starlight
+- **穿梭机墙** — `WallAbductorDiagonal` ｜_Starlight ｜描述: Keeps the air in and the assistants out.
 - **安山岩砖墙** — `WallAndesiteCobblebrick` ｜父类: WallCobblebrick
 - **小行星石砖墙** — `WallAsteroidCobblebrick` ｜父类: WallCobblebrick
 - **玄武岩砖墙** — `WallBasaltCobblebrick` ｜父类: WallCobblebrick
@@ -3663,7 +3673,7 @@
 - **铬铁矿砖墙** — `WallChromiteCobblebrick` ｜父类: WallCobblebrick
 - **时钟墙** — `WallClock` ｜父类: BaseWall
 - **香蕉矿墙** — `WallClown` ｜父类: BaseWall
-- **鹅卵石砖墙** — `WallCobblebrick` ｜父类: BaseWall
+- **鹅卵石砖墙** — `WallCobblebrick` ｜父类: BaseWall ｜描述: Stone by stone, perfectly fitted together to form a wall.
 - **混凝土墙** — `WallConcrete` ｜父类: BaseWall ｜_Starlight
 - **邪教墙** — `WallCult` ｜父类: BaseWall
 - **深色木墙** — `WallDarkWood` ｜父类: WallWood ｜_Starlight
@@ -3675,17 +3685,17 @@
 - **黄金墙** — `WallGold` ｜父类: BaseWall
 - **冰墙** — `WallIce` ｜父类: BaseWall
 - **隐形墙** — `WallInvisible`
-- **铁砂砖墙** — `WallIronsandCobblebrick` ｜父类: WallCobblebrick
-- **肉墙** — `WallMeat` ｜父类: BaseWall
+- **铁砂砖墙** — `WallIronsandCobblebrick` ｜父类: WallCobblebrick ｜描述: The pale, rounded shapes that make up this wall look strikingly different from the iron sands they were allegedly made from.
+- **肉墙** — `WallMeat` ｜父类: BaseWall ｜描述: Sticky.
 - **肉块机器人** — `WallMeatroid` ｜父类: WallMeat ｜_Starlight
 - **采矿墙** — `WallMining` ｜父类: BaseWall
 - **采矿墙** — `WallMiningDiagonal` ｜父类: WallDiagonalBase
-- **质量扫描仪** — `WallmountMassScanner` ｜父类: BaseWallmountMachine ｜_Starlight
-- **质量扫描仪** — `WallmountMassScannerBroken` ｜父类: BaseWallmountMetallic ｜_Starlight
-- **壁挂屏幕** — `WallmountTelescreen` ｜父类: BaseWallmountMachine
-- **壁挂屏幕框架** — `WallmountTelescreenFrame` ｜父类: BaseWallmountMetallic
-- **电视** — `WallmountTelevision` ｜父类: BaseWallmountMachine
-- **电视框架** — `WallmountTelevisionFrame` ｜父类: BaseWallmountGlass
+- **质量扫描仪** — `WallmountMassScanner` ｜父类: BaseWallmountMachine ｜_Starlight ｜描述: A computer for detecting nearby bodies, displaying them by position and mass.
+- **质量扫描仪** — `WallmountMassScannerBroken` ｜父类: BaseWallmountMetallic ｜_Starlight ｜描述: A computer for detecting nearby bodies, displaying them by position and mass.
+- **壁挂屏幕** — `WallmountTelescreen` ｜父类: BaseWallmountMachine ｜描述: Finally, some decent reception around here...
+- **壁挂屏幕框架** — `WallmountTelescreenFrame` ｜父类: BaseWallmountMetallic ｜描述: Finally, some decent reception around here...
+- **电视** — `WallmountTelevision` ｜父类: BaseWallmountMachine ｜描述: Finally, some decent reception around here...
+- **电视框架** — `WallmountTelevisionFrame` ｜父类: BaseWallmountGlass ｜描述: Finally, some decent reception around here...
 - **石墙** — `WallNecropolis` ｜父类: BaseWall
 - **等离子体墙** — `WallPlasma` ｜父类: BaseWall
 - **塑料墙** — `WallPlastic` ｜父类: BaseWall
@@ -3696,182 +3706,182 @@
 - **强化墙** — `WallReinforced` ｜父类: BaseWall
 - **强化几丁质墙** — `WallReinforcedChitin` ｜父类: BaseWall
 - **强化墙** — `WallReinforcedDiagonal` ｜父类: WallDiagonalBase
-- **强化墙** — `WallReinforcedHoneypot` ｜父类: MarkerBase,WallReinforced ｜_Starlight
-- **强化墙** — `WallReinforcedHoneypotIndestructible` ｜父类: MarkerBase,WallReinforced ｜_Starlight
-- **强化塑钛墙** — `WallReinforcedPlastitanium` ｜父类: WallPlastitanium ｜_Starlight
-- **强化塑钛墙** — `WallReinforcedPlastitaniumDiagonal` ｜父类: WallPlastitaniumDiagonal ｜_Starlight
+- **强化墙** — `WallReinforcedHoneypot` ｜父类: MarkerBase,WallReinforced ｜_Starlight ｜描述: Notifies admins when it gets damaged. Can be destroyed as normal.
+- **强化墙** — `WallReinforcedHoneypotIndestructible` ｜父类: MarkerBase,WallReinforced ｜_Starlight ｜描述: Notifies admins when it gets damaged and is secretly indestructible.
+- **强化塑钛墙** — `WallReinforcedPlastitanium` ｜父类: WallPlastitanium ｜_Starlight ｜描述: A plastitanium wall reinforced with an additional structural lattice, doubling its resistance to damage.
+- **强化塑钛墙** — `WallReinforcedPlastitaniumDiagonal` ｜父类: WallPlastitaniumDiagonal ｜_Starlight ｜描述: A diagonal plastitanium wall reinforced with an additional structural lattice, doubling its resistance to damage.
 - **强化墙** — `WallReinforcedRust` ｜父类: WallReinforced
-- **强化穿梭机墙** — `WallReinforcedShuttle` ｜父类: WallShuttle ｜_Starlight
-- **强化穿梭机墙** — `WallReinforcedShuttleDiagonal` ｜父类: WallShuttleDiagonal ｜_Starlight
+- **强化穿梭机墙** — `WallReinforcedShuttle` ｜父类: WallShuttle ｜_Starlight ｜描述: A shuttle wall with extra bracing, making it significantly harder to breach.
+- **强化穿梭机墙** — `WallReinforcedShuttleDiagonal` ｜父类: WallShuttleDiagonal ｜_Starlight ｜描述: A diagonal shuttle wall with extra bracing, making it significantly harder to breach.
 - **铆接墙** — `WallRiveted` ｜父类: BaseWall
 - **岩石** — `WallRock` ｜父类: BaseWall
 - **安山岩** — `WallRockAndesite` ｜父类: WallRock
-- **安山岩** — `WallRockAndesiteArtifactFragment` ｜父类: WallRockAndesite
-- **安山岩** — `WallRockAndesiteBananium` ｜父类: WallRockAndesite
-- **安山岩** — `WallRockAndesiteCoal` ｜父类: WallRockAndesite
-- **安山岩** — `WallRockAndesiteDiamond` ｜父类: WallRockAndesite
-- **安山岩** — `WallRockAndesiteGold` ｜父类: WallRockAndesite
-- **安山岩** — `WallRockAndesitePlasma` ｜父类: WallRockAndesite
-- **安山岩** — `WallRockAndesiteQuartz` ｜父类: WallRockAndesite
-- **安山岩** — `WallRockAndesiteSalt` ｜父类: WallRockAndesite
-- **安山岩** — `WallRockAndesiteSilver` ｜父类: WallRockAndesite
-- **安山岩** — `WallRockAndesiteTin` ｜父类: WallRockAndesite
-- **安山岩** — `WallRockAndesiteUranium` ｜父类: WallRockAndesite
-- **岩石** — `WallRockArtifactFragment` ｜父类: WallRock
-- **岩石** — `WallRockBananium` ｜父类: WallRock
+- **安山岩** — `WallRockAndesiteArtifactFragment` ｜父类: WallRockAndesite ｜描述: A rock wall. What's that sticking out of it?
+- **安山岩** — `WallRockAndesiteBananium` ｜父类: WallRockAndesite ｜描述: An ore vein rich with bananium.
+- **安山岩** — `WallRockAndesiteCoal` ｜父类: WallRockAndesite ｜描述: An ore vein rich with coal.
+- **安山岩** — `WallRockAndesiteDiamond` ｜父类: WallRockAndesite ｜描述: An ore vein rich with diamonds.
+- **安山岩** — `WallRockAndesiteGold` ｜父类: WallRockAndesite ｜描述: An ore vein rich with gold.
+- **安山岩** — `WallRockAndesitePlasma` ｜父类: WallRockAndesite ｜描述: An ore vein rich with plasma.
+- **安山岩** — `WallRockAndesiteQuartz` ｜父类: WallRockAndesite ｜描述: An ore vein rich with quartz.
+- **安山岩** — `WallRockAndesiteSalt` ｜父类: WallRockAndesite ｜描述: An ore vein rich with salt.
+- **安山岩** — `WallRockAndesiteSilver` ｜父类: WallRockAndesite ｜描述: An ore vein rich with silver.
+- **安山岩** — `WallRockAndesiteTin` ｜父类: WallRockAndesite ｜描述: An ore vein rich with iron.
+- **安山岩** — `WallRockAndesiteUranium` ｜父类: WallRockAndesite ｜描述: An ore vein rich with uranium.
+- **岩石** — `WallRockArtifactFragment` ｜父类: WallRock ｜描述: A rock wall. What's that sticking out of it?
+- **岩石** — `WallRockBananium` ｜父类: WallRock ｜描述: An ore vein rich with bananium.
 - **玄武岩** — `WallRockBasalt` ｜父类: WallRock
-- **玄武岩** — `WallRockBasaltArtifactFragment` ｜父类: WallRockBasalt
-- **玄武岩** — `WallRockBasaltBananium` ｜父类: WallRockBasalt
-- **玄武岩** — `WallRockBasaltCoal` ｜父类: WallRockBasalt
-- **玄武岩** — `WallRockBasaltDiamond` ｜父类: WallRockBasalt
-- **玄武岩** — `WallRockBasaltGold` ｜父类: WallRockBasalt
-- **玄武岩** — `WallRockBasaltPlasma` ｜父类: WallRockBasalt
-- **玄武岩** — `WallRockBasaltQuartz` ｜父类: WallRockBasalt
-- **玄武岩** — `WallRockBasaltSalt` ｜父类: WallRockBasalt
-- **玄武岩** — `WallRockBasaltSilver` ｜父类: WallRockBasalt
-- **玄武岩** — `WallRockBasaltTin` ｜父类: WallRockBasalt
-- **玄武岩** — `WallRockBasaltUranium` ｜父类: WallRockBasalt
+- **玄武岩** — `WallRockBasaltArtifactFragment` ｜父类: WallRockBasalt ｜描述: A rock wall. What's that sticking out of it?
+- **玄武岩** — `WallRockBasaltBananium` ｜父类: WallRockBasalt ｜描述: An ore vein rich with bananium.
+- **玄武岩** — `WallRockBasaltCoal` ｜父类: WallRockBasalt ｜描述: An ore vein rich with coal.
+- **玄武岩** — `WallRockBasaltDiamond` ｜父类: WallRockBasalt ｜描述: An ore vein rich with diamonds.
+- **玄武岩** — `WallRockBasaltGold` ｜父类: WallRockBasalt ｜描述: An ore vein rich with gold.
+- **玄武岩** — `WallRockBasaltPlasma` ｜父类: WallRockBasalt ｜描述: An ore vein rich with plasma.
+- **玄武岩** — `WallRockBasaltQuartz` ｜父类: WallRockBasalt ｜描述: An ore vein rich with quartz.
+- **玄武岩** — `WallRockBasaltSalt` ｜父类: WallRockBasalt ｜描述: An ore vein rich with salt.
+- **玄武岩** — `WallRockBasaltSilver` ｜父类: WallRockBasalt ｜描述: An ore vein rich with silver.
+- **玄武岩** — `WallRockBasaltTin` ｜父类: WallRockBasalt ｜描述: An ore vein rich with iron.
+- **玄武岩** — `WallRockBasaltUranium` ｜父类: WallRockBasalt ｜描述: An ore vein rich with uranium.
 - **铬铁矿** — `WallRockChromite` ｜父类: WallRock
-- **铬铁矿** — `WallRockChromiteArtifactFragment` ｜父类: WallRockChromite
-- **铬铁矿** — `WallRockChromiteBananium` ｜父类: WallRockChromite
-- **铬铁矿** — `WallRockChromiteCoal` ｜父类: WallRockChromite
-- **铬铁矿** — `WallRockChromiteDiamond` ｜父类: WallRockChromite
-- **铬铁矿** — `WallRockChromiteGold` ｜父类: WallRockChromite
-- **铬铁矿** — `WallRockChromitePlasma` ｜父类: WallRockChromite
-- **铬铁矿** — `WallRockChromiteQuartz` ｜父类: WallRockChromite
-- **铬铁矿** — `WallRockChromiteSalt` ｜父类: WallRockChromite
-- **铬铁矿** — `WallRockChromiteSilver` ｜父类: WallRockChromite
-- **铬铁矿** — `WallRockChromiteTin` ｜父类: WallRockChromite
-- **铬铁矿** — `WallRockChromiteUranium` ｜父类: WallRockChromite
-- **岩石** — `WallRockCoal` ｜父类: WallRock
+- **铬铁矿** — `WallRockChromiteArtifactFragment` ｜父类: WallRockChromite ｜描述: A rock wall. What's that sticking out of it?
+- **铬铁矿** — `WallRockChromiteBananium` ｜父类: WallRockChromite ｜描述: An ore vein rich with bananium.
+- **铬铁矿** — `WallRockChromiteCoal` ｜父类: WallRockChromite ｜描述: An ore vein rich with coal.
+- **铬铁矿** — `WallRockChromiteDiamond` ｜父类: WallRockChromite ｜描述: An ore vein rich with diamonds.
+- **铬铁矿** — `WallRockChromiteGold` ｜父类: WallRockChromite ｜描述: An ore vein rich with gold.
+- **铬铁矿** — `WallRockChromitePlasma` ｜父类: WallRockChromite ｜描述: An ore vein rich with plasma.
+- **铬铁矿** — `WallRockChromiteQuartz` ｜父类: WallRockChromite ｜描述: An ore vein rich with quartz.
+- **铬铁矿** — `WallRockChromiteSalt` ｜父类: WallRockChromite ｜描述: An ore vein rich with salt.
+- **铬铁矿** — `WallRockChromiteSilver` ｜父类: WallRockChromite ｜描述: An ore vein rich with silver.
+- **铬铁矿** — `WallRockChromiteTin` ｜父类: WallRockChromite ｜描述: An ore vein rich with iron.
+- **铬铁矿** — `WallRockChromiteUranium` ｜父类: WallRockChromite ｜描述: An ore vein rich with uranium.
+- **岩石** — `WallRockCoal` ｜父类: WallRock ｜描述: An ore vein rich with coal.
 - **暗色岩石** — `WallRockDark` ｜父类: WallRock ｜_Starlight
-- **暗石** — `WallRockDarkBluespace` ｜父类: WallRockDark ｜_Starlight
-- **暗石** — `WallRockDarkPasma` ｜父类: WallRockDark ｜_Starlight
-- **岩石** — `WallRockDiamond` ｜父类: WallRock
-- **岩石** — `WallRockGold` ｜父类: WallRock
-- **岩石** — `WallRockPlasma` ｜父类: WallRock
-- **岩石** — `WallRockQuartz` ｜父类: WallRock
-- **岩石** — `WallRockSalt` ｜父类: WallRock
+- **暗石** — `WallRockDarkBluespace` ｜父类: WallRockDark ｜_Starlight ｜描述: An ore vein rich with bluespace.
+- **暗石** — `WallRockDarkPasma` ｜父类: WallRockDark ｜_Starlight ｜描述: An ore vein rich with plasma.
+- **岩石** — `WallRockDiamond` ｜父类: WallRock ｜描述: An ore vein rich with diamonds.
+- **岩石** — `WallRockGold` ｜父类: WallRock ｜描述: An ore vein rich with gold.
+- **岩石** — `WallRockPlasma` ｜父类: WallRock ｜描述: An ore vein rich with plasma.
+- **岩石** — `WallRockQuartz` ｜父类: WallRock ｜描述: An ore vein rich with quartz.
+- **岩石** — `WallRockSalt` ｜父类: WallRock ｜描述: An ore vein rich with salt.
 - **砂岩** — `WallRockSand` ｜父类: WallRock
-- **砂岩** — `WallRockSandArtifactFragment` ｜父类: WallRockSand
-- **砂岩** — `WallRockSandBananium` ｜父类: WallRockSand
-- **砂岩** — `WallRockSandCoal` ｜父类: WallRockSand
-- **砂岩** — `WallRockSandDiamond` ｜父类: WallRockSand
-- **砂岩** — `WallRockSandGold` ｜父类: WallRockSand
-- **砂岩** — `WallRockSandPlasma` ｜父类: WallRockSand
-- **砂岩** — `WallRockSandQuartz` ｜父类: WallRockSand
-- **砂岩** — `WallRockSandSalt` ｜父类: WallRockSand
-- **砂岩** — `WallRockSandSilver` ｜父类: WallRockSand
-- **砂岩** — `WallRockSandTin` ｜父类: WallRockSand
-- **砂岩** — `WallRockSandUranium` ｜父类: WallRockSand
-- **岩石** — `WallRockSilver` ｜父类: WallRock
+- **砂岩** — `WallRockSandArtifactFragment` ｜父类: WallRockSand ｜描述: A rock wall. What's that sticking out of it?
+- **砂岩** — `WallRockSandBananium` ｜父类: WallRockSand ｜描述: An ore vein rich with bananium.
+- **砂岩** — `WallRockSandCoal` ｜父类: WallRockSand ｜描述: An ore vein rich with coal.
+- **砂岩** — `WallRockSandDiamond` ｜父类: WallRockSand ｜描述: An ore vein rich with diamonds.
+- **砂岩** — `WallRockSandGold` ｜父类: WallRockSand ｜描述: An ore vein rich with gold.
+- **砂岩** — `WallRockSandPlasma` ｜父类: WallRockSand ｜描述: An ore vein rich with plasma.
+- **砂岩** — `WallRockSandQuartz` ｜父类: WallRockSand ｜描述: An ore vein rich with quartz.
+- **砂岩** — `WallRockSandSalt` ｜父类: WallRockSand ｜描述: An ore vein rich with salt.
+- **砂岩** — `WallRockSandSilver` ｜父类: WallRockSand ｜描述: An ore vein rich with silver.
+- **砂岩** — `WallRockSandTin` ｜父类: WallRockSand ｜描述: An ore vein rich with iron.
+- **砂岩** — `WallRockSandUranium` ｜父类: WallRockSand ｜描述: An ore vein rich with uranium.
+- **岩石** — `WallRockSilver` ｜父类: WallRock ｜描述: An ore vein rich with silver.
 - **雪堆** — `WallRockSnow` ｜父类: WallRock
-- **雪堆** — `WallRockSnowArtifactFragment` ｜父类: WallRockSnow
-- **雪堆** — `WallRockSnowBananium` ｜父类: WallRockSnow
-- **雪堆** — `WallRockSnowCoal` ｜父类: WallRockSnow
-- **雪堆** — `WallRockSnowDiamond` ｜父类: WallRockSnow
-- **雪堆** — `WallRockSnowGold` ｜父类: WallRockSnow
-- **雪堆** — `WallRockSnowPlasma` ｜父类: WallRockSnow
-- **雪堆** — `WallRockSnowQuartz` ｜父类: WallRockSnow
-- **雪堆** — `WallRockSnowSalt` ｜父类: WallRockSnow
-- **雪堆** — `WallRockSnowSilver` ｜父类: WallRockSnow
-- **雪堆** — `WallRockSnowTin` ｜父类: WallRockSnow
-- **雪堆** — `WallRockSnowUranium` ｜父类: WallRockSnow
-- **岩石** — `WallRockTin` ｜父类: WallRock
-- **岩石** — `WallRockUranium` ｜父类: WallRock
+- **雪堆** — `WallRockSnowArtifactFragment` ｜父类: WallRockSnow ｜描述: A rock wall. What's that sticking out of it?
+- **雪堆** — `WallRockSnowBananium` ｜父类: WallRockSnow ｜描述: An ore vein rich with bananium.
+- **雪堆** — `WallRockSnowCoal` ｜父类: WallRockSnow ｜描述: An ore vein rich with coal.
+- **雪堆** — `WallRockSnowDiamond` ｜父类: WallRockSnow ｜描述: An ore vein rich with diamonds.
+- **雪堆** — `WallRockSnowGold` ｜父类: WallRockSnow ｜描述: An ore vein rich with gold.
+- **雪堆** — `WallRockSnowPlasma` ｜父类: WallRockSnow ｜描述: An ore vein rich with plasma.
+- **雪堆** — `WallRockSnowQuartz` ｜父类: WallRockSnow ｜描述: An ore vein rich with quartz.
+- **雪堆** — `WallRockSnowSalt` ｜父类: WallRockSnow ｜描述: An ore vein rich with salt.
+- **雪堆** — `WallRockSnowSilver` ｜父类: WallRockSnow ｜描述: An ore vein rich with silver.
+- **雪堆** — `WallRockSnowTin` ｜父类: WallRockSnow ｜描述: An ore vein rich with iron.
+- **雪堆** — `WallRockSnowUranium` ｜父类: WallRockSnow ｜描述: An ore vein rich with uranium.
+- **岩石** — `WallRockTin` ｜父类: WallRock ｜描述: An ore vein rich with iron.
+- **岩石** — `WallRockUranium` ｜父类: WallRock ｜描述: An ore vein rich with uranium.
 - **墙式保险箱** — `WallSafe` ｜父类: BaseWallSafe ｜_Starlight
 - **砂岩砖墙** — `WallSandCobblebrick` ｜父类: WallCobblebrick
 - **砂岩墙** — `WallSandstone` ｜父类: BaseWall
 - **穿梭机墙** — `WallShuttle` ｜父类: BaseWall
 - **穿梭机墙** — `WallShuttleDiagonal` ｜父类: WallDiagonalBase
 - **银墙** — `WallSilver` ｜父类: BaseWall
-- **雪砖墙** — `WallSnowCobblebrick` ｜父类: WallCobblebrick
+- **雪砖墙** — `WallSnowCobblebrick` ｜父类: WallCobblebrick ｜描述: A cold, not-so-impenetrable wall.
 - **实心墙** — `WallSolid` ｜父类: BaseWall
 - **实心几丁质墙** — `WallSolidChitin` ｜父类: BaseWall
 - **实心墙** — `WallSolidDiagonal` ｜父类: WallDiagonalBase
-- **实心墙** — `WallSolidHoneypot` ｜父类: MarkerBase,WallSolid ｜_Starlight
-- **实心墙** — `WallSolidHoneypotIndestructible` ｜父类: MarkerBase,WallSolid ｜_Starlight
+- **实心墙** — `WallSolidHoneypot` ｜父类: MarkerBase,WallSolid ｜_Starlight ｜描述: Notifies admins when it gets damaged. Can be destroyed as normal.
+- **实心墙** — `WallSolidHoneypotIndestructible` ｜父类: MarkerBase,WallSolid ｜_Starlight ｜描述: Notifies admins when it gets damaged and is secretly indestructible.
 - **实心墙** — `WallSolidRust` ｜父类: WallSolid
 - **垃圾** — `WallTrash` ｜父类: WallRock ｜_Starlight
 - **铀墙** — `WallUranium` ｜父类: BaseWall
-- **外星宝库墙** — `WallVaultAlien` ｜父类: BaseWall
+- **外星宝库墙** — `WallVaultAlien` ｜父类: BaseWall ｜描述: A mysterious ornate looking wall. There may be ancient dangers inside.
 - **岩石宝库墙** — `WallVaultRock` ｜父类: BaseWall
 - **砂岩宝库墙** — `WallVaultSandstone` ｜父类: WallVaultRock
-- **壁挂充电器** — `WallWeaponCapacitorRecharger` ｜父类: BaseItemRecharger,BaseWallmount
-- **蛛网墙** — `WallWeb` ｜父类: BaseWall
-- **木墙** — `WallWood` ｜父类: BaseWall
+- **壁挂充电器** — `WallWeaponCapacitorRecharger` ｜父类: BaseItemRecharger,BaseWallmount ｜描述: A compact wall-mounted recharger. It can only recharge electronic devices and has no space for power cells.
+- **蛛网墙** — `WallWeb` ｜父类: BaseWall ｜描述: Keeps the spiders in and the assistants out.
+- **木墙** — `WallWood` ｜父类: BaseWall ｜描述: The traditional assistant defense.
 - **异种赛博格墙** — `WallXenoborg` ｜父类: WallPlastitanium
 - **异种赛博格墙** — `WallXenoborgDiagonal` ｜父类: WallPlastitaniumDiagonal
 - **轻型异形赛博格墙** — `WallXenoborgRCD` ｜父类: WallSolid ｜_Starlight
 - **大气 衣柜** — `WardrobeAtmospherics` ｜父类: WardrobeBase
-- `模板` **WardrobeBase** — `WardrobeBase` ｜父类: ClosetSteelBase
-- **黑色 衣柜** — `WardrobeBlack` ｜父类: WardrobeBase
-- **蓝色 衣柜** — `WardrobeBlue` ｜父类: WardrobeBase
+- `模板` **WardrobeBase** — `WardrobeBase` ｜父类: ClosetSteelBase ｜描述: It's a storage unit for standard-issue NanoTrasen attire.
+- **黑色 衣柜** — `WardrobeBlack` ｜父类: WardrobeBase ｜描述: A wardrobe packed with stylish black clothing.
+- **蓝色 衣柜** — `WardrobeBlue` ｜父类: WardrobeBase ｜描述: A wardrobe packed with stylish blue clothing.
 - **植物学家 衣柜** — `WardrobeBotanist` ｜父类: WardrobeGreen
 - **货运 衣柜** — `WardrobeCargo` ｜父类: WardrobePrison
-- **牧师衣柜** — `WardrobeChapel` ｜父类: WardrobeBlack
+- **牧师衣柜** — `WardrobeChapel` ｜父类: WardrobeBlack ｜描述: It's a storage unit for NanoTrasen-approved religious attire.
 - **化学 衣柜** — `WardrobeChemistry` ｜父类: WardrobeWhite
 - **工程 衣柜** — `WardrobeEngineering` ｜父类: WardrobeYellow
-- **礼服柜** — `WardrobeFormal` ｜父类: WardrobeBlack
+- **礼服柜** — `WardrobeFormal` ｜父类: WardrobeBlack ｜描述: It's a storage unit for formal clothing.
 - **遗传学 衣柜** — `WardrobeGenetics` ｜父类: WardrobeWhite
-- **绿色 衣柜** — `WardrobeGreen` ｜父类: WardrobeBase
-- **灰色 衣柜** — `WardrobeGrey` ｜父类: WardrobeBase
+- **绿色 衣柜** — `WardrobeGreen` ｜父类: WardrobeBase ｜描述: A wardrobe packed with stylish green clothing.
+- **灰色 衣柜** — `WardrobeGrey` ｜父类: WardrobeBase ｜描述: A wardrobe packed with a tide of grey clothing.
 - **医师衣柜** — `WardrobeMedicalDoctor` ｜父类: WardrobeWhite
-- **混色 衣柜** — `WardrobeMixed` ｜父类: WardrobeBase
-- **粉色 衣柜** — `WardrobePink` ｜父类: WardrobeBase
+- **混色 衣柜** — `WardrobeMixed` ｜父类: WardrobeBase ｜描述: A wardrobe packed with a mix of colorful clothing.
+- **粉色 衣柜** — `WardrobePink` ｜父类: WardrobeBase ｜描述: A wardrobe packed with fabulous pink clothing.
 - **监狱 衣柜** — `WardrobePrison` ｜父类: WardrobeBase
 - **机器人学 衣柜** — `WardrobeRobotics` ｜父类: WardrobeBlack
-- **打捞 衣柜** — `WardrobeSalvage` ｜父类: WardrobeMixed
+- **打捞 衣柜** — `WardrobeSalvage` ｜父类: WardrobeMixed ｜描述: Notably not salvaged.
 - **科研 衣柜** — `WardrobeScience` ｜父类: WardrobeWhite
 - **安保 衣柜** — `WardrobeSecurity` ｜父类: WardrobeBase
 - **病毒学 衣柜** — `WardrobeVirology` ｜父类: WardrobeWhite
-- **白色 衣柜** — `WardrobeWhite` ｜父类: WardrobeBase
-- **黄色 衣柜** — `WardrobeYellow` ｜父类: WardrobeBase
-- **空气管道警告标牌** — `WarningAir` ｜父类: BaseSign
-- **CO2 管道警告标牌** — `WarningCO2` ｜父类: BaseSign
-- **N2 管道警告标牌** — `WarningN2` ｜父类: BaseSign
-- **N2O 管道警告标牌** — `WarningN2O` ｜父类: BaseSign
-- **O2 管道警告标牌** — `WarningO2` ｜父类: BaseSign
-- **等离子体废气标牌** — `WarningPlasma` ｜父类: BaseSign
-- **氚废气标牌** — `WarningTritium` ｜父类: BaseSign
-- **大气废气标牌** — `WarningWaste` ｜父类: BaseSign
-- **饮水机** — `WaterCooler` ｜父类: StorageTank
-- **水罐** — `WaterTank` ｜父类: StorageTank,StructureWheeled
+- **白色 衣柜** — `WardrobeWhite` ｜父类: WardrobeBase ｜描述: A wardrobe packed with stylish white clothing.
+- **黄色 衣柜** — `WardrobeYellow` ｜父类: WardrobeBase ｜描述: A wardrobe packed with stylish yellow clothing.
+- **空气管道警告标牌** — `WarningAir` ｜父类: BaseSign ｜描述: WARNING! Air flow tube. Ensure the flow is disengaged before working.
+- **CO2 管道警告标牌** — `WarningCO2` ｜父类: BaseSign ｜描述: WARNING! CO2 flow tube. Ensure the flow is disengaged before working.
+- **N2 管道警告标牌** — `WarningN2` ｜父类: BaseSign ｜描述: WARNING! N2 flow tube. Ensure the flow is disengaged before working.
+- **N2O 管道警告标牌** — `WarningN2O` ｜父类: BaseSign ｜描述: WARNING! N2O flow tube. Ensure the flow is disengaged before working.
+- **O2 管道警告标牌** — `WarningO2` ｜父类: BaseSign ｜描述: WARNING! O2 flow tube. Ensure the flow is disengaged before working.
+- **等离子体废气标牌** — `WarningPlasma` ｜父类: BaseSign ｜描述: WARNING! Plasma flow tube. Ensure the flow is disengaged before working.
+- **氚废气标牌** — `WarningTritium` ｜父类: BaseSign ｜描述: WARNING! Tritium flow tube. Ensure the flow is disengaged before working.
+- **大气废气标牌** — `WarningWaste` ｜父类: BaseSign ｜描述: WARNING! Waste flow tube. Ensure the flow is disengaged before working.
+- **饮水机** — `WaterCooler` ｜父类: StorageTank ｜描述: Seems like a good place to stand and waste time. It has a stock of paper cups on the side.
+- **水罐** — `WaterTank` ｜父类: StorageTank,StructureWheeled ｜描述: A water tank. It's used to store high amounts of water.
 - **水罐** — `WaterTankFull` ｜父类: WaterTank
-- **大容量水罐** — `WaterTankHighCapacity` ｜父类: StorageTankBig,WaterTank
-- **水蒸气气罐** — `WaterVaporCanister` ｜父类: GasCanister
+- **大容量水罐** — `WaterTankHighCapacity` ｜父类: StorageTankBig,WaterTank ｜描述: A highly pressurized water tank made to hold gargantuan amounts of water.
+- **水蒸气气罐** — `WaterVaporCanister` ｜父类: GasCanister ｜描述: A canister that can contain any type of gas. This one is supposed to contain water vapor. It can be attached to connector ports using a wrench.
 - **损坏的 水蒸气气罐** — `WaterVaporCanisterBroken` ｜父类: GasCanisterBrokenBase
 - **水蒸气气罐** — `WaterVaporCanisterEmpty` ｜父类: WaterVaporCanister ｜_Starlight
-- **充电器** — `WeaponCapacitorRecharger` ｜父类: BaseItemRecharger
+- **充电器** — `WeaponCapacitorRecharger` ｜父类: BaseItemRecharger ｜描述: A modern recharging station that can fit both power cells and small electronic devices.
 - **哨戒炮塔控制面板** — `WeaponEnergyTurretAIControlPanel` ｜父类: WeaponEnergyTurretStationControlPanelBase
 - **哨戒炮塔控制面板** — `WeaponEnergyTurretCommandControlPanel` ｜父类: WeaponEnergyTurretStationControlPanelBase
-- **哨戒炮塔控制面板组件** — `WeaponEnergyTurretControlPanelFrame`
+- **哨戒炮塔控制面板组件** — `WeaponEnergyTurretControlPanelFrame` ｜描述: An incomplete wall-mounted assembly for a sentry turret control panel.
 - **哨戒炮塔控制面板** — `WeaponEnergyTurretSecurityControlPanel` ｜父类: WeaponEnergyTurretStationControlPanelBase
 - **哨戒炮塔控制面板** — `WeaponEnergyTurretSiliconControlPanel` ｜父类: WeaponEnergyTurretStationControlPanelBase ｜_Starlight
 - **哨戒炮塔控制面板** — `WeaponEnergyTurretSolgovControlPanel` ｜父类: WeaponEnergyTurretStationControlPanelBase ｜_Starlight
-- `模板` **哨戒炮塔控制面板** — `WeaponEnergyTurretStationControlPanelBase` ｜父类: WeaponEnergyTurretControlPanelFrame
-- **ADMP-27 VESPERA 武器** — `WeaponTurretVespera` ｜父类: ShuttleGunBase ｜_Starlight
-- **蛛网床** — `WebBed` ｜父类: Bed
-- **蛛网茧** — `WebCocoon` ｜_Starlight
-- **蛛网门** — `WebDoor` ｜父类: BaseMaterialDoorNavMap
-- **蛛网柱** — `WebEntityBeacon` ｜_Starlight
-- **燃料罐** — `WeldingFuelTank` ｜父类: StorageTank,StructureWheeled
+- `模板` **哨戒炮塔控制面板** — `WeaponEnergyTurretStationControlPanelBase` ｜父类: WeaponEnergyTurretControlPanelFrame ｜描述: A wall-mounted interface for remotely configuring the operational parameters of linked sentry turrets.
+- **ADMP-27 VESPERA 武器** — `WeaponTurretVespera` ｜父类: ShuttleGunBase ｜_Starlight ｜描述: A rapid-fire swarm missile rack. Saturates targets with guided warheads to overwhelm defenses.
+- **蛛网床** — `WebBed` ｜父类: Bed ｜描述: You got webbed.
+- **蛛网茧** — `WebCocoon` ｜_Starlight ｜描述: A strange web cocoon.
+- **蛛网门** — `WebDoor` ｜父类: BaseMaterialDoorNavMap ｜描述: A door, leading to the lands of the spiders... or a spaced room.
+- **蛛网柱** — `WebEntityBeacon` ｜_Starlight ｜描述: A strange web pole.
+- **燃料罐** — `WeldingFuelTank` ｜父类: StorageTank,StructureWheeled ｜描述: A fuel tank. It's used to store high amounts of fuel.
 - **燃料罐** — `WeldingFuelTankFull` ｜父类: WeldingFuelTank
-- **大容量燃料罐** — `WeldingFuelTankHighCapacity` ｜父类: StorageTankBig,WeldingFuelTank
-- **窗门** — `Windoor` ｜父类: BaseWindoor
-- **窗门组件** — `WindoorAssembly` ｜父类: BaseStructure
-- **发条窗门组件** — `WindoorAssemblyClockwork` ｜父类: WindoorAssembly
-- **等离子窗门组件** — `WindoorAssemblyPlasma` ｜父类: WindoorAssembly
-- **加固窗门组件** — `WindoorAssemblySecure` ｜父类: WindoorAssembly
-- **加固等离子窗门组件** — `WindoorAssemblySecurePlasma` ｜父类: WindoorAssembly
-- **加固铀玻璃窗门组件** — `WindoorAssemblySecureUranium` ｜父类: WindoorAssembly
-- **铀玻璃窗门组件** — `WindoorAssemblyUranium` ｜父类: WindoorAssembly
+- **大容量燃料罐** — `WeldingFuelTankHighCapacity` ｜父类: StorageTankBig,WeldingFuelTank ｜描述: A highly pressurized fuel tank made to hold gargantuan amounts of welding fuel.
+- **窗门** — `Windoor` ｜父类: BaseWindoor ｜描述: It's a window and a sliding door. Wow!
+- **窗门组件** — `WindoorAssembly` ｜父类: BaseStructure ｜描述: It opens, it closes, and you can see through it!
+- **发条窗门组件** — `WindoorAssemblyClockwork` ｜父类: WindoorAssembly ｜描述: It opens, it closes, and you can see through it! This one looks tough.
+- **等离子窗门组件** — `WindoorAssemblyPlasma` ｜父类: WindoorAssembly ｜描述: It opens, it closes, and you can see through it! This one looks purp-, no, pink. Wait...
+- **加固窗门组件** — `WindoorAssemblySecure` ｜父类: WindoorAssembly ｜描述: It opens, it closes, and you can see through it! This one looks tough.
+- **加固等离子窗门组件** — `WindoorAssemblySecurePlasma` ｜父类: WindoorAssembly ｜描述: It opens, it closes, and you can see through it! This one looks strong and pin-, no, purple. Hold on...
+- **加固铀玻璃窗门组件** — `WindoorAssemblySecureUranium` ｜父类: WindoorAssembly ｜描述: It opens, it closes, and you can see through it! This one looks strong and radioactive-lime-green!
+- **铀玻璃窗门组件** — `WindoorAssemblyUranium` ｜父类: WindoorAssembly ｜描述: It opens, it closes, and you can see through it! This one looks sickly green...
 - **窗门** — `WindoorAttorneyLocked` ｜父类: WindoorServiceLocked ｜_Starlight
 - **窗门** — `WindoorBarKitchenLocked` ｜父类: WindoorServiceLocked
 - **窗门** — `WindoorBarLocked` ｜父类: WindoorServiceLocked
 - **窗门** — `WindoorCargoLocked` ｜父类: Windoor
 - **窗门** — `WindoorChapelLocked` ｜父类: Windoor
-- **发条窗门** — `WindoorClockwork` ｜父类: BaseClockworkWindoor
+- **发条窗门** — `WindoorClockwork` ｜父类: BaseClockworkWindoor ｜描述: It's a sturdy window and a sliding door. Wow!
 - **窗门** — `WindoorCourtroomLocked` ｜父类: WindoorSecurityLocked ｜_Starlight
 - **窗门** — `WindoorHydroponicsLocked` ｜父类: WindoorServiceLocked
 - **窗门** — `WindoorInternalAffairsLocked` ｜父类: WindoorSecurityLocked ｜_Starlight
@@ -3881,8 +3891,8 @@
 - **窗门** — `WindoorLegalLocked` ｜父类: WindoorServiceLocked ｜_Starlight
 - **窗门** — `WindoorMailLocked` ｜父类: WindoorCargoLocked ｜_Starlight
 - **窗门** — `WindoorNukeopLocked` ｜父类: Windoor
-- **等离子窗门** — `WindoorPlasma` ｜父类: BasePlasmaWindoor
-- **加固窗门** — `WindoorSecure` ｜父类: BaseSecureWindoor
+- **等离子窗门** — `WindoorPlasma` ｜父类: BasePlasmaWindoor ｜描述: It's a pink window *and* a sliding door. Amazing!
+- **加固窗门** — `WindoorSecure` ｜父类: BaseSecureWindoor ｜描述: It's a sturdy window and a sliding door. Wow!
 - **加固窗门** — `WindoorSecureArmoryLocked` ｜父类: WindoorSecure
 - **加固窗门** — `WindoorSecureAtmosphericsLocked` ｜父类: WindoorSecureEngineeringLocked
 - **加固窗门** — `WindoorSecureAttorneyLocked` ｜父类: WindoorSecureServiceLocked ｜_Starlight
@@ -3906,7 +3916,7 @@
 - **加固窗门** — `WindoorSecureMedicalLocked` ｜父类: WindoorSecure
 - **加固窗门** — `WindoorSecureMiningLocked` ｜父类: WindoorSecureCargoLocked ｜_Starlight
 - **加固窗门** — `WindoorSecureNukeopLocked` ｜父类: WindoorSecure
-- **加固等离子窗门** — `WindoorSecurePlasma` ｜父类: BaseSecurePlasmaWindoor
+- **加固等离子窗门** — `WindoorSecurePlasma` ｜父类: BaseSecurePlasmaWindoor ｜描述: It's a sturdy purple window *and* a sliding door. Spectacular!
 - **加固窗门** — `WindoorSecureResearchDirectorLocked` ｜父类: WindoorSecureCommandLocked
 - **加固窗门** — `WindoorSecureRoboticsLocked` ｜父类: WindoorSecure ｜_Starlight
 - **加固窗门** — `WindoorSecureSalvageLocked` ｜父类: WindoorSecureCargoLocked
@@ -3916,31 +3926,31 @@
 - **加固窗门** — `WindoorSecureSecurityLocked` ｜父类: WindoorSecure
 - **加固窗门** — `WindoorSecureServiceLocked` ｜父类: WindoorSecure
 - **加固窗门** — `WindoorSecureSyndicateLocked` ｜父类: WindoorSecure
-- **加固铀玻璃窗门** — `WindoorSecureUranium` ｜父类: BaseSecureUraniumWindoor
+- **加固铀玻璃窗门** — `WindoorSecureUranium` ｜父类: BaseSecureUraniumWindoor ｜描述: It's a sturdy window and a sliding door. It's so neon green, it might even taste like limes!
 - **窗门** — `WindoorSecurityInternalAffairsLocked` ｜父类: WindoorSecurityLocked ｜_Starlight
 - **窗门** — `WindoorSecurityLocked` ｜父类: Windoor ｜_Starlight
 - **窗门** — `WindoorServiceLocked` ｜父类: Windoor
 - **窗门** — `WindoorSyndicateLocked` ｜父类: Windoor
 - **窗门** — `WindoorTheatreLocked` ｜父类: WindoorServiceLocked
-- **铀玻璃窗门** — `WindoorUranium` ｜父类: BaseUraniumWindoor
-- **窗户** — `Window` ｜父类: BaseDeltaPressureGlass,BaseStructure,BaseStructureDissolvable
-- **方向性发条窗** — `WindowClockworkDirectional` ｜父类: WindowDirectional
+- **铀玻璃窗门** — `WindoorUranium` ｜父类: BaseUraniumWindoor ｜描述: It's a window and a sliding door. Huh? Oh, and it's green!
+- **窗户** — `Window` ｜父类: BaseDeltaPressureGlass,BaseStructure,BaseStructureDissolvable ｜描述: Don't smudge up the glass down there.
+- **方向性发条窗** — `WindowClockworkDirectional` ｜父类: WindowDirectional ｜描述: Don't smudge up the brass down there.
 - **窗户** — `WindowDiagonal` ｜父类: Window
-- **方向性窗户** — `WindowDirectional` ｜父类: BaseDeltaPressureGlassQuarter,BaseStructure
+- **方向性窗户** — `WindowDirectional` ｜父类: BaseDeltaPressureGlassQuarter,BaseStructure ｜描述: Don't smudge up the glass down there.
 - `模板` **WindowDirectionalRCDResistant** — `WindowDirectionalRCDResistant` ｜父类: WindowDirectional
-- **方向性磨砂窗** — `WindowFrostedDirectional` ｜父类: WindowDirectional
+- **方向性磨砂窗** — `WindowFrostedDirectional` ｜父类: WindowDirectional ｜描述: Don't smudge up the glass down there.
 - `模板` **WindowRCDResistant** — `WindowRCDResistant` ｜父类: Window
-- **方向性强化窗** — `WindowReinforcedDirectional` ｜父类: BaseDeltaPressureReinforcedGlassQuarter,WindowDirectional
-- **定向强化窗** — `WindowReinforcedDirectionalHoneypot` ｜父类: MarkerBase,WindowReinforcedDirectional ｜_Starlight
-- **定向强化窗** — `WindowReinforcedDirectionalHoneypotIndestructible` ｜父类: MarkerBase,WindowReinforcedDirectional ｜_Starlight
-- **巫师通讯计算机** — `WizardComputerComms` ｜父类: ComputerComms
+- **方向性强化窗** — `WindowReinforcedDirectional` ｜父类: BaseDeltaPressureReinforcedGlassQuarter,WindowDirectional ｜描述: Don't smudge up the glass down there.
+- **定向强化窗** — `WindowReinforcedDirectionalHoneypot` ｜父类: MarkerBase,WindowReinforcedDirectional ｜_Starlight ｜描述: Notifies admins when it gets damaged. Can be destroyed as normal.
+- **定向强化窗** — `WindowReinforcedDirectionalHoneypotIndestructible` ｜父类: MarkerBase,WindowReinforcedDirectional ｜_Starlight ｜描述: Notifies admins when it gets damaged and is secretly indestructible.
+- **巫师通讯计算机** — `WizardComputerComms` ｜父类: ComputerComms ｜描述: A computer capable of magically projecting your speech to the station. Using this to make an announcement will alert the station to your presence.
 - **木门** — `WoodDoor` ｜父类: BaseMaterialDoorNavMap
-- **木制长椅** — `WoodenBench` ｜父类: ChairBase
-- **功能设备** — `XenobiologyConsole` ｜父类: BaseComputer ｜_Starlight
-- **功能设备** — `XenobiologyConsoleEye` ｜父类: Incorporeal,BaseMob ｜_Starlight
+- **木制长椅** — `WoodenBench` ｜父类: ChairBase ｜描述: Did you get a splinter? Well, at least it’s eco friendly.
+- **功能设备** — `XenobiologyConsole` ｜父类: BaseComputer ｜_Starlight ｜描述: A computer for manipulating slimes. Can move slimes around, apply mutating potions, and even feed them!
+- **功能设备** — `XenobiologyConsoleEye` ｜父类: Incorporeal,BaseMob ｜_Starlight ｜描述: The eye, or perhaps the claw, extending from the xenobiology console. Is it spying on you?
 - **异种赛博格窗** — `XenoborgWindow` ｜父类: PlastitaniumWindow
 - **轻型异形赛博格窗** — `XenoborgWindowRCD` ｜父类: ReinforcedWindow ｜_Starlight
-- **树脂窗** — `XenoResinWindow` ｜父类: ReinforcedWindow
+- **树脂窗** — `XenoResinWindow` ｜父类: ReinforcedWindow ｜描述: Transparent and hardened, yet slightly sticky to the touch. Slightly stronger than a normal reinforced window.
 - **异形防护塔** — `XenoWardingTower`
 - **佐克气储气罐** — `ZaukerCanister` ｜父类: GasCanister ｜_Funkystation
 - **损坏的 气罐** — `ZaukerCanisterBroken` ｜父类: GasCanisterBrokenBase ｜_Funkystation

@@ -24,4 +24,5 @@
 - **大块垃圾碎屑** — `TrashDebrisLarge` ｜父类: BaseTrashDebris ｜_Starlight
 - **垃圾 残骸 中型** — `TrashDebrisMedium` ｜父类: BaseTrashDebris ｜_Starlight
 - **垃圾 残骸 小型** — `TrashDebrisSmall` ｜父类: BaseTrashDebris ｜_Starlight
-- **世界区块** — `WorldChunk` ｜父类: MarkerBase
+- **世界区块** — `WorldChunk` ｜父类: MarkerBase ｜描述: It's rude to stare.
+It's also a bit odd you're looking at the abstract representation of the grid of reality.

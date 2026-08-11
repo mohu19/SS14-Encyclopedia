@@ -4,19 +4,19 @@
 
 - **物品** — `AbyssFive` ｜父类: AbyssOne ｜_Starlight
 - **物品** — `AbyssFour` ｜父类: AbyssOne ｜_Starlight
-- **深渊** — `AbyssOne` ｜_Starlight
+- **深渊** — `AbyssOne` ｜_Starlight ｜描述: Rock.
 - **物品** — `AbyssRandom` ｜父类: AbyssOne ｜_Starlight
 - **物品** — `AbyssThree` ｜父类: AbyssOne ｜_Starlight
 - **物品** — `AbyssTwo` ｜父类: AbyssOne ｜_Starlight
 - **玄武岩** — `BasaltFive` ｜父类: BasaltOne
 - **玄武岩** — `BasaltFour` ｜父类: BasaltOne
-- **玄武岩** — `BasaltOne`
+- **玄武岩** — `BasaltOne` ｜描述: Rock.
 - **玄武岩** — `BasaltRandom` ｜父类: BasaltOne
 - **玄武岩** — `BasaltThree` ｜父类: BasaltOne
 - **玄武岩** — `BasaltTwo` ｜父类: BasaltOne
 - `模板` **BaseObelisk** — `BaseObelisk` ｜_Starlight
 - **黑暗** — `DarkRandom` ｜父类: DarkTile ｜_Starlight
-- **黑暗** — `DarkTile` ｜父类: BaseShadow ｜_Starlight
+- **黑暗** — `DarkTile` ｜父类: BaseShadow ｜_Starlight ｜描述: It's a strange, impenetrable darkness.
 - **黑暗** — `DarkTile10` ｜父类: DarkTile ｜_Starlight
 - **黑暗** — `DarkTile11` ｜父类: DarkTile ｜_Starlight
 - **黑暗** — `DarkTile12` ｜父类: DarkTile ｜_Starlight
@@ -29,23 +29,23 @@
 - **黑暗** — `DarkTile8` ｜父类: DarkTile ｜_Starlight
 - **黑暗** — `DarkTile9` ｜父类: DarkTile ｜_Starlight
 - **深渊能量** — `FloorAbyssEnergyEntity` ｜父类: FloorWaterEntity ｜_Starlight
-- **蔚蓝之水** — `FloorAzureWaterDestructibleEntity` ｜父类: FloorWaterDestructibleEntity ｜_Starlight
-- **蔚蓝之水** — `FloorAzureWaterEntity` ｜父类: FloorWaterEntity ｜_Starlight
+- **蔚蓝之水** — `FloorAzureWaterDestructibleEntity` ｜父类: FloorWaterDestructibleEntity ｜_Starlight ｜描述: A real thirst quencher. Corals are not included!
+- **蔚蓝之水** — `FloorAzureWaterEntity` ｜父类: FloorWaterEntity ｜_Starlight ｜描述: A real thirst quencher. Corals are not included!
 - **香蕉矿地板** — `FloorBananiumEntity`
-- **深渊** — `FloorChasmEntity`
+- **深渊** — `FloorChasmEntity` ｜描述: You can't even see the bottom.
 - **深渊** — `FloorChromiteChasm` ｜父类: FloorChasmEntity
 - **深渊** — `FloorDesertChasm` ｜父类: FloorChasmEntity
-- **熔岩** — `FloorLavaEntity`
-- **液态等离子体** — `FloorLiquidPlasmaEntity`
+- **熔岩** — `FloorLavaEntity` ｜描述: Don't jump in. It's not worth it, no matter how funny it is.
+- **液态等离子体** — `FloorLiquidPlasmaEntity` ｜描述: Sweet, expensive nectar. Don't consume.
 - **深渊** — `FloorSnowChasm` ｜父类: FloorChasmEntity
 - **水** — `FloorWaterDestructibleEntity` ｜父类: FloorWaterEntity ｜_Starlight
-- **水** — `FloorWaterEntity`
+- **水** — `FloorWaterEntity` ｜描述: A real thirst quencher.
 - **方尖碑** — `FloraObelisk01` ｜父类: BaseObelisk ｜_Starlight
 - **方尖碑** — `FloraObelisk02` ｜父类: BaseObelisk ｜_Starlight
 - **方尖碑** — `FloraObelisk03` ｜父类: BaseObelisk ｜_Starlight
 - **暗影石** — `ShadowBasaltFive` ｜父类: ShadowBasaltOne
 - **暗影石** — `ShadowBasaltFour` ｜父类: ShadowBasaltOne
-- **暗影石** — `ShadowBasaltOne`
+- **暗影石** — `ShadowBasaltOne` ｜描述: Glowing cracks in reality. It's probably fine.
 - **暗影石** — `ShadowBasaltRandom` ｜父类: ShadowBasaltOne
 - **暗影石** — `ShadowBasaltThree` ｜父类: ShadowBasaltOne
 - **暗影石** — `ShadowBasaltTwo` ｜父类: ShadowBasaltOne

@@ -3,7 +3,7 @@
 > 来源层分布: 上游 9
 
 - **心智** — `MindBase`
-- **隐藏实体** — `StrippingHiddenEntity`
+- **隐藏实体** — `StrippingHiddenEntity` ｜描述: There is something in this pocket.
 - **TetherEntity** — `TetherEntity`
 - **光束实体——你不应该看到这个** — `VirtualBeamEntityController`
 - **VirtualElectrocutionLoadApc** — `VirtualElectrocutionLoadApc` ｜父类: VirtualElectrocutionLoadBase

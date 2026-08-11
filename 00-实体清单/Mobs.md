@@ -4,39 +4,39 @@
 
 - **幽灵角色生成点** — `AbductorAgentSpawner` ｜父类: BaseAntagSpawner ｜_Starlight
 - **幽灵角色生成点** — `AbductorScientistSpawner` ｜父类: BaseAntagSpawner ｜_Starlight
-- **货物订购界面** — `ActionAGhostShowCargo` ｜父类: BaseAGhostAction
-- **角色档案界面** — `ActionAGhostShowCharacterRecords` ｜父类: BaseAGhostAction ｜_CD
-- **通讯界面** — `ActionAGhostShowCommunications` ｜父类: BaseAGhostAction
-- **船员监控界面** — `ActionAGhostShowCrewMonitoring` ｜父类: BaseAGhostAction
-- **质量扫描仪界面** — `ActionAGhostShowRadar` ｜父类: BaseAGhostAction
-- **太阳能控制界面** — `ActionAGhostShowSolar` ｜父类: BaseAGhostAction
-- **空间站记录界面** — `ActionAGhostShowStationRecords` ｜父类: BaseAGhostAction
-- **吞噬** — `ActionDevour` ｜父类: BaseAction
-- **龙息** — `ActionDragonsBreath` ｜父类: BaseAction
-- **呜！** — `ActionGhostBoo` ｜父类: BaseMentalAction
-- **触手猛击** — `ActionGoliathTentacle` ｜父类: BaseAction
-- **鼠王领域** — `ActionRatKingDomain` ｜父类: BaseAction
-- **围攻目标** — `ActionRatKingOrderCheeseEm` ｜父类: BaseAction
-- **跟随** — `ActionRatKingOrderFollow` ｜父类: BaseAction
-- **自由行动** — `ActionRatKingOrderLoose` ｜父类: BaseAction
-- **原地待命** — `ActionRatKingOrderStay` ｜父类: BaseAction
-- **召集军队** — `ActionRatKingRaiseArmy` ｜父类: BaseAction
-- **召唤鲤鱼裂隙** — `ActionSpawnRift` ｜父类: BaseAction
-- **切换对其他人的可见性** — `ActionToggleAGhostHide` ｜父类: BaseAGhostAction ｜_Starlight
-- **切换视野** — `ActionToggleFov` ｜父类: BaseMentalAction
-- **切换幽灵听觉** — `ActionToggleGhostHearing` ｜父类: BaseMentalAction
-- **切换幽灵显示** — `ActionToggleGhosts` ｜父类: BaseMentalAction
-- **切换守护者** — `ActionToggleGuardian` ｜父类: BaseMentalAction
-- **切换照明** — `ActionToggleLighting` ｜父类: BaseMentalAction
-- **异种赛博格摄像头监视器** — `ActionXenoborgCameraMonitor` ｜父类: BaseAGhostAction
-- **异种赛博格控制台** — `ActionXenoborgControlMonitor` ｜父类: BaseAGhostAction
+- **货物订购界面** — `ActionAGhostShowCargo` ｜父类: BaseAGhostAction ｜描述: View a Cargo Ordering Interface.
+- **角色档案界面** — `ActionAGhostShowCharacterRecords` ｜父类: BaseAGhostAction ｜_CD ｜描述: View all of the character records
+- **通讯界面** — `ActionAGhostShowCommunications` ｜父类: BaseAGhostAction ｜描述: View a Communications Interface.
+- **船员监控界面** — `ActionAGhostShowCrewMonitoring` ｜父类: BaseAGhostAction ｜描述: View a Crew Monitoring Interface.
+- **质量扫描仪界面** — `ActionAGhostShowRadar` ｜父类: BaseAGhostAction ｜描述: View a Mass Scanner Interface.
+- **太阳能控制界面** — `ActionAGhostShowSolar` ｜父类: BaseAGhostAction ｜描述: View a Solar Control Interface.
+- **空间站记录界面** — `ActionAGhostShowStationRecords` ｜父类: BaseAGhostAction ｜描述: View a Station Records Interface.
+- **吞噬** — `ActionDevour` ｜父类: BaseAction ｜描述: Attempt to break a structure with your jaws or swallow a creature.
+- **龙息** — `ActionDragonsBreath` ｜父类: BaseAction ｜描述: Spew out flames at anyone foolish enough to attack you!
+- **呜！** — `ActionGhostBoo` ｜父类: BaseMentalAction ｜描述: Scare your crew members because of boredom!
+- **触手猛击** — `ActionGoliathTentacle` ｜父类: BaseAction ｜描述: Use your tentacles to grab and stun a target player!
+- **鼠王领域** — `ActionRatKingDomain` ｜父类: BaseAction ｜描述: Spend some hunger to release a cloud of ammonia into the air.
+- **围攻目标** — `ActionRatKingOrderCheeseEm` ｜父类: BaseAction ｜描述: Command your army to attack whoever you point at.
+- **跟随** — `ActionRatKingOrderFollow` ｜父类: BaseAction ｜描述: Command your army to follow you around.
+- **自由行动** — `ActionRatKingOrderLoose` ｜父类: BaseAction ｜描述: Command your army to act at their own will.
+- **原地待命** — `ActionRatKingOrderStay` ｜父类: BaseAction ｜描述: Command your army to stand in place.
+- **召集军队** — `ActionRatKingRaiseArmy` ｜父类: BaseAction ｜描述: Spend some hunger to summon an allied rat to help defend you.
+- **召唤鲤鱼裂隙** — `ActionSpawnRift` ｜父类: BaseAction ｜描述: Summons a carp rift that will periodically spawns carps.
+- **切换对其他人的可见性** — `ActionToggleAGhostHide` ｜父类: BaseAGhostAction ｜_Starlight ｜描述: Hides your ghost from all other non-admin ghosts.
+- **切换视野** — `ActionToggleFov` ｜父类: BaseMentalAction ｜描述: Toggles field-of-view in order to see what players see.
+- **切换幽灵听觉** — `ActionToggleGhostHearing` ｜父类: BaseMentalAction ｜描述: Toggle between hearing all messages and hearing only radio & nearby messages.
+- **切换幽灵显示** — `ActionToggleGhosts` ｜父类: BaseMentalAction ｜描述: Toggle the visibility of other ghosts.
+- **切换守护者** — `ActionToggleGuardian` ｜父类: BaseMentalAction ｜描述: Either manifests the guardian or recalls it back into your body
+- **切换照明** — `ActionToggleLighting` ｜父类: BaseMentalAction ｜描述: Toggle light rendering to better observe dark areas.
+- **异种赛博格摄像头监视器** — `ActionXenoborgCameraMonitor` ｜父类: BaseAGhostAction ｜描述: View the Xenoborgs Camera Monitor
+- **异种赛博格控制台** — `ActionXenoborgControlMonitor` ｜父类: BaseAGhostAction ｜描述: View the Xenoborgs Control Console
 - **管理员观察者** — `AdminObserver` ｜父类: MobObserverBase,InventoryBase
-- **AiHeld** — `AiHeld`
-- **AiHeldIntellicard** — `AiHeldIntellicard`
-- `模板` **AiHolder** — `AiHolder`
+- **AiHeld** — `AiHeld` ｜描述: Components added / removed from an entity that gets inserted into an AI core.
+- **AiHeldIntellicard** — `AiHeldIntellicard` ｜描述: Components added / removed from an entity that gets inserted into an Intellicard.
+- `模板` **AiHolder** — `AiHolder` ｜描述: Handles AI interactions across holocards + AI cores
 - **AppearanceAbductor** — `AppearanceAbductor` ｜父类: BaseSpeciesDummy ｜_Starlight
 - **AppearanceArachnid** — `AppearanceArachnid` ｜父类: BaseSpeciesDummy,BaseInventoryArachnid ｜_Starlight
-- **AppearanceAvali** — `AppearanceAvali` ｜父类: BaseSpeciesDummy,BaseInventoryAvali ｜_Starlight
+- **AppearanceAvali** — `AppearanceAvali` ｜父类: BaseSpeciesDummy,BaseInventoryAvali ｜_Starlight ｜描述: A dummy avali meant to be used in character setup.
 - **AppearanceCyclorite** — `AppearanceCyclorite` ｜父类: BaseSpeciesDummy,BaseInventoryCyclorite ｜_Starlight
 - **AppearanceDiona** — `AppearanceDiona` ｜父类: BaseSpeciesDummy,BaseInventoryDiona ｜_Starlight
 - **AppearanceDwarf** — `AppearanceDwarf` ｜父类: BaseSpeciesDummy,BaseInventoryFemaleJumpsuit ｜_Starlight
@@ -48,7 +48,7 @@
 - **AppearanceLagomorph** — `AppearanceLagomorph` ｜父类: BaseSpeciesDummy,BaseInventoryLagomorph ｜_Starlight
 - **AppearanceMoth** — `AppearanceMoth` ｜父类: BaseSpeciesDummy,BaseInventoryMoth ｜_Starlight
 - **AppearanceProtoArachnid** — `AppearanceProtoArachnid` ｜父类: BaseSpeciesDummy ｜_Starlight
-- **AppearanceProtoAvali** — `AppearanceProtoAvali` ｜父类: BaseProtogenAppearance,BaseSpeciesDummy ｜_Starlight
+- **AppearanceProtoAvali** — `AppearanceProtoAvali` ｜父类: BaseProtogenAppearance,BaseSpeciesDummy ｜_Starlight ｜描述: A dummy proto-avali meant to be used in character setup.
 - **AppearanceProtoCyclorite** — `AppearanceProtoCyclorite` ｜父类: BaseProtogenAppearance,BaseSpeciesDummy ｜_Starlight
 - **AppearanceProtoDiona** — `AppearanceProtoDiona` ｜父类: BaseProtogenAppearance,BaseSpeciesDummy ｜_Starlight
 - **AppearanceProtoDwarf** — `AppearanceProtoDwarf` ｜父类: BaseProtogenAppearance,BaseSpeciesDummy ｜_Starlight
@@ -56,19 +56,19 @@
 - **AppearanceProtoFelionoid** — `AppearanceProtoFelionoid` ｜父类: BaseProtogenAppearance,BaseSpeciesDummy ｜_Starlight
 - **乌里斯特·麦克烤面包机** — `AppearanceProtogen` ｜父类: BaseProtogenAppearance,BaseSpeciesDummy ｜_Starlight
 - **AppearanceProtoHuman** — `AppearanceProtoHuman` ｜父类: BaseProtogenAppearance,BaseSpeciesDummy ｜_Starlight
-- **AppearanceProtoKin** — `AppearanceProtoKin` ｜父类: BaseProtogenAppearance,BaseSpeciesDummy ｜_Starlight
+- **AppearanceProtoKin** — `AppearanceProtoKin` ｜父类: BaseProtogenAppearance,BaseSpeciesDummy ｜_Starlight ｜描述: A dummy protokin meant to be used in character setup.
 - **AppearanceProtoLagomorph** — `AppearanceProtoLagomorph` ｜父类: BaseSpeciesDummy ｜_Starlight
 - **AppearanceProtoMoth** — `AppearanceProtoMoth` ｜父类: BaseSpeciesDummy ｜_Starlight
-- **AppearanceProtoReptilian** — `AppearanceProtoReptilian` ｜父类: BaseProtogenAppearance,BaseSpeciesDummy ｜_Starlight
-- **AppearanceProtoResomi** — `AppearanceProtoResomi` ｜父类: BaseSpeciesDummy ｜_Starlight
+- **AppearanceProtoReptilian** — `AppearanceProtoReptilian` ｜父类: BaseProtogenAppearance,BaseSpeciesDummy ｜_Starlight ｜描述: A dummy proto-reptile meant to be used in character setup.
+- **AppearanceProtoResomi** — `AppearanceProtoResomi` ｜父类: BaseSpeciesDummy ｜_Starlight ｜描述: A dummy proto-resomi meant to be used in character setup.
 - **AppearanceProtoSlimePerson** — `AppearanceProtoSlimePerson` ｜父类: BaseProtogenAppearance,BaseSpeciesDummy ｜_Starlight
 - **AppearanceProtoThaven** — `AppearanceProtoThaven` ｜父类: BaseProtogenAppearance,BaseSpeciesDummy ｜_Starlight
 - **AppearanceProtoVox** — `AppearanceProtoVox` ｜父类: BaseSpeciesDummy ｜_Starlight
 - **AppearanceProtoVulp** — `AppearanceProtoVulp` ｜父类: BaseProtogenAppearance,BaseSpeciesDummy ｜_Starlight
-- **AppearanceReptilian** — `AppearanceReptilian` ｜父类: BaseSpeciesDummy,BaseInventoryReptilian ｜_Starlight
-- **AppearanceResomi** — `AppearanceResomi` ｜父类: BaseSpeciesDummy,BaseInventoryResomi ｜_Starlight
-- **AppearanceRodentia** — `AppearanceRodentia` ｜父类: BaseSpeciesDummy,BaseInventoryRodentia ｜_Starlight
-- **AppearanceShadekin** — `AppearanceShadekin` ｜父类: BaseSpeciesDummy ｜_Starlight
+- **AppearanceReptilian** — `AppearanceReptilian` ｜父类: BaseSpeciesDummy,BaseInventoryReptilian ｜_Starlight ｜描述: A dummy reptilian meant to be used in character setup.
+- **AppearanceResomi** — `AppearanceResomi` ｜父类: BaseSpeciesDummy,BaseInventoryResomi ｜_Starlight ｜描述: A dummy resomi meant to be used in character setup.
+- **AppearanceRodentia** — `AppearanceRodentia` ｜父类: BaseSpeciesDummy,BaseInventoryRodentia ｜_Starlight ｜描述: A dummy rodentia meant to be used in character setup.
+- **AppearanceShadekin** — `AppearanceShadekin` ｜父类: BaseSpeciesDummy ｜_Starlight ｜描述: A dummy shadekin meant to be used in character setup.
 - **AppearanceSkeletonPerson** — `AppearanceSkeletonPerson` ｜父类: BaseSpeciesDummy,BaseInventoryFemaleJumpsuit ｜_Starlight
 - **AppearanceSlimePerson** — `AppearanceSlimePerson` ｜父类: AppearanceHuman ｜_Starlight
 - **AppearanceThaven** — `AppearanceThaven` ｜父类: BaseSpeciesDummy,BaseInventoryThaven ｜_Starlight
@@ -77,7 +77,7 @@
 - `模板` **BaseAGhostAction** — `BaseAGhostAction` ｜父类: BaseAction
 - `模板` **BaseBorgChassis** — `BaseBorgChassis` ｜父类: BaseBorgChassisNotIonStormable
 - `模板` **BaseBorgChassisDerelict** — `BaseBorgChassisDerelict` ｜父类: BaseBorgChassis
-- `模板` **赛博格** — `BaseBorgChassisNotIonStormable` ｜父类: BaseMob,StripableInventoryBase,BaseSiliconLanguages
+- `模板` **赛博格** — `BaseBorgChassisNotIonStormable` ｜父类: BaseMob,StripableInventoryBase,BaseSiliconLanguages ｜描述: A man-machine hybrid that assists in station activity. They love being asked to state their laws over and over.
 - `模板` **BaseBorgChassisNT** — `BaseBorgChassisNT` ｜父类: BaseBorgChassis,BaseBorgTransponder
 - `模板` **BaseBorgChassisSyndicate** — `BaseBorgChassisSyndicate` ｜父类: BaseBorgChassisNotIonStormable
 - `模板` **BaseBorgChassisSyndicateDerelict** — `BaseBorgChassisSyndicateDerelict` ｜父类: BaseBorgChassisSyndicate
@@ -88,32 +88,32 @@
 - `模板` **触手** — `BaseEffectGoliathTentacleSpawn`
 - `模板` **BaseMob** — `BaseMob` ｜父类: BaseControllable
 - `模板` **乌里斯特·麦克绑架者** — `BaseMobAbductor` ｜父类: MobBloodstream,MobFlammable,BaseMobSpecies,BaseSpeciesPickupableLarge ｜_Starlight
-- `模板` **basic slime** — `BaseMobAdultSlimes` ｜父类: SimpleMobBase,MobCombat
+- `模板` **basic slime** — `BaseMobAdultSlimes` ｜父类: SimpleMobBase,MobCombat ｜描述: It looks so much like jelly. I wonder what it tastes like?
 - `模板` **乌里斯特·麦克蛛网** — `BaseMobArachnid` ｜父类: BaseMobSpeciesOrganic,BaseSpeciesPickupableLarge,BaseInventoryArachnid ｜_Starlight
-- `模板` **BaseMobArgocyte** — `BaseMobArgocyte` ｜父类: BaseSimpleMob,MobCombat
+- `模板` **BaseMobArgocyte** — `BaseMobArgocyte` ｜父类: BaseSimpleMob,MobCombat ｜描述: A dangerous alien found on the wrong side of planets, known for their propensity for munching on ruins.
 - `模板` **BaseMobAsteroid** — `BaseMobAsteroid` ｜父类: BaseMob,MobDamageable,MobAtmosExposed,MobCombat
 - `模板` **尤里斯特·麦阿瓦利** — `BaseMobAvali` ｜父类: BaseColdBird,BaseMobSpeciesOrganic,BaseSpeciesPickupable,BaseInventoryAvali ｜_Starlight
-- `模板` **魔鸣怪** — `BaseMobBehonker` ｜父类: SimpleSpaceMobBase,FlyingMobBase,MobCombat
-- `模板` **蓝空间生物** — `BaseMobBluespaceHarvester` ｜父类: SimpleSpaceMobBase ｜_Starlight
-- `模板` **太空鲤鱼** — `BaseMobCarp` ｜父类: SimpleSpaceMobBase,FlyingMobBase,MobCombat
-- `模板` **aberrant clown** — `BaseMobClown` ｜父类: BaseMobFlesh ｜_Starlight
+- `模板` **魔鸣怪** — `BaseMobBehonker` ｜父类: SimpleSpaceMobBase,FlyingMobBase,MobCombat ｜描述: A floating demon aspect of the honkmother.
+- `模板` **蓝空间生物** — `BaseMobBluespaceHarvester` ｜父类: SimpleSpaceMobBase ｜_Starlight ｜描述: A horrific entity from beyond bluespace.
+- `模板` **太空鲤鱼** — `BaseMobCarp` ｜父类: SimpleSpaceMobBase,FlyingMobBase,MobCombat ｜描述: It's a space carp.
+- `模板` **aberrant clown** — `BaseMobClown` ｜父类: BaseMobFlesh ｜_Starlight ｜描述: A slippery mass of hilarious matter, animated through honktacular energy.
 - `模板` **BaseMobCyclorite** — `BaseMobCyclorite` ｜父类: BaseMobSpeciesOrganic,BaseSpeciesPickupableHuge,BaseInventoryCyclorite ｜_Starlight
-- `模板` **恐龙** — `BaseMobDinosaur` ｜父类: SimpleMobBase,MobCombat ｜_Starlight
-- `模板` **肉食恐龙** — `BaseMobDinosaurCarno` ｜父类: BaseMobDinosaur ｜_Starlight
-- `模板` **草食恐龙** — `BaseMobDinosaurHerb` ｜父类: BaseMobDinosaur ｜_Starlight
+- `模板` **恐龙** — `BaseMobDinosaur` ｜父类: SimpleMobBase,MobCombat ｜_Starlight ｜描述: Dinos
+- `模板` **肉食恐龙** — `BaseMobDinosaurCarno` ｜父类: BaseMobDinosaur ｜_Starlight ｜描述: A carnivorous dino
+- `模板` **草食恐龙** — `BaseMobDinosaurHerb` ｜父类: BaseMobDinosaur ｜_Starlight ｜描述: A vegetarian, but don't let that fool you. They're still out for blood
 - `模板` **乌里斯特·麦克植物** — `BaseMobDiona` ｜父类: BaseMobSpeciesOrganic,BaseSpeciesPickupableHuge,BaseInventoryDiona ｜_Starlight
-- `模板` **太空龙** — `BaseMobDragon` ｜父类: SimpleSpaceMobBase,FlyingMobBase
+- `模板` **太空龙** — `BaseMobDragon` ｜父类: SimpleSpaceMobBase,FlyingMobBase ｜描述: A flying leviathan, loosely related to space carps.
 - `模板` **多手矮人乌里斯特** — `BaseMobDwarf` ｜父类: BaseMobSpeciesOrganic,BaseSpeciesPickupable,BaseInventoryFemaleJumpsuit ｜_Starlight
 - `模板` **乌里斯特·麦克艾尔吉** — `BaseMobElf` ｜父类: BaseMobSpeciesOrganic,BaseSpeciesPickupableLarge,BaseInventoryFemaleJumpsuit ｜_Starlight
 - `模板` **BaseMobFelionoid** — `BaseMobFelionoid` ｜父类: BaseMobSpeciesOrganic,BaseSpeciesPickupable,BaseInventoryFelionoid ｜_Starlight
-- `模板` **异常血肉** — `BaseMobFlesh` ｜父类: SimpleMobBase,MobCombat
-- `模板` **异常血肉** — `BaseMobFleshSalvage` ｜父类: SimpleSpaceMobBase,MobCombat
+- `模板` **异常血肉** — `BaseMobFlesh` ｜父类: SimpleMobBase,MobCombat ｜描述: A shambling mass of flesh, animated through anomalous energy.
+- `模板` **异常血肉** — `BaseMobFleshSalvage` ｜父类: SimpleSpaceMobBase,MobCombat ｜描述: A shambling mass of flesh, animated through anomalous energy.
 - `模板` **乌里斯特·麦克曲奇** — `BaseMobGingerbread` ｜父类: BaseMobSpeciesOrganic,BaseSpeciesPickupableLarge,BaseInventoryFemaleJumpsuit ｜_Starlight
-- `模板` **大猩猩** — `BaseMobGorilla` ｜父类: SimpleMobBase,MobCombat ｜_Starlight
+- `模板` **大猩猩** — `BaseMobGorilla` ｜父类: SimpleMobBase,MobCombat ｜_Starlight ｜描述: A ground-dwelling, predominantly herbivorous ape that inhabits the forests of central Africa on Earth.
 - `模板` **乌里斯特·麦克手** — `BaseMobHuman` ｜父类: BaseMobSpeciesOrganic,BaseSpeciesPickupableLarge,BaseInventoryFemaleJumpsuit ｜_Starlight
 - `模板` **乌里斯特·麦克机器人** — `BaseMobIPC` ｜父类: MobBloodstream,MobFlammable,BaseMobSpecies,BaseSpeciesPickupableHuge ｜_FarHorizons
-- **灵界漫步** — `BaseMobJaunt` ｜父类: Incorporeal,BaseMob
-- `模板` **太空锦鲤** — `BaseMobKoi` ｜父类: BaseMobCarp ｜_Starlight
+- **灵界漫步** — `BaseMobJaunt` ｜父类: Incorporeal,BaseMob ｜描述: Faint traces of a humanoid figure linger here
+- `模板` **太空锦鲤** — `BaseMobKoi` ｜父类: BaseMobCarp ｜_Starlight ｜描述: Result of hundreds of years of selective breeding and genetic engineering, a friendly and colourful variant of the common space carp
 - `模板` **尤里斯特·麦兔兔** — `BaseMobLagomorph` ｜父类: BaseMobSpeciesOrganic,BaseSpeciesPickupableHuge,BaseInventoryLagomorph ｜_Starlight
 - `模板` **乌里斯特·麦克绒毛** — `BaseMobMoth` ｜父类: BaseMobSpeciesOrganic,BaseSpeciesPickupableLarge,BaseInventoryMoth ｜_Starlight
 - `模板` **乌里斯特·麦克织网** — `BaseMobProtoArachnid` ｜父类: BaseMobProtogen ｜_Starlight
@@ -145,7 +145,7 @@
 - `模板` **乌里斯特·麦克耳朵** — `BaseMobThaven` ｜父类: BaseMobSpeciesOrganic,BaseSpeciesPickupableLarge,BaseInventoryThaven ｜_Starlight
 - `模板` **BaseMobVox** — `BaseMobVox` ｜父类: BaseMobSpeciesOrganic,BaseSpeciesPickupableLarge,BaseInventoryVox ｜_Starlight
 - `模板` **乌里斯特·麦克汪** — `BaseMobVulpkanin` ｜父类: BaseMobSpeciesOrganic,BaseSpeciesPickupableHuge,BaseInventoryVulpkanin ｜_Starlight
-- `模板` **NT-NC 底盘** — `BaseNTNCChassis` ｜父类: BaseBorgChassisNotIonStormable ｜_Starlight
+- `模板` **NT-NC 底盘** — `BaseNTNCChassis` ｜父类: BaseBorgChassisNotIonStormable ｜_Starlight ｜描述: A special chassis produced by NanoTrasen to aid Centcomm forces in their duties.
 - `模板` **BaseProtogenAppearance** — `BaseProtogenAppearance` ｜_Starlight
 - `模板` **BaseShadowMob** — `BaseShadowMob` ｜父类: BaseMob,BaseShadow
 - `模板` **BaseSimpleMob** — `BaseSimpleMob` ｜父类: BaseMob,MobDamageable,MobPolymorphable
@@ -153,17 +153,17 @@
 - `模板` **BaseSpeciesPickupable** — `BaseSpeciesPickupable` ｜_Starlight
 - `模板` **BaseSpeciesPickupableHuge** — `BaseSpeciesPickupableHuge` ｜_Starlight
 - `模板` **BaseSpeciesPickupableLarge** — `BaseSpeciesPickupableLarge` ｜_FarHorizons
-- `模板` **智能博基** — `BaseStationBorgiChassis` ｜父类: BaseBorgiChassis,BaseBorgTransponder ｜_Starlight
-- **辛迪加博基** — `BaseSyndicateBorgiChassis` ｜父类: BaseBorgiChassis ｜_Starlight
-- `模板` **异种赛博格** — `BaseXenoborgChassis` ｜父类: BaseXenoSiliconLanguages,BaseBorgChassisNotIonStormable
-- `模板` **异种赛博格** — `BaseXenoborgChassisDerelict` ｜父类: BaseXenoSiliconLanguages,BaseBorgChassis ｜_Starlight
+- `模板` **智能博基** — `BaseStationBorgiChassis` ｜父类: BaseBorgiChassis,BaseBorgTransponder ｜_Starlight ｜描述: A unusually smart dog, loves stating it's laws.
+- **辛迪加博基** — `BaseSyndicateBorgiChassis` ｜父类: BaseBorgiChassis ｜_Starlight ｜描述: An unusually smart dog, but hell bent on MURDER.
+- `模板` **异种赛博格** — `BaseXenoborgChassis` ｜父类: BaseXenoSiliconLanguages,BaseBorgChassisNotIonStormable ｜描述: A man-machine hybrid that aims to replicate itself. They love extracting brains to insert into fresh Xenoborg chassis to grow their army.
+- `模板` **异种赛博格** — `BaseXenoborgChassisDerelict` ｜父类: BaseXenoSiliconLanguages,BaseBorgChassis ｜_Starlight ｜描述: A man-machine hybrid that aims to replicate itself. This one has seen better days.
 - `模板` **BaseXenoborgTransponder** — `BaseXenoborgTransponder` ｜父类: BaseBorgTransponder
 - `模板` **货运赛博格子类型** — `BorgCargoSubtypeBase` ｜父类: BorgSubtypeBase ｜_Starlight
 - **梅佐** — `BorgCargoSubtypeMezo` ｜父类: BorgCargoSubtypeBase ｜_Starlight
 - **Meka 货运型** — `BorgCargoSubtypeTallborgMeka` ｜父类: BorgCargoSubtypeBase ｜_Starlight
 - **MMeka 货运型** — `BorgCargoSubtypeTallborgMMeka` ｜父类: BorgCargoSubtypeBase ｜_Starlight
 - **货运赛博格** — `BorgChassisCargo` ｜父类: BorgChassisSelectable ｜_Starlight
-- **废弃赛博格** — `BorgChassisDerelict` ｜父类: BaseBorgChassisDerelict
+- **废弃赛博格** — `BorgChassisDerelict` ｜父类: BaseBorgChassisDerelict ｜描述: A man-machine hybrid that assists in station activity. This one is in a state of great disrepair.
 - **工程赛博格** — `BorgChassisEngineer` ｜父类: BorgChassisSelectable
 - **通用赛博格** — `BorgChassisGeneric` ｜父类: BorgChassisSelectable
 - **清洁赛博格** — `BorgChassisJanitor` ｜父类: BorgChassisSelectable
@@ -174,11 +174,11 @@
 - **安保赛博格** — `BorgChassisSecurityPowered` ｜父类: BorgChassisSecurity ｜_Starlight
 - **赛博格** — `BorgChassisSelectable` ｜父类: BaseBorgChassisNT
 - **服务赛博格** — `BorgChassisService` ｜父类: BorgChassisSelectable
-- **辛迪加突击赛博格** — `BorgChassisSyndicateAssault` ｜父类: BaseBorgChassisSyndicate
-- **辛迪加医疗赛博格** — `BorgChassisSyndicateMedical` ｜父类: BaseBorgChassisSyndicate,ShowMedicalIcons
-- **辛迪加破坏者赛博格** — `BorgChassisSyndicateSaboteur` ｜父类: BaseBorgChassisSyndicate
+- **辛迪加突击赛博格** — `BorgChassisSyndicateAssault` ｜父类: BaseBorgChassisSyndicate ｜描述: A lean, mean killing machine with access to a variety of deadly modules.
+- **辛迪加医疗赛博格** — `BorgChassisSyndicateMedical` ｜父类: BaseBorgChassisSyndicate,ShowMedicalIcons ｜描述: A combat medical cyborg. Has limited offensive potential, but makes more than up for it with its support capabilities.
+- **辛迪加破坏者赛博格** — `BorgChassisSyndicateSaboteur` ｜父类: BaseBorgChassisSyndicate ｜描述: A streamlined engineering cyborg, equipped with covert modules. Its chameleon projector lets it disguise itself as a NanoTrasen cyborg.
 - **辛迪加隐形赛博格** — `BorgChassisSyndicateStealth` ｜父类: BaseBorgChassisSyndicate ｜_Starlight
-- `模板` **TSMC 突击赛博格** — `BorgChassisTSF` ｜父类: BaseBorgChassisNotIonStormable ｜_Starlight
+- `模板` **TSMC 突击赛博格** — `BorgChassisTSF` ｜父类: BaseBorgChassisNotIonStormable ｜_Starlight ｜描述: A purpose built assault silicon used by the TSMC.
 - **古董型** — `BorgEngineerSubtypeAntique` ｜父类: BorgEngineerSubtypeBase ｜_Starlight
 - `模板` **工程赛博格子类型** — `BorgEngineerSubtypeBase` ｜父类: BorgSubtypeBase ｜_Afterlight
 - **蟋蟀** — `BorgEngineerSubtypeCricket` ｜父类: BorgEngineerSubtypeBase ｜_Starlight
@@ -243,22 +243,22 @@
 - **标准型** — `BorgServiceSubtypeStandard` ｜父类: BorgServiceSubtypeBase ｜_Starlight
 - **Meka 服务型** — `BorgServiceSubtypeTallborgMMeka` ｜父类: BorgServiceSubtypeBase ｜_Starlight
 - **女服务员** — `BorgServiceSubtypeWaitress` ｜父类: BorgServiceSubtypeBase ｜_Starlight
-- `模板` **赛博格子类型基类** — `BorgSubtypeBase` ｜_Afterlight
-- **中央指挥部拖布蟑螂方块** — `CCMoproachCubeWrapped` ｜父类: MoproachCubeWrapped ｜_Starlight
-- **中央指挥部官员眼镜** — `CCMoproachGlasses` ｜父类: ClothingEyesGlassesCentComm ｜_Starlight
+- `模板` **赛博格子类型基类** — `BorgSubtypeBase` ｜_Afterlight ｜描述: Default state for other subtypes to use.
+- **中央指挥部拖布蟑螂方块** — `CCMoproachCubeWrapped` ｜父类: MoproachCubeWrapped ｜_Starlight ｜描述: Just add water! *chitters*
+- **中央指挥部官员眼镜** — `CCMoproachGlasses` ｜父类: ClothingEyesGlassesCentComm ｜_Starlight ｜描述: Centcomm officer glasses that are compatible with mothroaches. Unfortunately as a result, these are stuck to their face.
 - **灾难货运技师生成器** — `ChallengeCargoTechnicianSpawner` ｜父类: MarkerBase
 - **灾难受害者生成器** — `ChallengeVictimSpawner` ｜父类: MarkerBase
 - **指挥部访客生成器** — `CommandVisitorSpawner` ｜父类: MarkerBase
 - **呵叫之母** — `CorruptHonkmother` ｜父类: MobCorruptHonkmotherBase,BaseMob,MobPolymorphable,MobCombat,BaseAnomaly ｜_Starlight
 - **呵叫之母** — `CorruptHonkmotherTransform` ｜父类: CorruptHonkmother ｜_Starlight
 - **哥萨克生成器** — `CossackSpawner` ｜父类: MarkerBase
-- **废弃博基** — `DerelictBorgiChassis` ｜父类: BaseBorgiChassis ｜_Starlight
-- **失同步时空袋** — `DesynchronizedPocket` ｜父类: Incorporeal,BaseMob
-- **龙肺** — `DragonsBreathGun`
-- **咩电羊火花** — `EeepSpark` ｜父类: TeslaMiniEnergyBall ｜_Impstation
+- **废弃博基** — `DerelictBorgiChassis` ｜父类: BaseBorgiChassis ｜_Starlight ｜描述: even after all these years. still loves chasing it's tail.
+- **失同步时空袋** — `DesynchronizedPocket` ｜父类: Incorporeal,BaseMob ｜描述: A pocket in spacetime, keeping the user a fraction of a second in the future.
+- **龙肺** — `DragonsBreathGun` ｜描述: For dragon's breathing.
+- **咩电羊火花** — `EeepSpark` ｜父类: TeslaMiniEnergyBall ｜_Impstation ｜描述: You monster.
 - **触手** — `EffectGoliathTentacleRetract` ｜父类: BaseEffectGoliathTentacleSpawn
 - **触手** — `EffectGoliathTentacleSpawn` ｜父类: BaseEffectGoliathTentacleSpawn
-- **废弃工程赛博格** — `EngineeringBorgChassisDerelict` ｜父类: BaseBorgChassisDerelict
+- **废弃工程赛博格** — `EngineeringBorgChassisDerelict` ｜父类: BaseBorgChassisDerelict ｜描述: A man-machine hybrid that assists the engineering department. This one seems to have chunks of strange crystals pockmarking its surface.
 - **工程部访客生成器** — `EngineeringVisitorSpawner` ｜父类: MarkerBase
 - **灵界漫步** — `EtherealJaunt` ｜父类: BaseMobJaunt
 - **异种博基** — `FilledXenoBorgiChassis` ｜父类: XenoBorgiPrinted ｜_Starlight
@@ -266,32 +266,32 @@
 - **鸡蛋** — `FoodEggChickenFertilized` ｜父类: FoodEgg
 - **鸡蛋** — `FoodEggCompyFertilized` ｜父类: FoodEgg ｜_Starlight
 - **鸡蛋** — `FoodEggDuckFertilized` ｜父类: FoodEgg
-- **蜂巢领主残骸** — `FoodHivelordRemains` ｜父类: FoodBase
-- **失活的蜂巢领主残骸** — `FoodHivelordRemainsInert` ｜父类: BaseItem
+- **蜂巢领主残骸** — `FoodHivelordRemains` ｜父类: FoodBase ｜描述: All that remains of a hivelord, it seems to be what allows it to break pieces of itself off without being hurt... its healing properties will soon become inert if not used quickly. Try not to think ab
+- **失活的蜂巢领主残骸** — `FoodHivelordRemainsInert` ｜父类: BaseItem ｜描述: All that remains of a hivelord... Now all is truly lost.
 - **触手** — `GoliathTentacle`
-- `模板` **Incorporeal** — `Incorporeal`
+- `模板` **Incorporeal** — `Incorporeal` ｜描述: Mobs without physical bodies
 - **遁行** — `InfernalJaunt` ｜父类: EtherealJaunt ｜_Starlight
-- **智能卡** — `Intellicard` ｜父类: BaseItem,AiHolder
-- **废弃清洁赛博格** — `JanitorBorgChassisDerelict` ｜父类: BaseBorgChassisDerelict
-- **废弃医疗赛博格** — `MedicalBorgChassisDerelict` ｜父类: BaseBorgChassisDerelict
-- **废弃打捞赛博格** — `MiningBorgChassisDerelict` ｜父类: BaseBorgChassisDerelict
+- **智能卡** — `Intellicard` ｜父类: BaseItem,AiHolder ｜描述: A storage device for AIs.
+- **废弃清洁赛博格** — `JanitorBorgChassisDerelict` ｜父类: BaseBorgChassisDerelict ｜描述: A man-machine hybrid that assists the service department. It's a bigger mess than anything it can clean up.
+- **废弃医疗赛博格** — `MedicalBorgChassisDerelict` ｜父类: BaseBorgChassisDerelict ｜描述: A man-machine hybrid that assists the medical department. This one's needles don't look very sanitary.
+- **废弃打捞赛博格** — `MiningBorgChassisDerelict` ｜父类: BaseBorgChassisDerelict ｜描述: A man-machine hybrid that assists the cargo department. This one has seen the wrong side of a gibtonite chunk.
 - **绑架者** — `MobAbductor` ｜父类: BaseMobAbductor ｜_Starlight
 - **绑架者特工** — `MobAbductorAgent` ｜父类: MobAbductor ｜_Starlight
 - **绑架者科学家** — `MobAbductorScientist` ｜父类: MobAbductor ｜_Starlight
-- **憎恶体** — `MobAbomination` ｜父类: BaseMobFlesh
-- **管理员老鼠** — `MobAdminMouse` ｜父类: BaseSimpleMob ｜_Starlight
-- `模板` **基础史莱姆** — `MobAdultSlimes` ｜父类: BaseMobAdultSlimes
+- **憎恶体** — `MobAbomination` ｜父类: BaseMobFlesh ｜描述: A rejected clone, in constant pain and seeking revenge.
+- **管理员老鼠** — `MobAdminMouse` ｜父类: BaseSimpleMob ｜_Starlight ｜描述: A troublemaking mouse that will most probably contribute to your death, one way or another.
+- `模板` **基础史莱姆** — `MobAdultSlimes` ｜父类: BaseMobAdultSlimes ｜描述: It looks so much like jelly. I wonder what it tastes like?
 - **蓝色史莱姆** — `MobAdultSlimesBlue` ｜父类: MobAdultSlimes
 - **愤怒的蓝色史莱姆** — `MobAdultSlimesBlueAngry` ｜父类: MobAdultSlimesBlue
 - **绿色史莱姆** — `MobAdultSlimesGreen` ｜父类: MobAdultSlimes
 - **愤怒的绿色史莱姆** — `MobAdultSlimesGreenAngry` ｜父类: MobAdultSlimesGreen
 - **黄色史莱姆** — `MobAdultSlimesYellow` ｜父类: MobAdultSlimes
 - **愤怒的黄色史莱姆** — `MobAdultSlimesYellowAngry` ｜父类: MobAdultSlimesYellow
-- **亚历山大** — `MobAlexander` ｜父类: MobPig
-- **愤怒蜜蜂** — `MobAngryBee` ｜父类: MobBee,MobCombat
+- **亚历山大** — `MobAlexander` ｜父类: MobPig ｜描述: Chef's finest colleague.
+- **愤怒蜜蜂** — `MobAngryBee` ｜父类: MobBee,MobCombat ｜描述: How nice a bee. Oh no, it looks angry and wants my pizza.
 - **乌里斯特·麦克网** — `MobArachnid` ｜父类: BaseMobArachnid ｜_Starlight
 - **屏障体** — `MobArgocyteBarrier` ｜父类: BaseMobArgocyte
-- **爬行体** — `MobArgocyteCrawler` ｜父类: BaseMobArgocyte
+- **爬行体** — `MobArgocyteCrawler` ｜父类: BaseMobArgocyte ｜描述: Deadly, pack-animals that maul unsuspecting travelers.
 - **执法体** — `MobArgocyteEnforcer` ｜父类: BaseMobArgocyte
 - **奠基体** — `MobArgocyteFounder` ｜父类: BaseMobArgocyte
 - **滑翔体** — `MobArgocyteGlider` ｜父类: BaseMobArgocyte
@@ -299,119 +299,119 @@
 - **利维坦体** — `MobArgocyteLeviathing` ｜父类: BaseMobArgocyte
 - **塑形体** — `MobArgocyteMolder` ｜父类: BaseMobArgocyte
 - **扑击体** — `MobArgocytePouncer` ｜父类: BaseMobArgocyte
-- **疾行体** — `MobArgocyteSkitter` ｜父类: BaseMobArgocyte
-- **软泥幼体** — `MobArgocyteSlurva` ｜父类: BaseMobArgocyte
-- **窃取体** — `MobArgocyteSwiper` ｜父类: BaseMobArgocyte
+- **疾行体** — `MobArgocyteSkitter` ｜父类: BaseMobArgocyte ｜描述: A devious little alien... Make sure they don't run off with your rations!
+- **软泥幼体** — `MobArgocyteSlurva` ｜父类: BaseMobArgocyte ｜描述: A pathetic creature, incapable of doing much.
+- **窃取体** — `MobArgocyteSwiper` ｜父类: BaseMobArgocyte ｜描述: Where did that stack of steel go?
 - `模板` **MobAtmosExposed** — `MobAtmosExposed`
 - `模板` **MobAtmosStandard** — `MobAtmosStandard` ｜父类: MobAtmosExposed
 - **乌里斯特·麦克太空猛禽** — `MobAvali` ｜父类: BaseMobAvali ｜_Starlight
-- **矿石蟹** — `MobBananiumCrab` ｜父类: MobOreCrab
-- **班迪托** — `MobBandito` ｜父类: MobFerret
-- `模板` **基因祖先** — `MobBaseAncestor` ｜父类: SimpleMobBase,StripableInventoryBase
+- **矿石蟹** — `MobBananiumCrab` ｜父类: MobOreCrab ｜描述: An ore crab made from bananium.
+- **班迪托** — `MobBandito` ｜父类: MobFerret ｜描述: Just a silly little guy!
+- `模板` **基因祖先** — `MobBaseAncestor` ｜父类: SimpleMobBase,StripableInventoryBase ｜描述: The genetic bipedal ancestor of... Uh... Something. Yeah, there's definitely something on the station that descended from whatever this is.
 - `模板` **情绪支持沼狸** — `MobBaseEmotionalSupportScurret` ｜父类: MobBaseScurret
-- `模板` **狗头人** — `MobBaseKobold` ｜父类: MobBaseAncestor,BaseSpeciesPickupable
+- `模板` **狗头人** — `MobBaseKobold` ｜父类: MobBaseAncestor,BaseSpeciesPickupable ｜描述: Cousins to the sentient race of lizard people, kobolds blend in with their natural habitat and are as nasty as monkeys; ready to pull out your hair and stab you to death.
 - `模板` **沼狸** — `MobBaseScurret` ｜父类: MobBaseAncestor,BaseSpeciesPickupable
 - **狗头人** — `MobBaseSyndicateKobold` ｜父类: MobBaseKobold
-- **辛迪加猴子** — `MobBaseSyndicateMonkey` ｜父类: MobBaseAncestor
-- **蛇怪** — `MobBasilisk` ｜父类: BaseMobAsteroid,MobBloodstream
-- **蝙蝠** — `MobBat` ｜父类: SimpleMobBase,FlyingMobBase,MobCombat
-- **蕾米莉亚** — `MobBatRemilia` ｜父类: MobBat
-- **太空熊** — `MobBearSpace` ｜父类: MobSpaceBasic
+- **辛迪加猴子** — `MobBaseSyndicateMonkey` ｜父类: MobBaseAncestor ｜描述: New church of neo-darwinists actually believe that EVERY animal evolved from a monkey. Tastes like pork, and killing them is both fun and relaxing.
+- **蛇怪** — `MobBasilisk` ｜父类: BaseMobAsteroid,MobBloodstream ｜描述: A territorial beast, covered in a thick shell that absorbs energy. Its stare causes victims to freeze from the inside.
+- **蝙蝠** — `MobBat` ｜父类: SimpleMobBase,FlyingMobBase,MobCombat ｜描述: Some cultures find them terrifying, others crunchy on the teeth.
+- **蕾米莉亚** — `MobBatRemilia` ｜父类: MobBat ｜描述: The chaplain's familiar. Likes fruit.
+- **太空熊** — `MobBearSpace` ｜父类: MobSpaceBasic ｜描述: It looks friendly. Why don't you give it a hug?
 - **太空熊** — `MobBearSpaceSalvage` ｜父类: MobBearSpace
-- **蜜蜂** — `MobBee` ｜父类: SimpleMobBase,FlyingMobBase
+- **蜜蜂** — `MobBee` ｜父类: SimpleMobBase,FlyingMobBase ｜描述: Nice to have, but you can't build a civilization on a foundation of honey alone.
 - **电击魔鸣怪** — `MobBehonkerElectrical` ｜父类: BaseMobBehonker
 - **重力魔鸣怪** — `MobBehonkerGrav` ｜父类: BaseMobBehonker
 - **寒冰魔鸣怪** — `MobBehonkerIce` ｜父类: BaseMobBehonker
 - **火焰魔鸣怪** — `MobBehonkerPyro` ｜父类: BaseMobBehonker
-- **宾格斯** — `MobBingus` ｜父类: SimpleMobBase,StripableInventoryBase
+- **宾格斯** — `MobBingus` ｜父类: SimpleMobBase,StripableInventoryBase ｜描述: Bingus my beloved...
 - **太空锦鲤** — `MobBloodSkeletonKoi` ｜父类: BaseMobKoi ｜_Starlight
 - `模板` **MobBloodstream** — `MobBloodstream`
-- **空白躯壳** — `MobBluespaceHarvesterBlankBody` ｜父类: BaseMobBluespaceHarvester ｜_Starlight
-- **生物** — `MobBluespaceHarvesterMiGo` ｜父类: BaseMobBluespaceHarvester ｜_Starlight
-- **异物** — `MobBluespaceHarvesterOtherthing` ｜父类: BaseMobBluespaceHarvester ｜_Starlight
+- **空白躯壳** — `MobBluespaceHarvesterBlankBody` ｜父类: BaseMobBluespaceHarvester ｜_Starlight ｜描述: A shambling humanoid husk, empty of thought but driven by malice.
+- **生物** — `MobBluespaceHarvesterMiGo` ｜父类: BaseMobBluespaceHarvester ｜_Starlight ｜描述: A fast, insectoid creature from the depths of bluespace. Its movements are erratic and hard to predict.
+- **异物** — `MobBluespaceHarvesterOtherthing` ｜父类: BaseMobBluespaceHarvester ｜_Starlight ｜描述: A massive, lumbering abomination. It moves slowly but can take tremendous punishment.
 - **拳击袋鼠** — `MobBoxingKangaroo` ｜父类: MobKangaroo
 - **乌里斯特·麦克明眼** — `MobBrighteye` ｜父类: BaseMobShadekin,BaseMob ｜_Starlight
-- **蝴蝶** — `MobButterfly` ｜父类: SimpleMobBase,FlyingMobBase
-- **货运猩猩** — `MobCargorilla` ｜父类: BaseMobGorilla ｜_Starlight
+- **蝴蝶** — `MobButterfly` ｜父类: SimpleMobBase,FlyingMobBase ｜描述: Despite popular misconceptions, it's not actually made of butter.
+- **货运猩猩** — `MobCargorilla` ｜父类: BaseMobGorilla ｜_Starlight ｜描述: Cargo's pet gorilla. He seems to have an 'I love Mom' tattoo.
 - **太空鲤鱼** — `MobCarp` ｜父类: BaseMobCarp
 - **龙化太空鲤鱼** — `MobCarpDragon` ｜父类: MobCarp
 - **太空鲤鱼** — `MobCarpDungeon` ｜父类: MobCarp
-- **全息鲤鱼** — `MobCarpHolo` ｜父类: BaseMobCarp
-- **魔法鲤鱼** — `MobCarpMagic` ｜父类: BaseMobCarp
-- **彩虹鲤鱼** — `MobCarpRainbow` ｜父类: MobCarp
+- **全息鲤鱼** — `MobCarpHolo` ｜父类: BaseMobCarp ｜描述: Carp made out of holographic energies. Sadly for you, it is very much real.
+- **魔法鲤鱼** — `MobCarpMagic` ｜父类: BaseMobCarp ｜描述: Looks like some kind of fish. Might be magical.
+- **彩虹鲤鱼** — `MobCarpRainbow` ｜父类: MobCarp ｜描述: Wow such a shiny fishie!
 - **太空鲤鱼** — `MobCarpSalvage` ｜父类: MobCarp
-- **猫** — `MobCat` ｜父类: SimpleMobBase,StripableInventoryBase
-- **三花猫** — `MobCatCalico` ｜父类: MobCat
-- **狞猫** — `MobCatCaracal` ｜父类: MobCat
-- **异常** — `MobCatException` ｜父类: MobCatCalico
-- **弗洛帕** — `MobCatFloppa` ｜父类: MobCatCaracal
-- **小猫** — `MobCatKitten` ｜父类: MobCat
-- **运行时** — `MobCatRuntime` ｜父类: MobCat
-- **暗影猫** — `MobCatShadow` ｜父类: BaseShadowMob
-- **太空猫** — `MobCatSpace` ｜父类: MobCat
-- **辛迪猫** — `MobCatSyndy` ｜父类: MobCatSpace
-- **中央指挥部拖布蟑螂** — `MobCCMoproach` ｜父类: MobMoproach ｜_Starlight
+- **猫** — `MobCat` ｜父类: SimpleMobBase,StripableInventoryBase ｜描述: Feline pet, very funny.
+- **三花猫** — `MobCatCalico` ｜父类: MobCat ｜描述: Feline pet, very funny.
+- **狞猫** — `MobCatCaracal` ｜父类: MobCat ｜描述: Hilarious.
+- **异常** — `MobCatException` ｜父类: MobCatCalico ｜描述: Ask nicely, and maybe they'll give you one of their spare lives.
+- **弗洛帕** — `MobCatFloppa` ｜父类: MobCatCaracal ｜描述: He out here.
+- **小猫** — `MobCatKitten` ｜父类: MobCat ｜描述: Small and fluffy.
+- **运行时** — `MobCatRuntime` ｜父类: MobCat ｜描述: Professional mouse hunter. Escape artist.
+- **暗影猫** — `MobCatShadow` ｜父类: BaseShadowMob ｜描述: A lovely piece of darkness. Hope he doesn't bring you a curse.
+- **太空猫** — `MobCatSpace` ｜父类: MobCat ｜描述: Feline pet, prepared for the worst.
+- **辛迪猫** — `MobCatSyndy` ｜父类: MobCatSpace ｜描述: Explosive kitten.
+- **中央指挥部拖布蟑螂** — `MobCCMoproach` ｜父类: MobMoproach ｜_Starlight ｜描述: A moproach specially trained in the ways of janitorial duties by the best NT has to offer.
 - **中央指挥部拖布蟑螂** — `MobCCMoproachHat` ｜父类: MobCCMoproach ｜_Starlight
-- **鸡** — `MobChicken` ｜父类: SimpleMobBase
+- **鸡** — `MobChicken` ｜父类: SimpleMobBase ｜描述: Comes before an egg, and IS a dinosaur!
 - **鸡** — `MobChicken1` ｜父类: MobChicken
 - **鸡** — `MobChicken2` ｜父类: MobChicken
-- **平民** — `MobCivilian` ｜父类: BaseMobHuman
-- **清洁机器人** — `MobCleanBot` ｜父类: MobSiliconBase
+- **平民** — `MobCivilian` ｜父类: BaseMobHuman ｜描述: A miserable pile of secrets.
+- **清洁机器人** — `MobCleanBot` ｜父类: MobSiliconBase ｜描述: The creep of automation now threatening space janitors.
 - **异常血肉** — `MobClownClamp` ｜父类: BaseMobClown,MobFleshClamp ｜_Starlight
 - **异常血肉** — `MobClownGolem` ｜父类: BaseMobClown,MobFleshGolem ｜_Starlight
 - **异常血肉** — `MobClownJared` ｜父类: BaseMobClown,MobFleshJared ｜_Starlight
 - **异常血肉** — `MobClownLover` ｜父类: BaseMobClown,MobFleshLover ｜_Starlight
-- **小丑蜘蛛** — `MobClownSpider` ｜父类: MobSpiderAngryBase
-- **人** — `MobCluwne` ｜父类: MobHuman
-- **受诅小丑兽** — `MobCluwneBeast` ｜父类: SimpleMobBase ｜_Starlight
-- **矿石蟹** — `MobCoalCrab` ｜父类: MobOreCrab
-- **太空眼镜蛇** — `MobCobraSpace` ｜父类: MobSpaceBasic
+- **小丑蜘蛛** — `MobClownSpider` ｜父类: MobSpiderAngryBase ｜描述: Combines the two most terrifying things in existence, spiders and clowns.
+- **人** — `MobCluwne` ｜父类: MobHuman ｜描述: A polymorphed unfortunate.
+- **受诅小丑兽** — `MobCluwneBeast` ｜父类: SimpleMobBase ｜_Starlight ｜描述: A cluwne beast, nightmare fuel, time to run!
+- **矿石蟹** — `MobCoalCrab` ｜父类: MobOreCrab ｜描述: An ore crab made from coal.
+- **太空眼镜蛇** — `MobCobraSpace` ｜父类: MobSpaceBasic ｜描述: Long fangs and a glowing hood, and the alluring look begs to come closer.
 - **太空眼镜蛇** — `MobCobraSpaceSalvage` ｜父类: MobCobraSpace
-- **蟑螂** — `MobCockroach` ｜父类: SimpleMobBase
+- **蟑螂** — `MobCockroach` ｜父类: SimpleMobBase ｜描述: This station is just crawling with bugs.
 - `模板` **MobCombat** — `MobCombat`
 - **柯基** — `MobCorgi` ｜父类: MobCorgiBase
-- `模板` **柯基** — `MobCorgiBase` ｜父类: SimpleMobBase,StripableInventoryBase
-- **刻耳柏洛斯** — `MobCorgiCerberus` ｜父类: MobCorgiNarsi
-- **小丑伊恩** — `MobCorgiClownIan` ｜父类: MobCorgi ｜_Starlight
-- **伊恩** — `MobCorgiIan` ｜父类: MobCorgi
-- **老伊恩** — `MobCorgiIanOld` ｜父类: MobCorgiIan
-- **幼犬伊恩** — `MobCorgiIanPup` ｜父类: MobCorgiPuppy
-- **丽莎** — `MobCorgiLisa` ｜父类: MobCorgiIan
-- **真老鼠** — `MobCorgiMouse` ｜父类: MobCorgiIan
-- **腐化柯基** — `MobCorgiNarsi` ｜父类: MobCorgi,MobCombat
-- **柯基幼犬** — `MobCorgiPuppy` ｜父类: MobCorgi
-- **聪明柯基** — `MobCorgiSmart` ｜父类: MobCorgiBase
+- `模板` **柯基** — `MobCorgiBase` ｜父类: SimpleMobBase,StripableInventoryBase ｜描述: Finally, a space corgi!
+- **刻耳柏洛斯** — `MobCorgiCerberus` ｜父类: MobCorgiNarsi ｜描述: This pupper is not wholesome.
+- **小丑伊恩** — `MobCorgiClownIan` ｜父类: MobCorgi ｜_Starlight ｜描述: HONK! HONK! IAN HERE.
+- **伊恩** — `MobCorgiIan` ｜父类: MobCorgi ｜描述: Favorite pet corgi.
+- **老伊恩** — `MobCorgiIanOld` ｜父类: MobCorgiIan ｜描述: Still the favorite pet corgi. Love his wheels.
+- **幼犬伊恩** — `MobCorgiIanPup` ｜父类: MobCorgiPuppy ｜描述: Favourite puppy corgi. Awww.
+- **丽莎** — `MobCorgiLisa` ｜父类: MobCorgiIan ｜描述: Ian's favorite corgi.
+- **真老鼠** — `MobCorgiMouse` ｜父类: MobCorgiIan ｜描述: It's 100% a real hungry mouse.
+- **腐化柯基** — `MobCorgiNarsi` ｜父类: MobCorgi,MobCombat ｜描述: Ian! No!
+- **柯基幼犬** — `MobCorgiPuppy` ｜父类: MobCorgi ｜描述: A little corgi! Aww...
+- **聪明柯基** — `MobCorgiSmart` ｜父类: MobCorgiBase ｜描述: An unusually smart dog.
 - **聪明柯基** — `MobCorgiSmartGhostrole` ｜父类: MobCorgiSmartNoGalcom ｜_Starlight
 - **聪明柯基** — `MobCorgiSmartNoGalcom` ｜父类: MobCorgiSmart ｜_Starlight
-- `模板` **MobCorruptHonkmotherBase** — `MobCorruptHonkmotherBase` ｜_Starlight
-- **奶牛** — `MobCow` ｜父类: SimpleMobBase
-- **螃蟹** — `MobCrab` ｜父类: SimpleMobBase
-- **热带佬** — `MobCrabAtmos` ｜父类: MobCrab
+- `模板` **MobCorruptHonkmotherBase** — `MobCorruptHonkmotherBase` ｜_Starlight ｜描述: Insert funny pun here
+- **奶牛** — `MobCow` ｜父类: SimpleMobBase ｜描述: Moo.
+- **螃蟹** — `MobCrab` ｜父类: SimpleMobBase ｜描述: A folk legend goes around that his claw snaps spacemen out of existence over distasteful remarks. Be polite and tolerant for your own safety.
+- **热带佬** — `MobCrabAtmos` ｜父类: MobCrab ｜描述: The noble and stalwart defender of Atmosia. Viva!
 - **乌里斯特·麦独眼石** — `MobCyclorite` ｜父类: BaseMobCyclorite ｜_Starlight
 - `模板` **MobDamageable** — `MobDamageable`
-- **调试计数器** — `MobDebugCounter` ｜父类: MobHuman
-- **调试随机计数器** — `MobDebugRandomCounter` ｜父类: MobHuman
-- **调试随机递减器** — `MobDebugRandomLess` ｜父类: MobHuman
-- **美颌龙** — `MobDinosaurCompy` ｜父类: BaseMobDinosaur ｜_Starlight
+- **调试计数器** — `MobDebugCounter` ｜父类: MobHuman ｜描述: He can count
+- **调试随机计数器** — `MobDebugRandomCounter` ｜父类: MobHuman ｜描述: He can randomize
+- **调试随机递减器** — `MobDebugRandomLess` ｜父类: MobHuman ｜描述: He can lessing
+- **美颌龙** — `MobDinosaurCompy` ｜父类: BaseMobDinosaur ｜_Starlight ｜描述: Over-sized chickens
 - **乌里斯特·麦克植物** — `MobDiona` ｜父类: BaseMobDiona ｜_Starlight
-- **狄奥娜幼体** — `MobDionaNymph` ｜父类: SimpleMobBase,StripableInventoryBase
+- **狄奥娜幼体** — `MobDionaNymph` ｜父类: SimpleMobBase,StripableInventoryBase ｜描述: It's like a cat, only.... branch-ier.
 - **狄奥娜幼体** — `MobDionaNymphAccent` ｜父类: MobDionaNymph
 - **改过自新的狄奥娜** — `MobDionaReformed` ｜父类: MobDiona ｜_Starlight
 - **太空龙** — `MobDragon` ｜父类: BaseMobDragon
 - **太空龙** — `MobDragonDungeon` ｜父类: BaseMobDragon
-- **棕鸭 #Quack** — `MobDuckBrown` ｜父类: MobDuckMallard
-- **绿头鸭 #Quack** — `MobDuckMallard` ｜父类: SimpleMobBase
-- **白鸭 #Quack** — `MobDuckWhite` ｜父类: MobDuckMallard
+- **棕鸭 #Quack** — `MobDuckBrown` ｜父类: MobDuckMallard ｜描述: An adorable brown duck, it's fluffy and soft!
+- **绿头鸭 #Quack** — `MobDuckMallard` ｜父类: SimpleMobBase ｜描述: An adorable mallard duck, it's fluffy and soft!
+- **白鸭 #Quack** — `MobDuckWhite` ｜父类: MobDuckMallard ｜描述: An adorable white duck, it's fluffy and soft!
 - **矮人乌里斯特·麦克手** — `MobDwarf` ｜父类: BaseMobDwarf ｜_Starlight
-- **咩电羊** — `MobEeep` ｜父类: MobEeepBase ｜_Impstation
+- **咩电羊** — `MobEeep` ｜父类: MobEeepBase ｜_Impstation ｜描述: Uh oh.
 - `模板` **MobEeepBase** — `MobEeepBase` ｜父类: SimpleSpaceMobBase,FlyingMobBase ｜_Impstation
-- **幼年咩电羊** — `MobEeeplet` ｜父类: MobEeepBase ｜_Impstation
+- **幼年咩电羊** — `MobEeeplet` ｜父类: MobEeepBase ｜_Impstation ｜描述: Electric sheep dream of teslas.
 - `模板` **MobElementalBase** — `MobElementalBase` ｜父类: BaseMob,MobCombat
 - **乌里斯特·麦克艾尔吉** — `MobElf` ｜父类: BaseMobElf ｜_Starlight
-- **情绪支持沼狸** — `MobEmotionalSupportScurret` ｜父类: MobScurret,MobBaseEmotionalSupportScurret
+- **情绪支持沼狸** — `MobEmotionalSupportScurret` ｜父类: MobScurret,MobBaseEmotionalSupportScurret ｜描述: Commonly known as Wawa, from the wetlands of Planet Wawa, these critters make up the bulk of Arnold's Pizza's "loyal workforce". This one is here as a temp.
 - **乌里斯特·麦喵** — `MobFelionoid` ｜父类: BaseMobFelionoid ｜_Starlight
-- **雪貂** — `MobFerret` ｜父类: SimpleMobBase,StripableInventoryBase
-- **灭火机器人** — `MobFireBot` ｜父类: MobSiliconBase
+- **雪貂** — `MobFerret` ｜父类: SimpleMobBase,StripableInventoryBase ｜描述: Just a silly little guy!
+- **灭火机器人** — `MobFireBot` ｜父类: MobSiliconBase ｜描述: A little fire extinguishing bot. He looks rather anxious.
 - `模板` **MobFlammable** — `MobFlammable`
 - **异常血肉** — `MobFleshClamp` ｜父类: BaseMobFlesh
 - **异常血肉** — `MobFleshClampSalvage` ｜父类: BaseMobFleshSalvage
@@ -421,38 +421,38 @@
 - **异常血肉** — `MobFleshJaredSalvage` ｜父类: BaseMobFleshSalvage
 - **异常血肉** — `MobFleshLover` ｜父类: BaseMobFlesh
 - **异常血肉** — `MobFleshLoverSalvage` ｜父类: BaseMobFleshSalvage
-- **狐狸** — `MobFox` ｜父类: SimpleMobBase,StripableInventoryBase
-- **雷诺** — `MobFoxRenault` ｜父类: MobFox
-- **青蛙** — `MobFrog` ｜父类: SimpleMobBase
-- **狼蛛** — `MobGiantSpider` ｜父类: MobSpiderBase
+- **狐狸** — `MobFox` ｜父类: SimpleMobBase,StripableInventoryBase ｜描述: They're a fox.
+- **雷诺** — `MobFoxRenault` ｜父类: MobFox ｜描述: The captain's trustworthy fox.
+- **青蛙** — `MobFrog` ｜父类: SimpleMobBase ｜描述: Hop hop hop. Lookin' moist.
+- **狼蛛** — `MobGiantSpider` ｜父类: MobSpiderBase ｜描述: Widely recognized to be the literal worst thing in existence.
 - **MobGiantSpiderAngry** — `MobGiantSpiderAngry` ｜父类: MobSpiderAngryBase,MobGiantSpider
-- **巫师蜘蛛** — `MobGiantSpiderWizard` ｜父类: MobGiantSpider
+- **巫师蜘蛛** — `MobGiantSpiderWizard` ｜父类: MobGiantSpider ｜描述: This spider looks a little magical
 - **乌里斯特·麦克曲奇** — `MobGingerbread` ｜父类: BaseMobGingerbread ｜_Starlight
 - **姜饼人** — `MobGingerbreadAI` ｜父类: MobGingerbread,MobCombat ｜_Starlight
-- **枪蟑螂** — `MobGlockroach` ｜父类: MobCockroach
-- **山羊** — `MobGoat` ｜父类: SimpleMobBase
+- **枪蟑螂** — `MobGlockroach` ｜父类: MobCockroach ｜描述: This station is just crawling with bu- OH GOD THAT COCKROACH HAS A GUN!!!
+- **山羊** — `MobGoat` ｜父类: SimpleMobBase ｜描述: Her spine consists of long sharp segments, no wonder she is so grumpy.
 - **太空锦鲤** — `MobGoldBlackKoi` ｜父类: BaseMobKoi ｜_Starlight
-- **矿石蟹** — `MobGoldCrab` ｜父类: MobOreCrab
-- **歌利亚** — `MobGoliath` ｜父类: BaseMobAsteroid,MobBloodstream
-- **鹅** — `MobGoose` ｜父类: SimpleMobBase
+- **矿石蟹** — `MobGoldCrab` ｜父类: MobOreCrab ｜描述: An ore crab made from gold.
+- **歌利亚** — `MobGoliath` ｜父类: BaseMobAsteroid,MobBloodstream ｜描述: A massive beast that uses long tentacles to ensnare its prey, threatening them is not advised under any conditions.
+- **鹅** — `MobGoose` ｜父类: SimpleMobBase ｜描述: Its stomach and mind are an enigma beyond human comprehension.
 - **大猩猩** — `MobGorilla` ｜父类: BaseMobGorilla ｜_Starlight
-- **狂暴大猩猩** — `MobGorillaRampaging` ｜父类: BaseMobGorilla ｜_Starlight
-- **手榴弹企鹅** — `MobGrenadePenguin` ｜父类: MobPenguin,MobCombat,BaseSyndicateContraband
-- `模板` **守护者基类** — `MobGuardianBase`
-- **指南手册猴子** — `MobGuidebookMonkey` ｜父类: MobMonkey
-- **仓鼠** — `MobHamster` ｜父类: SimpleMobBase,MobCombat,StripableInventoryBase
-- **哈姆雷特** — `MobHamsterHamlet` ｜父类: MobHamster
+- **狂暴大猩猩** — `MobGorillaRampaging` ｜父类: BaseMobGorilla ｜_Starlight ｜描述: A gorilla that has gone wild. Run!
+- **手榴弹企鹅** — `MobGrenadePenguin` ｜父类: MobPenguin,MobCombat,BaseSyndicateContraband ｜描述: A small penguin with a grenade strapped around its neck. Harvested by the Syndicate from icy shit-hole planets.
+- `模板` **守护者基类** — `MobGuardianBase` ｜描述: guardian
+- **指南手册猴子** — `MobGuidebookMonkey` ｜父类: MobMonkey ｜描述: A hopefully helpful monkey whose only purpose in life is for you to click on. Does this count as having a monkey give you a tutorial?
+- **仓鼠** — `MobHamster` ｜父类: SimpleMobBase,MobCombat,StripableInventoryBase ｜描述: A cute, fluffy, robust hamster.
+- **哈姆雷特** — `MobHamsterHamlet` ｜父类: MobHamster ｜描述: A grumpy, cute and fluffy hamster.
 - **哈姆雷特** — `MobHamsterHamletSlippery` ｜父类: MobHamsterHamlet
-- **地狱孽种** — `MobHellspawn` ｜父类: BaseSimpleMob,MobCombat,MobBloodstream
-- **蜂巢机器人** — `MobHivebot` ｜父类: BaseSimpleMob,MobCombat,MobRobotic
-- **远程蜂巢机器人** — `MobHivebotRanged` ｜父类: MobHivebot
-- **强壮蜂巢机器人** — `MobHivebotStrong` ｜父类: MobHivebotRanged
-- **蜂巢领主** — `MobHivelord` ｜父类: BaseMobAsteroid,FlyingMobBase
-- **蜂巢领主幼体** — `MobHivelordBrood` ｜父类: BaseMobAsteroid,FlyingMobBase
-- **全息小丑** — `MobHoloClownGuardian` ｜父类: MobGuardianBase,InventoryBase
-- **全息寄生体** — `MobHoloparasiteGuardian` ｜父类: MobGuardianBase
-- **呵叫机器人** — `MobHonkBot` ｜父类: MobSiliconBase
-- **拥抱机器人** — `MobHugBot` ｜父类: MobSiliconBase,MobCombat
+- **地狱孽种** — `MobHellspawn` ｜父类: BaseSimpleMob,MobCombat,MobBloodstream ｜描述: An unstoppable force of carnage.
+- **蜂巢机器人** — `MobHivebot` ｜父类: BaseSimpleMob,MobCombat,MobRobotic ｜描述: Agitating, mechanized pests.
+- **远程蜂巢机器人** — `MobHivebotRanged` ｜父类: MobHivebot ｜描述: Agitating, mechanized pests. This one has a gun.
+- **强壮蜂巢机器人** — `MobHivebotStrong` ｜父类: MobHivebotRanged ｜描述: Agitating, mechanized pests. This one looks much stronger then normal.
+- **蜂巢领主** — `MobHivelord` ｜父类: BaseMobAsteroid,FlyingMobBase ｜描述: A truly alien creature, it is a mass of unknown organic material, constantly fluctuating. When attacking, pieces of it split off and attack in tandem with the original.
+- **蜂巢领主幼体** — `MobHivelordBrood` ｜父类: BaseMobAsteroid,FlyingMobBase ｜描述: A fragment of the original hivelord, rallying behind its original. One isn't much of a threat, but...
+- **全息小丑** — `MobHoloClownGuardian` ｜父类: MobGuardianBase,InventoryBase ｜描述: A mesmerising whirl of hard-light patterns weaves a blue colored clown of dubious origin.
+- **全息寄生体** — `MobHoloparasiteGuardian` ｜父类: MobGuardianBase ｜描述: A mesmerising whirl of hard-light patterns weaves a marvelous, yet oddly familiar visage. It stands proud, tuning into its owner's life to sustain itself.
+- **呵叫机器人** — `MobHonkBot` ｜父类: MobSiliconBase ｜描述: Horrifying.
+- **拥抱机器人** — `MobHugBot` ｜父类: MobSiliconBase,MobCombat ｜描述: Awww, who needs a hug?
 - **尤里斯特·麦巧手** — `MobHuman` ｜父类: BaseMobHuman ｜_Starlight
 - **独狼特工** — `MobHumanLoneNuclearOperative` ｜父类: MobHuman
 - **核弹特工** — `MobHumanNukeOp` ｜父类: MobHuman
@@ -464,73 +464,73 @@
 - **辛迪加窃贼** — `MobHumanSyndicateAgentThief` ｜父类: MobHumanSyndicateAgent
 - **终结者** — `MobHumanTerminator` ｜父类: MobHuman ｜_Starlight
 - **巫师** — `MobHumanWizard` ｜父类: MobHuman
-- **伊弗利特** — `MobIfritGuardian` ｜父类: MobGuardianBase
+- **伊弗利特** — `MobIfritGuardian` ｜父类: MobGuardianBase ｜描述: A corrupted jinn, ripped from fitra to serve the wizard's petty needs. It stands wicked, tuning into its owner's life to sustain itself.
 - **乌里斯特·麦克机器人** — `MobIPC` ｜父类: BaseMobIPC ｜_FarHorizons
-- **矿石蟹** — `MobIronCrab` ｜父类: MobOreCrab
+- **矿石蟹** — `MobIronCrab` ｜父类: MobOreCrab ｜描述: An ore crab made from iron.
 - **约翰·脚趾** — `MobJohnToe` ｜父类: BaseMobHuman ｜_Starlight
-- **怪叫机器人** — `MobJonkBot` ｜父类: MobHonkBot
-- **袋鼠** — `MobKangaroo` ｜父类: SimpleMobBase,MobCombat,StripableInventoryBase
-- **太空袋鼠** — `MobKangarooSpace` ｜父类: MobSpaceBasic,StripableInventoryBase
+- **怪叫机器人** — `MobJonkBot` ｜父类: MobHonkBot ｜描述: Horrifying.
+- **袋鼠** — `MobKangaroo` ｜父类: SimpleMobBase,MobCombat,StripableInventoryBase ｜描述: A large marsupial herbivore. It has powerful hind legs, with nails that resemble long claws.
+- **太空袋鼠** — `MobKangarooSpace` ｜父类: MobSpaceBasic,StripableInventoryBase ｜描述: It looks friendly. Why don't you give it a hug?
 - **太空袋鼠** — `MobKangarooSpaceSalvage` ｜父类: MobKangarooSpace
-- **薇洛** — `MobKangarooWillow` ｜父类: MobKangaroo
-- **狗头人** — `MobKobold` ｜父类: MobBaseKobold
-- **狗头人** — `MobKoboldAdvanced` ｜父类: MobBaseKobold ｜_Starlight
-- **琪琪** — `MobKoboldKiki` ｜父类: MobKoboldAdvanced ｜_Starlight
+- **薇洛** — `MobKangarooWillow` ｜父类: MobKangaroo ｜描述: Willow the boxing kangaroo.
+- **狗头人** — `MobKobold` ｜父类: MobBaseKobold ｜描述: Cousins to the sentient race of lizard people, kobolds blend in with their natural habitat and are as nasty as monkeys; ready to pull out your hair and stab you to death.
+- **狗头人** — `MobKoboldAdvanced` ｜父类: MobBaseKobold ｜_Starlight ｜描述: Cousins to the sentient race of lizard people, kobolds blend in with their natural habitat and are as nasty as monkeys; ready to pull out your hair and stab you to death.
+- **琪琪** — `MobKoboldKiki` ｜父类: MobKoboldAdvanced ｜_Starlight ｜描述: A prominent representative of kobolds with unlimited access to that which she doesn't want to eat.
 - **狗头人** — `MobKoboldSyndicateAgent` ｜父类: MobBaseSyndicateKobold
 - **狗头人** — `MobKoboldSyndicateAgentNukeops` ｜父类: MobBaseSyndicateKobold
 - **乌里斯特·麦克兔兔** — `MobLagomorph` ｜父类: BaseMobLagomorph ｜_Starlight
-- **大号老鼠仆从** — `MobLargeRatServant` ｜父类: MobRatServant ｜_Starlight
-- **激光迅猛龙** — `MobLaserRaptor` ｜父类: SimpleMobBase
+- **大号老鼠仆从** — `MobLargeRatServant` ｜父类: MobRatServant ｜_Starlight ｜描述: He's da larger mini rat. He don't make da roolz yet.
+- **激光迅猛龙** — `MobLaserRaptor` ｜父类: SimpleMobBase ｜描述: From the Viking age.
 - **乌里斯特·麦林** — `MobLing` ｜父类: MobHuman,StorePresetChangeling
 - **猴子** — `MobLingMonkey` ｜父类: MobMonkey,StorePresetChangeling ｜_Starlight
-- `模板` **发光人形** — `MobLivingLight` ｜父类: BaseMob,MobCombat
-- **蜥蜴 #Weh** — `MobLizard` ｜父类: SimpleMobBase
-- **发光实体** — `MobLuminousEntity` ｜父类: MobLivingLight
-- **发光物体** — `MobLuminousObject` ｜父类: MobLivingLight
+- `模板` **发光人形** — `MobLivingLight` ｜父类: BaseMob,MobCombat ｜描述: A blinding figure of pure light, seemingly intangible.
+- **蜥蜴 #Weh** — `MobLizard` ｜父类: SimpleMobBase ｜描述: A harmless dragon.
+- **发光实体** — `MobLuminousEntity` ｜父类: MobLivingLight ｜描述: A blinding translucent entity, the bright eye seems dangerous and scalding.
+- **发光物体** — `MobLuminousObject` ｜父类: MobLivingLight ｜描述: A small glowing object that causes burns on the skin with its glow.
 - **发光人形** — `MobLuminousPerson` ｜父类: MobLivingLight
-- **麦格里夫** — `MobMcGriff` ｜父类: SimpleMobBase,StripableInventoryBase
-- **医疗机器人** — `MobMedibot` ｜父类: MobSiliconBase,ShowMedicalIcons,StripableInventoryBase
-- **导师老鼠** — `MobMentorMouse` ｜父类: MobAdminMouse ｜_Starlight
-- **哑剧机器人** — `MobMimeBot` ｜父类: MobSiliconBase,StripableInventoryBase
-- **拟态怪** — `MobMimic` ｜父类: SimpleMobBase,MobCombat
+- **麦格里夫** — `MobMcGriff` ｜父类: SimpleMobBase,StripableInventoryBase ｜描述: This dog can tell something smells around here, and that something is CRIME!
+- **医疗机器人** — `MobMedibot` ｜父类: MobSiliconBase,ShowMedicalIcons,StripableInventoryBase ｜描述: No substitute for a doctor, but better than nothing.
+- **导师老鼠** — `MobMentorMouse` ｜父类: MobAdminMouse ｜_Starlight ｜描述: A helpful little mouse that will (hopefully) give good advice. Click on it to pick it up!
+- **哑剧机器人** — `MobMimeBot` ｜父类: MobSiliconBase,StripableInventoryBase ｜描述: Why not give the mimebot a friendly wave?
+- **拟态怪** — `MobMimic` ｜父类: SimpleMobBase,MobCombat ｜描述: Surprise.
 - **拟态怪** — `MobMimicHostile` ｜父类: MobMimic ｜_Starlight
-- **猴子** — `MobMonkey` ｜父类: MobBaseAncestor,BaseSpeciesPickupable
-- **猴子** — `MobMonkeyAdvanced` ｜父类: MobBaseAncestor,BaseSpeciesPickupable ｜_Starlight
-- **潘潘** — `MobMonkeyPunpun` ｜父类: MobMonkeyAdvanced
-- **搅搅** — `MobMonkeyStirStir` ｜父类: MobMonkeyAdvanced ｜_Starlight
+- **猴子** — `MobMonkey` ｜父类: MobBaseAncestor,BaseSpeciesPickupable ｜描述: New church of neo-darwinists actually believe that EVERY animal evolved from a monkey. Tastes like pork, and killing them is both fun and relaxing.
+- **猴子** — `MobMonkeyAdvanced` ｜父类: MobBaseAncestor,BaseSpeciesPickupable ｜_Starlight ｜描述: New church of neo-darwinists actually believe that EVERY animal evolved from a monkey. Tastes like pork, and killing them is both fun and relaxing.
+- **潘潘** — `MobMonkeyPunpun` ｜父类: MobMonkeyAdvanced ｜描述: A prominent representative of monkeys with unlimited access to alcohol.
+- **搅搅** — `MobMonkeyStirStir` ｜父类: MobMonkeyAdvanced ｜_Starlight ｜描述: A disreputable monkey who should not be trusted. A real cell stuffer.
 - **猴子** — `MobMonkeySyndicateAgent` ｜父类: MobBaseSyndicateMonkey
 - **猴子** — `MobMonkeySyndicateAgentNukeops` ｜父类: MobBaseSyndicateMonkey
-- **拖把蟑螂** — `MobMoproach` ｜父类: MobMothroach
+- **拖把蟑螂** — `MobMoproach` ｜父类: MobMothroach ｜描述: This little mothroach has mopshoes on its feet! How adorable!
 - **拖把蟑螂** — `MobMoproachHat` ｜父类: MobMoproach ｜_Starlight
 - **乌里斯特·麦克绒绒** — `MobMoth` ｜父类: BaseMobMoth ｜_Starlight
-- **蛾蟑螂** — `MobMothroach` ｜父类: MobCockroach
-- **老鼠** — `MobMouse` ｜父类: SimpleMobBase
+- **蛾蟑螂** — `MobMothroach` ｜父类: MobCockroach ｜描述: This is the adorable by-product of multiple attempts at genetically mixing mothpeople with cockroaches.
+- **老鼠** — `MobMouse` ｜父类: SimpleMobBase ｜描述: Squeak!
 - **老鼠** — `MobMouse1` ｜父类: MobMouse
 - **老鼠** — `MobMouse2` ｜父类: MobMouse
 - **老鼠** — `MobMouseAdmeme` ｜父类: MobMouse
-- **癌变老鼠** — `MobMouseCancer` ｜父类: MobMouse
-- **死老鼠** — `MobMouseDead` ｜父类: MobMouse
+- **癌变老鼠** — `MobMouseCancer` ｜父类: MobMouse ｜描述: Toxic. Squeak!
+- **死老鼠** — `MobMouseDead` ｜父类: MobMouse ｜描述: Squeak!
 - **雷米** — `MobMouseRemy` ｜父类: MobMouse ｜_Starlight
 - **纳尔希** — `MobNarsie` ｜父类: MobNarsieBase,BaseMob
-- `模板` **纳尔希** — `MobNarsieBase`
+- `模板` **纳尔希** — `MobNarsieBase` ｜描述: Your mind begins to bubble and ooze as it tries to comprehend what it sees.
 - **纳尔希** — `MobNarsieSpawn` ｜父类: MobNarsieBase
 - **观察者** — `MobObserver` ｜父类: MobObserverBase
-- `模板` **观察者** — `MobObserverBase` ｜父类: Incorporeal,BaseMob
+- `模板` **观察者** — `MobObserverBase` ｜父类: Incorporeal,BaseMob ｜描述: Boo!
 - `模板` **矿石蟹** — `MobOreCrab` ｜父类: MobElementalBase,MobCombat
-- **文书** — `MobPaperwork` ｜父类: MobSloth
-- **时空悖论** — `MobParadox` ｜父类: BaseMob
+- **文书** — `MobPaperwork` ｜父类: MobSloth ｜描述: Took up a new job sorting books in the library after he got transferred from Space Station 13. He seems to be just as slow at this.
+- **时空悖论** — `MobParadox` ｜父类: BaseMob ｜描述: A big ball of wibbly wobbly, timey wimey stuff.
 - **时空悖论** — `MobParadoxTimed` ｜父类: MobParadox
 - **鹦鹉** — `MobParrot` ｜父类: MobParrotBase
-- `模板` **鹦鹉** — `MobParrotBase` ｜父类: SimpleMobBase,FlyingMobBase
-- **企鹅** — `MobPenguin` ｜父类: SimpleMobBase
-- **猪** — `MobPig` ｜父类: SimpleMobBase,StripableInventoryBase
-- **鹦鹉波莉** — `MobPollyParrot` ｜父类: MobParrotBase
+- `模板` **鹦鹉** — `MobParrotBase` ｜父类: SimpleMobBase,FlyingMobBase ｜描述: Infiltrates your domain, spies on you, and somehow still a cool pet.
+- **企鹅** — `MobPenguin` ｜父类: SimpleMobBase ｜描述: Their lives are constant pain due to their inner-body knees.
+- **猪** — `MobPig` ｜父类: SimpleMobBase,StripableInventoryBase ｜描述: Oink.
+- **鹦鹉波莉** — `MobPollyParrot` ｜父类: MobParrotBase ｜描述: An expert in quantum cracker theory
 - `模板` **MobPolymorphable** — `MobPolymorphable`
-- **负鼠** — `MobPossum` ｜父类: SimpleMobBase,StripableInventoryBase
-- **莫蒂** — `MobPossumMorty` ｜父类: MobPossum
+- **负鼠** — `MobPossum` ｜父类: SimpleMobBase,StripableInventoryBase ｜描述: "O Possum! My Possum!" -- Walt Whitman, 1865
+- **莫蒂** — `MobPossumMorty` ｜父类: MobPossum ｜描述: The station's resident Didelphis virginiana. A sensitive but resilient kind of guy.
 - **老莫蒂** — `MobPossumMortyOld` ｜父类: MobPossumMorty
 - **老负鼠** — `MobPossumOld` ｜父类: MobPossum
-- **波比 # the Safety Possum** — `MobPossumPoppy` ｜父类: MobPossumMorty
+- **波比 # the Safety Possum** — `MobPossumPoppy` ｜父类: MobPossumMorty ｜描述: It's an opossum, a small scavenging marsupial. It's wearing appropriate personal protective equipment.
 - **乌里斯特·麦克蛛网** — `MobProtoArachnid` ｜父类: BaseMobProtoArachnid ｜_FarHorizons
 - **乌里斯特·麦克太空迅猛龙** — `MobProtoAvali` ｜父类: BaseMobProtoAvali ｜_FarHorizons
 - **乌里斯特·麦赛克洛里斯特** — `MobProtoCyclorite` ｜父类: BaseMobProtoCyclorite ｜_FarHorizons
@@ -549,11 +549,11 @@
 - **乌里斯特·麦克大耳朵** — `MobProtoThaven` ｜父类: BaseMobProtoThaven ｜_FarHorizons
 - **乌里斯特·麦克沃克斯** — `MobProtoVox` ｜父类: BaseMobProtoVox ｜_FarHorizons
 - **乌里斯特·麦克伏尔普** — `MobProtoVulp` ｜父类: BaseMobProtoVulp ｜_FarHorizons
-- `模板` **MobPureHonkmotherBase** — `MobPureHonkmotherBase` ｜_Starlight
-- **太空蝰蛇** — `MobPurpleSnake` ｜父类: SimpleSpaceMobBase
-- **矿石蟹** — `MobQuartzCrab` ｜父类: MobOreCrab
-- **浣熊** — `MobRaccoon` ｜父类: SimpleMobBase,StripableInventoryBase
-- **莫蒂西亚** — `MobRaccoonMorticia` ｜父类: MobRaccoon
+- `模板` **MobPureHonkmotherBase** — `MobPureHonkmotherBase` ｜_Starlight ｜描述: Insert funny pun here
+- **太空蝰蛇** — `MobPurpleSnake` ｜父类: SimpleSpaceMobBase ｜描述: A menacing purple snake from Kepler-283c.
+- **矿石蟹** — `MobQuartzCrab` ｜父类: MobOreCrab ｜描述: An ore crab made from Quartz.
+- **浣熊** — `MobRaccoon` ｜父类: SimpleMobBase,StripableInventoryBase ｜描述: Trash panda!
+- **莫蒂西亚** — `MobRaccoonMorticia` ｜父类: MobRaccoon ｜描述: A powerful creature of the night. Her eyeshadow is always on point.
 - **身份不明的尸体** — `MobRandomCargoCorpse` ｜父类: SalvageHumanCorpse
 - **身份不明的尸体** — `MobRandomCommandCorpse` ｜父类: SalvageHumanCorpse
 - **身份不明的尸体** — `MobRandomEngineerCorpse` ｜父类: SalvageHumanCorpse
@@ -566,62 +566,62 @@
 - **身份不明的尸体** — `MobRandomServiceCorpse` ｜父类: SalvageHumanCorpse
 - **身份不明的尸体** — `MobRandomSovietCorpse` ｜父类: SalvageHumanCorpse ｜_Starlight
 - **身份不明的尸体** — `MobRandomSyndicateCorpse` ｜父类: SalvageHumanCorpse ｜_Starlight
-- **鼠王** — `MobRatKing` ｜父类: SimpleMobBase,MobCombat
+- **鼠王** — `MobRatKing` ｜父类: SimpleMobBase,MobCombat ｜描述: He's da rat. He make da roolz.
 - **鼠王** — `MobRatKingBuff` ｜父类: MobRatKing
-- **老鼠仆从** — `MobRatServant` ｜父类: SimpleMobBase,MobCombat
+- **老鼠仆从** — `MobRatServant` ｜父类: SimpleMobBase,MobCombat ｜描述: He's da mini rat. He don't make da roolz.
 - **拉特瓦尔** — `MobRatvar` ｜父类: MobRatvarBase,BaseMob
-- `模板` **拉特瓦尔** — `MobRatvarBase`
+- `模板` **拉特瓦尔** — `MobRatvarBase` ｜描述: Your mind aches as it fails to understand the complex mechanics of what is before you.
 - **拉特瓦尔** — `MobRatvarSpawn` ｜父类: MobRatvarBase
 - **太空锦鲤** — `MobRedBlackKoi` ｜父类: BaseMobKoi ｜_Starlight
 - **太空锦鲤** — `MobRedCircleKoi` ｜父类: BaseMobKoi ｜_Starlight
-- **雄驯鹿** — `MobReindeerBuck` ｜父类: SimpleMobBase,MobCombat
+- **雄驯鹿** — `MobReindeerBuck` ｜父类: SimpleMobBase,MobCombat ｜描述: You think it can pull a sleigh?
 - **雌驯鹿** — `MobReindeerDoe` ｜父类: MobReindeerBuck
 - **乌里斯特·麦克鳞片** — `MobReptilian` ｜父类: BaseMobReptilian ｜_Starlight
 - **乌里斯特·麦克猛禽** — `MobResomi` ｜父类: BaseMobResomi ｜_Starlight
 - `模板` **MobRespirator** — `MobRespirator`
-- **怨灵** — `MobRevenant` ｜父类: Incorporeal,BaseMob
+- **怨灵** — `MobRevenant` ｜父类: Incorporeal,BaseMob ｜描述: A spooky ghostie.
 - `模板` **MobRobotic** — `MobRobotic` ｜父类: BaseMob
 - **尤里斯特·麦鼠** — `MobRodentia` ｜父类: BaseMobRodentia ｜_Starlight
 - **打捞员** — `MobSalvager` ｜父类: BaseMobHuman
-- **沼狸** — `MobScurret` ｜父类: MobBaseScurret
+- **沼狸** — `MobScurret` ｜父类: MobBaseScurret ｜描述: Commonly known as Wawa, from the wetlands of Planet Wawa, these critters make up the bulk of Arnolds's Pizza's "loyal workforce".
 - **乌里斯特·麦克暗影** — `MobShadekin` ｜父类: BaseMobShadekin,BaseMob ｜_Starlight
-- **鲨形小鱼** — `MobShark` ｜父类: BaseMobCarp
+- **鲨形小鱼** — `MobShark` ｜父类: BaseMobCarp ｜描述: A dangerous shark from the blackness of endless space, who loves to drink blood.
 - **鲨形小鱼** — `MobSharkSalvage` ｜父类: MobShark
 - `模板` **MobSiliconBase** — `MobSiliconBase` ｜父类: MobRobotic
-- **矿石蟹** — `MobSilverCrab` ｜父类: MobOreCrab
+- **矿石蟹** — `MobSilverCrab` ｜父类: MobOreCrab ｜描述: An ore crab made from silver.
 - **骷髅骑手** — `MobSkeletonBiker` ｜父类: MobSkeletonPerson
 - **壁橱骷髅** — `MobSkeletonCloset` ｜父类: MobSkeletonPerson
 - **衣柜骷髅（自由特工）** — `MobSkeletonClosetFreeAgent` ｜父类: MobSkeletonPerson ｜_Starlight
 - **尤里斯特·麦骨头** — `MobSkeletonPerson` ｜父类: BaseMobSkeletonPerson ｜_Starlight
 - **骷髅海盗** — `MobSkeletonPirate` ｜父类: MobSkeletonPerson
 - **乌里斯特·麦克史莱姆** — `MobSlimePerson` ｜父类: BaseMobSlimePerson ｜_Starlight
-- **微笑** — `MobSlimesPet` ｜父类: MobAdultSlimes,StripableInventoryBase
-- **树懒** — `MobSloth` ｜父类: SimpleMobBase,StripableInventoryBase
-- **蛞蝓** — `MobSlug` ｜父类: SimpleMobBase
-- **小型太空蝰蛇** — `MobSmallPurpleSnake` ｜父类: MobPurpleSnake
-- **蜗牛** — `MobSnail` ｜父类: SimpleSpaceMobBase
+- **微笑** — `MobSlimesPet` ｜父类: MobAdultSlimes,StripableInventoryBase ｜描述: This masterpiece has gone through thousands of experiments. But it is the sweetest creature in the world. Smile Slime!
+- **树懒** — `MobSloth` ｜父类: SimpleMobBase,StripableInventoryBase ｜描述: Very slow animal. For people with low energy.
+- **蛞蝓** — `MobSlug` ｜父类: SimpleMobBase ｜描述: And they called this a lizard?
+- **小型太空蝰蛇** — `MobSmallPurpleSnake` ｜父类: MobPurpleSnake ｜描述: A smaller version of the menacing purple snake from Kepler-283c.
+- **蜗牛** — `MobSnail` ｜父类: SimpleSpaceMobBase ｜描述: Revolting unless you're french.
 - **蜗牛** — `MobSnailInstantDeath` ｜父类: MobSnail
 - **蛾牛** — `MobSnailMoth` ｜父类: MobSnail
 - **蜗牛** — `MobSnailSpeed` ｜父类: MobSnail
-- **蛇** — `MobSnake` ｜父类: SimpleMobBase
-- `模板` **基础太空生物** — `MobSpaceBasic` ｜父类: SimpleSpaceMobBase
+- **蛇** — `MobSnake` ｜父类: SimpleMobBase ｜描述: Hissss! Bites aren't poisonous.
+- `模板` **基础太空生物** — `MobSpaceBasic` ｜父类: SimpleSpaceMobBase ｜描述: It looks friendly. Why don't you give it a hug?
 - **太空锦鲤** — `MobSpaceGlowKoi` ｜父类: BaseMobKoi ｜_Starlight
 - `模板` **MobSpiderAngryBase** — `MobSpiderAngryBase` ｜父类: MobSpiderBase
 - `模板` **MobSpiderBase** — `MobSpiderBase` ｜父类: SimpleMobBase,MobCombat
 - **幼蛛** — `MobSpiderling` ｜父类: MobSpiderlingBase ｜_Starlight
-- `模板` **幼蛛** — `MobSpiderlingBase` ｜父类: SimpleMobBase ｜_Starlight
+- `模板` **幼蛛** — `MobSpiderlingBase` ｜父类: SimpleMobBase ｜_Starlight ｜描述: a small spider which growth into unknown big and dangerous spider.
 - **幼蛛** — `MobSpiderlingSpiderAngry` ｜父类: MobSpiderling ｜_Starlight
 - **幼蛛** — `MobSpiderlingTerrorGray` ｜父类: MobSpiderling ｜_Starlight
 - **幼蛛** — `MobSpiderlingTerrorGreen` ｜父类: MobSpiderling ｜_Starlight
 - **幼蛛** — `MobSpiderlingTerrorRed` ｜父类: MobSpiderling ｜_Starlight
-- **湿婆** — `MobSpiderShiva` ｜父类: MobGiantSpider
-- **太空蜘蛛** — `MobSpiderSpace` ｜父类: MobSpaceBasic
+- **湿婆** — `MobSpiderShiva` ｜父类: MobGiantSpider ｜描述: The first defender of the station.
+- **太空蜘蛛** — `MobSpiderSpace` ｜父类: MobSpaceBasic ｜描述: It's so glowing, it looks dangerous.
 - **太空蜘蛛** — `MobSpiderSpaceSalvage` ｜父类: MobSpiderSpace
-- **太空海盗** — `MobSpirate` ｜父类: BaseMobHuman
-- **补给机器人** — `MobSupplyBot` ｜父类: MobSiliconBase
+- **太空海盗** — `MobSpirate` ｜父类: BaseMobHuman ｜描述: Yarr!
+- **补给机器人** — `MobSupplyBot` ｜父类: MobSiliconBase ｜描述: Delivers cargo!
 - **辛迪加步兵** — `MobSyndicateFootsoldier` ｜父类: BaseMobHuman
 - **辛迪加穿梭机驾驶员** — `MobSyndicateFootsoldierPilot` ｜父类: MobSyndicateFootsoldier
-- **NT-800“终结者”内骨骼** — `MobTerminatorEndoskeleton` ｜父类: BaseMob,MobCombat,MobDamageable,MobSiliconBase,BaseSpeciesPickupableLarge ｜_Starlight
+- **NT-800“终结者”内骨骼** — `MobTerminatorEndoskeleton` ｜父类: BaseMob,MobCombat,MobDamageable,MobSiliconBase,BaseSpeciesPickupableLarge ｜_Starlight ｜描述: The inner powerhouse of an infiltrator android. Ridiculously hard alloy on the inside, unassuming flesh on the outside.
 - **黑色恐蛛** — `MobTerrorBlack` ｜父类: MobTerrorBlackUnevolvable ｜_Starlight
 - `模板` **黑色恐蛛** — `MobTerrorBlackUnevolvable` ｜父类: MobTerrorGrayUnevolvable ｜_Starlight
 - **灰色恐蛛** — `MobTerrorGray` ｜父类: MobTerrorGrayUnevolvable ｜_Starlight
@@ -635,41 +635,41 @@
 - `模板` **紫色恐蛛** — `MobTerrorPurpleUnevolvable` ｜父类: MobTerrorRedUnevolvable ｜_Starlight
 - **红色恐蛛** — `MobTerrorRed` ｜父类: MobTerrorRedUnevolvable ｜_Starlight
 - `模板` **红色恐蛛** — `MobTerrorRedUnevolvable` ｜父类: MobTerrorSpider ｜_Starlight
-- `模板` **恐怖蜘蛛** — `MobTerrorSpider` ｜父类: SimpleSpaceMobBase,MobRespirator ｜_Starlight
+- `模板` **恐怖蜘蛛** — `MobTerrorSpider` ｜父类: SimpleSpaceMobBase,MobRespirator ｜_Starlight ｜描述: a deadly hybrid of a giant spider and xenomorph.
 - **白色恐蛛** — `MobTerrorWhite` ｜父类: MobTerrorWhiteUnevolvable ｜_Starlight
 - `模板` **白色恐蛛** — `MobTerrorWhiteUnevolvable` ｜父类: MobTerrorGreenUnevolvable ｜_Starlight
 - **乌里斯特·麦克耳朵** — `MobThaven` ｜父类: BaseMobThaven ｜_Starlight
-- **太空蜱虫** — `MobTick` ｜父类: SimpleSpaceMobBase
+- **太空蜱虫** — `MobTick` ｜父类: SimpleSpaceMobBase ｜描述: It's a space tick, watch out for its nasty bite. CentComm reports that 90 percent of cargo leg amputations are due to space tick bites.
 - **太空蜱虫** — `MobTickSalvage` ｜父类: MobTick
-- **杀手番茄** — `MobTomatoKiller` ｜父类: BaseSimpleMob,MobDamageable,MobPolymorphable,MobBloodstream,MobFlammable,MobCombat
-- **矿石蟹** — `MobUraniumCrab` ｜父类: MobOreCrab
-- **血红之池** — `MobVampireSanguinePool` ｜父类: BaseMob ｜_Starlight
+- **杀手番茄** — `MobTomatoKiller` ｜父类: BaseSimpleMob,MobDamageable,MobPolymorphable,MobBloodstream,MobFlammable,MobCombat ｜描述: Looks like it's not you eating tomatoes today, it's the tomatoes eating you.
+- **矿石蟹** — `MobUraniumCrab` ｜父类: MobOreCrab ｜描述: An ore crab made from uranium.
+- **血红之池** — `MobVampireSanguinePool` ｜父类: BaseMob ｜_Starlight ｜描述: A sentient puddle of vampiric blood.
 - **乌里斯提提提·麦克沃克斯** — `MobVox` ｜父类: BaseMobVox ｜_Starlight
 - **乌里斯特·麦克伏尔普** — `MobVulpkanin` ｜父类: BaseMobVulpkanin ｜_Starlight
-- **沃尔特** — `MobWalter` ｜父类: SimpleMobBase,StripableInventoryBase
-- `模板` **watcher** — `MobWatcherBase` ｜父类: SimpleSpaceMobBase,FlyingMobBase
+- **沃尔特** — `MobWalter` ｜父类: SimpleMobBase,StripableInventoryBase ｜描述: He likes chems and treats. Walter.
+- `模板` **watcher** — `MobWatcherBase` ｜父类: SimpleSpaceMobBase,FlyingMobBase ｜描述: It's like it's staring right through you.
 - **冰翼凝视者** — `MobWatcherIcewing` ｜父类: MobWatcherBase
 - **监视者** — `MobWatcherLavaland` ｜父类: MobWatcherBase
 - **熔岩翼凝视者** — `MobWatcherMagmawing` ｜父类: MobWatcherBase
-- **骄傲凝视者** — `MobWatcherPride` ｜父类: MobWatcherBase
-- **掘穴异形** — `MobXeno` ｜父类: SimpleSpaceMobBase
-- **掘穴者** — `MobXenoAdmeme` ｜父类: SimpleSpaceMobBase ｜_Starlight
+- **骄傲凝视者** — `MobWatcherPride` ｜父类: MobWatcherBase ｜描述: This rare subspecies only appears in June.
+- **掘穴异形** — `MobXeno` ｜父类: SimpleSpaceMobBase ｜描述: They mostly come at night. Mostly.
+- **掘穴者** — `MobXenoAdmeme` ｜父类: SimpleSpaceMobBase ｜_Starlight ｜描述: They mostly come at night. Mostly.
 - **工蜂异形** — `MobXenoDrone` ｜父类: MobXeno
-- **“戴尔”** — `MobXenoLonePraetorianNoGhost` ｜父类: SimpleSpaceMobBase
+- **“戴尔”** — `MobXenoLonePraetorianNoGhost` ｜父类: SimpleSpaceMobBase ｜描述: A praetorian left over from the station's initial security sweep. Has a pair of bloodied dog tags engraved with the name "Pvt. Dale" stuck in its maw.
 - **禁卫异形** — `MobXenoPraetorian` ｜父类: MobXeno
 - **异形女王** — `MobXenoQueen` ｜父类: MobXeno
 - **毁灭者异形** — `MobXenoRavager` ｜父类: MobXeno
-- **异种蟑螂** — `MobXenoroach` ｜父类: MobSiliconBase ｜_Starlight
+- **异种蟑螂** — `MobXenoroach` ｜父类: MobSiliconBase ｜_Starlight ｜描述: A tiny biomechanical spy-bot produced by the Xenoborg Mothership. It lacks the processing power for complex tasks, but its small frame lets it slip through vents and under doors with ease.
 - **罗尼异形** — `MobXenoRouny` ｜父类: MobXenoRunner
 - **罗尼** — `MobXenoRounyAdmeme` ｜父类: MobXenoRunner ｜_Starlight
 - **奔行异形** — `MobXenoRunner` ｜父类: MobXeno
 - **禁卫** — `MobXenoRunnerAdmeme` ｜父类: MobXenoAdmeme ｜_Starlight
 - **喷吐异形** — `MobXenoSpitter` ｜父类: MobXeno
 - **喷吐者** — `MobXenoSpitterAdmeme` ｜父类: MobXenoAdmeme ｜_Starlight
-- **拖布蟑螂套件** — `MoproachBox` ｜父类: BoxCardboard ｜_Starlight
-- **拖布蟑螂方块** — `MoproachCubeWrapped` ｜父类: MonkeyCubeWrapped ｜_Starlight
-- **母舰核心** — `MothershipCore` ｜父类: BaseControllable,BaseStructure,BaseXenoSiliconLanguages
-- **NT-NC H.A.W 型** — `NTNCBorgChassisHAW` ｜父类: BaseNTNCChassis ｜_Starlight
+- **拖布蟑螂套件** — `MoproachBox` ｜父类: BoxCardboard ｜_Starlight ｜描述: A kit to quickly get two moproaches ready to work.
+- **拖布蟑螂方块** — `MoproachCubeWrapped` ｜父类: MonkeyCubeWrapped ｜_Starlight ｜描述: Unwrap this to get a moproach cube.
+- **母舰核心** — `MothershipCore` ｜父类: BaseControllable,BaseStructure,BaseXenoSiliconLanguages ｜描述: A sentient machine that can produce Xenoborgs. Without this the Xenoborgs are doomed.
+- **NT-NC H.A.W 型** — `NTNCBorgChassisHAW` ｜父类: BaseNTNCChassis ｜_Starlight ｜描述: A special chassis produced by NanoTrasen to aid Centcomm forces in their duties. The H.A.W (Hazardous Assault Walker) features heavy armaments and a specialised access configurator designed to grant i
 - **纳米传讯访客生成器** — `NTVisitorSpawner` ｜父类: MarkerBase
 - **纳米传讯访客生成器** — `NTVisitorSpawner10` ｜父类: NTVisitorSpawner50
 - **纳米传讯访客生成器** — `NTVisitorSpawner20` ｜父类: NTVisitorSpawner50
@@ -708,8 +708,8 @@
 - **废弃呼噜型赛博格** — `PlayerPurrfusBorgDerelict` ｜父类: PurrfusBorgChassisDerelict ｜_Starlight
 - **废弃呼噜型赛博格** — `PlayerPurrfusBorgDerelictGhostRole` ｜父类: PlayerPurrfusBorgDerelict ｜_Starlight
 - **AI 核心** — `PlayerStationAi` ｜父类: PlayerStationAiEmpty
-- **AI 核心组件** — `PlayerStationAiAssembly` ｜父类: BaseStructure
-- **AI 核心** — `PlayerStationAiEmpty` ｜父类: BaseStructure,AiHolder
+- **AI 核心组件** — `PlayerStationAiAssembly` ｜父类: BaseStructure ｜描述: An unfinished computer core for housing an artifical intelligence.
+- **AI 核心** — `PlayerStationAiEmpty` ｜父类: BaseStructure,AiHolder ｜描述: The latest in Artificial Intelligences.
 - **PlayerStationAiPreview** — `PlayerStationAiPreview`
 - **废弃辛迪加突击赛博格** — `PlayerSyndicateAssaultBorgDerelict` ｜父类: SyndicateAssaultBorgChassisDerelict
 - **废弃工程异种赛博格** — `PlayerXenoBorgEngiDerelict` ｜父类: XenoborgEngiDerelict ｜_Starlight
@@ -722,7 +722,7 @@
 - **废弃隐形异种赛博格** — `PlayerXenoborgStealthDerelict` ｜父类: XenoborgStealthDerelict ｜_Starlight
 - **废弃隐形异种赛博格** — `PlayerXenoborgStealthDerelictGhostRole` ｜父类: PlayerXenoborgStealthDerelict ｜_Starlight
 - **呵叫之母** — `PureHonkmother` ｜父类: MobPureHonkmotherBase,BaseMob,MobCombat ｜_Starlight
-- **废弃呼噜型赛博格** — `PurrfusBorgChassisDerelict` ｜父类: BaseBorgChassisDerelict ｜_Starlight
+- **废弃呼噜型赛博格** — `PurrfusBorgChassisDerelict` ｜父类: BaseBorgChassisDerelict ｜_Starlight ｜描述: A man-machine hybrid of the purrfus variety. This one is in a state of great disrepair.
 - **随机克隆体** — `RandomCloneSpawner`
 - **绿盾干员** — `RandomHumanoidCCGreenshieldSpawnerBasic` ｜_Starlight
 - **绿盾干员** — `RandomHumanoidCCGreenshieldSpawnerEVA` ｜_Starlight
@@ -745,7 +745,7 @@
 - **中央指挥部官员** — `RandomHumanoidSpawnerCentcomOfficial`
 - **受诅小丑** — `RandomHumanoidSpawnerCluwne`
 - **中央指挥部特工** — `RandomHumanoidSpawnerDeathSquad`
-- **第十特工** — `RandomHumanoidSpawnerDecimus` ｜_Starlight
+- **第十特工** — `RandomHumanoidSpawnerDecimus` ｜_Starlight ｜描述: Used to conduct alert level epsilon and to exterminate any and all life.
 - **应急响应队牧师** — `RandomHumanoidSpawnerERTChaplain` ｜父类: RandomHumanoidSpawnerERTLeader
 - **应急响应队牧师** — `RandomHumanoidSpawnerERTChaplainEVA` ｜父类: RandomHumanoidSpawnerERTChaplain
 - **应急响应队工程师** — `RandomHumanoidSpawnerERTEngineer` ｜父类: RandomHumanoidSpawnerERTLeader
@@ -766,15 +766,15 @@
 - **应急响应队安保先锋** — `RandomHumanoidSpawnerERTSecurityArmedVanguard` ｜父类: RandomHumanoidSpawnerERTSecurityEVA
 - **应急响应队安保干员** — `RandomHumanoidSpawnerERTSecurityEVA` ｜父类: RandomHumanoidSpawnerERTSecurity
 - **NTSF 特工** — `RandomHumanoidSpawnerNTSF` ｜_Starlight
-- **NTSF 第九特工** — `RandomHumanoidSpawnerNTSFNonus` ｜_Starlight
-- **NTSF 第八特工** — `RandomHumanoidSpawnerNTSFOctavius` ｜_Starlight
-- **NTSF 第一特工** — `RandomHumanoidSpawnerNTSFPrimus` ｜_Starlight
-- **NTSF 第四特工** — `RandomHumanoidSpawnerNTSFQuartus` ｜_Starlight
-- **NTSF 第五特工** — `RandomHumanoidSpawnerNTSFQuintus` ｜_Starlight
-- **NTSF 第二特工** — `RandomHumanoidSpawnerNTSFSecundus` ｜_Starlight
-- **NTSF 第七特工** — `RandomHumanoidSpawnerNTSFSeptimus` ｜_Starlight
-- **NTSF 第六特工** — `RandomHumanoidSpawnerNTSFSextus` ｜_Starlight
-- **NTSF 第三特工** — `RandomHumanoidSpawnerNTSFTertius` ｜_Starlight
+- **NTSF 第九特工** — `RandomHumanoidSpawnerNTSFNonus` ｜_Starlight ｜描述: Used to conduct assassinations and stealth operations.
+- **NTSF 第八特工** — `RandomHumanoidSpawnerNTSFOctavius` ｜_Starlight ｜描述: Used to bust unions and kill communist scum.
+- **NTSF 第一特工** — `RandomHumanoidSpawnerNTSFPrimus` ｜_Starlight ｜描述: Used as the primary strike team for any and all operations.
+- **NTSF 第四特工** — `RandomHumanoidSpawnerNTSFQuartus` ｜_Starlight ｜描述: Used to guard dangerous and anomalous assets in containment.
+- **NTSF 第五特工** — `RandomHumanoidSpawnerNTSFQuintus` ｜_Starlight ｜描述: Used to conduct raids and eliminate enemy targets.
+- **NTSF 第二特工** — `RandomHumanoidSpawnerNTSFSecundus` ｜_Starlight ｜描述: Used as general backup in situations where other NTSF teams have fallen.
+- **NTSF 第七特工** — `RandomHumanoidSpawnerNTSFSeptimus` ｜_Starlight ｜描述: Used to kill zombies, xenos, and all forms of pests and monsters.
+- **NTSF 第六特工** — `RandomHumanoidSpawnerNTSFSextus` ｜_Starlight ｜描述: Used to kill anomalies, gods, cults, and other phenomena that is deemed magical.
+- **NTSF 第三特工** — `RandomHumanoidSpawnerNTSFTertius` ｜_Starlight ｜描述: Used to conduct repossession operations to recover lost assets.
 - **核弹特工** — `RandomHumanoidSpawnerNukeOp`
 - **SSF 海军陆战队士兵** — `RandomHumanoidSpawnerSSFMarine` ｜_Starlight
 - **辛迪加特工** — `RandomHumanoidSpawnerSyndicateAgent`
@@ -834,7 +834,7 @@
 - **病毒学家访客幽灵角色** — `RandomHumanoidVisitorVirologist`
 - **典狱长访客幽灵角色** — `RandomHumanoidVisitorWarden`
 - **动物管理员访客幽灵角色** — `RandomHumanoidVisitorZookeeper`
-- **试剂史莱姆** — `ReagentSlime` ｜父类: MobAdultSlimes,MobCombat
+- **试剂史莱姆** — `ReagentSlime` ｜父类: MobAdultSlimes,MobCombat ｜描述: It consists of a liquid, and it wants to dissolve you in itself.
 - **试剂史莱姆** — `ReagentSlimeBeer` ｜父类: ReagentSlime
 - **试剂史莱姆** — `ReagentSlimeBicaridine` ｜父类: ReagentSlime
 - **试剂史莱姆** — `ReagentSlimeEphedrine` ｜父类: ReagentSlime
@@ -849,22 +849,22 @@
 - **试剂史莱姆** — `ReagentSlimeTHC` ｜父类: ReagentSlime
 - **试剂史莱姆** — `ReagentSlimeToxin` ｜父类: ReagentSlime
 - **观察者** — `ReplayObserver` ｜父类: MobObserverBase
-- **身份不明的尸体** — `SalvageHumanCorpse` ｜父类: BaseMobHuman
+- **身份不明的尸体** — `SalvageHumanCorpse` ｜父类: BaseMobHuman ｜描述: I think they're dead.
 - **安保部访客生成器** — `SecurityVisitorSpawner` ｜父类: MarkerBase
 - `模板` **SimpleMobBase** — `SimpleMobBase` ｜父类: MobRespirator,MobAtmosStandard,SimpleSpaceMobBase
 - `模板` **SimpleSpaceMobBase** — `SimpleSpaceMobBase` ｜父类: BaseSimpleMob,MobAtmosExposed,MobCombat,MobBloodstream,MobFlammable
-- **智能低音炮** — `SmartSubwooferBorgiChassis` ｜父类: BaseStationBorgiChassis ｜_Starlight
+- **智能低音炮** — `SmartSubwooferBorgiChassis` ｜父类: BaseStationBorgiChassis ｜_Starlight ｜描述: An unusually smart dog, with an obsession for sick bass beats and stating laws.
 - **绑架者特工生成点** — `SpawnPointAbductorAgent` ｜父类: MarkerBase ｜_Starlight
 - **绑架者科学家生成点** — `SpawnPointAbductorScientist` ｜父类: MarkerBase ｜_Starlight
 - **正电子脑** — `StationAiBrain` ｜父类: BaseSiliconLanguages,PositronicBrain
 - **正电子脑** — `StationAiBrainConstructed` ｜父类: StationAiBrain
-- **AI 之眼** — `StationAiHolo` ｜父类: Incorporeal,BaseMob
-- **AI 全息影像** — `StationAiHoloLocal`
-- **智能机械狗** — `StationBorgiChassis` ｜父类: BaseStationBorgiChassis ｜_Starlight
-- **低音炮** — `SubwooferBorgiChassis` ｜父类: SmartSubwooferBorgiChassis ｜_Starlight
-- **辛迪加博基** — `SyndiBorgiKit1` ｜父类: BaseSyndicateBorgiChassis ｜_Starlight
-- **辛迪加博基** — `SyndiBorgiKit2` ｜父类: BaseSyndicateBorgiChassis ｜_Starlight
-- **废弃辛迪加突击赛博格** — `SyndicateAssaultBorgChassisDerelict` ｜父类: BaseBorgChassisSyndicateDerelict
+- **AI 之眼** — `StationAiHolo` ｜父类: Incorporeal,BaseMob ｜描述: The AI's viewer.
+- **AI 全息影像** — `StationAiHoloLocal` ｜描述: A holographic representation of an AI.
+- **智能机械狗** — `StationBorgiChassis` ｜父类: BaseStationBorgiChassis ｜_Starlight ｜描述: A smart dog, loves stating it's laws.
+- **低音炮** — `SubwooferBorgiChassis` ｜父类: SmartSubwooferBorgiChassis ｜_Starlight ｜描述: A smart dog, with an obsession for sick bass beats and stating laws.
+- **辛迪加博基** — `SyndiBorgiKit1` ｜父类: BaseSyndicateBorgiChassis ｜_Starlight ｜描述: An unusually smart dog, but hell bent on MURDER.
+- **辛迪加博基** — `SyndiBorgiKit2` ｜父类: BaseSyndicateBorgiChassis ｜_Starlight ｜描述: An unusually smart dog, but hell bent on MURDER.
+- **废弃辛迪加突击赛博格** — `SyndicateAssaultBorgChassisDerelict` ｜父类: BaseBorgChassisSyndicateDerelict ｜描述: A lean, mean killing machine with access to a variety of deadly modules. This one is more rust-orange than blood-red.
 - **辛迪加士兵生成器** — `SyndieSoldierSpawner` ｜父类: MarkerBase
 - **辛迪加小队队长生成器** — `SyndieSoldierTeamLeaderSpawner` ｜父类: MarkerBase
 - **辛迪加灾难受害者生成器** — `SyndieVisitorSpawner` ｜父类: MarkerBase
@@ -919,47 +919,47 @@
 - **典狱长访客生成器** — `VisitorWarden` ｜父类: MarkerBase
 - **动物管理员访客生成器** — `VisitorZookeeperSpawner` ｜父类: MarkerBase
 - **VisualPickupableCloneEntity** — `VisualPickupableCloneEntity` ｜_FarHorizons
-- **精金异种生物学史莱姆** — `XenobiologySlimeAdamantine` ｜父类: XenobiologySlimeBase ｜_Starlight
-- `模板` **XenobiologySlimeBase** — `XenobiologySlimeBase` ｜父类: MobRespirator,MobAtmosStandard,SimpleSpaceMobBase ｜_Starlight
-- **黑色异种生物学史莱姆** — `XenobiologySlimeBlack` ｜父类: XenobiologySlimeBase ｜_Starlight
-- **蓝色异种生物学史莱姆** — `XenobiologySlimeBlue` ｜父类: XenobiologySlimeBase ｜_Starlight
-- **蓝空间异种生物学史莱姆** — `XenobiologySlimeBluespace` ｜父类: XenobiologySlimeBase ｜_Starlight
-- **天蓝色异种生物学史莱姆** — `XenobiologySlimeCerulean` ｜父类: XenobiologySlimeBase ｜_Starlight
-- **深蓝色异种生物学史莱姆** — `XenobiologySlimeDarkBlue` ｜父类: XenobiologySlimeBase ｜_Starlight
-- **深紫色异种生物学史莱姆** — `XenobiologySlimeDarkPurple` ｜父类: XenobiologySlimeBase ｜_Starlight
-- **金色异种生物学史莱姆** — `XenobiologySlimeGold` ｜父类: XenobiologySlimeBase ｜_Starlight
-- **灰色异种生物学史莱姆** — `XenobiologySlimeGray` ｜父类: XenobiologySlimeBase ｜_Starlight
-- **绿色异种生物学史莱姆** — `XenobiologySlimeGreen` ｜父类: XenobiologySlimeBase ｜_Starlight
-- **浅粉色异种生物学史莱姆** — `XenobiologySlimeLightPink` ｜父类: XenobiologySlimeBase ｜_Starlight
-- **金属异种生物学史莱姆** — `XenobiologySlimeMetal` ｜父类: XenobiologySlimeBase ｜_Starlight
-- **油性异种生物学史莱姆** — `XenobiologySlimeOil` ｜父类: XenobiologySlimeBase ｜_Starlight
-- **橙色异种生物学史莱姆** — `XenobiologySlimeOrange` ｜父类: XenobiologySlimeBase ｜_Starlight
-- **粉色异种生物学史莱姆** — `XenobiologySlimePink` ｜父类: XenobiologySlimeBase ｜_Starlight
-- **紫色异种生物学史莱姆** — `XenobiologySlimePurple` ｜父类: XenobiologySlimeBase ｜_Starlight
-- **黄铁矿异种生物学史莱姆** — `XenobiologySlimePyrite` ｜父类: XenobiologySlimeBase ｜_Starlight
-- **彩虹异种生物学史莱姆** — `XenobiologySlimeRainbow` ｜父类: XenobiologySlimeBase ｜_Starlight
-- **红色异种生物学史莱姆** — `XenobiologySlimeRed` ｜父类: XenobiologySlimeBase ｜_Starlight
-- **深褐色异种生物学史莱姆** — `XenobiologySlimeSepia` ｜父类: XenobiologySlimeBase ｜_Starlight
-- **银色异种生物学史莱姆** — `XenobiologySlimeSilver` ｜父类: XenobiologySlimeBase ｜_Starlight
-- **黄色异种生物学史莱姆** — `XenobiologySlimeYellow` ｜父类: XenobiologySlimeBase ｜_Starlight
-- **工程异种赛博格** — `XenoborgEngi` ｜父类: BaseXenoborgChassis,BaseXenoborgTransponder
+- **精金异种生物学史莱姆** — `XenobiologySlimeAdamantine` ｜父类: XenobiologySlimeBase ｜_Starlight ｜描述: ADAMANTINE
+- `模板` **XenobiologySlimeBase** — `XenobiologySlimeBase` ｜父类: MobRespirator,MobAtmosStandard,SimpleSpaceMobBase ｜_Starlight ｜描述: I don't think you should be seeing this.
+- **黑色异种生物学史莱姆** — `XenobiologySlimeBlack` ｜父类: XenobiologySlimeBase ｜_Starlight ｜描述: BLACK
+- **蓝色异种生物学史莱姆** — `XenobiologySlimeBlue` ｜父类: XenobiologySlimeBase ｜_Starlight ｜描述: BLUE
+- **蓝空间异种生物学史莱姆** — `XenobiologySlimeBluespace` ｜父类: XenobiologySlimeBase ｜_Starlight ｜描述: BLUESPACE
+- **天蓝色异种生物学史莱姆** — `XenobiologySlimeCerulean` ｜父类: XenobiologySlimeBase ｜_Starlight ｜描述: CERULEAN
+- **深蓝色异种生物学史莱姆** — `XenobiologySlimeDarkBlue` ｜父类: XenobiologySlimeBase ｜_Starlight ｜描述: DARK BLUE
+- **深紫色异种生物学史莱姆** — `XenobiologySlimeDarkPurple` ｜父类: XenobiologySlimeBase ｜_Starlight ｜描述: DARK PURPLE
+- **金色异种生物学史莱姆** — `XenobiologySlimeGold` ｜父类: XenobiologySlimeBase ｜_Starlight ｜描述: GOLD
+- **灰色异种生物学史莱姆** — `XenobiologySlimeGray` ｜父类: XenobiologySlimeBase ｜_Starlight ｜描述: GRAY
+- **绿色异种生物学史莱姆** — `XenobiologySlimeGreen` ｜父类: XenobiologySlimeBase ｜_Starlight ｜描述: GREEN
+- **浅粉色异种生物学史莱姆** — `XenobiologySlimeLightPink` ｜父类: XenobiologySlimeBase ｜_Starlight ｜描述: LIGHT PINK
+- **金属异种生物学史莱姆** — `XenobiologySlimeMetal` ｜父类: XenobiologySlimeBase ｜_Starlight ｜描述: METAL
+- **油性异种生物学史莱姆** — `XenobiologySlimeOil` ｜父类: XenobiologySlimeBase ｜_Starlight ｜描述: OIL
+- **橙色异种生物学史莱姆** — `XenobiologySlimeOrange` ｜父类: XenobiologySlimeBase ｜_Starlight ｜描述: ORANGE
+- **粉色异种生物学史莱姆** — `XenobiologySlimePink` ｜父类: XenobiologySlimeBase ｜_Starlight ｜描述: PINK
+- **紫色异种生物学史莱姆** — `XenobiologySlimePurple` ｜父类: XenobiologySlimeBase ｜_Starlight ｜描述: PURPLE
+- **黄铁矿异种生物学史莱姆** — `XenobiologySlimePyrite` ｜父类: XenobiologySlimeBase ｜_Starlight ｜描述: PYRITE
+- **彩虹异种生物学史莱姆** — `XenobiologySlimeRainbow` ｜父类: XenobiologySlimeBase ｜_Starlight ｜描述: RAINBOW
+- **红色异种生物学史莱姆** — `XenobiologySlimeRed` ｜父类: XenobiologySlimeBase ｜_Starlight ｜描述: RED
+- **深褐色异种生物学史莱姆** — `XenobiologySlimeSepia` ｜父类: XenobiologySlimeBase ｜_Starlight ｜描述: SEPIA
+- **银色异种生物学史莱姆** — `XenobiologySlimeSilver` ｜父类: XenobiologySlimeBase ｜_Starlight ｜描述: SILVER
+- **黄色异种生物学史莱姆** — `XenobiologySlimeYellow` ｜父类: XenobiologySlimeBase ｜_Starlight ｜描述: YELLOW
+- **工程异种赛博格** — `XenoborgEngi` ｜父类: BaseXenoborgChassis,BaseXenoborgTransponder ｜描述: A man-machine hybrid that aims to replicate itself. They love extracting brains to insert into fresh Xenoborg chassis to grow their army. This one seems to be an engineering type, as it has more tools
 - **废弃工程异种赛博格** — `XenoborgEngiDerelict` ｜父类: BaseXenoborgChassisDerelict ｜_Starlight
 - **工程异种赛博格** — `XenoborgEngiFilled` ｜父类: XenoborgEngi ｜_Starlight
 - **工程异种赛博格** — `XenoborgEngiPrinted` ｜父类: XenoborgEngi
-- **重型异种赛博格** — `XenoborgHeavy` ｜父类: BaseXenoborgChassis,BaseXenoborgTransponder
+- **重型异种赛博格** — `XenoborgHeavy` ｜父类: BaseXenoborgChassis,BaseXenoborgTransponder ｜描述: A man-machine hybrid that aims to replicate itself. They love extracting brains to insert into fresh Xenoborg chassis to grow their army. This type is has heavy lasers and is covered in thick armor pl
 - **废弃重型异种赛博格** — `XenoborgHeavyDerelict` ｜父类: BaseXenoborgChassisDerelict ｜_Starlight
 - **重型异种赛博格** — `XenoborgHeavyFilled` ｜父类: XenoborgHeavy ｜_Starlight
 - **重型异种赛博格** — `XenoborgHeavyPrinted` ｜父类: XenoborgHeavy
 - **异种博基** — `XenoBorgi` ｜父类: XenoBorgiChassis ｜_Starlight
-- **异种博基** — `XenoBorgiChassis` ｜父类: BaseXenoBorgiLanguages,BaseXenoborgChassis,BaseXenoborgTransponder,BaseBorgiChassis ｜_Starlight
+- **异种博基** — `XenoBorgiChassis` ｜父类: BaseXenoBorgiLanguages,BaseXenoborgChassis,BaseXenoborgTransponder,BaseBorgiChassis ｜_Starlight ｜描述: A man-machine hybrid that aims to replicate itself. They love extracting brains to insert into fresh Xenoborg chassis to grow their army. This one seems to be an borgi type, as it has inferior flesh i
 - **废弃异种博基** — `XenoBorgiDerelict` ｜父类: XenoBorgiDerelictBase ｜_Starlight
-- **废弃异种博基** — `XenoBorgiDerelictBase` ｜父类: BaseXenoBorgiLanguages,BaseXenoborgChassisDerelict,BaseXenoborgTransponder,DerelictBorgiChassis ｜_Starlight
+- **废弃异种博基** — `XenoBorgiDerelictBase` ｜父类: BaseXenoBorgiLanguages,BaseXenoborgChassisDerelict,BaseXenoborgTransponder,DerelictBorgiChassis ｜_Starlight ｜描述: even after all these years. still loves the color blue.
 - **异种博基** — `XenoBorgiPrinted` ｜父类: XenoBorgiChassis ｜_Starlight
-- **侦察异种赛博格** — `XenoborgScout` ｜父类: BaseXenoborgChassis,BaseXenoborgTransponder
+- **侦察异种赛博格** — `XenoborgScout` ｜父类: BaseXenoborgChassis,BaseXenoborgTransponder ｜描述: A man-machine hybrid that aims to replicate itself. They love extracting brains to insert into fresh Xenoborg chassis to grow their army. This is a scout type, its nimble thrusters allow it to move qu
 - **废弃侦察异种赛博格** — `XenoborgScoutDerelict` ｜父类: BaseXenoborgChassisDerelict ｜_Starlight
 - **侦察异种赛博格** — `XenoborgScoutFilled` ｜父类: XenoborgScout ｜_Starlight
 - **侦察异种赛博格** — `XenoborgScoutPrinted` ｜父类: XenoborgScout
-- **隐形异种赛博格** — `XenoborgStealth` ｜父类: BaseXenoborgChassis,BaseXenoborgTransponder
+- **隐形异种赛博格** — `XenoborgStealth` ｜父类: BaseXenoborgChassis,BaseXenoborgTransponder ｜描述: A man-machine hybrid that aims to replicate itself. They love extracting brains to insert into fresh Xenoborg chassis to grow their army. This one is a stealth type. Its armor shimmers in the light li
 - **废弃隐形异种赛博格** — `XenoborgStealthDerelict` ｜父类: BaseXenoborgChassisDerelict ｜_Starlight
 - **隐形异种赛博格** — `XenoborgStealthFilled` ｜父类: XenoborgStealth ｜_Starlight
 - **隐形异种赛博格** — `XenoborgStealthPrinted` ｜父类: XenoborgStealth
