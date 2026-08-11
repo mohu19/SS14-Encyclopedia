@@ -7,7 +7,7 @@
 # IPC
 
   
-    [AppearanceIPC](00-实体清单/Mobs.md)
+    [AppearanceIPC](../00-实体清单/Mobs.md)
   
 
   <span style="color:#ffa500">警告！该物种会带来重大的玩法变化，不建议新玩家选择！</span>

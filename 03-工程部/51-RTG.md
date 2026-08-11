@@ -8,7 +8,7 @@
 
 
 
-[RTG 热电发电机](00-实体清单/Structures.md)
+[RTG 热电发电机](../00-实体清单/Structures.md)
 
 
 
@@ -24,7 +24,7 @@ RTG 始终产生 <span style="color:orange">[protodata="GeneratorRTG" comp="Powe
 
 
 
-[受损的 RTG](00-实体清单/Structures.md)
+[受损的 RTG](../00-实体清单/Structures.md)
 
 
 
