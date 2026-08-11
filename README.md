@@ -63,9 +63,11 @@
 - [实体清单总览](00-实体清单/README.md)
 
 ## 📦 本土化存档
-
 - [Locale-zh-CN](00-源文件/本土化/Locale-zh-CN/)（1,994 个 ftl，游戏全量中文文本）
 - [ServerInfo-zh-CN](00-源文件/本土化/ServerInfo-zh-CN/)（Guidebook 中文正文）
+
+## 🌐 游戏本地化（迁入用）
+- [游戏本地化输出](00-源文件/游戏本地化输出/README.md) — 官方层 328 个 Guidebook 中文正文 XML，**迁入指南见其中**（复制到星光仓库 `Resources/ServerInfo/zh-CN/` 即生效）
 
 ## 🗂️ 目录结构
 
