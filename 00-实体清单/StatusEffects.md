@@ -1,0 +1,96 @@
+# 实体清单：StatusEffects（92 个）
+
+> 来源层分布: 上游 49, _Starlight 42, _FarHorizons 1
+
+- `模板` **BloodstreamStatusEffectBase** — `BloodstreamStatusEffectBase` ｜父类: MobStatusEffectBase
+- `模板` **BloodstreamStatusEffectDebuff** — `BloodstreamStatusEffectDebuff` ｜父类: BloodstreamStatusEffectBase
+- **10 状态效果** — `BonusArmorAbsinthe` ｜父类: BonusArmorDwarfGeneric ｜_Starlight
+- **10 5 状态效果** — `BonusArmorAndalusia` ｜父类: BonusArmorDwarfGeneric ｜_Starlight
+- **50 状态效果** — `BonusArmorAntifreeze` ｜父类: BonusArmorDwarfGeneric ｜_Starlight
+- **25 状态效果** — `BonusArmorB52` ｜父类: BonusArmorDwarfGeneric ｜_Starlight
+- **10 状态效果** — `BonusArmorCognac` ｜父类: BonusArmorDwarfGeneric ｜_Starlight
+- **10 5 状态效果** — `BonusArmorDaiquiri` ｜父类: BonusArmorDwarfGeneric ｜_Starlight
+- **15 状态效果** — `BonusArmorDriestMartini` ｜父类: BonusArmorDwarfGeneric ｜_Starlight
+- `模板` **状态效果** — `BonusArmorDwarfGeneric` ｜_Starlight
+- **15 状态效果** — `BonusArmorErikaSurprise` ｜父类: BonusArmorDwarfGeneric ｜_Starlight
+- **10 状态效果** — `BonusArmorGargleBlaster` ｜父类: BonusArmorDwarfGeneric ｜_Starlight
+- **10 状态效果** — `BonusArmorGin` ｜父类: BonusArmorDwarfGeneric ｜_Starlight
+- **10 5 状态效果** — `BonusArmorGrog` ｜父类: BonusArmorDwarfGeneric ｜_Starlight
+- **90 状态效果** — `BonusArmorIrishBool` ｜父类: BonusArmorDwarfGeneric ｜_Starlight
+- **10 状态效果** — `BonusArmorMoscowMule` ｜父类: BonusArmorDwarfGeneric ｜_Starlight
+- **失血免疫** — `BonusArmorPainkiller` ｜父类: BonusArmorDwarfGeneric ｜_Starlight
+- **10 状态效果** — `BonusArmorRum` ｜父类: BonusArmorDwarfGeneric ｜_Starlight
+- **10 状态效果** — `BonusArmorTequila` ｜父类: BonusArmorDwarfGeneric ｜_Starlight
+- **10 状态效果** — `BonusArmorVermouth` ｜父类: BonusArmorDwarfGeneric ｜_Starlight
+- **10 状态效果** — `BonusArmorWhiskey` ｜父类: BonusArmorDwarfGeneric ｜_Starlight
+- **徒手攻击附加结构伤害** — `BonusDamageBraveBull` ｜父类: BonusScalarDwarfGeneric ｜_Starlight
+- **50 状态效果** — `BonusScalarBronx` ｜父类: BonusScalarDwarfGeneric ｜_Starlight
+- `模板` **状态效果** — `BonusScalarDwarfGeneric` ｜_Starlight
+- **20 状态效果** — `BonusScalarIrishCarBomb` ｜父类: BonusScalarDwarfGeneric ｜_Starlight
+- **25 状态效果** — `BonusScalarIrishCream` ｜父类: BonusScalarDwarfGeneric ｜_Starlight
+- **25 状态效果** — `BonusScalarSyndicateBomb` ｜父类: BonusScalarDwarfGeneric ｜_Starlight
+- **10 状态效果** — `BonusScalarXenoBasher` ｜父类: BonusScalarDwarfGeneric ｜_Starlight
+- **闪光影响减速** — `FlashSlowdownStatusEffect` ｜父类: StatusEffectSlowdown
+- `模板` **MobStandStatusEffectBase** — `MobStandStatusEffectBase` ｜父类: MobStatusEffectDebuff
+- `模板` **MobStatusEffectBase** — `MobStatusEffectBase` ｜父类: StatusEffectBase
+- `模板` **MobStatusEffectDebuff** — `MobStatusEffectDebuff` ｜父类: MobStatusEffectBase
+- **濒死抗性** — `MobThresholdsDeathInTheAfternoon` ｜父类: MobStatusEffectBase ｜_Starlight
+- **免濒死** — `MobThresholdsTheHighlander` ｜父类: MobStatusEffectBase ｜_Starlight
+- **PainNumbnessTraitStatusEffect** — `PainNumbnessTraitStatusEffect` ｜父类: MobStatusEffectBase
+- **试剂加速** — `ReagentSpeedStatusEffect` ｜父类: StatusEffectSpeed
+- `模板` **SpeechStatusEffectBase** — `SpeechStatusEffectBase` ｜父类: MobStatusEffectDebuff
+- **StaminaModifierStatusEffect** — `StaminaModifierStatusEffect` ｜父类: MobStatusEffectBase
+- **血液稀释** — `StatusEffectAnticoagulant` ｜父类: BloodstreamStatusEffectDebuff
+- **犬吠口癖** — `StatusEffectBark` ｜父类: SpeechStatusEffectBase
+- `模板` **StatusEffectBase** — `StatusEffectBase`
+- **失血** — `StatusEffectBloodloss` ｜父类: BloodstreamStatusEffectDebuff
+- **赛博组件失效** — `StatusEffectCyberneticDisruption` ｜父类: MobStatusEffectDebuff ｜_Starlight
+- **2倍最大耐力** — `StatusEffectDesoxyStamina` ｜父类: StaminaModifierStatusEffect
+- **末日将至** — `StatusEffectDoomedIcon` ｜父类: MobStatusEffectDebuff ｜_Starlight
+- **困倦** — `StatusEffectDrowsiness` ｜父类: MobStatusEffectDebuff
+- **醉酒** — `StatusEffectDrunk` ｜父类: StatusEffectWoozy,StatusEffectSlurred
+- **强制睡眠** — `StatusEffectForcedSleeping` ｜父类: MobStatusEffectDebuff
+- **摩擦力** — `StatusEffectFriction` ｜父类: MobStatusEffectDebuff
+- **屏住呼吸** — `StatusEffectHeldBreath` ｜父类: MobStatusEffectDebuff ｜_Starlight
+- **StatusEffectHemophiliaTrait** — `StatusEffectHemophiliaTrait` ｜父类: BloodstreamStatusEffectBase
+- **大出血** — `StatusEffectHemorrhage` ｜父类: BloodstreamStatusEffectDebuff
+- **失明** — `StatusEffectIPCFanDisabled` ｜父类: MobStatusEffectDebuff ｜_FarHorizons
+- **失声** — `StatusEffectMuted` ｜父类: MobStatusEffectDebuff ｜_Starlight
+- **呜呜口癖** — `StatusEffectOwO` ｜父类: SpeechStatusEffectBase
+- **疼痛麻木** — `StatusEffectPainNumbness` ｜父类: PainNumbnessTraitStatusEffect,MobStatusEffectDebuff
+- **言语错乱** — `StatusEffectScrambled` ｜父类: SpeechStatusEffectBase
+- **幻觉** — `StatusEffectSeeingRainbow` ｜父类: MobStatusEffectDebuff
+- `模板` **减速** — `StatusEffectSlowdown` ｜父类: MobStatusEffectDebuff
+- **含糊不清** — `StatusEffectSlurred` ｜父类: SpeechStatusEffectBase
+- `模板` **加速** — `StatusEffectSpeed` ｜父类: MobStatusEffectBase
+- **强制睡眠** — `StatusEffectSSDSleeping` ｜父类: MobStatusEffectBase
+- **耐力低下** — `StatusEffectStaminaLow` ｜父类: StatusEffectSlowdown
+- **1.5倍最大耐力** — `StatusEffectStimulantsStamina` ｜父类: StaminaModifierStatusEffect
+- **眩晕** — `StatusEffectStunned` ｜父类: MobStatusEffectDebuff
+- **口吃** — `StatusEffectStutter` ｜父类: SpeechStatusEffectBase
+- **暂时失明** — `StatusEffectTemporaryBlindness` ｜父类: MobStatusEffectDebuff ｜_Starlight
+- **黑暗** — `StatusEffectTheDark` ｜父类: MobStatusEffectDebuff ｜_Starlight
+- **状态效果** — `StatusEffectTheDarkMap` ｜父类: StatusEffectTheDark ｜_Starlight
+- **血液奔涌** — `StatusEffectVampireBloodRush` ｜父类: MobStatusEffectBase ｜_Starlight
+- **血液膨胀** — `StatusEffectVampireBloodSwell` ｜父类: MobStatusEffectBase ｜_Starlight
+- **头晕** — `StatusEffectWoozy` ｜父类: MobStatusEffectDebuff
+- **泰瑟枪击中减速** — `TaserSlowdownStatusEffect` ｜父类: StatusEffectSlowdown
+- **呕吐减速** — `VomitingSlowdownStatusEffect` ｜父类: StatusEffectSlowdown
+- **降灰** — `WeatherAshfall` ｜父类: WeatherBase
+- **大规模降灰** — `WeatherAshfallHeavy` ｜父类: WeatherBase
+- **小规模降灰** — `WeatherAshfallLight` ｜父类: WeatherBase
+- **天极极光** — `WeatherAuroraCaelus` ｜父类: WeatherBase ｜_Starlight
+- `模板` **WeatherBase** — `WeatherBase` ｜父类: StatusEffectBase
+- **宇宙** — `WeatherCosmic` ｜父类: WeatherBase ｜_Starlight
+- **放射性尘降** — `WeatherFallout` ｜父类: WeatherBase
+- **冰雹** — `WeatherHail` ｜父类: WeatherBase
+- **辐射风暴** — `WeatherRadStorm` ｜父类: WeatherBase ｜_Starlight
+- **降雨** — `WeatherRain` ｜父类: WeatherBase
+- **沙尘暴** — `WeatherSandstorm` ｜父类: WeatherBase
+- **强沙尘暴** — `WeatherSandstormHeavy` ｜父类: WeatherBase
+- **大雪** — `WeatherSnowfallHeavy` ｜父类: WeatherBase
+- **小雪** — `WeatherSnowfallLight` ｜父类: WeatherBase
+- **中雪** — `WeatherSnowfallMedium` ｜父类: WeatherBase
+- **太阳耀斑** — `WeatherSolarFlare` ｜父类: WeatherBase ｜_Starlight
+- **太空鲸** — `WeatherSpaceWhale` ｜父类: WeatherBase ｜_Starlight
+- **风暴** — `WeatherStorm` ｜父类: WeatherBase

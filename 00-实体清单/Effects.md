@@ -1,0 +1,183 @@
+# 实体清单：Effects（179 个）
+
+> 来源层分布: 上游 110, _Starlight 65, _FarHorizons 4
+
+- **绑架者腺体效果** — `AbductorGravityGlandGravityWell` ｜父类: GlandEffectBase ｜_Starlight
+- **酸液** — `Acidifier`
+- `模板` **即时效果** — `AdminInstantEffectBase`
+- **即时效果** — `AdminInstantEffectBluespace` ｜父类: AdminInstantEffectBase
+- **即时效果** — `AdminInstantEffectEMP` ｜父类: AdminInstantEffectBase
+- **即时效果** — `AdminInstantEffectFlash` ｜父类: AdminInstantEffectBase
+- **即时效果** — `AdminInstantEffectGravityWell` ｜父类: AdminInstantEffectBase
+- **即时效果** — `AdminInstantEffectRedspace` ｜父类: AdminInstantEffectBase ｜_Starlight
+- **即时效果** — `AdminInstantEffectSmoke10` ｜父类: AdminInstantEffectBase
+- **即时效果** — `AdminInstantEffectSmoke3` ｜父类: AdminInstantEffectBase
+- **即时效果** — `AdminInstantEffectSmoke30` ｜父类: AdminInstantEffectBase
+- **即时效果** — `AdminInstantEffectTearGas` ｜父类: AdminInstantEffectBase
+- **铝金属泡沫** — `AluminiumMetalFoam` ｜父类: MetalFoam
+- **AmbientSoundSourceFlies** — `AmbientSoundSourceFlies`
+- **火花** — `ArmorSparkEffect` ｜_Starlight
+- `模板` **BaseFoam** — `BaseFoam`
+- `模板` **基础泡沫金属** — `BaseFoamedMetal`
+- `模板` **闪电** — `BaseLightning`
+- `模板` **蓝空间传送门** — `BasePortal`
+- **蓝空间裂隙** — `BluespaceHarvesterPortal` ｜_Starlight
+- **蓝空间植入物效果** — `BluespaceImplantEffect` ｜父类: Acidifier ｜_Starlight
+- **带电闪电** — `ChargedLightning` ｜父类: BaseLightning
+- **低温传送门** — `CryoPortal` ｜_Starlight
+- **EffectAnomalyFloraBulb** — `EffectAnomalyFloraBulb`
+- **EffectDesynchronizer** — `EffectDesynchronizer`
+- **EffectDwarfCourage** — `EffectDwarfCourage` ｜_Starlight
+- **EffectDwarfFortitude** — `EffectDwarfFortitude` ｜_Starlight
+- **EffectEmpDisabled** — `EffectEmpDisabled`
+- **EffectEmpPulse** — `EffectEmpPulse`
+- **EffectFlashBluespace** — `EffectFlashBluespace`
+- **EffectFlashDragonDisappear** — `EffectFlashDragonDisappear` ｜_Starlight
+- **EffectFlashRedspace** — `EffectFlashRedspace` ｜父类: EffectFlashBluespace ｜_Starlight
+- **EffectGravityPulse** — `EffectGravityPulse`
+- **EffectHearts** — `EffectHearts`
+- **纳米机器人外壳** — `EffectNanitesCurrent` ｜_Starlight
+- **纳米机器人外壳（构建中）** — `EffectNanitesEnter` ｜_Starlight
+- **纳米机器人外壳（拆解中）** — `EffectNanitesExit` ｜_Starlight
+- **夜视** — `EffectNightVision` ｜_Starlight
+- **EffectOrganTree** — `EffectOrganTree` ｜_Starlight
+- `模板` **EffectRCDBase** — `EffectRCDBase`
+- **EffectRCDConstruct0** — `EffectRCDConstruct0` ｜父类: EffectRCDBase
+- **EffectRCDConstruct1** — `EffectRCDConstruct1` ｜父类: EffectRCDBase
+- **EffectRCDConstruct2** — `EffectRCDConstruct2` ｜父类: EffectRCDBase
+- **EffectRCDConstruct3** — `EffectRCDConstruct3` ｜父类: EffectRCDBase
+- **EffectRCDConstruct4** — `EffectRCDConstruct4` ｜父类: EffectRCDBase
+- **EffectRCDDeconstruct2** — `EffectRCDDeconstruct2` ｜父类: EffectRCDBase
+- **EffectRCDDeconstruct4** — `EffectRCDDeconstruct4` ｜父类: EffectRCDBase
+- **EffectRCDDeconstruct6** — `EffectRCDDeconstruct6` ｜父类: EffectRCDBase
+- **EffectRCDDeconstruct8** — `EffectRCDDeconstruct8` ｜父类: EffectRCDBase
+- **EffectRCDDeconstructPreview** — `EffectRCDDeconstructPreview` ｜父类: EffectRCDBase
+- **EffectSparks** — `EffectSparks`
+- **传送** — `EffectTeleportation` ｜_Starlight
+- **传送** — `EffectTeleportationEntity` ｜_Starlight
+- **EffectTerminatorChronospace** — `EffectTerminatorChronospace` ｜_Starlight
+- **茧** — `EffectTerrorCocoon` ｜_Starlight
+- **EffectTeslaSparks** — `EffectTeslaSparks`
+- **热成像视觉** — `EffectThermalVision` ｜_Starlight
+- **热成像视觉** — `EffectThermalVisionRevenant` ｜父类: EffectThermalVision ｜_Starlight
+- **虚空闪现** — `EffectVoidBlink`
+- `模板` **EnergyDomeBase** — `EnergyDomeBase` ｜_Starlight
+- **EnergyDomeDirected** — `EnergyDomeDirected` ｜父类: EnergyDomeBase ｜_Starlight
+- **EnergyDomeMediumBlue** — `EnergyDomeMediumBlue` ｜父类: EnergyDomeBase ｜_Starlight
+- **EnergyDomeNullspace** — `EnergyDomeNullspace` ｜父类: EnergyDomeBase ｜_Starlight
+- **EnergyDomeProtectorNullspace** — `EnergyDomeProtectorNullspace` ｜父类: EnergyDomeNullspace ｜_Starlight
+- **EnergyDomeSlowing** — `EnergyDomeSlowing` ｜父类: EnergyDomeBase ｜_Starlight
+- **EnergyDomeSmallCap** — `EnergyDomeSmallCap` ｜父类: EnergyDomeBase ｜_Starlight
+- **EnergyDomeSmallPink** — `EnergyDomeSmallPink` ｜父类: EnergyDomeBase ｜_Starlight
+- **EnergyDomeSmallRed** — `EnergyDomeSmallRed` ｜父类: EnergyDomeBase ｜_Starlight
+- **感叹号** — `Exclamation`
+- **爆炸光效** — `ExplosionLight`
+- **泡沫** — `Foam` ｜父类: BaseFoam
+- **泡沫铝** — `FoamedAluminiumMetal` ｜父类: BaseFoamedMetal
+- **泡沫铁** — `FoamedIronMetal` ｜父类: BaseFoamedMetal
+- **FtlVisualizerEntity** — `FtlVisualizerEntity`
+- **GasTurbineSmokeEffect** — `GasTurbineSmokeEffect` ｜_FarHorizons
+- **GasTurbineSparkEffect** — `GasTurbineSparkEffect` ｜_FarHorizons
+- **酸液** — `GearAcidifier` ｜_Starlight
+- `模板` **绑架者腺体效果** — `GlandEffectBase` ｜_Starlight
+- **极充能闪电** — `HyperchargedLightning` ｜父类: ChargedLightning
+- **铁金属泡沫** — `IronMetalFoam` ｜父类: MetalFoam
+- **闪电** — `Lightning` ｜父类: BaseLightning
+- **阴森闪电** — `LightningRevenant` ｜父类: BaseLightning
+- **金属泡沫** — `MetalFoam` ｜父类: Foam
+- **香蕉矿蟹生成器** — `MobSpawnCrabBananium` ｜父类: MobSpawnCrabQuartz
+- **煤蟹生成器** — `MobSpawnCrabCoal` ｜父类: MobSpawnCrabQuartz
+- **金蟹生成器** — `MobSpawnCrabGold` ｜父类: MobSpawnCrabQuartz
+- **铁蟹生成器** — `MobSpawnCrabIron` ｜父类: MobSpawnCrabQuartz
+- **石英蟹生成器** — `MobSpawnCrabQuartz`
+- **银蟹生成器** — `MobSpawnCrabSilver` ｜父类: MobSpawnCrabQuartz
+- **铀蟹生成器** — `MobSpawnCrabUranium` ｜父类: MobSpawnCrabQuartz
+- **NuclearReactorFireEffect** — `NuclearReactorFireEffect` ｜_FarHorizons
+- **NuclearReactorSmokeEffect** — `NuclearReactorSmokeEffect` ｜_FarHorizons
+- **蓝空间传送门** — `PortalArtifact` ｜父类: BasePortal
+- **蓝空间传送门** — `PortalBlue` ｜父类: BasePortal
+- **蓝空间传送门** — `PortalGatewayBlue` ｜父类: BasePortal
+- **蓝空间传送门** — `PortalGatewayOrange` ｜父类: BasePortal
+- **PortalGreeny** — `PortalGreeny` ｜_Starlight
+- **蓝空间传送门** — `PortalRed` ｜父类: BasePortal
+- **水洼** — `Puddle`
+- **水洼** — `PuddleBlood` ｜父类: PuddleTemporary
+- **水洼** — `PuddleBloodSmall` ｜父类: PuddleTemporary
+- **水洼** — `PuddleEgg` ｜父类: PuddleTemporary
+- **水洼** — `PuddleFlour` ｜父类: PuddleTemporary
+- **水洼** — `PuddleFluorosulfuricAcid` ｜父类: PuddleTemporary
+- **水洼** — `PuddleFluorosulfuricAcidSmall` ｜父类: PuddleTemporary
+- **水洼** — `PuddleSmear` ｜父类: PuddleTemporary
+- **闪光** — `PuddleSparkle`
+- `模板` **PuddleTemporary** — `PuddleTemporary` ｜父类: Puddle
+- **水洼** — `PuddleTomato` ｜父类: PuddleTemporary
+- **水洼** — `PuddleVomit` ｜父类: PuddleTemporary
+- **水洼** — `PuddleWatermelon` ｜父类: PuddleTemporary
+- **闪烁异常** — `RadiationPulse`
+- **ReactionFlash** — `ReactionFlash`
+- **红空间植入物效果** — `RedspaceImplantEffect` ｜父类: Acidifier ｜_Starlight
+- **影裔相位进入** — `ShadekinPhaseInEffect` ｜_Starlight
+- **影裔相位进入 2** — `ShadekinPhaseInEffect2` ｜父类: ShadekinPhaseInEffect ｜_Starlight
+- **影裔相位退出** — `ShadekinPhaseOutEffect` ｜父类: ShadekinPhaseInEffect ｜_Starlight
+- **ShadekinShadegen** — `ShadekinShadegen` ｜_Starlight
+- **影裔雾霭** — `ShadekinShadow` ｜父类: BaseShadow ｜_Starlight
+- **暗影裂隙** — `ShadowPortal` ｜父类: BasePortal,BaseShadow
+- **烟雾** — `Smoke` ｜父类: BaseFoam
+- **闪电** — `Spark` ｜父类: BaseLightning
+- **超充能闪电** — `SuperchargedLightning` ｜父类: ChargedLightning
+- **催泪瓦斯** — `TearGasSmoke` ｜父类: BaseFoam
+- **催泪瓦斯** — `TearGasSmokeWhite` ｜父类: TearGasSmoke
+- **催泪瓦斯** — `TearGasSmokeYellow` ｜父类: TearGasSmoke ｜_Starlight
+- **铝热剂** — `ThermiteEntity` ｜_Starlight
+- **ThermiteFire** — `ThermiteFire` ｜_Starlight
+- **鲜血屏障** — `VampireBloodBarrier` ｜_Starlight
+- **VampireBloodBondBeamVisual** — `VampireBloodBondBeamVisual` ｜_Starlight
+- **鲜血喷发** — `VampireBloodEruptionVisual` ｜_Starlight
+- **鲜血触须** — `VampireBloodTendrilVisual` ｜_Starlight
+- **VampireDarkPassageMistIn** — `VampireDarkPassageMistIn` ｜_Starlight
+- **VampireDarkPassageMistOut** — `VampireDarkPassageMistOut` ｜_Starlight
+- **VampireDemonicGraspEffect** — `VampireDemonicGraspEffect` ｜_Starlight
+- **汲取光束** — `VampireDrainBeam` ｜_Starlight
+- **汲取光束视觉效果** — `VampireDrainBeamVisual` ｜_Starlight
+- **VampireEternalDarknessAura** — `VampireEternalDarknessAura` ｜_Starlight
+- **VampireImmobilizedEffect** — `VampireImmobilizedEffect` ｜_Starlight
+- **闪电** — `VampireLightning` ｜父类: BaseLightning ｜_Starlight
+- **VampireRallyOverlayEffect** — `VampireRallyOverlayEffect` ｜_Starlight
+- **吸血鬼变身入场** — `VampireSanguinePoolIn` ｜_Starlight
+- **吸血鬼变身离场** — `VampireSanguinePoolOut` ｜_Starlight
+- **VampireSeismicStompEffect** — `VampireSeismicStompEffect` ｜_Starlight
+- **暗影锚点** — `VampireShadowAnchorBeacon` ｜_Starlight
+- **暗影拳** — `VampireShadowBoxingPunch` ｜_Starlight
+- **暗影陷阱** — `VampireShadowSnare` ｜_Starlight
+- **暗影触须** — `VampireShadowSnareEnsnare` ｜_Starlight
+- **WallSpawnAsteroid** — `WallSpawnAsteroid`
+- **WallSpawnAsteroidBananium** — `WallSpawnAsteroidBananium` ｜父类: WallSpawnAsteroid
+- **WallSpawnAsteroidBananiumCrab** — `WallSpawnAsteroidBananiumCrab` ｜父类: WallSpawnAsteroid
+- **WallSpawnAsteroidCoal** — `WallSpawnAsteroidCoal` ｜父类: WallSpawnAsteroid
+- **WallSpawnAsteroidCoalCrab** — `WallSpawnAsteroidCoalCrab` ｜父类: WallSpawnAsteroid
+- **WallSpawnAsteroidGold** — `WallSpawnAsteroidGold` ｜父类: WallSpawnAsteroid
+- **WallSpawnAsteroidGoldCrab** — `WallSpawnAsteroidGoldCrab` ｜父类: WallSpawnAsteroid
+- **WallSpawnAsteroidIron** — `WallSpawnAsteroidIron` ｜父类: WallSpawnAsteroid
+- **WallSpawnAsteroidIronCrab** — `WallSpawnAsteroidIronCrab` ｜父类: WallSpawnAsteroid
+- **WallSpawnAsteroidQuartz** — `WallSpawnAsteroidQuartz` ｜父类: WallSpawnAsteroid
+- **WallSpawnAsteroidQuartzCrab** — `WallSpawnAsteroidQuartzCrab` ｜父类: WallSpawnAsteroid
+- **WallSpawnAsteroidSilver** — `WallSpawnAsteroidSilver` ｜父类: WallSpawnAsteroid
+- **WallSpawnAsteroidSilverCrab** — `WallSpawnAsteroidSilverCrab` ｜父类: WallSpawnAsteroid
+- **WallSpawnAsteroidUranium** — `WallSpawnAsteroidUranium` ｜父类: WallSpawnAsteroid
+- **WallSpawnAsteroidUraniumCrab** — `WallSpawnAsteroidUraniumCrab` ｜父类: WallSpawnAsteroid
+- **WeaponArcAnimated** — `WeaponArcAnimated`
+- **WeaponArcBite** — `WeaponArcBite` ｜父类: WeaponArcStatic
+- **WeaponArcClaw** — `WeaponArcClaw` ｜父类: WeaponArcStatic
+- **WeaponArcDisarm** — `WeaponArcDisarm` ｜父类: WeaponArcAnimated
+- **WeaponArcFist** — `WeaponArcFist` ｜父类: WeaponArcStatic
+- **WeaponArcKick** — `WeaponArcKick` ｜父类: WeaponArcStatic
+- **WeaponArcPunch** — `WeaponArcPunch` ｜父类: WeaponArcStatic
+- **WeaponArcSlash** — `WeaponArcSlash` ｜父类: WeaponArcStatic
+- **WeaponArcSlashOld** — `WeaponArcSlashOld` ｜父类: WeaponArcStatic ｜_Starlight
+- **WeaponArcSmash** — `WeaponArcSmash` ｜父类: WeaponArcStatic
+- **WeaponArcStatic** — `WeaponArcStatic`
+- **WeaponArcThrust** — `WeaponArcThrust` ｜父类: WeaponArcStatic
+- **WeaponArcThrustOld** — `WeaponArcThrustOld` ｜父类: WeaponArcStatic ｜_Starlight
+- **感叹号** — `WhistleExclamation`
+- **烟雾** — `WizardSmoke` ｜父类: Smoke
+- **酸液** — `XenoborgAcidifier` ｜父类: Acidifier ｜_Starlight

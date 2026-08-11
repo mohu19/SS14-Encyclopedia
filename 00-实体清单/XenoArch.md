@@ -1,0 +1,75 @@
+# 实体清单：XenoArch（71 个）
+
+> 来源层分布: 上游 71
+
+- `模板` **一次性效果** — `BaseOneTimeXenoArtifactEffect` ｜父类: BaseXenoArtifactEffect
+- `模板` **效果** — `BaseXenoArtifactEffect`
+- **效果** — `XenoArtifactAngryCarpSpawn` ｜父类: BaseXenoArtifactEffect
+- **一次性效果** — `XenoArtifactAnomalySpawn` ｜父类: BaseOneTimeXenoArtifactEffect
+- **效果** — `XenoArtifactArtifactSpawn` ｜父类: BaseXenoArtifactEffect
+- **一次性效果** — `XenoArtifactBecomeRandomInstrument` ｜父类: BaseOneTimeXenoArtifactEffect
+- **一次性效果** — `XenoArtifactBoom` ｜父类: BaseOneTimeXenoArtifactEffect
+- **效果** — `XenoArtifactCashSpawn` ｜父类: BaseXenoArtifactEffect
+- **效果** — `XenoArtifactChargeBattery` ｜父类: BaseXenoArtifactEffect
+- **效果** — `XenoArtifactChemicalPuddle` ｜父类: BaseXenoArtifactEffect
+- **效果** — `XenoArtifactColdWave` ｜父类: BaseXenoArtifactEffect
+- **一次性效果** — `XenoArtifactDrill` ｜父类: BaseOneTimeXenoArtifactEffect
+- **效果** — `XenoArtifactEffectBadFeeling` ｜父类: BaseXenoArtifactEffect
+- **效果** — `XenoArtifactEffectCreationGasAmmonia` ｜父类: BaseXenoArtifactEffect
+- **效果** — `XenoArtifactEffectCreationGasCarbonDioxide` ｜父类: BaseXenoArtifactEffect
+- **效果** — `XenoArtifactEffectCreationGasFrezon` ｜父类: BaseXenoArtifactEffect
+- **效果** — `XenoArtifactEffectCreationGasNitrousOxide` ｜父类: BaseXenoArtifactEffect
+- **效果** — `XenoArtifactEffectCreationGasPlasma` ｜父类: BaseXenoArtifactEffect
+- **效果** — `XenoArtifactEffectCreationGasTritium` ｜父类: BaseXenoArtifactEffect
+- **效果** — `XenoArtifactEffectGoodFeeling` ｜父类: BaseXenoArtifactEffect
+- **效果** — `XenoArtifactEffectJunkSpawn` ｜父类: BaseXenoArtifactEffect
+- **效果** — `XenoArtifactEffectLightFlicker` ｜父类: BaseXenoArtifactEffect
+- **一次性效果** — `XenoArtifactEffectUniversalIntercom` ｜父类: BaseOneTimeXenoArtifactEffect
+- **效果** — `XenoArtifactEmp` ｜父类: BaseXenoArtifactEffect
+- **一次性效果** — `XenoArtifactExplosionScary` ｜父类: BaseOneTimeXenoArtifactEffect
+- **效果** — `XenoArtifactFaunaSpawn` ｜父类: BaseXenoArtifactEffect
+- **效果** — `XenoArtifactFloraSpawn` ｜父类: BaseXenoArtifactEffect
+- **效果** — `XenoArtifactFoamDangerous` ｜父类: BaseXenoArtifactEffect
+- **效果** — `XenoArtifactFoamGood` ｜父类: BaseXenoArtifactEffect
+- **效果** — `XenoArtifactFoamMild` ｜父类: BaseXenoArtifactEffect
+- **一次性效果** — `XenoArtifactGenerateEnergy` ｜父类: BaseOneTimeXenoArtifactEffect
+- **一次性效果** — `XenoArtifactGhost` ｜父类: BaseOneTimeXenoArtifactEffect
+- **一次性效果** — `XenoArtifactGun` ｜父类: BaseOneTimeXenoArtifactEffect
+- **效果** — `XenoArtifactHealAll` ｜父类: BaseXenoArtifactEffect
+- **效果** — `XenoArtifactHeatWave` ｜父类: BaseXenoArtifactEffect
+- **效果** — `XenoArtifactHostileFaunaSpawn` ｜父类: BaseXenoArtifactEffect
+- **效果** — `XenoArtifactIgnite` ｜父类: BaseXenoArtifactEffect
+- **效果** — `XenoArtifactKnock` ｜父类: BaseXenoArtifactEffect
+- **一次性效果** — `XenoArtifactMagnet` ｜父类: BaseOneTimeXenoArtifactEffect
+- **一次性效果** — `XenoArtifactMagnetNegative` ｜父类: BaseOneTimeXenoArtifactEffect
+- **效果** — `XenoArtifactMaterialSpawnGlass` ｜父类: BaseXenoArtifactEffect
+- **效果** — `XenoArtifactMaterialSpawnPlastic` ｜父类: BaseXenoArtifactEffect
+- **效果** — `XenoArtifactMaterialSpawnSteel` ｜父类: BaseXenoArtifactEffect
+- **效果** — `XenoArtifactMonkeySpawn` ｜父类: BaseXenoArtifactEffect
+- **一次性效果** — `XenoArtifactOmnitool` ｜父类: BaseOneTimeXenoArtifactEffect
+- **一次性效果** — `XenoArtifactPhasing` ｜父类: BaseOneTimeXenoArtifactEffect
+- **效果** — `XenoArtifactPolyLizard` ｜父类: BaseXenoArtifactEffect
+- **效果** — `XenoArtifactPolyLuminous` ｜父类: BaseXenoArtifactEffect
+- **效果** — `XenoArtifactPolyMonkey` ｜父类: BaseXenoArtifactEffect
+- **效果** — `XenoArtifactPortal` ｜父类: BaseXenoArtifactEffect
+- **效果** — `XenoArtifactPotassiumWave` ｜父类: BaseXenoArtifactEffect
+- **效果** — `XenoArtifactPuddleRare` ｜父类: BaseXenoArtifactEffect
+- **一次性效果** — `XenoArtifactRadioactive` ｜父类: BaseOneTimeXenoArtifactEffect
+- **一次性效果** — `XenoArtifactRadioactiveStrong` ｜父类: BaseOneTimeXenoArtifactEffect
+- **效果** — `XenoArtifactRandomInstrumentSpawn` ｜父类: BaseXenoArtifactEffect
+- **效果** — `XenoArtifactRareMaterialSpawn` ｜父类: BaseXenoArtifactEffect
+- **效果** — `XenoArtifactRareMaterialSpawnGold` ｜父类: BaseXenoArtifactEffect
+- **效果** — `XenoArtifactRareMaterialSpawnPlasma` ｜父类: BaseXenoArtifactEffect
+- **效果** — `XenoArtifactRareMaterialSpawnSilver` ｜父类: BaseXenoArtifactEffect
+- **效果** — `XenoArtifactRareMaterialSpawnUranium` ｜父类: BaseXenoArtifactEffect
+- **效果** — `XenoArtifactShatterWindows` ｜父类: BaseXenoArtifactEffect
+- **效果** — `XenoArtifactShuffle` ｜父类: BaseXenoArtifactEffect
+- **一次性效果** — `XenoArtifactSingularity` ｜父类: BaseOneTimeXenoArtifactEffect
+- **一次性效果** — `XenoArtifactSolutionStorage` ｜父类: BaseOneTimeXenoArtifactEffect
+- **一次性效果** — `XenoArtifactSpeedUp` ｜父类: BaseOneTimeXenoArtifactEffect
+- **一次性效果** — `XenoArtifactStealth` ｜父类: BaseOneTimeXenoArtifactEffect
+- **一次性效果** — `XenoArtifactStorage` ｜父类: BaseOneTimeXenoArtifactEffect
+- **效果** — `XenoArtifactTeleport` ｜父类: BaseXenoArtifactEffect
+- **一次性效果** — `XenoArtifactTesla` ｜父类: BaseOneTimeXenoArtifactEffect
+- **效果** — `XenoArtifactThrowThingsAround` ｜父类: BaseXenoArtifactEffect
+- **一次性效果** — `XenoArtifactWandering` ｜父类: BaseOneTimeXenoArtifactEffect

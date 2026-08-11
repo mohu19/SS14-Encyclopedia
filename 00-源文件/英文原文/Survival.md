@@ -1,0 +1,44 @@
+# 生存（EN 源文件）
+
+> 条目ID: `Survival` ｜ 来源层: official ｜ 分类: station
+> 翻译提示：保留全部数值/专有名词/`[[实体:X]]`/颜色span；专有名词基准见 00-源文件/翻译规范.md
+
+---
+
+<!-- 无中文正文,以下为英文原文 -->
+
+# Survival
+It is generally wise to avoid situations that will cause you harm, because medical can only heal you so much with limited chemicals and medical items and especially when there's nuclear operatives on your doorstep.
+
+## Identifying your situation
+Your PDA contains both a vessel name and list of crew currently active in your vessel, a reminder for your name if needed, and your assigned job for the shift, allowing you to quickly assess the situation.
+
+## Emergency Treatment
+In the event of a serious emergency, there are a few things you can do to help ensure your long-term survival, including:
+- If entering critical condition, use the emergency medipen from your emergency box, it'll make sure you don't end up unable to do anything. Emergency medipens can also be used to revive people currently in crit on the floor, and to prolong the amount of time you have to deal with poisons/etc.
+
+
+  [[实体:EmergencyMedipen]]
+
+
+- Your emergency box contains a breath mask and oxygen tank, which can help you survive longer in a spacing situation. If you're one of the Laspii, be aware that nitrogen replaces oxygen for you and that your emergency box will start with a red tank of nitrogen replacing the standard blue/yellow oxygen tank.
+
+
+  [[实体:ClothingMaskBreath]]
+  [[实体:EmergencyOxygenTankFilled]]
+
+
+- If actively bleeding out, or simply wishing to prepare, it's possible to slice up cloth items with a knife or other sharp object and use the resulting cloth to create gauze in the crafting menu to stem bleeding with, however cloth alone can be used to less of a degree in emergencies.
+
+
+  [[实体:Gauze]]
+  [[实体:MaterialCloth]]
+
+
+## Other Various Tips
+- In lieu of an actual health analyzer, simply examining yourself and using the detailed examine is a good way to figure out what wounds you have.
+- If going blind, carrots are another way to treat the issue (as they contain Oculine, the chemistry drug used to treat blindness) should they be available.
+- Well-made meals (cooked food not from a vending machine) is generally much better for your overall health and can help heal smaller wounds more quickly.
+- Simple bed rest can allow some wounds to close up on their own. Medical beds are best for this, providing a sterile surface and support for all damaged body parts, but any bed works.
+- Actually sleeping on a bed boosts your healing rate even farther.
+- Meals that contain proteins, such as meat, will tremendously help your body's condition after severe bloodloss. It's still advised to visit a doctor and get treated though.

@@ -1,0 +1,33 @@
+# 火灾（EN 源文件）
+
+> 条目ID: `Fires` ｜ 来源层: official ｜ 分类: engineering
+> 翻译提示：保留全部数值/专有名词/`[[实体:X]]`/颜色span；专有名词基准见 00-源文件/翻译规范.md
+
+---
+
+<!-- 无中文正文,以下为英文原文 -->
+
+﻿
+  # Fires
+  Fires are arguably the most dangerous atmospheric upset that can occur on the station.
+
+  
+    [[实体:Firelock]]
+    [[实体:FirelockGlass]]
+  
+
+  They often make high-pressure and high-temperature gasses, which can quickly spread throughout the station if firelocks or doors are opened carelessly, even if only for a moment.
+
+  If people are caught in a fire, they can quickly become incapacitated, die, and even ash, rendering them unrevivable.
+
+  ## Combating Fires
+  The key elements of a fire are fuel and oxygen.
+  Removing any of these two elements will extinguish the fire.
+  For example, fires that have no oxygen flowing to them will slowly snuff themselves out, and fires that have no fuel will also extinguish themselves.
+
+  Exposing the fire to space will extinguish it, as all the gas will simply be spaced.
+  You can then [textlink="fix" link="ExpandingRepairingStation"] the [textlink="spacing" link="Spacing"] and repressurize the area.
+
+  ## Tips
+  - **Know the signs of a future fire.** If an area is filled with highly flammable gasses, it's only a matter of time before a careless assistant sets it off. Try to isolate the area and scrub the gasses out as quickly as possible.
+  - **Prevent the spread of gasses using a holofan projector.** Letting gasses through a firelock can make other rooms dangerous, even for a moment. This increases the number of rooms you have to fix.

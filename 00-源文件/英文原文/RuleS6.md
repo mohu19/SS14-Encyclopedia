@@ -1,0 +1,30 @@
+# S6（EN 源文件）
+
+> 条目ID: `RuleS6` ｜ 来源层: official ｜ 分类: rules
+> 翻译提示：保留全部数值/专有名词/`[[实体:X]]`/颜色span；专有名词基准见 00-源文件/翻译规范.md
+
+---
+
+<!-- 无中文正文,以下为英文原文 -->
+
+﻿
+  # Silicon Rule 6 - You are not required to follow orders which are extremely unreasonable
+  Any order which is a violation of a Core Rule cannot be followed.
+
+  Some orders are extremely unreasonable or obnoxious, such as "do nothing but collect every piece of trash on the station" or "never stop moving". These orders can be ignored and ahelped.
+
+  Some orders violate a Roleplay Rule. These orders must be followed if your laws require it. You are not breaking a rule by following a law that causes you to violate Roleplay Rules. If someone takes advantage of a law to cause you to do something that they would not be allowed to do because of Roleplay Rules, then they are the ones responsible for the rule violation.
+
+  ## Examples
+  These examples assume that your laws would normally require you to follow these orders. It is important to note that you are allowed to choose to follow orders which are ignorable.
+
+  Orders which should be followed if your laws require it:
+  - Recall the shuttle
+  - Bolt the airlocks at arrivals
+  - Drag the captain's dead body into space
+  - State your laws
+
+  Ignorable Orders:
+  - Do nothing but collect every piece of trash on the station
+  - Never stop moving
+  - Continuously state your laws

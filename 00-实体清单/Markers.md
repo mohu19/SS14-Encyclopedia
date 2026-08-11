@@ -1,0 +1,431 @@
+# 实体清单：Markers（427 个）
+
+> 来源层分布: 上游 353, _Starlight 65, _Moffstation 7, _Impstation 2
+
+- **AI 定时生成点** — `AITimedSpawner` ｜父类: MarkerBase
+- **随机祭坛 生成器** — `AltarSpawner` ｜父类: MarkerBase
+- **大气修复空气标记** — `AtmosFixAirMarker` ｜父类: MarkerBase
+- **大气修复真空标记** — `AtmosFixBlockerMarker` ｜父类: MarkerBase
+- **大气修复冷冻室标记** — `AtmosFixFreezerMarker` ｜父类: MarkerBase
+- **大气修复即时等离子体火灾标记** — `AtmosFixInstantPlasmaFireMarker` ｜父类: MarkerBase
+- **大气修复氮气标记** — `AtmosFixNitrogenMarker` ｜父类: MarkerBase
+- **大气修复氧气标记** — `AtmosFixOxygenMarker` ｜父类: MarkerBase
+- **大气修复等离子体标记** — `AtmosFixPlasmaMarker` ｜父类: MarkerBase
+- **大气修复氮气标记** — `AtmosFixVoxMarker` ｜父类: AtmosFixNitrogenMarker
+- `模板` **幽灵角色出生点** — `BaseAntagSpawner` ｜父类: MarkerBase
+- **房间生成点** — `BaseRoomMarker` ｜父类: MarkerBase
+- **战斗地图生成点** — `BattleMapSpawner100` ｜父类: MarkerBase
+- **随机床单 生成器** — `BedsheetSpawner` ｜父类: MarkerBase
+- **桌游生成点** — `BoardGameSpawner100` ｜父类: MarkerBase
+- **火帽枪 生成器** — `CapGunSpawner90` ｜父类: MarkerBase
+- **客户端克隆** — `clientsideclone`
+- **蟑螂定时生成点** — `CockroachTimedSpawner` ｜父类: MouseTimedSpawner
+- **建造预览** — `constructionghost`
+- **随机转化祭坛 生成器** — `ConvertAltarSpawner` ｜父类: MarkerBase
+- **空板条箱 生成器** — `CrateEmptySpawner` ｜父类: MarkerBase
+- **装满的板条箱 生成器** — `CrateFilledSpawner` ｜父类: MarkerBase
+- **蜡笔 生成器** — `CrayonSpawner90` ｜父类: MarkerBase
+- **水晶生成点** — `CrystalSpawner` ｜父类: MarkerBase
+- **随机邪教祭坛 生成器** — `CultAltarSpawner` ｜父类: MarkerBase
+- **随机帘幕生成点** — `CurtainSpawner` ｜父类: MarkerBase
+- **贴花生成器** — `DecalSpawnerBasaltRock` ｜父类: DecalSpawnerFloraBase
+- `模板` **贴花生成器** — `DecalSpawnerBase` ｜父类: MarkerBase
+- **贴花生成器** — `DecalSpawnerBloodSplatters` ｜父类: DecalSpawnerBase
+- **贴花生成器** — `DecalSpawnerBurns` ｜父类: DecalSpawnerDirtMonospace
+- **贴花生成器** — `DecalSpawnerBushesAC` ｜父类: DecalSpawnerFloraBase
+- `模板` **DecalSpawnerDirtBase** — `DecalSpawnerDirtBase` ｜父类: DecalSpawnerBase
+- **贴花生成器** — `DecalSpawnerDirtMonospace` ｜父类: DecalSpawnerDirtBase
+- **贴花生成器** — `DecalSpawnerDirtNear` ｜父类: DecalSpawnerDirtBase
+- **贴花生成器** — `DecalSpawnerDirtSingle` ｜父类: DecalSpawnerDirtBase
+- **贴花生成器** — `DecalSpawnerDirtWide` ｜父类: DecalSpawnerDirtBase
+- `模板` **DecalSpawnerFloraBase** — `DecalSpawnerFloraBase` ｜父类: DecalSpawnerBase
+- **贴花生成器** — `DecalSpawnerFlowers` ｜父类: DecalSpawnerFloraBase
+- **贴花生成器** — `DecalSpawnerGraffiti` ｜父类: DecalSpawnerBase
+- **贴花生成器** — `DecalSpawnerGrassAB` ｜父类: DecalSpawnerFloraBase
+- **贴花生成器** — `DecalSpawnerGrassC` ｜父类: DecalSpawnerFloraBase
+- **贴花生成器** — `DecalSpawnerGrassDE` ｜父类: DecalSpawnerFloraBase
+- **贴花生成器** — `DecalSpawnerGrassyRock` ｜父类: DecalSpawnerFloraBase
+- **Donk 夹心饼盒生成器** — `DonkpocketBoxSpawner` ｜父类: MarkerBase
+- **拖拽阴影** — `dragshadow`
+- **随机华丽桌子 生成器** — `FancyTableSpawner` ｜父类: MarkerBase
+- **随机文件夹 生成器** — `FolderSpawner` ｜父类: MarkerBase
+- **超光速航行排除点** — `FTLExclusion` ｜父类: MarkerBase
+- **超光速航行点** — `FTLPoint` ｜父类: MarkerBase
+- **仅幽灵可用的跃迁点** — `GhostWarpPoint` ｜父类: MarkerBase
+- **随机格栅生成点** — `GrilleSpawner` ｜父类: MarkerBase
+- **悬停实体** — `hoverentity`
+- **集成测试标记** — `IntegrationTestMarker` ｜父类: MarkerBase
+- **军械库战利品 生成器** — `LootSpawnerArmory` ｜父类: MarkerBase
+- **军械库战利品 生成器** — `LootSpawnerArmoryArmorOnly` ｜父类: MarkerBase
+- **军械库战利品 生成器** — `LootSpawnerArmoryGunsOnly` ｜父类: MarkerBase
+- **电缆卷 生成器** — `LootSpawnerCableCoil` ｜父类: MarkerBase
+- **随机加密密钥 生成器** — `LootSpawnerEncryptionKey` ｜父类: MarkerBase
+- **工业战利品 生成器** — `LootSpawnerIndustrial` ｜父类: MarkerBase
+- **工业杂物 生成器** — `LootSpawnerIndustrialFluff` ｜父类: MarkerBase
+- **材料 生成器** — `LootSpawnerMaterials` ｜父类: MarkerBase
+- **高价值材料 生成器** — `LootSpawnerMaterialsHighValue` ｜父类: MarkerBase
+- **高价值材料 生成器** — `LootSpawnerMaterialsHighValueConstruction` ｜父类: MarkerBase
+- **材料 生成器** — `LootSpawnerMaterialsSupplementary` ｜父类: MarkerBase
+- **剩余材料 生成器** — `LootSpawnerMaterialsSurplus` ｜父类: MarkerBase
+- **医疗战利品生成点** — `LootSpawnerMedicalClassy` ｜父类: MarkerBase
+- **治疗用品生成点** — `LootSpawnerMedicalMinor` ｜父类: MarkerBase
+- **随机工程板条箱 生成器** — `LootSpawnerRandomCrateEngineering` ｜父类: MarkerBase
+- **随机安保板条箱 生成器** — `LootSpawnerRandomCrateSecurity` ｜父类: MarkerBase
+- **随机保险箱 生成器** — `LootSpawnerRandomLockbox` ｜父类: MarkerBase
+- **机器人电路板 生成器** — `LootSpawnerRoboticsBorgModule` ｜父类: MarkerBase
+- **科研物资 生成器** — `LootSpawnerScienceMajor` ｜父类: MarkerBase
+- **科研物资 生成器** — `LootSpawnerScienceMinor` ｜父类: MarkerBase
+- **安保战利品 生成器** — `LootSpawnerSecurity` ｜父类: MarkerBase
+- **安保战利品 生成器** — `LootSpawnerSecurityBasic` ｜父类: MarkerBase
+- **维护通道战利品 生成器** — `MaintenanceFluffSpawner` ｜父类: MarkerBase
+- **维护通道战利品 生成器** — `MaintenanceInsulsSpawner` ｜父类: MarkerBase
+- **维护通道战利品 生成器** — `MaintenancePlantSpawner` ｜父类: MarkerBase
+- **维护通道战利品 生成器** — `MaintenanceToolSpawner` ｜父类: MarkerBase
+- **维护通道战利品 生成器** — `MaintenanceWeaponSpawner` ｜父类: MarkerBase
+- **地图文本** — `MapText` ｜父类: MarkerBase
+- `模板` **MarkerBase** — `MarkerBase`
+- **机甲模型 生成器** — `MechFigurineSpawner50` ｜父类: MarkerBase
+- **杂项玩具 生成器** — `MiscToySpawner90` ｜父类: MarkerBase
+- **老鼠定时生成点** — `MouseTimedSpawner` ｜父类: MarkerBase
+- **屋顶** — `NoRoofMarker` ｜父类: MarkerBase
+- **核弹特工弹药 生成器** — `NukeOpsAmmoSpawner` ｜父类: MarkerBase
+- **核弹特工手榴弹 生成器** — `NukeOpsGrenadeSpawner` ｜父类: MarkerBase
+- **核弹特工战利品 生成器** — `NukeOpsLootSpawner` ｜父类: MarkerBase
+- **核弹特工外伤医疗包 生成器** — `NukeOpsMedkitBruteSpawner` ｜父类: MarkerBase
+- **核弹特工通用医疗包 生成器** — `NukeOpsMedkitSpawner` ｜父类: MarkerBase
+- **核弹特工武器 生成器** — `NukeOpsWeaponSpawner` ｜父类: MarkerBase
+- **寻路点** — `PathfindPoint` ｜父类: MarkerBase
+- **毛绒玩具 生成器** — `PlushieSpawner50` ｜父类: MarkerBase
+- **指示箭头** — `PointingArrow`
+- **随机盆栽 生成器** — `PottedPlantRandom` ｜父类: MarkerBase
+- **随机塑料盆栽 生成器** — `PottedPlantRandomPlastic` ｜父类: MarkerBase
+- **随机异常注入器生成点** — `RandomAnomalyInjectorSpawner` ｜父类: MarkerBase
+- **随机异常生成点** — `RandomAnomalySpawner` ｜父类: MarkerBase
+- **随机街机生成点** — `RandomArcade` ｜父类: MarkerBase
+- **随机古物生成点** — `RandomArtifactSpawner` ｜父类: MarkerBase
+- **随机古物生成点** — `RandomArtifactSpawner20` ｜父类: RandomArtifactSpawner
+- **随机香蕉皮生成点** — `RandomBananaPeel90` ｜父类: MarkerBase
+- **随机主板生成点** — `RandomBoard` ｜父类: MarkerBase
+- **棕色石笋 生成器** — `RandomBrownStalagmite` ｜父类: MarkerBase
+- **LV 电力电缆 生成器** — `RandomCableApcExtensionSpawner` ｜父类: MarkerBase
+- **HV 电力电缆 生成器** — `RandomCableHVSpawner` ｜父类: MarkerBase
+- **MV 电力电缆 生成器** — `RandomCableMVSpawner` ｜父类: MarkerBase
+- **随机货运部人员尸体 生成器** — `RandomCargoCorpseSpawner` ｜父类: SalvageHumanCorpseSpawner
+- **随机指挥部人员尸体 生成器** — `RandomCommandCorpseSpawner` ｜父类: SalvageHumanCorpseSpawner
+- **随机饮料瓶生成点** — `RandomDrinkBottle` ｜父类: MarkerBase
+- **随机饮料 生成器** — `RandomDrinkGlass` ｜父类: MarkerBase
+- **随机汽水生成点** — `RandomDrinkSoda` ｜父类: MarkerBase
+- **随机工程师尸体 生成器** — `RandomEngineerCorpseSpawner` ｜父类: SalvageHumanCorpseSpawner
+- **RandomFleshAnomalySpawner** — `RandomFleshAnomalySpawner` ｜父类: MarkerBase ｜_Starlight
+- **随机树木生成点** — `RandomFloraTree` ｜父类: MarkerBase
+- **随机烘焙食品生成点** — `RandomFoodBakedSingle` ｜父类: MarkerBase
+- **随机整份烘焙食品 生成器** — `RandomFoodBakedWhole` ｜父类: MarkerBase
+- **随机食物 生成器** — `RandomFoodBreakfast` ｜父类: MarkerBase
+- **随机食物 生成器** — `RandomFoodMeal` ｜父类: MarkerBase
+- **随机食物 生成器** — `RandomFoodSingle` ｜父类: MarkerBase
+- **灰色石笋 生成器** — `RandomGreyStalagmite` ｜父类: MarkerBase
+- **随机食材生成点** — `RandomIngredient` ｜父类: MarkerBase
+- **随机乐器生成点** — `RandomInstruments` ｜父类: MarkerBase
+- **随机肉类生成点** — `RandomMeat` ｜父类: MarkerBase
+- **随机医疗人员尸体 生成器** — `RandomMedicCorpseSpawner` ｜父类: SalvageHumanCorpseSpawner
+- **随机雇佣兵尸体生成点** — `RandomMercenaryCorpseSpawner` ｜父类: SalvageHumanCorpseSpawner ｜_Starlight
+- **随机巢穴生成点** — `RandomNest` ｜父类: MarkerBase ｜_Starlight
+- **随机核弹特工尸体生成点** — `RandomNukieCorpseSpawner` ｜父类: SalvageHumanCorpseSpawner ｜_Starlight
+- **随机画作 生成器** — `RandomPainting` ｜父类: MarkerBase
+- **随机海盗尸体生成点** — `RandomPirateCorpseSpawner` ｜父类: SalvageHumanCorpseSpawner ｜_Starlight
+- **随机海报 生成器** — `RandomPosterAny` ｜父类: MarkerBase
+- **随机违禁海报 生成器** — `RandomPosterContraband` ｜父类: MarkerBase
+- **随机合规海报 生成器** — `RandomPosterLegit` ｜父类: MarkerBase
+- **随机监狱海报生成点** — `RandomPosterPrison` ｜父类: MarkerBase ｜_Starlight
+- **随机农产品生成点** — `RandomProduce` ｜父类: MarkerBase
+- **随机岩石异常生成点** — `RandomRockAnomalySpawner` ｜父类: MarkerBase
+- **随机科研部人员尸体 生成器** — `RandomScienceCorpseSpawner` ｜父类: SalvageHumanCorpseSpawner
+- **随机安保部人员尸体 生成器** — `RandomSecurityCorpseSpawner` ｜父类: SalvageHumanCorpseSpawner
+- **随机服务部人员尸体 生成器** — `RandomServiceCorpseSpawner` ｜父类: SalvageHumanCorpseSpawner
+- **随机滑倒物 生成器** — `RandomSlip100` ｜父类: MarkerBase
+- **随机烟草制品生成点** — `RandomSmokables` ｜父类: MarkerBase
+- **随机零食 生成器** — `RandomSnacks` ｜父类: MarkerBase
+- **随机浸泡香烟生成点** — `RandomSoakedCigarette` ｜父类: MarkerBase
+- **随机肥皂 生成器** — `RandomSoap` ｜父类: MarkerBase
+- **随机玻璃太阳能板生成点** — `RandomSolarSpawnerGlass` ｜父类: MarkerBase ｜_Starlight
+- **随机苏维埃尸体生成点** — `RandomSovietCorpseSpawner` ｜父类: SalvageHumanCorpseSpawner ｜_Starlight
+- **垃圾生成点** — `RandomSpawner` ｜父类: MarkerBase
+- **垃圾生成点** — `RandomSpawner100` ｜父类: RandomSpawner
+- **石笋或水晶 生成器** — `RandomStalagmiteOrCrystal` ｜父类: MarkerBase
+- **随机辛迪加尸体生成点** — `RandomSyndicateCorpseSpawner` ｜父类: SalvageHumanCorpseSpawner ｜_Starlight
+- **随机自动售货机 生成器** — `RandomVending` ｜父类: MarkerBase
+- **随机自动售货机 生成器** — `RandomVendingClothing` ｜父类: MarkerBase
+- **随机自动售货机生成点** — `RandomVendingDrinks` ｜父类: MarkerBase
+- **随机医疗自动售货机生成点** — `RandomVendingMedical` ｜父类: MarkerBase ｜_Starlight
+- **随机医疗自动售货机生成点** — `RandomVendingMedicalCivilian` ｜父类: MarkerBase ｜_Starlight
+- **随机医疗自动售货机生成点** — `RandomVendingMedicalCivilianWall` ｜父类: MarkerBase ｜_Starlight
+- **随机医疗自动售货机生成点** — `RandomVendingMedicalWall` ｜父类: MarkerBase ｜_Starlight
+- **随机自动售货机 生成器** — `RandomVendingSnacks` ｜父类: MarkerBase
+- **木制支撑 生成器** — `RandomWoodenSupport` ｜父类: MarkerBase
+- **木墙 生成器** — `RandomWoodenWall` ｜父类: MarkerBase
+- **屋顶** — `RoofMarker` ｜父类: MarkerBase
+- **打捞气罐 生成器** — `SalvageCanisterSpawner` ｜父类: MarkerBase
+- **打捞点血肉 生成器** — `SalvageFleshSpawner` ｜父类: SalvageMobSpawner
+- **人类尸体 生成器** — `SalvageHumanCorpseSpawner` ｜父类: MarkerBase
+- **打捞战利品 生成器** — `SalvageLootSpawner` ｜父类: MarkerBase
+- **打捞材料板条箱 生成器** — `SalvageMaterialCrateSpawner` ｜父类: MarkerBase
+- **打捞点生物 生成器** — `SalvageMobSpawner` ｜父类: MarkerBase
+- **打捞点生物 生成器** — `SalvageMobSpawner75` ｜父类: SalvageMobSpawner
+- **打捞装备 生成器** — `SalvageSpawnerEquipment` ｜父类: MarkerBase
+- **打捞装备 生成器** — `SalvageSpawnerEquipmentValuable` ｜父类: MarkerBase
+- **打捞磁铁生物 生成器** — `SalvageSpawnerMobMagnet` ｜父类: MarkerBase
+- **打捞磁铁生物 生成器** — `SalvageSpawnerMobMagnet100` ｜父类: SalvageSpawnerMobMagnet
+- **打捞磁铁生物 生成器** — `SalvageSpawnerMobMagnet75` ｜父类: SalvageSpawnerMobMagnet
+- **采矿小行星生物 生成器** — `SalvageSpawnerMobMiningAsteroid` ｜父类: MarkerBase
+- **打捞点鲨鱼苗 生成器** — `SalvageSpawnerMobShark` ｜父类: MarkerBase
+- **打捞废料 生成器** — `SalvageSpawnerScrapCommon` ｜父类: MarkerBase
+- **打捞废料 生成器** — `SalvageSpawnerScrapCommon75` ｜父类: SalvageSpawnerScrapCommon
+- **打捞废料 生成器** — `SalvageSpawnerScrapValuable` ｜父类: MarkerBase
+- **打捞废料 生成器** — `SalvageSpawnerScrapValuable75` ｜父类: SalvageSpawnerScrapValuable
+- **太空残骸结构 生成器** — `SalvageSpawnerStructuresVarious` ｜父类: MarkerBase
+- **打捞宝藏 生成器** — `SalvageSpawnerTreasure` ｜父类: MarkerBase
+- **打捞宝藏 生成器** — `SalvageSpawnerTreasureValuable` ｜父类: MarkerBase
+- **暗影葛藤战利品 生成器** — `ShadowKudzuLootSpawner` ｜父类: MarkerBase
+- **太空人迷你模型 生成器** — `SpacemenFigurineSpawner90` ｜父类: MarkerBase
+- **Salvage Space Tick Spawner** — `SpaceTickSpawner` ｜父类: MarkerBase
+- **小丑蜘蛛 生成器** — `SpawnClownSpider` ｜父类: MarkerBase
+- **灰色异种生物学史莱姆生成点** — `SpawnGrayXenobiologySlime` ｜父类: MarkerBase ｜_Starlight
+- **克拉克生成点** — `SpawnMechClarke` ｜父类: MarkerBase ｜_Starlight
+- **杜兰德生成点** — `SpawnMechDurand` ｜父类: MarkerBase ｜_Starlight
+- **盖盖克斯生成点** — `SpawnMechGygax` ｜父类: MarkerBase ｜_Starlight
+- **暗黑盖盖克斯生成点** — `SpawnMechGygaxSyndie` ｜父类: MarkerBase ｜_Starlight
+- **暗黑盖盖克斯生成点** — `SpawnMechGygaxSyndieFilled` ｜父类: MarkerBase ｜_Starlight
+- **H.O.N.K. 生成点** — `SpawnMechHonker` ｜父类: MarkerBase
+- **H.O.N.K. 生成点** — `SpawnMechHonkerFilled` ｜父类: SpawnMechHonker ｜_Starlight
+- **掠夺者生成点** — `SpawnMechMarauder` ｜父类: MarkerBase ｜_Starlight
+- **掠夺者生成点** — `SpawnMechMarauderFilled` ｜父类: MarkerBase ｜_Starlight
+- **撕裂者生成点** — `SpawnMechMaulerSyndie` ｜父类: MarkerBase ｜_Starlight
+- **撕裂者生成点** — `SpawnMechMaulerSyndieFilled` ｜父类: MarkerBase ｜_Starlight
+- **帕迪生成点** — `SpawnMechPaddyFilled` ｜父类: MarkerBase ｜_Starlight
+- **雷普利 APLU 生成点** — `SpawnMechRipley` ｜父类: MarkerBase
+- **雷普利 APLU MK-II 生成点** — `SpawnMechRipley2` ｜父类: MarkerBase ｜_Starlight
+- **炽天使生成点** — `SpawnMechSeraph` ｜父类: MarkerBase ｜_Starlight
+- **炽天使生成点** — `SpawnMechSeraphFilled` ｜父类: MarkerBase ｜_Starlight
+- **蓝色史莱姆生成器** — `SpawnMobAdultSlimesBlue` ｜父类: MarkerBase
+- **愤怒蓝色史莱姆生成器** — `SpawnMobAdultSlimesBlueAngry` ｜父类: MarkerBase
+- **绿色史莱姆生成器** — `SpawnMobAdultSlimesGreen` ｜父类: MarkerBase
+- **愤怒绿色史莱姆生成器** — `SpawnMobAdultSlimesGreenAngry` ｜父类: MarkerBase
+- **黄色史莱姆生成器** — `SpawnMobAdultSlimesYellow` ｜父类: MarkerBase
+- **愤怒黄色史莱姆生成器** — `SpawnMobAdultSlimesYellowAngry` ｜父类: MarkerBase
+- **亚历山大 生成器** — `SpawnMobAlexander` ｜父类: MarkerBase
+- **班迪托 生成器** — `SpawnMobBandito` ｜父类: MarkerBase
+- **太空熊 生成器** — `SpawnMobBear` ｜父类: MarkerBase
+- **打捞点太空熊生成器** — `SpawnMobBearSalvage` ｜父类: MarkerBase
+- **蜜蜂 生成器** — `SpawnMobBee` ｜父类: MarkerBase
+- **巨型呵叫怪 生成器** — `SpawnMobBehonker` ｜父类: MarkerBase
+- **拳击袋鼠 生成器** — `SpawnMobBoxingKangaroo` ｜父类: MarkerBase
+- **蝴蝶 生成器** — `SpawnMobButterfly` ｜父类: MarkerBase
+- **货运猩猩生成点** — `SpawnMobCargorilla` ｜父类: MarkerBase ｜_Starlight
+- **太空鲤鱼 生成器** — `SpawnMobCarp` ｜父类: MarkerBase
+- **全息鲤鱼 生成器** — `SpawnMobCarpHolo` ｜父类: MarkerBase
+- **魔法鲤鱼 生成器** — `SpawnMobCarpMagic` ｜父类: MarkerBase
+- **随机猫 生成器** — `SpawnMobCat` ｜父类: MarkerBase
+- **Bingus 生成器** — `SpawnMobCatBingus` ｜父类: MarkerBase
+- **Exception 生成器** — `SpawnMobCatException` ｜父类: MarkerBase
+- **Floppa 生成器** — `SpawnMobCatFloppa` ｜父类: MarkerBase
+- **普通猫 生成器** — `SpawnMobCatGeneric` ｜父类: MarkerBase
+- **幼猫 生成器** — `SpawnMobCatKitten` ｜父类: MarkerBase
+- **Runtime 生成器** — `SpawnMobCatRuntime` ｜父类: MarkerBase
+- **太空猫 生成器** — `SpawnMobCatSpace` ｜父类: MarkerBase
+- **清洁机器人 生成器** — `SpawnMobCleanBot` ｜父类: MarkerBase
+- **小丑柯基生成点** — `SpawnMobClownCorgi` ｜父类: MarkerBase ｜_Starlight
+- **打捞点太空眼镜蛇生成器** — `SpawnMobCobraSalvage` ｜父类: MarkerBase
+- **蟑螂 生成器** — `SpawnMobCockroach` ｜父类: MarkerBase
+- **柯基生成器** — `SpawnMobCorgi` ｜父类: MarkerBase
+- **开发者老鼠 生成器** — `SpawnMobCorgiMouse` ｜父类: MarkerBase
+- **牛 生成器** — `SpawnMobCow` ｜父类: MarkerBase
+- **螃蟹 生成器** — `SpawnMobCrab` ｜父类: MarkerBase
+- **Tropico 生成器** — `SpawnMobCrabAtmos` ｜父类: MarkerBase
+- **幼年咩电羊生成器** — `SpawnMobEeeplet` ｜父类: MarkerBase ｜_Impstation
+- **消防机器人 生成器** — `SpawnMobFireBot` ｜父类: MarkerBase
+- **狐狸雷诺 生成器** — `SpawnMobFoxRenault` ｜父类: MarkerBase
+- **青蛙 生成器** — `SpawnMobFrog` ｜父类: MarkerBase
+- **姜饼人生成点** — `SpawnMobGingerbreadAI` ｜父类: MarkerBase
+- **山羊 生成器** — `SpawnMobGoat` ｜父类: MarkerBase
+- **大猩猩 生成器** — `SpawnMobGorilla` ｜父类: MarkerBase
+- **仓鼠哈姆雷特 生成器** — `SpawnMobHamsterHamlet` ｜父类: MarkerBase
+- **地狱造物 生成器** — `SpawnMobHellspawn` ｜父类: MarkerBase
+- **呵叫机器人 生成器** — `SpawnMobHonkBot` ｜父类: MarkerBase
+- **乌里斯特生成点** — `SpawnMobHuman` ｜父类: MarkerBase
+- **太空袋鼠 生成器** — `SpawnMobKangaroo` ｜父类: MarkerBase
+- **打捞点太空袋鼠生成器** — `SpawnMobKangarooSalvage` ｜父类: MarkerBase
+- **Willow 生成器** — `SpawnMobKangarooWillow` ｜父类: MarkerBase
+- **狗头人生成点** — `SpawnMobKobold` ｜父类: MarkerBase ｜_Starlight
+- **高级狗头人生成点** — `SpawnMobKoboldAdvanced` ｜父类: MarkerBase ｜_Starlight
+- **琪琪生成点** — `SpawnMobKoboldKiki` ｜父类: MarkerBase ｜_Starlight
+- **蜥蜴 生成器** — `SpawnMobLizard` ｜父类: MarkerBase
+- **发光实体 生成器** — `SpawnMobLuminousEntity` ｜父类: MarkerBase
+- **发光物体 生成器** — `SpawnMobLuminousObject` ｜父类: MarkerBase
+- **发光人形 生成器** — `SpawnMobLuminousPerson` ｜父类: MarkerBase
+- **McGriff 生成器** — `SpawnMobMcGriff` ｜父类: MarkerBase
+- **医疗机器人 生成器** — `SpawnMobMedibot` ｜父类: MarkerBase
+- **猴子 生成器** — `SpawnMobMonkey` ｜父类: MarkerBase
+- **高级猴子生成点** — `SpawnMobMonkeyAdvanced` ｜父类: MarkerBase ｜_Starlight
+- **Pun Pun 生成器** — `SpawnMobMonkeyPunpun` ｜父类: MarkerBase
+- **搅搅生成点** — `SpawnMobMonkeyStirStir` ｜父类: MarkerBase ｜_Starlight
+- **拖把蟑螂 生成器** — `SpawnMobMoproach` ｜父类: MarkerBase
+- **老鼠 生成器** — `SpawnMobMouse` ｜父类: MarkerBase
+- **矿石蟹 生成器** — `SpawnMobOreCrab` ｜父类: MarkerBase
+- **鹦鹉 生成器** — `SpawnMobParrot` ｜父类: MarkerBase
+- **企鹅 生成器** — `SpawnMobPenguin` ｜父类: MarkerBase
+- **鹦鹉波莉 生成器** — `SpawnMobPollyParrot` ｜父类: MarkerBase
+- **负鼠莫蒂 生成器** — `SpawnMobPossumMorty` ｜父类: MarkerBase
+- **紫蛇 生成器** — `SpawnMobPurpleSnake` ｜父类: MarkerBase
+- **浣熊莫蒂西亚 生成器** — `SpawnMobRaccoonMorticia` ｜父类: MarkerBase
+- **雄性驯鹿 生成器** — `SpawnMobReindeerBuck` ｜父类: MarkerBase
+- **雌性驯鹿 生成器** — `SpawnMobReindeerDoe` ｜父类: MarkerBase
+- **太空鲨鱼苗 生成器** — `SpawnMobShark` ｜父类: MarkerBase
+- **Shiva 生成器** — `SpawnMobShiva` ｜父类: MarkerBase
+- **树懒文书 生成器** — `SpawnMobSlothPaperwork` ｜父类: MarkerBase
+- **蛞蝓 生成器** — `SpawnMobSlug` ｜父类: MarkerBase
+- **小型紫蛇 生成器** — `SpawnMobSmallPurpleSnake` ｜父类: MarkerBase
+- **Smile 生成器** — `SpawnMobSmile` ｜父类: MarkerBase
+- **太空眼镜蛇 生成器** — `SpawnMobSpaceCobra` ｜父类: MarkerBase
+- **太空蜘蛛 生成器** — `SpawnMobSpaceSpider` ｜父类: MarkerBase
+- **打捞点太空蜘蛛生成器** — `SpawnMobSpiderSalvage` ｜父类: MarkerBase
+- **补给机器人 生成器** — `SpawnMobSupplyBot` ｜父类: MarkerBase
+- **辛迪加步兵 生成器** — `SpawnMobSyndicateFootSoldier` ｜父类: MarkerBase
+- **辛迪加穿梭机驾驶员 生成器** — `SpawnMobSyndicateFootsoldierPilot` ｜父类: SpawnMobSyndicateFootSoldier
+- **Walter 生成器** — `SpawnMobWalter` ｜父类: MarkerBase
+- **冰翼监视者 生成器** — `SpawnMobWatcherIcewing` ｜父类: MarkerBase
+- **熔岩地监视者 生成器** — `SpawnMobWatcherLavaland` ｜父类: MarkerBase
+- **熔岩翼监视者 生成器** — `SpawnMobWatcherMagmawing` ｜父类: MarkerBase
+- **骄傲监视者 生成器** — `SpawnMobWatcherPride` ｜父类: MarkerBase
+- **异形生成器** — `SpawnMobXenoBurrower` ｜父类: MarkerBase
+- **异形生成器** — `SpawnMobXenoDrone` ｜父类: MarkerBase
+- **异形生成器** — `SpawnMobXenoEasy` ｜父类: MarkerBase
+- **异形生成器** — `SpawnMobXenoHard` ｜父类: MarkerBase
+- **异形生成器** — `SpawnMobXenoLonePraetorian` ｜父类: MarkerBase
+- **异形生成器** — `SpawnMobXenoPraetorian` ｜父类: MarkerBase
+- **异形生成器** — `SpawnMobXenoQueen` ｜父类: MarkerBase
+- **异形生成器** — `SpawnMobXenoRavager` ｜父类: MarkerBase
+- **异形生成器** — `SpawnMobXenoRunner` ｜父类: MarkerBase
+- **异形生成器** — `SpawnMobXenoSpitter` ｜父类: MarkerBase
+- **任意职业出生点** — `SpawnPointAnyJob` ｜父类: SpawnPointJobBase
+- **乘客** — `SpawnPointAssistant` ｜父类: SpawnPointJobBase
+- **大气技师** — `SpawnPointAtmos` ｜父类: SpawnPointJobBase
+- **酒保** — `SpawnPointBartender` ｜父类: SpawnPointJobBase
+- **蓝盾干员** — `SpawnPointBlueShield` ｜父类: SpawnPointJobBase ｜_Starlight
+- **赛博格** — `SpawnPointBorg` ｜父类: SpawnPointJobBase
+- **植物学家** — `SpawnPointBotanist` ｜父类: SpawnPointJobBase
+- **拳击手** — `SpawnPointBoxer` ｜父类: SpawnPointJobBase ｜_Starlight
+- **明眼者** — `SpawnPointBrighteye` ｜父类: MarkerBase ｜_Starlight
+- **狱医** — `SpawnPointBrigmedic` ｜父类: SpawnPointJobBase
+- **舰长** — `SpawnPointCaptain` ｜父类: SpawnPointJobBase
+- **货运技师** — `SpawnPointCargoTechnician` ｜父类: SpawnPointJobBase
+- **牧师** — `SpawnPointChaplain` ｜父类: SpawnPointJobBase
+- **厨师** — `SpawnPointChef` ｜父类: SpawnPointJobBase
+- **药剂师** — `SpawnPointChemist` ｜父类: SpawnPointJobBase
+- **工程主管** — `SpawnPointChiefEngineer` ｜父类: SpawnPointJobBase
+- **医疗主管** — `SpawnPointChiefMedicalOfficer` ｜父类: SpawnPointJobBase
+- **小丑** — `SpawnPointClown` ｜父类: SpawnPointJobBase
+- **侦探** — `SpawnPointDetective` ｜父类: SpawnPointJobBase
+- **值班干员** — `SpawnPointDutyOfficer` ｜父类: SpawnPointJobBase ｜_Starlight
+- **应急响应队牧师** — `SpawnPointERTChaplain` ｜父类: SpawnPointJobBase
+- **应急响应队工程师** — `SpawnPointERTEngineer` ｜父类: SpawnPointJobBase
+- **应急响应队清洁工** — `SpawnPointERTJanitor` ｜父类: SpawnPointJobBase
+- **应急响应队队长** — `SpawnPointERTLeader` ｜父类: SpawnPointJobBase
+- **应急响应队医疗人员** — `SpawnPointERTMedical` ｜父类: SpawnPointJobBase
+- **应急响应队安保干员** — `SpawnPointERTSecurity` ｜父类: SpawnPointJobBase
+- **幽灵角色生成点** — `SpawnPointGhostBrighteye` ｜父类: BaseAntagSpawner ｜_Starlight
+- **幽灵角色出生点** — `SpawnPointGhostCerberus` ｜父类: MarkerBase
+- **幽灵角色生成点** — `SpawnPointGhostCluwneBeast` ｜父类: MarkerBase ｜_Starlight
+- **幽灵角色生成点** — `SpawnPointGhostDerelictBorgi` ｜父类: BaseAntagSpawner ｜_Starlight
+- **幽灵角色生成点** — `SpawnPointGhostDerelictCyborg` ｜父类: BaseAntagSpawner
+- **幽灵角色生成点** — `SpawnPointGhostDerelictEngineeringCyborg` ｜父类: SpawnPointGhostDerelictCyborg
+- **幽灵角色生成点** — `SpawnPointGhostDerelictJanitorCyborg` ｜父类: SpawnPointGhostDerelictCyborg
+- **幽灵角色生成点** — `SpawnPointGhostDerelictMedicalCyborg` ｜父类: SpawnPointGhostDerelictCyborg
+- **幽灵角色生成点** — `SpawnPointGhostDerelictMiningCyborg` ｜父类: SpawnPointGhostDerelictCyborg
+- **幽灵角色生成点** — `SpawnPointGhostDerelictPurrfusCyborg` ｜父类: SpawnPointGhostDerelictCyborg ｜_Starlight
+- **幽灵角色生成点** — `SpawnPointGhostDerelictSyndicateAssaultCyborg` ｜父类: SpawnPointGhostDerelictCyborg
+- **幽灵角色生成点** — `SpawnPointGhostDragon` ｜父类: BaseAntagSpawner
+- **幽灵角色生成点** — `SpawnPointGhostEeeplet` ｜父类: BaseAntagSpawner ｜_Impstation
+- **幽灵角色出生点** — `SpawnPointGhostNukeOperative` ｜父类: MarkerBase
+- **幽灵角色生成点** — `SpawnPointGhostParadoxClone` ｜父类: BaseAntagSpawner
+- **幽灵角色出生点** — `SpawnPointGhostRatKing` ｜父类: MarkerBase
+- **幽灵角色出生点** — `SpawnPointGhostRemilia` ｜父类: MarkerBase
+- **幽灵角色生成点** — `SpawnPointGhostRoleMothershipCore` ｜父类: BaseAntagSpawner
+- **幽灵角色生成点** — `SpawnPointGhostRoleXenoborg` ｜父类: BaseAntagSpawner
+- **幽灵角色生成点** — `SpawnPointGhostSpaceNinja` ｜父类: BaseAntagSpawner
+- **终结者生成点** — `SpawnPointGhostTerminator` ｜父类: BaseAntagSpawner ｜_Starlight
+- **幽灵角色生成点** — `SpawnPointGhostTerrorPrincess` ｜父类: BaseAntagSpawner ｜_Starlight
+- **幽灵角色出生点** — `SpawnPointGhostWizard` ｜父类: BaseAntagSpawner
+- **幽灵角色出生点** — `SpawnPointGhostWizardDuelistBase` ｜父类: BaseAntagSpawner ｜_Moffstation
+- **蓝巫师决斗者出生点** — `SpawnPointGhostWizardDuelistBlue` ｜父类: SpawnPointGhostWizardDuelistBase ｜_Moffstation
+- **绿巫师决斗者出生点** — `SpawnPointGhostWizardDuelistGreen` ｜父类: SpawnPointGhostWizardDuelistBase ｜_Moffstation
+- **橙巫师决斗者出生点** — `SpawnPointGhostWizardDuelistOrange` ｜父类: SpawnPointGhostWizardDuelistBase ｜_Moffstation
+- **紫袍巫师决斗者出生点** — `SpawnPointGhostWizardDuelistPurple` ｜父类: SpawnPointGhostWizardDuelistBase ｜_Moffstation
+- **红巫师决斗者出生点** — `SpawnPointGhostWizardDuelistRed` ｜父类: SpawnPointGhostWizardDuelistBase ｜_Moffstation
+- **黄巫师决斗者出生点** — `SpawnPointGhostWizardDuelistYellow` ｜父类: SpawnPointGhostWizardDuelistBase ｜_Moffstation
+- **幽灵角色生成点** — `SpawnPointGhostXenoborgEngiDerelict` ｜父类: SpawnPointGhostDerelictCyborg ｜_Starlight
+- **幽灵角色生成点** — `SpawnPointGhostXenoBorgHeavyDerelict` ｜父类: SpawnPointGhostDerelictCyborg ｜_Starlight
+- **幽灵角色生成点** — `SpawnPointGhostXenoBorgiDerelict` ｜父类: SpawnPointGhostDerelictBorgi ｜_Starlight
+- **幽灵角色生成点** — `SpawnPointGhostXenoborgScoutDerelict` ｜父类: SpawnPointGhostDerelictCyborg ｜_Starlight
+- **幽灵角色生成点** — `SpawnPointGhostXenoborgStealthDerelict` ｜父类: SpawnPointGhostDerelictCyborg ｜_Starlight
+- **人事主管** — `SpawnPointHeadOfPersonnel` ｜父类: SpawnPointJobBase
+- **安保主管** — `SpawnPointHeadOfSecurity` ｜父类: SpawnPointJobBase
+- **安保主管武器 生成器** — `SpawnPointHeadOfSecurityWeapon` ｜父类: MarkerBase
+- **内务干员** — `SpawnPointIAA` ｜父类: SpawnPointJobBase ｜_Starlight
+- **清洁工** — `SpawnPointJanitor` ｜父类: SpawnPointJobBase
+- `模板` **SpawnPointJobBase** — `SpawnPointJobBase` ｜父类: MarkerBase
+- **中途加入出生点** — `SpawnPointLatejoin` ｜父类: SpawnPointJobBase
+- **律师** — `SpawnPointLawyer` ｜父类: SpawnPointJobBase
+- **图书管理员** — `SpawnPointLibrarian` ｜父类: SpawnPointJobBase
+- **幽灵角色生成点** — `SpawnPointLoneNukeOperative` ｜父类: BaseAntagSpawner
+- **地方法官** — `SpawnPointMagistrate` ｜父类: SpawnPointJobBase ｜_Starlight
+- **邮件技师** — `SpawnPointmailtech` ｜父类: SpawnPointJobBase ｜_Starlight
+- **医师** — `SpawnPointMedicalDoctor` ｜父类: SpawnPointJobBase
+- **实习医师** — `SpawnPointMedicalIntern` ｜父类: SpawnPointJobBase
+- **哑剧演员** — `SpawnPointMime` ｜父类: SpawnPointJobBase
+- **采矿专员** — `SpawnPointminingspecialist` ｜父类: SpawnPointJobBase ｜_Starlight
+- **母舰核心** — `SpawnPointMothershipCore` ｜父类: MarkerBase
+- **乐手** — `SpawnPointMusician` ｜父类: SpawnPointJobBase
+- **纳米传讯职业培训师** — `SpawnPointNCT` ｜父类: SpawnPointJobBase ｜_Starlight
+- **纳米传讯代表** — `SpawnPointNtrep` ｜父类: SpawnPointJobBase ｜_Starlight
+- **幽灵角色生成点** — `SpawnPointNukeopsCommander` ｜父类: SpawnPointLoneNukeOperative
+- **幽灵角色生成点** — `SpawnPointNukeopsMedic` ｜父类: SpawnPointLoneNukeOperative
+- **幽灵角色生成点** — `SpawnPointNukeopsOperative` ｜父类: SpawnPointLoneNukeOperative
+- **核弹特工出生点** — `SpawnPointNukies` ｜父类: MarkerBase
+- **观察者出生点** — `SpawnPointObserver` ｜父类: MarkerBase
+- **急救员** — `SpawnPointParamedic` ｜父类: SpawnPointJobBase
+- **表演者** — `SpawnPointPerformer` ｜父类: SpawnPointJobBase ｜_Starlight
+- **海盗生成点** — `SpawnPointPirates` ｜父类: MarkerBase
+- **心理医生** — `SpawnPointPsychologist` ｜父类: SpawnPointJobBase
+- **军需官** — `SpawnPointQuartermaster` ｜父类: SpawnPointJobBase
+- **记者** — `SpawnPointReporter` ｜父类: SpawnPointJobBase
+- **研究助理** — `SpawnPointResearchAssistant` ｜父类: SpawnPointJobBase
+- **研究主管** — `SpawnPointResearchDirector` ｜父类: SpawnPointJobBase
+- **机器人专家** — `SpawnPointRoboticist` ｜父类: SpawnPointJobBase ｜_Starlight
+- **打捞领队** — `SpawnPointSalvageLead` ｜父类: SpawnPointJobBase ｜_Starlight
+- **打捞专员** — `SpawnPointSalvageSpecialist` ｜父类: SpawnPointJobBase
+- **科学家** — `SpawnPointScientist` ｜父类: SpawnPointJobBase
+- **安保学员** — `SpawnPointSecurityCadet` ｜父类: SpawnPointJobBase
+- **安保干员** — `SpawnPointSecurityOfficer` ｜父类: SpawnPointJobBase
+- **服务人员** — `SpawnPointServiceWorker` ｜父类: SpawnPointJobBase
+- **空间站工程师** — `SpawnPointStationEngineer` ｜父类: SpawnPointJobBase
+- **外科医生** — `SpawnPointSurgeon` ｜父类: SpawnPointJobBase ｜_Starlight
+- **技术助理** — `SpawnPointTechnicalAssistant` ｜父类: SpawnPointJobBase
+- **典狱长** — `SpawnPointWarden` ｜父类: SpawnPointJobBase
+- **典狱长武器 生成器** — `SpawnPointWardenWeapon` ｜父类: MarkerBase
+- **巫师** — `SpawnPointWizard` ｜父类: MarkerBase
+- **异形赛博格出生点** — `SpawnPointXenoborg` ｜父类: MarkerBase
+- **异种蟑螂生成点** — `SpawnPointXenoroach` ｜父类: MarkerBase ｜_Starlight
+- **动物管理员** — `SpawnPointZookeeper` ｜父类: SpawnPointJobBase ｜_Starlight
+- **智能低音炮博基生成点** — `SpawnSmartSubwoofer` ｜父类: MarkerBase ｜_Starlight
+- **太空锦鲤生成点** — `SpawnSpaceKoi` ｜父类: MarkerBase ｜_Starlight
+- **自动售货机补货箱生成器** — `SpawnVendingMachineRestockDrink` ｜父类: MarkerBase
+- **自动售货机补货箱生成器** — `SpawnVendingMachineRestockFood` ｜父类: MarkerBase
+- **自动售货机补货箱生成器** — `SpawnVendingMachineRestockFoodDrink` ｜父类: MarkerBase
+- **TemporaryEntityForTimedDespawnSpawners** — `TemporaryEntityForTimedDespawnSpawners`
+- **玩具发声器 生成器** — `ToySoundMakerSpawner90` ｜父类: MarkerBase
+- **玩具 生成器** — `ToySpawner90` ｜父类: MarkerBase
+- **玩具武器 生成器** — `ToyWeaponSpawner90` ｜父类: MarkerBase
+- **TrashWallLootSpawner** — `TrashWallLootSpawner` ｜父类: MarkerBase ｜_Starlight
+- **跃迁点** — `WarpPoint` ｜父类: MarkerBase
+- **跃迁点（信标）** — `WarpPointBeacon` ｜父类: WarpPoint
+- **异形 AI 定时生成点** — `XenoAITimedSpawner` ｜父类: MarkerBase

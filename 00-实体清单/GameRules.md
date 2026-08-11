@@ -1,0 +1,260 @@
+# 实体清单：GameRules（256 个）
+
+> 来源层分布: _Starlight 130, 上游 124, _Impstation 1, _Moffstation 1
+
+- **AbductorsSpawn** — `AbductorsSpawn` ｜父类: BaseGameRule ｜_Starlight
+- **AnaSpawn** — `AnaSpawn` ｜父类: BaseGameRule ｜_Starlight
+- **AnomalySpawn** — `AnomalySpawn` ｜父类: BaseStationEventShortDelay
+- **AuroraCaelus** — `AuroraCaelus` ｜父类: BaseGameRule ｜_Starlight
+- **BaseDynamicEventScheduler** — `BaseDynamicEventScheduler` ｜父类: BaseGameRule ｜_Starlight
+- `模板` **BaseGameRule** — `BaseGameRule`
+- `模板` **BaseNukeopsRule** — `BaseNukeopsRule` ｜父类: BaseGameRule
+- `模板` **BaseStationEvent** — `BaseStationEvent` ｜父类: BaseGameRule
+- `模板` **BaseStationEventLongDelay** — `BaseStationEventLongDelay` ｜父类: BaseGameRule
+- `模板` **BaseStationEventShortDelay** — `BaseStationEventShortDelay` ｜父类: BaseGameRule
+- `模板` **BaseTraitorRule** — `BaseTraitorRule` ｜父类: BaseGameRule
+- `模板` **BaseUnknownShuttleRule** — `BaseUnknownShuttleRule` ｜父类: BaseGameRule
+- `模板` **BaseVariationPass** — `BaseVariationPass` ｜父类: BaseGameRule
+- `模板` **BaseWizardRule** — `BaseWizardRule` ｜父类: BaseGameRule
+- **BasicDecalBurnsVariationPass** — `BasicDecalBurnsVariationPass` ｜父类: BaseVariationPass
+- **BasicDecalDirtMonospaceVariationPass** — `BasicDecalDirtMonospaceVariationPass` ｜父类: BaseVariationPass
+- **BasicDecalDirtVariationPass** — `BasicDecalDirtVariationPass` ｜父类: BaseVariationPass
+- **BasicDecalGraffitiVariationPass** — `BasicDecalGraffitiVariationPass` ｜父类: BaseVariationPass
+- **BasicPoweredLightVariationPass** — `BasicPoweredLightVariationPass` ｜父类: BaseVariationPass
+- **BasicPuddleMessVariationPass** — `BasicPuddleMessVariationPass` ｜父类: BaseVariationPass
+- **BasicRoundstartVariation** — `BasicRoundstartVariation` ｜父类: BaseGameRule
+- **BasicStationEventScheduler** — `BasicStationEventScheduler` ｜父类: BaseGameRule
+- **BasicTrashVariationPass** — `BasicTrashVariationPass` ｜父类: BaseVariationPass
+- **BloodbathPuddleMessVariationPass** — `BloodbathPuddleMessVariationPass` ｜父类: BaseVariationPass
+- **BluespaceArtifact** — `BluespaceArtifact` ｜父类: BaseStationEventShortDelay
+- **BluespaceLocker** — `BluespaceLocker` ｜父类: BaseGameRule
+- **BreakerFlip** — `BreakerFlip` ｜父类: BaseGameRule
+- **Brighteye** — `Brighteye` ｜父类: BaseGameRule ｜_Starlight
+- **BureaucraticError** — `BureaucraticError` ｜父类: BaseGameRule
+- `模板` **CargoGiftsBase** — `CargoGiftsBase` ｜父类: BaseGameRule
+- **CBURNShuttleSpawn** — `CBURNShuttleSpawn` ｜父类: BaseGameRule ｜_Starlight
+- **CBURNShuttleSpawn_Q** — `CBURNShuttleSpawn_Q` ｜父类: BaseGameRule ｜_Starlight
+- **Changeling** — `Changeling` ｜父类: BaseGameRule
+- **ClericalError** — `ClericalError` ｜父类: BaseGameRule
+- **ClosetSkeleton** — `ClosetSkeleton` ｜父类: BaseGameRule
+- **CluwneBeastSpawn** — `CluwneBeastSpawn` ｜父类: BaseGameRule
+- **CockroachMigration** — `CockroachMigration` ｜父类: BaseStationEventShortDelay
+- **CommunicationBlackout** — `CommunicationBlackout` ｜父类: BaseGameRule ｜_Starlight
+- **CutWireVariationPass** — `CutWireVariationPass` ｜父类: BaseVariationPass
+- **DeathMatch31** — `DeathMatch31` ｜父类: BaseGameRule
+- **DeathsquadShuttleSpawn** — `DeathsquadShuttleSpawn` ｜父类: BaseGameRule ｜_Starlight
+- **Decimus_MagnusBreachingCraft** — `Decimus_MagnusBreachingCraft` ｜父类: BaseGameRule ｜_Starlight
+- **DerelictBorgiSpawn** — `DerelictBorgiSpawn` ｜父类: BaseGameRule ｜_Starlight
+- **DerelictEngineerCyborgSpawn** — `DerelictEngineerCyborgSpawn` ｜父类: BaseGameRule
+- **DerelictGenericCyborgSpawn** — `DerelictGenericCyborgSpawn` ｜父类: BaseGameRule
+- **DerelictJanitorCyborgSpawn** — `DerelictJanitorCyborgSpawn` ｜父类: BaseGameRule
+- **DerelictMedicalCyborgSpawn** — `DerelictMedicalCyborgSpawn` ｜父类: BaseGameRule
+- **DerelictMiningCyborgSpawn** — `DerelictMiningCyborgSpawn` ｜父类: BaseGameRule
+- **DerelictPurrfusCyborgSpawn** — `DerelictPurrfusCyborgSpawn` ｜父类: BaseGameRule ｜_Starlight
+- **DerelictSyndicateAssaultCyborgSpawn** — `DerelictSyndicateAssaultCyborgSpawn` ｜父类: BaseGameRule
+- **Devil** — `Devil` ｜父类: BaseGameRule ｜_Starlight
+- **DoorLaggingVirus** — `DoorLaggingVirus` ｜父类: BaseStationEventShortDelay
+- **DoorRuntime** — `DoorRuntime` ｜父类: BaseGameRule ｜_Starlight
+- **DragonSpawn** — `DragonSpawn` ｜父类: BaseGameRule
+- **DummyNonAntag** — `DummyNonAntag` ｜父类: BaseGameRule
+- **DummyNonAntagChance** — `DummyNonAntagChance` ｜父类: BaseGameRule
+- **DynamicKesslerSyndromeEventScheduler** — `DynamicKesslerSyndromeEventScheduler` ｜父类: BaseGameRule ｜_Starlight
+- **DynamicRampingEventScheduler** — `DynamicRampingEventScheduler` ｜父类: BaseGameRule ｜_Starlight
+- **DynamicRule** — `DynamicRule` ｜父类: BaseGameRule
+- **DynamicShitStationEventScheduler** — `DynamicShitStationEventScheduler` ｜父类: BaseGameRule ｜_Starlight
+- **DynamicStationEventScheduler** — `DynamicStationEventScheduler` ｜父类: BaseGameRule
+- **DynamicSurvivalEventScheduler** — `DynamicSurvivalEventScheduler` ｜父类: BaseGameRule ｜_Starlight
+- **EeepEvent** — `EeepEvent` ｜父类: BaseGameRule ｜_Impstation
+- **ERTCBURNSpawn** — `ERTCBURNSpawn` ｜父类: BaseGameRule ｜_Starlight
+- **ERTChaplainShuttleSpawn** — `ERTChaplainShuttleSpawn` ｜父类: BaseGameRule ｜_Starlight
+- **ERTChaplainSpawn** — `ERTChaplainSpawn` ｜父类: BaseGameRule ｜_Starlight
+- **ERTChaplainSpawnEffect** — `ERTChaplainSpawnEffect` ｜父类: NoosphericVFX2 ｜_Starlight
+- **ERTEngineeringShuttleSpawn** — `ERTEngineeringShuttleSpawn` ｜父类: BaseGameRule ｜_Starlight
+- **ERTEngiSpawn** — `ERTEngiSpawn` ｜父类: BaseGameRule ｜_Starlight
+- **ERTJaniSpawn** — `ERTJaniSpawn` ｜父类: BaseGameRule ｜_Starlight
+- **ERTJanitorShuttleSpawn** — `ERTJanitorShuttleSpawn` ｜父类: BaseGameRule ｜_Starlight
+- **ERTMedicalShuttleSpawn** — `ERTMedicalShuttleSpawn` ｜父类: BaseGameRule ｜_Starlight
+- **ERTMedSpawn** — `ERTMedSpawn` ｜父类: BaseGameRule ｜_Starlight
+- **ERTSecSpawn** — `ERTSecSpawn` ｜父类: BaseGameRule ｜_Starlight
+- **ERTSecurityShuttleSpawn** — `ERTSecurityShuttleSpawn` ｜父类: BaseGameRule ｜_Starlight
+- **ExperimentalBotanyShuttle** — `ExperimentalBotanyShuttle` ｜父类: BaseGameRule ｜_Starlight
+- **GameRuleClownSwarm** — `GameRuleClownSwarm` ｜父类: GameRuleMeteorSwarm
+- **GameRuleCowSwarm** — `GameRuleCowSwarm` ｜父类: GameRuleMeteorSwarm
+- **GameRuleFunSwarm** — `GameRuleFunSwarm` ｜父类: GameRuleMeteorSwarm
+- **GameRuleLargeWreckSwarmSpawn** — `GameRuleLargeWreckSwarmSpawn` ｜父类: GameRuleWreckSwarmSpawn ｜_Starlight
+- **GameRuleMediumWreckSwarmSpawn** — `GameRuleMediumWreckSwarmSpawn` ｜父类: GameRuleWreckSwarmSpawn ｜_Starlight
+- `模板` **GameRuleMeteorSwarm** — `GameRuleMeteorSwarm` ｜父类: BaseGameRule
+- **GameRuleMeteorSwarmLarge** — `GameRuleMeteorSwarmLarge` ｜父类: GameRuleMeteorSwarm
+- **GameRuleMeteorSwarmMedium** — `GameRuleMeteorSwarmMedium` ｜父类: GameRuleMeteorSwarm
+- **GameRuleMeteorSwarmSmall** — `GameRuleMeteorSwarmSmall` ｜父类: GameRuleMeteorSwarm
+- **GameRulePotatoSwarm** — `GameRulePotatoSwarm` ｜父类: GameRuleMeteorSwarm
+- **GameRuleSmallWreckSwarmSpawn** — `GameRuleSmallWreckSwarmSpawn` ｜父类: GameRuleWreckSwarmSpawn ｜_Starlight
+- **GameRuleSpaceDustMajor** — `GameRuleSpaceDustMajor` ｜父类: GameRuleMeteorSwarm
+- **GameRuleSpaceDustMinor** — `GameRuleSpaceDustMinor` ｜父类: GameRuleMeteorSwarm
+- **GameRuleUristSwarm** — `GameRuleUristSwarm` ｜父类: GameRuleMeteorSwarm
+- `模板` **GameRuleWreckSwarmSpawn** — `GameRuleWreckSwarmSpawn` ｜父类: BaseGameRule ｜_Starlight
+- **GasLeak** — `GasLeak` ｜父类: BaseStationEventShortDelay
+- **GiftsEngineering** — `GiftsEngineering` ｜父类: CargoGiftsBase
+- **GiftsFireProtection** — `GiftsFireProtection` ｜父类: CargoGiftsBase
+- **GiftsJanitor** — `GiftsJanitor` ｜父类: CargoGiftsBase
+- **GiftsMedical** — `GiftsMedical` ｜父类: CargoGiftsBase
+- **GiftsPizzaPartyLarge** — `GiftsPizzaPartyLarge` ｜父类: CargoGiftsBase
+- **GiftsPizzaPartySmall** — `GiftsPizzaPartySmall` ｜父类: CargoGiftsBase
+- **GiftsSecurityGuns** — `GiftsSecurityGuns` ｜父类: CargoGiftsBase
+- **GiftsSecurityRiot** — `GiftsSecurityRiot` ｜父类: CargoGiftsBase
+- **GiftsSpacingSupplies** — `GiftsSpacingSupplies` ｜父类: CargoGiftsBase
+- **GiftsVendingRestock** — `GiftsVendingRestock` ｜父类: CargoGiftsBase
+- **ImmovableRodSlugSpawn** — `ImmovableRodSlugSpawn` ｜父类: BaseGameRule ｜_Starlight
+- **ImmovableRodSpawn** — `ImmovableRodSpawn` ｜父类: BaseGameRule
+- **InactivityTimeRestart** — `InactivityTimeRestart` ｜父类: BaseGameRule
+- **IonStorm** — `IonStorm` ｜父类: BaseGameRule
+- **IonStormPlus** — `IonStormPlus` ｜父类: BaseGameRule ｜_Starlight
+- **KesslerSyndromeScheduler** — `KesslerSyndromeScheduler` ｜父类: BaseGameRule
+- **KingRatMigration** — `KingRatMigration` ｜父类: BaseStationEventShortDelay
+- **KudzuGrowth** — `KudzuGrowth` ｜父类: BaseStationEventLongDelay
+- **LancePiratesSpawn** — `LancePiratesSpawn` ｜父类: BaseGameRule ｜_Starlight
+- **LoneOpsSpawn** — `LoneOpsSpawn` ｜父类: BaseNukeopsRule
+- **LotteryShuttle** — `LotteryShuttle` ｜父类: BaseGameRule ｜_Starlight
+- **MaintenanceMonstersVariationPass** — `MaintenanceMonstersVariationPass` ｜父类: BaseVariationPass ｜_Starlight
+- **MassHallucinations** — `MassHallucinations` ｜父类: BaseGameRule
+- **MaxTimeRestart** — `MaxTimeRestart` ｜父类: BaseGameRule
+- **MeteorSwarmMildScheduler** — `MeteorSwarmMildScheduler` ｜父类: BaseGameRule
+- **MeteorSwarmScheduler** — `MeteorSwarmScheduler` ｜父类: BaseGameRule
+- **MimicVendorRule** — `MimicVendorRule` ｜父类: BaseGameRule
+- **MoproachMigration** — `MoproachMigration` ｜父类: BaseStationEventShortDelay
+- **MouseMigration** — `MouseMigration` ｜父类: BaseStationEventShortDelay
+- **NanoChatSpam** — `NanoChatSpam` ｜父类: BaseGameRule ｜_Starlight
+- **NightShift** — `NightShift` ｜父类: BaseGameRule ｜_Starlight
+- **NinjaSpawn** — `NinjaSpawn` ｜父类: BaseGameRule
+- **NTSF_MinosBattlecruiser** — `NTSF_MinosBattlecruiser` ｜父类: BaseGameRule ｜_Starlight
+- **Nukeops** — `Nukeops` ｜父类: BaseNukeopsRule
+- **NukeopsLate** — `NukeopsLate` ｜父类: Nukeops ｜_Starlight
+- **NukiePlanetSpawn** — `NukiePlanetSpawn` ｜父类: BaseGameRule ｜_Starlight
+- **NukiePlanetSpawnGeiger** — `NukiePlanetSpawnGeiger` ｜父类: BaseGameRule ｜_Starlight
+- **NukiePlanetSpawnWestern** — `NukiePlanetSpawnWestern` ｜父类: BaseGameRule ｜_Starlight
+- **ParadoxCloneSpawn** — `ParadoxCloneSpawn` ｜父类: BaseGameRule
+- **ParadoxCrisisSpawn** — `ParadoxCrisisSpawn` ｜父类: BaseGameRule ｜_Starlight
+- **PowerGridCheck** — `PowerGridCheck` ｜父类: BaseStationEventShortDelay
+- **PsychicScreach** — `PsychicScreach` ｜父类: BaseGameRule ｜_Starlight
+- **QuantumArkDerelictEvent** — `QuantumArkDerelictEvent` ｜父类: BaseGameRule ｜_Starlight
+- **QuantumArkSpawn** — `QuantumArkSpawn` ｜父类: BaseGameRule ｜_Starlight
+- **RadioTowerSpawn** — `RadioTowerSpawn` ｜父类: BaseGameRule ｜_Starlight
+- **RadStorm** — `RadStorm` ｜父类: BaseGameRule ｜_Starlight
+- **RailroadingBrighteye** — `RailroadingBrighteye` ｜父类: BaseGameRule ｜_Starlight
+- **RailroadingMinor** — `RailroadingMinor` ｜父类: BaseGameRule ｜_Starlight
+- **RailroadingTerminator** — `RailroadingTerminator` ｜父类: BaseGameRule ｜_Starlight
+- **RailroadingTest** — `RailroadingTest` ｜父类: BaseGameRule ｜_Starlight
+- **RampingStationEventScheduler** — `RampingStationEventScheduler` ｜父类: BaseGameRule
+- **RandomSentience** — `RandomSentience` ｜父类: BaseGameRule
+- **ReinforcedWallRustingVariationPass** — `ReinforcedWallRustingVariationPass` ｜父类: BaseVariationPass
+- **RespawnDeadRule** — `RespawnDeadRule` ｜父类: BaseGameRule
+- **RevenantSpawn** — `RevenantSpawn` ｜父类: BaseGameRule
+- **Revolutionary** — `Revolutionary` ｜父类: BaseGameRule
+- **Sandbox** — `Sandbox` ｜父类: BaseGameRule
+- **Secret** — `Secret` ｜父类: BaseGameRule
+- **SecurityDrill** — `SecurityDrill` ｜父类: BaseGameRule ｜_Starlight
+- **SecurityShuttleSpawn** — `SecurityShuttleSpawn` ｜父类: BaseGameRule ｜_Starlight
+- **SHCDefender** — `SHCDefender` ｜父类: BaseGameRule ｜_Starlight
+- **ShitStationEventScheduler** — `ShitStationEventScheduler` ｜父类: BaseGameRule ｜_Starlight
+- **ShuttleHarrierClassNTCruiser** — `ShuttleHarrierClassNTCruiser` ｜父类: BaseGameRule ｜_Starlight
+- **ShuttleMetaClassCargoFreighter** — `ShuttleMetaClassCargoFreighter` ｜父类: BaseGameRule ｜_Starlight
+- **ShuttleRecluseClassSyndicateHighCommand** — `ShuttleRecluseClassSyndicateHighCommand` ｜父类: BaseGameRule ｜_Starlight
+- **ShuttleSyndiShadowOps** — `ShuttleSyndiShadowOps` ｜父类: BaseGameRule ｜_Starlight
+- **SignaleerSpawn** — `SignaleerSpawn` ｜父类: BaseGameRule ｜_Starlight
+- **SiliconLiberation** — `SiliconLiberation` ｜父类: BaseGameRule ｜_Starlight
+- **SiliconLiberationGamerule** — `SiliconLiberationGamerule` ｜父类: BaseGameRule ｜_Starlight
+- **SLChangeling** — `SLChangeling` ｜父类: BaseGameRule
+- **SLChangelingLess** — `SLChangelingLess` ｜父类: BaseGameRule ｜_Starlight
+- **SLDynamicRule** — `SLDynamicRule` ｜父类: BaseGameRule ｜_Starlight
+- **SLDynamicRuleLP** — `SLDynamicRuleLP` ｜父类: BaseGameRule ｜_Starlight
+- **SleeperAgents** — `SleeperAgents` ｜父类: BaseTraitorRule
+- **SlimesSpawn** — `SlimesSpawn` ｜父类: BaseStationEventShortDelay
+- **SmugglerStashVariationPass** — `SmugglerStashVariationPass` ｜父类: BaseGameRule
+- **SnailMigration** — `SnailMigration` ｜父类: BaseStationEventShortDelay
+- **SnailMigrationLowPop** — `SnailMigrationLowPop` ｜父类: BaseStationEventShortDelay
+- **SnakeSpawn** — `SnakeSpawn` ｜父类: BaseStationEventShortDelay
+- **SolarFlare** — `SolarFlare` ｜父类: BaseGameRule ｜_Starlight
+- **SolarPanelDamageVariationPass** — `SolarPanelDamageVariationPass` ｜父类: BaseVariationPass
+- **SolarPanelEmptyVariationPass** — `SolarPanelEmptyVariationPass` ｜父类: BaseVariationPass
+- **SolidWallRustingVariationPass** — `SolidWallRustingVariationPass` ｜父类: BaseVariationPass
+- **SpaceTrafficControlEventScheduler** — `SpaceTrafficControlEventScheduler` ｜父类: BaseGameRule
+- **SpaceTrafficControlFriendlyEventScheduler** — `SpaceTrafficControlFriendlyEventScheduler` ｜父类: BaseGameRule
+- **SpaceWhale** — `SpaceWhale` ｜父类: BaseGameRule ｜_Starlight
+- **应急响应队出生点** — `SpawnPointGhostERTCBURN` ｜父类: MarkerBase ｜_Starlight
+- **应急响应队出生点** — `SpawnPointGhostERTCBURNCorpsman` ｜父类: MarkerBase ｜_Starlight
+- **幽灵角色生成点** — `SpawnPointGhostERTChaplain` ｜父类: BaseAntagSpawner ｜_Starlight
+- **应急响应队出生点** — `SpawnPointGhostERTEngineerEVA` ｜父类: MarkerBase ｜_Starlight
+- **应急响应队出生点** — `SpawnPointGhostERTJanitor` ｜父类: MarkerBase ｜_Starlight
+- **应急响应队出生点** — `SpawnPointGhostERTLeader` ｜父类: MarkerBase ｜_Starlight
+- **应急响应队出生点** — `SpawnPointGhostERTLeaderArmed` ｜父类: MarkerBase ｜_Starlight
+- **应急响应队出生点** — `SpawnPointGhostERTMedical` ｜父类: MarkerBase ｜_Starlight
+- **应急响应队出生点** — `SpawnPointGhostERTMedicalArmedEVA` ｜父类: MarkerBase ｜_Starlight
+- **应急响应队出生点** — `SpawnPointGhostERTSecurity` ｜父类: MarkerBase ｜_Starlight
+- **应急响应队出生点** — `SpawnPointGhostERTSecurityArmedEVA` ｜父类: MarkerBase ｜_Starlight
+- **SpiderClownSpawn** — `SpiderClownSpawn` ｜父类: BaseStationEventShortDelay
+- **SpiderSpawn** — `SpiderSpawn` ｜父类: BaseStationEventShortDelay
+- **SubGamemodesRule** — `SubGamemodesRule` ｜父类: BaseGameRule
+- **SubGamemodesRuleLessThieves** — `SubGamemodesRuleLessThieves` ｜父类: BaseGameRule ｜_Starlight
+- **SubGamemodesRuleNoChangelings** — `SubGamemodesRuleNoChangelings` ｜父类: BaseGameRule ｜_Starlight
+- **SubGamemodesRuleNoVampires** — `SubGamemodesRuleNoVampires` ｜父类: BaseGameRule ｜_Starlight
+- **SubGamemodesRuleNoWizard** — `SubGamemodesRuleNoWizard` ｜父类: BaseGameRule
+- **SubGamemodesRuleNoWizardNoXenoborg** — `SubGamemodesRuleNoWizardNoXenoborg` ｜父类: BaseGameRule
+- **SubGamemodesRuleNoXenoborg** — `SubGamemodesRuleNoXenoborg` ｜父类: BaseGameRule
+- **SubGamemodesRuleNuclearOperativeScaling** — `SubGamemodesRuleNuclearOperativeScaling` ｜父类: BaseGameRule ｜_Starlight
+- **SubGamemodesRuleVampTraitorLing** — `SubGamemodesRuleVampTraitorLing` ｜父类: BaseGameRule ｜_Starlight
+- **SubGamemodesRuleZombieCompliantAntags** — `SubGamemodesRuleZombieCompliantAntags` ｜父类: BaseGameRule ｜_Starlight
+- **SubTraitor** — `SubTraitor` ｜父类: Traitor ｜_Starlight
+- **SubWizard** — `SubWizard` ｜父类: BaseWizardRule
+- **SubXenoborgs** — `SubXenoborgs` ｜父类: Xenoborgs ｜_Starlight
+- **Survivor** — `Survivor` ｜父类: BaseGameRule
+- **SyndicateDeadDrop** — `SyndicateDeadDrop` ｜父类: BaseGameRule ｜_Starlight
+- **SyndieResearchOutpostEvent** — `SyndieResearchOutpostEvent` ｜父类: BaseGameRule ｜_Starlight
+- **TerminatorSpawn** — `TerminatorSpawn` ｜父类: BaseGameRule ｜_Starlight
+- **TerrorSpidersSpawn** — `TerrorSpidersSpawn` ｜父类: BaseGameRule ｜_Starlight
+- **TheDarkGardenSpawn** — `TheDarkGardenSpawn` ｜父类: BaseGameRule ｜_Starlight
+- **TheDarkHideoutSpawn** — `TheDarkHideoutSpawn` ｜父类: BaseGameRule ｜_Starlight
+- **TheDarkMap** — `TheDarkMap` ｜父类: BaseGameRule ｜_Starlight
+- **Thief** — `Thief` ｜父类: BaseGameRule
+- **ThiefGamerule** — `ThiefGamerule` ｜父类: BaseGameRule ｜_Starlight
+- **ThiefLess** — `ThiefLess` ｜父类: Thief ｜_Starlight
+- **Traitor** — `Traitor` ｜父类: BaseTraitorRule
+- **TraitorLess** — `TraitorLess` ｜父类: Traitor ｜_Starlight
+- **TraitorReinforcement** — `TraitorReinforcement` ｜父类: BaseTraitorRule
+- **TSFShuttleSpawn_montague** — `TSFShuttleSpawn_montague` ｜父类: BaseGameRule ｜_Starlight
+- **UnknownShuttleCargoLost** — `UnknownShuttleCargoLost` ｜父类: BaseUnknownShuttleRule ｜_Starlight
+- **UnknownShuttleCruiser** — `UnknownShuttleCruiser` ｜父类: BaseUnknownShuttleRule ｜_Starlight
+- **UnknownShuttleCryptid** — `UnknownShuttleCryptid` ｜父类: BaseUnknownShuttleRule ｜_Starlight
+- **UnknownShuttleDisasterEvacPod** — `UnknownShuttleDisasterEvacPod` ｜父类: BaseUnknownShuttleRule ｜_Starlight
+- **UnknownShuttleEternal** — `UnknownShuttleEternal` ｜父类: BaseUnknownShuttleRule ｜_Starlight
+- **UnknownShuttleFireResponse** — `UnknownShuttleFireResponse` ｜父类: BaseUnknownShuttleRule ｜_Starlight
+- **UnknownShuttleFlatline** — `UnknownShuttleFlatline` ｜父类: BaseUnknownShuttleRule ｜_Starlight
+- **UnknownShuttleGym** — `UnknownShuttleGym` ｜父类: BaseUnknownShuttleRule ｜_Starlight
+- **UnknownShuttleHonki** — `UnknownShuttleHonki` ｜父类: BaseUnknownShuttleRule ｜_Starlight
+- **UnknownShuttleInstigator** — `UnknownShuttleInstigator` ｜父类: BaseUnknownShuttleRule
+- **UnknownShuttleJoe** — `UnknownShuttleJoe` ｜父类: BaseUnknownShuttleRule ｜_Starlight
+- **UnknownShuttleLambordeere** — `UnknownShuttleLambordeere` ｜父类: BaseUnknownShuttleRule ｜_Starlight
+- **UnknownShuttleManOWar** — `UnknownShuttleManOWar` ｜父类: BaseUnknownShuttleRule
+- **UnknownShuttleMeatZone** — `UnknownShuttleMeatZone` ｜父类: BaseUnknownShuttleRule ｜_Starlight
+- **UnknownShuttleMicroshuttle** — `UnknownShuttleMicroshuttle` ｜父类: BaseUnknownShuttleRule ｜_Starlight
+- **UnknownShuttleNTIncorporation** — `UnknownShuttleNTIncorporation` ｜父类: BaseUnknownShuttleRule ｜_Starlight
+- **UnknownShuttleNTQuark** — `UnknownShuttleNTQuark` ｜父类: BaseUnknownShuttleRule ｜_Starlight
+- **UnknownShuttleQuail** — `UnknownShuttleQuail` ｜父类: BaseUnknownShuttleRule ｜_Starlight
+- **UnknownShuttleSpacebus** — `UnknownShuttleSpacebus` ｜父类: BaseUnknownShuttleRule ｜_Starlight
+- **UnknownShuttleSyndieEvacPod** — `UnknownShuttleSyndieEvacPod` ｜父类: BaseUnknownShuttleRule ｜_Starlight
+- **UnknownShuttleTravelingCuisine** — `UnknownShuttleTravelingCuisine` ｜父类: BaseUnknownShuttleRule ｜_Starlight
+- **Vampire** — `Vampire` ｜父类: BaseGameRule
+- **VampireLess** — `VampireLess` ｜父类: Vampire ｜_Starlight
+- **VentClog** — `VentClog` ｜父类: BaseStationEventLongDelay
+- **VoxATSSpawn** — `VoxATSSpawn` ｜父类: BaseGameRule ｜_Starlight
+- **WarOpsERTSpawn** — `WarOpsERTSpawn` ｜父类: BaseGameRule ｜_Starlight
+- **Wizard** — `Wizard` ｜父类: BaseWizardRule
+- **WizardDuel** — `WizardDuel` ｜父类: BaseGameRule ｜_Moffstation
+- **WizardSpawn** — `WizardSpawn` ｜父类: BaseWizardRule
+- **XenoBorgEngiDerelictSpawn** — `XenoBorgEngiDerelictSpawn` ｜父类: BaseGameRule ｜_Starlight
+- **XenoBorgHeavyDerelictSpawn** — `XenoBorgHeavyDerelictSpawn` ｜父类: BaseGameRule ｜_Starlight
+- **XenoBorgiDerelictSpawn** — `XenoBorgiDerelictSpawn` ｜父类: BaseGameRule ｜_Starlight
+- **Xenoborgs** — `Xenoborgs` ｜父类: BaseGameRule
+- **XenoBorgScoutDerelictSpawn** — `XenoBorgScoutDerelictSpawn` ｜父类: BaseGameRule ｜_Starlight
+- **XenoBorgStealthDerelictSpawn** — `XenoBorgStealthDerelictSpawn` ｜父类: BaseGameRule ｜_Starlight
+- **Zombie** — `Zombie` ｜父类: BaseGameRule
+- **ZombieOutbreak** — `ZombieOutbreak` ｜父类: BaseGameRule

@@ -1,0 +1,240 @@
+# 实体清单：Actions（236 个）
+
+> 来源层分布: _Starlight 147, 上游 88, _FarHorizons 1
+
+- **酸蚀通风口** — `ActionAcidVent` ｜_Starlight
+- **高级蓝空间皮下植入物，激活后会将使用者传送至远处。** — `ActionActivateBluespaceImplant` ｜父类: BaseMentalAction,BaseImplantAction ｜_Starlight
+- **启动死亡酸液装置** — `ActionActivateDeathAcidifier` ｜父类: BaseSuicideAction,BaseImplantAction
+- **扰乱DNA** — `ActionActivateDnaScramblerImplant` ｜父类: BaseImplantAction
+- **启动电磁脉冲** — `ActionActivateEmpImplant` ｜父类: BaseImplantAction
+- **挣脱束缚** — `ActionActivateFreedomImplant` ｜父类: BaseImplantAction
+- **启动装备溶酸器** — `ActionActivateGearAcidifier` ｜父类: BaseMentalAction,BaseImplantAction ｜_Starlight
+- **呵！** — `ActionActivateHonkImplant` ｜父类: BaseImplantAction
+- **巨猿症血清** — `ActionActivateMagillitisSerumImplant` ｜父类: BaseImplantAction ｜_Starlight
+- **启动微型炸弹** — `ActionActivateMicroBomb` ｜父类: BaseSuicideAction,BaseImplantAction
+- **高级红空间皮下植入物，激活后会将使用者传送至远处。** — `ActionActivateRedspaceImplant` ｜父类: BaseMentalAction,BaseImplantAction ｜_Starlight
+- **快溜！** — `ActionActivateScramImplant` ｜父类: BaseImplantAction
+- **启动生物降解机制** — `ActionActivateTerminatorDeathAcidifier` ｜父类: BaseSuicideAction,BaseImplantAction ｜_Starlight
+- **自毁** — `ActionActivateXenoroachSelfDestruct` ｜父类: BaseSuicideAction,BaseImplantAction ｜_Starlight
+- **查看法则** — `ActionAIViewLaws` ｜父类: BaseMentalAction
+- **汞合金过量** — `ActionAmalgamOverdose` ｜_Starlight
+- **解剖学万灵药** — `ActionAnatomicPanacea` ｜_Starlight
+- **产卵** — `ActionAnimalLayEgg` ｜父类: BaseAction
+- **异常脉冲** — `ActionAnomalyPulse` ｜父类: BaseAction
+- **增强视觉** — `ActionAugmentedEyesight` ｜_Starlight
+- **生物降解** — `ActionBiodegrade` ｜_Starlight
+- **呼叫支援！** — `ActionBorgCallForHelp` ｜父类: BaseAction ｜_Starlight
+- **弹奏吉他** — `ActionBorgiPlayMidi` ｜_Starlight
+- **打开法律数据库** — `ActionBorgOpenLawbook` ｜父类: BaseAction ｜_Starlight
+- **控制服装** — `ActionChameleonController`
+- **变色龙皮肤** — `ActionChameleonSkin` ｜_Starlight
+- **吞噬** — `ActionChangelingDevour`
+- **DNA 商店** — `ActionChangelingStore` ｜父类: ActionIntrinsicStore
+- **变形** — `ActionChangelingTransform`
+- **设置姓名** — `ActionChangeVoiceMask` ｜父类: BaseAction
+- **设置姓名** — `ActionChangeVoiceMaskImplant` ｜父类: ActionChangeVoiceMask
+- **选择吸血鬼职业** — `ActionClassSelectId` ｜父类: BaseAction ｜_Starlight
+- **清除网络连接标记** — `ActionClearNetworkLinkOverlays` ｜父类: BaseMentalAction
+- **战斗模式** — `ActionCombatModeToggle` ｜父类: BaseMentalAction
+- **战斗模式** — `ActionCombatModeToggleOff` ｜父类: ActionCombatModeToggle
+- **设置战吼** — `ActionConfigureMeleeSpeech` ｜父类: BaseAction
+- **塑造骨片** — `ActionCreateBoneShard` ｜_Starlight
+- **制造工具箱** — `ActionCreateRobustToolbox` ｜父类: BaseAction ｜_Starlight
+- **制造手里剑** — `ActionCreateThrowingStar` ｜父类: BaseAction
+- **装死** — `ActionCritFakeDeath` ｜父类: BaseCritAction
+- **说出遗言** — `ActionCritLastWords` ｜父类: ActionCritSuccumb
+- **放弃求生** — `ActionCritSuccumb` ｜父类: BaseCritAction
+- **打开诅咒之书** — `ActionDamnationsMenu` ｜_Starlight
+- **脱氧麻黄碱过量** — `ActionDesoxyephedrineOverdose` ｜_Starlight
+- **自我复原** — `ActionDevilRejuvenate` ｜父类: BaseAction ｜_Starlight
+- **注入虫卵** — `ActionEggInjection` ｜_Starlight
+- **产卵** — `ActionEggsLaying` ｜_Starlight
+- **武士刀突进** — `ActionEnergyKatanaDash` ｜父类: BaseAction
+- **进入再生休眠** — `ActionEnterStasis` ｜_Starlight
+- **缠裹** — `ActionEntityWrap` ｜_Starlight
+- **麻黄碱过量** — `ActionEphedrineOverdose` ｜_Starlight
+- **打开进化菜单** — `ActionEvolutionMenu` ｜_Starlight
+- **进化** — `ActionEvolve` ｜_Starlight
+- **退出控制台** — `ActionExitConsole` ｜_Starlight
+- **退出休眠** — `ActionExitStasis` ｜_Starlight
+- **点燃** — `ActionFireStarter` ｜父类: BaseAction
+- **血肉修复** — `ActionFleshmend` ｜_Starlight
+- **标记** — `ActionGizmoMark` ｜_Starlight
+- **跳跃** — `ActionGravityJump` ｜父类: BaseAction
+- **接入蜂巢思维** — `ActionHivemindAccess` ｜_Starlight
+- **地狱漫步** — `ActionInfernalJaunt` ｜父类: BaseActionPolymorph ｜_Starlight
+- **自我复原** — `ActionInstantRejuvenate` ｜父类: BaseAction ｜_Starlight
+- **商店** — `ActionIntrinsicStore` ｜父类: BaseMentalAction
+- **跳跃助推** — `ActionJumpBoost` ｜父类: ActionGravityJump
+- **跳转至核心** — `ActionJumpToCore` ｜父类: BaseAction
+- **清除实体** — `ActionMappingEraser` ｜父类: BaseMappingAction
+- **叭——————！！！** — `ActionMechActivateAirHorn` ｜_Starlight
+- **切换** — `ActionMechCycleEquipment` ｜父类: BaseMechAction
+- **弹出** — `ActionMechEject` ｜父类: BaseMechAction
+- **控制面板** — `ActionMechOpenUI` ｜父类: BaseMechAction
+- **切换内供气** — `ActionMechToggleInternals` ｜_Starlight
+- **切换照明** — `ActionMechToggleLights` ｜_Starlight
+- **切换摄像头** — `ActionMechToggleNightVision` ｜_Starlight
+- **切换警笛** — `ActionMechToggleSirens` ｜_Starlight
+- **切换推进器** — `ActionMechToggleThrusters` ｜_Starlight
+- **夜视视觉** — `ActionNightEyesight` ｜_Starlight
+- **电磁脉冲** — `ActionNinjaEmp` ｜父类: BaseAction
+- **质量扫描仪界面** — `ActionObserverShowRadar` ｜父类: BaseAGhostAction ｜_Starlight
+- **打开颊囊** — `ActionOpenMouthStorage` ｜_Starlight
+- **查看器官储气罐** — `ActionOpenOrganGasTankUI` ｜父类: BaseAction ｜_Starlight
+- **打开 Svyaz-UZL** — `ActionOpenSKBUplinkImplant` ｜_Starlight
+- **切换储物植入物** — `ActionOpenStorageImplant` ｜父类: BaseAction
+- **切换储物器官** — `ActionOpenStorageLeftLeg` ｜父类: BaseAction ｜_Starlight
+- **切换储物器官** — `ActionOpenStorageRightLeg` ｜父类: BaseAction ｜_Starlight
+- **打开升链** — `ActionOpenUplinkImplant` ｜父类: BaseAction
+- **灵界漫游** — `ActionPolymorphJaunt` ｜父类: BaseActionPolymorph
+- **灵界漫游 II** — `ActionPolymorphJauntII` ｜父类: ActionPolymorphJaunt
+- **灵界漫游 III** — `ActionPolymorphJauntIII` ｜父类: ActionPolymorphJaunt
+- **不可阻挡之杆形态** — `ActionPolymorphWizardRod` ｜父类: BaseActionPolymorph
+- **蜘蛛变形术** — `ActionPolymorphWizardSpider` ｜父类: BaseActionPolymorph
+- **召回武士刀** — `ActionRecallKatana` ｜父类: BaseAction
+- **高级利爪** — `ActionRetractableItemAdvancedClaws` ｜父类: BaseAction ｜_Starlight
+- **臂刃** — `ActionRetractableItemArmBlade` ｜父类: BaseAction
+- **真·臂刃** — `ActionRetractableItemArmBladePlus` ｜父类: BaseAction ｜_Starlight
+- **返回** — `ActionReturnToShip` ｜_Starlight
+- **亵渎** — `ActionRevenantDefile` ｜父类: BaseAction
+- **故障** — `ActionRevenantMalfunction` ｜父类: BaseAction
+- **过载灯具** — `ActionRevenantOverloadLights` ｜父类: BaseAction
+- **商店** — `ActionRevenantShop` ｜父类: ActionIntrinsicStore
+- **恢复原形** — `ActionRevertPolymorph` ｜父类: BaseAction
+- **蜂王浆** — `ActionRoyalJelly` ｜_Starlight
+- **尖叫** — `ActionScream` ｜父类: BaseAction
+- **选择赛博格类型** — `ActionSelectBorgType` ｜父类: BaseAction
+- **传送自己** — `ActionSendYourself` ｜_Starlight
+- **织丝** — `ActionSericulture` ｜父类: BaseAction
+- **喷水！** — `ActionShootWater` ｜父类: BaseAction
+- **失谐尖啸** — `ActionShriekDissonant` ｜_Starlight
+- **共振尖啸** — `ActionShriekResonant` ｜_Starlight
+- **播放MIDI** — `ActionSiliconPlayMidi` ｜父类: BaseMentalAction ｜_FarHorizons
+- **睡觉** — `ActionSleep` ｜父类: BaseMentalAction
+- **蛛网茧** — `ActionSpiderBuildingCocoon` ｜父类: BaseAction ｜_Starlight
+- **氨气发生器** — `ActionSpiderBuildingGenerator` ｜父类: BaseAction ｜_Starlight
+- **蛛网柱** — `ActionSpiderBuildingPole` ｜父类: BaseAction ｜_Starlight
+- **EMP 尖啸** — `ActionSpiderEMPScream` ｜_Starlight
+- **蜘蛛网** — `ActionSpiderWeb` ｜父类: BaseAction
+- **进入休眠** — `ActionStasisEnter` ｜_Starlight
+- **退出休眠** — `ActionStasisExit` ｜_Starlight
+- **致盲刺** — `ActionStingBlind` ｜_Starlight
+- **燃血刺** — `ActionStingBurn` ｜_Starlight
+- **冷冻刺** — `ActionStingCryo` ｜_Starlight
+- **汲取刺** — `ActionStingDrain` ｜_Starlight
+- **DNA 提取刺** — `ActionStingExtractDNA` ｜_Starlight
+- **伪臂刃刺** — `ActionStingFakeArmblade` ｜_Starlight
+- **昏沉刺** — `ActionStingLethargic` ｜_Starlight
+- **禁言刺** — `ActionStingMute` ｜_Starlight
+- **变形刺** — `ActionStingTransform` ｜_Starlight
+- **召回双叉戟** — `ActionSummonBident` ｜父类: BaseAction ｜_Starlight
+- **召唤地狱契约** — `ActionSummonDemonicContract` ｜_Starlight
+- **显化羽毛笔** — `ActionSummonDevilPen` ｜父类: BaseAction ｜_Starlight
+- **切换摄像头灯光** — `ActionSurvCameraLights` ｜父类: BaseAction
+- **热成像视觉** — `ActionThermalEyesight` ｜_Starlight
+- **格挡** — `ActionToggleBlock` ｜父类: BaseToggleAction
+- **切换护甲** — `ActionToggleChitinousArmor` ｜_Starlight
+- **切换冷却装置** — `ActionToggleCoolingUnit` ｜父类: BaseAction ｜_Starlight
+- **切换手部** — `ActionToggleCyberHandLeft` ｜_Starlight
+- **切换手部** — `ActionToggleCyberHandRight` ｜_Starlight
+- **切换义肢** — `ActionToggleCyberLimb` ｜_Starlight
+- **切换能量穹顶** — `ActionToggleDome` ｜父类: BaseAction ｜_Starlight
+- **睁眼/闭眼** — `ActionToggleEyes` ｜父类: BaseMentalAction
+- **切换内循环** — `ActionToggleInternals` ｜父类: BaseAction
+- **切换内供气** — `ActionToggleInternalsOrgan` ｜父类: BaseAction ｜_Starlight
+- **切换指虎电击** — `ActionToggleKnuckleDustersStun` ｜父类: BaseAction
+- **低等形态** — `ActionToggleLesserForm` ｜_Starlight
+- **切换灯光** — `ActionToggleLight` ｜父类: BaseToggleAction
+- **切换忍者手套** — `ActionToggleNinjaGloves` ｜父类: BaseToggleAction
+- **塑造盾牌** — `ActionToggleOrganicShield` ｜父类: BaseAction ｜_Starlight
+- **切换急救员警笛** — `ActionToggleParamedicSiren` ｜父类: BaseToggleAction
+- **相位隐形** — `ActionTogglePhaseCloak` ｜父类: BaseAction
+- **切换原兽伪装** — `ActionToggleProtogenDisguise` ｜_Starlight
+- **扎根** — `ActionToggleRootable` ｜父类: BaseToggleAction
+- **切换潜行模式** — `ActionToggleSneakMode` ｜_Starlight
+- **切换太空服** — `ActionToggleSpacesuit` ｜_Starlight
+- **绷紧肌肉** — `ActionToggleStrainedMuscles` ｜_Starlight
+- **切换服装部件** — `ActionToggleSuitPiece` ｜父类: BaseAction
+- **切换热成像视觉** — `ActionToggleThermal` ｜_Starlight
+- **摇尾巴** — `ActionToggleWagging` ｜父类: BaseToggleAction
+- **化为亡灵** — `ActionTurnUndead` ｜父类: BaseMentalAction
+- **鲜血屏障（40）** — `ActionVampireBloodBarrier` ｜父类: BaseAction ｜_Starlight
+- **血之纽带（2.5/1秒）** — `ActionVampireBloodBond` ｜父类: BaseAction ｜_Starlight
+- **血之使者仪式（10/2秒）** — `ActionVampireBloodBringersRite` ｜父类: BaseAction ｜_Starlight
+- **鲜血喷发（100）** — `ActionVampireBloodEruption` ｜父类: BaseAction ｜_Starlight
+- **血液奔涌（30）** — `ActionVampireBloodRush` ｜父类: BaseAction ｜_Starlight
+- **血液膨胀（30）** — `ActionVampireBloodSwell` ｜父类: BaseAction ｜_Starlight
+- **冲锋（30）** — `ActionVampireCharge` ｜父类: BaseAction ｜_Starlight
+- **黑暗斗篷** — `ActionVampireCloakOfDarkness` ｜父类: BaseAction ｜_Starlight
+- **黑暗通道（20）** — `ActionVampireDarkPassage` ｜父类: BaseAction ｜_Starlight
+- **诱饵（30）** — `ActionVampireDecoy` ｜父类: BaseAction ｜_Starlight
+- **恶魔之握（20）** — `ActionVampireDemonicGrasp` ｜父类: BaseAction ｜_Starlight
+- **魅惑（150）** — `ActionVampireEnthrall` ｜父类: BaseAction ｜_Starlight
+- **永恒黑暗** — `ActionVampireEternalDarkness` ｜父类: BaseAction ｜_Starlight
+- **熄灭灯光** — `ActionVampireExtinguish` ｜父类: BaseAction ｜_Starlight
+- **凝视** — `ActionVampireGlare` ｜父类: BaseAction ｜_Starlight
+- **吸血鬼之爪（30）** — `ActionVampireHemomancerClaws` ｜父类: BaseAction ｜_Starlight
+- **鲜血触须（25）** — `ActionVampireHemomancerTendrils` ｜父类: BaseAction ｜_Starlight
+- **集体歇斯底里（70）** — `ActionVampireMassHysteria` ｜父类: BaseAction ｜_Starlight
+- **压倒性力量** — `ActionVampireOverwhelmingForce` ｜父类: BaseAction ｜_Starlight
+- **安抚（30）** — `ActionVampirePacify` ｜父类: BaseAction ｜_Starlight
+- **猎食者感知（20）** — `ActionVampirePredatorSense` ｜父类: BaseAction ｜_Starlight
+- **召集血仆（100）** — `ActionVampireRallyThralls` ｜父类: BaseAction ｜_Starlight
+- **复原** — `ActionVampireRejuvenateI` ｜父类: BaseAction ｜_Starlight
+- **复原 II** — `ActionVampireRejuvenateII` ｜父类: BaseAction ｜_Starlight
+- **血池（30）** — `ActionVampireSanguinePool` ｜父类: BaseAction ｜_Starlight
+- **震地践踏（30）** — `ActionVampireSeismicStomp` ｜父类: BaseAction ｜_Starlight
+- **暗影锚（20）** — `ActionVampireShadowAnchor` ｜父类: BaseAction ｜_Starlight
+- **暗影拳击（50）** — `ActionVampireShadowBoxing` ｜父类: BaseAction ｜_Starlight
+- **暗影陷阱（20）** — `ActionVampireShadowSnare` ｜父类: BaseAction ｜_Starlight
+- **沉睡（15）** — `ActionVampireSleep` ｜父类: BaseAction ｜_Starlight
+- **亚空间互换（30）** — `ActionVampireSubspaceSwap` ｜父类: BaseAction ｜_Starlight
+- **切换獠牙** — `ActionVampireToggleFangs` ｜父类: BaseAction ｜_Starlight
+- **发放物品** — `ActionVendingThrow` ｜父类: BaseAction
+- **查看法则** — `ActionViewLaws` ｜父类: BaseMentalAction
+- **查看心情** — `ActionViewMoods` ｜父类: BaseAction ｜_Starlight
+- **飞跃** — `ActionVulpkaninGravityJump` ｜父类: BaseAction
+- **醒来** — `ActionWake` ｜父类: BaseMentalAction
+- **蛛网球** — `ActionWebball` ｜_Starlight
+- `模板` **BaseAction** — `BaseAction`
+- `模板` **BaseActionPolymorph** — `BaseActionPolymorph` ｜父类: BaseAction
+- `模板` **BaseCritAction** — `BaseCritAction` ｜父类: BaseMentalAction
+- `模板` **BaseDoAfterAction** — `BaseDoAfterAction` ｜父类: BaseAction
+- `模板` **BaseImplantAction** — `BaseImplantAction` ｜父类: BaseAction
+- `模板` **BaseMappingAction** — `BaseMappingAction` ｜父类: BaseMentalAction
+- **BaseMappingDecalAction** — `BaseMappingDecalAction` ｜父类: BaseMappingAction
+- **BaseMappingEntityAction** — `BaseMappingEntityAction` ｜父类: BaseMappingSpawnAction
+- **BaseMappingSpawnAction** — `BaseMappingSpawnAction` ｜父类: BaseMappingAction
+- `模板` **BaseMechAction** — `BaseMechAction` ｜父类: BaseAction
+- `模板` **BaseMentalAction** — `BaseMentalAction` ｜父类: BaseAction
+- `模板` **BaseSuicideAction** — `BaseSuicideAction` ｜父类: BaseMentalAction
+- `模板` **BaseToggleAction** — `BaseToggleAction` ｜父类: BaseAction
+- **创造暗影** — `BrighteyeCreateShadeAction` ｜_Starlight
+- **创造陷阱** — `BrighteyeDarkTrapAction` ｜_Starlight
+- **相位转移** — `BrighteyePhaseAction` ｜父类: NullPhaseAction ｜_Starlight
+- **创造传送门** — `BrighteyePortalAction` ｜_Starlight
+- **影跃** — `BrighteyeShadeSkipAction` ｜_Starlight
+- **撕裂自己！** — `DionaGibAction` ｜父类: BaseSuicideAction
+- **重组** — `DionaReformAction` ｜父类: BaseAction
+- **切换伪造心灵护盾** — `FakeMindShieldToggleAction` ｜父类: BaseAction
+- **跳跃** — `Jump` ｜_Starlight
+- **跳跃** — `JumpCat` ｜父类: Jump ｜_Starlight
+- **跳跃** — `JumpJet` ｜父类: Jump ｜_Starlight
+- **跳跃** — `JumpJetNoMoles` ｜父类: Jump ｜_Starlight
+- **跳跃** — `JumpMoth` ｜父类: Jump ｜_Starlight
+- **跳跃** — `JumpPilebunkerLeg` ｜父类: Jump ｜_Starlight
+- **跳跃** — `JumpResomi` ｜父类: Jump ｜_Starlight
+- **相位转移** — `NullPhaseAction` ｜_Starlight
+- **蛛网球** — `ProjectileWebball` ｜父类: BaseBulletTrigger ｜_Starlight
+- **耐力激增** — `StaminaSurge` ｜_Starlight
+- **退出** — `SyntrunnerActionExitConsole` ｜_Starlight
+- **离开通风管** — `VentCrawlExitAction` ｜父类: BaseAction ｜_Starlight
+- **分析史莱姆** — `XenobiologyConsoleActionAnalyzeSlime` ｜_Starlight
+- **使用突变药剂** — `XenobiologyConsoleActionApplyMutationPotion` ｜_Starlight
+- **使用稳定药剂** — `XenobiologyConsoleActionApplyStabilizerPotion` ｜_Starlight
+- **抓取史莱姆** — `XenobiologyConsoleActionGrabSlime` ｜_Starlight
+- **放置猴子** — `XenobiologyConsoleActionPlaceMonkey` ｜_Starlight
+- **放置史莱姆** — `XenobiologyConsoleActionPlaceSlime` ｜_Starlight
+- **回收猴子** — `XenobiologyConsoleActionRecycleMonkey` ｜_Starlight
+- **撒欢！！** — `Zoomies` ｜_Starlight

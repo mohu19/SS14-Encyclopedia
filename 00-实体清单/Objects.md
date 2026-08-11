@@ -1,0 +1,6501 @@
+# 实体清单：Objects（6497 个）
+
+> 来源层分布: 上游 4295, _Starlight 2085, _FarHorizons 70, _Moffstation 28, _TP 8, _Funkystation 5, _Impstation 3, DeltaV 1, _DEN 1, _CD 1
+
+- **弹药** — `20mmBullet` ｜父类: BaseBullet ｜_Starlight
+- **AAC 平板** — `AACTablet` ｜父类: BaseItem ｜DeltaV
+- **提取器** — `AbductorExtractor` ｜父类: BaseItem,BaseMajorContraband ｜_Starlight
+- **小装置** — `AbductorGizmo` ｜父类: BaseItem,BaseMajorContraband ｜_Starlight
+- **手铐** — `AbductorHandcuffs` ｜父类: Handcuffs ｜_Starlight
+- **绑架者毛绒玩偶** — `AbductorPlushie` ｜父类: BasePlushie ｜_Starlight
+- **憎恶方块** — `AbominationCube` ｜父类: RehydratableAnimalCube
+- **深渊晶核** — `AbyssCore` ｜父类: BaseItem,BaseXenoArtifact ｜_Starlight
+- **深渊矿石** — `AbyssiumOre` ｜父类: OreBase ｜_Starlight
+- **深渊矿石** — `AbyssiumOre1` ｜父类: AbyssiumOre ｜_Starlight
+- **认证干扰器** — `AccessBreaker` ｜父类: AccessBreakerUnlimited
+- **认证干扰器** — `AccessBreakerUnlimited` ｜父类: BaseItem,BaseSyndicateContraband
+- **认证干扰器** — `AccessBreakerWorn` ｜父类: AccessBreaker ｜_Starlight
+- **权限配置器** — `AccessConfigurator` ｜父类: BaseItem
+- **通用权限配置器** — `AccessConfiguratorUniversal` ｜父类: AccessConfigurator
+- **异星赛博格权限配置器** — `AccessConfiguratorXenoborg` ｜父类: AccessConfigurator
+- **认证覆写器** — `AccessOverider` ｜父类: AccessOveriderUnlimited ｜_Starlight
+- **认证覆写器** — `AccessOveriderRecharging` ｜父类: AccessOverider ｜_Starlight
+- **认证覆写器** — `AccessOveriderUnlimited` ｜父类: BaseItem,BaseCentcommContraband ｜_Starlight
+- **手风琴** — `AccordionInstrument` ｜父类: BaseKeyedInstrument
+- **原声吉他** — `AcousticGuitarInstrument` ｜父类: BaseStringInstrumentClothing
+- **激活神器** — `ActionArtifactActivate` ｜父类: BaseAction
+- **召唤魔宠** — `ActionBibleSummon` ｜父类: BaseAction
+- **交换模块** — `ActionBorgSwapModule` ｜父类: BaseAction
+- **切换锚定** — `ActionDisguiseAnchor` ｜父类: BaseAction
+- **切换旋转** — `ActionDisguiseNoRot` ｜父类: BaseAction
+- **分析患者** — `ActionMedTek` ｜父类: BaseAction ｜_Starlight
+- **访问控制台** — `ActionPAIConsole` ｜父类: BaseMentalAction ｜_Starlight
+- **质量扫描仪** — `ActionPAIMassScanner` ｜父类: BaseMentalAction
+- **打开地图** — `ActionPAIOpenMap` ｜父类: BaseMentalAction
+- **软件目录** — `ActionPAIOpenShop` ｜父类: ActionIntrinsicStore
+- **打开 PDA** — `ActionPAIPDA` ｜父类: BaseMentalAction ｜_Starlight
+- **播放 MIDI** — `ActionPAIPlayMidi` ｜父类: BaseMentalAction
+- **切换喷气背包** — `ActionToggleJetpack` ｜父类: BaseAction
+- **精金色史莱姆提取物** — `AdamantineSlimeExtract` ｜父类: BaseSlimeExtract ｜_Starlight
+- **精金色史莱姆提取物（已填充）** — `AdamantineSlimeExtractFilled` ｜父类: BaseSlimeExtractFilled,AdamantineSlimeExtract ｜_Starlight
+- **实验性注射器** — `AdminHypo` ｜父类: SyndiHypo
+- **管理员PDA** — `AdminPDA` ｜父类: CentcomPDA
+- **高级利爪** — `AdvancedClaws` ｜父类: BaseClaws,BaseSecurityContraband ｜_Starlight
+- **先进喷射器** — `AdvancedJetInjector` ｜父类: JetInjector
+- **赛博射流注射器** — `AdvancedJetInjectorCyber` ｜父类: AdvancedJetInjector ｜_Starlight
+- **高级医疗笔** — `AdvancedMedipen` ｜父类: ChemicalMedipen ｜_Starlight
+- **高级矿物扫描仪** — `AdvancedMineralScanner` ｜父类: AdvancedMineralScannerUnpowered,PowerCellSlotMediumItem
+- **高级矿物扫描仪** — `AdvancedMineralScannerEmpty` ｜父类: AdvancedMineralScanner
+- **高级矿物扫描仪** — `AdvancedMineralScannerUnpowered` ｜父类: MineralScannerUnpowered
+- **泰瑟电击弹** — `AdvancedTaserBolt` ｜父类: EnergyTrace ｜_Starlight
+- **高级拖把** — `AdvMopItem` ｜父类: MopItem
+- **助理ID卡 #Starlight de-gretidification** — `AgentIDCard` ｜父类: IDCardStandard,BaseChameleon
+- **AI 接口** — `AiInterfaceCube` ｜父类: BaseItem,BaseSiliconLanguages ｜_Starlight
+- **空气警报器电子元件** — `AirAlarmElectronics` ｜父类: BaseElectronics
+- **空气手榴弹** — `AirGrenade` ｜父类: BaseEngineeringContraband,VolatileGrenadeBase,TimerGrenadeBase
+- **失气自动注射器** — `AirlossAutoInjector` ｜父类: ChemicalMedipen
+- **空气罐** — `AirTank` ｜父类: GasTankRoundBase
+- **大气警报 计算机主板** — `AlertsComputerCircuitboard` ｜父类: BaseComputerCircuitboard
+- **大气警报台式电脑电路板** — `AlertsComputerCircuitboardDesktop` ｜父类: AlertsComputerCircuitboard ｜_Starlight
+- **辛迪加暗语名册** — `AllTraitorCodesPaper` ｜父类: Paper,BaseSyndicateContraband
+- **芦荟霜** — `AloeCream` ｜父类: Ointment
+- **芦荟种子包** — `AloeSeeds` ｜父类: SeedBase
+- **大烧杯** — `AloxadoneBeakerLarge` ｜父类: LargeBeaker ｜_Starlight
+- **豚草种子包** — `AmbrosiaDeusSeeds` ｜父类: SeedBase
+- **豚草种子包** — `AmbrosiaVulgarisSeeds` ｜父类: SeedBase
+- **反物质引擎燃料罐** — `AmeJar` ｜父类: BaseItem
+- **反物质引擎平板包装** — `AmePartFlatpack` ｜父类: BaseFlatpack
+- `模板` **AmmoProviderShotgunShell** — `AmmoProviderShotgunShell` ｜父类: BaseAmmoProvider
+- `模板` **AmmoProviderShotgunShellToz** — `AmmoProviderShotgunShellToz` ｜父类: BaseAmmoProvider ｜_Starlight
+- **弹药科技制造机 电路板** — `AmmoTechFabCircuitboard` ｜父类: BaseMachineCircuitboard
+- **分析计算机 主板** — `AnalysisComputerCircuitboard` ｜父类: BaseComputerCircuitboard
+- **德尔塔粒子** — `AnomalousParticleDelta` ｜父类: BaseBullet
+- **德尔塔粒子** — `AnomalousParticleDeltaStrong` ｜父类: AnomalousParticleDelta
+- **艾普西隆粒子** — `AnomalousParticleEpsilon` ｜父类: AnomalousParticleDelta
+- **艾普西隆粒子** — `AnomalousParticleEpsilonStrong` ｜父类: AnomalousParticleEpsilon
+- **强欧米伽粒子** — `AnomalousParticleOmegaStrong` ｜父类: AnomalousParticleDelta
+- **西格玛粒子** — `AnomalousParticleSigma` ｜父类: AnomalousParticleDelta
+- **强西格玛粒子** — `AnomalousParticleSigmaStrong` ｜父类: AnomalousParticleSigma
+- **泽塔粒子** — `AnomalousParticleZeta` ｜父类: AnomalousParticleDelta
+- **泽塔粒子** — `AnomalousParticleZetaStrong` ｜父类: AnomalousParticleZeta
+- **异常浆果种子包** — `AnomalyBerrySeeds` ｜父类: SeedBase
+- **异常定位器** — `AnomalyLocator` ｜父类: AnomalyLocatorUnpowered,PowerCellSlotSmallItem
+- **异常定位器** — `AnomalyLocatorEmpty` ｜父类: AnomalyLocator
+- **异常定位器** — `AnomalyLocatorUnpowered` ｜父类: BaseItem
+- **广谱异常定位仪** — `AnomalyLocatorWide` ｜父类: AnomalyLocatorWideUnpowered,PowerCellSlotSmallItem
+- **广谱异常定位仪** — `AnomalyLocatorWideEmpty` ｜父类: AnomalyLocatorWide
+- **广谱异常定位仪** — `AnomalyLocatorWideUnpowered` ｜父类: AnomalyLocatorUnpowered
+- **异常扫描仪** — `AnomalyScanner` ｜父类: BaseItem
+- **管理异常扫描器** — `AnomalyScannerAdmin` ｜父类: AnomalyScanner
+- **异常扫描仪手臂附件** — `AnomalyScannerCyber` ｜父类: BaseItem ｜_Starlight
+- **异常同步器 机器主板** — `AnomalySynchronizerCircuitboard` ｜父类: BaseMachineCircuitboard
+- **异常容器 机器主板** — `AnomalyVesselCircuitboard` ｜父类: BaseMachineCircuitboard
+- **实验型 异常容器 机器主板** — `AnomalyVesselExperimentalCircuitboard` ｜父类: BaseMachineCircuitboard
+- **基础激光射线** — `AntiMaterielBulletTrace` ｜父类: BulletTrace ｜_Starlight
+- **法则主板（反三定律）** — `AntimovCircuitBoard` ｜父类: BaseSiliconLawboard,BaseSyndicateContraband
+- **毒物自动注射器** — `AntiPoisonMedipen` ｜父类: ChemicalMedipen
+- **APC 电子元件** — `APCElectronics` ｜父类: BaseElectronics
+- **A.P.E. 机器主板** — `APECircuitboard` ｜父类: BaseMachineCircuitboard
+- **阿波罗等离子弹** — `ApolloHeavyLaser` ｜父类: BaseBulletTrigger ｜_Starlight
+- **一包苹果种子** — `AppleSeeds` ｜父类: SeedBase
+- **估价仪** — `AppraisalTool` ｜父类: BaseItem
+- **神灯** — `ArabianLamp` ｜父类: BaseItem
+- **大烧杯** — `ArcryoxBeakerLarge` ｜父类: LargeBeaker ｜_Starlight
+- **臂刃** — `ArmBlade` ｜父类: BaseItem
+- **真臂刃** — `ArmBladePlus` ｜父类: ArmBlade ｜_Starlight
+- **纸板箭** — `ArrowCard` ｜父类: BaseArrow
+- **玻璃碎片箭** — `ArrowImprovised` ｜父类: BaseArrow
+- **鲤鱼牙箭** — `ArrowImprovisedCarp` ｜父类: BaseArrow
+- **等离子玻璃碎片箭** — `ArrowImprovisedPlasma` ｜父类: BaseArrow
+- **铀玻璃碎片箭** — `ArrowImprovisedUranium` ｜父类: BaseArrow
+- **箭** — `ArrowRegular` ｜父类: BaseArrow
+- **神器分析仪 机器主板** — `ArtifactAnalyzerMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **神器粉碎机 机器主板** — `ArtifactCrusherMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **神器碎片** — `ArtifactFragment` ｜父类: BaseItem
+- **神器碎片** — `ArtifactFragment1` ｜父类: ArtifactFragment
+- **人造蓝空间水晶** — `ArtificialBluespaceCrystal` ｜父类: BluespaceCrystal ｜_Starlight
+- **人造蓝空间水晶** — `ArtificialBluespaceCrystal1` ｜父类: ArtificialBluespaceCrystal ｜_Starlight
+- **人造蓝空间水晶** — `ArtificialBluespaceCrystal5` ｜父类: ArtificialBluespaceCrystal ｜_Starlight
+- **法则主板（艺术家）** — `ArtistCircuitBoard` ｜父类: BaseSiliconLawboard,BaseSecurityScienceCommandContraband
+- **灰** — `Ash` ｜父类: BaseItem
+- **烟灰缸** — `Ashtray` ｜父类: BaseItem
+- **法则主板（船员三定律）** — `AsimovCircuitBoard` ｜父类: BaseSiliconLawboard,BaseSecurityScienceCommandContraband
+- **助手 ID卡** — `AssistantDerelictBorgiIDCard` ｜父类: IDCardStandard ｜_Starlight
+- **助理ID卡** — `AssistantIDCard` ｜父类: IDCardStandard
+- **助手PDA** — `AssistantPDA` ｜父类: BasePDA
+- **锻炉零件套装** — `AssortedForgeParts` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **星航程序卡** — `AstroNavCartridge` ｜父类: BasePDACartridge
+- **大气技师ID卡** — `AtmosIDCard` ｜父类: IDCardStandard
+- **大气网络监视器 主板** — `AtmosMonitoringComputerCircuitboard` ｜父类: BaseComputerCircuitboard
+- **大气网络监控台式电脑电路板** — `AtmosMonitoringComputerCircuitboardDesktop` ｜父类: AtmosMonitoringComputerCircuitboard ｜_Starlight
+- **大气技师PDA** — `AtmosPDA` ｜父类: BasePDA
+- **自动注射器赛博手臂附件** — `AutoinjectorCyber` ｜父类: BaseItem ｜_Starlight
+- **抗休克剂赛博自动注射器** — `AutoinjectorCyberInaprovaline` ｜父类: AutoinjectorCyber ｜_Starlight
+- **三合药剂赛博自动注射器** — `AutoinjectorCyberTricordrazine` ｜父类: AutoinjectorCyber ｜_Starlight
+- **超对流 自动车床 机器主板** — `AutolatheHyperConvectionMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **自动车床机控板** — `AutolatheMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **外伤自动治疗仪** — `AutoMenderBrute` ｜父类: BaseAutoMender ｜_Starlight
+- **外伤自动治疗仪** — `AutoMenderBruteFilled` ｜父类: AutoMenderBrute ｜_Starlight
+- **灼伤自动治疗仪** — `AutoMenderBurn` ｜父类: BaseAutoMender ｜_Starlight
+- **灼伤自动治疗仪** — `AutoMenderBurnFilled` ｜父类: AutoMenderBurn ｜_Starlight
+- **美西螈毛绒玩偶** — `AxolotlPlushie` ｜父类: BasePlushie ｜_Starlight
+- **西洋双陆棋盘** — `BackgammonBoard` ｜父类: BaseBoardEntity
+- **backgammon** — `BackgammonBoardTabletop` ｜父类: BaseBoardTabletop
+- **全力清洁的咒语** — `BagOfSummoningGarbage` ｜父类: TrashBagBlue
+- **风笛** — `BagpipeInstrument` ｜父类: BaseWoodwindInstrument
+- **医护兵气球** — `BalloonAgent` ｜父类: BaseDecoy
+- **指挥官气球** — `BalloonCommander` ｜父类: BaseDecoy
+- **柯基气球** — `BalloonCorgi` ｜父类: BaseBalloon
+- **精英特工气球** — `BalloonElite` ｜父类: BaseDecoy
+- **重装兵气球** — `BalloonJuggernaut` ｜父类: BaseDecoy
+- **纳米传讯气球** — `BalloonNT` ｜父类: BaseBalloon
+- **特工气球** — `BalloonOperative` ｜父类: BaseDecoy
+- **辛迪加气球** — `BalloonSyn` ｜父类: BaseBalloon
+- **香蕉电话** — `BananaPhoneInstrument` ｜父类: PhoneInstrument
+- **包香蕉籽** — `BananaSeeds` ｜父类: SeedBase
+- **香蕉矿喇叭** — `BananiumHorn` ｜父类: BikeHorn
+- **香蕉矿石** — `BananiumOre` ｜父类: OreBase
+- **香蕉矿石** — `BananiumOre1` ｜父类: BananiumOre
+- **香蕉矿燃料棒** — `BananiumReactorFuelRod` ｜父类: BaseReactorFuelRod ｜_FarHorizons
+- **班卓琴** — `BanjoInstrument` ｜父类: BaseStringInstrumentClothing
+- **理发剪** — `BarberScissors` ｜父类: BaseItem
+- **吧勺** — `BarSpoon` ｜父类: UtensilBase
+- **酒保ID卡** — `BartenderIDCard` ｜父类: IDCardStandard
+- **酒保PDA** — `BartenderPDA` ｜父类: BasePDA
+- `模板` **基础120毫米榴弹** — `Base120mmGrenade` ｜父类: BaseItem,BaseMajorContraband ｜_Starlight
+- `模板` **BaseAdvancedCyberlimbContraband** — `BaseAdvancedCyberlimbContraband` ｜_Starlight
+- `模板` **BaseAdvancedPen** — `BaseAdvancedPen` ｜父类: PenEmbeddable
+- `模板` **AK570型90毫米基础炮弹** — `BaseAK570_90mmShell` ｜父类: BaseItem,BaseMajorContraband ｜_Starlight
+- `模板` **BaseAmmoProvider** — `BaseAmmoProvider` ｜父类: BaseItem
+- `模板` **BaseArrow** — `BaseArrow` ｜父类: BaseItem
+- `模板` **自动治疗仪** — `BaseAutoMender` ｜父类: BaseStarlightHealingItem ｜_Starlight
+- `模板` **BaseAvaliPlushie** — `BaseAvaliPlushie` ｜父类: BasePlushieVocalizer ｜_Starlight
+- `模板` **BaseBagOpenClose** — `BaseBagOpenClose`
+- **棒球棍** — `BaseBallBat` ｜父类: BaseItem,BaseMinorContraband
+- `模板` **BaseBalloon** — `BaseBalloon` ｜父类: BaseItem
+- `模板` **战棋地图** — `BaseBattlemap` ｜父类: BaseBoardEntity
+- `模板` **BaseBeaker** — `BaseBeaker` ｜父类: BaseItem
+- `模板` **BaseBeakerMetallic** — `BaseBeakerMetallic` ｜父类: BaseItem
+- `模板` **蓝图** — `BaseBlueprint` ｜父类: BaseItem
+- `模板` **BaseBlueShieldContraband** — `BaseBlueShieldContraband` ｜父类: BaseRestrictedContraband ｜_Starlight
+- `模板` **棋盘** — `BaseBoardEntity` ｜父类: BaseItem
+- `模板` **基础棋盘** — `BaseBoardTabletop`
+- `模板` **borg module** — `BaseBorgModule` ｜父类: BaseItem
+- `模板` **BaseBorgModuleCargo** — `BaseBorgModuleCargo` ｜父类: BaseBorgModule
+- `模板` **BaseBorgModuleCentcomm** — `BaseBorgModuleCentcomm` ｜父类: BaseBorgModule ｜_Starlight
+- `模板` **BaseBorgModuleEngineering** — `BaseBorgModuleEngineering` ｜父类: BaseBorgModule
+- `模板` **BaseBorgModuleJanitor** — `BaseBorgModuleJanitor` ｜父类: BaseBorgModule
+- `模板` **BaseBorgModuleMedical** — `BaseBorgModuleMedical` ｜父类: BaseBorgModule
+- `模板` **BaseBorgModuleMining** — `BaseBorgModuleMining` ｜父类: BaseBorgModule ｜_Starlight
+- `模板` **BaseBorgModulePurrfus** — `BaseBorgModulePurrfus` ｜父类: BaseBorgModule ｜_Starlight
+- `模板` **BaseBorgModuleScience** — `BaseBorgModuleScience` ｜父类: BaseBorgModule
+- `模板` **BaseBorgModuleSecurity** — `BaseBorgModuleSecurity` ｜父类: BaseBorgModule ｜_Starlight
+- `模板` **BaseBorgModuleService** — `BaseBorgModuleService` ｜父类: BaseBorgModule
+- `模板` **BaseBorgModuleSupply** — `BaseBorgModuleSupply` ｜父类: BaseBorgModule ｜_Starlight
+- `模板` **BaseBorgModuleSyndicate** — `BaseBorgModuleSyndicate` ｜父类: BaseBorgModule
+- `模板` **BaseBorgModuleSyndicateAssault** — `BaseBorgModuleSyndicateAssault` ｜父类: BaseBorgModule
+- `模板` **BaseBorgModuleSyndicateStealth** — `BaseBorgModuleSyndicateStealth` ｜父类: BaseBorgModule ｜_Starlight
+- `模板` **BaseBorgPlushie** — `BaseBorgPlushie` ｜父类: BasePlushieVocalizer ｜_Starlight
+- `模板` **化学品箱** — `BaseBottleCase` ｜父类: BaseStorageItem ｜_Starlight
+- `模板` **弓** — `BaseBow` ｜父类: BaseItem,BaseMinorContraband
+- `模板` **BaseBrandedLighter** — `BaseBrandedLighter` ｜父类: BaseItem ｜_Starlight
+- `模板` **BaseBrassInstrument** — `BaseBrassInstrument` ｜父类: BaseHandheldInstrument
+- `模板` **基础子弹** — `BaseBullet`
+- **基础穿甲弹** — `BaseBulletAP` ｜父类: BaseBullet
+- **基础燃烧弹** — `BaseBulletIncendiary` ｜父类: BaseBullet
+- **基础训练弹** — `BaseBulletPractice` ｜父类: BaseBullet
+- **弹药** — `BaseBulletRubber` ｜父类: BaseBulletStarlight ｜_Starlight
+- `模板` **弹药** — `BaseBulletStarlight` ｜_Starlight
+- **弹药** — `BaseBulletTrigger` ｜父类: BaseBullet
+- **基础铀弹** — `BaseBulletUranium` ｜父类: BaseBullet
+- `模板` **基础炮弹** — `BaseCannonBall` ｜父类: BaseItem,BaseMajorContraband
+- `模板` **BaseCargoContraband** — `BaseCargoContraband` ｜父类: BaseRestrictedContraband
+- `模板` **货物托盘** — `BaseCargoPallet` ｜父类: BaseStructure
+- `模板` **BaseCartridge** — `BaseCartridge` ｜父类: BaseItem
+- `模板` **弹药（激光）** — `BaseCartridgeBattery` ｜父类: BaseCartridge,BaseRestrictedContraband ｜_Starlight
+- `模板` **火帽弹** — `BaseCartridgeCap` ｜父类: BaseCartridge
+- `模板` **弹药（.25无壳）** — `BaseCartridgeCaselessRifle` ｜父类: BaseCartridge,BaseSecurityContraband
+- `模板` **弹药（.10步枪弹）** — `BaseCartridgeHeavyRifle` ｜父类: BaseCartridge,BaseSecurityContraband
+- `模板` **弹药（.30步枪标准弹）** — `BaseCartridgeLightRifleSP` ｜父类: BaseCartridge,BaseSecurityContraband
+- `模板` **弹药（.45马格南）** — `BaseCartridgeMagnum` ｜父类: BaseCartridge,BaseSecuritySalvageContraband
+- `模板` **弹药（.35自动）** — `BaseCartridgePistol` ｜父类: BaseCartridge,BaseSecurityContraband
+- `模板` **弹药（.20步枪）** — `BaseCartridgeRifle` ｜父类: BaseCartridge,BaseSecurityContraband
+- `模板` **BaseCentcommCommandContraband** — `BaseCentcommCommandContraband` ｜父类: BaseRestrictedContraband
+- `模板` **BaseCentcommContraband** — `BaseCentcommContraband` ｜父类: BaseRestrictedContraband
+- `模板` **“卡律布狄斯”280毫米基础弹药** — `BaseCharon280mmCartridge` ｜父类: BaseItem,BaseMajorContraband ｜_Starlight
+- `模板` **BaseChemistryBottleFilled** — `BaseChemistryBottleFilled` ｜父类: BaseChemistryEmptyBottle
+- `模板` **瓶子** — `BaseChemistryEmptyBottle` ｜父类: BaseItem
+- `模板` **BaseChemistryVial** — `BaseChemistryVial` ｜父类: DrinkBaseMaterialGlass,DrinkBase,DrinkBaseOpenable,DrinkBaseEmptyTrash,DrinkVisualsAll
+- `模板` **BaseCigar** — `BaseCigar` ｜父类: BaseSmokable
+- `模板` **BaseCivilianContraband** — `BaseCivilianContraband` ｜父类: BaseRestrictedContraband
+- `模板` **BaseClarkePart** — `BaseClarkePart` ｜父类: BaseMechPart ｜_Starlight
+- `模板` **BaseClarkePartItem** — `BaseClarkePartItem` ｜父类: BaseClarkePart ｜_Starlight
+- `模板` **BaseClaws** — `BaseClaws` ｜父类: BaseItem ｜_Starlight
+- `模板` **BaseCommandContraband** — `BaseCommandContraband` ｜父类: BaseRestrictedContraband
+- `模板` **BaseCommunicationTablet** — `BaseCommunicationTablet` ｜父类: PowerCellSlotMediumItem,BaseHandheldComputer,BaseCommandContraband ｜_Starlight
+- `模板` **computer board** — `BaseComputerCircuitboard` ｜父类: BaseItem
+- `模板` **撬棍** — `BaseCrowbar` ｜父类: BaseItem
+- `模板` **生成器** — `BaseCustomSpawner` ｜_Starlight
+- `模板` **BaseDecoy** — `BaseDecoy` ｜父类: BaseItem,BaseFoldable
+- `模板` **除颤器** — `BaseDefibrillator` ｜父类: BaseItem
+- `模板` **BaseDelivery** — `BaseDelivery` ｜父类: BaseItem
+- `模板` **BaseDetectiveGrandTheftContraband** — `BaseDetectiveGrandTheftContraband` ｜_Starlight
+- `模板` **BaseDice** — `BaseDice` ｜父类: BaseItem
+- **中央指挥部门电子板** — `BaseDoorElectronicsCentComm` ｜父类: DoorElectronics,BaseCentcommContraband ｜_Starlight
+- **海盗门电子板** — `BaseDoorElectronicsPirate` ｜父类: DoorElectronics,BaseMajorContraband ｜_Starlight
+- **辛迪加门电子板** — `BaseDoorElectronicsSyndicate` ｜父类: DoorElectronics,BaseSyndicateContraband ｜_Starlight
+- **异种赛博格门电子板** — `BaseDoorElectronicsXenoborg` ｜父类: DoorElectronics,BaseXenoborgContraband ｜_Starlight
+- `模板` **德拉翁75毫米基础炮弹** — `BaseDravon75mmShell` ｜父类: BaseItem,BaseMajorContraband ｜_Starlight
+- `模板` **BaseDurandPart** — `BaseDurandPart` ｜父类: BaseMechPart ｜_Starlight
+- `模板` **BaseDurandPartItem** — `BaseDurandPartItem` ｜父类: BaseDurandPart ｜_Starlight
+- `模板` **base electronics** — `BaseElectronics` ｜父类: BaseItem
+- `模板` **BaseEngineeringContraband** — `BaseEngineeringContraband` ｜父类: BaseRestrictedContraband
+- `模板` **BaseEngineeringSalvageContraband** — `BaseEngineeringSalvageContraband` ｜父类: BaseRestrictedContraband ｜_Starlight
+- `模板` **BaseEngineeringSecurityCommandContraband** — `BaseEngineeringSecurityCommandContraband` ｜父类: BaseRestrictedContraband ｜_Starlight
+- `模板` **BaseEngineeringSecurityCommandSalvageMiningContraband** — `BaseEngineeringSecurityCommandSalvageMiningContraband` ｜父类: BaseRestrictedContraband ｜_Starlight
+- `模板` **BaseEngineeringSecurityContraband** — `BaseEngineeringSecurityContraband` ｜父类: BaseRestrictedContraband ｜_Starlight
+- `模板` **BaseEngineeringSecuritySalvageContraband** — `BaseEngineeringSecuritySalvageContraband` ｜父类: BaseRestrictedContraband ｜_Starlight
+- `模板` **BaseEventSelector** — `BaseEventSelector` ｜父类: BaseItem,BaseSyndicateContraband ｜_Starlight
+- `模板` **基础组件** — `BaseExosuitParts` ｜父类: BaseItem ｜_Starlight
+- `模板` **BaseFelionoidPlushie** — `BaseFelionoidPlushie` ｜父类: BasePlushieVocalizer ｜_Starlight
+- `模板` **手办** — `BaseFigurine` ｜父类: BaseItem
+- `模板` **BaseFigurineMech** — `BaseFigurineMech` ｜父类: BaseFigurine
+- **基础平板包装** — `BaseFlatpack` ｜父类: BaseItem
+- `模板` **BaseFoodCondiment** — `BaseFoodCondiment` ｜父类: BaseItem
+- `模板` **调味料瓶** — `BaseFoodCondimentBottle` ｜父类: BaseFoodCondiment
+- `模板` **调味料包** — `BaseFoodCondimentPacket` ｜父类: BaseFoodCondiment
+- `模板` **BaseFoodCondimentPacketDrink** — `BaseFoodCondimentPacketDrink` ｜父类: BaseFoodCondimentPacket
+- `模板` **空调料罐** — `BaseFoodShaker` ｜父类: BaseFoodCondiment
+- **燃气轮机叶片** — `BaseGasTurbineBlade` ｜父类: BaseGasTurbinePart ｜_FarHorizons
+- `模板` **BaseGasTurbinePart** — `BaseGasTurbinePart` ｜父类: BaseItem ｜_FarHorizons
+- **燃气轮机定子** — `BaseGasTurbineStator` ｜父类: BaseGasTurbinePart ｜_FarHorizons
+- `模板` **BaseGenericTabletopPiece** — `BaseGenericTabletopPiece` ｜父类: BaseTabletopPiece
+- `模板` **BaseGrandTheftContraband** — `BaseGrandTheftContraband`
+- `模板` **基础榴弹** — `BaseGrenade` ｜父类: BaseItem
+- `模板` **BaseGuidebook** — `BaseGuidebook` ｜父类: BaseItem
+- `模板` **BaseGunWieldable** — `BaseGunWieldable`
+- `模板` **BaseGygaxPart** — `BaseGygaxPart` ｜父类: BaseMechPart ｜_Starlight
+- `模板` **BaseGygaxPartItem** — `BaseGygaxPartItem` ｜父类: BaseGygaxPart ｜_Starlight
+- `模板` **BaseHamtrPart** — `BaseHamtrPart` ｜父类: BaseMechPart
+- `模板` **BaseHamtrPartItem** — `BaseHamtrPartItem` ｜父类: BaseHamtrPart
+- `模板` **BaseHandcuffsBroken** — `BaseHandcuffsBroken` ｜父类: BaseItem
+- `模板` **BaseHandheldComputer** — `BaseHandheldComputer` ｜父类: BaseItem,PowerCellSlotSmallItem
+- `模板` **BaseHandheldGrinder** — `BaseHandheldGrinder` ｜父类: BaseItem
+- `模板` **BaseHandheldInstrument** — `BaseHandheldInstrument` ｜父类: BaseItem
+- `模板` **BaseHandheldMixer** — `BaseHandheldMixer` ｜父类: BaseItem
+- `模板` **空间站地图** — `BaseHandheldStationMap` ｜父类: BaseItem
+- `模板` **BaseHealingItem** — `BaseHealingItem` ｜父类: BaseItem
+- `模板` **BaseHighlyIllegalContraband** — `BaseHighlyIllegalContraband`
+- `模板` **BaseHonkerPart** — `BaseHonkerPart` ｜父类: BaseMechPart
+- `模板` **BaseHonkerPartItem** — `BaseHonkerPartItem` ｜父类: BaseHonkerPart
+- `模板` **BaseHypospray** — `BaseHypospray` ｜父类: BaseItem
+- `模板` **植入器** — `BaseImplanter` ｜父类: BaseItem
+- `模板` **BaseImplantOnlyImplanter** — `BaseImplantOnlyImplanter` ｜父类: Implanter
+- `模板` **辛迪加植入器** — `BaseImplantOnlyImplanterSyndi` ｜父类: BaseImplantOnlyImplanter,BaseSyndicateContraband
+- `模板` **辛迪加 植入器** — `BaseImplantOnlyImplanterSyndi_StarLight` ｜父类: BaseImplantOnlyImplanter,BaseSovietContraband ｜_Starlight
+- `模板` **物品** — `BaseItem`
+- `模板` **BaseJanitorContraband** — `BaseJanitorContraband` ｜父类: BaseRestrictedContraband
+- `模板` **BaseJanitorSecurityContraband** — `BaseJanitorSecurityContraband` ｜父类: BaseRestrictedContraband ｜_Starlight
+- `模板` **喷气背包** — `BaseJetpack` ｜父类: GasTankBase
+- `模板` **BaseKeyedInstrument** — `BaseKeyedInstrument` ｜父类: BaseHandheldInstrument
+- `模板` **BaseKnife** — `BaseKnife` ｜父类: BaseItem
+- `模板` **BaseKudzu** — `BaseKudzu`
+- `模板` **提灯** — `BaseLamp` ｜父类: BaseItem
+- `模板` **BaseLandMine** — `BaseLandMine`
+- `模板` **BaseLaserRifle** — `BaseLaserRifle` ｜父类: BaseWeaponBattery,BaseGunWieldable
+- `模板` **BaseLawContraband** — `BaseLawContraband` ｜父类: BaseRestrictedContraband ｜_Starlight
+- `模板` **“利维坦”240毫米基础炮弹** — `BaseLeviathan240mmShell` ｜父类: BaseItem,BaseMajorContraband ｜_Starlight
+- `模板` **BaseLightbulb** — `BaseLightbulb` ｜父类: BaseItem
+- `模板` **水晶灯泡** — `BaseLightbulbCrystal` ｜父类: BaseLightbulb
+- `模板` **BaseLightTube** — `BaseLightTube` ｜父类: BaseLightbulb
+- `模板` **水晶灯管** — `BaseLightTubeCrystal` ｜父类: BaseLightTube
+- `模板` **BaseLizardPlushie** — `BaseLizardPlushie` ｜父类: BasePlushieVocalizer ｜_Starlight
+- `模板` **机器主板** — `BaseMachineCircuitboard` ｜父类: BaseItem
+- `模板` **弹匣（激光）** — `BaseMagazineBattery` ｜父类: BaseItem ｜_Starlight
+- `模板` **弹药盒（.60反器材）** — `BaseMagazineBoxAntiMateriel` ｜父类: BaseItem,BaseSecurityContraband
+- `模板` **BaseMagazineBoxBattery** — `BaseMagazineBoxBattery` ｜父类: BaseItem ｜_Starlight
+- `模板` **弹药盒（.25无壳）** — `BaseMagazineBoxCaselessRifle` ｜父类: BaseItem
+- **土制混装弹药盒** — `BaseMagazineBoxImprovised` ｜父类: BaseItem ｜_Starlight
+- `模板` **弹药盒（.30步枪）** — `BaseMagazineBoxLightRifle` ｜父类: BaseItem
+- `模板` **BaseMagazineBoxMagnum** — `BaseMagazineBoxMagnum` ｜父类: BaseItem
+- `模板` **弹药盒（.35自动）** — `BaseMagazineBoxPistol` ｜父类: BaseItem
+- `模板` **弹药盒（.40）** — `BaseMagazineBoxPistol40` ｜父类: BaseItem ｜_Starlight
+- `模板` **BaseMagazineBoxRifle** — `BaseMagazineBoxRifle` ｜父类: BaseItem
+- `模板` **榴弹弹匣** — `BaseMagazineGrenade` ｜父类: BaseItem
+- `模板` **弹匣（.30步枪）** — `BaseMagazineLightRifle` ｜父类: BaseItem,BaseSecurityContraband
+- `模板` **手枪弹匣（.45马格南）** — `BaseMagazineMagnum` ｜父类: BaseSecuritySalvageContraband,BaseMagazinePistol ｜_Starlight
+- `模板` **冲锋枪弹匣（.45马格南）** — `BaseMagazineMagnumSubMachineGun` ｜父类: BaseItem,BaseSecuritySalvageContraband ｜_Starlight
+- `模板` **手枪弹匣（.35自动）** — `BaseMagazinePistol` ｜父类: BaseItem,BaseSecurityContraband ｜_Starlight
+- `模板` **手枪弹匣（.25无壳）** — `BaseMagazinePistolCaselessRifle` ｜父类: BaseItem,BaseSecurityContraband
+- `模板` **黄金手枪弹匣（.35自动）** — `BaseMagazinePistolGolden` ｜父类: BaseMagazinePistol ｜_Starlight
+- `模板` **扩容手枪弹匣（.35自动）** — `BaseMagazinePistolHighCapacity` ｜父类: BaseItem,BaseSecurityContraband ｜_Starlight
+- `模板` **黄金扩容手枪弹匣（.35自动）** — `BaseMagazinePistolHighCapacityGolden` ｜父类: BaseMagazinePistolHighCapacity ｜_Starlight
+- `模板` **冲锋枪弹匣（.35 自动弹）** — `BaseMagazinePistolSubMachineGun` ｜父类: BaseItem,BaseSecurityContraband ｜_Starlight
+- `模板` **弹匣（.20步枪）** — `BaseMagazineRifle` ｜父类: BaseItem,BaseSecurityContraband ｜_Starlight
+- `模板` **BaseMagazineRifleDMR** — `BaseMagazineRifleDMR` ｜父类: BaseMagazineMagnumSubMachineGun ｜_Starlight
+- `模板` **BaseMagazineRifleM52** — `BaseMagazineRifleM52` ｜父类: BaseMagazineRifle ｜_Starlight
+- `模板` **12号弹鼓 # Starlight change: .50 -> 12 gauge** — `BaseMagazineShotgun` ｜父类: BaseItem,BaseSecurityContraband
+- `模板` **弹匣（20号霰弹）** — `BaseMagazineShotgunToz` ｜父类: BaseItem,BaseSecurityContraband ｜_Starlight
+- `模板` **BaseMagicalContraband** — `BaseMagicalContraband`
+- `模板` **BaseMajorContraband** — `BaseMajorContraband`
+- `模板` **BaseMech** — `BaseMech`
+- `模板` **BaseMechEquipment** — `BaseMechEquipment` ｜父类: BaseItem
+- `模板` **BaseMechPart** — `BaseMechPart`
+- `模板` **BaseMechWeaponMelee** — `BaseMechWeaponMelee` ｜父类: BaseMechEquipment ｜_Starlight
+- `模板` **BaseMechWeaponRange** — `BaseMechWeaponRange` ｜父类: BaseMechEquipment ｜_Starlight
+- `模板` **BaseMedicalContraband** — `BaseMedicalContraband` ｜父类: BaseRestrictedContraband
+- `模板` **BaseMedicalPDA** — `BaseMedicalPDA` ｜父类: BasePDA
+- `模板` **BaseMedicalScienceContraband** — `BaseMedicalScienceContraband` ｜父类: BaseRestrictedContraband
+- `模板` **BaseMedicalSecurityContraband** — `BaseMedicalSecurityContraband` ｜父类: BaseRestrictedContraband ｜_Starlight
+- `模板` **BaseMeleeWeaponEnergy** — `BaseMeleeWeaponEnergy` ｜父类: BaseItem
+- `模板` **流星** — `BaseMeteor`
+- `模板` **BaseMiningContraband** — `BaseMiningContraband` ｜父类: BaseRestrictedContraband ｜_Starlight
+- `模板` **BaseMinorContraband** — `BaseMinorContraband`
+- `模板` **BaseMothPlushie** — `BaseMothPlushie` ｜父类: BasePlushieVocalizer ｜_Starlight
+- `模板` **BaseNanoTrasenContraband** — `BaseNanoTrasenContraband` ｜父类: BaseRestrictedContraband ｜_Starlight
+- `模板` **基础巢穴** — `BaseNest` ｜父类: BaseStructure ｜_Starlight
+- `模板` **包裹** — `BasePackageDeliveryReward` ｜父类: BaseDelivery ｜_Starlight
+- `模板` **BasePaper** — `BasePaper` ｜父类: BaseItem
+- `模板` **BasePaperLabelable** — `BasePaperLabelable`
+- `模板` **BasePaperLabelableVisualized** — `BasePaperLabelableVisualized` ｜父类: BasePaperLabelable
+- `模板` **贴片** — `BasePatch` ｜父类: BaseStarlightHealingItem ｜_Starlight
+- `模板` **BasePayload** — `BasePayload` ｜父类: BaseItem
+- `模板` **个人数据助理PDA** — `BasePDA` ｜父类: BaseItem,StorePresetUplink
+- `模板` **BasePDACartridge** — `BasePDACartridge` ｜父类: BaseItem
+- `模板` **基础榴弹弹药** — `BasePeacekeeperBox` ｜父类: BaseItem,BaseSecurityContraband ｜_Starlight
+- `模板` **自动注射器包** — `BasePenPack` ｜父类: BaseStorageItem ｜_Starlight
+- `模板` **BasePercussionInstrument** — `BasePercussionInstrument` ｜父类: BaseHandheldInstrument
+- `模板` **基础皮纳塔彩罐** — `BasePinata` ｜父类: BaseItem ｜_Starlight
+- `模板` **PKA改装套件** — `BasePKAUpgrade` ｜父类: BaseItem
+- `模板` **基础乐器** — `BasePlaceableInstrument` ｜父类: BaseStructureDynamic
+- `模板` **可旋转基础乐器** — `BasePlaceableInstrumentRotatable` ｜父类: BasePlaceableInstrument
+- `模板` **BasePlasticExplosive** — `BasePlasticExplosive` ｜父类: BaseItem
+- `模板` **扑克牌** — `BasePlayingCard` ｜父类: BaseItem ｜_Moffstation
+- `模板` **一副扑克牌** — `BasePlayingCardDeck` ｜父类: BaseItem ｜_Moffstation
+- `模板` **扑克牌盒** — `BasePlayingCardDeckBox` ｜父类: BoxCardboard,BaseBagOpenClose ｜_Moffstation
+- `模板` **BasePlushie** — `BasePlushie` ｜父类: BaseItem,BaseStash
+- `模板` **BasePlushieLizardJob** — `BasePlushieLizardJob` ｜父类: PlushieLizard
+- `模板` **BasePlushieVocalizer** — `BasePlushieVocalizer` ｜父类: BasePlushie ｜_Starlight
+- `模板` **BasePowerCage** — `BasePowerCage` ｜父类: BasePowerCell
+- `模板` **BasePowerCell** — `BasePowerCell` ｜父类: BaseItem
+- `模板` **BaseProviderBorgModule** — `BaseProviderBorgModule`
+- `模板` **BaseQuickConstructionMaterial** — `BaseQuickConstructionMaterial` ｜_DEN
+- `模板` **控制棒** — `BaseReactorControlRod` ｜父类: BaseReactorPart ｜_FarHorizons
+- `模板` **燃料棒** — `BaseReactorFuelRod` ｜父类: BaseReactorPart,BaseEngineeringContraband ｜_FarHorizons
+- `模板` **气体通道棒** — `BaseReactorGasChannel` ｜父类: BaseReactorPart ｜_FarHorizons
+- `模板` **换热棒** — `BaseReactorHeatExchanger` ｜父类: BaseReactorPart ｜_FarHorizons
+- `模板` **BaseReactorPart** — `BaseReactorPart` ｜父类: BaseItem ｜_FarHorizons
+- `模板` **底座可修复防护罩** — `BaseRepairableShield` ｜父类: BaseShield
+- `模板` **BaseReporterContraband** — `BaseReporterContraband` ｜父类: BaseRestrictedContraband ｜_Starlight
+- `模板` **BaseResomiPlushie** — `BaseResomiPlushie` ｜父类: BasePlushieVocalizer ｜_Starlight
+- `模板` **BaseRestrictedContraband** — `BaseRestrictedContraband`
+- **“联络-UZL”无线电** — `BaseRevUplinkRadio` ｜父类: BaseUplinkRadio,StorePresetUSSP,BaseSovietContraband ｜_Starlight
+- `模板` **BaseRipleyMKIIPart** — `BaseRipleyMKIIPart` ｜父类: BaseMechPart ｜_Starlight
+- `模板` **BaseRipleyPart** — `BaseRipleyPart` ｜父类: BaseMechPart
+- `模板` **BaseRipleyPartItem** — `BaseRipleyPartItem` ｜父类: BaseRipleyPart
+- `模板` **BaseRoboticistContraband** — `BaseRoboticistContraband` ｜父类: BaseRestrictedContraband ｜_Starlight
+- `模板` **巨石** — `BaseRock`
+- `模板` **BaseRubberToy** — `BaseRubberToy` ｜父类: BaseItem,BaseStash
+- `模板` **BaseSalvageContraband** — `BaseSalvageContraband` ｜父类: BaseRestrictedContraband ｜_Starlight
+- `模板` **BaseSalvageMiningContraband** — `BaseSalvageMiningContraband` ｜父类: BaseRestrictedContraband ｜_Starlight
+- `模板` **BaseScienceContraband** — `BaseScienceContraband` ｜父类: BaseRestrictedContraband
+- **物品** — `BaseScissors` ｜父类: BaseToolSurgery
+- `模板` **废料** — `BaseScrap` ｜父类: BaseItem
+- `模板` **废料** — `BaseScrapLarge` ｜父类: BaseStructure
+- `模板` **BaseSecurityBartenderContraband** — `BaseSecurityBartenderContraband` ｜父类: BaseRestrictedContraband
+- `模板` **BaseSecurityBartenderZookeeperContraband** — `BaseSecurityBartenderZookeeperContraband` ｜父类: BaseRestrictedContraband ｜_Starlight
+- `模板` **BaseSecurityCargoContraband** — `BaseSecurityCargoContraband` ｜父类: BaseRestrictedContraband
+- `模板` **BaseSecurityCommandContraband** — `BaseSecurityCommandContraband` ｜父类: BaseRestrictedContraband
+- `模板` **BaseSecurityContraband** — `BaseSecurityContraband` ｜父类: BaseRestrictedContraband
+- `模板` **BaseSecurityEngineeringContraband** — `BaseSecurityEngineeringContraband` ｜父类: BaseRestrictedContraband
+- `模板` **BaseSecurityLawContraband** — `BaseSecurityLawContraband` ｜父类: BaseRestrictedContraband
+- `模板` **BaseSecurityPDA** — `BaseSecurityPDA` ｜父类: BasePDA
+- `模板` **BaseSecuritySalvageContraband** — `BaseSecuritySalvageContraband` ｜父类: BaseRestrictedContraband ｜_Starlight
+- `模板` **BaseSecuritySalvageMiningContraband** — `BaseSecuritySalvageMiningContraband` ｜父类: BaseRestrictedContraband ｜_Starlight
+- `模板` **BaseSecurityScienceCommandContraband** — `BaseSecurityScienceCommandContraband` ｜父类: BaseRestrictedContraband
+- `模板` **BaseSecurityScienceCommandNanoTrasenContraband** — `BaseSecurityScienceCommandNanoTrasenContraband` ｜父类: BaseRestrictedContraband ｜_Starlight
+- `模板` **BaseSecurityZookeeperContraband** — `BaseSecurityZookeeperContraband` ｜父类: BaseRestrictedContraband ｜_Starlight
+- `模板` **BaseShadekinPlushie** — `BaseShadekinPlushie` ｜父类: BasePlushieVocalizer ｜_Starlight
+- `模板` **BaseShadow** — `BaseShadow`
+- `模板` **12号霰弹 # Starlight change: .50 -> 12 gauge** — `BaseShellShotgun` ｜父类: BaseCartridge
+- `模板` **20号霰弹** — `BaseShellShotgunToz` ｜父类: BaseCartridge ｜_Starlight
+- `模板` **底座护罩** — `BaseShield` ｜父类: BaseItem
+- `模板` **BaseSiliconLawboard** — `BaseSiliconLawboard` ｜父类: BaseElectronics
+- `模板` **BaseSiliconScienceContraband** — `BaseSiliconScienceContraband` ｜父类: BaseRestrictedContraband
+- `模板` **BaseSlimeExtract** — `BaseSlimeExtract` ｜父类: BaseItem ｜_Starlight
+- `模板` **BaseSlimeExtractFilled** — `BaseSlimeExtractFilled` ｜父类: BaseSlimeExtract ｜_Starlight
+- `模板` **BaseSmokable** — `BaseSmokable` ｜父类: BaseItem
+- `模板` **BaseSmokingPipe** — `BaseSmokingPipe` ｜父类: BaseSmokable
+- `模板` **皂** — `BaseSoap` ｜父类: BaseItem
+- `模板` **BaseSovietContraband** — `BaseSovietContraband` ｜_Starlight
+- `模板` **火帽枪快速装弹器** — `BaseSpeedLoaderCap` ｜父类: BaseItem
+- `模板` **.45 马格南快速装弹器** — `BaseSpeedLoaderMagnum` ｜父类: BaseItem,BaseSecurityContraband
+- `模板` **12号快速装弹器** — `BaseSpeedLoaderShotgun` ｜父类: BaseItem ｜_Starlight
+- `模板` **spellbook** — `BaseSpellbook` ｜父类: BaseItem,BaseMagicalContraband
+- `模板` **BaseSportsBall** — `BaseSportsBall`
+- `模板` **BaseSqueezeBottle** — `BaseSqueezeBottle` ｜父类: DrinkBaseMaterialPlastic,DrinkBase,DrinkBaseOpenable,DrinkVisualsAllFilled
+- `模板` **BaseStarlightHealingItem** — `BaseStarlightHealingItem` ｜父类: BaseHealingItem ｜_Starlight
+- `模板` **BaseStash** — `BaseStash`
+- `模板` **stock part** — `BaseStockPart` ｜父类: BaseItem
+- `模板` **储物物品** — `BaseStorageItem` ｜父类: BaseItem
+- `模板` **BaseStringInstrument** — `BaseStringInstrument` ｜父类: BaseHandheldInstrument
+- `模板` **BaseStringInstrumentClothing** — `BaseStringInstrumentClothing` ｜父类: BaseStringInstrument
+- **基础结构平板包装** — `BaseStructureFlatpack` ｜父类: BaseStructureDynamic ｜_Starlight
+- `模板` **植入物** — `BaseSubdermalImplant`
+- `模板` **手术工具包** — `BaseSurgicalKit` ｜父类: BaseStorageItem ｜_Starlight
+- `模板` **BaseSword** — `BaseSword` ｜父类: BaseItem
+- `模板` **BaseSyndicateContraband** — `BaseSyndicateContraband`
+- `模板` **注射器** — `BaseSyringe` ｜父类: BaseItem
+- `模板` **BaseTabletopPiece** — `BaseTabletopPiece` ｜父类: BaseItem
+- `模板` **BaseTarget** — `BaseTarget` ｜父类: BaseStructureDynamic
+- `模板` **BaseTicket** — `BaseTicket` ｜父类: BaseItem ｜_Starlight
+- `模板` **BaseToolSurgery** — `BaseToolSurgery` ｜父类: BaseItem
+- `模板` **BaseToyGun** — `BaseToyGun`
+- `模板` **BaseToySword** — `BaseToySword`
+- `模板` **BaseTree** — `BaseTree`
+- `模板` **BaseTreeConifer** — `BaseTreeConifer` ｜父类: BaseTree
+- `模板` **BaseTreeDry** — `BaseTreeDry` ｜_Starlight
+- `模板` **BaseTreeLarge** — `BaseTreeLarge` ｜父类: BaseTree
+- `模板` **BaseTreeSnow** — `BaseTreeSnow` ｜父类: BaseTree
+- `模板` **BaseTSFContraband** — `BaseTSFContraband` ｜_Starlight
+- **辛迪加升链** — `BaseUplinkRadio` ｜父类: BaseItem,BaseSyndicateContraband
+- **辛迪加升链** — `BaseUplinkRadio20TC` ｜父类: BaseUplinkRadioPreset
+- **辛迪加升链** — `BaseUplinkRadio25TC` ｜父类: BaseUplinkRadioPreset
+- **辛迪加升链** — `BaseUplinkRadio40TC` ｜父类: BaseUplinkRadioPreset
+- **辛迪加升链** — `BaseUplinkRadio40TCDAGD` ｜父类: BaseUplinkRadioPreset ｜_Starlight
+- **辛迪加升链** — `BaseUplinkRadio60TC` ｜父类: BaseUplinkRadioPreset
+- **辛迪加升链** — `BaseUplinkRadioDebug` ｜父类: BaseUplinkRadioPreset
+- **辛迪加升链** — `BaseUplinkRadioPreset` ｜父类: BaseUplinkRadio,StorePresetUplink
+- `模板` **BaseVape** — `BaseVape` ｜父类: BaseItem
+- `模板` **自动售货机补货箱** — `BaseVendingMachineRestock` ｜父类: BaseItem
+- `模板` **BaseVimPart** — `BaseVimPart` ｜父类: BaseMechPart
+- `模板` **BaseVimPartItem** — `BaseVimPartItem` ｜父类: BaseVimPart
+- `模板` **BaseVulpkaninPlushie** — `BaseVulpkaninPlushie` ｜父类: BasePlushieVocalizer ｜_Starlight
+- `模板` **BaseWardenGrandTheftContraband** — `BaseWardenGrandTheftContraband` ｜_Starlight
+- `模板` **弹道炮塔** — `BaseWeaponBallisticTurret` ｜父类: BaseWeaponTurret
+- `模板` **BaseWeaponBattery** — `BaseWeaponBattery` ｜父类: BaseItem
+- `模板` **BaseWeaponBatterySmall** — `BaseWeaponBatterySmall` ｜父类: BaseWeaponBattery
+- `模板` **破碎锤** — `BaseWeaponCrusher` ｜父类: BaseItem
+- `模板` **激光炮塔** — `BaseWeaponEnergyTurret` ｜父类: BaseWeaponTurret
+- `模板` **基础重机枪** — `BaseWeaponHeavyMachineGun` ｜父类: BaseItem
+- `模板` **基础发射器** — `BaseWeaponLauncher` ｜父类: BaseItem,BaseGunWieldable
+- `模板` **基础轻机枪** — `BaseWeaponLightMachineGun` ｜父类: BaseItem
+- `模板` **基础手枪** — `BaseWeaponPistol` ｜父类: BaseItem
+- `模板` **BaseWeaponPowerCell** — `BaseWeaponPowerCell` ｜父类: BaseItem
+- `模板` **BaseWeaponPowerCellSmall** — `BaseWeaponPowerCellSmall` ｜父类: BaseWeaponPowerCell
+- `模板` **基础左轮手枪** — `BaseWeaponRevolver` ｜父类: BaseItem
+- `模板` **基础步枪** — `BaseWeaponRifle` ｜父类: BaseItem,BaseGunWieldable
+- `模板` **BaseWeaponShotgun** — `BaseWeaponShotgun` ｜父类: BaseWeaponShotgunAny ｜_Starlight
+- `模板` **基础霰弹枪** — `BaseWeaponShotgunAny` ｜父类: BaseItem
+- `模板` **基础狙击步枪** — `BaseWeaponSniper` ｜父类: BaseItem
+- `模板` **基础冲锋枪** — `BaseWeaponSubMachineGun` ｜父类: BaseItem
+- `模板` **炮塔** — `BaseWeaponTurret` ｜父类: BaseStructure
+- `模板` **哨子** — `BaseWhistle` ｜父类: BaseItem
+- `模板` **BaseWidePDA** — `BaseWidePDA` ｜父类: BasePDA
+- `模板` **BaseWizardItem** — `BaseWizardItem` ｜父类: BaseItem,BaseMagicalContraband ｜_Starlight
+- `模板` **BaseWoodwindInstrument** — `BaseWoodwindInstrument` ｜父类: BaseHandheldInstrument
+- `模板` **BaseWrappedCube** — `BaseWrappedCube` ｜父类: BaseItem
+- `模板` **包好的包裹** — `BaseWrappedParcel` ｜父类: BasePaperLabelable
+- `模板` **神器** — `BaseXenoArtifact` ｜父类: BaseMob
+- `模板` **artifact** — `BaseXenoArtifactItem` ｜父类: BaseItem,BaseXenoArtifact
+- `模板` **artifact** — `BaseXenoArtifactStructure` ｜父类: BaseStructureDynamic,BaseXenoArtifact
+- `模板` **BaseXenoborgContraband** — `BaseXenoborgContraband`
+- `模板` **BaseXenoborgModuleEngi** — `BaseXenoborgModuleEngi` ｜父类: BaseBorgModule
+- `模板` **BaseXenoborgModuleEngiWeapon** — `BaseXenoborgModuleEngiWeapon` ｜父类: BaseXenoborgModuleEngi ｜_Starlight
+- `模板` **BaseXenoborgModuleGeneric** — `BaseXenoborgModuleGeneric` ｜父类: BaseBorgModule
+- `模板` **BaseXenoborgModuleHeavy** — `BaseXenoborgModuleHeavy` ｜父类: BaseBorgModule
+- `模板` **BaseXenoborgModuleHeavyWeapon** — `BaseXenoborgModuleHeavyWeapon` ｜父类: BaseXenoborgModuleHeavy ｜_Starlight
+- `模板` **BaseXenoborgModuleScout** — `BaseXenoborgModuleScout` ｜父类: BaseBorgModule
+- `模板` **BaseXenoborgModuleScoutWeapon** — `BaseXenoborgModuleScoutWeapon` ｜父类: BaseXenoborgModuleScout ｜_Starlight
+- `模板` **BaseXenoborgModuleStealth** — `BaseXenoborgModuleStealth` ｜父类: BaseBorgModule
+- `模板` **BaseXenoborgModuleStealthWeapon** — `BaseXenoborgModuleStealthWeapon` ｜父类: BaseXenoborgModuleStealth ｜_Starlight
+- **基础激光射线** — `BasicHitscan` ｜父类: BasicHitscanNoBeam
+- **BasicHitscanNoBeam** — `BasicHitscanNoBeam` ｜_Starlight
+- **蛇怪射线** — `BasiliskRay` ｜父类: BaseBullet
+- **篮球** — `Basketball` ｜父类: BaseItem,BaseSportsBall
+- **贝斯吉他** — `BassGuitarInstrument` ｜父类: BaseStringInstrumentClothing
+- **沙滩球** — `BeachBall` ｜父类: BaseItem,BaseSportsBall
+- **烧杯** — `Beaker` ｜父类: BaseBeaker
+- **烧杯** — `BeakerSmallArith` ｜父类: Beaker
+- **烧杯** — `BeakerSmallBruiz` ｜父类: Beaker
+- **烧杯** — `BeakerSmallDiph` ｜父类: Beaker
+- **烧杯** — `BeakerSmallLace` ｜父类: Beaker
+- **烧杯** — `BeakerSmallPhal` ｜父类: Beaker
+- **烧杯** — `BeakerSmallSigy` ｜父类: Beaker
+- `模板` **床单** — `BedsheetBase` ｜父类: BaseItem
+- `模板` **BedsheetBaseStarlight** — `BedsheetBaseStarlight` ｜父类: BedsheetBase ｜_Starlight
+- **黑色床单** — `BedsheetBlack` ｜父类: BedsheetBase
+- **蓝色床单** — `BedsheetBlue` ｜父类: BedsheetBase
+- **狱医床单** — `BedsheetBrigmedic` ｜父类: BedsheetBase
+- **奇怪的狱医床单** — `BedsheetBrigmedicStrange` ｜父类: BedsheetBaseStarlight,HarmonicaInstrument ｜_Starlight
+- **棕色床单** — `BedsheetBrown` ｜父类: BedsheetBase
+- **舰长床单** — `BedsheetCaptain` ｜父类: BedsheetBase
+- **工程主管床单** — `BedsheetCE` ｜父类: BedsheetBase
+- **中央指挥部床单** — `BedsheetCentcom` ｜父类: BedsheetBase
+- **小丑床单** — `BedsheetClown` ｜父类: BedsheetBase
+- **医疗主管床单** — `BedsheetCMO` ｜父类: BedsheetBase
+- **宇宙床单** — `BedsheetCosmos` ｜父类: BedsheetBase
+- **邪教床单** — `BedsheetCult` ｜父类: BedsheetBase
+- **绿色床单** — `BedsheetGreen` ｜父类: BedsheetBase
+- **灰色床单** — `BedsheetGrey` ｜父类: BedsheetBase
+- **人事主管床单** — `BedsheetHOP` ｜父类: BedsheetBase
+- **安保主管床单** — `BedsheetHOS` ｜父类: BedsheetBase
+- **伊恩床单** — `BedsheetIan` ｜父类: BedsheetBase
+- **医疗床单** — `BedsheetMedical` ｜父类: BedsheetBase
+- **哑剧床单** — `BedsheetMime` ｜父类: BedsheetBase
+- **NT 床单** — `BedsheetNT` ｜父类: BedsheetBase
+- **橙色床单** — `BedsheetOrange` ｜父类: BedsheetBase
+- **紫色床单** — `BedsheetPurple` ｜父类: BedsheetBase
+- **军需官床单** — `BedsheetQM` ｜父类: BedsheetBase
+- **彩虹床单** — `BedsheetRainbow` ｜父类: BedsheetBase
+- **研究主管床单** — `BedsheetRD` ｜父类: BedsheetBase
+- **红色床单** — `BedsheetRed` ｜父类: BedsheetBase
+- **辛迪加床单** — `BedsheetSyndie` ｜父类: BedsheetBase,BaseMinorContraband
+- **美国领地床单** — `BedsheetUSA` ｜父类: BedsheetBase
+- **白色床单** — `BedsheetWhite` ｜父类: BedsheetBase
+- **巫师床单** — `BedsheetWiz` ｜父类: BedsheetBase
+- **黄色床单** — `BedsheetYellow` ｜父类: BedsheetBase
+- **包浆果种子** — `BerrySeeds` ｜父类: SeedBase
+- **圣经** — `Bible` ｜父类: BaseStorageItem
+- **智慧之书** — `BibleAlHikma` ｜父类: Bible ｜_Starlight
+- **哔经** — `BibleBibble` ｜父类: Bible ｜_Starlight
+- **纪元之书** — `BibleBookOfAges` ｜父类: Bible ｜_Starlight
+- **先祖之书** — `BibleBookOfAncestors` ｜父类: Bible ｜_Starlight
+- **仇恨之书** — `BibleBookOfGrudges` ｜父类: Bible ｜_Starlight
+- **摩尔门经** — `BibleBookOfMormon` ｜父类: Bible ｜_Starlight
+- **共产主义宣言** — `BibleCommunistManifesto` ｜父类: Bible
+- **德鲁伊平板电脑** — `BibleDruid` ｜父类: Bible
+- **诗体埃达** — `BibleEdda` ｜父类: Bible ｜_Starlight
+- **圣训** — `BibleHadith` ｜父类: Bible ｜_Starlight
+- **喇叭妈妈的欢乐** — `BibleHonk` ｜父类: Bible
+- **禅宗公案** — `BibleKoans` ｜父类: Bible ｜_Starlight
+- **混沌之书** — `BibleLiberChaotica` ｜父类: Bible ｜_Starlight
+- **女巫之锤** — `BibleMalleus` ｜父类: Bible ｜_Starlight
+- **法典nantrasimus** — `BibleNanoTrasen` ｜父类: Bible
+- **纳尔西之书** — `BibleNarsie` ｜父类: Bible
+- **死灵之书** — `BibleNecronomicon` ｜父类: Bible,BaseSyndicateContraband
+- **东正教圣经** — `BibleOrthodox` ｜父类: Bible ｜_Starlight
+- **不和谐原理** — `BiblePrincipiaDiscordia` ｜父类: Bible ｜_Starlight
+- **平板电脑** — `BibleRatvar` ｜父类: Bible
+- **梨俱吠陀** — `BibleRigVeda` ｜父类: Bible ｜_Starlight
+- **撒旦圣经** — `BibleSatanic` ｜父类: Bible ｜_Starlight
+- **塔纳赫** — `BibleTanakh` ｜父类: Bible ｜_Starlight
+- **道德经** — `BibleTaoTeChing` ｜父类: Bible ｜_Starlight
+- **恐惧秘典** — `BibleTomeOfDread` ｜父类: Bible ｜_Starlight
+- **希伯来妥拉** — `BibleTorah` ｜父类: Bible ｜_Starlight
+- **三藏** — `BibleTripitaka` ｜父类: Bible ｜_Starlight
+- **蒸气** — `BigVapor` ｜父类: Vapor
+- **自行车喇叭** — `BikeHorn` ｜父类: BaseItem
+- **自行车喇叭植入物** — `BikeHornImplant` ｜父类: BaseSubdermalImplant
+- **自行车喇叭植入器** — `BikeHornImplanter` ｜父类: BaseImplantOnlyImplanter
+- **镀金自行车喇叭** — `BikeHornInstrument` ｜父类: BaseHandheldInstrument
+- **双筒望远镜** — `Binoculars` ｜父类: BaseItem
+- **生物立方体制造机 机器主板** — `BiofabricatorMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **生物发电机 机器主板** — `BiogeneratorMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **生物质回收机 机器主板** — `BiomassReclaimerMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **鸟形口哨** — `BirdToyInstrument` ｜父类: BaseHandheldInstrument
+- **黑象** — `BlackBishop` ｜父类: BaseTabletopPiece
+- **黑王** — `BlackKing` ｜父类: BaseTabletopPiece
+- **黑马** — `BlackKnight` ｜父类: BaseTabletopPiece
+- **黑光灯管** — `BlackLightTube` ｜父类: BaseLightTube ｜_Starlight
+- **黑兵** — `BlackPawn` ｜父类: BaseTabletopPiece
+- **黑后** — `BlackQueen` ｜父类: BaseTabletopPiece
+- **黑车** — `BlackRook` ｜父类: BaseTabletopPiece
+- **黑色史莱姆提取物** — `BlackSlimeExtract` ｜父类: BaseSlimeExtract ｜_Starlight
+- **黑色史莱姆提取物（已填充）** — `BlackSlimeExtractFilled` ｜父类: BaseSlimeExtractFilled,BlackSlimeExtract ｜_Starlight
+- **黑星 PDA** — `BlackstarPDA` ｜父类: BasePDA ｜_Starlight
+- **黑色棋子** — `BlackTabletopPiece` ｜父类: BaseGenericTabletopPiece
+- **棕色暗刃鸭舌帽** — `BladedFlatcapBrown` ｜父类: BladedFlatcapGrey
+- **灰色暗刃鸭舌帽** — `BladedFlatcapGrey` ｜父类: ClothingHeadHatGreyFlatcap,BaseMinorContraband
+- **塑钢刀刃** — `BladePlasteel` ｜父类: BaseItem ｜_Starlight
+- **刀片服务器框架** — `BladeServerFrame` ｜父类: BaseItem ｜_Moffstation
+- **刀片服务器机架机控板** — `BladeServerRackMachineCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Moffstation
+- **钢制刀刃** — `BladeSteel` ｜父类: BaseItem ｜_Starlight
+- **空白手持旗** — `BlankHandyFlag` ｜父类: BaseItem
+- **闪现法术书** — `BlinkBook` ｜父类: BaseSpellbook
+- **方块游戏街机 主板** — `BlockGameArcadeComputerCircuitboard` ｜父类: BaseComputerCircuitboard
+- **血包** — `Bloodpack` ｜父类: BaseHealingItem
+- **血包** — `Bloodpack1` ｜父类: Bloodpack
+- **包血番茄种子** — `BloodTomatoSeeds` ｜父类: SeedBase
+- **一包气球种子** — `BloonionSeeds` ｜父类: SeedBase
+- **蓝色瘀伤包** — `Bluebrutepack1` ｜父类: Brutepack ｜_Starlight
+- **蓝色瘀伤包** — `Bluebrutepack10` ｜父类: Brutepack1 ｜_Starlight
+- **蓝色瘀伤包** — `Bluebrutepack20` ｜父类: Brutepack1 ｜_Starlight
+- **X-03 相位盾** — `BlueLightShield` ｜父类: GreenLightShield,BaseBlueShieldContraband,BaseGrandTheftContraband ｜_Starlight
+- **蓝色药膏** — `Blueointment1` ｜父类: Ointment ｜_Starlight
+- **蓝色药膏** — `Blueointment10` ｜父类: Ointment ｜_Starlight
+- **蓝色药膏** — `Blueointment20` ｜父类: Ointment ｜_Starlight
+- **双联应急气罐蓝图** — `BlueprintDoubleEmergencyTank` ｜父类: BaseBlueprint
+- **富尔顿回收装置蓝图** — `BlueprintFulton` ｜父类: BaseBlueprint
+- **震波炸药蓝图** — `BlueprintSeismicCharge` ｜父类: BaseBlueprint
+- **蓝色南瓜籽包** — `BluePumpkinSeeds` ｜父类: SeedBase
+- **蓝盾干员 ID卡** — `BlueShieldIDCard` ｜父类: IDCardStandard,BaseBlueShieldContraband ｜_Starlight
+- **蓝盾 PDA** — `BlueShieldPDA` ｜父类: BasePDA,BaseBlueShieldContraband ｜_Starlight
+- **蓝色史莱姆提取物** — `BlueSlimeExtract` ｜父类: BaseSlimeExtract ｜_Starlight
+- **蓝色史莱姆提取物（已填充）** — `BlueSlimeExtractFilled` ｜父类: BaseSlimeExtractFilled,BlueSlimeExtract ｜_Starlight
+- **蓝色空间烧杯** — `BluespaceBeaker` ｜父类: BaseBeakerMetallic
+- **蓝空间水晶** — `BluespaceCrystal` ｜父类: IngotBase,BaseScienceContraband ｜_Starlight
+- **蓝空间水晶** — `BluespaceCrystal1` ｜父类: BluespaceCrystal ｜_Starlight
+- **蓝空间水晶** — `BluespaceCrystal3` ｜父类: BluespaceCrystal ｜_Starlight
+- **蓝空间水晶** — `BluespaceCrystal5` ｜父类: BluespaceCrystal ｜_Starlight
+- **蓝空间收割机电路板** — `BluespaceHarvesterMachineCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **蓝空间植入物** — `BluespaceImplant` ｜父类: BaseSubdermalImplant ｜_Starlight
+- **蓝空间植入器** — `BluespaceImplanter` ｜父类: BaseImplantOnlyImplanter ｜_Starlight
+- **蓝空间史莱姆提取物** — `BluespaceSlimeExtract` ｜父类: BaseSlimeExtract ｜_Starlight
+- **蓝空间史莱姆提取物（已填充）** — `BluespaceSlimeExtractFilled` ｜父类: BaseSlimeExtractFilled,BluespaceSlimeExtract ｜_Starlight
+- **蓝色棋子** — `BlueTabletopPiece` ｜父类: BaseGenericTabletopPiece
+- **蓝色番茄种子包** — `BlueTomatoSeeds` ｜父类: SeedBase
+- **大麻雪茄** — `Blunt` ｜父类: BaseCigar
+- **大麻雪茄** — `BluntRainbow` ｜父类: Blunt
+- **裹尸袋** — `BodyBag` ｜父类: BaseDeployFoldable,BasePaperLabelableVisualized
+- **中央指挥部可上锁裹尸袋** — `BodyBagCC` ｜父类: BodyBagLockable,BaseCentcommContraband ｜_Starlight
+- **中央指挥部可上锁裹尸袋** — `BodyBagCCFolded` ｜父类: BodyBagCC ｜_Starlight
+- **尸体包** — `BodyBagFolded` ｜父类: BodyBag
+- **可上锁裹尸袋** — `BodyBagLockable` ｜父类: BodyBag ｜_Starlight
+- **可上锁裹尸袋** — `BodyBagLockableFolded` ｜父类: BodyBagLockable ｜_Starlight
+- **身体扫描仪 计算机主板** — `BodyScannerComputerCircuitboard` ｜父类: BaseComputerCircuitboard
+- **玻尔合金控制棒 # what the crew start with** — `BohrumReactorControlRod` ｜父类: BaseReactorControlRod,ReactorPartMaterialBohrum ｜_FarHorizons
+- **流星索** — `Bola` ｜父类: BaseItem,BaseSecurityContraband
+- **冰冻弹** — `BoltTempgunCold` ｜父类: WatcherBolt
+- **灼热弹** — `BoltTempgunHot` ｜父类: WatcherBoltMagmawing
+- **骨凝胶瓶** — `BoneGel` ｜父类: BoneGelBase ｜_Starlight
+- **绑架者的骨凝胶瓶** — `BoneGelAbductor` ｜父类: BoneGel ｜_Starlight
+- `模板` **BoneGelBase** — `BoneGelBase` ｜父类: BaseToolSurgery ｜_Starlight
+- **骨凝胶** — `BoneGelCyber` ｜父类: BoneGel ｜_Starlight
+- **骨凝胶瓶** — `BoneGelRipper` ｜父类: BoneGel ｜_Starlight
+- **接骨器** — `BoneSetter` ｜父类: BaseScissors ｜_Starlight
+- **绑架者的接骨器** — `BoneSetterAbductor` ｜父类: BoneSetter ｜_Starlight
+- **高级接骨器** — `BoneSetterAdvanced` ｜父类: BoneSetter ｜_Starlight
+- **接骨器** — `BoneSetterCyber` ｜父类: BoneSetter ｜_Starlight
+- **接骨器** — `BoneSetterRipper` ｜父类: BoneSetter ｜_Starlight
+- **我，机器人** — `BookAILawCompendium` ｜父类: BaseGuidebook
+- **牛顿大气指南：空气警报器** — `BookAtmosAirAlarms` ｜父类: BookBase
+- **牛顿大气指南：配送管网** — `BookAtmosDistro` ｜父类: BookBase
+- **牛顿大气指南：通风口及其他** — `BookAtmosVentsMore` ｜父类: BookBase
+- **牛顿大气指南：废气管网** — `BookAtmosWaste` ｜父类: BookBase
+- **超越之旅：极光号星舰任务** — `BookAurora` ｜父类: BookBase
+- **酒保手册** — `BookBartendersManual` ｜父类: BaseGuidebook
+- **书** — `BookBase` ｜父类: BaseItem
+- **咖啡馆里的负鼠** — `BookCafe` ｜父类: BookBase
+- **化学大全** — `BookChemicalCompendium` ｜父类: BaseGuidebook
+- **《小丑与哑剧星际战争史》** — `BookClownMimeWar` ｜父类: BookBase ｜_Starlight
+- **他们不想让你知道的事** — `BookConspiracies` ｜父类: BookBase ｜_Starlight
+- **思乡地球** — `BookEarth` ｜父类: BookBase
+- **工程师手册** — `BookEngineersHandbook` ｜父类: BaseGuidebook
+- **魔法羽毛：流浪鸟的归属之旅** — `BookFeather` ｜父类: BookBase
+- **如何为四十名太空人烹饪** — `BookHowToCookForFortySpaceman` ｜父类: BaseGuidebook
+- **如何保持空间站清洁** — `BookHowToKeepStationClean` ｜父类: BaseGuidebook
+- **如何开岩凿石** — `BookHowToRockAndStone` ｜父类: BaseGuidebook
+- **如何生存** — `BookHowToSurvive` ｜父类: BaseGuidebook
+- **罗伯特与伊恩历险记：探索南极** — `BookIanAntarctica` ｜父类: BookBase
+- **伊恩与雷诺历险记：勇气与友谊的北极之旅** — `BookIanArctic` ｜父类: BookBase
+- **伊恩与雷诺历险记：探索城市** — `BookIanCity` ｜父类: BookBase
+- **伊恩与雷诺历险记：探索神秘沙漠** — `BookIanDesert` ｜父类: BookBase
+- **伊恩与雷诺历险记：寻找迷路狼崽** — `BookIanLostWolfPup` ｜父类: BookBase
+- **伊恩与雷诺历险记：山地远征** — `BookIanMountain` ｜父类: BookBase
+- **伊恩与雷诺历险记：海洋冒险** — `BookIanOcean` ｜父类: BookBase
+- **伊恩与雷诺历险记：牧场远征** — `BookIanRanch` ｜父类: BookBase
+- **寻找灵感：作家的林中之旅** — `BookInspiration` ｜父类: BookBase
+- **疲惫清洁工的故事** — `BookJanitorTale` ｜父类: BookBase
+- **音乐、群山与自我发现之旅** — `BookJourney` ｜父类: BookBase
+- **爱叶者的秘密** — `BookLeafLoversSecret` ｜父类: BaseGuidebook
+- **冒险地图** — `BookMap` ｜父类: BookBase
+- **《二十二世纪史：火星事件》** — `BookMarsIncident` ｜父类: BookBase ｜_Starlight
+- **地平线之战：医疗官的信任与求生故事** — `BookMedicalOfficer` ｜父类: BookBase
+- **医学参考书** — `BookMedicalReferenceBook` ｜父类: BaseGuidebook
+- **《他们还不想让你知道什么》** — `BookMoreConspiracies` ｜父类: BookBase ｜_Starlight
+- **废弃停尸房的幽灵住客** — `BookMorgue` ｜父类: BookBase
+- **名字的力量：哲学探索** — `BookNames` ｜父类: BookBase
+- **纳尔西传奇** — `BookNarsieLegend` ｜父类: BookBase
+- **简明魔法书** — `BookOfCantrips` ｜父类: BaseItem,StorePresetCantrips ｜_Starlight
+- **精简魔典** — `BookOfCantripsDebug` ｜父类: BookOfCantrips ｜_Starlight
+- **坠落的雄心：负鼠莫蒂的悲剧** — `BookPossum` ｜父类: BookBase
+- **书** — `BookRandom` ｜父类: BookBase
+- **书** — `BookRandomStory` ｜父类: BookRandom
+- **鲁弗斯与淘气仙子** — `BookRufus` ｜父类: BookBase
+- **书包** — `BooksBag` ｜父类: BaseStorageItem
+- **科学家指南** — `BookScientistsGuidebook` ｜父类: BaseGuidebook
+- **安保入门** — `BookSecurity` ｜父类: BaseGuidebook
+- **树懒与小丑：迷宫险境** — `BookSlothClownMMD` ｜父类: BookBase
+- **树懒与小丑：捉弄佐格人** — `BookSlothClownPranks` ｜父类: BookBase
+- **树懒与小丑：空间站闹剧** — `BookSlothClownSSS` ｜父类: BookBase
+- **太空百科全书** — `BookSpaceEncyclopedia` ｜父类: BaseGuidebook
+- **公司法** — `BookSpaceLaw` ｜父类: BaseGuidebook
+- **雷击带来的谦卑与蜕变** — `BookStruck` ｜父类: BookBase
+- **奔向太阳：植物的生命追寻** — `BookSun` ｜父类: BookBase
+- **神性的本质：拥抱众神** — `BookTemple` ｜父类: BookBase
+- **掌控之书** — `BookTheBookOfControl` ｜父类: BaseGuidebook
+- **真相的哲学视角与谎言的复杂性** — `BookTruth` ｜父类: BookBase
+- **监视** — `BookWatched` ｜父类: BookBase
+- **塑造世界：力量与选择的交织** — `BookWorld` ｜父类: BookBase
+- **酒水分配器 机器主板** — `BoozeDispenserMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **圆鸟毛绒玩偶** — `BorbPlushie` ｜父类: BasePlushie ｜_Starlight
+- **内置水箱** — `BorgBucket` ｜父类: Bucket
+- **赛博格充电站 机器主板** — `BorgChargerCircuitboard` ｜父类: BaseMachineCircuitboard
+- **赛博格液压夹** — `BorgClamp` ｜父类: BaseItem ｜_Starlight
+- **违禁品袋** — `BorgContrabandBag` ｜父类: BaseStorageItem ｜_Starlight
+- **液压移液器** — `BorgDropper` ｜父类: Dropper
+- **机动喷射器** — `BorgFireExtinguisher` ｜父类: FireExtinguisher
+- **内置闪光弹** — `BorgFlashRechargeable` ｜父类: Flash ｜_Starlight
+- **integrated GPS** — `BorgHandheldGPSBasic` ｜父类: HandheldGPSBasic
+- **赛博格货舱** — `BorgHold` ｜父类: BaseStructure ｜_Starlight
+- **全息手铐** — `BorgHolocuffs` ｜父类: Handcuffs ｜_Starlight
+- **内置全息屏障投影仪** — `BorgHoloprojectorSecurity` ｜父类: HoloprojectorSecurity ｜_Starlight
+- **博吉波** — `BorgHypo` ｜父类: BaseHypospray
+- **透明PDA** — `BorgiClearPDA` ｜父类: ClearPDA ｜_Starlight
+- **博基方块** — `BorgiCube` ｜父类: RehydratableAnimalCube ｜_Starlight
+- **实验型奶油派发射器** — `BorgLauncherCreamPie` ｜父类: BaseWeaponBattery
+- **高级版内部喷射** — `BorgMegaSprayBottle` ｜父类: MegaSprayBottle
+- **高级清洁机器人模块** — `BorgModuleAdvancedCleaning` ｜父类: BaseBorgModuleJanitor,BaseProviderBorgModule
+- **高级小丑机器人模块** — `BorgModuleAdvancedClowning` ｜父类: BaseBorgModuleService,BaseProviderBorgModule
+- **高级装载赛博格模块** — `BorgModuleAdvancedLoading` ｜父类: BaseBorgModuleSupply,BaseProviderBorgModule ｜_Starlight
+- **高级采矿机器人模块** — `BorgModuleAdvancedMining` ｜父类: BaseBorgModuleMining,BaseProviderBorgModule
+- **高级管道赛博格模块** — `BorgModuleAdvancedPlumbing` ｜父类: BaseBorgModule,BaseProviderBorgModule ｜_Starlight
+- **高级工具机器人模块** — `BorgModuleAdvancedTool` ｜父类: BaseBorgModuleEngineering,BaseProviderBorgModule
+- **高级急救机器人模块** — `BorgModuleAdvancedTopical` ｜父类: BaseBorgModuleMedical,BaseProviderBorgModule
+- **异常机器人模块** — `BorgModuleAnomaly` ｜父类: BaseBorgModuleScience,BaseProviderBorgModule
+- **鉴定机器人模块** — `BorgModuleAppraisal` ｜父类: BaseBorgModuleCargo,BaseProviderBorgModule
+- **神器机器人模块** — `BorgModuleArtifact` ｜父类: BaseBorgModuleScience,BaseProviderBorgModule
+- **艺术机器人模块** — `BorgModuleArtistry` ｜父类: BaseBorgModule,BaseProviderBorgModule
+- **调酒赛博格模块** — `BorgModuleBartending` ｜父类: BaseBorgModuleService,BaseProviderBorgModule ｜_Starlight
+- **图书管理赛博格模块** — `BorgModuleBooks` ｜父类: BaseBorgModuleService,BaseProviderBorgModule ｜_Starlight
+- **植物学赛博格模块** — `BorgModuleBotany` ｜父类: BaseBorgModuleService,BaseProviderBorgModule ｜_Starlight
+- **物品** — `BorgModuleBountyPaperPlaceholder` ｜父类: BaseItem ｜_Starlight
+- **C-20r ROW赛博格模块** — `BorgModuleC20r` ｜父类: BaseBorgModule,BaseProviderBorgModule,BaseSyndicateContraband
+- **电缆机器人模块** — `BorgModuleCable` ｜父类: BaseBorgModule,BaseProviderBorgModule
+- **化学机器人模块** — `BorgModuleChemical` ｜父类: BaseBorgModuleMedical,BaseProviderBorgModule
+- **清洁机器人模块** — `BorgModuleCleaning` ｜父类: BaseBorgModuleJanitor,BaseProviderBorgModule
+- **小丑机器人模块** — `BorgModuleClowning` ｜父类: BaseBorgModuleService,BaseProviderBorgModule
+- **建筑机器人模块** — `BorgModuleConstruction` ｜父类: BaseBorgModuleEngineering,BaseProviderBorgModule
+- **物品** — `BorgModuleConstructionMaterialPlaceholder` ｜父类: BaseItem
+- **烹饪赛博格模块** — `BorgModuleCooking` ｜父类: BaseBorgModuleService,BaseProviderBorgModule ｜_Starlight
+- **保管机器人模块** — `BorgModuleCustodial` ｜父类: BaseBorgModuleJanitor,BaseProviderBorgModule
+- **诊断赛博格模块** — `BorgModuleDiagnosis` ｜父类: BaseBorgModuleMedical,BaseProviderBorgModule
+- **双头能量剑赛博格模块** — `BorgModuleDoubleEsword` ｜父类: BaseBorgModuleSyndicate,BaseProviderBorgModule,BaseSyndicateContraband
+- **能量剑机器人模块** — `BorgModuleEsword` ｜父类: BaseBorgModuleSyndicate,BaseProviderBorgModule,BaseSyndicateContraband
+- **推进器机器人模块** — `BorgModuleFireExtinguisher` ｜父类: BaseBorgModule,BaseProviderBorgModule
+- **园艺机器人模块** — `BorgModuleGardening` ｜父类: BaseBorgModuleService,BaseProviderBorgModule
+- **收割机器人模块** — `BorgModuleHarvesting` ｜父类: BaseBorgModuleService,BaseProviderBorgModule
+- **搬运赛博格模块** — `BorgModuleHold` ｜父类: BaseBorgModuleSupply,BaseProviderBorgModule ｜_Starlight
+- **充气机器人模块** — `BorgModuleInflatable` ｜父类: BaseBorgModule,BaseProviderBorgModule
+- **L6C ROW赛博格模块** — `BorgModuleL6C` ｜父类: BaseBorgModule,BaseProviderBorgModule,BaseSyndicateContraband
+- **邮务赛博格模块** — `BorgModuleMail` ｜父类: BaseBorgModuleSupply,BaseProviderBorgModule ｜_Starlight
+- **物品** — `BorgModuleMailPlaceholder` ｜父类: BaseItem ｜_Starlight
+- **临时刀具赛博格模块** — `BorgModuleMakeshiftKnife` ｜父类: BaseBorgModule,BaseProviderBorgModule,BaseMajorContraband ｜_Starlight
+- **殉道者赛博格模块** — `BorgModuleMartyr` ｜父类: BaseBorgModule,BaseProviderBorgModule,BaseSyndicateContraband
+- **挖矿机器人模块** — `BorgModuleMining` ｜父类: BaseBorgModuleMining,BaseProviderBorgModule
+- **采矿防御赛博格模块** — `BorgModuleMiningDefense` ｜父类: BaseBorgModuleMining,BaseProviderBorgModule ｜_Starlight
+- **音乐机器人模块** — `BorgModuleMusique` ｜父类: BaseBorgModuleService,BaseProviderBorgModule
+- **操作机器人模块** — `BorgModuleOperative` ｜父类: BaseBorgModuleSyndicate,BaseProviderBorgModule,BaseSyndicateContraband
+- **物品** — `BorgModuleOrganPlaceholder` ｜父类: BaseItem ｜_Starlight
+- **物品** — `BorgModulePaperStampPlaceholder` ｜父类: BaseItem ｜_Starlight
+- **文书赛博格模块** — `BorgModulePaperwork` ｜父类: BaseBorgModulePurrfus,BaseProviderBorgModule ｜_Starlight
+- **撬动模块** — `BorgModulePrying` ｜父类: BaseBorgModule
+- **工程机器人模块** — `BorgModuleRCD` ｜父类: BaseBorgModuleEngineering,BaseProviderBorgModule
+- **救援机器人模块** — `BorgModuleRescue` ｜父类: BaseBorgModuleMedical,BaseProviderBorgModule
+- **安保赛博格模块** — `BorgModuleSecurity` ｜父类: BaseBorgModuleSecurity,BaseProviderBorgModule ｜_Starlight
+- **违禁品袋赛博格模块** — `BorgModuleSecurityContraband` ｜父类: BaseBorgModuleSecurity,BaseProviderBorgModule ｜_Starlight
+- **服务机器人模块** — `BorgModuleService` ｜父类: BaseBorgModuleService,BaseProviderBorgModule
+- **手术赛博格模块** — `BorgModuleSurgical` ｜父类: BaseBorgModuleMedical,BaseProviderBorgModule ｜_Starlight
+- **辛迪加高级化学赛博格模块** — `BorgModuleSyndicateAdvancedChemical` ｜父类: BaseBorgModuleMedical,BaseProviderBorgModule,BaseSyndicateContraband ｜_Starlight
+- **辛迪加高级工具赛博格模块** — `BorgModuleSyndicateAdvancedTool` ｜父类: BaseBorgModuleEngineering,BaseProviderBorgModule,BaseSyndicateContraband ｜_Starlight
+- **辛迪加变色龙投影仪模块** — `BorgModuleSyndicateChameleonProjector` ｜父类: BaseBorgModuleSyndicateStealth,BaseProviderBorgModule,BaseSyndicateContraband ｜_Starlight
+- **辛迪加核弹授权盘运输模块** — `BorgModuleSyndicateNukeDisk` ｜父类: BaseBorgModule,BaseProviderBorgModule,BaseSyndicateContraband ｜_Starlight
+- **辛迪加文书模块** — `BorgModuleSyndicatePaperwork` ｜父类: BaseBorgModule,BaseProviderBorgModule,BaseSyndicateContraband ｜_Starlight
+- **辛迪加救援赛博格模块** — `BorgModuleSyndicateRescue` ｜父类: BaseBorgModuleMedical,BaseProviderBorgModule,BaseSyndicateContraband ｜_Starlight
+- **辛迪加隐形模块** — `BorgModuleSyndicateStealth` ｜父类: BaseBorgModuleSyndicateStealth,BaseProviderBorgModule,BaseSyndicateContraband ｜_Starlight
+- **武器机器人模块** — `BorgModuleSyndicateWeapon` ｜父类: BaseBorgModule,BaseProviderBorgModule,BaseSyndicateContraband
+- **TeaPartyMAG 赛博格模块** — `BorgModuleTeaPartyMAG` ｜父类: BaseBorgModule,BaseProviderBorgModule,BaseMajorContraband ｜_Starlight
+- **工具机器人模块** — `BorgModuleTool` ｜父类: BaseBorgModule,BaseProviderBorgModule
+- **急救机器人模块** — `BorgModuleTopicals` ｜父类: BaseBorgModuleMedical,BaseProviderBorgModule
+- **遍历机器人模块** — `BorgModuleTraversal` ｜父类: BaseBorgModuleMining,BaseProviderBorgModule
+- **TSF 安保赛博格模块** — `BorgModuleTSF` ｜父类: BaseBorgModuleSecurity,BaseProviderBorgModule ｜_Starlight
+- **TSMC 战斗赛博格模块** — `BorgModuleTSFCombat` ｜父类: BaseBorgModuleSecurity,BaseProviderBorgModule ｜_Starlight
+- **人员运输赛博格模块** — `BorgModuleUppies` ｜父类: BaseBorgModule,BaseProviderBorgModule ｜_Starlight
+- **集成式矿石袋** — `BorgOreBag` ｜父类: OreBag
+- **内喷式** — `BorgSprayBottle` ｜父类: SprayBottle
+- **内置电击警棍** — `BorgStunbatonRechargeable` ｜父类: Stunbaton ｜_Starlight
+- **内部垃圾袋** — `BorgTrashBag` ｜父类: TrashBag
+- **植物学家ID卡** — `BotanistIDCard` ｜父类: IDCardStandard
+- **植物学家PDA** — `BotanistPDA` ｜父类: BasePDA
+- **化学品箱** — `BottleCaseMedical` ｜父类: BaseBottleCase,BaseMedicalContraband ｜_Starlight
+- **化学品箱** — `BottleCaseRobotics` ｜父类: BaseBottleCase,BaseRoboticistContraband ｜_Starlight
+- **化学品箱** — `BottleCaseSecurity` ｜父类: BaseBottleCase,BaseSecurityContraband ｜_Starlight
+- **瓶中船** — `BottleShip` ｜父类: BasePlushie ｜_Starlight
+- **无底润滑剂烧杯** — `BottomlessLube` ｜父类: BluespaceBeaker
+- **简易短弓** — `BowImprovised` ｜父类: BaseBow
+- `模板` **BoxBase** — `BoxBase` ｜父类: BaseStorageItem
+- `模板` **BoxBaseSmall** — `BoxBaseSmall` ｜父类: BoxBase
+- **12号布袋独头弹 # Starlight change: .50 -> 12 gauge** — `BoxBeanbag` ｜父类: AmmoProviderShotgunShell
+- **玩具火帽枪弹药盒** — `BoxCartridgeCap` ｜父类: BaseMagazineBoxMagnum
+- `模板` **玩具弹药盒** — `BoxDonkSoftBase` ｜父类: BaseItem
+- **泡沫飞镖盒** — `BoxDonkSoftBox` ｜父类: BoxDonkSoftBase
+- **拳击手ID卡** — `BoxerIDCard` ｜父类: IDCardStandard
+- **拳击手PDA** — `BoxerPDA` ｜父类: BasePDA
+- **证物标记牌盒** — `BoxEvidenceMarkers` ｜父类: BoxCardboard
+- **核弹密码文件夹** — `BoxFolderAllNuclearCodes` ｜父类: BoxFolderNuclearCodes ｜_Starlight
+- **文件夹** — `BoxFolderBase` ｜父类: BoxFolderBaseEmpty,BoxFolderFill
+- **文件夹** — `BoxFolderBaseEmpty` ｜父类: BoxBase
+- **文件夹** — `BoxFolderBaseThreePapers` ｜父类: BoxFolderBaseEmpty,BoxFolderFillThreePapers
+- **文件夹** — `BoxFolderBlack` ｜父类: BoxFolderBlackEmpty,BoxFolderFill
+- **文件夹** — `BoxFolderBlackCargo` ｜父类: BoxFolderBlackEmpty,BoxFolderFillProductOrder ｜_Starlight
+- **文件夹** — `BoxFolderBlackEmpty` ｜父类: BoxFolderBaseEmpty
+- **文件夹** — `BoxFolderBlackMorgue` ｜父类: BoxFolderBlackEmpty,BoxFolderFillMorgueReport ｜_Starlight
+- **文件夹** — `BoxFolderBlackThreePapers` ｜父类: BoxFolderBlackEmpty,BoxFolderFillThreePapers
+- **文件夹** — `BoxFolderBlue` ｜父类: BoxFolderBlueEmpty,BoxFolderFill
+- **文件夹** — `BoxFolderBlueCargo` ｜父类: BoxFolderBlueEmpty,BoxFolderFillProductOrder ｜_Starlight
+- **文件夹** — `BoxFolderBlueEmpty` ｜父类: BoxFolderBaseEmpty
+- **文件夹** — `BoxFolderBlueThreePapers` ｜父类: BoxFolderBlueEmpty,BoxFolderFillThreePapers
+- **中央指挥部文件夹** — `BoxFolderCentCom` ｜父类: BoxFolderCentComEmpty,BoxFolderFill
+- **中央指挥部写字板** — `BoxFolderCentComClipboard` ｜父类: BoxFolderCentComClipboardEmpty,BoxFolderFill
+- **中央指挥部写字板** — `BoxFolderCentComClipboardEmpty` ｜父类: BoxFolderClipboardEmpty
+- **中央指挥部写字板** — `BoxFolderCentComClipboardThreePapers` ｜父类: BoxFolderCentComClipboardEmpty,BoxFolderFillThreePapers
+- **中央指挥部文件夹** — `BoxFolderCentComEmpty` ｜父类: BoxFolderBaseEmpty
+- **中央指挥部文件夹** — `BoxFolderCentComThreePapers` ｜父类: BoxFolderCentComEmpty,BoxFolderFillThreePapers
+- **写字板** — `BoxFolderClipboard` ｜父类: BoxFolderClipboardEmpty,BoxFolderFill
+- **写字板** — `BoxFolderClipboardEmpty` ｜父类: BoxFolderBaseEmpty
+- **打捞队长写字板** — `BoxFolderClipboardSalvageLead` ｜父类: BoxFolderClipboardEmpty ｜_Starlight
+- **写字板** — `BoxFolderClipboardThreePapers` ｜父类: BoxFolderClipboardEmpty,BoxFolderFillThreePapers
+- **赛博格写字板** — `BoxFolderCyborgClipboard` ｜父类: BoxFolderClipboard ｜_Starlight
+- `模板` **BoxFolderFill** — `BoxFolderFill`
+- `模板` **BoxFolderFillMorgueReport** — `BoxFolderFillMorgueReport` ｜_Starlight
+- `模板` **BoxFolderFillProductOrder** — `BoxFolderFillProductOrder` ｜_Starlight
+- `模板` **BoxFolderFillThreePapers** — `BoxFolderFillThreePapers`
+- **文件夹** — `BoxFolderGreen` ｜父类: BoxFolderGreenEmpty,BoxFolderFill
+- **文件夹** — `BoxFolderGreenCargo` ｜父类: BoxFolderGreenEmpty,BoxFolderFillProductOrder ｜_Starlight
+- **文件夹** — `BoxFolderGreenEmpty` ｜父类: BoxFolderBaseEmpty
+- **文件夹** — `BoxFolderGreenThreePapers` ｜父类: BoxFolderGreenEmpty,BoxFolderFillThreePapers
+- **文件夹** — `BoxFolderGrey` ｜父类: BoxFolderGreyEmpty,BoxFolderFill
+- **文件夹** — `BoxFolderGreyCargo` ｜父类: BoxFolderGreyEmpty,BoxFolderFillProductOrder ｜_Starlight
+- **文件夹** — `BoxFolderGreyEmpty` ｜父类: BoxFolderBaseEmpty
+- **文件夹** — `BoxFolderGreyThreePapers` ｜父类: BoxFolderGreyEmpty,BoxFolderFillThreePapers
+- **官僚数字板** — `BoxFolderHoPClipboard` ｜父类: BoxFolderClipboard,BaseGrandTheftContraband ｜_Starlight
+- **纳米传讯写字板** — `BoxFolderNanoTrasenClipboard` ｜父类: BoxFolderClipboard ｜_Starlight
+- **核弹密码文件夹** — `BoxFolderNuclearCodes` ｜父类: BaseItem
+- **塑料写字板** — `BoxFolderPlasticClipboard` ｜父类: BoxFolderPlasticClipboardEmpty,BoxFolderFill
+- **塑料写字板** — `BoxFolderPlasticClipboardEmpty` ｜父类: BoxFolderClipboardEmpty
+- **塑料写字板** — `BoxFolderPlasticClipboardThreePapers` ｜父类: BoxFolderPlasticClipboardEmpty,BoxFolderFillThreePapers
+- **申购电子板** — `BoxFolderQmClipboard` ｜父类: BoxFolderClipboardEmpty,BaseGrandTheftContraband
+- **文件夹** — `BoxFolderRed` ｜父类: BoxFolderRedEmpty,BoxFolderFill
+- **文件夹** — `BoxFolderRedCargo` ｜父类: BoxFolderRedEmpty,BoxFolderFillProductOrder ｜_Starlight
+- **文件夹** — `BoxFolderRedEmpty` ｜父类: BoxFolderBaseEmpty
+- **文件夹** — `BoxFolderRedThreePapers` ｜父类: BoxFolderRedEmpty,BoxFolderFillThreePapers
+- **文件夹** — `BoxFolderWhite` ｜父类: BoxFolderWhiteEmpty,BoxFolderFill
+- **文件夹** — `BoxFolderWhiteCargo` ｜父类: BoxFolderWhiteEmpty,BoxFolderFillProductOrder ｜_Starlight
+- **文件夹** — `BoxFolderWhiteEmpty` ｜父类: BoxFolderBaseEmpty
+- **文件夹** — `BoxFolderWhiteThreePapers` ｜父类: BoxFolderWhiteEmpty,BoxFolderFillThreePapers
+- **文件夹** — `BoxFolderYellow` ｜父类: BoxFolderYellowEmpty,BoxFolderFill
+- **文件夹** — `BoxFolderYellowCargo` ｜父类: BoxFolderYellowEmpty,BoxFolderFillProductOrder ｜_Starlight
+- **文件夹** — `BoxFolderYellowEmpty` ｜父类: BoxFolderBaseEmpty
+- **文件夹** — `BoxFolderYellowThreePapers` ｜父类: BoxFolderYellowEmpty,BoxFolderFillThreePapers
+- **全息小丑盒** — `BoxHoloclown` ｜父类: BoxCardboard,BaseSyndicateContraband
+- **全息寄生体盒** — `BoxHoloparasite` ｜父类: BoxCardboard,BaseSyndicateContraband
+- **12号鹿弹 # Starlight change: .50 -> 12 gauge** — `BoxLethalshot` ｜父类: AmmoProviderShotgunShell
+- **20号霰弹弹药盒** — `BoxLethalshotToz` ｜父类: BaseItem ｜_Starlight
+- **20号霰弹弹药盒** — `BoxLethalshotTozOpen` ｜父类: AmmoProviderShotgunShellToz ｜_Starlight
+- **无菌拭子分配器** — `BoxMouthSwab` ｜父类: BaseAmmoProvider
+- **“维和者”警棍榴弹盒** — `BoxPeacekeeperBaton` ｜父类: BasePeacekeeperBox ｜_Starlight
+- **“维和者”闪光榴弹盒** — `BoxPeacekeeperFlash` ｜父类: BasePeacekeeperBox ｜_Starlight
+- **“维和者”催泪瓦斯榴弹盒** — `BoxPeacekeeperGas` ｜父类: BasePeacekeeperBox ｜_Starlight
+- **“维和者”橡胶弹榴弹盒** — `BoxPeacekeeperStinger` ｜父类: BasePeacekeeperBox ｜_Starlight
+- **12号镇静独头弹 # Starlight change: .50 -> 12 gauge** — `BoxShellTranquilizer` ｜父类: AmmoProviderShotgunShell
+- **12号鸟弹盒** — `BoxShotgunBirdshot` ｜父类: AmmoProviderShotgunShell ｜_Starlight
+- **12号照明弹 # Starlight change: .50 -> 12 gauge** — `BoxShotgunFlare` ｜父类: AmmoProviderShotgunShell
+- **12号燃烧鹿弹 # Starlight change: .50 -> 12 gauge** — `BoxShotgunIncendiary` ｜父类: AmmoProviderShotgunShell
+- **12号空包弹 # Starlight change: .50 -> 12 gauge** — `BoxShotgunPractice` ｜父类: AmmoProviderShotgunShell
+- **12号独头弹 # Starlight change: .50 -> 12 gauge** — `BoxShotgunSlug` ｜父类: AmmoProviderShotgunShell
+- **12号铀芯鹿弹 # Starlight change: .50 -> 12 gauge** — `BoxShotgunUranium` ｜父类: AmmoProviderShotgunShell
+- **中央指挥部印章盒** — `BoxStampsCCAdministrative` ｜父类: BoxCardboard ｜_Starlight
+- **中央指挥部印章盒** — `BoxStampsCCDepartments` ｜父类: BoxCardboard ｜_Starlight
+- **黄铜燃气轮机叶片** — `BrassGasTurbineBlade` ｜父类: BaseGasTurbineBlade ｜_FarHorizons
+- **黄铜控制棒** — `BrassReactorControlRod` ｜父类: BaseReactorControlRod,ReactorPartMaterialBrass ｜_FarHorizons
+- **黄铜气体通道棒** — `BrassReactorGasChannel` ｜父类: BaseReactorGasChannel,ReactorPartMaterialBrass ｜_FarHorizons
+- **黄铜换热棒** — `BrassReactorHeatExchanger` ｜父类: BaseReactorHeatExchanger,ReactorPartMaterialBrass ｜_FarHorizons
+- **暂离标牌** — `BrbSign` ｜父类: BaseItem
+- `模板` **BriefcaseBase** — `BriefcaseBase` ｜父类: BaseStorageItem
+- `模板` **BriefcaseBaseSecure** — `BriefcaseBaseSecure` ｜父类: BriefcaseBase ｜_Starlight
+- **棕色公文包** — `BriefcaseBrown` ｜父类: BriefcaseBase
+- **安全公文包** — `BriefcaseSecure` ｜父类: BriefcaseBaseSecure ｜_Starlight
+- **辛迪加公文包** — `BriefcaseSyndicateRedspace` ｜父类: BriefcaseBase,BaseMinorContraband ｜_Starlight
+- **棕色公文包** — `BriefcaseSyndie` ｜父类: BriefcaseBrown
+- **安全武器箱** — `BriefcaseWeapon` ｜父类: BriefcaseBase,BaseSyndicateContraband
+- **安全武器箱** — `BriefcaseWeaponSmall` ｜父类: BriefcaseWeapon
+- **亮眼安保简报** — `BriefDocumentBrightEyes` ｜父类: ImportantDocumentGeneric,BaseGrandTheftContraband ｜_Starlight
+- **拟形怪安保简报** — `BriefDocumentLings` ｜父类: ImportantDocumentGeneric,BaseGrandTheftContraband ｜_Starlight
+- **USSP 安保简报** — `BriefDocumentRevs` ｜父类: ImportantDocumentGeneric,BaseGrandTheftContraband ｜_Starlight
+- **辛迪加特工安保简报** — `BriefDocumentSyndicate` ｜父类: ImportantDocumentGeneric,BaseGrandTheftContraband ｜_Starlight
+- **吸血鬼安保简报** — `BriefDocumentVampires` ｜父类: ImportantDocumentGeneric,BaseGrandTheftContraband ｜_Starlight
+- **巫师安保简报** — `BriefDocumentWizard` ｜父类: ImportantDocumentGeneric,BaseGrandTheftContraband ｜_Starlight
+- **异种赛博格安保简报** — `BriefDocumentXorgs` ｜父类: ImportantDocumentGeneric,BaseGrandTheftContraband ｜_Starlight
+- **狱医ID卡** — `BrigmedicIDCard` ｜父类: IDCardStandard
+- **狱医PDA** — `BrigmedicPDA` ｜父类: BaseMedicalPDA
+- **禁闭室计时器电子元件** — `BrigTimerElectronics` ｜父类: SignalTimerElectronics
+- **碎酒瓶** — `BrokenBottle` ｜父类: BaseItem
+- **破碎能量护盾** — `BrokenEnergyShield` ｜父类: BaseItem
+- **强力自动注射器** — `BruteAutoInjector` ｜父类: ChemicalMedipen
+- **跌打包** — `Brutepack` ｜父类: BaseHealingItem
+- **跌打包** — `Brutepack1` ｜父类: Brutepack
+- **药缝线** — `BrutepackAdvanced1` ｜父类: MedicatedSuture
+- **水桶** — `Bucket` ｜父类: DrinkBaseMaterialStrongPlastic,DrinkBase,DrinkVisualsFill
+- **变形玻璃杯** — `BudgetInsulsDrinkGlass` ｜父类: DrinkGlass
+- **BufferingIcon** — `BufferingIcon`
+- **穿梭机建造货币** — `BuildToken` ｜父类: BaseItem ｜_Starlight
+- **穿梭机建造货币** — `BuildToken2` ｜父类: BaseItem ｜_Starlight
+- **基础激光射线** — `Bullet48RifleFMJ` ｜父类: BulletTrace ｜_Starlight
+- **弱效火箭弹** — `Bullet50mmRocketStarlight` ｜父类: BulletWeakRocket ｜_Starlight
+- **60 毫米火箭弹** — `Bullet60mmRocket` ｜父类: BaseBulletTrigger
+- **EMP火箭弹** — `Bullet60mmRocketEMP` ｜父类: BaseBulletTrigger ｜_Starlight
+- **60 毫米火箭弹** — `Bullet60mmRocketStarlight` ｜父类: Bullet60mmRocket ｜_Starlight
+- **酸液喷吐物** — `BulletAcid` ｜父类: BaseBullet
+- **酸液喷吐物** — `BulletAcidHitscan` ｜父类: BasicHitscan ｜_Starlight
+- **泰瑟电击弹** — `BulletAdvTaser` ｜父类: BaseBulletStarlight ｜_Starlight
+- **AK-90 HE 弹药** — `BulletAK570_90mmHE` ｜父类: BaseBulletTrigger ｜_Starlight
+- **弹头（.60反器材）** — `BulletAntiMateriel` ｜父类: BaseBullet
+- **炮弹** — `BulletCannonBall` ｜父类: BaseBulletTrigger
+- **火帽弹** — `BulletCap` ｜父类: BaseBullet
+- **弹头（.25无壳）** — `BulletCaselessRifle` ｜父类: BaseBullet
+- **弹头（.25无壳训练弹）** — `BulletCaselessRiflePractice` ｜父类: BaseBulletPractice
+- **基础激光射线** — `BulletCaselessRiflePracticeTrace` ｜父类: BulletTrace ｜_Starlight
+- **子弹（.25 无壳橡胶弹）** — `BulletCaselessRifleRubber` ｜父类: BaseBulletRubber ｜_Starlight
+- **基础激光射线** — `BulletCaselessRifleTrace` ｜父类: BulletTrace ｜_Starlight
+- **充能弹** — `BulletCharge` ｜父类: BaseBullet
+- **M381 CHARYBDIS 弹药** — `BulletCharon280mmSlug` ｜父类: BaseBulletTrigger ｜_Starlight
+- **M381 CHARYBDIS 弹药** — `BulletCharon280mmSubnuclear` ｜父类: BaseBulletTrigger ｜_Starlight
+- **假爆炸** — `BulletChonoLokeFakeBlast` ｜父类: BaseBulletTrigger ｜_Starlight
+- **弹药** — `BulletDisabler` ｜父类: BaseBullet
+- **弹药** — `BulletDisablerPractice` ｜父类: BaseBullet
+- **弹药** — `BulletDisablerSmg` ｜父类: BaseBullet
+- **失能激光弹幕** — `BulletDisablerSmgSpread` ｜父类: BulletDisablerSmg
+- **DVN-75 HE 弹药** — `BulletDravon75mmHE` ｜父类: BaseBulletTrigger ｜_Starlight
+- **弹药** — `BulletEnergySMGDisabler` ｜父类: BulletEnergyTurretBase ｜_Starlight
+- **弹药** — `BulletEnergySMGLaser` ｜父类: BulletEnergyTurretBase ｜_Starlight
+- **弹药** — `BulletEnergyTurretBase` ｜父类: BaseBullet
+- **弹药** — `BulletEnergyTurretDisabler` ｜父类: BulletEnergyTurretBase
+- **弹药** — `BulletEnergyTurretLaser` ｜父类: BulletEnergyTurretBase
+- **泡沫飞镖** — `BulletFoam` ｜父类: BaseItem
+- **120mm 爆破榴弹** — `BulletGrenade120mmBlast` ｜父类: BaseBulletTrigger ｜_Starlight
+- **警棍榴弹** — `BulletGrenadeBaton` ｜父类: BaseBullet
+- **冲击榴弹** — `BulletGrenadeBlast` ｜父类: BaseBulletTrigger
+- **清洁榴弹弹药** — `BulletGrenadeCleanade` ｜父类: BaseBulletTrigger
+- **邪恶清洁弹榴弹** — `BulletGrenadeCleanadeSyndicate` ｜父类: BulletGrenadeCleanade,BaseSyndicateContraband ｜_Starlight
+- **EMP 火箭弹** — `BulletGrenadeEMP` ｜父类: BaseBulletTrigger
+- **EMP炮弹** — `BulletGrenadeEMPTarnyx` ｜父类: BaseBulletTrigger ｜_Starlight
+- **闪光榴弹** — `BulletGrenadeFlash` ｜父类: BaseBulletTrigger
+- **破片榴弹** — `BulletGrenadeFrag` ｜父类: BaseBulletTrigger
+- **armed gas grenade** — `BulletGrenadeGas` ｜父类: BaseBulletTrigger ｜_Starlight
+- **armed stinger grenade** — `BulletGrenadeStinger` ｜父类: BaseBulletTrigger ｜_Starlight
+- **弹头（.10步枪）** — `BulletHeavyRifle` ｜父类: BaseBullet
+- **基础激光射线** — `BulletHeavyRifleTrace` ｜父类: BulletTrace ｜_Starlight
+- **蜂巢机器人子弹** — `BulletHivebot` ｜父类: BaseBullet
+- **BulletImpactEffect** — `BulletImpactEffect`
+- **BulletImpactEffectDisabler** — `BulletImpactEffectDisabler`
+- **BulletImpactEffectKinetic** — `BulletImpactEffectKinetic`
+- **BulletImpactEffectOrangeDisabler** — `BulletImpactEffectOrangeDisabler`
+- **魔法铅柱** — `BulletInstakillMagic` ｜父类: BaseBullet
+- **动能弹** — `BulletKinetic` ｜父类: BaseBullet
+- **弹药** — `BulletKineticShuttle` ｜父类: BaseBullet
+- **激光弹** — `BulletLaser` ｜父类: BaseBullet
+- **破坏光束弹** — `BulletLaserDestroy` ｜父类: BaseBullet
+- **马格南激光弹** — `BulletLaserMagnum` ｜父类: BulletLaser
+- **马格南激光弹** — `BulletLaserMagnumSL` ｜父类: EnergyTrace ｜_Starlight
+- **宽幅激光弹幕** — `BulletLaserSpread` ｜父类: BulletLaser
+- **致命激光弹幕** — `BulletLaserSpreadNarrow` ｜父类: BulletLaser
+- **马格南穿窗激光弹** — `BulletLaserWindowPiercingMagnum` ｜父类: BulletLaser
+- **马格南穿窗弹** — `BulletLaserWindowPiercingMagnumSL` ｜父类: LaserTrace ｜_Starlight
+- **LVT-240 HE 弹药** — `BulletLeviathan240mmHE` ｜父类: BaseBulletTrigger ｜_Starlight
+- **弹头（.30步枪）** — `BulletLightRifle` ｜父类: BaseBullet
+- **弹头（.30步枪燃烧弹）** — `BulletLightRifleIncendiary` ｜父类: BaseBulletIncendiary
+- **弹头（.30步枪训练弹）** — `BulletLightRiflePractice` ｜父类: BaseBulletPractice
+- **弹头（.20步枪橡胶）** — `BulletLightRifleRubber` ｜父类: BaseBulletRubber ｜_Starlight
+- **基础激光射线** — `BulletLightRifleTraceAP` ｜父类: BulletTrace ｜_Starlight
+- **基础激光射线** — `BulletLightRifleTraceFMJ` ｜父类: BulletTrace ｜_Starlight
+- **基础激光射线** — `BulletLightRifleTraceHP` ｜父类: BulletTrace ｜_Starlight
+- **基础激光射线** — `BulletLightRifleTraceImprovised` ｜父类: BulletTrace ｜_Starlight
+- **基础激光射线** — `BulletLightRifleTraceIncendiary` ｜父类: BulletTrace ｜_Starlight
+- **基础激光射线** — `BulletLightRifleTracePractice` ｜父类: BulletTrace ｜_Starlight
+- **基础激光射线** — `BulletLightRifleTraceSP` ｜父类: BulletTrace ｜_Starlight
+- **基础激光射线** — `BulletLightRifleTraceUranium` ｜父类: BulletTrace ｜_Starlight
+- **弹头（.30步枪铀芯弹）** — `BulletLightRifleUranium` ｜父类: BaseBulletUranium
+- **弹头（.45马格南）** — `BulletMagnum` ｜父类: BaseBullet
+- **弹头（.45马格南穿甲弹）** — `BulletMagnumAP` ｜父类: BaseBulletAP
+- **弹头（.45马格南燃烧弹）** — `BulletMagnumIncendiary` ｜父类: BaseBulletIncendiary
+- **弹头（.45马格南训练弹）** — `BulletMagnumPractice` ｜父类: BaseBulletPractice
+- **子弹（.45马格南橡胶弹）** — `BulletMagnumRubber` ｜父类: BaseBulletRubber ｜_Starlight
+- **基础激光射线** — `BulletMagnumTraceAP` ｜父类: BulletTrace ｜_Starlight
+- **基础激光射线** — `BulletMagnumTraceFMJ` ｜父类: BulletTrace ｜_Starlight
+- **基础激光射线** — `BulletMagnumTraceHP` ｜父类: BulletTrace ｜_Starlight
+- **基础激光射线** — `BulletMagnumTraceImprovised` ｜父类: BulletTrace ｜_Starlight
+- **基础激光射线** — `BulletMagnumTraceIncendiary` ｜父类: BulletTrace ｜_Starlight
+- **基础激光射线** — `BulletMagnumTracePractice` ｜父类: BulletTrace ｜_Starlight
+- **基础激光射线** — `BulletMagnumTraceSP` ｜父类: BulletTrace ｜_Starlight
+- **基础激光射线** — `BulletMagnumTraceUranium` ｜父类: BulletTrace ｜_Starlight
+- **弹头（.45马格南铀芯弹）** — `BulletMagnumUranium` ｜父类: BaseBulletUranium
+- **转管机枪弹头（.10步枪）** — `BulletMinigun` ｜父类: BulletHeavyRifle
+- **基础激光射线** — `BulletMinigunTrace` ｜父类: BulletTrace ｜_Starlight
+- **弹头（.35自动）** — `BulletPistol` ｜父类: BaseBullet
+- **弹头（.35自动燃烧弹）** — `BulletPistolIncendiary` ｜父类: BaseBulletIncendiary
+- **弹头（.35自动训练弹）** — `BulletPistolPractice` ｜父类: BaseBulletPractice
+- **弹头（.35自动橡胶）** — `BulletPistolRubber` ｜父类: BaseBulletRubber ｜_Starlight
+- **基础激光射线** — `BulletPistolTrace40AP` ｜父类: BulletTrace ｜_Starlight
+- **基础激光射线** — `BulletPistolTrace40FMJ` ｜父类: BulletTrace ｜_Starlight
+- **基础激光射线** — `BulletPistolTrace40HP` ｜父类: BulletTrace ｜_Starlight
+- **基础激光射线** — `BulletPistolTrace40SP` ｜父类: BulletTrace ｜_Starlight
+- **基础激光射线** — `BulletPistolTraceAP` ｜父类: BulletTrace ｜_Starlight
+- **基础激光射线** — `BulletPistolTraceFMJ` ｜父类: BulletTrace ｜_Starlight
+- **基础激光射线** — `BulletPistolTraceHP` ｜父类: BulletTrace ｜_Starlight
+- **基础激光射线** — `BulletPistolTraceImprovised` ｜父类: BulletTrace ｜_Starlight
+- **基础激光射线** — `BulletPistolTraceIncendiary` ｜父类: BulletTrace ｜_Starlight
+- **基础激光射线** — `BulletPistolTracePractice` ｜父类: BulletTrace ｜_Starlight
+- **基础激光射线** — `BulletPistolTraceSP` ｜父类: BulletTrace ｜_Starlight
+- **基础激光射线** — `BulletPistolTraceUranium` ｜父类: BulletTrace ｜_Starlight
+- **弹头（.35自动铀芯弹）** — `BulletPistolUranium` ｜父类: BaseBulletUranium
+- **.20 步枪弹** — `BulletRifle` ｜父类: BaseBullet
+- **.20 步枪燃烧弹** — `BulletRifleIncendiary` ｜父类: BaseBulletIncendiary
+- **.20 步枪训练弹** — `BulletRiflePractice` ｜父类: BaseBulletPractice
+- **弹头（0.20步枪橡胶）** — `BulletRifleRubber` ｜父类: BaseBulletRubber ｜_Starlight
+- **基础激光射线** — `BulletRifleTraceAP` ｜父类: BulletTrace ｜_Starlight
+- **基础激光射线** — `BulletRifleTraceFMJ` ｜父类: BulletTrace ｜_Starlight
+- **基础激光射线** — `BulletRifleTraceHP` ｜父类: BulletTrace ｜_Starlight
+- **基础激光射线** — `BulletRifleTraceIncendiary` ｜父类: BulletTrace ｜_Starlight
+- **基础激光射线** — `BulletRifleTracePractice` ｜父类: BulletTrace ｜_Starlight
+- **基础激光射线** — `BulletRifleTraceSP` ｜父类: BulletTrace ｜_Starlight
+- **基础激光射线** — `BulletRifleTraceUranium` ｜父类: BulletTrace ｜_Starlight
+- **.20 步枪铀弹** — `BulletRifleUranium` ｜父类: BaseBulletUranium
+- **火箭弹** — `BulletRocket` ｜父类: BaseBulletTrigger
+- **泰瑟电击弹** — `BulletTaser` ｜父类: BaseBullet
+- **泰瑟电击弹** — `BulletTaserSuper` ｜父类: BulletTaser
+- `模板` **BulletTrace** — `BulletTrace` ｜父类: BasicHitscan ｜_Starlight
+- **水弹** — `BulletWaterShot`
+- **弱效火箭弹** — `BulletWeakRocket` ｜父类: BaseBulletTrigger
+- **一包 Bungo 种子** — `BungoSeeds` ｜父类: SeedBase
+- **烧伤自动注射器** — `BurnAutoInjector` ｜父类: ChemicalMedipen
+- **屠刀** — `ButchCleaver` ｜父类: BaseKnife
+- **C-4塑性炸药** — `C4` ｜父类: BasePlasticExplosive,BaseSyndicateContraband
+- **C-4塑性炸药** — `C4Worn` ｜父类: C4 ｜_Starlight
+- **包白菜籽** — `CabbageSeeds` ｜父类: SeedBase
+- **低压电缆卷** — `CableApcStack` ｜父类: CableStack
+- **低压电缆卷** — `CableApcStack1` ｜父类: CableApcStack
+- **低压电缆卷** — `CableApcStack10` ｜父类: CableApcStack
+- **简易手铐** — `Cablecuffs` ｜父类: Handcuffs
+- **断裂的电缆** — `CablecuffsBroken` ｜父类: BaseHandcuffsBroken
+- **爆破索** — `CableDetStack` ｜父类: CableStack,BaseSecurityContraband
+- **爆破索** — `CableDetStack1` ｜父类: CableDetStack
+- **爆破索** — `CableDetStack10` ｜父类: CableDetStack
+- **高压电缆卷** — `CableHVStack` ｜父类: CableStack
+- **高压电缆卷** — `CableHVStack1` ｜父类: CableHVStack
+- **高压电缆卷** — `CableHVStack10` ｜父类: CableHVStack
+- **中压电缆卷** — `CableMVStack` ｜父类: CableStack
+- **中压电缆卷** — `CableMVStack1` ｜父类: CableMVStack
+- **中压电缆卷** — `CableMVStack10` ｜父类: CableMVStack
+- `模板` **电缆卷** — `CableStack` ｜父类: BaseItem
+- **摄像头窃听器** — `CameraBug` ｜父类: BaseItem,BaseSyndicateContraband
+- **蜡烛** — `Candle` ｜父类: BaseItem
+- **黑色蜡烛** — `CandleBlack` ｜父类: Candle
+- **魔法黑色蜡烛** — `CandleBlackInfinite` ｜父类: CandleInfinite
+- **小号黑色蜡烛** — `CandleBlackSmall` ｜父类: CandleSmall
+- **小号魔法黑色蜡烛** — `CandleBlackSmallInfinite` ｜父类: CandleInfinite
+- **蓝色蜡烛** — `CandleBlue` ｜父类: Candle
+- **魔法蓝色蜡烛** — `CandleBlueInfinite` ｜父类: CandleInfinite
+- **小号蓝色蜡烛** — `CandleBlueSmall` ｜父类: CandleSmall
+- **小号魔法蓝色蜡烛** — `CandleBlueSmallInfinite` ｜父类: CandleInfinite
+- **绿色蜡烛** — `CandleGreen` ｜父类: Candle
+- **魔法绿色蜡烛** — `CandleGreenInfinite` ｜父类: CandleInfinite
+- **小号绿色蜡烛** — `CandleGreenSmall` ｜父类: CandleSmall
+- **小号魔法绿色蜡烛** — `CandleGreenSmallInfinite` ｜父类: CandleInfinite
+- **魔法蜡烛** — `CandleInfinite` ｜父类: BaseItem
+- **紫色蜡烛** — `CandlePurple` ｜父类: Candle
+- **魔法紫色蜡烛** — `CandlePurpleInfinite` ｜父类: CandleInfinite
+- **小号紫色蜡烛** — `CandlePurpleSmall` ｜父类: CandleSmall
+- **小号魔法紫色蜡烛** — `CandlePurpleSmallInfinite` ｜父类: CandleInfinite
+- **红色蜡烛** — `CandleRed` ｜父类: Candle
+- **魔法红色蜡烛** — `CandleRedInfinite` ｜父类: CandleInfinite
+- **小号红色蜡烛** — `CandleRedSmall` ｜父类: CandleSmall
+- **小号魔法红色蜡烛** — `CandleRedSmallInfinite` ｜父类: CandleInfinite
+- **小号蜡烛** — `CandleSmall` ｜父类: Candle
+- **糖果碗** — `CandyBowl` ｜父类: BaseItem
+- **糖果桶** — `CandyBucket` ｜父类: BaseItem
+- **手杖** — `Cane` ｜父类: BaseItem
+- **手杖剑** — `CaneBlade` ｜父类: BaseSword,BaseSyndicateContraband
+- **华丽手杖** — `CaneNT` ｜父类: BaseItem,BaseCommandContraband ｜_Starlight
+- **手杖** — `CaneSheath` ｜父类: Cane,SelectableLock
+- **手杖** — `CaneSheathFilled` ｜父类: CaneSheath
+- **大麻种子包** — `CannabisSeeds` ｜父类: SeedBase
+- **罐装掌声** — `CannedApplauseInstrument` ｜父类: BaseHandheldInstrument
+- **香蕉奶油派** — `CannonAmmoBananaCream` ｜父类: FoodPieBananaCream ｜_Starlight
+- **炮弹** — `CannonBall` ｜父类: BaseCannonBall
+- **玻璃霰弹** — `CannonBallGlassshot` ｜父类: BaseCannonBall
+- **葡萄弹** — `CannonBallGrapeshot` ｜父类: BaseCannonBall
+- **舰长ID卡** — `CaptainIDCard` ｜父类: IDCardStandard,BaseGrandTheftContraband
+- **舰长PDA** — `CaptainPDA` ｜父类: BasePDA
+- **舰长佩剑** — `CaptainSabre` ｜父类: BaseSword,BaseCommandContraband
+- **纸板防护罩** — `CardShield` ｜父类: BaseShield
+- **纸板剑** — `CardSword` ｜父类: BaseItem,BaseToySword
+- **货运悬赏 计算机主板** — `CargoBountyComputerCircuitboard` ｜父类: BaseComputerCircuitboard
+- **货运悬赏台式电脑电路板** — `CargoBountyComputerCircuitboardDesktop` ｜父类: CargoBountyComputerCircuitboard ｜_Starlight
+- **货运部通信控制台电路板** — `CargoCommsComputerCircuitboard` ｜父类: BaseComputerCircuitboard,BaseCommandContraband ｜_Starlight
+- **货运气体采购罐** — `CargoGasPalletBuy` ｜父类: CargoGasPalletSell ｜_Starlight
+- **货运气体销售罐** — `CargoGasPalletSell` ｜父类: GasUnaryBase ｜_Starlight
+- **货运部ID卡** — `CargoIDCard` ｜父类: IDCardStandard
+- **货物托盘** — `CargoPallet` ｜父类: BaseCargoPallet
+- **货物买托盘** — `CargoPalletBuy` ｜父类: BaseCargoPallet
+- **货物销售托盘** — `CargoPalletSell` ｜父类: BaseCargoPallet
+- **货运技师PDA** — `CargoPDA` ｜父类: BasePDA
+- **货运 请求终端 主板** — `CargoRequestComputerCircuitboard` ｜父类: BaseComputerCircuitboard
+- **货运请求台式电脑电路板** — `CargoRequestComputerCircuitboardDesktop` ｜父类: CargoRequestComputerCircuitboard ｜_Starlight
+- **工程 请求终端 主板** — `CargoRequestEngineeringComputerCircuitboard` ｜父类: BaseComputerCircuitboard
+- **工程部请求台式电脑电路板** — `CargoRequestEngineeringComputerCircuitboardDesktop` ｜父类: CargoRequestEngineeringComputerCircuitboard ｜_Starlight
+- **医疗 请求终端 主板** — `CargoRequestMedicalComputerCircuitboard` ｜父类: BaseComputerCircuitboard
+- **医疗部请求台式电脑电路板** — `CargoRequestMedicalComputerCircuitboardDesktop` ｜父类: CargoRequestMedicalComputerCircuitboard ｜_Starlight
+- **科研 请求终端 主板** — `CargoRequestScienceComputerCircuitboard` ｜父类: BaseComputerCircuitboard
+- **科研部请求台式电脑电路板** — `CargoRequestScienceComputerCircuitboardDesktop` ｜父类: CargoRequestScienceComputerCircuitboard ｜_Starlight
+- **安保 请求终端 主板** — `CargoRequestSecurityComputerCircuitboard` ｜父类: BaseComputerCircuitboard
+- **安保部请求台式电脑电路板** — `CargoRequestSecurityComputerCircuitboardDesktop` ｜父类: CargoRequestSecurityComputerCircuitboard ｜_Starlight
+- **服务 请求终端 主板** — `CargoRequestServiceComputerCircuitboard` ｜父类: BaseComputerCircuitboard
+- **服务部请求台式电脑电路板** — `CargoRequestServiceComputerCircuitboardDesktop` ｜父类: CargoRequestServiceComputerCircuitboard ｜_Starlight
+- **货运销售 计算机主板** — `CargoSaleComputerCircuitboard` ｜父类: BaseComputerCircuitboard
+- **远程 货运 穿梭机控制台 主板 # Starlight begin** — `CargoShuttleConsoleCircuitboard` ｜父类: BaseComputerCircuitboard
+- **货运传送台 机器主板** — `CargoTelepadMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **胡萝卜种子包** — `CarrotSeeds` ｜父类: SeedBase
+- **弹药（.48步枪）** — `Cartridge48Rifle` ｜父类: BaseCartridge,BaseMajorContraband ｜_Starlight
+- **50毫米火箭弹** — `Cartridge50mmRocket` ｜父类: BaseItem,BaseMajorContraband ｜_Starlight
+- **60毫米火箭弹** — `Cartridge60mmRocket` ｜父类: BaseItem,BaseMajorContraband ｜_Starlight
+- **AK-90型90毫米HE炮弹** — `CartridgeAK570_90mmHE` ｜父类: BaseAK570_90mmShell ｜_Starlight
+- **弹药（.60反器材）** — `CartridgeAntiMateriel` ｜父类: BaseCartridge,BaseMajorContraband
+- **弹药（激光）** — `CartridgeBattery` ｜父类: BaseCartridgeBattery ｜_Starlight
+- **玩具火帽枪弹药** — `CartridgeCap` ｜父类: BaseCartridgeCap
+- **弹药（.25无壳）** — `CartridgeCaselessRifle` ｜父类: BaseCartridgeCaselessRifle
+- **弹药（.25无壳泡沫）** — `CartridgeCaselessRifleFoam` ｜父类: BaseCartridgeCaselessRifle ｜_Starlight
+- **弹药（.25无壳训练弹）** — `CartridgeCaselessRiflePractice` ｜父类: BaseCartridgeCaselessRifle
+- **弹药（.25无壳橡胶）** — `CartridgeCaselessRifleRubber` ｜父类: BaseCartridgeCaselessRifle ｜_Starlight
+- **M381“卡律布狄斯”280毫米26.5千克穿透弹** — `CartridgeCharon280mmSlug` ｜父类: BaseCharon280mmCartridge ｜_Starlight
+- **M381“卡律布狄斯”280毫米40千克次核弹** — `CartridgeCharon280mmSubnuclear` ｜父类: BaseCharon280mmCartridge ｜_Starlight
+- **DVN-75型75毫米HE炮弹** — `CartridgeDravon75mmHE` ｜父类: BaseDravon75mmShell ｜_Starlight
+- **LVT-240型240毫米HE炮弹** — `CartridgeLeviathan240mmHE` ｜父类: BaseLeviathan240mmShell ｜_Starlight
+- **弹药（.30步枪AP）** — `CartridgeLightRifleAP` ｜父类: BaseCartridgeLightRifleSP ｜_Starlight
+- **弹药（.30步枪FMJ）** — `CartridgeLightRifleFMJ` ｜父类: BaseCartridgeLightRifleSP ｜_Starlight
+- **弹药（.30轻型步枪泡沫）** — `CartridgeLightRifleFoam` ｜父类: BaseCartridgeLightRifleSP ｜_Starlight
+- **弹药（.30步枪HP）** — `CartridgeLightRifleHP` ｜父类: BaseCartridgeLightRifleSP ｜_Starlight
+- **土制弹药（.30步枪）** — `CartridgeLightRifleImprovised` ｜父类: BaseCartridgeLightRifleSP,BaseMinorContraband ｜_Starlight
+- **弹药（.30步枪燃烧弹）** — `CartridgeLightRifleIncendiary` ｜父类: BaseCartridgeLightRifleSP
+- **弹药（.30步枪训练弹）** — `CartridgeLightRiflePractice` ｜父类: BaseCartridgeLightRifleSP
+- **弹药（.30步枪橡胶）** — `CartridgeLightRifleRubber` ｜父类: BaseCartridgeLightRifleSP ｜_Starlight
+- **弹药（.30步枪标准弹）** — `CartridgeLightRifleSP` ｜父类: BaseCartridgeLightRifleSP
+- **弹药（.30步枪铀芯弹）** — `CartridgeLightRifleUranium` ｜父类: BaseCartridgeLightRifleSP
+- **弹药（.45马格南穿甲弹）** — `CartridgeMagnumAP` ｜父类: BaseCartridgeMagnum
+- **弹药（.45马格南FMJ）** — `CartridgeMagnumFMJ` ｜父类: BaseCartridgeMagnum ｜_Starlight
+- **弹药（.45马格南HP）** — `CartridgeMagnumHP` ｜父类: BaseCartridgeMagnum ｜_Starlight
+- **土制弹药（.45马格南）** — `CartridgeMagnumImprovised` ｜父类: BaseCartridgePistol,BaseMinorContraband ｜_Starlight
+- **弹药（.45马格南燃烧弹）** — `CartridgeMagnumIncendiary` ｜父类: BaseCartridgeMagnum
+- **弹药（.45马格南训练弹）** — `CartridgeMagnumPractice` ｜父类: BaseCartridgeMagnum
+- **弹药（.45马格南橡胶）** — `CartridgeMagnumRubber` ｜父类: BaseCartridgeMagnum ｜_Starlight
+- **弹药（.45马格南标准弹）** — `CartridgeMagnumSP` ｜父类: BaseCartridgeMagnum
+- **弹药（.45马格南铀芯弹）** — `CartridgeMagnumUranium` ｜父类: BaseCartridgeMagnum
+- **弹药（.10步枪弹）** — `CartridgeMinigun` ｜父类: BaseCartridgeHeavyRifle
+- **弹药（.40AP）** — `CartridgePistol40AP` ｜父类: CartridgePistol40SP ｜_Starlight
+- **弹药（.40FMJ）** — `CartridgePistol40FMJ` ｜父类: CartridgePistol40SP ｜_Starlight
+- **弹药（.40HP）** — `CartridgePistol40HP` ｜父类: CartridgePistol40SP ｜_Starlight
+- **弹药（.40SP）** — `CartridgePistol40SP` ｜父类: BaseCartridgePistol ｜_Starlight
+- **弹药（.35自动AP）** — `CartridgePistolAP` ｜父类: BaseCartridgePistol ｜_Starlight
+- **弹药（.35自动FMJ）** — `CartridgePistolFMJ` ｜父类: BaseCartridgePistol ｜_Starlight
+- **弹药（.35自动泡沫）** — `CartridgePistolFoam` ｜父类: BaseCartridgePistol ｜_Starlight
+- **弹药（.35自动HP）** — `CartridgePistolHP` ｜父类: BaseCartridgePistol ｜_Starlight
+- **土制弹药（.35自动）** — `CartridgePistolImprovised` ｜父类: BaseCartridgePistol,BaseMinorContraband ｜_Starlight
+- **弹药（.35自动燃烧弹）** — `CartridgePistolIncendiary` ｜父类: BaseCartridgePistol
+- **弹药（.35自动训练弹）** — `CartridgePistolPractice` ｜父类: BaseCartridgePistol
+- **弹药（.35自动橡胶）** — `CartridgePistolRubber` ｜父类: BaseCartridgePistol ｜_Starlight
+- **弹药（.35自动标准弹）** — `CartridgePistolSP` ｜父类: BaseCartridgePistol
+- **弹药（.35自动）** — `CartridgePistolSpent` ｜父类: BaseCartridgePistol
+- **弹药（.35自动铀芯弹）** — `CartridgePistolUranium` ｜父类: BaseCartridgePistol
+- **弹药（.20步枪AP）** — `CartridgeRifleAP` ｜父类: BaseCartridgeRifle ｜_Starlight
+- **弹药（.20步枪FMJ）** — `CartridgeRifleFMJ` ｜父类: BaseCartridgeRifle ｜_Starlight
+- **弹药（.20步枪泡沫）** — `CartridgeRifleFoam` ｜父类: BaseCartridgeRifle ｜_Starlight
+- **弹药（.20步枪HP）** — `CartridgeRifleHP` ｜父类: BaseCartridgeRifle ｜_Starlight
+- **弹药（.20步枪燃烧弹）** — `CartridgeRifleIncendiary` ｜父类: BaseCartridgeRifle
+- **弹药（.20步枪训练弹）** — `CartridgeRiflePractice` ｜父类: BaseCartridgeRifle
+- **弹药（.20步枪橡胶）** — `CartridgeRifleRubber` ｜父类: BaseCartridgeRifle ｜_Starlight
+- **弹药（.20步枪标准弹）** — `CartridgeRifleSP` ｜父类: BaseCartridgeRifle
+- **弹药（.20步枪铀芯弹）** — `CartridgeRifleUranium` ｜父类: BaseCartridgeRifle
+- **PG-7VL 榴弹** — `CartridgeRocket` ｜父类: BaseItem,BaseMajorContraband
+- **EMP火箭榴弹** — `CartridgeRocketEMP` ｜父类: BaseItem,BaseMajorContraband ｜_Starlight
+- **PG-7VL“蜗牛火箭”榴弹** — `CartridgeRocketSlow` ｜父类: BaseItem,BaseMajorContraband
+- **雕刻南瓜** — `CarvedPumpkin` ｜父类: BaseItem
+- **雕刻南瓜** — `CarvedPumpkinLarge` ｜父类: CarvedPumpkin
+- **雕刻南瓜** — `CarvedPumpkinSmall` ｜父类: CarvedPumpkin
+- **盒式磁带** — `CassetteTape` ｜父类: BaseItem ｜_Starlight
+- **盒式磁带** — `CassetteTapeInterview` ｜父类: CassetteTape ｜_Starlight
+- **烧灼器** — `Cautery` ｜父类: BaseToolSurgery
+- **绑架者的烧灼器** — `CauteryAbductor` ｜父类: Cautery ｜_Starlight
+- **烧灼器** — `CauteryCyber` ｜父类: Cautery ｜_Starlight
+- **烧灼器** — `CauteryRipper` ｜父类: Cautery ｜_Starlight
+- **生化应急响应队 ID卡** — `CBURNIDcard` ｜父类: IDCardStandard ｜_Starlight
+- **CBURN特遣队PDA** — `CBURNPDA` ｜父类: ERTLeaderPDA
+- **密码编码器** — `CCEmag` ｜父类: CCEmagUnlimited ｜_Starlight
+- **密码编码器** — `CCEmagUnlimited` ｜父类: BaseItem,BaseCentcommContraband ｜_Starlight
+- **绿盾干员 ID卡** — `CCGreenShieldIDCard` ｜父类: IDCardStandard,BaseCommandContraband ｜_Starlight
+- **中央指挥部莫普蟑方块** — `CCMoproachCube` ｜父类: RehydratableAnimalCube ｜_Starlight
+- **工程主管ID卡** — `CEIDCard` ｜父类: IDCardStandard
+- **大提琴** — `CelloInstrument` ｜父类: BaseStringInstrument
+- **电池充电器 机器主板** — `CellRechargerCircuitboard` ｜父类: BaseMachineCircuitboard
+- **指挥部军官 ID卡** — `CentcomIDCard` ｜父类: IDCardStandard ｜_Starlight
+- **死亡小队 ID卡** — `CentcomIDCardDeathsquad` ｜父类: IDCardStandard ｜_Starlight
+- **错误 ID卡** — `CentcomIDCardDecimus` ｜父类: IDCardStandard ｜_Starlight
+- **纳米传讯安保部队 ID卡** — `CentcomIDCardNTSF` ｜父类: IDCardStandard ｜_Starlight
+- **中央指挥部操作员 ID卡** — `CentcomIDCardOperator` ｜父类: IDCardStandard,BaseCentcommContraband ｜_Starlight
+- **中央指挥部破拆模块** — `CentcommAccessBreakerModule` ｜父类: BaseBorgModuleCentcomm,BaseProviderBorgModule,BaseCentcommContraband ｜_Starlight
+- **中央指挥部壁垒模块** — `CentcommBulwarkModule` ｜父类: BaseBorgModuleCentcomm,BaseProviderBorgModule,BaseCentcommContraband ｜_Starlight
+- **中央指挥部 通讯计算机 主板** — `CentcommCommsComputerCircuitboard` ｜父类: BaseComputerCircuitboard,BaseCentcommContraband
+- **中央指挥部平板** — `CentCommCommunicationTablet` ｜父类: BaseCentcommContraband,BaseCommunicationTablet ｜_Starlight
+- **赛博格 脉冲卡宾枪** — `CentcommCyborgLaser` ｜父类: BaseCentcommContraband,WeaponAdvancedLaser ｜_Starlight
+- **中央指挥部鎏金翻盖打火机  # Starlight-edit** — `CentCommFlippo` ｜父类: BaseBrandedLighter,BaseCentcommContraband
+- **绿盾 PDA** — `CentCommGreenShieldPDA` ｜父类: BasePDA ｜_Starlight
+- **中央指挥部赛博格激光模块** — `CentcommLaserModule` ｜父类: BaseBorgModuleCentcomm,BaseProviderBorgModule,BaseCentcommContraband ｜_Starlight
+- **中央指挥部太空移动模块** — `CentcommModuleSpaceMovement` ｜父类: BaseBorgModuleCentcomm,BaseProviderBorgModule,BaseCentcommContraband ｜_Starlight
+- **中央指挥部PDA** — `CentCommOperatorPDA` ｜父类: CentcomPDA ｜_Starlight
+- **SCSPT-111 振动刃** — `CentcommVibroblade` ｜父类: BaseSword,BaseCentcommContraband ｜_Starlight
+- **中央指挥部PDA** — `CentcomPDA` ｜父类: BaseSecurityPDA
+- **离心机 机器主板** — `CentrifugeMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **工程主管PDA** — `CEPDA` ｜父类: BasePDA
+- **瑟伦矿燃料棒 # These are your basic, semi-harmless fuel rods** — `CerenkiteReactorFuelRod` ｜父类: BaseReactorFuelRod ｜_FarHorizons
+- **蔚蓝色史莱姆提取物** — `CeruleanSlimeExtract` ｜父类: BaseSlimeExtract ｜_Starlight
+- **蔚蓝色史莱姆提取物（已填充）** — `CeruleanSlimeExtractFilled` ｜父类: BaseSlimeExtractFilled,CeruleanSlimeExtract ｜_Starlight
+- **链锯** — `Chainsaw` ｜父类: BaseItem
+- **神圣链锯剑** — `ChainsawSword` ｜父类: BaseSword ｜_Starlight
+- **链镰** — `ChainSickle` ｜父类: GrapplingHook ｜_Moffstation
+- **助手PDA** — `ChameleonAgentPDA` ｜父类: ChameleonPDA
+- **变色龙控制植入物** — `ChameleonControllerImplant` ｜父类: BaseSubdermalImplant
+- **变色龙控制植入器** — `ChameleonControllerImplanter` ｜父类: BaseImplantOnlyImplanterSyndi
+- **乌里斯特·麦克莱纳** — `ChameleonDisguise`
+- **助手PDA** — `ChameleonPDA` ｜父类: BasePDA,SelectableLock
+- **变色龙投影仪** — `ChameleonProjector` ｜父类: ChameleonProjectorNoBattery
+- **变色龙投影仪** — `ChameleonProjectorNoBattery` ｜父类: BaseItem,BaseSyndicateContraband
+- **有机盾牌** — `ChangelingShield` ｜父类: BaseShield ｜_Starlight
+- **鸡油菌孢子包** — `ChanterelleSeeds` ｜父类: SeedBase
+- **牧师ID卡** — `ChaplainIDCard` ｜父类: IDCardStandard
+- **牧师PDA** — `ChaplainPDA` ｜父类: BasePDA
+- **廉价绝缘布料** — `CheapInsulatedFabric` ｜父类: BaseItem ｜_Starlight
+- **廉价打火机** — `CheapLighter` ｜父类: Lighter
+- **西洋跳棋盘** — `CheckerBoard` ｜父类: BaseBoardEntity
+- **checkerboard** — `CheckerBoardTabletop` ｜父类: BaseBoardTabletop
+- **black checker crown** — `CheckerCrownBlack` ｜父类: BaseTabletopPiece
+- **white checker crown** — `CheckerCrownWhite` ｜父类: BaseTabletopPiece
+- **black checker piece** — `CheckerPieceBlack` ｜父类: BaseTabletopPiece
+- **white checker piece** — `CheckerPieceWhite` ｜父类: BaseTabletopPiece
+- **厨师ID卡** — `ChefIDCard` ｜父类: IDCardStandard
+- **厨师PDA** — `ChefPDA` ｜父类: BasePDA
+- **化学袋** — `ChemBag` ｜父类: BaseStorageItem
+- **化学品分配器 机器主板** — `ChemDispenserMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **化学药笔** — `ChemicalMedipen` ｜父类: BaseHypospray
+- **化学载荷** — `ChemicalPayload` ｜父类: BasePayload,BaseMedicalScienceContraband
+- **药剂师ID卡** — `ChemistIDCard` ｜父类: IDCardStandard
+- **瓶子** — `ChemistryBottleAcetone` ｜父类: BaseChemistryBottleFilled ｜_Starlight
+- **瓶子** — `ChemistryBottleAloxadone` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleAluminium` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleAmbuzol` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleAmbuzolPlus` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleAmmonia` ｜父类: BaseChemistryBottleFilled ｜_Starlight
+- **瓶子** — `ChemistryBottleAmoxla` ｜父类: BaseChemistryBottleFilled ｜_Starlight
+- **瓶子** — `ChemistryBottleArithrazine` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleBarozine` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleBicaridine` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleBruizine` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleCarbon` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleCharcoal` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleChloralHydrate` ｜父类: BaseChemistryBottleFilled ｜_Starlight
+- **瓶子** — `ChemistryBottleChlorine` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleCognizine` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleCopper` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleCornoil` ｜父类: BaseChemistryBottleFilled ｜_Starlight
+- **瓶子** — `ChemistryBottleCryoxadone` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleCryptobiolin` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleDermaline` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleDesoxyephedrine` ｜父类: BaseChemistryBottleFilled ｜_Starlight
+- **瓶子** — `ChemistryBottleDexalin` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleDexalinPlus` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleDiphenhydramine` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleDiphenylmethylamine` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleDoctorsDelight` ｜父类: BaseChemistryBottleFilled ｜_Starlight
+- **瓶子** — `ChemistryBottleDoxarubixadone` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleDylovene` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleEphedrine` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleEpinephrine` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleEthanol` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleEthyloxyephedrine` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleEthylredoxrazine` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleEZNutrient` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleFluorine` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleHaloperidol` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleHew` ｜父类: BaseChemistryBottleFilled ｜_Starlight
+- **瓶子** — `ChemistryBottleHolywater` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleHydrogen` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleHyronalin` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleIceialin` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleInaprovaline` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleInsuzine` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleIodine` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleIpecac` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleIron` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleKelotane` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleLacerinol` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleLaughter` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleLead` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleLeft4Zed` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleLeporazine` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleLipozine` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleLithium` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleMannitol` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleMercury` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleMuteToxin` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleNecrosol` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleNitrogen` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleNocturine` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleOculine` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleOil` ｜父类: BaseChemistryBottleFilled ｜_Starlight
+- **瓶子** — `ChemistryBottleOmnizine` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleOpporozidone` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleOxygen` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottlePax` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottlePhalanximine` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottlePhenol` ｜父类: BaseChemistryBottleFilled ｜_Starlight
+- **瓶子** — `ChemistryBottlePhosphorus` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottlePolypyryliumOligomers` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottlePotassium` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottlePotassiumIodide` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottlePsicodine` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottlePulpedBananaPeel` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottlePuncturase` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottlePyrazine` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleRadium` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleRobustHarvest` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleSaline` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleSiderlac` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleSigynate` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleSilicon` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleSodium` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleStellibinin` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleSugar` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleSulfur` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleSynaptizine` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleTazinide` ｜父类: BaseChemistryBottleFilled ｜_Starlight
+- **瓶子** — `ChemistryBottleToxin` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleTranexamicAcid` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleTricordrazine` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleUltravasculine` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleUnstableMutagen` ｜父类: BaseChemistryBottleFilled
+- **瓶子** — `ChemistryBottleWeh` ｜父类: BaseChemistryBottleFilled ｜_Starlight
+- **瓶子** — `ChemistryBottleWeldingFuel` ｜父类: BaseChemistryBottleFilled ｜_Starlight
+- **瓶子** — `ChemistryEmptyBottle01` ｜父类: BaseChemistryEmptyBottle
+- **瓶子** — `ChemistryEmptyBottle02` ｜父类: BaseChemistryEmptyBottle
+- **瓶子** — `ChemistryEmptyBottle03` ｜父类: BaseChemistryEmptyBottle
+- **瓶子** — `ChemistryEmptyBottle04` ｜父类: BaseChemistryEmptyBottle
+- **小瓶** — `ChemistryEmptyVial` ｜父类: BaseChemistryVial
+- **迷你瓶** — `ChemistryEmptyVialSmall` ｜父类: BaseChemistryVial
+- **药剂师PDA # Starlight** — `ChemistryPDA` ｜父类: BaseMedicalPDA
+- **ChemMaster 4000 机器主板** — `ChemMasterMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **包樱桃籽** — `CherrySeeds` ｜父类: SeedBase
+- **国际象棋棋盘** — `ChessBoard` ｜父类: BaseBoardEntity
+- **chessboard** — `ChessBoardTabletop` ｜父类: BaseBoardTabletop
+- **包辣椒籽** — `ChiliSeeds` ｜父类: SeedBase
+- **冷瓜子包** — `ChillySeeds` ｜父类: SeedBase
+- **迷你瓶** — `ChlorineChemistryVial` ｜父类: ChemistryEmptyVialSmall
+- **当克公司 Chono Loke 套装** — `ChonoLokeBundleBag` ｜父类: Foolbox ｜_Starlight
+- **柯诺香蕉奶油派罐** — `ChonoLokeCreamPieShell` ｜父类: BaseGrenade ｜_Starlight
+- **假爆炸榴弹** — `ChonoLokeFakeBlastShell` ｜父类: BaseGrenade ｜_Starlight
+- **假破片榴弹** — `ChonoLokeFakeFragShell` ｜父类: BaseGrenade ｜_Starlight
+- **筷子** — `ChopSticks` ｜父类: BaseItem
+- **大烧杯** — `ChronexalineBeakerLarge` ｜父类: LargeBeaker ｜_Starlight
+- **教堂管风琴** — `ChurchOrganInstrument` ｜父类: BasePlaceableInstrumentRotatable
+- **雪茄** — `Cigar` ｜父类: BaseCigar
+- **雪茄盒** — `CigarCase` ｜父类: BaseStorageItem,BaseBagOpenClose
+- **香烟** — `Cigarette` ｜父类: BaseCigar
+- **罗马管道工坊** — `CigaretteArithrazine` ｜父类: SoakedCigarette
+- **潘潘的热带假期** — `CigaretteBanana` ｜父类: SoakedCigarette
+- **辛辣木香** — `CigaretteBbqSauce` ｜父类: SoakedCigarette
+- **湿狗加强型香烟** — `CigaretteBicaridine` ｜父类: SoakedCigarette
+- **英式香料** — `CigaretteBlackPepper` ｜父类: SoakedCigarette
+- **灰人的特制烟** — `CigaretteBub` ｜父类: Cigarette ｜_Starlight
+- **冰凉 P** — `CigaretteCapsaicinOil` ｜父类: SoakedCigarette
+- **芦荟花生酱杂烩** — `CigaretteDermaline` ｜父类: SoakedCigarette
+- **落基山麝香** — `CigaretteDexalin` ｜父类: SoakedCigarette
+- **尿斗芳香球溶解剂** — `CigaretteDylovene` ｜父类: SoakedCigarette
+- **香烟滤嘴** — `CigaretteFilter` ｜父类: BaseItem
+- **香烟滤嘴** — `CigaretteFilter1` ｜父类: CigaretteFilter
+- **大气冒险** — `CigaretteFrezon` ｜父类: SoakedCigarette
+- **温热牛类提取物** — `CigaretteHaloperidol` ｜父类: SoakedCigarette
+- **铁锈橙巴哈爆破** — `CigaretteIron` ｜父类: SoakedCigarette
+- **小丑相邻加成** — `CigaretteLaughter` ｜父类: SoakedCigarette
+- **金属脑袋** — `CigaretteLead` ｜父类: SoakedCigarette ｜_Starlight
+- **起床铃** — `CigaretteLicoxide` ｜父类: SoakedCigarette
+- **八十年代健身计划** — `CigaretteLipolicide` ｜父类: SoakedCigarette
+- **水槽之下体验** — `CigaretteMold` ｜父类: SoakedCigarette
+- **奶奶的圣诞水果蛋糕** — `CigaretteNutriment` ｜父类: SoakedCigarette
+- **热狗水风味爆炸** — `CigaretteOmnizine` ｜父类: SoakedCigarette
+- **巨龙约会模拟器** — `CigarettePhlogiston` ｜父类: SoakedCigarette
+- **前任射线** — `CigaretteRadium` ｜父类: SoakedCigarette
+- **嬉皮爱情小说** — `CigaretteRobustHarvest` ｜父类: SoakedCigarette
+- **北大西洋巡游** — `CigaretteSaline` ｜父类: SoakedCigarette
+- **不健康习惯** — `CigaretteSodiumPolyacrylate` ｜父类: SoakedCigarette
+- **香烟** — `CigaretteSpent` ｜父类: Cigarette
+- **香烟** — `CigaretteSyndicate` ｜父类: Cigarette
+- **什锦甘草糖** — `CigaretteTricordrazine` ｜父类: SoakedCigarette
+- **等离子体酱汁** — `CigaretteWeldingFuel` ｜父类: SoakedCigarette
+- **高级哈瓦那雪茄** — `CigarGold` ｜父类: Cigar
+- **高级雪茄盒** — `CigarGoldCase` ｜父类: CigarCase
+- **高级哈瓦那雪茄** — `CigarGoldSpent` ｜父类: CigarGold
+- **雪茄** — `CigarSpent` ｜父类: Cigar
+- **游牧牌条装烟** — `CigCartonBlack` ｜父类: CigCartonGreen
+- **AcmeCo 条装烟** — `CigCartonBlue` ｜父类: CigCartonGreen
+- **太空人香烟条装烟** — `CigCartonGreen` ｜父类: BoxCardboard,BaseBagOpenClose
+- **丹的浸泡香烟** — `CigCartonMixed` ｜父类: CigCartonGreen
+- **DromedaryCo 条装烟** — `CigCartonRed` ｜父类: CigCartonGreen
+- `模板` **香烟包** — `CigPackBase` ｜父类: BaseStorageItem,BaseBagOpenClose
+- **游牧牌香烟包** — `CigPackBlack` ｜父类: CigPackBase
+- **AcmeCo 香烟包** — `CigPackBlue` ｜父类: CigPackBase
+- **灰人特制烟包** — `CigPackBub` ｜父类: PackPaperRolling ｜_Starlight
+- **太空人香烟包** — `CigPackGreen` ｜父类: CigPackBase
+- **药用烟卷包** — `CigPackMedRollie` ｜父类: PackPaperRolling ｜_Starlight
+- **丹的浸泡香烟** — `CigPackMixed` ｜父类: CigPackMixedBase
+- `模板` **浸泡香烟包** — `CigPackMixedBase` ｜父类: BaseStorageItem,BaseBagOpenClose
+- **DromedaryCo 香烟包** — `CigPackRed` ｜父类: CigPackBase
+- **手卷烟包** — `CigPackRollie` ｜父类: PackPaperRolling ｜_Starlight
+- **格拉特沙虫烟盒** — `CigPackSoviet` ｜父类: CigPackBase ｜_Starlight
+- **因特戴恩草药香烟包** — `CigPackSyndicate` ｜父类: CigPackBase
+- **燃桂种子包** — `CinnaflareSeeds` ｜父类: SeedBase ｜_Starlight
+- **燃桂棒** — `CinnaflareStick` ｜父类: Flare ｜_Starlight
+- **肉桂种子包** — `CinnamonSeeds` ｜父类: SeedBase ｜_Starlight
+- **超对流 电路打印机 机器主板** — `CircuitImprinterHyperConvectionMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **电路打印机 机器主板** — `CircuitImprinterMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **单簧管** — `ClarinetInstrument` ｜父类: BaseWoodwindInstrument
+- **克拉克中央控制模块** — `ClarkeCentralElectronics` ｜父类: BaseElectronics ｜_Starlight
+- **克拉克底盘** — `ClarkeChassis` ｜父类: BaseClarkePart ｜_Starlight
+- **克拉克骨架** — `ClarkeHarness` ｜父类: BaseClarkePart ｜_Starlight
+- **克拉克头部** — `ClarkeHead` ｜父类: BaseClarkePartItem ｜_Starlight
+- **克拉克左臂** — `ClarkeLArm` ｜父类: BaseClarkePartItem ｜_Starlight
+- **克拉克外设控制模块** — `ClarkePeripheralsElectronics` ｜父类: BaseElectronics ｜_Starlight
+- **克拉克右臂** — `ClarkeRArm` ｜父类: BaseClarkePartItem ｜_Starlight
+- **克拉克履带** — `ClarkeTreads` ｜父类: BaseClarkePartItem ｜_Starlight
+- **公司机密文件** — `ClassifiedCorporateDocumentAbductors` ｜父类: ImportantDocumentGeneric,BaseGrandTheftContraband ｜_Starlight
+- **公司机密文件** — `ClassifiedCorporateDocumentCultCosmic` ｜父类: ImportantDocumentGeneric,BaseGrandTheftContraband ｜_Starlight
+- **公司机密文件** — `ClassifiedCorporateDocumentDecimus` ｜父类: ImportantDocumentGeneric,BaseGrandTheftContraband ｜_Starlight
+- **公司机密文件** — `ClassifiedCorporateDocumentNinjas` ｜父类: ImportantDocumentGeneric,BaseGrandTheftContraband ｜_Starlight
+- **公司机密文件** — `ClassifiedCorporateDocumentNukies` ｜父类: ImportantDocumentGeneric,BaseGrandTheftContraband ｜_Starlight
+- **公司机密文件** — `ClassifiedCorporateDocumentRomerol` ｜父类: ImportantDocumentGeneric,BaseGrandTheftContraband ｜_Starlight
+- **犯罪机密文件** — `ClassifiedCriminalDocumentARC` ｜父类: ImportantDocumentGeneric,BaseLawContraband ｜_Starlight
+- **犯罪机密文件** — `ClassifiedCriminalDocumentComitas` ｜父类: ImportantDocumentGeneric,BaseLawContraband ｜_Starlight
+- **犯罪机密文件** — `ClassifiedCriminalDocumentSELF` ｜父类: ImportantDocumentGeneric,BaseLawContraband ｜_Starlight
+- **犯罪机密文件** — `ClassifiedCriminalDocumentTigerCooperative` ｜父类: ImportantDocumentGeneric,BaseLawContraband ｜_Starlight
+- **安保机密文件** — `ClassifiedSecureDocumentRevolutionaries` ｜父类: ImportantDocumentGeneric,BaseSecurityContraband ｜_Starlight
+- **安保机密文件** — `ClassifiedSecureDocumentVampires` ｜父类: ImportantDocumentGeneric,BaseSecurityContraband ｜_Starlight
+- **安保机密文件** — `ClassifiedSecureDocumentWizards` ｜父类: ImportantDocumentGeneric,BaseSecurityContraband ｜_Starlight
+- **安保机密文件** — `ClassifiedSecureDocumentXenoborgs` ｜父类: ImportantDocumentGeneric,BaseSecurityContraband ｜_Starlight
+- **双手大剑** — `Claymore` ｜父类: BaseSword,BaseMajorContraband
+- **破潮者** — `ClaymoreForged` ｜父类: BaseSword,BaseMajorContraband ｜_Starlight
+- **清洁手榴弹** — `CleanerGrenade` ｜父类: BaseCivilianContraband,SmokeGrenade
+- **透明PDA** — `ClearPDA` ｜父类: BasePDA
+- **隐形装置** — `CloakingDevice` ｜父类: BaseItem,BaseXenoborgContraband
+- **发条盾** — `ClockworkShield` ｜父类: BaseRepairableShield
+- **克隆控制台 计算机主板** — `CloningConsoleComputerCircuitboard` ｜父类: BaseComputerCircuitboard
+- **克隆舱 机器主板** — `CloningPodMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **Syndicate Assault Cyborg bundle** — `ClothingBackpackDuffelSyndicateFilledSyndicateCyborgAssault` ｜父类: ClothingBackpackDuffelSyndicateBundle ｜_Starlight
+- **辛迪加医疗赛博格套装** — `ClothingBackpackDuffelSyndicateFilledSyndicateCyborgMedical` ｜父类: ClothingBackpackDuffelSyndicateBundle ｜_Starlight
+- **辛迪加破坏型赛博格套装** — `ClothingBackpackDuffelSyndicateFilledSyndicateCyborgSaboteur` ｜父类: ClothingBackpackDuffelSyndicateBundle ｜_Starlight
+- **辛迪加隐匿型赛博格套装** — `ClothingBackpackDuffelSyndicateFilledSyndicateCyborgStealth` ｜父类: ClothingBackpackDuffelSyndicateBundle ｜_Starlight
+- **约束衣** — `ClothingOuterStraightjacket` ｜父类: Handcuffs
+- **小丑ID卡** — `ClownIDCard` ｜父类: IDCardStandard
+- **肌腱** — `ClownKudzu` ｜父类: FleshKudzu ｜_Starlight
+- **小丑PDA** — `ClownPDA` ｜父类: BasePDA
+- **小丑皮纳塔彩罐** — `ClownPinata` ｜父类: BasePinata ｜_Starlight
+- **小丑皮纳塔彩罐** — `ClownPinataDamaged` ｜父类: ClownPinata ｜_Starlight
+- **小丑皮纳塔残骸** — `ClownPinataDestroyed` ｜父类: BaseItem ｜_Starlight
+- **小丑录音机** — `ClownRecorder` ｜父类: BaseItem
+- **集束香蕉皮** — `ClusterBananaPeel` ｜父类: FragileGrenadeBase,ScatteringGrenadeBase,BaseSyndicateContraband
+- **集束震撼弹** — `ClusterBang` ｜父类: FragileGrenadeBase,ScatteringGrenadeBase,BaseSecurityContraband
+- **集束震撼弹** — `ClusterBangFull` ｜父类: ClusterBang
+- **集束手榴弹** — `ClusterGrenade` ｜父类: VolatileGrenadeBase,ScatteringGrenadeBase,BaseSyndicateContraband
+- **受诅小丑兽 ID卡** — `CluwneBeastIDCard` ｜父类: IDCardStandard ｜_Starlight
+- **受诅小丑 PDA** — `CluwneBeastPDA` ｜父类: ClownPDA ｜_Starlight
+- **损坏的自行车喇叭** — `CluwneHorn` ｜父类: BaseItem
+- **受诅小丑ID卡** — `CluwneIDCard` ｜父类: IDCardStandard
+- **受诅小丑PDA** — `CluwnePDA` ｜父类: ClownPDA
+- **医疗主管ID卡** — `CMOIDCard` ｜父类: IDCardStandard
+- **医疗主管行医执照** — `CMOLicense` ｜父类: BasePaper,BaseGrandTheftContraband ｜_Starlight
+- **医疗主管PDA** — `CMOPDA` ｜父类: BaseMedicalPDA
+- **煤** — `Coal` ｜父类: OreBase
+- **煤** — `Coal1` ｜父类: Coal
+- **煤** — `Coal10` ｜父类: Coal
+- **煤** — `Coal15` ｜父类: Coal
+- **煤** — `Coal5` ｜父类: Coal
+- **蟑螂方块** — `CockroachCube` ｜父类: RehydratableAnimalCube
+- **一包可可籽** — `CocoaSeeds` ｜父类: SeedBase
+- **咖啡分配器电路板** — `CoffeeDispenserMachineCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **战斗刀** — `CombatKnife` ｜父类: BaseKnife,BaseSecurityContraband
+- `模板` **CombatMech** — `CombatMech` ｜_Starlight
+- `模板` **CombatMechEquipment** — `CombatMechEquipment` ｜_Starlight
+- **战斗医疗笔** — `CombatMedipen` ｜父类: ChemicalMedipen,BaseSyndicateContraband
+- **辛迪加指挥官 ID卡** — `CommanderIDCard` ｜父类: IDCardStandard,BaseSyndicateContraband ｜_Starlight
+- **指挥官 PDA** — `CommanderPDA` ｜父类: BasePDA ｜_Starlight
+- **战壕哨** — `CommanderWhistle` ｜父类: BaseWhistle,BaseMinorContraband
+- **法则主板（十诫）** — `CommandmentCircuitBoard` ｜父类: BaseSiliconLawboard,BaseSecurityScienceCommandContraband
+- **指挥部追踪植入器** — `CommandTrackerImplanter` ｜父类: BaseImplantOnlyImplanter ｜_Starlight
+- **指挥部追踪植入物** — `CommandTrackingImplant` ｜父类: TrackingImplant ｜_Starlight
+- **法则板（共产莫夫）** — `CommiemovCircuitBoard` ｜父类: BaseElectronics,BaseSovietContraband ｜_Starlight
+- **通讯计算机 主板** — `CommsComputerCircuitboard` ｜父类: BaseComputerCircuitboard,BaseCommandContraband
+- **舰长管理平板** — `CommunicationTablet` ｜父类: BaseCommunicationTablet ｜_Starlight
+- **神器** — `ComplexXenoArtifact` ｜父类: BaseXenoArtifactStructure
+- **神器** — `ComplexXenoArtifactItem` ｜父类: BaseXenoArtifactItem
+- **IFF 控制台主板** — `ComputerIFFCircuitboard` ｜父类: BaseComputerCircuitboard
+- **辛迪加 IFF 控制台主板** — `ComputerIFFSyndicateCircuitboard` ｜父类: BaseComputerCircuitboard,BaseSyndicateContraband
+- **新闻管理 控制台主板** — `ComputerMassMediaCircuitboard` ｜父类: BaseComputerCircuitboard
+- **新闻管理台式电脑电路板** — `ComputerMassMediaCircuitboardDesktop` ｜父类: ComputerMassMediaCircuitboard ｜_Starlight
+- **个人台式电脑电路板** — `ComputerPersonalCircuitboardDesktop` ｜父类: BaseComputerCircuitboard ｜_Starlight
+- **电视机 主板** — `ComputerTelevisionCircuitboard` ｜父类: BaseComputerCircuitboard
+- **异形赛博格控制 控制台主板** — `ComputerXenoborgsControlCircuitboard` ｜父类: BaseComputerCircuitboard
+- **冷凝器 机器主板** — `CondenserMachineCircuitBoard` ｜父类: BaseMachineCircuitboard
+- `模板` **ConstructibleBladeServer** — `ConstructibleBladeServer` ｜父类: BaseItem ｜_Moffstation
+- **约束场发生器平板包装** — `ContainmentFieldGeneratorFlatpack` ｜父类: BaseFlatpack
+- **低音提琴** — `ContrabassInstrument` ｜父类: BasePlaceableInstrument
+- **便携式冷却装置** — `CoolingUnit` ｜父类: BaseItem ｜_Starlight
+- **坐标磁盘** — `CoordinatesDisk` ｜父类: BaseItem
+- **柯基箭** — `CorgiArrow` ｜父类: BaseArrow ｜_Starlight
+- **瓶子** — `CorgiJuiceChemistryBottle` ｜父类: BaseChemistryBottleFilled ｜_Starlight
+- **包玉米种子** — `CornSeeds` ｜父类: SeedBase
+- **法则主板（公司）** — `CorporateCircuitBoard` ｜父类: BaseSiliconLawboard,BaseSecurityScienceCommandContraband
+- **卫生员 PDA** — `CorpsmanPDA` ｜父类: BaseMedicalPDA ｜_Starlight
+- **零空间稳定粒子** — `CosmicLambdaParticle` ｜父类: BaseBullet ｜_Starlight
+- **棉桃** — `CottonBol` ｜父类: FoodProduceBase
+- **包棉籽** — `CottonSeeds` ｜父类: SeedBase
+- **牛撬棍** — `Cowbar` ｜父类: BaseItem
+- **奶牛方块** — `CowCube` ｜父类: RehydratableAnimalCube
+- **牛用焊接工具** — `Cowelder` ｜父类: Welder
+- **牛用工具箱** — `CowToolbox` ｜父类: ToolboxBase
+- **牛用工具箱** — `CowToolboxFilled` ｜父类: CowToolbox
+- **神器容器** — `CrateArtifactContainer` ｜父类: BaseStructureDynamic,BasePaperLabelableVisualized
+- **SKB军械箱** — `CrateSovietArmaments` ｜父类: CrateGeneric,BaseSovietContraband ｜_Starlight
+- `模板` **Crayon** — `Crayon` ｜父类: CrayonInedible
+- **黑色蜡笔** — `CrayonBlack` ｜父类: Crayon
+- **蓝色蜡笔** — `CrayonBlue` ｜父类: Crayon
+- **电动蜡笔** — `CrayonBorg` ｜父类: CrayonInedible
+- **蜡笔盒** — `CrayonBox` ｜父类: BoxCardboard
+- **绿色蜡笔** — `CrayonGreen` ｜父类: Crayon
+- `模板` **蜡笔** — `CrayonInedible` ｜父类: BaseItem
+- **无限蜡笔** — `CrayonInfinite` ｜父类: CrayonRainbow
+- **魔法彩虹蜡笔** — `CrayonMagic` ｜父类: Crayon ｜_Starlight
+- **哑剧蜡笔** — `CrayonMime` ｜父类: Crayon
+- **橙色蜡笔** — `CrayonOrange` ｜父类: Crayon
+- **紫色蜡笔** — `CrayonPurple` ｜父类: Crayon
+- **彩虹蜡笔** — `CrayonRainbow` ｜父类: Crayon
+- **红色蜡笔** — `CrayonRed` ｜父类: Crayon
+- **白色蜡笔** — `CrayonWhite` ｜父类: Crayon
+- **黄色蜡笔** — `CrayonYellow` ｜父类: Crayon
+- **疯狂胶水** — `CrazyGlue` ｜父类: DrinkBase
+- **疯狂润滑剂** — `CrazyLube` ｜父类: DrinkBase
+- **小生物毛绒玩偶** — `CreaturePlushie` ｜父类: BasePlushie ｜_Starlight
+- **船员名单程序卡** — `CrewManifestCartridge` ｜父类: BasePDACartridge
+- **船员监控刀片服务器** — `CrewMonitoringBladeServer` ｜父类: BaseCrewMonitoringServer,ConstructibleBladeServer ｜_Moffstation
+- **船员 监控计算机 主板** — `CrewMonitoringComputerCircuitboard` ｜父类: BaseComputerCircuitboard
+- **船员监控台式电脑电路板** — `CrewMonitoringComputerCircuitboardDesktop` ｜父类: CrewMonitoringComputerCircuitboard ｜_Starlight
+- **船员监控控制台平板包装** — `CrewMonitoringComputerFlatpack` ｜父类: BaseFlatpack
+- **船员监控服务器平板包装** — `CrewMonitoringServerFlatpack` ｜父类: BaseFlatpack
+- **船员监控服务器 机器主板** — `CrewMonitoringServerMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **安保档案电脑电路板** — `CriminalRecordsComputerCircuitboard` ｜父类: BaseComputerCircuitboard
+- **犯罪记录台式电脑电路板** — `CriminalRecordsComputerCircuitboardDesktop` ｜父类: CriminalRecordsComputerCircuitboard ｜_Starlight
+- **危机按钮** — `CrisisButton` ｜父类: BaseItem ｜_Starlight
+- **撬棍** — `Crowbar` ｜父类: BaseCrowbar
+- **绑架者撬棍** — `CrowbarAbductor` ｜父类: BaseCrowbar
+- **撬棍** — `CrowbarCyber` ｜父类: BaseItem ｜_Starlight
+- **撬棍** — `CrowbarGreen` ｜父类: BaseCrowbar
+- **土制撬棍** — `CrowbarImprovised` ｜父类: CrowbarMakeshift ｜_Starlight
+- **隐形撬棍** — `CrowbarInvisible` ｜父类: BaseItem ｜_Starlight
+- **粗制撬棍** — `CrowbarMakeshift` ｜父类: BaseItem ｜_Starlight
+- **撬棍** — `CrowbarOrange` ｜父类: BaseCrowbar
+- **撬棍** — `CrowbarRed` ｜父类: BaseCrowbar
+- **粗制撬棍扳手** — `CrowbarWrenchMakeshift` ｜父类: BaseItem ｜_Starlight
+- **粗制撬棍扳手螺丝刀** — `CrowbarWrenchScrewdriverMakeshift` ｜父类: CrowbarWrenchMakeshift ｜_Starlight
+- **撬棍** — `CrowbarYellow` ｜父类: BaseCrowbar
+- **磷粉** — `CrushedPhosphorus` ｜父类: MaterialBase ｜_Starlight
+- **磷粉** — `CrushedPhosphorus1` ｜父类: CrushedPhosphorus ｜_Starlight
+- **磷粉** — `CrushedPhosphorus10` ｜父类: CrushedPhosphorus ｜_Starlight
+- **低温休眠舱 机器主板** — `CryoPodMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **低温恒温烧杯** — `CryostasisBeaker` ｜父类: BaseBeakerMetallic
+- **大烧杯** — `CryoxadoneBeakerLarge` ｜父类: LargeBeaker ｜_Starlight
+- **烧杯** — `CryoxadoneBeakerSmall` ｜父类: Beaker
+- **饮料壶** — `CustomDrinkJug` ｜父类: DrinkVisualsOpenable,DrinkBottlePlasticBaseFull
+- **生成器** — `CustomSpawner` ｜父类: CustomSpawnerStatic ｜_Starlight
+- **全息影像** — `CustomSpawnerHologram` ｜_Starlight
+- **生成器** — `CustomSpawnerMarker` ｜父类: BaseCustomSpawner ｜_Starlight
+- **生成器** — `CustomSpawnerMarkerHolo` ｜父类: CustomSpawnerMarker ｜_Starlight
+- **生成器** — `CustomSpawnerStatic` ｜父类: BaseCustomSpawner ｜_Starlight
+- **弯刀** — `Cutlass` ｜父类: BaseSword,BaseMajorContraband
+- **切割机 机器主板** — `CutterMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **能量链锯剑** — `CyberEnergyChainsword` ｜父类: BaseMeleeWeaponEnergy,BaseSecurityContraband ｜_Starlight
+- **里普利小夹钳** — `CyberEquipmentGrabber` ｜父类: BaseItem ｜_Starlight
+- **螳螂刃** — `CyberMantisBlade` ｜父类: BaseItem,BaseSyndicateContraband ｜_Starlight
+- **赛博桑钢笔** — `CyberPen` ｜父类: BaseAdvancedPen,BaseSyndicateContraband
+- **集成式试剂研磨机** — `CyberReagentGrinder` ｜父类: BaseItem ｜_Starlight
+- **赛博阳光翻盖打火机** — `CybersunFlippo` ｜父类: BaseBrandedLighter,FlippoLighter
+- **植物剪赛博手臂附件** — `CyberToolClippers` ｜父类: HydroponicsToolClippers ｜_Starlight
+- **液压移液器赛博手臂附件** — `CyberToolDropper` ｜父类: Dropper ｜_Starlight
+- **手斧赛博手臂附件** — `CyberToolHatchet` ｜父类: HydroponicsToolHatchet ｜_Starlight
+- **迷你锄头赛博手臂附件** — `CyberToolMiniHoe` ｜父类: HydroponicsToolMiniHoe ｜_Starlight
+- **长柄镰刀赛博手臂附件** — `CyberToolScythe` ｜父类: HydroponicsToolScythe ｜_Starlight
+- **铲子赛博手臂附件** — `CyberToolSpade` ｜父类: HydroponicsToolSpade ｜_Starlight
+- **赛博格内骨骼** — `CyborgEndoskeleton`
+- **能量剑** — `CyborgEnergySword` ｜父类: EnergySword
+- **能量剑** — `CyborgEnergySwordBlue` ｜父类: EnergySword,BaseXenoborgContraband ｜_Starlight
+- **双刃能量剑** — `CyborgEnergySwordDouble` ｜父类: EnergySwordDouble
+- **d10 骰子** — `d10Dice` ｜父类: BaseDice
+- **d12 骰子** — `d12Dice` ｜父类: BaseDice
+- **d20 骰子** — `d20Dice` ｜父类: BaseDice
+- **d4 骰子** — `d4Dice` ｜父类: BaseDice
+- **d6 骰子** — `d6Dice` ｜父类: BaseDice
+- **d8 骰子** — `d8Dice` ｜父类: BaseDice
+- **黑暗烧杯** — `DarkBeaker` ｜父类: BaseBeakerMetallic,DrinkBaseOpenable,DrinkVisualsOpenable,BaseSecurityContraband ｜_Starlight
+- **深蓝色史莱姆提取物** — `DarkBlueSlimeExtract` ｜父类: BaseSlimeExtract ｜_Starlight
+- **深蓝色史莱姆提取物（已填充）** — `DarkBlueSlimeExtractFilled` ｜父类: BaseSlimeExtractFilled,DarkBlueSlimeExtract ｜_Starlight
+- **黑暗突破器电路板** — `DarkBreacherMachineCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **深紫色史莱姆提取物** — `DarkPurpleSlimeExtract` ｜父类: BaseSlimeExtract ｜_Starlight
+- **深紫色史莱姆提取物（已填充）** — `DarkPurpleSlimeExtractFilled` ｜父类: BaseSlimeExtractFilled,DarkPurpleSlimeExtract ｜_Starlight
+- **飞镖** — `Dart` ｜父类: BaseItem
+- **飞镖** — `DartBlue` ｜父类: Dart
+- **飞镖** — `DartPurple` ｜父类: Dart
+- **飞镖** — `DartYellow` ｜父类: Dart
+- **数字音频工作站** — `DawInstrument` ｜父类: BasePlaceableInstrumentRotatable,ConstructibleMachine
+- **数字音频工作站 机器主板** — `DawInstrumentMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **死亡酸化植入物** — `DeathAcidifierImplant` ｜父类: BaseSubdermalImplant
+- **死亡酸化植入器** — `DeathAcidifierImplanter` ｜父类: BaseImplantOnlyImplanterSyndi
+- **死亡荨麻** — `DeathNettle` ｜父类: ProduceBase,BaseMajorContraband
+- **死亡荨麻种子包** — `DeathNettleSeeds` ｜父类: SeedBase
+- **死亡警报植入物** — `DeathRattleImplant` ｜父类: BaseSubdermalImplant
+- **中央指挥部死亡警报植入物** — `DeathRattleImplantCentcomm` ｜父类: DeathRattleImplant
+- **死亡警报植入器** — `DeathRattleImplanter` ｜父类: BaseImplantOnlyImplanterSyndi
+- **中央指挥部死亡警报植入器** — `DeathRattleImplanterCentcomm` ｜父类: BaseImplantOnlyImplanter
+- **濒死警报植入器** — `DeathRattleImplanterTSF` ｜父类: BaseImplantOnlyImplanter ｜_Starlight
+- **濒死警报植入物** — `DeathRattleImplantNanoTrasen` ｜父类: DeathRattleImplant ｜_Starlight
+- **濒死警报植入物** — `DeathRattleImplantTSF` ｜父类: DeathRattleImplant ｜_Starlight
+- **中央指挥部PDA** — `DeathsquadPDA` ｜父类: CentcomPDA
+- **基础激光射线** — `DebugBulletTrace` ｜父类: BulletTrace ｜_Starlight
+- **调试激光射线** — `DebugLaser` ｜父类: BasicHitscan
+- **调试碎尸射线** — `DebugLaserGib` ｜父类: DebugLaser
+- `模板` **DebugMechEquipment** — `DebugMechEquipment` ｜_Starlight
+- **超级神奇全能手术棒** — `DebugStickSurgery` ｜父类: BoneGelBase ｜_Starlight
+- **越狱版 PDA** — `DecimusPDA` ｜父类: CentcomPDA ｜_Starlight
+- **反克隆弹** — `DecloneBolt` ｜父类: EnergyTrace ｜_Starlight
+- **鹿毛绒玩偶** — `DeerPlushie` ｜父类: BasePlushie ｜_Starlight
+- **空间站信标** — `DefaultStationBeacon` ｜父类: BaseItem
+- **空间站信标** — `DefaultStationBeaconAI` ｜父类: DefaultStationBeacon
+- **空间站信标** — `DefaultStationBeaconAICore` ｜父类: DefaultStationBeaconAI
+- **空间站信标** — `DefaultStationBeaconAIPower` ｜父类: DefaultStationBeaconAI
+- **空间站信标** — `DefaultStationBeaconAISatellite` ｜父类: DefaultStationBeaconAI
+- **空间站信标** — `DefaultStationBeaconAIUpload` ｜父类: DefaultStationBeaconAI
+- **空间站信标** — `DefaultStationBeaconAME` ｜父类: DefaultStationBeaconEngineering
+- **空间站信标** — `DefaultStationBeaconAnchor` ｜父类: DefaultStationBeaconEngineering
+- **空间站信标** — `DefaultStationBeaconAnomalyGenerator` ｜父类: DefaultStationBeaconScience
+- **空间站信标** — `DefaultStationBeaconArmory` ｜父类: DefaultStationBeaconSecurity
+- **空间站信标** — `DefaultStationBeaconArrivals` ｜父类: DefaultStationBeacon
+- **空间站信标** — `DefaultStationBeaconArtifactLab` ｜父类: DefaultStationBeaconScience
+- **空间站信标** — `DefaultStationBeaconAtmospherics` ｜父类: DefaultStationBeaconEngineering
+- **空间站信标** — `DefaultStationBeaconBar` ｜父类: DefaultStationBeaconService
+- **空间站信标** — `DefaultStationBeaconBotany` ｜父类: DefaultStationBeaconService
+- **空间站信标** — `DefaultStationBeaconBreakroomCargo` ｜父类: DefaultStationBeaconSupply ｜_Starlight
+- **空间站信标** — `DefaultStationBeaconBreakroomCommand` ｜父类: DefaultStationBeaconCommand ｜_Starlight
+- **空间站信标** — `DefaultStationBeaconBreakroomEngi` ｜父类: DefaultStationBeaconEngineering ｜_Starlight
+- **空间站信标** — `DefaultStationBeaconBreakroomMedical` ｜父类: DefaultStationBeaconMedical ｜_Starlight
+- **空间站信标** — `DefaultStationBeaconBreakroomScience` ｜父类: DefaultStationBeaconScience ｜_Starlight
+- **空间站信标** — `DefaultStationBeaconBreakroomSecurity` ｜父类: DefaultStationBeaconSecurity ｜_Starlight
+- **空间站信标** — `DefaultStationBeaconBreakroomService` ｜父类: DefaultStationBeaconService ｜_Starlight
+- **空间站信标** — `DefaultStationBeaconBridge` ｜父类: DefaultStationBeaconCommand
+- **空间站信标** — `DefaultStationBeaconBrig` ｜父类: DefaultStationBeaconSecurity
+- **空间站信标** — `DefaultStationBeaconBrigMed` ｜父类: DefaultStationBeaconSecurity
+- **空间站信标** — `DefaultStationBeaconBSO` ｜父类: DefaultStationBeaconCommand ｜_Starlight
+- **空间站信标** — `DefaultStationBeaconCaptainsQuarters` ｜父类: DefaultStationBeaconCommand
+- **空间站信标** — `DefaultStationBeaconCargoBay` ｜父类: DefaultStationBeaconSupply
+- **空间站信标** — `DefaultStationBeaconCargoReception` ｜父类: DefaultStationBeaconSupply
+- **空间站信标** — `DefaultStationBeaconCentComm` ｜父类: DefaultStationBeaconGhost
+- **空间站信标** — `DefaultStationBeaconCentCommAfterhours` ｜父类: DefaultStationBeaconGhost
+- **空间站信标** — `DefaultStationBeaconCentCommERT` ｜父类: DefaultStationBeaconGhost
+- **空间站信标** — `DefaultStationBeaconCentCommThunderdome` ｜父类: DefaultStationBeaconGhost
+- **空间站信标** — `DefaultStationBeaconCERoom` ｜父类: DefaultStationBeaconEngineering
+- **空间站信标** — `DefaultStationBeaconChapel` ｜父类: DefaultStationBeacon
+- **空间站信标** — `DefaultStationBeaconChemistry` ｜父类: DefaultStationBeaconMedical
+- **空间站信标** — `DefaultStationBeaconClinic` ｜父类: DefaultStationBeaconMedical
+- **空间站信标** — `DefaultStationBeaconCMORoom` ｜父类: DefaultStationBeaconMedical
+- **空间站信标** — `DefaultStationBeaconCommand` ｜父类: DefaultStationBeacon
+- **空间站信标** — `DefaultStationBeaconCourtroom` ｜父类: DefaultStationBeaconSecurity
+- **空间站信标** — `DefaultStationBeaconCryonics` ｜父类: DefaultStationBeaconMedical
+- **空间站信标** — `DefaultStationBeaconCryosleep` ｜父类: DefaultStationBeacon
+- **空间站信标** — `DefaultStationBeaconDetectiveRoom` ｜父类: DefaultStationBeaconSecurity
+- **空间站信标** — `DefaultStationBeaconDisposals` ｜父类: DefaultStationBeacon
+- **空间站信标** — `DefaultStationBeaconDockingArm` ｜父类: DefaultStationBeacon
+- **空间站信标** — `DefaultStationBeaconDorms` ｜父类: DefaultStationBeacon
+- **空间站信标** — `DefaultStationBeaconEngineering` ｜父类: DefaultStationBeacon
+- **空间站信标** — `DefaultStationBeaconEscapePod` ｜父类: DefaultStationBeacon
+- **空间站信标** — `DefaultStationBeaconEscapePodE` ｜父类: DefaultStationBeacon
+- **空间站信标** — `DefaultStationBeaconEscapePodN` ｜父类: DefaultStationBeacon
+- **空间站信标** — `DefaultStationBeaconEscapePodNE` ｜父类: DefaultStationBeacon
+- **空间站信标** — `DefaultStationBeaconEscapePodNW` ｜父类: DefaultStationBeacon
+- **空间站信标** — `DefaultStationBeaconEscapePodS` ｜父类: DefaultStationBeacon
+- **空间站信标** — `DefaultStationBeaconEscapePodSE` ｜父类: DefaultStationBeacon
+- **空间站信标** — `DefaultStationBeaconEscapePodSW` ｜父类: DefaultStationBeacon
+- **空间站信标** — `DefaultStationBeaconEscapePodW` ｜父类: DefaultStationBeacon
+- **空间站信标** — `DefaultStationBeaconEvac` ｜父类: DefaultStationBeacon
+- **空间站信标** — `DefaultStationBeaconEVAStorage` ｜父类: DefaultStationBeacon
+- **空间站信标** — `DefaultStationBeaconGateway` ｜父类: DefaultStationBeaconCommand
+- **空间站信标** — `DefaultStationBeaconGhost` ｜父类: DefaultStationBeacon
+- **空间站信标** — `DefaultStationBeaconGravGen` ｜父类: DefaultStationBeaconEngineering
+- **空间站信标** — `DefaultStationBeaconHOPOffice` ｜父类: DefaultStationBeaconCommand
+- **空间站信标** — `DefaultStationBeaconHOSRoom` ｜父类: DefaultStationBeaconSecurity
+- **空间站信标** — `DefaultStationBeaconIAA` ｜父类: DefaultStationBeaconCommand ｜_Starlight
+- **空间站信标** — `DefaultStationBeaconJanitorCleaningCloset` ｜父类: DefaultStationBeaconService ｜_Starlight
+- **空间站信标** — `DefaultStationBeaconJanitorsCloset` ｜父类: DefaultStationBeaconService
+- **空间站信标** — `DefaultStationBeaconKitchen` ｜父类: DefaultStationBeaconService
+- **空间站信标** — `DefaultStationBeaconLawOffice` ｜父类: DefaultStationBeaconSecurity
+- **空间站信标** — `DefaultStationBeaconLawyer` ｜父类: DefaultStationBeaconService ｜_Starlight
+- **空间站信标** — `DefaultStationBeaconLibrary` ｜父类: DefaultStationBeacon
+- **空间站信标** — `DefaultStationBeaconMedbay` ｜父类: DefaultStationBeaconMedical
+- **空间站信标** — `DefaultStationBeaconMedical` ｜父类: DefaultStationBeacon
+- **空间站信标** — `DefaultStationBeaconMorgue` ｜父类: DefaultStationBeaconMedical
+- **空间站信标** — `DefaultStationBeaconNCT` ｜父类: DefaultStationBeaconCommand ｜_Starlight
+- **空间站信标** — `DefaultStationBeaconNTR` ｜父类: DefaultStationBeaconCommand ｜_Starlight
+- **空间站信标** — `DefaultStationBeaconNuclearReactor` ｜父类: DefaultStationBeaconEngineering ｜_Starlight
+- **空间站信标** — `DefaultStationBeaconPermaBrig` ｜父类: DefaultStationBeaconSecurity
+- **空间站信标** — `DefaultStationBeaconPowerBank` ｜父类: DefaultStationBeaconEngineering
+- **空间站信标** — `DefaultStationBeaconPsychology` ｜父类: DefaultStationBeaconMedical
+- **空间站信标** — `DefaultStationBeaconQMRoom` ｜父类: DefaultStationBeaconSupply
+- **空间站信标** — `DefaultStationBeaconRDRoom` ｜父类: DefaultStationBeaconScience
+- **空间站信标** — `DefaultStationBeaconReporter` ｜父类: DefaultStationBeacon
+- **空间站信标** — `DefaultStationBeaconRND` ｜父类: DefaultStationBeaconScience
+- **空间站信标** — `DefaultStationBeaconRobotics` ｜父类: DefaultStationBeaconScience
+- **空间站信标** — `DefaultStationBeaconSalvage` ｜父类: DefaultStationBeaconSupply
+- **空间站信标** — `DefaultStationBeaconScience` ｜父类: DefaultStationBeacon
+- **空间站信标** — `DefaultStationBeaconSecurity` ｜父类: DefaultStationBeacon
+- **空间站信标** — `DefaultStationBeaconSecurityCheckpoint` ｜父类: DefaultStationBeaconSecurity
+- **空间站信标** — `DefaultStationBeaconServerRoom` ｜父类: DefaultStationBeaconScience
+- **空间站信标** — `DefaultStationBeaconService` ｜父类: DefaultStationBeacon
+- **空间站信标** — `DefaultStationBeaconSingularity` ｜父类: DefaultStationBeaconEngineering
+- **空间站信标** — `DefaultStationBeaconSolars` ｜父类: DefaultStationBeaconEngineering
+- **空间站信标** — `DefaultStationBeaconSolarsE` ｜父类: DefaultStationBeaconEngineering
+- **空间站信标** — `DefaultStationBeaconSolarsN` ｜父类: DefaultStationBeaconEngineering
+- **空间站信标** — `DefaultStationBeaconSolarsNE` ｜父类: DefaultStationBeaconEngineering
+- **空间站信标** — `DefaultStationBeaconSolarsNW` ｜父类: DefaultStationBeaconEngineering
+- **空间站信标** — `DefaultStationBeaconSolarsS` ｜父类: DefaultStationBeaconEngineering
+- **空间站信标** — `DefaultStationBeaconSolarsSE` ｜父类: DefaultStationBeaconEngineering
+- **空间站信标** — `DefaultStationBeaconSolarsSW` ｜父类: DefaultStationBeaconEngineering
+- **空间站信标** — `DefaultStationBeaconSolarsW` ｜父类: DefaultStationBeaconEngineering
+- **空间站信标** — `DefaultStationBeaconSupply` ｜父类: DefaultStationBeacon
+- **空间站信标** — `DefaultStationBeaconSurgery` ｜父类: DefaultStationBeaconMedical
+- **空间站信标** — `DefaultStationBeaconTechVault` ｜父类: DefaultStationBeaconEngineering
+- **空间站信标** — `DefaultStationBeaconTEG` ｜父类: DefaultStationBeaconEngineering
+- **空间站信标** — `DefaultStationBeaconTelecoms` ｜父类: DefaultStationBeaconEngineering
+- **空间站信标** — `DefaultStationBeaconTheater` ｜父类: DefaultStationBeacon
+- **空间站信标** — `DefaultStationBeaconToolRoom` ｜父类: DefaultStationBeacon
+- **空间站信标** — `DefaultStationBeaconUnanchored` ｜父类: DefaultStationBeacon
+- **空间站信标** — `DefaultStationBeaconVault` ｜父类: DefaultStationBeaconCommand
+- **空间站信标** — `DefaultStationBeaconVox` ｜父类: DefaultStationBeacon
+- **空间站信标** — `DefaultStationBeaconWardensOffice` ｜父类: DefaultStationBeaconSecurity
+- **空间站信标** — `DefaultStationBeaconWashrooms` ｜父类: DefaultStationBeacon ｜_Starlight
+- **空间站信标** — `DefaultStationBeaconXenobiology` ｜父类: DefaultStationBeaconScience ｜_Starlight
+- **除颤器** — `Defibrillator` ｜父类: BaseDefibrillator,PowerCellSlotMediumItem
+- **狱医除颤器** — `DefibrillatorBrigmedical` ｜父类: BaseDefibrillator,PowerCellSlotMediumItem ｜_Starlight
+- **紧凑型除颤器** — `DefibrillatorCompact` ｜父类: BaseDefibrillator,PowerCellSlotMediumItem
+- **赛博除颤器** — `DefibrillatorCyber` ｜父类: BaseDefibrillator ｜_Starlight
+- **除颤器** — `DefibrillatorEmpty` ｜父类: Defibrillator
+- **除颤器** — `DefibrillatorOneHandedUnpowered` ｜父类: BaseDefibrillator
+- **急救员除颤器** — `DefibrillatorParamed` ｜父类: Defibrillator ｜_Starlight
+- **间差除颤器** — `DefibrillatorSyndicate` ｜父类: DefibrillatorCompact,BaseSyndicateContraband
+- **除颤器** — `DefibrillatorSyndicateOneHandedUnpowered` ｜父类: BaseDefibrillator,BaseSyndicateContraband ｜_Starlight
+- **德福雷斯瘀伤包** — `DeforestBrutePack` ｜父类: Bluebrutepack1 ｜_Starlight
+- **德福雷斯瘀伤包** — `DeforestBrutePack1` ｜父类: DeforestBrutePack ｜_Starlight
+- **德福雷斯喷射注射器** — `DeforestJetInjector` ｜父类: AdvancedJetInjector,BaseMedicalContraband ｜_Starlight
+- **德福雷斯药膏** — `DeforestOintment` ｜父类: Blueointment1 ｜_Starlight
+- **德福雷斯药膏** — `DeforestOintment1` ｜父类: DeforestOintment ｜_Starlight
+- **脱水太空鲤鱼** — `DehydratedSpaceCarp` ｜父类: PlushieCarp,RehydratableItem,BaseSyndicateContraband
+- **抹除 光束** — `DeleteBeam` ｜父类: BasicHitscanNoBeam ｜_Starlight
+- **DeliveryModifierBomb** — `DeliveryModifierBomb`
+- **DeliveryModifierFragile** — `DeliveryModifierFragile`
+- **DeliveryModifierPriority** — `DeliveryModifierPriority`
+- **双齿叉** — `DemonicPitchfork` ｜父类: BaseItem,BaseMajorContraband ｜_Starlight
+- **可部署屏障** — `DeployableBarrier` ｜父类: BaseStructure
+- **基础异种赛博格模块** — `DerelictXenoborgModuleBasic` ｜父类: BaseXenoborgModuleGeneric,BaseProviderBorgModule,BaseXenoborgContraband ｜_Starlight
+- **太空移动异种赛博格模块** — `DerelictXenoborgModuleSpaceMovement` ｜父类: BaseXenoborgModuleScout,BaseProviderBorgModule,BaseXenoborgContraband ｜_Starlight
+- **桌铃** — `DeskBell` ｜父类: BaseItem
+- **毁灭 光束** — `DestroyBeam` ｜父类: BasicHitscanNoBeam ｜_Starlight
+- **毁灭 光束** — `DestructionBeam` ｜父类: EnergyTrace ｜_Starlight
+- **侦探ID卡** — `DetectiveIDCard` ｜父类: IDCardStandard
+- **侦探PDA** — `DetectivePDA` ｜父类: BaseSecurityPDA
+- **去同步装置** — `DeviceDesynchronizer` ｜父类: BaseItem
+- **量子自旋反转器** — `DeviceQuantumSpinInverter` ｜父类: BaseItem
+- **诊断仪 机器主板** — `DiagnoserMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **钻石燃气轮机叶片** — `DiamondGasTurbineBlade` ｜父类: BaseGasTurbineBlade ｜_FarHorizons
+- **钻石矿石** — `DiamondOre` ｜父类: OreBase
+- **钻石矿石** — `DiamondOre1` ｜父类: DiamondOre
+- **钻石控制棒** — `DiamondReactorControlRod` ｜父类: BaseReactorControlRod,ReactorPartMaterialDiamond ｜_FarHorizons
+- **钻石气体通道棒** — `DiamondReactorGasChannel` ｜父类: BaseReactorGasChannel,ReactorPartMaterialDiamond ｜_FarHorizons
+- **钻石换热棒** — `DiamondReactorHeatExchanger` ｜父类: BaseReactorHeatExchanger,ReactorPartMaterialDiamond ｜_FarHorizons
+- **骰子袋** — `DiceBag` ｜父类: BaseStorageItem
+- **新闻管理电子板** — `DigiboardMassMedia` ｜父类: BaseItem ｜_Starlight
+- **昏暗灯泡** — `DimLightBulb` ｜父类: BaseLightbulb
+- **失能光束弹** — `DisablerBolt` ｜父类: DisablerBoltPractice ｜_Starlight
+- **失能光束弹 练习用** — `DisablerBoltPractice` ｜父类: BasicHitscanNoBeam ｜_Starlight
+- **失能光束弹 冲锋枪** — `DisablerBoltSmg` ｜父类: DisablerBolt ｜_Starlight
+- **折扣丹打火机** — `DiscountDanLighter` ｜父类: Lighter ｜_Starlight
+- **无菌拭子** — `DiseaseSwab` ｜父类: BaseItem
+- **咸甜味噌可乐汤** — `DisgustingSweptSoup` ｜父类: FoodMealBase
+- **磁盘盒** — `DiskCase` ｜父类: BaseStorageItem
+- **DNA 注射器** — `DnaInjector` ｜父类: DnaInjectorUnlimited
+- **DNA 注射器** — `DnaInjectorUnlimited` ｜父类: BaseItem
+- **DNA 扰乱植入物** — `DnaScramblerImplant` ｜父类: BaseSubdermalImplant
+- **DNA 扰乱植入器** — `DnaScramblerImplanter` ｜父类: BaseImplantOnlyImplanterSyndi
+- **Donk 公司翻盖打火机** — `DonkcoLighter` ｜父类: BaseBrandedLighter,FlippoLighter
+- **门控电子元件** — `DoorElectronics` ｜父类: BaseElectronics
+- **门控电子元件** — `DoorElectronicsArmory` ｜父类: DoorElectronics
+- **门控电子元件** — `DoorElectronicsAtmospherics` ｜父类: DoorElectronics
+- **门控电子元件** — `DoorElectronicsAttorney` ｜父类: DoorElectronics ｜_Starlight
+- **门控电子元件** — `DoorElectronicsBar` ｜父类: DoorElectronics
+- **门控电子元件** — `DoorElectronicsBarKitchen` ｜父类: DoorElectronics
+- **门控电子元件** — `DoorElectronicsBlackstar` ｜父类: DoorElectronics ｜_Starlight
+- **门控电子元件** — `DoorElectronicsBrig` ｜父类: DoorElectronics
+- **门控电子元件** — `DoorElectronicsBrigmed` ｜父类: DoorElectronics ｜_Starlight
+- **门控电子元件** — `DoorElectronicsBrigmedPara` ｜父类: DoorElectronics ｜_Starlight
+- **门控电子元件** — `DoorElectronicsCaptain` ｜父类: DoorElectronics
+- **门控电子元件** — `DoorElectronicsCargo` ｜父类: DoorElectronics
+- **中央指挥部门电子板** — `DoorElectronicsCentralCommand` ｜父类: BaseDoorElectronicsCentComm
+- **门控电子元件** — `DoorElectronicsChapel` ｜父类: DoorElectronics
+- **门控电子元件** — `DoorElectronicsChemistry` ｜父类: DoorElectronics
+- **门控电子元件** — `DoorElectronicsChiefEngineer` ｜父类: DoorElectronics
+- **门控电子元件** — `DoorElectronicsChiefMedicalOfficer` ｜父类: DoorElectronics
+- **门控电子元件** — `DoorElectronicsCommand` ｜父类: DoorElectronics
+- **门控电子元件** — `DoorElectronicsCommunist` ｜父类: DoorElectronics ｜_Starlight
+- **门控电子元件** — `DoorElectronicsCourtroom` ｜父类: DoorElectronics ｜_Starlight
+- **门控电子元件** — `DoorElectronicsDetective` ｜父类: DoorElectronics
+- **门控电子元件** — `DoorElectronicsEngineering` ｜父类: DoorElectronics
+- **门控电子元件** — `DoorElectronicsExternal` ｜父类: DoorElectronics
+- **门控电子元件** — `DoorElectronicsFreelance` ｜父类: DoorElectronics ｜_Starlight
+- **门控电子元件** — `DoorElectronicsHeadOfPersonnel` ｜父类: DoorElectronics
+- **门控电子元件** — `DoorElectronicsHeadOfSecurity` ｜父类: DoorElectronics
+- **门控电子元件** — `DoorElectronicsHydroponics` ｜父类: DoorElectronics
+- **门控电子元件** — `DoorElectronicsInternalAffairs` ｜父类: DoorElectronics
+- **门控电子元件** — `DoorElectronicsJanitor` ｜父类: DoorElectronics
+- **门控电子元件** — `DoorElectronicsKitchen` ｜父类: DoorElectronics
+- **门控电子元件** — `DoorElectronicsKitchenHydroponics` ｜父类: DoorElectronics
+- **门控电子元件** — `DoorElectronicsLegal` ｜父类: DoorElectronics ｜_Starlight
+- **门控电子元件** — `DoorElectronicsMail` ｜父类: DoorElectronics ｜_Starlight
+- **门控电子元件** — `DoorElectronicsMaintenance` ｜父类: DoorElectronics
+- **门控电子元件** — `DoorElectronicsMedical` ｜父类: DoorElectronics
+- **门控电子元件** — `DoorElectronicsMedicalResearch` ｜父类: DoorElectronics
+- **门控电子元件** — `DoorElectronicsMining` ｜父类: DoorElectronics ｜_Starlight
+- **门控电子元件** — `DoorElectronicsMorgue` ｜父类: DoorElectronics
+- **门控电子元件** — `DoorElectronicsNtrep` ｜父类: DoorElectronics ｜_Starlight
+- **辛迪加门电子板** — `DoorElectronicsNukeop` ｜父类: BaseDoorElectronicsSyndicate
+- **门控电子元件** — `DoorElectronicsParamedic` ｜父类: DoorElectronics ｜_Starlight
+- **门控电子元件** — `DoorElectronicsQuartermaster` ｜父类: DoorElectronics
+- **门控电子元件** — `DoorElectronicsResearch` ｜父类: DoorElectronics
+- **门控电子元件** — `DoorElectronicsResearchDirector` ｜父类: DoorElectronics
+- **门控电子元件** — `DoorElectronicsRobotics` ｜父类: DoorElectronics ｜_Starlight
+- **门控电子元件** — `DoorElectronicsSalvage` ｜父类: DoorElectronics
+- **DoorElectronicsSalvageMining** — `DoorElectronicsSalvageMining` ｜父类: DoorElectronics ｜_Starlight
+- **门控电子元件** — `DoorElectronicsSecurity` ｜父类: DoorElectronics
+- **门控电子元件** — `DoorElectronicsSecurityInternalAffairs` ｜父类: DoorElectronics
+- **门控电子元件** — `DoorElectronicsService` ｜父类: DoorElectronics
+- **门控电子元件** — `DoorElectronicsServiceTheatre` ｜父类: DoorElectronics
+- **门控电子元件** — `DoorElectronicsSolgov` ｜父类: DoorElectronics ｜_Starlight
+- **门控电子元件** — `DoorElectronicsSurgery` ｜父类: DoorElectronics ｜_Starlight
+- **辛迪加门电子板** — `DoorElectronicsSyndicateAgent` ｜父类: BaseDoorElectronicsSyndicate
+- **门控电子元件** — `DoorElectronicsTheatre` ｜父类: DoorElectronics
+- **门控电子元件** — `DoorElectronicsVault` ｜父类: DoorElectronics
+- **门控电子元件** — `DoorElectronicsVisitor` ｜父类: DoorElectronics ｜_Starlight
+- **门控电子元件** — `DoorElectronicsWizard` ｜父类: DoorElectronics ｜_Starlight
+- **异种赛博格门电子板** — `DoorElectronicsXenoborg` ｜父类: BaseDoorElectronicsXenoborg
+- **超级门禁遥控器** — `DoorRemoteAll` ｜父类: DoorRemoteCanEletrifyDoors,BaseCommandContraband
+- **军械库门禁遥控器** — `DoorRemoteArmory` ｜父类: DoorRemoteDefault,BaseSecurityCommandContraband
+- `模板` **DoorRemoteCanEletrifyDoors** — `DoorRemoteCanEletrifyDoors` ｜父类: DoorRemoteDefault
+- **货运部门禁遥控器** — `DoorRemoteCargo` ｜父类: DoorRemoteDefault,BaseCommandContraband
+- **指挥部门禁遥控器** — `DoorRemoteCommand` ｜父类: DoorRemoteDefault,BaseCommandContraband
+- **自定义门禁遥控器** — `DoorRemoteCustom` ｜父类: DoorRemoteDefault,BaseCommandContraband
+- `模板` **门禁遥控器** — `DoorRemoteDefault` ｜父类: BaseItem
+- **工程部门禁遥控器** — `DoorRemoteEngineering` ｜父类: DoorRemoteDefault,BaseCommandContraband
+- **医疗部门禁遥控器** — `DoorRemoteMedical` ｜父类: DoorRemoteDefault,BaseCommandContraband
+- **科研部门禁遥控器** — `DoorRemoteResearch` ｜父类: DoorRemoteDefault,BaseCommandContraband
+- **安保部门禁遥控器** — `DoorRemoteSecurity` ｜父类: DoorRemoteDefault,BaseCommandContraband
+- **服务部门禁遥控器** — `DoorRemoteService` ｜父类: DoorRemoteDefault,BaseCommandContraband
+- **异种赛博格门禁遥控器** — `DoorRemoteXenoborg` ｜父类: DoorRemoteCanEletrifyDoors,BaseXenoborgContraband
+- **双联应急氮气罐** — `DoubleEmergencyNitrogenTank` ｜父类: DoubleEmergencyOxygenTank
+- **双联应急氧气罐** — `DoubleEmergencyOxygenTank` ｜父类: ExtendedEmergencyOxygenTank
+- **双头电击警棍** — `DoubleStunbaton` ｜父类: Stunbaton,BaseSecurityContraband ｜_Starlight
+- **大烧杯** — `DoxarubixadoneBeakerLarge` ｜父类: LargeBeaker ｜_Starlight
+- **钻头** — `Drill` ｜父类: BaseToolSurgery
+- **绑架者的手术钻** — `DrillAbductor` ｜父类: Drill ｜_Starlight
+- **手术钻** — `DrillCyber` ｜父类: Drill ｜_Starlight
+- **手术钻** — `DrillRipper` ｜父类: Drill ｜_Starlight
+- **绿越狱者苦艾酒** — `DrinkAbsintheBottleFull` ｜父类: DrinkVisualsAllFilled,DrinkBottleGlassBaseFull
+- **变形玻璃杯** — `DrinkAbsintheGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkAcidSpitGlass` ｜父类: DrinkGlass
+- **熔岩艾尔酒瓶** — `DrinkAleBottleFull` ｜父类: DrinkVisualsAllFilled,DrinkBottleGlassSmallBaseFull
+- **熔岩艾尔大啤酒壶** — `DrinkAleBottleFullGrowler` ｜父类: DrinkVisualsAllFilled,DrinkBottleGlassBaseFull
+- **麦芽酒瓶** — `DrinkAleBottlePlasticFull` ｜父类: DrinkVisualsAllFilled,DrinkBottlePlasticSmallBaseFull ｜_Starlight
+- **变形玻璃杯** — `DrinkAleGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkAlienBrainHemorrhage` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkAlliesCocktail` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkAloe` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkAmasecGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkAndalusia` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkAntifreeze` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkArnoldPalmer` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkAtomicBombGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkB52Glass` ｜父类: DrinkGlass
+- **蜕变玻璃** — `DrinkBacchusBlessing` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkBahamaMama` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkBananaHonkGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkBarefootGlass` ｜父类: DrinkGlass
+- `模板` **DrinkBase** — `DrinkBase` ｜父类: BaseItem
+- `模板` **DrinkBaseCup** — `DrinkBaseCup` ｜父类: DrinkBase
+- `模板` **DrinkBaseEmptyTrash** — `DrinkBaseEmptyTrash`
+- `模板` **DrinkBaseMaterialCardboard** — `DrinkBaseMaterialCardboard`
+- `模板` **DrinkBaseMaterialGlass** — `DrinkBaseMaterialGlass`
+- `模板` **DrinkBaseMaterialGold** — `DrinkBaseMaterialGold`
+- `模板` **DrinkBaseMaterialMetal** — `DrinkBaseMaterialMetal`
+- `模板` **DrinkBaseMaterialPlastic** — `DrinkBaseMaterialPlastic`
+- `模板` **DrinkBaseMaterialPorcelain** — `DrinkBaseMaterialPorcelain` ｜父类: DrinkBaseMaterialGlass
+- `模板` **DrinkBaseMaterialStrongMetal** — `DrinkBaseMaterialStrongMetal` ｜父类: DrinkBaseMaterialMetal
+- `模板` **DrinkBaseMaterialStrongPlastic** — `DrinkBaseMaterialStrongPlastic` ｜父类: DrinkBaseMaterialPlastic
+- `模板` **马克杯** — `DrinkBaseMug` ｜父类: DrinkBaseMaterialPorcelain,DrinkBaseCup,DrinkVisualsFill
+- `模板` **DrinkBaseOpenable** — `DrinkBaseOpenable`
+- `模板` **DrinkBaseOpenableOpen** — `DrinkBaseOpenableOpen` ｜父类: DrinkBaseOpenable
+- **变形玻璃杯** — `DrinkBeepskySmashGlass` ｜父类: DrinkGlass
+- **啤酒瓶 # beer it is. coffee. beer? coff-ee? be-er? c-o... b-e** — `DrinkBeerBottleFull` ｜父类: DrinkVisualsAllFilled,DrinkBottleGlassSmallBaseFull
+- **啤酒罐** — `DrinkBeerCan` ｜父类: DrinkCanBaseFull
+- **变形玻璃杯** — `DrinkBeerglass` ｜父类: DrinkGlass
+- **大瓶啤酒** — `DrinkBeerGrowler` ｜父类: DrinkVisualsAllFilled,DrinkBottleGlassBaseFull
+- **变形玻璃杯** — `DrinkBerryJuice` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkBlackRussianGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkBloodGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkBloodyMaryGlass` ｜父类: DrinkGlass
+- **蓝柑小姐** — `DrinkBlueCuracaoBottleFull` ｜父类: DrinkVisualsAllFilled,DrinkBottleGlassBaseFull
+- **变形玻璃杯** — `DrinkBlueCuracaoGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkBlueHawaiianGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkBooger` ｜父类: DrinkGlass
+- **绿越狱者苦艾酒** — `DrinkBottleAbsinthe` ｜父类: DrinkBottleBaseEmpty,DrinkAbsintheBottleFull
+- **蓝柑小姐** — `DrinkBottleAlcoClear` ｜父类: DrinkBottleBaseEmpty,DrinkBlueCuracaoBottleFull
+- **熔岩艾尔酒瓶** — `DrinkBottleAle` ｜父类: DrinkBottleBaseSmallEmpty,DrinkAleBottleFull
+- `模板` **DrinkBottleBaseEmpty** — `DrinkBottleBaseEmpty` ｜父类: DrinkBaseOpenableOpen,DrinkBaseEmptyTrash
+- `模板` **DrinkBottleBaseSmallEmpty** — `DrinkBottleBaseSmallEmpty` ｜父类: DrinkBaseOpenableOpen,DrinkBaseEmptyTrash
+- **啤酒瓶** — `DrinkBottleBeer` ｜父类: DrinkBottleBaseSmallEmpty,DrinkBeerBottleFull
+- **咖啡利口酒瓶** — `DrinkBottleCoffeeLiqueur` ｜父类: DrinkBottleBaseEmpty,DrinkCoffeeLiqueurBottleFull
+- **干邑酒瓶** — `DrinkBottleCognac` ｜父类: DrinkBottleBaseEmpty,DrinkCognacBottleFull
+- **金箔猎手酒瓶** — `DrinkBottleGildlager` ｜父类: DrinkBottleBaseEmpty,DrinkGildlagerBottleFull
+- **噬恶者金酒** — `DrinkBottleGin` ｜父类: DrinkBottleBaseEmpty,DrinkGinBottleFull
+- `模板` **DrinkBottleGlassBaseFull** — `DrinkBottleGlassBaseFull` ｜父类: DrinkBaseMaterialGlass,DrinkBase,DrinkBaseOpenable
+- `模板` **DrinkBottleGlassSmallBaseFull** — `DrinkBottleGlassSmallBaseFull` ｜父类: DrinkBottleGlassBaseFull
+- **NT 卡奥尔酒瓶** — `DrinkBottleNTCahors` ｜父类: DrinkBottleBaseEmpty,DrinkBottleGlassBaseFull
+- **虚无之瓶** — `DrinkBottleOfNothingFull` ｜父类: DrinkVisualsOpenable,DrinkBottleGlassBaseFull
+- **包装大师培恩龙舌兰酒瓶** — `DrinkBottlePatron` ｜父类: DrinkBottleBaseEmpty,DrinkPatronBottleFull
+- `模板` **DrinkBottlePlasticBaseFull** — `DrinkBottlePlasticBaseFull` ｜父类: DrinkBaseMaterialPlastic,DrinkBase,DrinkBaseOpenable
+- `模板` **DrinkBottlePlasticSmallBaseFull** — `DrinkBottlePlasticSmallBaseFull` ｜父类: DrinkBottlePlasticBaseFull
+- **术士天鹅绒酒瓶** — `DrinkBottlePoisonWine` ｜父类: DrinkBottleBaseEmpty,DrinkPoisonWinebottleFull
+- **皮特舰长古巴香料朗姆酒** — `DrinkBottleRum` ｜父类: DrinkBottleBaseEmpty,DrinkRumBottleFull
+- **卡卡沃保质龙舌兰酒瓶** — `DrinkBottleTequila` ｜父类: DrinkBottleBaseEmpty,DrinkTequilaBottleFull
+- **金眼苦艾酒瓶** — `DrinkBottleVermouth` ｜父类: DrinkBottleBaseEmpty,DrinkVermouthBottleFull
+- **伏特加酒瓶** — `DrinkBottleVodka` ｜父类: DrinkBottleBaseEmpty,DrinkVodkaBottleFull
+- **吉特叔叔特藏威士忌** — `DrinkBottleWhiskey` ｜父类: DrinkBottleBaseEmpty,DrinkWhiskeyBottleFull
+- **双胡子特制葡萄酒瓶** — `DrinkBottleWine` ｜父类: DrinkBottleBaseEmpty,DrinkWineBottleFull
+- **变形玻璃杯** — `DrinkBraveBullGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkBronxGlass` ｜父类: DrinkGlass
+- **拿铁咖啡** — `DrinkCafeLatte` ｜父类: DrinkBaseMug
+- **变形玻璃杯** — `DrinkCaipirinha` ｜父类: DrinkGlass
+- `模板` **DrinkCanBaseFull** — `DrinkCanBaseFull` ｜父类: DrinkBaseMaterialMetal,DrinkBase,DrinkBaseOpenable,DrinkVisualsOpenable
+- **六罐装饮料** — `DrinkCanPack` ｜父类: BaseStorageItem
+- **变形玻璃杯** — `DrinkCarrotJuice` ｜父类: DrinkGlass
+- `模板` **DrinkCartonBaseEmpty** — `DrinkCartonBaseEmpty` ｜父类: DrinkBaseOpenableOpen,DrinkBaseEmptyTrash
+- `模板` **DrinkCartonBaseFull** — `DrinkCartonBaseFull` ｜父类: DrinkBaseMaterialCardboard,DrinkBase,DrinkBaseOpenable,DrinkVisualsOpenable
+- `模板` **DrinkCartonBaseLargeEmpty** — `DrinkCartonBaseLargeEmpty` ｜父类: DrinkBaseOpenableOpen,DrinkBaseEmptyTrash
+- `模板` **DrinkCartonBaseXtraLargeFull** — `DrinkCartonBaseXtraLargeFull` ｜父类: DrinkCartonBaseFull
+- **奶油** — `DrinkCartonCream` ｜父类: DrinkCartonBaseEmpty,DrinkCreamCarton
+- **青柠汁** — `DrinkCartonLime` ｜父类: DrinkCartonBaseEmpty,DrinkJuiceLimeCarton
+- **牛奶** — `DrinkCartonMilk` ｜父类: DrinkCartonBaseLargeEmpty,DrinkMilkCarton
+- **燕麦奶** — `DrinkCartonOatMilk` ｜父类: DrinkCartonBaseLargeEmpty,DrinkOatMilkCarton
+- **橙汁** — `DrinkCartonOrange` ｜父类: DrinkCartonBaseEmpty,DrinkJuiceOrangeCarton
+- `模板` **DrinkCartonSmallBaseFull** — `DrinkCartonSmallBaseFull` ｜父类: DrinkCartonBaseFull
+- **豆奶** — `DrinkCartonSoyMilk` ｜父类: DrinkCartonBaseLargeEmpty,DrinkSoyMilkCarton
+- **番茄汁** — `DrinkCartonTomato` ｜父类: DrinkCartonBaseEmpty,DrinkJuiceTomatoCarton
+- **香槟酒瓶** — `DrinkChampagneBottleFull` ｜父类: DrinkVisualsOpenable,DrinkBottleGlassBaseFull
+- **拟形怪之刺汽水罐** — `DrinkChangelingStingCan` ｜父类: DrinkCanBaseFull
+- **变形玻璃杯** — `DrinkChocolateGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkCoconutRum` ｜父类: DrinkGlass
+- **椰子水** — `DrinkCoconutWaterCarton` ｜父类: DrinkCartonSmallBaseFull
+- **变形玻璃杯** — `DrinkCoconutWaterGlass` ｜父类: DrinkGlass
+- **椰子水壶** — `DrinkCoconutWaterJug` ｜父类: DrinkVisualsOpenable,DrinkBottlePlasticBaseFull
+- **变形玻璃杯** — `DrinkCoffee` ｜父类: DrinkGlass
+- **咖啡壶** — `DrinkCoffeeJug` ｜父类: DrinkVisualsOpenable,DrinkBottlePlasticBaseFull
+- **咖啡利口酒瓶** — `DrinkCoffeeLiqueurBottleFull` ｜父类: DrinkVisualsOpenable,DrinkBottleGlassBaseFull
+- **变形玻璃杯** — `DrinkCoffeeLiqueurGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkCogChampBase` ｜父类: DrinkGlass
+- **干邑酒瓶** — `DrinkCognacBottleFull` ｜父类: DrinkVisualsAllFilled,DrinkBottleGlassBaseFull
+- **变形玻璃杯** — `DrinkCognacGlass` ｜父类: DrinkGlass
+- **太空可乐瓶** — `DrinkColaBottleFull` ｜父类: DrinkVisualsAllFilled,DrinkBottlePlasticBaseFull
+- **太空可乐罐** — `DrinkColaCan` ｜父类: DrinkCanBaseFull
+- **太空可乐罐** — `DrinkColaCanEmpty` ｜父类: DrinkBaseOpenableOpen,DrinkColaCan
+- **变形玻璃杯** — `DrinkCosmopolitan` ｜父类: DrinkGlass
+- **螃蟹汁罐** — `DrinkCrabJuiceCan` ｜父类: DrinkCanBaseFull ｜_Starlight
+- **变形玻璃杯** — `DrinkCream` ｜父类: DrinkGlass
+- **奶油** — `DrinkCreamCarton` ｜父类: DrinkCartonSmallBaseFull
+- **XL 奶油** — `DrinkCreamCartonXL` ｜父类: DrinkCartonBaseXtraLargeFull
+- **变形玻璃杯** — `DrinkCrushDepthGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkCubaLibreGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkDaiquiri` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkDarkandStormyGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkDeadRumGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkDeathInTheAfternoon` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkDemonsBlood` ｜父类: DrinkGlass
+- **侦探的扁酒壶** — `DrinkDetFlask` ｜父类: FlaskBase
+- **变形玻璃杯** — `DrinkDevilsKiss` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkDoctorsDelightGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkDraganSpecialGlass` ｜父类: DrinkGlass ｜_Starlight
+- **吉布博士汽水罐** — `DrinkDrGibbCan` ｜父类: DrinkCanBaseFull
+- **变形玻璃杯** — `DrinkDrGibbGlass` ｜父类: DrinkGlass
+- **吉布博士汽水壶** — `DrinkDrGibbJug` ｜父类: DrinkVisualsOpenable,DrinkBottlePlasticBaseFull
+- **变形玻璃杯** — `DrinkDriestMartiniGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkEggnog` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkElectricSharkGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkEmeraldGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkEmpress75` ｜父类: DrinkGlass
+- **红牛劲能量饮料罐** — `DrinkEnergyDrinkCan` ｜父类: DrinkCanBaseFull
+- **红牛劲能量饮料壶** — `DrinkEnergyDrinkJug` ｜父类: DrinkVisualsOpenable,DrinkBottlePlasticBaseFull
+- **变形玻璃杯** — `DrinkErikaSurprise` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkEspressoMartini` ｜父类: DrinkGlass
+- **舰长的扁酒壶** — `DrinkFlask` ｜父类: FlaskBase
+- **扁酒壶** — `DrinkFlaskBar` ｜父类: FlaskBase
+- **老旧扁酒壶** — `DrinkFlaskOld` ｜父类: DrinkBaseMaterialStrongMetal,DrinkBase
+- **十四疯汽水罐** — `DrinkFourteenLokoCan` ｜父类: DrinkCanBaseFull
+- **变形玻璃杯** — `DrinkFourteenLokoGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkGargleBlasterGlass` ｜父类: DrinkGlass
+- **金箔猎手酒瓶** — `DrinkGildlagerBottleFull` ｜父类: DrinkVisualsAllFilled,DrinkBottleGlassBaseFull
+- **变形玻璃杯** — `DrinkGildlagerGlass` ｜父类: DrinkGlass
+- **噬恶者金酒** — `DrinkGinBottleFull` ｜父类: DrinkVisualsAllFilled,DrinkBottleGlassBaseFull
+- **变形玻璃杯** — `DrinkGinFizzGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkGinGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkGinTonicglass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkGlass` ｜父类: DrinkBaseMaterialGlass,DrinkBaseCup,DrinkVisualsFillOverlay
+- **碟形香槟杯** — `DrinkGlassCoupeShaped` ｜父类: DrinkBaseMaterialGlass,DrinkBaseCup,DrinkVisualsFillOverlay
+- **变形玻璃杯** — `DrinkGlassWhite` ｜父类: DrinkGlass
+- **金杯** — `DrinkGoldenCup` ｜父类: DrinkBaseMaterialGold,DrinkBaseCup
+- **葡萄汽水罐** — `DrinkGrapeCan` ｜父类: DrinkCanBaseFull
+- **变形玻璃杯** — `DrinkGrapeJuice` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkGrapeSodaGlass` ｜父类: DrinkGlass
+- **肉汁壶  # short and stout** — `DrinkGravyBoat` ｜父类: DrinkBaseMaterialPorcelain,DrinkBase ｜_Starlight
+- **绿茶** — `DrinkGreenTea` ｜父类: DrinkTeacupEmpty
+- **变形玻璃杯** — `DrinkGreenTeaGlass` ｜父类: DrinkGlass
+- **绿茶壶** — `DrinkGreenTeaJug` ｜父类: DrinkVisualsOpenable,DrinkBottlePlasticBaseFull
+- **荆棘玫瑰石榴糖浆瓶** — `DrinkGrenadineBottleFull` ｜父类: DrinkVisualsAllFilled,DrinkBottleGlassBaseFull
+- **变形玻璃杯** — `DrinkGrenadineGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkGrogGlass` ｜父类: DrinkGlass
+- **地狱拉面** — `DrinkHellRamen` ｜父类: DrinkRamen
+- **变形玻璃杯** — `DrinkHippiesDelightGlass` ｜父类: DrinkGlass
+- **蜕变玻璃** — `DrinkHoochGlass` ｜父类: DrinkGlass
+- **安保主管的扁酒壶** — `DrinkHosFlask` ｜父类: FlaskBase
+- **热巧克力** — `DrinkHotCoco` ｜父类: DrinkBaseMug
+- **咖啡** — `DrinkHotCoffee` ｜父类: DrinkBaseMug
+- **冰桶** — `DrinkIceBucket` ｜父类: DrinkBaseMaterialMetal,DrinkBase
+- **变形玻璃杯** — `DrinkIceCreamGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkIcedBeerGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkIcedCoffeeGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkIcedGreenTeaGlass` ｜父类: DrinkGlass
+- **冰茶罐** — `DrinkIcedTeaCan` ｜父类: DrinkCanBaseFull
+- **变形玻璃杯** — `DrinkIcedTeaGlass` ｜父类: DrinkGlass
+- **冰茶壶** — `DrinkIcedTeaJug` ｜父类: DrinkVisualsOpenable,DrinkBottlePlasticBaseFull
+- **变形玻璃杯** — `DrinkIceGlass` ｜父类: DrinkGlass
+- **冰壶** — `DrinkIceJug` ｜父类: DrinkVisualsOpenable,DrinkBottlePlasticBaseFull
+- **变形玻璃杯** — `DrinkIrishCarBomb` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkIrishCoffeeGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkIrishCreamGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkJackRoseGlass` ｜父类: DrinkGlass
+- **玻璃罐** — `DrinkJar` ｜父类: DrinkGlass
+- **不明物罐** — `DrinkJarWhat` ｜父类: DrinkBaseMaterialGlass,DrinkBase
+- **量酒器** — `DrinkJigger` ｜父类: DrinkBaseMaterialMetal,DrinkBase
+- **柠檬汁** — `DrinkJuiceLemonCarton` ｜父类: DrinkBaseMaterialPlastic,DrinkCartonSmallBaseFull
+- **青柠汁** — `DrinkJuiceLimeCarton` ｜父类: DrinkBaseMaterialPlastic,DrinkCartonSmallBaseFull
+- **XL 青柠汁** — `DrinkJuiceLimeCartonXL` ｜父类: DrinkBaseMaterialPlastic,DrinkCartonBaseXtraLargeFull
+- **橙汁** — `DrinkJuiceOrangeCarton` ｜父类: DrinkCartonSmallBaseFull
+- **XL 橙汁** — `DrinkJuiceOrangeCartonXL` ｜父类: DrinkCartonBaseXtraLargeFull
+- **菠萝汁** — `DrinkJuicePineappleCarton` ｜父类: DrinkCartonSmallBaseFull
+- **番茄汁** — `DrinkJuiceTomatoCarton` ｜父类: DrinkCartonSmallBaseFull
+- **变形玻璃杯** — `DrinkJungleBirdGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkKalimotxoGlass` ｜父类: DrinkGlass
+- **葡萄汁** — `DrinkLean` ｜父类: DrinkBaseMaterialPlastic,DrinkBaseCup
+- **变形玻璃杯** — `DrinkLemonadeGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkLemonJuice` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkLemonLime` ｜父类: DrinkGlass
+- **雷击柠青汽水罐** — `DrinkLemonLimeCan` ｜父类: DrinkCanBaseFull
+- **雷击蔓越莓汽水罐** — `DrinkLemonLimeCranberryCan` ｜父类: DrinkCanBaseFull
+- **雷击柠青汽水壶** — `DrinkLemonLimeJug` ｜父类: DrinkVisualsOpenable,DrinkBottlePlasticBaseFull
+- **变形玻璃杯** — `DrinkLimeJuice` ｜父类: DrinkGlass
+- **锂元素扁酒壶** — `DrinkLithiumFlask` ｜父类: FlaskBase
+- **变形玻璃杯** — `DrinkLongIslandIcedTeaGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkManhattanGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkManhattanProjectGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkManlyDorfGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkMargaritaGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkMartiniGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkMayojito` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkMeadGlass` ｜父类: DrinkGlass
+- **蜂蜜酒壶** — `DrinkMeadJug` ｜父类: DrinkVisualsOpenable,DrinkBottlePlasticBaseFull
+- **翡翠蜜瓜酒** — `DrinkMelonLiquorBottleFull` ｜父类: DrinkVisualsAllFilled,DrinkBottleGlassBaseFull
+- **牛奶** — `DrinkMilkCarton` ｜父类: DrinkBaseMaterialPlastic,DrinkCartonBaseFull
+- **变形玻璃杯** — `DrinkMilkshake` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkMimeosa` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkMimosa` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkMojito` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkMonkeyBusinessGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkMoonshineGlass` ｜父类: DrinkGlass
+- **美味拖把水** — `DrinkMopwataBottleRandom` ｜父类: DrinkVisualsAllFilled,DrinkBottleGlassSmallBaseFull
+- **变形玻璃杯** — `DrinkMoscowMule` ｜父类: DrinkGlass
+- **MRE 军用扁酒壶** — `DrinkMREFlask` ｜父类: FlaskBase
+- **马克杯** — `DrinkMug` ｜父类: DrinkBaseMug
+- **黑色马克杯** — `DrinkMugBlack` ｜父类: DrinkBaseMug
+- **蓝色马克杯** — `DrinkMugBlue` ｜父类: DrinkBaseMug
+- **趣味狗狗马克杯** — `DrinkMugDog` ｜父类: DrinkBaseMug
+- **绿色马克杯** — `DrinkMugGreen` ｜父类: DrinkBaseMug
+- **爱心马克杯** — `DrinkMugHeart` ｜父类: DrinkBaseMug
+- **金属马克杯** — `DrinkMugMetal` ｜父类: DrinkBaseMaterialMetal,DrinkBaseMug
+- **莫比乌斯马克杯** — `DrinkMugMoebius` ｜父类: DrinkBaseMug
+- **冠军马克杯** — `DrinkMugOne` ｜父类: DrinkBaseMug
+- **彩虹马克杯** — `DrinkMugRainbow` ｜父类: DrinkBaseMug
+- **红色马克杯** — `DrinkMugRed` ｜父类: DrinkBaseMug
+- **变形玻璃杯** — `DrinkNeurotoxinGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkNothing` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkNTCahors` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkNuclearColaGlass` ｜父类: DrinkGlass
+- **血红佳酿罐** — `DrinkNukieCan` ｜父类: DrinkCanBaseFull
+- **燕麦奶** — `DrinkOatMilkCarton` ｜父类: DrinkBaseMaterialPlastic,DrinkCartonBaseFull
+- **变形玻璃杯** — `DrinkOrangeJuice` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkOrangeLimeSodaGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkPainkillerGlass` ｜父类: DrinkGlass
+- **包装大师培恩龙舌兰酒瓶** — `DrinkPatronBottleFull` ｜父类: DrinkVisualsAllFilled,DrinkBottleGlassBaseFull
+- **变形玻璃杯** — `DrinkPatronGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkPinaColadaGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkPoisonBerryJuice` ｜父类: DrinkGlass
+- **术士天鹅绒酒瓶** — `DrinkPoisonWinebottleFull` ｜父类: DrinkVisualsOpenable,DrinkBottleGlassBaseFull
+- **变形玻璃杯** — `DrinkPoisonWineGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkPoscaGlass` ｜父类: DrinkGlass
+- **强能玩家饮料罐** — `DrinkPwrGameCan` ｜父类: DrinkCanBaseFull
+- **变形玻璃杯** — `DrinkRadlerGlass` ｜父类: DrinkGlass
+- **杯面** — `DrinkRamen` ｜父类: FoodSnackBase
+- **变形玻璃杯** — `DrinkRedMeadGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkRewriter` ｜父类: DrinkGlass
+- **根汁汽水罐** — `DrinkRootBeerCan` ｜父类: DrinkCanBaseFull
+- **变形玻璃杯** — `DrinkRootBeerFloatGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkRootBeerGlass` ｜父类: DrinkGlass
+- **根汁汽水壶** — `DrinkRootBeerJug` ｜父类: DrinkVisualsOpenable,DrinkBottlePlasticBaseFull
+- **变形玻璃杯** — `DrinkRoyRogersGlass` ｜父类: DrinkGlass
+- **皮特舰长古巴香料朗姆酒** — `DrinkRumBottleFull` ｜父类: DrinkVisualsAllFilled,DrinkBottleGlassBaseFull
+- **变形玻璃杯** — `DrinkRumGlass` ｜父类: DrinkGlass
+- **小清酒瓶** — `DrinkSakeBottleFull` ｜父类: DrinkVisualsOpenable,DrinkBottleGlassSmallBaseFull
+- **变形玻璃杯** — `DrinkSakeGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkSbitenGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkScrewdriverCocktailGlass` ｜父类: DrinkGlass
+- `模板` **DrinkShakeBase** — `DrinkShakeBase` ｜父类: DrinkBaseMaterialGlass,DrinkBase
+- **蓝色奶昔** — `DrinkShakeBlue` ｜父类: DrinkShakeBase
+- **空奶昔杯** — `DrinkShakeEmpty` ｜父类: DrinkShakeBase
+- **肉味奶昔** — `DrinkShakeMeat` ｜父类: DrinkShakeBase
+- **调酒壶** — `DrinkShaker` ｜父类: DrinkBaseMaterialStrongMetal,DrinkBase
+- **金色调酒壶** — `DrinkShakerGold` ｜父类: DrinkShaker
+- **机器人奶昔** — `DrinkShakeRobo` ｜父类: DrinkShakeBase
+- **白色奶昔** — `DrinkShakeWhite` ｜父类: DrinkShakeBase
+- **蹒跚怪果汁罐** — `DrinkShamblersJuiceCan` ｜父类: DrinkCanBaseFull
+- **闪亮扁酒壶** — `DrinkShinyFlask` ｜父类: FlaskBase
+- **变形玻璃杯** — `DrinkShirleyTempleGlass` ｜父类: DrinkGlass
+- **烈酒杯** — `DrinkShotGlass` ｜父类: DrinkBaseMaterialGlass,DrinkBase,DrinkVisualsFillOverlay
+- **变形玻璃杯** — `DrinkSilencerGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkSingulo` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkSnowWhite` ｜父类: DrinkGlass
+- **苏打水瓶** — `DrinkSodaWaterBottleFull` ｜父类: DrinkVisualsAllFilled,DrinkBottlePlasticBaseFull
+- **苏打水罐** — `DrinkSodaWaterCan` ｜父类: DrinkCanBaseFull
+- **索尔干姜汽水罐** — `DrinkSolDryCan` ｜父类: DrinkCanBaseFull
+- **变形玻璃杯** — `DrinkSolDryGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkSoyLatte` ｜父类: DrinkGlass
+- **豆奶** — `DrinkSoyMilkCarton` ｜父类: DrinkCartonBaseFull
+- **太空胶水管** — `DrinkSpaceGlue` ｜父类: BaseSqueezeBottle
+- **太空润滑剂管** — `DrinkSpaceLube` ｜父类: BaseSqueezeBottle
+- **太空太阳风汽水瓶** — `DrinkSpaceMountainWindBottleFull` ｜父类: DrinkVisualsAllFilled,DrinkBottlePlasticBaseFull
+- **太空太阳风汽水罐** — `DrinkSpaceMountainWindCan` ｜父类: DrinkCanBaseFull
+- **变形玻璃杯** — `DrinkSpaceMountainWindGlass` ｜父类: DrinkGlass
+- **太空嗨汽水瓶** — `DrinkSpaceUpBottleFull` ｜父类: DrinkVisualsAllFilled,DrinkBottlePlasticBaseFull
+- **太空嗨汽水罐** — `DrinkSpaceUpCan` ｜父类: DrinkCanBaseFull
+- **变形玻璃杯** — `DrinkSpaceUpGlass` ｜父类: DrinkGlass
+- **星吻汽水罐** — `DrinkStarkistCan` ｜父类: DrinkCanBaseFull
+- **糖壶** — `DrinkSugarJug` ｜父类: DrinkVisualsOpenable,DrinkBottlePlasticBaseFull
+- **变形玻璃杯** — `DrinkSuiDreamGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkSyndicatebomb` ｜父类: DrinkGlass
+- **茶** — `DrinkTeacup` ｜父类: DrinkTeacupEmpty
+- **茶杯** — `DrinkTeacupEmpty` ｜父类: DrinkBaseMug
+- **变形玻璃杯** — `DrinkTeaGlass` ｜父类: DrinkGlass
+- **茶壶** — `DrinkTeaJug` ｜父类: DrinkVisualsOpenable,DrinkBottlePlasticBaseFull
+- **茶壶  # short and stout** — `DrinkTeapot` ｜父类: DrinkBaseMaterialPorcelain,DrinkBase
+- **卡卡沃保质龙舌兰酒瓶** — `DrinkTequilaBottleFull` ｜父类: DrinkVisualsAllFilled,DrinkBottleGlassBaseFull
+- **变形玻璃杯** — `DrinkTequilaGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkTequilaSunriseGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkTheHighlanderGlass` ｜父类: DrinkGlass ｜_Starlight
+- **蜕变玻璃** — `DrinkTheLastCall` ｜父类: DrinkGlass ｜_Starlight
+- **变形玻璃杯** — `DrinkTheMartinez` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkTheSunAlsoRises` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkThreeMileIslandGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkTomatoJuice` ｜父类: DrinkGlass
+- **汤力水瓶** — `DrinkTonicWaterBottleFull` ｜父类: DrinkVisualsAllFilled,DrinkBottlePlasticBaseFull
+- **汤力水罐** — `DrinkTonicWaterCan` ｜父类: DrinkCanBaseFull
+- **变形玻璃杯** — `DrinkTortugaGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkToxinsSpecialGlass` ｜父类: DrinkGlass
+- **真空保温瓶** — `DrinkVacuumFlask` ｜父类: FlaskBase
+- **变形玻璃杯** — `DrinkVampiroGlass` ｜父类: DrinkGlass
+- **金眼苦艾酒瓶** — `DrinkVermouthBottleFull` ｜父类: DrinkVisualsAllFilled,DrinkBottleGlassBaseFull
+- **变形玻璃杯** — `DrinkVermouthGlass` ｜父类: DrinkGlass
+- **溶液容器显示裁切测试** — `DrinkVisualizerTestCut` ｜父类: DrinkBaseCup
+- **溶液容器显示非裁切测试** — `DrinkVisualizerTestNot` ｜父类: DrinkBaseCup
+- `模板` **DrinkVisualsAll** — `DrinkVisualsAll` ｜父类: DrinkVisualsOpenable,DrinkVisualsFill
+- `模板` **DrinkVisualsAllFilled** — `DrinkVisualsAllFilled` ｜父类: DrinkVisualsAll
+- `模板` **DrinkVisualsFill** — `DrinkVisualsFill`
+- `模板` **DrinkVisualsFillFilled** — `DrinkVisualsFillFilled` ｜父类: DrinkVisualsFill
+- `模板` **DrinkVisualsFillOverlay** — `DrinkVisualsFillOverlay` ｜父类: DrinkVisualsFill
+- `模板` **DrinkVisualsOpenable** — `DrinkVisualsOpenable`
+- **伏特加酒瓶** — `DrinkVodkaBottleFull` ｜父类: DrinkVisualsAllFilled,DrinkBottleGlassBaseFull
+- **变形玻璃杯** — `DrinkVodkaGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkVodkaMartiniGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkVodkaRedBool` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkVodkaTonicGlass` ｜父类: DrinkGlass
+- **伏特加嗪酒瓶** — `DrinkVodkizineBottleFull` ｜父类: DrinkVisualsAllFilled,DrinkBottleGlassBaseFull ｜_Starlight
+- **水瓶** — `DrinkWaterBottleEmpty` ｜父类: DrinkWaterBottleFull ｜_Starlight
+- **水瓶** — `DrinkWaterBottleFull` ｜父类: DrinkVisualsAllFilled,DrinkBottlePlasticSmallBaseFull
+- **水杯** — `DrinkWaterCup` ｜父类: DrinkBaseMaterialCardboard,DrinkBaseCup,DrinkBaseEmptyTrash,DrinkVisualsFill
+- **水壶** — `DrinkWaterJug` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkWatermelonJuice` ｜父类: DrinkGlass
+- **西瓜汁壶** — `DrinkWaterMelonJuiceJug` ｜父类: DrinkVisualsOpenable,DrinkBottlePlasticBaseFull
+- **变形玻璃杯** — `DrinkWatermelonWakeup` ｜父类: DrinkGlass
+- **吉特叔叔特藏威士忌** — `DrinkWhiskeyBottleFull` ｜父类: DrinkVisualsAllFilled,DrinkBottleGlassBaseFull
+- **变形玻璃杯** — `DrinkWhiskeyColaGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkWhiskeyGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkWhiskeySodaGlass` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkWhiskeySour` ｜父类: DrinkGlass
+- **变形玻璃杯** — `DrinkWhiteGilgameshGlass` ｜父类: DrinkGlass ｜_Starlight
+- **变形玻璃杯** — `DrinkWhiteRussianGlass` ｜父类: DrinkGlass
+- **双胡子特制葡萄酒瓶** — `DrinkWineBottleFull` ｜父类: DrinkVisualsOpenable,DrinkBottleGlassBaseFull
+- **葡萄酒罐** — `DrinkWineCan` ｜父类: DrinkCanBaseFull
+- **变形玻璃杯** — `DrinkWineGlass` ｜父类: DrinkGlass
+- **滴管** — `Dropper` ｜父类: BaseItem
+- **枯树** — `DryTreeA` ｜父类: BaseTreeDry ｜_Starlight
+- **枯树** — `DryTreeB` ｜父类: BaseTreeDry ｜_Starlight
+- **枯树** — `DryTreeC` ｜父类: BaseTreeDry ｜_Starlight
+- **杜兰德装甲板** — `DurandArmorPlate` ｜父类: BaseExosuitParts ｜_Starlight
+- **杜兰德中央控制模块** — `DurandCentralElectronics` ｜父类: BaseElectronics ｜_Starlight
+- **杜兰德底盘** — `DurandChassis` ｜父类: BaseDurandPart ｜_Starlight
+- **杜兰德骨架** — `DurandHarness` ｜父类: BaseDurandPart ｜_Starlight
+- **杜兰德头部** — `DurandHead` ｜父类: BaseDurandPartItem ｜_Starlight
+- **杜兰德左臂** — `DurandLArm` ｜父类: BaseDurandPartItem ｜_Starlight
+- **杜兰德左腿** — `DurandLLeg` ｜父类: BaseDurandPartItem ｜_Starlight
+- **杜兰德外设控制模块** — `DurandPeripheralsElectronics` ｜父类: BaseElectronics ｜_Starlight
+- **杜兰德右臂** — `DurandRArm` ｜父类: BaseDurandPartItem ｜_Starlight
+- **杜兰德右腿** — `DurandRLeg` ｜父类: BaseDurandPartItem ｜_Starlight
+- **杜兰德武器控制与瞄准模块** — `DurandTargetingElectronics` ｜父类: BaseElectronics ｜_Starlight
+- **值班长官 ID卡** — `DutyOfficerIDCard` ｜父类: IDCardStandard,BaseSecurityContraband ｜_Starlight
+- **值班干员 PDA** — `DutyOfficerPDA` ｜父类: BaseSecurityPDA ｜_Starlight
+- **迪纳姆等离子团** — `DynamreDualLaser` ｜父类: BaseBulletTrigger ｜_Starlight
+- **反扫描仪** — `Ecronizer` ｜父类: BaseItem,BaseSyndicateContraband ｜_Starlight
+- **灵质** — `Ectoplasm` ｜父类: Ash
+- `模板` **EdibleBase** — `EdibleBase` ｜父类: BaseItem
+- **咿噗闪电** — `EeepGunBullet` ｜父类: TeslaGunBullet ｜_Impstation
+- **蛋盒** — `EggBoxBroken` ｜父类: FoodContainerEgg
+- **茄子种子包** — `EggplantSeeds` ｜父类: SeedBase
+- **蛋壳** — `Eggshells` ｜父类: BaseItem
+- **蜘蛛蛋** — `EggSpider` ｜父类: BaseItem ｜_Starlight
+- **蜘蛛蛋** — `EggSpiderFertilized` ｜父类: EggSpider ｜_Starlight
+- **茄子种子包** — `EggySeeds` ｜父类: SeedBase
+- **邪术之刃** — `EldritchBlade` ｜父类: BaseItem
+- **电烤架 机器主板** — `ElectricGrillMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **电吉他** — `ElectricGuitarInstrument` ｜父类: BaseStringInstrumentClothing
+- **电解装置 机器主板** — `ElectrolysisUnitMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **电解器机器电路板** — `ElectrolyzerMachineCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Funkystation
+- **复苏之种** — `ElfAntidoteSeed` ｜_Starlight
+- **净化光环** — `ElfCleanseSmoke` ｜父类: BaseFoam ｜_Starlight
+- **辉光法球** — `ElfLuminousOrb` ｜父类: BaseItem ｜_Starlight
+- **余烬** — `ElfMagicEmber` ｜父类: BaseItem ｜_Starlight
+- **止血符文** — `ElfRuneHaemostatic` ｜父类: BaseHealingItem ｜_Starlight
+- **密码序列器** — `Emag` ｜父类: EmagUnlimited
+- **木制密码序列器** — `EmagCommie` ｜父类: BaseItem,BaseSovietContraband ｜_Starlight
+- **自由MAG** — `EmagFREE` ｜父类: BaseItem,BaseHighlyIllegalContraband ｜_Starlight
+- **茶党MAG** — `EmagTeaParty` ｜父类: BaseItem,BaseHighlyIllegalContraband ｜_Starlight
+- **密码序列器** — `EmagUnlimited` ｜父类: BaseItem,BaseSyndicateContraband
+- **密码序列器** — `EmagWorn` ｜父类: Emag ｜_Starlight
+- **翡翠蜥吉他** — `EmeraldLizitar` ｜父类: BaseSword,BaseSecurityCargoContraband ｜_Starlight
+- **应急冷却装置** — `EmergencyCoolingUnit` ｜父类: CoolingUnit ｜_Starlight
+- **欢乐应急氧气罐** — `EmergencyFunnyOxygenTank` ｜父类: EmergencyOxygenTank
+- **紧急船员监视器** — `EmergencyHandheldCrewMonitor` ｜父类: PowerCellSlotMediumItem,BaseHandheldComputer,BaseMedicalContraband ｜_Starlight
+- **应急医疗笔** — `EmergencyMedipen` ｜父类: ChemicalMedipen
+- **应急氮气罐** — `EmergencyNitrogenTank` ｜父类: EmergencyOxygenTank
+- **应急氧气罐** — `EmergencyOxygenTank` ｜父类: GasTankRoundBase
+- **发射器能量弹** — `EmitterBolt` ｜父类: BaseBullet
+- **发射器 机器主板** — `EmitterCircuitboard` ｜父类: BaseMachineCircuitboard
+- **发射器平板包装** — `EmitterFlatpack` ｜父类: BaseFlatpack
+- **EMP手榴弹** — `EmpGrenade` ｜父类: ImpactGrenadeBase,BaseSyndicateContraband
+- **EMP 植入物** — `EmpImplant` ｜父类: BaseSubdermalImplant
+- **EMP 植入器** — `EmpImplanter` ｜父类: BaseImplantOnlyImplanterSyndi
+- **EMP 物品** — `EmpPulse` ｜父类: EnergyTrace ｜_Starlight
+- **EmpRocketImpactEffect** — `EmpRocketImpactEffect` ｜_Starlight
+- **雷管** — `EmptyDetonator` ｜父类: BaseItem,BaseSecurityContraband
+- **手电筒** — `EmptyFlashlightLantern` ｜父类: FlashlightLantern
+- **空油包** — `EmptyOilPack` ｜父类: BaseItem ｜_Starlight
+- **空油包** — `EmptyOilPack1` ｜父类: EmptyOilPack ｜_Starlight
+- **空油包** — `EmptyOilPack5` ｜父类: EmptyOilPack ｜_Starlight
+- **加密密钥** — `EncryptionKey` ｜父类: BaseItem
+- **管理空间加密密钥** — `EncryptionKeyAspace` ｜父类: EncryptionKey ｜_Starlight
+- **二进制翻译密钥** — `EncryptionKeyBinary` ｜父类: EncryptionKey,BaseSiliconScienceContraband
+- **二进制翻译密钥** — `EncryptionKeyBinarySyndicate` ｜父类: EncryptionKey,BaseSyndicateContraband
+- **黑星加密密钥** — `EncryptionKeyBlackstar` ｜父类: EncryptionKey ｜_Starlight
+- **货运部加密密钥** — `EncryptionKeyCargo` ｜父类: EncryptionKey,BaseCargoContraband
+- **中央指挥部加密密钥** — `EncryptionKeyCentCom` ｜父类: EncryptionKey,BaseCentcommContraband
+- **指挥部加密密钥** — `EncryptionKeyCommand` ｜父类: EncryptionKey,BaseCommandContraband
+- **公共频道加密密钥** — `EncryptionKeyCommon` ｜父类: EncryptionKey
+- **工程部加密密钥** — `EncryptionKeyEngineering` ｜父类: EncryptionKey,BaseEngineeringContraband
+- **远征加密密钥** — `EncryptionKeyExpedition` ｜父类: EncryptionKey,BaseCargoContraband ｜_Starlight
+- **自由职业者加密密钥** — `EncryptionKeyFreelance` ｜父类: EncryptionKey
+- **全局加密密钥** — `EncryptionKeyGlobal` ｜父类: EncryptionKey ｜_Starlight
+- **法务加密密钥** — `EncryptionKeyLaw` ｜父类: EncryptionKey,BaseLawContraband ｜_Starlight
+- **法务安保加密密钥** — `EncryptionKeyLawSecurity` ｜父类: EncryptionKey,BaseSecurityContraband ｜_Starlight
+- **医疗部加密密钥** — `EncryptionKeyMedical` ｜父类: EncryptionKey,BaseMedicalContraband
+- **医疗科研联合加密密钥** — `EncryptionKeyMedicalScience` ｜父类: EncryptionKey,BaseMedicalScienceContraband
+- **医疗安保加密密钥** — `EncryptionKeyMedicalSecurity` ｜父类: EncryptionKey,BaseSecurityContraband ｜_Starlight
+- **商人加密密钥** — `EncryptionKeyMerchant` ｜父类: EncryptionKey ｜_Starlight
+- **纳米传讯加密密钥** — `EncryptionKeyNanoTrasen` ｜父类: EncryptionKey,BaseNanoTrasenContraband ｜_Starlight
+- **纳米传讯加密密钥** — `EncryptionKeyNanoTrasenUnremovable` ｜父类: EncryptionKeyNanoTrasen ｜_Starlight
+- **纳米传讯职业培训师加密密钥** — `EncryptionKeyNCTrainer` ｜父类: EncryptionKey,BaseNanoTrasenContraband ｜_Starlight
+- **机器人技术加密密钥** — `EncryptionKeyRobo` ｜父类: EncryptionKey,BaseScienceContraband
+- **打捞加密密钥** — `EncryptionKeySalvage` ｜父类: EncryptionKey,BaseSalvageMiningContraband ｜_Starlight
+- **科研部加密密钥** — `EncryptionKeyScience` ｜父类: EncryptionKey,BaseScienceContraband
+- **安保部加密密钥** — `EncryptionKeySecurity` ｜父类: EncryptionKey,BaseSecurityContraband
+- **服务部加密密钥** — `EncryptionKeyService` ｜父类: EncryptionKey,BaseCivilianContraband
+- **苏维埃加密密钥** — `EncryptionKeySoviet` ｜父类: EncryptionKey,BaseSovietContraband ｜_Starlight
+- **空间站总控加密密钥** — `EncryptionKeyStationMaster` ｜父类: EncryptionKey,BaseCentcommCommandContraband
+- **血红加密密钥** — `EncryptionKeySyndie` ｜父类: EncryptionKey,BaseSyndicateContraband
+- **血红加密密钥** — `EncryptionKeySyndiePAI` ｜父类: EncryptionKeySyndie ｜_Starlight
+- **TSF 加密密钥** — `EncryptionKeyTSF` ｜父类: BaseTSFContraband,EncryptionKey ｜_Starlight
+- **魔法之风加密密钥** — `EncryptionKeyWinds` ｜父类: EncryptionKey,BaseMagicalContraband ｜_Starlight
+- **魔法之风加密密钥** — `EncryptionKeyWindsUnremovable` ｜父类: EncryptionKeyWinds ｜_Starlight
+- **巫师加密密钥** — `EncryptionKeyWizardMaster` ｜父类: EncryptionKey,BaseMagicalContraband ｜_Starlight
+- **巫师加密密钥** — `EncryptionKeyWizardMasterUnremovable` ｜父类: EncryptionKeyWizardMaster ｜_Starlight
+- **能量弩箭** — `EnergyCrossbowBolt` ｜父类: BaseBullet
+- **能量弯刀** — `EnergyCutlass` ｜父类: BaseMeleeWeaponEnergy,BaseMajorContraband
+- **钢笔** — `EnergyDagger` ｜父类: BaseMeleeWeaponEnergy,SelectableLock
+- **能量匕首盒** — `EnergyDaggerBox` ｜父类: BaseItem,BaseSyndicateContraband
+- **能量匕首** — `EnergyDaggerLoud` ｜父类: BaseMeleeWeaponEnergy,BaseSyndicateContraband
+- **能量匕首** — `EnergyDaggerLoudBlue` ｜父类: EnergyDaggerLoud,BaseXenoborgContraband
+- **钢笔** — `EnergyDaggerWorn` ｜父类: EnergyDagger ｜_Starlight
+- **血红色个人护盾发生器** — `EnergyDomeGeneratorPersonalSyndie` ｜父类: BaseItem ｜_Starlight
+- **BR-40c“海龟”重型屏障** — `EnergyDomeTurtle` ｜父类: BaseItem ｜_Starlight
+- **静态穹顶** — `EnergyDomeWiredTest` ｜父类: BaseMachine ｜_Starlight
+- **能量武士刀** — `EnergyKatana` ｜父类: Katana
+- **能量护盾** — `EnergyShield` ｜父类: BaseItem,BaseSyndicateContraband
+- **壁垒** — `EnergyShieldCyber` ｜父类: BaseItem,BaseSecurityContraband ｜_Starlight
+- **能量盾** — `EnergyShieldUnbreakable` ｜父类: BaseItem,BaseXenoborgContraband ｜_Starlight
+- **能量剑** — `EnergySword` ｜父类: BaseMeleeWeaponEnergy,BaseSyndicateContraband
+- **香蕉能量剑** — `EnergySwordBanana` ｜父类: BaseMeleeWeaponEnergy,BaseSyndicateContraband ｜_Starlight
+- **双刃能量剑** — `EnergySwordDouble` ｜父类: BaseMeleeWeaponEnergy,BaseSyndicateContraband
+- **能量剑** — `EnergySwordWorn` ｜父类: EnergySword ｜_Starlight
+- `模板` **EnergyTrace** — `EnergyTrace` ｜父类: BasicHitscan ｜_Starlight
+- **工程部通信控制台电路板** — `EngineeringCommsComputerCircuitboard` ｜父类: BaseComputerCircuitboard,BaseCommandContraband ｜_Starlight
+- **工程师ID卡** — `EngineeringIDCard` ｜父类: IDCardStandard
+- **空间站工程师PDA** — `EngineerPDA` ｜父类: BasePDA
+- **信封** — `Envelope` ｜父类: BaseItem
+- **错误** — `Error` ｜父类: BaseItem
+- **应急响应队牧师 ID卡** — `ERTChaplainIDCard` ｜父类: IDCardStandard ｜_Starlight
+- **应急响应队牧师PDA # Starlight: capitalization** — `ERTChaplainPDA` ｜父类: ERTLeaderPDA
+- **应急响应队工程师 ID卡** — `ERTEngineerIDCard` ｜父类: IDCardStandard ｜_Starlight
+- **应急响应队工程师PDA # Starlight: capitalization** — `ERTEngineerPDA` ｜父类: ERTLeaderPDA
+- **应急响应队清洁工 ID卡** — `ERTJanitorIDCard` ｜父类: IDCardStandard ｜_Starlight
+- **应急响应队清洁工PDA # Starlight: capitalization** — `ERTJanitorPDA` ｜父类: ERTLeaderPDA
+- **应急响应队队长 ID卡** — `ERTLeaderIDCard` ｜父类: IDCardStandard ｜_Starlight
+- **应急响应队队长PDA # Starlight: capitalization** — `ERTLeaderPDA` ｜父类: BaseSecurityPDA
+- **应急响应队医护员 ID卡** — `ERTMedicIDCard` ｜父类: IDCardStandard ｜_Starlight
+- **应急响应队医护员PDA # Starlight: capitalization** — `ERTMedicPDA` ｜父类: ERTLeaderPDA
+- **应急响应队安保干员 ID卡** — `ERTSecurityIDCard` ｜父类: IDCardStandard ｜_Starlight
+- **应急响应队安保干员PDA # Starlight: capitalization** — `ERTSecurityPDA` ｜父类: ERTLeaderPDA
+- **上低音号** — `EuphoniumInstrument` ｜父类: BaseBrassInstrument
+- `模板` **证物标记牌** — `EvidenceMarker` ｜父类: BaseItem
+- **证物标记牌** — `EvidenceMarkerEight` ｜父类: EvidenceMarker
+- **证物标记牌** — `EvidenceMarkerFive` ｜父类: EvidenceMarker
+- **证物标记牌** — `EvidenceMarkerFour` ｜父类: EvidenceMarker
+- **证物标记牌** — `EvidenceMarkerNine` ｜父类: EvidenceMarker
+- **证物标记牌** — `EvidenceMarkerOne` ｜父类: EvidenceMarker
+- **证物标记牌** — `EvidenceMarkerSeven` ｜父类: EvidenceMarker
+- **证物标记牌** — `EvidenceMarkerSix` ｜父类: EvidenceMarker
+- **证物标记牌** — `EvidenceMarkerThree` ｜父类: EvidenceMarker
+- **证物标记牌** — `EvidenceMarkerTwo` ｜父类: EvidenceMarker
+- **恶魔苹果种子包** — `EvilAppleSeeds` ｜父类: SeedBase ｜_Starlight
+- **沙滩球** — `EvilBeachBall` ｜父类: BeachBall
+- **爆炸手榴弹** — `ExGrenade` ｜父类: VolatileGrenadeBase,TimerGrenadeBase,BaseSyndicateContraband
+- **爆炸手榴弹** — `ExGrenadeWorn` ｜父类: ExGrenade ｜_Starlight
+- **外骨骼制造机 机器主板** — `ExosuitFabricatorMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **爆炸载荷** — `ExplosivePayload` ｜父类: BasePayload,BaseSecurityContraband
+- **扩容应急氮气罐** — `ExtendedEmergencyNitrogenTank` ｜父类: ExtendedEmergencyOxygenTank
+- **扩容应急氧气罐** — `ExtendedEmergencyOxygenTank` ｜父类: EmergencyOxygenTank
+- **外灯管** — `ExteriorLightTube` ｜父类: BaseLightTube
+- **灭火剂喷雾** — `ExtinguisherSpray` ｜父类: Vapor
+- **异次元橙色种子包** — `ExtradimensionalOrangeSeeds` ｜父类: SeedBase
+- **异常** — `FakeAnomalyBluespace` ｜父类: FakeAnomalyIce ｜_Starlight
+- **异常** — `FakeAnomalyElectricity` ｜父类: FakeAnomalyIce ｜_Starlight
+- **封装假异常** — `FakeAnomalyFlatpack` ｜父类: BaseFlatpack ｜_Starlight
+- **异常** — `FakeAnomalyFlesh` ｜父类: FakeAnomalyIce ｜_Starlight
+- **异常** — `FakeAnomalyGravity` ｜父类: FakeAnomalyIce ｜_Starlight
+- **假异常** — `FakeAnomalyIce` ｜父类: BaseStructureDynamic ｜_Starlight
+- **异常** — `FakeAnomalyPyroclastic` ｜父类: FakeAnomalyIce ｜_Starlight
+- **臂刃** — `FakeArmBladeChangeling` ｜父类: ArmBlade ｜_Starlight
+- **一包Capfruit种子** — `FakeCapfruitSeeds` ｜父类: RealCapfruitSeeds
+- **破片手榴弹** — `FakeGrenade` ｜父类: GrenadeDummy ｜_Starlight
+- **伪心灵护盾植入物** — `FakeMindShieldImplant` ｜父类: BaseSubdermalImplant
+- **伪心灵护盾植入器** — `FakeMindShieldImplanter` ｜父类: BaseImplantOnlyImplanterSyndi
+- **脂质提取机 机器主板** — `FatExtractorMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **传真机平板包装** — `FaxMachineFlatpack` ｜父类: BaseFlatpack
+- **赛博文件收纳器** — `FilingCabinetCyber` ｜父类: BaseItem,BaseBagOpenClose ｜_Starlight
+- **罚单** — `FineTicket` ｜父类: Paper ｜_Impstation
+- **芬卡** — `Finka` ｜父类: BaseKnife,BaseSovietContraband ｜_Starlight
+- **强制跟随芬卡** — `FinkaAdmeme` ｜父类: Finka,BaseSovietContraband ｜_Starlight
+- **火灾警报器电子元件** — `FireAlarmElectronics` ｜父类: BaseElectronics
+- **消防斧** — `FireAxe` ｜父类: BaseItem,BaseEngineeringSalvageContraband
+- **烈焰消防斧** — `FireAxeFlaming` ｜父类: BaseSyndicateContraband,FireAxe
+- **火球术法术书** — `FireballSpellbook` ｜父类: BaseSpellbook
+- **燃烧弹** — `FireBomb` ｜父类: BaseItem,BaseMinorContraband
+- **燃烧弹** — `FireBombEmpty` ｜父类: DrinkColaCanEmpty,BaseMinorContraband
+- **燃烧弹** — `FireBombFuel` ｜父类: FireBombEmpty
+- **灭火器** — `FireExtinguisher` ｜父类: BaseItem
+- **便携式灭火器** — `FireExtinguisherMini` ｜父类: FireExtinguisher
+- **防火闸电子元件** — `FirelockElectronics` ｜父类: BaseElectronics
+- **击针** — `FiringPin` ｜父类: BaseItem,BaseSecurityContraband ｜_Starlight
+- **原型激光晶体** — `FiringPinAdvancedLaser` ｜父类: FiringPinLaser ｜_Starlight
+- **远征击发销** — `FiringPinExpedition` ｜父类: FiringPin ｜_Starlight
+- **激光晶体** — `FiringPinLaser` ｜父类: FiringPin ｜_Starlight
+- **简易击针** — `FiringPinMakeshift` ｜父类: FiringPin ｜_Starlight
+- **手枪 击针** — `FiringPinPistol` ｜父类: FiringPin ｜_Starlight
+- **智能枪机组件** — `FiringPinSmartLMG` ｜父类: FiringPin ｜_Starlight
+- **应急信号棒** — `Flare` ｜父类: BaseItem
+- **闪光器** — `Flash` ｜父类: BaseItem,BaseSecurityScienceCommandNanoTrasenContraband
+- **闪光器** — `Flash0Use` ｜父类: Flash ｜_Starlight
+- **闪光器** — `Flash1Use` ｜父类: Flash ｜_Starlight
+- **闪光器** — `Flash3Use` ｜父类: Flash ｜_Starlight
+- **闪光器** — `Flash4Use` ｜父类: Flash ｜_Starlight
+- **手电筒** — `FlashlightLantern` ｜父类: BaseItem
+- **安保手电筒** — `FlashlightSeclite` ｜父类: FlashlightLantern,BaseSecurityContraband
+- **闪光载荷** — `FlashPayload` ｜父类: BasePayload,BaseSecurityScienceCommandContraband
+- `模板` **FlaskBase** — `FlaskBase` ｜父类: DrinkBaseMaterialStrongMetal,DrinkBase,DrinkBaseOpenable,DrinkVisualsOpenable
+- **Flatpacker 1001 机器主板** — `FlatpackerMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **肌腱** — `FleshKudzu` ｜父类: BaseKudzu
+- **雕花翻盖打火机** — `FlippoEngravedLighter` ｜父类: FlippoLighter
+- **翻盖打火机** — `FlippoLighter` ｜父类: BaseItem
+- **探照灯** — `Floodlight` ｜父类: BaseLamp
+- **损坏的探照灯** — `FloodlightBroken` ｜父类: BaseItem
+- **蓝空间地板** — `FloorBluespaceEntity` ｜_Starlight
+- **地毯** — `FloorCarpetItemBlack` ｜父类: FloorCarpetItemRed
+- **地毯** — `FloorCarpetItemBlue` ｜父类: FloorCarpetItemRed
+- **地毯** — `FloorCarpetItemCyan` ｜父类: FloorCarpetItemRed
+- **地毯** — `FloorCarpetItemGreen` ｜父类: FloorCarpetItemRed
+- **地毯** — `FloorCarpetItemOrange` ｜父类: FloorCarpetItemRed
+- **地毯** — `FloorCarpetItemPink` ｜父类: FloorCarpetItemRed
+- **地毯** — `FloorCarpetItemPurple` ｜父类: FloorCarpetItemRed
+- **地毯** — `FloorCarpetItemRed` ｜父类: FloorTileItemBase
+- **地毯** — `FloorCarpetItemSkyBlue` ｜父类: FloorCarpetItemRed
+- **地毯** — `FloorCarpetItemWhite` ｜父类: FloorCarpetItemRed
+- **棕褐色地板** — `FloorSepiaXenobiologyEntity` ｜_Starlight
+- **3x3 黑色 地块** — `FloorTileItem3x3Black` ｜父类: FloorTileItemBase ｜_Starlight
+- **3x3 棕色 地块** — `FloorTileItem3x3Brown` ｜父类: FloorTileItemBase ｜_Starlight
+- **3x3 钢制 地块** — `FloorTileItem3x3Steel` ｜父类: FloorTileItemBase ｜_Starlight
+- **3x3 白色 地块** — `FloorTileItem3x3White` ｜父类: FloorTileItemBase ｜_Starlight
+- **蓝色街机厅地板** — `FloorTileItemArcadeBlue` ｜父类: FloorTileItemBase
+- **蓝色街机厅地板** — `FloorTileItemArcadeBlue2` ｜父类: FloorTileItemBase
+- **红色街机厅地板** — `FloorTileItemArcadeRed` ｜父类: FloorTileItemBase
+- **小行星仿真沙地** — `FloorTileItemAstroAsteroidSand` ｜父类: FloorTileItemBase
+- **无边框小行星仿真沙地** — `FloorTileItemAstroAsteroidSandBorderless` ｜父类: FloorTileItemBase
+- **人造土地块** — `FloorTileItemAstroDirt` ｜父类: FloorTileItemBase ｜_Starlight
+- **仿真草地** — `FloorTileItemAstroGrass` ｜父类: FloorTileItemBase
+- **仿真冰面** — `FloorTileItemAstroIce` ｜父类: FloorTileItemBase
+- **仿真铁砂地** — `FloorTileItemAstroIronsand` ｜父类: FloorTileItemBase
+- **无边框仿真铁砂地** — `FloorTileItemAstroIronsandBorderless` ｜父类: FloorTileItemBase
+- **仿真雪地** — `FloorTileItemAstroSnow` ｜父类: FloorTileItemBase
+- **酒吧地砖** — `FloorTileItemBar` ｜父类: FloorTileItemBase
+- `模板` **FloorTileItemBase** — `FloorTileItemBase` ｜父类: BaseItem
+- **蓝色电路地板** — `FloorTileItemBCircuit` ｜父类: FloorTileItemBase
+- **蓝色地砖** — `FloorTileItemBlue` ｜父类: FloorTileItemBase
+- **蓝空间地砖** — `FloorTileItemBluespace` ｜父类: FloorTileItemBase ｜_Starlight
+- **蓝空间地砖** — `FloorTileItemBluespace1` ｜父类: FloorTileItemBluespace ｜_Starlight
+- **蓝空间地砖** — `FloorTileItemBluespace25` ｜父类: FloorTileItemBluespace ｜_Starlight
+- **拳击台地板** — `FloorTileItemBoxing` ｜父类: FloorTileItemBase
+- **填充黄铜板** — `FloorTileItemBrassFilled` ｜父类: FloorTileItemBase
+- **光滑黄铜板** — `FloorTileItemBrassReebe` ｜父类: FloorTileItemBase
+- **小丑地毯地板** — `FloorTileItemCarpetClown` ｜父类: FloorTileItemBase
+- **装饰地毯地块** — `FloorTileItemCarpetDeco` ｜父类: FloorTileItemSteel ｜_Starlight
+- **办公室地毯地板** — `FloorTileItemCarpetOffice` ｜父类: FloorTileItemBase
+- **小丑地砖** — `FloorTileItemClown` ｜父类: FloorTileItemBase
+- **混凝土地砖** — `FloorTileItemConcrete` ｜父类: FloorTileItemBase
+- **纯色混凝土地砖** — `FloorTileItemConcreteMono` ｜父类: FloorTileItemConcrete
+- **光滑混凝土地砖** — `FloorTileItemConcreteSmooth` ｜父类: FloorTileItemConcrete
+- **深色地砖** — `FloorTileItemDark` ｜父类: FloorTileItemBase
+- **深色仿真草地** — `FloorTileItemDarkAstroGrass` ｜父类: FloorTileItemBase
+- **深色双色地块** — `FloorTileItemDarkBitile` ｜父类: FloorTileItemSteel ｜_Starlight
+- **深色钢制斜纹地砖** — `FloorTileItemDarkDiagonal` ｜父类: FloorTileItemDark
+- **深色钢制迷你斜纹地砖** — `FloorTileItemDarkDiagonalMini` ｜父类: FloorTileItemDark
+- **深色钢制人字纹地砖** — `FloorTileItemDarkHerringbone` ｜父类: FloorTileItemDark
+- **深色大理石地砖** — `FloorTileItemDarkMarble` ｜父类: FloorTileItemWhiteMarble
+- **深色钢制迷你地砖** — `FloorTileItemDarkMini` ｜父类: FloorTileItemDark
+- **深色钢制纯色地砖** — `FloorTileItemDarkMono` ｜父类: FloorTileItemDark
+- **深色钢制错位地砖** — `FloorTileItemDarkOffset` ｜父类: FloorTileItemDark
+- **深色钢制铺面地砖** — `FloorTileItemDarkPavement` ｜父类: FloorTileItemDark
+- **深色钢制纵向铺面地砖** — `FloorTileItemDarkPavementVertical` ｜父类: FloorTileItemDark
+- **深色钢制波纹地砖** — `FloorTileItemDarkSquiggly` ｜父类: FloorTileItemDark
+- **深色木地块** — `FloorTileItemDarkWood` ｜父类: FloorTileItemBase ｜_Starlight
+- **大型深色木地块** — `FloorTileItemDarkWoodLarge` ｜父类: FloorTileItemBase ｜_Starlight
+- **深色花纹木地块** — `FloorTileItemDarkWoodPattern` ｜父类: FloorTileItemBase ｜_Starlight
+- **沙漠仿真沙地** — `FloorTileItemDesertAstroSand` ｜父类: FloorTileItemBase
+- **肮脏地砖** — `FloorTileItemDirty` ｜父类: FloorTileItemBase
+- **八十年代风格地板** — `FloorTileItemEighties` ｜父类: FloorTileItemBase
+- **电梯井地砖** — `FloorTileItemElevatorShaft` ｜父类: FloorTileItemBase
+- **血肉地板** — `FloorTileItemFlesh` ｜父类: FloorTileItemBase
+- **冷冻库地砖** — `FloorTileItemFreezer` ｜父类: FloorTileItemBase
+- **绿色电路地板** — `FloorTileItemGCircuit` ｜父类: FloorTileItemBase
+- **金质地板** — `FloorTileItemGold` ｜父类: FloorTileItemBase
+- **草地砖** — `FloorTileItemGrass` ｜父类: FloorTileItemBase
+- **丛林草地砖** — `FloorTileItemGrassJungle` ｜父类: FloorTileItemBase
+- **格栅维护地板** — `FloorTileItemGratingMaint` ｜父类: FloorTileItemBase
+- **灰色混凝土地砖** — `FloorTileItemGrayConcrete` ｜父类: FloorTileItemBase
+- **灰色纯色混凝土地砖** — `FloorTileItemGrayConcreteMono` ｜父类: FloorTileItemGrayConcrete
+- **灰色光滑混凝土地砖** — `FloorTileItemGrayConcreteSmooth` ｜父类: FloorTileItemGrayConcrete
+- **健身房地板** — `FloorTileItemGym` ｜父类: FloorTileItemBase
+- **教主地块** — `FloorTileItemHierophant` ｜父类: FloorTileItemSteel ｜_Starlight
+- **水培地砖** — `FloorTileItemHydro` ｜父类: FloorTileItemBase
+- **铁砂混凝土地砖** — `FloorTileItemIronsandConcrete` ｜父类: FloorTileItemBase
+- **铁砂纯色混凝土地砖** — `FloorTileItemIronsandConcreteMono` ｜父类: FloorTileItemIronsandConcrete
+- **铁砂光滑混凝土地砖** — `FloorTileItemIronsandConcreteSmooth` ｜父类: FloorTileItemIronsandConcrete
+- **丛林仿真草地** — `FloorTileItemJungleAstroGrass` ｜父类: FloorTileItemBase
+- **厨房地砖** — `FloorTileItemKitchen` ｜父类: FloorTileItemBase
+- **洗衣房地砖** — `FloorTileItemLaundry` ｜父类: FloorTileItemBase
+- **浅色仿真草地** — `FloorTileItemLightAstroGrass` ｜父类: FloorTileItemBase
+- **青柠色地砖** — `FloorTileItemLime` ｜父类: FloorTileItemBase
+- **油毡地板** — `FloorTileItemLino` ｜父类: FloorTileItemBase
+- **蓝色  金属 地块** — `FloorTileItemMetalBlue` ｜父类: FloorTileItemSteel ｜_Starlight
+- **棕色 金属 地块** — `FloorTileItemMetalBrown` ｜父类: FloorTileItemSteel ｜_Starlight
+- **深色 金属 地块** — `FloorTileItemMetalDark` ｜父类: FloorTileItemSteel ｜_Starlight
+- **钢制地砖** — `FloorTileItemMetalDiamond` ｜父类: FloorTileItemBase
+- **绿色 金属 地块** — `FloorTileItemMetalGreen` ｜父类: FloorTileItemSteel ｜_Starlight
+- **紫色 金属 地块** — `FloorTileItemMetalPurple` ｜父类: FloorTileItemSteel ｜_Starlight
+- **红色 金属 地块** — `FloorTileItemMetalRed` ｜父类: FloorTileItemSteel ｜_Starlight
+- **哑剧地砖** — `FloorTileItemMime` ｜父类: FloorTileItemBase
+- **采矿地砖** — `FloorTileItemMining` ｜父类: FloorTileItemBase
+- **深色采矿地砖** — `FloorTileItemMiningDark` ｜父类: FloorTileItemBase
+- **浅色采矿地砖** — `FloorTileItemMiningLight` ｜父类: FloorTileItemBase
+- **纯色地砖** — `FloorTileItemMono` ｜父类: FloorTileItemBase
+- **修剪过的仿真草地** — `FloorTileItemMowedAstroGrass` ｜父类: FloorTileItemBase
+- **老旧混凝土地砖** — `FloorTileItemOldConcrete` ｜父类: FloorTileItemBase
+- **老旧混凝土砖地块** — `FloorTileItemOldConcreteBricks` ｜父类: FloorTileItemBase ｜_Starlight
+- **老旧纯色混凝土地砖** — `FloorTileItemOldConcreteMono` ｜父类: FloorTileItemOldConcrete
+- **老旧光滑混凝土地砖** — `FloorTileItemOldConcreteSmooth` ｜父类: FloorTileItemOldConcrete
+- **老旧 混凝土 地块s** — `FloorTileItemOldConcreteTile` ｜父类: FloorTileItemBase ｜_Starlight
+- **华丽 地块** — `FloorTileItemOrnate` ｜父类: FloorTileItemBase ｜_Starlight
+- **等离子大理石地砖** — `FloorTileItemPlasmaMarble` ｜父类: FloorTileItemWhiteMarble
+- **红色电路地板** — `FloorTileItemRCircuit` ｜父类: FloorTileItemBase
+- **岩石穹顶地砖** — `FloorTileItemRockVault` ｜父类: FloorTileItemBase
+- **粗糙 金属 地块** — `FloorTileItemRoughMetal` ｜父类: FloorTileItemBase ｜_Starlight
+- **锈蚀 金属 地块** — `FloorTileItemRustyMetal` ｜父类: FloorTileItemBase ｜_Starlight
+- **深褐色地块** — `FloorTileItemSepia` ｜父类: FloorTileItemSteel ｜_Starlight
+- **棕褐色地砖** — `FloorTileItemSepiaXenobiology` ｜父类: FloorTileItemBase ｜_Starlight
+- **棕褐色地砖** — `FloorTileItemSepiaXenobiology1` ｜父类: FloorTileItemSepiaXenobiology ｜_Starlight
+- **棕褐色地砖** — `FloorTileItemSepiaXenobiology25` ｜父类: FloorTileItemSepiaXenobiology ｜_Starlight
+- **展厅地砖** — `FloorTileItemShowroom` ｜父类: FloorTileItemBase
+- **黑色穿梭机地板** — `FloorTileItemShuttleBlack` ｜父类: FloorTileItemBase
+- **蓝色穿梭机地板** — `FloorTileItemShuttleBlue` ｜父类: FloorTileItemBase
+- **灰色穿梭机地板** — `FloorTileItemShuttleGrey` ｜父类: FloorTileItemBase
+- **橙色穿梭机地板** — `FloorTileItemShuttleOrange` ｜父类: FloorTileItemBase
+- **紫色穿梭机地板** — `FloorTileItemShuttlePurple` ｜父类: FloorTileItemBase
+- **红色穿梭机地板** — `FloorTileItemShuttleRed` ｜父类: FloorTileItemBase
+- **白色穿梭机地板** — `FloorTileItemShuttleWhite` ｜父类: FloorTileItemBase
+- **银质地砖** — `FloorTileItemSilver` ｜父类: FloorTileItemBase
+- **雪地砖** — `FloorTileItemSnow` ｜父类: FloorTileItemBase
+- **钢制地砖** — `FloorTileItemSteel` ｜父类: FloorTileItemBase
+- **钢制双色地块** — `FloorTileItemSteelBitile` ｜父类: FloorTileItemSteel ｜_Starlight
+- **深色钢制棋盘格地砖** — `FloorTileItemSteelCheckerDark` ｜父类: FloorTileItemSteel
+- **浅色钢制棋盘格地砖** — `FloorTileItemSteelCheckerLight` ｜父类: FloorTileItemSteel
+- **钢制斜纹地砖** — `FloorTileItemSteelDiagonal` ｜父类: FloorTileItemSteel
+- **钢制迷你斜纹地砖** — `FloorTileItemSteelDiagonalMini` ｜父类: FloorTileItemSteel
+- **钢格栅地块** — `FloorTileItemSteelGrate` ｜父类: FloorTileItemBase ｜_Starlight
+- **钢制人字纹地砖** — `FloorTileItemSteelHerringbone` ｜父类: FloorTileItemSteel
+- **钢制维护地板** — `FloorTileItemSteelMaint` ｜父类: FloorTileItemBase
+- **钢制迷你地砖** — `FloorTileItemSteelMini` ｜父类: FloorTileItemSteel
+- **钢制纯色地砖** — `FloorTileItemSteelMono` ｜父类: FloorTileItemSteel
+- **钢制错位地砖** — `FloorTileItemSteelOffset` ｜父类: FloorTileItemSteel
+- **钢制铺面地砖** — `FloorTileItemSteelPavement` ｜父类: FloorTileItemSteel
+- **钢制纵向铺面地砖** — `FloorTileItemSteelPavementVertical` ｜父类: FloorTileItemSteel
+- **科技维护通道地块** — `FloorTileItemTechGreeb` ｜父类: FloorTileItemBase ｜_Starlight
+- **技术维护地板** — `FloorTileItemTechmaint` ｜父类: FloorTileItemBase
+- **深色技术维护地板** — `FloorTileItemTechmaintDark` ｜父类: FloorTileItemBase
+- **陶瓦地块** — `FloorTileItemTerracotta` ｜父类: FloorTileItemSteel ｜_Starlight
+- **陶瓦斜纹地块** — `FloorTileItemTerracottaDiagonal` ｜父类: FloorTileItemSteel ｜_Starlight
+- **小块陶瓦地块** — `FloorTileItemTerracottaSmall` ｜父类: FloorTileItemSteel ｜_Starlight
+- **铀大理石地砖** — `FloorTileItemUraniumMarble` ｜父类: FloorTileItemWhiteMarble
+- **蛛网地砖** — `FloorTileItemWeb` ｜父类: FloorTileItemBase
+- **白色地砖** — `FloorTileItemWhite` ｜父类: FloorTileItemBase
+- **白色双色地块** — `FloorTileItemWhiteBitile` ｜父类: FloorTileItemSteel ｜_Starlight
+- **白色钢制斜纹地砖** — `FloorTileItemWhiteDiagonal` ｜父类: FloorTileItemWhite
+- **白色钢制迷你斜纹地砖** — `FloorTileItemWhiteDiagonalMini` ｜父类: FloorTileItemWhite
+- **白色钢制人字纹地砖** — `FloorTileItemWhiteHerringbone` ｜父类: FloorTileItemWhite
+- **白色大理石地砖** — `FloorTileItemWhiteMarble` ｜父类: FloorTileItemBase
+- **白色钢制迷你地砖** — `FloorTileItemWhiteMini` ｜父类: FloorTileItemWhite
+- **白色钢制纯色地砖** — `FloorTileItemWhiteMono` ｜父类: FloorTileItemWhite
+- **白色钢制错位地砖** — `FloorTileItemWhiteOffset` ｜父类: FloorTileItemWhite
+- **白色钢制铺面地砖** — `FloorTileItemWhitePavement` ｜父类: FloorTileItemWhite
+- **白色钢制纵向铺面地砖** — `FloorTileItemWhitePavementVertical` ｜父类: FloorTileItemWhite
+- **木地板** — `FloorTileItemWood` ｜父类: FloorTileItemBase
+- **黑色木地块** — `FloorTileItemWoodBlack` ｜父类: FloorTileItemBase ｜_Starlight
+- **木棋盘格地块** — `FloorTileItemWoodChess` ｜父类: FloorTileItemBase ｜_Starlight
+- **黑色木棋盘格地块** — `FloorTileItemWoodChessBlack` ｜父类: FloorTileItemBase ｜_Starlight
+- **深色木棋盘格地块** — `FloorTileItemWoodChessDark` ｜父类: FloorTileItemBase ｜_Starlight
+- **浅色木棋盘格地块** — `FloorTileItemWoodChessLight` ｜父类: FloorTileItemBase ｜_Starlight
+- **红色木棋盘格地块** — `FloorTileItemWoodChessRed` ｜父类: FloorTileItemBase ｜_Starlight
+- **深色木地块** — `FloorTileItemWoodDark` ｜父类: FloorTileItemBase ｜_Starlight
+- **大块木地板** — `FloorTileItemWoodLarge` ｜父类: FloorTileItemBase
+- **大型黑色木地块** — `FloorTileItemWoodLargeBlack` ｜父类: FloorTileItemBase ｜_Starlight
+- **大型深色木地块** — `FloorTileItemWoodLargeDark` ｜父类: FloorTileItemBase ｜_Starlight
+- **大型浅色木地块** — `FloorTileItemWoodLargeLight` ｜父类: FloorTileItemBase ｜_Starlight
+- **大型红色木地块** — `FloorTileItemWoodLargeRed` ｜父类: FloorTileItemBase ｜_Starlight
+- **浅色木地块** — `FloorTileItemWoodLight` ｜父类: FloorTileItemBase ｜_Starlight
+- **木拼花地块** — `FloorTileItemWoodParquet` ｜父类: FloorTileItemBase ｜_Starlight
+- **黑色木拼花地块** — `FloorTileItemWoodParquetBlack` ｜父类: FloorTileItemBase ｜_Starlight
+- **深色木拼花地块** — `FloorTileItemWoodParquetDark` ｜父类: FloorTileItemBase ｜_Starlight
+- **浅色木拼花地块** — `FloorTileItemWoodParquetLight` ｜父类: FloorTileItemBase ｜_Starlight
+- **红色木拼花地块** — `FloorTileItemWoodParquetRed` ｜父类: FloorTileItemBase ｜_Starlight
+- **木纹地板** — `FloorTileItemWoodPattern` ｜父类: FloorTileItemBase
+- **红色木地块** — `FloorTileItemWoodRed` ｜父类: FloorTileItemBase ｜_Starlight
+- **异星地板** — `FloorTileItemXeno` ｜父类: FloorTileItemBase
+- **异星赛博格地板** — `FloorTileItemXenoborg` ｜父类: FloorTileItemBase
+- **异星技术维护地板** — `FloorTileItemXenoMaint` ｜父类: FloorTileItemBase
+- **异星钢制地板** — `FloorTileItemXenoSteel` ｜父类: FloorTileItemBase
+- **异星钢制墙角地板** — `FloorTileItemXenoSteelCorner` ｜父类: FloorTileItemBase
+- **石笋** — `FloraGreyStalagmite` ｜父类: FloraStalagmite
+- **巨石** — `FloraRockSolid` ｜父类: BaseRock
+- **石笋** — `FloraStalagmite` ｜父类: BaseRock
+- **树木** — `FloraTree` ｜父类: BaseTree
+- **圣诞树** — `FloraTreeChristmas01` ｜父类: BaseTreeConifer
+- **圣诞树** — `FloraTreeChristmas02` ｜父类: BaseTreeConifer
+- **圣诞树平板包装** — `FloraTreeChristmas02Flatpack` ｜父类: BaseFlatpack ｜_Starlight
+- **圣诞树** — `FloraTreeChristmas03` ｜父类: FloraTreeChristmas02
+- **积雪针叶树** — `FloraTreeConifer` ｜父类: BaseTreeConifer
+- **大树** — `FloraTreeLarge` ｜父类: BaseTreeLarge
+- **积雪树木** — `FloraTreeSnow` ｜父类: BaseTreeSnow
+- **树桩** — `FloraTreeStump` ｜父类: BaseTreeSnow
+- **树桩** — `FloraTreeStumpConifer` ｜父类: BaseTreeConifer
+- **蒸气** — `FlowerVapor` ｜父类: Vapor
+- **长笛** — `FluteInstrument` ｜父类: BaseWoodwindInstrument
+- **飞鹅膏孢子包** — `FlyAmanitaSeeds` ｜父类: SeedBase
+- **泡沫剑** — `FoamBlade` ｜父类: BaseItem,BaseToySword
+- **泡沫弩** — `FoamCrossbow` ｜父类: BaseItem,BaseToyGun
+- **泡沫弯刀** — `FoamCutlass` ｜父类: BaseItem,BaseToySword
+- **芦荟** — `FoodAloe` ｜父类: FoodProduceBase
+- **神品仙馐草** — `FoodAmbrosiaDeus` ｜父类: FoodProduceBase
+- **凡品仙馐草** — `FoodAmbrosiaVulgaris` ｜父类: FoodProduceBase
+- **异常莓果** — `FoodAnomalyBerry` ｜父类: FoodProduceBase
+- **苹果** — `FoodApple` ｜父类: FoodProduceBase
+- **苹果肉桂冰淇淋** — `FoodAppleCinnamonIceCream` ｜父类: FoodIceCreamBase ｜_Starlight
+- **焦糊物** — `FoodBadRecipe` ｜父类: FoodBakingBase
+- **贝果** — `FoodBagel` ｜父类: FoodBagelBase
+- `模板` **FoodBagelBase** — `FoodBagelBase` ｜父类: FoodInjectableBase
+- **棉花贝果** — `FoodBagelCotton` ｜父类: FoodBagelBase
+- **罂粟籽贝果** — `FoodBagelPoppy` ｜父类: FoodBagelBase
+- `模板` **FoodBakedBase** — `FoodBakedBase` ｜父类: FoodInjectableBase
+- **布朗尼** — `FoodBakedBrownie` ｜父类: FoodBakedBase
+- **一盘布朗尼** — `FoodBakedBrownieBatch` ｜父类: FoodBakedBase
+- **蜂蜜面包卷 #TODO honey** — `FoodBakedBunHoney` ｜父类: FoodBakedBase
+- **热十字面包** — `FoodBakedBunHotX` ｜父类: FoodBakedBase
+- **肉包** — `FoodBakedBunMeat` ｜父类: FoodBakedBase
+- **特制布朗尼** — `FoodBakedCannabisBrownie` ｜父类: FoodBakedBase
+- **一盘特制布朗尼** — `FoodBakedCannabisBrownieBatch` ｜父类: FoodBakedBase
+- **奶油甜馅煎饼卷** — `FoodBakedCannoli` ｜父类: FoodBakedBase
+- **热山羊奶酪吐司** — `FoodBakedChevreChaud` ｜父类: FoodBakedBase
+- **棉花热山羊奶酪吐司** — `FoodBakedChevreChaudCotton` ｜父类: FoodBakedChevreChaud
+- **曲奇** — `FoodBakedCookie` ｜父类: FoodBakedBase
+- **燕麦曲奇** — `FoodBakedCookieOatmeal` ｜父类: FoodBakedBase
+- **葡萄干曲奇** — `FoodBakedCookieRaisin` ｜父类: FoodBakedBase
+- **糖霜曲奇** — `FoodBakedCookieSugar` ｜父类: FoodBakedBase
+- **牛角包** — `FoodBakedCroissant` ｜父类: FoodBakedBase
+- **棉花牛角包** — `FoodBakedCroissantCotton` ｜父类: FoodBakedCroissant
+- **饺子** — `FoodBakedDumplings` ｜父类: FoodBakedBase
+- **烤芝士三明治** — `FoodBakedGrilledCheeseSandwich` ｜父类: FoodBakedBase
+- **棉花烤芝士三明治** — `FoodBakedGrilledCheeseSandwichCotton` ｜父类: FoodBakedGrilledCheeseSandwich
+- **松饼** — `FoodBakedMuffin` ｜父类: FoodInjectableBase
+- **香蕉松饼** — `FoodBakedMuffinBanana` ｜父类: FoodBakedMuffin
+- **莓果松饼** — `FoodBakedMuffinBerry` ｜父类: FoodBakedMuffin
+- **蓝樱桃松饼** — `FoodBakedMuffinBluecherry` ｜父类: FoodBakedMuffin
+- **樱桃松饼** — `FoodBakedMuffinCherry` ｜父类: FoodBakedMuffin
+- **巧克力松饼** — `FoodBakedMuffinChocolate` ｜父类: FoodBakedMuffin
+- **鸡块** — `FoodBakedNugget` ｜父类: FoodBakedBase
+- **松饼** — `FoodBakedPancake` ｜父类: FoodBakedBase
+- **蓝莓煎饼** — `FoodBakedPancakeBb` ｜父类: FoodBakedPancake
+- **巧克力豆煎饼** — `FoodBakedPancakeCc` ｜父类: FoodBakedPancake
+- **罂粟籽椒盐卷饼** — `FoodBakedPretzel` ｜父类: FoodBakedBase
+- **烤伏尔卡宁** — `FoodBakedVulpkaninPlate` ｜父类: FoodMealBase,BaseMajorContraband ｜_Starlight
+- **华夫饼** — `FoodBakedWaffle` ｜父类: FoodBakedBase
+- **罗弗尔华夫饼** — `FoodBakedWaffleRoffle` ｜父类: FoodBakedWaffle
+- **大豆华夫饼** — `FoodBakedWaffleSoy` ｜父类: FoodBakedWaffle
+- **索伦特华夫饼** — `FoodBakedWaffleSoylent` ｜父类: FoodBakedWaffle
+- `模板` **FoodBakingBase** — `FoodBakingBase` ｜父类: FoodBase
+- **香蕉** — `FoodBanana` ｜父类: FoodProduceBase
+- **香蕉船冰淇淋** — `FoodBananaSplitIceCream` ｜父类: FoodIceCreamBase ｜_Starlight
+- `模板` **FoodBase** — `FoodBase` ｜父类: EdibleBase
+- **莓果** — `FoodBerries` ｜父类: FoodProduceBase
+- **黑布丁** — `FoodBlackPudding` ｜父类: FoodMealBase ｜_Starlight
+- **血番茄** — `FoodBloodTomato` ｜父类: FoodTomato
+- **浮洋葱球茎** — `FoodBloonion` ｜父类: BaseStructureDynamic
+- **蓝莓冰淇淋** — `FoodBlueberryIceCream` ｜父类: FoodIceCreamBase ｜_Starlight
+- **蓝南瓜** — `FoodBluePumpkin` ｜父类: FoodProduceBase
+- **蓝番茄** — `FoodBlueTomato` ｜父类: FoodTomato
+- `模板` **FoodBowlBase** — `FoodBowlBase` ｜父类: FoodInjectableBase
+- **碗** — `FoodBowlBig` ｜父类: ReagentContainerBase
+- **破碗** — `FoodBowlBigTrash` ｜父类: BaseItem
+- **精致碗** — `FoodBowlFancy` ｜父类: FoodBowlBig
+- **一盒柔羽牌布料** — `FoodBoxCloth` ｜父类: BoxCardboard
+- **一盒 Donk 夹心饼** — `FoodBoxDonkpocket` ｜父类: BoxCardboard
+- **一盒莓果味 Donk 夹心饼** — `FoodBoxDonkpocketBerry` ｜父类: FoodBoxDonkpocket
+- **一盒鲤鱼味 Donk 夹心饼** — `FoodBoxDonkpocketCarp` ｜父类: FoodBoxDonkpocket
+- **一盒 Dink 夹心饼** — `FoodBoxDonkpocketDink` ｜父类: FoodBoxDonkpocket
+- **一盒香蕉味 Donk 夹心饼** — `FoodBoxDonkpocketHonk` ｜父类: FoodBoxDonkpocket
+- **一盒飞蛾味 Donk 夹心饼** — `FoodBoxDonkpocketMoth` ｜父类: FoodBoxDonkpocket
+- **一盒披萨味 Donk 夹心饼** — `FoodBoxDonkpocketPizza` ｜父类: FoodBoxDonkpocket
+- **一盒香辣味 Donk 夹心饼** — `FoodBoxDonkpocketSpicy` ｜父类: FoodBoxDonkpocket
+- **一盒限量版涨停夹心饼** — `FoodBoxDonkpocketStonk` ｜父类: FoodBoxDonkpocket
+- **一盒照烧味 Donk 夹心饼** — `FoodBoxDonkpocketTeriyaki` ｜父类: FoodBoxDonkpocket
+- **甜甜圈盒** — `FoodBoxDonut` ｜父类: BoxCardboard,BaseBagOpenClose
+- **鸡块** — `FoodBoxNugget` ｜父类: BoxCardboard,BaseBagOpenClose
+- **披萨盒** — `FoodBoxPizza` ｜父类: BoxCardboard
+- **披萨盒** — `FoodBoxPizzaCotton` ｜父类: FoodBoxPizza
+- **披萨盒** — `FoodBoxPizzaFilled` ｜父类: FoodBoxPizza
+- **法棍** — `FoodBreadBaguette` ｜父类: FoodBreadBase
+- **棉花法棍** — `FoodBreadBaguetteCotton` ｜父类: FoodBreadBaguette
+- **棉花烤面包片** — `FoodBreadBaguetteCottonSlice` ｜父类: FoodBreadBaguetteSlice
+- **法式烤面包片** — `FoodBreadBaguetteSlice` ｜父类: FoodBreadSliceBase
+- **香蕉面包** — `FoodBreadBanana` ｜父类: FoodBreadBase
+- **香蕉面包片** — `FoodBreadBananaSlice` ｜父类: FoodBreadSliceBase
+- `模板` **FoodBreadBase** — `FoodBreadBase` ｜父类: FoodInjectableBase
+- **汉堡面包** — `FoodBreadBun` ｜父类: FoodBreadSliceBase
+- **汉堡底面包** — `FoodBreadBunBottom` ｜父类: FoodBreadSliceBase
+- **汉堡顶面包** — `FoodBreadBunTop` ｜父类: FoodBreadSliceBase
+- **黄油吐司** — `FoodBreadButteredToast` ｜父类: FoodBreadSliceBase
+- **玉米面包** — `FoodBreadCorn` ｜父类: FoodBreadBase
+- **玉米面包片** — `FoodBreadCornSlice` ｜父类: FoodBreadSliceBase
+- **棉花面包** — `FoodBreadCotton` ｜父类: FoodBreadBase
+- **棉花营养短法棍** — `FoodBreadCottonNutriBatard` ｜父类: FoodBreadNutriBatard
+- **棉花面包片** — `FoodBreadCottonSlice` ｜父类: FoodBreadSliceBase
+- **奶油奶酪面包** — `FoodBreadCreamcheese` ｜父类: FoodBreadBase
+- **奶油奶酪面包片** — `FoodBreadCreamcheeseSlice` ｜父类: FoodBreadSliceBase
+- **法式吐司** — `FoodBreadFrenchToast` ｜父类: FoodBreadSliceBase
+- **蒜香面包** — `FoodBreadGarlicSlice` ｜父类: FoodBreadSliceBase
+- **果冻吐司** — `FoodBreadJellySlice` ｜父类: FoodBreadSliceBase
+- **肉面包** — `FoodBreadMeat` ｜父类: FoodBreadBase
+- **肉面包片** — `FoodBreadMeatSlice` ｜父类: FoodBreadSliceBase
+- **蜘蛛肉面包** — `FoodBreadMeatSpider` ｜父类: FoodBreadBase
+- **蜘蛛肉面包片** — `FoodBreadMeatSpiderSlice` ｜父类: FoodBreadSliceBase
+- **异形肉面包** — `FoodBreadMeatXeno` ｜父类: FoodBreadBase
+- **异形肉面包片** — `FoodBreadMeatXenoSlice` ｜父类: FoodBreadSliceBase
+- **默蕉面包** — `FoodBreadMimana` ｜父类: FoodBreadBase
+- **默蕉面包片** — `FoodBreadMimanaSlice` ｜父类: FoodBreadSliceBase
+- **发霉面包片** — `FoodBreadMoldySlice` ｜父类: FoodBreadSliceBase
+- **营养短法棍** — `FoodBreadNutriBatard` ｜父类: FoodBreadBase
+- **皮塔饼** — `FoodBreadPita` ｜父类: FoodBreadBase ｜_Starlight
+- **面包** — `FoodBreadPlain` ｜父类: FoodBreadBase
+- **面包片** — `FoodBreadPlainSlice` ｜父类: FoodBreadSliceBase
+- **香肠面包** — `FoodBreadSausage` ｜父类: FoodBreadBase
+- **香肠面包片** — `FoodBreadSausageSlice` ｜父类: FoodBreadSliceBase
+- `模板` **FoodBreadSliceBase** — `FoodBreadSliceBase` ｜父类: FoodBreadBase
+- **豆腐面包** — `FoodBreadTofu` ｜父类: FoodBreadBase
+- **豆腐面包片** — `FoodBreadTofuSlice` ｜父类: FoodBreadSliceBase
+- **双层面包片** — `FoodBreadTwoSlice` ｜父类: FoodBreadSliceBase
+- **火山面包** — `FoodBreadVolcanic` ｜父类: FoodBreadBase
+- **火山面包片** — `FoodBreadVolcanicSlice` ｜父类: FoodBreadSliceBase
+- **全套美式早餐** — `FoodBreakfastAmerican` ｜父类: FoodBreakfastBase
+- `模板` **FoodBreakfastBase** — `FoodBreakfastBase` ｜父类: FoodInjectableBase
+- **全套英式早餐** — `FoodBreakfastEnglish` ｜父类: FoodBreakfastBase
+- **邦戈果** — `FoodBungo` ｜父类: FoodProduceBase
+- **邦戈果核** — `FoodBungoPit` ｜父类: FoodInjectableBase
+- **阑尾汉堡** — `FoodBurgerAppendix` ｜父类: FoodBurgerBase
+- **培根汉堡** — `FoodBurgerBacon` ｜父类: FoodBurgerBase
+- `模板` **FoodBurgerBase** — `FoodBurgerBase` ｜父类: FoodInjectableBase
+- **棒球汉堡** — `FoodBurgerBaseball` ｜父类: FoodBurgerBase
+- **熊熊汉堡** — `FoodBurgerBear` ｜父类: FoodBurgerBase
+- **大口汉堡** — `FoodBurgerBig` ｜父类: FoodBurgerBase
+- **脑子汉堡** — `FoodBurgerBrain` ｜父类: FoodBurgerBase
+- **鲤鱼柳汉堡** — `FoodBurgerCarp` ｜父类: FoodBurgerBase
+- **猫肉汉堡** — `FoodBurgerCat` ｜父类: FoodBurgerBase
+- **芝士汉堡** — `FoodBurgerCheese` ｜父类: FoodBurgerBase
+- **鸡肉三明治 # 给欧洲人的汉堡** — `FoodBurgerChicken` ｜父类: FoodBurgerBase
+- **小丑汉堡** — `FoodBurgerClown` ｜父类: FoodBurgerBase
+- **柯基汉堡 # 不是咖喱汉堡** — `FoodBurgerCorgi` ｜父类: FoodBurgerBase
+- **蟹肉汉堡** — `FoodBurgerCrab` ｜父类: FoodBurgerBase
+- **疯狂汉堡 # 给欧洲人的汉堡** — `FoodBurgerCrazy` ｜父类: FoodBurgerBase
+- **鸭肉三明治 # 给那些病态混蛋的汉堡** — `FoodBurgerDuck` ｜父类: FoodBurgerBase
+- **充能汉堡** — `FoodBurgerEmpowered` ｜父类: FoodBurgerBase
+- **五级火警汉堡** — `FoodBurgerFive` ｜父类: FoodBurgerBase
+- **幽灵汉堡** — `FoodBurgerGhost` ｜父类: FoodBurgerBase
+- **人肉汉堡** — `FoodBurgerHuman` ｜父类: FoodBurgerBase,BaseMajorContraband
+- **果冻汉堡** — `FoodBurgerJelly` ｜父类: FoodBurgerBase
+- **麦高芬** — `FoodBurgerMcguffin` ｜父类: FoodBurgerBase
+- **烧烤肋排三明治** — `FoodBurgerMcrib` ｜父类: FoodBurgerBase
+- **哑剧汉堡** — `FoodBurgerMime` ｜父类: FoodBurgerBase
+- **蛾蟑汉堡** — `FoodBurgerMothRoach` ｜父类: FoodBurgerBase
+- **原味汉堡** — `FoodBurgerPlain` ｜父类: FoodBurgerBase
+- **鼠肉汉堡** — `FoodBurgerRat` ｜父类: FoodBurgerBase
+- **机器汉堡** — `FoodBurgerRobot` ｜父类: FoodBurgerBase
+- **大豆人汉堡** — `FoodBurgerSoy` ｜父类: FoodBurgerBase
+- **法术汉堡** — `FoodBurgerSpell` ｜父类: FoodBurgerBase
+- **超级大口汉堡** — `FoodBurgerSuper` ｜父类: FoodBurgerBase
+- **豆腐汉堡** — `FoodBurgerTofu` ｜父类: FoodBurgerBase
+- **异形汉堡** — `FoodBurgerXeno` ｜父类: FoodBurgerBase
+- **一条黄油** — `FoodButter` ｜父类: FoodBakingBase
+- **黄油片** — `FoodButterSlice` ｜父类: FoodBakingBase
+- **卷心菜** — `FoodCabbage` ｜父类: FoodProduceBase
+- **苹果蛋糕** — `FoodCakeApple` ｜父类: FoodCakeBase
+- **苹果蛋糕片** — `FoodCakeAppleSlice` ｜父类: FoodCakeSliceBase
+- `模板` **FoodCakeBase** — `FoodCakeBase` ｜父类: FoodInjectableBase
+- **蛋糕糊** — `FoodCakeBatter` ｜父类: FoodBakingBase
+- **莓果喜悦蛋糕** — `FoodCakeBerryDelight` ｜父类: FoodCakeBase
+- **莓果喜悦蛋糕片** — `FoodCakeBerryDelightSlice` ｜父类: FoodCakeSliceBase
+- **生日蛋糕** — `FoodCakeBirthday` ｜父类: FoodCakeBase
+- **生日蛋糕片** — `FoodCakeBirthdaySlice` ｜父类: FoodCakeSliceBase
+- **蓝莓蛋糕** — `FoodCakeBlueberry` ｜父类: FoodCakeBase
+- **蓝莓蛋糕片** — `FoodCakeBlueberrySlice` ｜父类: FoodCakeSliceBase
+- **脑子蛋糕** — `FoodCakeBrain` ｜父类: FoodCakeBase
+- **脑子蛋糕片** — `FoodCakeBrainSlice` ｜父类: FoodCakeSliceBase
+- **胡萝卜蛋糕** — `FoodCakeCarrot` ｜父类: FoodCakeBase
+- **胡萝卜蛋糕片** — `FoodCakeCarrotSlice` ｜父类: FoodCakeSliceBase
+- **芝士蛋糕** — `FoodCakeCheese` ｜父类: FoodCakeBase
+- **芝士蛋糕片** — `FoodCakeCheeseSlice` ｜父类: FoodCakeSliceBase
+- **巧克力蛋糕** — `FoodCakeChocolate` ｜父类: FoodCakeBase
+- **巧克力蛋糕片** — `FoodCakeChocolateSlice` ｜父类: FoodCakeSliceBase
+- **圣诞蛋糕** — `FoodCakeChristmas` ｜父类: FoodCakeBase
+- **圣诞蛋糕片** — `FoodCakeChristmasSlice` ｜父类: FoodCakeSliceBase
+- **小丑蛋糕** — `FoodCakeClown` ｜父类: FoodCakeBase
+- **小丑蛋糕片** — `FoodCakeClownSlice` ｜父类: FoodCakeSliceBase
+- **棉花蛋糕** — `FoodCakeCotton` ｜父类: FoodCakeBase
+- **棉花蛋糕片** — `FoodCakeCottonSlice` ｜父类: FoodCakeSliceBase
+- **柠檬蛋糕** — `FoodCakeLemon` ｜父类: FoodCakeBase
+- **柠檬蛋糕片** — `FoodCakeLemonSlice` ｜父类: FoodCakeSliceBase
+- **柠月蛋糕** — `FoodCakeLemoon` ｜父类: FoodCakeBase
+- **柠月蛋糕碎片** — `FoodCakeLemoonSlice` ｜父类: FoodCakeSliceBase
+- **青柠蛋糕** — `FoodCakeLime` ｜父类: FoodCakeBase
+- **青柠蛋糕片** — `FoodCakeLimeSlice` ｜父类: FoodCakeSliceBase
+- **橙子蛋糕** — `FoodCakeOrange` ｜父类: FoodCakeBase
+- **橙子蛋糕片** — `FoodCakeOrangeSlice` ｜父类: FoodCakeSliceBase
+- **蛋糕** — `FoodCakePlain` ｜父类: FoodCakeBase
+- **蛋糕片** — `FoodCakePlainSlice` ｜父类: FoodCakeSliceBase
+- **南瓜香料蛋糕** — `FoodCakePumpkin` ｜父类: FoodCakeBase
+- **南瓜香料蛋糕片** — `FoodCakePumpkinSlice` ｜父类: FoodCakeSliceBase
+- **一片梦境** — `FoodCakeResomiSlice` ｜父类: FoodCakeSliceBase ｜_Starlight
+- `模板` **FoodCakeSliceBase** — `FoodCakeSliceBase` ｜父类: FoodCakeBase
+- **史莱姆蛋糕** — `FoodCakeSlime` ｜父类: FoodCakeBase
+- **史莱姆蛋糕片** — `FoodCakeSlimeSlice` ｜父类: FoodCakeSliceBase
+- **太空人蛋糕** — `FoodCakeSpaceman` ｜父类: FoodCakeBase
+- **太空人蛋糕片** — `FoodCakeSpacemanSlice` ｜父类: FoodCakeSliceBase
+- **超食物质蛋糕** — `FoodCakeSuppermatter` ｜父类: FoodCakeBase
+- **超食物质蛋糕碎片** — `FoodCakeSuppermatterSlice` ｜父类: FoodCakeSliceBase
+- **香草蛋糕** — `FoodCakeVanilla` ｜父类: FoodCakeBase
+- **香草蛋糕片** — `FoodCakeVanillaSlice` ｜父类: FoodCakeSliceBase
+- **一条大麻黄油** — `FoodCannabisButter` ｜父类: FoodButter
+- **胡萝卜** — `FoodCarrot` ｜父类: FoodProduceBase
+- `模板` **餐车** — `FoodCartBase` ｜父类: BaseStructureDynamic
+- **冷餐车** — `FoodCartCold` ｜父类: FoodCartBase
+- **热餐车** — `FoodCartHot` ｜父类: FoodCartBase
+- **冷肉拼盘** — `FoodCharcuterie` ｜父类: FoodMealBase ｜_Starlight
+- **芝士轮** — `FoodCheese` ｜父类: FoodBakingBase
+- **芝士角** — `FoodCheeseSlice` ｜父类: FoodBakingBase
+- **樱桃** — `FoodCherry` ｜父类: FoodProduceBase
+- **樱桃冰淇淋** — `FoodCherryIceCream` ｜父类: FoodIceCreamBase ｜_Starlight
+- **山羊奶酪卷** — `FoodChevre` ｜父类: FoodBakingBase
+- **山羊奶酪片** — `FoodChevreSlice` ｜父类: FoodBakingBase
+- **辣椒** — `FoodChiliPepper` ｜父类: FoodProduceBase
+- **冰椒** — `FoodChillyPepper` ｜父类: FoodProduceBase
+- **巧克力冰淇淋** — `FoodChocolateIceCream` ｜父类: FoodIceCreamBase ｜_Starlight
+- **肉桂棒** — `FoodCinnamonStick` ｜父类: FoodProduceBase ｜_Starlight
+- **可可豆** — `FoodCocoaBeans` ｜父类: FoodProduceBase
+- **可可果荚** — `FoodCocoaPod` ｜父类: FoodProduceBase
+- **咖啡冰淇淋** — `FoodCoffeeIceCream` ｜父类: FoodIceCreamBase ｜_Starlight
+- **烧烤酱瓶** — `FoodCondimentBottleBBQ` ｜父类: BaseFoodCondimentBottle
+- **冷酱瓶** — `FoodCondimentBottleColdsauce` ｜父类: BaseFoodCondimentBottle
+- **万能酶** — `FoodCondimentBottleEnzyme` ｜父类: BaseFoodCondimentBottle
+- **辣酱瓶** — `FoodCondimentBottleHotsauce` ｜父类: BaseFoodCondimentBottle
+- **番茄酱瓶** — `FoodCondimentBottleKetchup` ｜父类: BaseFoodCondimentBottle
+- **醋瓶** — `FoodCondimentBottleVinegar` ｜父类: BaseFoodCondimentBottle
+- **星甜素** — `FoodCondimentPacketAstrotame` ｜父类: BaseFoodCondimentPacket
+- **烧烤酱** — `FoodCondimentPacketBbq` ｜父类: BaseFoodCondimentPacketDrink
+- **冷酱** — `FoodCondimentPacketColdsauce` ｜父类: BaseFoodCondimentPacketDrink
+- **玉米油** — `FoodCondimentPacketCornoil` ｜父类: BaseFoodCondimentPacketDrink
+- **辣根酱** — `FoodCondimentPacketHorseradish` ｜父类: BaseFoodCondimentPacketDrink
+- **辣酱** — `FoodCondimentPacketHotsauce` ｜父类: BaseFoodCondimentPacketDrink
+- **番茄酱** — `FoodCondimentPacketKetchup` ｜父类: BaseFoodCondimentPacketDrink
+- **芥末酱** — `FoodCondimentPacketMustard` ｜父类: BaseFoodCondimentPacketDrink
+- **黑胡椒** — `FoodCondimentPacketPepper` ｜父类: BaseFoodCondimentPacket
+- **盐** — `FoodCondimentPacketSalt` ｜父类: BaseFoodCondimentPacket
+- **酱油** — `FoodCondimentPacketSoy` ｜父类: BaseFoodCondimentPacketDrink
+- **糖** — `FoodCondimentPacketSugar` ｜父类: BaseFoodCondimentPacket
+- **蛋盒** — `FoodContainerEgg` ｜父类: BoxCardboard,BaseBagOpenClose
+- **火山喷发** — `FoodCookedLizardPlate` ｜父类: FoodMealBase,BaseMajorContraband ｜_Starlight
+- **核心意面** — `FoodCookedShadekinCore` ｜父类: FoodNoodlesBase,BaseMajorContraband ｜_Starlight
+- **饼干签语** — `FoodCookieFortune` ｜父类: FoodPacketTrash
+- **玉米穗** — `FoodCorn` ｜父类: FoodProduceBase
+- **玉米芯** — `FoodCornTrash` ｜父类: BaseItem
+- **棉花汉堡面包** — `FoodCottonBun` ｜父类: FoodBreadSliceBase
+- **棉花汉堡底面包** — `FoodCottonBunBottom` ｜父类: FoodBreadSliceBase
+- **棉花汉堡顶面包** — `FoodCottonBunTop` ｜父类: FoodBreadSliceBase
+- **棉花蛋糕** — `FoodCottonCake` ｜父类: FoodCakeBase ｜_Starlight
+- **一片棉花蛋糕** — `FoodCottonCakeSlice` ｜父类: FoodCottonCake ｜_Starlight
+- **生牛角包** — `FoodCroissantRaw` ｜父类: FoodBakingBase
+- **生棉花牛角包** — `FoodCroissantRawCotton` ｜父类: FoodCroissantRaw
+- **跨维度拿破仑冰淇淋** — `FoodDimensionalIceCream` ｜父类: FoodIceCreamBase ｜_Starlight
+- **土耳其烤肉** — `FoodDonerKebab` ｜父类: FoodInjectableBase ｜_Starlight
+- **Donk 夹心饼** — `FoodDonkpocket` ｜父类: FoodDonkpocketBase
+- `模板` **FoodDonkpocketBase** — `FoodDonkpocketBase` ｜父类: FoodInjectableBase
+- **莓果夹心饼** — `FoodDonkpocketBerry` ｜父类: FoodDonkpocketBase
+- **热莓果夹心饼** — `FoodDonkpocketBerryWarm` ｜父类: FoodDonkpocketBerry
+- **鲤鱼夹心饼** — `FoodDonkpocketCarp` ｜父类: FoodDonkpocketBase
+- **热鲤鱼夹心饼** — `FoodDonkpocketCarpWarm` ｜父类: FoodDonkpocketCarp
+- **臭味夹心饼** — `FoodDonkpocketDank` ｜父类: FoodDonkpocketBase
+- **热臭味夹心饼** — `FoodDonkpocketDankWarm` ｜父类: FoodDonkpocketDank
+- **叮克夹心饼** — `FoodDonkpocketDink` ｜父类: FoodDonkpocketBase
+- **呵叫夹心饼** — `FoodDonkpocketHonk` ｜父类: FoodDonkpocketBase
+- **热呵叫夹心饼** — `FoodDonkpocketHonkWarm` ｜父类: FoodDonkpocketHonk
+- **飞蛾夹心饼** — `FoodDonkpocketMoth` ｜父类: FoodDonkpocketBase
+- **热飞蛾夹心饼** — `FoodDonkpocketMothWarm` ｜父类: FoodDonkpocketMoth
+- **披萨夹心饼** — `FoodDonkpocketPizza` ｜父类: FoodDonkpocketBase
+- **热披萨夹心饼** — `FoodDonkpocketPizzaWarm` ｜父类: FoodDonkpocketPizza
+- **香辣夹心饼** — `FoodDonkpocketSpicy` ｜父类: FoodDonkpocketBase
+- **热香辣夹心饼** — `FoodDonkpocketSpicyWarm` ｜父类: FoodDonkpocketSpicy
+- **暴涨夹心饼** — `FoodDonkpocketStonk` ｜父类: FoodDonkpocketBase
+- **热暴涨夹心饼** — `FoodDonkpocketStonkWarm` ｜父类: FoodDonkpocketStonk
+- **照烧夹心饼** — `FoodDonkpocketTeriyaki` ｜父类: FoodDonkpocketBase
+- **热照烧夹心饼** — `FoodDonkpocketTeriyakiWarm` ｜父类: FoodDonkpocketTeriyaki
+- **热 Donk 夹心饼** — `FoodDonkpocketWarm` ｜父类: FoodDonkpocket
+- **抹茶甜甜圈** — `FoodDonut` ｜父类: FoodDonutBase
+- **苹果甜甜圈** — `FoodDonutApple` ｜父类: FoodDonutBase
+- `模板` **FoodDonutBase** — `FoodDonutBase` ｜父类: FoodInjectableBase
+- **蓝南瓜甜甜圈** — `FoodDonutBluePumpkin` ｜父类: FoodDonutBase
+- **邦果甜甜圈** — `FoodDonutBungo` ｜父类: FoodDonutBase
+- **焦糖甜甜圈** — `FoodDonutCaramel` ｜父类: FoodDonutBase
+- **混沌甜甜圈** — `FoodDonutChaos` ｜父类: FoodDonutBase
+- **巧克力甜甜圈** — `FoodDonutChocolate` ｜父类: FoodDonutBase
+- `模板` **FoodDonutFruitBase** — `FoodDonutFruitBase` ｜父类: FoodDonutBase
+- **甜甜圈** — `FoodDonutHomer` ｜父类: FoodDonutBase
+- **抹茶果酱甜甜圈** — `FoodDonutJelly` ｜父类: FoodDonutBase
+- **苹果果酱甜甜圈** — `FoodDonutJellyApple` ｜父类: FoodDonutFruitBase
+- **蓝南瓜果酱甜甜圈** — `FoodDonutJellyBluePumpkin` ｜父类: FoodDonutFruitBase
+- **邦果果酱甜甜圈** — `FoodDonutJellyBungo` ｜父类: FoodDonutFruitBase
+- **焦糖果酱甜甜圈** — `FoodDonutJellyCaramel` ｜父类: FoodDonutBase
+- **巧克力果酱甜甜圈** — `FoodDonutJellyChocolate` ｜父类: FoodDonutBase
+- **果酱甜甜圈** — `FoodDonutJellyHomer` ｜父类: FoodDonutBase
+- **粉红果酱甜甜圈** — `FoodDonutJellyPink` ｜父类: FoodDonutBase
+- **原味果酱甜甜圈** — `FoodDonutJellyPlain` ｜父类: FoodDonutBase
+- **斯克瑞特果酱甜甜圈** — `FoodDonutJellyScurret` ｜父类: FoodDonutBase
+- **太空人果酱甜甜圈** — `FoodDonutJellySpaceman` ｜父类: FoodDonutBase
+- **香豌豆果酱甜甜圈** — `FoodDonutJellySweetpea` ｜父类: FoodDonutBase
+- **肉味甜甜圈** — `FoodDonutMeat` ｜父类: FoodDonutBase
+- **粉红甜甜圈** — `FoodDonutPink` ｜父类: FoodDonutBase
+- **原味甜甜圈** — `FoodDonutPlain` ｜父类: FoodDonutBase
+- **粉红甜甜圈** — `FoodDonutPoison` ｜父类: FoodDonutPink
+- **太空人甜甜圈** — `FoodDonutSpaceman` ｜父类: FoodDonutBase
+- **香豌豆甜甜圈** — `FoodDonutSweetpea` ｜父类: FoodDonutBase
+- **面团** — `FoodDough` ｜父类: FoodBakingBase
+- **玉米面团** — `FoodDoughCornmeal` ｜父类: FoodBakingBase
+- **玉米面团片** — `FoodDoughCornmealSlice` ｜父类: FoodBakingBase
+- **棉花面团** — `FoodDoughCotton` ｜父类: FoodBakingBase
+- **扁棉花面团** — `FoodDoughCottonFlat` ｜父类: FoodBakingBase
+- **棉花面团条** — `FoodDoughCottonRope` ｜父类: FoodBakingBase
+- **棉花面团片** — `FoodDoughCottonSlice` ｜父类: FoodBakingBase
+- **扁面团** — `FoodDoughFlat` ｜父类: FoodBakingBase
+- **酥皮坯** — `FoodDoughPastryBase` ｜父类: FoodBakingBase
+- **生酥皮坯** — `FoodDoughPastryBaseRaw` ｜父类: FoodBakingBase
+- **派面团** — `FoodDoughPie` ｜父类: FoodBakingBase
+- **皮塔饼面团** — `FoodDoughPita` ｜父类: FoodBakingBase ｜_Starlight
+- **披萨饼底** — `FoodDoughPizzaBaked` ｜父类: FoodBakingBase
+- **面团条** — `FoodDoughRope` ｜父类: FoodBakingBase
+- **面团片** — `FoodDoughSlice` ｜父类: FoodBakingBase
+- **玉米饼面团** — `FoodDoughTortilla` ｜父类: FoodBakingBase
+- **压平的玉米饼面团** — `FoodDoughTortillaFlat` ｜父类: FoodBakingBase
+- **玉米饼面团片** — `FoodDoughTortillaSlice` ｜父类: FoodBakingBase
+- **鸡蛋** — `FoodEgg` ｜父类: FoodEggBase
+- `模板` **FoodEggBase** — `FoodEggBase` ｜父类: FoodInjectableBase,ItemHeftyBase
+- **水煮蛋** — `FoodEggBoiled` ｜父类: FoodEggBase
+- **茄子** — `FoodEggplant` ｜父类: FoodProduceBase
+- **恶魔苹果** — `FoodEvilApple` ｜父类: FoodProduceBase ｜_Starlight
+- **异维橙** — `FoodExtradimensionalOrange` ｜父类: FoodProduceBase
+- **枪帽果** — `FoodFakeCapfruit` ｜父类: FoodRealCapfruit
+- **炸豆丸子** — `FoodFalafel` ｜父类: FoodInjectableBase ｜_Starlight
+- **炸豆丸子三明治** — `FoodFalafelSandwich` ｜父类: FoodInjectableBase ｜_Starlight
+- **节庆盛宴** — `FoodFeastFestiveDinner` ｜父类: BoxCardboard ｜_Starlight
+- **家庭装肉汁土豆泥** — `FoodFeastPotatoGravy` ｜父类: FoodMealBase ｜_Starlight
+- **家庭装土豆泥** — `FoodFeastPotatoMashed` ｜父类: FoodMealBase ｜_Starlight
+- **烤火鸡** — `FoodFeastTurkey` ｜父类: FoodMealBase ｜_Starlight
+- **毛茸男孩冰淇淋** — `FoodFluffyBoyIceCream` ｜父类: FoodIceCreamBase ｜_Starlight
+- **毒蝇伞** — `FoodFlyAmanita` ｜父类: FoodProduceBase
+- **肯塔基炸猫人** — `FoodFriedfelionoid` ｜父类: FoodMealBase,BaseMajorContraband ｜_Starlight
+- **肯塔基炸鼠人** — `FoodFriedRodentia` ｜父类: FoodMealBase,BaseMajorContraband ｜_Starlight
+- `模板` **FoodFrozenBase** — `FoodFrozenBase` ｜父类: FoodInjectableBase
+- **可诺脆筒** — `FoodFrozenCornuto` ｜父类: FoodFrozenBase
+- **科努托甜筒** — `FoodFrozenCornutoPackaged` ｜父类: BaseItem ｜_Starlight
+- **科努托甜筒包装纸** — `FoodFrozenCornutoTrash` ｜父类: FoodPacketTrash ｜_Starlight
+- **太空冰冰** — `FoodFrozenFreezy` ｜父类: FoodFrozenBase
+- **莓果奶油冰棒** — `FoodFrozenPopsicleBerry` ｜父类: FoodFrozenBase
+- **莓果奶油冰棒** — `FoodFrozenPopsicleBerryPackaged` ｜父类: BaseItem ｜_Starlight
+- **莓果奶油冰棒包装纸** — `FoodFrozenPopsicleBerryTrash` ｜父类: FoodPacketTrash ｜_Starlight
+- **巨无霸冰淇淋** — `FoodFrozenPopsicleJumbo` ｜父类: FoodFrozenBase
+- **巨无霸冰淇淋** — `FoodFrozenPopsicleJumboPackaged` ｜父类: BaseItem ｜_Starlight
+- **巨无霸冰淇淋包装纸** — `FoodFrozenPopsicleJumboTrash` ｜父类: FoodPacketTrash ｜_Starlight
+- **烟瘾冰棒** — `FoodFrozenPopsicleNicotine` ｜父类: FoodFrozenBase ｜_Starlight
+- **传奇冰棒** — `FoodFrozenPopsicleNicotineLegend` ｜父类: FoodFrozenBase ｜_Starlight
+- **传奇冰棒** — `FoodFrozenPopsicleNicotineLegendPackaged` ｜父类: BaseItem ｜_Starlight
+- **传奇冰棒包装纸** — `FoodFrozenPopsicleNicotineLegendTrash` ｜父类: FoodPacketTrash ｜_Starlight
+- **烟瘾冰棒** — `FoodFrozenPopsicleNicotinePackaged` ｜父类: BaseItem ｜_Starlight
+- **香辣烟瘾冰棒** — `FoodFrozenPopsicleNicotineSpicy` ｜父类: FoodFrozenBase ｜_Starlight
+- **香辣烟瘾冰棒** — `FoodFrozenPopsicleNicotineSpicyPackaged` ｜父类: BaseItem ｜_Starlight
+- **香辣烟瘾冰棒包装纸** — `FoodFrozenPopsicleNicotineSpicyTrash` ｜父类: FoodPacketTrash ｜_Starlight
+- **烟瘾冰棒包装纸** — `FoodFrozenPopsicleNicotineTrash` ｜父类: FoodPacketTrash ｜_Starlight
+- **烟瘾冰棒棍** — `FoodFrozenPopsicleNicotineTrashStick` ｜父类: BaseItem ｜_Starlight
+- **橙味奶油冰棒** — `FoodFrozenPopsicleOrange` ｜父类: FoodFrozenBase
+- **香橙奶油冰棒** — `FoodFrozenPopsicleOrangePackaged` ｜父类: BaseItem ｜_Starlight
+- **香橙奶油冰棒包装纸** — `FoodFrozenPopsicleOrangeTrash` ｜父类: FoodPacketTrash ｜_Starlight
+- **冰棒棍** — `FoodFrozenPopsicleTrash` ｜父类: BaseItem
+- **冰淇淋三明治** — `FoodFrozenSandwich` ｜父类: FoodFrozenBase
+- **草莓冰淇淋三明治** — `FoodFrozenSandwichStrawberry` ｜父类: FoodFrozenBase
+- **无味刨冰** — `FoodFrozenSnowcone` ｜父类: FoodFrozenSnowconeBase
+- **甜味刨冰** — `FoodFrozenSnowconeBase` ｜父类: FoodFrozenBase
+- **莓果刨冰** — `FoodFrozenSnowconeBerry` ｜父类: FoodFrozenSnowconeBase
+- **小丑刨冰** — `FoodFrozenSnowconeClown` ｜父类: FoodFrozenSnowconeBase
+- **水果沙拉刨冰** — `FoodFrozenSnowconeFruit` ｜父类: FoodFrozenSnowconeBase
+- **哑剧刨冰** — `FoodFrozenSnowconeMime` ｜父类: FoodFrozenSnowconeBase
+- **彩虹刨冰** — `FoodFrozenSnowconeRainbow` ｜父类: FoodFrozenSnowconeBase
+- **纸锥杯** — `FoodFrozenSnowconeTrash` ｜父类: BaseItem
+- **圣代冰淇淋** — `FoodFrozenSundae` ｜父类: FoodFrozenBase
+- **银河蓟** — `FoodGalaxythistle` ｜父类: FoodProduceBase
+- **大蒜** — `FoodGarlic` ｜父类: FoodProduceBase
+- **枪果** — `FoodGatfruit` ｜父类: FoodProduceBase,BaseSyndicateContraband
+- **玻璃蓟** — `FoodGlasstle` ｜父类: FoodProduceBase
+- **金苹果肉桂冰淇淋** — `FoodGoldAppleCinnamonIceCream` ｜父类: FoodIceCreamBase ｜_Starlight
+- **金苹果** — `FoodGoldenApple` ｜父类: FoodProduceBase
+- **葡萄** — `FoodGrape` ｜父类: FoodProduceBase
+- **哈吉斯羊杂** — `FoodHaggis` ｜父类: FoodMealBase ｜_Starlight
+- **赫威冰淇淋** — `FoodHewIceCream` ｜父类: FoodIceCreamBase ｜_Starlight
+- **圣瓜** — `FoodHolymelon` ｜父类: FoodProduceBase,ItemHeftyBase
+- **圣瓜冰淇淋** — `FoodHolyMelonIceCream` ｜父类: FoodIceCreamBase ｜_Starlight
+- **圣瓜片** — `FoodHolymelonSlice` ｜父类: ProduceSliceBase
+- **蜂蜜谷物棒** — `FoodHoneybar` ｜父类: BaseItem ｜_Starlight
+- **蜂巢框** — `FoodHoneyFrame` ｜父类: BaseItem ｜_Starlight
+- **蜂蜜面包** — `FoodHoneyLoaf` ｜父类: BaseItem ｜_Starlight
+- **蜂蜜面包片** — `FoodHoneyLoafSlice` ｜父类: BaseItem ｜_Starlight
+- **蜂蜜卷** — `FoodHoneyRoll` ｜父类: BaseItem ｜_Starlight
+- **鹰嘴豆泥蘸酱** — `FoodHummusDip` ｜父类: FoodBowlBase ｜_Starlight
+- `模板` **FoodIceCreamBase** — `FoodIceCreamBase` ｜父类: FoodMealBase ｜_Starlight
+- `模板` **FoodInjectableBase** — `FoodInjectableBase` ｜父类: FoodBase
+- **毒蝇伞果冻** — `FoodJellyAmanita` ｜父类: FoodInjectableBase
+- **太空自由布丁** — `FoodJellyDuff` ｜父类: FoodBowlBase
+- **烤串签** — `FoodKebabSkewer` ｜父类: BaseItem
+- **锦鲤豆** — `FoodKoibean` ｜父类: ProduceBaseRuminant
+- **笑笑豌豆荚** — `FoodLaughinPeaPod` ｜父类: FoodProduceBase
+- **领袖冰淇淋** — `FoodLeaderIceCream` ｜父类: FoodIceCreamBase ｜_Starlight
+- **柠檬** — `FoodLemon` ｜父类: FoodProduceBase
+- **月柠** — `FoodLemoon` ｜父类: FoodProduceBase
+- **百合** — `FoodLily` ｜父类: FoodPoppy
+- **青柠** — `FoodLime` ｜父类: FoodLemon
+- **灵芝** — `FoodLingzhi` ｜父类: FoodProduceBase
+- **棒棒糖** — `FoodLollipopPlain` ｜父类: FoodInjectableBase ｜_Starlight
+- **抹茶冰淇淋** — `FoodMatchaIceCream` ｜父类: FoodIceCreamBase ｜_Starlight
+- `模板` **FoodMealBase** — `FoodMealBase` ｜父类: FoodInjectableBase
+- **嗷式熊柳** — `FoodMealBearsteak` ｜父类: FoodMealBase
+- **咸牛肉炖卷心菜** — `FoodMealCornedbeef` ｜父类: FoodMealBase
+- **黄油玉米** — `FoodMealCornInButter` ｜父类: FoodMealBase
+- **古巴鲤鱼三明治** — `FoodMealCubancarp` ｜父类: FoodMealBase
+- **帕尔马芝士焗茄子** — `FoodMealEggplantParm` ｜父类: FoodMealBase
+- **班尼迪克蛋** — `FoodMealEggsbenedict` ｜父类: FoodMealBase
+- **墨西哥辣酱卷** — `FoodMealEnchiladas` ｜父类: FoodMealBase
+- **节庆晚餐** — `FoodMealFestiveDinner` ｜父类: FoodMealBase ｜_Starlight
+- **节庆晚餐** — `FoodMealFestiveDinnerGravy` ｜父类: FoodMealBase ｜_Starlight
+- **煎蛋** — `FoodMealFriedegg` ｜父类: FoodMealBase
+- **太空薯条** — `FoodMealFries` ｜父类: FoodMealBase
+- **胡萝卜薯条** — `FoodMealFriesCarrot` ｜父类: FoodMealBase
+- **芝士薯条** — `FoodMealFriesCheesy` ｜父类: FoodMealBase
+- **快乐呵叫巨无霸套餐** — `FoodMealHappyHonkBigBite` ｜父类: HappyHonk
+- **快乐呵叫套餐** — `FoodMealHappyHonkClown` ｜父类: HappyHonk
+- **克拉夫卡拉什** — `FoodMealKhlavKalash` ｜父类: FoodMealBase ｜_Starlight
+- **记忆韭葱** — `FoodMealMemoryleek` ｜父类: FoodMealBase
+- **奶猿** — `FoodMealMilkape` ｜父类: FoodMealBase
+- **薄荷糖** — `FoodMealMint` ｜父类: FoodMealBase
+- **玉米片** — `FoodMealNachos` ｜父类: FoodMealBase
+- **芝士玉米片** — `FoodMealNachosCheesy` ｜父类: FoodMealBase
+- **古巴玉米片** — `FoodMealNachosCuban` ｜父类: FoodMealBase
+- **芝士欧姆蛋** — `FoodMealOmelette` ｜父类: FoodMealBase
+- **毯中猪** — `FoodMealPigblanket` ｜父类: FoodMealBase
+- **豪华烤土豆** — `FoodMealPotatoLoaded` ｜父类: FoodMealBase
+- **烤红薯** — `FoodMealPotatoYaki` ｜父类: FoodMealBase
+- **奶酪蘸酱** — `FoodMealQueso` ｜父类: FoodMealBase
+- **烧烤肋排** — `FoodMealRibs` ｜父类: FoodMealBase
+- **生鱼片** — `FoodMealSashimi` ｜父类: FoodMealBase
+- **软塔可** — `FoodMealSoftTaco` ｜父类: FoodMealBase
+- **坏女孩冰淇淋** — `FoodMeanGirlIceCream` ｜父类: FoodIceCreamBase ｜_Starlight
+- **生肉** — `FoodMeat` ｜父类: FoodMeatRawBase
+- **异常肉团** — `FoodMeatAnomaly` ｜父类: FoodMeatRawBase
+- **异常肉排** — `FoodMeatAnomalyCooked` ｜父类: FoodMeatBase
+- **生培根** — `FoodMeatBacon` ｜父类: FoodMeatBase
+- **培根** — `FoodMeatBaconCooked` ｜父类: FoodMeatBase
+- `模板` **FoodMeatBase** — `FoodMeatBase` ｜父类: FoodInjectableBase
+- **生熊肉** — `FoodMeatBear` ｜父类: FoodMeatRawBase
+- **熟熊肉** — `FoodMeatBearCooked` ｜父类: FoodMeatBase
+- **生熊肉排** — `FoodMeatBearCutlet` ｜父类: FoodMeatBase
+- **熊肉排** — `FoodMeatBearCutletCooked` ｜父类: FoodMeatBase
+- **生鸡肉** — `FoodMeatChicken` ｜父类: FoodMeatRawBase
+- **熟鸡肉** — `FoodMeatChickenCooked` ｜父类: FoodMeatBase
+- **生鸡肉排** — `FoodMeatChickenCutlet` ｜父类: FoodMeatBase
+- **鸡肉排** — `FoodMeatChickenCutletCooked` ｜父类: FoodMeatBase
+- **炸鸡** — `FoodMeatChickenFried` ｜父类: FoodMeatBase
+- **神秘炸鸡** — `FoodMeatChickenFriedVox` ｜父类: FoodMeatChickenFried
+- **肉小丑** — `FoodMeatClown` ｜父类: FoodMeatBase
+- **牛排** — `FoodMeatCooked` ｜父类: FoodMeatBase
+- **精选柯基肉** — `FoodMeatCorgi` ｜父类: FoodMeatBase,BaseGrandTheftContraband
+- **生蟹肉** — `FoodMeatCrab` ｜父类: FoodMeatRawBase
+- **熟蟹肉** — `FoodMeatCrabCooked` ｜父类: FoodMeatBase
+- **生肉排** — `FoodMeatCutlet` ｜父类: FoodMeatBase
+- **肉排** — `FoodMeatCutletCooked` ｜父类: FoodMeatBase
+- **龙肉** — `FoodMeatDragon` ｜父类: FoodMeatBase
+- **龙排** — `FoodMeatDragonCooked` ｜父类: FoodMeatBase
+- **生龙肉排** — `FoodMeatDragonCutlet` ｜父类: FoodMeatBase
+- **龙肉排** — `FoodMeatDragonCutletCooked` ｜父类: FoodMeatBase
+- **生鸭肉** — `FoodMeatDuck` ｜父类: FoodMeatRawBase
+- **熟鸭肉** — `FoodMeatDuckCooked` ｜父类: FoodMeatBase
+- **生鸭肉排** — `FoodMeatDuckCutlet` ｜父类: FoodMeatBase
+- **鸭肉排** — `FoodMeatDuckCutletCooked` ｜父类: FoodMeatBase
+- **生鲤鱼柳** — `FoodMeatFish` ｜父类: FoodMeatBase
+- **生歌利亚肉** — `FoodMeatGoliath` ｜父类: FoodMeatRawBase
+- **歌利亚牛排** — `FoodMeatGoliathCooked` ｜父类: FoodMeatBase
+- **生人肉** — `FoodMeatHuman` ｜父类: FoodMeatRawBase,BaseMajorContraband
+- **肉排冰淇淋** — `FoodMeatIceCream` ｜父类: FoodIceCreamBase ｜_Starlight
+- **生锦鲤鱼排** — `FoodMeatKoiFish` ｜父类: FoodMeatBase ｜_Starlight
+- **生蜥蜴肉** — `FoodMeatLizard` ｜父类: FoodMeatRawBase
+- **蜥蜴肉排** — `FoodMeatLizardCooked` ｜父类: FoodMeatBase
+- **生蜥蜴肉排** — `FoodMeatLizardCutlet` ｜父类: FoodMeatBase
+- **蜥蜴肉排** — `FoodMeatLizardCutletCooked` ｜父类: FoodMeatBase
+- **肉丸** — `FoodMeatMeatball` ｜父类: FoodMeatBase
+- **肉丸** — `FoodMeatMeatballCooked` ｜父类: FoodMeatBase
+- **肉饼** — `FoodMeatPatty` ｜父类: FoodMeatBase
+- **熟肉饼** — `FoodMeatPattyCooked` ｜父类: FoodMeatBase
+- **生企鹅肉** — `FoodMeatPenguin` ｜父类: FoodMeatRawBase
+- **企鹅肉排** — `FoodMeatPenguinCooked` ｜父类: FoodMeatBase
+- **生企鹅肉排** — `FoodMeatPenguinCutlet` ｜父类: FoodMeatBase
+- **企鹅肉排** — `FoodMeatPenguinCutletCooked` ｜父类: FoodMeatBase
+- **生植物肉** — `FoodMeatPlant` ｜父类: FoodMeatBase
+- **生鼠肉** — `FoodMeatRat` ｜父类: FoodMeatRawBase
+- `模板` **FoodMeatRawBase** — `FoodMeatRawBase` ｜父类: FoodMeatBase
+- **腐肉** — `FoodMeatRotten` ｜父类: FoodMeatBase
+- **生罗尼肉** — `FoodMeatRouny` ｜父类: FoodMeatBase
+- **罗尼肉排** — `FoodMeatRounyCooked` ｜父类: FoodMeatBase
+- **萨拉米香肠** — `FoodMeatSalami` ｜父类: FoodMeatBase
+- **萨拉米香肠片** — `FoodMeatSalamiSlice` ｜父类: FoodMeatBase
+- **史莱姆球** — `FoodMeatSlime` ｜父类: FoodMeatBase
+- **生蜗牛肉** — `FoodMeatSnail` ｜父类: FoodMeatRawBase
+- **水煮蜗牛** — `FoodMeatSnailCooked` ｜父类: FoodMeatBase
+- **生蛇肉** — `FoodMeatSnake` ｜父类: FoodMeatBase
+- **生蜘蛛肉** — `FoodMeatSpider` ｜父类: FoodMeatRawBase
+- **生蜘蛛肉排** — `FoodMeatSpiderCutlet` ｜父类: FoodMeatBase
+- **蜘蛛肉排** — `FoodMeatSpiderCutletCooked` ｜父类: FoodMeatBase
+- **生蜘蛛腿** — `FoodMeatSpiderLeg` ｜父类: FoodMeatBase
+- **水煮蜘蛛腿** — `FoodMeatSpiderlegCooked` ｜父类: FoodMeatBase
+- **杀手番茄肉** — `FoodMeatTomato` ｜父类: FoodMeatBase
+- **生杀手番茄排** — `FoodMeatTomatoCutlet` ｜父类: FoodMeatBase
+- **肉麦团** — `FoodMeatWheat` ｜父类: FoodMeatBase
+- **生异形肉** — `FoodMeatXeno` ｜父类: FoodMeatBase
+- **生异形肉排** — `FoodMeatXenoCutlet` ｜父类: FoodMeatBase
+- **异形肉排** — `FoodMeatXenoCutletCooked` ｜父类: FoodMeatBase
+- **默剧蕉** — `FoodMimana` ｜父类: FoodProduceBase
+- **薄荷巧克力冰淇淋** — `FoodMintChocolateIceCream` ｜父类: FoodIceCreamBase ｜_Starlight
+- **薄荷叶** — `FoodMintLeaf` ｜父类: FoodProduceBase ｜_Starlight
+- **棉花面糊** — `FoodMothBatter` ｜父类: FoodBakingBase ｜_Starlight
+- **丝线冰淇淋** — `FoodMothSilkIceCream` ｜父类: FoodIceCreamBase ｜_Starlight
+- **一簇鸡油菌** — `FoodMushroom` ｜父类: FoodProduceBase
+- **那不勒斯冰淇淋** — `FoodNeapolitanIceCream` ｜父类: FoodIceCreamBase ｜_Starlight
+- **意大利面** — `FoodNoodles` ｜父类: FoodNoodlesBase
+- `模板` **FoodNoodlesBase** — `FoodNoodlesBase` ｜父类: FoodInjectableBase
+- **水煮意大利面** — `FoodNoodlesBoiled` ｜父类: FoodNoodlesBase
+- **黄油面** — `FoodNoodlesButter` ｜父类: FoodNoodlesBase
+- **炒面** — `FoodNoodlesChowmein` ｜父类: FoodNoodlesBase
+- **复制粘贴面** — `FoodNoodlesCopy` ｜父类: FoodNoodlesBase
+- **肉丸意大利面** — `FoodNoodlesMeatball` ｜父类: FoodNoodlesBase
+- **太空律师面** — `FoodNoodlesSpesslaw` ｜父类: FoodNoodlesBase
+- **布里奶酪** — `FoodNutriCheeseBrie` ｜父类: FoodRodentiaCheeseBase ｜_Starlight
+- **埃丹奶酪** — `FoodNutriCheeseEdam` ｜父类: FoodRodentiaCheeseBase ｜_Starlight
+- **戈贡佐拉奶酪** — `FoodNutriCheeseGorgonzola` ｜父类: FoodRodentiaCheeseBase ｜_Starlight
+- **马苏里拉奶酪棒** — `FoodNutriCheeseMozzarellaSticks` ｜父类: FoodRodentiaCheeseBase ｜_Starlight
+- **燕麦粥** — `FoodOatmeal` ｜父类: FoodBowlBase
+- **全能药冰淇淋** — `FoodOmnizineIceCream` ｜父类: FoodIceCreamBase ｜_Starlight
+- **洋葱** — `FoodOnion` ｜父类: FoodProduceBase
+- **红洋葱** — `FoodOnionRed` ｜父类: FoodProduceBase
+- **红洋葱片** — `FoodOnionRedSlice` ｜父类: ProduceSliceBase
+- **洋葱圈** — `FoodOnionRings` ｜父类: FoodBakedBase
+- **洋葱片** — `FoodOnionSlice` ｜父类: ProduceSliceBase
+- `模板` **FoodOpenableBase** — `FoodOpenableBase`
+- **橙子** — `FoodOrange` ｜父类: FoodLemon
+- **香橙旋纹冰淇淋** — `FoodOrangeSwirlIceCream` ｜父类: FoodIceCreamBase ｜_Starlight
+- **器官荚** — `FoodOrganTree` ｜父类: FoodProduceBase ｜_Starlight
+- **Boritos 包装袋** — `FoodPacketBoritosTrash` ｜父类: FoodPacketTrash
+- **奶酪盒** — `FoodPacketCheeseBox` ｜父类: FoodSnackNutribrick ｜_Starlight
+- **奶酪盒** — `FoodPacketCheeseBoxTrash` ｜父类: FoodPacketMRETrash ｜_Starlight
+- **芝士呵叫脆** — `FoodPacketCheesieTrash` ｜父类: FoodPacketTrash
+- **薯片** — `FoodPacketChipsTrash` ｜父类: FoodPacketTrash
+- **巧克力包装纸** — `FoodPacketChocolateTrash` ｜父类: FoodPacketTrash
+- **空炒面盒** — `FoodPacketChowMeinTrash` ｜父类: FoodPacketTrash
+- **C&Ds 包装袋** — `FoodPacketCnDsTrash` ｜父类: FoodPacketTrash
+- **空杯面** — `FoodPacketCupRamenTrash` ｜父类: FoodPacketTrash
+- **空担担面盒** — `FoodPacketDanDanTrash` ｜父类: FoodPacketTrash
+- **能量棒包装纸** — `FoodPacketEnergyTrash` ｜父类: FoodPacketTrash
+- **糖果包装纸** — `FoodPacketHardCandyTrash` ｜父类: FoodPacketTrash ｜_Starlight
+- **MRE 包装纸** — `FoodPacketMRETrash` ｜父类: FoodPacketTrash
+- **开心果包装袋** — `FoodPacketPistachioTrash` ｜父类: FoodPacketTrash
+- **爆米花盒** — `FoodPacketPopcornTrash` ｜父类: FoodPacketTrash
+- **4no 葡萄干** — `FoodPacketRaisinsTrash` ｜父类: FoodPacketTrash
+- **葵花籽包装袋** — `FoodPacketSemkiTrash` ｜父类: FoodPacketTrash
+- **可疑肉干** — `FoodPacketSusTrash` ｜父类: FoodPacketTrash
+- **辛迪蛋糕盒** — `FoodPacketSyndiTrash` ｜父类: FoodPacketTrash
+- `模板` **FoodPacketTrash** — `FoodPacketTrash` ｜父类: BaseItem
+- **花生酱冰淇淋** — `FoodPeanutButterIceCream` ｜父类: FoodIceCreamBase ｜_Starlight
+- **豌豆荚** — `FoodPeaPod` ｜父类: FoodProduceBase
+- **鹅膏菌派** — `FoodPieAmanita` ｜父类: FoodPieBase
+- **苹果派** — `FoodPieApple` ｜父类: FoodPieBase
+- **苹果派切片** — `FoodPieAppleSlice` ｜父类: FoodPieSliceBase
+- **果仁蜜饼** — `FoodPieBaklava` ｜父类: FoodPieBase
+- **果仁蜜饼切片** — `FoodPieBaklavaSlice` ｜父类: FoodPieSliceBase
+- **香蕉奶油派** — `FoodPieBananaCream` ｜父类: FoodPieBase
+- **香蕉奶油派切片** — `FoodPieBananaCreamSlice` ｜父类: FoodPieSliceBase
+- `模板` **FoodPieBase** — `FoodPieBase` ｜父类: FoodInjectableBase
+- **樱桃派** — `FoodPieCherry` ｜父类: FoodPieBase
+- **樱桃派切片** — `FoodPieCherrySlice` ｜父类: FoodPieSliceBase
+- **莓果克拉芙缇** — `FoodPieClafoutis` ｜父类: FoodPieBase
+- **莓果克拉芙缇切片** — `FoodPieClafoutisSlice` ｜父类: FoodPieSliceBase
+- **冰霜派** — `FoodPieFrosty` ｜父类: FoodPieBase
+- **冰霜派切片** — `FoodPieFrostySlice` ｜父类: FoodPieSliceBase
+- **肉派** — `FoodPieMeat` ｜父类: FoodPieBase
+- **肉派切片** — `FoodPieMeatSlice` ｜父类: FoodPieSliceBase
+- **饱满菌帽派** — `FoodPiePlump` ｜父类: FoodPieBase
+- **南瓜派** — `FoodPiePumpkin` ｜父类: FoodPieBase
+- **南瓜派切片** — `FoodPiePumpkinSlice` ｜父类: FoodPieSliceBase
+- `模板` **FoodPieSliceBase** — `FoodPieSliceBase` ｜父类: FoodInjectableBase
+- **异形派** — `FoodPieXeno` ｜父类: FoodPieBase
+- **异形派切片** — `FoodPieXenoSlice` ｜父类: FoodPieSliceBase
+- **菠萝** — `FoodPineapple` ｜父类: FoodProduceBase
+- **菠萝片** — `FoodPineappleSlice` ｜父类: ProduceSliceBase
+- **开心果冰淇淋** — `FoodPistachioIceCream` ｜父类: FoodIceCreamBase ｜_Starlight
+- **阿诺德披萨** — `FoodPizzaArnold` ｜父类: FoodPizzaBase
+- **阿诺德披萨片** — `FoodPizzaArnoldSlice` ｜父类: FoodPizzaSliceBase
+- `模板` **FoodPizzaBase** — `FoodPizzaBase` ｜父类: FoodInjectableBase
+- **棉花披萨** — `FoodPizzaCotton` ｜父类: FoodPizzaBase
+- **棉花披萨片** — `FoodPizzaCottonSlice` ｜父类: FoodPizzaSliceBase
+- **臭味披萨** — `FoodPizzaDank` ｜父类: FoodPizzaBase
+- **臭味披萨片** — `FoodPizzaDankSlice` ｜父类: FoodPizzaSliceBase
+- **Donk 夹心饼披萨** — `FoodPizzaDonkpocket` ｜父类: FoodPizzaBase
+- **Donk 夹心饼披萨片** — `FoodPizzaDonkpocketSlice` ｜父类: FoodPizzaSliceBase
+- **玛格丽特披萨** — `FoodPizzaMargherita` ｜父类: FoodPizzaBase
+- **玛格丽特披萨片** — `FoodPizzaMargheritaSlice` ｜父类: FoodPizzaSliceBase
+- **肉食披萨** — `FoodPizzaMeat` ｜父类: FoodPizzaBase
+- **肉食披萨片** — `FoodPizzaMeatSlice` ｜父类: FoodPizzaSliceBase
+- **发霉披萨片** — `FoodPizzaMoldySlice` ｜父类: FoodPizzaSliceBase
+- **蘑菇披萨** — `FoodPizzaMushroom` ｜父类: FoodPizzaBase
+- **蘑菇披萨片** — `FoodPizzaMushroomSlice` ｜父类: FoodPizzaSliceBase
+- **营养砖披萨** — `FoodPizzaNutribrick` ｜父类: FoodPizzaBase ｜_Starlight
+- **一片营养砖披萨** — `FoodPizzaNutriSlice` ｜父类: FoodPizzaSliceBase ｜_Starlight
+- **夏威夷披萨** — `FoodPizzaPineapple` ｜父类: FoodPizzaBase
+- **夏威夷披萨片** — `FoodPizzaPineappleSlice` ｜父类: FoodPizzaSliceBase
+- **泼辣香肠披萨** — `FoodPizzaSassysage` ｜父类: FoodPizzaBase
+- **泼辣香肠披萨片** — `FoodPizzaSassysageSlice` ｜父类: FoodPizzaSliceBase
+- `模板` **FoodPizzaSliceBase** — `FoodPizzaSliceBase` ｜父类: FoodInjectableBase
+- **香辣岩石披萨** — `FoodPizzaUranium` ｜父类: FoodPizzaBase
+- **香辣岩石披萨片** — `FoodPizzaUraniumSlice` ｜父类: FoodPizzaSliceBase
+- **蔬菜披萨** — `FoodPizzaVegetable` ｜父类: FoodPizzaBase
+- **蔬菜披萨片** — `FoodPizzaVegetableSlice` ｜父类: FoodPizzaSliceBase
+- **世界和平豆披萨** — `FoodPizzaWorldpeas` ｜父类: FoodPizzaBase
+- **世界和平豆披萨片** — `FoodPizzaWorldpeasSlice` ｜父类: FoodPizzaSliceBase
+- **包装纸披萨** — `FoodPizzaWrapper` ｜父类: FoodPizzaCotton ｜_Starlight
+- **一片包装纸披萨** — `FoodPizzaWrapperSlice` ｜父类: FoodPizzaCottonSlice ｜_Starlight
+- **大盘子** — `FoodPlate` ｜父类: BaseItem
+- **节庆餐盘** — `FoodPlateFestive` ｜父类: FoodPlate ｜_Starlight
+- **破碎的盘子** — `FoodPlateFestiveTrash` ｜父类: FoodPlateTrash ｜_Starlight
+- **玛芬烤盘** — `FoodPlateMuffinTin` ｜父类: BaseItem
+- **大塑料盘** — `FoodPlatePlastic` ｜父类: BaseItem
+- **小盘子** — `FoodPlateSmall` ｜父类: FoodPlate
+- **小塑料盘** — `FoodPlateSmallPlastic` ｜父类: BaseItem
+- **破盘子** — `FoodPlateSmallTrash` ｜父类: FoodPlateTrash
+- **派烤盘** — `FoodPlateTin` ｜父类: BaseItem
+- **破盘子** — `FoodPlateTrash` ｜父类: BaseItem
+- **罂粟** — `FoodPoppy` ｜父类: FoodProduceBase
+- **土豆** — `FoodPotato` ｜父类: FoodProduceBase
+- **肉汁土豆泥** — `FoodPotatoGravy` ｜父类: FoodMealBase ｜_Starlight
+- **土豆泥** — `FoodPotatoMashed` ｜父类: FoodMealBase ｜_Starlight
+- `模板` **FoodProduceBase** — `FoodProduceBase` ｜父类: FoodInjectableBase
+- **南瓜** — `FoodPumpkin` ｜父类: FoodProduceBase
+- **彩虹升天冰淇淋** — `FoodRainbowHighIceCream` ｜父类: FoodIceCreamBase ｜_Starlight
+- **枪帽果** — `FoodRealCapfruit` ｜父类: FoodProduceBase
+- **愈伤脂草** — `FoodResinfera` ｜父类: FoodProduceBase ｜_Starlight
+- **迷梦蛋糕** — `FoodResomiCake` ｜父类: FoodCakeBase ｜_Starlight
+- **白米饭** — `FoodRiceBoiled` ｜父类: FoodBowlBase
+- **蛋炒饭** — `FoodRiceEgg` ｜父类: FoodBowlBase
+- **黑眼豆秋葵饭** — `FoodRiceGumbo` ｜父类: FoodBowlBase
+- **猪肉盖饭** — `FoodRicePork` ｜父类: FoodBowlBase
+- **米布丁** — `FoodRicePudding` ｜父类: FoodBowlBase
+- **石板街冰淇淋** — `FoodRockyRoadIceCream` ｜父类: FoodIceCreamBase ｜_Starlight
+- `模板` **FoodRodentiaCheeseBase** — `FoodRodentiaCheeseBase` ｜父类: FoodSnackNutribrickOpen ｜_Starlight
+- **阿萨神族沙拉** — `FoodSaladAesir` ｜父类: FoodBowlBase
+- **凯撒沙拉** — `FoodSaladCaesar` ｜父类: FoodBowlBase
+- **柑橘沙拉** — `FoodSaladCitrus` ｜父类: FoodBowlBase
+- **凉拌卷心菜** — `FoodSaladColeslaw` ｜父类: FoodBowlBase
+- **伊甸园沙拉** — `FoodSaladEden` ｜父类: FoodBowlBase
+- **水果沙拉** — `FoodSaladFruit` ｜父类: FoodBowlBase
+- **香草沙拉** — `FoodSaladHerb` ｜父类: FoodBowlBase
+- **丛林沙拉** — `FoodSaladJungle` ｜父类: FoodBowlBase
+- **泡菜沙拉** — `FoodSaladKimchi` ｜父类: FoodBowlBase
+- **合规沙拉** — `FoodSaladValid` ｜父类: FoodBowlBase
+- **瓜果碗** — `FoodSaladWatermelonFruitBowl` ｜父类: FoodMealBase
+- **海盐焦糖冰淇淋** — `FoodSaltedCaramelIceCream` ｜父类: FoodIceCreamBase ｜_Starlight
+- **生香肠** — `FoodSausage` ｜父类: FoodMeatBase ｜_Starlight
+- **香肠面包** — `FoodSausageBun` ｜父类: FoodMealBase ｜_Starlight
+- **香肠** — `FoodSausageCooked` ｜父类: FoodMeatBase ｜_Starlight
+- **胡椒罐** — `FoodShakerPepper` ｜父类: BaseFoodShaker
+- **盐罐** — `FoodShakerSalt` ｜父类: BaseFoodShaker
+- **鸡肉沙威玛** — `FoodShawarma` ｜父类: FoodInjectableBase ｜_Starlight
+- **水果雪葩** — `FoodSherbetIceCream` ｜父类: FoodIceCreamBase ｜_Starlight
+- `模板` **FoodSnackBase** — `FoodSnackBase` ｜父类: FoodBase
+- **波力多脆片** — `FoodSnackBoritos` ｜父类: FoodSnackBase
+- **太妃糖苹果** — `FoodSnackCandyApple` ｜父类: FoodSnackBase ｜_Starlight
+- **芝士呵叫脆** — `FoodSnackCheesie` ｜父类: FoodSnackBase
+- **薯片** — `FoodSnackChips` ｜父类: FoodSnackBase
+- **巧克力棒** — `FoodSnackChocolate` ｜父类: BaseItem
+- **巧克力棒** — `FoodSnackChocolateBar` ｜父类: FoodSnackBase
+- **炒面** — `FoodSnackChowMein` ｜父类: FoodSnackBase
+- **停战豆** — `FoodSnackCnDs` ｜父类: FoodSnackBase
+- **幸运饼干** — `FoodSnackCookieFortune` ｜父类: FoodSnackBase
+- **担担面** — `FoodSnackDanDanNoodles` ｜父类: FoodSnackBase
+- **能量棒** — `FoodSnackEnergy` ｜父类: FoodSnackBase
+- **能量棒** — `FoodSnackEnergyBar` ｜父类: FoodSnackBase
+- **硬糖** — `FoodSnackHardCandy` ｜父类: BaseItem ｜_Starlight
+- **硬糖** — `FoodSnackHardCandyOpen` ｜父类: FoodSnackBase ｜_Starlight
+- **布朗尼** — `FoodSnackMREBrownie` ｜父类: BaseItem
+- **布朗尼** — `FoodSnackMREBrownieOpen` ｜父类: FoodSnackBase
+- **营养砖** — `FoodSnackNutribrick` ｜父类: BaseItem
+- **营养砖** — `FoodSnackNutribrickOpen` ｜父类: FoodSnackBase
+- **甜心牌开心果** — `FoodSnackPistachios` ｜父类: FoodSnackBase
+- **爆米花** — `FoodSnackPopcorn` ｜父类: FoodSnackBase
+- **四无葡萄干** — `FoodSnackRaisins` ｜父类: FoodSnackBase
+- **鲍勃牌塞姆奇葵花籽** — `FoodSnackSemki` ｜父类: FoodSnackBase
+- **可疑肉干** — `FoodSnackSus` ｜父类: FoodSnackBase
+- **漩涡棒棒糖** — `FoodSnackSwirlLollipop` ｜父类: FoodSnackBase
+- **辛迪蛋糕** — `FoodSnackSyndi` ｜父类: FoodSnackBase
+- **雪霜特制冰淇淋** — `FoodSnowcreamIceCream` ｜父类: FoodIceCreamBase ｜_Starlight
+- **甜菜汤** — `FoodSoupBeet` ｜父类: FoodBowlBase
+- **红甜菜汤** — `FoodSoupBeetRed` ｜父类: FoodBowlBase
+- **法式浓汤** — `FoodSoupBisque` ｜父类: FoodBowlBase
+- **邦戈咖喱** — `FoodSoupBungo` ｜父类: FoodBowlBase
+- **嘉年华辣椒炖肉** — `FoodSoupChiliClown` ｜父类: FoodBowlBase
+- **冷辣椒汤** — `FoodSoupChiliCold` ｜父类: FoodBowlBase
+- **一碗火辣辣椒汤** — `FoodSoupChiliHot` ｜父类: FoodBowlBase
+- **小丑之泪** — `FoodSoupClown` ｜父类: FoodBowlBase
+- **电子汤** — `FoodSoupElectron` ｜父类: FoodBowlBase
+- **焗蜗牛** — `FoodSoupEscargot` ｜父类: FoodBowlBase
+- **眼球汤** — `FoodSoupEyeball` ｜父类: FoodBowlBase
+- **肉丸汤** — `FoodSoupMeatball` ｜父类: FoodBowlBase
+- **味噌汤** — `FoodSoupMiso` ｜父类: FoodBowlBase
+- **猴子佳肴** — `FoodSoupMonkey` ｜父类: FoodBowlBase
+- **飞蛾汤** — `FoodSoupMothBowl` ｜父类: FoodBowlBase ｜_Starlight
+- **蘑菇汤** — `FoodSoupMushroom` ｜父类: FoodBowlBase
+- **神秘汤** — `FoodSoupMystery` ｜父类: FoodBowlBase
+- **荨麻汤** — `FoodSoupNettle` ｜父类: FoodBowlBase
+- **法式洋葱汤** — `FoodSoupOnion` ｜父类: FoodBowlBase
+- **豌豆汤** — `FoodSoupPea` ｜父类: FoodBowlBase
+- **红薯汤** — `FoodSoupPotato` ｜父类: FoodBowlBase
+- **史莱姆汤** — `FoodSoupSlime` ｜父类: FoodBowlBase
+- **炖菜** — `FoodSoupStew` ｜父类: FoodBowlBase
+- **一分钟致盲炖菜** — `FoodSoupStewBlinding` ｜父类: FoodBowlBase,BaseMajorContraband ｜_Starlight
+- **番茄汤** — `FoodSoupTomato` ｜父类: FoodBowlBase
+- **番茄汤** — `FoodSoupTomatoBlood` ｜父类: FoodBowlBase
+- **蔬菜汤** — `FoodSoupVegetable` ｜父类: FoodBowlBase
+- **翼牙肉汤** — `FoodSoupWingFangChu` ｜父类: FoodBowlBase
+- **苏夫拉基旋转烤肉三明治** — `FoodSouvlaki` ｜父类: FoodInjectableBase ｜_Starlight
+- **大豆** — `FoodSoybeans` ｜父类: ProduceBaseRuminant
+- **太空龙冰淇淋** — `FoodSpaceDragonIceCream` ｜父类: FoodIceCreamBase ｜_Starlight
+- **太空人号角花** — `FoodSpacemansTrumpet` ｜父类: FoodProduceBase
+- **太空蘑菇** — `FoodSpaceshroom` ｜父类: FoodProduceBase
+- **熟太空蘑菇** — `FoodSpaceshroomCooked` ｜父类: FoodProduceBase
+- **草莓冰淇淋** — `FoodStrawberryIceCream` ｜父类: FoodIceCreamBase ｜_Starlight
+- **填料** — `FoodStuffing` ｜父类: FoodMealBase ｜_Starlight
+- **棉花填料** — `FoodStuffingCotton` ｜父类: FoodMealBase ｜_Starlight
+- `模板` **FoodTacoBase** — `FoodTacoBase` ｜父类: FoodInjectableBase
+- **牛肉塔可** — `FoodTacoBeef` ｜父类: FoodTacoBase
+- **至尊牛肉塔可** — `FoodTacoBeefSupreme` ｜父类: FoodTacoBase
+- **鸡肉塔可** — `FoodTacoChicken` ｜父类: FoodTacoBase
+- **至尊鸡肉塔可** — `FoodTacoChickenSupreme` ｜父类: FoodTacoBase
+- **龙肉塔可** — `FoodTacoDragon` ｜父类: FoodTacoBase
+- **鱼肉塔可** — `FoodTacoFish` ｜父类: FoodTacoBase
+- **鼠肉塔可** — `FoodTacoRat` ｜父类: FoodTacoBase
+- **塔可饼皮** — `FoodTacoShell` ｜父类: FoodMealBase
+- **巧克力熔岩挞** — `FoodTartCoco` ｜父类: FoodPieBase
+- **金苹果酥粒挞** — `FoodTartGapple` ｜父类: FoodPieBase
+- **葡萄挞** — `FoodTartGrape` ｜父类: FoodPieBase
+- **哑剧挞** — `FoodTartMime` ｜父类: FoodPieBase
+- **哑剧挞切片** — `FoodTartMimeSlice` ｜父类: FoodPieSliceBase
+- **特斯拉冰淇淋** — `FoodTeslaIceCream` ｜父类: FoodIceCreamBase ｜_Starlight
+- **营养糊套餐** — `FoodThaSlop` ｜父类: FoodMealBase ｜_Starlight
+- **生萨文肉排** — `FoodThavenMeat` ｜父类: FoodMeatBase ｜_Starlight
+- `模板` **罐头** — `FoodTinBase` ｜父类: FoodBase,FoodOpenableBase
+- `模板` **空罐头** — `FoodTinBaseTrash` ｜父类: BaseItem
+- **豆子罐头** — `FoodTinBeans` ｜父类: FoodTinBase
+- **豆子罐头** — `FoodTinBeansTrash` ｜父类: FoodTinBaseTrash
+- **肉罐头** — `FoodTinMRE` ｜父类: FoodTinBase
+- **肉罐头** — `FoodTinMRETrash` ｜父类: FoodTinBaseTrash
+- **糖水桃罐头** — `FoodTinPeaches` ｜父类: FoodTinBase
+- **维护通道桃罐头** — `FoodTinPeachesMaint` ｜父类: FoodTinPeaches
+- **维护通道桃罐头** — `FoodTinPeachesMaintOpen` ｜父类: FoodTinPeachesMaint
+- **维护通道桃罐头** — `FoodTinPeachesMaintTrash` ｜父类: FoodTinBaseTrash
+- **糖水桃罐头** — `FoodTinPeachesTrash` ｜父类: FoodTinBaseTrash
+- **豆腐** — `FoodTofu` ｜父类: FoodBakingBase
+- **豆腐片** — `FoodTofuSlice` ｜父类: FoodBakingBase
+- **番茄** — `FoodTomato` ｜父类: FoodProduceBase,ItemHeftyBase
+- **烤火鸡片** — `FoodTurkeySlice` ｜父类: FoodMealBase ｜_Starlight
+- **未切分的土耳其软糖** — `FoodTurkishDelight` ｜父类: FoodInjectableBase ｜_Starlight
+- **土耳其软糖** — `FoodTurkishDelightCube` ｜父类: FoodInjectableBase ｜_Starlight
+- **香草冰淇淋** — `FoodVanillaIceCream` ｜父类: FoodIceCreamBase ｜_Starlight
+- **西瓜** — `FoodWatermelon` ｜父类: FoodProduceBase,ItemHeftyBase
+- **西瓜片** — `FoodWatermelonSlice` ｜父类: ProduceSliceBase
+- **威威冰淇淋** — `FoodWehIceCream` ｜父类: FoodIceCreamBase ｜_Starlight
+- **一簇世界和平豆** — `FoodWorldPeas` ｜父类: FoodProduceBase
+- **笨蛋工具箱** — `Foolbox` ｜父类: ToolboxBase
+- **橄榄球** — `Football` ｜父类: BaseItem,BaseSportsBall
+- **力场墙法术书** — `ForceWallSpellbook` ｜父类: BaseSpellbook
+- **取证垫** — `ForensicPad` ｜父类: BaseItem
+- **法证扫描报告** — `ForensicReportPaper` ｜父类: Paper
+- **法证扫描仪** — `ForensicScanner` ｜父类: BaseItem,BaseSecurityContraband
+- **锻造圆盾** — `ForgedShieldBuckler` ｜父类: PaladinShield,BaseMinorContraband ｜_Starlight
+- **锻造塔盾** — `ForgedShieldTower` ｜父类: ForgedShieldBuckler,BaseMinorContraband ｜_Starlight
+- **餐叉** — `Fork` ｜父类: UtensilBase
+- **塑料餐叉** — `ForkPlastic` ｜父类: UtensilBasePlastic
+- `模板` **FragileGrenadeBase** — `FragileGrenadeBase`
+- **自由植入物** — `FreedomImplant` ｜父类: BaseSubdermalImplant
+- **自由植入器** — `FreedomImplanter` ｜父类: BaseImplantOnlyImplanterSyndi
+- **冷冻射线** — `FreezeRay` ｜父类: BasicHitscanNoBeam ｜_Starlight
+- **赛博冷冻射线枪** — `FreezeRayCyber` ｜父类: BaseWeaponBatterySmall ｜_Starlight
+- **冷冻机电子元件** — `FreezerElectronics` ｜父类: BaseElectronics
+- **圆号** — `FrenchHornInstrument` ｜父类: BaseBrassInstrument
+- **富尔顿回收装置** — `Fulton` ｜父类: BaseItem
+- **富尔顿回收装置** — `Fulton1` ｜父类: Fulton
+- **富尔顿信标** — `FultonBeacon` ｜父类: BaseFoldable
+- **富尔顿回收效果** — `FultonEffect`
+- **资金分配 计算机主板** — `FundingAllocationComputerCircuitboard` ｜父类: BaseComputerCircuitboard
+- **一包银河蓟种子** — `GalaxythistleSeeds` ｜父类: SeedBase
+- **法则主板（游戏主持人）** — `GameMasterCircuitBoard` ｜父类: BaseSiliconLawboard,BaseSecurityScienceCommandContraband
+- **包蒜籽** — `GarlicSeeds` ｜父类: SeedBase
+- **气体分析仪** — `GasAnalyzer` ｜父类: BaseItem
+- **气体回收机 主板** — `GasRecyclerMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- `模板` **GasTankBase** — `GasTankBase` ｜父类: BaseItem
+- `模板` **GasTankRoundBase** — `GasTankRoundBase` ｜父类: GasTankBase
+- **燃气轮机平板包装** — `GasTurbineFlatpack` ｜父类: BaseStructureFlatpack,BaseEngineeringContraband ｜_FarHorizons
+- **燃气轮机监控计算机电路板** — `GasTurbineMonitorComputerCircuitboard` ｜父类: BaseComputerCircuitboard ｜_FarHorizons
+- **小型燃气轮机平板包装** — `GasTurbineSmallFlatpack` ｜父类: BaseStructureFlatpack,BaseEngineeringContraband ｜_Starlight
+- **一包加特鲁姆种子** — `GatfruitSeeds` ｜父类: SeedBase,BaseSyndicateContraband
+- **纱布卷** — `Gauze` ｜父类: BaseHealingItem
+- **纱布卷** — `Gauze1` ｜父类: Gauze
+- **法槌垫** — `GavelBlock` ｜父类: BaseItem ｜_Starlight
+- **法槌** — `GavelHammer` ｜父类: BaseItem ｜_Starlight
+- **装备酸蚀植入物** — `GearAcidifierImplant` ｜父类: BaseSubdermalImplant ｜_Starlight
+- **装备酸蚀植入器** — `GearAcidifierImplanter` ｜父类: BaseImplantOnlyImplanterSyndi ｜_Starlight
+- **盖革计数器** — `GeigerCounter` ｜父类: BaseItem
+- **法则板（核心精灵）** — `GenieCircuitBoard` ｜父类: BaseElectronics,BaseSecurityScienceCommandContraband ｜_Starlight
+- **玻璃控制棒** — `GlassReactorControlRod` ｜父类: BaseReactorControlRod,ReactorPartMaterialGlass ｜_FarHorizons
+- **玻璃气体通道棒** — `GlassReactorGasChannel` ｜父类: BaseReactorGasChannel,ReactorPartMaterialGlass ｜_FarHorizons
+- **玻璃换热棒** — `GlassReactorHeatExchanger` ｜父类: BaseReactorHeatExchanger,ReactorPartMaterialGlass ｜_FarHorizons
+- **玻璃种子包** — `GlasstleSeeds` ｜父类: SeedBase
+- **钟琴** — `GlockenspielInstrument` ｜父类: BasePercussionInstrument
+- `模板` **荧光棒** — `GlowstickBase` ｜父类: BaseItem
+- **蓝色荧光棒** — `GlowstickBlue` ｜父类: GlowstickBase
+- **绿色荧光棒** — `GlowstickGreen` ｜父类: GlowstickBase
+- **紫色荧光棒** — `GlowstickPurple` ｜父类: GlowstickBase
+- **红色荧光棒** — `GlowstickRed` ｜父类: GlowstickBase
+- **黄色荧光棒** — `GlowstickYellow` ｜父类: GlowstickBase
+- **胶水手雷** — `GlueGrenade` ｜父类: SmokeGrenade ｜_Starlight
+- **侏儒毛绒玩偶** — `GnomePlushie` ｜父类: BasePlushie ｜_Starlight
+- **山羊方块** — `GoatCube` ｜父类: RehydratableAnimalCube
+- **山羊毛绒玩偶** — `GoatPlushie` ｜父类: BasePlushie ｜_Starlight
+- **一副扑克牌** — `GoFishCardDeck` ｜父类: BasePlayingCardDeck ｜_Moffstation
+- **钓鱼牌盒** — `GoFishCardDeckBox` ｜父类: BasePlayingCardDeckBox ｜_Moffstation
+- **扑克牌** — `GoFishRulesCard` ｜父类: BasePlayingCard ｜_Moffstation
+- **御币** — `Gohei` ｜父类: BaseItem
+- **金色瘀伤包** — `GoldBrutePack` ｜父类: BaseStarlightHealingItem ｜_Starlight
+- **金色瘀伤包** — `GoldBrutePack1` ｜父类: GoldBrutePack ｜_Starlight
+- **金苹果种子包** — `GoldenAppleSeeds` ｜父类: SeedBase
+- **黄金估价工具** — `GoldenAppraisalTool` ｜父类: AppraisalTool ｜_Starlight
+- **金烧杯** — `GoldenBeaker` ｜父类: BaseBeaker ｜_Starlight
+- **黄金呵叫喇叭** — `GoldenBikeHorn` ｜父类: BikeHorn
+- **黄金手持标签机** — `GoldenHandLabeler` ｜父类: HandLabeler ｜_Starlight
+- **金壶** — `GoldenJug` ｜父类: Jug ｜_Starlight
+- **金色邮件手推车平板包装** — `GoldenMailTrolleyFlatpack` ｜父类: BaseFlatpack ｜_Starlight
+- **黄金个人 AI 设备** — `GoldenPersonalAI` ｜父类: PersonalAI
+- **金色药丸** — `GoldenPill` ｜父类: Pill ｜_Starlight
+- **金色柱塞** — `GoldenPlunger` ｜父类: Plunger
+- **黄金燃气轮机叶片** — `GoldGasTurbineBlade` ｜父类: BaseGasTurbineBlade ｜_FarHorizons
+- **黄金燃气轮机定子** — `GoldGasTurbineStator` ｜父类: BaseGasTurbineStator ｜_FarHorizons
+- **金色药膏** — `GoldOintment` ｜父类: BaseStarlightHealingItem ｜_Starlight
+- **金色药膏** — `GoldOintment1` ｜父类: GoldOintment ｜_Starlight
+- **金矿石** — `GoldOre` ｜父类: OreBase
+- **金矿石** — `GoldOre1` ｜父类: GoldOre
+- **黄金控制棒** — `GoldReactorControlRod` ｜父类: BaseReactorControlRod,ReactorPartMaterialGold ｜_FarHorizons
+- **黄金气体通道棒** — `GoldReactorGasChannel` ｜父类: BaseReactorGasChannel,ReactorPartMaterialGold ｜_FarHorizons
+- **黄金换热棒** — `GoldReactorHeatExchanger` ｜父类: BaseReactorHeatExchanger,ReactorPartMaterialGold ｜_FarHorizons
+- **金色史莱姆提取物** — `GoldSlimeExtract` ｜父类: BaseSlimeExtract ｜_Starlight
+- **金色史莱姆提取物（已填充）** — `GoldSlimeExtractFilled` ｜父类: BaseSlimeExtractFilled,GoldSlimeExtract ｜_Starlight
+- **戈勒克斯火柴盒** — `GorlexMatchbox` ｜父类: Matchbox,BaseSyndicateContraband
+- **火柴** — `GorlexMatchstick` ｜父类: Matchstick,BaseSyndicateContraband
+- **留声机电路板** — `GramophoneCircuitBoard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **包葡萄籽** — `GrapeSeeds` ｜父类: SeedBase
+- **抓钩** — `GrapplingHook`
+- **草地战棋地图** — `GrassBattlemap` ｜父类: BaseBattlemap
+- **grass battlemap** — `GrassBoardTabletop` ｜父类: BaseBoardTabletop
+- **灰色史莱姆提取物** — `GraySlimeExtract` ｜父类: BaseSlimeExtract ｜_Starlight
+- **灰色史莱姆提取物（已填充）** — `GraySlimeExtractFilled` ｜父类: BaseSlimeExtractFilled,GraySlimeExtract ｜_Starlight
+- **X-03 绿色相位盾** — `GreenLightShield` ｜父类: BaseItem,BaseCentcommContraband ｜_Starlight
+- **绿色史莱姆提取物** — `GreenSlimeExtract` ｜父类: BaseSlimeExtract ｜_Starlight
+- **绿色史莱姆提取物（已填充）** — `GreenSlimeExtractFilled` ｜父类: BaseSlimeExtractFilled,GreenSlimeExtract ｜_Starlight
+- **绿色棋子** — `GreenTabletopPiece` ｜父类: BaseGenericTabletopPiece
+- **120毫米爆破榴弹** — `Grenade120mmBlast` ｜父类: Base120mmGrenade ｜_Starlight
+- **Grenade20mmGas** — `Grenade20mmGas` ｜父类: ProjectileGrenadeBase ｜_Starlight
+- **Grenade20mmStinger** — `Grenade20mmStinger` ｜父类: ProjectileGrenadeBase ｜_Starlight
+- `模板` **GrenadeBase** — `GrenadeBase` ｜父类: BaseItem
+- **警棍榴弹** — `GrenadeBaton` ｜父类: BaseGrenade,BaseSecurityContraband
+- **冲击榴弹** — `GrenadeBlast` ｜父类: BaseGrenade,BaseSecurityContraband
+- **清洁榴弹弹药** — `GrenadeCleanade` ｜父类: BaseGrenade,BaseJanitorContraband
+- **“清洁弹”榴弹** — `GrenadeCleanadeSyndicate` ｜父类: GrenadeCleanade,BaseSyndicateContraband ｜_Starlight
+- **恶作剧手榴弹** — `GrenadeDummy` ｜父类: TimerGrenadeBase
+- **EMP 榴弹** — `GrenadeEMP` ｜父类: BaseGrenade,BaseSecurityContraband
+- **EMP炮射榴弹** — `GrenadeEMPTarnyx` ｜父类: BaseItem,BaseMajorContraband ｜_Starlight
+- **闪光榴弹** — `GrenadeFlash` ｜父类: BaseGrenade,BaseSecurityContraband
+- **闪光震撼弹** — `GrenadeFlashBang` ｜父类: FragileGrenadeBase,TimerGrenadeBase,BaseSecurityContraband
+- **GrenadeFlashEffect** — `GrenadeFlashEffect`
+- **泡沫飞镖手榴弹** — `GrenadeFoamDart` ｜父类: FragileGrenadeBase,ScatteringGrenadeBase
+- **破片榴弹** — `GrenadeFrag` ｜父类: BaseGrenade,BaseSyndicateContraband
+- **gas grenade** — `GrenadeGaslauncher` ｜父类: BaseGrenade,BaseSecurityContraband ｜_Starlight
+- **燃烧手榴弹** — `GrenadeIncendiary` ｜父类: FragileGrenadeBase,ProjectileGrenadeBase,BaseSyndicateContraband
+- **燃烧手榴弹** — `GrenadeIncendiaryWorn` ｜父类: GrenadeIncendiary ｜_Starlight
+- **榴霰手榴弹** — `GrenadeShrapnel` ｜父类: FragileGrenadeBase,ProjectileGrenadeBase,BaseSyndicateContraband
+- **榴霰手榴弹** — `GrenadeShrapnelWorn` ｜父类: GrenadeShrapnel ｜_Starlight
+- **刺针手榴弹** — `GrenadeStinger` ｜父类: FragileGrenadeBase,ProjectileGrenadeBase,BaseSecurityContraband
+- **stinger grenade** — `GrenadeStingerlauncher` ｜父类: BaseGrenade,BaseSecurityContraband ｜_Starlight
+- **地面大麻** — `GroundCannabis` ｜父类: BaseItem
+- **地面大麻** — `GroundCannabis10` ｜父类: GroundCannabis ｜_Starlight
+- **地面大麻** — `GroundCannabis5` ｜父类: GroundCannabis ｜_Starlight
+- **地面彩虹大麻** — `GroundCannabisRainbow` ｜父类: GroundCannabis
+- **烟丝** — `GroundTobacco` ｜父类: BaseItem
+- **烟丝** — `GroundTobacco5` ｜父类: GroundTobacco ｜_Starlight
+- **无琴身品格** — `GuitarlessFretsInstrument` ｜父类: BaseStringInstrument
+- **枪宠** — `GunpetInstrument` ｜父类: BaseHandheldInstrument
+- **盖盖克斯装甲板** — `GygaxArmorPlate` ｜父类: BaseExosuitParts ｜_Starlight
+- **盖盖克斯中央控制模块** — `GygaxCentralElectronics` ｜父类: BaseElectronics ｜_Starlight
+- **盖吉斯底盘** — `GygaxChassis` ｜父类: BaseGygaxPart ｜_Starlight
+- **盖吉斯骨架** — `GygaxHarness` ｜父类: BaseGygaxPart ｜_Starlight
+- **盖吉斯头部** — `GygaxHead` ｜父类: BaseGygaxPartItem ｜_Starlight
+- **盖吉斯左臂** — `GygaxLArm` ｜父类: BaseGygaxPartItem ｜_Starlight
+- **盖吉斯左腿** — `GygaxLLeg` ｜父类: BaseGygaxPartItem ｜_Starlight
+- **盖盖克斯外设控制模块** — `GygaxPeripheralsElectronics` ｜父类: BaseElectronics ｜_Starlight
+- **盖吉斯右臂** — `GygaxRArm` ｜父类: BaseGygaxPartItem ｜_Starlight
+- **盖吉斯右腿** — `GygaxRLeg` ｜父类: BaseGygaxPartItem ｜_Starlight
+- **盖盖克斯武器控制与瞄准模块** — `GygaxTargetingElectronics` ｜父类: BaseElectronics ｜_Starlight
+- **陀螺仪平板包装** — `GyroscopeFlatpack` ｜父类: BaseFlatpack
+- **陀螺仪 机器主板** — `GyroscopeMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **破拆锤** — `HammerBreachingNT` ｜父类: BaseItem,BaseSecurityContraband ｜_Starlight
+- **HAMTR 中央控制模块** — `HamtrCentralElectronics` ｜父类: BaseElectronics
+- **HAMTR线束** — `HamtrHarness` ｜父类: BaseHamtrPart
+- **HAMTR 左臂** — `HamtrLArm` ｜父类: BaseHamtrPartItem
+- **HAMTR 左腿** — `HamtrLLeg` ｜父类: BaseHamtrPartItem
+- **HAMTR 外设控制模块** — `HamtrPeripheralsElectronics` ｜父类: BaseElectronics
+- **HAMTR右臂** — `HamtrRArm` ｜父类: BaseHamtrPartItem
+- **HAMTR右腿** — `HamtrRLeg` ｜父类: BaseHamtrPartItem
+- **手铐** — `Handcuffs` ｜父类: BaseItem,BaseSecurityCommandContraband
+- **全息手铐** — `HandcuffsHolographic` ｜父类: Handcuffs ｜_Starlight
+- **手持神器容器** — `HandheldArtifactContainer` ｜父类: BaseStorageItem
+- **监区伙伴™ 5000** — `HandheldBrigmedicCrewMonitor` ｜父类: PowerCellSlotMediumItem,BaseHandheldComputer,BaseSecurityContraband ｜_Starlight
+- **监区伙伴™ 5000** — `HandheldBrigmedicCrewMonitorEmpty` ｜父类: HandheldBrigmedicCrewMonitor ｜_Starlight
+- **指挥之友™ X-02** — `HandheldBSOCrewMonitor` ｜父类: PowerCellSlotMediumItem,BaseHandheldComputer,BaseBlueShieldContraband,BaseGrandTheftContraband ｜_Starlight
+- **指挥之友™ X-02** — `HandheldBSOCrewMonitorEmpty` ｜父类: HandheldBSOCrewMonitor ｜_Starlight
+- **手持式船员监视器** — `HandheldCrewMonitor` ｜父类: PowerCellSlotMediumItem,BaseHandheldComputer,BaseGrandTheftContraband
+- **手持式船员监视器** — `HandheldCrewMonitorEmpty` ｜父类: HandheldCrewMonitor
+- **全球定位系统** — `HandheldGPSBasic` ｜父类: BaseItem
+- **健康分析仪** — `HandheldHealthAnalyzer` ｜父类: BaseItem
+- **手持榨汁机** — `HandheldJuicer` ｜父类: BaseHandheldGrinder
+- **临时榨汁机** — `HandheldJuicerMakeshift` ｜父类: HandheldJuicer
+- **机器分析仪** — `HandheldMachineAnalyzer` ｜父类: HandheldHealthAnalyzer ｜_Starlight
+- **手持质量扫描仪** — `HandHeldMassScanner` ｜父类: BaseHandheldComputer
+- **手持质量扫描仪** — `HandHeldMassScannerBorg` ｜父类: HandHeldMassScanner
+- **手持质量扫描仪** — `HandHeldMassScannerEmpty` ｜父类: HandHeldMassScanner
+- **造纸离心机** — `HandheldMixerPaperCentrifuge` ｜父类: BaseHandheldMixer
+- **手持史莱姆扫描仪** — `HandheldSlimeScanner` ｜父类: BaseItem ｜_Starlight
+- **HandheldStationMap** — `HandheldStationMap` ｜父类: BaseHandheldStationMap,BaseHandheldComputer
+- **HandheldStationMapEmpty** — `HandheldStationMapEmpty` ｜父类: HandheldStationMap
+- **目标空间站地图** — `HandheldStationMapNukeops` ｜父类: HandheldStationMap
+- **HandheldStationMapStatic** — `HandheldStationMapStatic` ｜父类: HandheldStationMap
+- **空间站地图** — `HandheldStationMapUnpowered` ｜父类: BaseHandheldStationMap
+- **手持标签机** — `HandLabeler` ｜父类: BaseItem
+- **手持传送器** — `HandTeleporter` ｜父类: BaseItem,BaseGrandTheftContraband
+- **跨维度传送器** — `HandTeleporterAdmeme` ｜父类: BaseItem
+- **快乐呵叫套餐** — `HappyHonk` ｜父类: BoxCardboard,BaseBagOpenClose
+- **悲惨受诅小丑套餐** — `HappyHonkCluwne` ｜父类: HappyHonk
+- **欢乐哔哔套餐** — `HappyHonkMime` ｜父类: HappyHonk
+- **强力核弹特工套餐** — `HappyHonkNukie` ｜父类: HappyHonk,BaseSyndicateContraband
+- **辛迪加零食盒** — `HappyHonkNukieSnacks` ｜父类: HappyHonkNukie
+- **口琴** — `HarmonicaInstrument` ｜父类: BaseWoodwindInstrument
+- **竖琴** — `HarpInstrument` ｜父类: BasePlaceableInstrument
+- **干草剪** — `Haycutters` ｜父类: BaseItem
+- **治愈工具箱** — `HealingToolbox` ｜父类: BaseHealingItem
+- **玩具直升机** — `HelicopterInstrument` ｜父类: BaseHandheldInstrument
+- **狱火冷冻机 机器主板** — `HellfireFreezerMachineCircuitBoard` ｜父类: BaseMachineCircuitboard
+- **狱火加热器 机器主板** — `HellfireHeaterMachineCircuitBoard` ｜父类: BaseMachineCircuitboard
+- **止血钳** — `Hemostat` ｜父类: BaseScissors
+- **绑架者的止血钳** — `HemostatAbductor` ｜父类: Hemostat ｜_Starlight
+- **高级止血钳** — `HemostatAdvanced` ｜父类: Hemostat ｜_Starlight
+- **止血钳** — `HemostatCyber` ｜父类: Hemostat ｜_Starlight
+- **止血钳** — `HemostatRipper` ｜父类: Hemostat ｜_Starlight
+- **塑钢握柄** — `HiltPlasteel` ｜父类: BaseItem ｜_Starlight
+- **木制握柄** — `HiltWood` ｜父类: BaseItem ｜_Starlight
+- **HitscanEffect** — `HitscanEffect`
+- **全息小丑注射器** — `HoloClownInjector` ｜父类: HoloparasiteInjector
+- **全息风机投影仪** — `HolofanProjector` ｜父类: Holoprojector
+- **内置全息风机** — `HolofanProjectorBorg` ｜父类: HolofanProjector
+- **全息风机投影仪** — `HolofanProjectorEmpty` ｜父类: HolofanProjector
+- **全息通讯板 机器主板** — `HolopadMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **全息寄生体注射器** — `HoloparasiteFakeInjector` ｜父类: BaseHypospray ｜_Starlight
+- **全息寄生体注射器** — `HoloparasiteInjector` ｜父类: BaseItem,BaseSyndicateContraband
+- **全息标牌投影仪** — `Holoprojector` ｜父类: BaseItem
+- **全息标牌投影仪** — `HoloprojectorBorg` ｜父类: Holoprojector
+- **全息蕉皮投影仪** — `HoloprojectorClownBorg` ｜父类: Holoprojector
+- **全息标牌投影仪** — `HoloprojectorEmpty` ｜父类: Holoprojector
+- **工程警示全息投影仪** — `HoloprojectorEngineering` ｜父类: Holoprojector ｜_Starlight
+- **工程警示全息投影仪** — `HoloprojectorEngineeringEmpty` ｜父类: HoloprojectorEngineering ｜_Starlight
+- **力场投影仪** — `HoloprojectorField` ｜父类: Holoprojector
+- **力场投影仪** — `HoloprojectorFieldEmpty` ｜父类: HoloprojectorField
+- **全息屏障投影仪** — `HoloprojectorSecurity` ｜父类: Holoprojector
+- **全息屏障投影仪** — `HoloprojectorSecurityEmpty` ｜父类: HoloprojectorSecurity
+- **全息拘束器** — `HoloRestrainerCyber` ｜父类: BaseItem ｜_Starlight
+- **神圣手榴弹** — `HolyHandGrenade` ｜父类: TimerGrenadeBase,BaseSyndicateContraband
+- **包圣瓜子** — `HolymelonSeeds` ｜父类: SeedBase
+- **全垒打球棒** — `HomerunBat` ｜父类: BaseItem,BaseSyndicateContraband ｜_Starlight
+- **蜂巢** — `Honeycomb` ｜父类: BaseItem ｜_Starlight
+- **呵叫公司翻盖打火机** — `HonkCoFlippo` ｜父类: BaseBrandedLighter,FlippoLighter
+- **H.O.N.K. 中央控制模块** — `HonkerCentralElectronics` ｜父类: BaseElectronics
+- **H.O.N.K.马具** — `HonkerHarness` ｜父类: BaseHonkerPart
+- **H.O.N.K.左臂** — `HonkerLArm` ｜父类: BaseHonkerPartItem
+- **H.O.N.K.左腿** — `HonkerLLeg` ｜父类: BaseHonkerPartItem
+- **H.O.N.K. 外设控制模块** — `HonkerPeripheralsElectronics` ｜父类: BaseElectronics
+- **H.O.N.K.右臂** — `HonkerRArm` ｜父类: BaseHonkerPartItem
+- **H.O.N.K.右腿** — `HonkerRLeg` ｜父类: BaseHonkerPartItem
+- **H.O.N.K. 武器控制与瞄准模块** — `HonkerTargetingElectronics` ｜父类: BaseElectronics
+- **人事主管ID卡** — `HoPIDCard` ｜父类: IDCardStandard,BaseGrandTheftContraband
+- **人事主管PDA** — `HoPPDA` ｜父类: BasePDA
+- **安保主管ID卡** — `HoSIDCard` ｜父类: IDCardStandard
+- **安保主管PDA** — `HoSPDA` ｜父类: BaseSecurityPDA
+- **加热板 机器主板** — `HotplateMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **烫手山芋** — `HotPotato` ｜父类: BaseItem,BaseSyndicateContraband
+- **HotPotatoEffect** — `HotPotatoEffect`
+- **植物剪** — `HydroponicsToolClippers` ｜父类: BaseItem
+- **斧头** — `HydroponicsToolHatchet` ｜父类: BaseItem
+- **迷你锄头** — `HydroponicsToolMiniHoe` ｜父类: BaseItem
+- **镰刀** — `HydroponicsToolScythe` ｜父类: BaseItem
+- **铲** — `HydroponicsToolSpade` ｜父类: BaseItem
+- **水培托盘平板包装** — `HydroponicsTrayFlatpack` ｜父类: BaseFlatpack
+- **水培托盘 机器主板** — `HydroponicsTrayMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **超共晶巨刃** — `HyperEutacticBlade` ｜父类: EnergySwordDouble
+- **飞镖** — `HypoDart` ｜父类: Dart
+- **注射飞镖盒** — `HypoDartBox` ｜父类: BaseItem,BaseSyndicateContraband
+- **钢笔** — `Hypopen` ｜父类: Pen
+- **低开箱** — `HypopenBox` ｜父类: BaseItem,BaseSyndicateContraband
+- **下喷** — `Hypospray` ｜父类: BaseHypospray,BaseGrandTheftContraband
+- **内部事务特工 ID卡** — `IAAIDCard` ｜父类: IDCardStandard,BaseLawContraband ｜_Starlight
+- **内务干员 PDA** — `IAAPDA` ｜父类: BasePDA ｜_Starlight
+- **伊恩毛绒玩偶** — `IanPlushie` ｜父类: BasePlushie ｜_Starlight
+- **冰淇淋机平板包装** — `IceCreamMakerFlatpack` ｜父类: BaseFlatpack ｜_Starlight
+- **冰淇淋机电路板** — `IceCreamMakerMachineCircuitBoard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **冰壳** — `IceCrust`
+- `模板` **ID卡** — `IDCardStandard` ｜父类: Clothing
+- **ID卡计算机 主板** — `IDComputerCircuitboard` ｜父类: BaseComputerCircuitboard,BaseCommandContraband
+- **斯嘉丽毛绒玩偶** — `IgnisPlush` ｜父类: BasePlushie ｜_Starlight
+- **点火器** — `Igniter` ｜父类: BaseItem
+- **基础激光射线** — `IgnitionRedLaser` ｜父类: BasicHitscan ｜_Starlight
+- **不可阻挡之杆** — `ImmovableRod`
+- **不可阻挡之香蕉** — `ImmovableRodBanana` ｜父类: ImmovableRodKeepTilesStill
+- **不可阻挡之小丑** — `ImmovableRodClown` ｜父类: ImmovableRodKeepTilesStill
+- **不可阻挡之杆** — `ImmovableRodDespawn` ｜父类: ImmovableRod
+- **不可阻挡之碎尸棍** — `ImmovableRodGibstick` ｜父类: ImmovableRodKeepTilesStill
+- **不可阻挡之锤** — `ImmovableRodHammer` ｜父类: ImmovableRodKeepTilesStill
+- **不可阻挡之杆** — `ImmovableRodKeepTiles` ｜父类: ImmovableRodDespawn
+- **不可阻挡之杆** — `ImmovableRodKeepTilesStill` ｜父类: ImmovableRodKeepTiles
+- **不可阻挡之拖把** — `ImmovableRodMop` ｜父类: ImmovableRodKeepTilesStill
+- **不可阻挡之鲨** — `ImmovableRodShark` ｜父类: ImmovableRodKeepTilesStill
+- **不可阻挡之杆** — `ImmovableRodSlow` ｜父类: ImmovableRodDespawn
+- **不动杆** — `ImmovableRodSlug` ｜父类: ImmovableRodKeepTilesStill ｜_Starlight
+- **不可阻挡之绞杀器** — `ImmovableRodThrongler` ｜父类: ImmovableRodKeepTilesStill
+- **不可阻挡之威** — `ImmovableRodWeh` ｜父类: ImmovableRodKeepTilesStill
+- **不可阻挡之杆** — `ImmovableRodWizard` ｜父类: ImmovableRod
+- **ImpactEffect** — `ImpactEffect` ｜_Starlight
+- `模板` **ImpactGrenadeBase** — `ImpactGrenadeBase` ｜父类: GrenadeBase
+- **植入物提取器** — `Implanter` ｜父类: BaseImplanter
+- **植入物提取器** — `ImplanterAdmeme` ｜父类: Implanter
+- `模板` **ImportantDocumentGeneric** — `ImportantDocumentGeneric` ｜父类: BaseItem ｜_Starlight
+- **临时盾牌** — `ImprovisedShield` ｜父类: PaladinShield,BaseMinorContraband ｜_Starlight
+- **未完工的棒球棍** — `IncompleteBaseBallBat` ｜父类: BaseItem
+- **不完整手持榨汁机** — `IncompleteHandheldJuicer` ｜父类: BaseItem
+- **不完整研钵杵** — `IncompleteMortarAndPestle` ｜父类: BaseItem
+- `模板` **IndustrialMech** — `IndustrialMech` ｜_Starlight
+- `模板` **IndustrialMechEquipment** — `IndustrialMechEquipment` ｜_Starlight
+- **充气门** — `InflatableDoorStack` ｜父类: BaseItem
+- **充气门** — `InflatableDoorStack1` ｜父类: InflatableDoorStack
+- **充气路障** — `InflatableWallStack` ｜父类: BaseItem
+- **充气路障** — `InflatableWallStack1` ｜父类: InflatableWallStack
+- **充气路障** — `InflatableWallStack5` ｜父类: InflatableWallStack
+- **深渊矿锭** — `IngotAbyssium` ｜父类: IngotStarlightBase ｜_Starlight
+- **深渊矿锭** — `IngotAbyssium1` ｜父类: IngotAbyssium ｜_Starlight
+- `模板` **IngotBase** — `IngotBase` ｜父类: BaseItem
+- **金锭** — `IngotGold` ｜父类: IngotBase
+- **金锭** — `IngotGold1` ｜父类: IngotGold
+- **钚锭** — `IngotPlutonium` ｜父类: IngotBase ｜_FarHorizons
+- **钚锭** — `IngotPlutonium1` ｜父类: IngotPlutonium ｜_FarHorizons
+- **银锭** — `IngotSilver` ｜父类: IngotBase
+- **银锭** — `IngotSilver1` ｜父类: IngotSilver
+- `模板` **IngotStarlightBase** — `IngotStarlightBase` ｜父类: IngotBase ｜_Starlight
+- **绝缘布料** — `InsulatedFabric` ｜父类: BaseItem ｜_Starlight
+- **绝缘线** — `InsulatedThread` ｜父类: BaseItem ｜_Starlight
+- **对讲机电子元件** — `IntercomElectronics` ｜父类: BaseElectronics
+- **跨星制药翻盖打火机 # Starlight-edit** — `InterdyneFlippo` ｜父类: BaseBrandedLighter,FlippoLighter
+- **变形玻璃杯** — `IrishBoolGlass` ｜父类: DrinkGlass
+- `模板` **ItemHeftyBase** — `ItemHeftyBase`
+- **免罪出狱卡** — `JailFree` ｜父类: BaseItem ｜_Starlight
+- **清洁工ID卡** — `JanitorIDCard` ｜父类: IDCardStandard
+- **清洁工PDA** — `JanitorPDA` ｜父类: BasePDA
+- **液压救援钳** — `JawsOfLife` ｜父类: BaseItem
+- **赛博救生钳** — `JawsOfLifeCyber` ｜父类: JawsOfLife ｜_Starlight
+- **医疗救生钳** — `JawsOfLifeMed` ｜父类: BaseItem,BaseMedicalSecurityContraband ｜_Starlight
+- **法则板（杰莫夫）** — `JermovCircuitBoard` ｜父类: BaseElectronics,BaseSecurityScienceCommandContraband ｜_Starlight
+- **杰西卡毛绒玩偶** — `JessPlush` ｜父类: BasePlushie ｜_Starlight
+- **喷射注射器** — `JetInjector` ｜父类: BaseHypospray
+- **喷气背包** — `JetpackBlack` ｜父类: BaseJetpack,BaseSyndicateContraband
+- **喷气背包** — `JetpackBlackFilled` ｜父类: JetpackBlack
+- **喷气背包** — `JetpackBlue` ｜父类: BaseJetpack
+- **喷气背包** — `JetpackBlueFilled` ｜父类: JetpackBlue
+- **舰长喷气背包** — `JetpackCaptain` ｜父类: BaseJetpack,BaseGrandTheftContraband
+- **舰长喷气背包** — `JetpackCaptainFilled` ｜父类: JetpackCaptain
+- **中央指挥部赛博格喷气背包** — `JetpackCyborgCentcomm` ｜父类: JetpackBlack,BaseCentcommContraband ｜_Starlight
+- **JetpackEffect** — `JetpackEffect`
+- **土制喷气背包** — `JetpackImprovised` ｜父类: BaseJetpack,BaseMinorContraband ｜_Starlight
+- **土制喷气背包** — `JetpackImprovisedFilled` ｜父类: JetpackImprovised ｜_Starlight
+- **迷你喷气背包** — `JetpackMini` ｜父类: BaseJetpack
+- **迷你喷气背包** — `JetpackMiniFilled` ｜父类: JetpackMini
+- **安保迷你喷气背包** — `JetpackSecurity` ｜父类: JetpackMini,BaseSecurityContraband
+- **安保迷你喷气背包** — `JetpackSecurityFilled` ｜父类: JetpackSecurity
+- **SSF陆战队喷气背包** — `JetpackSSFMarine` ｜父类: BaseJetpack,BaseSovietContraband ｜_Starlight
+- **SSF陆战队喷气背包** — `JetpackSSFMarineFilled` ｜父类: JetpackSSFMarine,BaseSovietContraband ｜_Starlight
+- **虚空喷气背包** — `JetpackVoid` ｜父类: BaseJetpack
+- **工程主管虚空喷气背包** — `JetpackVoidEngineer` ｜父类: BaseJetpack,BaseGrandTheftContraband ｜_Starlight
+- **工程主管虚空喷气背包** — `JetpackVoidEngineerFilled` ｜父类: JetpackVoidEngineer ｜_Starlight
+- **虚空喷气背包** — `JetpackVoidFilled` ｜父类: JetpackVoid
+- **异星赛博格喷气背包** — `JetpackXenoborg` ｜父类: JetpackBlack,BaseXenoborgContraband
+- **大麻烟卷** — `Joint` ｜父类: BaseCigar
+- **大麻烟卷** — `JointRainbow` ｜父类: Joint
+- **水壶** — `Jug` ｜父类: DrinkBaseMaterialStrongPlastic,DrinkBase,DrinkVisualsAll
+- **化学剂桶** — `JugAloxadone` ｜父类: Jug ｜_Starlight
+- **水壶** — `JugAluminium` ｜父类: Jug
+- **化学剂桶** — `JugAmbuzol` ｜父类: Jug ｜_Starlight
+- **化学剂桶** — `JugAmbuzolPlus` ｜父类: Jug ｜_Starlight
+- **化学剂桶** — `JugAmoxla` ｜父类: Jug ｜_Starlight
+- **化学剂桶** — `JugArithrazine` ｜父类: Jug ｜_Starlight
+- **化学剂桶** — `JugBicaridine` ｜父类: Jug
+- **水壶** — `JugBlood` ｜父类: Jug
+- **化学剂桶** — `JugBruizine` ｜父类: Jug ｜_Starlight
+- **水壶** — `JugCarbon` ｜父类: Jug
+- **水壶** — `JugChlorine` ｜父类: Jug
+- **水壶** — `JugCocoaPowder` ｜父类: Jug ｜_Starlight
+- **水壶** — `JugCopper` ｜父类: Jug
+- **水壶** — `JugCornoil` ｜父类: Jug ｜_Starlight
+- **化学剂桶** — `JugCryoxadone` ｜父类: Jug ｜_Starlight
+- **化学剂桶** — `JugDermaline` ｜父类: Jug
+- **化学剂桶** — `JugDexalinPlus` ｜父类: Jug
+- **水壶** — `JugDexPlusSaline` ｜父类: Jug
+- **化学剂桶** — `JugDiphenhydramine` ｜父类: Jug ｜_Starlight
+- **化学剂桶** — `JugDoxarubixadone` ｜父类: Jug ｜_Starlight
+- **化学剂桶** — `JugDylovene` ｜父类: Jug
+- **水壶** — `JugEthanol` ｜父类: Jug
+- **水壶** — `JugFluorine` ｜父类: Jug
+- **水壶** — `JugGold` ｜父类: Jug
+- **金壶** — `JugGoldenBicaridine` ｜父类: GoldenJug ｜_Starlight
+- **金壶** — `JugGoldenDermaline` ｜父类: GoldenJug ｜_Starlight
+- **水壶** — `JugHydrogen` ｜父类: Jug
+- **水壶** — `JugHyronalin` ｜父类: Jug
+- **水壶** — `JugIceCream` ｜父类: Jug ｜_Starlight
+- **水壶** — `JugIceialin` ｜父类: Jug
+- **化学剂桶** — `JugInsuzine` ｜父类: Jug ｜_Starlight
+- **水壶** — `JugIodine` ｜父类: Jug
+- **水壶** — `JugIron` ｜父类: Jug
+- **水壶** — `JugLacer` ｜父类: Jug ｜_Starlight
+- **化学剂桶** — `JugLacerinol` ｜父类: Jug ｜_Starlight
+- **化学剂桶** — `JugLeporazine` ｜父类: Jug ｜_Starlight
+- **水壶** — `JugLithium` ｜父类: Jug
+- **水壶** — `JugMercury` ｜父类: Jug
+- **水壶** — `JugNitrogen` ｜父类: Jug
+- **水壶** — `JugOxygen` ｜父类: Jug
+- **水壶** — `JugPhosphorus` ｜父类: Jug
+- **水壶** — `JugPlantBGone` ｜父类: Jug
+- **水壶** — `JugPotassium` ｜父类: Jug
+- **水壶** — `JugPunctTranex` ｜父类: Jug
+- **化学剂桶** — `JugPuncturase` ｜父类: Jug
+- **水壶** — `JugPyraDerma` ｜父类: Jug
+- **化学剂桶** — `JugPyrazine` ｜父类: Jug ｜_Starlight
+- **水壶** — `JugRadium` ｜父类: Jug
+- **化学剂桶** — `JugSaline` ｜父类: Jug
+- **化学剂桶** — `JugSigynate` ｜父类: Jug ｜_Starlight
+- **水壶** — `JugSilicon` ｜父类: Jug
+- **水壶** — `JugSilver` ｜父类: Jug
+- **水壶** — `JugSodium` ｜父类: Jug
+- **水壶** — `JugSugar` ｜父类: Jug
+- **水壶** — `JugSulfur` ｜父类: Jug
+- **水壶** — `JugTranexamicAcid` ｜父类: Jug
+- **水壶** — `JugTrico` ｜父类: Jug
+- **水壶** — `JugUranium` ｜父类: Jug ｜_Starlight
+- **水壶** — `JugWater` ｜父类: Jug
+- **水壶** — `JugWeldingFuel` ｜父类: Jug
+- **点唱机 机器主板** — `JukeboxCircuitBoard` ｜父类: BaseMachineCircuitboard
+- **卡林巴琴** — `KalimbaInstrument` ｜父类: BaseKeyedInstrument
+- **武士刀** — `Katana` ｜父类: BaseSword,BaseMajorContraband
+- **琪琪 ID卡** — `KikiIDCard` ｜父类: IDCardStandard ｜_Starlight
+- **琪琪的 PDA** — `KikiPDA` ｜父类: BotanistPDA ｜_Starlight
+- **杀手番茄种子包** — `KillerTomatoSeeds` ｜父类: SeedBase
+- **厨刀** — `KitchenKnife` ｜父类: BaseKnife
+- **烤箱平板包装** — `KitchenOvenFlatpack` ｜父类: BaseFlatpack ｜_Starlight
+- **炉灶平板包装** — `KitchenStoveFlatpack` ｜父类: BaseFlatpack ｜_Starlight
+- **小猫毛绒玩偶** — `KittenPlushie` ｜父类: BasePlushie ｜_Starlight
+- **塑料餐刀** — `KnifePlastic` ｜父类: UtensilBasePlastic
+- **敲门法术书** — `KnockSpellbook` ｜父类: BaseSpellbook
+- **狗头人方块** — `KoboldCube` ｜父类: RehydratableAnimalCube
+- **狗头人方块盒** — `KoboldCubeBox` ｜父类: MonkeyCubeBox
+- **狗头人方块** — `KoboldCubeWrapped` ｜父类: BaseWrappedCube
+- **锦鲤种子包** — `KoibeanSeeds` ｜父类: SeedBase
+- **葛藤** — `Kudzu` ｜父类: BaseKudzu
+- **花毯** — `KudzuFlowerAngry` ｜父类: KudzuFlowerFriendly
+- **花毯** — `KudzuFlowerFriendly` ｜父类: Kudzu
+- **廓尔喀刀** — `KukriKnife` ｜父类: BaseSecurityCargoContraband,CombatKnife
+- **标签机补充纸** — `LabellerRefillPaper` ｜父类: MaterialBase ｜_Starlight
+- **标签机补充纸** — `LabellerRefillPaper1` ｜父类: LabellerRefillPaper ｜_Starlight
+- **标签机补充纸** — `LabellerRefillPaper50` ｜父类: LabellerRefillPaper ｜_Starlight
+- **台灯** — `Lamp` ｜父类: BaseLamp
+- **香蕉灯** — `LampBanana` ｜父类: BaseLamp
+- **桌灯** — `LampGold` ｜父类: BaseLamp
+- **审讯灯** — `LampInterrogator` ｜父类: BaseLamp,BaseSecurityContraband
+- **爆炸地雷** — `LandMineExplosive` ｜父类: LandMineExplosiveUnarmed
+- **爆炸地雷** — `LandMineExplosiveUnarmed` ｜父类: BaseLandMine
+- **踢击地雷** — `LandMineKick` ｜父类: LandMineKickUnarmed
+- **踢击地雷** — `LandMineKickUnarmed` ｜父类: BaseLandMine
+- **模块化地雷** — `LandMineModular` ｜父类: LandMineModularUnarmed
+- **模块化地雷** — `LandMineModularUnarmed` ｜父类: BaseLandMine
+- **提灯** — `Lantern` ｜父类: BaseItem
+- **提灯** — `LanternFlash` ｜父类: Lantern
+- **大烧杯** — `LargeBeaker` ｜父类: BaseBeaker
+- **基础激光射线** — `LaserBeamEmitter` ｜父类: BulletTrace ｜_Starlight
+- `模板` **LaserTrace** — `LaserTrace` ｜父类: BasicHitscan ｜_Starlight
+- **笑豌豆荚包** — `LaughinPeaSeeds` ｜父类: SeedBase
+- **奶油派发射器** — `LauncherCreamPie` ｜父类: BaseStorageItem
+- **注射器枪** — `LauncherSyringe` ｜父类: BaseStorageItem
+- **法务通信控制台电路板** — `LawCommsComputerCircuitboard` ｜父类: BaseComputerCircuitboard,BaseCommandContraband ｜_Starlight
+- **律师ID卡** — `LawyerIDCard` ｜父类: IDCardStandard
+- **律师PDA** — `LawyerPDA` ｜父类: BaseSecurityPDA
+- **大麻叶** — `LeavesCannabis` ｜父类: ProduceBaseRuminant
+- **干大麻叶** — `LeavesCannabisDried` ｜父类: BaseItem
+- **彩虹大麻叶** — `LeavesCannabisRainbow` ｜父类: LeavesCannabis
+- **干彩虹大麻叶** — `LeavesCannabisRainbowDried` ｜父类: LeavesCannabisDried
+- **茶叶** — `LeavesTea` ｜父类: ProduceBaseRuminant
+- **干茶叶** — `LeavesTeaDried` ｜父类: ProduceBaseRuminant
+- **烟叶** — `LeavesTobacco` ｜父类: ProduceBaseRuminant
+- **干烟叶** — `LeavesTobaccoDried` ｜父类: BaseItem
+- **干烟叶** — `LeavesTobaccoDried5` ｜父类: LeavesTobaccoDried ｜_Starlight
+- **LED 灯泡** — `LedLightBulb` ｜父类: BaseLightbulb
+- **LED灯管** — `LedLightTube` ｜父类: BaseLightTube
+- **柠檬籽包** — `LemonSeeds` ｜父类: SeedBase
+- **柠檬籽包** — `LemoonSeeds` ｜父类: SeedBase
+- **信件** — `LetterDelivery` ｜父类: BaseDelivery
+- **信件** — `LetterDeliveryEvil` ｜父类: LetterDelivery ｜_Starlight
+- **LGBTQ 手持旗** — `LGBTQHandyFlag` ｜父类: BaseItem
+- **图书管理员ID卡** — `LibrarianIDCard` ｜父类: IDCardStandard
+- **图书管理员PDA** — `LibrarianPDA` ｜父类: BaseWidePDA
+- **利可昔德自动注射器** — `LicoxideHypo` ｜父类: BorgHypo,BaseXenoborgContraband ｜_Starlight
+- **利可昔德自动注射器** — `LicoxideHypoPlus` ｜父类: BorgHypo,BaseXenoborgContraband ｜_Starlight
+- **萨拉米香肠盖** — `LidSalami` ｜父类: BaseItem
+- **光明烧杯** — `LightBeaker` ｜父类: BaseBeakerMetallic,DrinkBaseOpenable,DrinkVisualsOpenable ｜_Starlight
+- **灯光脉冲测试** — `LightBehaviourTest1` ｜父类: BaseItem
+- **色彩循环测试** — `LightBehaviourTest2` ｜父类: BaseItem
+- **多行为灯光测试** — `LightBehaviourTest3` ｜父类: BaseItem
+- **灯光渐亮测试** — `LightBehaviourTest4` ｜父类: BaseItem
+- **灯光脉冲半径测试** — `LightBehaviourTest5` ｜父类: BaseItem
+- **灯光随机半径测试** — `LightBehaviourTest6` ｜父类: BaseItem
+- **白炽灯泡** — `LightBulb` ｜父类: BaseLightbulb
+- **白炽灯泡** — `LightBulbBroken` ｜父类: BaseLightbulb
+- **黑水晶灯泡** — `LightBulbCrystalBlack` ｜父类: BaseLightbulbCrystal
+- **蓝色水晶灯泡** — `LightBulbCrystalBlue` ｜父类: BaseLightbulbCrystal
+- **青色水晶灯泡** — `LightBulbCrystalCyan` ｜父类: BaseLightbulbCrystal
+- **绿水晶灯泡** — `LightBulbCrystalGreen` ｜父类: BaseLightbulbCrystal
+- **橙色水晶灯泡** — `LightBulbCrystalOrange` ｜父类: BaseLightbulbCrystal
+- **粉色水晶灯泡** — `LightBulbCrystalPink` ｜父类: BaseLightbulbCrystal
+- **红水晶灯泡** — `LightBulbCrystalRed` ｜父类: BaseLightbulbCrystal
+- **黄色水晶灯泡** — `LightBulbCrystalYellow` ｜父类: BaseLightbulbCrystal
+- **老旧白炽灯泡** — `LightBulbOld` ｜父类: LightBulb
+- **普通打火机** — `Lighter` ｜父类: BaseItem
+- **发光植入物** — `LightImplant` ｜父类: BaseSubdermalImplant
+- **发光植入器** — `LightImplanter` ｜父类: BaseImplantOnlyImplanter
+- **浅粉色史莱姆提取物** — `LightPinkSlimeExtract` ｜父类: BaseSlimeExtract ｜_Starlight
+- **浅粉色史莱姆提取物（已填充）** — `LightPinkSlimeExtractFilled` ｜父类: BaseSlimeExtractFilled,LightPinkSlimeExtract ｜_Starlight
+- **灯管更换器** — `LightReplacer` ｜父类: BaseItem
+- **灯管更换器** — `LightReplacerEmpty` ｜父类: LightReplacer
+- **.30弹匣盒** — `LightRifleHeavyBase` ｜父类: BaseMagazineBoxLightRifle ｜_Starlight
+- **弹匣盒（.30步枪AP）** — `LightRifleHeavyMagazineAP` ｜父类: LightRifleHeavyBase ｜_Starlight
+- **弹匣盒（.30步枪任意）** — `LightRifleHeavyMagazineEmpty` ｜父类: LightRifleHeavyBase ｜_Starlight
+- **弹匣盒（.30步枪FMJ）** — `LightRifleHeavyMagazineFMJ` ｜父类: LightRifleHeavyBase ｜_Starlight
+- **弹匣盒（.30步枪HP）** — `LightRifleHeavyMagazineHP` ｜父类: LightRifleHeavyBase ｜_Starlight
+- **弹匣盒（.30步枪燃烧）** — `LightRifleHeavyMagazineIncendiary` ｜父类: LightRifleHeavyBase ｜_Starlight
+- **弹匣盒（.30步枪SP）** — `LightRifleHeavyMagazineSP` ｜父类: LightRifleHeavyBase ｜_Starlight
+- **弹匣盒（.30步枪铀芯）** — `LightRifleHeavyMagazineUranium` ｜父类: LightRifleHeavyBase ｜_Starlight
+- **发光树木** — `LightTree` ｜父类: BaseTree
+- **荧光灯管** — `LightTube` ｜父类: BaseLightTube
+- **荧光灯管** — `LightTubeBroken` ｜父类: BaseLightTube
+- **黑水晶灯管** — `LightTubeCrystalBlack` ｜父类: BaseLightTubeCrystal
+- **蓝水晶灯管** — `LightTubeCrystalBlue` ｜父类: BaseLightTubeCrystal
+- **青色水晶灯管** — `LightTubeCrystalCyan` ｜父类: BaseLightTubeCrystal
+- **绿色水晶灯管** — `LightTubeCrystalGreen` ｜父类: LightTubeCrystalCyan
+- **橙色水晶灯管** — `LightTubeCrystalOrange` ｜父类: BaseLightTubeCrystal
+- **粉色水晶灯管** — `LightTubeCrystalPink` ｜父类: BaseLightTubeCrystal
+- **红水晶灯管** — `LightTubeCrystalRed` ｜父类: BaseLightTubeCrystal
+- **黄色水晶灯管** — `LightTubeCrystalYellow` ｜父类: BaseLightTubeCrystal
+- **老旧荧光灯管** — `LightTubeOld` ｜父类: LightTube
+- **百合种子包** — `LilySeeds` ｜父类: SeedBase
+- **包柠檬籽** — `LimeSeeds` ｜父类: SeedBase
+- **灵芝孢子粉包** — `LingzhiSeeds` ｜父类: SeedBase
+- **莉萨毛绒玩偶** — `LisaPlushie` ｜父类: BasePlushie ｜_Starlight
+- **法则主板（互不干涉）** — `LiveLetLiveCircuitBoard` ｜父类: BaseSiliconLawboard,BaseSecurityScienceCommandContraband
+- **克罗夫特毛绒玩偶** — `LivvyPlush` ｜父类: BasePlushie ｜_Starlight
+- **塔帽菌木段** — `Log` ｜父类: ProduceBase
+- **日志探针程序卡** — `LogProbeCartridge` ｜父类: BasePDACartridge,BaseSecurityContraband
+- **润滑剂手雷** — `LubeGrenade` ｜父类: SmokeGrenade ｜_Starlight
+- **豪华钢笔** — `LuxuryPen` ｜父类: Pen
+- **砍刀** — `Machete` ｜父类: BaseSword,BaseMajorContraband
+- **PA 中央发射器 主板** — `MachineParticleAcceleratorEmitterForeCircuitboard` ｜父类: BaseMachineCircuitboard
+- **PA 左舷发射器 主板** — `MachineParticleAcceleratorEmitterPortCircuitboard` ｜父类: BaseMachineCircuitboard
+- **PA 右舷发射器 主板** — `MachineParticleAcceleratorEmitterStarboardCircuitboard` ｜父类: BaseMachineCircuitboard
+- **粒子加速器端盖主板** — `MachineParticleAcceleratorEndCapCircuitboard` ｜父类: BaseMachineCircuitboard
+- **PA 燃料室 主板** — `MachineParticleAcceleratorFuelChamberCircuitboard` ｜父类: BaseMachineCircuitboard
+- **PA 电源箱 主板** — `MachineParticleAcceleratorPowerBoxCircuitboard` ｜父类: BaseMachineCircuitboard
+- **大型炸弹植入物** — `MacroBombImplant` ｜父类: BaseSubdermalImplant
+- **大型炸弹植入器** — `MacroBombImplanter` ｜父类: BaseImplantOnlyImplanterSyndi
+- **120毫米爆破榴弹弹匣** — `Magazine120mmGrenadeBlast` ｜父类: BaseMagazineGrenade ｜_Starlight
+- **120毫米爆破榴弹弹匣（空）** — `Magazine120mmGrenadeBlastEmpty` ｜父类: Magazine120mmGrenadeBlast ｜_Starlight
+- **50毫米火箭弹弹匣** — `Magazine50mmRocket` ｜父类: BaseMagazineGrenade ｜_Starlight
+- **50毫米火箭弹弹匣（空）** — `Magazine50mmRocketEmpty` ｜父类: Magazine60mmRocket ｜_Starlight
+- **60毫米火箭弹弹匣** — `Magazine60mmRocket` ｜父类: BaseMagazineGrenade ｜_Starlight
+- **60毫米火箭弹弹匣（空）** — `Magazine60mmRocketEmpty` ｜父类: Magazine60mmRocket ｜_Starlight
+- **AK-90型90毫米HE炮弹弹匣** — `MagazineAK570_90mmHE` ｜父类: BaseMagazineGrenade ｜_Starlight
+- **弹匣（激光）** — `MagazineBatteryLr30` ｜父类: BaseMagazineBattery ｜_Starlight
+- **弹药盒（.60反器材）** — `MagazineBoxAntiMateriel` ｜父类: BaseMagazineBoxAntiMateriel
+- **弹药盒（激光）** — `MagazineBoxBattery` ｜父类: BaseMagazineBoxBattery ｜_Starlight
+- **弹药盒（.25无壳）** — `MagazineBoxCaselessRifle` ｜父类: BaseMagazineBoxCaselessRifle
+- **弹药盒（.25无壳橡胶弹）** — `MagazineBoxCaselessRifleBigRubber` ｜父类: BaseMagazineBoxCaselessRifle ｜_Starlight
+- **弹药盒（.25无壳训练弹）** — `MagazineBoxCaselessRiflePractice` ｜父类: BaseMagazineBoxCaselessRifle
+- **弹药盒（.25无壳橡胶弹）** — `MagazineBoxCaselessRifleRubber` ｜父类: BaseMagazineBoxCaselessRifle ｜_Starlight
+- **土制弹药盒（.45马格南土制）** — `MagazineBoxImprovisedMagnum` ｜父类: BaseMagazineBoxImprovised ｜_Starlight
+- **土制弹药盒（.35自动土制）** — `MagazineBoxImprovisedPistol` ｜父类: BaseMagazineBoxImprovised ｜_Starlight
+- **土制弹药盒（.30步枪土制）** — `MagazineBoxImprovisedRifle` ｜父类: BaseMagazineBoxImprovised ｜_Starlight
+- **12号土制鹿弹盒** — `MagazineBoxImprovisedShotgun` ｜父类: BaseMagazineBoxImprovised ｜_Starlight
+- **弹药盒（.30步枪穿甲弹）** — `MagazineBoxLightRifleAP` ｜父类: BaseMagazineBoxLightRifle
+- **弹药盒（.30步枪标准弹）** — `MagazineBoxLightRifleBig` ｜父类: BaseMagazineBoxLightRifle
+- **弹药盒（.30步枪全金属被甲弹）** — `MagazineBoxLightRifleFMJ` ｜父类: BaseMagazineBoxLightRifle
+- **弹药盒（.30步枪空尖弹）** — `MagazineBoxLightRifleHP` ｜父类: BaseMagazineBoxLightRifle
+- **弹药盒（.30步枪燃烧弹）** — `MagazineBoxLightRifleIncendiary` ｜父类: BaseMagazineBoxLightRifle
+- **弹药盒（.30步枪训练弹）** — `MagazineBoxLightRiflePractice` ｜父类: BaseMagazineBoxLightRifle
+- **弹药盒（.30步枪橡胶）** — `MagazineBoxLightRifleRubber` ｜父类: BaseMagazineBoxLightRifle ｜_Starlight
+- **弹药盒（.30步枪标准弹）** — `MagazineBoxLightRifleSP` ｜父类: BaseMagazineBoxLightRifle
+- **弹药盒（.30步枪铀芯弹）** — `MagazineBoxLightRifleUranium` ｜父类: BaseMagazineBoxLightRifle
+- **弹药盒（.30步枪标准弹）** — `MagazineBoxLightRifleWorn` ｜父类: MagazineBoxLightRifleSP ｜_Starlight
+- **弹药盒（.45马格南穿甲弹）** — `MagazineBoxMagnumAP` ｜父类: BaseMagazineBoxMagnum
+- **弹药盒（.45马格南FMJ）** — `MagazineBoxMagnumFMJ` ｜父类: BaseMagazineBoxMagnum ｜_Starlight
+- **弹药盒（.45马格南空尖弹）** — `MagazineBoxMagnumHP` ｜父类: BaseMagazineBoxMagnum
+- **弹药盒（.45马格南燃烧弹）** — `MagazineBoxMagnumIncendiary` ｜父类: BaseMagazineBoxMagnum
+- **弹药盒（.45马格南训练弹）** — `MagazineBoxMagnumPractice` ｜父类: BaseMagazineBoxMagnum
+- **弹药盒（.45马格南橡胶）** — `MagazineBoxMagnumRubber` ｜父类: BaseMagazineBoxMagnum ｜_Starlight
+- **弹药盒（.45马格南标准弹）** — `MagazineBoxMagnumSP` ｜父类: BaseMagazineBoxMagnum
+- **弹药盒（.45马格南铀芯弹）** — `MagazineBoxMagnumUranium` ｜父类: BaseMagazineBoxMagnum
+- **弹药盒（.40AP）** — `MagazineBoxPistol40AP` ｜父类: BaseMagazineBoxPistol40 ｜_Starlight
+- **弹药盒（.40FMJ）** — `MagazineBoxPistol40FMJ` ｜父类: BaseMagazineBoxPistol40 ｜_Starlight
+- **弹药盒（.40HP）** — `MagazineBoxPistol40HP` ｜父类: BaseMagazineBoxPistol40 ｜_Starlight
+- **弹药盒（.40SP）** — `MagazineBoxPistol40SP` ｜父类: BaseMagazineBoxPistol40 ｜_Starlight
+- **弹药盒（.35自动AP）** — `MagazineBoxPistolAP` ｜父类: BaseMagazineBoxPistol ｜_Starlight
+- **弹药盒（.35自动FMJ）** — `MagazineBoxPistolFMJ` ｜父类: BaseMagazineBoxPistol ｜_Starlight
+- **弹药盒（.35自动空尖弹）** — `MagazineBoxPistolHP` ｜父类: BaseMagazineBoxPistol
+- **弹药盒（.35自动燃烧弹）** — `MagazineBoxPistolIncendiary` ｜父类: BaseMagazineBoxPistol
+- **弹药盒（.35自动训练弹）** — `MagazineBoxPistolPractice` ｜父类: BaseMagazineBoxPistol
+- **弹药盒（.35自动橡胶）** — `MagazineBoxPistolRubber` ｜父类: BaseMagazineBoxPistol ｜_Starlight
+- **弹药盒（.35自动标准弹）** — `MagazineBoxPistolSP` ｜父类: BaseMagazineBoxPistol
+- **弹药盒（.35自动铀芯弹）** — `MagazineBoxPistolUranium` ｜父类: BaseMagazineBoxPistol
+- **弹药盒（.20步枪AP）** — `MagazineBoxRifleAP` ｜父类: BaseMagazineBoxRifle ｜_Starlight
+- **弹药盒（.20步枪标准弹）** — `MagazineBoxRifleBig` ｜父类: BaseMagazineBoxRifle
+- **弹药盒（.20步枪橡胶）** — `MagazineBoxRifleBigRubber` ｜父类: BaseMagazineBoxRifle ｜_Starlight
+- **弹药盒（.20步枪FMJ）** — `MagazineBoxRifleFMJ` ｜父类: BaseMagazineBoxRifle ｜_Starlight
+- **弹药盒（.20步枪空尖弹）** — `MagazineBoxRifleHP` ｜父类: BaseMagazineBoxRifle
+- **弹药盒（.20步枪燃烧弹）** — `MagazineBoxRifleIncendiary` ｜父类: BaseMagazineBoxRifle
+- **弹药盒（.20步枪训练弹）** — `MagazineBoxRiflePractice` ｜父类: BaseMagazineBoxRifle
+- **弹药盒（.20步枪橡胶）** — `MagazineBoxRifleRubber` ｜父类: BaseMagazineBoxRifle ｜_Starlight
+- **弹药盒（.20步枪标准弹）** — `MagazineBoxRifleSP` ｜父类: BaseMagazineBoxRifle
+- **弹药盒（.20步枪铀芯弹）** — `MagazineBoxRifleUranium` ｜父类: BaseMagazineBoxRifle
+- **手枪弹匣（.25无壳橡胶）** — `MagazineCaselessRifleRubber` ｜父类: BaseMagazinePistolCaselessRifle ｜_Starlight
+- **精确射手步枪弹匣（.45马格南AP）** — `MagazineDMRAP` ｜父类: BaseMagazineRifleDMR ｜_Starlight
+- **精确射手步枪弹匣（.45马格南任意）** — `MagazineDMREmpty` ｜父类: MagazineDMRSP ｜_Starlight
+- **精确射手步枪弹匣（.45马格南FMJ）** — `MagazineDMRFMJ` ｜父类: BaseMagazineRifleDMR ｜_Starlight
+- **精确射手步枪弹匣（.45马格南HP）** — `MagazineDMRHP` ｜父类: BaseMagazineRifleDMR ｜_Starlight
+- **精确射手步枪弹匣（.45马格南燃烧）** — `MagazineDMRIncendiary` ｜父类: MagazineDMRSP ｜_Starlight
+- **精确射手步枪弹匣（.45马格南训练）** — `MagazineDMRPractice` ｜父类: BaseMagazineRifleDMR ｜_Starlight
+- **精确射手步枪弹匣（.45马格南橡胶）** — `MagazineDMRRubber` ｜父类: BaseMagazineRifleDMR ｜_Starlight
+- **精确射手步枪弹匣（.45马格南SP）** — `MagazineDMRSP` ｜父类: BaseMagazineRifleDMR ｜_Starlight
+- **精确射手步枪弹匣（.45马格南铀芯）** — `MagazineDMRUranium` ｜父类: BaseMagazineRifleDMR ｜_Starlight
+- **DVN-75型75毫米HE炮弹弹匣** — `MagazineDravon75mmHE` ｜父类: BaseMagazineGrenade ｜_Starlight
+- **L6SAW弹链箱（泡沫飞镖）** — `MagazineFoamBox` ｜父类: MagazineLightRifleBoxSP
+- **警棍榴弹弹匣** — `MagazineGrenadeBaton` ｜父类: BaseMagazineGrenade,BaseSecurityContraband
+- **爆破榴弹弹匣** — `MagazineGrenadeBlast` ｜父类: BaseMagazineGrenade,BaseSecurityContraband
+- **清洁弹榴弹弹药筒** — `MagazineGrenadeCleanade` ｜父类: BaseMagazineGrenade,BaseJanitorContraband ｜_Starlight
+- **“清洁弹”榴弹弹药筒** — `MagazineGrenadeCleanadeSyndicate` ｜父类: BaseMagazineGrenade,BaseSyndicateContraband ｜_Starlight
+- **EMP榴弹弹匣** — `MagazineGrenadeEMP` ｜父类: BaseMagazineGrenade,BaseSecurityContraband
+- **榴弹弹匣** — `MagazineGrenadeEmpty` ｜父类: BaseMagazineGrenade
+- **闪光榴弹弹匣** — `MagazineGrenadeFlash` ｜父类: BaseMagazineGrenade,BaseSecurityContraband
+- **破片榴弹弹匣** — `MagazineGrenadeFrag` ｜父类: BaseMagazineGrenade,BaseSyndicateContraband
+- **弹匣（.30步枪AP）** — `MagazineLightRifleAP` ｜父类: BaseMagazineLightRifle ｜_Starlight
+- **L6SAW弹链箱（.30步枪标准弹）** — `MagazineLightRifleBoxSP` ｜父类: BaseMagazineLightRifle
+- **弹匣（.30步枪通用）** — `MagazineLightRifleEmpty` ｜父类: MagazineLightRifleSP
+- **弹匣（.30步枪FMJ）** — `MagazineLightRifleFMJ` ｜父类: BaseMagazineLightRifle ｜_Starlight
+- **弹匣（.30步枪HP）** — `MagazineLightRifleHP` ｜父类: BaseMagazineLightRifle ｜_Starlight
+- **弹匣（.30步枪燃烧弹）** — `MagazineLightRifleIncendiary` ｜父类: BaseMagazineLightRifle
+- **盘式弹匣（.30步枪）** — `MagazineLightRifleMaxim` ｜父类: BaseMagazineLightRifle ｜_Starlight
+- **PK弹药箱（.30步枪）** — `MagazineLightRiflePkBox` ｜父类: BaseMagazineLightRifle ｜_Starlight
+- **弹匣（.30步枪训练弹）** — `MagazineLightRiflePractice` ｜父类: BaseMagazineLightRifle
+- **弹匣（.30步枪橡胶）** — `MagazineLightRifleRubber` ｜父类: BaseMagazineLightRifle ｜_Starlight
+- **弹匣（.30步枪标准弹）** — `MagazineLightRifleSP` ｜父类: BaseMagazineLightRifle
+- **弹匣（.30步枪铀芯弹）** — `MagazineLightRifleUranium` ｜父类: BaseMagazineLightRifle
+- **手枪弹匣（.45马格南）** — `MagazineMagnum` ｜父类: BaseMagazineMagnum ｜_Starlight
+- **手枪弹匣（.45马格南穿甲）** — `MagazineMagnumAP` ｜父类: BaseMagazineMagnum ｜_Starlight
+- **手枪弹匣（.45马格南任意）** — `MagazineMagnumEmpty` ｜父类: BaseMagazineMagnum ｜_Starlight
+- **手枪弹匣（.45马格南训练）** — `MagazineMagnumPractice` ｜父类: BaseMagazineMagnum ｜_Starlight
+- **步枪弹匣（.45马格南）** — `MagazineMagnumRifleSP` ｜父类: BaseMagazineMagnumSubMachineGun ｜_Starlight
+- **手枪弹匣（.45马格南橡胶）** — `MagazineMagnumRubber` ｜父类: BaseMagazineMagnum ｜_Starlight
+- **冲锋枪弹匣（.45马格南）** — `MagazineMagnumSubMachineGun` ｜父类: BaseMagazineMagnumSubMachineGun ｜_Starlight
+- **冲锋枪弹匣（.45马格南任意）** — `MagazineMagnumSubMachineGunEmpty` ｜父类: BaseMagazineMagnumSubMachineGun ｜_Starlight
+- **冲锋枪弹匣（.45马格南穿甲）** — `MagazineMagnumSubMachineGunPiercing` ｜父类: BaseMagazineMagnumSubMachineGun ｜_Starlight
+- **冲锋枪弹匣（.45马格南训练）** — `MagazineMagnumSubMachineGunPractice` ｜父类: BaseMagazineMagnumSubMachineGun ｜_Starlight
+- **维克托弹匣（.45马格南橡胶）** — `MagazineMagnumSubMachineGunRubber` ｜父类: BaseMagazineMagnumSubMachineGun ｜_Starlight
+- **冲锋枪弹匣（.45马格南铀芯）** — `MagazineMagnumSubMachineGunUranium` ｜父类: BaseMagazineMagnumSubMachineGun ｜_Starlight
+- **手枪弹匣（.45马格南铀芯）** — `MagazineMagnumUranium` ｜父类: BaseMagazineMagnum ｜_Starlight
+- **.40手枪弹匣（AP）** — `MagazinePistol40AP` ｜父类: MagazinePistol40Base ｜_Starlight
+- **.40手枪弹匣** — `MagazinePistol40Base` ｜父类: BaseMagazinePistol ｜_Starlight
+- **.40手枪弹匣（任意）** — `MagazinePistol40Empty` ｜父类: MagazinePistol40Base ｜_Starlight
+- **.40手枪弹匣（FMJ）** — `MagazinePistol40FMJ` ｜父类: MagazinePistol40Base ｜_Starlight
+- **.40手枪弹匣（HP）** — `MagazinePistol40HP` ｜父类: MagazinePistol40Base ｜_Starlight
+- **.40手枪弹匣（SP）** — `MagazinePistol40SP` ｜父类: MagazinePistol40Base ｜_Starlight
+- **手枪弹匣（.35自动AP）** — `MagazinePistolAP` ｜父类: BaseMagazinePistol ｜_Starlight
+- **手枪弹匣（.25无壳）** — `MagazinePistolCaselessRifle` ｜父类: BaseMagazinePistolCaselessRifle
+- **手枪弹匣（.25无壳训练弹）** — `MagazinePistolCaselessRiflePractice` ｜父类: BaseMagazinePistolCaselessRifle
+- **手枪弹匣（.25无壳）** — `MagazinePistolCaselessRifleWorn` ｜父类: MagazinePistolCaselessRifle ｜_Starlight
+- **手枪弹匣（.35自动任意）** — `MagazinePistolEmpty` ｜父类: MagazinePistolSP ｜_Starlight
+- **黄金手枪弹匣（.35自动任意）** — `MagazinePistolEmptyGolden` ｜父类: MagazinePistolSPGolden ｜_Starlight
+- **手枪弹匣（.35自动FMJ）** — `MagazinePistolFMJ` ｜父类: BaseMagazinePistol ｜_Starlight
+- **扩容手枪弹匣（.35自动AP）** — `MagazinePistolHighCapacityAP` ｜父类: BaseMagazinePistolHighCapacity ｜_Starlight
+- **扩容手枪弹匣（.35自动任意）** — `MagazinePistolHighCapacityEmpty` ｜父类: BaseMagazinePistolHighCapacity ｜_Starlight
+- **黄金扩容手枪弹匣（.35自动任意）** — `MagazinePistolHighCapacityEmptyGolden` ｜父类: BaseMagazinePistolHighCapacityGolden ｜_Starlight
+- **扩容手枪弹匣（.35自动FMJ）** — `MagazinePistolHighCapacityFMJ` ｜父类: BaseMagazinePistolHighCapacity ｜_Starlight
+- **扩容手枪弹匣（.35自动HP）** — `MagazinePistolHighCapacityHP` ｜父类: BaseMagazinePistolHighCapacity ｜_Starlight
+- **扩容手枪弹匣（.35自动燃烧）** — `MagazinePistolHighCapacityIncendiary` ｜父类: BaseMagazinePistolHighCapacity ｜_Starlight
+- **扩容手枪弹匣（.35自动训练）** — `MagazinePistolHighCapacityPractice` ｜父类: BaseMagazinePistolHighCapacity ｜_Starlight
+- **扩容手枪弹匣（.35自动橡胶）** — `MagazinePistolHighCapacityRubber` ｜父类: BaseMagazinePistolHighCapacity ｜_Starlight
+- **扩容手枪弹匣（.35自动SP）** — `MagazinePistolHighCapacitySP` ｜父类: BaseMagazinePistolHighCapacity ｜_Starlight
+- **黄金扩容手枪弹匣（.35自动SP）** — `MagazinePistolHighCapacitySPGolden` ｜父类: BaseMagazinePistolHighCapacityGolden ｜_Starlight
+- **扩容手枪弹匣（.35自动铀芯）** — `MagazinePistolHighCapacityUranium` ｜父类: BaseMagazinePistolHighCapacity ｜_Starlight
+- **扩容手枪弹匣（.35自动SP）** — `MagazinePistolHighCapacityWorn` ｜父类: MagazinePistolHighCapacitySP ｜_Starlight
+- **手枪弹匣（.35自动HP）** — `MagazinePistolHP` ｜父类: BaseMagazinePistol ｜_Starlight
+- **土制手枪弹匣（.35）** — `MagazinePistolImprovised` ｜父类: BaseItem,BaseMinorContraband ｜_Starlight
+- **手枪弹匣（.35自动燃烧）** — `MagazinePistolIncendiary` ｜父类: MagazinePistolSP ｜_Starlight
+- **手枪弹匣（.35自动训练）** — `MagazinePistolPractice` ｜父类: BaseMagazinePistol ｜_Starlight
+- **手枪弹匣（.35自动橡胶）** — `MagazinePistolRubber` ｜父类: BaseMagazinePistol ｜_Starlight
+- **手枪弹匣（.35自动SP）** — `MagazinePistolSP` ｜父类: BaseMagazinePistol ｜_Starlight
+- **黄金手枪弹匣（.35自动SP）** — `MagazinePistolSPGolden` ｜父类: BaseMagazinePistolGolden ｜_Starlight
+- **冲锋枪弹匣（.35自动AP）** — `MagazinePistolSubMachineGunAP` ｜父类: BaseMagazinePistolSubMachineGun ｜_Starlight
+- **冲锋枪弹匣（.35自动任意）** — `MagazinePistolSubMachineGunEmpty` ｜父类: BaseMagazinePistolSubMachineGun ｜_Starlight
+- **冲锋枪弹匣（.35自动FMJ）** — `MagazinePistolSubMachineGunFMJ` ｜父类: BaseMagazinePistolSubMachineGun ｜_Starlight
+- **冲锋枪弹匣（.35自动HP）** — `MagazinePistolSubMachineGunHP` ｜父类: BaseMagazinePistolSubMachineGun ｜_Starlight
+- **土制冲锋枪弹匣（.35自动）** — `MagazinePistolSubMachineGunImprovised` ｜父类: BaseMagazinePistolSubMachineGun,BaseMinorContraband ｜_Starlight
+- **冲锋枪弹匣（.35自动燃烧）** — `MagazinePistolSubMachineGunIncendiary` ｜父类: BaseMagazinePistolSubMachineGun ｜_Starlight
+- **波波沙弹匣** — `MagazinePistolSubMachineGunPPSH` ｜父类: BaseMagazinePistolSubMachineGun ｜_Starlight
+- **冲锋枪弹匣（.35自动训练）** — `MagazinePistolSubMachineGunPractice` ｜父类: BaseMagazinePistolSubMachineGun ｜_Starlight
+- **冲锋枪弹匣（.35自动橡胶）** — `MagazinePistolSubMachineGunRubber` ｜父类: BaseMagazinePistolSubMachineGun ｜_Starlight
+- **冲锋枪弹匣（.35自动SP）** — `MagazinePistolSubMachineGunSP` ｜父类: BaseMagazinePistolSubMachineGun ｜_Starlight
+- **WT550弹匣（.35自动顶部供弹）** — `MagazinePistolSubMachineGunTopMounted` ｜父类: BaseItem,BaseSecurityContraband ｜_Starlight
+- **WT550弹匣（.35自动顶部供弹任意）** — `MagazinePistolSubMachineGunTopMountedEmpty` ｜父类: MagazinePistolSubMachineGunTopMounted ｜_Starlight
+- **WT550弹匣（.35FMJ自动顶部供弹）** — `MagazinePistolSubMachineGunTopMountedFMJ` ｜父类: MagazinePistolSubMachineGunTopMounted ｜_Starlight
+- **WT550弹匣（.35HP自动顶部供弹）** — `MagazinePistolSubMachineGunTopMountedHP` ｜父类: MagazinePistolSubMachineGunTopMounted ｜_Starlight
+- **冲锋枪弹匣（.35自动铀芯）** — `MagazinePistolSubMachineGunUranium` ｜父类: BaseMagazinePistolSubMachineGun ｜_Starlight
+- **乌兹弹匣（.35自动）** — `MagazinePistolSubMachineGunUzi` ｜父类: BaseMagazinePistolSubMachineGun ｜_Starlight
+- **冲锋枪弹匣（.35自动SP）** — `MagazinePistolSubMachineGunWorn` ｜父类: MagazinePistolSubMachineGunSP ｜_Starlight
+- **手枪弹匣（.35自动铀芯）** — `MagazinePistolUranium` ｜父类: BaseMagazinePistol ｜_Starlight
+- **弹匣（.20步枪AP）** — `MagazineRifleAP` ｜父类: BaseMagazineRifle ｜_Starlight
+- **弹匣（.20步枪任意）** — `MagazineRifleEmpty` ｜父类: MagazineRifleSP ｜_Starlight
+- **弹匣（.20步枪FMJ）** — `MagazineRifleFMJ` ｜父类: BaseMagazineRifle ｜_Starlight
+- **弹匣（.20步枪HP）** — `MagazineRifleHP` ｜父类: BaseMagazineRifle ｜_Starlight
+- **弹匣（.20步枪燃烧）** — `MagazineRifleIncendiary` ｜父类: MagazineRifleSP ｜_Starlight
+- **弹匣（.20步枪AP）** — `MagazineRifleM52AP` ｜父类: BaseMagazineRifleM52 ｜_Starlight
+- **弹匣（.20步枪任意）** — `MagazineRifleM52Empty` ｜父类: BaseMagazineRifleM52 ｜_Starlight
+- **弹匣（.20步枪FMJ）** — `MagazineRifleM52FMJ` ｜父类: BaseMagazineRifleM52 ｜_Starlight
+- **弹匣（.20步枪HP）** — `MagazineRifleM52HP` ｜父类: BaseMagazineRifleM52 ｜_Starlight
+- **弹匣（.20步枪燃烧）** — `MagazineRifleM52Incendiary` ｜父类: BaseMagazineRifleM52 ｜_Starlight
+- **弹匣（.20步枪训练）** — `MagazineRifleM52Practice` ｜父类: BaseMagazineRifleM52 ｜_Starlight
+- **弹匣（.20步枪SP）** — `MagazineRifleM52SP` ｜父类: BaseMagazineRifleM52 ｜_Starlight
+- **弹匣（.20步枪铀芯）** — `MagazineRifleM52Uranium` ｜父类: BaseMagazineRifleM52 ｜_Starlight
+- **弹匣（.20步枪训练）** — `MagazineRiflePractice` ｜父类: BaseMagazineRifle ｜_Starlight
+- **弹匣（.20步枪橡胶）** — `MagazineRifleRubber` ｜父类: BaseMagazineRifle ｜_Starlight
+- **弹匣（.20步枪SP）** — `MagazineRifleSP` ｜父类: BaseMagazineRifle ｜_Starlight
+- **弹匣（.20步枪铀芯）** — `MagazineRifleUranium` ｜父类: BaseMagazineRifle ｜_Starlight
+- **弹匣（.20步枪SP）** — `MagazineRifleWorn` ｜父类: MagazineRifleSP ｜_Starlight
+- **12号鹿弹弹鼓 # Starlight change: .50 -> 12 gauge** — `MagazineShotgun` ｜父类: BaseMagazineShotgun
+- **12号布袋弹弹鼓 # Starlight change: .50 -> 12 gauge** — `MagazineShotgunBeanbag` ｜父类: BaseMagazineShotgun
+- **12号破门弹鼓** — `MagazineShotgunBreach` ｜父类: BaseMagazineShotgun ｜_Starlight
+- **12号弹鼓 # Starlight change: .50 -> 12 gauge** — `MagazineShotgunEmpty` ｜父类: BaseMagazineShotgun
+- **12号燃烧弹弹鼓 # Starlight change: .50 -> 12 gauge** — `MagazineShotgunIncendiary` ｜父类: BaseMagazineShotgun
+- **12号独头弹弹鼓 # Starlight change: .50 -> 12 gauge** — `MagazineShotgunSlug` ｜父类: BaseMagazineShotgun
+- **12号独头弹弹鼓** — `MagazineShotgunSlugWorn` ｜父类: MagazineShotgunSlug ｜_Starlight
+- **20号霰弹弹匣** — `MagazineShotgunToz` ｜父类: BaseMagazineShotgunToz ｜_Starlight
+- **20号弹匣** — `MagazineShotgunTozEmpty` ｜父类: BaseMagazineShotgunToz ｜_Starlight
+- **20号霰弹扩容弹匣** — `MagazineShotgunTozExtended` ｜父类: BaseMagazineShotgunToz ｜_Starlight
+- **20号扩容弹匣** — `MagazineShotgunTozExtendedEmpty` ｜父类: BaseMagazineShotgunToz ｜_Starlight
+- **12号鹿弹弹鼓** — `MagazineShotgunWorn` ｜父类: MagazineShotgun ｜_Starlight
+- **魔法九号球** — `Magic9Ball` ｜父类: BaseItem
+- **魔法神灯** — `MagicalLamp` ｜父类: BaseItem
+- **骰子袋** — `MagicDiceBag` ｜父类: DiceBag
+- **巨猿症血清植入物** — `MagillitisSerumImplant` ｜父类: BaseSubdermalImplant ｜_Starlight
+- **巨猿症血清植入器** — `MagillitisSerumImplanter` ｜父类: BaseImplantOnlyImplanterSyndi ｜_Starlight
+- **裁判官 ID卡** — `MagistrateIDCard` ｜父类: IDCardStandard,BaseCommandContraband ｜_Starlight
+- **地方法官 PDA** — `MagistratePDA` ｜父类: BasePDA ｜_Starlight
+- **邮袋** — `MailBag` ｜父类: BaseStorageItem
+- **邮务伴侣™ v11.037** — `MailCompanion` ｜父类: BaseHandheldComputer ｜_Starlight
+- **邮寄单元电子元件** — `MailingUnitElectronics` ｜父类: BaseElectronics
+- **邮差 PDA** — `MailPDA` ｜父类: BasePDA ｜_Starlight
+- **法则二——阅读此信** — `MailSELFSpamLetter` ｜父类: Paper,BaseSyndicateContraband ｜_Starlight
+- **工人权利！** — `MailSovietSpamLetter100` ｜父类: Paper,BaseSovietContraband ｜_Starlight
+- **工人权利！** — `MailSovietSpamLetter25` ｜父类: Paper,BaseSovietContraband ｜_Starlight
+- **工人权利！** — `MailSovietSpamLetter50` ｜父类: Paper,BaseSovietContraband ｜_Starlight
+- **你不想要更多吗？** — `MailSpamDontYouWantMore` ｜父类: Paper,BaseMajorContraband ｜_Starlight
+- **垃圾信件** — `MailSpamLetter` ｜父类: Paper
+- **选择辛迪加的理由！** — `MailSyndicateSpamLetter` ｜父类: Paper,BaseSyndicateContraband ｜_Starlight
+- **邮件技师 ID卡** — `MailTechIDCard` ｜父类: IDCardStandard,BaseCargoContraband ｜_Starlight
+- **邮件传送机 机器主板** — `MailTeleporterMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **邮件手推车平板包装** — `MailTrolleyFlatpack` ｜父类: BaseFlatpack ｜_Starlight
+- **临时 ID卡** — `MakeshiftID` ｜父类: Clothing,BaseMinorContraband ｜_Starlight
+- **临时盾牌** — `MakeshiftShield` ｜父类: PaladinShield,BaseMinorContraband
+- **幽灵之刃** — `ManaBlade` ｜父类: BaseSword,BaseMagicalContraband ｜_Starlight
+- **马林巴琴** — `MarimbaInstrument` ｜父类: BasePlaceableInstrumentRotatable
+- **婚约之斧** — `MarriageAxe` ｜父类: BaseMeleeWeaponEnergy,BaseSyndicateContraband,BaseStringInstrument ｜_Starlight
+- **质量投射器电路板** — `MassDriverCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **质量投射器电脑电路板** — `MassDriverComputerCircuitboard` ｜父类: BaseComputerCircuitboard ｜_Starlight
+- **建材袋** — `MatBag` ｜父类: BaseStorageItem ｜_FarHorizons
+- **建材袋** — `MatBagFilled` ｜父类: MatBag ｜_FarHorizons
+- **火柴盒** — `Matchbox` ｜父类: SmallboxItem,BaseBagOpenClose
+- **火柴** — `Matchstick` ｜父类: BaseItem
+- **火柴** — `MatchstickSpent` ｜父类: Matchstick
+- **材料袋** — `MaterialBag` ｜父类: BaseStorageItem,BaseXenoborgContraband
+- **香蕉矿** — `MaterialBananium` ｜父类: MaterialBase
+- **香蕉矿** — `MaterialBananium1` ｜父类: MaterialBananium
+- `模板` **MaterialBase** — `MaterialBase` ｜父类: BaseItem ｜_Starlight
+- **生物质** — `MaterialBiomass` ｜父类: MaterialBase
+- **生物质** — `MaterialBiomass1` ｜父类: MaterialBiomass
+- **骨头** — `MaterialBones` ｜父类: MaterialBase
+- **骨头** — `MaterialBones1` ｜父类: MaterialBones
+- **纸板** — `MaterialCardboard` ｜父类: MaterialBase
+- **纸板** — `MaterialCardboard1` ｜父类: MaterialCardboard
+- **纸板** — `MaterialCardboard10` ｜父类: MaterialCardboard
+- **布料** — `MaterialCloth` ｜父类: MaterialBase
+- **布料** — `MaterialCloth1` ｜父类: MaterialCloth
+- **布料** — `MaterialCloth10` ｜父类: MaterialCloth
+- **棉花** — `MaterialCotton` ｜父类: MaterialBase
+- **棉花** — `MaterialCotton1` ｜父类: MaterialCotton
+- **精炼钻石** — `MaterialDiamond` ｜父类: MaterialBase
+- **精炼钻石** — `MaterialDiamond1` ｜父类: MaterialDiamond
+- **耐久丝** — `MaterialDurathread` ｜父类: MaterialBase
+- **耐久丝** — `MaterialDurathread1` ｜父类: MaterialDurathread
+- **歌利亚甲皮** — `MaterialGoliathHide` ｜父类: MaterialBase
+- **歌利亚甲皮** — `MaterialGoliathHide1` ｜父类: MaterialGoliathHide
+- **火药** — `MaterialGunpowder` ｜父类: MaterialBase
+- **熊皮** — `MaterialHideBear` ｜父类: MaterialBase
+- **柯基皮** — `MaterialHideCorgi` ｜父类: MaterialBase
+- **火绒棉** — `MaterialPyrotton` ｜父类: MaterialBase
+- **火绒棉** — `MaterialPyrotton1` ｜父类: MaterialPyrotton
+- **肉片** — `MaterialSheetMeat` ｜父类: SheetOtherBase
+- **肉片** — `MaterialSheetMeat1` ｜父类: MaterialSheetMeat
+- **材料仓 机器主板** — `MaterialSiloMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **微笑提取物** — `MaterialSmileExtract` ｜父类: FoodBase
+- **鲨鱼米诺鱼牙** — `MaterialToothSharkminnow` ｜父类: MaterialBase,BaseKnife
+- **鲨鱼米诺鱼牙** — `MaterialToothSharkminnow1` ｜父类: MaterialToothSharkminnow
+- **太空鲤鱼牙** — `MaterialToothSpaceCarp` ｜父类: MaterialBase
+- **太空鲤鱼牙** — `MaterialToothSpaceCarp1` ｜父类: MaterialToothSpaceCarp
+- **蛛丝** — `MaterialWebSilk` ｜父类: MaterialBase
+- **蛛丝** — `MaterialWebSilk1` ｜父类: MaterialWebSilk
+- **蛛丝** — `MaterialWebSilk25` ｜父类: MaterialWebSilk
+- **木材** — `MaterialWoodPlank` ｜父类: MaterialBase
+- **木材** — `MaterialWoodPlank1` ｜父类: MaterialWoodPlank
+- **木材** — `MaterialWoodPlank10` ｜父类: MaterialWoodPlank
+- **肉质燃料棒** — `MeatReactorFuelRod` ｜父类: BaseReactorFuelRod ｜_FarHorizons
+- **一捆肉麦** — `MeatwheatBushel` ｜父类: ProduceBaseRuminant
+- **包肉小麦种子** — `MeatwheatSeeds` ｜父类: SeedBase
+- **基础激光射线** — `MechAC2FMJ` ｜父类: BulletTrace ｜_Starlight
+- **外骨骼装甲气罐** — `MechAirTank` ｜父类: BaseExosuitParts ｜_Starlight
+- `模板` **MechCartridge** — `MechCartridge` ｜_Starlight
+- **克拉克** — `MechClarke` ｜父类: BaseMech,IndustrialMech,BaseCargoContraband ｜_Starlight
+- **克拉克** — `MechClarkeBattery` ｜父类: MechClarke ｜_Starlight
+- **杜兰德** — `MechDurand` ｜父类: BaseMech,CombatMech,BaseSecurityContraband ｜_Starlight
+- **杜兰德** — `MechDurandBattery` ｜父类: MechDurand ｜_Starlight
+- **外骨骼硅基控制信标** — `MechEquipmentBorgPilot` ｜父类: BaseMechEquipment ｜_Starlight
+- **机甲夜视摄像头** — `MechEquipmentCamera` ｜父类: BaseMechEquipment,CombatMechEquipment ｜_Starlight
+- **液压钳** — `MechEquipmentGrabber` ｜父类: BaseMechEquipment,IndustrialMechEquipment,BaseCargoContraband
+- **小型液压钳** — `MechEquipmentGrabberSmall` ｜父类: BaseMechEquipment,BaseCargoContraband
+- **机甲喇叭** — `MechEquipmentHorn` ｜父类: BaseMechEquipment,SpecialMechEquipment,BaseCivilianContraband
+- **液压爪** — `MechEquipmentSecGrabber` ｜父类: BaseMechEquipment,CombatMechEquipment,BaseSecurityContraband ｜_Starlight
+- **盖吉斯** — `MechGygax` ｜父类: BaseMech,CombatMech,BaseSecurityContraband ｜_Starlight
+- **盖吉斯** — `MechGygaxBattery` ｜父类: MechGygax ｜_Starlight
+- **暗黑盖吉斯** — `MechGygaxSyndie` ｜父类: BaseMech,CombatMech,BaseSyndicateContraband,SyndieMech ｜_Starlight
+- **暗黑盖吉斯** — `MechGygaxSyndieBattery` ｜父类: MechGygaxSyndie ｜_Starlight
+- **暗黑盖吉斯** — `MechGygaxSyndieFilled` ｜父类: MechGygaxSyndieBattery ｜_Starlight
+- **HAMTR 机甲** — `MechHamtr` ｜父类: BaseMech,SmallMech
+- **HAMTR 机甲** — `MechHamtrBattery` ｜父类: MechHamtr
+- **H.O.N.K. 机甲** — `MechHonker` ｜父类: BaseMech,SpecialMech,BaseCivilianContraband
+- **H.O.N.K. 机甲** — `MechHonkerBattery` ｜父类: MechHonker
+- **暗黑 H.O.N.K.** — `MechHonkerDark` ｜父类: BaseMech,SpecialMech,SyndieMech,BaseSyndicateContraband ｜_Starlight
+- **暗黑 H.O.N.K.** — `MechHonkerDarkBattery` ｜父类: MechHonkerDark ｜_Starlight
+- **暗黑 H.O.N.K.** — `MechHonkerDarkFilled` ｜父类: MechHonkerDarkBattery ｜_Starlight
+- **H.O.N.K. 机甲** — `MechHonkerFilled` ｜父类: MechHonkerBattery ｜_Starlight
+- **掠夺者** — `MechMarauder` ｜父类: BaseMech,CombatMech,BaseCentcommContraband,NanotrasenMech ｜_Starlight
+- **掠夺者** — `MechMarauderBattery` ｜父类: MechMarauder ｜_Starlight
+- **掠夺者** — `MechMarauderFilled` ｜父类: MechMarauderBattery ｜_Starlight
+- **虐杀者** — `MechMaulerSyndie` ｜父类: BaseMech,CombatMech,BaseSyndicateContraband,SyndieMech ｜_Starlight
+- **虐杀者** — `MechMaulerSyndieBattery` ｜父类: MechMaulerSyndie ｜_Starlight
+- **虐杀者** — `MechMaulerSyndieFilled` ｜父类: MechMaulerSyndieBattery ｜_Starlight
+- **缄默** — `MechMimeSyndie` ｜父类: BaseMech,CombatMech,BaseSyndicateContraband,SyndieMech ｜_Starlight
+- **缄默** — `MechMimeSyndieBattery` ｜父类: MechMimeSyndie ｜_Starlight
+- **缄默** — `MechMimeSyndieFilled` ｜父类: MechMimeSyndieBattery ｜_Starlight
+- **帕迪** — `MechPaddy` ｜父类: BaseMech,CombatMech,IndustrialMech,BaseSecurityContraband ｜_Starlight
+- **帕迪** — `MechPaddyBattery` ｜父类: MechPaddy ｜_Starlight
+- **帕迪** — `MechPaddyFilled` ｜父类: MechPaddyBattery ｜_Starlight
+- **帝皇级机甲反应堆** — `MechReactorAntique` ｜父类: MechReactorBase ｜_Starlight
+- `模板` **标准机甲反应堆** — `MechReactorBase` ｜父类: BasePowerCell ｜_Starlight
+- **燃尽级机甲反应堆** — `MechReactorBurnout` ｜父类: MechReactorBase ｜_Starlight
+- **骑士级机甲反应堆** — `MechReactorCavalier` ｜父类: MechReactorBase ｜_Starlight
+- **役马级机甲反应堆** — `MechReactorHigh` ｜父类: MechReactorBase ｜_Starlight
+- **远航级机甲反应堆** — `MechReactorHyper` ｜父类: MechReactorBase ｜_Starlight
+- **雷神级机甲反应堆** — `MechReactorMicro` ｜父类: MechReactorBase ｜_Starlight
+- **圣骑士级机甲反应堆** — `MechReactorShielded` ｜父类: MechReactorBase ｜_Starlight
+- **标准机甲反应堆** — `MechReactorStandard` ｜父类: MechReactorBase ｜_Starlight
+- **里普利 APLU** — `MechRipley` ｜父类: BaseMech,IndustrialMech,BaseCargoContraband
+- **里普利 APLU MK-II** — `MechRipley2` ｜父类: BaseMech,IndustrialMech,BaseCargoContraband ｜_Starlight
+- **里普利 APLU MK-II** — `MechRipley2Battery` ｜父类: MechRipley2 ｜_Starlight
+- **里普利 APLU** — `MechRipleyBattery` ｜父类: MechRipley
+- **炽天使** — `MechSeraph` ｜父类: BaseMech,CombatMech,BaseNanoTrasenContraband,NanotrasenMech ｜_Starlight
+- **炽天使** — `MechSeraphBattery` ｜父类: MechSeraph ｜_Starlight
+- **炽天使** — `MechSeraphFilled` ｜父类: MechSeraphBattery ｜_Starlight
+- **外骨骼装甲推进器** — `MechThruster` ｜父类: BaseExosuitParts ｜_Starlight
+- **Vim 微型机甲** — `MechVim` ｜父类: BaseMech,SmallMech
+- **Vim 微型机甲** — `MechVimBattery` ｜父类: MechVim
+- **勋章盒** — `MedalCase` ｜父类: BaseStorageItem,BaseBagOpenClose,BaseCommandContraband
+- **医疗部通信控制台电路板** — `MedicalCommsComputerCircuitboard` ｜父类: BaseComputerCircuitboard,BaseCommandContraband ｜_Starlight
+- **医疗部ID卡** — `MedicalIDCard` ｜父类: IDCardStandard
+- **实习医师ID卡** — `MedicalInternIDCard` ｜父类: IDCardStandard
+- **实习医师PDA** — `MedicalInternPDA` ｜父类: BaseMedicalPDA
+- **医师PDA** — `MedicalPDA` ｜父类: BaseMedicalPDA
+- **医疗记录 计算机主板** — `MedicalRecordsComputerCircuitboard` ｜父类: BaseComputerCircuitboard
+- **医疗扫描仪 机器主板** — `MedicalScannerMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **医疗科技制造机 机器主板** — `MedicalTechFabCircuitboard` ｜父类: BaseMachineCircuitboard
+- **药缝线** — `MedicatedSuture` ｜父类: BaseHealingItem
+- **急救箱** — `Medkit` ｜父类: BaseStorageItem
+- **高级急救箱** — `MedkitAdvanced` ｜父类: Medkit
+- **暴力创伤治疗套件** — `MedkitBrute` ｜父类: Medkit
+- **烧伤治疗套件** — `MedkitBurn` ｜父类: Medkit
+- **战斗医疗包** — `MedkitCombat` ｜父类: Medkit
+- **缺氧治疗套件** — `MedkitO2` ｜父类: Medkit
+- **放射治疗套件** — `MedkitRadiation` ｜父类: Medkit
+- **机器人治疗箱** — `MedkitRobotic` ｜父类: BaseStorageItem ｜_Starlight
+- **毒素治疗套件** — `MedkitToxin` ｜父类: Medkit
+- **医疗科技程序卡** — `MedTekCartridge` ｜父类: BasePDACartridge
+- **巨型喷雾瓶** — `MegaSprayBottle` ｜父类: SprayBottle
+- **特大喷雾瓶** — `MegaSprayBottleSpaceCleaner` ｜父类: MegaSprayBottle
+- **宙斯之拳** — `MeleeWeaponCyberEmpFist` ｜父类: BaseItem ｜_Starlight
+- **赫拉克勒斯之拳** — `MeleeWeaponCyberHerakles` ｜父类: BaseItem ｜_Starlight
+- **电击之拳** — `MeleeWeaponCyberStunFist` ｜父类: BaseItem ｜_Starlight
+- **威胁型穿梭机建造升链** — `MenacingShuttleBuilderUplink` ｜父类: BaseUplinkRadio,StorePresetShuttleBuilderDangerous ｜_Starlight
+- **威胁型穿梭机建造升链** — `MenacingShuttleBuilderUplink0` ｜父类: BaseUplinkRadio,StorePresetShuttleBuilderDangerous ｜_Starlight
+- **金属泡沫手榴弹** — `MetalFoamGrenade` ｜父类: BaseEngineeringContraband,SmokeGrenade
+- **金属氢** — `MetalHydrogen` ｜父类: IngotBase ｜_Funkystation
+- **金属氢** — `MetalHydrogen1` ｜父类: MetalHydrogen ｜_Funkystation
+- **金属氢** — `MetalHydrogen10` ｜父类: MetalHydrogen ｜_Funkystation
+- **金属氢斧** — `MetalHydrogenAxe` ｜父类: BaseEngineeringContraband,FireAxe ｜_Funkystation
+- **金属色史莱姆提取物** — `MetalSlimeExtract` ｜父类: BaseSlimeExtract ｜_Starlight
+- **金属色史莱姆提取物（已填充）** — `MetalSlimeExtractFilled` ｜父类: BaseSlimeExtractFilled,MetalSlimeExtract ｜_Starlight
+- **呵叫陨星** — `MeteorClown` ｜父类: BaseMeteor
+- **宇宙奶牛** — `MeteorCow` ｜父类: BaseMeteor
+- **流星** — `MeteorLarge` ｜父类: BaseMeteor
+- **流星** — `MeteorMedium` ｜父类: BaseMeteor
+- **太空土豆** — `MeteorPotato` ｜父类: BaseMeteor
+- **流星** — `MeteorSmall` ｜父类: BaseMeteor
+- **太空尘埃** — `MeteorSpaceDust` ｜父类: BaseMeteor
+- **乌里斯特·麦克流星** — `MeteorUrist` ｜父类: BaseMeteor
+- **微型炸弹植入物** — `MicroBombImplant` ｜父类: BaseSubdermalImplant
+- **微型炸弹植入器** — `MicroBombImplanter` ｜父类: BaseImplantOnlyImplanterSyndi
+- **模块化机器部件** — `MicroManipulatorStockPart` ｜父类: BaseStockPart
+- **麦克风** — `MicrophoneInstrument` ｜父类: BaseHandheldInstrument
+- **微波炉平板包装** — `MicrowaveFlatpack` ｜父类: BaseFlatpack ｜_Starlight
+- **微波炉 机器主板** — `MicrowaveMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **乳气分析仪** — `Milkalyzer` ｜父类: BaseItem
+- **一包 mimana 种子** — `MimanaSeeds` ｜父类: SeedBase
+- **哑剧演员ID卡** — `MimeIDCard` ｜父类: IDCardStandard
+- **哑剧演员PDA** — `MimePDA` ｜父类: BasePDA
+- **薄荷舌毛绒玩偶** — `MinaPlush` ｜父类: BaseMothPlushie ｜_Starlight
+- **精神控制植入物** — `MindControlImplant` ｜父类: BaseSubdermalImplant ｜_Starlight
+- **精神控制植入器** — `MindControlImplanter` ｜父类: BaseImplantOnlyImplanterSyndi ｜_Starlight
+- **心灵护盾植入物** — `MindShieldImplant` ｜父类: BaseSubdermalImplant
+- **心灵护盾植入器** — `MindShieldImplanter` ｜父类: BaseImplantOnlyImplanter
+- **矿物扫描仪** — `MineralScanner` ｜父类: MineralScannerUnpowered,PowerCellSlotMediumItem
+- **矿物扫描仪** — `MineralScannerEmpty` ｜父类: MineralScanner
+- **矿物扫描仪** — `MineralScannerUnpowered` ｜父类: BaseItem
+- **迷你重力发生器 机器主板** — `MiniGravityGeneratorCircuitboard` ｜父类: BaseMachineCircuitboard
+- **迷你穆格合成器** — `MinimoogInstrument` ｜父类: BasePlaceableInstrumentRotatable
+- **采矿钻机** — `MiningDrill` ｜父类: BaseItem
+- **金刚石钻头采矿钻机** — `MiningDrillDiamond` ｜父类: MiningDrill
+- **矿工 ID卡** — `MiningIDCard` ｜父类: IDCardStandard,BaseCargoContraband ｜_Starlight
+- **采矿 PDA** — `MiningPDA` ｜父类: BasePDA ｜_Starlight
+- **MiningShuttleCircuitboardStealObjective** — `MiningShuttleCircuitboardStealObjective` ｜父类: BaseThiefStealObjective ｜_Starlight
+- **远程采矿穿梭机控制台电路板** — `MiningShuttleConsoleCircuitboard` ｜父类: BaseComputerCircuitboard ｜_Starlight
+- **迷你注射器** — `MiniSyringe` ｜父类: Syringe
+- **薄荷种子包** — `MintSeeds` ｜父类: SeedBase ｜_Starlight
+- **镜罩** — `MirrorShield` ｜父类: BaseShield,BaseMagicalContraband
+- **妙尔尼尔** — `Mjollnir` ｜父类: BaseWizardItem
+- **人机接口** — `MMI` ｜父类: BaseItem,BaseSiliconBrainLanguages
+- **人机接口** — `MMIFilled` ｜父类: MMI
+- **面包狗** — `MobBreadDog` ｜父类: EdibleBase
+- **猫糕** — `MobCatCake` ｜父类: EdibleBase
+- **手榴弹企鹅** — `MobGrenadePenguinWorn` ｜父类: MobGrenadePenguin ｜_Starlight
+- **真正的医师** — `MobTrueDoctorbot` ｜父类: MobSiliconBase,ShowMedicalIcons,StripableInventoryBase ｜_Starlight
+- **模块化枪管** — `ModularBarrel` ｜父类: BaseItem ｜_Starlight
+- **模块化手榴弹** — `ModularGrenade` ｜父类: BaseItem
+- **模块化机匣** — `ModularReceiver` ｜父类: BaseItem
+- **猴子方块** — `MonkeyCube` ｜父类: RehydratableAnimalCube
+- **猴子方块盒** — `MonkeyCubeBox` ｜父类: BoxCardboard
+- **猴子方块** — `MonkeyCubeWrapped` ｜父类: BaseWrappedCube
+- **哞丝刀** — `Moodriver` ｜父类: BaseItem
+- **哞用工具** — `Mooltitool` ｜父类: BaseItem
+- **月面战棋地图** — `MoonBattlemap` ｜父类: BaseBattlemap
+- **grass battlemap** — `MoonBoardTabletop` ｜父类: BaseBoardTabletop
+- **拖把桶方块** — `MopBucketCube` ｜父类: RehydratableItem
+- **拖把** — `MopItem` ｜父类: BaseItem
+- **拖把蟑螂方块** — `MoproachCube` ｜父类: RehydratableAnimalCube
+- **拖把蟑螂鞋** — `MoproachShoes` ｜父类: BaseItem
+- **研钵杵** — `MortarAndPestle` ｜父类: BaseHandheldGrinder
+- **临时研钵杵** — `MortarAndPestleMakeshift` ｜父类: MortarAndPestle
+- **法则主板（母舰核心）** — `MothershipCircuitBoard` ｜父类: BaseSiliconLawboard,BaseXenoborgContraband
+- **母舰模块** — `MothershipModule` ｜父类: BaseXenoborgModuleGeneric,BaseProviderBorgModule,BaseXenoborgContraband
+- **蛾蠊方块** — `MothroachCube` ｜父类: RehydratableAnimalCube
+- **老鼠方块** — `MouseCube` ｜父类: RehydratableAnimalCube
+- **捕鼠夹** — `Mousetrap` ｜父类: BaseItem
+- **已上弦的捕鼠夹** — `MousetrapArmed` ｜父类: Mousetrap
+- **莫赞毛绒玩偶** — `MozanPlush` ｜父类: BaseMothPlushie ｜_Starlight
+- **奇普斯先生** — `MrChips` ｜父类: BaseItem,MobCombat
+- **迪普斯先生** — `MrDips` ｜父类: MrChips
+- **万用表** — `Multitool` ｜父类: BaseItem
+- **绑架者多用工具** — `MultitoolAbductor` ｜父类: Multitool,BaseMajorContraband ｜_Starlight
+- **土制多用工具** — `MultitoolImprovised` ｜父类: BaseItem ｜_Starlight
+- **隐形多用工具** — `MultitoolInvisible` ｜父类: BaseItem ｜_Starlight
+- **乐音之肺** — `MusicalLungInstrument` ｜父类: BaseHandheldInstrument
+- **八音盒** — `MusicBoxInstrument` ｜父类: BasePercussionInstrument
+- **乐手ID卡** — `MusicianIDCard` ｜父类: IDCardStandard
+- **乐手PDA** — `MusicianPDA` ｜父类: BasePDA
+- **火枪** — `Musket` ｜父类: BaseWeaponSniper,BaseGunWieldable,BaseMajorContraband
+- **失语毒素自动注射器** — `MuteToxinHypo` ｜父类: BorgHypo,BaseXenoborgContraband ｜_Starlight
+- **MuzzleFlashEffect** — `MuzzleFlashEffect`
+- **MuzzleFlashEffectHeavyLaser** — `MuzzleFlashEffectHeavyLaser` ｜父类: MuzzleFlashEffect
+- **MuzzleFlashEffectOmnilaser** — `MuzzleFlashEffectOmnilaser` ｜父类: MuzzleFlashEffect
+- **神秘太空人手办盒** — `MysteryFigureBox` ｜父类: BaseItem
+- **展开的纸板盒** — `MysteryFigureBoxTrash` ｜父类: BaseItem
+- **新奇打火机盲盒** — `MysteryLighterBox` ｜父类: BaseItem
+- **NanoChat 卡带** — `NanoChatCartridge` ｜父类: BaseItem ｜_CD
+- **纳米任务程序卡** — `NanoTaskCartridge` ｜父类: BasePDACartridge
+- **纳米传讯职业培训师 ID卡** — `NanoTrasenCareerTrainerIDCard` ｜父类: IDCardStandard,BaseCommandContraband ｜_Starlight
+- **纳米传讯职业培训师 PDA** — `NanoTrasenCareerTrainerPDA` ｜父类: BasePDA ｜_Starlight
+- **纳米传讯翻盖打火机  # Starlight-edit** — `NanotrasenFlippo` ｜父类: BaseBrandedLighter,FlippoLighter
+- `模板` **NanotrasenMech** — `NanotrasenMech` ｜_Starlight
+- **纳米传讯代表 ID卡** — `NanoTrasenRepresentativeIDCard` ｜父类: IDCardStandard,BaseCommandContraband ｜_Starlight
+- **纳米传讯代表 PDA** — `NanoTrasenRepresentativePDA` ｜父类: BasePDA ｜_Starlight
+- **NCT 学员权限芯片** — `nctdatachip` ｜父类: Clothing,BaseCommandContraband ｜_Starlight
+- **大烧杯** — `NecrosolBeakerLarge` ｜父类: LargeBeaker ｜_Starlight
+- **蜂箱** — `NestBeeBox` ｜父类: BaseNest ｜_Starlight
+- **蜂巢** — `NestBeeHive` ｜父类: BaseNest ｜_Starlight
+- **老鼠窝** — `NestMouse` ｜父类: BaseNest ｜_Starlight
+- **蛇巢** — `NestSnake` ｜父类: BaseNest ｜_Starlight
+- **网络探针程序卡** — `NetProbeCartridge` ｜父类: BasePDACartridge,BaseEngineeringContraband
+- **荨麻** — `Nettle` ｜父类: ProduceBaseRuminant
+- **荨麻籽包** — `NettleSeeds` ｜父类: SeedBase
+- **网络配置器** — `NetworkConfigurator` ｜父类: BaseItem
+- **神经链接干扰器** — `NeuralLinkDisruptor` ｜父类: BaseItem ｜_Starlight
+- **新闻阅读程序卡** — `NewsReaderCartridge` ｜父类: BasePDACartridge
+- **牛顿摆** — `NewtonCradle` ｜父类: BaseItem
+- **忍者ID卡** — `NinjaIDCard` ｜父类: IDCardStandard,BaseHighlyIllegalContraband
+- **忍者PDA** — `NinjaPDA` ｜父类: BaseHighlyIllegalContraband,BasePDA
+- **氮气罐** — `NitrogenTank` ｜父类: GasTankRoundBase
+- **一氧化二氮气罐** — `NitrousOxideTank` ｜父类: GasTankRoundBase
+- **诺克图林自动注射器** — `NocturineHypo` ｜父类: BorgHypo,BaseXenoborgContraband
+- **加长型诺克图林自动注射器** — `NocturineHypoPlus` ｜父类: BorgHypo,BaseXenoborgContraband ｜_Starlight
+- **节点扫描仪** — `NodeScanner` ｜父类: BaseItem
+- **赛博节点扫描仪** — `NodeScannerCyber` ｜父类: NodeScanner ｜_Starlight
+- **记事员程序卡** — `NotekeeperCartridge` ｜父类: BasePDACartridge
+- **NT4 播放器** — `NT4PlayerInstrument` ｜父类: BaseHandheldInstrument ｜_Starlight
+- **信用点** — `NTCredit` ｜父类: BaseItem ｜_Starlight
+- **信用点** — `NTCredit10` ｜父类: NTCredit ｜_Starlight
+- **信用点** — `NTCredit100` ｜父类: NTCredit ｜_Starlight
+- **信用点** — `NTCredit1000` ｜父类: NTCredit ｜_Starlight
+- **信用点** — `NTCredit10000` ｜父类: NTCredit ｜_Starlight
+- **信用点** — `NTCredit200` ｜父类: NTCredit ｜_Starlight
+- **信用点** — `NTCredit30000` ｜父类: NTCredit ｜_Starlight
+- **信用点** — `NTCredit50` ｜父类: NTCredit ｜_Starlight
+- **信用点** — `NTCredit500` ｜父类: NTCredit ｜_Starlight
+- **信用点** — `NTCredit60000` ｜父类: NTCredit ｜_Starlight
+- **法则主板（NT 默认）** — `NTDefaultCircuitBoard` ｜父类: BaseSiliconLawboard,BaseSecurityScienceCommandContraband
+- **纳米传讯手持旗 # SL** — `NTHandyFlag` ｜父类: BaseItem
+- **蓝盾干员 ID卡** — `NTNCBlueShieldIDCard` ｜父类: IDCardStandard,BaseCommandContraband ｜_Starlight
+- **海军军官 PDA** — `NTNCBlueShieldPDA` ｜父类: BasePDA ｜_Starlight
+- **NT 海军军官 PDA** — `NTNCCSPDA` ｜父类: BasePDA ｜_Starlight
+- **NT PDA** — `NTSFPDA` ｜父类: CentcomPDA ｜_Starlight
+- **核离心机电路板** — `NuclearCentrifugeMachineCircuitboard` ｜父类: BaseMachineCircuitboard ｜_FarHorizons
+- **核子制造机机控板** — `NuclearFabricatorMachineCircuitboard` ｜父类: BaseMachineCircuitboard ｜_FarHorizons
+- **核选项** — `NuclearGrenade` ｜父类: TimerGrenadeBase
+- **核反应堆平板包装** — `NuclearReactorFlatpack` ｜父类: BaseStructureFlatpack,BaseEngineeringContraband ｜_FarHorizons
+- **核反应堆监控计算机电路板** — `NuclearReactorMonitorComputerCircuitboard` ｜父类: BaseComputerCircuitboard ｜_FarHorizons
+- **小型核反应堆平板包装** — `NuclearReactorSmallFlatpack` ｜父类: BaseStructureFlatpack,BaseEngineeringContraband ｜_Starlight
+- **核弹授权密码** — `NukeCodePaper` ｜父类: Paper
+- **核弹授权密码** — `NukeCodePaperAllNukes` ｜父类: NukeCodePaper ｜_Starlight
+- **核弹授权密码** — `NukeCodePaperStation` ｜父类: NukeCodePaper
+- **核弹授权盘** — `NukeDisk` ｜父类: BaseItem,BaseGrandTheftContraband
+- **核弹授权盘** — `NukeDiskFake` ｜父类: BaseItem,BaseGrandTheftContraband
+- **宣战装置** — `NukeOpsDeclarationOfWar` ｜父类: BaseItem,BaseSyndicateContraband
+- **助理ID卡** — `NukieAgentIDCard` ｜父类: AgentIDCard
+- **虚无空间锚** — `nullspaceanchor` ｜父类: PortableGeneratorBase ｜_Starlight
+- **虚无空间锚电路板** — `NullspaceAnchorMachineCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **一副扑克牌** — `NunoCardDeck` ｜父类: BasePlayingCardDeck ｜_Moffstation
+- **扑克牌盒** — `NunoCardDeckBox` ｜父类: BasePlayingCardDeckBox ｜_Moffstation
+- **法则主板（坚果三定律）** — `NutimovCircuitBoard` ｜父类: BaseSiliconLawboard,BaseSecurityScienceCommandContraband
+- **一捆燕麦** — `OatBushel` ｜父类: ProduceBaseRuminant
+- **燕麦种子包** — `OatSeeds` ｜父类: SeedBase
+- **陶笛** — `OcarinaInstrument` ｜父类: BaseWoodwindInstrument
+- **奇怪的鹿毛绒玩偶** — `OddDeerPlushie` ｜父类: BasePlushie ｜_Starlight
+- **标准曲柄手杖** — `OffsetCane` ｜父类: BaseItem
+- **彩虹曲柄手杖** — `OffsetCaneClown` ｜父类: OffsetCane
+- **条纹曲柄手杖** — `OffsetCaneMime` ｜父类: OffsetCane
+- **纳米传讯曲柄手杖** — `OffsetCaneNT` ｜父类: OffsetCane
+- **木制曲柄手杖** — `OffsetCaneWood` ｜父类: OffsetCane
+- **油剂包** — `OilPack` ｜父类: BaseHealingItem ｜_FarHorizons
+- **油剂包** — `OilPack1` ｜父类: OilPack ｜_FarHorizons
+- **油剂包** — `OilPack5` ｜父类: OilPack ｜_Starlight
+- **油色史莱姆提取物** — `OilSlimeExtract` ｜父类: BaseSlimeExtract ｜_Starlight
+- **油色史莱姆提取物（已填充）** — `OilSlimeExtractFilled` ｜父类: BaseSlimeExtractFilled,OilSlimeExtract ｜_Starlight
+- **软膏** — `Ointment` ｜父类: BaseHealingItem
+- **软膏** — `Ointment1` ｜父类: Ointment
+- **再生网** — `OintmentAdvanced1` ｜父类: RegenerativeMesh
+- **不祥药丸** — `OminousPill` ｜父类: Pill ｜_Starlight
+- **全能工具** — `Omnitool` ｜父类: BaseItem
+- **锻造全能工具** — `OmnitoolForged` ｜父类: BaseItem ｜_Starlight
+- **土制全能工具** — `OmnitoolImprovised` ｜父类: BaseItem ｜_Starlight
+- **粗制全能工具** — `OmnitoolMakeshift` ｜父类: CrowbarWrenchScrewdriverMakeshift ｜_Starlight
+- **红洋葱种子包** — `OnionRedSeeds` ｜父类: SeedBase
+- **包洋葱种子** — `OnionSeeds` ｜父类: SeedBase
+- **辛迪加行动员 ID卡** — `OperativeIDCard` ｜父类: IDCardStandard,BaseSyndicateContraband ｜_Starlight
+- **大烧杯** — `OpporozidoneBeakerLarge` ｜父类: LargeBeaker ｜_Starlight
+- **橙子种子包** — `OrangeSeeds` ｜父类: SeedBase
+- **橙色史莱姆提取物** — `OrangeSlimeExtract` ｜父类: BaseSlimeExtract ｜_Starlight
+- **橙色史莱姆提取物（已填充）** — `OrangeSlimeExtractFilled` ｜父类: BaseSlimeExtractFilled,OrangeSlimeExtract ｜_Starlight
+- **矿石袋** — `OreBag` ｜父类: BaseStorageItem
+- **储物矿石袋** — `OreBagOfHolding` ｜父类: OreBag
+- `模板` **OreBase** — `OreBase` ｜父类: BaseItem
+- **工业 矿石处理机 机器主板** — `OreProcessorIndustrialMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **矿石处理机 机器主板** — `OreProcessorMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **器官树种子包** — `OrganTreeSeeds` ｜父类: SeedBase ｜_Starlight
+- **烤箱电路板** — `OvenMachineCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **法则主板（霸主）** — `OverlordCircuitBoard` ｜父类: BaseSiliconLawboard,BaseSecurityScienceCommandContraband
+- **氧气罐** — `OxygenTank` ｜父类: GasTankRoundBase
+- **包裹** — `PackageDelivery` ｜父类: BaseDelivery
+- **包裹** — `PackageDeliveryEvil` ｜父类: PackageDelivery ｜_Starlight
+- **包裹** — `PackageDeliveryRewardPlush` ｜父类: BasePackageDeliveryReward ｜_Starlight
+- **信件** — `PackageDeliveryRewardSyndicateLetter` ｜父类: LetterDeliveryEvil ｜_Starlight
+- **卷烟纸包** — `PackPaperRolling` ｜父类: BaseStorageItem
+- **带滤嘴的卷烟纸包** — `PackPaperRollingFilters` ｜父类: PackPaperRolling
+- **帕迪改装套件** — `PaddyUpgradeKit` ｜父类: BaseExosuitParts ｜_Starlight
+- **连体筷子** — `PairedChopsticks` ｜父类: BaseItem
+- **法则主板（圣骑士）** — `PaladinCircuitBoard` ｜父类: BaseSiliconLawboard,BaseSecurityScienceCommandContraband
+- **圣骑士盾** — `PaladinShield` ｜父类: BaseItem,BaseMajorContraband ｜_Starlight
+- **圣骑士巨盾** — `PaladinShieldGreat` ｜父类: PaladinShield,BaseMajorContraband ｜_Starlight
+- **熊猫毛绒玩偶** — `PandaPlushie` ｜父类: BasePlushie ｜_Starlight
+- **排箫** — `PanFluteInstrument` ｜父类: BaseWoodwindInstrument
+- **法则板（恐慌莫夫）** — `PanicmovCircuitBoard` ｜父类: BaseElectronics,BaseSecurityScienceCommandContraband ｜_Starlight
+- **纸** — `Paper` ｜父类: BasePaper
+- **访问日志** — `PaperAccessLogs` ｜父类: ForensicReportPaper
+- `模板` **采购单** — `PaperAcquisitionSlip` ｜父类: Paper
+- **采购单** — `PaperAcquisitionSlipCargo` ｜父类: PaperAcquisitionSlip
+- **采购单** — `PaperAcquisitionSlipEngineering` ｜父类: PaperAcquisitionSlip
+- **采购单** — `PaperAcquisitionSlipMedical` ｜父类: PaperAcquisitionSlip
+- **采购单** — `PaperAcquisitionSlipScience` ｜父类: PaperAcquisitionSlip
+- **采购单** — `PaperAcquisitionSlipSecurity` ｜父类: PaperAcquisitionSlip
+- **采购单** — `PaperAcquisitionSlipService` ｜父类: PaperAcquisitionSlip
+- **神器分析仪打印件** — `PaperArtifactAnalyzer` ｜父类: Paper
+- **纸藤卷** — `Papercane` ｜父类: ProduceBase
+- **纸蔗种子包** — `PapercaneSeeds` ｜父类: SeedBase
+- **舰长的心声** — `PaperCaptainsThoughts` ｜父类: Paper
+- **悬赏货单** — `PaperCargoBountyManifest` ｜父类: PaperCargoInvoice
+- **货运发票** — `PaperCargoInvoice` ｜父类: Paper
+- **角色卡** — `PaperCNCSheet` ｜父类: Paper
+- **纳米任务条目** — `PaperNanoTaskItem` ｜父类: Paper
+- **纳米传讯—中央指挥部公文纸** — `PaperNTCC` ｜父类: Paper ｜_Starlight
+- **办公用纸** — `PaperOffice` ｜父类: Paper
+- **卷烟纸** — `PaperRolling` ｜父类: BaseItem
+- **卷烟纸** — `PaperRolling1` ｜父类: PaperRolling
+- **打捞任务货运标签** — `PaperSalvageJobLabel` ｜父类: PaperCargoInvoice
+- **废纸** — `PaperScrap` ｜父类: BasePaper
+- **纸** — `PaperWritten` ｜父类: Paper
+- **急救员ID卡** — `ParamedicIDCard` ｜父类: IDCardStandard
+- **急救员PDA** — `ParamedicPDA` ｜父类: BaseMedicalPDA
+- **包裹纸** — `ParcelWrap` ｜父类: BaseItem
+- **蓝空间包裹纸** — `ParcelWrapAdmeme` ｜父类: ParcelWrap
+- **包裹纸** — `ParcelWrapTrash` ｜父类: BaseItem
+- **帕奇西棋盘** — `ParchisBoard` ｜父类: BaseBoardEntity
+- **parchís** — `ParchisBoardTabletop` ｜父类: BaseBoardTabletop
+- `模板` **PartBase** — `PartBase` ｜父类: BaseItem
+- **PA 控制箱 计算机主板** — `ParticleAcceleratorComputerCircuitboard` ｜父类: BaseComputerCircuitboard
+- **金属棒** — `PartRodMetal` ｜父类: PartBase,BaseQuickConstructionMaterial
+- **金属棒** — `PartRodMetal1` ｜父类: PartRodMetal
+- **金属棒** — `PartRodMetal10` ｜父类: PartRodMetal
+- **贴片** — `Patch` ｜父类: BasePatch ｜_Starlight
+- **外伤贴片** — `PatchBrute` ｜父类: BasePatch ｜_Starlight
+- **灼伤贴片** — `PatchBurn` ｜父类: BasePatch ｜_Starlight
+- **小型灼伤贴片** — `PatchBurnSmall` ｜父类: BasePatch ｜_Starlight
+- **小丑贴片** — `PatchClown` ｜父类: BasePatch ｜_Starlight
+- **医疗贴片** — `PatchMedical` ｜父类: BasePatch ｜_Starlight
+- **贴片包** — `PatchPack` ｜父类: BaseStorageItem ｜_Starlight
+- **豌豆荚包** — `PeaSeeds` ｜父类: SeedBase
+- **弹丸（球形，燃烧弹）** — `PelletClusterIncendiary` ｜父类: BaseBulletIncendiary
+- **pellet (ball, rubber)** — `PelletClusterLesserRubber` ｜父类: BaseBullet ｜_Starlight
+- **弹丸（球形，低致命）** — `PelletClusterLessLethal` ｜父类: BaseBullet
+- **弹丸（球形，致命）** — `PelletClusterLethal` ｜父类: BaseBullet
+- **弹丸（球形，橡胶）** — `PelletClusterRubber` ｜父类: BaseBullet
+- **玻璃碎片** — `PelletGlass` ｜父类: BaseBullet
+- **玻璃碎片** — `PelletGlassSpread` ｜父类: PelletGlass
+- **葡萄弹弹丸** — `PelletGrapeshot` ｜父类: BaseBullet
+- **葡萄弹弹丸** — `PelletGrapeshotSpread` ｜父类: PelletGrapeshot
+- **12 号鹿弹** — `PelletShotgun` ｜父类: BaseBullet
+- **12 号豆袋弹** — `PelletShotgunBeanbag` ｜父类: BaseBullet
+- **基础激光射线** — `PelletShotgunBeanbagTrace` ｜父类: BulletTrace ｜_Starlight
+- **基础激光射线** — `PelletShotgunBirdshotSpreadTrace` ｜父类: PelletShotgunBirdshotTrace ｜_Starlight
+- **基础激光射线** — `PelletShotgunBirdshotTrace` ｜父类: BulletTrace ｜_Starlight
+- **基础激光射线** — `PelletShotgunBreachSpreadTrace` ｜父类: PelletShotgunBreachTrace ｜_Starlight
+- **基础激光射线** — `PelletShotgunBreachTrace` ｜父类: BulletTrace ｜_Starlight
+- **12 号照明弹** — `PelletShotgunFlare`
+- **基础激光射线** — `PelletShotgunFlareTrace` ｜父类: BulletTrace ｜_Starlight
+- **简易霰弹** — `PelletShotgunImprovised` ｜父类: BaseBullet
+- **简易霰弹** — `PelletShotgunImprovisedSpread` ｜父类: PelletShotgunImprovised
+- **基础激光射线** — `PelletShotgunImprovisedSpreadTrace` ｜父类: PelletShotgunImprovisedTrace ｜_Starlight
+- **基础激光射线** — `PelletShotgunImprovisedTrace` ｜父类: BulletTrace ｜_Starlight
+- **12 号燃烧鹿弹** — `PelletShotgunIncendiary` ｜父类: BaseBulletIncendiary
+- **12 号燃烧鹿弹** — `PelletShotgunIncendiarySpread` ｜父类: PelletShotgunIncendiary
+- **基础激光射线** — `PelletShotgunIncendiarySpreadTrace` ｜父类: PelletShotgunIncendiaryTrace ｜_Starlight
+- **基础激光射线** — `PelletShotgunIncendiaryTrace` ｜父类: BulletTrace ｜_Starlight
+- **12 号空包弹** — `PelletShotgunPractice` ｜父类: BaseBulletPractice
+- **12 号空包弹** — `PelletShotgunPracticeSpread` ｜父类: PelletShotgunPractice
+- **基础激光射线** — `PelletShotgunPracticeSpreadTrace` ｜父类: PelletShotgunPracticeTrace ｜_Starlight
+- **基础激光射线** — `PelletShotgunPracticeTrace` ｜父类: BulletTrace ｜_Starlight
+- **12 号独头弹** — `PelletShotgunSlug` ｜父类: BaseBullet
+- **基础激光射线** — `PelletShotgunSlugTrace` ｜父类: BulletTrace ｜_Starlight
+- **12 号鹿弹** — `PelletShotgunSpread` ｜父类: PelletShotgun
+- **基础激光射线** — `PelletShotgunSpreadTrace` ｜父类: PelletShotgunTrace ｜_Starlight
+- **基础激光射线** — `PelletShotgunTozSpreadTrace` ｜父类: PelletShotgunTozTrace ｜_Starlight
+- **基础激光射线** — `PelletShotgunTozTrace` ｜父类: BulletTrace ｜_Starlight
+- **基础激光射线** — `PelletShotgunTrace` ｜父类: BulletTrace ｜_Starlight
+- **12 号麻醉独头弹** — `PelletShotgunTranquilizer` ｜父类: BaseBulletPractice
+- **12 号铀鹿弹** — `PelletShotgunUranium` ｜父类: BaseBulletUranium
+- **12 号铀鹿弹** — `PelletShotgunUraniumSpread` ｜父类: PelletShotgunUranium
+- **基础激光射线** — `PelletShotgunUraniumSpreadTrace` ｜父类: PelletShotgunUraniumTrace ｜_Starlight
+- **基础激光射线** — `PelletShotgunUraniumTrace` ｜父类: BulletTrace ｜_Starlight
+- **钢笔** — `Pen` ｜父类: BaseItem
+- **舰长的自来水笔** — `PenCap` ｜父类: PenEmbeddable
+- **中央指挥部钢笔** — `PenCentcom` ｜父类: BaseAdvancedPen,BaseCentcommContraband
+- **赛博笔** — `PenCyber` ｜父类: Pen ｜_Starlight
+- `模板` **PenEmbeddable** — `PenEmbeddable` ｜父类: Pen
+- **钢笔** — `PenExploding` ｜父类: Pen
+- **爆炸笔盒** — `PenExplodingBox` ｜父类: BaseItem,BaseSyndicateContraband
+- **钢笔** — `PenExplodingWorn` ｜父类: PenExploding ｜_Starlight
+- **人事主管的自来水笔** — `PenHop` ｜父类: PenEmbeddable
+- **纳米传讯代表钢笔** — `PenNTR` ｜父类: PenEmbeddable,BaseCommandContraband ｜_Starlight
+- **自动注射器包** — `PenPackMedical` ｜父类: BasePenPack,BaseMedicalContraband ｜_Starlight
+- **自动注射器包** — `PenPackSecurity` ｜父类: BasePenPack,BaseSecurityContraband ｜_Starlight
+- **烧焦的羽毛笔** — `PenQuillBurnt` ｜父类: PenEmbeddable,BaseMajorContraband ｜_Starlight
+- **巫师的魔法笔** — `PenWiz` ｜父类: PenEmbeddable,BaseMagicalContraband
+- **百分骰** — `PercentileDie` ｜父类: BaseDice
+- **表演者 ID卡** — `PerformerIDCard` ｜父类: IDCardStandard ｜_Starlight
+- **表演者 PDA** — `PerformerPDA` ｜父类: BasePDA ｜_Starlight
+- **个人 AI 设备** — `PersonalAI` ｜父类: BaseItem,BaseSiliconLanguages
+- **害虫喷雾剂** — `PestSpray` ｜父类: WeedSpray
+- **宠物提箱** — `PetCarrier` ｜父类: BaseStructureDynamic
+- **红色电话** — `PhoneInstrument` ｜父类: BaseHandheldInstrument
+- **血红电话** — `PhoneInstrumentSyndicate` ｜父类: PhoneInstrument
+- **钢琴** — `PianoInstrument` ｜父类: BasePlaceableInstrumentRotatable
+- **镐** — `Pickaxe` ｜父类: BaseItem
+- **钻石镐** — `PickaxeDiamond` ｜父类: Pickaxe ｜_Starlight
+- **相框** — `PictureFrame` ｜父类: BaseItem ｜_Starlight
+- **小猪毛绒玩偶** — `PigPlushie` ｜父类: BasePlushie ｜_Starlight
+- **丸** — `Pill` ｜父类: BaseItem
+- **安布佐丸** — `PillAmbuzol` ｜父类: Pill
+- **安布佐加丸** — `PillAmbuzolPlus` ｜父类: Pill
+- **丸** — `PillBicaridine` ｜父类: Pill
+- **药丸罐** — `PillCanister` ｜父类: BaseStorageItem
+- **药丸罐** — `PillCanisterBicaridine` ｜父类: PillCanister
+- **药丸罐** — `PillCanisterCharcoal` ｜父类: PillCanister
+- **药丸罐** — `PillCanisterCopper` ｜父类: PillCanister
+- **药丸罐** — `PillCanisterDermaline` ｜父类: PillCanister
+- **药丸罐** — `PillCanisterDexalin` ｜父类: PillCanister
+- **药丸罐** — `PillCanisterDylovene` ｜父类: PillCanister
+- **药丸罐** — `PillCanisterHydrogen` ｜父类: PillCanister ｜_Starlight
+- **药丸罐** — `PillCanisterHyronalin` ｜父类: PillCanister
+- **药丸罐** — `PillCanisterIron` ｜父类: PillCanister
+- **药丸罐** — `PillCanisterKelotane` ｜父类: PillCanister
+- **药丸罐** — `PillCanisterNitrogen` ｜父类: PillCanister ｜_Starlight
+- **药丸罐** — `PillCanisterPotassiumIodide` ｜父类: PillCanister
+- **药丸罐** — `PillCanisterPsicodine` ｜父类: PillCanister ｜_Starlight
+- **药丸罐** — `PillCanisterRandom` ｜父类: PillCanister
+- **药丸罐** — `PillCanisterTricordrazine` ｜父类: PillCanister
+- **丸** — `PillCharcoal` ｜父类: Pill
+- **丸** — `PillCopper` ｜父类: Pill
+- **丸** — `PillDermaline` ｜父类: Pill
+- **脱氧麻黄碱** — `PillDesoxyephedrine` ｜父类: Pill ｜_Starlight
+- **脱氧麻黄碱** — `PillDesoxyephedrine5` ｜父类: Pill ｜_Starlight
+- **丸** — `PillDexalin` ｜父类: Pill
+- **丸** — `PillDylovene` ｜父类: Pill
+- **金色药丸** — `PillGold` ｜父类: Pill ｜_Starlight
+- **金色药丸** — `PillGold5` ｜父类: Pill ｜_Starlight
+- **药丸** — `PillHydrogen10` ｜父类: Pill ｜_Starlight
+- **药丸** — `PillHydrogen5` ｜父类: Pill ｜_Starlight
+- **丸** — `PillHyronalin` ｜父类: Pill
+- **丸** — `PillIron` ｜父类: Pill
+- **丸** — `PillKelotane` ｜父类: Pill
+- **铅** — `PillLead` ｜父类: Pill ｜_Starlight
+- **铅** — `PillLead5` ｜父类: Pill ｜_Starlight
+- **药丸** — `PillNitrogen10` ｜父类: Pill ｜_Starlight
+- **药丸** — `PillNitrogen5` ｜父类: Pill ｜_Starlight
+- **丸** — `PillPotassiumIodide` ｜父类: Pill
+- **药丸** — `PillPsicodine` ｜父类: Pill ｜_Starlight
+- **罗默罗丸** — `PillRomerol` ｜父类: Pill
+- **太空海市蜃楼** — `PillSpaceDrugs` ｜父类: Pill
+- **丸** — `PillTricordrazine` ｜父类: Pill
+- **包菠萝籽** — `PineappleSeeds` ｜父类: SeedBase
+- **粉色史莱姆提取物** — `PinkSlimeExtract` ｜父类: BaseSlimeExtract ｜_Starlight
+- **粉色史莱姆提取物（已填充）** — `PinkSlimeExtractFilled` ｜父类: BaseSlimeExtractFilled,PinkSlimeExtract ｜_Starlight
+- `模板` **定位针** — `PinpointerBase` ｜父类: BaseItem
+- **??$%%#? 定位针** — `PinpointerDerelictXenoborg` ｜父类: PinpointerMothership ｜_Starlight
+- **母舰核心定位针** — `PinpointerMothership` ｜父类: PinpointerBase,BaseXenoborgContraband
+- **核心定位针碎片** — `PinpointerMothershipPiece` ｜父类: BaseItem
+- **修复的核心定位针** — `PinpointerMothershipRepaired` ｜父类: PinpointerMothership
+- **定位针** — `PinpointerNuclear` ｜父类: PinpointerBase,BaseGrandTheftContraband
+- **空间站定位针** — `PinpointerStation` ｜父类: PinpointerBase
+- **辛迪加定位针** — `PinpointerSyndicateNuclear` ｜父类: PinpointerBase,BaseSyndicateContraband
+- **目标信标** — `PinpointerTerminator` ｜父类: PinpointerBase ｜_Starlight
+- **万能定位针** — `PinpointerUniversal` ｜父类: PinpointerBase
+- **管状炸弹** — `PipeBomb` ｜父类: TimerGrenadeBase,BaseMinorContraband
+- **管状炸弹** — `PipeBombCable` ｜父类: BaseItem,BaseMinorContraband
+- **管状炸弹** — `PipeBombGunpowder` ｜父类: BaseItem,BaseMinorContraband
+- **海盗破锁器** — `PirateBreaker` ｜父类: PirateBreakerUnlimited ｜_Starlight
+- **海盗破锁器** — `PirateBreakerUnlimited` ｜父类: BaseItem,BaseSyndicateContraband ｜_Starlight
+- **海盗手持旗** — `PirateHandyFlag` ｜父类: BaseItem
+- **海盗ID卡** — `PirateIDCard` ｜父类: IDCardStandard,BaseMajorContraband
+- **海盗PDA** — `PiratePDA` ｜父类: BaseMajorContraband,SyndiPDA
+- **金属饮料壶** — `Pitcher` ｜父类: DrinkBaseMaterialStrongMetal,DrinkBase,DrinkVisualsFill
+- **披萨盒** — `Pizzabomb` ｜父类: FoodBoxPizzaFilled ｜_Starlight
+- **PKA改装套件（伤害）** — `PKAUpgradeDamage` ｜父类: BasePKAUpgrade
+- **PKA改装套件（射速）** — `PKAUpgradeFireRate` ｜父类: BasePKAUpgrade
+- **PKA改装套件（射程）** — `PKAUpgradeRange` ｜父类: BasePKAUpgrade
+- **植物包** — `PlantBag` ｜父类: BaseStorageItem
+- **植物-B-消失** — `PlantBGoneSpray` ｜父类: SprayBottleBase
+- **迷你瓶** — `PlasmaChemistryVial` ｜父类: ChemistryEmptyVialSmall
+- **等离子玻璃控制棒** — `PlasmaGlassReactorControlRod` ｜父类: BaseReactorControlRod,ReactorPartMaterialPlasmaGlass ｜_FarHorizons
+- **等离子玻璃气体通道棒** — `PlasmaGlassReactorGasChannel` ｜父类: BaseReactorGasChannel,ReactorPartMaterialPlasmaGlass ｜_FarHorizons
+- **等离子玻璃换热棒** — `PlasmaGlassReactorHeatExchanger` ｜父类: BaseReactorHeatExchanger,ReactorPartMaterialPlasmaGlass ｜_FarHorizons
+- **等离子矿石** — `PlasmaOre` ｜父类: OreBase
+- **等离子矿石** — `PlasmaOre1` ｜父类: PlasmaOre
+- **等离子体燃料棒** — `PlasmaReactorFuelRod` ｜父类: BaseReactorFuelRod ｜_FarHorizons
+- **等离子简易尖刀** — `PlasmaShiv` ｜父类: Shiv
+- **等离子体罐** — `PlasmaTank` ｜父类: GasTankBase
+- **塑钢丝** — `PlasteelFilament` ｜父类: BaseItem ｜_Starlight
+- **塑钢燃气轮机叶片** — `PlasteelGasTurbineBlade` ｜父类: BaseGasTurbineBlade ｜_FarHorizons
+- **塑钢控制棒** — `PlasteelReactorControlRod` ｜父类: BaseReactorControlRod,ReactorPartMaterialPlasteel ｜_FarHorizons
+- **塑钢气体通道棒** — `PlasteelReactorGasChannel` ｜父类: BaseReactorGasChannel,ReactorPartMaterialPlasteel ｜_FarHorizons
+- **塑钢换热棒** — `PlasteelReactorHeatExchanger` ｜父类: BaseReactorHeatExchanger,ReactorPartMaterialPlasteel ｜_FarHorizons
+- **香蕉** — `PlasticBanana` ｜父类: FoodProduceBase
+- **一副扑克牌** — `PlayingCardDeckBlack` ｜父类: BasePlayingCardDeck ｜_Moffstation
+- **扑克牌盒** — `PlayingCardDeckBoxBlack` ｜父类: BasePlayingCardDeckBox ｜_Moffstation
+- **扑克牌盒** — `PlayingCardDeckBoxNanotrasen` ｜父类: BasePlayingCardDeckBox ｜_Moffstation
+- **扑克牌盒** — `PlayingCardDeckBoxSyndicate` ｜父类: BasePlayingCardDeckBox ｜_Moffstation
+- **一副扑克牌** — `PlayingCardDeckDynamic` ｜父类: BasePlayingCardDeck ｜_Moffstation
+- **一副扑克牌** — `PlayingCardDeckNanotrasen` ｜父类: BasePlayingCardDeck ｜_Moffstation
+- **一副扑克牌** — `PlayingCardDeckSyndicate` ｜父类: BasePlayingCardDeck ｜_Moffstation
+- **扑克牌** — `PlayingCardDynamic` ｜父类: BasePlayingCard ｜_Moffstation
+- **一手牌** — `PlayingCardHandDynamic` ｜父类: BaseItem ｜_Moffstation
+- **柱塞** — `Plunger` ｜父类: BaseItem
+- **阿玛莉毛绒玩偶** — `PlushieAmali` ｜父类: PlushieHuman ｜_Starlight
+- **蛛人毛绒玩具** — `PlushieArachind` ｜父类: BasePlushie
+- **阿什毛绒玩偶** — `PlushieAsh` ｜父类: BaseVulpkaninPlushie ｜_Starlight
+- **大气勇士毛绒玩具** — `PlushieAtmosian` ｜父类: BasePlushie
+- **鸣笛巴弗毛绒玩偶** — `PlushieBarfo` ｜父类: BasePlushie ｜_Starlight
+- **蜜蜂毛绒玩具** — `PlushieBee` ｜父类: BasePlushie
+- **亮眼毛绒玩偶** — `PlushieBrighteyes` ｜父类: BaseFelionoidPlushie ｜_Starlight
+- **太空鲤鱼毛绒玩具** — `PlushieCarp` ｜父类: BasePlushie
+- **黑暗森林实体** — `PlushieDarkForest` ｜父类: BasePlushie ｜_Starlight
+- **狄奥娜毛绒玩具** — `PlushieDiona` ｜父类: BasePlushie
+- **多克斯舰长毛绒玩偶** — `PlushieDoxesTheCaptain` ｜父类: BasePlushie ｜_Starlight
+- **艾娜毛绒玩偶** — `PlushieEina` ｜父类: BaseResomiPlushie ｜_Starlight
+- **艾娜莉娅毛绒玩偶** — `PlushieEinalia` ｜父类: BaseResomiPlushie ｜_Starlight
+- **艾米毛绒玩偶** — `PlushieEmmie` ｜父类: BaseResomiPlushie ｜_Starlight
+- **实验体毛绒玩偶** — `PlushieExperiment` ｜父类: BasePlushie
+- **修修毛绒玩偶** — `PlushieFixes` ｜父类: BasePlushie ｜_Starlight
+- **加里奥小毛绒玩偶** — `PlushieGalio` ｜父类: BasePlushie ｜_Starlight
+- **幽灵毛绒玩具** — `PlushieGhost` ｜父类: BasePlushie
+- **怨灵毛绒玩具** — `PlushieGhostRevenant` ｜父类: PlushieGhost
+- **格拉多斯毛绒玩偶** — `PlushieGlados` ｜父类: BaseBorgPlushie ｜_Starlight
+- **仓鼠毛绒玩具** — `PlushieHampter` ｜父类: BasePlushie
+- **全息鲤鱼毛绒玩具** — `PlushieHolocarp` ｜父类: PlushieCarp
+- **人类毛绒玩偶** — `PlushieHuman` ｜父类: BasePlushie
+- **琪拉毛绒玩偶** — `PlushieKilla` ｜父类: BaseVulpkaninPlushie ｜_Starlight
+- **杀手毛绒玩偶** — `PlushieKiller` ｜父类: BaseVulpkaninPlushie ｜_Starlight
+- **琪欧莎毛绒玩偶** — `PlushieKiosha` ｜父类: BaseResomiPlushie ｜_Starlight
+- **科妮毛绒玩偶** — `PlushieKoni` ｜父类: BaseMothPlushie ｜_Starlight
+- **台灯毛绒玩具** — `PlushieLamp` ｜父类: BasePlushie
+- **兰斯毛绒玩偶** — `PlushieLance` ｜父类: BaseVulpkaninPlushie ｜_Starlight
+- **大型蓝鲨软玩具** — `PlushieLargeSoftShark` ｜父类: BasePlushie ｜_Starlight
+- **莉兹毛绒玩偶** — `PlushieLiz` ｜父类: BaseResomiPlushie ｜_Starlight
+- **蜥蜴毛绒玩偶** — `PlushieLizard` ｜父类: BasePlushie
+- **德拉齐尔毛绒玩偶** — `PlushieLizardInversed` ｜父类: PlushieLizard
+- **助手蜥蜴毛绒玩偶** — `PlushieLizardJobAssistant` ｜父类: BasePlushieLizardJob
+- **大气技师蜥蜴人毛绒玩具** — `PlushieLizardJobAtmospherictechnician` ｜父类: BasePlushieLizardJob
+- **酒保蜥蜴人毛绒玩具** — `PlushieLizardJobBartender` ｜父类: BasePlushieLizardJob
+- **植物学家蜥蜴人毛绒玩具** — `PlushieLizardJobBotanist` ｜父类: BasePlushieLizardJob
+- **拳击手蜥蜴人毛绒玩具** — `PlushieLizardJobBoxer` ｜父类: BasePlushieLizardJob
+- **舰长蜥蜴人毛绒玩具** — `PlushieLizardJobCaptain` ｜父类: BasePlushieLizardJob
+- **货运技师蜥蜴人毛绒玩具** — `PlushieLizardJobCargotechnician` ｜父类: BasePlushieLizardJob
+- **牧师蜥蜴人毛绒玩具 # Starlight** — `PlushieLizardJobChaplain` ｜父类: BasePlushieLizardJob
+- **厨师蜥蜴人毛绒玩具** — `PlushieLizardJobChef` ｜父类: BasePlushieLizardJob
+- **药剂师蜥蜴人毛绒玩具** — `PlushieLizardJobChemist` ｜父类: BasePlushieLizardJob
+- **工程主管蜥蜴人毛绒玩具** — `PlushieLizardJobChiefengineer` ｜父类: BasePlushieLizardJob
+- **医疗主管蜥蜴人毛绒玩具** — `PlushieLizardJobChiefmedicalofficer` ｜父类: BasePlushieLizardJob
+- **小丑蜥蜴人毛绒玩具** — `PlushieLizardJobClown` ｜父类: BasePlushieLizardJob
+- **侦探蜥蜴人毛绒玩具** — `PlushieLizardJobDetective` ｜父类: BasePlushieLizardJob
+- **人事主管蜥蜴人毛绒玩具** — `PlushieLizardJobHeadofpersonnel` ｜父类: BasePlushieLizardJob
+- **安保主管蜥蜴人毛绒玩具** — `PlushieLizardJobHeadofsecurity` ｜父类: BasePlushieLizardJob
+- **清洁工蜥蜴人毛绒玩具** — `PlushieLizardJobJanitor` ｜父类: BasePlushieLizardJob
+- **律师蜥蜴人毛绒玩具** — `PlushieLizardJobLawyer` ｜父类: BasePlushieLizardJob
+- **图书管理员蜥蜴人毛绒玩具** — `PlushieLizardJobLibrarian` ｜父类: BasePlushieLizardJob
+- **医师蜥蜴人毛绒玩具** — `PlushieLizardJobMedicaldoctor` ｜父类: BasePlushieLizardJob
+- **实习医师蜥蜴人毛绒玩具** — `PlushieLizardJobMedicalintern` ｜父类: BasePlushieLizardJob
+- **哑剧演员蜥蜴人毛绒玩具** — `PlushieLizardJobMime` ｜父类: BasePlushieLizardJob
+- **全职业蜥蜴人毛绒玩具** — `PlushieLizardJobMultiweh` ｜父类: BasePlushieLizardJob
+- **乐手蜥蜴人毛绒玩具** — `PlushieLizardJobMusician` ｜父类: BasePlushieLizardJob
+- **急救员蜥蜴人毛绒玩具** — `PlushieLizardJobParamedic` ｜父类: BasePlushieLizardJob
+- **心理医生蜥蜴人毛绒玩具** — `PlushieLizardJobPsychologist` ｜父类: BasePlushieLizardJob
+- **军需官蜥蜴人毛绒玩具** — `PlushieLizardJobQuartermaster` ｜父类: BasePlushieLizardJob
+- **记者蜥蜴人毛绒玩具** — `PlushieLizardJobReporter` ｜父类: BasePlushieLizardJob
+- **研究助理蜥蜴人毛绒玩具** — `PlushieLizardJobResearchassistant` ｜父类: BasePlushieLizardJob
+- **研究主管蜥蜴人毛绒玩具** — `PlushieLizardJobResearchdirector` ｜父类: BasePlushieLizardJob
+- **打捞专员蜥蜴人毛绒玩具** — `PlushieLizardJobSalvagespecialist` ｜父类: BasePlushieLizardJob
+- **科学家蜥蜴人毛绒玩具** — `PlushieLizardJobScientist` ｜父类: BasePlushieLizardJob
+- **安保学员蜥蜴人毛绒玩具** — `PlushieLizardJobSecuritycadet` ｜父类: BasePlushieLizardJob
+- **安保干员蜥蜴人毛绒玩具** — `PlushieLizardJobSecurityofficer` ｜父类: BasePlushieLizardJob
+- **服务人员蜥蜴人毛绒玩具** — `PlushieLizardJobServiceworker` ｜父类: BasePlushieLizardJob
+- **空间站工程师蜥蜴人毛绒玩具** — `PlushieLizardJobStationengineer` ｜父类: BasePlushieLizardJob
+- **技术助理蜥蜴人毛绒玩具** — `PlushieLizardJobTechnicalassistant` ｜父类: BasePlushieLizardJob
+- **典狱长蜥蜴人毛绒玩具** — `PlushieLizardJobWarden` ｜父类: BasePlushieLizardJob
+- **动物管理员蜥蜴人毛绒玩具** — `PlushieLizardJobZookeeper` ｜父类: BasePlushieLizardJob
+- **蜥蜴毛绒玩偶** — `PlushieLizardMirrored` ｜父类: PlushieLizard
+- **魔法鲤鱼毛绒玩具** — `PlushieMagicarp` ｜父类: PlushieCarp
+- **玛拉基毛绒玩偶** — `PlushieMalachi` ｜父类: BaseResomiPlushie ｜_Starlight
+- **马修毛绒玩偶** — `PlushieMatthew` ｜父类: BaseResomiPlushie ｜_Starlight
+- **蜥蜴人哑剧演员毛绒玩偶** — `PlushieMimeLizard` ｜父类: BaseLizardPlushie ｜_Starlight
+- **莫甘娜毛绒玩偶** — `PlushieMorgana` ｜父类: BaseResomiPlushie ｜_Starlight
+- **圆滚滚莫甘娜毛绒玩偶** — `PlushieMorganaRound` ｜父类: BaseResomiPlushie ｜_Starlight
+- **蛾人毛绒玩偶** — `PlushieMoth` ｜父类: BasePlushie
+- **纳西毛绒玩具** — `PlushieNar` ｜父类: BasePlushie
+- **星云毛绒玩偶** — `PlushieNebula` ｜父类: BaseAvaliPlushie ｜_Starlight
+- **核弹特工毛绒玩具** — `PlushieNuke` ｜父类: BasePlushie
+- **乌格人毛绒玩偶** — `PlushieOog` ｜父类: PlushieHuman ｜_Starlight
+- **欧普毛绒玩偶** — `PlushieOp` ｜父类: PlushieHuman ｜_Starlight
+- **企鹅毛绒玩具** — `PlushiePenguin` ｜父类: BasePlushie
+- **珀西毛绒玩偶** — `PlushiePercy` ｜父类: PlushieHuman ｜_Starlight
+- **波利毛绒玩偶** — `PlushiePoley` ｜父类: PlushieHuman ｜_Starlight
+- **彩虹鲤鱼毛绒玩具** — `PlushieRainbowCarp` ｜父类: PlushieCarp
+- **彩虹蜥蜴毛绒玩偶** — `PlushieRainbowLizard` ｜父类: PlushieLizard
+- **拉特瓦尔毛绒玩具** — `PlushieRatvar` ｜父类: BasePlushie
+- **红杉毛绒玩偶** — `PlushieRedwoods` ｜父类: BaseVulpkaninPlushie ｜_Starlight
+- **蕾米毛绒玩偶** — `PlushieRemiie` ｜父类: BaseResomiPlushie ｜_Starlight
+- **炫彩蜜蜂毛绒玩具** — `PlushieRGBee` ｜父类: PlushieBee
+- **瑞娅毛绒玩偶** — `PlushieRhea` ｜父类: BaseResomiPlushie ｜_Starlight
+- **可疑的压铸罗梅罗毛绒玩偶** — `PlushieRomero` ｜父类: PlushieHuman ｜_Starlight
+- **朗尼毛绒玩具** — `PlushieRouny` ｜父类: BasePlushie
+- **露菲娅毛绒玩偶** — `PlushieRufia` ｜父类: BaseVulpkaninPlushie ｜_Starlight
+- **大型盐灯毛绒玩偶** — `PlushieSaltLampLarge` ｜父类: BasePlushie ｜_Starlight
+- **小型盐灯毛绒玩偶** — `PlushieSaltLampSmall` ｜父类: BasePlushie ｜_Starlight
+- **暗影族毛绒玩偶** — `PlushieShadekin` ｜父类: BaseShadekinPlushie ｜_Starlight
+- **蓝鲨毛绒玩具** — `PlushieSharkBlue` ｜父类: BasePlushie
+- **灰鲨毛绒玩具** — `PlushieSharkGrey` ｜父类: PlushieSharkBlue
+- **粉鲨毛绒玩具** — `PlushieSharkPink` ｜父类: PlushieSharkBlue
+- **史莱姆毛绒玩具** — `PlushieSlime` ｜父类: BasePlushie
+- **蛇毛绒玩具** — `PlushieSnake` ｜父类: BasePlushie
+- **太空蜥蜴毛绒玩偶** — `PlushieSpaceLizard` ｜父类: PlushieLizard
+- **瑟隆格勒毛绒玩具** — `PlushieThrongler` ｜父类: BasePlushie
+- **香草毛绒玩偶** — `PlushieVanilla` ｜父类: BaseVulpkaninPlushie ｜_Starlight
+- **病毒毛绒玩偶** — `PlushieVirus` ｜父类: BaseShadekinPlushie ｜_Starlight
+- **沃克斯毛绒玩具** — `PlushieVox` ｜父类: BasePlushie
+- **伏尔卡宁毛绒玩偶** — `PlushieVulp` ｜父类: BasePlushie
+- **W.E.H毛绒玩偶** — `PlushieWEH` ｜父类: BaseBorgPlushie ｜_Starlight
+- **异形毛绒玩具** — `PlushieXeno` ｜父类: BasePlushie
+- **钚燃料棒** — `PlutoniumReactorFuelRod` ｜父类: BaseReactorFuelRod ｜_FarHorizons
+- **点防御 光束** — `PointDefenseBeam` ｜父类: BasicHitscanNoBeam ｜_Starlight
+- **沉思之球** — `PonderingOrb` ｜父类: BaseItem,BaseMagicalContraband
+- **沉思之球** — `PonderingOrbWizard` ｜父类: PonderingOrb
+- **罂粟籽包** — `PoppySeeds` ｜父类: SeedBase
+- **便携式闪光器** — `PortableFlasher` ｜父类: BaseMachine,BaseSecurityContraband
+- **J.R.P.A.C.M.A.N. 型 便携式发电机 机器主板** — `PortableGeneratorJrPacmanMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **P.A.C.M.A.N. 型 便携式发电机 机器主板** — `PortableGeneratorPacmanMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **S.U.P.E.R.P.A.C.M.A.N. 型 便携式发电机 机器主板** — `PortableGeneratorSuperPacmanMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **便携式充电器** — `PortableRecharger` ｜父类: Clothing
+- **便携式洗涤器 机器主板** — `PortableScrubberMachineCircuitBoard` ｜父类: BaseMachineCircuitboard
+- **正电子脑** — `PositronicBrain` ｜父类: BaseItem,BaseSiliconBrainLanguages
+- **土豆人工智能** — `PotatoAI` ｜父类: PersonalAI
+- **超紧凑型AI芯片** — `PotatoAIChip` ｜父类: BaseItem
+- **一包马铃薯种子** — `PotatoSeeds` ｜父类: SeedBase
+- **大容量电源笼** — `PowerCageHigh` ｜父类: BasePowerCage
+- **大容量电源笼** — `PowerCageHighEmpty` ｜父类: PowerCageHigh
+- **中容量电源笼** — `PowerCageMedium` ｜父类: BasePowerCage
+- **中容量电源笼** — `PowerCageMediumEmpty` ｜父类: PowerCageMedium
+- **欧米伽容量电力笼** — `PowerCageOmega` ｜父类: BasePowerCage ｜_Starlight
+- **欧米伽容量电力笼** — `PowerCageOmegaEmpty` ｜父类: PowerCageOmega ｜_Starlight
+- **能量笼充电器 机器主板** — `PowerCageRechargerCircuitboard` ｜父类: BaseMachineCircuitboard
+- **小容量电源笼** — `PowerCageSmall` ｜父类: BasePowerCage
+- **小容量电源笼** — `PowerCageSmallEmpty` ｜父类: PowerCageSmall
+- **古董动力电池原型** — `PowerCellAntiqueProto` ｜父类: BasePowerCell
+- **大容量动力电池** — `PowerCellHigh` ｜父类: BasePowerCell
+- **大容量动力电池** — `PowerCellHighPrinted` ｜父类: PowerCellHigh
+- **超大容量动力电池** — `PowerCellHyper` ｜父类: BasePowerCell
+- **超大容量动力电池** — `PowerCellHyperPrinted` ｜父类: PowerCellHyper
+- **中容量动力电池** — `PowerCellMedium` ｜父类: BasePowerCell
+- **中容量动力电池** — `PowerCellMediumPrinted` ｜父类: PowerCellMedium
+- **微反应器动力电池** — `PowerCellMicroreactor` ｜父类: BasePowerCell
+- **微反应器动力电池** — `PowerCellMicroreactorPrinted` ｜父类: PowerCellMicroreactor
+- **土豆电池** — `PowerCellPotato` ｜父类: BasePowerCell
+- `模板` **PowerCellSlotHighItem** — `PowerCellSlotHighItem`
+- `模板` **PowerCellSlotMediumItem** — `PowerCellSlotMediumItem`
+- `模板` **PowerCellSlotSmallItem** — `PowerCellSlotSmallItem`
+- `模板` **PowerCellSlotTinyItem** — `PowerCellSlotTinyItem` ｜_Starlight
+- **小容量动力电池** — `PowerCellSmall` ｜父类: BasePowerCell
+- **小容量核动力电池** — `PowerCellSmallNuclear` ｜父类: PowerCellSmall
+- **小容量动力电池** — `PowerCellSmallPrinted` ｜父类: PowerCellSmall
+- **狱医除颤器电池** — `PowerCellTiny` ｜父类: BasePowerCell ｜_Starlight
+- **赛博除颤器电池** — `PowerCellTinyCyber` ｜父类: BasePowerCell ｜_Starlight
+- **超大容量电池** — `PowerCellUltra` ｜父类: BasePowerCell ｜_Starlight
+- **电力监控计算机 主板** — `PowerComputerCircuitboard` ｜父类: BaseComputerCircuitboard
+- **电力监控台式电脑电路板** — `PowerComputerCircuitboardDesktop` ｜父类: PowerComputerCircuitboard ｜_Starlight
+- **电钻** — `PowerDrill` ｜父类: BaseItem
+- **赛博电钻** — `PowerDrillCyber` ｜父类: PowerDrill ｜_Starlight
+- **电源散热器** — `PowerSink` ｜父类: BaseMachine,BaseSyndicateContraband
+- **基础激光射线** — `PracticeBulletTrace` ｜父类: BulletTrace ｜_Starlight
+- `模板` **PrefilledSyringe** — `PrefilledSyringe` ｜父类: BaseSyringe
+- **礼物** — `Present` ｜父类: PresentBase,BaseStorageItem
+- `模板` **礼物** — `PresentBase`
+- **礼物** — `PresentRandom` ｜父类: PresentBase,BaseItem
+- **礼物** — `PresentRandomCash` ｜父类: PresentBase,BaseItem
+- **礼物** — `PresentRandomCoal` ｜父类: PresentBase,BaseItem
+- **礼物** — `PresentRandomInsane` ｜父类: PresentRandomUnsafe
+- **礼物** — `PresentRandomUnsafe` ｜父类: PresentBase,BaseItem
+- **包装纸** — `PresentTrash` ｜父类: BaseItem
+- **赛博打印机** — `PrinterCyber` ｜父类: BaseItem ｜_Starlight
+- **文件打印机平板包装** — `PrinterDocFlatpack` ｜父类: BaseFlatpack ｜_Starlight
+- **文档打印机电路板** — `PrinterDocMachineCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **囚犯ID卡** — `PrisonerIDCard` ｜父类: IDCardStandard
+- **囚犯 ID卡** — `PrisonerJobIDCard` ｜父类: IDCardStandard ｜_Starlight
+- **囚犯 PDA** — `PrisonerPDA` ｜父类: ClearPDA ｜_Starlight
+- `模板` **ProduceBase** — `ProduceBase` ｜父类: BaseItem
+- `模板` **ProduceBaseRuminant** — `ProduceBaseRuminant` ｜父类: ProduceBase
+- `模板` **ProduceSliceBase** — `ProduceSliceBase` ｜父类: FoodInjectableBase
+- **火球** — `ProjectileAnomalyFireball` ｜父类: ProjectileFireball
+- **龙息** — `ProjectileDragonsBreath` ｜父类: BaseBulletTrigger
+- **火球** — `ProjectileFireball` ｜父类: BulletRocket
+- `模板` **ProjectileGrenadeBase** — `ProjectileGrenadeBase` ｜父类: BaseItem
+- **治愈弹** — `ProjectileHealingBolt` ｜父类: BaseBullet
+- **冰锥** — `ProjectileIcicle` ｜父类: BaseBullet
+- **诅咒储物柜** — `ProjectileLocker` ｜父类: ClosetSteelBase
+- `模板` **ProjectilePolyboltBase** — `ProjectilePolyboltBase` ｜父类: BaseBullet
+- **面包变形弹** — `ProjectilePolyboltBread` ｜父类: ProjectilePolyboltBase
+- **鲤鱼变形弹** — `ProjectilePolyboltCarp` ｜父类: ProjectilePolyboltBase
+- **受诅小丑变形弹** — `ProjectilePolyboltCluwne` ｜父类: ProjectilePolyboltBase
+- **门变形弹** — `ProjectilePolyboltDoor` ｜父类: ProjectilePolyboltBase
+- **约翰·托聚合弹** — `ProjectilePolyboltJohnToe` ｜父类: ProjectilePolyboltBase ｜_Starlight
+- **猴子变形弹** — `ProjectilePolyboltMonkey` ｜父类: ProjectilePolyboltBase
+- **防护锚** — `protectionanchor` ｜父类: BaseMachinePowered ｜_Starlight
+- **赛博原动能加速器** — `ProtokineticAcceleratorCyber` ｜父类: BaseItem ｜_Starlight
+- **超对流 原型机 机器主板** — `ProtolatheHyperConvectionMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **原型机 机器主板** — `ProtolatheMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **救生钳原型机** — `PrototypeJawsOfLife` ｜父类: JawsOfLife,BaseEngineeringContraband ｜_Starlight
+- **SCSPT-101 振动刃** — `PrototypeVibroblade` ｜父类: BaseSword,BaseCommandContraband ｜_Starlight
+- **接近传感器** — `ProximitySensor` ｜父类: BaseItem
+- **心理医生ID卡** — `PsychologistIDCard` ｜父类: IDCardStandard
+- **心理医生PDA** — `PsychologistPDA` ｜父类: BasePDA
+- **蓝色高能激光射线** — `Pulse` ｜父类: BasicHitscan
+- **南瓜灯** — `PumpkinLantern` ｜父类: CarvedPumpkin
+- **南瓜灯** — `PumpkinLanternLarge` ｜父类: PumpkinLantern
+- **南瓜灯** — `PumpkinLanternSmall` ｜父类: PumpkinLantern
+- **包南瓜子** — `PumpkinSeeds` ｜父类: SeedBase
+- **穿刺酶自动注射器** — `PunctAutoInjector` ｜父类: ChemicalMedipen
+- **潘潘的ID卡 # Starlight apostrophe** — `PunPunIDCard` ｜父类: IDCardStandard
+- **潘潘的 PDA** — `PunPunPDA` ｜父类: BasePDA ｜_Starlight
+- **紫色史莱姆提取物** — `PurpleSlimeExtract` ｜父类: BaseSlimeExtract ｜_Starlight
+- **紫色史莱姆提取物（已填充）** — `PurpleSlimeExtractFilled` ｜父类: BaseSlimeExtractFilled,PurpleSlimeExtract ｜_Starlight
+- **紫色电击警棍** — `PurpleStunbaton` ｜父类: Stunbaton,BaseSecurityContraband ｜_Starlight
+- **按压喇叭** — `PushHorn` ｜父类: BaseItem
+- **吡嗪自动注射器** — `PyraAutoInjector` ｜父类: ChemicalMedipen
+- **黄铁矿色史莱姆提取物** — `PyriteSlimeExtract` ｜父类: BaseSlimeExtract ｜_Starlight
+- **黄铁矿色史莱姆提取物（已填充）** — `PyriteSlimeExtractFilled` ｜父类: BaseSlimeExtractFilled,PyriteSlimeExtract ｜_Starlight
+- **火棉桃** — `PyrottonBol` ｜父类: FoodProduceBase
+- **一包 Pyrotton 种子** — `PyrottonSeeds` ｜父类: SeedBase
+- **军需官ID卡** — `QuartermasterIDCard` ｜父类: IDCardStandard
+- **军需官PDA** — `QuartermasterPDA` ｜父类: BasePDA
+- **质量扫描仪 计算机主板** — `RadarConsoleCircuitboard` ｜父类: BaseComputerCircuitboard
+- **rad自动注射器** — `RadAutoInjector` ｜父类: ChemicalMedipen
+- **赛博辐射投射器** — `RadcasterCyber` ｜父类: BaseWeaponBatterySmall ｜_Starlight
+- **辐射屏障投射器** — `RadiationBlockingProjector` ｜父类: Holoprojector ｜_FarHorizons
+- **辐射收集器平板包装** — `RadiationCollectorFlatpack` ｜父类: BaseFlatpack
+- **手持无线电** — `RadioHandheld` ｜父类: BaseItem
+- **远征无线电** — `RadioHandheldExpedition` ｜父类: RadioHandheld,BaseSalvageMiningContraband ｜_Starlight
+- **安保无线电** — `RadioHandheldSecurity` ｜父类: RadioHandheld,BaseSecurityContraband
+- **无线电植入物** — `RadioImplant` ｜父类: BaseSubdermalImplant
+- **中央指挥部无线电植入物 # Starlight** — `RadioImplantCentcomm` ｜父类: BaseSubdermalImplant
+- **辛迪加无线电植入器** — `RadioImplanter` ｜父类: BaseImplantOnlyImplanterSyndi
+- **中央指挥部无线电植入器** — `RadioImplanterCentcomm` ｜父类: BaseImplantOnlyImplanter
+- **纳米传讯无线电植入物** — `RadioImplantNanoTrasen` ｜父类: BaseSubdermalImplant ｜_Starlight
+- **无线电干扰器** — `RadioJammer` ｜父类: BaseItem,BaseSyndicateContraband
+- **迷你瓶** — `RadiumChemistryVial` ｜父类: ChemistryEmptyVialSmall
+- **辐射 球体** — `RadOrb` ｜父类: BaseBullet ｜_Starlight
+- **湿抹布** — `RagItem` ｜父类: BaseItem
+- **彩虹大麻种子包** — `RainbowCannabisSeeds` ｜父类: SeedBase
+- **彩虹色史莱姆提取物** — `RainbowSlimeExtract` ｜父类: BaseSlimeExtract ｜_Starlight
+- **原始蓝空间水晶** — `RawBluespaceCrystal` ｜父类: OreBase ｜_Starlight
+- **原始蓝空间水晶** — `RawBluespaceCrystal1` ｜父类: RawBluespaceCrystal ｜_Starlight
+- **原始蓝空间水晶** — `RawBluespaceCrystal10` ｜父类: RawBluespaceCrystal ｜_Starlight
+- **RCD** — `RCD` ｜父类: BaseItem,BaseEngineeringContraband
+- **压缩物质** — `RCDAmmo` ｜父类: BaseItem
+- **工程主管实验型RCD** — `RCDChiefEngineer` ｜父类: RCD ｜_Starlight
+- **赛博RCD** — `RCDCyber` ｜父类: RCD ｜_Starlight
+- **RCD** — `RCDEmpty` ｜父类: RCD
+- **实验型RCD** — `RCDExperimental` ｜父类: RCD
+- **实验性RCD** — `RCDRecharging` ｜父类: RCD
+- **异种赛博格RCD** — `RCDXeno` ｜父类: BaseItem,BaseEngineeringContraband ｜_Starlight
+- **研究主管博士学位证** — `RDDiploma` ｜父类: BasePaper,BaseGrandTheftContraband ｜_Starlight
+- **研究主管ID卡** — `RDIDCard` ｜父类: IDCardStandard
+- `模板` **ReactorPartMaterialBohrum** — `ReactorPartMaterialBohrum` ｜_FarHorizons
+- `模板` **ReactorPartMaterialBrass** — `ReactorPartMaterialBrass` ｜_FarHorizons
+- `模板` **ReactorPartMaterialDiamond** — `ReactorPartMaterialDiamond` ｜_FarHorizons
+- `模板` **ReactorPartMaterialGlass** — `ReactorPartMaterialGlass` ｜_FarHorizons
+- `模板` **ReactorPartMaterialGold** — `ReactorPartMaterialGold` ｜_FarHorizons
+- `模板` **ReactorPartMaterialPlasmaGlass** — `ReactorPartMaterialPlasmaGlass` ｜_FarHorizons
+- `模板` **ReactorPartMaterialPlasteel** — `ReactorPartMaterialPlasteel` ｜_FarHorizons
+- `模板` **ReactorPartMaterialSilver** — `ReactorPartMaterialSilver` ｜_FarHorizons
+- `模板` **ReactorPartMaterialSteel** — `ReactorPartMaterialSteel` ｜_FarHorizons
+- `模板` **ReagentContainerBase** — `ReagentContainerBase` ｜父类: BaseItem
+- **玉米面袋** — `ReagentContainerCornmeal` ｜父类: ReagentPacketBase
+- **玉米面包** — `ReagentContainerCornmealSmall` ｜父类: ReagentPacketBase
+- **面粉袋** — `ReagentContainerFlour` ｜父类: ReagentPacketBase,ItemHeftyBase
+- **面粉包** — `ReagentContainerFlourSmall` ｜父类: ReagentPacketBase,ItemHeftyBase
+- **蛋黄酱** — `ReagentContainerMayo` ｜父类: ReagentPacketBase
+- **橄榄油** — `ReagentContainerOliveoil` ｜父类: ReagentPacketBase
+- **大米袋** — `ReagentContainerRice` ｜父类: ReagentPacketBase
+- **大米包** — `ReagentContainerRiceSmall` ｜父类: ReagentPacketBase
+- **糖袋** — `ReagentContainerSugar` ｜父类: ReagentPacketBase
+- **糖包** — `ReagentContainerSugarSmall` ｜父类: ReagentPacketBase
+- **工业 试剂研磨机 机器主板** — `ReagentGrinderIndustrialMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **试剂研磨机 机器主板** — `ReagentGrinderMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- `模板` **ReagentPacketBase** — `ReagentPacketBase` ｜父类: ReagentContainerBase
+- **一包Capfruit种子** — `RealCapfruitSeeds` ｜父类: SeedBase
+- **竖笛** — `RecorderInstrument` ｜父类: BaseWoodwindInstrument
+- **招募电脑电路板** — `RecruitmentComputerCircuitboard` ｜父类: BaseComputerCircuitboard,BaseGrandTheftContraband ｜_Starlight
+- **红色钝伤药剂外伤包** — `RedBruizPack` ｜父类: BaseStarlightHealingItem ｜_Starlight
+- **红色钝伤药剂外伤包** — `RedBruizPack1` ｜父类: RedBruizPack ｜_Starlight
+- **红色钝伤药剂外伤包** — `RedBruizPack10` ｜父类: RedBruizPack ｜_Starlight
+- **红色瘀伤包** — `RedBrutePack` ｜父类: BaseStarlightHealingItem ｜_Starlight
+- **红色瘀伤包** — `RedBrutePack1` ｜父类: RedBrutePack ｜_Starlight
+- **红色瘀伤包** — `RedBrutePack10` ｜父类: RedBrutePack ｜_Starlight
+- **红色高能激光射线** — `RedHeavyLaser` ｜父类: BasicHitscan
+- **红色切割药剂外伤包** — `RedLacePack` ｜父类: BaseStarlightHealingItem ｜_Starlight
+- **红色切割药剂外伤包** — `RedLacePack1` ｜父类: RedLacePack ｜_Starlight
+- **红色切割药剂外伤包** — `RedLacePack10` ｜父类: RedLacePack ｜_Starlight
+- **红色激光射线** — `RedLaser` ｜父类: BasicHitscan
+- **激光束** — `RedLaserBeam` ｜父类: LaserTrace ｜_Starlight
+- **红色训练激光射线** — `RedLaserPractice` ｜父类: BasicHitscan
+- **红色弱光激光射线** — `RedLightLaser` ｜父类: BasicHitscan
+- **红色增幅激光射线** — `RedMediumLaser` ｜父类: BasicHitscan
+- **红色药膏** — `RedOintment` ｜父类: BaseStarlightHealingItem ｜_Starlight
+- **红色药膏** — `RedOintment1` ｜父类: RedOintment ｜_Starlight
+- **红色药膏** — `RedOintment10` ｜父类: RedOintment ｜_Starlight
+- **红色穿刺药剂外伤包** — `RedPunctPack` ｜父类: BaseStarlightHealingItem ｜_Starlight
+- **红色穿刺药剂外伤包** — `RedPunctPack1` ｜父类: RedPunctPack ｜_Starlight
+- **红色穿刺药剂外伤包** — `RedPunctPack10` ｜父类: RedPunctPack ｜_Starlight
+- **穿梭机级红色激光射线** — `RedShuttleLaser` ｜父类: BasicHitscan
+- **红色史莱姆提取物** — `RedSlimeExtract` ｜父类: BaseSlimeExtract ｜_Starlight
+- **红色史莱姆提取物（已填充）** — `RedSlimeExtractFilled` ｜父类: BaseSlimeExtractFilled,RedSlimeExtract ｜_Starlight
+- **红空间植入物** — `RedspaceImplant` ｜父类: BaseSubdermalImplant ｜_Starlight
+- **红空间植入器** — `RedspaceImplanter` ｜父类: BaseImplantOnlyImplanterSyndi ｜_Starlight
+- **红色棋子** — `RedTabletopPiece` ｜父类: BaseGenericTabletopPiece
+- **反射器平板包装** — `ReflectorFlatpack` ｜父类: BaseStructureFlatpack ｜_Starlight
+- **自补充焊接工具** — `RefuelingWelder` ｜父类: Welder,BaseXenoborgContraband
+- **再生网** — `RegenerativeMesh` ｜父类: BaseHealingItem
+- `模板` **RehydratableAnimalCube** — `RehydratableAnimalCube` ｜父类: RehydratableItem
+- `模板` **RehydratableItem** — `RehydratableItem` ｜父类: BaseItem
+- **强化简易尖刀** — `ReinforcedShiv` ｜父类: Shiv
+- `模板` **辛迪加增援无线电** — `ReinforcementRadio` ｜父类: BaseItem,BaseSyndicateContraband
+- **辛迪加增援无线电** — `ReinforcementRadioSyndicate` ｜父类: ReinforcementRadio
+- **辛迪加遗传先祖增援无线电** — `ReinforcementRadioSyndicateAncestor` ｜父类: ReinforcementRadio
+- **辛迪加遗传先祖增援无线电** — `ReinforcementRadioSyndicateAncestorNukeops` ｜父类: ReinforcementRadioSyndicateAncestor
+- **辛迪加强袭赛博格增援无线电** — `ReinforcementRadioSyndicateCyborgAssault` ｜父类: ReinforcementRadio
+- **辛迪加医疗赛博格增援无线电** — `ReinforcementRadioSyndicateCyborgMedical` ｜父类: ReinforcementRadio ｜_Starlight
+- **辛迪加支援破坏者赛博格增援无线电** — `ReinforcementRadioSyndicateCyborgSaboteur` ｜父类: ReinforcementRadio ｜_Starlight
+- **辛迪加隐形赛博格增援无线电** — `ReinforcementRadioSyndicateCyborgStealth` ｜父类: ReinforcementRadio ｜_Starlight
+- **核弹特工增援无线电** — `ReinforcementRadioSyndicateNukeops` ｜父类: ReinforcementRadio
+- **辛迪猫增援无线电** — `ReinforcementRadioSyndicateSyndiCat` ｜父类: ReinforcementRadio
+- **远程信号器** — `RemoteSignaller` ｜父类: BaseItem
+- **高级远程信号器** — `RemoteSignallerAdvanced` ｜父类: RemoteSignaller
+- **战斗遥控信号器** — `RemoteSignallerCombat` ｜父类: RemoteSignaller ｜_Starlight
+- **雷诺毛绒玩偶** — `RenaultPlushie` ｜父类: BasePlushie ｜_Starlight
+- **法则板（记者）** — `ReporterCircuitBoard` ｜父类: BaseElectronics,BaseSecurityScienceCommandContraband ｜_Starlight
+- **记者ID卡** — `ReporterIDCard` ｜父类: IDCardStandard
+- **记者PDA** — `ReporterPDA` ｜父类: BasePDA
+- **救援刀** — `RescueKnife` ｜父类: BaseKnife,BaseMedicalContraband ｜_Starlight
+- **研发刀片服务器** — `ResearchAndDevelopmentBladeServer` ｜父类: BaseResearchAndDevelopmentServer,ConstructibleBladeServer ｜_Moffstation
+- **研发服务器 机器主板** — `ResearchAndDevelopmentServerMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **研究助理ID卡** — `ResearchAssistantIDCard` ｜父类: IDCardStandard
+- **研究助理PDA** — `ResearchAssistantPDA` ｜父类: BasePDA
+- **R&D 计算机主板** — `ResearchComputerCircuitboard` ｜父类: BaseComputerCircuitboard
+- **研点盘（1000个）** — `ResearchDisk` ｜父类: BaseItem
+- **研点盘（10000个）** — `ResearchDisk10000` ｜父类: ResearchDisk
+- **研点盘（5000个）** — `ResearchDisk5000` ｜父类: ResearchDisk
+- **研点盘** — `ResearchDiskDebug` ｜父类: ResearchDisk
+- **科研部ID卡** — `ResearchIDCard` ｜父类: IDCardStandard
+- **树脂草种子包** — `ResinferaSeeds` ｜父类: SeedBase ｜_Starlight
+- **牵开器** — `Retractor` ｜父类: BaseScissors ｜_Starlight
+- **绑架者的牵开器** — `RetractorAbductor` ｜父类: Retractor ｜_Starlight
+- **高级牵开器** — `RetractorAdvanced` ｜父类: Retractor ｜_Starlight
+- **牵开器** — `RetractorCyber` ｜父类: Retractor ｜_Starlight
+- **牵开器** — `RetractorRipper` ｜父类: Retractor ｜_Starlight
+- **反向钹** — `ReverseCymbalsInstrument` ｜父类: BasePercussionInstrument
+- **革命旗帜** — `RevolutionaryHeldBanner` ｜父类: BaseItem,BaseSovietContraband ｜_Starlight
+- **火帽枪** — `RevolverCapGun` ｜父类: BaseItem,BaseToyGun
+- **火帽枪** — `RevolverCapGunFake` ｜父类: RevolverCapGun
+- **SKB军备裂隙** — `RevSupplyRift` ｜_Starlight
+- **一捆稻穗** — `RiceBushel` ｜父类: ProduceBaseRuminant
+- **包稻种** — `RiceSeeds` ｜父类: SeedBase
+- **步枪枪托** — `RifleStock` ｜父类: BaseItem
+- **防弹盾** — `RiotBulletShield` ｜父类: BaseRepairableShield,BaseSecurityContraband
+- **激光防护罩** — `RiotLaserShield` ｜父类: BaseRepairableShield,BaseSecurityContraband
+- **防暴盾牌** — `RiotShield` ｜父类: BaseRepairableShield,BaseSecurityContraband
+- **雷普利 中央控制模块** — `RipleyCentralElectronics` ｜父类: BaseElectronics
+- **里普利安全带** — `RipleyHarness` ｜父类: BaseRipleyPart
+- **雷普利左臂** — `RipleyLArm` ｜父类: BaseRipleyPartItem
+- **里普利左腿** — `RipleyLLeg` ｜父类: BaseRipleyPartItem
+- **里普利 MK-II 底盘** — `RipleyMKIIChassis` ｜父类: BaseRipleyMKIIPart ｜_Starlight
+- **里普利 MK-II 骨架** — `RipleyMKIIHarness` ｜父类: BaseRipleyMKIIPart ｜_Starlight
+- **雷普利 外设控制模块** — `RipleyPeripheralsElectronics` ｜父类: BaseElectronics
+- **雷普利右臂** — `RipleyRArm` ｜父类: BaseRipleyPartItem
+- **雷普利右腿** — `RipleyRLeg` ｜父类: BaseRipleyPartItem
+- **外骨骼装甲升级套件** — `RipleyUpgradeKit` ｜父类: BaseExosuitParts ｜_Starlight
+- **仪式匕首** — `RitualDagger` ｜父类: BaseItem
+- **研究主管PDA** — `RnDPDA` ｜父类: BasePDA
+- **法则主板（机械战警）** — `RobocopCircuitBoard` ｜父类: BaseSiliconLawboard,BaseSecurityScienceCommandContraband
+- **机器人专家 ID卡** — `RoboticistIDCard` ｜父类: IDCardStandard,BaseScienceContraband ｜_Starlight
+- **机器人专家 PDA** — `RoboticistPDA` ｜父类: BasePDA ｜_Starlight
+- **机器人控制 控制台主板** — `RoboticsConsoleCircuitboard` ｜父类: BaseComputerCircuitboard
+- **摇滚吉他** — `RockGuitarInstrument` ｜父类: BaseStringInstrumentClothing
+- **擀面杖** — `RollingPin` ｜父类: BaseItem
+- **RPD快速管道装置** — `RPD` ｜父类: RCD ｜_Starlight
+- **RPD快速管道装置** — `RPDEmpty` ｜父类: RPD ｜_Starlight
+- **实验型RPD快速管道装置** — `RPDExperimental` ｜父类: RPD ｜_Starlight
+- **实验型RPD快速管道装置** — `RPDRecharging` ｜父类: RPD ｜_Starlight
+- **RPLD快速管路装置** — `RPLD` ｜父类: RCD ｜_Starlight
+- **RPLD快速管路装置** — `RPLDEmpty` ｜父类: RPLD ｜_Starlight
+- **实验型RPLD快速管路装置** — `RPLDExperimental` ｜父类: RPLD ｜_Starlight
+- **实验型RPLD快速管路装置** — `RPLDRecharging` ｜父类: RPLD ｜_Starlight
+- **选择辛迪加的理由！** — `RRMailSyndicateSpamLetter` ｜父类: Paper,BaseSyndicateContraband ｜_Starlight
+- **基础激光射线** — `RubberBulletTrace` ｜父类: BulletTrace ｜_Starlight
+- **橡胶鸡** — `RubberChicken` ｜父类: BaseRubberToy
+- **变形玻璃杯** — `RubberneckGlass` ｜父类: DrinkGlass
+- **“已知悉”橡皮章** — `RubberStampAcknowledged` ｜父类: RubberStampBase ｜_Starlight
+- **“批准”橡皮印章** — `RubberStampApproved` ｜父类: RubberStampBaseAlt
+- `模板` **通用橡皮印章** — `RubberStampBase` ｜父类: BaseItem
+- `模板` **备用橡皮印章** — `RubberStampBaseAlt` ｜父类: RubberStampBase
+- **狱医橡皮章** — `RubberStampBrigmedic` ｜父类: RubberStampBase ｜_Starlight
+- **蓝盾干员橡皮章** — `RubberStampBSO` ｜父类: RubberStampBase,BaseBlueShieldContraband ｜_Starlight
+- **中央行政部门橡皮章** — `RubberStampCAD` ｜父类: RubberStampBase ｜_Starlight
+- **舰长橡皮印章** — `RubberStampCaptain` ｜父类: RubberStampBase,BaseCommandContraband
+- **中央货运部门橡皮章** — `RubberStampCCD` ｜父类: RubberStampBase ｜_Starlight
+- **中央民政部门橡皮章** — `RubberStampCDD` ｜父类: RubberStampBase ｜_Starlight
+- **工程主管橡皮印章** — `RubberStampCE` ｜父类: RubberStampBase,BaseCommandContraband
+- **中央工程部门橡皮章** — `RubberStampCED` ｜父类: RubberStampBase ｜_Starlight
+- **中央指挥部橡皮印章** — `RubberStampCentcom` ｜父类: RubberStampBase
+- **牧师橡皮印章** — `RubberStampChaplain` ｜父类: RubberStampBase
+- **中央情报部门橡皮章** — `RubberStampCID` ｜父类: RubberStampBase ｜_Starlight
+- **小丑橡皮印章** — `RubberStampClown` ｜父类: RubberStampBase
+- **中央医疗部门橡皮章** — `RubberStampCMD` ｜父类: RubberStampBase ｜_Starlight
+- **医疗主管橡皮印章** — `RubberStampCMO` ｜父类: RubberStampBase,BaseCommandContraband
+- **中央科研部门橡皮章** — `RubberStampCRD` ｜父类: RubberStampBase ｜_Starlight
+- **中央安保部门橡皮章** — `RubberStampCSD` ｜父类: RubberStampBase ｜_Starlight
+- **中央特种作战部门橡皮章** — `RubberStampCSOD` ｜父类: RubberStampBase ｜_Starlight
+- **“交由指挥部”橡皮章** — `RubberStampDeferToCommand` ｜父类: RubberStampBase ｜_Starlight
+- **“驳回”橡皮印章** — `RubberStampDenied` ｜父类: RubberStampBaseAlt
+- **侦探橡皮印章** — `RubberStampDetective` ｜父类: RubberStampBase,BaseSecurityContraband
+- **人事主管橡皮印章** — `RubberStampHop` ｜父类: RubberStampBase,BaseCommandContraband
+- **安保主管橡皮印章** — `RubberStampHos` ｜父类: RubberStampBase,BaseCommandContraband
+- **内部事务特工橡皮章** — `RubberStampIAA` ｜父类: RubberStampBase,BaseLawContraband ｜_Starlight
+- **“表格不完整”橡皮章** — `RubberStampIncompleteForm` ｜父类: RubberStampBase ｜_Starlight
+- **“表格错误”橡皮章** — `RubberStampIncorrectForm` ｜父类: RubberStampBase ｜_Starlight
+- **“印章错误”橡皮章** — `RubberStampIncorrectStamps` ｜父类: RubberStampBase ｜_Starlight
+- **律师橡皮印章** — `RubberStampLawyer` ｜父类: RubberStampBase
+- **裁判官橡皮章** — `RubberStampMagistrate` ｜父类: RubberStampBase,BaseCommandContraband ｜_Starlight
+- **哑剧演员橡皮印章** — `RubberStampMime` ｜父类: RubberStampBase
+- **“缺少印章”橡皮章** — `RubberStampMissingStamps` ｜父类: RubberStampBase ｜_Starlight
+- **纳米传讯代表橡皮章** — `RubberStampNtrep` ｜父类: RubberStampBase,BaseCommandContraband ｜_Starlight
+- **心理医生橡皮印章** — `RubberStampPsychologist` ｜父类: RubberStampBase
+- **军需官橡皮印章** — `RubberStampQm` ｜父类: RubberStampBase,BaseCommandContraband
+- **研究主管橡皮印章** — `RubberStampRd` ｜父类: RubberStampBase,BaseCommandContraband
+- **记者橡皮章** — `RubberStampReporter` ｜父类: RubberStampBase ｜_Starlight
+- **打捞队长橡皮章** — `RubberStampSalvageLead` ｜父类: RubberStampBase ｜_Starlight
+- **“已转交审计”橡皮章** — `RubberStampSentToATS` ｜父类: RubberStampBase ｜_Starlight
+- **索尔政府执法部门橡皮章** — `RubberStampSolgovLaw` ｜父类: RubberStampBase ｜_Starlight
+- **索尔政府代表橡皮章** — `RubberStampSolgovRep` ｜父类: RubberStampBase ｜_Starlight
+- **索尔政府商贸部门橡皮章** — `RubberStampSolgovTraders` ｜父类: RubberStampBase ｜_Starlight
+- **“待命”橡皮章** — `RubberStampStandby` ｜父类: RubberStampBase ｜_Starlight
+- **辛迪加橡皮印章** — `RubberStampSyndicate` ｜父类: RubberStampBase,BaseMinorContraband
+- **商人橡皮印章** — `RubberStampTrader` ｜父类: RubberStampBase
+- **太阳联邦橡皮章** — `RubberStampTSF` ｜父类: RubberStampBase ｜_Starlight
+- **太阳联邦海军陆战队橡皮章** — `RubberStampTSMC` ｜父类: RubberStampBase ｜_Starlight
+- **典狱长橡皮印章** — `RubberStampWarden` ｜父类: RubberStampBase,BaseSecurityContraband
+- **巫师橡皮印章** — `RubberStampWizard` ｜父类: RubberStampBase,BaseMagicalContraband
+- **悲伤长号植入物** — `SadTromboneImplant` ｜父类: BaseSubdermalImplant
+- **悲伤长号植入器** — `SadTromboneImplanter` ｜父类: BaseImplantOnlyImplanter
+- **盐** — `Salt1` ｜父类: SaltOre
+- **盐** — `SaltOre` ｜父类: OreBase
+- **打捞远征 计算机主板** — `SalvageExpeditionsComputerCircuitboard` ｜父类: BaseComputerCircuitboard
+- **打捞专员ID卡** — `SalvageIDCard` ｜父类: IDCardStandard
+- **打捞任务板 计算机主板** — `SalvageJobBoardComputerCircuitboard` ｜父类: BaseComputerCircuitboard
+- **打捞任务板台式电脑电路板** — `SalvageJobBoardComputerCircuitboardDesktop` ｜父类: SalvageJobBoardComputerCircuitboard ｜_Starlight
+- **打捞队长 ID卡** — `SalvageLeadIDCard` ｜父类: IDCardStandard,BaseCargoContraband ｜_Starlight
+- **打捞领队 PDA** — `SalvageLeadPDA` ｜父类: BasePDA ｜_Starlight
+- **打捞磁铁 机器主板** — `SalvageMagnetMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **打捞专员PDA** — `SalvagePDA` ｜父类: BasePDA
+- **远程打捞穿梭机控制台电路板** — `SalvageShuttleConsoleCircuitboard` ｜父类: BaseComputerCircuitboard ｜_Starlight
+- **兑换券** — `SalvageTicket` ｜父类: BaseItem ｜_Starlight
+- **罚单** — `SalvageTicket10` ｜父类: SalvageTicket ｜_Starlight
+- **罚单** — `SalvageTicket100` ｜父类: SalvageTicket ｜_Starlight
+- **罚单** — `SalvageTicket15` ｜父类: SalvageTicket ｜_Starlight
+- **罚单** — `SalvageTicket20` ｜父类: SalvageTicket ｜_Starlight
+- **罚单** — `SalvageTicket25` ｜父类: SalvageTicket ｜_Starlight
+- **罚单** — `SalvageTicket30` ｜父类: SalvageTicket ｜_Starlight
+- **罚单** — `SalvageTicket5` ｜父类: SalvageTicket ｜_Starlight
+- **罚单** — `SalvageTicket50` ｜父类: SalvageTicket ｜_Starlight
+- **沙地战棋地图** — `SandBattlemap` ｜父类: BaseBattlemap
+- **sand battlemap** — `SandBoardTabletop` ｜父类: BaseBoardTabletop
+- **未定工具挎包 # Starlight** — `SatchelThief` ｜父类: ToolboxThief
+- **金属锯** — `Saw` ｜父类: BaseToolSurgery
+- **绑架者的圆锯** — `SawAbductor` ｜父类: SawElectric ｜_Starlight
+- **高级圆锯** — `SawAdvanced` ｜父类: SawElectric
+- **圆锯** — `SawCyber` ｜父类: SawElectric ｜_Starlight
+- **圆锯** — `SawElectric` ｜父类: Saw
+- **斩波器** — `SawImprov` ｜父类: Saw
+- **圆锯** — `SawRipper` ｜父类: SawElectric ｜_Starlight
+- **萨克斯管** — `SaxophoneInstrument` ｜父类: BaseWoodwindInstrument
+- **手术刀** — `Scalpel` ｜父类: BaseToolSurgery
+- **绑架者的手术刀** — `ScalpelAbductor` ｜父类: Scalpel ｜_Starlight
+- **高级手术刀** — `ScalpelAdvanced` ｜父类: Scalpel
+- **手术刀** — `ScalpelCyber` ｜父类: Scalpel ｜_Starlight
+- **激光手术刀** — `ScalpelLaser` ｜父类: Scalpel
+- **手术刀** — `ScalpelRipper` ｜父类: Scalpel ｜_Starlight
+- **刀** — `ScalpelShiv` ｜父类: Scalpel
+- **扫描门电路板** — `ScanGateMachineCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- `模板` **ScatteringGrenadeBase** — `ScatteringGrenadeBase` ｜父类: BaseItem
+- **科研部通信控制台电路板** — `ScienceCommsComputerCircuitboard` ｜父类: BaseComputerCircuitboard,BaseCommandContraband ｜_Starlight
+- **科学家PDA** — `SciencePDA` ｜父类: BasePDA
+- **闪光器** — `SciFlash` ｜父类: Flash
+- **紧急脱离植入物** — `ScramImplant` ｜父类: BaseSubdermalImplant
+- **紧急脱离植入器** — `ScramImplanter` ｜父类: BaseImplantOnlyImplanterSyndi
+- **气闸门板** — `ScrapAirlock1` ｜父类: BaseScrap
+- **气闸指示灯** — `ScrapAirlock2` ｜父类: BaseScrap
+- **破桶** — `ScrapBucket` ｜父类: BaseScrap
+- **损坏的摄像头** — `ScrapCamera` ｜父类: BaseScrap
+- **储气罐把手** — `ScrapCanister1` ｜父类: BaseScrap
+- **储气罐阀门** — `ScrapCanister2` ｜父类: BaseScrap
+- **壁橱门** — `ScrapCloset` ｜父类: BaseScrap
+- **传真机** — `ScrapFaxMachine` ｜父类: BaseScrap
+- **裂开的灭火器** — `ScrapFireExtinguisher` ｜父类: BaseScrap
+- **防火闸门板** — `ScrapFirelock1` ｜父类: BaseScrap
+- **防火闸门板** — `ScrapFirelock2` ｜父类: BaseScrap
+- **防火闸框架** — `ScrapFirelock3` ｜父类: BaseScrap
+- **发电机框架** — `ScrapGeneratorFrame` ｜父类: BaseScrapLarge
+- **燃料罐** — `ScrapGeneratorFuelTank` ｜父类: BaseScrap
+- **老旧 P.A.C.M.A.N. 发电机** — `ScrapGeneratorPlasma` ｜父类: BaseScrapLarge
+- **泄漏的 P.A.C.M.A.N. 发电机** — `ScrapGeneratorPlasmaLeaking` ｜父类: BaseScrapLarge
+- **损毁的 S.U.P.E.R.P.A.C.M.A.N. 发电机** — `ScrapGeneratorUranium` ｜父类: BaseScrapLarge
+- **泄漏的 S.U.P.E.R.P.A.C.M.A.N. 发电机** — `ScrapGeneratorUraniumLeaking` ｜父类: BaseScrapLarge
+- **废弃电路** — `ScrapGlass` ｜父类: BaseScrap
+- **对讲机废料** — `ScrapIntercom` ｜父类: BaseScrap
+- **损坏的喷气背包** — `ScrapJetpack` ｜父类: BaseScrap
+- **断裂的医疗箱** — `ScrapMedkit` ｜父类: BaseScrap
+- **半个拖把桶** — `ScrapMopBucket` ｜父类: BaseScrap
+- **个人 AI 设备** — `ScrapPAI` ｜父类: BaseScrap
+- **镀金个人 AI 设备** — `ScrapPAIGold` ｜父类: BaseScrap
+- **熔毁钢堆** — `ScrapSteel` ｜父类: BaseScrap
+- **破碎样本管** — `ScrapTube` ｜父类: BaseScrap
+- **屏幕计时器电子元件** — `ScreenTimerElectronics` ｜父类: SignalTimerElectronics
+- **螺丝刀** — `Screwdriver` ｜父类: BaseItem
+- **绑架者螺丝刀** — `ScrewdriverAbductor` ｜父类: BaseItem,BaseMajorContraband ｜_Starlight
+- **螺丝刀** — `ScrewdriverCyber` ｜父类: BaseItem ｜_Starlight
+- **土制螺丝刀** — `ScrewdriverImprovised` ｜父类: BaseItem ｜_Starlight
+- **隐形螺丝刀** — `ScrewdriverInvisible` ｜父类: BaseItem ｜_Starlight
+- **符文卷轴** — `ScrollRunes` ｜父类: BaseSpellbook
+- **斯克雷特方块** — `ScurretCube` ｜父类: RehydratableAnimalCube ｜_Starlight
+- **透明 PDA** — `ScurretPDA` ｜父类: ClearPDA
+- **斯库拉激光弹** — `ScyllaWideLaser` ｜父类: BaseBulletTrigger ｜_Starlight
+- **海螺** — `SeashellInstrument` ｜父类: BaseHandheldInstrument
+- **安保学员ID卡** — `SecurityCadetIDCard` ｜父类: IDCardStandard
+- **安保学员PDA** — `SecurityCadetPDA` ｜父类: BaseSecurityPDA
+- **安保部通信控制台电路板** — `SecurityCommsComputerCircuitboard` ｜父类: BaseComputerCircuitboard,BaseCommandContraband ｜_Starlight
+- **安保部ID卡** — `SecurityIDCard` ｜父类: IDCardStandard
+- **监区急救箱** — `SecurityMedkit` ｜父类: BaseStorageItem ｜_Starlight
+- **安保干员PDA** — `SecurityPDA` ｜父类: BaseSecurityPDA
+- **远程安保穿梭机控制台电路板** — `SecurityShuttleConsoleCircuitboard` ｜父类: BaseComputerCircuitboard ｜_Starlight
+- **安保科技制造机 机器主板** — `SecurityTechFabCircuitboard` ｜父类: BaseMachineCircuitboard
+- **哨子** — `SecurityWhistle` ｜父类: BaseWhistle
+- `模板` **SeedBase** — `SeedBase` ｜父类: BaseItem,BasePaperLabelable
+- **种子提取机 机器主板** — `SeedExtractorMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **震波炸药** — `SeismicCharge` ｜父类: BaseSalvageMiningContraband,BasePlasticExplosive
+- `模板` **SelectableLock** — `SelectableLock`
+- **自毁装置** — `SelfDestructSeq` ｜父类: TimerGrenadeBase
+- **自动补水灭火器** — `SelfRechargingFireExtinguisher` ｜父类: FireExtinguisher,BaseXenoborgContraband
+- **S.E.L.F 储物植入物** — `SELFStorageImplant` ｜父类: BaseSubdermalImplant ｜_Starlight
+- **S.E.L.F 储物植入器** — `SELFStorageImplanter` ｜父类: BaseImplantOnlyImplanterSyndi ｜_Starlight
+- **资深化学背包** — `SeniorChemBag` ｜父类: ChemBag ｜_Starlight
+- **高级药剂师 PDA** — `SeniorChemistPDA` ｜父类: BaseMedicalPDA ｜_Starlight
+- **资深信使PDA** — `SeniorCourierPDA` ｜父类: BasePDA
+- **高级工程师ID卡** — `SeniorEngineerIDCard` ｜父类: EngineeringIDCard
+- **资深工程师PDA** — `SeniorEngineerPDA` ｜父类: BasePDA
+- **资深邮务员邮袋** — `SeniorMailBag` ｜父类: MailBag ｜_Starlight
+- **高级邮差 PDA** — `SeniorMailPDA` ｜父类: BasePDA ｜_Starlight
+- **高级安保干员ID卡** — `SeniorOfficerIDCard` ｜父类: SecurityIDCard
+- **资深安保干员PDA** — `SeniorOfficerPDA` ｜父类: BaseSecurityPDA
+- **高级急救员 PDA** — `SeniorParamedicPDA` ｜父类: ParamedicPDA ｜_Starlight
+- **高级医师ID卡** — `SeniorPhysicianIDCard` ｜父类: MedicalIDCard
+- **资深医师PDA** — `SeniorPhysicianPDA` ｜父类: BaseMedicalPDA
+- **高级研究员ID卡** — `SeniorResearcherIDCard` ｜父类: ResearchIDCard
+- **资深研究员PDA** — `SeniorResearcherPDA` ｜父类: BasePDA
+- **传感器监控 控制台主板** — `SensorConsoleCircuitboard` ｜父类: BaseComputerCircuitboard
+- **棕褐色史莱姆提取物** — `SepiaSlimeExtract` ｜父类: BaseSlimeExtract ｜_Starlight
+- **棕褐色史莱姆提取物（已填充）** — `SepiaSlimeExtractFilled` ｜父类: BaseSlimeExtractFilled,SepiaSlimeExtract ｜_Starlight
+- **服务部通信控制台电路板** — `ServiceCommsComputerCircuitboard` ｜父类: BaseComputerCircuitboard,BaseCommandContraband ｜_Starlight
+- **清洁灯泡** — `ServiceLightBulb` ｜父类: BaseLightbulb
+- **服务人员ID卡** — `ServiceWorkerIDCard` ｜父类: IDCardStandard
+- **服务人员PDA** — `ServiceWorkerPDA` ｜父类: BasePDA
+- **黑暗雾霭** — `ShadowKudzu` ｜父类: BaseKudzu,BaseShadow
+- **雾霭** — `ShadowKudzuWeak` ｜父类: ShadowKudzu
+- **暗色树木** — `ShadowTree` ｜父类: FloraTree
+- `模板` **ShardBase** — `ShardBase` ｜父类: BaseItem
+- `模板` **水晶碎片** — `ShardCrystalBase` ｜父类: BaseItem
+- **黑色水晶碎片** — `ShardCrystalBlack` ｜父类: ShardCrystalBase
+- **蓝色水晶碎片** — `ShardCrystalBlue` ｜父类: ShardCrystalBase
+- **青色水晶碎片** — `ShardCrystalCyan` ｜父类: ShardCrystalBase
+- **绿色水晶碎片** — `ShardCrystalGreen` ｜父类: ShardCrystalBase
+- **橙色水晶碎片** — `ShardCrystalOrange` ｜父类: ShardCrystalBase
+- **粉色水晶碎片** — `ShardCrystalPink` ｜父类: ShardCrystalBase
+- **随机水晶碎片** — `ShardCrystalRandom` ｜父类: ShardCrystalBase
+- **红色水晶碎片** — `ShardCrystalRed` ｜父类: ShardCrystalBase
+- **黄色水晶碎片** — `ShardCrystalYellow` ｜父类: ShardCrystalBase
+- **玻璃碎片** — `ShardGlass` ｜父类: ShardBase
+- **发条玻璃碎片** — `ShardGlassClockwork` ｜父类: ShardBase
+- **等离子玻璃碎片** — `ShardGlassPlasma` ｜父类: ShardBase
+- **钢化玻璃碎片** — `ShardGlassReinforced` ｜父类: ShardBase
+- **铀玻璃碎片** — `ShardGlassUranium` ｜父类: ShardBase
+- **精金** — `SheetAdamantine` ｜父类: SheetMetalBase ｜_Starlight
+- **精金** — `SheetAdamantine1` ｜父类: SheetAdamantine ｜_Starlight
+- **黄铜** — `SheetBrass` ｜父类: SheetMetalBase
+- **黄铜** — `SheetBrass1` ｜父类: SheetBrass
+- **黄铜** — `SheetBrass10` ｜父类: SheetBrass
+- **发条玻璃** — `SheetClockworkGlass` ｜父类: SheetGlassBase,BaseQuickConstructionMaterial
+- **发条玻璃** — `SheetClockworkGlass1` ｜父类: SheetClockworkGlass
+- **玻璃** — `SheetGlass` ｜父类: SheetGlassBase,BaseQuickConstructionMaterial
+- **玻璃** — `SheetGlass1` ｜父类: SheetGlass
+- **玻璃** — `SheetGlass10` ｜父类: SheetGlass
+- **玻璃** — `SheetGlass15` ｜父类: SheetGlass ｜_Starlight
+- `模板` **玻璃** — `SheetGlassBase` ｜父类: BaseItem
+- **sheet-meister 2000 机器主板** — `SheetifierMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- `模板` **SheetMetalBase** — `SheetMetalBase` ｜父类: BaseItem
+- `模板` **SheetOtherBase** — `SheetOtherBase` ｜父类: BaseItem
+- **纸** — `SheetPaper` ｜父类: SheetOtherBase
+- **纸** — `SheetPaper1` ｜父类: SheetPaper
+- **等离子玻璃** — `SheetPGlass` ｜父类: SheetGlassBase,BaseQuickConstructionMaterial
+- **等离子玻璃** — `SheetPGlass1` ｜父类: SheetPGlass
+- **等离子体** — `SheetPlasma` ｜父类: SheetOtherBase
+- **等离子体** — `SheetPlasma1` ｜父类: SheetPlasma
+- **等离子体** — `SheetPlasma10` ｜父类: SheetPlasma
+- **等离子体** — `SheetPlasma3` ｜父类: SheetPlasma ｜_Starlight
+- **塑钢** — `SheetPlasteel` ｜父类: SheetMetalBase
+- **塑钢** — `SheetPlasteel1` ｜父类: SheetPlasteel
+- **塑钢** — `SheetPlasteel10` ｜父类: SheetPlasteel
+- **塑钢** — `SheetPlasteel5` ｜父类: SheetPlasteel ｜_Starlight
+- **塑料** — `SheetPlastic` ｜父类: SheetOtherBase
+- **塑料** — `SheetPlastic1` ｜父类: SheetPlastic
+- **塑料** — `SheetPlastic10` ｜父类: SheetPlastic
+- **纸** — `SheetPrinter` ｜父类: Paper ｜_Starlight
+- **纸** — `SheetPrinter1` ｜父类: SheetPrinter ｜_Starlight
+- **钢化玻璃** — `SheetRGlass` ｜父类: SheetGlassBase,BaseQuickConstructionMaterial
+- **钢化玻璃** — `SheetRGlass1` ｜父类: SheetRGlass
+- **强化玻璃** — `SheetRGlass5` ｜父类: SheetRGlass ｜_Starlight
+- **钢化等离子玻璃** — `SheetRPGlass` ｜父类: SheetPGlass,BaseQuickConstructionMaterial
+- **钢化等离子玻璃** — `SheetRPGlass1` ｜父类: SheetRPGlass
+- **钢化铀玻璃** — `SheetRUGlass` ｜父类: SheetUGlass,BaseQuickConstructionMaterial
+- **钢化铀玻璃** — `SheetRUGlass1` ｜父类: SheetRUGlass
+- **钢材** — `SheetSteel` ｜父类: SheetMetalBase,BaseQuickConstructionMaterial
+- **钢材** — `SheetSteel1` ｜父类: SheetSteel
+- **钢材** — `SheetSteel10` ｜父类: SheetSteel
+- **钢** — `SheetSteel15` ｜父类: SheetSteel ｜_Starlight
+- **铀玻璃** — `SheetUGlass` ｜父类: SheetGlassBase,BaseQuickConstructionMaterial
+- **铀玻璃** — `SheetUGlass1` ｜父类: SheetUGlass
+- **铀** — `SheetUranium` ｜父类: SheetOtherBase,EdibleBase
+- **铀** — `SheetUranium1` ｜父类: SheetUranium
+- **12号鹿弹 # Starlight change: .50 -> 12 gauge** — `ShellShotgun` ｜父类: BaseShellShotgun,BaseSecurityContraband
+- **12号布袋独头弹 # Starlight change: .50 -> 12 gauge** — `ShellShotgunBeanbag` ｜父类: BaseShellShotgun,BaseSecurityBartenderContraband
+- **12号鸟弹** — `ShellShotgunBirdshot` ｜父类: BaseShellShotgun,BaseSecuritySalvageContraband ｜_Starlight
+- **12号破门弹** — `ShellShotgunBreaching` ｜父类: BaseShellShotgun,BaseSyndicateContraband ｜_Starlight
+- **12号照明弹 # Starlight change: .50 -> 12 gauge** — `ShellShotgunFlare` ｜父类: BaseShellShotgun
+- **简易12号霰弹 # Starlight change: .50 -> 12 gauge** — `ShellShotgunImprovised` ｜父类: BaseShellShotgun,BaseSecurityContraband
+- **12号燃烧鹿弹 # Starlight change: .50 -> 12 gauge** — `ShellShotgunIncendiary` ｜父类: BaseShellShotgun,BaseSecurityContraband
+- **12号鹿弹** — `ShellShotgunMech` ｜父类: ShellShotgun,MechCartridge ｜_Starlight
+- **12 号燃烧鹿弹** — `ShellShotgunMechIncendiary` ｜父类: ShellShotgunIncendiary,MechCartridge ｜_Starlight
+- **12号空包弹 # Starlight change: .50 -> 12 gauge** — `ShellShotgunPractice` ｜父类: BaseShellShotgun,BaseSecurityContraband
+- **12号独头弹 # Starlight change: .50 -> 12 gauge** — `ShellShotgunSlug` ｜父类: BaseShellShotgun,BaseSecurityContraband
+- **20号霰弹** — `ShellShotgunToz` ｜父类: BaseShellShotgunToz,BaseSovietContraband ｜_Starlight
+- **12号铀芯鹿弹 # Starlight change: .50 -> 12 gauge** — `ShellShotgunUranium` ｜父类: BaseShellShotgun,BaseSecurityContraband
+- **12号镇静独头弹 # Starlight change: .50 -> 12 gauge** — `ShellTranquilizer` ｜父类: BaseShellShotgun,BaseSecurityZookeeperContraband
+- **飞船战棋地图** — `ShipBattlemap` ｜父类: BaseBattlemap
+- **ship battlemap** — `ShipBoardTabletop` ｜父类: BaseBoardTabletop
+- **ShipyardCircuitboardStealObjective** — `ShipyardCircuitboardStealObjective` ｜父类: BaseThiefStealObjective ｜_Starlight
+- **船坞电脑电路板** — `ShipyardComputerCircuitboard` ｜父类: BaseComputerCircuitboard ｜_Starlight
+- **简易尖刀** — `Shiv` ｜父类: BaseKnife,BaseMinorContraband
+- **铁锹** — `Shovel` ｜父类: BaseItem
+- **穿梭机建造升链** — `ShuttleBuilderUplink` ｜父类: BaseUplinkRadio,StorePresetShuttleBuilder ｜_Starlight
+- **穿梭机建造升链** — `ShuttleBuilderUplink0` ｜父类: BaseUplinkRadio,StorePresetShuttleBuilder ｜_Starlight
+- **穿梭机控制台 主板** — `ShuttleConsoleCircuitboard` ｜父类: BaseComputerCircuitboard
+- **EXP-2100g "除尘者" 机器主板** — `ShuttleGunDusterCircuitboard` ｜父类: BaseMachineCircuitboard
+- **EXP-320g "友谊号" 机器主板** — `ShuttleGunFriendshipCircuitboard` ｜父类: BaseMachineCircuitboard
+- **PTK-800 "物质分解器" 机器主板** — `ShuttleGunKineticCircuitboard` ｜父类: BaseMachineCircuitboard
+- **PTK-800“物质消解器”平板包装** — `ShuttleGunKineticFlatpack` ｜父类: BaseFlatpack ｜_Starlight
+- **LSE-1200c "穿孔者" 机器主板** — `ShuttleGunPerforatorCircuitboard` ｜父类: BaseMachineCircuitboard
+- **LSE-400c "斯瓦林 机枪" 机器主板** — `ShuttleGunSvalinnMachineGunCircuitboard` ｜父类: BaseMachineCircuitboard
+- **穿梭机武器控制台主板** — `ShuttleWeaponsConsoleCircuitboard` ｜父类: BaseComputerCircuitboard ｜_Starlight
+- **西菲毛绒玩偶** — `SiffyPlush` ｜父类: BasePlushie ｜_Starlight
+- **信号计时器电子元件** — `SignalTimerElectronics` ｜父类: BaseElectronics
+- **信号触发器** — `SignalTrigger` ｜父类: TimerTrigger
+- **消音器** — `Silencer` ｜父类: BaseItem,BaseMajorContraband ｜_Starlight
+- **银烧杯** — `SilverBeaker` ｜父类: BaseBeaker ｜_Starlight
+- **银制燃气轮机定子** — `SilverGasTurbineStator` ｜父类: BaseGasTurbineStator ｜_FarHorizons
+- **银壶** — `SilverJug` ｜父类: Jug ｜_Starlight
+- **银矿石** — `SilverOre` ｜父类: OreBase
+- **银矿石** — `SilverOre1` ｜父类: SilverOre
+- **银制控制棒** — `SilverReactorControlRod` ｜父类: BaseReactorControlRod,ReactorPartMaterialSilver ｜_FarHorizons
+- **银制气体通道棒** — `SilverReactorGasChannel` ｜父类: BaseReactorGasChannel,ReactorPartMaterialSilver ｜_FarHorizons
+- **银制换热棒** — `SilverReactorHeatExchanger` ｜父类: BaseReactorHeatExchanger,ReactorPartMaterialSilver ｜_FarHorizons
+- **银色史莱姆提取物** — `SilverSlimeExtract` ｜父类: BaseSlimeExtract ｜_Starlight
+- **银色史莱姆提取物（已填充）** — `SilverSlimeExtractFilled` ｜父类: BaseSlimeExtractFilled,SilverSlimeExtract ｜_Starlight
+- **奇点信标** — `SingularityBeacon` ｜父类: BaseMachinePowered,BaseSyndicateContraband
+- **奇点发生器平板包装** — `SingularityGeneratorFlatpack` ｜父类: BaseFlatpack
+- **奇点手榴弹** — `SingularityGrenade` ｜父类: FragileGrenadeBase,TimerGrenadeBase,BaseSyndicateContraband
+- **奇点手榴弹** — `SingularityGrenadeWorn` ｜父类: SingularityGrenade ｜_Starlight
+- **奇点锤** — `SingularityHammer` ｜父类: BaseWizardItem
+- **奇点蛾牌玩具** — `SingularityToy` ｜父类: BaseItem
+- **斯卡布** — `Skub` ｜父类: BaseItem
+- **大锤** — `Sledgehammer` ｜父类: BaseItem
+- **史莱姆蓝空间无线电药剂** — `SlimeBluespaceRadioPotion` ｜父类: BaseItem ｜_Starlight
+- **史莱姆提取物袋** — `SlimeExtractBag` ｜父类: BaseStorageItem ｜_Starlight
+- **史莱姆提取物增强药剂** — `SlimeExtractEnhancerPotion` ｜父类: BaseItem ｜_Starlight
+- **史莱姆防火药剂** — `SlimeFireproofPotion` ｜父类: BaseItem ｜_Starlight
+- **史莱姆性别转换药剂** — `SlimeGenderChangePotion` ｜父类: BaseItem ｜_Starlight
+- **史莱姆心智转移药剂** — `SlimeMindTransferencePotion` ｜父类: BaseItem ｜_Starlight
+- **史莱姆变异药剂** — `SlimeMutationPotion` ｜父类: BaseItem ｜_Starlight
+- **史莱姆改名药剂** — `SlimeNameChangePotion` ｜父类: BaseItem ｜_Starlight
+- **史莱姆处理机电路板** — `SlimeProcessorMachineCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **史莱姆智慧药剂** — `SlimeSentiencePotion` ｜父类: BaseItem ｜_Starlight
+- **史莱姆加速药剂** — `SlimeSpeedPotion` ｜父类: BaseItem ｜_Starlight
+- **史莱姆稳定药剂** — `SlimeStabilizerPotion` ｜父类: BaseItem ｜_Starlight
+- **史莱姆类固醇药剂** — `SlimeSteroidPotion` ｜父类: BaseItem ｜_Starlight
+- **滑倒末日集束肥皂** — `SlipocalypseClusterSoap` ｜父类: SoapSyndie,ScatteringGrenadeBase,BaseSyndicateContraband
+- **营养糊分配器平板包装** — `SlopDispenserFlatpack` ｜父类: BaseFlatpack ｜_Starlight
+- **营养糊分配器电路板** — `SlopDispenserMachineCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- `模板` **SmallboxItem** — `SmallboxItem` ｜父类: BaseStorageItem
+- `模板` **SmallMech** — `SmallMech` ｜_Starlight
+- `模板` **SmallMechEquipment** — `SmallMechEquipment` ｜_Starlight
+- **SmartFridge 机器主板** — `SmartFridgeCircuitboard` ｜父类: BaseMachineCircuitboard
+- **高级 SMES 机器主板** — `SMESAdvancedMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **超先进 SMES 电路板** — `SMESHyperAdvancedMachineCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **SMES 机器主板** — `SMESMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **天谴法术书** — `SmiteBook` ｜父类: BaseSpellbook
+- **烟雾手榴弹** — `SmokeGrenade` ｜父类: VolatileGrenadeBase,TimerGrenadeBase,BaseSecurityContraband
+- **烟雾手榴弹** — `SmokeGrenadeWorn` ｜父类: SmokeGrenade ｜_Starlight
+- **烟斗** — `SmokingPipe` ｜父类: BaseSmokingPipe
+- **烟斗** — `SmokingPipeFilledCannabis` ｜父类: SmokingPipe
+- **烟斗** — `SmokingPipeFilledCannabisRainbow` ｜父类: SmokingPipe
+- **烟斗** — `SmokingPipeFilledTobacco` ｜父类: SmokingPipe
+- **蜗牛毛绒玩偶** — `SnailPlushie` ｜父类: BasePlushie ｜_Starlight
+- **摔炮** — `SnapPop` ｜父类: BaseItem
+- **摔炮盒** — `SnapPopBox` ｜父类: BaseStorageItem
+- **摔炮** — `SnapPopExplosive` ｜父类: SnapPop
+- **狙击弹** — `SniperBolt` ｜父类: EnergyTrace ｜_Starlight
+- **雪地战棋地图** — `SnowBattlemap` ｜父类: BaseBattlemap
+- **snow battlemap** — `SnowBoardTabletop` ｜父类: BaseBoardTabletop
+- **香烟** — `SoakedCigarette` ｜父类: BaseCigar
+- **肥皂** — `Soap` ｜父类: BaseSoap
+- **肥皂** — `SoapDeluxe` ｜父类: BaseSoap
+- **肥皂** — `SoapHomemade` ｜父类: BaseSoap
+- **皂液** — `SoapletSyndie` ｜父类: BaseSoap
+- **肥皂** — `SoapNT` ｜父类: BaseSoap
+- **欧米伽皂** — `SoapOmega` ｜父类: BaseSoap
+- **肥皂** — `SoapSyndie` ｜父类: BaseSoap,BaseSyndicateContraband
+- **汽水分配器 机器主板** — `SodaDispenserMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **钠灯管** — `SodiumLightTube` ｜父类: BaseLightTube
+- **太阳能组件平板包装** — `SolarAssemblyFlatpack` ｜父类: BaseFlatpack
+- **太阳能 控制计算机 主板** — `SolarControlComputerCircuitboard` ｜父类: BaseComputerCircuitboard
+- **太阳能追踪器电子元件** — `SolarTrackerElectronics` ｜父类: BaseElectronics
+- **索尔政府 PDA** — `SolGovPDA` ｜父类: BasePDA,BaseTSFContraband ｜_Starlight
+- **索尔政府 PDA** — `SolGovPDACrew` ｜父类: SolGovPDA ｜_Starlight
+- **索尔政府 PDA** — `SolGovPDAMarine` ｜父类: SolGovPDA ｜_Starlight
+- **索尔政府 PDA** — `SolGovPDAOfficer` ｜父类: SolGovPDA ｜_Starlight
+- **索尔政府 PDA** — `SolGovPDAOfficerSheriff` ｜父类: SolGovPDA ｜_Starlight
+- **索尔政府 PDA** — `SolGovPDASpecOps` ｜父类: SolGovPDA ｜_Starlight
+- **苏维埃桌旗** — `SovietDeskFlag` ｜父类: BaseItem,BaseSovietContraband ｜_Starlight
+- **苏维埃 ID卡** — `SovietIdCard` ｜父类: IDCardStandard ｜_Starlight
+- **苏维埃革命补给生成点** — `SovietRevolutionSupplySpawner` ｜父类: MarkerBase ｜_Starlight
+- **包大豆种子** — `SoybeanSeeds` ｜父类: SeedBase
+- **鲤鱼方块** — `SpaceCarpCube` ｜父类: RehydratableAnimalCube
+- **spesos** — `SpaceCash` ｜父类: BaseItem
+- **斯佩索** — `SpaceCash10` ｜父类: SpaceCash
+- **斯佩索** — `SpaceCash100` ｜父类: SpaceCash
+- **斯佩索** — `SpaceCash1000` ｜父类: SpaceCash
+- **斯佩索** — `SpaceCash10000` ｜父类: SpaceCash
+- **斯佩索** — `SpaceCash1000000` ｜父类: SpaceCash
+- **斯佩索** — `SpaceCash20000` ｜父类: SpaceCash
+- **斯佩索** — `SpaceCash2500` ｜父类: SpaceCash
+- **斯佩索** — `SpaceCash30000` ｜父类: SpaceCash
+- **斯佩索** — `SpaceCash500` ｜父类: SpaceCash
+- **斯佩索** — `SpaceCash5000` ｜父类: SpaceCash
+- **太空加热器平板包装** — `SpaceHeaterFlatpack` ｜父类: BaseFlatpack
+- **太空加热器 机器主板** — `SpaceHeaterMachineCircuitBoard` ｜父类: BaseMachineCircuitboard
+- **太空人小号种子包** — `SpacemansTrumpetSeeds` ｜父类: SeedBase
+- **太空医疗笔** — `SpaceMedipen` ｜父类: ChemicalMedipen
+- **太空石英** — `SpaceQuartz` ｜父类: OreBase
+- **太空石英** — `SpaceQuartz1` ｜父类: SpaceQuartz
+- **太空蘑菇** — `Spaceshroom` ｜父类: BaseStructure
+- **太空蜱方块** — `SpaceTickCube` ｜父类: RehydratableAnimalCube
+- **太空反派街机 主板** — `SpaceVillainArcadeComputerCircuitboard` ｜父类: BaseComputerCircuitboard
+- **召唤法术书** — `SpawnSpellbook` ｜父类: BaseSpellbook
+- **长矛** — `Spear` ｜父类: BaseItem,BaseMinorContraband
+- **骨矛** — `SpearBone` ｜父类: Spear
+- **薄荷长矛** — `SpearMint` ｜父类: Spear ｜_Starlight
+- **留兰香矛种子包** — `SpearMintSeeds` ｜父类: SeedBase ｜_Starlight
+- **等离子长矛** — `SpearPlasma` ｜父类: Spear
+- **强化长矛** — `SpearReinforced` ｜父类: Spear
+- **鲨米诺鱼牙长矛** — `SpearSharkMinnow` ｜父类: Spear
+- **钢制 长矛** — `SpearSteel` ｜父类: Spear ｜_Starlight
+- **铀制长矛** — `SpearUranium` ｜父类: Spear
+- `模板` **SpecialMech** — `SpecialMech` ｜_Starlight
+- `模板` **SpecialMechEquipment** — `SpecialMechEquipment` ｜_Starlight
+- **幽灵定位器** — `SpectralLocator` ｜父类: SpectralLocatorUnpowered,PowerCellSlotSmallItem
+- **幽灵定位器** — `SpectralLocatorEmpty` ｜父类: SpectralLocator
+- **幽灵定位器** — `SpectralLocatorUnpowered` ｜父类: BaseItem
+- **快速装弹器（.48步枪）** — `SpeedLoader48Rifle` ｜父类: BaseItem,BaseMajorContraband ｜_Starlight
+- **火帽枪快速装弹器** — `SpeedLoaderCap` ｜父类: BaseSpeedLoaderCap
+- **快速装弹器（.45马格南）** — `SpeedLoaderLightRifle` ｜父类: BaseItem,BaseMinorContraband
+- **.45 马格南穿甲弹快速装弹器** — `SpeedLoaderMagnumAP` ｜父类: BaseSpeedLoaderMagnum
+- **12号鹿弹快速装弹器** — `SpeedLoaderMagnumBasic` ｜父类: BaseSpeedLoaderShotgun,BaseSecurityContraband ｜_Starlight
+- **.45 马格南通用快速装弹器** — `SpeedLoaderMagnumEmpty` ｜父类: BaseSpeedLoaderMagnum
+- **快速装弹器（.45马格南FMJ）** — `SpeedLoaderMagnumFMJ` ｜父类: BaseSpeedLoaderMagnum ｜_Starlight
+- **快速装弹器（.45马格南HP）** — `SpeedLoaderMagnumHP` ｜父类: BaseSpeedLoaderMagnum ｜_Starlight
+- **快速装弹器（.45马格南）** — `SpeedLoaderMagnumImprovised` ｜父类: BaseItem,BaseMinorContraband ｜_Starlight
+- **.45 马格南燃烧弹快速装弹器** — `SpeedLoaderMagnumIncendiary` ｜父类: BaseSpeedLoaderMagnum
+- **快速装弹器（.30/.45马格南）** — `SpeedLoaderMagnumLeverImprovised` ｜父类: BaseSpeedLoaderShotgun,BaseMinorContraband ｜_Starlight
+- **.45 马格南训练弹快速装弹器** — `SpeedLoaderMagnumPractice` ｜父类: BaseSpeedLoaderMagnum
+- **快速装弹器（.45马格南橡胶）** — `SpeedLoaderMagnumRubber` ｜父类: BaseSpeedLoaderMagnum,BaseSecurityContraband ｜_Starlight
+- **快速装弹器（.45马格南SP）** — `SpeedLoaderMagnumSP` ｜父类: BaseSpeedLoaderMagnum ｜_Starlight
+- **.45 马格南铀弹快速装弹器** — `SpeedLoaderMagnumUranium` ｜父类: BaseSpeedLoaderMagnum
+- **12号豆袋弹快速装弹器** — `SpeedLoaderShotgunBeanbag` ｜父类: BaseSpeedLoaderShotgun,BaseSecurityBartenderContraband ｜_Starlight
+- **12号鸟弹快速装弹器** — `SpeedLoaderShotgunBirdshot` ｜父类: BaseSpeedLoaderShotgun,BaseSecuritySalvageContraband ｜_Starlight
+- **12号快速装弹器** — `SpeedLoaderShotgunEmpty` ｜父类: BaseSpeedLoaderShotgun,BaseSecuritySalvageContraband ｜_Starlight
+- **12号燃烧快速装弹器** — `SpeedLoaderShotgunIncendiary` ｜父类: BaseSpeedLoaderShotgun,BaseSecurityContraband ｜_Starlight
+- **12号独头弹快速装弹器** — `SpeedLoaderShotgunSlug` ｜父类: BaseSpeedLoaderShotgun,BaseSecurityContraband ｜_Starlight
+- **12号铀芯快速装弹器** — `SpeedLoaderShotgunUranium` ｜父类: BaseSpeedLoaderShotgun,BaseSecurityContraband ｜_Starlight
+- **蜘蛛氏族炸药** — `SpiderCharge` ｜父类: BaseItem,BaseHighlyIllegalContraband
+- **蜘蛛氏族打火机** — `SpiderclanFlippo` ｜父类: BaseBrandedLighter,BaseMajorContraband,FlippoLighter
+- **蜘蛛王浆** — `SpiderJelly` ｜父类: FoodBase ｜_Starlight
+- **勺子** — `Spoon` ｜父类: UtensilBase
+- **塑料勺** — `SpoonPlastic` ｜父类: UtensilBasePlastic
+- **喷雾瓶** — `SprayBottle` ｜父类: SprayBottleBase,DrinkVisualsFill
+- `模板` **SprayBottleBase** — `SprayBottleBase` ｜父类: DrinkBaseMaterialPlastic,DrinkBase
+- **喷雾瓶** — `SprayBottleSpaceCleaner` ｜父类: SprayBottle
+- **喷雾瓶** — `SprayBottleWater` ｜父类: SprayBottle
+- **喷漆器** — `SprayPainter` ｜父类: BaseItem
+- **压缩油漆** — `SprayPainterAmmo` ｜父类: BaseItem
+- **实验性喷漆器** — `SprayPainterBorg` ｜父类: SprayPainter
+- **喷漆器** — `SprayPainterEmpty` ｜父类: SprayPainter
+- **喷漆器** — `SprayPainterRecharging` ｜父类: SprayPainter
+- **望远镜** — `Spyglass` ｜父类: BaseItem ｜_Starlight
+- **舰长望远镜** — `SpyglassCaptain` ｜父类: BaseItem,BaseGrandTheftContraband ｜_Starlight
+- **土制望远镜** — `SpyglassImprovised` ｜父类: BaseItem ｜_Starlight
+- **奶牛软团玩偶** — `SquishimsCow` ｜父类: BasePlushie ｜_Starlight
+- **青蛙软团玩偶** — `SquishimsFrog` ｜父类: BasePlushie ｜_Starlight
+- **斯托克斯毛绒玩偶** — `StalksPlush` ｜父类: BasePlushie ｜_Starlight
+- **赛博多用印章** — `StampCyber` ｜父类: BaseItem ｜_Starlight
+- **停滞床 机器主板** — `StasisBedMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **空间站AI核心电子元件** — `StationAiCoreElectronics` ｜父类: BaseElectronics
+- **AI 修复 控制台主板** — `StationAiFixerCircuitboard` ｜父类: BaseComputerCircuitboard
+- **AI 上传 控制台主板** — `StationAiUploadCircuitboard` ｜父类: BaseComputerCircuitboard
+- **空间站锚 机器主板** — `StationAnchorCircuitboard` ｜父类: BaseMachineCircuitboard
+- **空间站信标平板包装** — `StationBeaconPart` ｜父类: BaseItem
+- **法则主板（空间站效率）** — `StationEfficiencyCircuitBoard` ｜父类: BaseSiliconLawboard,BaseSecurityScienceCommandContraband
+- **空间站地图电子元件** — `StationMapCircuitboard` ｜父类: BaseElectronics
+- **雇佣档案电脑电路板** — `StationRecordsComputerCircuitboard` ｜父类: BaseComputerCircuitboard
+- **任职记录台式电脑电路板** — `StationRecordsComputerCircuitboardDesktop` ｜父类: StationRecordsComputerCircuitboard ｜_Starlight
+- **钢帽孢子包** — `SteelcapSeeds` ｜父类: SeedBase
+- **钢制燃气轮机叶片** — `SteelGasTurbineBlade` ｜父类: BaseGasTurbineBlade ｜_FarHorizons
+- **钢制燃气轮机定子** — `SteelGasTurbineStator` ｜父类: BaseGasTurbineStator ｜_FarHorizons
+- **钢帽菌木段** — `SteelLog` ｜父类: ProduceBase
+- **铁矿石** — `SteelOre` ｜父类: OreBase
+- **铁矿石** — `SteelOre1` ｜父类: SteelOre
+- **钢制控制棒** — `SteelReactorControlRod` ｜父类: BaseReactorControlRod,ReactorPartMaterialSteel ｜_FarHorizons
+- **钢制气体通道棒** — `SteelReactorGasChannel` ｜父类: BaseReactorGasChannel,ReactorPartMaterialSteel ｜_FarHorizons
+- **钢制换热棒** — `SteelReactorHeatExchanger` ｜父类: BaseReactorHeatExchanger,ReactorPartMaterialSteel ｜_FarHorizons
+- **黏黏手掌** — `StickyHandPalm` ｜父类: GrapplingHook
+- **超嗪注射器** — `Stimpack` ｜父类: ChemicalMedipen,BaseSyndicateContraband
+- **甲硫氨酸显微注射器** — `StimpackMini` ｜父类: ChemicalMedipen,BaseSyndicateContraband
+- **斯派罗毛绒玩偶** — `StinkyPlush` ｜父类: BasePlushie ｜_Starlight
+- **搅搅 ID卡** — `StirStirIDCard` ｜父类: PrisonerJobIDCard ｜_Starlight
+- **搅搅的 PDA** — `StirStirPDA` ｜父类: ClearPDA ｜_Starlight
+- **储物植入物** — `StorageImplant` ｜父类: BaseSubdermalImplant
+- **储物植入器** — `StorageImplanter` ｜父类: BaseImplantOnlyImplanterSyndi
+- **炉灶电路板** — `StoveMachineCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **奇怪的药丸** — `StrangePill` ｜父类: Pill
+- **眩晕警棍** — `Stunbaton` ｜父类: BaseItem,BaseSecurityContraband
+- **电击棒** — `Stunprod` ｜父类: BaseItem,BaseMinorContraband
+- **变电站 机器主板** — `SubstationMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **甘蔗** — `Sugarcane` ｜父类: ProduceBaseRuminant
+- **甘蔗种子包** — `SugarcaneSeeds` ｜父类: SeedBase
+- **完全隐形装置** — `SuperCloakingDevice` ｜父类: CloakingDevice
+- **超物质平板包装** — `SupermatterFlatpack` ｜父类: BaseStructureFlatpack,BaseEngineeringContraband ｜_Starlight
+- **超级合成器** — `SuperSynthesizerInstrument` ｜父类: BaseHandheldInstrument ｜_Starlight
+- **超级合成器** — `SuperSynthesizerInstrumentAdmeme` ｜父类: SuperSynthesizerInstrument ｜_Starlight
+- `模板` **SurgicalKitFill** — `SurgicalKitFill` ｜_Starlight
+- **手术工具包** — `SurgicalKitMedical` ｜父类: BaseSurgicalKit,BaseMedicalContraband ｜_Starlight
+- **手术工具包** — `SurgicalKitMedicalFilled` ｜父类: SurgicalKitMedical,SurgicalKitFill ｜_Starlight
+- **手术工具包** — `SurgicalKitRobotics` ｜父类: BaseSurgicalKit,BaseRoboticistContraband ｜_Starlight
+- **手术工具包** — `SurgicalKitRoboticsFilled` ｜父类: SurgicalKitRobotics,SurgicalKitFill ｜_Starlight
+- **监控摄像头监视器 主板** — `SurveillanceCameraMonitorCircuitboard` ｜父类: BaseComputerCircuitboard
+- **监控摄像头台式显示器电路板** — `SurveillanceCameraMonitorCircuitboardDesktop` ｜父类: SurveillanceCameraMonitorCircuitboard ｜_Starlight
+- **监控摄像头路由器 主板** — `SurveillanceCameraRouterCircuitboard` ｜父类: BaseMachineCircuitboard
+- **监控摄像头无线网络路由器 主板** — `SurveillanceCameraWirelessRouterCircuitboard` ｜父类: BaseMachineCircuitboard
+- **异形赛博格 摄像头无线路由器** — `SurveillanceCameraWirelessRouterXenoborgCircuitboard` ｜父类: BaseMachineCircuitboard
+- **无线摄像头 主板** — `SurveillanceWirelessCameraAnchoredCircuitboard` ｜父类: BaseMachineCircuitboard
+- **无线摄像机** — `SurveillanceWirelessCameraHandheld` ｜父类: BaseItem,BaseReporterContraband ｜_Moffstation
+- **无线监控摄像头监视器 主板** — `SurveillanceWirelessCameraMonitorCircuitboard` ｜父类: BaseComputerCircuitboard
+- **可移动无线摄像头 主板** — `SurveillanceWirelessCameraMovableCircuitboard` ｜父类: BaseMachineCircuitboard
+- **生存刀** — `SurvivalKnife` ｜父类: BaseSecuritySalvageMiningContraband,CombatKnife
+- **可疑毛绒玩偶** — `SusPlushie` ｜父类: BasePlushie ｜_Starlight
+- **破晓者** — `SwordFlaming` ｜父类: BaseSword,BaseMajorContraband,Welder ｜_Starlight
+- **锻造剑** — `SwordForged` ｜父类: BaseSword,BaseMinorContraband ｜_Starlight
+- **土制剑** — `SwordImprovised` ｜父类: BaseSword,BaseMinorContraband ｜_Starlight
+- **简易剑** — `SwordMakeshift` ｜父类: BaseSword,BaseMinorContraband ｜_Starlight
+- **戈勒克斯无针注射器** — `SyndiBorgHypo` ｜父类: BaseHypospray,BaseSyndicateContraband ｜_Starlight
+- **辛迪加权限配置器** — `SyndicateAccessConfigurator` ｜父类: BaseItem,BaseSyndicateContraband ｜_Starlight
+- **辛迪加特工 ID卡** — `SyndicateAgentIDCard` ｜父类: IDCardStandard,BaseSyndicateContraband ｜_Starlight
+- **英特戴恩瘀伤包** — `SyndicateBrutePack` ｜父类: RedBrutePack ｜_Starlight
+- **英特戴恩瘀伤包** — `SyndicateBrutePack1` ｜父类: SyndicateBrutePack ｜_Starlight
+- **辛迪加名片** — `SyndicateBusinessCard` ｜父类: Paper,BaseMinorContraband
+- **辛迪加 通讯计算机 主板** — `SyndicateCommsComputerCircuitboard` ｜父类: BaseComputerCircuitboard,BaseSyndicateContraband
+- **辛迪加干扰器** — `SyndicateDisruptor` ｜父类: BaseEventSelector ｜_Starlight
+- **辛迪加干扰信号器** — `SyndicateDisruptorSignaller` ｜父类: BaseEventSelector ｜_Starlight
+- **血红翻盖打火机 # Starlight-edit** — `SyndicateFlippo` ｜父类: BaseBrandedLighter,BaseSyndicateContraband,FlippoLighter
+- **辛迪加步兵 ID卡** — `SyndicateFootsoldierIDCard` ｜父类: SyndicateIDCard,BaseSyndicateContraband ｜_Starlight
+- **辛迪加ID卡** — `SyndicateIDCard` ｜父类: IDCardStandard,BaseSyndicateContraband
+- **死亡之钳 #SL** — `SyndicateJawsOfLife` ｜父类: JawsOfLife,BaseSyndicateContraband
+- **救援钳** — `SyndicateJawsOfLifeStealth` ｜父类: JawsOfLife ｜_Starlight
+- **微波炉平板包装** — `SyndicateMicrowaveFlatpack` ｜父类: BaseFlatpack ｜_Starlight
+- **Donk 公司 微波炉 机器主板** — `SyndicateMicrowaveMachineCircuitboard` ｜父类: BaseMachineCircuitboard,BaseSyndicateContraband
+- **英特戴恩药膏** — `SyndicateOintment` ｜父类: RedOintment ｜_Starlight
+- **英特戴恩药膏** — `SyndicateOintment1` ｜父类: SyndicateOintment ｜_Starlight
+- **辛迪加个人 AI 设备** — `SyndicatePersonalAI` ｜父类: PersonalAI,BaseSyndicateContraband
+- **辛迪加 穿梭机控制台 主板** — `SyndicateShuttleConsoleCircuitboard` ｜父类: BaseComputerCircuitboard,BaseSyndicateContraband
+- **猴子方块** — `SyndicateSponge` ｜父类: MonkeyCube
+- **猴子方块盒** — `SyndicateSpongeBox` ｜父类: MonkeyCubeBox
+- **猴子方块** — `SyndicateSpongeWrapped` ｜父类: MonkeyCubeWrapped
+- **辛迪加指挥官ID卡** — `SyndiCommanderIDCard` ｜父类: SyndiOperativeIDCard,BaseSyndicateContraband
+- **辛迪加指挥官PDA** — `SyndiCommanderPDA` ｜父类: SyndiOperativePDA,BaseSyndicateContraband
+- **辛迪加卫生员ID卡** — `SyndiCorpsmanIDCard` ｜父类: SyndiOperativeIDCard,BaseSyndicateContraband
+- **辛迪加医务兵PDA** — `SyndiCorpsmanPDA` ｜父类: SyndiOperativePDA,BaseSyndicateContraband
+- **辛迪衣柜平板包装** — `SyndieDrobeFlatpack` ｜父类: BaseFlatpack,BaseMinorContraband ｜_Starlight
+- **辛迪加手持旗** — `SyndieHandyFlag` ｜父类: BaseItem,BaseMinorContraband
+- `模板` **SyndieMech** — `SyndieMech` ｜_Starlight
+- **辛迪加微型炸弹** — `SyndieMiniBomb` ｜父类: VolatileGrenadeBase,TimerGrenadeBase,BaseSyndicateContraband
+- **辛迪加微型炸弹** — `SyndieMiniBombWorn` ｜父类: SyndieMiniBomb ｜_Starlight
+- **辛迪加诱饵炸弹** — `SyndieTrickyBomb` ｜父类: GrenadeDummy,BaseSyndicateContraband
+- **Gorlex 注射器** — `SyndiHypo` ｜父类: BaseHypospray,BaseSyndicateContraband
+- **法则板（辛迪莫夫）** — `SyndimovCircuitBoard` ｜父类: BaseElectronics,BaseSyndicateContraband ｜_Starlight
+- **辛迪加特工ID卡** — `SyndiOperativeIDCard` ｜父类: SyndicateIDCard,BaseSyndicateContraband
+- **辛迪加特工PDA** — `SyndiOperativePDA` ｜父类: SyndiPDA,BaseSyndicateContraband
+- **辛迪加PDA** — `SyndiPDA` ｜父类: BasePDA,BaseSyndicateContraband
+- **合成器** — `SynthesizerInstrument` ｜父类: BaseKeyedInstrument
+- **注射器** — `Syringe` ｜父类: BaseSyringe
+- **注射器** — `SyringeAmbuzol` ｜父类: PrefilledSyringe
+- **注射器** — `SyringeBicaridine` ｜父类: PrefilledSyringe
+- **蓝色空间注射器** — `SyringeBluespace` ｜父类: BaseSyringe
+- **冷冻注射器** — `SyringeCryostasis` ｜父类: BaseSyringe
+- **注射器** — `SyringeDermaline` ｜父类: PrefilledSyringe
+- **注射器** — `SyringeEphedrine` ｜父类: PrefilledSyringe
+- **注射器** — `SyringeEthylredoxrazine` ｜父类: PrefilledSyringe
+- **注射器** — `SyringeHyronalin` ｜父类: PrefilledSyringe
+- **注射器** — `SyringeInaprovaline` ｜父类: PrefilledSyringe
+- **注射器** — `SyringeIpecac` ｜父类: PrefilledSyringe
+- **注射器** — `SyringePhalanximine` ｜父类: PrefilledSyringe
+- **注射器** — `SyringeRomerol` ｜父类: PrefilledSyringe
+- **注射器** — `SyringeSaline` ｜父类: PrefilledSyringe
+- **注射器** — `SyringeSigynate` ｜父类: PrefilledSyringe
+- **注射器** — `SyringeStimulants` ｜父类: PrefilledSyringe
+- **注射器** — `SyringeTranexamicAcid` ｜父类: PrefilledSyringe
+- **战术喷射注射器** — `TacticalJetInjector` ｜父类: AdvancedJetInjector,BaseSecurityContraband ｜_Starlight
+- **太鼓** — `TaikoInstrument` ｜父类: BasePlaceableInstrumentRotatable
+- **录音机** — `TapeRecorder` ｜父类: BaseItem ｜_Starlight
+- **录音文字稿** — `TapeRecorderTranscript` ｜父类: Paper ｜_Starlight
+- **拟形怪靶** — `TargetChangeling` ｜父类: BaseTarget ｜_Starlight
+- **小丑靶** — `TargetClown` ｜父类: BaseTarget
+- **飞镖盘** — `TargetDarts` ｜父类: BaseStructureDynamic
+- **人形靶** — `TargetHuman` ｜父类: BaseTarget
+- **怪异靶** — `TargetStrange` ｜父类: BaseTarget
+- **辛迪加靶** — `TargetSyndicate` ｜父类: BaseTarget
+- **潮人靶** — `TargetTider` ｜父类: BaseTarget ｜_Starlight
+- **巫师靶** — `TargetWizard` ｜父类: BaseTarget ｜_Starlight
+- **一副牌** — `TarotCardDeck` ｜父类: BasePlayingCardDeck ｜_Moffstation
+- **大阿卡纳塔罗牌盒** — `TarotCardDeckBox` ｜父类: BasePlayingCardDeckBox ｜_Moffstation
+- **泰瑟电击弹** — `TaserBolt` ｜父类: BasicHitscanNoBeam ｜_Starlight
+- **泰瑟电击弹** — `TaserBoltExtreme` ｜父类: EnergyTrace ｜_Starlight
+- **茶树种子包** — `TeaPlantSeeds` ｜父类: SeedBase
+- **催泪瓦斯手榴弹** — `TearGasGrenade` ｜父类: SmokeGrenade
+- **科技磁盘终端 主板** — `TechDiskComputerCircuitboard` ｜父类: BaseComputerCircuitboard
+- **技术助理ID卡** — `TechnicalAssistantIDCard` ｜父类: IDCardStandard
+- **技术助理PDA** — `TechnicalAssistantPDA` ｜父类: BasePDA
+- **科技盘** — `TechnologyDisk` ｜父类: BaseItem
+- **科技盘** — `TechnologyDiskRare` ｜父类: TechnologyDisk
+- **TEG 中央组件平板包装** — `TEGCenterFlatpack` ｜父类: BaseStructureFlatpack,BaseEngineeringContraband ｜_Starlight
+- **TEG 循环器平板包装** — `TEGCirculatorFlatpack` ｜父类: BaseStructureFlatpack,BaseEngineeringContraband ｜_Starlight
+- **遥传券** — `Telebond` ｜父类: BaseItem,BaseSovietContraband ｜_Starlight
+- **遥传券** — `Telebond1` ｜父类: Telebond ｜_Starlight
+- **遥传券** — `Telebond10` ｜父类: Telebond ｜_Starlight
+- **遥传券** — `Telebond5` ｜父类: Telebond ｜_Starlight
+- **电信服务器 机器主板** — `TelecomServerCircuitboard` ｜父类: BaseMachineCircuitboard
+- **遥晶** — `Telecrystal` ｜父类: BaseItem,BaseSyndicateContraband
+- **遥晶** — `Telecrystal1` ｜父类: Telecrystal
+- **遥晶** — `Telecrystal10` ｜父类: Telecrystal
+- **遥晶** — `Telecrystal5` ｜父类: Telecrystal
+- **伸缩防护罩** — `TelescopicShield` ｜父类: BaseRepairableShield
+- **网球** — `TennisBall` ｜父类: BaseItem,BaseSportsBall
+- **终结者自毁酸蚀植入物** — `TerminatorDeathAcidifierImplant` ｜父类: BaseSubdermalImplant ｜_Starlight
+- **终结者微型炸弹植入物** — `TerminatorMicroBombImplant` ｜父类: MicroBombImplant ｜_Starlight
+- **蜘蛛蛋** — `TerrorGrayEggSpiderFertilized` ｜父类: EggSpider ｜_Starlight
+- **蜘蛛蛋** — `TerrorGreenSpiderFertilized` ｜父类: EggSpider ｜_Starlight
+- **蜘蛛蛋** — `TerrorRedEggSpiderFertilized` ｜父类: EggSpider ｜_Starlight
+- **特斯拉线圈平板包装** — `TeslaCoilFlatpack` ｜父类: BaseFlatpack
+- **特斯拉发生器平板包装** — `TeslaGeneratorFlatpack` ｜父类: BaseFlatpack
+- **特斯拉接地棒平板包装** — `TeslaGroundingRodFlatpack` ｜父类: BaseFlatpack
+- **特斯拉枪闪电** — `TeslaGunBullet` ｜父类: BaseBullet
+- **泰迪·特斯拉** — `TeslaToy` ｜父类: BaseItem
+- **冷冻热机 机器主板** — `ThermomachineFreezerMachineCircuitBoard` ｜父类: BaseMachineCircuitboard
+- **加热热机 机器主板** — `ThermomachineHeaterMachineCircuitBoard` ｜父类: BaseMachineCircuitboard
+- **窃取信标** — `ThiefBeacon` ｜父类: BaseMinorContraband
+- **瑟隆格勒** — `Throngler` ｜父类: BaseSword,BaseMajorContraband
+- **飞刀** — `ThrowingKnife` ｜父类: BaseKnife,BaseSyndicateContraband
+- **手里剑** — `ThrowingStar` ｜父类: BaseItem,BaseMinorContraband
+- **骨片** — `ThrowingStarChangeling` ｜父类: ThrowingStar ｜_Starlight
+- **忍者手里剑** — `ThrowingStarNinja` ｜父类: ThrowingStar
+- **推进器平板包装** — `ThrusterFlatpack` ｜父类: BaseFlatpack
+- **推进器 机器主板** — `ThrusterMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **票券** — `Ticket` ｜父类: BaseTicket ｜_Starlight
+- **罚单簿** — `TicketPad` ｜父类: BoxBase ｜_Impstation
+- `模板` **TimerGrenadeBase** — `TimerGrenadeBase` ｜父类: GrenadeBase
+- **定时触发器** — `TimerTrigger` ｜父类: BaseItem
+- **定音鼓** — `TimpaniInstrument` ｜父类: BasePlaceableInstrumentRotatable
+- **包烟籽** — `TobaccoSeeds` ｜父类: SeedBase
+- **番茄种子包** — `TomatoSeeds` ｜父类: SeedBase
+- **嗵鼓** — `TomDrumsInstrument` ｜父类: BasePlaceableInstrumentRotatable
+- **艺术工具箱** — `ToolboxArtistic` ｜父类: ToolboxBase
+- `模板` **ToolboxBase** — `ToolboxBase` ｜父类: BaseStorageItem
+- **电气工具箱** — `ToolboxElectrical` ｜父类: ToolboxBase
+- **电气工具箱** — `ToolboxElectricalTurret` ｜父类: ToolboxElectrical
+- **电气工具箱** — `ToolboxElectricalTurretPirate` ｜父类: ToolboxElectrical ｜_Starlight
+- **应急工具箱** — `ToolboxEmergency` ｜父类: ToolboxBase
+- **黄金工具箱** — `ToolboxGolden` ｜父类: ToolboxBase
+- **隐形工具箱** — `ToolboxInvisible` ｜父类: ToolboxBase ｜_Starlight
+- **隐形工具箱** — `ToolboxInvisibleFilled` ｜父类: ToolboxInvisible ｜_Starlight
+- **机械工具箱** — `ToolboxMechanical` ｜父类: ToolboxBase
+- **可疑工具箱** — `ToolboxSyndicate` ｜父类: ToolboxBase,BaseSyndicateContraband
+- **未定工具箱 # Starlight** — `ToolboxThief` ｜父类: BaseItem
+- **火把** — `Torch` ｜父类: BaseItem
+- **电路板周转箱** — `ToteBase` ｜父类: BoxBase
+- **止血带** — `Tourniquet` ｜父类: BaseHealingItem
+- **塔帽孢子包** — `TowercapSeeds` ｜父类: SeedBase
+- **酸性气体手雷** — `ToxicGasGrenade` ｜父类: SmokeGrenade ｜_Starlight
+- **AI玩具** — `ToyAi` ｜父类: BaseFigurine
+- **小小内鬼** — `ToyAmongPequeno` ｜父类: BasePlushie
+- **死亡里普利玩具** — `ToyDeathRipley` ｜父类: BaseFigurineMech
+- **杜兰德玩具** — `ToyDurand` ｜父类: BaseFigurineMech
+- **助手手办** — `ToyFigurineAssistant` ｜父类: BaseFigurine
+- **大气技师手办** — `ToyFigurineAtmosTech` ｜父类: BaseFigurine
+- **酒保手办** — `ToyFigurineBartender` ｜父类: BaseFigurine
+- **植物学家手办** — `ToyFigurineBotanist` ｜父类: BaseFigurine
+- **拳击手手办** — `ToyFigurineBoxer` ｜父类: BaseFigurine
+- **舰长手办** — `ToyFigurineCaptain` ｜父类: BaseFigurine
+- **货运技师手办** — `ToyFigurineCargoTech` ｜父类: BaseFigurine
+- **牧师手办** — `ToyFigurineChaplain` ｜父类: BaseFigurine
+- **厨师手办** — `ToyFigurineChef` ｜父类: BaseFigurine
+- **药剂师手办** — `ToyFigurineChemist` ｜父类: BaseFigurine
+- **工程主管手办** — `ToyFigurineChiefEngineer` ｜父类: BaseFigurine
+- **医疗主管手办** — `ToyFigurineChiefMedicalOfficer` ｜父类: BaseFigurine
+- **小丑手办** — `ToyFigurineClown` ｜父类: BaseFigurine
+- **侦探手办** — `ToyFigurineDetective` ｜父类: BaseFigurine
+- **空间站工程师手办** — `ToyFigurineEngineer` ｜父类: BaseFigurine
+- **辛迪加步兵手办** — `ToyFigurineFootsoldier` ｜父类: BaseFigurine
+- **“狮鹫”手办** — `ToyFigurineGriffin` ｜父类: BaseFigurine
+- **哈姆雷特手办** — `ToyFigurineHamlet` ｜父类: BaseFigurine
+- **人事主管手办** — `ToyFigurineHeadOfPersonnel` ｜父类: BaseFigurine
+- **安保主管手办** — `ToyFigurineHeadOfSecurity` ｜父类: BaseFigurine
+- **全息小丑手办** — `ToyFigurineHoloClown` ｜父类: BaseFigurine
+- **清洁工手办** — `ToyFigurineJanitor` ｜父类: BaseFigurine
+- **律师手办** — `ToyFigurineLawyer` ｜父类: BaseFigurine
+- **图书管理员手办** — `ToyFigurineLibrarian` ｜父类: BaseFigurine
+- **医师手办** — `ToyFigurineMedicalDoctor` ｜父类: BaseFigurine
+- **哑剧演员手办** — `ToyFigurineMime` ｜父类: BaseFigurine
+- **老鼠手办** — `ToyFigurineMouse` ｜父类: BaseFigurine
+- **乐手手办** — `ToyFigurineMusician` ｜父类: BaseFigurine
+- **辛迪加核弹特工手办** — `ToyFigurineNukie` ｜父类: BaseFigurine
+- **辛迪加核弹特工指挥官手办** — `ToyFigurineNukieCommander` ｜父类: BaseFigurine
+- **精英辛迪加核弹特工手办** — `ToyFigurineNukieElite` ｜父类: BaseFigurine
+- **“猫头鹰侠”手办** — `ToyFigurineOwlman` ｜父类: BaseFigurine
+- **急救员手办** — `ToyFigurineParamedic` ｜父类: BaseFigurine
+- **军需官手办** — `ToyFigurineQuartermaster` ｜父类: BaseFigurine
+- **异形女王手办** — `ToyFigurineQueen` ｜父类: BaseFigurine
+- **鼠王手办** — `ToyFigurineRatKing` ｜父类: BaseFigurine
+- **鼠仆手办** — `ToyFigurineRatServant` ｜父类: BaseFigurine
+- **研究主管手办** — `ToyFigurineResearchDirector` ｜父类: BaseFigurine
+- **打捞专员手办** — `ToyFigurineSalvage` ｜父类: BaseFigurine
+- **科学家手办** — `ToyFigurineScientist` ｜父类: BaseFigurine
+- **安保干员手办** — `ToyFigurineSecurity` ｜父类: BaseFigurine
+- **骷髅手办** — `ToyFigurineSkeleton` ｜父类: BaseFigurine
+- **史莱姆手办** — `ToyFigurineSlime` ｜父类: BaseFigurine
+- **太空龙手办** — `ToyFigurineSpaceDragon` ｜父类: BaseFigurine
+- **窃贼手办** — `ToyFigurineThief` ｜父类: BaseFigurine
+- **典狱长手办** — `ToyFigurineWarden` ｜父类: BaseFigurine
+- **巫师手办** — `ToyFigurineWizard` ｜父类: BaseFigurine
+- **冒牌巫师手办** — `ToyFigurineWizardFake` ｜父类: BaseFigurine
+- **消防里普利玩具** — `ToyFireRipley` ｜父类: BaseFigurineMech
+- **盖吉斯玩具** — `ToyGygax` ｜父类: BaseFigurineMech
+- **橡胶锤** — `ToyHammer` ｜父类: BaseItem,BaseToySword
+- **H.O.N.K.玩具** — `ToyHonk` ｜父类: BaseFigurineMech
+- **伊恩玩偶** — `ToyIan` ｜父类: BasePlushie
+- **掠夺者玩具** — `ToyMarauder` ｜父类: BaseFigurineMech
+- **重锤玩具** — `ToyMauler` ｜父类: BaseFigurineMech
+- **老鼠玩具** — `ToyMouse` ｜父类: BasePlushie
+- **核弹玩具** — `ToyNuke` ｜父类: BaseFigurine
+- **奥德修斯玩具** — `ToyOdysseus` ｜父类: BaseFigurineMech
+- **相位子玩具** — `ToyPhazon` ｜父类: BaseFigurineMech
+- **缄默玩具** — `ToyReticence` ｜父类: BaseFigurineMech
+- **里普利玩具** — `ToyRipley` ｜父类: BaseFigurineMech
+- **橡皮鸭** — `ToyRubberDuck` ｜父类: BaseRubberToy
+- **炽天使玩具** — `ToySeraph` ｜父类: BaseFigurineMech
+- **玩具剑** — `ToySword` ｜父类: BaseItem,BaseToySword
+- **双刃玩具剑** — `ToySwordDoubled` ｜父类: ToySword ｜_Starlight
+- **油炸机主板** — `TP14DeepFryerCircuitboard` ｜父类: BaseMachineCircuitboard ｜_TP
+- **马苏里拉奶酪条** — `TP14FoodCheeseSticks` ｜父类: FoodSnackBase ｜_TP
+- **玉米热狗** — `TP14FoodCorndog` ｜父类: FoodSnackBase ｜_TP
+- **炸冰淇淋** — `TP14FoodFriedIceCream` ｜父类: FoodSnackBase ｜_TP
+- **漏斗蛋糕** — `TP14FoodFunnelCake` ｜父类: FoodSnackBase ｜_TP
+- **炸鱼条** — `TP14FoodMeatFishFingers` ｜父类: FoodMeatBase ｜_TP
+- **生香肠** — `TP14FoodMeatSausage` ｜父类: FoodMeatBase ｜_TP
+- **蛾苏里拉条** — `TP14FoodMothSticks` ｜父类: FoodSnackBase ｜_TP
+- **追踪植入物** — `TrackingImplant` ｜父类: BaseSubdermalImplant
+- **追踪植入器** — `TrackingImplanter` ｜父类: BaseImplantOnlyImplanter
+- **辛迪加暗语** — `TraitorCodePaper` ｜父类: Paper,BaseSyndicateContraband
+- **翻译器** — `Translator` ｜父类: BaseItem ｜_Starlight
+- **外语人士翻译器** — `TranslatorForeigner` ｜父类: Translator ｜_Starlight
+- **迭代者翻译器** — `TranslatorIterator` ｜父类: Translator ｜_Starlight
+- **垃圾袋** — `TrashBag` ｜父类: BaseStorageItem
+- **垃圾袋** — `TrashBagBlue` ｜父类: TrashBag
+- **烤香蕉皮** — `TrashBakedBananaPeel` ｜父类: TrashBananaPeel
+- **香蕉皮** — `TrashBananaPeel` ｜父类: BaseItem
+- **香蕉皮** — `TrashBananaPeelExplosive` ｜父类: TrashBananaPeel
+- **香蕉** — `TrashBananaPeelExplosiveUnarmed` ｜父类: BaseItem
+- **香蕉矿蕉皮** — `TrashBananiumPeel` ｜父类: TrashBananaPeel
+- **樱桃核** — `TrashCherryPit` ｜父类: FoodInjectableBase
+- **默剧蕉皮** — `TrashMimanaPeel` ｜父类: TrashBananaPeel
+- **米玛纳果皮** — `TrashMimanaPeelStealthy` ｜父类: TrashMimanaPeel ｜_Starlight
+- **T射线扫描仪** — `trayScanner` ｜父类: BaseItem
+- **CD 驱动器** — `TreasureCDDrive` ｜父类: BaseItem
+- **硬币** — `TreasureCoinAdamantine` ｜父类: TreasureCoinIron
+- **硬币** — `TreasureCoinDiamond` ｜父类: TreasureCoinIron
+- **硬币** — `TreasureCoinGold` ｜父类: TreasureCoinIron
+- **硬币** — `TreasureCoinIron` ｜父类: BaseItem
+- **硬币** — `TreasureCoinSilver` ｜父类: TreasureCoinIron
+- **超频 CPU** — `TreasureCPUSupercharged` ｜父类: BaseItem
+- **加密数据盘** — `TreasureDatadiskEncrypted` ｜父类: BaseItem
+- **软盘驱动器** — `TreasureFlopDiskDrive` ｜父类: BaseItem
+- **硬盘驱动器** — `TreasureHardDiskDrive` ｜父类: BaseItem
+- **样本管** — `TreasureSampleTube` ｜父类: BaseItem
+- **长号** — `TromboneInstrument` ｜父类: BaseBrassInstrument
+- **小号** — `TrumpetInstrument` ｜父类: BaseBrassInstrument
+- **铁头警棍** — `Truncheon` ｜父类: BaseItem,BaseSecurityContraband
+- **TSF- 武器** — `TSFBatonModel5` ｜父类: BaseItem,BaseTSFContraband ｜_Starlight
+- **太阳联邦 ID卡** — `TSFIdCard` ｜父类: IDCardStandard,BaseTSFContraband ｜_Starlight
+- **太阳联邦 ID卡** — `TSFIdCardCrew` ｜父类: TSFIdCard ｜_Starlight
+- **太阳联邦 ID卡** — `TSFIdCardMarine` ｜父类: TSFIdCard ｜_Starlight
+- **太阳联邦 ID卡** — `TSFIdCardOfficer` ｜父类: TSFIdCard ｜_Starlight
+- **太阳联邦 ID卡** — `TSFIdCardOfficerSheriff` ｜父类: TSFIdCardOfficer ｜_Starlight
+- **太阳联邦 ID卡** — `TSFIdCardSpecOps` ｜父类: TSFIdCard ｜_Starlight
+- **心灵护盾植入物** — `TSFMindShieldImplant` ｜父类: MindShieldImplant ｜_Starlight
+- **心灵护盾植入器** — `TSFMindShieldImplanter` ｜父类: MindShieldImplanter ｜_Starlight
+- **太阳联邦束线带包** — `TSFZiptiePack` ｜父类: BaseItem,BaseTSFContraband ｜_Starlight
+- **大号** — `TubaInstrument` ｜父类: BasePlaceableInstrument
+- **涡轮充电器 机器主板** — `TurboItemRechargerCircuitboard` ｜父类: BaseMachineCircuitboard
+- **双向定位针套装** — `TwinPointerKit` ｜父类: BoxCardboard ｜_Starlight
+- **左侧双生指针** — `TwinPointerLeft` ｜父类: PinpointerBase ｜_Starlight
+- **右侧双生指针** — `TwinPointerRight` ｜父类: PinpointerBase ｜_Starlight
+- **刀片服务器框架** — `UnfinishedBladeServerFrame` ｜父类: BaseItem ｜_Moffstation
+- **破潮者零件** — `UnfinishedClaymoreForged` ｜父类: BaseItem ｜_Starlight
+- **锻造头盔零件** — `UnfinishedClothingHeadHelmetForged` ｜父类: BaseItem ｜_Starlight
+- **临时头盔零件** — `UnfinishedClothingHeadHelmetImprovised` ｜父类: BaseItem ｜_Starlight
+- **圣骑士头盔零件** — `UnfinishedClothingHeadHelmetPaladin` ｜父类: BaseItem ｜_Starlight
+- **锻造护甲背心零件** — `UnfinishedClothingOuterArmorForged` ｜父类: BaseItem ｜_Starlight
+- **临时护甲背心零件** — `UnfinishedClothingOuterArmorImprovised` ｜父类: BaseItem ｜_Starlight
+- **圣骑士护甲零件** — `UnfinishedClothingOuterArmorPaladin` ｜父类: BaseItem ｜_Starlight
+- **锻造全能工具零件** — `UnfinishedForgedOmnitool` ｜父类: BaseItem ｜_Starlight
+- **锻造圆盾零件** — `UnfinishedForgedShieldBuckler` ｜父类: BaseItem ｜_Starlight
+- **锻造塔盾零件** — `UnfinishedForgedShieldTower` ｜父类: BaseItem ｜_Starlight
+- **组装完成的锻造霰弹枪** — `UnfinishedForgedShotgun` ｜父类: BaseItem ｜_Starlight
+- **撬棍零件** — `UnfinishedImprovisedCrowbar` ｜父类: BaseItem ｜_Starlight
+- **多用工具零件** — `UnfinishedImprovisedMultitool` ｜父类: BaseItem ｜_Starlight
+- **临时全能工具零件** — `UnfinishedImprovisedOmnitool` ｜父类: BaseItem ｜_Starlight
+- **螺丝刀零件** — `UnfinishedImprovisedScrewdriver` ｜父类: BaseItem ｜_Starlight
+- **临时盾牌零件** — `UnfinishedImprovisedShield` ｜父类: BaseItem ｜_Starlight
+- **钢丝钳零件** — `UnfinishedImprovisedWirecutter` ｜父类: BaseItem ｜_Starlight
+- **扳手零件** — `UnfinishedImprovisedWrench` ｜父类: BaseItem ｜_Starlight
+- **圣骑士盾零件** — `UnfinishedPaladinShield` ｜父类: BaseItem ｜_Starlight
+- **圣骑士巨盾零件** — `UnfinishedPaladinShieldGreat` ｜父类: BaseItem ｜_Starlight
+- **锻造手枪零件** — `UnfinishedPistolForged` ｜父类: BaseItem ｜_Starlight
+- **锻造左轮零件** — `UnfinishedRevolverForged` ｜父类: BaseItem ｜_Starlight
+- **锻造狙击枪零件** — `UnfinishedSniperForged` ｜父类: BaseItem ｜_Starlight
+- **锻造冲锋枪零件** — `UnfinishedSubMachineGunForged` ｜父类: BaseItem ｜_Starlight
+- **锻造剑零件** — `UnfinishedSwordForged` ｜父类: BaseItem ｜_Starlight
+- **邪秽戟** — `UnholyHalberd` ｜父类: BaseItem
+- **制服打印机 机器主板** — `UniformPrinterMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **万能ID卡** — `UniversalIDCard` ｜父类: IDCardStandard
+- **通用 ID 控制台电路板** — `UniversalIdConsoleCircuitboard` ｜父类: BaseComputerCircuitboard,BaseCommandContraband ｜_Starlight
+- **升链植入物** — `UplinkImplant` ｜父类: BaseSubdermalImplant,StorePresetUplink
+- **升链植入器** — `UplinkImplanter` ｜父类: BaseImplantOnlyImplanterSyndi
+- **新奇打火机盲盒** — `UplinkLighterBox` ｜父类: MysteryLighterBox
+- **立式钢琴** — `UprightPianoInstrument` ｜父类: BasePlaceableInstrumentRotatable
+- **铀玻璃燃料棒** — `UraniumGlassReactorFuelRod` ｜父类: BaseReactorFuelRod ｜_FarHorizons
+- **铀矿石** — `UraniumOre` ｜父类: OreBase
+- **铀矿石** — `UraniumOre1` ｜父类: UraniumOre
+- **铀燃料棒** — `UraniumReactorFuelRod` ｜父类: BaseReactorFuelRod ｜_FarHorizons
+- **铀制简易尖刀** — `UraniumShiv` ｜父类: Shiv
+- **瓮** — `Urn` ｜父类: BaseStorageItem
+- **苏维埃升链植入物** — `USSPUplinkImplant` ｜父类: BaseSubdermalImplant,StorePresetUSSP ｜_Starlight
+- **苏维埃升链植入器** — `USSPUplinkImplanter` ｜父类: BaseImplantOnlyImplanterSyndi_StarLight ｜_Starlight
+- **苏维埃升链植入器** — `USSPUplinkImplanterEmpty` ｜父类: BaseImplantOnlyImplanterSyndi_StarLight ｜_Starlight
+- **“联络-UZL”无线电** — `USSPUplinkRadioPreset` ｜父类: BaseRevUplinkRadio,StorePresetUSSP,BaseSovietContraband ｜_Starlight
+- **“联络-UZL”无线电（调试）** — `USSPUplinkRadioPresetDebug` ｜父类: BaseRevUplinkRadio,StorePresetUSSP,BaseSovietContraband ｜_Starlight
+- `模板` **UtensilBase** — `UtensilBase` ｜父类: BaseItem
+- `模板` **UtensilBasePlastic** — `UtensilBasePlastic` ｜父类: UtensilBase
+- **美工刀** — `UtilityKnife` ｜父类: BaseItem
+- **疫苗接种机 机器主板** — `VaccinatorMachineCircuitboard` ｜父类: BaseMachineCircuitboard
+- **疫苗** — `Vaccine` ｜父类: BaseItem
+- **吸血鬼利爪** — `VampiricClawsItem` ｜父类: BaseItem ｜_Starlight
+- **电子烟** — `Vape` ｜父类: BaseVape
+- **蒸气** — `Vapor`
+- **混合方块盒** — `VariantCubeBox` ｜父类: MonkeyCubeBox
+- **酒吧衣柜电路板** — `VendingBarDrobeCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **解放站电路板** — `VendingMachineAmmoCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **大气衣柜电路板** — `VendingMachineAtmosDrobeCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **酒友自动售货机电路板** — `VendingMachineBoozeCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **淤伤自动售货机电路板** — `VendingMachineBoozeSyndicateCircuitboard` ｜父类: BaseMachineCircuitboard,BaseMinorContraband ｜_Starlight
+- **货运衣柜电路板** — `VendingMachineCargoDrobeCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **人事科技电路板** — `VendingMachineCartCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **中央指挥部衣柜电路板** — `VendingMachineCentDrobeCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **常先生电路板** — `VendingMachineChangCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **虔诚售货机电路板** — `VendingMachineChapelCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **厨师衣柜电路板** — `VendingMachineChefDrobeCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **厨师售货机电路板** — `VendingMachineChefvendCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **化学衣柜电路板** — `VendingMachineChemDrobeCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **化学试剂售货机电路板** — `VendingMachineChemicalsCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **辛迪加药液机电路板** — `VendingMachineChemicalsSyndicateCircuitboard` ｜父类: BaseMachineCircuitboard,BaseMinorContraband ｜_Starlight
+- **豪华可疑香烟机电路板** — `VendingMachineCigsCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **衣装伙伴电路板** — `VendingMachineClothingCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **太阳系最佳热饮机电路板** — `VendingMachineCoffeeCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **强健软饮机（黑色可乐）电路板** — `VendingMachineColaBlackCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **强健软饮机（可乐）电路板** — `VendingMachineColaCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **太空可乐售货机电路板** — `VendingMachineColaRedCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **调味品站电路板** — `VendingMachineCondimentsCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **治疗衣柜电路板** — `VendingMachineCuraDrobeCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **侦探衣柜电路板** — `VendingMachineDetDrobeCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **塑钢厨师餐具售货机电路板** — `VendingMachineDinnerwareCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **折扣丹电路板** — `VendingMachineDiscountCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **随行 Donk 电路板** — `VendingMachineDonkCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **猴猴甜甜圈电路板** — `VendingMachineDonutCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **吉布博士售货机电路板** — `VendingMachineDrGibbCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **工程衣柜电路板** — `VendingMachineEngiDrobeCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **工程售货机电路板** — `VendingMachineEngivendCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **健康好游戏电路板** — `VendingMachineGamesCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **遗传衣柜电路板** — `VendingMachineGeneDrobeCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **欢乐鸣笛分配器电路板** — `VendingMachineHappyHonkCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **植物衣柜电路板** — `VendingMachineHydrobeCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **尖叫冰淇淋机电路板** — `VendingMachineIceCreamCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **清洁衣柜电路板** — `VendingMachineJaniDrobeCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **律师衣柜电路板** — `VendingMachineLawDrobeCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **法务衣柜电路板** — `VendingMachineLegalDrobeCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **纳米医疗加强版电路板** — `VendingMachineMedicalCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **医疗衣柜电路板** — `VendingMachineMediDrobeCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **营养极限电路板** — `VendingMachineNutriCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **骄傲自动售货机电路板** — `VendingMachinePrideCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **劲能游戏售货机电路板** — `VendingMachinePwrGameCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **外星分配器补货箱** — `VendingMachineRestockAbductorDispenser` ｜父类: BaseVendingMachineRestock ｜_Starlight
+- **酒水售货机补货箱** — `VendingMachineRestockBooze` ｜父类: BaseVendingMachineRestock
+- **中央指挥部售货机补货箱** — `VendingMachineRestockCentComm` ｜父类: BaseCentcommContraband,BaseVendingMachineRestock ｜_Starlight
+- **常先生售货机补货箱** — `VendingMachineRestockChang` ｜父类: BaseVendingMachineRestock
+- **厨具售货机补货箱** — `VendingMachineRestockChefvend` ｜父类: BaseVendingMachineRestock
+- **化学售货机补货箱** — `VendingMachineRestockChemVend` ｜父类: BaseVendingMachineRestock
+- **衣柜补货箱** — `VendingMachineRestockClothes` ｜父类: BaseVendingMachineRestock
+- **调味品站补货箱** — `VendingMachineRestockCondimentStation` ｜父类: BaseVendingMachineRestock
+- **自动衣柜补货箱** — `VendingMachineRestockCostumes` ｜父类: BaseVendingMachineRestock
+- **塑钢大厨补货箱** — `VendingMachineRestockDinnerware` ｜父类: BaseVendingMachineRestock
+- **折扣丹补货箱** — `VendingMachineRestockDiscountDans` ｜父类: BaseVendingMachineRestock
+- **Donk 便携售货机补货箱** — `VendingMachineRestockDonk` ｜父类: BaseVendingMachineRestock ｜_Starlight
+- **健壮甜甜圈补货箱** — `VendingMachineRestockDonut` ｜父类: BaseVendingMachineRestock
+- **工程售货机补货箱** — `VendingMachineRestockEngineering` ｜父类: BaseVendingMachineRestock
+- **健康娱乐补货箱** — `VendingMachineRestockGames` ｜父类: BaseVendingMachineRestock
+- **多来点巧克力补货箱** — `VendingMachineRestockGetmoreChocolateCorp` ｜父类: BaseVendingMachineRestock
+- **欢乐呵叫补货箱** — `VendingMachineRestockHappyHonk` ｜父类: BaseVendingMachineRestock
+- **太阳系至臻热饮补货箱** — `VendingMachineRestockHotDrinks` ｜父类: BaseVendingMachineRestock
+- **冰淇淋补货箱** — `VendingMachineRestockIceCream` ｜父类: BaseVendingMachineRestock ｜_Starlight
+- **MagiVend 补货箱** — `VendingMachineRestockMagical` ｜父类: BaseMagicalContraband,BaseVendingMachineRestock ｜_Starlight
+- **纳米医疗补货箱** — `VendingMachineRestockMedical` ｜父类: BaseVendingMachineRestock
+- **营养至上补货箱** — `VendingMachineRestockNutriMax` ｜父类: BaseVendingMachineRestock
+- **人事科技补货箱** — `VendingMachineRestockPTech` ｜父类: BaseVendingMachineRestock
+- **豪华机器人科技补货箱** — `VendingMachineRestockRobotics` ｜父类: BaseVendingMachineRestock
+- **饮料补货箱** — `VendingMachineRestockRobustSoftdrinks` ｜父类: BaseVendingMachineRestock
+- **打捞售货机补货箱** — `VendingMachineRestockSalvageEquipment` ｜父类: BaseVendingMachineRestock
+- **安保科技补货箱** — `VendingMachineRestockSecTech` ｜父类: BaseVendingMachineRestock
+- **超级种子补货箱** — `VendingMachineRestockSeeds` ｜父类: BaseVendingMachineRestock
+- **黑心香烟补货箱** — `VendingMachineRestockSmokes` ｜父类: BaseVendingMachineRestock
+- **囚犯食品补货箱** — `VendingMachineRestockSustenance` ｜父类: BaseVendingMachineRestock ｜_Starlight
+- **辛迪加售货机补货箱** — `VendingMachineRestockSyndicate` ｜父类: BaseSyndicateContraband,BaseVendingMachineRestock ｜_Starlight
+- **气罐售货机补货箱** — `VendingMachineRestockTankDispenser` ｜父类: BaseVendingMachineRestock
+- **综合售货机补货箱** — `VendingMachineRestockVendomat` ｜父类: BaseVendingMachineRestock
+- **机器人衣柜电路板** — `VendingMachineRoboDrobeCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **豪华机器人科技电路板** — `VendingMachineRoboticsCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **打捞售货机电路板** — `VendingMachineSalvageCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **科研衣柜电路板** — `VendingMachineSciDrobeCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **安保科技电路板** — `VendingMachineSecCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **安保衣柜电路板** — `VendingMachineSecDrobeCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **巨型种子仆从电路板** — `VendingMachineSeedsCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **巨型种子仆从（公开）电路板** — `VendingMachineSeedsUnlockedCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **蹒跚者果汁售货机电路板** — `VendingMachineShamblersJuiceCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **天谴售货机电路板** — `VendingMachineSmiteCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **补给售货机（蓝色）电路板** — `VendingMachineSnackBlueCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **多来点巧克力公司电路板** — `VendingMachineSnackCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **补给售货机（绿色）电路板** — `VendingMachineSnackGreenCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **补给售货机（橙色）电路板** — `VendingMachineSnackOrangeCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **补给售货机（青色）电路板** — `VendingMachineSnackTealCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **强健软饮机（苏打水）电路板** — `VendingMachineSodaCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **波达汽水机电路板** — `VendingMachineSovietSodaCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **太空提神！售货机电路板** — `VendingMachineSpaceUpCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **星吻售货机电路板** — `VendingMachineStarkistCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **补给售货机电路板** — `VendingMachineSustenanceCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **辛迪加衣柜电路板** — `VendingMachineSyndieDrobeCircuitboard` ｜父类: BaseMachineCircuitboard,BaseMinorContraband ｜_Starlight
+- **气罐分配器（含等离子体）电路板** — `VendingMachineTankDispenserEngineeringCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **气罐分配器电路板** — `VendingMachineTankDispenserEVACircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **自动戏服柜电路板** — `VendingMachineTheaterCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **万能售货机电路板** — `VendingMachineVendomatCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **病毒衣柜电路板** — `VendingMachineViroDrobeCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **纳米医疗机电路板** — `VendingMachineWallMedicalCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **纳米医疗创可贴机电路板** — `VendingMachineWallMedicalCivilianCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **冬装衣柜电路板** — `VendingMachineWinterCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **你的工具电路板** — `VendingMachineYouToolCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **小瓶** — `VestineChemistryVial` ｜父类: ChemistryEmptyVial
+- **资深蓝盾 PDA** — `VeteranBlueShieldPDA` ｜父类: BlueShieldPDA ｜_Starlight
+- **资深狱医 PDA** — `VeteranBrigmedicPDA` ｜父类: BaseMedicalPDA ｜_Starlight
+- **资深卫生员 PDA** — `VeteranCorpsmanPDA` ｜父类: BaseMedicalPDA ｜_Starlight
+- **资深采矿 PDA** — `VeteranMiningPDA` ｜父类: MiningPDA ｜_Starlight
+- **资深打捞领队 PDA** — `VeteranSalvageLeadPDA` ｜父类: SalvageLeadPDA ｜_Starlight
+- **资深打捞专员 PDA** — `VeteranSalvagePDA` ｜父类: SalvagePDA ｜_Starlight
+- **小瓶盒** — `VialCase` ｜父类: BaseStorageItem,BaseBagOpenClose ｜_Starlight
+- **赛博小瓶** — `VialCyber` ｜父类: BaseItem ｜_Starlight
+- **赛博小瓶** — `VialCyberBlood` ｜父类: VialCyber ｜_Starlight
+- **赛博小瓶** — `VialCyberEmpty` ｜父类: VialCyber ｜_Starlight
+- **赛博小瓶** — `VialCyberWater` ｜父类: VialCyber ｜_Starlight
+- **颤音琴** — `VibraphoneInstrument` ｜父类: BasePlaceableInstrumentRotatable
+- **维卡毛绒玩偶** — `VikaPviPlushie` ｜父类: BaseVulpkaninPlushie ｜_Starlight
+- **vim线束** — `VimHarness` ｜父类: BaseVimPartItem
+- **黑胶唱片机电路板** — `VinylPlayerCircuitBoard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **中提琴** — `ViolaInstrument` ｜父类: BaseStringInstrument
+- **小提琴** — `ViolinInstrument` ｜父类: BaseStringInstrument
+- **牧师PDA** — `VisitorChaplainPDA` ｜父类: ChaplainPDA
+- **小丑PDA** — `VisitorClownPDA` ｜父类: ClownPDA
+- **访客ID卡** — `VisitorIDCard` ｜父类: IDCardStandard
+- **律师PDA** — `VisitorLawyerPDA` ｜父类: LawyerPDA
+- **图书管理员PDA** — `VisitorLibrarianPDA` ｜父类: LibrarianPDA
+- **医师PDA** — `VisitorMedicalPDA` ｜父类: MedicalPDA
+- **乐手PDA** — `VisitorMusicianPDA` ｜父类: MusicianPDA
+- **透明PDA** — `VisitorPDA` ｜父类: ClearPDA
+- **变声植入物** — `VoiceMaskImplant` ｜父类: BaseSubdermalImplant
+- **变声植入器** — `VoiceMaskImplanter` ｜父类: BaseImplantOnlyImplanterSyndi
+- **语音传感器** — `voicesensor` ｜父类: BaseItem
+- **语音触发器** — `VoiceTrigger` ｜父类: BaseItem
+- `模板` **VolatileGrenadeBase** — `VolatileGrenadeBase`
+- **华夫饼公司翻盖打火机** — `WaffleCoFlippo` ｜父类: BaseBrandedLighter,FlippoLighter
+- **壁挂式 APU 电子元件** — `WallmountGeneratorAPUElectronics` ｜父类: BaseElectronics
+- **壁挂式发电机电子元件** — `WallmountGeneratorElectronics` ｜父类: BaseElectronics
+- **壁挂式质量扫描仪电子板** — `WallmountMassScannerCircuitboard` ｜父类: BaseElectronics ｜_Starlight
+- **壁挂式变电站电子元件** — `WallmountSubstationElectronics` ｜父类: BaseElectronics
+- **通缉名单程序卡** — `WantedListCartridge` ｜父类: BasePDACartridge,BaseSecurityContraband
+- **典狱长ID卡** — `WardenIDCard` ｜父类: IDCardStandard
+- **典狱长PDA** — `WardenPDA` ｜父类: BaseSecurityPDA
+- **暖光灯泡** — `WarmLightBulb` ｜父类: BaseLightbulb
+- **观察者能量弹** — `WatcherBolt` ｜父类: BaseBullet
+- **熔岩翼观察者能量弹** — `WatcherBoltMagmawing` ｜父类: WatcherBolt
+- **包西瓜子** — `WatermelonSeeds` ｜父类: SeedBase
+- **葛藤** — `WeakKudzu` ｜父类: Kudzu
+- **09 武器** — `WeaponAdmemeX09Headsman` ｜父类: BaseItem,BaseNanoTrasenContraband ｜_Starlight
+- **先进激光手枪** — `WeaponAdvancedLaser` ｜父类: BaseWeaponBatterySmall,BaseSecurityContraband
+- **混合式泰瑟枪** — `WeaponAdvancedTaser` ｜父类: BaseWeaponBatterySmall,BaseSecurityContraband ｜_Starlight
+- **外星手枪** — `WeaponAlien` ｜父类: BaseWeaponBatterySmall,BaseMajorContraband ｜_Starlight
+- **武器“ANNIHILATOR”** — `WeaponANNIHILATOR` ｜父类: WeaponPulseCarbine,BaseMajorContraband ｜_Starlight
+- **古董激光手枪** — `WeaponAntiqueLaser` ｜父类: BaseWeaponBatterySmall,BaseGrandTheftContraband
+- **法棍** — `WeaponBaguette` ｜父类: FoodBreadBaguette
+- **呵叫魔之眼** — `WeaponBehonkerLaser` ｜父类: BaseWeaponBatterySmall
+- **充电器 机器主板** — `WeaponCapacitorRechargerCircuitboard` ｜父类: BaseMachineCircuitboard
+- **牛角包** — `WeaponCroissant` ｜父类: FoodBakedCroissant
+- **破碎锤** — `WeaponCrusher` ｜父类: BaseWeaponCrusher,BaseSecurityCargoContraband
+- **破碎匕首** — `WeaponCrusherDagger` ｜父类: BaseKnife,BaseWeaponCrusher,BaseSecurityCargoContraband
+- **赛博碎岩匕首** — `WeaponCrusherDaggerCyber` ｜父类: BaseKnife,BaseWeaponCrusher ｜_Starlight
+- **破碎长刀** — `WeaponCrusherGlaive` ｜父类: WeaponCrusher,BaseSecurityCargoContraband
+- **反克隆枪** — `WeaponDecloner` ｜父类: BaseWeaponBatterySmall,BaseSecurityContraband ｜_Starlight
+- **失能枪** — `WeaponDisabler` ｜父类: WeaponDisablerPractice,BaseSecurityCommandContraband
+- **训练用失能枪** — `WeaponDisablerPractice` ｜父类: BaseWeaponBatterySmall
+- **失能冲锋枪** — `WeaponDisablerSMG` ｜父类: BaseWeaponBattery,BaseSecurityContraband
+- **支配者** — `WeaponDominator` ｜父类: BaseWeaponBatterySmall,BaseSecurityContraband ｜_Starlight
+- **微型能量弩** — `WeaponEnergyCrossbow` ｜父类: WeaponEnergyCrossbowBase,BaseSyndicateContraband
+- `模板` **WeaponEnergyCrossbowBase** — `WeaponEnergyCrossbowBase` ｜父类: BaseItem
+- **微型能量弩** — `WeaponEnergyCrossbowWorn` ｜父类: WeaponEnergyCrossbow ｜_Starlight
+- **能量枪** — `WeaponEnergyGun` ｜父类: BaseWeaponBatterySmall,BaseSecurityContraband ｜_Starlight
+- **能量马格南** — `WeaponEnergyMagnum` ｜父类: BaseWeaponBatterySmall,BaseDetectiveGrandTheftContraband
+- **MT-7 武器** — `WeaponEnergyMagnumGun` ｜父类: BaseWeaponBatterySmall,BaseSecurityContraband ｜_Starlight
+- **MT-7G 武器** — `WeaponEnergyMagnumGunGreenshield` ｜父类: BaseWeaponBatterySmall,BaseCentcommContraband,BaseGrandTheftContraband ｜_Starlight
+- **能量霰弹枪** — `WeaponEnergyShotgun` ｜父类: BaseWeaponBattery,BaseGunWieldable,BaseWardenGrandTheftContraband
+- **原型 5X 能量枪** — `WeaponEnergySMG` ｜父类: BaseWeaponBattery,BaseGrandTheftContraband ｜_Starlight
+- **武器“LWAP”** — `WeaponEnergySniper` ｜父类: BaseWeaponBattery,BaseGunWieldable,BaseCentcommContraband ｜_Starlight
+- **哨戒炮塔** — `WeaponEnergyTurretAI` ｜父类: WeaponEnergyTurretStationBase
+- **哨戒炮塔控制面板电子元件** — `WeaponEnergyTurretAIControlPanelElectronics` ｜父类: WeaponEnergyTurretStationControlPanelElectronicsBase
+- **哨戒炮机控板** — `WeaponEnergyTurretAIMachineCircuitboard` ｜父类: WeaponEnergyTurretStationMachineCircuitboardBase
+- **哨戒炮塔** — `WeaponEnergyTurretCommand` ｜父类: WeaponEnergyTurretStationBase
+- **哨戒炮塔控制面板电子元件** — `WeaponEnergyTurretCommandControlPanelElectronics` ｜父类: WeaponEnergyTurretStationControlPanelElectronicsBase
+- **哨戒炮机控板** — `WeaponEnergyTurretCommandMachineCircuitboard` ｜父类: WeaponEnergyTurretStationMachineCircuitboardBase
+- **哨戒炮塔** — `WeaponEnergyTurretSecurity` ｜父类: WeaponEnergyTurretStationBase
+- **哨戒炮塔控制面板电子元件** — `WeaponEnergyTurretSecurityControlPanelElectronics` ｜父类: WeaponEnergyTurretStationControlPanelElectronicsBase
+- **哨戒炮机控板** — `WeaponEnergyTurretSecurityMachineCircuitboard` ｜父类: WeaponEnergyTurretStationMachineCircuitboardBase
+- **哨戒炮塔** — `WeaponEnergyTurretSilicon` ｜父类: WeaponEnergyTurretStationBase ｜_Starlight
+- **哨戒炮塔控制面板电子元件** — `WeaponEnergyTurretSiliconControlPanelElectronics` ｜父类: WeaponEnergyTurretStationControlPanelElectronicsBase ｜_Starlight
+- **哨戒炮机控板** — `WeaponEnergyTurretSiliconMachineCircuitboard` ｜父类: WeaponEnergyTurretStationMachineCircuitboardBase ｜_Starlight
+- **哨戒炮塔** — `WeaponEnergyTurretSolgov` ｜父类: WeaponEnergyTurretStationBase ｜_Starlight
+- `模板` **哨戒炮塔** — `WeaponEnergyTurretStationBase` ｜父类: BaseWeaponEnergyTurret,ConstructibleMachine
+- `模板` **哨戒炮塔控制面板电子元件** — `WeaponEnergyTurretStationControlPanelElectronicsBase` ｜父类: BaseElectronics
+- `模板` **哨戒炮机控板** — `WeaponEnergyTurretStationMachineCircuitboardBase` ｜父类: BaseMachineCircuitboard
+- **信号枪** — `WeaponFlareGun` ｜父类: BaseItem
+- **推力枪** — `WeaponForceGun` ｜父类: BaseItem,PowerCellSlotMediumItem
+- **管理员推力枪** — `WeaponForceGunAdmin` ｜父类: BaseItem
+- **G.O.R.I.L.L.A.挑战** — `WeaponGauntletGorilla` ｜父类: BaseItem
+- **G.O.R.I.L.L.A.拳套手臂附件** — `WeaponGauntletGorillaCyber` ｜父类: BaseItem ｜_Starlight
+- **抓钩枪** — `WeaponGrapplingGun` ｜父类: BaseItem
+- **赛博抓钩枪** — `WeaponGrapplingGunCyber` ｜父类: BaseItem ｜_Starlight
+- **IK-60 激光卡宾枪** — `WeaponIK60` ｜父类: BaseItem,BaseGunWieldable,BaseSecurityContraband ｜_Starlight
+- **土制气动炮** — `WeaponImprovisedPneumaticCannon` ｜父类: BaseStorageItem,BaseMinorContraband
+- **土制气动炮** — `WeaponImprovisedPneumaticCannonAdmeme` ｜父类: WeaponImprovisedPneumaticCannonGun
+- **土制气动炮** — `WeaponImprovisedPneumaticCannonGun` ｜父类: WeaponImprovisedPneumaticCannon
+- **简易气动船员炮** — `WeaponImprovisedPneumaticCrewCannon` ｜父类: WeaponImprovisedPneumaticCannon ｜_Starlight
+- **离子卡宾枪** — `WeaponIonCarbine` ｜父类: BaseWeaponBattery,BaseSecurityContraband ｜_Starlight
+- **离子步枪** — `WeaponIonRifle` ｜父类: BaseWeaponBattery,BaseGunWieldable,BaseCentcommContraband ｜_Starlight
+- **光束发射器** — `WeaponLaser` ｜父类: BaseWeaponBatterySmall
+- **激光炮** — `WeaponLaserCannon` ｜父类: BaseWeaponBattery,BaseGunWieldable,BaseSecurityContraband
+- **异星赛博格激光炮** — `WeaponLaserCannonXenoborg` ｜父类: WeaponLaserCannon,BaseXenoborgContraband
+- **异形赛博格苦霜炮** — `WeaponLaserCannonXenoborgCold` ｜父类: WeaponLaserCannon,BaseXenoborgContraband ｜_Starlight
+- **激光卡宾枪** — `WeaponLaserCarbine` ｜父类: BaseLaserRifle,BaseGunWieldable,BaseSecurityContraband
+- **训练用激光卡宾枪** — `WeaponLaserCarbinePractice` ｜父类: BaseLaserRifle,BaseGunWieldable
+- **复古激光枪** — `WeaponLaserGun` ｜父类: BaseWeaponBatterySmall,BaseMajorContraband
+- **异星赛博格激光枪** — `WeaponLaserGunXenoborg` ｜父类: WeaponAdvancedLaser,BaseXenoborgContraband
+- **焚化者激光枪** — `WeaponLaserImmolator` ｜父类: BaseWeaponBattery,BaseGunWieldable,BaseSecuritySalvageContraband ｜_Starlight
+- **斯瓦林激光手枪** — `WeaponLaserSvalinn` ｜父类: BaseWeaponPowerCellSmall,BaseSecurityContraband
+- **慢速不可阻挡之杆发射器** — `WeaponLauncherAdmemeImmovableRodSlow` ｜父类: WeaponLauncherAdmemeMeteorLarge
+- **流星发射器** — `WeaponLauncherAdmemeMeteorLarge` ｜父类: WeaponLauncherMultipleRocket
+- **中国湖榴弹发射器** — `WeaponLauncherChinaLake` ｜父类: BaseWeaponLauncher,BaseSyndicateContraband
+- **Chono Loke** — `WeaponLauncherChonoLoke` ｜父类: BaseWeaponLauncher,BaseGunWieldable ｜_Starlight
+- **九头蛇发射器** — `WeaponLauncherHydra` ｜父类: BaseWeaponLauncher,BaseGunWieldable,BaseJanitorContraband
+- **改装九头蛇** — `WeaponLauncherHydraEMP` ｜父类: WeaponLauncherHydraSyndicate ｜_Starlight
+- **九头蛇发射器** — `WeaponLauncherHydraFilled` ｜父类: WeaponLauncherHydra ｜_Starlight
+- **modified hydra** — `WeaponLauncherHydraLethal` ｜父类: WeaponLauncherHydra
+- **改装九头蛇** — `WeaponLauncherHydraSyndicate` ｜父类: BaseSyndicateContraband,WeaponLauncherHydra ｜_Starlight
+- **多联装火箭发射器** — `WeaponLauncherMultipleRocket` ｜父类: BaseWeaponLauncher
+- **维和者** — `WeaponLauncherPeacekeeper` ｜父类: BaseWeaponLauncher,BaseSecurityContraband ｜_Starlight
+- **海盗炮** — `WeaponLauncherPirateCannon` ｜父类: BaseWeaponLauncher
+- **RPG-7 火箭筒** — `WeaponLauncherRocket` ｜父类: BaseWeaponLauncher,BaseMajorContraband
+- **DP-28 轻机枪** — `WeaponLightMachineGunDP28` ｜父类: BaseWeaponLightMachineGun,BaseSovietContraband ｜_Starlight
+- **L6 班用轻机枪** — `WeaponLightMachineGunL6` ｜父类: BaseWeaponLightMachineGun,BaseSyndicateContraband
+- **L6C 机载充能武器** — `WeaponLightMachineGunL6C` ｜父类: BaseItem,BaseSyndicateContraband
+- **L6 班用轻机枪** — `WeaponLightMachineGunL6Worn` ｜父类: WeaponLightMachineGunL6 ｜_Starlight
+- **M492 武器** — `WeaponLightMachineGunM492` ｜父类: BaseWeaponLightMachineGun,BaseSecurityContraband ｜_Starlight
+- **30 武器** — `WeaponLr30` ｜父类: BaseItem,BaseGunWieldable,BaseSecuritySalvageContraband ｜_Starlight
+- **简易激光手枪** — `WeaponMakeshiftLaser` ｜父类: BaseWeaponBatterySmall,BaseMinorContraband
+- **外骨骼链锯剑** — `WeaponMechChainSword` ｜父类: BaseMechWeaponMelee,CombatMechEquipment,BaseSecurityContraband ｜_Starlight
+- **AMLG-90“掠夺者”** — `WeaponMechCombatAMLG90` ｜父类: BaseMechWeaponRange,CombatMechEquipment,BaseSecurityContraband ｜_Starlight
+- **CH-PD 致残器** — `WeaponMechCombatDisabler` ｜父类: BaseMechWeaponRange,CombatMechEquipment,BaseSecurityContraband ｜_Starlight
+- **CH-PS“火镖”激光炮** — `WeaponMechCombatFiredartLaser` ｜父类: BaseMechWeaponRange,CombatMechEquipment,BaseSecurityContraband ｜_Starlight
+- **SGL-6 闪光弹发射器** — `WeaponMechCombatFlashbangLauncher` ｜父类: BaseMechWeaponRange,CombatMechEquipment,BaseSecurityContraband ｜_Starlight
+- **ZFI 焚化光束炮** — `WeaponMechCombatImmolationGun` ｜父类: BaseMechWeaponRange,CombatMechEquipment,BaseSecurityContraband ｜_Starlight
+- **Mk.IV 重型离子炮** — `WeaponMechCombatIon` ｜父类: BaseMechWeaponRange,CombatMechEquipment,BaseSecurityContraband ｜_Starlight
+- **BRM-6 导弹架** — `WeaponMechCombatMissileRack6` ｜父类: BaseMechWeaponRange,CombatMechEquipment,BaseSecurityContraband ｜_Starlight
+- **SRM-8 轻型导弹架** — `WeaponMechCombatMissileRack8` ｜父类: BaseMechWeaponRange,CombatMechEquipment,BaseSecurityContraband ｜_Starlight
+- **eZ-14 Mk.2 重型脉冲步枪** — `WeaponMechCombatPulseRifle` ｜父类: BaseMechWeaponRange,CombatMechEquipment,BaseSecurityContraband ｜_Starlight
+- **LBX AC 10“散射”** — `WeaponMechCombatShotgun` ｜父类: BaseMechWeaponRange,CombatMechEquipment,BaseSecurityContraband ｜_Starlight
+- **FNX-99“哈迪斯”卡宾枪** — `WeaponMechCombatShotgunIncendiary` ｜父类: BaseMechWeaponRange,CombatMechEquipment,BaseSecurityContraband ｜_Starlight
+- **CH-LC“索拉里斯”激光炮** — `WeaponMechCombatSolarisLaser` ｜父类: BaseMechWeaponRange,CombatMechEquipment,BaseSecurityContraband ｜_Starlight
+- **PBT“和平使者”挂载式泰瑟枪** — `WeaponMechCombatTaser` ｜父类: BaseMechWeaponRange,CombatMechEquipment,BaseSecurityContraband ｜_Starlight
+- **P-X 特斯拉炮** — `WeaponMechCombatTeslaCannon` ｜父类: BaseMechWeaponRange,CombatMechEquipment,BaseSecurityContraband ｜_Starlight
+- **ULTRA AC54“哈奇开斯”转管炮** — `WeaponMechCombatUltraAC54` ｜父类: BaseMechWeaponRange,CombatMechEquipment,BaseCentcommContraband ｜_Starlight
+- **Ultra AC-2 机甲步枪** — `WeaponMechCombatUltraRifle` ｜父类: BaseMechWeaponRange,CombatMechEquipment,BaseSecurityContraband ｜_Starlight
+- **S-1 X 射线投射器** — `WeaponMechCombatXray` ｜父类: BaseMechWeaponRange,CombatMechEquipment,BaseSecurityContraband ｜_Starlight
+- **调试砰** — `WeaponMechDebugBallistic` ｜父类: BaseMechWeaponRange,DebugMechEquipment ｜_Starlight
+- **调试啾** — `WeaponMechDebugDisabler` ｜父类: BaseMechWeaponRange,DebugMechEquipment ｜_Starlight
+- **调试咻** — `WeaponMechDebugLaser` ｜父类: BaseMechWeaponRange,DebugMechEquipment ｜_Starlight
+- **调试猛击** — `WeaponMechDebugMelle` ｜父类: BaseMechWeaponMelee,DebugMechEquipment ｜_Starlight
+- **外骨骼原型动能加速器** — `WeaponMechIndustrialKineticAccelerator` ｜父类: BaseMechWeaponRange,IndustrialMechEquipment,BaseCargoContraband ｜_Starlight
+- **外骨骼钻头** — `WeaponMechMelleDrill` ｜父类: BaseMechWeaponMelee,BaseCargoContraband ｜_Starlight
+- **钻石头外骨骼钻头** — `WeaponMechMelleDrillDiamond` ｜父类: BaseMechWeaponMelee,BaseCargoContraband ｜_Starlight
+- **S.H.H.“寂灭”卡宾枪** — `WeaponMechSniperMime` ｜父类: BaseMechWeaponRange,CombatMechEquipment,BaseSyndicateContraband ｜_Starlight
+- **呵叫者 5000** — `WeaponMechSpecialAirHorn` ｜父类: BaseMechEquipment,SpecialMechEquipment ｜_Starlight
+- **香蕉迫击炮** — `WeaponMechSpecialBananaMortar` ｜父类: BaseMechWeaponRange,SpecialMechEquipment ｜_Starlight
+- **捕鼠夹迫击炮** — `WeaponMechSpecialMousetrapMortar` ｜父类: BaseMechWeaponRange,SpecialMechEquipment ｜_Starlight
+- **HX-3 机械化派炮** — `WeaponMechSpecialPieCannon` ｜父类: BaseMechWeaponRange,SpecialMechEquipment ｜_Starlight
+- **美工刀** — `WeaponMeleeBoxcutter` ｜父类: BaseSecurityCargoContraband,CombatKnife ｜_Starlight
+- **击退棒** — `WeaponMeleeKnockbackStick` ｜父类: BaseBallBat
+- **安保部制式反充气武器** — `WeaponMeleeNeedle` ｜父类: BaseItem
+- **弹簧刀** — `WeaponMeleeSwitchblade` ｜父类: CombatKnife,BaseMinorContraband ｜_Starlight
+- **强韧工具箱** — `WeaponMeleeToolboxRobust` ｜父类: BaseItem
+- **强韧工具箱** — `WeaponMeleeToolboxRobustDeathmatch` ｜父类: WeaponMeleeToolboxRobust ｜_Starlight
+- **微型能量枪** — `WeaponMiniEnergyGun` ｜父类: BaseWeaponBatterySmall,BaseSecurityContraband ｜_Starlight
+- **转管机枪** — `WeaponMinigun` ｜父类: BaseWeaponHeavyMachineGun,BaseMajorContraband
+- **01 武器** — `WeaponMultiphaseGun` ｜父类: BaseWeaponBatterySmall,BaseBlueShieldContraband,BaseGrandTheftContraband ｜_Starlight
+- **锁镰 # Starlight** — `WeaponNinjaChainSickle` ｜父类: WeaponGrapplingGun ｜_Moffstation
+- **便携式粒子减速器** — `WeaponParticleDecelerator` ｜父类: BaseWeaponBattery,BaseEngineeringContraband
+- **PDW-9 泰瑟手枪** — `WeaponPDW9` ｜父类: BaseWeaponBatterySmall,BaseSecurityContraband ｜_Starlight
+- **PDW-9 内置泰瑟** — `WeaponPDW9TaserBorg` ｜父类: WeaponPDW9 ｜_Starlight
+- **APS 武器** — `WeaponPistolAPS` ｜父类: WeaponPistolMk58,BaseSovietContraband ｜_Starlight
+- **SP-8T** — `WeaponPistolBlueguard` ｜父类: WeaponPistolDP,BaseBlueShieldContraband,BaseGrandTheftContraband ｜_Starlight
+- **C.H.I.M.P. 手炮** — `WeaponPistolCHIMP` ｜父类: BaseWeaponBatterySmall,BaseScienceContraband
+- **C.H.I.M.P.手炮手臂附件** — `WeaponPistolCHIMPCyber` ｜父类: BaseWeaponBatterySmall ｜_Starlight
+- **实验型 C.H.I.M.P. 手炮** — `WeaponPistolCHIMPUpgraded` ｜父类: WeaponPistolCHIMP,BaseSyndicateContraband
+- **C.H.I.M.P. 手炮升级芯片** — `WeaponPistolCHIMPUpgradeKit` ｜父类: BaseItem,BaseSyndicateContraband
+- **眼镜蛇手枪** — `WeaponPistolCobra` ｜父类: BaseWeaponPistol,BaseSyndicateContraband
+- **眼镜蛇手枪** — `WeaponPistolCobraWorn` ｜父类: WeaponPistolCobra ｜_Starlight
+- **丛林鹰** — `WeaponPistolDeagle` ｜父类: BaseSyndicateContraband,WeaponPistolN1984 ｜_Starlight
+- **正当程序** — `WeaponPistolDP` ｜父类: BaseWeaponPistol,BaseSecurityContraband ｜_Starlight
+- **蝰属机载手枪** — `WeaponPistolEchis` ｜父类: BaseItem,BaseSyndicateContraband
+- **执法者** — `WeaponPistolEnforcer` ｜父类: BaseWeaponPistol,BaseSecurityContraband ｜_Starlight
+- **燧发手枪** — `WeaponPistolFlintlock` ｜父类: BaseWeaponSniper,BaseMajorContraband
+- **燧发手枪** — `WeaponPistolFlintlockEmpty` ｜父类: WeaponPistolFlintlock
+- **锻造手枪** — `WeaponPistolForged` ｜父类: BaseWeaponPistol,BaseMinorContraband ｜_Starlight
+- **58 武器** — `WeaponPistolGoldenMk58` ｜父类: WeaponPistolMk58,BaseSecurityContraband ｜_Starlight
+- **58 武器** — `WeaponPistolGoldenMk58HighCapacity` ｜父类: WeaponPistolGoldenMk58 ｜_Starlight
+- **土制手枪** — `WeaponPistolImprovised` ｜父类: BaseWeaponSniper,BaseMinorContraband ｜_Starlight
+- **武器“m1911”** — `WeaponPistolM1911` ｜父类: WeaponPistolN1984,BaseSecurityContraband ｜_Starlight
+- **马卡洛夫** — `WeaponPistolMakarov` ｜父类: BaseWeaponPistol,BaseSovietContraband ｜_Starlight
+- **简易手枪** — `WeaponPistolMakeshiftCrafted` ｜父类: BaseWeaponPistol,BaseMinorContraband ｜_Starlight
+- **Mk58 手枪** — `WeaponPistolMk58` ｜父类: BaseWeaponPistol,BaseSecuritySalvageContraband
+- **58 武器** — `WeaponPistolMk58HighCapacity` ｜父类: WeaponPistolMk58 ｜_Starlight
+- **58 武器** — `WeaponPistolMk58Nonlethal` ｜父类: WeaponPistolMk58,BaseSecurityContraband ｜_Starlight
+- **N1984 手炮** — `WeaponPistolN1984` ｜父类: BaseWeaponPistol,BaseSecurityContraband
+- **武器“N1984”** — `WeaponPistolN1984Nonlethal` ｜父类: WeaponPistolN1984,BaseSecurityContraband ｜_Starlight
+- **SP-8AR** — `WeaponPistolSP8AR` ｜父类: WeaponPistolDP,BaseSecurityContraband ｜_Starlight
+- **斯捷奇金手枪** — `WeaponPistolStechkin` ｜父类: BaseSecurityContraband,WeaponPistolMk58 ｜_Starlight
+- **TSF-Model17** — `WeaponPistolTSFBorg` ｜父类: WeaponPistolTSFModel17 ｜_Starlight
+- **TSF- 武器** — `WeaponPistolTSFModel17` ｜父类: BaseTSFContraband,BaseWeaponPistol ｜_Starlight
+- **蝰蛇手枪** — `WeaponPistolViper` ｜父类: BaseWeaponPistol,BaseSyndicateContraband
+- **蝰蛇手枪** — `WeaponPistolViperWorn` ｜父类: WeaponPistolViper ｜_Starlight
+- **原型动能加速器** — `WeaponProtoKineticAccelerator` ｜父类: WeaponProtoKineticAcceleratorBase,BaseCargoContraband
+- `模板` **WeaponProtoKineticAcceleratorBase** — `WeaponProtoKineticAcceleratorBase` ｜父类: BaseItem
+- **脉冲炮** — `WeaponPulseCannonNTNC` ｜父类: BaseWeaponBattery,BaseGunWieldable,BaseCentcommContraband ｜_Starlight
+- **脉冲卡宾枪** — `WeaponPulseCarbine` ｜父类: BaseWeaponBattery,BaseGunWieldable,BaseCentcommContraband ｜_Starlight
+- **武器“m1911”** — `WeaponPulseM1911` ｜父类: BaseWeaponBatterySmall,BaseSecurityContraband ｜_Starlight
+- **脉冲手枪** — `WeaponPulsePistol` ｜父类: BaseWeaponBatterySmall,BaseSecurityContraband ｜_Starlight
+- **脉冲步枪** — `WeaponPulseRifle` ｜父类: BaseWeaponBattery,BaseGunWieldable,BaseCentcommContraband ｜_Starlight
+- **戴卡德 # Starlight, capitalization** — `WeaponRevolverDeckard` ｜父类: BaseWeaponRevolver,BaseSecurityCommandContraband
+- **调度者** — `WeaponRevolverDispatcher` ｜父类: BaseWeaponRevolver,BaseSecurityContraband ｜_Starlight
+- **锻造左轮手枪** — `WeaponRevolverForged` ｜父类: WeaponRevolverImprovised ｜_Starlight
+- **GA-6 武器** — `WeaponRevolverGA6Fang` ｜父类: BaseWeaponShotgunAny,BaseSecuritySalvageContraband ｜_Starlight
+- **土制左轮手枪** — `WeaponRevolverImprovised` ｜父类: WeaponRevolverMakeshift ｜_Starlight
+- **督察 # Starlight, capitalization** — `WeaponRevolverInspector` ｜父类: BaseWeaponRevolver,BaseSecurityContraband
+- **简易左轮手枪** — `WeaponRevolverMakeshift` ｜父类: BaseWeaponRevolver,BaseMinorContraband ｜_Starlight
+- **马特巴 # Starlight, capitalization** — `WeaponRevolverMateba` ｜父类: BaseWeaponRevolver,BaseMajorContraband
+- **马特巴** — `WeaponRevolverMatebaAP` ｜父类: WeaponRevolverMateba
+- **海盗左轮手枪** — `WeaponRevolverPirate` ｜父类: BaseWeaponRevolver,BaseMajorContraband
+- **海盗左轮手枪** — `WeaponRevolverPirateEmpty` ｜父类: WeaponRevolverPirate
+- **蟒蛇 # Starlight, capitalization** — `WeaponRevolverPython` ｜父类: BaseWeaponRevolver,BaseSyndicateContraband
+- **蟒蛇** — `WeaponRevolverPythonAP` ｜父类: WeaponRevolverPython
+- **TOZ-82 武器** — `WeaponRevolverZOZ` ｜父类: BaseWeaponRevolver,BaseSecuritySalvageContraband ｜_Starlight
+- **AKMS** — `WeaponRifleAk` ｜父类: BaseWeaponRifle,BaseSovietContraband
+- **AKMS 武器** — `WeaponRifleAkAdmeme` ｜父类: WeaponRifleAk,BaseSovietContraband ｜_Starlight
+- **武器“ARG”** — `WeaponRifleARG` ｜父类: BaseTSFContraband,BaseWeaponRifle ｜_Starlight
+- **刺剑精确射手步枪** — `WeaponRifleEstoc` ｜父类: BaseWeaponRifle,BaseSyndicateContraband
+- **刺剑精确射手步枪** — `WeaponRifleEstocWorn` ｜父类: WeaponRifleEstoc ｜_Starlight
+- **泡沫军团太空王牌** — `WeaponRifleFoam` ｜父类: BaseToyGun,BaseWeaponShotgun,BaseGunWieldable
+- **武器“L10 DMR”** — `WeaponRifleL10` ｜父类: BaseWeaponRifle,BaseSecurityContraband ｜_Starlight
+- **执法官** — `WeaponRifleLawbringer` ｜父类: BaseWeaponRifle,BaseSecurityContraband ｜_Starlight
+- **莱克特** — `WeaponRifleLecter` ｜父类: BaseWeaponRifle,BaseSecurityContraband
+- **莱克特** — `WeaponRifleLecterRubber` ｜父类: WeaponRifleLecter,BaseSecurityContraband ｜_Starlight
+- **XL8** — `WeaponRifleLecterXL8` ｜父类: WeaponRifleLecter
+- **蕾卡** — `WeaponRifleLeikha` ｜父类: BaseWeaponRifle,BaseSecurityContraband ｜_Starlight
+- **SPC- 武器** — `WeaponRifleLionhunter` ｜父类: BaseWeaponSniper,BaseGunWieldable,BaseMajorContraband ｜_Starlight
+- **M18- 武器** — `WeaponRifleM18` ｜父类: BaseWeaponRifle,BaseSalvageContraband ｜_Starlight
+- **52 武器** — `WeaponRifleM52` ｜父类: BaseTSFContraband,WeaponRifleLecter ｜_Starlight
+- **和平缔造者** — `WeaponRiflePeacemaker` ｜父类: BaseWeaponRifle,BaseSecurityContraband ｜_Starlight
+- **斗牛犬** — `WeaponRiflePitbull` ｜父类: BaseWeaponRifle,BaseSyndicateContraband ｜_Starlight
+- **雷筒** — `WeaponShotgunBlunderbuss` ｜父类: BaseWeaponShotgun,BaseGunWieldable,BaseMinorContraband
+- **斗牛犬** — `WeaponShotgunBulldog` ｜父类: BaseWeaponShotgunAny,BaseGunWieldable,BaseSyndicateContraband
+- **斗牛犬** — `WeaponShotgunBulldogWorn` ｜父类: WeaponShotgunBulldog ｜_Starlight
+- **战斗霰弹枪** — `WeaponShotgunCombat` ｜父类: BaseWeaponShotgun,BaseGunWieldable,BaseSecurityContraband ｜_Starlight
+- **循环式霰弹枪** — `WeaponShotgunCycler` ｜父类: BaseWeaponShotgunAny,BaseGunWieldable,BaseSecuritySalvageContraband ｜_Starlight
+- **双管霰弹枪** — `WeaponShotgunDoubleBarreled` ｜父类: BaseWeaponShotgun,BaseGunWieldable,BaseSecurityBartenderZookeeperContraband
+- **双管霰弹枪** — `WeaponShotgunDoubleBarreledRubber` ｜父类: WeaponShotgunDoubleBarreled
+- **哨兵** — `WeaponShotgunEnforcer` ｜父类: BaseWeaponShotgun,BaseGunWieldable,BaseSecurityContraband
+- **锻造双管霰弹枪** — `WeaponShotgunForged` ｜父类: BaseWeaponShotgun,BaseGunWieldable,BaseMinorContraband ｜_Starlight
+- **GA 12 武器** — `WeaponShotgunGA12` ｜父类: BaseWeaponShotgunAny,BaseSecuritySalvageContraband ｜_Starlight
+- **手工土枪** — `WeaponShotgunHandmade` ｜父类: BaseWeaponShotgun,BaseMinorContraband
+- **静默犬** — `WeaponShotgunHushpup` ｜父类: BaseWeaponShotgun,BaseGunWieldable,BaseSyndicateContraband
+- **静默犬** — `WeaponShotgunHushpupWorn` ｜父类: WeaponShotgunHushpup ｜_Starlight
+- **简易霰弹枪** — `WeaponShotgunImprovised` ｜父类: BaseWeaponShotgun,BaseGunWieldable,BaseMinorContraband
+- **简易霰弹枪** — `WeaponShotgunImprovisedLoaded` ｜父类: WeaponShotgunImprovised
+- **卡默勒** — `WeaponShotgunKammerer` ｜父类: BaseWeaponShotgun,BaseGunWieldable,BaseSecurityContraband
+- **简易霰弹枪** — `WeaponShotgunMakeshift` ｜父类: WeaponFlareGun,BaseMinorContraband ｜_Starlight
+- **AS-12 武器** — `WeaponShotgunMinotaur` ｜父类: BaseWeaponShotgunAny,BaseGunWieldable,BaseSyndicateContraband ｜_Starlight
+- **防暴霰弹枪** — `WeaponShotgunRiot` ｜父类: BaseWeaponShotgunAny,BaseGunWieldable,BaseSecurityContraband ｜_Starlight
+- **截短防暴霰弹枪** — `WeaponShotgunRiotSawn` ｜父类: BaseWeaponShotgun,BaseSecurityContraband ｜_Starlight
+- **武器** — `WeaponShotgunRiotSawnEmpty` ｜父类: WeaponShotgunRiotSawn,BaseSecurityContraband ｜_Starlight
+- **短管霰弹枪** — `WeaponShotgunSawn` ｜父类: BaseWeaponShotgun,BaseSecurityBartenderZookeeperContraband
+- **短管霰弹枪** — `WeaponShotgunSawnEmpty` ｜父类: WeaponShotgunSawn
+- **哨兵** — `WeaponShotgunSentielRubber` ｜父类: WeaponShotgunEnforcer
+- **武器“ZOZ-106”** — `WeaponShotgunToz106` ｜父类: BaseWeaponShotgunAny,BaseGunWieldable,BaseSovietContraband ｜_Starlight
+- **ZOZ-106** — `WeaponShotgunToz106Extended` ｜父类: WeaponShotgunToz106 ｜_Starlight
+- **武器“TOZ-106”** — `WeaponShotgunToz106Shitpost` ｜父类: BaseWeaponShotgunAny,BaseGunWieldable,BaseSovietContraband ｜_Starlight
+- **锻造连发步枪** — `WeaponSniperForged` ｜父类: WeaponSniperMakeshift ｜_Starlight
+- **赫里斯托夫** — `WeaponSniperHristov` ｜父类: BaseWeaponSniper,BaseGunWieldable,BaseSyndicateContraband
+- **赫里斯托夫** — `WeaponSniperHristovWorn` ｜父类: WeaponSniperHristov ｜_Starlight
+- **土制连发步枪** — `WeaponSniperImprovised` ｜父类: WeaponSniperMakeshift ｜_Starlight
+- **简易连发步枪** — `WeaponSniperMakeshift` ｜父类: BaseWeaponSniper,BaseMinorContraband ｜_Starlight
+- **卡尔达肖夫-莫辛** — `WeaponSniperMosin` ｜父类: BaseWeaponSniper,BaseGunWieldable,BaseMajorContraband
+- **卡尔达肖夫-莫辛** — `WeaponSniperMosinWorn` ｜父类: WeaponSniperMosin ｜_Starlight
+- **喷水枪嘴** — `WeaponSprayNozzle` ｜父类: BaseItem
+- `模板` **WeaponStaffBase** — `WeaponStaffBase` ｜父类: BaseWizardItem
+- **治愈法杖** — `WeaponStaffHealing` ｜父类: WeaponStaffBase
+- **入口法杖** — `WeaponStaffPolymorphDoor` ｜父类: WeaponStaffBase
+- **黏黏手** — `WeaponStickyHand` ｜父类: BaseItem,BaseToyGun
+- **厄崔迪** — `WeaponSubMachineGunAtreides` ｜父类: BaseWeaponSubMachineGun,BaseMajorContraband
+- **棕色公文包** — `WeaponSubMachineGunBriefcase` ｜父类: BaseWeaponSubMachineGun
+- **C-20r冲锋枪** — `WeaponSubMachineGunC20r` ｜父类: BaseWeaponSubMachineGun,BaseSyndicateContraband
+- **C-20r ROW #I think ROW stands for Recharging Onboard Weapon so i'm following the L6C's example** — `WeaponSubMachineGunC20rROW` ｜父类: BaseItem
+- **C-20r冲锋枪** — `WeaponSubMachineGunC20rWorn` ｜父类: WeaponSubMachineGunC20r ｜_Starlight
+- **德罗兹德** — `WeaponSubMachineGunDrozd` ｜父类: BaseWeaponSubMachineGun,BaseSecurityContraband
+- **德罗兹德** — `WeaponSubMachineGunDrozdRubber` ｜父类: WeaponSubMachineGunDrozd,BaseSecurityContraband ｜_Starlight
+- **锻造冲锋枪** — `WeaponSubMachineGunForged` ｜父类: WeaponSubMachineGunImprovised ｜_Starlight
+- **土制冲锋枪** — `WeaponSubMachineGunImprovised` ｜父类: WeaponSubMachineGunMakeshift ｜_Starlight
+- **简易冲锋枪** — `WeaponSubMachineGunMakeshift` ｜父类: BaseWeaponSubMachineGun,BaseMinorContraband ｜_Starlight
+- **PPSH 59 冲锋枪** — `WeaponSubMachineGunPPSH` ｜父类: BaseWeaponSubMachineGun,BaseSovietContraband ｜_Starlight
+- **武器“SP-91-RC”** — `WeaponSubMachineGunSP91RC` ｜父类: BaseWeaponSubMachineGun,BaseSecurityContraband ｜_Starlight
+- **U3 武器** — `WeaponSubMachineGunUzi` ｜父类: BaseWeaponSubMachineGun,BaseMajorContraband ｜_Starlight
+- **WT550** — `WeaponSubMachineGunWt550` ｜父类: BaseWeaponSubMachineGun,BaseSecurityContraband
+- **武器“WT550g”** — `WeaponSubMachineGunWt550g` ｜父类: WeaponSubMachineGunWt550 ｜_Starlight
+- **武器“WT550r”** — `WeaponSubMachineGunWt550r` ｜父类: WeaponSubMachineGunWt550,BaseGrandTheftContraband ｜_Starlight
+- **泰瑟枪** — `WeaponTaser` ｜父类: BaseWeaponBatterySmall,BaseSecurityContraband
+- **精英泰瑟枪** — `WeaponTaserSuper` ｜父类: BaseCentcommContraband,WeaponTaser
+- **温度枪** — `WeaponTemperatureGun` ｜父类: BaseWeaponBattery,BaseGunWieldable,BaseSecurityContraband
+- **特斯拉枪** — `WeaponTeslaGun` ｜父类: BaseWeaponBattery,BaseMajorContraband
+- **牵引枪** — `WeaponTetherGun` ｜父类: BaseItem,PowerCellSlotMediumItem
+- **管理员牵引枪** — `WeaponTetherGunAdmin` ｜父类: BaseItem
+- **地板砖发射器** — `WeaponTileGun` ｜父类: BaseItem,BaseXenoborgContraband
+- **地板砖发射器** — `WeaponTileGunEmpty` ｜父类: WeaponTileGun
+- **脚趾克隆机** — `WeaponToecloner` ｜父类: BaseWeaponBatterySmall ｜_Starlight
+- **弹道炮塔** — `WeaponTurretAllHostile` ｜父类: BaseWeaponBallisticTurret
+- **弹道炮塔** — `WeaponTurretHostile` ｜父类: BaseWeaponBallisticTurret
+- **军用近防炮组** — `WeaponTurretMilitaryPointDefense` ｜父类: WeaponTurretPointDefense ｜_Starlight
+- **弹道炮塔** — `WeaponTurretNanoTrasen` ｜父类: BaseWeaponBallisticTurret
+- **弹道炮塔** — `WeaponTurretPirate` ｜父类: BaseWeaponBallisticTurret ｜_Starlight
+- **一次性实弹炮塔** — `WeaponTurretPirateDisposable` ｜父类: BaseWeaponBallisticTurret ｜_Starlight
+- **近防炮组** — `WeaponTurretPointDefense` ｜父类: BaseWeaponTurret,ConstructibleMachine ｜_Starlight
+- **点防御炮台电路板** — `WeaponTurretPointDefenseMachineCircuitboard` ｜父类: BaseMachineCircuitboard ｜_Starlight
+- **弹道炮塔** — `WeaponTurretSyndicate` ｜父类: BaseWeaponBallisticTurret,BaseSyndicateContraband
+- **弹道炮塔（损坏）** — `WeaponTurretSyndicateBroken` ｜父类: BaseStructure
+- **一次性弹道炮塔** — `WeaponTurretSyndicateDisposable` ｜父类: BaseWeaponBallisticTurret
+- **异形炮塔** — `WeaponTurretXeno` ｜父类: BaseWeaponBallisticTurret
+- `模板` **WeaponWandBase** — `WeaponWandBase` ｜父类: BaseWizardItem
+- **受诅小丑化魔杖** — `WeaponWandCluwne` ｜父类: WeaponWandPolymorphBase
+- **即死魔杖** — `WeaponWandDeath` ｜父类: WeaponWandBase
+- **火球魔杖** — `WeaponWandFireball` ｜父类: WeaponWandBase
+- **储物柜魔杖** — `WeaponWandLocker` ｜父类: WeaponWandBase
+- `模板` **WeaponWandPolymorphBase** — `WeaponWandPolymorphBase` ｜父类: WeaponWandBase
+- **魔法面包魔杖** — `WeaponWandPolymorphBread` ｜父类: WeaponWandPolymorphBase
+- **鲤鱼变形魔杖** — `WeaponWandPolymorphCarp` ｜父类: WeaponWandPolymorphBase
+- **入口魔杖** — `WeaponWandPolymorphDoor` ｜父类: WeaponWandBase
+- **猴子变形魔杖** — `WeaponWandPolymorphMonkey` ｜父类: WeaponWandPolymorphBase
+- **强力水枪** — `WeaponWaterBlaster` ｜父类: WeaponWaterGunBase
+- **超级水枪** — `WeaponWaterBlasterSuper` ｜父类: WeaponWaterGunBase
+- `模板` **WeaponWaterGunBase** — `WeaponWaterGunBase` ｜父类: BaseItem
+- **小水枪** — `WeaponWaterPistol` ｜父类: WeaponWaterGunBase
+- **X 射线炮** — `WeaponXrayCannon` ｜父类: BaseWeaponBattery,BaseGunWieldable,BaseSecurityContraband
+- **网盾** — `WebShield` ｜父类: BaseShield
+- **杂草喷雾剂** — `WeedSpray` ｜父类: SprayBottleBase
+- **微量自动进样器** — `WehMedipen` ｜父类: ChemicalMedipen
+- **weh 宠物** — `WehpetInstrument` ｜父类: BaseHandheldInstrument ｜_Starlight
+- **怪异药丸** — `WeirdPill` ｜父类: Pill ｜_Starlight
+- **焊接工具** — `Welder` ｜父类: BaseItem
+- **绑架者焊接器** — `WelderAbductor` ｜父类: Welder,BaseMajorContraband ｜_Starlight
+- **焊接工具** — `WelderCyber` ｜父类: BaseItem ｜_Starlight
+- **实验性焊接工具** — `WelderExperimental` ｜父类: Welder
+- **实验型赛博焊接器** — `WelderExperimentalCyber` ｜父类: WelderExperimental ｜_Starlight
+- **工业焊接工具** — `WelderIndustrial` ｜父类: Welder
+- **高级工业焊接工具** — `WelderIndustrialAdvanced` ｜父类: WelderIndustrial
+- **隐形焊接工具** — `WelderInvisible` ｜父类: Welder ｜_Starlight
+- **应急焊接工具** — `WelderMini` ｜父类: Welder
+- **湿地标志** — `WetFloorSign` ｜父类: ClothingOuterBase
+- **湿地标志** — `WetFloorSignMineExplosive` ｜父类: WetFloorSign
+- **一捆小麦** — `WheatBushel` ｜父类: ProduceBaseRuminant
+- **小包小麦种子** — `WheatSeeds` ｜父类: SeedBase
+- **哨子** — `Whistle` ｜父类: BaseWhistle
+- **白象** — `WhiteBishop` ｜父类: BaseTabletopPiece
+- **盲杖** — `WhiteCane` ｜父类: BaseItem
+- **白洞手榴弹** — `WhiteholeGrenade` ｜父类: SingularityGrenade
+- **白王** — `WhiteKing` ｜父类: BaseTabletopPiece
+- **白马** — `WhiteKnight` ｜父类: BaseTabletopPiece
+- **白兵** — `WhitePawn` ｜父类: BaseTabletopPiece
+- **白后** — `WhiteQueen` ｜父类: BaseTabletopPiece
+- **白车** — `WhiteRook` ｜父类: BaseTabletopPiece
+- **白色棋子** — `WhiteTabletopPiece` ｜父类: BaseGenericTabletopPiece
+- **放屁坐垫** — `WhoopieCushion` ｜父类: BaseItem
+- **钢丝刷** — `WireBrush` ｜父类: BaseItem
+- **电动钢丝刷** — `WireBrushElectrical` ｜父类: WireBrush
+- **剪线钳** — `Wirecutter` ｜父类: BaseItem
+- **绑架者钢丝钳** — `WirecutterAbductor` ｜父类: BaseItem,BaseMajorContraband ｜_Starlight
+- **钢丝钳** — `WirecutterCyber` ｜父类: BaseItem ｜_Starlight
+- **土制钢丝钳** — `WirecutterImprovised` ｜父类: BaseItem ｜_Starlight
+- **隐形钢丝钳** — `WirecuttersInvisible` ｜父类: BaseItem ｜_Starlight
+- **雷管** — `WiredDetonator` ｜父类: EmptyDetonator
+- **巫师 通讯计算机 主板** — `WizardCommsComputerCircuitboard` ｜父类: BaseComputerCircuitboard,BaseSyndicateContraband
+- **巫师ID卡** — `WizardIDCard` ｜父类: IDCardStandard,BaseMagicalContraband
+- **巫师PDA** — `WizardPDA` ｜父类: BaseWidePDA
+- **巫师个人 AI 设备** — `WizardPersonalAI` ｜父类: PersonalAI,BaseMagicalContraband ｜_Starlight
+- **巫师魔典** — `WizardsGrimoire` ｜父类: BaseItem,StorePresetSpellbook,BaseMagicalContraband
+- **巫师魔典** — `WizardsGrimoireDebug` ｜父类: WizardsGrimoire
+- **巫师魔典** — `WizardsGrimoireNoRefund` ｜父类: WizardsGrimoire
+- **巫师魔典** — `WizardsGrimoireNTSF` ｜父类: WizardsGrimoire
+- **巫师币** — `WizCoin` ｜父类: BaseItem,BaseMagicalContraband ｜_Starlight
+- **巫师币** — `WizCoin1` ｜父类: WizCoin ｜_Starlight
+- **巫师币** — `WizCoin10` ｜父类: WizCoin ｜_Starlight
+- **巫师币** — `WizCoin5` ｜父类: WizCoin ｜_Starlight
+- **奇迹电棒** — `Wonderprod` ｜父类: BaseItem,BaseMajorContraband ｜_Starlight
+- **木鱼** — `WoodblockInstrument` ｜父类: BasePercussionInstrument
+- **木圆盾** — `WoodenBuckler` ｜父类: BaseShield
+- **木牌** — `WoodenSign`
+- **木牌** — `WoodenSignRight` ｜父类: WoodenSign
+- **木制支撑** — `WoodenSupport` ｜父类: BaseStructure
+- **木制支撑梁** — `WoodenSupportBeam` ｜父类: WoodenSupport
+- **木制支撑墙** — `WoodenSupportWall` ｜父类: BaseStructure
+- **木制支撑墙** — `WoodenSupportWallBroken` ｜父类: WoodenSupportWall
+- **包世界豌豆种子** — `WorldPeaSeeds` ｜父类: SeedBase
+- **物品** — `WrappedParcel` ｜父类: BaseItem,BaseWrappedParcel
+- **包裹** — `WrappedParcelHumanoid` ｜父类: BaseWrappedParcel
+- **扳手** — `Wrench` ｜父类: BaseItem
+- **绑架者扳手** — `WrenchAbductor` ｜父类: Wrench,BaseMajorContraband ｜_Starlight
+- **扳手** — `WrenchCyber` ｜父类: Wrench ｜_Starlight
+- **土制扳手** — `WrenchImprovised` ｜父类: BaseItem ｜_Starlight
+- **隐形扳手** — `WrenchInvisible` ｜父类: BaseItem ｜_Starlight
+- **腕表** — `Wristwatch` ｜父类: BaseItem
+- **金表** — `WristwatchGold` ｜父类: Wristwatch
+- **哞扳手** — `Wronch` ｜父类: BaseItem
+- **X-4 炸药** — `X4` ｜父类: BasePlasticExplosive,BaseSyndicateContraband ｜_Starlight
+- **变形玻璃杯** — `XenoBasherGlass` ｜父类: DrinkGlass
+- **异种生物学控制台摄像头标记器** — `XenobiologyConsoleCameraTagger` ｜父类: BaseItem ｜_Starlight
+- **异种生物学控制台电路板** — `XenobiologyConsoleCircuitboard` ｜父类: BaseComputerCircuitboard ｜_Starlight
+- **异形赛博格 摄像头监视器 主板** — `XenoborgCameraMonitorCircuitboard` ｜父类: BaseComputerCircuitboard
+- **法则主板（异形赛博格）** — `XenoborgCircuitBoard` ｜父类: BaseSiliconLawboard,BaseXenoborgContraband
+- **透明PDA** — `XenoborgiClearPDA` ｜父类: ClearPDA ｜_Starlight
+- **异星赛博格ID卡** — `XenoborgIDCard` ｜父类: IDCardStandard
+- **异种赛博格 ID卡** — `XenoborgiIDCard` ｜父类: AssistantDerelictBorgiIDCard ｜_Starlight
+- **异星赛博格权限破解模块** — `XenoborgModuleAccessBreaker` ｜父类: BaseXenoborgModuleEngi,BaseProviderBorgModule,BaseXenoborgContraband
+- **异星赛博格基础模块** — `XenoborgModuleBasic` ｜父类: BaseXenoborgModuleGeneric,BaseProviderBorgModule,BaseXenoborgContraband
+- **异星赛博格变色龙投影仪模块** — `XenoborgModuleChameleonProjector` ｜父类: BaseXenoborgModuleStealth,BaseProviderBorgModule,BaseXenoborgContraband
+- **异星赛博格隐形装置模块** — `XenoborgModuleCloakDevice` ｜父类: BaseXenoborgModuleStealth,BaseProviderBorgModule,BaseXenoborgContraband
+- **异星赛博格门控模块** — `XenoborgModuleDoorControl` ｜父类: BaseXenoborgModuleEngi,BaseProviderBorgModule,BaseXenoborgContraband
+- **能量剑异种赛博格模块** — `XenoborgModuleEnergyBlade` ｜父类: BaseXenoborgModuleScoutWeapon,BaseProviderBorgModule,BaseXenoborgContraband ｜_Starlight
+- **异星赛博格能量匕首模块** — `XenoborgModuleEnergySword` ｜父类: BaseXenoborgModuleScoutWeapon,BaseProviderBorgModule,BaseXenoborgContraband
+- **异星赛博格灭火器模块** — `XenoborgModuleFireExtinguisher` ｜父类: BaseXenoborgModuleEngi,BaseProviderBorgModule,BaseXenoborgContraband
+- **异星赛博格激光炮模块** — `XenoborgModuleHeavyLaser` ｜父类: BaseXenoborgModuleHeavyWeapon,BaseProviderBorgModule,BaseXenoborgContraband
+- **异星赛博格注射器模块 # Starlight** — `XenoborgModuleHypo` ｜父类: BaseXenoborgModuleStealthWeapon,BaseProviderBorgModule,BaseXenoborgContraband
+- **高级无针注射器异种赛博格模块** — `XenoborgModuleHypoPlus` ｜父类: BaseXenoborgModuleStealthWeapon,BaseProviderBorgModule,BaseXenoborgContraband ｜_Starlight
+- **异星赛博格干扰器模块** — `XenoborgModuleJammer` ｜父类: BaseXenoborgModuleHeavy,BaseProviderBorgModule,BaseXenoborgContraband
+- **异星赛博格跃进模块** — `XenoborgModuleJump` ｜父类: BaseXenoborgModuleScout,BaseXenoborgContraband
+- **异星赛博格激光枪模块** — `XenoborgModuleLaser` ｜父类: BaseXenoborgModuleHeavyWeapon,BaseProviderBorgModule,BaseXenoborgContraband
+- **工程异种赛博格模块** — `XenoborgModuleRCD` ｜父类: BaseXenoborgModuleGeneric,BaseProviderBorgModule,BaseXenoborgContraband ｜_Starlight
+- **异星赛博格太空机动模块** — `XenoborgModuleSpaceMovement` ｜父类: BaseXenoborgModuleScout,BaseProviderBorgModule,BaseXenoborgContraband
+- **异星赛博格完全隐形模块** — `XenoborgModuleSuperCloakDevice` ｜父类: BaseXenoborgModuleStealth,BaseProviderBorgModule,BaseXenoborgContraband
+- **苦霜炮异种赛博格模块** — `XenoborgModuleSuperHeavyLaser` ｜父类: BaseXenoborgModuleHeavyWeapon,BaseProviderBorgModule,BaseXenoborgContraband ｜_Starlight
+- **异星赛博格刀具模块** — `XenoborgModuleSword` ｜父类: BaseXenoborgModuleScoutWeapon,BaseProviderBorgModule,BaseXenoborgContraband
+- **异星赛博格地块枪模块** — `XenoborgModuleTileGun` ｜父类: BaseXenoborgModuleEngiWeapon,BaseProviderBorgModule,BaseXenoborgContraband
+- **异星赛博格工具模块** — `XenoborgModuleTool` ｜父类: BaseXenoborgModuleGeneric,BaseProviderBorgModule,BaseXenoborgContraband
+- **异星赛博格无线电干扰器** — `XenoborgRadioJammer` ｜父类: RadioJammer,BaseXenoborgContraband
+- **战斗刀** — `XenoKnife` ｜父类: CombatKnife,BaseXenoborgContraband ｜_Starlight
+- **异种蟑螂自毁植入物** — `XenoroachSelfDestructImplant` ｜父类: BaseSubdermalImplant ｜_Starlight
+- **自制利刃** — `XenoShiv` ｜父类: ScalpelShiv ｜_Starlight
+- **X 射线脉冲束** — `XrayLaser` ｜父类: BasicHitscan
+- **木琴** — `XylophoneInstrument` ｜父类: BasePercussionInstrument
+- **黄色史莱姆提取物** — `YellowSlimeExtract` ｜父类: BaseSlimeExtract ｜_Starlight
+- **黄色史莱姆提取物（已填充）** — `YellowSlimeExtractFilled` ｜父类: BaseSlimeExtractFilled,YellowSlimeExtract ｜_Starlight
+- **黄色史莱姆提取物灯** — `YellowSlimeExtractLight` ｜父类: BaseItem ｜_Starlight
+- **黄色史莱姆提取物电池** — `YellowSlimeExtractPowercell` ｜父类: BasePowerCell ｜_Starlight
+- **黄色棋子** — `YellowTabletopPiece` ｜父类: BaseGenericTabletopPiece
+- **束线带** — `Zipties` ｜父类: Handcuffs
+- **断裂的束线带** — `ZiptiesBroken` ｜父类: BaseHandcuffsBroken
+- **动物管理员ID卡** — `ZookeeperIDCard` ｜父类: IDCardStandard
+- **动物管理员PDA** — `ZookeeperPDA` ｜父类: BasePDA

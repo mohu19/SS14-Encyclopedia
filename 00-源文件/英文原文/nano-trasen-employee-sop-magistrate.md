@@ -1,0 +1,23 @@
+# 地方法官（EN 源文件）
+
+> 条目ID: `nano-trasen-employee-sop-magistrate` ｜ 来源层: starlight ｜ 分类: sop
+> 翻译提示：保留全部数值/专有名词/`[[实体:X]]`/颜色span；专有名词基准见 00-源文件/翻译规范.md
+
+---
+
+<!-- 无中文正文,以下为英文原文 -->
+
+# Magistrate
+1. The Magistrate is the ultimate judge of Corporate Law and primary legal advisor on station. They are responsible for guiding Command and Security toward lawful, proportionate outcomes in service of NanoTrasen's interests.
+
+2. The Magistrate is responsible for ensuring that those prisoners that are to receive capital punishment are given a fair and balanced trial, consisting of a jury of 6 of their peers. They are responsible for issuing sentences for trials they oversee that result in a guilty verdict.
+
+3. The Magistrate may overrule any sentencing imposed upon station crew, but may not pass judgment on any Central Command, or non-station NanoTrasen personnel.
+
+4. The Magistrate may not overly impede security operations outside of formal legal proceedings. They may ask to see arrest reports, so long as the station is not on <span style="color:#ff0000">Code Red</span>.
+
+5. The Magistrate may order an arrest on any member of Command or on-station NanoTrasen Personnel for violations of Corporate Law.
+
+6. The Magistrate may carry a flash on them at all times.
+
+7. Any sensitive documents found in the Magistrate's locker at the start of a shift are to be kept safe and secure at all times. It is the responsibility of the Magistrate alone to keep the documents secure. Should these documents go missing, Central Command is to be contacted at once.

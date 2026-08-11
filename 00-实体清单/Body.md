@@ -1,0 +1,596 @@
+# 实体清单：Body（592 个）
+
+> 来源层分布: _Starlight 555, _FarHorizons 37
+
+- `模板` **BaseAbductorOrgan** — `BaseAbductorOrgan` ｜父类: BaseItem ｜_Starlight
+- `模板` **BaseAnimalOrgan** — `BaseAnimalOrgan` ｜父类: BaseItem ｜_Starlight
+- `模板` **BaseArachnidOrgan** — `BaseArachnidOrgan` ｜父类: BaseItem ｜_Starlight
+- `模板` **BaseCycloriteOrgan** — `BaseCycloriteOrgan` ｜父类: BaseItem ｜_Starlight
+- `模板` **BaseDionaOrgan** — `BaseDionaOrgan` ｜父类: BaseItem ｜_Starlight
+- `模板` **BaseEntityBrainImplant** — `BaseEntityBrainImplant` ｜父类: BaseItem,BaseImplant ｜_Starlight
+- `模板` **BaseEntityEyeImplant** — `BaseEntityEyeImplant` ｜父类: BaseItem,BaseImplant ｜_Starlight
+- `模板` **BaseEntityHandImplant** — `BaseEntityHandImplant` ｜父类: BaseItem,BaseImplant ｜_Starlight
+- `模板` **头部** — `BaseHead` ｜父类: BasePart ｜_Starlight
+- `模板` **BaseHumanOrgan** — `BaseHumanOrgan` ｜父类: BaseItem ｜_Starlight
+- `模板` **BaseImplant** — `BaseImplant` ｜_Starlight
+- `模板` **BaseIPCOrganUnGibbable** — `BaseIPCOrganUnGibbable` ｜父类: BaseItem ｜_FarHorizons
+- `模板` **左手臂** — `BaseLeftArm` ｜父类: BasePart ｜_Starlight
+- `模板` **左脚** — `BaseLeftFoot` ｜父类: BasePart ｜_Starlight
+- `模板` **左手** — `BaseLeftHand` ｜父类: BasePart ｜_Starlight
+- `模板` **左腿** — `BaseLeftLeg` ｜父类: BasePart ｜_Starlight
+- `模板` **BaseOrganAppendix** — `BaseOrganAppendix` ｜_Starlight
+- `模板` **BaseOrganBrain** — `BaseOrganBrain` ｜_Starlight
+- `模板` **BaseOrganEars** — `BaseOrganEars` ｜_Starlight
+- `模板` **BaseOrganEyes** — `BaseOrganEyes` ｜_Starlight
+- `模板` **BaseOrganHeart** — `BaseOrganHeart` ｜_Starlight
+- `模板` **BaseOrganKidneys** — `BaseOrganKidneys` ｜_Starlight
+- `模板` **BaseOrganLiver** — `BaseOrganLiver` ｜_Starlight
+- `模板` **BaseOrganLungs** — `BaseOrganLungs` ｜_Starlight
+- `模板` **BaseOrganStomach** — `BaseOrganStomach` ｜_Starlight
+- `模板` **BaseOrganTongue** — `BaseOrganTongue` ｜_Starlight
+- `模板` **身体部位** — `BasePart` ｜父类: BaseItem ｜_Starlight
+- `模板` **BaseProtogenOrgan** — `BaseProtogenOrgan` ｜父类: BaseItem ｜_Starlight
+- `模板` **右手臂** — `BaseRightArm` ｜父类: BasePart ｜_Starlight
+- `模板` **右脚** — `BaseRightFoot` ｜父类: BasePart ｜_Starlight
+- `模板` **右手** — `BaseRightHand` ｜父类: BasePart ｜_Starlight
+- `模板` **右腿** — `BaseRightLeg` ｜父类: BasePart ｜_Starlight
+- `模板` **躯干** — `BaseTorso` ｜父类: BasePart ｜_Starlight
+- **集成无线电植入体** — `BrainImplantComms` ｜父类: BaseEntityBrainImplant ｜_Starlight
+- **远征无线电植入体** — `BrainImplantCommsExpedition` ｜父类: BaseEntityBrainImplant ｜_Starlight
+- **纳克瑟斯升链** — `BrainImplantNexus` ｜父类: BaseEntityBrainImplant ｜_Starlight
+- **翻译植入体** — `BrainImplantTranslator` ｜父类: BaseEntityBrainImplant ｜_Starlight
+- **廉价赛博眼** — `BudgetCyberEyes` ｜父类: OrganCyber,BaseOrganEyes ｜_Starlight
+- **廉价赛博肾脏** — `BudgetCyberKidneys` ｜父类: OrganCyber,OrganHumanKidneys ｜_Starlight
+- **廉价赛博肝脏** — `BudgetCyberLiver` ｜父类: OrganCyber,OrganHumanLiver ｜_Starlight
+- **廉价赛博胃** — `BudgetCyberStomach` ｜父类: OrganCyber,OrganHumanStomach ｜_Starlight
+- **廉价赛博舌头** — `BudgetCyberTongue` ｜父类: OrganCyber,BaseOrganTongue ｜_Starlight
+- **颊囊** — `CheekStorage` ｜_Starlight
+- **夜视赛博眼** — `CyberEyeNightVision` ｜父类: OrganCyber,BaseOrganEyes ｜_Starlight
+- **热成像赛博眼** — `CyberEyeThermal` ｜父类: OrganCyber,BaseOrganEyes ｜_Starlight
+- **赛博循环呼吸器** — `CyberRebreather` ｜父类: OrganCyber,OrganHumanLungs ｜_Starlight
+- **化学植入体** — `EyeImplantChemistry` ｜父类: BaseEntityEyeImplant ｜_Starlight
+- **诊断植入体** — `EyeImplantDiagnostic` ｜父类: BaseEntityEyeImplant ｜_Starlight
+- **医疗植入体** — `EyeImplantMedical` ｜父类: BaseEntityEyeImplant ｜_Starlight
+- **安保植入体** — `EyeImplantSecurity` ｜父类: BaseEntityEyeImplant ｜_Starlight
+- **辛迪加植入体** — `EyeImplantSyndie` ｜父类: BaseEntityEyeImplant,BaseSyndicateContraband ｜_Starlight
+- **焊接防护植入体** — `EyeImplantWelding` ｜父类: BaseEntityEyeImplant ｜_Starlight
+- **动物脚** — `FeetAnimal` ｜父类: PartAnimal ｜_Starlight
+- **利爪植入体** — `HandImplantClaws` ｜父类: BaseEntityHandImplant ｜_Starlight
+- **反取证植入体** — `HandImplantForensics` ｜父类: BaseEntityHandImplant ｜_Starlight
+- **绝缘植入体** — `HandImplantInsulated` ｜父类: BaseEntityHandImplant ｜_Starlight
+- **推进器植入体** — `HandImplantThrusters` ｜父类: BaseEntityHandImplant ｜_Starlight
+- **动物手** — `HandsAnimal` ｜父类: PartAnimal ｜_Starlight
+- **绑架者头部** — `HeadAbductor` ｜父类: PartAbductor,BaseHead ｜_Starlight
+- **动物头部** — `HeadAnimal` ｜父类: PartAnimal ｜_Starlight
+- **蛛人头部** — `HeadArachnid` ｜父类: PartArachnid,BaseHead ｜_Starlight
+- **阿瓦利头部** — `HeadAvali` ｜父类: PartAvali,BaseHead ｜_Starlight
+- **赛克洛人头部** — `HeadCyclorite` ｜父类: PartCyclorite,BaseHead ｜_Starlight
+- **狄奥娜头部** — `HeadDiona` ｜父类: PartDiona,BaseHead ｜_Starlight
+- **精灵头部** — `HeadElf` ｜父类: PartElf,BaseHead ｜_Starlight
+- **猫科人头部** — `HeadFelionoid` ｜父类: PartFelionoid,BaseHead ｜_Starlight
+- **姜饼人头部** — `HeadGingerbread` ｜父类: PartGingerbread,BaseHead ｜_Starlight
+- **人类头部** — `HeadHuman` ｜父类: PartHuman,BaseHead ｜_Starlight
+- **IPC 头部** — `HeadIPC` ｜父类: PartIPC,BaseHead ｜_FarHorizons
+- **兔形人头部** — `HeadLagomorph` ｜父类: PartLagomorph,BaseHead ｜_Starlight
+- **蛾人头部** — `HeadMoth` ｜父类: PartMoth,BaseHead ｜_Starlight
+- **原兽头部 # Starlight, quotation marks removed** — `HeadProtogen` ｜父类: PartProtogen,BaseHead ｜_FarHorizons
+- **原兽伏尔卡宁头部 # Starlight, quotation marks removed** — `HeadProtoVulp` ｜父类: HeadProtogen ｜_FarHorizons
+- **蜥蜴人头部** — `HeadReptilian` ｜父类: PartReptilian,BaseHead ｜_Starlight
+- **雷索米头部** — `HeadResomi` ｜父类: PartResomi,BaseHead ｜_Starlight
+- **啮齿人头部** — `HeadRodentia` ｜父类: PartRodentia,BaseHead ｜_Starlight
+- **影族头部** — `HeadShadekin` ｜父类: PartShadekin,BaseHead ｜_Starlight
+- **头骨** — `HeadSkeleton` ｜父类: PartSkeleton,BaseMob ｜_Starlight
+- **史莱姆头部** — `HeadSlime` ｜父类: PartSlime,BaseHead ｜_Starlight
+- **NT-800 头骨** — `HeadTerminator` ｜父类: PartTerminator ｜_Starlight
+- **塔文头部** — `HeadThaven` ｜父类: PartThaven,BaseHead ｜_Starlight
+- **沃克斯头部** — `HeadVox` ｜父类: PartVox,BaseHead ｜_Starlight
+- **伏尔卡宁头部** — `HeadVulpkanin` ｜父类: PartVulpkanin,BaseHead ｜_Starlight
+- **左绑架者手臂** — `LeftArmAbductor` ｜父类: PartAbductor,BaseLeftArm ｜_Starlight
+- **左蛛人手臂** — `LeftArmArachnid` ｜父类: PartArachnid,BaseLeftArm ｜_Starlight
+- **左阿瓦利手臂** — `LeftArmAvali` ｜父类: PartAvali,BaseLeftArm ｜_Starlight
+- **赛博格左臂** — `LeftArmBorg` ｜父类: PartSilicon ｜_Starlight
+- **左赛博手臂** — `LeftArmCyber` ｜父类: PartCyber,BaseLeftArm ｜_Starlight
+- **左天使手臂** — `LeftArmCyberAngel` ｜父类: PartCyber,BaseLeftArm ｜_Starlight
+- **左堡垒手臂** — `LeftArmCyberBulwark` ｜父类: PartCyber,BaseLeftArm,BaseSecurityContraband ｜_Starlight
+- **左工程师手臂** — `LeftArmCyberEngineer` ｜父类: PartCyber,BaseLeftArm ｜_Starlight
+- **左大猩猩手臂** — `LeftArmCyberGorilla` ｜父类: PartCyber,BaseLeftArm,BaseScienceContraband ｜_Starlight
+- **左赫拉克勒斯手臂** — `LeftArmCyberHerakles` ｜父类: PartCyber,BaseLeftArm,BaseSecurityContraband ｜_Starlight
+- **左调查员手臂** — `LeftArmCyberInvestigator` ｜父类: PartCyber,BaseLeftArm,BaseScienceContraband ｜_Starlight
+- **左螳螂刃手臂** — `LeftArmCyberMantisBlade` ｜父类: PartCyber,BaseLeftArm,BaseSyndicateContraband ｜_Starlight
+- **左机械巧匠手臂** — `LeftArmCyberMechwright` ｜父类: PartCyber,BaseLeftArm ｜_Starlight
+- **左珀耳塞福涅手臂** — `LeftArmCyberPersephone` ｜父类: PartCyber,BaseLeftArm ｜_Starlight
+- **左收割者手臂** — `LeftArmCyberReaper` ｜父类: PartCyber,BaseLeftArm ｜_Starlight
+- **左撕裂者手臂** — `LeftArmCyberRiplet` ｜父类: PartCyber,BaseLeftArm ｜_Starlight
+- **左开膛医师手臂** — `LeftArmCyberRipper` ｜父类: PartCyber,BaseLeftArm ｜_Starlight
+- **左书记官手臂** — `LeftArmCyberScribe` ｜父类: PartCyber,BaseLeftArm ｜_Starlight
+- **左太空客手臂** — `LeftArmCyberSpacer` ｜父类: PartCyber,BaseLeftArm ｜_Starlight
+- **左宙斯手臂** — `LeftArmCyberZeus` ｜父类: PartCyber,BaseLeftArm,BaseSecurityContraband ｜_Starlight
+- **左赛克洛人手臂** — `LeftArmCyclorite` ｜父类: PartCyclorite,BaseLeftArm ｜_Starlight
+- **左狄奥娜手臂** — `LeftArmDiona` ｜父类: PartDiona,BaseLeftArm ｜_Starlight
+- **左精灵手臂** — `LeftArmElf` ｜父类: PartElf,BaseLeftArm ｜_Starlight
+- **左猫科人手臂** — `LeftArmFelionoid` ｜父类: PartFelionoid,BaseLeftArm ｜_Starlight
+- **姜饼人左臂** — `LeftArmGingerbread` ｜父类: PartGingerbread,BaseLeftArm ｜_Starlight
+- **人类左臂** — `LeftArmHuman` ｜父类: PartHuman,BaseLeftArm ｜_Starlight
+- **IPC 左臂** — `LeftArmIPC` ｜父类: PartIPC,BaseLeftArm ｜_FarHorizons
+- **兔形人左臂** — `LeftArmLagomorph` ｜父类: PartLagomorph,BaseLeftArm ｜_Starlight
+- **蛾人左臂** — `LeftArmMoth` ｜父类: PartMoth,BaseLeftArm ｜_Starlight
+- **原兽左臂 # Starlight, quotation marks removed** — `LeftArmProtogen` ｜父类: PartProtogen,BaseLeftArm ｜_FarHorizons
+- **原兽伏尔卡宁左臂 # Starlight, quotation marks removed** — `LeftArmProtoVulp` ｜父类: LeftArmProtogen ｜_FarHorizons
+- **蜥蜴人左臂** — `LeftArmReptilian` ｜父类: PartReptilian,BaseLeftArm ｜_Starlight
+- **雷索米左臂** — `LeftArmResomi` ｜父类: PartResomi,BaseLeftArm ｜_Starlight
+- **啮齿人左臂** — `LeftArmRodentia` ｜父类: PartRodentia,BaseLeftArm ｜_Starlight
+- **影族左臂** — `LeftArmShadekin` ｜父类: PartShadekin,BaseLeftArm ｜_Starlight
+- **骷髅左臂** — `LeftArmSkeleton` ｜父类: PartSkeleton ｜_Starlight
+- **史莱姆左臂** — `LeftArmSlime` ｜父类: PartSlime,BaseLeftArm ｜_Starlight
+- **NT-800 左臂** — `LeftArmTerminator` ｜父类: PartTerminator ｜_Starlight
+- **塔文左臂** — `LeftArmThaven` ｜父类: PartThaven,BaseLeftArm ｜_Starlight
+- **沃克斯左臂** — `LeftArmVox` ｜父类: PartVox,BaseLeftArm ｜_Starlight
+- **伏尔卡宁左臂** — `LeftArmVulpkanin` ｜父类: PartVulpkanin,BaseLeftArm ｜_Starlight
+- **人类左臂** — `LeftArmWithHandHuman` ｜父类: PartHuman,BaseLeftArm,LeftArmHuman ｜_Starlight
+- **左绑架者脚** — `LeftFootAbductor` ｜父类: PartAbductor,BaseLeftFoot ｜_Starlight
+- **左蛛人脚** — `LeftFootArachnid` ｜父类: PartArachnid,BaseLeftFoot ｜_Starlight
+- **左阿瓦利脚** — `LeftFootAvali` ｜父类: PartAvali,BaseLeftFoot ｜_Starlight
+- **左赛博脚** — `LeftFootCyber` ｜父类: PartCyber,BaseLeftFoot ｜_Starlight
+- **左赛克洛人脚** — `LeftFootCyclorite` ｜父类: PartCyclorite,BaseLeftFoot ｜_Starlight
+- **左狄奥娜脚** — `LeftFootDiona` ｜父类: PartDiona,BaseLeftFoot ｜_Starlight
+- **左精灵脚** — `LeftFootElf` ｜父类: PartElf,BaseLeftFoot ｜_Starlight
+- **左猫科人脚** — `LeftFootFelionoid` ｜父类: PartFelionoid,BaseLeftFoot ｜_Starlight
+- **姜饼人左脚** — `LeftFootGingerbread` ｜父类: PartGingerbread,BaseLeftFoot ｜_Starlight
+- **人类左脚** — `LeftFootHuman` ｜父类: PartHuman,BaseLeftFoot ｜_Starlight
+- **IPC 左脚** — `LeftFootIPC` ｜父类: PartIPC,BaseLeftFoot ｜_FarHorizons
+- **兔形人左脚** — `LeftFootLagomorph` ｜父类: PartLagomorph,BaseLeftFoot ｜_Starlight
+- **蛾人左脚** — `LeftFootMoth` ｜父类: PartMoth,BaseLeftFoot ｜_Starlight
+- **原兽左脚 # Starlight, quotation marks removed** — `LeftFootProtogen` ｜父类: PartProtogen,BaseLeftFoot ｜_FarHorizons
+- **原兽沃克斯左脚 # Starlight, quotation marks removed** — `LeftFootProtoVox` ｜父类: LeftFootProtogen ｜_FarHorizons
+- **蜥蜴人左脚** — `LeftFootReptilian` ｜父类: PartReptilian,BaseLeftFoot ｜_Starlight
+- **雷索米左脚** — `LeftFootResomi` ｜父类: PartResomi,BaseLeftFoot ｜_Starlight
+- **啮齿人左脚** — `LeftFootRodentia` ｜父类: PartRodentia,BaseLeftFoot ｜_Starlight
+- **影族左脚** — `LeftFootShadekin` ｜父类: PartShadekin,BaseLeftFoot ｜_Starlight
+- **骷髅左脚** — `LeftFootSkeleton` ｜父类: PartSkeleton ｜_Starlight
+- **史莱姆左脚** — `LeftFootSlime` ｜父类: PartSlime,BaseLeftFoot ｜_Starlight
+- **NT-800 左脚** — `LeftFootTerminator` ｜父类: PartTerminator ｜_Starlight
+- **塔文左脚** — `LeftFootThaven` ｜父类: PartThaven,BaseLeftFoot ｜_Starlight
+- **沃克斯左脚** — `LeftFootVox` ｜父类: PartVox,BaseLeftFoot ｜_Starlight
+- **伏尔卡宁左脚** — `LeftFootVulpkanin` ｜父类: PartVulpkanin,BaseLeftFoot ｜_Starlight
+- **左绑架者手** — `LeftHandAbductor` ｜父类: PartAbductor,BaseLeftHand ｜_Starlight
+- **柯基手** — `LeftHandAdmemeCorgi` ｜父类: PartAnimal ｜_Starlight
+- **左动物手** — `LeftHandAnimal` ｜父类: PartAnimal ｜_Starlight
+- **左蛛人手** — `LeftHandArachnid` ｜父类: PartArachnid,BaseLeftHand ｜_Starlight
+- **左阿瓦利手** — `LeftHandAvali` ｜父类: PartAvali,BaseLeftHand ｜_Starlight
+- **左赛博手** — `LeftHandCyber` ｜父类: PartCyber,BaseLeftHand ｜_Starlight
+- **左天使手** — `LeftHandCyberAngel` ｜父类: PartCyber,BaseLeftHand ｜_Starlight
+- **左堡垒手** — `LeftHandCyberBulwark` ｜父类: PartCyber,BaseLeftHand,BaseSecurityContraband ｜_Starlight
+- **左工程师手** — `LeftHandCyberEngineer` ｜父类: PartCyber,BaseLeftHand ｜_Starlight
+- **左大猩猩手** — `LeftHandCyberGorilla` ｜父类: PartCyber,BaseLeftHand,BaseScienceContraband ｜_Starlight
+- **左赫拉克勒斯手** — `LeftHandCyberHerakles` ｜父类: PartCyber,BaseLeftHand,BaseSecurityContraband ｜_Starlight
+- **左调查员手** — `LeftHandCyberInvestigator` ｜父类: PartCyber,BaseLeftHand,BaseScienceContraband ｜_Starlight
+- **左螳螂刃手** — `LeftHandCyberMantisBlade` ｜父类: PartCyber,BaseLeftHand,BaseSyndicateContraband ｜_Starlight
+- **左机械巧匠手** — `LeftHandCyberMechwright` ｜父类: PartCyber,BaseLeftHand ｜_Starlight
+- **左珀耳塞福涅手** — `LeftHandCyberPersephone` ｜父类: PartCyber,BaseLeftHand ｜_Starlight
+- **左收割者手** — `LeftHandCyberReaper` ｜父类: PartCyber,BaseLeftHand ｜_Starlight
+- **左撕裂者手** — `LeftHandCyberRiplet` ｜父类: PartCyber,BaseLeftHand ｜_Starlight
+- **左开膛医师手** — `LeftHandCyberRipper` ｜父类: PartCyber,BaseLeftHand ｜_Starlight
+- **左书记官手** — `LeftHandCyberScribe` ｜父类: PartCyber,BaseLeftHand ｜_Starlight
+- **左太空客手** — `LeftHandCyberSpacer` ｜父类: PartCyber,BaseLeftHand ｜_Starlight
+- **左宙斯手** — `LeftHandCyberZeus` ｜父类: PartCyber,BaseLeftHand,BaseSecurityContraband ｜_Starlight
+- **左赛克洛人手** — `LeftHandCyclorite` ｜父类: PartCyclorite,BaseLeftHand ｜_Starlight
+- **左狄奥娜手** — `LeftHandDiona` ｜父类: PartDiona,BaseLeftHand ｜_Starlight
+- **左精灵手** — `LeftHandElf` ｜父类: PartElf,BaseLeftHand ｜_Starlight
+- **左猫科人手** — `LeftHandFelionoid` ｜父类: PartFelionoid,BaseLeftHand ｜_Starlight
+- **姜饼人左手** — `LeftHandGingerbread` ｜父类: PartGingerbread,BaseLeftHand ｜_Starlight
+- **人类左手** — `LeftHandHuman` ｜父类: PartHuman,BaseLeftHand ｜_Starlight
+- **IPC 左手** — `LeftHandIPC` ｜父类: PartIPC,BaseLeftHand ｜_FarHorizons
+- **兔形人左手** — `LeftHandLagomorph` ｜父类: PartLagomorph,BaseLeftHand ｜_Starlight
+- **蛾人左手** — `LeftHandMoth` ｜父类: PartMoth,BaseLeftHand ｜_Starlight
+- **原兽左手 # Starlight, quotation marks removed** — `LeftHandProtogen` ｜父类: PartProtogen,BaseLeftHand ｜_FarHorizons
+- **原兽沃克斯左手 # Starlight, quotation marks removed** — `LeftHandProtoVox` ｜父类: LeftHandProtogen ｜_FarHorizons
+- **原兽伏尔卡宁左手 # Starlight, quotation marks removed** — `LeftHandProtoVulp` ｜父类: LeftHandProtogen ｜_FarHorizons
+- **蜥蜴人左手** — `LeftHandReptilian` ｜父类: PartReptilian,BaseLeftHand ｜_Starlight
+- **雷索米左手** — `LeftHandResomi` ｜父类: PartResomi,BaseLeftHand ｜_Starlight
+- **啮齿人左手** — `LeftHandRodentia` ｜父类: PartRodentia,BaseLeftHand ｜_Starlight
+- **影族左手** — `LeftHandShadekin` ｜父类: PartShadekin,BaseLeftHand ｜_Starlight
+- **骷髅左手** — `LeftHandSkeleton` ｜父类: PartSkeleton ｜_Starlight
+- **史莱姆左手** — `LeftHandSlime` ｜父类: PartSlime,BaseLeftHand ｜_Starlight
+- **柯基手** — `LeftHandSmartCorgi` ｜父类: PartAnimal ｜_Starlight
+- **NT-800 左手** — `LeftHandTerminator` ｜父类: PartTerminator ｜_Starlight
+- **塔文左手** — `LeftHandThaven` ｜父类: PartThaven,BaseLeftHand ｜_Starlight
+- **沃克斯左手** — `LeftHandVox` ｜父类: PartVox,BaseLeftHand ｜_Starlight
+- **伏尔卡宁左手** — `LeftHandVulpkanin` ｜父类: PartVulpkanin,BaseLeftHand ｜_Starlight
+- **左绑架者腿** — `LeftLegAbductor` ｜父类: PartAbductor,BaseLeftLeg ｜_Starlight
+- **左蛛人腿** — `LeftLegArachnid` ｜父类: PartArachnid,BaseLeftLeg ｜_Starlight
+- **左阿瓦利腿** — `LeftLegAvali` ｜父类: PartAvali,BaseLeftLeg ｜_Starlight
+- **赛博格左腿** — `LeftLegBorg` ｜父类: PartSilicon ｜_Starlight
+- **左赛博腿** — `LeftLegCyber` ｜父类: PartCyber,LeftLegCyberBase ｜_Starlight
+- `模板` **左基础赛博腿** — `LeftLegCyberBase` ｜父类: BaseLeftLeg ｜_Starlight
+- **左廉价赛博腿** — `LeftLegCyberBudget` ｜父类: PartCyber,LeftLegCyberBase ｜_Starlight
+- **左货运赛博腿** — `LeftLegCyberCargo` ｜父类: PartCyber,LeftLegCyberBase ｜_Starlight
+- **左液压赛博腿** — `LeftLegCyberHydraulic` ｜父类: PartCyber,LeftLegCyberBase ｜_Starlight
+- **左打桩机腿** — `LeftLegCyberPilebunker` ｜父类: PartCyber,LeftLegCyberBase ｜_Starlight
+- **左疾速腿** — `LeftLegCyberSpeed` ｜父类: PartCyber,LeftLegCyberBase ｜_Starlight
+- **左赛克洛人腿** — `LeftLegCyclorite` ｜父类: PartCyclorite,BaseLeftLeg ｜_Starlight
+- **左狄奥娜腿** — `LeftLegDiona` ｜父类: PartDiona,BaseLeftLeg ｜_Starlight
+- **左精灵腿** — `LeftLegElf` ｜父类: PartElf,BaseLeftLeg ｜_Starlight
+- **左猫科人腿** — `LeftLegFelionoid` ｜父类: PartFelionoid,BaseLeftLeg ｜_Starlight
+- **姜饼人左腿** — `LeftLegGingerbread` ｜父类: PartGingerbread,BaseLeftLeg ｜_Starlight
+- **人类左腿** — `LeftLegHuman` ｜父类: PartHuman,BaseLeftLeg ｜_Starlight
+- **IPC 左腿** — `LeftLegIPC` ｜父类: PartIPC,BaseLeftLeg ｜_FarHorizons
+- **兔形人左腿** — `LeftLegLagomorph` ｜父类: PartLagomorph,BaseLeftLeg ｜_Starlight
+- **蛾人左腿** — `LeftLegMoth` ｜父类: PartMoth,BaseLeftLeg ｜_Starlight
+- **原兽左腿 # Starlight, quotation marks removed** — `LeftLegProtogen` ｜父类: PartProtogen,BaseLeftLeg ｜_FarHorizons
+- **蜥蜴人左腿** — `LeftLegReptilian` ｜父类: PartReptilian,BaseLeftLeg ｜_Starlight
+- **雷索米左腿** — `LeftLegResomi` ｜父类: PartResomi,BaseLeftLeg ｜_Starlight
+- **啮齿人左腿** — `LeftLegRodentia` ｜父类: PartRodentia,BaseLeftLeg ｜_Starlight
+- **影族左腿** — `LeftLegShadekin` ｜父类: PartShadekin,BaseLeftLeg ｜_Starlight
+- **骷髅左腿** — `LeftLegSkeleton` ｜父类: PartSkeleton ｜_Starlight
+- **史莱姆左腿** — `LeftLegSlime` ｜父类: PartSlime,BaseLeftLeg ｜_Starlight
+- **NT-800 左腿** — `LeftLegTerminator` ｜父类: PartTerminator ｜_Starlight
+- **塔文左腿** — `LeftLegThaven` ｜父类: PartThaven,BaseLeftLeg ｜_Starlight
+- **沃克斯左腿** — `LeftLegVox` ｜父类: PartVox,BaseLeftLeg ｜_Starlight
+- **伏尔卡宁左腿** — `LeftLegVulpkanin` ｜父类: PartVulpkanin,BaseLeftLeg ｜_Starlight
+- **人类左腿** — `LeftLegWithFootHuman` ｜父类: PartHuman,BaseLeftLeg,LeftLegHuman ｜_Starlight
+- **动物腿** — `LegsAnimal` ｜父类: PartAnimal ｜_Starlight
+- **赛博格头部** — `LightHeadBorg` ｜父类: PartSilicon ｜_Starlight
+- **奇异大脑** — `OrganAbductorBrain` ｜父类: BaseOrganBrain,BaseAbductorOrgan ｜_Starlight
+- **奇异耳朵** — `OrganAbductorEars` ｜父类: BaseAbductorOrgan,BaseOrganEars ｜_Starlight
+- **奇异眼睛** — `OrganAbductorEyes` ｜父类: BaseAbductorOrgan,BaseOrganEyes ｜_Starlight
+- **奇异心脏** — `OrganAbductorHeart` ｜父类: BaseAbductorOrgan,BaseOrganHeart ｜_Starlight
+- **奇异肾脏** — `OrganAbductorKidneys` ｜父类: BaseAbductorOrgan,BaseOrganKidneys ｜_Starlight
+- **奇异肝脏** — `OrganAbductorLiver` ｜父类: BaseAbductorOrgan,BaseOrganLiver ｜_Starlight
+- **奇异肺** — `OrganAbductorLungs` ｜父类: BaseAbductorOrgan,BaseOrganLungs ｜_Starlight
+- **奇异胃** — `OrganAbductorStomach` ｜父类: BaseAbductorOrgan,BaseOrganStomach ｜_Starlight
+- **动物眼睛** — `OrganAnimalEyes` ｜父类: BaseAnimalOrgan,BaseOrganEyes ｜_Starlight
+- **动物心脏** — `OrganAnimalHeart` ｜父类: BaseAnimalOrgan,BaseOrganHeart ｜_Starlight
+- **动物肾脏** — `OrganAnimalKidneys` ｜父类: BaseAnimalOrgan,BaseOrganKidneys ｜_Starlight
+- **动物肝脏** — `OrganAnimalLiver` ｜父类: BaseAnimalOrgan,BaseOrganLiver ｜_Starlight
+- **动物肺** — `OrganAnimalLungs` ｜父类: BaseAnimalOrgan ｜_Starlight
+- **反刍动物胃** — `OrganAnimalRuminantStomach` ｜父类: OrganAnimalStomach ｜_Starlight
+- **动物胃** — `OrganAnimalStomach` ｜父类: BaseAnimalOrgan ｜_Starlight
+- **蛛人眼睛** — `OrganArachnidEyes` ｜父类: BaseArachnidOrgan,BaseOrganEyes ｜_Starlight
+- **蛛人心脏** — `OrganArachnidHeart` ｜父类: BaseArachnidOrgan,BaseOrganHeart ｜_Starlight
+- **蛛人肾脏** — `OrganArachnidKidneys` ｜父类: BaseHumanOrgan,BaseOrganKidneys ｜_Starlight
+- **蛛人肝脏** — `OrganArachnidLiver` ｜父类: BaseHumanOrgan,BaseOrganLiver ｜_Starlight
+- **蛛人肺** — `OrganArachnidLungs` ｜父类: BaseArachnidOrgan,BaseOrganLungs ｜_Starlight
+- **蛛人胃** — `OrganArachnidStomach` ｜父类: OrganAnimalStomach,BaseOrganStomach ｜_Starlight
+- **蛛人舌头** — `OrganArachnidTongue` ｜父类: BaseArachnidOrgan,BaseOrganTongue ｜_Starlight
+- **阿瓦利大脑** — `OrganAvaliBrain` ｜父类: OrganHumanBrain ｜_Starlight
+- **阿瓦利眼睛** — `OrganAvaliEyes` ｜父类: OrganHumanEyes ｜_Starlight
+- **阿瓦利心脏** — `OrganAvaliHeart` ｜父类: OrganHumanHeart ｜_Starlight
+- **阿瓦利肾脏** — `OrganAvaliKidneys` ｜父类: OrganHumanKidneys ｜_Starlight
+- **阿瓦利肝脏** — `OrganAvaliLiver` ｜父类: OrganHumanLiver ｜_Starlight
+- **阿瓦利肺** — `OrganAvaliLungs` ｜父类: OrganHumanLungs ｜_Starlight
+- **阿瓦利胃** — `OrganAvaliStomach` ｜父类: OrganAnimalStomach ｜_Starlight
+- **动物心脏** — `OrganBloodsuckerHeart` ｜父类: OrganAnimalHeart ｜_Starlight
+- **动物肝脏** — `OrganBloodsuckerLiver` ｜父类: OrganAnimalLiver ｜_Starlight
+- **动物胃** — `OrganBloodsuckerStomach` ｜父类: OrganAnimalStomach ｜_Starlight
+- **柯基肺** — `OrganCorgiLungs` ｜父类: OrganAnimalLungs ｜_Starlight
+- `模板` **赛博器官** — `OrganCyber` ｜父类: BaseItem ｜_Starlight
+- **赛克洛人大脑** — `OrganCycloriteBrain` ｜父类: BaseOrganBrain,BaseCycloriteOrgan ｜_Starlight
+- **赛克洛人耳朵** — `OrganCycloriteEars` ｜父类: BaseCycloriteOrgan,BaseOrganEars ｜_Starlight
+- **赛克洛人眼睛** — `OrganCycloriteEye` ｜父类: BaseCycloriteOrgan,BaseOrganEyes ｜_Starlight
+- **赛克洛人心脏** — `OrganCycloriteHeart` ｜父类: BaseCycloriteOrgan,BaseOrganHeart ｜_Starlight
+- **赛克洛人肾脏** — `OrganCycloriteKidneys` ｜父类: BaseCycloriteOrgan,BaseOrganKidneys ｜_Starlight
+- **赛克洛人肝脏** — `OrganCycloriteLiver` ｜父类: BaseCycloriteOrgan,BaseOrganLiver ｜_Starlight
+- **赛克洛人肺** — `OrganCycloriteLungs` ｜父类: BaseCycloriteOrgan,BaseOrganLungs ｜_Starlight
+- **赛克洛人胃** — `OrganCycloriteStomach` ｜父类: BaseCycloriteOrgan,BaseOrganStomach ｜_Starlight
+- **赛克洛人舌头** — `OrganCycloriteTongue` ｜父类: BaseCycloriteOrgan,BaseOrganTongue ｜_Starlight
+- **狄奥娜大脑** — `OrganDionaBrain` ｜父类: BaseOrganBrain,BaseDionaOrgan ｜_Starlight
+- **狄奥娜幼体大脑** — `OrganDionaBrainNymph` ｜父类: OrganDionaBrain ｜_Starlight
+- **狄奥娜眼睛** — `OrganDionaEyes` ｜父类: BaseDionaOrgan,BaseOrganEyes ｜_Starlight
+- **狄奥娜肺** — `OrganDionaLungs` ｜父类: BaseDionaOrgan,BaseOrganLungs ｜_Starlight
+- **狄奥娜幼体肺** — `OrganDionaLungsNymph` ｜父类: OrganDionaLungs ｜_Starlight
+- **狄奥娜幼体** — `OrganDionaNymphBrain` ｜父类: MobDionaNymph ｜_Starlight
+- **狄奥娜幼体肺** — `OrganDionaNymphLungs` ｜父类: MobDionaNymphAccent ｜_Starlight
+- **狄奥娜幼体胃** — `OrganDionaNymphStomach` ｜父类: MobDionaNymphAccent ｜_Starlight
+- **狄奥娜胃** — `OrganDionaStomach` ｜父类: BaseDionaOrgan,BaseOrganStomach ｜_Starlight
+- **狄奥娜幼体胃** — `OrganDionaStomachNymph` ｜父类: OrganDionaStomach ｜_Starlight
+- **腺体** — `OrganDubiousEgg` ｜父类: OrganHumanHeart ｜_Starlight
+- **腺体** — `OrganDubiousGravity` ｜父类: OrganHumanHeart ｜_Starlight
+- **腺体** — `OrganDubiousHealth` ｜父类: OrganHumanHeart ｜_Starlight
+- **腺体** — `OrganDubiousNitrousOxide` ｜父类: OrganHumanHeart ｜_Starlight
+- **腺体** — `OrganDubiousSpider` ｜父类: OrganHumanHeart ｜_Starlight
+- **腺体** — `OrganDubiousVent` ｜父类: OrganHumanHeart ｜_Starlight
+- **矮人心脏** — `OrganDwarfHeart` ｜父类: OrganHumanHeart ｜_Starlight
+- **矮人肝脏** — `OrganDwarfLiver` ｜父类: OrganHumanLiver ｜_Starlight
+- **矮人胃** — `OrganDwarfStomach` ｜父类: OrganHumanStomach ｜_Starlight
+- **猫科人眼睛** — `OrganFelionoidEyes` ｜父类: OrganHumanEyes ｜_Starlight
+- **阑尾** — `OrganHumanAppendix` ｜父类: BaseHumanOrgan,BaseOrganAppendix ｜_Starlight
+- **大脑** — `OrganHumanBrain` ｜父类: BaseOrganBrain,BaseHumanOrgan ｜_Starlight
+- **耳朵** — `OrganHumanEars` ｜父类: BaseHumanOrgan,BaseOrganEars ｜_Starlight
+- **眼睛** — `OrganHumanEyes` ｜父类: BaseHumanOrgan,BaseOrganEyes ｜_Starlight
+- **心脏** — `OrganHumanHeart` ｜父类: BaseHumanOrgan,BaseOrganHeart ｜_Starlight
+- **肾脏** — `OrganHumanKidneys` ｜父类: BaseHumanOrgan,BaseOrganKidneys ｜_Starlight
+- **肝脏** — `OrganHumanLiver` ｜父类: BaseHumanOrgan,BaseOrganLiver ｜_Starlight
+- **肺** — `OrganHumanLungs` ｜父类: BaseHumanOrgan,BaseOrganLungs ｜_Starlight
+- **胃** — `OrganHumanStomach` ｜父类: BaseHumanOrgan,BaseOrganStomach ｜_Starlight
+- **舌头** — `OrganHumanTongue` ｜父类: BaseHumanOrgan,BaseOrganTongue ｜_Starlight
+- **机器人耳朵** — `OrganIPCEars` ｜父类: BaseIPCOrganUnGibbable,BaseOrganEars ｜_FarHorizons
+- **机器人眼睛** — `OrganIPCEyes` ｜父类: BaseIPCOrganUnGibbable,BaseOrganEyes ｜_FarHorizons
+- **微型泵** — `OrganIPCHeart` ｜父类: BaseIPCOrganUnGibbable,BaseOrganHeart ｜_FarHorizons
+- **语音调制器** — `OrganIPCTongue` ｜父类: BaseIPCOrganUnGibbable,BaseOrganTongue ｜_FarHorizons
+- **兔形人眼球** — `OrganLagomorphEyes` ｜父类: OrganHumanEyes ｜_Starlight
+- **兔形目心脏** — `OrganLagomorphHeart` ｜父类: OrganAnimalHeart ｜_Starlight
+- **兔形目胃** — `OrganLagomorphStomach` ｜父类: OrganAnimalStomach,BaseOrganStomach ｜_Starlight
+- **蛾人眼睛** — `OrganMothEyes` ｜父类: OrganHumanEyes ｜_Starlight
+- **蛾人胃** — `OrganMothStomach` ｜父类: OrganAnimalStomach,OrganHumanStomach ｜_Starlight
+- **动物胃** — `OrganMouseStomach` ｜父类: OrganAnimalStomach ｜_Starlight
+- **蛛人赛博心脏** — `OrganProtoArachnidHeart` ｜父类: BaseProtogenOrgan,OrganProtogenHeart ｜_Starlight
+- **阿瓦利赛博心脏** — `OrganProtoAvaliHeart` ｜父类: OrganProtogenHeart ｜_Starlight
+- **阿瓦利赛博肝脏** — `OrganProtoAvaliLiver` ｜父类: OrganProtogenLiver ｜_Starlight
+- **阿瓦利生物反应堆** — `OrganProtoAvaliStomach` ｜父类: OrganProtogenStomach ｜_Starlight
+- **赛克洛人赛博眼睛** — `OrganProtoCycloriteEye` ｜父类: OrganProtogenEyes ｜_Starlight
+- **赛克洛人赛博心脏** — `OrganProtoCycloriteHeart` ｜父类: OrganProtogenHeart ｜_Starlight
+- **赛克洛人赛博肺** — `OrganProtoCycloriteLungs` ｜父类: OrganProtogenLungs ｜_Starlight
+- **狄奥娜强化肺** — `OrganProtoDionaLungs` ｜父类: OrganDionaLungs ｜_Starlight
+- **原型狄奥娜幼体肺** — `OrganProtoDionaLungsNymph` ｜父类: OrganProtoDionaLungs ｜_Starlight
+- **原型狄奥娜幼体肺** — `OrganProtoDionaNymphLungs` ｜父类: MobDionaNymphAccent ｜_Starlight
+- **原型狄奥娜幼体胃** — `OrganProtoDionaNymphStomach` ｜父类: MobDionaNymphAccent ｜_Starlight
+- **强化胃** — `OrganProtoDionaStomach` ｜父类: OrganDionaStomach ｜_Starlight
+- **原型狄奥娜幼体胃** — `OrganProtoDionaStomachNymph` ｜父类: OrganProtoDionaStomach ｜_Starlight
+- **矮人赛博心脏** — `OrganProtoDwarfHeart` ｜父类: OrganProtogenHeart ｜_Starlight
+- **矮人赛博肝脏** — `OrganProtoDwarfLiver` ｜父类: OrganProtogenLiver ｜_Starlight
+- **矮人生物反应堆** — `OrganProtoDwarfStomach` ｜父类: OrganProtogenStomach ｜_Starlight
+- **赛博大脑** — `OrganProtogenBrain` ｜父类: BaseOrganBrain,BaseProtogenOrgan ｜_Starlight
+- **赛博耳朵** — `OrganProtogenEars` ｜父类: BaseProtogenOrgan,BaseOrganEars ｜_Starlight
+- **赛博眼睛** — `OrganProtogenEyes` ｜父类: BaseProtogenOrgan,BaseOrganEyes ｜_Starlight
+- **赛博心脏** — `OrganProtogenHeart` ｜父类: BaseProtogenOrgan,BaseOrganHeart ｜_Starlight
+- **赛博肾脏** — `OrganProtogenKidneys` ｜父类: BaseProtogenOrgan,BaseOrganKidneys ｜_Starlight
+- **赛博肝脏** — `OrganProtogenLiver` ｜父类: BaseProtogenOrgan,BaseOrganLiver ｜_Starlight
+- **赛博肺** — `OrganProtogenLungs` ｜父类: BaseProtogenOrgan,BaseOrganLungs ｜_Starlight
+- **生物反应堆** — `OrganProtogenStomach` ｜父类: OrganAnimalStomach,BaseOrganStomach ｜_Starlight
+- **赛博舌头** — `OrganProtogenTongue` ｜父类: BaseProtogenOrgan,BaseOrganTongue ｜_Starlight
+- **分叉赛博舌头** — `OrganProtogenTongueForked` ｜父类: BaseProtogenOrgan,BaseOrganTongue ｜_Starlight
+- **影裔赛博眼睛** — `OrganProtokinEyes` ｜父类: OrganProtogenEyes ｜_Starlight
+- **兔形原生机械义体心脏** — `OrganProtoLagomorphHeart` ｜父类: OrganProtogenHeart ｜_Starlight
+- **兔形原生机械生物反应器** — `OrganProtoLagomorphStomach` ｜父类: OrganProtogenStomach ｜_Starlight
+- **蛾人生物反应堆** — `OrganProtoMothStomach` ｜父类: OrganAnimalStomach,BaseOrganStomach ｜_Starlight
+- **瑞索米赛博眼睛** — `OrganProtoResomiEyes` ｜父类: OrganProtogenEyes ｜_Starlight
+- **瑞索米赛博心脏** — `OrganProtoResomiHeart` ｜父类: OrganProtogenHeart ｜_Starlight
+- **瑞索米赛博肺** — `OrganProtoResomiLungs` ｜父类: OrganProtogenLungs ｜_Starlight
+- **强化史莱姆循环器** — `OrganProtoSlimeHeart` ｜父类: OrganSlimeHeart ｜_Starlight
+- **强化史莱姆气囊** — `OrganProtoSlimeLungs` ｜父类: OrganSlimeLungs ｜_Starlight
+- **强化窥豆体** — `OrganProtoSlimePeepoids` ｜父类: OrganSlimePeepoids ｜_Starlight
+- **强化啜胶体** — `OrganProtoSlimeSlurpoid` ｜父类: OrganSlimeSlurpoid ｜_Starlight
+- **沃克斯赛博心脏** — `OrganProtoVoxHeart` ｜父类: BaseProtogenOrgan,OrganProtogenHeart ｜_Starlight
+- **沃克斯赛博肺** — `OrganProtoVoxLungs` ｜父类: OrganProtogenLungs ｜_Starlight
+- **沃克斯生物反应堆** — `OrganProtoVoxStomach` ｜父类: OrganProtogenStomach ｜_Starlight
+- **老鼠肺** — `OrganRatLungs` ｜父类: OrganHumanLungs ｜_Starlight
+- **老鼠胃** — `OrganRatStomach` ｜父类: OrganAnimalStomach ｜_Starlight
+- **蜥蜴人胃** — `OrganReptilianStomach` ｜父类: OrganAnimalStomach,BaseOrganStomach ｜_Starlight
+- **瑞索米大脑** — `OrganResomiBrain` ｜父类: OrganHumanBrain ｜_Starlight
+- **瑞索米眼睛** — `OrganResomiEyes` ｜父类: OrganHumanEyes ｜_Starlight
+- **resomi heart** — `OrganResomiHeart` ｜父类: OrganHumanHeart ｜_Starlight
+- **瑞索米肾脏** — `OrganResomiKidneys` ｜父类: OrganHumanKidneys ｜_Starlight
+- **瑞索米肝脏** — `OrganResomiLiver` ｜父类: OrganHumanLiver ｜_Starlight
+- **瑞索米肺** — `OrganResomiLungs` ｜父类: OrganHumanLungs ｜_Starlight
+- **瑞索米胃** — `OrganResomiStomach` ｜父类: OrganHumanStomach ｜_Starlight
+- **啮齿人眼睛** — `OrganRodentiaEyes` ｜父类: OrganHumanEyes ｜_Starlight
+- **啮齿人心脏** — `OrganRodentiaHeart` ｜父类: OrganHumanHeart ｜_Starlight
+- **啮齿人胃** — `OrganRodentiaStomach` ｜父类: OrganHumanStomach ｜_Starlight
+- **影裔阑尾** — `OrganShadekinAppendix` ｜父类: OrganHumanAppendix ｜_Starlight
+- **影裔大脑** — `OrganShadekinBrain` ｜父类: OrganHumanBrain ｜_Starlight
+- **影裔核心** — `OrganShadekinCore` ｜父类: BaseItem ｜_Starlight
+- **亮眼核心** — `OrganShadekinCoreUndamaged` ｜父类: OrganShadekinCore ｜_Starlight
+- **影裔眼睛** — `OrganShadekinEyes` ｜父类: OrganHumanEyes ｜_Starlight
+- **影裔心脏** — `OrganShadekinHeart` ｜父类: OrganHumanHeart ｜_Starlight
+- **影裔肾脏** — `OrganShadekinKidneys` ｜父类: OrganHumanKidneys ｜_Starlight
+- **影裔肝脏** — `OrganShadekinLiver` ｜父类: OrganHumanLiver ｜_Starlight
+- **影裔胃** — `OrganShadekinStomach` ｜父类: OrganHumanStomach ｜_Starlight
+- **影裔舌头** — `OrganShadekinTongue` ｜父类: OrganHumanTongue ｜_Starlight
+- **史莱姆循环器** — `OrganSlimeHeart` ｜父类: BaseHumanOrgan,BaseOrganHeart ｜_Starlight
+- **史莱姆气囊** — `OrganSlimeLungs` ｜父类: BaseHumanOrgan,BaseOrganLungs ｜_Starlight
+- **窥豆体** — `OrganSlimePeepoids` ｜父类: BaseHumanOrgan,BaseOrganEyes ｜_Starlight
+- **史莱姆气囊** — `OrganSlimesLungs` ｜父类: BaseHumanOrgan ｜_Starlight
+- **啜胶体** — `OrganSlimeSlurpoid` ｜父类: OrganHumanTongue ｜_Starlight
+- **塔文大脑** — `OrganThavenBrain` ｜父类: BaseItem,OrganHumanBrain ｜_Starlight
+- **塔文眼睛** — `OrganThavenEyes` ｜父类: OrganHumanEyes ｜_Starlight
+- **vox cortical stack** — `OrganVoxBrain` ｜父类: OrganHumanBrain ｜_Starlight
+- **沃克斯眼睛** — `OrganVoxEyes` ｜父类: OrganHumanEyes ｜_Starlight
+- **沃克斯心脏** — `OrganVoxHeart` ｜父类: OrganHumanHeart ｜_Starlight
+- **沃克斯肾脏** — `OrganVoxKidneys` ｜父类: OrganHumanKidneys ｜_Starlight
+- **沃克斯肝脏** — `OrganVoxLiver` ｜父类: OrganHumanLiver ｜_Starlight
+- **沃克斯肺** — `OrganVoxLungs` ｜父类: OrganHumanLungs ｜_Starlight
+- **沃克斯胃** — `OrganVoxStomach` ｜父类: OrganHumanStomach ｜_Starlight
+- **沃克斯舌头** — `OrganVoxTongue` ｜父类: OrganHumanTongue ｜_Starlight
+- **伏尔卡宁心脏** — `OrganVulpkaninHeart` ｜父类: OrganAnimalHeart ｜_Starlight
+- **伏尔卡宁胃** — `OrganVulpkaninStomach` ｜父类: OrganAnimalStomach,BaseOrganStomach ｜_Starlight
+- `模板` **绑架者身体部位** — `PartAbductor` ｜父类: BaseItem,BasePart ｜_Starlight
+- `模板` **动物身体部位** — `PartAnimal` ｜父类: BaseItem ｜_Starlight
+- `模板` **蛛人身体部位** — `PartArachnid` ｜父类: BaseItem,BasePart ｜_Starlight
+- `模板` **阿瓦利身体部位** — `PartAvali` ｜父类: BasePart ｜_Starlight
+- `模板` **cyber body part** — `PartCyber` ｜父类: BaseItem,BasePart ｜_Starlight
+- `模板` **cyclorite body part** — `PartCyclorite` ｜父类: BaseItem,BasePart ｜_Starlight
+- `模板` **狄奥娜身体部位** — `PartDiona` ｜父类: BaseItem,BasePart ｜_Starlight
+- `模板` **精灵身体部位** — `PartElf` ｜父类: BaseItem,BasePart ｜_Starlight
+- `模板` **felionoid body part** — `PartFelionoid` ｜父类: BaseItem,BasePart ｜_Starlight
+- `模板` **姜饼人身体部位** — `PartGingerbread` ｜父类: BaseItem,BasePart ｜_Starlight
+- `模板` **人类身体部位** — `PartHuman` ｜父类: BaseItem,BasePart ｜_Starlight
+- `模板` **IPC 身体部位** — `PartIPC` ｜父类: BaseItem,BasePart ｜_FarHorizons
+- `模板` **兔形人身体部位** — `PartLagomorph` ｜父类: BaseItem,BasePart ｜_Starlight
+- `模板` **蛾人身体部位** — `PartMoth` ｜父类: BaseItem,BasePart ｜_Starlight
+- `模板` **原兽身体部位 # Starlight, quotation marks removed** — `PartProtogen` ｜父类: BaseItem,BasePart ｜_FarHorizons
+- `模板` **蜥蜴人身体部位** — `PartReptilian` ｜父类: BaseItem,BasePart ｜_Starlight
+- `模板` **雷索米身体部位** — `PartResomi` ｜父类: BaseItem,BasePart ｜_Starlight
+- `模板` **啮齿人身体部位** — `PartRodentia` ｜父类: BaseItem,BasePart ｜_Starlight
+- `模板` **影族身体部位** — `PartShadekin` ｜父类: BaseItem,BasePart ｜_Starlight
+- `模板` **PartSilicon** — `PartSilicon` ｜父类: BaseItem ｜_Starlight
+- `模板` **骷髅身体部位** — `PartSkeleton` ｜父类: BaseItem ｜_Starlight
+- `模板` **史莱姆身体部位** — `PartSlime` ｜父类: BaseItem,BasePart ｜_Starlight
+- `模板` **NT-800 身体部位** — `PartTerminator` ｜父类: BaseItem ｜_Starlight
+- `模板` **塔文身体部位** — `PartThaven` ｜父类: BaseItem,BasePart ｜_Starlight
+- **物品** — `PartVirtual` ｜父类: BaseItem ｜_Starlight
+- `模板` **沃克斯身体部位** — `PartVox` ｜父类: BaseItem,BasePart ｜_Starlight
+- `模板` **伏尔卡宁身体部位** — `PartVulpkanin` ｜父类: BaseItem,BasePart ｜_Starlight
+- **随机腺体** — `RandomOrganDubious` ｜_Starlight
+- **右绑架者手臂** — `RightArmAbductor` ｜父类: PartAbductor,BaseRightArm ｜_Starlight
+- **右蛛人手臂** — `RightArmArachnid` ｜父类: PartArachnid,BaseRightArm ｜_Starlight
+- **右阿瓦利手臂** — `RightArmAvali` ｜父类: PartAvali,BaseRightArm ｜_Starlight
+- **赛博格右臂** — `RightArmBorg` ｜父类: PartSilicon ｜_Starlight
+- **右赛博手臂** — `RightArmCyber` ｜父类: PartCyber,BaseRightArm ｜_Starlight
+- **右天使手臂** — `RightArmCyberAngel` ｜父类: PartCyber,BaseRightArm ｜_Starlight
+- **右堡垒手臂** — `RightArmCyberBulwark` ｜父类: PartCyber,BaseRightArm,BaseSecurityContraband ｜_Starlight
+- **右工程师手臂** — `RightArmCyberEngineer` ｜父类: PartCyber,BaseRightArm ｜_Starlight
+- **右大猩猩手臂** — `RightArmCyberGorilla` ｜父类: PartCyber,BaseRightArm,BaseScienceContraband ｜_Starlight
+- **右赫拉克勒斯手臂** — `RightArmCyberHerakles` ｜父类: PartCyber,BaseRightArm,BaseSecurityContraband ｜_Starlight
+- **右调查员手臂** — `RightArmCyberInvestigator` ｜父类: PartCyber,BaseRightArm,BaseScienceContraband ｜_Starlight
+- **右螳螂刃手臂** — `RightArmCyberMantisBlade` ｜父类: PartCyber,BaseRightArm,BaseSyndicateContraband ｜_Starlight
+- **右机械巧匠手臂** — `RightArmCyberMechwright` ｜父类: PartCyber,BaseRightArm ｜_Starlight
+- **右珀耳塞福涅手臂** — `RightArmCyberPersephone` ｜父类: PartCyber,BaseRightArm ｜_Starlight
+- **右收割者手臂** — `RightArmCyberReaper` ｜父类: PartCyber,BaseRightArm ｜_Starlight
+- **右撕裂者手臂** — `RightArmCyberRiplet` ｜父类: PartCyber,BaseRightArm ｜_Starlight
+- **右开膛医师手臂** — `RightArmCyberRipper` ｜父类: PartCyber,BaseRightArm ｜_Starlight
+- **右书记官手臂** — `RightArmCyberScribe` ｜父类: PartCyber,BaseRightArm ｜_Starlight
+- **右太空客手臂** — `RightArmCyberSpacer` ｜父类: PartCyber,BaseRightArm ｜_Starlight
+- **右宙斯手臂** — `RightArmCyberZeus` ｜父类: PartCyber,BaseRightArm,BaseSecurityContraband ｜_Starlight
+- **右赛克洛人手臂** — `RightArmCyclorite` ｜父类: PartCyclorite,BaseRightArm ｜_Starlight
+- **右狄奥娜手臂** — `RightArmDiona` ｜父类: PartDiona,BaseRightArm ｜_Starlight
+- **右精灵手臂** — `RightArmElf` ｜父类: PartElf,BaseRightArm ｜_Starlight
+- **右猫科人手臂** — `RightArmFelionoid` ｜父类: PartFelionoid,BaseRightArm ｜_Starlight
+- **姜饼人右臂** — `RightArmGingerbread` ｜父类: PartGingerbread,BaseRightArm ｜_Starlight
+- **人类右臂** — `RightArmHuman` ｜父类: PartHuman,BaseRightArm ｜_Starlight
+- **IPC 右臂** — `RightArmIPC` ｜父类: PartIPC,BaseRightArm ｜_FarHorizons
+- **兔形人右臂** — `RightArmLagomorph` ｜父类: PartLagomorph,BaseRightArm ｜_Starlight
+- **蛾人右臂** — `RightArmMoth` ｜父类: PartMoth,BaseRightArm ｜_Starlight
+- **原兽右臂 # Starlight, quotation marks removed** — `RightArmProtogen` ｜父类: PartProtogen,BaseRightArm ｜_FarHorizons
+- **原兽伏尔卡宁右臂 # Starlight, quotation marks removed** — `RightArmProtoVulp` ｜父类: RightArmProtogen ｜_FarHorizons
+- **蜥蜴人右臂** — `RightArmReptilian` ｜父类: PartReptilian,BaseRightArm ｜_Starlight
+- **雷索米右臂** — `RightArmResomi` ｜父类: PartResomi,BaseRightArm ｜_Starlight
+- **啮齿人右臂** — `RightArmRodentia` ｜父类: PartRodentia,BaseRightArm ｜_Starlight
+- **影族右臂** — `RightArmShadekin` ｜父类: PartShadekin,BaseRightArm ｜_Starlight
+- **骷髅右臂** — `RightArmSkeleton` ｜父类: PartSkeleton ｜_Starlight
+- **史莱姆右臂** — `RightArmSlime` ｜父类: PartSlime,BaseRightArm ｜_Starlight
+- **NT-800 右臂** — `RightArmTerminator` ｜父类: PartTerminator ｜_Starlight
+- **塔文右臂** — `RightArmThaven` ｜父类: PartThaven,BaseRightArm ｜_Starlight
+- **沃克斯右臂** — `RightArmVox` ｜父类: PartVox,BaseRightArm ｜_Starlight
+- **伏尔卡宁右臂** — `RightArmVulpkanin` ｜父类: PartVulpkanin,BaseRightArm ｜_Starlight
+- **人类右臂** — `RightArmWithHandHuman` ｜父类: PartHuman,BaseRightArm,RightArmHuman ｜_Starlight
+- **右绑架者脚** — `RightFootAbductor` ｜父类: PartAbductor,BaseRightFoot ｜_Starlight
+- **右蛛人脚** — `RightFootArachnid` ｜父类: PartArachnid,BaseRightFoot ｜_Starlight
+- **右阿瓦利脚** — `RightFootAvali` ｜父类: PartAvali,BaseRightFoot ｜_Starlight
+- **右赛博脚** — `RightFootCyber` ｜父类: PartCyber,BaseRightFoot ｜_Starlight
+- **右赛克洛人脚** — `RightFootCyclorite` ｜父类: PartCyclorite,BaseRightFoot ｜_Starlight
+- **右狄奥娜脚** — `RightFootDiona` ｜父类: PartDiona,BaseRightFoot ｜_Starlight
+- **右精灵脚** — `RightFootElf` ｜父类: PartElf,BaseRightFoot ｜_Starlight
+- **右猫科人脚** — `RightFootFelionoid` ｜父类: PartFelionoid,BaseRightFoot ｜_Starlight
+- **姜饼人右脚** — `RightFootGingerbread` ｜父类: PartGingerbread,BaseRightFoot ｜_Starlight
+- **人类右脚** — `RightFootHuman` ｜父类: PartHuman,BaseRightFoot ｜_Starlight
+- **IPC 右脚** — `RightFootIPC` ｜父类: PartIPC,BaseRightFoot ｜_FarHorizons
+- **兔形人右脚** — `RightFootLagomorph` ｜父类: PartLagomorph,BaseRightFoot ｜_Starlight
+- **蛾人右脚** — `RightFootMoth` ｜父类: PartMoth,BaseRightFoot ｜_Starlight
+- **原兽右脚 # Starlight, quotation marks removed** — `RightFootProtogen` ｜父类: PartProtogen,BaseRightFoot ｜_FarHorizons
+- **原兽沃克斯右脚 # Starlight, quotation marks removed** — `RightFootProtoVox` ｜父类: RightFootProtogen ｜_FarHorizons
+- **蜥蜴人右脚** — `RightFootReptilian` ｜父类: PartReptilian,BaseRightFoot ｜_Starlight
+- **雷索米右脚** — `RightFootResomi` ｜父类: PartResomi,BaseRightFoot ｜_Starlight
+- **啮齿人右脚** — `RightFootRodentia` ｜父类: PartRodentia,BaseRightFoot ｜_Starlight
+- **影族右脚** — `RightFootShadekin` ｜父类: PartShadekin,BaseRightFoot ｜_Starlight
+- **骷髅右脚** — `RightFootSkeleton` ｜父类: PartSkeleton ｜_Starlight
+- **史莱姆右脚** — `RightFootSlime` ｜父类: PartSlime,BaseRightFoot ｜_Starlight
+- **NT-800 右脚** — `RightFootTerminator` ｜父类: PartTerminator ｜_Starlight
+- **塔文右脚** — `RightFootThaven` ｜父类: PartThaven,BaseRightFoot ｜_Starlight
+- **沃克斯右脚** — `RightFootVox` ｜父类: PartVox,BaseRightFoot ｜_Starlight
+- **伏尔卡宁右脚** — `RightFootVulpkanin` ｜父类: PartVulpkanin,BaseRightFoot ｜_Starlight
+- **右绑架者手** — `RightHandAbductor` ｜父类: PartAbductor,BaseRightHand ｜_Starlight
+- **柯基手** — `RightHandAdmemeCorgi` ｜父类: PartAnimal ｜_Starlight
+- **右动物手** — `RightHandAnimal` ｜父类: PartAnimal ｜_Starlight
+- **右蛛人手** — `RightHandArachnid` ｜父类: PartArachnid,BaseRightHand ｜_Starlight
+- **右阿瓦利手** — `RightHandAvali` ｜父类: PartAvali,BaseRightHand ｜_Starlight
+- **右赛博手** — `RightHandCyber` ｜父类: PartCyber,BaseRightHand ｜_Starlight
+- **右天使手** — `RightHandCyberAngel` ｜父类: PartCyber,BaseRightHand ｜_Starlight
+- **右堡垒手** — `RightHandCyberBulwark` ｜父类: PartCyber,BaseRightHand,BaseSecurityContraband ｜_Starlight
+- **右工程师手** — `RightHandCyberEngineer` ｜父类: PartCyber,BaseRightHand ｜_Starlight
+- **右大猩猩手** — `RightHandCyberGorilla` ｜父类: PartCyber,BaseRightHand,BaseScienceContraband ｜_Starlight
+- **右赫拉克勒斯手** — `RightHandCyberHerakles` ｜父类: PartCyber,BaseRightHand,BaseSecurityContraband ｜_Starlight
+- **右调查员手** — `RightHandCyberInvestigator` ｜父类: PartCyber,BaseRightHand,BaseScienceContraband ｜_Starlight
+- **右螳螂刃手** — `RightHandCyberMantisBlade` ｜父类: PartCyber,BaseRightHand,BaseSyndicateContraband ｜_Starlight
+- **右机械巧匠手** — `RightHandCyberMechwright` ｜父类: PartCyber,BaseRightHand ｜_Starlight
+- **右珀耳塞福涅手** — `RightHandCyberPersephone` ｜父类: PartCyber,BaseRightHand ｜_Starlight
+- **右收割者手** — `RightHandCyberReaper` ｜父类: PartCyber,BaseRightHand ｜_Starlight
+- **右撕裂者手** — `RightHandCyberRiplet` ｜父类: PartCyber,BaseRightHand ｜_Starlight
+- **右开膛医师手** — `RightHandCyberRipper` ｜父类: PartCyber,BaseRightHand ｜_Starlight
+- **右书记官手** — `RightHandCyberScribe` ｜父类: PartCyber,BaseRightHand ｜_Starlight
+- **右太空客手** — `RightHandCyberSpacer` ｜父类: PartCyber,BaseRightHand ｜_Starlight
+- **右宙斯手** — `RightHandCyberZeus` ｜父类: PartCyber,BaseRightHand,BaseSecurityContraband ｜_Starlight
+- **右赛克洛人手** — `RightHandCyclorite` ｜父类: PartCyclorite,BaseRightHand ｜_Starlight
+- **右狄奥娜手** — `RightHandDiona` ｜父类: PartDiona,BaseRightHand ｜_Starlight
+- **右精灵手** — `RightHandElf` ｜父类: PartElf,BaseRightHand ｜_Starlight
+- **右猫科人手** — `RightHandFelionoid` ｜父类: PartFelionoid,BaseRightHand ｜_Starlight
+- **姜饼人右手** — `RightHandGingerbread` ｜父类: PartGingerbread,BaseRightHand ｜_Starlight
+- **人类右手** — `RightHandHuman` ｜父类: PartHuman,BaseRightHand ｜_Starlight
+- **IPC 右手** — `RightHandIPC` ｜父类: PartIPC,BaseRightHand ｜_FarHorizons
+- **兔形人右手** — `RightHandLagomorph` ｜父类: PartLagomorph,BaseRightHand ｜_Starlight
+- **蛾人右手** — `RightHandMoth` ｜父类: PartMoth,BaseRightHand ｜_Starlight
+- **原兽右手 # Starlight, quotation marks removed** — `RightHandProtogen` ｜父类: PartProtogen,BaseRightHand ｜_FarHorizons
+- **原兽沃克斯右手 # Starlight, quotation marks removed** — `RightHandProtoVox` ｜父类: RightHandProtogen ｜_FarHorizons
+- **原兽伏尔卡宁右手 # Starlight, quotation marks removed** — `RightHandProtoVulp` ｜父类: RightHandProtogen ｜_FarHorizons
+- **蜥蜴人右手** — `RightHandReptilian` ｜父类: PartReptilian,BaseRightHand ｜_Starlight
+- **雷索米右手** — `RightHandResomi` ｜父类: PartResomi,BaseRightHand ｜_Starlight
+- **啮齿人右手** — `RightHandRodentia` ｜父类: PartRodentia,BaseRightHand ｜_Starlight
+- **影族右手** — `RightHandShadekin` ｜父类: PartShadekin,BaseRightHand ｜_Starlight
+- **骷髅右手** — `RightHandSkeleton` ｜父类: PartSkeleton ｜_Starlight
+- **史莱姆右手** — `RightHandSlime` ｜父类: PartSlime,BaseRightHand ｜_Starlight
+- **柯基手** — `RightHandSmartCorgi` ｜父类: PartAnimal ｜_Starlight
+- **NT-800 右手** — `RightHandTerminator` ｜父类: PartTerminator ｜_Starlight
+- **塔文右手** — `RightHandThaven` ｜父类: PartThaven,BaseRightHand ｜_Starlight
+- **沃克斯右手** — `RightHandVox` ｜父类: PartVox,BaseRightHand ｜_Starlight
+- **伏尔卡宁右手** — `RightHandVulpkanin` ｜父类: PartVulpkanin,BaseRightHand ｜_Starlight
+- **右绑架者腿** — `RightLegAbductor` ｜父类: PartAbductor,BaseRightLeg ｜_Starlight
+- **右蛛人腿** — `RightLegArachnid` ｜父类: PartArachnid,BaseRightLeg ｜_Starlight
+- **右阿瓦利腿** — `RightLegAvali` ｜父类: PartAvali,BaseRightLeg ｜_Starlight
+- **赛博格右腿** — `RightLegBorg` ｜父类: PartSilicon ｜_Starlight
+- **右赛博腿** — `RightLegCyber` ｜父类: PartCyber,RightLegCyberBase ｜_Starlight
+- `模板` **右基础赛博腿** — `RightLegCyberBase` ｜父类: BaseRightLeg ｜_Starlight
+- **右廉价赛博腿** — `RightLegCyberBudget` ｜父类: PartCyber,RightLegCyberBase ｜_Starlight
+- **右货运赛博腿** — `RightLegCyberCargo` ｜父类: PartCyber,RightLegCyberBase ｜_Starlight
+- **右液压赛博腿** — `RightLegCyberHydraulic` ｜父类: PartCyber,RightLegCyberBase ｜_Starlight
+- **右打桩机腿** — `RightLegCyberPilebunker` ｜父类: PartCyber,RightLegCyberBase ｜_Starlight
+- **右疾速腿** — `RightLegCyberSpeed` ｜父类: PartCyber,RightLegCyberBase ｜_Starlight
+- **右赛克洛人腿** — `RightLegCyclorite` ｜父类: PartCyclorite,BaseRightLeg ｜_Starlight
+- **右狄奥娜腿** — `RightLegDiona` ｜父类: PartDiona,BaseRightLeg ｜_Starlight
+- **右精灵腿** — `RightLegElf` ｜父类: PartElf,BaseRightLeg ｜_Starlight
+- **右猫科人腿** — `RightLegFelionoid` ｜父类: PartFelionoid,BaseRightLeg ｜_Starlight
+- **姜饼人右腿** — `RightLegGingerbread` ｜父类: PartGingerbread,BaseRightLeg ｜_Starlight
+- **人类右腿** — `RightLegHuman` ｜父类: PartHuman,BaseRightLeg ｜_Starlight
+- **IPC 右腿** — `RightLegIPC` ｜父类: PartIPC,BaseRightLeg ｜_FarHorizons
+- **兔形人右腿** — `RightLegLagomorph` ｜父类: PartLagomorph,BaseRightLeg ｜_Starlight
+- **蛾人右腿** — `RightLegMoth` ｜父类: PartMoth,BaseRightLeg ｜_Starlight
+- **原兽右腿 # Starlight, quotation marks removed** — `RightLegProtogen` ｜父类: PartProtogen,BaseRightLeg ｜_FarHorizons
+- **蜥蜴人右腿** — `RightLegReptilian` ｜父类: PartReptilian,BaseRightLeg ｜_Starlight
+- **雷索米右腿** — `RightLegResomi` ｜父类: PartResomi,BaseRightLeg ｜_Starlight
+- **啮齿人右腿** — `RightLegRodentia` ｜父类: PartRodentia,BaseRightLeg ｜_Starlight
+- **影族右腿** — `RightLegShadekin` ｜父类: PartShadekin,BaseRightLeg ｜_Starlight
+- **骷髅右腿** — `RightLegSkeleton` ｜父类: PartSkeleton ｜_Starlight
+- **史莱姆右腿** — `RightLegSlime` ｜父类: PartSlime,BaseRightLeg ｜_Starlight
+- **NT-800 右腿** — `RightLegTerminator` ｜父类: PartTerminator ｜_Starlight
+- **塔文右腿** — `RightLegThaven` ｜父类: PartThaven,BaseRightLeg ｜_Starlight
+- **沃克斯右腿** — `RightLegVox` ｜父类: PartVox,BaseRightLeg ｜_Starlight
+- **伏尔卡宁右腿** — `RightLegVulpkanin` ｜父类: PartVulpkanin,BaseRightLeg ｜_Starlight
+- **人类右腿** — `RightLegWithFootHuman` ｜父类: PartHuman,BaseRightLeg,RightLegHuman ｜_Starlight
+- **强化智慧史莱姆核心** — `SentientProtoSlimeCore` ｜父类: SentientSlimeCore ｜_Starlight
+- **智慧史莱姆核心** — `SentientSlimeCore` ｜父类: BaseItem,BaseOrganBrain ｜_Starlight
+- **智慧史莱姆核心** — `SentientSlimesCore` ｜父类: BaseItem,OrganHumanBrain ｜_Starlight
+- **绑架者躯干** — `TorsoAbductor` ｜父类: PartAbductor,BaseTorso ｜_Starlight
+- **动物躯干** — `TorsoAnimal` ｜父类: PartAnimal ｜_Starlight
+- **蛛人躯干** — `TorsoArachnid` ｜父类: PartArachnid,BaseTorso ｜_Starlight
+- **阿瓦利躯干** — `TorsoAvali` ｜父类: PartAvali,BaseTorso ｜_Starlight
+- **赛博格躯干** — `TorsoBorg` ｜父类: PartSilicon ｜_Starlight
+- **赛克洛人躯干** — `TorsoCyclorite` ｜父类: PartCyclorite,BaseTorso ｜_Starlight
+- **狄奥娜躯干** — `TorsoDiona` ｜父类: PartDiona,BaseTorso ｜_Starlight
+- **精灵躯干** — `TorsoElf` ｜父类: PartElf,BaseTorso ｜_Starlight
+- **猫科人躯干** — `TorsoFelionoid` ｜父类: PartFelionoid,BaseTorso ｜_Starlight
+- **姜饼人躯干** — `TorsoGingerbread` ｜父类: PartGingerbread,BaseTorso ｜_Starlight
+- **人类躯干** — `TorsoHuman` ｜父类: PartHuman,BaseTorso ｜_Starlight
+- **IPC 躯干** — `TorsoIPC` ｜父类: PartIPC,BaseTorso ｜_FarHorizons
+- **兔形人躯干** — `TorsoLagomorph` ｜父类: PartLagomorph,BaseTorso ｜_Starlight
+- **蛾人躯干** — `TorsoMoth` ｜父类: PartMoth,BaseTorso ｜_Starlight
+- **原兽躯干 # Starlight, quotation marks removed** — `TorsoProtogen` ｜父类: PartProtogen,BaseTorso ｜_FarHorizons
+- **原兽伏尔卡宁躯干 # Starlight, quotation marks removed** — `TorsoProtoVulp` ｜父类: TorsoProtogen ｜_FarHorizons
+- **动物躯干** — `TorsoRat` ｜父类: PartAnimal ｜_Starlight
+- **蜥蜴人躯干** — `TorsoReptilian` ｜父类: PartReptilian,BaseTorso ｜_Starlight
+- **雷索米躯干** — `TorsoResomi` ｜父类: PartResomi,BaseTorso ｜_Starlight
+- **啮齿人躯干** — `TorsoRodentia` ｜父类: PartRodentia,BaseTorso ｜_Starlight
+- **影族躯干** — `TorsoShadekin` ｜父类: PartShadekin,BaseTorso ｜_Starlight
+- **骷髅躯干** — `TorsoSkeleton` ｜父类: PartSkeleton ｜_Starlight
+- **史莱姆躯干** — `TorsoSlime` ｜父类: PartSlime,BaseTorso ｜_Starlight
+- **NT-800 躯干** — `TorsoTerminator` ｜父类: PartTerminator ｜_Starlight
+- **塔文躯干** — `TorsoThaven` ｜父类: PartThaven,BaseTorso ｜_Starlight
+- **沃克斯躯干** — `TorsoVox` ｜父类: PartVox,BaseTorso ｜_Starlight
+- **伏尔卡宁躯干** — `TorsoVulpkanin` ｜父类: PartVulpkanin,BaseTorso ｜_Starlight

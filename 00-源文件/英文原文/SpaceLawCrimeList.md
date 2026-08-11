@@ -1,0 +1,912 @@
+# 罪名表（EN 源文件）
+
+> 条目ID: `SpaceLawCrimeList` ｜ 来源层: official ｜ 分类: security
+> 翻译提示：保留全部数值/专有名词/`[[实体:X]]`/颜色span；专有名词基准见 00-源文件/翻译规范.md
+
+---
+
+<!-- 无中文正文,以下为英文原文 -->
+
+# Corporate Law: Crime Listing
+  Crime codes are colored by linked crime groups, which are collections of non-stackable crimes. Suffixes are also included in the Quick Crime Guide to identify linked crimes.
+
+  ## Quick Crime Guide
+  
+    
+      
+        1-XX - Minor
+      
+    
+    
+      
+        2-XX - Moderate
+      
+    
+    
+      
+        3-XX - Major
+      
+    
+    
+      
+        4-XX - Extreme
+      
+    
+    
+      
+        5-XX - Capital
+      
+    
+    
+      
+        Code
+      
+    
+    
+      
+      
+    
+    
+      
+        Failure to Comply (1)
+      
+    
+    
+      
+        Breach of Arrest (1)
+      
+    
+    
+      
+        Breach of Custody (1)
+      
+    
+    
+      
+        Refusal of Mental Shielding (1)
+      
+    
+    
+      
+        00
+      
+    
+    
+      
+        Possession or Use of Minor Contraband (2)
+      
+    
+    
+      
+        Possession: Major (2)
+      
+    
+    
+      
+      
+    
+    
+      
+        Possession: Significant Syndicate (2)
+      
+    
+    
+      
+      
+    
+    
+      
+        01
+      
+    
+    
+      
+        Petty Theft (3)
+      
+    
+    
+      
+      
+    
+    
+      
+        Grand Theft (3)
+      
+    
+    
+      
+        Corporate Disturbance (3)
+      
+    
+    
+      
+      
+    
+    
+      
+        02
+      
+    
+        
+      
+      
+    
+    
+      
+        Tampering with Machinery (4)
+      
+    
+    
+      
+        Armed Robbery (3)
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+        03
+      
+    
+    
+      
+        Vandalism (4)
+      
+    
+    
+      
+        Damage of Property (4)
+      
+    
+    
+      
+        Destruction of Property (4)
+      
+    
+    
+      
+        Mass Destruction (4)
+      
+    
+    
+      
+        Terrorism (4)
+      
+    
+    
+      
+        04
+      
+    
+    
+      
+        Trespass (5)
+      
+    
+    
+      
+      
+    
+    
+      
+        Secure Trespass (5)
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+        05
+      
+    
+    
+      
+      
+    
+    
+      
+        Minor Assault (6)
+      
+    
+    
+      
+        Major Assault (6)
+      
+    
+    
+      
+        Attempted Murder (6)
+      
+    
+    
+      
+        Prevention of Revival (6)
+      
+    
+    
+      
+        06
+      
+    
+    
+      
+      
+    
+    
+      
+        Endangerment (6)
+      
+    
+    
+      
+        Manslaughter (6)
+      
+    
+    
+      
+        Murder (6)
+      
+    
+    
+      
+        Mass Murder (6)
+      
+    
+    
+      
+        07
+      
+    
+    
+      
+        Disturbance (7)
+      
+    
+    
+      
+        Vigilantism (7)
+      
+    
+    
+      
+        Rioting (7)
+      
+    
+    
+      
+        Unlawful Detainment
+      
+    
+    
+      
+        Unlawful Execution (6)
+      
+    
+    
+      
+        08
+      
+    
+    
+      
+        Impersonation and Fraud
+      
+    
+    
+      
+        Bribery
+      
+    
+    
+      
+        Forgery
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+        09
+      
+    
+    
+      
+        Animal Cruelty
+      
+    
+    
+      
+      
+    
+    
+      
+        Perjury
+      
+    
+    
+      
+        Cannibalism
+      
+    
+    
+      
+      
+    
+    
+      
+        10
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+        Sedition (8)
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+        11
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+        Conspiracy (8)
+      
+    
+    
+      
+        Treason (8)
+      
+    
+    
+      
+      
+    
+    
+      
+        12
+      
+    
+  
+
+  ## Linked Crimes:
+  Crimes that are linked can not be charged together. For more information, refer to Sentencing.
+
+  1. Failure to Comply, Breach of Arrest, Breach of Custody, Refusal of Mental Shielding
+
+  2. Possession or Use of Minor Contraband, Major Contraband, or Significant Syndicate Contraband
+
+  3. Petty Theft, Grand Theft, and Armed Robbery
+
+  4. Vandalism, Tampering with Machinery, Damage of Property, Destruction of Property, Mass Destruction, Terrorism
+
+  5. Trespass, Secure Trespass
+
+  6. Endangerment, Minor Assault, Major Assault, Manslaughter, Attempted Murder, Murder, Prevention of Revival, Mass Murder, Unlawful Execution
+
+  7. Disturbance, Vigilantism, Rioting
+
+  8. Sedition, Conspiracy, Treason
+
+  ## Minor Crimes
+  Those who commit a minor crime should be issued a warning for their first offense, however repeat offenses are cumulative and should result in jail time of up to 5 minutes per minor crime committed.
+  
+    
+      
+        Offense
+      
+    
+    
+      
+        Description
+      
+    
+    
+      
+        Animal Cruelty
+      
+    
+    
+      
+        To inflict unnecessary suffering or harm on a non-sentient being with malicious intent. This does not include legitimate and authorized animal testing, or the butchering of livestock for meat. This also does not extend to vermin, or hostile creatures.
+      
+    
+    
+      
+        Possession or Use of Minor Contraband
+      
+    
+    
+      
+        To make, hold, or use minor contraband without authorization. Authorization may only be granted by the Warden, the Head of Security, or the Captain.
+      
+    
+    
+      
+        Petty Theft
+      
+    
+    
+      
+      	To take non-vital or inexpensive property of another individual, organization, or common property, without consent. Theft of safety or medical equipment such as breath masks, air tanks, or necessary mobility aids are considered vital, and exceed petty theft.
+      
+    
+    
+      
+        Vandalism
+      
+    
+    
+      
+      	To intentionally deface or superficially damage public or private property. Examples include graffiti, smashing glasses or windows, excessively littering, and excessively producing spills. Art or construction with an appropriate permit is not vandalism.
+      
+    
+    
+      
+        Trespass
+      
+    
+    
+      
+        Trespass - To enter a non-secured area without permission, such as climbing over counters to enter employee areas like the Bar or Kitchen.
+      
+    
+    
+      
+        Disturbance
+      
+    
+    
+      
+        To cause a public disturbance. This is the catch-all for excessive obnoxious behavior, and includes public nudity, harassment, inciting crime, repeated and intentional misgendering, and disruption of authorities or communications.
+      
+    
+    
+      
+        Impersonation and Fraud
+      
+    
+    
+      
+        To pretend to be someone you are not, or attempting to commit fraud in any fashion. Impersonation may be elevated to a Moderate crime if the perpetrator is impersonating a member of Security, or a Major crime if they are impersonating a member of Command or Central Command.
+      
+    
+  
+
+  ## Moderate Crimes
+  Those who commit a moderate crime should receive up to a 5 minute sentence per moderate crime committed.
+  
+    
+      
+        Offense
+      
+    
+    
+      
+        Description
+      
+    
+    
+      
+        Failure to Comply
+      
+    
+    
+      
+        To resist reasonable orders given by an authority. This includes lawful detainment and authorized searches. Officers are required to warn the individual before resorting to arrest.
+      
+    
+    
+      
+        Possession/Use of Major Contraband
+      
+    
+    
+      
+        To make, hold, or use major contraband without authorization. Authorization may only be granted by the Warden, the Head of Security, or the Captain. Any items restricted to a Department or Job are considered major contraband.
+      
+    
+    
+      
+        Tampering with Machinery
+      
+    
+    
+      
+        To tamper with a machine such as cutting wires or modifying their functions. Includes but is not limited to; consoles, airlocks, and Silicons.
+      
+    
+    
+      
+        Damage of Property
+      
+    
+    
+      
+        To maliciously damage or deface public or private property or equipment. This includes equipment vendors, drink dispensers, computers, and machinery such as lathes.
+      
+    
+    
+      
+        Endangerment
+      
+    
+    
+      
+        To recklessly put yourself or others in danger, either through direct action or failure to act. This includes negligence, accidents, medical malpractice, destruction or impairment of safety features such as firelocks and exterior windows, and reckless piloting of shuttles.
+      
+    
+    
+      
+        Minor Assault
+      
+    
+    
+      
+        To assault another without a weapon and without causing serious injury. Serious injury is defined as any life altering injury such as loss of limb, damage to the eyes or ears, or any other damages measured by a Health Analyzer to be exceeding 30 total.
+      
+    
+    
+      
+        Bribery
+      
+    
+    
+      
+        To attempt or succeed to bribe officials to be derelict of their duties or commit a crime with any payment including but not limited to; Services, favors, spesos, credits, materials, or items of any kind. This also applies to anyone caught accepting a bribe, and is cumulative with whatever crime they were bribed to commit.
+      
+    
+    
+      
+        Vigilantism
+      
+    
+    
+      
+        To attempt to unlawfully enforce Corporate Law without vested authority. See: Enforcement of the Law.
+      
+    
+  
+
+  ## Major Crimes
+  Those who commit a major crime should receive up to 10 minutes of jail time per major crime committed. Major assault and manslaughter are linked crimes and do not stack against a suspect.
+  
+    
+      
+        Offense
+      
+    
+    
+      
+        Description
+      
+    
+    
+      
+        Conspiracy
+      
+    
+    
+      
+        To conspire or plan to commit a moderate or major crime with reasonable evidence that the suspect was going to go through with the plan. This would include declaring they are going to commit a crime.
+      
+    
+    
+      
+        Armed Robbery
+      
+    
+    
+      
+        To steal something with the threat of violence using anything that can be considered a weapon, whether or not the weapon is contraband or not. This can include knives, toolboxes, crowbars, or any number of other improvised weaponry. There must be an active threat of violence, or the implication of violence if the victim does not comply, in order to be considered armed robbery.
+      
+    
+    
+      
+        Sedition
+      
+    
+    
+      
+      	To incite rebellion against the authority of the station including but not limited to; Command, Security, Central Command, or Nanotrasen.
+      
+    
+    
+      
+       Perjury
+      
+    
+    
+      
+     	  To intentionally lie under oath or make a false statement in a written document
+      
+    
+    
+      
+        Forgery
+      
+    
+    
+      
+        To forge a written document through illicit means, such as rewriting a stamped document, unauthorized use of an official stamp, or any other means.
+      
+    
+    
+      
+        Breach of Arrest
+      
+    
+    
+      
+        	To intentionally resist and flee arrest or detainment by an authorized staff. This only applies if someone is actively being physically arrested. People uncuffing or assisting others out of an arrest can also be charged with this. Breach of custody is a separate crime.
+      
+    
+    
+      
+        Grand Theft
+      
+    
+    
+      
+      	To take critical or irreplaceable property of another individual or organization without consent. This includes command items such as door remotes, hardsuits, machine parts, and hijacking a department shuttle.
+      
+    
+    
+      
+       Destruction of Property
+      
+    
+    
+      
+      	To destroy the property of another or the station. This includes but is not limited to work consoles, airlocks, and destroying or critically damaging a Cyborg's chassis.
+      
+    
+    
+      
+        Secure Trespass
+      
+    
+    
+      
+       To enter a secured area without permission. If the area is behind a locked door, it is secure trespass. This includes non-public department spaces and especially security areas, command areas, the vault, and the armory.
+      
+    
+    
+      
+       Major Assault
+      
+    
+    
+      
+      	To assault another with a weapon or unarmed assault resulting in serious injury. Serious injury is defined as any life altering injury such as loss of limb, damage to the eyes or ears, or any other damages measured by a Health Analyzer to be exceeding 30 total.
+      
+    
+    
+      
+        Manslaughter
+      
+    
+    
+      
+      	To incidentally kill a sentient humanoid without intent. This includes manslaughter in self-defense and negligent manslaughter.
+      
+    
+    
+      
+        Rioting
+      
+    
+    
+      
+        To participate in a large group of personnel creating an unlawful public disturbance. Leaders of a riot may be charged with all the crimes committed under their lead, plus sedition.
+      
+    
+  
+
+  ## Extreme Crimes
+  Those who commit an extreme crime may receive up to 20 minutes of jail time per extreme crime committed. Particularly violent offenders may be placed in perma. Attempted murder and murder are linked crimes and cannot be stacked together.
+  
+    
+      
+        Offense
+      
+    
+    
+      
+        Description
+      
+    
+    
+      
+        Breach of Custody
+      
+    
+    
+      
+        To break out of a cell or custody with the intention of escaping. This applies to people breaking others out. Repeat offenses may have this charge increased to permanent confinement and later elevated to an execution with the Captain's authority only if the suspect has repeatedly committed breach of custody. Breach of custody for the preservation of life, not including to escape execution, such as to vacate a location made dangerous due to gunfire, fire, spacing, or lack of oxygen- may be reduced or ignored at the Warden or Head of Security's discretion.
+      
+    
+    
+      
+        Possession or Use of Significant Syndicate Contraband
+      
+    
+    
+      
+        To make, hold, or use Significant Syndicate contraband. Significant Syndicate contraband may only be used in emergencies, and only to prevent death or gross bodily harm. Significant Syndicate contraband is any Syndicate contraband that can be used to hinder the station or aid it's enemies in an obvious way. Any syndicate contraband that does not meet this definition is to be considered minor contraband.
+      
+    
+    
+      
+        Corporate Disturbance
+      
+    
+    
+      
+      	Causing notable losses, damages, or disruption to other corporations. As Central Command and NanoTrasen would be liable for these actions, they are treated severely. This includes theft of equipment or shuttles belonging to outside corporations, and the Automated Trade Station.
+      
+    
+    
+      
+       Mass Destruction
+      
+    
+    
+      
+      	To cause massive damage to an area or major station system. This includes major bombings and sabotage of critical station systems like power, medical, chemistry, substations, and atmospherics.
+      
+    
+    
+      
+        Unlawful Detainment
+      
+    
+    
+      
+        To unlawfully restrain, transport, control, or confine a sentient humanoid being against that individual's will. This is a catchall to cover any form of kidnapping or forced control.
+      
+    
+    
+      
+        Attempted Murder
+      
+    
+    
+      
+        To make an attempt to end someone's life, using physical force or otherwise. Proof that action was taken with the intent to kill is necessary, such as a lethal weapon being used.
+      
+    
+    
+      
+        Murder
+      
+    
+    
+      
+        To kill a sentient humanoid with malicious intent. If the victim must be revived, it is murder and not attempted murder.
+      
+    
+    
+      
+        Treason
+      
+    
+    
+      
+        To willfully betray allegiances to NanoTrasen. This includes collaborating with terrorists, and especially applies to members of Command attempting to illegally forsake their duties to the detriment of the Station and NanoTrasen.
+      
+    
+    
+      
+        Cannibalism
+      
+    
+    
+      
+        To consume any part of a sentient humanoid. Consumption of vital components should be treated more harshly. This can be charged on top of other charges such as Murder or Assault if the suspect committed these crimes to obtain the parts consumed.
+      
+    
+  
+
+  ## Capital Crimes
+  Those who commit a capital crime should be detained in perma with confirmation from Captain. If a capital criminal escapes they are to be executed and transported to CC in a body bag at the end of shift. Emergency executions may be enacted by Captain or the Head of Security with at least 3 other Command as witnesses, but must be reported directly to Central Command afterwards for review.
+  
+    
+      
+        Offense
+      
+    
+    
+      
+        Description
+      
+    
+    
+      
+        Refusal of Mental Shielding
+      
+    
+    
+      
+        To refuse to comply with a reasonable Mind Shielding procedure. Applies if the suspect is excessively uncooperative or the implant fails to function due to the mental state of the prisoner being too far gone. **If the implant fails, execution is heavily recommended and may be approved by the Captain or Central Command. See Implantation for more.**
+      
+    
+    
+      
+        Terrorism
+      
+    
+    
+      
+      	To engage in malicious destructive actions which threaten to destroy or successfully destroy a vessel, habitat, or station. This includes extreme sabotage of station systems or setting off the self-destruction systems.
+      
+    
+    
+      
+        Unlawful Execution
+      
+    
+    
+      
+        To unlawfully execute an individual without authorization or outside of Standard Operating Procedure. This law is distinct from murder, and applies primarily to Security, Command, and Central Command forces such as Emergency Response Teams.
+      
+    
+    
+      
+        Prevention of Revival
+      
+    
+    
+      
+        To render a body un-resurrectable. This includes gibbing, throwing a body into space, intentionally hiding a body, unlawfully incinerating a body, or any other ways of preventing a body with a soul from being resurrected.
+      
+    
+    
+      
+        Mass Murder
+      
+    
+    
+      
+        To kill three or more sentient humanoids with malicious intent. This only applies when there have been multiple killings with intention.

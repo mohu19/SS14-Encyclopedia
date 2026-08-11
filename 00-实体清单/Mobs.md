@@ -1,0 +1,965 @@
+# 实体清单：Mobs（961 个）
+
+> 来源层分布: 上游 556, _Starlight 371, _FarHorizons 22, _Afterlight 7, _Impstation 4, _CD 1
+
+- **幽灵角色生成点** — `AbductorAgentSpawner` ｜父类: BaseAntagSpawner ｜_Starlight
+- **幽灵角色生成点** — `AbductorScientistSpawner` ｜父类: BaseAntagSpawner ｜_Starlight
+- **货物订购界面** — `ActionAGhostShowCargo` ｜父类: BaseAGhostAction
+- **角色档案界面** — `ActionAGhostShowCharacterRecords` ｜父类: BaseAGhostAction ｜_CD
+- **通讯界面** — `ActionAGhostShowCommunications` ｜父类: BaseAGhostAction
+- **船员监控界面** — `ActionAGhostShowCrewMonitoring` ｜父类: BaseAGhostAction
+- **质量扫描仪界面** — `ActionAGhostShowRadar` ｜父类: BaseAGhostAction
+- **太阳能控制界面** — `ActionAGhostShowSolar` ｜父类: BaseAGhostAction
+- **空间站记录界面** — `ActionAGhostShowStationRecords` ｜父类: BaseAGhostAction
+- **吞噬** — `ActionDevour` ｜父类: BaseAction
+- **龙息** — `ActionDragonsBreath` ｜父类: BaseAction
+- **呜！** — `ActionGhostBoo` ｜父类: BaseMentalAction
+- **触手猛击** — `ActionGoliathTentacle` ｜父类: BaseAction
+- **鼠王领域** — `ActionRatKingDomain` ｜父类: BaseAction
+- **围攻目标** — `ActionRatKingOrderCheeseEm` ｜父类: BaseAction
+- **跟随** — `ActionRatKingOrderFollow` ｜父类: BaseAction
+- **自由行动** — `ActionRatKingOrderLoose` ｜父类: BaseAction
+- **原地待命** — `ActionRatKingOrderStay` ｜父类: BaseAction
+- **召集军队** — `ActionRatKingRaiseArmy` ｜父类: BaseAction
+- **召唤鲤鱼裂隙** — `ActionSpawnRift` ｜父类: BaseAction
+- **切换对其他人的可见性** — `ActionToggleAGhostHide` ｜父类: BaseAGhostAction ｜_Starlight
+- **切换视野** — `ActionToggleFov` ｜父类: BaseMentalAction
+- **切换幽灵听觉** — `ActionToggleGhostHearing` ｜父类: BaseMentalAction
+- **切换幽灵显示** — `ActionToggleGhosts` ｜父类: BaseMentalAction
+- **切换守护者** — `ActionToggleGuardian` ｜父类: BaseMentalAction
+- **切换照明** — `ActionToggleLighting` ｜父类: BaseMentalAction
+- **异种赛博格摄像头监视器** — `ActionXenoborgCameraMonitor` ｜父类: BaseAGhostAction
+- **异种赛博格控制台** — `ActionXenoborgControlMonitor` ｜父类: BaseAGhostAction
+- **管理员观察者** — `AdminObserver` ｜父类: MobObserverBase,InventoryBase
+- **AiHeld** — `AiHeld`
+- **AiHeldIntellicard** — `AiHeldIntellicard`
+- `模板` **AiHolder** — `AiHolder`
+- **AppearanceAbductor** — `AppearanceAbductor` ｜父类: BaseSpeciesDummy ｜_Starlight
+- **AppearanceArachnid** — `AppearanceArachnid` ｜父类: BaseSpeciesDummy,BaseInventoryArachnid ｜_Starlight
+- **AppearanceAvali** — `AppearanceAvali` ｜父类: BaseSpeciesDummy,BaseInventoryAvali ｜_Starlight
+- **AppearanceCyclorite** — `AppearanceCyclorite` ｜父类: BaseSpeciesDummy,BaseInventoryCyclorite ｜_Starlight
+- **AppearanceDiona** — `AppearanceDiona` ｜父类: BaseSpeciesDummy,BaseInventoryDiona ｜_Starlight
+- **AppearanceDwarf** — `AppearanceDwarf` ｜父类: BaseSpeciesDummy,BaseInventoryFemaleJumpsuit ｜_Starlight
+- **AppearanceElf** — `AppearanceElf` ｜父类: BaseSpeciesDummy,BaseInventoryFemaleJumpsuit ｜_Starlight
+- **AppearanceFelionoid** — `AppearanceFelionoid` ｜父类: BaseSpeciesDummy,BaseInventoryFelionoid ｜_Starlight
+- **AppearanceGingerbread** — `AppearanceGingerbread` ｜父类: BaseSpeciesDummy,BaseInventoryFemaleJumpsuit ｜_Starlight
+- **AppearanceHuman** — `AppearanceHuman` ｜父类: BaseSpeciesDummy,BaseInventoryFemaleJumpsuit ｜_Starlight
+- **AppearanceIPC** — `AppearanceIPC` ｜父类: BaseSpeciesDummy ｜_Starlight
+- **AppearanceLagomorph** — `AppearanceLagomorph` ｜父类: BaseSpeciesDummy,BaseInventoryLagomorph ｜_Starlight
+- **AppearanceMoth** — `AppearanceMoth` ｜父类: BaseSpeciesDummy,BaseInventoryMoth ｜_Starlight
+- **AppearanceProtoArachnid** — `AppearanceProtoArachnid` ｜父类: BaseSpeciesDummy ｜_Starlight
+- **AppearanceProtoAvali** — `AppearanceProtoAvali` ｜父类: BaseProtogenAppearance,BaseSpeciesDummy ｜_Starlight
+- **AppearanceProtoCyclorite** — `AppearanceProtoCyclorite` ｜父类: BaseProtogenAppearance,BaseSpeciesDummy ｜_Starlight
+- **AppearanceProtoDiona** — `AppearanceProtoDiona` ｜父类: BaseProtogenAppearance,BaseSpeciesDummy ｜_Starlight
+- **AppearanceProtoDwarf** — `AppearanceProtoDwarf` ｜父类: BaseProtogenAppearance,BaseSpeciesDummy ｜_Starlight
+- **AppearanceProtoElf** — `AppearanceProtoElf` ｜父类: BaseProtogenAppearance,BaseSpeciesDummy ｜_Starlight
+- **AppearanceProtoFelionoid** — `AppearanceProtoFelionoid` ｜父类: BaseProtogenAppearance,BaseSpeciesDummy ｜_Starlight
+- **乌里斯特·麦克烤面包机** — `AppearanceProtogen` ｜父类: BaseProtogenAppearance,BaseSpeciesDummy ｜_Starlight
+- **AppearanceProtoHuman** — `AppearanceProtoHuman` ｜父类: BaseProtogenAppearance,BaseSpeciesDummy ｜_Starlight
+- **AppearanceProtoKin** — `AppearanceProtoKin` ｜父类: BaseProtogenAppearance,BaseSpeciesDummy ｜_Starlight
+- **AppearanceProtoLagomorph** — `AppearanceProtoLagomorph` ｜父类: BaseSpeciesDummy ｜_Starlight
+- **AppearanceProtoMoth** — `AppearanceProtoMoth` ｜父类: BaseSpeciesDummy ｜_Starlight
+- **AppearanceProtoReptilian** — `AppearanceProtoReptilian` ｜父类: BaseProtogenAppearance,BaseSpeciesDummy ｜_Starlight
+- **AppearanceProtoResomi** — `AppearanceProtoResomi` ｜父类: BaseSpeciesDummy ｜_Starlight
+- **AppearanceProtoSlimePerson** — `AppearanceProtoSlimePerson` ｜父类: BaseProtogenAppearance,BaseSpeciesDummy ｜_Starlight
+- **AppearanceProtoThaven** — `AppearanceProtoThaven` ｜父类: BaseProtogenAppearance,BaseSpeciesDummy ｜_Starlight
+- **AppearanceProtoVox** — `AppearanceProtoVox` ｜父类: BaseSpeciesDummy ｜_Starlight
+- **AppearanceProtoVulp** — `AppearanceProtoVulp` ｜父类: BaseProtogenAppearance,BaseSpeciesDummy ｜_Starlight
+- **AppearanceReptilian** — `AppearanceReptilian` ｜父类: BaseSpeciesDummy,BaseInventoryReptilian ｜_Starlight
+- **AppearanceResomi** — `AppearanceResomi` ｜父类: BaseSpeciesDummy,BaseInventoryResomi ｜_Starlight
+- **AppearanceRodentia** — `AppearanceRodentia` ｜父类: BaseSpeciesDummy,BaseInventoryRodentia ｜_Starlight
+- **AppearanceShadekin** — `AppearanceShadekin` ｜父类: BaseSpeciesDummy ｜_Starlight
+- **AppearanceSkeletonPerson** — `AppearanceSkeletonPerson` ｜父类: BaseSpeciesDummy,BaseInventoryFemaleJumpsuit ｜_Starlight
+- **AppearanceSlimePerson** — `AppearanceSlimePerson` ｜父类: AppearanceHuman ｜_Starlight
+- **AppearanceThaven** — `AppearanceThaven` ｜父类: BaseSpeciesDummy,BaseInventoryThaven ｜_Starlight
+- **AppearanceVox** — `AppearanceVox` ｜父类: BaseSpeciesDummy,BaseInventoryVox ｜_Starlight
+- **AppearanceVulpkanin** — `AppearanceVulpkanin` ｜父类: BaseSpeciesDummy,BaseInventoryVulpkanin ｜_Starlight
+- `模板` **BaseAGhostAction** — `BaseAGhostAction` ｜父类: BaseAction
+- `模板` **BaseBorgChassis** — `BaseBorgChassis` ｜父类: BaseBorgChassisNotIonStormable
+- `模板` **BaseBorgChassisDerelict** — `BaseBorgChassisDerelict` ｜父类: BaseBorgChassis
+- `模板` **赛博格** — `BaseBorgChassisNotIonStormable` ｜父类: BaseMob,StripableInventoryBase,BaseSiliconLanguages
+- `模板` **BaseBorgChassisNT** — `BaseBorgChassisNT` ｜父类: BaseBorgChassis,BaseBorgTransponder
+- `模板` **BaseBorgChassisSyndicate** — `BaseBorgChassisSyndicate` ｜父类: BaseBorgChassisNotIonStormable
+- `模板` **BaseBorgChassisSyndicateDerelict** — `BaseBorgChassisSyndicateDerelict` ｜父类: BaseBorgChassisSyndicate
+- `模板` **BaseBorgiChassis** — `BaseBorgiChassis` ｜父类: BaseBorgiLanguages,MobCorgiSmart ｜_Starlight
+- `模板` **BaseBorgTransponder** — `BaseBorgTransponder`
+- `模板` **BaseColdBird** — `BaseColdBird` ｜_Starlight
+- `模板` **BaseControllable** — `BaseControllable`
+- `模板` **触手** — `BaseEffectGoliathTentacleSpawn`
+- `模板` **BaseMob** — `BaseMob` ｜父类: BaseControllable
+- `模板` **乌里斯特·麦克绑架者** — `BaseMobAbductor` ｜父类: MobBloodstream,MobFlammable,BaseMobSpecies,BaseSpeciesPickupableLarge ｜_Starlight
+- `模板` **basic slime** — `BaseMobAdultSlimes` ｜父类: SimpleMobBase,MobCombat
+- `模板` **乌里斯特·麦克蛛网** — `BaseMobArachnid` ｜父类: BaseMobSpeciesOrganic,BaseSpeciesPickupableLarge,BaseInventoryArachnid ｜_Starlight
+- `模板` **BaseMobArgocyte** — `BaseMobArgocyte` ｜父类: BaseSimpleMob,MobCombat
+- `模板` **BaseMobAsteroid** — `BaseMobAsteroid` ｜父类: BaseMob,MobDamageable,MobAtmosExposed,MobCombat
+- `模板` **尤里斯特·麦阿瓦利** — `BaseMobAvali` ｜父类: BaseColdBird,BaseMobSpeciesOrganic,BaseSpeciesPickupable,BaseInventoryAvali ｜_Starlight
+- `模板` **魔鸣怪** — `BaseMobBehonker` ｜父类: SimpleSpaceMobBase,FlyingMobBase,MobCombat
+- `模板` **蓝空间生物** — `BaseMobBluespaceHarvester` ｜父类: SimpleSpaceMobBase ｜_Starlight
+- `模板` **太空鲤鱼** — `BaseMobCarp` ｜父类: SimpleSpaceMobBase,FlyingMobBase,MobCombat
+- `模板` **aberrant clown** — `BaseMobClown` ｜父类: BaseMobFlesh ｜_Starlight
+- `模板` **BaseMobCyclorite** — `BaseMobCyclorite` ｜父类: BaseMobSpeciesOrganic,BaseSpeciesPickupableHuge,BaseInventoryCyclorite ｜_Starlight
+- `模板` **恐龙** — `BaseMobDinosaur` ｜父类: SimpleMobBase,MobCombat ｜_Starlight
+- `模板` **肉食恐龙** — `BaseMobDinosaurCarno` ｜父类: BaseMobDinosaur ｜_Starlight
+- `模板` **草食恐龙** — `BaseMobDinosaurHerb` ｜父类: BaseMobDinosaur ｜_Starlight
+- `模板` **乌里斯特·麦克植物** — `BaseMobDiona` ｜父类: BaseMobSpeciesOrganic,BaseSpeciesPickupableHuge,BaseInventoryDiona ｜_Starlight
+- `模板` **太空龙** — `BaseMobDragon` ｜父类: SimpleSpaceMobBase,FlyingMobBase
+- `模板` **多手矮人乌里斯特** — `BaseMobDwarf` ｜父类: BaseMobSpeciesOrganic,BaseSpeciesPickupable,BaseInventoryFemaleJumpsuit ｜_Starlight
+- `模板` **乌里斯特·麦克艾尔吉** — `BaseMobElf` ｜父类: BaseMobSpeciesOrganic,BaseSpeciesPickupableLarge,BaseInventoryFemaleJumpsuit ｜_Starlight
+- `模板` **BaseMobFelionoid** — `BaseMobFelionoid` ｜父类: BaseMobSpeciesOrganic,BaseSpeciesPickupable,BaseInventoryFelionoid ｜_Starlight
+- `模板` **异常血肉** — `BaseMobFlesh` ｜父类: SimpleMobBase,MobCombat
+- `模板` **异常血肉** — `BaseMobFleshSalvage` ｜父类: SimpleSpaceMobBase,MobCombat
+- `模板` **乌里斯特·麦克曲奇** — `BaseMobGingerbread` ｜父类: BaseMobSpeciesOrganic,BaseSpeciesPickupableLarge,BaseInventoryFemaleJumpsuit ｜_Starlight
+- `模板` **大猩猩** — `BaseMobGorilla` ｜父类: SimpleMobBase,MobCombat ｜_Starlight
+- `模板` **乌里斯特·麦克手** — `BaseMobHuman` ｜父类: BaseMobSpeciesOrganic,BaseSpeciesPickupableLarge,BaseInventoryFemaleJumpsuit ｜_Starlight
+- `模板` **乌里斯特·麦克机器人** — `BaseMobIPC` ｜父类: MobBloodstream,MobFlammable,BaseMobSpecies,BaseSpeciesPickupableHuge ｜_FarHorizons
+- **灵界漫步** — `BaseMobJaunt` ｜父类: Incorporeal,BaseMob
+- `模板` **太空锦鲤** — `BaseMobKoi` ｜父类: BaseMobCarp ｜_Starlight
+- `模板` **尤里斯特·麦兔兔** — `BaseMobLagomorph` ｜父类: BaseMobSpeciesOrganic,BaseSpeciesPickupableHuge,BaseInventoryLagomorph ｜_Starlight
+- `模板` **乌里斯特·麦克绒毛** — `BaseMobMoth` ｜父类: BaseMobSpeciesOrganic,BaseSpeciesPickupableLarge,BaseInventoryMoth ｜_Starlight
+- `模板` **乌里斯特·麦克织网** — `BaseMobProtoArachnid` ｜父类: BaseMobProtogen ｜_Starlight
+- `模板` **乌里斯特·麦克阿瓦利** — `BaseMobProtoAvali` ｜父类: BaseSpeciesPickupable,BaseMobProtogen,BaseColdBird ｜_Starlight
+- `模板` **乌里斯特·麦克赛克洛** — `BaseMobProtoCyclorite` ｜父类: BaseSpeciesPickupableHuge,BaseMobProtogen ｜_Starlight
+- `模板` **乌里斯特·麦克植生** — `BaseMobProtoDiona` ｜父类: BaseSpeciesPickupableHuge,BaseMobProtogen ｜_Starlight
+- `模板` **原始矮人乌里斯特·麦克手** — `BaseMobProtoDwarf` ｜父类: BaseSpeciesPickupable,BaseMobProtogen ｜_Starlight
+- `模板` **乌里斯特·麦克艾尔吉** — `BaseMobProtoElf` ｜父类: BaseMobProtogen ｜_Starlight
+- `模板` **乌里斯特·麦克猫科** — `BaseMobProtoFelionoid` ｜父类: BaseSpeciesPickupable,BaseMobProtogen ｜_Starlight
+- `模板` **尤里斯特·麦烤箱** — `BaseMobProtogen` ｜父类: BaseMobSpeciesOrganic,BaseSpeciesPickupableLarge ｜_Starlight
+- `模板` **尤里斯特·麦巧手** — `BaseMobProtoHuman` ｜父类: BaseMobProtogen ｜_Starlight
+- `模板` **乌里斯特·麦克暮裔 #pronounced Dusk-Kin** — `BaseMobProtoKin` ｜父类: MobBloodstream,MobAtmosStandard,MobFlammable,BaseMobSpecies,BaseSpeciesPickupableHuge ｜_Starlight
+- `模板` **乌里斯特·麦克兔形** — `BaseMobProtoLagomorph` ｜父类: BaseMobProtogen ｜_Starlight
+- `模板` **乌里斯特·麦克绒生** — `BaseMobProtoMoth` ｜父类: BaseMobProtogen ｜_Starlight
+- `模板` **乌里斯特·姆兹托斯特** — `BaseMobProtoReptilian` ｜父类: BaseMobProtogen ｜_Starlight
+- `模板` **乌里斯特·麦克猛禽** — `BaseMobProtoResomi` ｜父类: BaseSpeciesPickupable,BaseMobProtogen,BaseColdBird ｜_Starlight
+- `模板` **尤里斯特·麦史莱姆** — `BaseMobProtoSlimePerson` ｜父类: BaseMobProtogen ｜_Starlight
+- `模板` **乌里斯特·麦克耳朵** — `BaseMobProtoThaven` ｜父类: BaseMobProtogen ｜_Starlight
+- `模板` **乌里斯特·麦克沃克生** — `BaseMobProtoVox` ｜父类: BaseMobProtogen ｜_Starlight
+- `模板` **乌里斯特·麦克狐** — `BaseMobProtoVulp` ｜父类: BaseMobProtogen ｜_Starlight
+- `模板` **乌里斯特·姆兹汉德** — `BaseMobReptilian` ｜父类: BaseMobSpeciesOrganic,BaseSpeciesPickupableLarge,BaseInventoryReptilian ｜_Starlight
+- `模板` **乌里斯特·麦克猛禽** — `BaseMobResomi` ｜父类: BaseColdBird,BaseMobSpeciesOrganic,BaseSpeciesPickupable,BaseInventoryResomi ｜_Starlight
+- `模板` **乌里斯特·麦克鼠** — `BaseMobRodentia` ｜父类: BaseMobSpeciesOrganic,BaseSpeciesPickupable,BaseInventoryRodentia ｜_Starlight
+- `模板` **乌里斯特·麦克暗影** — `BaseMobShadekin` ｜父类: MobBloodstream,MobAtmosStandard,MobFlammable,BaseMobSpecies,BaseSpeciesPickupableHuge ｜_Starlight
+- `模板` **尤里斯特·麦骨头** — `BaseMobSkeletonPerson` ｜父类: MobFlammable,BaseMobSpecies,BaseSpeciesPickupableLarge,BaseInventoryFemaleJumpsuit ｜_Starlight
+- `模板` **乌里斯特·麦克史莱姆** — `BaseMobSlimePerson` ｜父类: BaseMobSpeciesOrganic,BaseSpeciesPickupableLarge,BaseInventoryFemaleJumpsuit ｜_Starlight
+- `模板` **BaseMobSpecies** — `BaseMobSpecies` ｜父类: BaseMob,MobDamageable,MobPolymorphable,MobCombat,StripableInventoryBase ｜_Starlight
+- `模板` **BaseMobSpeciesOrganic** — `BaseMobSpeciesOrganic` ｜父类: MobBloodstream,MobRespirator,MobAtmosStandard,MobFlammable,BaseMobSpecies ｜_Starlight
+- `模板` **乌里斯特·麦克耳朵** — `BaseMobThaven` ｜父类: BaseMobSpeciesOrganic,BaseSpeciesPickupableLarge,BaseInventoryThaven ｜_Starlight
+- `模板` **BaseMobVox** — `BaseMobVox` ｜父类: BaseMobSpeciesOrganic,BaseSpeciesPickupableLarge,BaseInventoryVox ｜_Starlight
+- `模板` **乌里斯特·麦克汪** — `BaseMobVulpkanin` ｜父类: BaseMobSpeciesOrganic,BaseSpeciesPickupableHuge,BaseInventoryVulpkanin ｜_Starlight
+- `模板` **NT-NC 底盘** — `BaseNTNCChassis` ｜父类: BaseBorgChassisNotIonStormable ｜_Starlight
+- `模板` **BaseProtogenAppearance** — `BaseProtogenAppearance` ｜_Starlight
+- `模板` **BaseShadowMob** — `BaseShadowMob` ｜父类: BaseMob,BaseShadow
+- `模板` **BaseSimpleMob** — `BaseSimpleMob` ｜父类: BaseMob,MobDamageable,MobPolymorphable
+- `模板` **BaseSpeciesDummy** — `BaseSpeciesDummy` ｜父类: InventoryBase ｜_Starlight
+- `模板` **BaseSpeciesPickupable** — `BaseSpeciesPickupable` ｜_Starlight
+- `模板` **BaseSpeciesPickupableHuge** — `BaseSpeciesPickupableHuge` ｜_Starlight
+- `模板` **BaseSpeciesPickupableLarge** — `BaseSpeciesPickupableLarge` ｜_FarHorizons
+- `模板` **智能博基** — `BaseStationBorgiChassis` ｜父类: BaseBorgiChassis,BaseBorgTransponder ｜_Starlight
+- **辛迪加博基** — `BaseSyndicateBorgiChassis` ｜父类: BaseBorgiChassis ｜_Starlight
+- `模板` **异种赛博格** — `BaseXenoborgChassis` ｜父类: BaseXenoSiliconLanguages,BaseBorgChassisNotIonStormable
+- `模板` **异种赛博格** — `BaseXenoborgChassisDerelict` ｜父类: BaseXenoSiliconLanguages,BaseBorgChassis ｜_Starlight
+- `模板` **BaseXenoborgTransponder** — `BaseXenoborgTransponder` ｜父类: BaseBorgTransponder
+- `模板` **货运赛博格子类型** — `BorgCargoSubtypeBase` ｜父类: BorgSubtypeBase ｜_Starlight
+- **梅佐** — `BorgCargoSubtypeMezo` ｜父类: BorgCargoSubtypeBase ｜_Starlight
+- **Meka 货运型** — `BorgCargoSubtypeTallborgMeka` ｜父类: BorgCargoSubtypeBase ｜_Starlight
+- **MMeka 货运型** — `BorgCargoSubtypeTallborgMMeka` ｜父类: BorgCargoSubtypeBase ｜_Starlight
+- **货运赛博格** — `BorgChassisCargo` ｜父类: BorgChassisSelectable ｜_Starlight
+- **废弃赛博格** — `BorgChassisDerelict` ｜父类: BaseBorgChassisDerelict
+- **工程赛博格** — `BorgChassisEngineer` ｜父类: BorgChassisSelectable
+- **通用赛博格** — `BorgChassisGeneric` ｜父类: BorgChassisSelectable
+- **清洁赛博格** — `BorgChassisJanitor` ｜父类: BorgChassisSelectable
+- **医疗赛博格** — `BorgChassisMedical` ｜父类: BorgChassisSelectable
+- **打捞赛博格** — `BorgChassisMining` ｜父类: BorgChassisSelectable
+- **呼噜型赛博格** — `BorgChassisPurrfus` ｜父类: BorgChassisSelectable ｜_Starlight
+- **安保赛博格** — `BorgChassisSecurity` ｜父类: BorgChassisSelectable ｜_Starlight
+- **安保赛博格** — `BorgChassisSecurityPowered` ｜父类: BorgChassisSecurity ｜_Starlight
+- **赛博格** — `BorgChassisSelectable` ｜父类: BaseBorgChassisNT
+- **服务赛博格** — `BorgChassisService` ｜父类: BorgChassisSelectable
+- **辛迪加突击赛博格** — `BorgChassisSyndicateAssault` ｜父类: BaseBorgChassisSyndicate
+- **辛迪加医疗赛博格** — `BorgChassisSyndicateMedical` ｜父类: BaseBorgChassisSyndicate,ShowMedicalIcons
+- **辛迪加破坏者赛博格** — `BorgChassisSyndicateSaboteur` ｜父类: BaseBorgChassisSyndicate
+- **辛迪加隐形赛博格** — `BorgChassisSyndicateStealth` ｜父类: BaseBorgChassisSyndicate ｜_Starlight
+- `模板` **TSMC 突击赛博格** — `BorgChassisTSF` ｜父类: BaseBorgChassisNotIonStormable ｜_Starlight
+- **古董型** — `BorgEngineerSubtypeAntique` ｜父类: BorgEngineerSubtypeBase ｜_Starlight
+- `模板` **工程赛博格子类型** — `BorgEngineerSubtypeBase` ｜父类: BorgSubtypeBase ｜_Afterlight
+- **蟋蟀** — `BorgEngineerSubtypeCricket` ｜父类: BorgEngineerSubtypeBase ｜_Starlight
+- **通用型** — `BorgEngineerSubtypeGeneric` ｜父类: BorgEngineerSubtypeBase ｜_Starlight
+- **梅佐** — `BorgEngineerSubtypeMezo` ｜父类: BorgEngineerSubtypeBase ｜_Starlight
+- **贵族-工程** — `BorgEngineerSubtypeNoble` ｜父类: BorgEngineerSubtypeBase ｜_Starlight
+- **标准型 # ITS ISNT A TYPO ITS STANDARD INSTEAD OF STANDART** — `BorgEngineerSubtypeStandard` ｜父类: BorgEngineerSubtypeBase ｜_Starlight
+- **MMeka 工程型** — `BorgEngineerSubtypeTallborgMMeka` ｜父类: BorgEngineerSubtypeBase ｜_Starlight
+- `模板` **通用赛博格子类型** — `BorgGenericSubtypeBase` ｜父类: BorgSubtypeBase ｜_Afterlight
+- **仿生人** — `BorgGenericSubtypeDroid` ｜父类: BorgGenericSubtypeBase ｜_Starlight
+- **通用型** — `BorgGenericSubtypeGeneric` ｜父类: BorgGenericSubtypeBase ｜_Starlight
+- **梅佐** — `BorgGenericSubtypeMezo` ｜父类: BorgGenericSubtypeBase ｜_Starlight
+- **贵族-标准** — `BorgGenericSubtypeNoble` ｜父类: BorgGenericSubtypeBase ｜_Starlight
+- `模板` **清洁赛博格子类型** — `BorgJanitorSubtypeBase` ｜父类: BorgSubtypeBase ｜_Afterlight
+- **蟋蟀** — `BorgJanitorSubtypeCricket` ｜父类: BorgJanitorSubtypeBase ｜_Starlight
+- **通用型** — `BorgJanitorSubtypeGeneric` ｜父类: BorgJanitorSubtypeBase ｜_Starlight
+- **梅佐** — `BorgJanitorSubtypeMezo` ｜父类: BorgJanitorSubtypeBase ｜_Starlight
+- **拖地机器人** — `BorgJanitorSubtypeMopbot` ｜父类: BorgJanitorSubtypeBase ｜_Starlight
+- **贵族-清洁** — `BorgJanitorSubtypeNoble` ｜父类: BorgJanitorSubtypeBase ｜_Starlight
+- **标准型 # ITS ISNT A TYPO ITS STANDARD INSTEAD OF STANDART** — `BorgJanitorSubtypeStandard` ｜父类: BorgJanitorSubtypeBase ｜_Starlight
+- **MMeka 清洁型** — `BorgJanitorSubtypeTallborgMMeka` ｜父类: BorgJanitorSubtypeBase ｜_Starlight
+- `模板` **医疗赛博格子类型** — `BorgMedicalSubtypeBase` ｜父类: BorgSubtypeBase ｜_Afterlight
+- **蟋蟀** — `BorgMedicalSubtypeCricket` ｜父类: BorgMedicalSubtypeBase ｜_Starlight
+- **高级仿生人** — `BorgMedicalSubtypeDroid` ｜父类: BorgMedicalSubtypeBase ｜_Starlight
+- **通用型** — `BorgMedicalSubtypeGeneric` ｜父类: BorgMedicalSubtypeBase ｜_Starlight
+- **梅佐** — `BorgMedicalSubtypeMezo` ｜父类: BorgMedicalSubtypeBase ｜_Starlight
+- **针刺型** — `BorgMedicalSubtypeNeedles` ｜父类: BorgMedicalSubtypeBase ｜_Starlight
+- **贵族-医疗** — `BorgMedicalSubtypeNoble` ｜父类: BorgMedicalSubtypeBase ｜_Starlight
+- **标准型** — `BorgMedicalSubtypeStandard` ｜父类: BorgMedicalSubtypeBase ｜_Starlight
+- **MMeka 医疗型** — `BorgMedicalSubtypeTallborgMMeka` ｜父类: BorgMedicalSubtypeBase ｜_Starlight
+- `模板` **采矿赛博格子类型** — `BorgMiningSubtypeBase` ｜父类: BorgSubtypeBase ｜_Afterlight
+- **蟋蟀** — `BorgMiningSubtypeCargoCricket` ｜父类: BorgCargoSubtypeBase ｜_Starlight
+- **贵族-补给** — `BorgMiningSubtypeCargoNoble` ｜父类: BorgCargoSubtypeBase ｜_Starlight
+- **真正的货运技师** — `BorgMiningSubtypeCargoRealTech` ｜父类: BorgCargoSubtypeBase ｜_Starlight
+- **标准型** — `BorgMiningSubtypeCargoStandard` ｜父类: BorgCargoSubtypeBase ｜_Starlight
+- **高级仿生人** — `BorgMiningSubtypeDroid` ｜父类: BorgMiningSubtypeBase ｜_Starlight
+- **梅佐** — `BorgMiningSubtypeMezo` ｜父类: BorgMiningSubtypeBase ｜_Starlight
+- **甲虫** — `BorgMiningSubtypeMiningBeetle` ｜父类: BorgMiningSubtypeBase ｜_Starlight
+- **蟋蟀** — `BorgMiningSubtypeMiningCricket` ｜父类: BorgMiningSubtypeBase ｜_Starlight
+- **通用型** — `BorgMiningSubtypeMiningGeneric` ｜父类: BorgMiningSubtypeBase ｜_Starlight
+- **贵族-采掘** — `BorgMiningSubtypeMiningNoble` ｜父类: BorgMiningSubtypeBase ｜_Starlight
+- **标准型** — `BorgMiningSubtypeMiningStandard` ｜父类: BorgMiningSubtypeBase ｜_Starlight
+- **MMeka 打捞型** — `BorgMiningSubtypeTallborgMMeka` ｜父类: BorgMiningSubtypeBase ｜_Starlight
+- `模板` **呼噜型赛博格子类型** — `BorgPurrfusSubtypeBase` ｜父类: BorgSubtypeBase ｜_Starlight
+- **绿色呼噜型** — `BorgPurrfusSubtypeGreen` ｜父类: BorgPurrfusSubtypeBase ｜_Starlight
+- **橙色呼噜型** — `BorgPurrfusSubtypeOrange` ｜父类: BorgPurrfusSubtypeBase ｜_Starlight
+- **粉色呼噜型** — `BorgPurrfusSubtypePink` ｜父类: BorgPurrfusSubtypeBase ｜_Starlight
+- `模板` **安保赛博格子类型** — `BorgSecuritySubtypeBase` ｜父类: BorgSubtypeBase ｜_Starlight
+- **黑骑士** — `BorgSecuritySubtypeBlackKnight` ｜父类: BorgSecuritySubtypeBase ｜_Starlight
+- **蟋蟀** — `BorgSecuritySubtypeCricket` ｜父类: BorgSecuritySubtypeBase ｜_Starlight
+- **重型** — `BorgSecuritySubtypeHeavy` ｜父类: BorgSecuritySubtypeBase ｜_Starlight
+- **贵族-安保** — `BorgSecuritySubtypeNoble` ｜父类: BorgSecuritySubtypeBase ｜_Starlight
+- **红骑士** — `BorgSecuritySubtypeRedKnight` ｜父类: BorgSecuritySubtypeBase ｜_Starlight
+- **标准型** — `BorgSecuritySubtypeStandard` ｜父类: BorgSecuritySubtypeBase ｜_Starlight
+- `模板` **服务赛博格子类型** — `BorgServiceSubtypeBase` ｜父类: BorgSubtypeBase ｜_Afterlight
+- **兄弟机器人** — `BorgServiceSubtypeBrobot` ｜父类: BorgServiceSubtypeBase ｜_Starlight
+- **蟋蟀** — `BorgServiceSubtypeCricket` ｜父类: BorgServiceSubtypeBase ｜_Starlight
+- **通用型** — `BorgServiceSubtypeGeneric` ｜父类: BorgServiceSubtypeBase ｜_Starlight
+- **马克西米利安** — `BorgServiceSubtypeMaximillion` ｜父类: BorgServiceSubtypeBase ｜_Starlight
+- **梅佐** — `BorgServiceSubtypeMezo` ｜父类: BorgServiceSubtypeBase ｜_Starlight
+- **贵族-服务** — `BorgServiceSubtypeNoble` ｜父类: BorgServiceSubtypeBase ｜_Starlight
+- **标准型** — `BorgServiceSubtypeStandard` ｜父类: BorgServiceSubtypeBase ｜_Starlight
+- **Meka 服务型** — `BorgServiceSubtypeTallborgMMeka` ｜父类: BorgServiceSubtypeBase ｜_Starlight
+- **女服务员** — `BorgServiceSubtypeWaitress` ｜父类: BorgServiceSubtypeBase ｜_Starlight
+- `模板` **赛博格子类型基类** — `BorgSubtypeBase` ｜_Afterlight
+- **中央指挥部拖布蟑螂方块** — `CCMoproachCubeWrapped` ｜父类: MoproachCubeWrapped ｜_Starlight
+- **中央指挥部官员眼镜** — `CCMoproachGlasses` ｜父类: ClothingEyesGlassesCentComm ｜_Starlight
+- **灾难货运技师生成器** — `ChallengeCargoTechnicianSpawner` ｜父类: MarkerBase
+- **灾难受害者生成器** — `ChallengeVictimSpawner` ｜父类: MarkerBase
+- **指挥部访客生成器** — `CommandVisitorSpawner` ｜父类: MarkerBase
+- **呵叫之母** — `CorruptHonkmother` ｜父类: MobCorruptHonkmotherBase,BaseMob,MobPolymorphable,MobCombat,BaseAnomaly ｜_Starlight
+- **呵叫之母** — `CorruptHonkmotherTransform` ｜父类: CorruptHonkmother ｜_Starlight
+- **哥萨克生成器** — `CossackSpawner` ｜父类: MarkerBase
+- **废弃博基** — `DerelictBorgiChassis` ｜父类: BaseBorgiChassis ｜_Starlight
+- **失同步时空袋** — `DesynchronizedPocket` ｜父类: Incorporeal,BaseMob
+- **龙肺** — `DragonsBreathGun`
+- **咩电羊火花** — `EeepSpark` ｜父类: TeslaMiniEnergyBall ｜_Impstation
+- **触手** — `EffectGoliathTentacleRetract` ｜父类: BaseEffectGoliathTentacleSpawn
+- **触手** — `EffectGoliathTentacleSpawn` ｜父类: BaseEffectGoliathTentacleSpawn
+- **废弃工程赛博格** — `EngineeringBorgChassisDerelict` ｜父类: BaseBorgChassisDerelict
+- **工程部访客生成器** — `EngineeringVisitorSpawner` ｜父类: MarkerBase
+- **灵界漫步** — `EtherealJaunt` ｜父类: BaseMobJaunt
+- **异种博基** — `FilledXenoBorgiChassis` ｜父类: XenoBorgiPrinted ｜_Starlight
+- `模板` **FlyingMobBase** — `FlyingMobBase`
+- **鸡蛋** — `FoodEggChickenFertilized` ｜父类: FoodEgg
+- **鸡蛋** — `FoodEggCompyFertilized` ｜父类: FoodEgg ｜_Starlight
+- **鸡蛋** — `FoodEggDuckFertilized` ｜父类: FoodEgg
+- **蜂巢领主残骸** — `FoodHivelordRemains` ｜父类: FoodBase
+- **失活的蜂巢领主残骸** — `FoodHivelordRemainsInert` ｜父类: BaseItem
+- **触手** — `GoliathTentacle`
+- `模板` **Incorporeal** — `Incorporeal`
+- **遁行** — `InfernalJaunt` ｜父类: EtherealJaunt ｜_Starlight
+- **智能卡** — `Intellicard` ｜父类: BaseItem,AiHolder
+- **废弃清洁赛博格** — `JanitorBorgChassisDerelict` ｜父类: BaseBorgChassisDerelict
+- **废弃医疗赛博格** — `MedicalBorgChassisDerelict` ｜父类: BaseBorgChassisDerelict
+- **废弃打捞赛博格** — `MiningBorgChassisDerelict` ｜父类: BaseBorgChassisDerelict
+- **绑架者** — `MobAbductor` ｜父类: BaseMobAbductor ｜_Starlight
+- **绑架者特工** — `MobAbductorAgent` ｜父类: MobAbductor ｜_Starlight
+- **绑架者科学家** — `MobAbductorScientist` ｜父类: MobAbductor ｜_Starlight
+- **憎恶体** — `MobAbomination` ｜父类: BaseMobFlesh
+- **管理员老鼠** — `MobAdminMouse` ｜父类: BaseSimpleMob ｜_Starlight
+- `模板` **基础史莱姆** — `MobAdultSlimes` ｜父类: BaseMobAdultSlimes
+- **蓝色史莱姆** — `MobAdultSlimesBlue` ｜父类: MobAdultSlimes
+- **愤怒的蓝色史莱姆** — `MobAdultSlimesBlueAngry` ｜父类: MobAdultSlimesBlue
+- **绿色史莱姆** — `MobAdultSlimesGreen` ｜父类: MobAdultSlimes
+- **愤怒的绿色史莱姆** — `MobAdultSlimesGreenAngry` ｜父类: MobAdultSlimesGreen
+- **黄色史莱姆** — `MobAdultSlimesYellow` ｜父类: MobAdultSlimes
+- **愤怒的黄色史莱姆** — `MobAdultSlimesYellowAngry` ｜父类: MobAdultSlimesYellow
+- **亚历山大** — `MobAlexander` ｜父类: MobPig
+- **愤怒蜜蜂** — `MobAngryBee` ｜父类: MobBee,MobCombat
+- **乌里斯特·麦克网** — `MobArachnid` ｜父类: BaseMobArachnid ｜_Starlight
+- **屏障体** — `MobArgocyteBarrier` ｜父类: BaseMobArgocyte
+- **爬行体** — `MobArgocyteCrawler` ｜父类: BaseMobArgocyte
+- **执法体** — `MobArgocyteEnforcer` ｜父类: BaseMobArgocyte
+- **奠基体** — `MobArgocyteFounder` ｜父类: BaseMobArgocyte
+- **滑翔体** — `MobArgocyteGlider` ｜父类: BaseMobArgocyte
+- **收割体** — `MobArgocyteHarvester` ｜父类: BaseMobArgocyte
+- **利维坦体** — `MobArgocyteLeviathing` ｜父类: BaseMobArgocyte
+- **塑形体** — `MobArgocyteMolder` ｜父类: BaseMobArgocyte
+- **扑击体** — `MobArgocytePouncer` ｜父类: BaseMobArgocyte
+- **疾行体** — `MobArgocyteSkitter` ｜父类: BaseMobArgocyte
+- **软泥幼体** — `MobArgocyteSlurva` ｜父类: BaseMobArgocyte
+- **窃取体** — `MobArgocyteSwiper` ｜父类: BaseMobArgocyte
+- `模板` **MobAtmosExposed** — `MobAtmosExposed`
+- `模板` **MobAtmosStandard** — `MobAtmosStandard` ｜父类: MobAtmosExposed
+- **乌里斯特·麦克太空猛禽** — `MobAvali` ｜父类: BaseMobAvali ｜_Starlight
+- **矿石蟹** — `MobBananiumCrab` ｜父类: MobOreCrab
+- **班迪托** — `MobBandito` ｜父类: MobFerret
+- `模板` **基因祖先** — `MobBaseAncestor` ｜父类: SimpleMobBase,StripableInventoryBase
+- `模板` **情绪支持沼狸** — `MobBaseEmotionalSupportScurret` ｜父类: MobBaseScurret
+- `模板` **狗头人** — `MobBaseKobold` ｜父类: MobBaseAncestor,BaseSpeciesPickupable
+- `模板` **沼狸** — `MobBaseScurret` ｜父类: MobBaseAncestor,BaseSpeciesPickupable
+- **狗头人** — `MobBaseSyndicateKobold` ｜父类: MobBaseKobold
+- **辛迪加猴子** — `MobBaseSyndicateMonkey` ｜父类: MobBaseAncestor
+- **蛇怪** — `MobBasilisk` ｜父类: BaseMobAsteroid,MobBloodstream
+- **蝙蝠** — `MobBat` ｜父类: SimpleMobBase,FlyingMobBase,MobCombat
+- **蕾米莉亚** — `MobBatRemilia` ｜父类: MobBat
+- **太空熊** — `MobBearSpace` ｜父类: MobSpaceBasic
+- **太空熊** — `MobBearSpaceSalvage` ｜父类: MobBearSpace
+- **蜜蜂** — `MobBee` ｜父类: SimpleMobBase,FlyingMobBase
+- **电击魔鸣怪** — `MobBehonkerElectrical` ｜父类: BaseMobBehonker
+- **重力魔鸣怪** — `MobBehonkerGrav` ｜父类: BaseMobBehonker
+- **寒冰魔鸣怪** — `MobBehonkerIce` ｜父类: BaseMobBehonker
+- **火焰魔鸣怪** — `MobBehonkerPyro` ｜父类: BaseMobBehonker
+- **宾格斯** — `MobBingus` ｜父类: SimpleMobBase,StripableInventoryBase
+- **太空锦鲤** — `MobBloodSkeletonKoi` ｜父类: BaseMobKoi ｜_Starlight
+- `模板` **MobBloodstream** — `MobBloodstream`
+- **空白躯壳** — `MobBluespaceHarvesterBlankBody` ｜父类: BaseMobBluespaceHarvester ｜_Starlight
+- **生物** — `MobBluespaceHarvesterMiGo` ｜父类: BaseMobBluespaceHarvester ｜_Starlight
+- **异物** — `MobBluespaceHarvesterOtherthing` ｜父类: BaseMobBluespaceHarvester ｜_Starlight
+- **拳击袋鼠** — `MobBoxingKangaroo` ｜父类: MobKangaroo
+- **乌里斯特·麦克明眼** — `MobBrighteye` ｜父类: BaseMobShadekin,BaseMob ｜_Starlight
+- **蝴蝶** — `MobButterfly` ｜父类: SimpleMobBase,FlyingMobBase
+- **货运猩猩** — `MobCargorilla` ｜父类: BaseMobGorilla ｜_Starlight
+- **太空鲤鱼** — `MobCarp` ｜父类: BaseMobCarp
+- **龙化太空鲤鱼** — `MobCarpDragon` ｜父类: MobCarp
+- **太空鲤鱼** — `MobCarpDungeon` ｜父类: MobCarp
+- **全息鲤鱼** — `MobCarpHolo` ｜父类: BaseMobCarp
+- **魔法鲤鱼** — `MobCarpMagic` ｜父类: BaseMobCarp
+- **彩虹鲤鱼** — `MobCarpRainbow` ｜父类: MobCarp
+- **太空鲤鱼** — `MobCarpSalvage` ｜父类: MobCarp
+- **猫** — `MobCat` ｜父类: SimpleMobBase,StripableInventoryBase
+- **三花猫** — `MobCatCalico` ｜父类: MobCat
+- **狞猫** — `MobCatCaracal` ｜父类: MobCat
+- **异常** — `MobCatException` ｜父类: MobCatCalico
+- **弗洛帕** — `MobCatFloppa` ｜父类: MobCatCaracal
+- **小猫** — `MobCatKitten` ｜父类: MobCat
+- **运行时** — `MobCatRuntime` ｜父类: MobCat
+- **暗影猫** — `MobCatShadow` ｜父类: BaseShadowMob
+- **太空猫** — `MobCatSpace` ｜父类: MobCat
+- **辛迪猫** — `MobCatSyndy` ｜父类: MobCatSpace
+- **中央指挥部拖布蟑螂** — `MobCCMoproach` ｜父类: MobMoproach ｜_Starlight
+- **中央指挥部拖布蟑螂** — `MobCCMoproachHat` ｜父类: MobCCMoproach ｜_Starlight
+- **鸡** — `MobChicken` ｜父类: SimpleMobBase
+- **鸡** — `MobChicken1` ｜父类: MobChicken
+- **鸡** — `MobChicken2` ｜父类: MobChicken
+- **平民** — `MobCivilian` ｜父类: BaseMobHuman
+- **清洁机器人** — `MobCleanBot` ｜父类: MobSiliconBase
+- **异常血肉** — `MobClownClamp` ｜父类: BaseMobClown,MobFleshClamp ｜_Starlight
+- **异常血肉** — `MobClownGolem` ｜父类: BaseMobClown,MobFleshGolem ｜_Starlight
+- **异常血肉** — `MobClownJared` ｜父类: BaseMobClown,MobFleshJared ｜_Starlight
+- **异常血肉** — `MobClownLover` ｜父类: BaseMobClown,MobFleshLover ｜_Starlight
+- **小丑蜘蛛** — `MobClownSpider` ｜父类: MobSpiderAngryBase
+- **人** — `MobCluwne` ｜父类: MobHuman
+- **受诅小丑兽** — `MobCluwneBeast` ｜父类: SimpleMobBase ｜_Starlight
+- **矿石蟹** — `MobCoalCrab` ｜父类: MobOreCrab
+- **太空眼镜蛇** — `MobCobraSpace` ｜父类: MobSpaceBasic
+- **太空眼镜蛇** — `MobCobraSpaceSalvage` ｜父类: MobCobraSpace
+- **蟑螂** — `MobCockroach` ｜父类: SimpleMobBase
+- `模板` **MobCombat** — `MobCombat`
+- **柯基** — `MobCorgi` ｜父类: MobCorgiBase
+- `模板` **柯基** — `MobCorgiBase` ｜父类: SimpleMobBase,StripableInventoryBase
+- **刻耳柏洛斯** — `MobCorgiCerberus` ｜父类: MobCorgiNarsi
+- **小丑伊恩** — `MobCorgiClownIan` ｜父类: MobCorgi ｜_Starlight
+- **伊恩** — `MobCorgiIan` ｜父类: MobCorgi
+- **老伊恩** — `MobCorgiIanOld` ｜父类: MobCorgiIan
+- **幼犬伊恩** — `MobCorgiIanPup` ｜父类: MobCorgiPuppy
+- **丽莎** — `MobCorgiLisa` ｜父类: MobCorgiIan
+- **真老鼠** — `MobCorgiMouse` ｜父类: MobCorgiIan
+- **腐化柯基** — `MobCorgiNarsi` ｜父类: MobCorgi,MobCombat
+- **柯基幼犬** — `MobCorgiPuppy` ｜父类: MobCorgi
+- **聪明柯基** — `MobCorgiSmart` ｜父类: MobCorgiBase
+- **聪明柯基** — `MobCorgiSmartGhostrole` ｜父类: MobCorgiSmartNoGalcom ｜_Starlight
+- **聪明柯基** — `MobCorgiSmartNoGalcom` ｜父类: MobCorgiSmart ｜_Starlight
+- `模板` **MobCorruptHonkmotherBase** — `MobCorruptHonkmotherBase` ｜_Starlight
+- **奶牛** — `MobCow` ｜父类: SimpleMobBase
+- **螃蟹** — `MobCrab` ｜父类: SimpleMobBase
+- **热带佬** — `MobCrabAtmos` ｜父类: MobCrab
+- **乌里斯特·麦独眼石** — `MobCyclorite` ｜父类: BaseMobCyclorite ｜_Starlight
+- `模板` **MobDamageable** — `MobDamageable`
+- **调试计数器** — `MobDebugCounter` ｜父类: MobHuman
+- **调试随机计数器** — `MobDebugRandomCounter` ｜父类: MobHuman
+- **调试随机递减器** — `MobDebugRandomLess` ｜父类: MobHuman
+- **美颌龙** — `MobDinosaurCompy` ｜父类: BaseMobDinosaur ｜_Starlight
+- **乌里斯特·麦克植物** — `MobDiona` ｜父类: BaseMobDiona ｜_Starlight
+- **狄奥娜幼体** — `MobDionaNymph` ｜父类: SimpleMobBase,StripableInventoryBase
+- **狄奥娜幼体** — `MobDionaNymphAccent` ｜父类: MobDionaNymph
+- **改过自新的狄奥娜** — `MobDionaReformed` ｜父类: MobDiona ｜_Starlight
+- **太空龙** — `MobDragon` ｜父类: BaseMobDragon
+- **太空龙** — `MobDragonDungeon` ｜父类: BaseMobDragon
+- **棕鸭 #Quack** — `MobDuckBrown` ｜父类: MobDuckMallard
+- **绿头鸭 #Quack** — `MobDuckMallard` ｜父类: SimpleMobBase
+- **白鸭 #Quack** — `MobDuckWhite` ｜父类: MobDuckMallard
+- **矮人乌里斯特·麦克手** — `MobDwarf` ｜父类: BaseMobDwarf ｜_Starlight
+- **咩电羊** — `MobEeep` ｜父类: MobEeepBase ｜_Impstation
+- `模板` **MobEeepBase** — `MobEeepBase` ｜父类: SimpleSpaceMobBase,FlyingMobBase ｜_Impstation
+- **幼年咩电羊** — `MobEeeplet` ｜父类: MobEeepBase ｜_Impstation
+- `模板` **MobElementalBase** — `MobElementalBase` ｜父类: BaseMob,MobCombat
+- **乌里斯特·麦克艾尔吉** — `MobElf` ｜父类: BaseMobElf ｜_Starlight
+- **情绪支持沼狸** — `MobEmotionalSupportScurret` ｜父类: MobScurret,MobBaseEmotionalSupportScurret
+- **乌里斯特·麦喵** — `MobFelionoid` ｜父类: BaseMobFelionoid ｜_Starlight
+- **雪貂** — `MobFerret` ｜父类: SimpleMobBase,StripableInventoryBase
+- **灭火机器人** — `MobFireBot` ｜父类: MobSiliconBase
+- `模板` **MobFlammable** — `MobFlammable`
+- **异常血肉** — `MobFleshClamp` ｜父类: BaseMobFlesh
+- **异常血肉** — `MobFleshClampSalvage` ｜父类: BaseMobFleshSalvage
+- **异常血肉** — `MobFleshGolem` ｜父类: BaseMobFlesh
+- **异常血肉** — `MobFleshGolemSalvage` ｜父类: BaseMobFleshSalvage
+- **异常血肉** — `MobFleshJared` ｜父类: BaseMobFlesh
+- **异常血肉** — `MobFleshJaredSalvage` ｜父类: BaseMobFleshSalvage
+- **异常血肉** — `MobFleshLover` ｜父类: BaseMobFlesh
+- **异常血肉** — `MobFleshLoverSalvage` ｜父类: BaseMobFleshSalvage
+- **狐狸** — `MobFox` ｜父类: SimpleMobBase,StripableInventoryBase
+- **雷诺** — `MobFoxRenault` ｜父类: MobFox
+- **青蛙** — `MobFrog` ｜父类: SimpleMobBase
+- **狼蛛** — `MobGiantSpider` ｜父类: MobSpiderBase
+- **MobGiantSpiderAngry** — `MobGiantSpiderAngry` ｜父类: MobSpiderAngryBase,MobGiantSpider
+- **巫师蜘蛛** — `MobGiantSpiderWizard` ｜父类: MobGiantSpider
+- **乌里斯特·麦克曲奇** — `MobGingerbread` ｜父类: BaseMobGingerbread ｜_Starlight
+- **姜饼人** — `MobGingerbreadAI` ｜父类: MobGingerbread,MobCombat ｜_Starlight
+- **枪蟑螂** — `MobGlockroach` ｜父类: MobCockroach
+- **山羊** — `MobGoat` ｜父类: SimpleMobBase
+- **太空锦鲤** — `MobGoldBlackKoi` ｜父类: BaseMobKoi ｜_Starlight
+- **矿石蟹** — `MobGoldCrab` ｜父类: MobOreCrab
+- **歌利亚** — `MobGoliath` ｜父类: BaseMobAsteroid,MobBloodstream
+- **鹅** — `MobGoose` ｜父类: SimpleMobBase
+- **大猩猩** — `MobGorilla` ｜父类: BaseMobGorilla ｜_Starlight
+- **狂暴大猩猩** — `MobGorillaRampaging` ｜父类: BaseMobGorilla ｜_Starlight
+- **手榴弹企鹅** — `MobGrenadePenguin` ｜父类: MobPenguin,MobCombat,BaseSyndicateContraband
+- `模板` **守护者基类** — `MobGuardianBase`
+- **指南手册猴子** — `MobGuidebookMonkey` ｜父类: MobMonkey
+- **仓鼠** — `MobHamster` ｜父类: SimpleMobBase,MobCombat,StripableInventoryBase
+- **哈姆雷特** — `MobHamsterHamlet` ｜父类: MobHamster
+- **哈姆雷特** — `MobHamsterHamletSlippery` ｜父类: MobHamsterHamlet
+- **地狱孽种** — `MobHellspawn` ｜父类: BaseSimpleMob,MobCombat,MobBloodstream
+- **蜂巢机器人** — `MobHivebot` ｜父类: BaseSimpleMob,MobCombat,MobRobotic
+- **远程蜂巢机器人** — `MobHivebotRanged` ｜父类: MobHivebot
+- **强壮蜂巢机器人** — `MobHivebotStrong` ｜父类: MobHivebotRanged
+- **蜂巢领主** — `MobHivelord` ｜父类: BaseMobAsteroid,FlyingMobBase
+- **蜂巢领主幼体** — `MobHivelordBrood` ｜父类: BaseMobAsteroid,FlyingMobBase
+- **全息小丑** — `MobHoloClownGuardian` ｜父类: MobGuardianBase,InventoryBase
+- **全息寄生体** — `MobHoloparasiteGuardian` ｜父类: MobGuardianBase
+- **呵叫机器人** — `MobHonkBot` ｜父类: MobSiliconBase
+- **拥抱机器人** — `MobHugBot` ｜父类: MobSiliconBase,MobCombat
+- **尤里斯特·麦巧手** — `MobHuman` ｜父类: BaseMobHuman ｜_Starlight
+- **独狼特工** — `MobHumanLoneNuclearOperative` ｜父类: MobHuman
+- **核弹特工** — `MobHumanNukeOp` ｜父类: MobHuman
+- **辛迪加特工** — `MobHumanSyndicateAgent` ｜父类: MobHumanSyndicateAgentBase
+- **辛迪加特工** — `MobHumanSyndicateAgentBase` ｜父类: MobHuman
+- **辛迪加医护兵** — `MobHumanSyndicateAgentMedic` ｜父类: MobHumanSyndicateAgent
+- **辛迪加特工** — `MobHumanSyndicateAgentNukeops` ｜父类: MobHumanSyndicateAgentBase
+- **辛迪加间谍** — `MobHumanSyndicateAgentSpy` ｜父类: MobHumanSyndicateAgent
+- **辛迪加窃贼** — `MobHumanSyndicateAgentThief` ｜父类: MobHumanSyndicateAgent
+- **终结者** — `MobHumanTerminator` ｜父类: MobHuman ｜_Starlight
+- **巫师** — `MobHumanWizard` ｜父类: MobHuman
+- **伊弗利特** — `MobIfritGuardian` ｜父类: MobGuardianBase
+- **乌里斯特·麦克机器人** — `MobIPC` ｜父类: BaseMobIPC ｜_FarHorizons
+- **矿石蟹** — `MobIronCrab` ｜父类: MobOreCrab
+- **约翰·脚趾** — `MobJohnToe` ｜父类: BaseMobHuman ｜_Starlight
+- **怪叫机器人** — `MobJonkBot` ｜父类: MobHonkBot
+- **袋鼠** — `MobKangaroo` ｜父类: SimpleMobBase,MobCombat,StripableInventoryBase
+- **太空袋鼠** — `MobKangarooSpace` ｜父类: MobSpaceBasic,StripableInventoryBase
+- **太空袋鼠** — `MobKangarooSpaceSalvage` ｜父类: MobKangarooSpace
+- **薇洛** — `MobKangarooWillow` ｜父类: MobKangaroo
+- **狗头人** — `MobKobold` ｜父类: MobBaseKobold
+- **狗头人** — `MobKoboldAdvanced` ｜父类: MobBaseKobold ｜_Starlight
+- **琪琪** — `MobKoboldKiki` ｜父类: MobKoboldAdvanced ｜_Starlight
+- **狗头人** — `MobKoboldSyndicateAgent` ｜父类: MobBaseSyndicateKobold
+- **狗头人** — `MobKoboldSyndicateAgentNukeops` ｜父类: MobBaseSyndicateKobold
+- **乌里斯特·麦克兔兔** — `MobLagomorph` ｜父类: BaseMobLagomorph ｜_Starlight
+- **大号老鼠仆从** — `MobLargeRatServant` ｜父类: MobRatServant ｜_Starlight
+- **激光迅猛龙** — `MobLaserRaptor` ｜父类: SimpleMobBase
+- **乌里斯特·麦林** — `MobLing` ｜父类: MobHuman,StorePresetChangeling
+- **猴子** — `MobLingMonkey` ｜父类: MobMonkey,StorePresetChangeling ｜_Starlight
+- `模板` **发光人形** — `MobLivingLight` ｜父类: BaseMob,MobCombat
+- **蜥蜴 #Weh** — `MobLizard` ｜父类: SimpleMobBase
+- **发光实体** — `MobLuminousEntity` ｜父类: MobLivingLight
+- **发光物体** — `MobLuminousObject` ｜父类: MobLivingLight
+- **发光人形** — `MobLuminousPerson` ｜父类: MobLivingLight
+- **麦格里夫** — `MobMcGriff` ｜父类: SimpleMobBase,StripableInventoryBase
+- **医疗机器人** — `MobMedibot` ｜父类: MobSiliconBase,ShowMedicalIcons,StripableInventoryBase
+- **导师老鼠** — `MobMentorMouse` ｜父类: MobAdminMouse ｜_Starlight
+- **哑剧机器人** — `MobMimeBot` ｜父类: MobSiliconBase,StripableInventoryBase
+- **拟态怪** — `MobMimic` ｜父类: SimpleMobBase,MobCombat
+- **拟态怪** — `MobMimicHostile` ｜父类: MobMimic ｜_Starlight
+- **猴子** — `MobMonkey` ｜父类: MobBaseAncestor,BaseSpeciesPickupable
+- **猴子** — `MobMonkeyAdvanced` ｜父类: MobBaseAncestor,BaseSpeciesPickupable ｜_Starlight
+- **潘潘** — `MobMonkeyPunpun` ｜父类: MobMonkeyAdvanced
+- **搅搅** — `MobMonkeyStirStir` ｜父类: MobMonkeyAdvanced ｜_Starlight
+- **猴子** — `MobMonkeySyndicateAgent` ｜父类: MobBaseSyndicateMonkey
+- **猴子** — `MobMonkeySyndicateAgentNukeops` ｜父类: MobBaseSyndicateMonkey
+- **拖把蟑螂** — `MobMoproach` ｜父类: MobMothroach
+- **拖把蟑螂** — `MobMoproachHat` ｜父类: MobMoproach ｜_Starlight
+- **乌里斯特·麦克绒绒** — `MobMoth` ｜父类: BaseMobMoth ｜_Starlight
+- **蛾蟑螂** — `MobMothroach` ｜父类: MobCockroach
+- **老鼠** — `MobMouse` ｜父类: SimpleMobBase
+- **老鼠** — `MobMouse1` ｜父类: MobMouse
+- **老鼠** — `MobMouse2` ｜父类: MobMouse
+- **老鼠** — `MobMouseAdmeme` ｜父类: MobMouse
+- **癌变老鼠** — `MobMouseCancer` ｜父类: MobMouse
+- **死老鼠** — `MobMouseDead` ｜父类: MobMouse
+- **雷米** — `MobMouseRemy` ｜父类: MobMouse ｜_Starlight
+- **纳尔希** — `MobNarsie` ｜父类: MobNarsieBase,BaseMob
+- `模板` **纳尔希** — `MobNarsieBase`
+- **纳尔希** — `MobNarsieSpawn` ｜父类: MobNarsieBase
+- **观察者** — `MobObserver` ｜父类: MobObserverBase
+- `模板` **观察者** — `MobObserverBase` ｜父类: Incorporeal,BaseMob
+- `模板` **矿石蟹** — `MobOreCrab` ｜父类: MobElementalBase,MobCombat
+- **文书** — `MobPaperwork` ｜父类: MobSloth
+- **时空悖论** — `MobParadox` ｜父类: BaseMob
+- **时空悖论** — `MobParadoxTimed` ｜父类: MobParadox
+- **鹦鹉** — `MobParrot` ｜父类: MobParrotBase
+- `模板` **鹦鹉** — `MobParrotBase` ｜父类: SimpleMobBase,FlyingMobBase
+- **企鹅** — `MobPenguin` ｜父类: SimpleMobBase
+- **猪** — `MobPig` ｜父类: SimpleMobBase,StripableInventoryBase
+- **鹦鹉波莉** — `MobPollyParrot` ｜父类: MobParrotBase
+- `模板` **MobPolymorphable** — `MobPolymorphable`
+- **负鼠** — `MobPossum` ｜父类: SimpleMobBase,StripableInventoryBase
+- **莫蒂** — `MobPossumMorty` ｜父类: MobPossum
+- **老莫蒂** — `MobPossumMortyOld` ｜父类: MobPossumMorty
+- **老负鼠** — `MobPossumOld` ｜父类: MobPossum
+- **波比 # the Safety Possum** — `MobPossumPoppy` ｜父类: MobPossumMorty
+- **乌里斯特·麦克蛛网** — `MobProtoArachnid` ｜父类: BaseMobProtoArachnid ｜_FarHorizons
+- **乌里斯特·麦克太空迅猛龙** — `MobProtoAvali` ｜父类: BaseMobProtoAvali ｜_FarHorizons
+- **乌里斯特·麦赛克洛里斯特** — `MobProtoCyclorite` ｜父类: BaseMobProtoCyclorite ｜_FarHorizons
+- **乌里斯特·麦普兰斯特** — `MobProtoDiona` ｜父类: BaseMobProtoDiona ｜_FarHorizons
+- **原生矮人乌里斯特·麦汉斯特** — `MobProtoDwarf` ｜父类: BaseMobProtoDwarf ｜_FarHorizons
+- **乌里斯特·麦克精灵** — `MobProtoElf` ｜父类: BaseMobProtoElf ｜_FarHorizons
+- **乌里斯特·麦菲林斯特** — `MobProtoFelionoid` ｜父类: BaseMobProtoFelionoid ｜_FarHorizons
+- **乌里斯特·麦克烤面包机** — `MobProtogen` ｜父类: BaseMobProtogen ｜_FarHorizons
+- **乌里斯特·麦汉斯特** — `MobProtoHuman` ｜父类: BaseMobProtoHuman ｜_FarHorizons
+- **乌里斯特·麦克达斯金** — `MobProtoKin` ｜父类: BaseMobProtoKin ｜_FarHorizons
+- **乌里斯特·麦克兔兔** — `MobProtoLagomorph` ｜父类: BaseMobProtoLagomorph ｜_FarHorizons
+- **乌里斯特·麦克毛绒** — `MobProtoMoth` ｜父类: BaseMobProtoMoth ｜_FarHorizons
+- **乌里斯特·麦鳞斯特** — `MobProtoReptilian` ｜父类: BaseMobProtoReptilian ｜_FarHorizons
+- **乌里斯特·麦克迅猛龙** — `MobProtoResomi` ｜父类: BaseMobProtoResomi ｜_FarHorizons
+- **乌里斯特·麦克史莱姆** — `MobProtoSlimePerson` ｜父类: BaseMobProtoSlimePerson ｜_FarHorizons
+- **乌里斯特·麦克大耳朵** — `MobProtoThaven` ｜父类: BaseMobProtoThaven ｜_FarHorizons
+- **乌里斯特·麦克沃克斯** — `MobProtoVox` ｜父类: BaseMobProtoVox ｜_FarHorizons
+- **乌里斯特·麦克伏尔普** — `MobProtoVulp` ｜父类: BaseMobProtoVulp ｜_FarHorizons
+- `模板` **MobPureHonkmotherBase** — `MobPureHonkmotherBase` ｜_Starlight
+- **太空蝰蛇** — `MobPurpleSnake` ｜父类: SimpleSpaceMobBase
+- **矿石蟹** — `MobQuartzCrab` ｜父类: MobOreCrab
+- **浣熊** — `MobRaccoon` ｜父类: SimpleMobBase,StripableInventoryBase
+- **莫蒂西亚** — `MobRaccoonMorticia` ｜父类: MobRaccoon
+- **身份不明的尸体** — `MobRandomCargoCorpse` ｜父类: SalvageHumanCorpse
+- **身份不明的尸体** — `MobRandomCommandCorpse` ｜父类: SalvageHumanCorpse
+- **身份不明的尸体** — `MobRandomEngineerCorpse` ｜父类: SalvageHumanCorpse
+- **身份不明的尸体** — `MobRandomMedicCorpse` ｜父类: SalvageHumanCorpse
+- **身份不明的尸体** — `MobRandomMercenaryCorpse` ｜父类: SalvageHumanCorpse ｜_Starlight
+- **身份不明的尸体** — `MobRandomNukieCorpse` ｜父类: SalvageHumanCorpse ｜_Starlight
+- **身份不明的尸体** — `MobRandomPirateCorpse` ｜父类: SalvageHumanCorpse ｜_Starlight
+- **身份不明的尸体** — `MobRandomScienceCorpse` ｜父类: SalvageHumanCorpse
+- **身份不明的尸体** — `MobRandomSecurityCorpse` ｜父类: SalvageHumanCorpse
+- **身份不明的尸体** — `MobRandomServiceCorpse` ｜父类: SalvageHumanCorpse
+- **身份不明的尸体** — `MobRandomSovietCorpse` ｜父类: SalvageHumanCorpse ｜_Starlight
+- **身份不明的尸体** — `MobRandomSyndicateCorpse` ｜父类: SalvageHumanCorpse ｜_Starlight
+- **鼠王** — `MobRatKing` ｜父类: SimpleMobBase,MobCombat
+- **鼠王** — `MobRatKingBuff` ｜父类: MobRatKing
+- **老鼠仆从** — `MobRatServant` ｜父类: SimpleMobBase,MobCombat
+- **拉特瓦尔** — `MobRatvar` ｜父类: MobRatvarBase,BaseMob
+- `模板` **拉特瓦尔** — `MobRatvarBase`
+- **拉特瓦尔** — `MobRatvarSpawn` ｜父类: MobRatvarBase
+- **太空锦鲤** — `MobRedBlackKoi` ｜父类: BaseMobKoi ｜_Starlight
+- **太空锦鲤** — `MobRedCircleKoi` ｜父类: BaseMobKoi ｜_Starlight
+- **雄驯鹿** — `MobReindeerBuck` ｜父类: SimpleMobBase,MobCombat
+- **雌驯鹿** — `MobReindeerDoe` ｜父类: MobReindeerBuck
+- **乌里斯特·麦克鳞片** — `MobReptilian` ｜父类: BaseMobReptilian ｜_Starlight
+- **乌里斯特·麦克猛禽** — `MobResomi` ｜父类: BaseMobResomi ｜_Starlight
+- `模板` **MobRespirator** — `MobRespirator`
+- **怨灵** — `MobRevenant` ｜父类: Incorporeal,BaseMob
+- `模板` **MobRobotic** — `MobRobotic` ｜父类: BaseMob
+- **尤里斯特·麦鼠** — `MobRodentia` ｜父类: BaseMobRodentia ｜_Starlight
+- **打捞员** — `MobSalvager` ｜父类: BaseMobHuman
+- **沼狸** — `MobScurret` ｜父类: MobBaseScurret
+- **乌里斯特·麦克暗影** — `MobShadekin` ｜父类: BaseMobShadekin,BaseMob ｜_Starlight
+- **鲨形小鱼** — `MobShark` ｜父类: BaseMobCarp
+- **鲨形小鱼** — `MobSharkSalvage` ｜父类: MobShark
+- `模板` **MobSiliconBase** — `MobSiliconBase` ｜父类: MobRobotic
+- **矿石蟹** — `MobSilverCrab` ｜父类: MobOreCrab
+- **骷髅骑手** — `MobSkeletonBiker` ｜父类: MobSkeletonPerson
+- **壁橱骷髅** — `MobSkeletonCloset` ｜父类: MobSkeletonPerson
+- **衣柜骷髅（自由特工）** — `MobSkeletonClosetFreeAgent` ｜父类: MobSkeletonPerson ｜_Starlight
+- **尤里斯特·麦骨头** — `MobSkeletonPerson` ｜父类: BaseMobSkeletonPerson ｜_Starlight
+- **骷髅海盗** — `MobSkeletonPirate` ｜父类: MobSkeletonPerson
+- **乌里斯特·麦克史莱姆** — `MobSlimePerson` ｜父类: BaseMobSlimePerson ｜_Starlight
+- **微笑** — `MobSlimesPet` ｜父类: MobAdultSlimes,StripableInventoryBase
+- **树懒** — `MobSloth` ｜父类: SimpleMobBase,StripableInventoryBase
+- **蛞蝓** — `MobSlug` ｜父类: SimpleMobBase
+- **小型太空蝰蛇** — `MobSmallPurpleSnake` ｜父类: MobPurpleSnake
+- **蜗牛** — `MobSnail` ｜父类: SimpleSpaceMobBase
+- **蜗牛** — `MobSnailInstantDeath` ｜父类: MobSnail
+- **蛾牛** — `MobSnailMoth` ｜父类: MobSnail
+- **蜗牛** — `MobSnailSpeed` ｜父类: MobSnail
+- **蛇** — `MobSnake` ｜父类: SimpleMobBase
+- `模板` **基础太空生物** — `MobSpaceBasic` ｜父类: SimpleSpaceMobBase
+- **太空锦鲤** — `MobSpaceGlowKoi` ｜父类: BaseMobKoi ｜_Starlight
+- `模板` **MobSpiderAngryBase** — `MobSpiderAngryBase` ｜父类: MobSpiderBase
+- `模板` **MobSpiderBase** — `MobSpiderBase` ｜父类: SimpleMobBase,MobCombat
+- **幼蛛** — `MobSpiderling` ｜父类: MobSpiderlingBase ｜_Starlight
+- `模板` **幼蛛** — `MobSpiderlingBase` ｜父类: SimpleMobBase ｜_Starlight
+- **幼蛛** — `MobSpiderlingSpiderAngry` ｜父类: MobSpiderling ｜_Starlight
+- **幼蛛** — `MobSpiderlingTerrorGray` ｜父类: MobSpiderling ｜_Starlight
+- **幼蛛** — `MobSpiderlingTerrorGreen` ｜父类: MobSpiderling ｜_Starlight
+- **幼蛛** — `MobSpiderlingTerrorRed` ｜父类: MobSpiderling ｜_Starlight
+- **湿婆** — `MobSpiderShiva` ｜父类: MobGiantSpider
+- **太空蜘蛛** — `MobSpiderSpace` ｜父类: MobSpaceBasic
+- **太空蜘蛛** — `MobSpiderSpaceSalvage` ｜父类: MobSpiderSpace
+- **太空海盗** — `MobSpirate` ｜父类: BaseMobHuman
+- **补给机器人** — `MobSupplyBot` ｜父类: MobSiliconBase
+- **辛迪加步兵** — `MobSyndicateFootsoldier` ｜父类: BaseMobHuman
+- **辛迪加穿梭机驾驶员** — `MobSyndicateFootsoldierPilot` ｜父类: MobSyndicateFootsoldier
+- **NT-800“终结者”内骨骼** — `MobTerminatorEndoskeleton` ｜父类: BaseMob,MobCombat,MobDamageable,MobSiliconBase,BaseSpeciesPickupableLarge ｜_Starlight
+- **黑色恐蛛** — `MobTerrorBlack` ｜父类: MobTerrorBlackUnevolvable ｜_Starlight
+- `模板` **黑色恐蛛** — `MobTerrorBlackUnevolvable` ｜父类: MobTerrorGrayUnevolvable ｜_Starlight
+- **灰色恐蛛** — `MobTerrorGray` ｜父类: MobTerrorGrayUnevolvable ｜_Starlight
+- `模板` **灰色恐蛛** — `MobTerrorGrayUnevolvable` ｜父类: MobTerrorSpider ｜_Starlight
+- **绿色恐蛛** — `MobTerrorGreen` ｜父类: MobTerrorGreenUnevolvable ｜_Starlight
+- `模板` **绿色恐蛛** — `MobTerrorGreenUnevolvable` ｜父类: MobTerrorSpider ｜_Starlight
+- **恐蛛之母** — `MobTerrorMother` ｜父类: MobTerrorBlackUnevolvable ｜_Starlight
+- **恐蛛王子** — `MobTerrorPrince` ｜父类: MobTerrorPurpleUnevolvable ｜_Starlight
+- **恐蛛公主** — `MobTerrorPrincess` ｜父类: MobTerrorSpider ｜_Starlight
+- **紫色恐蛛** — `MobTerrorPurple` ｜父类: MobTerrorPurpleUnevolvable ｜_Starlight
+- `模板` **紫色恐蛛** — `MobTerrorPurpleUnevolvable` ｜父类: MobTerrorRedUnevolvable ｜_Starlight
+- **红色恐蛛** — `MobTerrorRed` ｜父类: MobTerrorRedUnevolvable ｜_Starlight
+- `模板` **红色恐蛛** — `MobTerrorRedUnevolvable` ｜父类: MobTerrorSpider ｜_Starlight
+- `模板` **恐怖蜘蛛** — `MobTerrorSpider` ｜父类: SimpleSpaceMobBase,MobRespirator ｜_Starlight
+- **白色恐蛛** — `MobTerrorWhite` ｜父类: MobTerrorWhiteUnevolvable ｜_Starlight
+- `模板` **白色恐蛛** — `MobTerrorWhiteUnevolvable` ｜父类: MobTerrorGreenUnevolvable ｜_Starlight
+- **乌里斯特·麦克耳朵** — `MobThaven` ｜父类: BaseMobThaven ｜_Starlight
+- **太空蜱虫** — `MobTick` ｜父类: SimpleSpaceMobBase
+- **太空蜱虫** — `MobTickSalvage` ｜父类: MobTick
+- **杀手番茄** — `MobTomatoKiller` ｜父类: BaseSimpleMob,MobDamageable,MobPolymorphable,MobBloodstream,MobFlammable,MobCombat
+- **矿石蟹** — `MobUraniumCrab` ｜父类: MobOreCrab
+- **血红之池** — `MobVampireSanguinePool` ｜父类: BaseMob ｜_Starlight
+- **乌里斯提提提·麦克沃克斯** — `MobVox` ｜父类: BaseMobVox ｜_Starlight
+- **乌里斯特·麦克伏尔普** — `MobVulpkanin` ｜父类: BaseMobVulpkanin ｜_Starlight
+- **沃尔特** — `MobWalter` ｜父类: SimpleMobBase,StripableInventoryBase
+- `模板` **watcher** — `MobWatcherBase` ｜父类: SimpleSpaceMobBase,FlyingMobBase
+- **冰翼凝视者** — `MobWatcherIcewing` ｜父类: MobWatcherBase
+- **监视者** — `MobWatcherLavaland` ｜父类: MobWatcherBase
+- **熔岩翼凝视者** — `MobWatcherMagmawing` ｜父类: MobWatcherBase
+- **骄傲凝视者** — `MobWatcherPride` ｜父类: MobWatcherBase
+- **掘穴异形** — `MobXeno` ｜父类: SimpleSpaceMobBase
+- **掘穴者** — `MobXenoAdmeme` ｜父类: SimpleSpaceMobBase ｜_Starlight
+- **工蜂异形** — `MobXenoDrone` ｜父类: MobXeno
+- **“戴尔”** — `MobXenoLonePraetorianNoGhost` ｜父类: SimpleSpaceMobBase
+- **禁卫异形** — `MobXenoPraetorian` ｜父类: MobXeno
+- **异形女王** — `MobXenoQueen` ｜父类: MobXeno
+- **毁灭者异形** — `MobXenoRavager` ｜父类: MobXeno
+- **异种蟑螂** — `MobXenoroach` ｜父类: MobSiliconBase ｜_Starlight
+- **罗尼异形** — `MobXenoRouny` ｜父类: MobXenoRunner
+- **罗尼** — `MobXenoRounyAdmeme` ｜父类: MobXenoRunner ｜_Starlight
+- **奔行异形** — `MobXenoRunner` ｜父类: MobXeno
+- **禁卫** — `MobXenoRunnerAdmeme` ｜父类: MobXenoAdmeme ｜_Starlight
+- **喷吐异形** — `MobXenoSpitter` ｜父类: MobXeno
+- **喷吐者** — `MobXenoSpitterAdmeme` ｜父类: MobXenoAdmeme ｜_Starlight
+- **拖布蟑螂套件** — `MoproachBox` ｜父类: BoxCardboard ｜_Starlight
+- **拖布蟑螂方块** — `MoproachCubeWrapped` ｜父类: MonkeyCubeWrapped ｜_Starlight
+- **母舰核心** — `MothershipCore` ｜父类: BaseControllable,BaseStructure,BaseXenoSiliconLanguages
+- **NT-NC H.A.W 型** — `NTNCBorgChassisHAW` ｜父类: BaseNTNCChassis ｜_Starlight
+- **纳米传讯访客生成器** — `NTVisitorSpawner` ｜父类: MarkerBase
+- **纳米传讯访客生成器** — `NTVisitorSpawner10` ｜父类: NTVisitorSpawner50
+- **纳米传讯访客生成器** — `NTVisitorSpawner20` ｜父类: NTVisitorSpawner50
+- **纳米传讯访客生成器** — `NTVisitorSpawner25` ｜父类: NTVisitorSpawner50
+- **纳米传讯访客生成器** — `NTVisitorSpawner33` ｜父类: NTVisitorSpawner50
+- **纳米传讯访客生成器** — `NTVisitorSpawner50` ｜父类: MarkerBase
+- **纸** — `PaperMoproachManual` ｜父类: Paper ｜_Starlight
+- **悖论克隆体** — `ParadoxCloneDummy`
+- **海盗船长生成器** — `PirateCaptainScoonerSpawner` ｜父类: MarkerBase
+- **海盗船员生成器** — `PirateScoonerSpawner` ｜父类: MarkerBase
+- **赛博格** — `PlayerBorgBattery` ｜父类: BorgChassisSelectable
+- **赛博格** — `PlayerBorgChassis` ｜父类: BorgChassisSelectable ｜_Starlight
+- **TSMC 突击赛博格** — `PlayerBorgChassisTSFBattery` ｜父类: BorgChassisTSF ｜_Starlight
+- **TSMC 突击赛博格** — `PlayerBorgChassisTSFGhostRole` ｜父类: PlayerBorgChassisTSFBattery ｜_Starlight
+- **废弃赛博格** — `PlayerBorgDerelict` ｜父类: BorgChassisDerelict
+- **废弃赛博格** — `PlayerBorgDerelictGhostRole` ｜父类: PlayerBorgDerelict
+- **NT-NC H.A.W 型** — `PlayerBorgHAWBattery` ｜父类: NTNCBorgChassisHAW ｜_Starlight
+- **辛迪加突击赛博格** — `PlayerBorgSyndicateAssaultBattery` ｜父类: BorgChassisSyndicateAssault
+- **辛迪加突击赛博格** — `PlayerBorgSyndicateAssaultGhostRole` ｜父类: PlayerBorgSyndicateAssaultBattery
+- **废弃辛迪加突击赛博格** — `PlayerBorgSyndicateDerelictGhostRole` ｜父类: PlayerSyndicateAssaultBorgDerelict
+- **辛迪加入侵赛博格生成点** — `PlayerBorgSyndicateInvasionGhostRoleSpawner` ｜父类: MarkerBase
+- **辛迪加医疗赛博格** — `PlayerBorgSyndicateMedicalBattery` ｜父类: BorgChassisSyndicateMedical ｜_Starlight
+- **辛迪加医疗赛博格** — `PlayerBorgSyndicateMedicalGhostRole` ｜父类: PlayerBorgSyndicateMedicalBattery ｜_Starlight
+- **辛迪加破坏者赛博格** — `PlayerBorgSyndicateSaboteurBattery` ｜父类: BorgChassisSyndicateSaboteur
+- **辛迪加破坏者赛博格** — `PlayerBorgSyndicateSaboteurGhostRole` ｜父类: PlayerBorgSyndicateSaboteurBattery
+- **辛迪加隐形赛博格** — `PlayerBorgSyndicateStealthBattery` ｜父类: BorgChassisSyndicateStealth ｜_Starlight
+- **辛迪加隐形赛博格** — `PlayerBorgSyndicateStealthGhostRole` ｜父类: PlayerBorgSyndicateStealthBattery ｜_Starlight
+- **废弃工程赛博格** — `PlayerEngineeringBorgDerelict` ｜父类: EngineeringBorgChassisDerelict
+- **废弃工程赛博格** — `PlayerEngineeringBorgDerelictGhostRole` ｜父类: PlayerEngineeringBorgDerelict
+- **废弃清洁赛博格** — `PlayerJanitorBorgDerelict` ｜父类: JanitorBorgChassisDerelict
+- **废弃清洁赛博格** — `PlayerJanitorBorgDerelictGhostRole` ｜父类: PlayerJanitorBorgDerelict
+- **废弃医疗赛博格** — `PlayerMedicalBorgDerelict` ｜父类: MedicalBorgChassisDerelict
+- **废弃医疗赛博格** — `PlayerMedicalBorgDerelictGhostRole` ｜父类: PlayerMedicalBorgDerelict
+- **废弃打捞赛博格** — `PlayerMiningBorgDerelict` ｜父类: MiningBorgChassisDerelict
+- **废弃打捞赛博格** — `PlayerMiningBorgDerelictGhostRole` ｜父类: PlayerMiningBorgDerelict
+- **废弃呼噜型赛博格** — `PlayerPurrfusBorgDerelict` ｜父类: PurrfusBorgChassisDerelict ｜_Starlight
+- **废弃呼噜型赛博格** — `PlayerPurrfusBorgDerelictGhostRole` ｜父类: PlayerPurrfusBorgDerelict ｜_Starlight
+- **AI 核心** — `PlayerStationAi` ｜父类: PlayerStationAiEmpty
+- **AI 核心组件** — `PlayerStationAiAssembly` ｜父类: BaseStructure
+- **AI 核心** — `PlayerStationAiEmpty` ｜父类: BaseStructure,AiHolder
+- **PlayerStationAiPreview** — `PlayerStationAiPreview`
+- **废弃辛迪加突击赛博格** — `PlayerSyndicateAssaultBorgDerelict` ｜父类: SyndicateAssaultBorgChassisDerelict
+- **废弃工程异种赛博格** — `PlayerXenoBorgEngiDerelict` ｜父类: XenoborgEngiDerelict ｜_Starlight
+- **废弃工程异种赛博格** — `PlayerXenoBorgEngiDerelictGhostRole` ｜父类: PlayerXenoBorgEngiDerelict ｜_Starlight
+- **废弃重型异种赛博格** — `PlayerXenoBorgHeavyDerelict` ｜父类: XenoborgHeavyDerelict ｜_Starlight
+- **废弃重型异种赛博格** — `PlayerXenoBorgHeavyDerelictGhostRole` ｜父类: PlayerXenoBorgHeavyDerelict ｜_Starlight
+- **废弃异种博基** — `PlayerXenoBorgiDerelictGhostRole` ｜父类: XenoBorgiDerelict ｜_Starlight
+- **废弃侦察异种赛博格** — `PlayerXenoborgScoutDerelict` ｜父类: XenoborgScoutDerelict ｜_Starlight
+- **废弃侦察异种赛博格** — `PlayerXenoborgScoutDerelictGhostRole` ｜父类: PlayerXenoborgScoutDerelict ｜_Starlight
+- **废弃隐形异种赛博格** — `PlayerXenoborgStealthDerelict` ｜父类: XenoborgStealthDerelict ｜_Starlight
+- **废弃隐形异种赛博格** — `PlayerXenoborgStealthDerelictGhostRole` ｜父类: PlayerXenoborgStealthDerelict ｜_Starlight
+- **呵叫之母** — `PureHonkmother` ｜父类: MobPureHonkmotherBase,BaseMob,MobCombat ｜_Starlight
+- **废弃呼噜型赛博格** — `PurrfusBorgChassisDerelict` ｜父类: BaseBorgChassisDerelict ｜_Starlight
+- **随机克隆体** — `RandomCloneSpawner`
+- **绿盾干员** — `RandomHumanoidCCGreenshieldSpawnerBasic` ｜_Starlight
+- **绿盾干员** — `RandomHumanoidCCGreenshieldSpawnerEVA` ｜_Starlight
+- **灾难货运技师幽灵角色** — `RandomHumanoidChallengeCargoTechnician` ｜父类: RandomHumanoidChallengeVictimCaptain
+- **灾难受害者舰长幽灵角色** — `RandomHumanoidChallengeVictimCaptain`
+- **灾难受害者工程主管幽灵角色** — `RandomHumanoidChallengeVictimCE` ｜父类: RandomHumanoidChallengeVictimCaptain
+- **灾难受害者医疗主管幽灵角色** — `RandomHumanoidChallengeVictimCMO` ｜父类: RandomHumanoidChallengeVictimCaptain
+- **灾难受害者人事主管幽灵角色** — `RandomHumanoidChallengeVictimHOP` ｜父类: RandomHumanoidChallengeVictimCaptain
+- **灾难受害者安保主管幽灵角色** — `RandomHumanoidChallengeVictimHOS` ｜父类: RandomHumanoidChallengeVictimCaptain
+- **灾难受害者军需官幽灵角色** — `RandomHumanoidChallengeVictimQM` ｜父类: RandomHumanoidChallengeVictimCaptain
+- **灾难受害者研究主管幽灵角色** — `RandomHumanoidChallengeVictimRD` ｜父类: RandomHumanoidChallengeVictimCaptain
+- **香蕉小丑剧团** — `RandomHumanoidClownTroupeBanana` ｜父类: RandomHumanoidVisitorClown
+- **哥萨克幽灵角色** — `RandomHumanoidCossack`
+- **NT-NC 财团蓝盾** — `RandomHumanoidNTNCConsortiumBlueshieldSpawnerBasic` ｜_Starlight
+- **NT-NC 财团蓝盾** — `RandomHumanoidNTNCConsortiumBlueshieldSpawnerEVA` ｜_Starlight
+- **海盗船长幽灵角色** — `RandomHumanoidPirateCaptainScooner`
+- **海盗船员幽灵角色** — `RandomHumanoidPirateScooner`
+- **CBURN 医务兵** — `RandomHumanoidSpawnerCBURNCorpsman` ｜_Starlight
+- **CBURN 特工** — `RandomHumanoidSpawnerCBURNUnit`
+- **中央指挥部官员** — `RandomHumanoidSpawnerCentcomOfficial`
+- **受诅小丑** — `RandomHumanoidSpawnerCluwne`
+- **中央指挥部特工** — `RandomHumanoidSpawnerDeathSquad`
+- **第十特工** — `RandomHumanoidSpawnerDecimus` ｜_Starlight
+- **应急响应队牧师** — `RandomHumanoidSpawnerERTChaplain` ｜父类: RandomHumanoidSpawnerERTLeader
+- **应急响应队牧师** — `RandomHumanoidSpawnerERTChaplainEVA` ｜父类: RandomHumanoidSpawnerERTChaplain
+- **应急响应队工程师** — `RandomHumanoidSpawnerERTEngineer` ｜父类: RandomHumanoidSpawnerERTLeader
+- **应急响应队工程师** — `RandomHumanoidSpawnerERTEngineerArmed` ｜父类: RandomHumanoidSpawnerERTEngineerEVA
+- **应急响应队工程师** — `RandomHumanoidSpawnerERTEngineerEVA` ｜父类: RandomHumanoidSpawnerERTEngineer
+- **应急响应队清洁工** — `RandomHumanoidSpawnerERTJanitor` ｜父类: RandomHumanoidSpawnerERTLeader
+- **应急响应队清洁工** — `RandomHumanoidSpawnerERTJanitorEVA` ｜父类: RandomHumanoidSpawnerERTJanitor
+- **应急响应队队长** — `RandomHumanoidSpawnerERTLeader`
+- **应急响应队队长** — `RandomHumanoidSpawnerERTLeaderArmed` ｜父类: RandomHumanoidSpawnerERTLeaderEVA
+- **应急响应队队长** — `RandomHumanoidSpawnerERTLeaderEVA` ｜父类: RandomHumanoidSpawnerERTLeader
+- **应急响应队医护兵** — `RandomHumanoidSpawnerERTMedical` ｜父类: RandomHumanoidSpawnerERTLeader
+- **应急响应队医护兵** — `RandomHumanoidSpawnerERTMedicalArmed` ｜父类: RandomHumanoidSpawnerERTMedicalEVA
+- **应急响应队医护兵** — `RandomHumanoidSpawnerERTMedicalEVA` ｜父类: RandomHumanoidSpawnerERTMedical
+- **应急响应队安保干员** — `RandomHumanoidSpawnerERTSecurity` ｜父类: RandomHumanoidSpawnerERTLeader
+- **应急响应队安保掷弹兵** — `RandomHumanoidSpawnerERTSecurityArmedGrenade` ｜父类: RandomHumanoidSpawnerERTSecurityEVA
+- **应急响应队安保步枪手** — `RandomHumanoidSpawnerERTSecurityArmedRifle` ｜父类: RandomHumanoidSpawnerERTSecurityEVA
+- **应急响应队安保破门手** — `RandomHumanoidSpawnerERTSecurityArmedShotgun` ｜父类: RandomHumanoidSpawnerERTSecurityEVA
+- **应急响应队安保先锋** — `RandomHumanoidSpawnerERTSecurityArmedVanguard` ｜父类: RandomHumanoidSpawnerERTSecurityEVA
+- **应急响应队安保干员** — `RandomHumanoidSpawnerERTSecurityEVA` ｜父类: RandomHumanoidSpawnerERTSecurity
+- **NTSF 特工** — `RandomHumanoidSpawnerNTSF` ｜_Starlight
+- **NTSF 第九特工** — `RandomHumanoidSpawnerNTSFNonus` ｜_Starlight
+- **NTSF 第八特工** — `RandomHumanoidSpawnerNTSFOctavius` ｜_Starlight
+- **NTSF 第一特工** — `RandomHumanoidSpawnerNTSFPrimus` ｜_Starlight
+- **NTSF 第四特工** — `RandomHumanoidSpawnerNTSFQuartus` ｜_Starlight
+- **NTSF 第五特工** — `RandomHumanoidSpawnerNTSFQuintus` ｜_Starlight
+- **NTSF 第二特工** — `RandomHumanoidSpawnerNTSFSecundus` ｜_Starlight
+- **NTSF 第七特工** — `RandomHumanoidSpawnerNTSFSeptimus` ｜_Starlight
+- **NTSF 第六特工** — `RandomHumanoidSpawnerNTSFSextus` ｜_Starlight
+- **NTSF 第三特工** — `RandomHumanoidSpawnerNTSFTertius` ｜_Starlight
+- **核弹特工** — `RandomHumanoidSpawnerNukeOp`
+- **SSF 海军陆战队士兵** — `RandomHumanoidSpawnerSSFMarine` ｜_Starlight
+- **辛迪加特工** — `RandomHumanoidSpawnerSyndicateAgent`
+- **太阳系联邦海军陆战队员** — `RandomHumanoidSpawnerTSFMarine` ｜_Starlight
+- **太阳系联邦海军陆战队员** — `RandomHumanoidSpawnerTSFMarineCorpsman` ｜父类: RandomHumanoidSpawnerTSFMarine ｜_Starlight
+- **太阳系联邦海军陆战队员** — `RandomHumanoidSpawnerTSFMarineCrew` ｜父类: RandomHumanoidSpawnerTSFMarine ｜_Starlight
+- **太阳系联邦海军陆战队员** — `RandomHumanoidSpawnerTSFMarineLeader` ｜父类: RandomHumanoidSpawnerTSFMarine ｜_Starlight
+- **太阳系联邦海军陆战队员** — `RandomHumanoidSpawnerTSFMARSOC` ｜父类: RandomHumanoidSpawnerTSFMarine ｜_Starlight
+- **太阳政府巡逻官** — `RandomHumanoidSpawnerTSFOfficer` ｜_Starlight
+- **太阳政府巡逻官** — `RandomHumanoidSpawnerTSFOfficerRiot` ｜_Starlight
+- **太阳政府巡逻官** — `RandomHumanoidSpawnerTSFOfficerSheriff` ｜_Starlight
+- **太阳系联邦海军陆战队员** — `RandomHumanoidSpawnerTSFPhantom` ｜父类: RandomHumanoidSpawnerTSFMarine ｜_Starlight
+- **辛迪加士兵幽灵角色** — `RandomHumanoidSyndieSoldier`
+- **辛迪加小队队长幽灵角色** — `RandomHumanoidSyndieSoldierTeamLeader`
+- **辛迪加灾难受害者幽灵角色** — `RandomHumanoidSyndieVisitor`
+- **大气技师访客幽灵角色** — `RandomHumanoidVisitorAtmosTech`
+- **酒保访客幽灵角色** — `RandomHumanoidVisitorBartender`
+- **黑市商人访客幽灵角色** — `RandomHumanoidVisitorBlackmarketeer`
+- **植物学家访客幽灵角色** — `RandomHumanoidVisitorBotanist`
+- **拳击手访客幽灵角色** — `RandomHumanoidVisitorBoxer`
+- **舰长访客幽灵角色** — `RandomHumanoidVisitorCaptain`
+- **货运技师访客幽灵角色** — `RandomHumanoidVisitorCargoTechnician`
+- **工程主管访客幽灵角色** — `RandomHumanoidVisitorCE`
+- **牧师访客幽灵角色** — `RandomHumanoidVisitorChaplain`
+- **厨师访客幽灵角色** — `RandomHumanoidVisitorChef`
+- **药剂师访客幽灵角色** — `RandomHumanoidVisitorChemist`
+- **小丑访客幽灵角色** — `RandomHumanoidVisitorClown`
+- **医疗主管访客幽灵角色** — `RandomHumanoidVisitorCMO`
+- **牙医访客幽灵角色** — `RandomHumanoidVisitorDentist`
+- **侦探访客角色** — `RandomHumanoidVisitorDetective`
+- **空间站工程师访客幽灵角色** — `RandomHumanoidVisitorEngineer`
+- **遗传学家访客幽灵角色** — `RandomHumanoidVisitorGeneticist`
+- **人事主管访客幽灵角色** — `RandomHumanoidVisitorHOP`
+- **安保主管访客幽灵角色** — `RandomHumanoidVisitorHOS`
+- **清洁工访客幽灵角色** — `RandomHumanoidVisitorJanitor`
+- **律师访客幽灵角色** — `RandomHumanoidVisitorLawyer`
+- **中央指挥部律师访客幽灵角色** — `RandomHumanoidVisitorLawyerCentcom`
+- **图书管理员访客幽灵角色** — `RandomHumanoidVisitorLibrarian`
+- **医师访客幽灵角色** — `RandomHumanoidVisitorMedicalDoctor`
+- **实习医师访客幽灵角色** — `RandomHumanoidVisitorMedicalIntern`
+- **哑剧演员访客幽灵角色** — `RandomHumanoidVisitorMime`
+- **乐手访客幽灵角色** — `RandomHumanoidVisitorMusician`
+- **华丽乐手访客幽灵角色** — `RandomHumanoidVisitorMusicianFancy`
+- **悠闲乐手访客幽灵角色** — `RandomHumanoidVisitorMusicianRelaxed`
+- **急救员访客幽灵角色** — `RandomHumanoidVisitorParamedic`
+- **心理医生访客幽灵角色** — `RandomHumanoidVisitorPsychologist`
+- **军需官访客幽灵角色** — `RandomHumanoidVisitorQM`
+- **研究主管访客幽灵角色** — `RandomHumanoidVisitorRD`
+- **记者访客幽灵角色** — `RandomHumanoidVisitorReporter`
+- **研究助理访客幽灵角色** — `RandomHumanoidVisitorResearchAssistant`
+- **打捞专员访客幽灵角色** — `RandomHumanoidVisitorSalvageSpecialist`
+- **科学家访客幽灵角色** — `RandomHumanoidVisitorScientist`
+- **安保学员访客角色** — `RandomHumanoidVisitorSecurityCadet`
+- **安保干员访客幽灵角色** — `RandomHumanoidVisitorSecurityOfficer`
+- **服务人员访客幽灵角色** — `RandomHumanoidVisitorServiceWorker`
+- **技术助理访客幽灵角色** — `RandomHumanoidVisitorTechnicalAssistant`
+- **病毒学家访客幽灵角色** — `RandomHumanoidVisitorVirologist`
+- **典狱长访客幽灵角色** — `RandomHumanoidVisitorWarden`
+- **动物管理员访客幽灵角色** — `RandomHumanoidVisitorZookeeper`
+- **试剂史莱姆** — `ReagentSlime` ｜父类: MobAdultSlimes,MobCombat
+- **试剂史莱姆** — `ReagentSlimeBeer` ｜父类: ReagentSlime
+- **试剂史莱姆** — `ReagentSlimeBicaridine` ｜父类: ReagentSlime
+- **试剂史莱姆** — `ReagentSlimeEphedrine` ｜父类: ReagentSlime
+- **试剂史莱姆** — `ReagentSlimeMuteToxin` ｜父类: ReagentSlime
+- **试剂史莱姆** — `ReagentSlimeNapalm` ｜父类: ReagentSlime
+- **试剂史莱姆** — `ReagentSlimeNocturine` ｜父类: ReagentSlime
+- **试剂史莱姆** — `ReagentSlimeNorepinephricAcid` ｜父类: ReagentSlime
+- **试剂史莱姆** — `ReagentSlimeOmnizine` ｜父类: ReagentSlime
+- **试剂史莱姆** — `ReagentSlimePax` ｜父类: ReagentSlime
+- **试剂史莱姆** — `ReagentSlimeRobustHarvest` ｜父类: ReagentSlime
+- **试剂史莱姆生成器** — `ReagentSlimeSpawner` ｜父类: MarkerBase
+- **试剂史莱姆** — `ReagentSlimeTHC` ｜父类: ReagentSlime
+- **试剂史莱姆** — `ReagentSlimeToxin` ｜父类: ReagentSlime
+- **观察者** — `ReplayObserver` ｜父类: MobObserverBase
+- **身份不明的尸体** — `SalvageHumanCorpse` ｜父类: BaseMobHuman
+- **安保部访客生成器** — `SecurityVisitorSpawner` ｜父类: MarkerBase
+- `模板` **SimpleMobBase** — `SimpleMobBase` ｜父类: MobRespirator,MobAtmosStandard,SimpleSpaceMobBase
+- `模板` **SimpleSpaceMobBase** — `SimpleSpaceMobBase` ｜父类: BaseSimpleMob,MobAtmosExposed,MobCombat,MobBloodstream,MobFlammable
+- **智能低音炮** — `SmartSubwooferBorgiChassis` ｜父类: BaseStationBorgiChassis ｜_Starlight
+- **绑架者特工生成点** — `SpawnPointAbductorAgent` ｜父类: MarkerBase ｜_Starlight
+- **绑架者科学家生成点** — `SpawnPointAbductorScientist` ｜父类: MarkerBase ｜_Starlight
+- **正电子脑** — `StationAiBrain` ｜父类: BaseSiliconLanguages,PositronicBrain
+- **正电子脑** — `StationAiBrainConstructed` ｜父类: StationAiBrain
+- **AI 之眼** — `StationAiHolo` ｜父类: Incorporeal,BaseMob
+- **AI 全息影像** — `StationAiHoloLocal`
+- **智能机械狗** — `StationBorgiChassis` ｜父类: BaseStationBorgiChassis ｜_Starlight
+- **低音炮** — `SubwooferBorgiChassis` ｜父类: SmartSubwooferBorgiChassis ｜_Starlight
+- **辛迪加博基** — `SyndiBorgiKit1` ｜父类: BaseSyndicateBorgiChassis ｜_Starlight
+- **辛迪加博基** — `SyndiBorgiKit2` ｜父类: BaseSyndicateBorgiChassis ｜_Starlight
+- **废弃辛迪加突击赛博格** — `SyndicateAssaultBorgChassisDerelict` ｜父类: BaseBorgChassisSyndicateDerelict
+- **辛迪加士兵生成器** — `SyndieSoldierSpawner` ｜父类: MarkerBase
+- **辛迪加小队队长生成器** — `SyndieSoldierTeamLeaderSpawner` ｜父类: MarkerBase
+- **辛迪加灾难受害者生成器** — `SyndieVisitorSpawner` ｜父类: MarkerBase
+- **TSFAiHeld** — `TSFAiHeld` ｜父类: AiHeld ｜_Starlight
+- **太阳政府 AI 核心** — `TSFtationAi` ｜父类: PlayerStationAiEmpty ｜_Starlight
+- **货运部访客生成器** — `VisitingCargonianSpawner` ｜父类: MarkerBase
+- **平民访客生成器** — `VisitingCivilianSpawner` ｜父类: MarkerBase
+- **医疗部访客生成器** — `VisitingMedicalSpawner` ｜父类: MarkerBase
+- **科研部访客生成器** — `VisitingScientistSpawner` ｜父类: MarkerBase
+- **大气技师访客生成器** — `VisitorAtmosTechSpawner` ｜父类: MarkerBase
+- **酒保访客生成器** — `VisitorBartenderSpawner` ｜父类: MarkerBase
+- **黑市商人生成器** — `VisitorBlackmarketeerSpawner` ｜父类: MarkerBase
+- **植物学家访客生成器** — `VisitorBotanistSpawner` ｜父类: MarkerBase
+- **拳击手访客生成器** — `VisitorBoxerSpawner` ｜父类: MarkerBase
+- **舰长访客生成器** — `VisitorCaptainSpawner` ｜父类: MarkerBase
+- **货运技师访客生成器** — `VisitorCargoTechnicianSpawner` ｜父类: MarkerBase
+- **工程主管访客生成器** — `VisitorCESpawner` ｜父类: MarkerBase
+- **牧师访客生成器** — `VisitorChaplainSpawner` ｜父类: MarkerBase
+- **厨师访客生成器** — `VisitorChefSpawner` ｜父类: MarkerBase
+- **药剂师访客生成器** — `VisitorChemistSpawner` ｜父类: MarkerBase
+- **小丑访客生成器** — `VisitorClownSpawner` ｜父类: MarkerBase
+- **医疗主管访客生成器** — `VisitorCMOSpawner` ｜父类: MarkerBase
+- **牙医访客生成器** — `VisitorDentistSpawner` ｜父类: MarkerBase
+- **侦探访客生成器** — `VisitorDetective` ｜父类: MarkerBase
+- **空间站工程师访客生成器** — `VisitorEngineerSpawner` ｜父类: MarkerBase
+- **遗传学家访客生成器** — `VisitorGeneticistSpawner` ｜父类: MarkerBase
+- **人事主管访客生成器** — `VisitorHOPSpawner` ｜父类: MarkerBase
+- **安保主管访客生成器** — `VisitorHOSSpawner` ｜父类: MarkerBase
+- **清洁工访客生成器** — `VisitorJanitorSpawner` ｜父类: MarkerBase
+- **中央指挥部律师访客生成器** — `VisitorLawyerCentcomSpawner` ｜父类: MarkerBase
+- **律师访客生成器** — `VisitorLawyerSpawner` ｜父类: MarkerBase
+- **图书管理员访客生成器** — `VisitorLibrarianSpawner` ｜父类: MarkerBase
+- **医师访客生成器** — `VisitorMedicalDoctorSpawner` ｜父类: MarkerBase
+- **实习医师访客生成器** — `VisitorMedicalInternSpawner` ｜父类: MarkerBase
+- **哑剧演员访客生成器** — `VisitorMimeSpawner` ｜父类: MarkerBase
+- **华丽乐手访客生成器** — `VisitorMusicianFancySpawner` ｜父类: MarkerBase
+- **悠闲乐手访客生成器** — `VisitorMusicianRelaxedSpawner` ｜父类: MarkerBase
+- **乐手访客生成器** — `VisitorMusicianSpawner` ｜父类: MarkerBase
+- **急救员访客生成器** — `VisitorParamedicSpawner` ｜父类: MarkerBase
+- **心理医生访客生成器** — `VisitorPsychologistSpawner` ｜父类: MarkerBase
+- **军需官访客生成器** — `VisitorQMSpawner` ｜父类: MarkerBase
+- **研究主管访客生成器** — `VisitorRDSpawner` ｜父类: MarkerBase
+- **记者访客生成器** — `VisitorReporterSpawner` ｜父类: MarkerBase
+- **研究助理访客生成器** — `VisitorResearchAssistantSpawner` ｜父类: MarkerBase
+- **打捞专员访客生成器** — `VisitorSalvageSpecialistSpawner` ｜父类: MarkerBase
+- **科学家访客生成器** — `VisitorScientistSpawner` ｜父类: MarkerBase
+- **安保学员访客生成器** — `VisitorSecurityCadetSpawner` ｜父类: MarkerBase
+- **安保干员访客生成器** — `VisitorSecurityOfficerSpawner` ｜父类: MarkerBase
+- **服务人员访客生成器** — `VisitorServiceWorkerSpawner` ｜父类: MarkerBase
+- **技术助理访客生成器** — `VisitorTechnicalAssistantSpawner` ｜父类: MarkerBase
+- **病毒学家访客生成器** — `VisitorVirologistSpawner` ｜父类: MarkerBase
+- **典狱长访客生成器** — `VisitorWarden` ｜父类: MarkerBase
+- **动物管理员访客生成器** — `VisitorZookeeperSpawner` ｜父类: MarkerBase
+- **VisualPickupableCloneEntity** — `VisualPickupableCloneEntity` ｜_FarHorizons
+- **精金异种生物学史莱姆** — `XenobiologySlimeAdamantine` ｜父类: XenobiologySlimeBase ｜_Starlight
+- `模板` **XenobiologySlimeBase** — `XenobiologySlimeBase` ｜父类: MobRespirator,MobAtmosStandard,SimpleSpaceMobBase ｜_Starlight
+- **黑色异种生物学史莱姆** — `XenobiologySlimeBlack` ｜父类: XenobiologySlimeBase ｜_Starlight
+- **蓝色异种生物学史莱姆** — `XenobiologySlimeBlue` ｜父类: XenobiologySlimeBase ｜_Starlight
+- **蓝空间异种生物学史莱姆** — `XenobiologySlimeBluespace` ｜父类: XenobiologySlimeBase ｜_Starlight
+- **天蓝色异种生物学史莱姆** — `XenobiologySlimeCerulean` ｜父类: XenobiologySlimeBase ｜_Starlight
+- **深蓝色异种生物学史莱姆** — `XenobiologySlimeDarkBlue` ｜父类: XenobiologySlimeBase ｜_Starlight
+- **深紫色异种生物学史莱姆** — `XenobiologySlimeDarkPurple` ｜父类: XenobiologySlimeBase ｜_Starlight
+- **金色异种生物学史莱姆** — `XenobiologySlimeGold` ｜父类: XenobiologySlimeBase ｜_Starlight
+- **灰色异种生物学史莱姆** — `XenobiologySlimeGray` ｜父类: XenobiologySlimeBase ｜_Starlight
+- **绿色异种生物学史莱姆** — `XenobiologySlimeGreen` ｜父类: XenobiologySlimeBase ｜_Starlight
+- **浅粉色异种生物学史莱姆** — `XenobiologySlimeLightPink` ｜父类: XenobiologySlimeBase ｜_Starlight
+- **金属异种生物学史莱姆** — `XenobiologySlimeMetal` ｜父类: XenobiologySlimeBase ｜_Starlight
+- **油性异种生物学史莱姆** — `XenobiologySlimeOil` ｜父类: XenobiologySlimeBase ｜_Starlight
+- **橙色异种生物学史莱姆** — `XenobiologySlimeOrange` ｜父类: XenobiologySlimeBase ｜_Starlight
+- **粉色异种生物学史莱姆** — `XenobiologySlimePink` ｜父类: XenobiologySlimeBase ｜_Starlight
+- **紫色异种生物学史莱姆** — `XenobiologySlimePurple` ｜父类: XenobiologySlimeBase ｜_Starlight
+- **黄铁矿异种生物学史莱姆** — `XenobiologySlimePyrite` ｜父类: XenobiologySlimeBase ｜_Starlight
+- **彩虹异种生物学史莱姆** — `XenobiologySlimeRainbow` ｜父类: XenobiologySlimeBase ｜_Starlight
+- **红色异种生物学史莱姆** — `XenobiologySlimeRed` ｜父类: XenobiologySlimeBase ｜_Starlight
+- **深褐色异种生物学史莱姆** — `XenobiologySlimeSepia` ｜父类: XenobiologySlimeBase ｜_Starlight
+- **银色异种生物学史莱姆** — `XenobiologySlimeSilver` ｜父类: XenobiologySlimeBase ｜_Starlight
+- **黄色异种生物学史莱姆** — `XenobiologySlimeYellow` ｜父类: XenobiologySlimeBase ｜_Starlight
+- **工程异种赛博格** — `XenoborgEngi` ｜父类: BaseXenoborgChassis,BaseXenoborgTransponder
+- **废弃工程异种赛博格** — `XenoborgEngiDerelict` ｜父类: BaseXenoborgChassisDerelict ｜_Starlight
+- **工程异种赛博格** — `XenoborgEngiFilled` ｜父类: XenoborgEngi ｜_Starlight
+- **工程异种赛博格** — `XenoborgEngiPrinted` ｜父类: XenoborgEngi
+- **重型异种赛博格** — `XenoborgHeavy` ｜父类: BaseXenoborgChassis,BaseXenoborgTransponder
+- **废弃重型异种赛博格** — `XenoborgHeavyDerelict` ｜父类: BaseXenoborgChassisDerelict ｜_Starlight
+- **重型异种赛博格** — `XenoborgHeavyFilled` ｜父类: XenoborgHeavy ｜_Starlight
+- **重型异种赛博格** — `XenoborgHeavyPrinted` ｜父类: XenoborgHeavy
+- **异种博基** — `XenoBorgi` ｜父类: XenoBorgiChassis ｜_Starlight
+- **异种博基** — `XenoBorgiChassis` ｜父类: BaseXenoBorgiLanguages,BaseXenoborgChassis,BaseXenoborgTransponder,BaseBorgiChassis ｜_Starlight
+- **废弃异种博基** — `XenoBorgiDerelict` ｜父类: XenoBorgiDerelictBase ｜_Starlight
+- **废弃异种博基** — `XenoBorgiDerelictBase` ｜父类: BaseXenoBorgiLanguages,BaseXenoborgChassisDerelict,BaseXenoborgTransponder,DerelictBorgiChassis ｜_Starlight
+- **异种博基** — `XenoBorgiPrinted` ｜父类: XenoBorgiChassis ｜_Starlight
+- **侦察异种赛博格** — `XenoborgScout` ｜父类: BaseXenoborgChassis,BaseXenoborgTransponder
+- **废弃侦察异种赛博格** — `XenoborgScoutDerelict` ｜父类: BaseXenoborgChassisDerelict ｜_Starlight
+- **侦察异种赛博格** — `XenoborgScoutFilled` ｜父类: XenoborgScout ｜_Starlight
+- **侦察异种赛博格** — `XenoborgScoutPrinted` ｜父类: XenoborgScout
+- **隐形异种赛博格** — `XenoborgStealth` ｜父类: BaseXenoborgChassis,BaseXenoborgTransponder
+- **废弃隐形异种赛博格** — `XenoborgStealthDerelict` ｜父类: BaseXenoborgChassisDerelict ｜_Starlight
+- **隐形异种赛博格** — `XenoborgStealthFilled` ｜父类: XenoborgStealth ｜_Starlight
+- **隐形异种赛博格** — `XenoborgStealthPrinted` ｜父类: XenoborgStealth

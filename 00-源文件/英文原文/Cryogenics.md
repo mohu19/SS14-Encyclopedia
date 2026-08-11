@@ -1,0 +1,52 @@
+# 低温治疗（EN 源文件）
+
+> 条目ID: `Cryogenics` ｜ 来源层: official ｜ 分类: medical
+> 翻译提示：保留全部数值/专有名词/`[[实体:X]]`/颜色span；专有名词基准见 00-源文件/翻译规范.md
+
+---
+
+<!-- 无中文正文,以下为英文原文 -->
+
+# Cryogenics
+Cryogenics can be a bit daunting to understand, but hopefully, quick run through of this diagram, you'll learn how to work it! So, let's go over what each part does:
+
+- Air in: Air comes in here through the distro or an air tank, giving those inside something to breathe, and the freezer something to chill.
+- Gas pump: Limits the network pressure, so those in the tube aren't crushed.
+- Freezer: Chills the air, and by extension, patients in the tube, so Cryoxadone can activate.
+- Gas filters: Removes waste gas (Carbon Dioxide and Nitrous Oxide) from the loop.
+- Air out: Waste gasses go here, either into a storage tank, or into the waste network.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Not every network will look like this, but hopefully, it's enough to give you the basic gist of how it's functioning.
+
+An important thing to note, winter clothing (and hardsuits) will make cryogenic treatment less, or completely ineffective. Be sure to remove cold preventative clothing before placing people in the pod.
+
+## Using the Pod
+Once things have been set up, you're going to require a specific medication, Cryoxadone. Cryoxadone heals all damage types when a patient is chilled, and can either be pre-administered (with a pill), or loaded into the cell directly with a beaker. Do note, patients won't begin to heal until they've chilled to the appropriate temperature, it may be worthwhile to wait a bit before placing a beaker inside.
+
+## Additional Information:
+
+The standard pressure for a gas pump is 100.325 kpa. Cryoxadone works at under 170K, but it is standard practice to set the freezer to 100K for faster freezing.

@@ -1,0 +1,75 @@
+# 实体清单：Roles（71 个）
+
+> 来源层分布: 上游 36, _Starlight 28, _Moffstation 7
+
+- **制造隐形墙** — `ActionMimeInvisibleWall` ｜父类: BaseAction
+- `模板` **心智角色** — `BaseMindRole`
+- `模板` **BaseMindRoleAntag** — `BaseMindRoleAntag` ｜父类: BaseMindRole
+- **辛迪加背包** — `ClothingBackpackSyndicateGMNDamageControl` ｜父类: ClothingBackpackSyndicate ｜_Starlight
+- **辛迪加背包** — `ClothingBackpackSyndicateGMNGunner` ｜父类: ClothingBackpackSyndicate ｜_Starlight
+- **明眼者角色** — `MindRoleBrighteye` ｜父类: BaseMindRoleAntag ｜_Starlight
+- **拟形怪角色** — `MindRoleChangeling` ｜父类: BaseMindRoleAntag
+- **魔鬼角色** — `MindRoleDevil` ｜父类: BaseMindRoleAntag ｜_Starlight
+- **巨龙角色** — `MindRoleDragon` ｜父类: BaseMindRoleAntag
+- **幽灵角色（中央指挥部阵营）** — `MindRoleGhostCentCommAligned` ｜父类: MindRoleGhostRoleNeutral ｜_Starlight
+- **幽灵角色（公司阵营）** — `MindRoleGhostCorporateAligned` ｜父类: MindRoleGhostRoleNeutral ｜_Starlight
+- **幽灵角色（无害机器人）** — `MindRoleGhostRoleBotHarmless` ｜父类: MindRoleGhostRoleNeutral ｜_Starlight
+- **幽灵角色（无害小动物）** — `MindRoleGhostRoleCritterHarmless` ｜父类: MindRoleGhostRoleNeutral ｜_Starlight
+- **幽灵角色（使魔）** — `MindRoleGhostRoleFamiliar` ｜父类: MindRoleGhostRoleNeutral
+- **幽灵角色（自由特工）** — `MindRoleGhostRoleFreeAgent` ｜父类: BaseMindRoleAntag,MindRoleGhostRoleNeutral
+- **幽灵角色（自由特工）** — `MindRoleGhostRoleFreeAgentHarmless` ｜父类: MindRoleGhostRoleNeutral
+- **幽灵角色（骷髅）** — `MindRoleGhostRoleFreeAgentSkeleton` ｜父类: MindRoleGhostRoleNeutral ｜_Starlight
+- **幽灵角色（领带）** — `MindRoleGhostRoleNecktie` ｜父类: MindRoleGhostRoleNeutral ｜_Starlight
+- **幽灵角色** — `MindRoleGhostRoleNeutral` ｜父类: BaseMindRole
+- **幽灵角色（骷髅）** — `MindRoleGhostRoleNeutralSkeleton` ｜父类: MindRoleGhostRoleNeutral ｜_Starlight
+- **幽灵角色（pAI使魔）** — `MindRoleGhostRolePAI` ｜父类: MindRoleGhostRoleNeutral ｜_Starlight
+- **幽灵角色（硅基）** — `MindRoleGhostRoleSilicon` ｜父类: MindRoleGhostRoleNeutral
+- **幽灵角色（硅基敌对角色）** — `MindRoleGhostRoleSiliconAntagonist` ｜父类: BaseMindRoleAntag,MindRoleGhostRoleNeutral
+- **幽灵角色（单人敌对角色）** — `MindRoleGhostRoleSoloAntagonist` ｜父类: BaseMindRoleAntag,MindRoleGhostRoleNeutral
+- **幽灵角色（团队敌对角色）** — `MindRoleGhostRoleTeamAntagonist` ｜父类: BaseMindRoleAntag,MindRoleGhostRoleNeutral
+- **幽灵角色（团队敌对角色）** — `MindRoleGhostRoleTeamAntagonistFlock` ｜父类: MindRoleGhostRoleTeamAntagonist
+- **幽灵角色（太空快递箱pAI使魔）** — `MindRoleGhostRoleTrunkPAI` ｜父类: MindRoleGhostRoleNeutral ｜_Starlight
+- **幽灵角色（异形）** — `MindRoleGhostRoleXeno` ｜父类: MindRoleGhostRoleNeutral ｜_Starlight
+- **幽灵角色（TSF阵营）** — `MindRoleGhostTSFAligned` ｜父类: MindRoleGhostRoleNeutral ｜_Starlight
+- **革命领袖角色** — `MindRoleHeadRevolutionary` ｜父类: BaseMindRoleAntag
+- **初始感染者角色** — `MindRoleInitialInfected` ｜父类: BaseMindRoleAntag
+- **职位角色** — `MindRoleJob` ｜父类: BaseMindRole
+- **独行绑架者角色** — `MindRoleLoneAbductor` ｜父类: BaseMindRoleAntag ｜_Starlight
+- **独狼核弹特工角色** — `MindRoleLoneops` ｜父类: MindRoleNukeops
+- **心灵受控角色** — `MindRoleMindControlled` ｜父类: BaseMindRoleAntag ｜_Starlight
+- **母舰核心角色** — `MindRoleMothershipCore` ｜父类: BaseMindRoleAntag
+- **太空忍者角色** — `MindRoleNinja` ｜父类: BaseMindRoleAntag
+- **核弹特工角色** — `MindRoleNukeops` ｜父类: BaseMindRoleAntag
+- **核弹特工指挥官角色** — `MindRoleNukeopsCommander` ｜父类: MindRoleNukeops
+- **核弹特工医疗兵角色** — `MindRoleNukeopsMedic` ｜父类: MindRoleNukeops
+- **观察者角色** — `MindRoleObserver` ｜父类: BaseMindRole
+- **悖论克隆人角色** — `MindRoleParadoxClone` ｜父类: BaseMindRoleAntag
+- **海盗角色** — `MindRolePirate` ｜父类: BaseMindRoleAntag ｜_Starlight
+- **海盗船长角色** — `MindRolePirateCaptain` ｜父类: MindRolePirate ｜_Starlight
+- **幽灵角色（鼠王）** — `MindRoleRatKing` ｜父类: MindRoleGhostRoleNeutral ｜_Starlight
+- **革命者角色** — `MindRoleRevolutionary` ｜父类: MindRoleHeadRevolutionary
+- **S.E.L.F.特工** — `MindRoleSELFAgent` ｜父类: BaseMindRoleAntag ｜_Starlight
+- **赛博格大脑角色** — `MindRoleSiliconBrain` ｜父类: BaseMindRole
+- **苏维埃特种部队角色** — `MindRoleSSF` ｜父类: BaseMindRoleAntag ｜_Starlight
+- **被颠覆硅基角色** — `MindRoleSubvertedSilicon` ｜父类: BaseMindRoleAntag
+- **幸存者角色** — `MindRoleSurvivor` ｜父类: BaseMindRoleAntag
+- **终结者角色** — `MindRoleTerminator` ｜父类: BaseMindRoleAntag ｜_Starlight
+- **恐怖公主角色** — `MindRoleTerrorPrincess` ｜父类: BaseMindRoleAntag ｜_Starlight
+- **小偷角色** — `MindRoleThief` ｜父类: BaseMindRoleAntag
+- **血仆角色** — `MindRoleThrall` ｜父类: BaseMindRoleAntag ｜_Starlight
+- **叛徒角色** — `MindRoleTraitor` ｜父类: BaseMindRoleAntag
+- **辛迪加增援角色** — `MindRoleTraitorReinforcement` ｜父类: MindRoleTraitor
+- **潜伏特工角色** — `MindRoleTraitorSleeper` ｜父类: MindRoleTraitor
+- **吸血鬼角色** — `MindRoleVampire` ｜父类: BaseMindRoleAntag ｜_Starlight
+- **巫师角色** — `MindRoleWizard` ｜父类: BaseMindRoleAntag
+- **巫师决斗者角色** — `MindRoleWizardDuelistBase` ｜父类: MindRoleWizard ｜_Moffstation
+- **蓝色巫师决斗者角色** — `MindRoleWizardDuelistBlue` ｜父类: MindRoleWizardDuelistBase ｜_Moffstation
+- **绿色巫师决斗者角色** — `MindRoleWizardDuelistGreen` ｜父类: MindRoleWizardDuelistBase ｜_Moffstation
+- **橙色巫师决斗者角色** — `MindRoleWizardDuelistOrange` ｜父类: MindRoleWizardDuelistBase ｜_Moffstation
+- **紫袍巫师决斗者角色** — `MindRoleWizardDuelistPurple` ｜父类: MindRoleWizardDuelistBase ｜_Moffstation
+- **红色巫师决斗者角色** — `MindRoleWizardDuelistRed` ｜父类: MindRoleWizardDuelistBase ｜_Moffstation
+- **黄色巫师决斗者角色** — `MindRoleWizardDuelistYellow` ｜父类: MindRoleWizardDuelistBase ｜_Moffstation
+- **异形赛博格角色** — `MindRoleXenoborg` ｜父类: BaseMindRoleAntag
+- **丧尸角色** — `MindRoleZombie` ｜父类: MindRoleGhostRoleTeamAntagonistFlock
+- **罪犯角色** — `RRMindRoleCriminal` ｜父类: BaseMindRoleAntag ｜_Starlight
+- **逃兵角色** — `RRMindRoleDeserter` ｜_Starlight

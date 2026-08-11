@@ -1,0 +1,3950 @@
+# 实体清单：Structures（3946 个）
+
+> 来源层分布: 上游 2385, _Starlight 1413, _Carpmosia 70, _FarHorizons 47, _Funkystation 23, _Moffstation 4, _TP 4
+
+- **外星传送台** — `AbductorAlienPad` ｜父类: BaseMachinePowered,ConstructibleMachine ｜_Starlight
+- **功能设备** — `AbductorConsole` ｜父类: BaseComputer ｜_Starlight
+- **实验装置** — `AbductorExperimentator` ｜父类: BaseStructure ｜_Starlight
+- **功能设备** — `AbductorHumanObservationConsole` ｜父类: BaseComputer ｜_Starlight
+- **???** — `AbductorHumanObservationConsoleEye` ｜父类: Incorporeal,BaseMob ｜_Starlight
+- **绑架者手术台** — `AbductorOperatingTable` ｜父类: OperatingTable ｜_Starlight
+- **空气警报器** — `AirAlarm` ｜父类: BaseWallmountMachine
+- **空气警报器组件** — `AirAlarmAssembly` ｜父类: BaseWallmountMetallic
+- **大气警报器组件** — `AirAlarmAssemblyXeno` ｜父类: AirAlarmAssembly
+- **空气警报器** — `AirAlarmFreezer` ｜父类: AirAlarm
+- **空气警报器** — `AirAlarmNoLowerBound` ｜父类: AirAlarm ｜_Starlight
+- **空气警报器** — `AirAlarmVox` ｜父类: AirAlarm
+- **大气警报器** — `AirAlarmXeno` ｜父类: AirAlarm
+- **空气罐** — `AirCanister` ｜父类: GasCanister
+- **损坏的 气罐** — `AirCanisterBroken` ｜父类: GasCanisterBrokenBase
+- **空气罐** — `AirCanisterEmpty` ｜父类: AirCanister ｜_Starlight
+- **气闸门** — `Airlock` ｜父类: BaseStructure,BaseStructureDissolvable
+- **玻璃气闸门** — `AirlockArmoryGlassLocked` ｜父类: AirlockSecurityGlass
+- **气闸门** — `AirlockArmoryLocked` ｜父类: AirlockSecurity
+- **气闸门组件** — `AirlockAssembly`
+- **气闸门组件** — `AirlockAssemblyAtmospherics` ｜父类: AirlockAssembly
+- **气闸门组件** — `AirlockAssemblyAtmosphericsGlass` ｜父类: AirlockAssembly
+- **气闸门组件** — `AirlockAssemblyBrigmed` ｜父类: AirlockAssembly ｜_Starlight
+- **气闸门组件** — `AirlockAssemblyBrigmedGlass` ｜父类: AirlockAssembly ｜_Starlight
+- **气闸门组件** — `AirlockAssemblyCargo` ｜父类: AirlockAssembly
+- **气闸门组件** — `AirlockAssemblyCargoGlass` ｜父类: AirlockAssembly
+- **气闸门组件** — `AirlockAssemblyCentralCommand` ｜父类: AirlockAssembly
+- **气闸门组件** — `AirlockAssemblyCentralCommandGlass` ｜父类: AirlockAssembly
+- **气闸门组件** — `AirlockAssemblyCommand` ｜父类: AirlockAssembly
+- **气闸门组件** — `AirlockAssemblyCommandGlass` ｜父类: AirlockAssembly
+- **气闸门组件** — `AirlockAssemblyEngineering` ｜父类: AirlockAssembly
+- **气闸门组件** — `AirlockAssemblyEngineeringGlass` ｜父类: AirlockAssembly
+- **气闸门组件** — `AirlockAssemblyEVA` ｜父类: AirlockAssembly ｜_Starlight
+- **气闸门组件** — `AirlockAssemblyEVAGlass` ｜父类: AirlockAssembly ｜_Starlight
+- **气闸门组件** — `AirlockAssemblyExternal` ｜父类: AirlockAssembly
+- **气闸门组件** — `AirlockAssemblyExternalGlass` ｜父类: AirlockAssembly
+- **气闸门组件** — `AirlockAssemblyFreezer` ｜父类: AirlockAssembly
+- **气闸门组件** — `AirlockAssemblyGlass` ｜父类: AirlockAssembly
+- **气闸门组件** — `AirlockAssemblyHighSec` ｜父类: AirlockAssembly
+- **气闸门组件** — `AirlockAssemblyHydroponics` ｜父类: AirlockAssembly
+- **气闸门组件** — `AirlockAssemblyHydroponicsGlass` ｜父类: AirlockAssembly
+- **气闸门组件** — `AirlockAssemblyMail` ｜父类: AirlockAssembly ｜_Starlight
+- **气闸门组件** — `AirlockAssemblyMailGlass` ｜父类: AirlockAssembly ｜_Starlight
+- **气闸门组件** — `AirlockAssemblyMaintenance` ｜父类: AirlockAssembly
+- **气闸门组件** — `AirlockAssemblyMaintenanceGlass` ｜父类: AirlockAssembly
+- **气闸门组件** — `AirlockAssemblyMedical` ｜父类: AirlockAssembly
+- **气闸门组件** — `AirlockAssemblyMedicalGlass` ｜父类: AirlockAssembly
+- **气闸门组件** — `AirlockAssemblyMining` ｜父类: AirlockAssembly
+- **气闸门组件** — `AirlockAssemblyMiningCargo` ｜父类: AirlockAssembly ｜_Starlight
+- **气闸门组件** — `AirlockAssemblyMiningCargoGlass` ｜父类: AirlockAssembly ｜_Starlight
+- **气闸门组件** — `AirlockAssemblyMiningGlass` ｜父类: AirlockAssembly
+- **气闸门组件** — `AirlockAssemblyParamedic` ｜父类: AirlockAssembly ｜_Starlight
+- **气闸门组件** — `AirlockAssemblyParamedicGlass` ｜父类: AirlockAssembly ｜_Starlight
+- **气闸门组件** — `AirlockAssemblyRetroMining` ｜父类: AirlockAssembly ｜_Starlight
+- **气闸门组件** — `AirlockAssemblyRetroMiningGlass` ｜父类: AirlockAssembly ｜_Starlight
+- **气闸门组件** — `AirlockAssemblyRetroSalvage` ｜父类: AirlockAssembly ｜_Starlight
+- **气闸门组件** — `AirlockAssemblyRetroSalvageGlass` ｜父类: AirlockAssembly ｜_Starlight
+- **气闸门组件** — `AirlockAssemblyRetroSalvageMining` ｜父类: AirlockAssembly ｜_Starlight
+- **气闸门组件** — `AirlockAssemblyRetroSalvageMiningGlass` ｜父类: AirlockAssembly ｜_Starlight
+- **气闸门组件** — `AirlockAssemblyRobotics` ｜父类: AirlockAssembly ｜_Starlight
+- **气闸门组件** — `AirlockAssemblyRoboticsGlass` ｜父类: AirlockAssembly ｜_Starlight
+- **气闸门组件** — `AirlockAssemblySalvage` ｜父类: AirlockAssembly
+- **气闸门组件** — `AirlockAssemblySalvageGlass` ｜父类: AirlockAssembly
+- **气闸门组件** — `AirlockAssemblySalvageMining` ｜父类: AirlockAssembly ｜_Starlight
+- **气闸门组件** — `AirlockAssemblySalvageMiningGlass` ｜父类: AirlockAssembly ｜_Starlight
+- **气闸门组件** — `AirlockAssemblyScience` ｜父类: AirlockAssembly
+- **气闸门组件** — `AirlockAssemblyScienceGlass` ｜父类: AirlockAssembly
+- **气闸门组件** — `AirlockAssemblySecurity` ｜父类: AirlockAssembly
+- **气闸门组件** — `AirlockAssemblySecurityGlass` ｜父类: AirlockAssembly
+- **气闸门组件** — `AirlockAssemblyShuttle` ｜父类: AirlockAssembly
+- **气闸门组件** — `AirlockAssemblyShuttleGlass` ｜父类: AirlockAssembly
+- **气闸门组件** — `AirlockAssemblyShuttleSyndicate` ｜父类: AirlockAssembly
+- **气闸门组件** — `AirlockAssemblyShuttleSyndicateGlass` ｜父类: AirlockAssembly
+- **气闸门组件** — `AirlockAssemblySurgery` ｜父类: AirlockAssembly ｜_Starlight
+- **气闸门组件** — `AirlockAssemblySurgeryGlass` ｜父类: AirlockAssembly ｜_Starlight
+- **气闸门组件** — `AirlockAssemblySyndicate` ｜父类: AirlockAssembly
+- **气闸门组件** — `AirlockAssemblySyndicateGlass` ｜父类: AirlockAssembly
+- **气闸门组件** — `AirlockAssemblyVirology` ｜父类: AirlockAssembly
+- **气闸门组件** — `AirlockAssemblyVirologyGlass` ｜父类: AirlockAssembly
+- **气闸门** — `AirlockAtmospherics` ｜父类: AirlockEngineering
+- **玻璃气闸门** — `AirlockAtmosphericsGlass` ｜父类: AirlockEngineeringGlass
+- **玻璃气闸门** — `AirlockAtmosphericsGlassLocked` ｜父类: AirlockAtmosphericsGlass
+- **气闸门** — `AirlockAtmosphericsLocked` ｜父类: AirlockAtmospherics
+- **玻璃气闸门** — `AirlockAttorneyGlassLocked` ｜父类: AirlockServiceGlassLocked ｜_Starlight
+- **气闸门** — `AirlockAttorneyLocked` ｜父类: AirlockServiceLocked ｜_Starlight
+- **玻璃气闸门** — `AirlockBarGlassLocked` ｜父类: AirlockServiceGlassLocked
+- **玻璃气闸门** — `AirlockBarKitchenGlassLocked` ｜父类: AirlockServiceGlassLocked
+- **气闸门** — `AirlockBarKitchenLocked` ｜父类: AirlockServiceLocked
+- **气闸门** — `AirlockBarLocked` ｜父类: AirlockServiceLocked
+- **玻璃气闸门** — `AirlockBlackstarGlassLocked` ｜父类: AirlockGlass ｜_Starlight
+- **气闸门** — `AirlockBlackstarLocked` ｜父类: Airlock ｜_Starlight
+- **玻璃气闸门** — `AirlockBrigGlassLocked` ｜父类: AirlockSecurityGlass
+- **气闸门** — `AirlockBrigLocked` ｜父类: AirlockSecurity
+- **气闸门** — `AirlockBrigmed` ｜父类: Airlock ｜_Starlight
+- **玻璃气闸门** — `AirlockBrigmedGlass` ｜父类: AirlockGlass ｜_Starlight
+- **玻璃气闸门** — `AirlockBrigmedGlassLocked` ｜父类: AirlockBrigmedGlass ｜_Starlight
+- **气闸门** — `AirlockBrigmedLocked` ｜父类: AirlockBrigmed ｜_Starlight
+- **气闸门** — `AirlockBrigmedPara` ｜父类: Airlock ｜_Starlight
+- **玻璃气闸门** — `AirlockBrigmedParaGlass` ｜父类: AirlockGlass ｜_Starlight
+- **玻璃气闸门** — `AirlockBrigmedParaGlassLocked` ｜父类: AirlockBrigmedParaGlass ｜_Starlight
+- **气闸门** — `AirlockBrigmedParaLocked` ｜父类: AirlockBrigmedPara ｜_Starlight
+- **玻璃气闸门** — `AirlockCaptainGlassLocked` ｜父类: AirlockCommandGlass
+- **气闸门** — `AirlockCaptainLocked` ｜父类: AirlockCommand
+- **气闸门** — `AirlockCargo` ｜父类: Airlock
+- **玻璃气闸门** — `AirlockCargoGlass` ｜父类: AirlockGlass
+- **玻璃气闸门** — `AirlockCargoGlassLocked` ｜父类: AirlockCargoGlass
+- **气闸门** — `AirlockCargoLocked` ｜父类: AirlockCargo
+- **气闸门** — `AirlockCentralCommand` ｜父类: Airlock
+- **玻璃气闸门** — `AirlockCentralCommandGlass` ｜父类: AirlockGlass
+- **玻璃气闸门** — `AirlockCentralCommandGlassLocked` ｜父类: AirlockCentralCommandGlass
+- **气闸门** — `AirlockCentralCommandLocked` ｜父类: AirlockCentralCommand
+- **玻璃气闸门** — `AirlockChapelGlassLocked` ｜父类: AirlockServiceGlassLocked
+- **气闸门** — `AirlockChapelLocked` ｜父类: AirlockServiceLocked
+- **玻璃气闸门** — `AirlockChapelStandardGlassLocked` ｜父类: AirlockStandardGlass
+- **气闸门** — `AirlockChemistry` ｜父类: AirlockMedical
+- **玻璃气闸门** — `AirlockChemistryGlass` ｜父类: AirlockMedicalGlass
+- **玻璃气闸门** — `AirlockChemistryGlassLocked` ｜父类: AirlockChemistryGlass
+- **气闸门** — `AirlockChemistryLocked` ｜父类: AirlockChemistry
+- **气闸门** — `AirlockChemistryLockedSyndicate` ｜父类: AirlockChemistry ｜_Starlight
+- **玻璃气闸门** — `AirlockChiefEngineerGlassLocked` ｜父类: AirlockCommandGlass
+- **气闸门** — `AirlockChiefEngineerLocked` ｜父类: AirlockCommand
+- **玻璃气闸门** — `AirlockChiefMedicalOfficerGlassLocked` ｜父类: AirlockCommandGlass
+- **气闸门** — `AirlockChiefMedicalOfficerLocked` ｜父类: AirlockCommand
+- **气闸门** — `AirlockCommand` ｜父类: Airlock
+- **玻璃气闸门** — `AirlockCommandGlass` ｜父类: AirlockGlass
+- **玻璃气闸门** — `AirlockCommandGlassLocked` ｜父类: AirlockCommandGlass
+- **玻璃气闸门** — `AirlockCommandGlassLockedSyndicate` ｜父类: AirlockCommandGlass ｜_Starlight
+- **气闸门** — `AirlockCommandLocked` ｜父类: AirlockCommand
+- **气闸门** — `AirlockCommandLockedSyndicate` ｜父类: AirlockCommand ｜_Starlight
+- **玻璃气闸门** — `AirlockCommunistGlassLocked` ｜父类: AirlockGlass ｜_Starlight
+- **气闸门** — `AirlockCommunistLocked` ｜父类: Airlock ｜_Starlight
+- **玻璃气闸门** — `AirlockCourtroomGlassLocked` ｜父类: AirlockSecurityGlassLocked ｜_Starlight
+- **气闸门** — `AirlockCourtroomLocked` ｜父类: AirlockSecurityLocked ｜_Starlight
+- **玻璃气闸门** — `AirlockDetectiveGlassLocked` ｜父类: AirlockSecurityGlass
+- **气闸门** — `AirlockDetectiveLocked` ｜父类: AirlockSecurity
+- **气闸门** — `AirlockEngineering` ｜父类: Airlock
+- **玻璃气闸门** — `AirlockEngineeringGlass` ｜父类: AirlockGlass
+- **玻璃气闸门** — `AirlockEngineeringGlassLocked` ｜父类: AirlockEngineeringGlass
+- **玻璃气闸门** — `AirlockEngineeringGlassLockedSyndicate` ｜父类: AirlockEngineeringGlass ｜_Starlight
+- **气闸门** — `AirlockEngineeringLocked` ｜父类: AirlockEngineering
+- **气闸门** — `AirlockEngineeringLockedSyndicate` ｜父类: AirlockEngineering ｜_Starlight
+- **气闸门** — `AirlockEVA` ｜父类: Airlock ｜_Starlight
+- **玻璃气闸门** — `AirlockEVAGlass` ｜父类: AirlockGlass ｜_Starlight
+- **AirlockEVAGlassLocked** — `AirlockEVAGlassLocked` ｜父类: AirlockEVAGlass
+- **AirlockEVALocked** — `AirlockEVALocked` ｜父类: AirlockEVA
+- **气闸门** — `AirlockExternal` ｜父类: AirlockRCDResistant
+- **气闸门** — `AirlockExternalAtmosphericsLocked` ｜父类: AirlockExternal
+- **气闸门** — `AirlockExternalBlackstarLocked` ｜父类: AirlockExternal ｜_Starlight
+- **气闸门** — `AirlockExternalCargoLocked` ｜父类: AirlockExternal
+- **气闸门** — `AirlockExternalCommandLocked` ｜父类: AirlockExternal
+- **气闸门** — `AirlockExternalCommunistLocked` ｜父类: AirlockExternal ｜_Starlight
+- **气闸门** — `AirlockExternalEngineeringLocked` ｜父类: AirlockExternal
+- **气闸门** — `AirlockExternalGlass` ｜父类: AirlockExternal
+- **气闸门** — `AirlockExternalGlassAtmosphericsLocked` ｜父类: AirlockExternalGlass
+- **气闸门** — `AirlockExternalGlassBlackstarLocked` ｜父类: AirlockExternalGlass ｜_Starlight
+- **气闸门** — `AirlockExternalGlassCargoLocked` ｜父类: AirlockExternalGlass
+- **气闸门** — `AirlockExternalGlassCommandLocked` ｜父类: AirlockExternalGlass
+- **气闸门** — `AirlockExternalGlassCommunistLocked` ｜父类: AirlockExternalGlass ｜_Starlight
+- **气闸门** — `AirlockExternalGlassEngineeringLocked` ｜父类: AirlockExternalGlass
+- **气闸门** — `AirlockExternalGlassLocked` ｜父类: AirlockExternalGlass
+- **气闸门** — `AirlockExternalGlassNukeopLocked` ｜父类: AirlockExternalGlass
+- **外部气闸门** — `AirlockExternalGlassNukeopsShuttle` ｜父类: AirlockGlassShuttleSyndicate ｜_Starlight
+- **气闸门** — `AirlockExternalGlassPirateLocked` ｜父类: AirlockExternalGlass ｜_Starlight
+- **外部气闸门** — `AirlockExternalGlassShuttleArrivals` ｜父类: AirlockGlassShuttle
+- **外部气闸门** — `AirlockExternalGlassShuttleEmergencyLocked` ｜父类: AirlockGlassShuttle
+- **外部气闸门** — `AirlockExternalGlassShuttleEscape` ｜父类: AirlockGlassShuttle
+- **外部气闸门** — `AirlockExternalGlassShuttleEscapeLifeboat` ｜父类: AirlockExternalGlassShuttleEscape ｜_Starlight
+- **外部气闸门** — `AirlockExternalGlassShuttleEscapeLocked` ｜父类: AirlockExternalGlassShuttleEmergencyLocked ｜_Starlight
+- **外部气闸门** — `AirlockExternalGlassShuttleGamma` ｜父类: AirlockGlassShuttleSyndicate ｜_Starlight
+- **外部气闸门** — `AirlockExternalGlassShuttleLocked` ｜父类: AirlockGlassShuttle
+- **外部气闸门** — `AirlockExternalGlassShuttleNukeopLocked` ｜父类: AirlockGlassShuttleSyndicate
+- **外部气闸门** — `AirlockExternalGlassShuttlePirateLocked` ｜父类: AirlockGlassShuttleSyndicate ｜_Starlight
+- **外部气闸门** — `AirlockExternalGlassShuttleSyndicateLocked` ｜父类: AirlockGlassShuttleSyndicate
+- **气闸门** — `AirlockExternalGlassSolgovLocked` ｜父类: AirlockExternalGlass ｜_Starlight
+- **气闸门** — `AirlockExternalGlassSyndicateLocked` ｜父类: AirlockExternalGlass
+- **气闸门** — `AirlockExternalGlassWizardLocked` ｜父类: AirlockExternalGlass ｜_Starlight
+- **气闸门** — `AirlockExternalLocked` ｜父类: AirlockExternal
+- **气闸门** — `AirlockExternalNukeopLocked` ｜父类: AirlockExternal
+- **外部气闸门** — `AirlockExternalShuttleGamma` ｜父类: AirlockShuttleSyndicate ｜_Starlight
+- **外部气闸门** — `AirlockExternalShuttleLocked` ｜父类: AirlockShuttle
+- **外部气闸门** — `AirlockExternalShuttleNukeopLocked` ｜父类: AirlockShuttleSyndicate
+- **外部气闸门** — `AirlockExternalShuttlePirateLocked` ｜父类: AirlockShuttleSyndicate ｜_Starlight
+- **外部气闸门** — `AirlockExternalShuttleSyndicateLocked` ｜父类: AirlockShuttleSyndicate
+- **气闸门** — `AirlockExternalSolgovLocked` ｜父类: AirlockExternal ｜_Starlight
+- **气闸门** — `AirlockExternalSyndicateLocked` ｜父类: AirlockExternal
+- **气闸门** — `AirlockExternalWizardLocked` ｜父类: AirlockExternal ｜_Starlight
+- **气闸门** — `AirlockFreezer` ｜父类: Airlock
+- **气闸门** — `AirlockFreezerHydroponicsLocked` ｜父类: AirlockFreezer
+- **气闸门** — `AirlockFreezerKitchenHydroLocked` ｜父类: AirlockFreezer
+- **气闸门** — `AirlockFreezerLocked` ｜父类: AirlockFreezer
+- **玻璃气闸门** — `AirlockGlass` ｜父类: Airlock
+- **外部气闸门** — `AirlockGlassShuttle` ｜父类: AirlockShuttle
+- **外部气闸门** — `AirlockGlassShuttleBlackstarLocked` ｜父类: AirlockGlassShuttle ｜_Starlight
+- **外部气闸门** — `AirlockGlassShuttleCommunistLocked` ｜父类: AirlockGlassShuttle ｜_Starlight
+- **外部气闸门** — `AirlockGlassShuttleSolgovLocked` ｜父类: AirlockGlassShuttleSyndicate ｜_Starlight
+- **外部气闸门** — `AirlockGlassShuttleSyndicate` ｜父类: AirlockGlassShuttle
+- **外部气闸门** — `AirlockGlassShuttleVisitorLocked` ｜父类: AirlockGlassShuttle ｜_Starlight
+- **外部气闸门** — `AirlockGlassShuttleWizardLocked` ｜父类: AirlockGlassShuttle ｜_Starlight
+- **外部气闸门** — `AirlockGlassShuttleXenoborgLocked` ｜父类: AirlockShuttleXenoborg
+- **玻璃气闸门** — `AirlockGlassXeno` ｜父类: AirlockGlass
+- **气密舱口** — `AirlockHatch` ｜父类: Airlock
+- **结构** — `AirlockHatchBlackstarLocked` ｜父类: AirlockHatch ｜_Starlight
+- **结构** — `AirlockHatchCommunistLocked` ｜父类: AirlockHatch ｜_Starlight
+- **维护舱口** — `AirlockHatchMaintenance` ｜父类: Airlock
+- **维护舱口** — `AirlockHatchMaintenanceBlackstarLocked` ｜父类: AirlockHatchMaintenance ｜_Starlight
+- **维护舱口** — `AirlockHatchMaintenanceCommunistLocked` ｜父类: AirlockHatchMaintenance ｜_Starlight
+- **维护舱口** — `AirlockHatchMaintenanceLocked` ｜父类: AirlockHatchMaintenance
+- **维护舱口** — `AirlockHatchMaintenanceSolgovLocked` ｜父类: AirlockHatchMaintenance ｜_Starlight
+- **维护舱口** — `AirlockHatchMaintenanceWizardLocked` ｜父类: AirlockHatchMaintenance ｜_Starlight
+- **气密舱口** — `AirlockHatchPirate` ｜父类: AirlockHatch ｜_Starlight
+- **结构** — `AirlockHatchPirateLocked` ｜父类: AirlockHatchPirate ｜_Starlight
+- **结构** — `AirlockHatchSolgovLocked` ｜父类: AirlockHatch ｜_Starlight
+- **气密舱口** — `AirlockHatchSyndicate` ｜父类: Airlock
+- **结构** — `AirlockHatchSyndicateLocked` ｜父类: AirlockHatchSyndicate
+- **结构** — `AirlockHatchSyndicatePirateLocked` ｜父类: AirlockHatchSyndicate ｜_Starlight
+- **结构** — `AirlockHatchWizardLocked` ｜父类: AirlockHatch ｜_Starlight
+- **玻璃气闸门** — `AirlockHeadOfPersonnelGlassLocked` ｜父类: AirlockCommandGlass
+- **气闸门** — `AirlockHeadOfPersonnelLocked` ｜父类: AirlockCommand
+- **玻璃气闸门** — `AirlockHeadOfSecurityGlassLocked` ｜父类: AirlockCommandGlass
+- **气闸门** — `AirlockHeadOfSecurityLocked` ｜父类: AirlockCommand
+- **玻璃气闸门** — `AirlockHydroGlassLocked` ｜父类: AirlockHydroponicsGlass
+- **气闸门** — `AirlockHydroponics` ｜父类: Airlock
+- **玻璃气闸门** — `AirlockHydroponicsGlass` ｜父类: AirlockGlass
+- **气闸门** — `AirlockHydroponicsLocked` ｜父类: AirlockHydroponics
+- **气闸门** — `AirlockHydroponicsLockedSyndicate` ｜父类: AirlockHydroponics ｜_Starlight
+- **玻璃气闸门** — `AirlockInternalAffairsGlassLocked` ｜父类: AirlockGlass
+- **气闸门** — `AirlockInternalAffairsLocked` ｜父类: Airlock
+- **玻璃气闸门** — `AirlockJanitorGlassLocked` ｜父类: AirlockServiceGlassLocked
+- **气闸门** — `AirlockJanitorLocked` ｜父类: AirlockServiceLocked
+- **玻璃气闸门** — `AirlockKitchenGlassLocked` ｜父类: AirlockServiceGlassLocked
+- **气闸门** — `AirlockKitchenLocked` ｜父类: AirlockServiceLocked
+- **玻璃气闸门** — `AirlockLegalGlassLocked` ｜父类: AirlockServiceGlassLocked ｜_Starlight
+- **气闸门** — `AirlockLegalLocked` ｜父类: AirlockServiceLocked ｜_Starlight
+- **气闸门** — `AirlockMail` ｜父类: Airlock ｜_Starlight
+- **玻璃气闸门** — `AirlockMailGlass` ｜父类: AirlockGlass ｜_Starlight
+- **玻璃气闸门** — `AirlockMailGlassLocked` ｜父类: AirlockMailGlass ｜_Starlight
+- **气闸门** — `AirlockMailLocked` ｜父类: AirlockMail ｜_Starlight
+- **维护通道入口** — `AirlockMaint` ｜父类: Airlock
+- **气闸门** — `AirlockMaintArmoryLocked` ｜父类: AirlockArmoryLocked
+- **气闸门** — `AirlockMaintAtmoLocked` ｜父类: AirlockAtmosphericsLocked
+- **气闸门** — `AirlockMaintAttorneyLocked` ｜父类: AirlockAttorneyLocked ｜_Starlight
+- **气闸门** — `AirlockMaintBarKitchenLocked` ｜父类: AirlockBarKitchenLocked
+- **气闸门** — `AirlockMaintBarLocked` ｜父类: AirlockBarLocked
+- **气闸门** — `AirlockMaintBlackstarLocked` ｜父类: AirlockBlackstarLocked ｜_Starlight
+- **气闸门** — `AirlockMaintBrigmedLocked` ｜父类: AirlockBrigmedLocked ｜_Starlight
+- **气闸门** — `AirlockMaintBrigmedParaLocked` ｜父类: AirlockBrigmedParaLocked ｜_Starlight
+- **气闸门** — `AirlockMaintCaptainLocked` ｜父类: AirlockCaptainLocked
+- **气闸门** — `AirlockMaintCargoLocked` ｜父类: AirlockCargoLocked
+- **气闸门** — `AirlockMaintChapelLocked` ｜父类: AirlockChapelLocked
+- **气闸门** — `AirlockMaintChemLocked` ｜父类: AirlockChemistryLocked
+- **气闸门** — `AirlockMaintChiefEngineerLocked` ｜父类: AirlockChiefEngineerLocked
+- **气闸门** — `AirlockMaintChiefMedicalOfficerLocked` ｜父类: AirlockChiefMedicalOfficerLocked
+- **气闸门** — `AirlockMaintCommandLocked` ｜父类: AirlockCommandLocked
+- **气闸门** — `AirlockMaintCommunistLocked` ｜父类: AirlockCommunistLocked ｜_Starlight
+- **气闸门** — `AirlockMaintCourtroomLocked` ｜父类: AirlockCourtroomLocked ｜_Starlight
+- **气闸门** — `AirlockMaintDetectiveLocked` ｜父类: AirlockDetectiveLocked
+- **气闸门** — `AirlockMaintEngiLocked` ｜父类: AirlockEngineeringLocked
+- **玻璃气闸门** — `AirlockMaintGlass` ｜父类: AirlockGlass
+- **玻璃气闸门** — `AirlockMaintGlassLocked` ｜父类: AirlockMaintGlass
+- **气闸门** — `AirlockMaintHeadOfSecurityLocked` ｜父类: AirlockHeadOfSecurityLocked
+- **气闸门** — `AirlockMaintHOPLocked` ｜父类: AirlockHeadOfPersonnelLocked
+- **气闸门** — `AirlockMaintHydroLocked` ｜父类: AirlockHydroponicsLocked
+- **气闸门** — `AirlockMaintInternalAffairsLocked` ｜父类: AirlockInternalAffairsLocked
+- **气闸门** — `AirlockMaintJanitorLocked` ｜父类: AirlockJanitorLocked
+- **气闸门** — `AirlockMaintKitchenHydroLocked` ｜父类: AirlockFreezerKitchenHydroLocked
+- **气闸门** — `AirlockMaintKitchenLocked` ｜父类: AirlockKitchenLocked
+- **气闸门** — `AirlockMaintLegalLocked` ｜父类: AirlockLegalLocked ｜_Starlight
+- **维护通道入口** — `AirlockMaintLocked` ｜父类: AirlockMaint
+- **气闸门** — `AirlockMaintMailLocked` ｜父类: AirlockMailLocked ｜_Starlight
+- **气闸门** — `AirlockMaintMedLocked` ｜父类: AirlockMedicalLocked
+- **气闸门** — `AirlockMaintMiningCargoLocked` ｜父类: AirlockMiningCargoLocked ｜_Starlight
+- **维护通道入口** — `AirlockMaintNtrepLocked` ｜父类: AirlockMaint ｜_Starlight
+- **气闸门** — `AirlockMaintParamedicLocked` ｜父类: AirlockParamedicLocked ｜_Starlight
+- **气闸门** — `AirlockMaintQuartermasterLocked` ｜父类: AirlockQuartermasterLocked
+- **气闸门** — `AirlockMaintResearchDirectorLocked` ｜父类: AirlockResearchDirectorLocked
+- **气闸门** — `AirlockMaintRnDLocked` ｜父类: AirlockScienceLocked
+- **气闸门** — `AirlockMaintRnDMedLocked` ｜父类: AirlockMedicalScienceLocked
+- **气闸门** — `AirlockMaintRoboticsLocked` ｜父类: AirlockRoboticsLocked ｜_Starlight
+- **气闸门** — `AirlockMaintSalvageLocked` ｜父类: AirlockSalvageLocked
+- **气闸门** — `AirlockMaintSalvageMiningLocked` ｜父类: AirlockSalvageMiningLocked ｜_Starlight
+- **气闸门** — `AirlockMaintSecLocked` ｜父类: AirlockSecurityLocked
+- **气闸门** — `AirlockMaintServiceLocked` ｜父类: AirlockServiceLocked
+- **气闸门** — `AirlockMaintServiceTheatreLocked` ｜父类: AirlockServiceTheatreLocked
+- **气闸门** — `AirlockMaintSurgeryLocked` ｜父类: AirlockSurgeryLocked ｜_Starlight
+- **气闸门** — `AirlockMaintTheatreLocked` ｜父类: AirlockTheatreLocked
+- **气闸门** — `AirlockMaintWizardLocked` ｜父类: AirlockWizardLocked ｜_Starlight
+- **气闸门** — `AirlockMedical` ｜父类: Airlock
+- **玻璃气闸门** — `AirlockMedicalGlass` ｜父类: AirlockGlass
+- **玻璃气闸门** — `AirlockMedicalGlassLocked` ｜父类: AirlockMedicalGlass
+- **玻璃气闸门** — `AirlockMedicalGlassLockedSyndicate` ｜父类: AirlockMedicalGlass ｜_Starlight
+- **气闸门** — `AirlockMedicalLocked` ｜父类: AirlockMedical
+- **玻璃气闸门** — `AirlockMedicalMorgueGlassLocked` ｜父类: AirlockMedicalGlass
+- **气闸门** — `AirlockMedicalMorgueLocked` ｜父类: AirlockMedical
+- **气闸门** — `AirlockMedicalMorgueMaintLocked` ｜父类: AirlockMedicalMorgueLocked
+- **玻璃气闸门** — `AirlockMedicalScienceGlassLocked` ｜父类: AirlockScienceGlass
+- **气闸门** — `AirlockMedicalScienceLocked` ｜父类: AirlockScience
+- **气闸门** — `AirlockMining` ｜父类: AirlockCargo
+- **气闸门** — `AirlockMiningCargo` ｜父类: Airlock ｜_Starlight
+- **玻璃气闸门** — `AirlockMiningCargoGlass` ｜父类: AirlockGlass ｜_Starlight
+- **玻璃气闸门** — `AirlockMiningCargoGlassLocked` ｜父类: AirlockMiningCargoGlass ｜_Starlight
+- **气闸门** — `AirlockMiningCargoLocked` ｜父类: AirlockMiningCargo ｜_Starlight
+- **玻璃气闸门** — `AirlockMiningGlass` ｜父类: AirlockCargoGlass
+- **玻璃气闸门** — `AirlockMiningGlassLocked` ｜父类: AirlockMiningGlass
+- **气闸门** — `AirlockMiningLocked` ｜父类: AirlockMining
+- **气闸门** — `AirlockNrepLocked` ｜父类: AirlockCommand ｜_Starlight
+- **玻璃气闸门** — `AirlockNtrepGlassLocked` ｜父类: AirlockCommandGlass ｜_Starlight
+- **气闸门** — `AirlockParamedic` ｜父类: Airlock ｜_Starlight
+- **玻璃气闸门** — `AirlockParamedicGlass` ｜父类: AirlockGlass ｜_Starlight
+- **玻璃气闸门** — `AirlockParamedicGlassLocked` ｜父类: AirlockParamedicGlass ｜_Starlight
+- **气闸门** — `AirlockParamedicLocked` ｜父类: AirlockParamedic ｜_Starlight
+- **玻璃气闸门** — `AirlockQuartermasterGlassLocked` ｜父类: AirlockCommandGlass
+- **气闸门** — `AirlockQuartermasterLocked` ｜父类: AirlockCommand
+- `模板` **AirlockRCDResistant** — `AirlockRCDResistant` ｜父类: Airlock
+- **玻璃气闸门** — `AirlockResearchDirectorGlassLocked` ｜父类: AirlockCommandGlass
+- **气闸门** — `AirlockResearchDirectorLocked` ｜父类: AirlockCommand
+- **气闸门** — `AirlockRetroMining` ｜父类: AirlockCargo ｜_Starlight
+- **玻璃气闸门** — `AirlockRetroMiningGlass` ｜父类: AirlockCargoGlass ｜_Starlight
+- **玻璃气闸门** — `AirlockRetroMiningGlassLocked` ｜父类: AirlockRetroMiningGlass ｜_Starlight
+- **气闸门** — `AirlockRetroMiningLocked` ｜父类: AirlockRetroMining ｜_Starlight
+- **气闸门** — `AirlockRetroSalvage` ｜父类: AirlockCargo ｜_Starlight
+- **玻璃气闸门** — `AirlockRetroSalvageGlass` ｜父类: AirlockCargoGlass ｜_Starlight
+- **玻璃气闸门** — `AirlockRetroSalvageGlassLocked` ｜父类: AirlockRetroSalvageGlass ｜_Starlight
+- **气闸门** — `AirlockRetroSalvageLocked` ｜父类: AirlockRetroSalvage ｜_Starlight
+- **气闸门** — `AirlockRetroSalvageMining` ｜父类: AirlockCargo ｜_Starlight
+- **玻璃气闸门** — `AirlockRetroSalvageMiningGlass` ｜父类: AirlockCargoGlass ｜_Starlight
+- **玻璃气闸门** — `AirlockRetroSalvageMiningGlassLocked` ｜父类: AirlockRetroSalvageMiningGlass ｜_Starlight
+- **气闸门** — `AirlockRetroSalvageMiningLocked` ｜父类: AirlockRetroSalvageMining ｜_Starlight
+- **气闸门** — `AirlockRobotics` ｜父类: Airlock ｜_Starlight
+- **玻璃气闸门** — `AirlockRoboticsGlass` ｜父类: AirlockGlass ｜_Starlight
+- **玻璃气闸门** — `AirlockRoboticsGlassLocked` ｜父类: AirlockRoboticsGlass ｜_Starlight
+- **气闸门** — `AirlockRoboticsLocked` ｜父类: AirlockRobotics ｜_Starlight
+- **气闸门** — `AirlockSalvage` ｜父类: Airlock
+- **玻璃气闸门** — `AirlockSalvageGlass` ｜父类: AirlockGlass
+- **玻璃气闸门** — `AirlockSalvageGlassLocked` ｜父类: AirlockSalvageGlass
+- **气闸门** — `AirlockSalvageLocked` ｜父类: AirlockSalvage
+- **气闸门** — `AirlockSalvageMining` ｜父类: Airlock ｜_Starlight
+- **玻璃气闸门** — `AirlockSalvageMiningGlass` ｜父类: AirlockGlass ｜_Starlight
+- **玻璃气闸门** — `AirlockSalvageMiningGlassLocked` ｜父类: AirlockSalvageMiningGlass ｜_Starlight
+- **气闸门** — `AirlockSalvageMiningLocked` ｜父类: AirlockSalvageMining ｜_Starlight
+- **气闸门** — `AirlockScience` ｜父类: Airlock
+- **玻璃气闸门** — `AirlockScienceGlass` ｜父类: AirlockGlass
+- **玻璃气闸门** — `AirlockScienceGlassLocked` ｜父类: AirlockScienceGlass
+- **气闸门** — `AirlockScienceLocked` ｜父类: AirlockScience
+- **气闸门** — `AirlockSecurity` ｜父类: Airlock
+- **玻璃气闸门** — `AirlockSecurityGlass` ｜父类: AirlockGlass
+- **玻璃气闸门** — `AirlockSecurityGlassLocked` ｜父类: AirlockSecurityGlass
+- **玻璃气闸门** — `AirlockSecurityGlassLockedSyndicate` ｜父类: AirlockSecurityGlass ｜_Starlight
+- **玻璃气闸门** — `AirlockSecurityInternalAffairsGlassLocked` ｜父类: AirlockSecurityGlass
+- **气闸门** — `AirlockSecurityInternalAffairsLocked` ｜父类: AirlockSecurity
+- **气闸门** — `AirlockSecurityLocked` ｜父类: AirlockSecurity
+- **玻璃气闸门** — `AirlockServiceGlassLocked` ｜父类: AirlockGlass
+- **气闸门** — `AirlockServiceLocked` ｜父类: Airlock
+- **玻璃气闸门** — `AirlockServiceTheatreGlassLocked` ｜父类: AirlockServiceGlassLocked
+- **气闸门** — `AirlockServiceTheatreLocked` ｜父类: AirlockServiceLocked
+- **外部气闸门** — `AirlockShuttle` ｜父类: AirlockRCDResistant
+- **外部气闸门组件** — `AirlockShuttleAssembly` ｜父类: AirlockAssembly
+- **外部气闸门** — `AirlockShuttleBlackstarLocked` ｜父类: AirlockShuttle ｜_Starlight
+- **外部气闸门** — `AirlockShuttleCommunistLocked` ｜父类: AirlockShuttle ｜_Starlight
+- **外部气闸门** — `AirlockShuttleSolgovLocked` ｜父类: AirlockShuttleSyndicate ｜_Starlight
+- **外部气闸门** — `AirlockShuttleSyndicate` ｜父类: AirlockShuttle
+- **外部气闸门** — `AirlockShuttleWizardLocked` ｜父类: AirlockShuttle ｜_Starlight
+- **外部气闸门** — `AirlockShuttleXenoborg` ｜父类: AirlockShuttle
+- **玻璃气闸门** — `AirlockStandardGlass` ｜父类: AirlockGlass
+- **气闸门** — `AirlockSurgery` ｜父类: Airlock ｜_Starlight
+- **玻璃气闸门** — `AirlockSurgeryGlass` ｜父类: AirlockGlass ｜_Starlight
+- **玻璃气闸门** — `AirlockSurgeryGlassLocked` ｜父类: AirlockSurgeryGlass ｜_Starlight
+- **气闸门** — `AirlockSurgeryLocked` ｜父类: AirlockSurgery ｜_Starlight
+- **气闸门** — `AirlockSyndicate` ｜父类: Airlock
+- **玻璃气闸门** — `AirlockSyndicateGlass` ｜父类: AirlockGlass
+- **玻璃气闸门** — `AirlockSyndicateGlassLocked` ｜父类: AirlockSyndicateGlass
+- **玻璃气闸门** — `AirlockSyndicateGlassPirateLocked` ｜父类: AirlockSyndicateGlass ｜_Starlight
+- **气闸门** — `AirlockSyndicateLocked` ｜父类: AirlockSyndicate
+- **玻璃气闸门** — `AirlockSyndicateNukeopGlassLocked` ｜父类: AirlockSyndicateGlass
+- **气闸门** — `AirlockSyndicateNukeopLocked` ｜父类: AirlockSyndicate
+- **气闸门** — `AirlockSyndicatePirateLocked` ｜父类: AirlockSyndicate ｜_Starlight
+- **玻璃气闸门** — `AirlockTheatreGlassLocked` ｜父类: AirlockServiceGlassLocked
+- **气闸门** — `AirlockTheatreLocked` ｜父类: AirlockServiceLocked
+- **气闸门** — `AirlockVaultLocked` ｜父类: AirlockSecurity
+- **气闸门** — `AirlockVirology` ｜父类: AirlockMedical
+- **玻璃气闸门** — `AirlockVirologyGlass` ｜父类: AirlockMedicalGlass
+- **玻璃气闸门** — `AirlockVirologyGlassLocked` ｜父类: AirlockVirologyGlass
+- **气闸门** — `AirlockVirologyLocked` ｜父类: AirlockVirology
+- **玻璃气闸门** — `AirlockVisitorGlassLocked` ｜父类: AirlockGlass ｜_Starlight
+- **气闸门** — `AirlockVisitorLocked` ｜父类: Airlock ｜_Starlight
+- **玻璃气闸门** — `AirlockWizardGlassLocked` ｜父类: AirlockGlass ｜_Starlight
+- **气闸门** — `AirlockWizardLocked` ｜父类: Airlock ｜_Starlight
+- **气闸门** — `AirlockXeno` ｜父类: Airlock
+- **异形赛博格气闸门** — `AirlockXenoborg` ｜父类: Airlock
+- **异形赛博格玻璃气闸门** — `AirlockXenoborgGlass` ｜父类: AirlockGlass ｜_Starlight
+- **结构** — `AirlockXenoborgGlassLocked` ｜父类: AirlockXenoborgGlass ｜_Starlight
+- **异形赛博格气闸门** — `AirlockXenoborgLocked` ｜父类: AirlockXenoborg
+- **气闸门** — `AirlockXenoMaintLocked` ｜父类: AirlockXeno
+- **空气传感器** — `AirSensor` ｜父类: AirSensorBase
+- **空气传感器组件** — `AirSensorAssembly` ｜父类: BaseItem
+- `模板` **AirSensorBase** — `AirSensorBase`
+- **空气传感器** — `AirSensorFreezer` ｜父类: AirSensorFreezerBase,AirSensor
+- `模板` **AirSensorFreezerBase** — `AirSensorFreezerBase` ｜父类: AirSensorBase
+- **空气传感器** — `AirSensorNoLowerBound` ｜父类: AirSensorNoLowerBoundBase,AirSensor ｜_Starlight
+- `模板` **AirSensorNoLowerBoundBase** — `AirSensorNoLowerBoundBase` ｜父类: AirSensorBase ｜_Starlight
+- **空气传感器** — `AirSensorVox` ｜父类: AirSensorVoxBase,AirSensor
+- `模板` **AirSensorVoxBase** — `AirSensorVoxBase` ｜父类: AirSensorBase
+- **鸣笛圣母祭坛** — `AltarBananium` ｜父类: AltarBase
+- `模板` **祭坛** — `AltarBase` ｜父类: BaseStructure
+- **混沌祭坛** — `AltarChaos` ｜父类: AltarNanotrasen
+- **皈依祭坛** — `AltarConvert` ｜父类: AltarConvertFestival
+- **蓝色祭坛** — `AltarConvertBlue` ｜父类: AltarConvertFestival
+- **重负祭坛** — `AltarConvertBurden` ｜父类: AltarConvertFestival
+- **节庆祭坛** — `AltarConvertFestival` ｜父类: AltarBase
+- **维护通道祭坛** — `AltarConvertMaint` ｜父类: AltarConvertFestival
+- **橙色祭坛** — `AltarConvertOrange` ｜父类: AltarConvertFestival
+- **红色祭坛** — `AltarConvertRed` ｜父类: AltarConvertFestival
+- **白色祭坛** — `AltarConvertWhite` ｜父类: AltarConvertFestival
+- **黄色祭坛** — `AltarConvertYellow` ｜父类: AltarConvertFestival
+- **德鲁伊祭坛** — `AltarDruid` ｜父类: AltarNanotrasen
+- **尖牙祭坛** — `AltarFangs` ｜父类: AltarHeaven
+- **天堂祭坛** — `AltarHeaven` ｜父类: AltarBase
+- **纳米传讯祭坛** — `AltarNanotrasen` ｜父类: AltarBase
+- **撒旦祭坛** — `AltarSatana` ｜父类: AltarNanotrasen
+- **太空基督教祭坛** — `AltarSpaceChristian` ｜父类: AltarNanotrasen
+- **科技祭坛** — `AltarTechnology` ｜父类: AltarNanotrasen
+- **工具箱祭坛** — `AltarToolbox` ｜父类: AltarNanotrasen
+- **灯** — `AlwaysPoweredlightBlack` ｜父类: AlwaysPoweredWallLight
+- **灯** — `AlwaysPoweredLightBlackLight` ｜父类: AlwaysPoweredWallLight ｜_Starlight
+- **灯** — `AlwaysPoweredlightBlue` ｜父类: AlwaysPoweredWallLight
+- **灯** — `AlwaysPoweredlightCyan` ｜父类: AlwaysPoweredWallLight
+- **灯** — `AlwaysPoweredLightExterior` ｜父类: AlwaysPoweredWallLight
+- **灯** — `AlwaysPoweredlightGreen` ｜父类: AlwaysPoweredWallLight
+- **灯** — `AlwaysPoweredLightLED` ｜父类: AlwaysPoweredWallLight
+- **灯** — `AlwaysPoweredlightOrange` ｜父类: AlwaysPoweredWallLight
+- **灯** — `AlwaysPoweredlightPink` ｜父类: AlwaysPoweredWallLight
+- **灯** — `AlwaysPoweredlightRed` ｜父类: AlwaysPoweredWallLight
+- **灯** — `AlwaysPoweredLightSodium` ｜父类: AlwaysPoweredWallLight
+- **灯** — `AlwaysPoweredlightYellow` ｜父类: AlwaysPoweredWallLight
+- **频闪灯** — `AlwaysPoweredStrobeLight`
+- **灯** — `AlwaysPoweredWallLight`
+- **AME 控制器** — `AmeController`
+- **AME 控制器** — `AmeControllerUnanchored` ｜父类: AmeController
+- **AME 屏蔽模块** — `AmeShielding`
+- **氨气罐** — `AmmoniaCanister` ｜父类: GasCanister
+- **损坏的 气罐** — `AmmoniaCanisterBroken` ｜父类: GasCanisterBrokenBase
+- **氨气罐** — `AmmoniaCanisterEmpty` ｜父类: AmmoniaCanister ｜_Starlight
+- **氨蛋** — `AmmoniaEggGenerator` ｜_Starlight
+- **弹药科技制造机** — `AmmoTechFab` ｜父类: BaseLatheLube
+- **异常** — `AnomalyBanana` ｜父类: BaseAnomaly ｜_Starlight
+- **异常** — `AnomalyBluespace` ｜父类: BaseAnomaly
+- **异常** — `AnomalyClown` ｜父类: BaseAnomaly ｜_Starlight
+- **异常核心** — `AnomalyCoreBanana` ｜父类: BaseAnomalyCore ｜_Starlight
+- **异常核心** — `AnomalyCoreBananaInert` ｜父类: BaseAnomalyInertCore ｜_Starlight
+- **异常核心** — `AnomalyCoreBluespace` ｜父类: BaseAnomalyCore
+- **异常核心** — `AnomalyCoreBluespaceInert` ｜父类: BaseAnomalyInertCore
+- **异常核心** — `AnomalyCoreClown` ｜父类: BaseAnomalyCore ｜_Starlight
+- **异常核心** — `AnomalyCoreClownInert` ｜父类: BaseAnomalyInertCore ｜_Starlight
+- **异常核心** — `AnomalyCoreElectricity` ｜父类: BaseAnomalyCore
+- **异常核心** — `AnomalyCoreElectricityInert` ｜父类: BaseAnomalyInertCore
+- **异常核心** — `AnomalyCoreFlesh` ｜父类: BaseAnomalyCore
+- **异常核心** — `AnomalyCoreFleshInert` ｜父类: BaseAnomalyInertCore
+- **异常核心** — `AnomalyCoreFlora` ｜父类: BaseAnomalyCore
+- **异常核心** — `AnomalyCoreFloraInert` ｜父类: BaseAnomalyInertCore
+- **异常核心** — `AnomalyCoreGravity` ｜父类: BaseAnomalyCore
+- **异常核心** — `AnomalyCoreGravityInert` ｜父类: BaseAnomalyInertCore
+- **异常核心** — `AnomalyCoreIce` ｜父类: BaseAnomalyCore
+- **异常核心** — `AnomalyCoreIceInert` ｜父类: BaseAnomalyInertCore
+- **异常核心** — `AnomalyCoreLiquid` ｜父类: BaseAnomalyCore
+- **异常核心** — `AnomalyCoreLiquidInert` ｜父类: BaseAnomalyInertCore
+- **异常核心** — `AnomalyCorePyroclastic` ｜父类: BaseAnomalyCore
+- **异常核心** — `AnomalyCorePyroclasticInert` ｜父类: BaseAnomalyInertCore
+- **异常核心** — `AnomalyCoreRock` ｜父类: BaseAnomalyCore
+- **异常核心** — `AnomalyCoreRockInert` ｜父类: BaseAnomalyInertCore
+- **异常核心** — `AnomalyCoreSanta` ｜父类: BaseAnomalyCore
+- **异常核心** — `AnomalyCoreSantaInert` ｜父类: BaseAnomalyInertCore
+- **异常核心** — `AnomalyCoreShadow` ｜父类: BaseAnomalyCore,BaseShadow
+- **异常核心** — `AnomalyCoreShadowInert` ｜父类: BaseAnomalyInertCore,BaseShadow
+- **异常核心** — `AnomalyCoreTech` ｜父类: BaseAnomalyCore
+- **异常核心** — `AnomalyCoreTechInert` ｜父类: BaseAnomalyInertCore
+- **异常** — `AnomalyElectricity` ｜父类: BaseAnomaly
+- **异常** — `AnomalyFlesh` ｜父类: BaseAnomaly
+- **异常** — `AnomalyFlora` ｜父类: BaseAnomaly
+- **奇异发光浆果** — `AnomalyFloraBulb` ｜父类: BaseStructure
+- **异常** — `AnomalyGravity` ｜父类: BaseAnomaly
+- **异常** — `AnomalyIce` ｜父类: BaseAnomaly
+- `模板` **AnomalyInjectionBase** — `AnomalyInjectionBase`
+- **AnomalyInjectionBluespace** — `AnomalyInjectionBluespace` ｜父类: AnomalyInjectionBase
+- **AnomalyInjectionElectric** — `AnomalyInjectionElectric` ｜父类: AnomalyInjectionBase
+- **AnomalyInjectionFlesh** — `AnomalyInjectionFlesh` ｜父类: AnomalyInjectionBase
+- **AnomalyInjectionFlora** — `AnomalyInjectionFlora` ｜父类: AnomalyInjectionBase
+- **AnomalyInjectionGravity** — `AnomalyInjectionGravity` ｜父类: AnomalyInjectionBase
+- **AnomalyInjectionIce** — `AnomalyInjectionIce` ｜父类: AnomalyInjectionBase
+- **AnomalyInjectionPyroclastic** — `AnomalyInjectionPyroclastic` ｜父类: AnomalyInjectionBase
+- **AnomalyInjectionRock** — `AnomalyInjectionRock` ｜父类: AnomalyInjectionBase
+- **AnomalyInjectionSanta** — `AnomalyInjectionSanta` ｜父类: AnomalyInjectionBase
+- **AnomalyInjectionShadow** — `AnomalyInjectionShadow` ｜父类: AnomalyInjectionBase
+- **AnomalyInjectionTech** — `AnomalyInjectionTech` ｜父类: AnomalyInjectionBase
+- **异常** — `AnomalyLiquid` ｜父类: BaseAnomaly
+- **异常** — `AnomalyPyroclastic` ｜父类: BaseAnomaly
+- **异常** — `AnomalyRockBananium` ｜父类: AnomalyRockBase
+- `模板` **AnomalyRockBase** — `AnomalyRockBase` ｜父类: BaseAnomaly
+- **异常** — `AnomalyRockCoal` ｜父类: AnomalyRockBase
+- **异常** — `AnomalyRockGold` ｜父类: AnomalyRockBase
+- **异常** — `AnomalyRockIron` ｜父类: AnomalyRockBase
+- **异常** — `AnomalyRockQuartz` ｜父类: AnomalyRockBase
+- **异常** — `AnomalyRockSilver` ｜父类: AnomalyRockBase
+- **异常** — `AnomalyRockUranium` ｜父类: AnomalyRockBase
+- **异常** — `AnomalySanta` ｜父类: BaseAnomaly
+- **异常** — `AnomalyShadow` ｜父类: BaseAnomaly
+- **异常** — `AnomalyTech` ｜父类: BaseAnomaly
+- **AnomalyTechBeam** — `AnomalyTechBeam`
+- **异常注入器** — `AnomalyTrapBluespace` ｜父类: BaseAnomalyInjector
+- **异常注入器** — `AnomalyTrapElectricity` ｜父类: BaseAnomalyInjector
+- **异常注入器** — `AnomalyTrapFlesh` ｜父类: BaseAnomalyInjector
+- **异常注入器** — `AnomalyTrapFlora` ｜父类: BaseAnomalyInjector
+- **异常注入器** — `AnomalyTrapGravity` ｜父类: BaseAnomalyInjector
+- **异常注入器** — `AnomalyTrapIce` ｜父类: BaseAnomalyInjector
+- **异常注入器** — `AnomalyTrapPyroclastic` ｜父类: BaseAnomalyInjector
+- **异常注入器** — `AnomalyTrapRock` ｜父类: BaseAnomalyInjector
+- **异常注入器** — `AnomalyTrapSanta` ｜父类: BaseAnomalyInjector
+- **异常注入器** — `AnomalyTrapShadow` ｜父类: BaseAnomalyInjector
+- **异常注入器** — `AnomalyTrapTech` ｜父类: BaseAnomalyInjector
+- **反惰气储气罐** — `AntiNobliumCanister` ｜父类: GasCanister ｜_Funkystation
+- **损坏的 气罐** — `AntiNobliumCanisterBroken` ｜父类: GasCanisterBrokenBase ｜_Funkystation
+- **反惰气储气罐** — `AntiNobliumCanisterEmpty` ｜父类: AntiNobliumCanister ｜_Starlight
+- **反粒子** — `AntiParticlesProjectile` ｜父类: ParticlesProjectile
+- **APC 配电箱** — `APCBasic` ｜父类: BaseAPC
+- **APC 配电箱** — `APCConstructed` ｜父类: BaseAPC
+- **APC 框架** — `APCFrame` ｜父类: BaseWallmountMetallic
+- **APC 配电箱** — `APCHighCapacity` ｜父类: BaseAPC
+- **APC 配电箱** — `APCHyperCapacity` ｜父类: BaseAPC
+- **APC 网络开关** — `ApcNetSwitch` ｜父类: BaseWallmountMetallic
+- **APC 网络开关** — `ApcNetSwitchDirectional` ｜父类: ApcNetSwitch
+- **APC 配电箱** — `APCShadekin` ｜父类: APCBasic ｜_Starlight
+- **APC 配电箱** — `APCSuperCapacity` ｜父类: BaseAPC
+- **APC 配电箱** — `APCXenoborg` ｜父类: BaseAPC
+- `模板` **街机** — `ArcadeBase` ｜父类: BaseComputer
+- **抵达屏幕** — `ArrivalsShuttleTimer` ｜父类: Screen
+- **小行星岩** — `AsteroidRock` ｜父类: BaseWall
+- **小行星岩石** — `AsteroidRockArtifactFragment` ｜父类: AsteroidRock
+- **小行星岩石** — `AsteroidRockBananium` ｜父类: AsteroidRock
+- **小行星岩石** — `AsteroidRockBananiumCrab` ｜父类: AsteroidRockBananium
+- **小行星岩石** — `AsteroidRockBluespace` ｜父类: AsteroidRock ｜_Starlight
+- **小行星岩石** — `AsteroidRockCoal` ｜父类: AsteroidRock
+- **小行星岩石** — `AsteroidRockCoalCrab` ｜父类: AsteroidRockCoal
+- **小行星岩石** — `AsteroidRockDiamond` ｜父类: AsteroidRock
+- **小行星岩** — `AsteroidRockGibtonite` ｜父类: BaseRockGibtonite,AsteroidRock
+- **小行星岩石** — `AsteroidRockGold` ｜父类: AsteroidRock
+- **小行星岩石** — `AsteroidRockGoldCrab` ｜父类: AsteroidRockGold
+- **小行星岩** — `AsteroidRockMining` ｜父类: AsteroidRock
+- **小行星岩石** — `AsteroidRockPlasma` ｜父类: AsteroidRock
+- **小行星岩石** — `AsteroidRockQuartz` ｜父类: AsteroidRock
+- **小行星岩石** — `AsteroidRockQuartzCrab` ｜父类: AsteroidRockQuartz
+- **小行星岩石** — `AsteroidRockSalt` ｜父类: AsteroidRock
+- **小行星岩石** — `AsteroidRockSilver` ｜父类: AsteroidRock
+- **小行星岩石** — `AsteroidRockSilverCrab` ｜父类: AsteroidRockSilver
+- **小行星岩石** — `AsteroidRockTin` ｜父类: AsteroidRock
+- **小行星岩石** — `AsteroidRockTinCrab` ｜父类: AsteroidRockTin
+- **小行星岩石** — `AsteroidRockUranium` ｜父类: AsteroidRock
+- **小行星岩石** — `AsteroidRockUraniumCrab` ｜父类: AsteroidRockUranium
+- **自动柜员机** — `ATM` ｜父类: BaseComputerAiAccess ｜_Starlight
+- **定向风扇** — `AtmosDeviceFanDirectional`
+- **微型风扇** — `AtmosDeviceFanTiny`
+- **自动车床** — `Autolathe` ｜父类: BaseLatheLube
+- **超对流自动车床** — `AutolatheHyperConvection` ｜父类: Autolathe,BaseHyperlathe
+- **自动装填单元** — `AutoLoaderUnit` ｜父类: DisposalUnitBase ｜_Starlight
+- **香蕉矿门** — `BananiumDoor` ｜父类: BaseMaterialDoorNavMap
+- `模板` **基础旗帜** — `BannerBase` ｜父类: BaseStructureDynamic
+- `模板` **基础 旗帜** — `BannerBaseAlt` ｜父类: BaseStructureDynamic ｜_Starlight
+- **蓝色旗帜** — `BannerBlue` ｜父类: BannerBase
+- **货运部旗帜** — `BannerCargo` ｜父类: BannerBase
+- **工程部旗帜** — `BannerEngineering` ｜父类: BannerBase
+- **绿色旗帜** — `BannerGreen` ｜父类: BannerBase
+- **医疗部旗帜** — `BannerMedical` ｜父类: BannerBase
+- **纳米传讯旗帜** — `BannerNanotrasen` ｜父类: BannerBase
+- **红色旗帜** — `BannerRed` ｜父类: BannerBase
+- **革命旗帜** — `BannerRevolution` ｜父类: BannerBase
+- **科研部旗帜** — `BannerScience` ｜父类: BannerBase
+- **安保部旗帜** — `BannerSecurity` ｜父类: BannerBase
+- **SKB 标识装饰** — `BannerSGKB` ｜父类: BannerBaseAlt ｜_Starlight
+- **SNKVD 标识装饰** — `BannerSNKVD` ｜父类: BannerBaseAlt ｜_Starlight
+- **标识装饰** — `BannerSovietHammer` ｜父类: BannerBaseAlt ｜_Starlight
+- **USSP 旗帜** — `BannerSovietRegular` ｜父类: BannerBaseAlt ｜_Starlight
+- **辛迪加旗帜** — `BannerSyndicate` ｜父类: BannerBase
+- **标识装饰** — `BannerWallHammer` ｜父类: BaseWallBanner ｜_Starlight
+- **USSP 墙 旗帜** — `BannerWallSoviet` ｜父类: BaseWallBanner ｜_Starlight
+- **黄色旗帜** — `BannerYellow` ｜父类: BannerBase
+- **吧台窗（备选）** — `BarAltWindowDiagonal` ｜父类: BarWindow ｜_Starlight
+- **化学品桶** — `BarrelChemEmpty` ｜父类: BaseBarrelChem
+- **化学品桶** — `BarrelChemFilledChlorine` ｜父类: BaseBarrelChem
+- **化学品桶** — `BarrelChemFilledEthanol` ｜父类: BaseBarrelChem
+- **化学品桶** — `BarrelChemFilledFluorine` ｜父类: BaseBarrelChem
+- **化学品桶** — `BarrelChemFilledIodine` ｜父类: BaseBarrelChem
+- **化学桶** — `BarrelChemFilledLube` ｜父类: BaseBarrelChem
+- **化学品桶** — `BarrelChemFilledMercury` ｜父类: BaseBarrelChem
+- **化学品桶** — `BarrelChemFilledPhosphorus` ｜父类: BaseBarrelChem
+- **化学品桶** — `BarrelChemFilledSilicon` ｜父类: BaseBarrelChem
+- **金属桶** — `BarrelFlaming` ｜父类: BaseBarrelChem ｜_Starlight
+- **木制路障** — `Barricade` ｜父类: BaseBarricade
+- **木制路障** — `BarricadeBlock` ｜父类: Barricade
+- **木制路障** — `BarricadeDirectional` ｜父类: BaseBarricade
+- **酒吧招牌** — `BarSign` ｜父类: BaseBarSign
+- **组合咖啡馆** — `BarSignComboCafe` ｜父类: BaseBarSign
+- **紧急朗姆酒派对** — `BarSignEmergencyRumParty` ｜父类: BaseBarSign
+- **为了帝皇** — `BarSignEmprah` ｜父类: BaseBarSign
+- **引擎更换** — `BarSignEngineChange` ｜父类: BaseBarSign
+- **标识装饰** — `BarSignLights` ｜父类: BaseWallmountGlass,BaseWallmountMachine,Poweredlight ｜_Starlight
+- **LV426** — `BarSignLV426` ｜父类: BaseBarSign
+- **女仆咖啡馆** — `BarSignMaidCafe` ｜父类: BaseBarSign
+- **马耳他猎鹰** — `BarSignMalteseFalcon` ｜父类: BaseBarSign
+- **麦芽蟑螂** — `BarSignMaltroach` ｜父类: BaseBarSign
+- **啤斯基警官** — `BarSignOfficerBeersky` ｜父类: BaseBarSign
+- **罗布斯塔咖啡馆** — `BarSignRobustaCafe` ｜父类: BaseBarSign
+- **太空巴克** — `BarSignSpacebucks` ｜父类: BaseBarSign
+- **艾尔·纳斯** — `BarSignTheAleNath` ｜父类: BaseBarSign
+- **鸟笼** — `BarSignTheBirdCage` ｜父类: BaseBarSign
+- **代码巴士** — `BarSignTheCoderbus` ｜父类: BaseBarSign
+- **醉鲤** — `BarSignTheDrunkCarp` ｜父类: BaseBarSign
+- **伤害警棍** — `BarSignTheHarmbaton` ｜父类: BaseBarSign
+- **灯泡** — `BarSignTheLightbulb` ｜父类: BaseBarSign
+- **放飞之鹅** — `BarSignTheLooseGoose` ｜父类: BaseBarSign
+- **罗网** — `BarSignTheNet` ｜父类: BaseBarSign
+- **外层太空** — `BarSignTheOuterSpess` ｜父类: BaseBarSign
+- **奇点** — `BarSignTheSingulo` ｜父类: BaseBarSign
+- **太阳** — `BarSignTheSun` ｜父类: BaseBarSign
+- **威士忌回声** — `BarSignWhiskeyEchoes` ｜父类: BaseBarSign
+- **扭动空间** — `BarSignWiggleRoom` ｜父类: BaseBarSign
+- **索卡洛** — `BarSignZocalo` ｜父类: BaseBarSign
+- **吧台窗** — `BarWindow` ｜父类: Window ｜_Starlight
+- **吧台窗** — `BarWindowDiagonal` ｜父类: BarWindow ｜_Starlight
+- `模板` **异常** — `BaseAnomaly`
+- `模板` **异常核心** — `BaseAnomalyCore` ｜父类: BaseItem
+- `模板` **BaseAnomalyInertCore** — `BaseAnomalyInertCore` ｜父类: BaseAnomalyCore
+- `模板` **异常注入器** — `BaseAnomalyInjector` ｜父类: MarkerBase
+- **APC 配电箱** — `BaseAPC` ｜父类: BaseWallmount
+- `模板` **化学品桶** — `BaseBarrelChem` ｜父类: StorageTank
+- `模板` **放射性废料桶** — `BaseBarrelChemRadioactive` ｜父类: BaseBarrelChem
+- **放射性废料桶** — `BaseBarrelChemRadioactiveEmpty` ｜父类: BaseBarrelChemRadioactive
+- **放射性废料桶** — `BaseBarrelChemRadioactiveFilledRadium` ｜父类: BaseBarrelChemRadioactive
+- **放射性废料桶** — `BaseBarrelChemRadioactiveFilledUranium` ｜父类: BaseBarrelChemRadioactive
+- `模板` **木制路障** — `BaseBarricade` ｜父类: BaseStructure
+- `模板` **bar sign** — `BaseBarSign` ｜父类: BaseWallmountGlass,BaseWallmountMachine
+- `模板` **cardboard box** — `BaseBigBox`
+- `模板` **BaseBonfire** — `BaseBonfire` ｜父类: BaseStructure
+- `模板` **BaseBureaucraticStorageFill** — `BaseBureaucraticStorageFill`
+- `模板` **clockwork windoor** — `BaseClockworkWindoor` ｜父类: BaseWindoor
+- **计算机** — `BaseComputer` ｜父类: BaseStructureComputer
+- **计算机** — `BaseComputerAiAccess` ｜父类: BaseComputer
+- `模板` **穿梭机控制台** — `BaseComputerShuttle` ｜父类: BaseComputerAiAccess
+- `模板` **抽象船员监控服务器** — `BaseCrewMonitoringServer` ｜_Moffstation
+- `模板` **curtains** — `BaseCurtains` ｜父类: BaseStructure
+- `模板` **BaseDesktop** — `BaseDesktop` ｜_Starlight
+- `模板` **BaseDispenser** — `BaseDispenser` ｜父类: BaseWallmountMetallic
+- `模板` **BaseEnergyBall** — `BaseEnergyBall`
+- `模板` **chain link fence** — `BaseFenceMetal` ｜父类: BaseStructure
+- `模板` **木围栏** — `BaseFenceWood` ｜父类: BaseStructure
+- `模板` **小型木围栏** — `BaseFenceWoodSmall` ｜父类: BaseFenceWood
+- `模板` **BaseFilingCabinet** — `BaseFilingCabinet` ｜父类: BaseStructureDynamic,BaseBagOpenClose
+- `模板` **防火闸** — `BaseFirelock` ｜父类: BaseStructure,BaseStructureDissolvable
+- `模板` **BaseFlag** — `BaseFlag` ｜父类: BaseSign
+- `模板` **BaseFloorDecoration** — `BaseFloorDecoration`
+- **冷凝器** — `BaseGasCondenser` ｜父类: BaseMachinePowered,SmallConstructibleMachine
+- `模板` **温控机** — `BaseGasThermoMachine` ｜父类: BaseMachinePowered,ConstructibleMachine
+- `模板` **燃气轮机** — `BaseGasTurbine` ｜父类: BaseStructure ｜_FarHorizons
+- `模板` **小型燃气轮机** — `BaseGasTurbineSmall` ｜父类: BaseGasTurbine ｜_FarHorizons
+- `模板` **传送门** — `BaseGateway` ｜父类: BaseStructure
+- `模板` **发电机** — `BaseGenerator` ｜父类: BaseMachine
+- `模板` **壁挂式发电机** — `BaseGeneratorWallmount` ｜父类: BaseGenerator,BaseWallmount
+- **壁挂式发电机框架** — `BaseGeneratorWallmountFrame` ｜父类: BaseWallmountMetallic
+- `模板` **BaseGlassBox** — `BaseGlassBox` ｜父类: BaseStructureDynamic
+- `模板` **硬壳炸弹** — `BaseHardBomb` ｜父类: BaseStructureDynamic
+- `模板` **BaseHeaterMachine** — `BaseHeaterMachine` ｜父类: BaseMachinePowered,SmallConstructibleMachine
+- `模板` **BaseHyperlathe** — `BaseHyperlathe`
+- `模板` **内部通讯器** — `BaseIntercom` ｜父类: BaseWallmountMachine
+- `模板` **BaseIntercomSecure** — `BaseIntercomSecure` ｜父类: Intercom
+- `模板` **BaseIronsandStatue** — `BaseIronsandStatue` ｜父类: BaseStructure
+- `模板` **BaseItemCabinet** — `BaseItemCabinet`
+- `模板` **BaseItemCabinetGlass** — `BaseItemCabinetGlass` ｜父类: BaseItemCabinet
+- `模板` **BaseItemRecharger** — `BaseItemRecharger` ｜父类: BaseRecharger
+- `模板` **制造机** — `BaseLathe` ｜父类: BaseMachinePowered,ConstructibleMachine
+- `模板` **BaseLatheFuel** — `BaseLatheFuel` ｜父类: BaseLathe ｜_Starlight
+- `模板` **BaseLatheLube** — `BaseLatheLube` ｜父类: BaseLathe
+- `模板` **BaseLogicItem** — `BaseLogicItem` ｜父类: LogicEmptyCircuit
+- `模板` **BaseMachine** — `BaseMachine` ｜父类: BaseStructure
+- `模板` **BaseMachinePowered** — `BaseMachinePowered` ｜父类: BaseMachine
+- `模板` **door** — `BaseMaterialDoor` ｜父类: BaseStructure
+- `模板` **BaseMaterialDoorNavMap** — `BaseMaterialDoorNavMap` ｜父类: BaseMaterialDoor
+- `模板` **核反应堆** — `BaseNuclearReactor` ｜父类: BaseStructure ｜_FarHorizons
+- `模板` **小型核反应堆** — `BaseNuclearReactorSmall` ｜父类: BaseNuclearReactor ｜_FarHorizons
+- `模板` **BasePlasmaWindoor** — `BasePlasmaWindoor` ｜父类: BaseDeltaPressurePlasmaQuarter,BaseWindoor
+- `模板` **栏杆** — `BaseRailing` ｜父类: BaseStructure,BaseStructureDissolvable
+- `模板` **结构** — `BaseRailingBoxing` ｜父类: BaseStructure,BaseStructureDissolvable ｜_Starlight
+- `模板` **栏杆** — `BaseRailingWood` ｜父类: BaseStructure,BaseStructureDissolvable ｜_Starlight
+- `模板` **栏杆** — `BaseRailingYellow` ｜父类: BaseStructure,BaseStructureDissolvable ｜_Starlight
+- `模板` **BaseRecharger** — `BaseRecharger` ｜父类: BaseMachinePowered,ConstructibleMachine
+- **基础研发点数源** — `BaseResearchAndDevelopmentPointSource` ｜父类: BaseMachinePowered
+- `模板` **抽象研发服务器** — `BaseResearchAndDevelopmentServer` ｜_Moffstation
+- `模板` **BaseRockGibtonite** — `BaseRockGibtonite`
+- `模板` **扫描门** — `BaseScanGate` ｜父类: BaseMachinePowered,ConstructibleMachine ｜_Starlight
+- `模板` **实心墙** — `BaseSecretDoor` ｜父类: BaseStructure
+- **暗门组件** — `BaseSecretDoorAssembly`
+- `模板` **BaseSecurePlasmaWindoor** — `BaseSecurePlasmaWindoor` ｜父类: BaseDeltaPressureReinforcedPlasmaQuarter,BaseSecureWindoor
+- `模板` **BaseSecureUraniumWindoor** — `BaseSecureUraniumWindoor` ｜父类: BaseDeltaPressureReinforcedPlasmaQuarter,BaseSecureWindoor
+- `模板` **BaseSecureWindoor** — `BaseSecureWindoor` ｜父类: BaseDeltaPressureReinforcedGlassQuarter,BaseWindoor
+- `模板` **安保机器人展柜** — `BaseShowcaseRobot` ｜父类: BaseStructure
+- `模板` **卷帘门** — `BaseShutter` ｜父类: BaseStructure,BaseStructureDissolvable
+- `模板` **基础标牌** — `BaseSign` ｜父类: BaseWallmountMetallic
+- `模板` **BaseSignDirectional** — `BaseSignDirectional` ｜父类: BaseSign
+- `模板` **SMES 储能柜** — `BaseSMES` ｜父类: BaseMachine,ConstructibleMachine
+- `模板` **BaseStructure** — `BaseStructure`
+- `模板` **BaseStructureComputer** — `BaseStructureComputer` ｜父类: BaseStructure
+- `模板` **BaseStructureDesktopComputer** — `BaseStructureDesktopComputer` ｜父类: BaseStructure ｜_Starlight
+- `模板` **BaseStructureDissolvable** — `BaseStructureDissolvable` ｜父类: BaseStructure ｜_Starlight
+- `模板` **BaseStructureDynamic** — `BaseStructureDynamic` ｜父类: BaseStructure
+- `模板` **基础墙** — `BaseStructureWall` ｜父类: BaseStructure,BaseStructureDissolvable
+- `模板` **变电站** — `BaseSubstation` ｜父类: CoreSubstation,BaseMachine,ConstructibleMachine
+- **壁挂式变电站** — `BaseSubstationWall` ｜父类: CoreSubstation
+- **壁挂式变电站框架** — `BaseSubstationWallFrame`
+- `模板` **BaseTabletopChemicalMachine** — `BaseTabletopChemicalMachine` ｜父类: BaseMachinePowered,SmallConstructibleMachine
+- `模板` **推进器** — `BaseThruster` ｜父类: BaseStructureDynamic
+- `模板` **BaseTicketMachine** — `BaseTicketMachine` ｜父类: BaseWallmountMachine ｜_Starlight
+- `模板` **马桶** — `BaseToilet` ｜父类: DisposalUnitBase,SeatBase
+- **马桶** — `BaseToiletRegen` ｜父类: BaseToilet ｜_Starlight
+- `模板` **BaseUraniumWindoor** — `BaseUraniumWindoor` ｜父类: BaseDeltaPressurePlasmaQuarter,BaseWindoor
+- `模板` **BaseWall** — `BaseWall` ｜父类: BaseStructureWall
+- `模板` **BaseWallBanner** — `BaseWallBanner` ｜父类: BaseSign ｜_Starlight
+- `模板` **壁挂壁橱** — `BaseWallCloset` ｜父类: BaseWallmountMetallic
+- `模板` **BaseWallLocker** — `BaseWallLocker` ｜父类: BaseWallCloset
+- `模板` **BaseWallmount** — `BaseWallmount`
+- `模板` **BaseWallmountCabinet** — `BaseWallmountCabinet` ｜父类: BaseWallmountMetallic,BaseItemCabinet
+- `模板` **BaseWallmountCabinetGlass** — `BaseWallmountCabinetGlass` ｜父类: BaseWallmountGlass,BaseItemCabinetGlass
+- `模板` **BaseWallmountGlass** — `BaseWallmountGlass` ｜父类: BaseWallmount
+- `模板` **BaseWallmountMachine** — `BaseWallmountMachine` ｜父类: BaseWallmountMetallic
+- `模板` **BaseWallmountMetallic** — `BaseWallmountMetallic` ｜父类: BaseWallmount
+- `模板` **墙式保险箱** — `BaseWallSafe` ｜_Starlight
+- `模板` **BaseWindoor** — `BaseWindoor` ｜父类: BaseDeltaPressureGlassQuarter,BaseStructure,BaseStructureDissolvable
+- **床** — `Bed` ｜父类: BaseStructure
+- **舒适 长椅** — `BenchBlueComfy` ｜父类: BenchComfy ｜_Starlight
+- **舒适 长椅** — `BenchBlueComfyCorner` ｜父类: BenchComfy ｜_Starlight
+- **舒适 长椅** — `BenchBlueComfyEndLeft` ｜父类: BenchComfy ｜_Starlight
+- **舒适 长椅** — `BenchBlueComfyEndRight` ｜父类: BenchComfy ｜_Starlight
+- **舒适 长椅** — `BenchBlueComfyMiddle` ｜父类: BenchComfy ｜_Starlight
+- **舒适 长椅** — `BenchColorfulComfy` ｜父类: BenchComfy
+- **舒适长凳** — `BenchComfy` ｜父类: SeatBase
+- **舒适 长椅** — `BenchComfyCorner` ｜父类: SeatBase ｜_Starlight
+- **舒适 长椅** — `BenchComfyEndLeft` ｜父类: SeatBase ｜_Starlight
+- **舒适 长椅** — `BenchComfyEndRight` ｜父类: SeatBase ｜_Starlight
+- **舒适 长椅** — `BenchComfyMiddle` ｜父类: SeatBase ｜_Starlight
+- **舒适 长椅** — `BenchGrayComfy` ｜父类: BenchComfy ｜_Starlight
+- **舒适 长椅** — `BenchGrayComfyCorner` ｜父类: BenchComfy ｜_Starlight
+- **舒适 长椅** — `BenchGrayComfyEndLeft` ｜父类: BenchComfy ｜_Starlight
+- **舒适 长椅** — `BenchGrayComfyEndRight` ｜父类: BenchComfy ｜_Starlight
+- **舒适 长椅** — `BenchGrayComfyMiddle` ｜父类: BenchComfy ｜_Starlight
+- **舒适 长椅** — `BenchGreenComfy` ｜父类: BenchComfy ｜_Starlight
+- **舒适 长椅** — `BenchGreenComfyCorner` ｜父类: BenchComfy ｜_Starlight
+- **舒适 长椅** — `BenchGreenComfyEndLeft` ｜父类: BenchComfy ｜_Starlight
+- **舒适 长椅** — `BenchGreenComfyEndRight` ｜父类: BenchComfy ｜_Starlight
+- **舒适 长椅** — `BenchGreenComfyMiddle` ｜父类: BenchComfy ｜_Starlight
+- **舒适 长椅** — `BenchRedComfy` ｜父类: BenchComfy ｜_Starlight
+- **舒适 长椅** — `BenchRedComfyCorner` ｜父类: BenchComfy ｜_Starlight
+- **舒适 长椅** — `BenchRedComfyEndLeft` ｜父类: BenchComfy ｜_Starlight
+- **舒适 长椅** — `BenchRedComfyEndRight` ｜父类: BenchComfy ｜_Starlight
+- **舒适 长椅** — `BenchRedComfyMiddle` ｜父类: BenchComfy ｜_Starlight
+- **舒适 长椅** — `BenchWhiteComfy` ｜父类: BenchComfy ｜_Starlight
+- **纸板箱** — `BigBox` ｜父类: BaseBigBox
+- **生物方块制造机** — `Biofabricator` ｜父类: BaseLathe
+- **生物生成器** — `Biogenerator` ｜父类: BaseLathe
+- **生物质回收机** — `BiomassReclaimer` ｜父类: BaseMachinePowered,ConstructibleMachine
+- **刀片服务器机架** — `BladeServerRack` ｜父类: BaseMachinePowered,ConstructibleMachine ｜_Moffstation
+- **刀片服务器机架** — `BladeServerRackRD` ｜父类: BladeServerRack ｜_Moffstation
+- **空白旗帜** — `BlankFlag` ｜父类: BaseFlag
+- **防爆门** — `BlastDoor` ｜父类: BaseShutter
+- **防爆门** — `BlastDoorBridge` ｜父类: BlastDoor
+- **防爆门** — `BlastDoorBridgeOpen` ｜父类: BlastDoorOpen
+- **防爆门** — `BlastDoorCentralCommand` ｜父类: BlastDoor
+- **防爆门** — `BlastDoorEngineering` ｜父类: BlastDoor
+- **防爆门** — `BlastDoorEngineeringOpen` ｜父类: BlastDoorOpen
+- **防爆门** — `BlastDoorExterior1` ｜父类: BlastDoor
+- **防爆门** — `BlastDoorExterior1Open` ｜父类: BlastDoorOpen
+- **防爆门** — `BlastDoorExterior2` ｜父类: BlastDoor
+- **防爆门** — `BlastDoorExterior2Open` ｜父类: BlastDoorOpen
+- **防爆门** — `BlastDoorExterior3` ｜父类: BlastDoor
+- **防爆门** — `BlastDoorExterior3Open` ｜父类: BlastDoorOpen
+- **防爆门框架** — `BlastDoorFrame` ｜父类: BaseStructureDynamic
+- **防爆门** — `BlastDoorOpen` ｜父类: BlastDoor
+- **防爆门** — `BlastDoorScience` ｜父类: BlastDoor
+- **防爆门** — `BlastDoorScienceOpen` ｜父类: BlastDoorOpen
+- **防爆门** — `BlastDoorWindows` ｜父类: BlastDoor
+- **防爆门** — `BlastDoorWindowsOpen` ｜父类: BlastDoorOpen
+- **异形防爆门** — `BlastDoorXeno` ｜父类: BlastDoor
+- **异形赛博格防爆门** — `BlastDoorXenoborg` ｜父类: BlastDoor
+- **异形赛博格防爆门** — `BlastDoorXenoborgOpen` ｜父类: BlastDoorXenoborg
+- **异形防爆门框架** — `BlastDoorXenoFrame` ｜父类: BaseStructureDynamic
+- **异形防爆门** — `BlastDoorXenoOpen` ｜父类: BlastDoorXeno
+- **NT 方块游戏** — `BlockGameArcade` ｜父类: ArcadeBase
+- **蓝空间 收集器** — `BluespaceHarvester` ｜父类: BaseMachine ｜_Starlight
+- **骨凝胶 分配器** — `BoneGelDispenser` ｜父类: BaseDispenser ｜_Starlight
+- **篝火** — `Bonfire` ｜父类: BaseBonfire
+- **火刑柱篝火** — `BonfireStake` ｜父类: BaseBonfire
+- **书架** — `Bookshelf` ｜父类: BaseStructure
+- **酒水分配器** — `BoozeDispenser` ｜父类: BoozeDispenserEmpty
+- **酒水分配器** — `BoozeDispenserEmpty` ｜父类: ReagentDispenserBasePowerCell
+- **赛博格充电站** — `BorgCharger` ｜父类: BaseRecharger
+- **异形赛博格充电站** — `BorgChargerXenoborg` ｜父类: BorgCharger
+- **拳击铃** — `BoxingBell` ｜父类: BaseWallmountMetallic
+- **禁闭室定时器** — `BrigTimer` ｜父类: ScreenTimer
+- **按钮框架** — `ButtonFrame`
+- **按钮框架** — `ButtonFrameCaution` ｜父类: ButtonFrame
+- **按钮框架** — `ButtonFrameCautionSecurity` ｜父类: ButtonFrame
+- **按钮框架** — `ButtonFrameExit` ｜父类: ButtonFrame
+- **按钮框架** — `ButtonFrameGrey` ｜父类: ButtonFrame
+- **按钮框架** — `ButtonFrameJanitor` ｜父类: ButtonFrame
+- **BZ 储气罐** — `BZCanister` ｜父类: GasCanister ｜_Funkystation
+- **损坏的 气罐** — `BZCanisterBroken` ｜父类: GasCanisterBrokenBase ｜_Funkystation
+- **BZ 储气罐** — `BZCanisterEmpty` ｜父类: BZCanister ｜_Starlight
+- **LV 电力电缆** — `CableApcExtension` ｜父类: CableBase
+- **LV 电力电缆** — `CableApcExtensionUncuttable` ｜父类: CableApcExtension
+- `模板` **CableBase** — `CableBase` ｜父类: CablePhysBase
+- **爆破索** — `CableDet` ｜父类: CablePhysBase,BaseSecurityContraband
+- **HV 电力电缆** — `CableHV` ｜父类: CableBase
+- **HV 电力电缆** — `CableHVUncuttable` ｜父类: CableHV
+- **MV 电力电缆** — `CableMV` ｜父类: CableBase
+- **MV 电力电缆** — `CableMVUncuttable` ｜父类: CableMV
+- `模板` **CablePhysBase** — `CablePhysBase`
+- **电缆端子** — `CableTerminal`
+- **电缆端子** — `CableTerminalUncuttable` ｜父类: CableTerminal
+- **二氧化碳气罐** — `CarbonDioxideCanister` ｜父类: GasCanister
+- **损坏的 气罐** — `CarbonDioxideCanisterBroken` ｜父类: GasCanisterBrokenBase
+- **二氧化碳气罐** — `CarbonDioxideCanisterEmpty` ｜父类: CarbonDioxideCanister ｜_Starlight
+- **纸板门** — `CardDoor` ｜父类: BaseMaterialDoorNavMap
+- **纸板凳** — `CardStool` ｜父类: UnanchoredChairBase
+- **纸板墙** — `Cardwall` ｜父类: BaseStructure
+- **邮件传送器** — `CargoMailTeleporter` ｜父类: BaseMachinePowered,ConstructibleMachine
+- **货运传送台** — `CargoTelepad` ｜父类: BaseMachinePowered,ConstructibleMachine
+- **地毯** — `Carpet` ｜父类: CarpetBase
+- `模板` **地毯** — `CarpetBase` ｜父类: BaseStructure
+- **地毯** — `CarpetBlack` ｜父类: CarpetBase
+- **地毯** — `CarpetBlue` ｜父类: CarpetBase
+- **纸板“地毯”** — `CarpetCard` ｜父类: BaseStructure
+- **“神殿地毯”** — `CarpetChapel` ｜父类: BaseStructure
+- **地毯** — `CarpetCyan` ｜父类: CarpetBase
+- **地毯** — `CarpetGreen` ｜父类: CarpetBase
+- **地毯** — `CarpetOrange` ｜父类: CarpetBase
+- **地毯** — `CarpetPink` ｜父类: CarpetBase
+- **地毯** — `CarpetPurple` ｜父类: CarpetBase
+- **地毯** — `CarpetSBlue` ｜父类: CarpetBase
+- **地毯** — `CarpetWhite` ｜父类: CarpetBase
+- **鲤鱼裂隙** — `CarpRift`
+- **太空鲤鱼雕像** — `CarpStatue` ｜父类: XenoWardingTower
+- **鲤鱼雕像** — `CarpStatueEmpty` ｜父类: CarpStatue
+- **鲤鱼雕像** — `CarpStatueEyes` ｜父类: CarpStatue
+- **卡斯卡德** — `Cascad1` ｜_Starlight
+- **物品** — `Cascad2` ｜父类: Cascad1 ｜_Starlight
+- **物品** — `Cascad3` ｜父类: Cascad1 ｜_Starlight
+- **物品** — `Cascad4` ｜父类: Cascad1 ｜_Starlight
+- **物品** — `Cascad5` ｜父类: Cascad1 ｜_Starlight
+- **物品** — `Cascad6` ｜父类: Cascad1 ｜_Starlight
+- **收银机** — `CashRegister` ｜父类: BaseStructure,BaseBagOpenClose ｜_Starlight
+- **栈道** — `Catwalk`
+- **中央指挥部通讯计算机** — `CentcommComputerComms` ｜父类: ComputerComms
+- **???** — `CentcommConsoleEye` ｜父类: Incorporeal,BaseMob ｜_Starlight
+- **中央指挥部 旗帜** — `CentCommFlag` ｜父类: BaseFlag ｜_Starlight
+- **功能设备** — `CentCommSectoralConsole` ｜父类: ComputerComms ｜_Starlight
+- **椅子** — `Chair` ｜父类: ChairBase
+- `模板` **椅子** — `ChairBase` ｜父类: UnanchoredChairBase
+- **黄铜椅** — `ChairBrass` ｜父类: StoolBase
+- **鲤鱼椅** — `ChairCarp` ｜父类: SeatBase ｜_Starlight
+- **诅咒椅** — `ChairCursed` ｜父类: ChairWood
+- **折叠椅** — `ChairFolding` ｜父类: SeatBase,BaseDeployFoldable
+- **折叠椅** — `ChairFoldingSpawnFolded` ｜父类: ChairFolding
+- **椅子** — `ChairGreyscale` ｜父类: Chair
+- **肉椅** — `ChairMeat` ｜父类: UnanchoredChairBase
+- **黑色办公椅** — `ChairOfficeDark` ｜父类: ChairOfficeLight
+- **白色办公椅** — `ChairOfficeLight` ｜父类: OfficeChairBase
+- **简约办公椅** — `ChairOfficeSleek` ｜父类: StoolBase ｜_Starlight
+- **驾驶座** — `ChairPilotSeat` ｜父类: ChairBase
+- **华贵座椅** — `ChairRegal` ｜父类: UnanchoredChairBase ｜_Starlight
+- **仪式椅** — `ChairRitual` ｜父类: ChairWood
+- **华贵王座** — `ChairThrone` ｜父类: ChairBase ｜_Starlight
+- **蛛网椅** — `ChairWeb` ｜父类: UnanchoredChairBase
+- **木椅** — `ChairWood` ｜父类: UnanchoredChairBase
+- **异形椅** — `ChairXeno` ｜父类: StoolBase
+- **折叠担架** — `CheapRollerBed` ｜父类: RollerBed
+- **折叠担架** — `CheapRollerBedSpawnFolded` ｜父类: CheapRollerBed
+- **化学品分配器** — `ChemDispenser` ｜父类: ChemDispenserEmpty
+- **化学品分配器** — `ChemDispenserEmpty` ｜父类: ReagentDispenserBasePowerCell
+- **加热板** — `ChemistryHotplate` ｜父类: BaseHeaterMachine
+- **化学大师 4000** — `ChemMaster` ｜父类: BaseMachinePowered,ConstructibleMachine
+- **教堂钟** — `ChurchBell`
+- **电路打印机** — `CircuitImprinter` ｜父类: BaseLatheLube
+- **超对流电路打印机** — `CircuitImprinterHyperConvection` ｜父类: CircuitImprinter,BaseHyperlathe
+- **太空清洁剂分配器** — `CleanerDispenser` ｜父类: BaseDispenser
+- **标识装饰** — `ClinicSignLights` ｜父类: BarSignLights ｜_Starlight
+- **墙壁齿轮** — `ClockworkGirder` ｜父类: ReinforcedGirder
+- **发条格栅** — `ClockworkGrille` ｜父类: Grille
+- **发条格栅** — `ClockworkGrilleBroken` ｜父类: GrilleBroken
+- **斜向发条格栅** — `ClockworkGrilleDiagonal` ｜父类: ClockworkGrille
+- **发条窗** — `ClockworkWindow` ｜父类: Window
+- **发条窗** — `ClockworkWindowDiagonal` ｜父类: ClockworkWindow
+- **克隆舱** — `CloningPod` ｜父类: BaseMachinePowered
+- `模板` **壁橱** — `ClosetBase` ｜父类: BaseStructureDynamic,BasePaperLabelableVisualized
+- **可疑的 壁橱** — `ClosetBluespace` ｜父类: ClosetMaintenance
+- **可疑的 壁橱** — `ClosetBluespaceUnstable` ｜父类: ClosetMaintenance
+- **EOD 壁橱** — `ClosetBomb` ｜父类: ClosetSteelBase
+- **厨师壁橱** — `ClosetChef` ｜父类: WardrobeBlack
+- **储物柜** — `ClosetCursed` ｜父类: ClosetSteelBase
+- **应急 壁橱** — `ClosetEmergency` ｜父类: ClosetSteelBase
+- **氮气应急 壁橱** — `ClosetEmergencyN2` ｜父类: ClosetSteelBase
+- **消防 壁橱** — `ClosetFire` ｜父类: ClosetSteelBase
+- **清洁用品柜** — `ClosetJanitor` ｜父类: WardrobeMixed
+- **清洁用防爆服柜** — `ClosetJanitorBomb` ｜父类: ClosetSteelBase
+- **三级生化防护装备柜** — `ClosetL3` ｜父类: ClosetSteelBase
+- **三级生化防护装备柜** — `ClosetL3Janitor` ｜父类: ClosetL3
+- **三级生化防护装备柜** — `ClosetL3Science` ｜父类: ClosetL3
+- **三级生化防护装备柜** — `ClosetL3Security` ｜父类: ClosetL3
+- **三级生化防护装备柜** — `ClosetL3Virology` ｜父类: ClosetL3
+- **法律用品柜** — `ClosetLegal` ｜父类: WardrobeBlue
+- **维护 壁橱** — `ClosetMaintenance` ｜父类: ClosetSteelBase
+- **储物容器** — `ClosetPirateBase` ｜父类: LockerSyndicate ｜_Starlight
+- **储物容器** — `ClosetPirateCaptain` ｜父类: LockerSyndicate ｜_Starlight
+- **储物容器** — `ClosetPirateCaptainScooner` ｜父类: LockerSyndicate ｜_Starlight
+- **储物容器** — `ClosetPirateFirstmate` ｜父类: LockerSyndicate ｜_Starlight
+- **储物容器** — `ClosetPirateScoonerA` ｜父类: LockerSyndicate ｜_Starlight
+- **储物容器** — `ClosetPirateScoonerAltB` ｜父类: LockerSyndicate ｜_Starlight
+- **储物容器** — `ClosetPirateScoonerAltC` ｜父类: LockerSyndicate ｜_Starlight
+- **储物容器** — `ClosetPirateScoonerAltD` ｜父类: LockerSyndicate ｜_Starlight
+- **防辐射服柜** — `ClosetRadiationSuit` ｜父类: ClosetSteelBase
+- **壁橱** — `ClosetSteelBase` ｜父类: ClosetBase
+- **工具柜** — `ClosetTool` ｜父类: ClosetSteelBase
+- **维护 壁挂壁橱** — `ClosetWall` ｜父类: BaseWallCloset
+- **大气 壁挂壁橱** — `ClosetWallAtmospherics` ｜父类: BaseWallCloset
+- **黑色 壁挂壁橱** — `ClosetWallBlack` ｜父类: BaseWallCloset
+- **蓝色 壁挂壁橱** — `ClosetWallBlue` ｜父类: BaseWallCloset
+- **应急 壁挂壁橱** — `ClosetWallEmergency` ｜父类: BaseWallCloset
+- **氮气应急 壁挂壁橱** — `ClosetWallEmergencyN2` ｜父类: BaseWallCloset
+- **消防 壁挂壁橱** — `ClosetWallFire` ｜父类: BaseWallCloset
+- **绿色 壁挂壁橱** — `ClosetWallGreen` ｜父类: BaseWallCloset
+- **灰色 壁挂壁橱** — `ClosetWallGrey` ｜父类: BaseWallCloset
+- **混色 壁挂壁橱** — `ClosetWallMixed` ｜父类: BaseWallCloset
+- **监狱 壁挂壁橱** — `ClosetWallOrange` ｜父类: BaseWallCloset
+- **粉色 壁挂壁橱** — `ClosetWallPink` ｜父类: BaseWallCloset
+- **白色 壁挂壁橱** — `ClosetWallWhite` ｜父类: BaseWallCloset
+- **黄色 壁挂壁橱** — `ClosetWallYellow` ｜父类: BaseWallCloset
+- **平台** — `CMPlatform` ｜父类: CMPlatformBase ｜_Starlight
+- `模板` **platform** — `CMPlatformBase` ｜_Starlight
+- **平台** — `CMPlatformCorner` ｜父类: CMPlatformBase ｜_Starlight
+- **平台** — `CMPlatformCornerDark` ｜父类: CMPlatformBase ｜_Starlight
+- **平台** — `CMPlatformCornerWood` ｜父类: CMPlatformBase ｜_Starlight
+- **平台** — `CMPlatformDark` ｜父类: CMPlatformBase ｜_Starlight
+- **平台** — `CMPlatformWood` ｜父类: CMPlatformBase ｜_Starlight
+- **蜘蛛网** — `Cobweb1`
+- **蜘蛛网** — `Cobweb2` ｜父类: Cobweb1
+- **咖啡分配器** — `CoffeeDispenser` ｜父类: CoffeeDispenserEmpty ｜_Starlight
+- **咖啡分配器** — `CoffeeDispenserEmpty` ｜父类: ReagentDispenserBasePowerCell ｜_Starlight
+- **舒适座椅** — `ComfyChair` ｜父类: ChairBase ｜_Starlight
+- **舒适座椅** — `ComfyChairBlue` ｜父类: ChairBase ｜_Starlight
+- **舒适座椅** — `ComfyChairBrown` ｜父类: ChairBase ｜_Starlight
+- **舒适座椅** — `ComfyChairGreen` ｜父类: ChairBase ｜_Starlight
+- **舒适座椅** — `ComfyChairRed` ｜父类: ChairBase ｜_Starlight
+- **舒适座椅** — `ComfyChairWhite` ｜父类: ChairBase ｜_Starlight
+- **远程打捞穿梭机控制台** — `CompuerShuttleSalvage` ｜父类: BaseComputerShuttle ｜_Starlight
+- **大气警报计算机** — `ComputerAlert` ｜父类: BaseComputerAiAccess
+- **功能设备** — `ComputerAlertDesktop` ｜父类: BaseDesktop,ComputerAlert ｜_Starlight
+- **分析控制台** — `ComputerAnalysisConsole` ｜父类: BaseComputerAiAccess
+- **大气网络监视器** — `ComputerAtmosMonitoring` ｜父类: BaseComputerAiAccess
+- **功能设备** — `ComputerAtmosMonitoringDesktop` ｜父类: BaseDesktop,ComputerAtmosMonitoring ｜_Starlight
+- **手术计算机** — `computerBodyScanner` ｜父类: BaseComputerAiAccess
+- **损坏的计算机** — `ComputerBroken` ｜父类: BaseStructureComputer
+- **货运悬赏计算机** — `ComputerCargoBounty` ｜父类: BaseComputerAiAccess
+- **功能设备** — `ComputerCargoBountyDesktop` ｜父类: BaseDesktop,ComputerCargoBounty ｜_Starlight
+- **货运申请计算机** — `ComputerCargoOrders` ｜父类: BaseComputerAiAccess
+- **功能设备** — `ComputerCargoOrdersDesktop` ｜父类: BaseDesktop,ComputerCargoOrders ｜_Starlight
+- **工程部申请计算机** — `ComputerCargoOrdersEngineering` ｜父类: ComputerCargoOrders
+- **功能设备** — `ComputerCargoOrdersEngineeringDesktop` ｜父类: BaseDesktop,ComputerCargoOrdersEngineering ｜_Starlight
+- **医疗部申请计算机** — `ComputerCargoOrdersMedical` ｜父类: ComputerCargoOrders
+- **功能设备** — `ComputerCargoOrdersMedicalDesktop` ｜父类: BaseDesktop,ComputerCargoOrdersMedical ｜_Starlight
+- **科研部申请计算机** — `ComputerCargoOrdersScience` ｜父类: ComputerCargoOrders
+- **功能设备** — `ComputerCargoOrdersScienceDesktop` ｜父类: BaseDesktop,ComputerCargoOrdersScience ｜_Starlight
+- **安保部申请计算机** — `ComputerCargoOrdersSecurity` ｜父类: ComputerCargoOrders
+- **功能设备** — `ComputerCargoOrdersSecurityDesktop` ｜父类: BaseDesktop,ComputerCargoOrdersSecurity ｜_Starlight
+- **服务部申请计算机** — `ComputerCargoOrdersService` ｜父类: ComputerCargoOrders
+- **功能设备** — `ComputerCargoOrdersServiceDesktop` ｜父类: BaseDesktop,ComputerCargoOrdersService ｜_Starlight
+- **克隆控制计算机** — `ComputerCloningConsole` ｜父类: BaseComputerAiAccess
+- **通讯控制台** — `ComputerComms` ｜父类: BaseComputerAiAccess
+- **货运 通讯控制台** — `ComputerCommsCargo` ｜父类: ComputerComms ｜_Starlight
+- **工程 通讯控制台** — `ComputerCommsEngineering` ｜父类: ComputerComms ｜_Starlight
+- **功能设备** — `ComputerCommsLaw` ｜父类: ComputerComms ｜_Starlight
+- **医疗 通讯控制台** — `ComputerCommsMedical` ｜父类: ComputerComms ｜_Starlight
+- **科研 通讯控制台** — `ComputerCommsScience` ｜父类: ComputerComms ｜_Starlight
+- **安保 通讯控制台** — `ComputerCommsSecurity` ｜父类: ComputerComms ｜_Starlight
+- **服务 通讯控制台** — `ComputerCommsService` ｜父类: ComputerComms ｜_Starlight
+- **船员监控台** — `ComputerCrewMonitoring` ｜父类: BaseComputerAiAccess
+- **功能设备** — `ComputerCrewMonitoringDesktop` ｜父类: BaseDesktop,ComputerCrewMonitoring ｜_Starlight
+- **安保记录计算机** — `ComputerCriminalRecords` ｜父类: BaseComputerAiAccess
+- **功能设备** — `ComputerCriminalRecordsDesktop` ｜父类: BaseDesktop,ComputerCriminalRecords ｜_Starlight
+- **紧急撤离穿梭机控制台** — `ComputerEmergencyShuttle` ｜父类: BaseComputer
+- **计算机框架** — `ComputerFrame` ｜父类: BaseStructureComputer
+- **资金分配计算机** — `ComputerFundingAllocation` ｜父类: BaseComputerAiAccess
+- **炮术控制台** — `ComputerGunneryConsole` ｜父类: BaseComputer ｜_Starlight
+- **ID卡计算机** — `ComputerId` ｜父类: BaseComputerAiAccess
+- **IFF 计算机** — `ComputerIFF` ｜父类: BaseComputerAiAccess
+- **IFF 计算机** — `ComputerIFFSyndicate` ｜父类: ComputerIFF
+- **新闻管理控制台** — `ComputerMassMedia` ｜父类: BaseComputerAiAccess
+- **功能设备** — `ComputerMassMediaDesktop` ｜父类: BaseDesktop,ComputerMassMedia ｜_Starlight
+- **医疗记录计算机** — `ComputerMedicalRecords` ｜父类: BaseComputerAiAccess
+- **辛迪加投送计算机** — `ComputerNukieDelivery` ｜父类: BaseComputer
+- **货物出售计算机** — `ComputerPalletConsole` ｜父类: BaseComputerAiAccess
+- **功能设备** — `ComputerPersonalDesktop` ｜父类: BaseDesktop,BaseComputerAiAccess,StorePresetUplink ｜_Starlight
+- **电力监控计算机** — `ComputerPowerMonitoring` ｜父类: BaseComputerAiAccess
+- **功能设备** — `ComputerPowerMonitoringDesktop` ｜父类: BaseDesktop,ComputerPowerMonitoring ｜_Starlight
+- **质量扫描计算机** — `ComputerRadar` ｜父类: BaseComputerAiAccess
+- **研发计算机** — `ComputerResearchAndDevelopment` ｜父类: BaseComputerAiAccess
+- **机器人控制台** — `ComputerRoboticsControl` ｜父类: BaseComputerAiAccess
+- **打捞远征计算机** — `ComputerSalvageExpedition` ｜父类: BaseComputerAiAccess
+- **打捞任务板** — `ComputerSalvageJobBoard` ｜父类: BaseComputerAiAccess
+- **功能设备** — `ComputerSalvageJobBoardDesktop` ｜父类: BaseDesktop,ComputerSalvageJobBoard ｜_Starlight
+- **传感器监控计算机** — `ComputerSensorMonitoring` ｜父类: BaseComputer
+- **功能设备** — `ComputerShipyard` ｜父类: BaseComputer ｜_Starlight
+- **穿梭机控制台** — `ComputerShuttle` ｜父类: BaseComputerShuttle
+- **货运穿梭机远程控制台** — `ComputerShuttleCargo` ｜父类: BaseComputerShuttle
+- **功能设备** — `ComputerShuttleMining` ｜父类: BaseComputerShuttle ｜_Starlight
+- **功能设备** — `ComputerShuttleSecurity` ｜父类: BaseComputerShuttle ｜_Starlight
+- **辛迪加穿梭机控制台** — `ComputerShuttleSyndie` ｜父类: BaseComputerShuttle
+- **太阳能控制计算机** — `ComputerSolarControl` ｜父类: BaseComputerAiAccess
+- **雇员记录计算机** — `ComputerStationRecords` ｜父类: BaseComputerAiAccess
+- **功能设备** — `ComputerStationRecordsDesktop` ｜父类: BaseDesktop,ComputerStationRecords ｜_Starlight
+- **摄像头监视器** — `ComputerSurveillanceCameraMonitor` ｜父类: BaseComputer
+- **功能设备** — `ComputerSurveillanceCameraMonitorDesktop` ｜父类: BaseDesktop,ComputerSurveillanceCameraMonitor ｜_Starlight
+- **功能设备** — `ComputerSurveillanceCameraMonitorDesktopIsolatedNetwork` ｜父类: ComputerSurveillanceCameraMonitorDesktop ｜_Starlight
+- **无线摄像头监视器** — `ComputerSurveillanceWirelessCameraMonitor` ｜父类: BaseComputer
+- **异形赛博格摄像头监视器** — `ComputerSurveillanceWirelessXenoborgCameraMonitor` ｜父类: ComputerSurveillanceWirelessCameraMonitor
+- **科技磁盘终端** — `ComputerTechnologyDiskTerminal` ｜父类: BaseComputer
+- **木制电视机** — `ComputerTelevision` ｜父类: ComputerSurveillanceWirelessCameraMonitor
+- **异形赛博格控制台** — `ComputerXenoborgsControl` ｜父类: BaseComputer
+- `模板` **ConstructibleMachine** — `ConstructibleMachine`
+- **约束场** — `ContainmentField`
+- **约束场发生器** — `ContainmentFieldGenerator` ｜父类: BaseStructure
+- **传送带** — `ConveyorBelt`
+- **传送带** — `ConveyorBeltAssembly` ｜父类: BaseItem
+- `模板` **CoreSubstation** — `CoreSubstation`
+- **异常** — `CosmicMalignRift` ｜_Starlight
+- `模板` **柜台** — `CounterBase` ｜父类: TableBase
+- **金属柜台框架** — `CounterMetalFrame` ｜父类: CounterWoodFrame
+- **木制柜台框架** — `CounterWoodFrame` ｜父类: BaseStructure
+- **暗影异常核心** — `CraftingAnomalyCoreShadow` ｜父类: AnomalyCoreShadow ｜_Starlight
+- `模板` **资金箱** — `CrateBaseLockBox` ｜父类: CrateBaseSecure
+- **板条箱** — `CrateBaseSecure` ｜父类: CrateBaseWeldable
+- **板条箱** — `CrateBaseWeldable` ｜父类: CrateGeneric
+- **中央指挥部 板条箱** — `CrateCentralCommandSecure` ｜父类: CrateBaseSecure ｜_Starlight
+- **中央指挥部 板条箱** — `CrateCentralCommandSecureStrong` ｜父类: CrateCentralCommandSecure ｜_Starlight
+- **安全化学品箱** — `CrateChemistrySecure` ｜父类: CrateBaseSecure
+- **棺材** — `CrateCoffin` ｜父类: CrateGeneric
+- **指挥部箱** — `CrateCommandSecure` ｜父类: CrateBaseSecure
+- **违禁品储存箱** — `CrateContrabandStorageSecure` ｜父类: CrateBaseSecure,BaseSecurityContraband
+- **电气箱** — `CrateElectrical` ｜父类: CrateGenericSteel
+- **工程箱** — `CrateEngineering` ｜父类: CrateGenericSteel
+- **安全工程箱** — `CrateEngineeringSecure` ｜父类: CrateBaseSecure
+- **冷冻柜** — `CrateFreezer` ｜父类: CratePlastic
+- **板条箱** — `CrateGeneric` ｜父类: BaseStructureDynamic,BasePaperLabelableVisualized
+- **板条箱** — `CrateGenericSteel` ｜父类: CrateBaseWeldable
+- **水培箱** — `CrateHydroponics` ｜父类: CratePlastic
+- **安全水培箱** — `CrateHydroSecure` ｜父类: CrateBaseSecure
+- **氧气箱** — `CrateInternals` ｜父类: CratePlastic
+- **储物容器** — `CrateInternalsO2N2` ｜父类: CrateInternals ｜_Starlight
+- **牲畜箱** — `CrateLivestock` ｜父类: CrateGeneric
+- **工程 资金箱** — `CrateLockBoxEngineering` ｜父类: CrateBaseLockBox
+- **医疗 资金箱** — `CrateLockBoxMedical` ｜父类: CrateBaseLockBox
+- **科研 资金箱** — `CrateLockBoxScience` ｜父类: CrateBaseLockBox
+- **安保 资金箱** — `CrateLockBoxSecurity` ｜父类: CrateBaseLockBox
+- **服务 资金箱** — `CrateLockBoxService` ｜父类: CrateBaseLockBox
+- **医疗箱** — `CrateMedical` ｜父类: CratePlastic
+- **安全医疗箱** — `CrateMedicalSecure` ｜父类: CrateBaseSecure
+- **海盗宝箱** — `CratePirate` ｜父类: CrateGeneric
+- **等离子体箱** — `CratePlasma` ｜父类: CrateBaseSecure
+- **塑料箱** — `CratePlastic` ｜父类: CrateBaseWeldable
+- **私人箱** — `CratePrivateSecure` ｜父类: CrateBaseSecure
+- **防辐射装备箱** — `CrateRadiation` ｜父类: CrateGenericSteel
+- **RD 板条箱** — `CrateRDSecure` ｜父类: CrateBaseSecure ｜_Starlight
+- **储物容器** — `CrateRoboticsSecure` ｜父类: CrateBaseSecure ｜_Starlight
+- **仓鼠笼** — `CrateRodentCage` ｜父类: CrateGeneric
+- **储物容器** — `CrateSalvageContrabandStorageSecure` ｜父类: CrateBaseSecure ｜_Starlight
+- **科研箱** — `CrateScience` ｜父类: CrateGenericSteel
+- **安全科研箱** — `CrateScienceSecure` ｜父类: CrateBaseSecure
+- **安保装备箱** — `CrateSecgear` ｜父类: CrateBaseSecure,BaseSecurityContraband
+- **安全箱** — `CrateSecure` ｜父类: CrateBaseSecure
+- **SSF 储物容器** — `CrateSoviet` ｜父类: CrateGenericSteel ｜_Starlight
+- **坟墓** — `CrateStoneGrave` ｜父类: CrateWoodenGrave
+- **手术箱** — `CrateSurgery` ｜父类: CrateGenericSteel
+- **辛迪加箱** — `CrateSyndicate` ｜父类: CrateGenericSteel
+- **安全辛迪加箱** — `CrateSyndicateSecure` ｜父类: CrateBaseSecure
+- **玩具箱** — `CrateToyBox` ｜父类: CratePirate
+- **垃圾推车** — `CrateTrashCart` ｜父类: StructureWheeled,CrateBaseWeldable
+- **清洁垃圾推车** — `CrateTrashCartJani` ｜父类: CrateBaseSecure
+- **安全武器箱** — `CrateWeaponSecure` ｜父类: CrateBaseSecure
+- **蛛网箱** — `CrateWeb` ｜父类: CrateGeneric
+- **坟墓** — `CrateWoodenGrave` ｜父类: CrateGeneric
+- **火葬炉** — `Crematorium`
+- **船员监控服务器** — `CrewMonitoringServer` ｜父类: BaseCrewMonitoringServer,BaseMachinePowered,ConstructibleMachine
+- **低温休眠舱** — `CryogenicSleepUnit` ｜父类: BaseStructure
+- **低温休眠舱** — `CryogenicSleepUnitSpawner` ｜父类: CryogenicSleepUnit
+- **低温休眠舱** — `CryogenicSleepUnitSpawnerLateJoin` ｜父类: CryogenicSleepUnit
+- **低温休眠舱** — `CryoPod` ｜父类: BaseStructure,ConstructibleMachine
+- **损毁的冷冻舱** — `CryoPodDestroyed` ｜父类: BaseMachine
+- **水晶** — `CrystalBlack` ｜父类: CrystalGreen
+- **水晶** — `CrystalBlue` ｜父类: CrystalGreen
+- **水晶** — `CrystalCyan` ｜父类: CrystalGreen
+- **水晶** — `CrystalGreen` ｜父类: BaseStructure
+- **水晶** — `CrystalGrey` ｜父类: CrystalGreen
+- **水晶** — `CrystalOrange` ｜父类: CrystalGreen
+- **水晶** — `CrystalPink` ｜父类: CrystalGreen
+- **水晶** — `CrystalYellow` ｜父类: CrystalGreen
+- **帘幕** — `CurtainsBlack` ｜父类: BaseCurtains
+- **帘幕** — `CurtainsBlackOpen` ｜父类: CurtainsBlack
+- **帘幕** — `CurtainsBlue` ｜父类: BaseCurtains
+- **帘幕** — `CurtainsBlueOpen` ｜父类: CurtainsBlue
+- **帘幕** — `CurtainsCyan` ｜父类: BaseCurtains
+- **帘幕** — `CurtainsCyanOpen` ｜父类: CurtainsCyan
+- **帘幕** — `CurtainsGreen` ｜父类: BaseCurtains
+- **帘幕** — `CurtainsGreenOpen` ｜父类: CurtainsGreen
+- **帘幕** — `CurtainsOrange` ｜父类: BaseCurtains
+- **帘幕** — `CurtainsOrangeOpen` ｜父类: CurtainsOrange
+- **帘幕** — `CurtainsPink` ｜父类: BaseCurtains
+- **帘幕** — `CurtainsPinkOpen` ｜父类: CurtainsPink
+- **帘幕** — `CurtainsPurple` ｜父类: BaseCurtains
+- **帘幕** — `CurtainsPurpleOpen` ｜父类: CurtainsPurple
+- **帘幕** — `CurtainsRed` ｜父类: BaseCurtains
+- **帘幕** — `CurtainsRedOpen` ｜父类: CurtainsRed
+- **帘幕** — `CurtainsSkyBlue` ｜父类: BaseCurtains
+- **帘幕** — `CurtainsSkyBlueOpen` ｜父类: CurtainsSkyBlue
+- **帘幕** — `CurtainsWhite` ｜父类: BaseCurtains
+- **帘幕** — `CurtainsWhiteOpen` ｜父类: CurtainsWhite
+- **切割机** — `CutterMachine` ｜父类: BaseLathe
+- **标识装饰** — `CybersunFlag` ｜父类: BaseFlag ｜_Starlight
+- **黑暗发电机** — `DarkGenerator` ｜父类: BaseGenerator ｜_Starlight
+- **APC 配电箱** — `DebugAPCRecharging` ｜父类: BaseAPC
+- **电池放电器** — `DebugBatteryDischarger`
+- **电池储存器** — `DebugBatteryStorage`
+- **用电器** — `DebugConsumer`
+- **发电机** — `DebugGenerator` ｜父类: BaseGenerator
+- **陀螺仪 # Starlight** — `DebugGyroscope` ｜父类: BaseThruster
+- **调试炸弹** — `DebugHardBomb` ｜父类: SyndicateBomb
+- **电力接收器** — `DebugPowerReceiver`
+- **SMES 储能柜** — `DebugSMESRecharging` ｜父类: BaseSMES
+- **变电站** — `DebugSubstationRecharging` ｜父类: BaseSubstation
+- **壁挂式变电站** — `DebugSubstationWallRecharging` ｜父类: BaseSubstationWall
+- **推进器** — `DebugThruster` ｜父类: BaseThruster
+- **装饰过的冷杉树** — `DecoratedFirTree` ｜父类: BaseStructure
+- **除颤器柜** — `DefibrillatorCabinet` ｜父类: BaseWallmountCabinet
+- **除颤器柜** — `DefibrillatorCabinetFilled` ｜父类: DefibrillatorCabinet
+- **除颤器柜** — `DefibrillatorCabinetFilledOpen` ｜父类: DefibrillatorCabinetFilled,DefibrillatorCabinetOpen
+- **除颤器柜** — `DefibrillatorCabinetOpen` ｜父类: DefibrillatorCabinet
+- **熟食柜台** — `DeliStand` ｜父类: BaseStructureDynamic ｜_Starlight
+- **功能设备** — `DesktopComputerBroken` ｜父类: BaseStructureDesktopComputer ｜_Starlight
+- **功能设备** — `DesktopComputerFrame` ｜父类: BaseStructureDesktopComputer ｜_Starlight
+- **疾病诊断报告** — `DiagnosisReportPaper` ｜父类: Paper
+- **餐厅卡座** — `DinerEndLeft` ｜父类: SeatBase ｜_Starlight
+- **餐厅卡座** — `DinerEndRight` ｜父类: SeatBase ｜_Starlight
+- **餐厅卡座** — `DinerMiddle` ｜父类: SeatBase ｜_Starlight
+- **极限德尔塔疾病诊断仪** — `DiseaseDiagnoser` ｜父类: BaseMachinePowered,SmallConstructibleMachine
+- **废弃物弯管** — `DisposalBend` ｜父类: DisposalPipeBase
+- **废弃物管道占位体** — `DisposalHolder`
+- **废弃物二合一汇流管 # Starlight-edit** — `DisposalJunction` ｜父类: DisposalPipeBase
+- **废弃物二合一汇流管** — `DisposalJunctionFlipped` ｜父类: DisposalJunction
+- **高压机器框架** — `DisposalMachineFrame`
+- **废弃物管段** — `DisposalPipe` ｜父类: DisposalPipeBase
+- `模板` **DisposalPipeBase** — `DisposalPipeBase`
+- **损坏的废弃物管道** — `DisposalPipeBroken` ｜父类: DisposalPipeBase
+- **废弃物路由器** — `DisposalRouter` ｜父类: DisposalPipeBase
+- **废弃物路由器** — `DisposalRouterAI` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterAICore` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterAIPower` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterAISatellite` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterAIUpload` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterAME` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterAnchor` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterAnomaly` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterArmory` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterArrivals` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterArtifact` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterAtmos` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterBar` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterBotany` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterBridge` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterBrig` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterBrigMed` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterCaptain` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterCargo` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterCargoBay` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterCE` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterChapel` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterChemistry` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterClinic` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterCMO` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterCommand` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterCourtroom` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterCryogenics` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterCryosleep` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterDetective` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterDisposals` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterDockingArm` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterDorms` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterEngineering` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterEvac` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterEVAStorage` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlipped` ｜父类: DisposalRouter
+- **废弃物路由器** — `DisposalRouterFlippedAI` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedAICore` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedAIPower` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedAISatellite` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedAIUpload` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedAME` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedAnchor` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedAnomaly` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedArmory` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedArrivals` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedArtifact` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedAtmos` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedBar` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedBotany` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedBridge` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedBrig` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedBrigMed` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedCaptain` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedCargo` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedCargoBay` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedCE` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedChapel` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedChemistry` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedClinic` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedCMO` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedCommand` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedCourtroom` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedCryogenics` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedCryosleep` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedDetective` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedDisposals` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedDockingArm` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedDorms` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedEngineering` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedEvac` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedEVAStorage` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedGateway` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedGravityGenerator` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedHoP` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedHoS` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedJanitor` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedKitchen` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedLaw` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedLibrary` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedMedbay` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedMedical` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedMorgue` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedParticleAccelerator` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedPerma` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedPsychology` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedQM` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **DisposalRouterFlippedR&D** — `DisposalRouterFlippedR&D` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedRD` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedReporter` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedRobotics` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedSalvage` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedScience` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedSecurity` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedSecurityCheckpoint` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedService` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedSupply` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedSurgery` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedTechVault` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedTEG` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedTelecomms` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedTheater` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedTools` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedVault` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedVox` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedWarden` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterFlippedWildcard` ｜父类: DisposalRouterFlipped ｜_Starlight
+- **废弃物路由器** — `DisposalRouterGateway` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterGravityGenerator` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterHoP` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterHoS` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterJanitor` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterKitchen` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterLaw` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterLibrary` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterMedbay` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterMedical` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterMorgue` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterParticleAccelerator` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterPerma` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterPsychology` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterQM` ｜父类: DisposalRouter ｜_Starlight
+- **DisposalRouterR&D** — `DisposalRouterR&D` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterRD` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterReporter` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterRobotics` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterSalvage` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterScience` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterSecurity` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterSecurityCheckpoint` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterService` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterSupply` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterSurgery` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterTechVault` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterTEG` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterTelecomms` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterTheater` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterTools` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterVault` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterVox` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterWarden` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物路由器** — `DisposalRouterWildcard` ｜父类: DisposalRouter ｜_Starlight
+- **废弃物信号器** — `DisposalSignaller` ｜父类: DisposalPipeBase
+- **废弃物信号路由器** — `DisposalSignalRouter` ｜父类: DisposalJunction
+- **废弃物信号路由器** — `DisposalSignalRouterFlipped` ｜父类: DisposalSignalRouter
+- **废弃物管道标记器** — `DisposalTagger` ｜父类: DisposalPipeBase
+- **废弃物管道标记器** — `DisposalTaggerAI` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerAICore` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerAIPower` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerAISatellite` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerAIUpload` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerAME` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerAnchor` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerAnomaly` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerArmory` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerArrivals` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerArtifact` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerAtmos` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerBar` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerBotany` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerBridge` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerBrig` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerBrigMed` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerCaptain` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerCargo` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerCargoBay` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerCE` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerChapel` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerChemistry` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerClinic` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerCMO` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerCommand` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerCourtroom` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerCryogenics` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerCryosleep` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerDetective` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerDisposals` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerDockingArm` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerDorms` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerEngineering` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerEvac` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerEVAStorage` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerGateway` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerGravityGenerator` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerHoP` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerHoS` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerJanitor` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerKitchen` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerLaw` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerLibrary` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerMedbay` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerMedical` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerMorgue` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerParticleAccelerator` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerPerma` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerPsychology` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerQM` ｜父类: DisposalTagger ｜_Starlight
+- **DisposalTaggerR&D** — `DisposalTaggerR&D` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerRD` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerReporter` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerRobotics` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerSalvage` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerScience` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerSecurity` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerSecurityCheckpoint` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerService` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerSupply` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerSurgery` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerTechVault` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerTEG` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerTelecomms` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerTheater` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerTools` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerVault` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerVox` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物管道标记器** — `DisposalTaggerWarden` ｜父类: DisposalTagger ｜_Starlight
+- **废弃物主管** — `DisposalTrunk` ｜父类: DisposalPipeBase
+- **废弃物处理单元** — `DisposalUnit` ｜父类: DisposalUnitBase
+- `模板` **DisposalUnitBase** — `DisposalUnitBase` ｜父类: BaseMachinePowered
+- **废弃物三合一汇流管 # Starlight-edit** — `DisposalXJunction` ｜父类: DisposalPipeBase
+- **废弃物侧向二合一汇流管 # Starlight-edit** — `DisposalYJunction` ｜父类: DisposalPipeBase
+- **狗床** — `DogBed` ｜父类: Bed
+- **DONK CO 旗帜** — `DonkFlag` ｜父类: BaseFlag ｜_Starlight
+- **衣柜** — `Dresser` ｜父类: BaseStructure
+- **衣柜** — `DresserBox` ｜父类: DresserNoCon ｜_Starlight
+- **衣柜** — `DresserBoxFilled` ｜父类: DresserBox ｜_Starlight
+- **衣柜** — `DresserFilled` ｜父类: Dresser
+- `模板` **衣柜** — `DresserNoCon` ｜父类: BaseStructure ｜_Starlight
+- **衣柜** — `DresserRound` ｜父类: DresserNoCon ｜_Starlight
+- **衣柜** — `DresserRoundFilled` ｜父类: DresserRound ｜_Starlight
+- **边沿检测器** — `EdgeDetector` ｜父类: BaseLogicItem
+- **电解器** — `Electrolyzer` ｜父类: BaseMachinePowered,ConstructibleMachine ｜_Funkystation
+- **应急灯** — `EmergencyLight` ｜父类: AlwaysPoweredWallLight
+- **折叠担架** — `EmergencyRollerBed` ｜父类: RollerBed
+- **折叠担架** — `EmergencyRollerBedSpawnFolded` ｜父类: EmergencyRollerBed
+- **发射器** — `Emitter` ｜父类: SmallConstructibleMachine
+- **结壳铁石门** — `EncrustedIronstoneDoor` ｜父类: IronstoneDoor
+- **???** — `EnemyConsoleEye` ｜父类: Incorporeal,BaseMob ｜_Starlight
+- **外骨骼制造机** — `ExosuitFabricator` ｜父类: BaseLatheLube
+- **爆炸物标牌** — `ExplosivesSignMed` ｜父类: BaseSign
+- **灭火器柜** — `ExtinguisherCabinet` ｜父类: BaseWallmountCabinet
+- **灭火器柜** — `ExtinguisherCabinetFilled` ｜父类: ExtinguisherCabinet
+- **灭火器柜** — `ExtinguisherCabinetFilledOpen` ｜父类: ExtinguisherCabinetFilled,ExtinguisherCabinetOpen
+- **灭火器柜** — `ExtinguisherCabinetOpen` ｜父类: ExtinguisherCabinet
+- **衣柜** — `FancyWardrobe` ｜父类: DresserNoCon ｜_Starlight
+- **衣柜** — `FancyWardrobeFilled` ｜父类: FancyWardrobe ｜_Starlight
+- **脂肪抽取机** — `FatExtractor` ｜父类: BaseMachinePowered
+- **长程传真机** — `FaxMachineBase` ｜父类: BaseMachinePowered
+- **长程传真机** — `FaxMachineBlackstar` ｜父类: FaxMachineBase ｜_Starlight
+- **长程传真机** — `FaxMachineCaptain` ｜父类: FaxMachineCommandBase
+- **长程传真机** — `FaxMachineCargo` ｜父类: FaxMachineCargoBase ｜_Starlight
+- `模板` **FaxMachineCargoBase** — `FaxMachineCargoBase` ｜父类: FaxMachineBase ｜_Starlight
+- **长程传真机** — `FaxMachineCargoMail` ｜父类: FaxMachineCargoBase ｜_Starlight
+- **长程传真机** — `FaxMachineCargoMining` ｜父类: FaxMachineCargoBase ｜_Starlight
+- **长程传真机** — `FaxMachineCargoQM` ｜父类: FaxMachineCargoBase ｜_Starlight
+- **长程传真机** — `FaxMachineCargoSalvage` ｜父类: FaxMachineCargoBase ｜_Starlight
+- **长程传真机** — `FaxMachineCargoSalvageMining` ｜父类: FaxMachineCargoBase ｜_Starlight
+- **长程传真机** — `FaxMachineCentcom` ｜父类: FaxMachineCentralCommandBase
+- **长程传真机** — `FaxMachineCentralCommand` ｜父类: FaxMachineCentralCommandBase ｜_Starlight
+- `模板` **FaxMachineCentralCommandBase** — `FaxMachineCentralCommandBase` ｜父类: FaxMachineBase ｜_Starlight
+- **长程传真机** — `FaxMachineCommandAICore` ｜父类: FaxMachineCommandBase ｜_Starlight
+- `模板` **FaxMachineCommandBase** — `FaxMachineCommandBase` ｜父类: FaxMachineBase ｜_Starlight
+- **长程传真机** — `FaxMachineCommandBridge` ｜父类: FaxMachineCommandBase ｜_Starlight
+- **长程传真机** — `FaxMachineCommandConference` ｜父类: FaxMachineCommandBase ｜_Starlight
+- **长程传真机** — `FaxMachineEngineering` ｜父类: FaxMachineEngineeringBase ｜_Starlight
+- **长程传真机** — `FaxMachineEngineeringAtmos` ｜父类: FaxMachineEngineeringBase ｜_Starlight
+- `模板` **FaxMachineEngineeringBase** — `FaxMachineEngineeringBase` ｜父类: FaxMachineBase ｜_Starlight
+- **长程传真机** — `FaxMachineEngineeringCE` ｜父类: FaxMachineEngineeringBase ｜_Starlight
+- **长程传真机** — `FaxMachineEngineeringNuclearReactor` ｜父类: FaxMachineEngineeringBase ｜_Starlight
+- **长程传真机** — `FaxMachineITG` ｜父类: FaxMachineITGBase ｜_Starlight
+- `模板` **FaxMachineITGBase** — `FaxMachineITGBase` ｜父类: FaxMachineBase ｜_Starlight
+- **长程传真机** — `FaxMachineITGSalvage` ｜父类: FaxMachineITGBase ｜_Starlight
+- **长程传真机** — `FaxMachineITGSalvageLead` ｜父类: FaxMachineITGBase ｜_Starlight
+- **长程传真机** — `FaxMachineMedical` ｜父类: FaxMachineMedicalBase ｜_Starlight
+- `模板` **FaxMachineMedicalBase** — `FaxMachineMedicalBase` ｜父类: FaxMachineBase ｜_Starlight
+- **长程传真机** — `FaxMachineMedicalChemistry` ｜父类: FaxMachineMedicalBase ｜_Starlight
+- **长程传真机** — `FaxMachineMedicalCMO` ｜父类: FaxMachineMedicalBase ｜_Starlight
+- **长程传真机** — `FaxMachineMedicalPsychology` ｜父类: FaxMachineMedicalBase ｜_Starlight
+- **长程传真机** — `FaxMachineMedTak` ｜父类: FaxMachineBase ｜_Starlight
+- `模板` **FaxMachineNTBase** — `FaxMachineNTBase` ｜父类: FaxMachineBase ｜_Starlight
+- **长程传真机** — `FaxMachineNTBlueshield` ｜父类: FaxMachineNTBase ｜_Starlight
+- **长程传真机** — `FaxMachineNTCareerTrainer` ｜父类: FaxMachineNTBase ｜_Starlight
+- **长程传真机** — `FaxMachineNTInternalAffairs` ｜父类: FaxMachineNTBase ｜_Starlight
+- **长程传真机** — `FaxMachineNTMagi` ｜父类: FaxMachineNTBase ｜_Starlight
+- **长程传真机** — `FaxMachineNTMagiInternalAffairs` ｜父类: FaxMachineNTBase ｜_Starlight
+- **长程传真机** — `FaxMachineNTRep` ｜父类: FaxMachineNTBase ｜_Starlight
+- **长程传真机** — `FaxMachineNTRepBSO` ｜父类: FaxMachineNTBase ｜_Starlight
+- **长程传真机** — `FaxMachineNTSF` ｜父类: FaxMachineBase ｜_Starlight
+- **长程传真机** — `FaxMachineScience` ｜父类: FaxMachineScienceBase ｜_Starlight
+- `模板` **FaxMachineScienceBase** — `FaxMachineScienceBase` ｜父类: FaxMachineBase ｜_Starlight
+- **长程传真机** — `FaxMachineScienceRD` ｜父类: FaxMachineScienceBase ｜_Starlight
+- **长程传真机** — `FaxMachineSecurity` ｜父类: FaxMachineSecurityBase ｜_Starlight
+- `模板` **FaxMachineSecurityBase** — `FaxMachineSecurityBase` ｜父类: FaxMachineBase ｜_Starlight
+- **长程传真机** — `FaxMachineSecurityDetective` ｜父类: FaxMachineSecurityBase ｜_Starlight
+- **长程传真机** — `FaxMachineSecurityFront` ｜父类: FaxMachineSecurityBase ｜_Starlight
+- **长程传真机** — `FaxMachineSecurityHoS` ｜父类: FaxMachineSecurityBase ｜_Starlight
+- **长程传真机** — `FaxMachineSecurityPrison` ｜父类: FaxMachineSecurityBase ｜_Starlight
+- **长程传真机** — `FaxMachineSecurityWarden` ｜父类: FaxMachineSecurityBase ｜_Starlight
+- **长程传真机** — `FaxMachineService` ｜父类: FaxMachineServiceBase ｜_Starlight
+- **长程传真机** — `FaxMachineServiceBar` ｜父类: FaxMachineServiceBase ｜_Starlight
+- `模板` **FaxMachineServiceBase** — `FaxMachineServiceBase` ｜父类: FaxMachineBase ｜_Starlight
+- **长程传真机** — `FaxMachineServiceChaplain` ｜父类: FaxMachineServiceBase ｜_Starlight
+- **长程传真机** — `FaxMachineServiceHoP` ｜父类: FaxMachineServiceBase ｜_Starlight
+- **长程传真机** — `FaxMachineServiceLawyer` ｜父类: FaxMachineServiceBase ｜_Starlight
+- **长程传真机** — `FaxMachineServiceLibrary` ｜父类: FaxMachineServiceBase ｜_Starlight
+- **长程传真机** — `FaxMachineServiceReporter` ｜父类: FaxMachineServiceBase ｜_Starlight
+- **长程传真机** — `FaxMachineServiceShrine` ｜父类: FaxMachineServiceBase ｜_Starlight
+- **长程传真机** — `FaxMachineServiceTheater` ｜父类: FaxMachineServiceBase ｜_Starlight
+- **长程传真机** — `FaxMachineSyndicate` ｜父类: FaxMachineSyndicateBase ｜_Starlight
+- `模板` **FaxMachineSyndicateBase** — `FaxMachineSyndicateBase` ｜父类: FaxMachineBase ｜_Starlight
+- **长程传真机** — `FaxMachineSyndie` ｜父类: FaxMachineSyndicateBase
+- **长程传真机** — `FaxMachineTSF` ｜父类: FaxMachineBase ｜_Starlight
+- **长程传真机** — `FaxMachineUSSP` ｜父类: FaxMachineBase ｜_Starlight
+- **长程传真机** — `FaxMachineWizard` ｜父类: FaxMachineWizardBase ｜_Starlight
+- `模板` **FaxMachineWizardBase** — `FaxMachineWizardBase` ｜父类: FaxMachineBase ｜_Starlight
+- **长程传真机** — `FaxMachineWizardYeOleWizardFaxer` ｜父类: FaxMachineWizardBase ｜_Starlight
+- **损坏的铁丝网围栏** — `FenceMetalBroken` ｜父类: BaseFenceMetal
+- **铁丝网围栏** — `FenceMetalCorner` ｜父类: BaseFenceMetal
+- **铁丝网围栏** — `FenceMetalEnd` ｜父类: BaseFenceMetal
+- **铁丝网围栏门** — `FenceMetalGate` ｜父类: BaseFenceMetal
+- **铁丝网围栏** — `FenceMetalStraight` ｜父类: BaseFenceMetal
+- **木围栏** — `FenceWoodHighCorner` ｜父类: BaseFenceWood
+- **木围栏** — `FenceWoodHighEnd` ｜父类: BaseFenceWood
+- **木围栏门** — `FenceWoodHighGate` ｜父类: BaseFenceWood
+- **木围栏** — `FenceWoodHighStraight` ｜父类: BaseFenceWood
+- **木围栏** — `FenceWoodHighTJunction` ｜父类: BaseFenceWood
+- **小型木围栏** — `FenceWoodSmallCorner` ｜父类: BaseFenceWoodSmall
+- **小型木围栏** — `FenceWoodSmallEnd` ｜父类: BaseFenceWoodSmall
+- **木围栏门** — `FenceWoodSmallGate` ｜父类: BaseFenceWoodSmall
+- **小型木围栏** — `FenceWoodSmallStraight` ｜父类: BaseFenceWoodSmall
+- **小型木围栏** — `FenceWoodSmallTJunction` ｜父类: BaseFenceWoodSmall
+- **文件柜** — `filingCabinet` ｜父类: BaseFilingCabinet
+- **抽屉柜** — `filingCabinetDrawer` ｜父类: BaseFilingCabinet
+- **抽屉柜** — `filingCabinetDrawerRandom` ｜父类: BaseBureaucraticStorageFill,filingCabinetDrawer
+- **文件柜** — `filingCabinetRandom` ｜父类: BaseBureaucraticStorageFill,filingCabinet
+- **高文件柜** — `filingCabinetTall` ｜父类: BaseFilingCabinet
+- **高文件柜** — `filingCabinetTallRandom` ｜父类: BaseBureaucraticStorageFill,filingCabinetTall
+- **火灾警报器** — `FireAlarm` ｜父类: BaseWallmountMachine
+- **火灾警报器组件** — `FireAlarmAssembly` ｜父类: BaseWallmountMetallic
+- **火灾警报器组件** — `FireAlarmAssemblyXeno` ｜父类: FireAlarmAssembly
+- **火灾警报器** — `FireAlarmXeno` ｜父类: FireAlarm
+- **消防斧柜** — `FireAxeCabinet` ｜父类: BaseWallmountCabinetGlass
+- **消防斧柜** — `FireAxeCabinetFilled` ｜父类: FireAxeCabinet
+- **消防斧柜** — `FireAxeCabinetFilledOpen` ｜父类: FireAxeCabinetFilled,FireAxeCabinetOpen
+- **消防斧柜** — `FireAxeCabinetOpen` ｜父类: FireAxeCabinet
+- **防火闸** — `Firelock` ｜父类: BaseFirelock
+- **防火闸** — `FirelockEdge` ｜父类: Firelock
+- **防火闸框架** — `FirelockFrame` ｜父类: BaseStructureDynamic
+- **玻璃防火闸** — `FirelockGlass` ｜父类: Firelock
+- **壁炉** — `Fireplace` ｜父类: BaseStructure
+- **FlatpackerNoBoardEffect** — `FlatpackerNoBoardEffect`
+- **血肉团块** — `FleshBlocker` ｜父类: BaseStructure
+- **排水口** — `FloorDrain`
+- **弗里昂气罐** — `FrezonCanister` ｜父类: GasCanister
+- **损坏的 气罐** — `FrezonCanisterBroken` ｜父类: GasCanisterBrokenBase
+- **弗里昂气罐** — `FrezonCanisterEmpty` ｜父类: FrezonCanister ｜_Starlight
+- **燃料分配器** — `FuelDispenser` ｜父类: BaseDispenser
+- **真菌土壤** — `FungalSoil` ｜父类: hydroponicsSoil
+- **水族箱** — `FurnitureAquarium` ｜父类: BaseStructureDynamic ｜_Starlight
+- **衣帽架** — `FurnitureCoatRack` ｜父类: BaseStructure ｜_Starlight
+- **落地大摆钟** — `FurnitureGrandfatherClock` ｜父类: BaseStructure ｜_Starlight
+- **木制 架** — `FurnitureWoodRack` ｜父类: FurnitureCoatRack ｜_Starlight
+- `模板` **GasBinaryBase** — `GasBinaryBase` ｜父类: GasPipeBase
+- `模板` **气罐** — `GasCanister` ｜父类: BaseStructureDynamic,BasePaperLabelableVisualized
+- **损坏的 气罐** — `GasCanisterBrokenBase` ｜父类: BaseStructureDynamic
+- **双端口通风口** — `GasDualPortVentPump` ｜父类: GasVentPump
+- **双端口通风口** — `GasDualPortVentPumpAlt1` ｜父类: GasPipeLayerAlt1,GasDualPortVentPump ｜_Starlight
+- **双端口通风口** — `GasDualPortVentPumpAlt2` ｜父类: GasPipeLayerAlt2,GasDualPortVentPump ｜_Starlight
+- **双端口通风口** — `GasDualPortVentPumpAlt3` ｜父类: GasPipeLayerAlt3,GasDualPortVentPump ｜_Carpmosia
+- **双端口通风口** — `GasDualPortVentPumpAlt4` ｜父类: GasPipeLayerAlt4,GasDualPortVentPump ｜_Carpmosia
+- **双端口通风口** — `GasDualPortVentPumpFreezer` ｜父类: AirSensorFreezerBase,GasDualPortVentPump ｜_Starlight
+- **双端口通风口** — `GasDualPortVentPumpFreezerAlt1` ｜父类: GasDualPortVentPumpAlt1,GasDualPortVentPumpFreezer ｜_Starlight
+- **双端口通风口** — `GasDualPortVentPumpFreezerAlt2` ｜父类: GasDualPortVentPumpAlt2,GasDualPortVentPumpFreezer ｜_Starlight
+- **双端口通风口** — `GasDualPortVentPumpFreezerAlt3` ｜父类: GasDualPortVentPumpAlt3,GasDualPortVentPumpFreezer ｜_Starlight
+- **双端口通风口** — `GasDualPortVentPumpFreezerAlt4` ｜父类: GasDualPortVentPumpAlt4,GasDualPortVentPumpFreezer ｜_Starlight
+- **双端口通风口** — `GasDualPortVentPumpVox` ｜父类: AirSensorVoxBase,GasDualPortVentPump ｜_Starlight
+- **双端口通风口** — `GasDualPortVentPumpVoxAlt1` ｜父类: AirSensorVoxBase,GasDualPortVentPumpAlt1,GasDualPortVentPumpVox ｜_Starlight
+- **双端口通风口** — `GasDualPortVentPumpVoxAlt2` ｜父类: AirSensorVoxBase,GasDualPortVentPumpAlt2,GasDualPortVentPumpVox ｜_Starlight
+- **双端口通风口** — `GasDualPortVentPumpVoxAlt3` ｜父类: AirSensorVoxBase,GasDualPortVentPumpAlt3,GasDualPortVentPumpVox ｜_Starlight
+- **双端口通风口** — `GasDualPortVentPumpVoxAlt4` ｜父类: AirSensorVoxBase,GasDualPortVentPumpAlt4,GasDualPortVentPumpVox ｜_Starlight
+- **气体过滤器** — `GasFilter` ｜父类: GasTrinaryBase
+- **气体过滤器** — `GasFilterAlt1` ｜父类: GasPipeLayerAlt1,GasFilter ｜_Starlight
+- **气体过滤器** — `GasFilterAlt2` ｜父类: GasPipeLayerAlt2,GasFilter ｜_Starlight
+- **气体过滤器** — `GasFilterAlt3` ｜父类: GasPipeLayerAlt3,GasFilter ｜_Carpmosia
+- **气体过滤器** — `GasFilterAlt4` ｜父类: GasPipeLayerAlt4,GasFilter ｜_Carpmosia
+- **气体过滤器** — `GasFilterFlipped` ｜父类: GasFilter
+- **气体过滤器** — `GasFilterFlippedAlt1` ｜父类: GasPipeLayerAlt1,GasFilterFlipped ｜_Starlight
+- **气体过滤器** — `GasFilterFlippedAlt2` ｜父类: GasPipeLayerAlt2,GasFilterFlipped ｜_Starlight
+- **气体过滤器** — `GasFilterFlippedAlt3` ｜父类: GasPipeLayerAlt3,GasFilterFlipped ｜_Carpmosia
+- **气体过滤器** — `GasFilterFlippedAlt4` ｜父类: GasPipeLayerAlt4,GasFilterFlipped ｜_Carpmosia
+- **直通式气体过滤器** — `GasFilterInline` ｜父类: GasFilter ｜_Starlight
+- **直通式气体过滤器** — `GasFilterInlineAlt1` ｜父类: GasPipeLayerAlt1,GasFilterInline ｜_Starlight
+- **直通式气体过滤器** — `GasFilterInlineAlt2` ｜父类: GasPipeLayerAlt2,GasFilterInline ｜_Starlight
+- **直通式气体过滤器** — `GasFilterInlineAlt3` ｜父类: GasPipeLayerAlt3,GasFilterInline ｜_Starlight
+- **直通式气体过滤器** — `GasFilterInlineAlt4` ｜父类: GasPipeLayerAlt4,GasFilterInline ｜_Starlight
+- **氨气体矿机** — `GasMinerAmmonia` ｜父类: GasMinerBase
+- `模板` **气体矿机** — `GasMinerBase`
+- **CO2 气体矿机** — `GasMinerCarbonDioxide` ｜父类: GasMinerBase
+- **弗里昂气体矿机** — `GasMinerFrezon` ｜父类: GasMinerBase
+- **N2 气体矿机** — `GasMinerNitrogen` ｜父类: GasMinerBase
+- **N2 气体矿机** — `GasMinerNitrogenStation` ｜父类: GasMinerNitrogen
+- **N2 气体矿机** — `GasMinerNitrogenStationLarge` ｜父类: GasMinerNitrogen
+- **一氧化二氮气体矿机** — `GasMinerNitrousOxide` ｜父类: GasMinerBase
+- **O2 气体矿机** — `GasMinerOxygen` ｜父类: GasMinerBase
+- **O2 气体矿机** — `GasMinerOxygenStation` ｜父类: GasMinerOxygen
+- **O2 气体矿机** — `GasMinerOxygenStationLarge` ｜父类: GasMinerOxygen
+- **等离子体气体矿机** — `GasMinerPlasma` ｜父类: GasMinerBase
+- **氚气体矿机** — `GasMinerTritium` ｜父类: GasMinerBase
+- **水蒸气气体矿机** — `GasMinerWaterVapor` ｜父类: GasMinerBase
+- **气体混合器** — `GasMixer` ｜父类: GasTrinaryBase
+- **气体混合器** — `GasMixerAlt1` ｜父类: GasPipeLayerAlt1,GasMixer ｜_Starlight
+- **气体混合器** — `GasMixerAlt2` ｜父类: GasPipeLayerAlt2,GasMixer ｜_Starlight
+- **气体混合器** — `GasMixerAlt3` ｜父类: GasPipeLayerAlt3,GasMixer ｜_Carpmosia
+- **气体混合器** — `GasMixerAlt4` ｜父类: GasPipeLayerAlt4,GasMixer ｜_Carpmosia
+- **气体混合器** — `GasMixerFlipped` ｜父类: GasMixer
+- **气体混合器** — `GasMixerFlippedAlt1` ｜父类: GasPipeLayerAlt1,GasMixerFlipped ｜_Starlight
+- **气体混合器** — `GasMixerFlippedAlt2` ｜父类: GasPipeLayerAlt2,GasMixerFlipped ｜_Starlight
+- **气体混合器** — `GasMixerFlippedAlt3` ｜父类: GasPipeLayerAlt3,GasMixerFlipped ｜_Carpmosia
+- **气体混合器** — `GasMixerFlippedAlt4` ｜父类: GasPipeLayerAlt4,GasMixerFlipped ｜_Carpmosia
+- **空气注入器** — `GasOutletInjector` ｜父类: GasUnaryBase
+- **空气注入器** — `GasOutletInjectorAlt1` ｜父类: GasPipeLayerAlt1,GasOutletInjector ｜_Starlight
+- **空气注入器** — `GasOutletInjectorAlt2` ｜父类: GasPipeLayerAlt2,GasOutletInjector ｜_Starlight
+- **空气注入器** — `GasOutletInjectorAlt3` ｜父类: GasPipeLayerAlt3,GasOutletInjector ｜_Carpmosia
+- **空气注入器** — `GasOutletInjectorAlt4` ｜父类: GasPipeLayerAlt4,GasOutletInjector ｜_Carpmosia
+- **被动单向阀** — `GasPassiveGate` ｜父类: GasBinaryBase
+- **被动单向阀** — `GasPassiveGateAlt1` ｜父类: GasPipeLayerAlt1,GasPassiveGate
+- **被动单向阀** — `GasPassiveGateAlt2` ｜父类: GasPipeLayerAlt2,GasPassiveGate
+- **被动单向阀** — `GasPassiveGateAlt3` ｜父类: GasPipeLayerAlt3,GasPassiveGate ｜_Carpmosia
+- **被动单向阀** — `GasPassiveGateAlt4` ｜父类: GasPipeLayerAlt4,GasPassiveGate ｜_Carpmosia
+- **被动通风口** — `GasPassiveVent` ｜父类: GasUnaryBase
+- **被动通风口** — `GasPassiveVentAlt1` ｜父类: GasPipeLayerAlt1,GasPassiveVent ｜_Starlight
+- **被动通风口** — `GasPassiveVentAlt2` ｜父类: GasPipeLayerAlt2,GasPassiveVent ｜_Starlight
+- **被动通风口** — `GasPassiveVentAlt3` ｜父类: GasPipeLayerAlt3,GasPassiveVent ｜_Carpmosia
+- **被动通风口** — `GasPassiveVentAlt4` ｜父类: GasPipeLayerAlt4,GasPassiveVent ｜_Carpmosia
+- `模板` **GasPipeBase** — `GasPipeBase` ｜父类: GasPipeSansLayers
+- **气体管道** — `GasPipeBend` ｜父类: GasPipeBase
+- **气体管道** — `GasPipeBendAlt1` ｜父类: GasPipeLayerAlt1,GasPipeBend
+- **气体管道** — `GasPipeBendAlt2` ｜父类: GasPipeLayerAlt2,GasPipeBend
+- **气体管道** — `GasPipeBendAlt3` ｜父类: GasPipeLayerAlt3,GasPipeBend ｜_Carpmosia
+- **气体管道** — `GasPipeBendAlt4` ｜父类: GasPipeLayerAlt4,GasPipeBend ｜_Carpmosia
+- **损坏的管道** — `GasPipeBroken` ｜父类: GasPipeBase
+- **气体管道** — `GasPipeFourway` ｜父类: GasPipeBase
+- **气体管道** — `GasPipeFourwayAlt1` ｜父类: GasPipeLayerAlt1,GasPipeFourway
+- **气体管道** — `GasPipeFourwayAlt2` ｜父类: GasPipeLayerAlt2,GasPipeFourway
+- **气体管道** — `GasPipeFourwayAlt3` ｜父类: GasPipeLayerAlt3,GasPipeFourway ｜_Carpmosia
+- **气体管道** — `GasPipeFourwayAlt4` ｜父类: GasPipeLayerAlt4,GasPipeFourway ｜_Carpmosia
+- **气体管道** — `GasPipeHalf` ｜父类: GasPipeBase
+- **气体管道** — `GasPipeHalfAlt1` ｜父类: GasPipeLayerAlt1,GasPipeHalf
+- **气体管道** — `GasPipeHalfAlt2` ｜父类: GasPipeLayerAlt2,GasPipeHalf
+- **气体管道** — `GasPipeHalfAlt3` ｜父类: GasPipeLayerAlt3,GasPipeHalf ｜_Carpmosia
+- **气体管道** — `GasPipeHalfAlt4` ｜父类: GasPipeLayerAlt4,GasPipeHalf ｜_Carpmosia
+- `模板` **GasPipeLayerAlt1** — `GasPipeLayerAlt1`
+- `模板` **GasPipeLayerAlt2** — `GasPipeLayerAlt2`
+- `模板` **GasPipeLayerAlt3** — `GasPipeLayerAlt3` ｜_Carpmosia
+- `模板` **GasPipeLayerAlt4** — `GasPipeLayerAlt4` ｜_Carpmosia
+- **气体管道歧管** — `GasPipeManifold` ｜父类: GasPipeSansLayers
+- `模板` **气体管道** — `GasPipeSansLayers` ｜父类: BaseItem
+- **气体管道传感器** — `GasPipeSensor` ｜父类: AirSensorBase,GasBinaryBase
+- **气体管道传感器** — `GasPipeSensorAlt1` ｜父类: GasPipeLayerAlt1,GasPipeSensor
+- **气体管道传感器** — `GasPipeSensorAlt2` ｜父类: GasPipeLayerAlt2,GasPipeSensor
+- **气体管道传感器** — `GasPipeSensorAlt3` ｜父类: GasPipeLayerAlt3,GasPipeSensor ｜_Carpmosia
+- **气体管道传感器** — `GasPipeSensorAlt4` ｜父类: GasPipeLayerAlt4,GasPipeSensor ｜_Carpmosia
+- **气体管道传感器** — `GasPipeSensorDistribution` ｜父类: GasPipeSensor
+- **气体管道传感器** — `GasPipeSensorDistributionAlt1` ｜父类: GasPipeLayerAlt1,GasPipeSensorDistribution
+- **气体管道传感器** — `GasPipeSensorDistributionAlt2` ｜父类: GasPipeLayerAlt2,GasPipeSensorDistribution
+- **气体管道传感器** — `GasPipeSensorDistributionAlt3` ｜父类: GasPipeLayerAlt3,GasPipeSensorDistribution ｜_Carpmosia
+- **气体管道传感器** — `GasPipeSensorDistributionAlt4` ｜父类: GasPipeLayerAlt4,GasPipeSensorDistribution ｜_Carpmosia
+- **气体管道传感器** — `GasPipeSensorMixedAir` ｜父类: GasPipeSensor
+- **气体管道传感器** — `GasPipeSensorMixedAirAlt1` ｜父类: GasPipeLayerAlt1,GasPipeSensorMixedAir
+- **气体管道传感器** — `GasPipeSensorMixedAirAlt2` ｜父类: GasPipeLayerAlt2,GasPipeSensorMixedAir
+- **气体管道传感器** — `GasPipeSensorMixedAirAlt3` ｜父类: GasPipeLayerAlt3,GasPipeSensorMixedAir ｜_Carpmosia
+- **气体管道传感器** — `GasPipeSensorMixedAirAlt4` ｜父类: GasPipeLayerAlt4,GasPipeSensorMixedAir ｜_Carpmosia
+- **气体管道传感器** — `GasPipeSensorNuclearCold` ｜父类: GasPipeSensor ｜_Starlight
+- **气体管道传感器** — `GasPipeSensorNuclearColdAlt1` ｜父类: GasPipeLayerAlt1,GasPipeSensorNuclearCold ｜_Starlight
+- **气体管道传感器** — `GasPipeSensorNuclearColdAlt2` ｜父类: GasPipeLayerAlt2,GasPipeSensorNuclearCold ｜_Starlight
+- **气体管道传感器** — `GasPipeSensorNuclearColdAlt3` ｜父类: GasPipeLayerAlt3,GasPipeSensorNuclearCold ｜_Starlight
+- **气体管道传感器** — `GasPipeSensorNuclearColdAlt4` ｜父类: GasPipeLayerAlt4,GasPipeSensorNuclearCold ｜_Starlight
+- **气体管道传感器** — `GasPipeSensorNuclearHot` ｜父类: GasPipeSensor ｜_Starlight
+- **气体管道传感器** — `GasPipeSensorNuclearHotAlt1` ｜父类: GasPipeLayerAlt1,GasPipeSensorNuclearHot ｜_Starlight
+- **气体管道传感器** — `GasPipeSensorNuclearHotAlt2` ｜父类: GasPipeLayerAlt2,GasPipeSensorNuclearHot ｜_Starlight
+- **气体管道传感器** — `GasPipeSensorNuclearHotAlt3` ｜父类: GasPipeLayerAlt3,GasPipeSensorNuclearHot ｜_Starlight
+- **气体管道传感器** — `GasPipeSensorNuclearHotAlt4` ｜父类: GasPipeLayerAlt4,GasPipeSensorNuclearHot ｜_Starlight
+- **气体管道传感器** — `GasPipeSensorTEGCold` ｜父类: GasPipeSensor
+- **气体管道传感器** — `GasPipeSensorTEGColdAlt1` ｜父类: GasPipeLayerAlt1,GasPipeSensorTEGCold
+- **气体管道传感器** — `GasPipeSensorTEGColdAlt2` ｜父类: GasPipeLayerAlt2,GasPipeSensorTEGCold
+- **气体管道传感器** — `GasPipeSensorTEGColdAlt3` ｜父类: GasPipeLayerAlt3,GasPipeSensorTEGCold ｜_Carpmosia
+- **气体管道传感器** — `GasPipeSensorTEGColdAlt4` ｜父类: GasPipeLayerAlt4,GasPipeSensorTEGCold ｜_Carpmosia
+- **气体管道传感器** — `GasPipeSensorTEGFuel` ｜父类: GasPipeSensor ｜_Starlight
+- **气体管道传感器** — `GasPipeSensorTEGFuelAlt1` ｜父类: GasPipeLayerAlt1,GasPipeSensorTEGFuel ｜_Starlight
+- **气体管道传感器** — `GasPipeSensorTEGFuelAlt2` ｜父类: GasPipeLayerAlt2,GasPipeSensorTEGFuel ｜_Starlight
+- **气体管道传感器** — `GasPipeSensorTEGFuelAlt3` ｜父类: GasPipeLayerAlt3,GasPipeSensorTEGFuel ｜_Starlight
+- **气体管道传感器** — `GasPipeSensorTEGFuelAlt4` ｜父类: GasPipeLayerAlt4,GasPipeSensorTEGFuel ｜_Starlight
+- **气体管道传感器** — `GasPipeSensorTEGHot` ｜父类: GasPipeSensor
+- **气体管道传感器** — `GasPipeSensorTEGHotAlt1` ｜父类: GasPipeLayerAlt1,GasPipeSensorTEGHot
+- **气体管道传感器** — `GasPipeSensorTEGHotAlt2` ｜父类: GasPipeLayerAlt2,GasPipeSensorTEGHot
+- **气体管道传感器** — `GasPipeSensorTEGHotAlt3` ｜父类: GasPipeLayerAlt3,GasPipeSensorTEGHot ｜_Carpmosia
+- **气体管道传感器** — `GasPipeSensorTEGHotAlt4` ｜父类: GasPipeLayerAlt4,GasPipeSensorTEGHot ｜_Carpmosia
+- **气体管道传感器** — `GasPipeSensorVoxAir` ｜父类: GasPipeSensor ｜_Starlight
+- **气体管道传感器** — `GasPipeSensorVoxAirAlt1` ｜父类: GasPipeLayerAlt1,GasPipeSensorVoxAir ｜_Starlight
+- **气体管道传感器** — `GasPipeSensorVoxAirAlt2` ｜父类: GasPipeLayerAlt2,GasPipeSensorVoxAir ｜_Starlight
+- **气体管道传感器** — `GasPipeSensorVoxAirAlt3` ｜父类: GasPipeLayerAlt3,GasPipeSensorVoxAir ｜_Starlight
+- **气体管道传感器** — `GasPipeSensorVoxAirAlt4` ｜父类: GasPipeLayerAlt4,GasPipeSensorVoxAir ｜_Starlight
+- **气体管道传感器** — `GasPipeSensorWaste` ｜父类: GasPipeSensor
+- **气体管道传感器** — `GasPipeSensorWasteAlt1` ｜父类: GasPipeLayerAlt1,GasPipeSensorWaste
+- **气体管道传感器** — `GasPipeSensorWasteAlt2` ｜父类: GasPipeLayerAlt2,GasPipeSensorWaste
+- **气体管道传感器** — `GasPipeSensorWasteAlt3` ｜父类: GasPipeLayerAlt3,GasPipeSensorWaste ｜_Carpmosia
+- **气体管道传感器** — `GasPipeSensorWasteAlt4` ｜父类: GasPipeLayerAlt4,GasPipeSensorWaste ｜_Carpmosia
+- **气体管道** — `GasPipeStraight` ｜父类: GasPipeBase
+- **气体管道** — `GasPipeStraightAlt1` ｜父类: GasPipeLayerAlt1,GasPipeStraight
+- **气体管道** — `GasPipeStraightAlt2` ｜父类: GasPipeLayerAlt2,GasPipeStraight
+- **气体管道** — `GasPipeStraightAlt3` ｜父类: GasPipeLayerAlt3,GasPipeStraight ｜_Carpmosia
+- **气体管道** — `GasPipeStraightAlt4` ｜父类: GasPipeLayerAlt4,GasPipeStraight ｜_Carpmosia
+- **气体管道** — `GasPipeTJunction` ｜父类: GasPipeBase
+- **气体管道** — `GasPipeTJunctionAlt1` ｜父类: GasPipeLayerAlt1,GasPipeTJunction
+- **气体管道** — `GasPipeTJunctionAlt2` ｜父类: GasPipeLayerAlt2,GasPipeTJunction
+- **气体管道** — `GasPipeTJunctionAlt3` ｜父类: GasPipeLayerAlt3,GasPipeTJunction ｜_Carpmosia
+- **气体管道** — `GasPipeTJunctionAlt4` ｜父类: GasPipeLayerAlt4,GasPipeTJunction ｜_Carpmosia
+- **连接端口** — `GasPort` ｜父类: GasBinaryBase
+- **连接端口** — `GasPortAlt1` ｜父类: GasPipeLayerAlt1,GasPort ｜_Starlight
+- **连接端口** — `GasPortAlt2` ｜父类: GasPipeLayerAlt2,GasPort ｜_Starlight
+- **连接端口** — `GasPortAlt3` ｜父类: GasPipeLayerAlt3,GasPort ｜_Carpmosia
+- **连接端口** — `GasPortAlt4` ｜父类: GasPipeLayerAlt4,GasPort ｜_Carpmosia
+- **气泵** — `GasPressurePump` ｜父类: GasBinaryBase
+- **气泵** — `GasPressurePumpAlt1` ｜父类: GasPipeLayerAlt1,GasPressurePump
+- **气泵** — `GasPressurePumpAlt2` ｜父类: GasPipeLayerAlt2,GasPressurePump
+- **气泵** — `GasPressurePumpAlt3` ｜父类: GasPipeLayerAlt3,GasPressurePump ｜_Carpmosia
+- **气泵** — `GasPressurePumpAlt4` ｜父类: GasPipeLayerAlt4,GasPressurePump ｜_Carpmosia
+- **入口压力调节阀** — `GasPressureRegulator` ｜父类: GasBinaryBase
+- **入口压力调节阀** — `GasPressureRegulatorAlt1` ｜父类: GasPipeLayerAlt1,GasPressureRegulator
+- **入口压力调节阀** — `GasPressureRegulatorAlt2` ｜父类: GasPipeLayerAlt2,GasPressureRegulator
+- **入口压力调节阀** — `GasPressureRegulatorAlt3` ｜父类: GasPipeLayerAlt3,GasPressureRegulator ｜_Carpmosia
+- **入口压力调节阀** — `GasPressureRegulatorAlt4` ｜父类: GasPipeLayerAlt4,GasPressureRegulator ｜_Carpmosia
+- **气体回收器** — `GasRecycler` ｜父类: BaseMachine,ConstructibleMachine
+- **冷冻柜** — `GasThermoMachineFreezer` ｜父类: BaseGasThermoMachine
+- **冷冻柜** — `GasThermoMachineFreezerEnabled` ｜父类: GasThermoMachineFreezer
+- **冷冻柜** — `GasThermoMachineFreezerEnabledCold` ｜父类: GasThermoMachineFreezerEnabled ｜_Starlight
+- **加热器** — `GasThermoMachineHeater` ｜父类: BaseGasThermoMachine
+- **加热器** — `GasThermoMachineHeaterEnabled` ｜父类: GasThermoMachineHeater
+- **地狱火冷冻机** — `GasThermoMachineHellfireFreezer` ｜父类: GasThermoMachineFreezer
+- **地狱火加热器** — `GasThermoMachineHellfireHeater` ｜父类: GasThermoMachineHeater
+- `模板` **GasTrinaryBase** — `GasTrinaryBase` ｜父类: GasPipeBase
+- **GasTurbineAlarmEntity** — `GasTurbineAlarmEntity` ｜_FarHorizons
+- **燃气轮机叶片** — `GasTurbineBladeShrapnel` ｜_FarHorizons
+- `模板` **GasTurbineCrew** — `GasTurbineCrew` ｜_FarHorizons
+- **燃气轮机** — `GasTurbineEmpty` ｜父类: GasTurbinePrefabEmpty,GasTurbineCrew,BaseGasTurbine ｜_Starlight
+- **燃气轮机** — `GasTurbineEmptySalvage` ｜父类: GasTurbinePrefabEmpty,GasTurbineSalvage,BaseGasTurbine ｜_Starlight
+- **GasTurbineFlowArrow** — `GasTurbineFlowArrow` ｜_FarHorizons
+- **GasTurbineGasPipe** — `GasTurbineGasPipe` ｜_FarHorizons
+- **燃气轮机监控器** — `GasTurbineMonitor` ｜父类: BaseComputerAiAccess ｜_FarHorizons
+- **燃气轮机** — `GasTurbineNormal` ｜父类: BaseGasTurbine,GasTurbineCrew ｜_FarHorizons
+- **燃气轮机** — `GasTurbineNormalSalvage` ｜父类: BaseGasTurbine,GasTurbineSalvage ｜_FarHorizons
+- `模板` **GasTurbinePrefabEmpty** — `GasTurbinePrefabEmpty` ｜_Starlight
+- `模板` **GasTurbineSalvage** — `GasTurbineSalvage` ｜_FarHorizons
+- **小型燃气轮机** — `GasTurbineSmall` ｜父类: BaseGasTurbineSmall,GasTurbineCrew ｜_FarHorizons
+- **小型燃气轮机** — `GasTurbineSmallEmpty` ｜父类: GasTurbinePrefabEmpty,GasTurbineCrew,BaseGasTurbineSmall ｜_Starlight
+- **小型燃气轮机** — `GasTurbineSmallEmptySalvage` ｜父类: GasTurbinePrefabEmpty,GasTurbineSalvage,BaseGasTurbineSmall ｜_Starlight
+- **GasTurbineSmallFlowArrow** — `GasTurbineSmallFlowArrow` ｜父类: GasTurbineFlowArrow ｜_FarHorizons
+- **小型燃气轮机** — `GasTurbineSmallSalvage` ｜父类: BaseGasTurbineSmall,GasTurbineSalvage ｜_FarHorizons
+- `模板` **GasUnaryBase** — `GasUnaryBase` ｜父类: GasPipeBase
+- **手动阀** — `GasValve` ｜父类: GasBinaryBase
+- **手动阀** — `GasValveAlt1` ｜父类: GasPipeLayerAlt1,GasValve
+- **手动阀** — `GasValveAlt2` ｜父类: GasPipeLayerAlt2,GasValve
+- **手动阀** — `GasValveAlt3` ｜父类: GasPipeLayerAlt3,GasValve ｜_Carpmosia
+- **手动阀** — `GasValveAlt4` ｜父类: GasPipeLayerAlt4,GasValve ｜_Carpmosia
+- **通风口** — `GasVentPump` ｜父类: GasUnaryBase,AirSensorBase
+- **通风口** — `GasVentPumpAlt1` ｜父类: GasPipeLayerAlt1,GasVentPump ｜_Starlight
+- **通风口** — `GasVentPumpAlt2` ｜父类: GasPipeLayerAlt2,GasVentPump ｜_Starlight
+- **通风口** — `GasVentPumpAlt3` ｜父类: GasPipeLayerAlt3,GasVentPump ｜_Carpmosia
+- **通风口** — `GasVentPumpAlt4` ｜父类: GasPipeLayerAlt4,GasVentPump ｜_Carpmosia
+- **通风口** — `GasVentPumpFreezer` ｜父类: AirSensorFreezerBase,GasVentPumpFreezerBase,GasVentPump
+- **通风口** — `GasVentPumpFreezerAlt1` ｜父类: AirSensorFreezerBase,GasVentPumpFreezer,GasVentPumpAlt1 ｜_Starlight
+- **通风口** — `GasVentPumpFreezerAlt2` ｜父类: AirSensorFreezerBase,GasVentPumpFreezer,GasVentPumpAlt2 ｜_Starlight
+- **通风口** — `GasVentPumpFreezerAlt3` ｜父类: AirSensorFreezerBase,GasVentPumpFreezerBase,GasVentPumpAlt3 ｜_Carpmosia
+- **通风口** — `GasVentPumpFreezerAlt4` ｜父类: AirSensorFreezerBase,GasVentPumpFreezerBase,GasVentPumpAlt4 ｜_Carpmosia
+- `模板` **GasVentPumpFreezerBase** — `GasVentPumpFreezerBase` ｜_Carpmosia
+- **通风口** — `GasVentPumpNoLowerBound` ｜父类: AirSensorNoLowerBoundBase,GasVentPumpNoLowerBoundBase,GasVentPump ｜_Starlight
+- **通风口** — `GasVentPumpNoLowerBoundAlt1` ｜父类: AirSensorNoLowerBoundBase,GasVentPumpNoLowerBoundBase,GasVentPumpAlt1 ｜_Starlight
+- **通风口** — `GasVentPumpNoLowerBoundAlt2` ｜父类: AirSensorNoLowerBoundBase,GasVentPumpNoLowerBoundBase,GasVentPumpAlt2 ｜_Starlight
+- **通风口** — `GasVentPumpNoLowerBoundAlt3` ｜父类: AirSensorNoLowerBoundBase,GasVentPumpNoLowerBoundBase,GasVentPumpAlt3 ｜_Starlight
+- **通风口** — `GasVentPumpNoLowerBoundAlt4` ｜父类: AirSensorNoLowerBoundBase,GasVentPumpNoLowerBoundBase,GasVentPumpAlt4 ｜_Starlight
+- `模板` **GasVentPumpNoLowerBoundBase** — `GasVentPumpNoLowerBoundBase` ｜_Starlight
+- **通风口** — `GasVentPumpVox` ｜父类: AirSensorVoxBase,GasVentPumpVoxBase,GasVentPump
+- **通风口** — `GasVentPumpVoxAlt1` ｜父类: AirSensorVoxBase,GasVentPumpAlt1,GasVentPumpVox ｜_Starlight
+- **通风口** — `GasVentPumpVoxAlt2` ｜父类: AirSensorVoxBase,GasVentPumpAlt2,GasVentPumpVox ｜_Starlight
+- **通风口** — `GasVentPumpVoxAlt3` ｜父类: AirSensorVoxBase,GasVentPumpVoxBase,GasVentPumpAlt3 ｜_Carpmosia
+- **通风口** — `GasVentPumpVoxAlt4` ｜父类: AirSensorVoxBase,GasVentPumpVoxBase,GasVentPumpAlt4 ｜_Carpmosia
+- `模板` **GasVentPumpVoxBase** — `GasVentPumpVoxBase` ｜_Carpmosia
+- **空气洗涤器** — `GasVentScrubber` ｜父类: GasUnaryBase,AirSensorBase
+- **空气洗涤器** — `GasVentScrubberAlt1` ｜父类: GasPipeLayerAlt1,GasVentScrubber ｜_Starlight
+- **空气洗涤器** — `GasVentScrubberAlt2` ｜父类: GasPipeLayerAlt2,GasVentScrubber ｜_Starlight
+- **空气洗涤器** — `GasVentScrubberAlt3` ｜父类: GasPipeLayerAlt3,GasVentScrubber ｜_Carpmosia
+- **空气洗涤器** — `GasVentScrubberAlt4` ｜父类: GasPipeLayerAlt4,GasVentScrubber ｜_Carpmosia
+- **空气洗涤器** — `GasVentScrubberFreezer` ｜父类: AirSensorFreezerBase,GasVentScrubberFreezerBase,GasVentScrubber
+- **空气洗涤器** — `GasVentScrubberFreezerAlt1` ｜父类: AirSensorFreezerBase,GasVentScrubberFreezer,GasVentScrubberAlt1 ｜_Starlight
+- **空气洗涤器** — `GasVentScrubberFreezerAlt2` ｜父类: AirSensorFreezerBase,GasVentScrubberFreezer,GasVentScrubberAlt2 ｜_Starlight
+- **空气洗涤器** — `GasVentScrubberFreezerAlt3` ｜父类: AirSensorFreezerBase,GasVentScrubberFreezerBase,GasVentScrubberAlt3 ｜_Carpmosia
+- **空气洗涤器** — `GasVentScrubberFreezerAlt4` ｜父类: AirSensorFreezerBase,GasVentScrubberFreezerBase,GasVentScrubberAlt4 ｜_Carpmosia
+- `模板` **GasVentScrubberFreezerBase** — `GasVentScrubberFreezerBase` ｜_Carpmosia
+- **空气洗涤器** — `GasVentScrubberNoLowerBound` ｜父类: AirSensorNoLowerBoundBase,GasVentScrubberNoLowerBoundBase,GasVentScrubber ｜_Starlight
+- **空气洗涤器** — `GasVentScrubberNoLowerBoundAlt1` ｜父类: AirSensorNoLowerBoundBase,GasVentScrubberNoLowerBoundBase,GasVentScrubberAlt1 ｜_Starlight
+- **空气洗涤器** — `GasVentScrubberNoLowerBoundAlt2` ｜父类: AirSensorNoLowerBoundBase,GasVentScrubberNoLowerBoundBase,GasVentScrubberAlt2 ｜_Starlight
+- **空气洗涤器** — `GasVentScrubberNoLowerBoundAlt3` ｜父类: AirSensorNoLowerBoundBase,GasVentScrubberNoLowerBoundBase,GasVentScrubberAlt3 ｜_Starlight
+- **空气洗涤器** — `GasVentScrubberNoLowerBoundAlt4` ｜父类: AirSensorNoLowerBoundBase,GasVentScrubberNoLowerBoundBase,GasVentScrubberAlt4 ｜_Starlight
+- `模板` **GasVentScrubberNoLowerBoundBase** — `GasVentScrubberNoLowerBoundBase` ｜_Starlight
+- **空气洗涤器** — `GasVentScrubberVox` ｜父类: AirSensorVoxBase,GasVentScrubberVoxBase,GasVentScrubber
+- **空气洗涤器** — `GasVentScrubberVoxAlt1` ｜父类: AirSensorVoxBase,GasVentScrubberAlt1,GasVentScrubberVox ｜_Starlight
+- **空气洗涤器** — `GasVentScrubberVoxAlt2` ｜父类: AirSensorVoxBase,GasVentScrubberAlt2,GasVentScrubberVox ｜_Starlight
+- **空气洗涤器** — `GasVentScrubberVoxAlt3` ｜父类: AirSensorVoxBase,GasVentScrubberVoxBase,GasVentScrubberAlt3 ｜_Carpmosia
+- **空气洗涤器** — `GasVentScrubberVoxAlt4` ｜父类: AirSensorVoxBase,GasVentScrubberVoxBase,GasVentScrubberAlt4 ｜_Carpmosia
+- `模板` **GasVentScrubberVoxBase** — `GasVentScrubberVoxBase` ｜_Carpmosia
+- **容积式气泵** — `GasVolumePump` ｜父类: GasBinaryBase
+- **容积式气泵** — `GasVolumePumpAlt1` ｜父类: GasPipeLayerAlt1,GasVolumePump
+- **容积式气泵** — `GasVolumePumpAlt2` ｜父类: GasPipeLayerAlt2,GasVolumePump
+- **容积式气泵** — `GasVolumePumpAlt3` ｜父类: GasPipeLayerAlt3,GasVolumePump ｜_Carpmosia
+- **容积式气泵** — `GasVolumePumpAlt4` ｜父类: GasPipeLayerAlt4,GasVolumePump ｜_Carpmosia
+- **传送门** — `Gateway` ｜父类: BaseGateway
+- **发电机** — `GeneratorBasic` ｜父类: BaseGenerator
+- **发电机** — `GeneratorBasic15kW` ｜父类: BaseGenerator
+- **发电机** — `GeneratorBasic20kW` ｜父类: BaseGenerator ｜_Starlight
+- **RTG 热电发电机** — `GeneratorRTG` ｜父类: BaseGenerator
+- **受损的 RTG** — `GeneratorRTGDamaged` ｜父类: GeneratorRTG
+- **穿梭机 APU** — `GeneratorWallmountAPU` ｜父类: BaseGeneratorWallmount
+- **穿梭机低压 APU** — `GeneratorWallmountAPULV` ｜父类: BaseGeneratorWallmount
+- **壁挂式发电机** — `GeneratorWallmountBasic` ｜父类: BaseGeneratorWallmount
+- **储存罐** — `GenericTank` ｜父类: StorageTank,StructureWheeled
+- `模板` **GenpopBase** — `GenpopBase`
+- **幽灵箱** — `GhostBox` ｜父类: StealthBox
+- **墙梁** — `Girder` ｜父类: BaseStructureDynamic,BaseStructureDissolvable
+- `模板` **玻璃展柜** — `GlassBox` ｜父类: BaseGlassBox,BaseItemCabinetGlass
+- **损坏的玻璃展柜** — `GlassBoxBroken` ｜父类: GlassBoxFrame
+- **玻璃展柜框架** — `GlassBoxFrame` ｜父类: BaseGlassBox
+- **玻璃展柜** — `GlassBoxLaser` ｜父类: GlassBox
+- **玻璃展柜** — `GlassBoxLaserFilled` ｜父类: GlassBoxLaser
+- **玻璃展柜** — `GlassBoxLaserFilledOpen` ｜父类: GlassBoxLaserFilled,GlassBoxLaserOpen
+- **玻璃展柜** — `GlassBoxLaserOpen` ｜父类: GlassBoxLaser
+- **金门** — `GoldDoor` ｜父类: BaseMaterialDoorNavMap
+- **黄金邮件推车** — `GoldenMailTrolley` ｜父类: MailTrolley ｜_Starlight
+- **留声机** — `Gramophone` ｜父类: Jukebox ｜_Starlight
+- `模板` **格栅** — `GrateBase` ｜父类: BaseStructure ｜_Starlight
+- **格栅** — `GrateEngie` ｜父类: GrateBase ｜_Starlight
+- **格栅** — `GrateGray` ｜父类: GrateBase ｜_Starlight
+- **格栅** — `GrateSec` ｜父类: GrateBase ｜_Starlight
+- **重力发生器** — `GravityGenerator` ｜父类: BaseMachinePowered
+- **迷你重力发生器** — `GravityGeneratorMini` ｜父类: GravityGenerator,ConstructibleMachine
+- **格栅** — `Grille` ｜父类: BaseStructure,BaseStructureDissolvable
+- **格栅** — `GrilleBroken` ｜父类: BaseStructure
+- **斜向格栅** — `GrilleDiagonal` ｜父类: Grille
+- **火控辅助主机** — `GunneryServer` ｜父类: BaseMachinePowered ｜_Starlight
+- **枪械保险柜** — `GunSafe` ｜父类: LockerBaseSecure
+- **枪械保险柜** — `GunSafeBaseSecure` ｜父类: GunSafe
+- **陀螺仪** — `Gyroscope` ｜父类: BaseThruster,ConstructibleMachine
+- **陀螺仪** — `GyroscopeUnanchored` ｜父类: Gyroscope
+- **哈龙储气罐** — `HalonCanister` ｜父类: GasCanister ｜_Funkystation
+- **损坏的 气罐** — `HalonCanisterBroken` ｜父类: GasCanisterBrokenBase ｜_Funkystation
+- **哈龙储气罐** — `HalonCanisterEmpty` ｜父类: HalonCanister ｜_Starlight
+- **治愈气储气罐** — `HealiumCanister` ｜父类: GasCanister ｜_Funkystation
+- **损坏的 气罐** — `HealiumCanisterBroken` ｜父类: GasCanisterBrokenBase ｜_Funkystation
+- **治愈气储气罐** — `HealiumCanisterEmpty` ｜父类: HealiumCanister ｜_Starlight
+- **散热器** — `HeatExchanger` ｜父类: GasBinaryBase
+- **散热器** — `HeatExchangerBend` ｜父类: HeatExchanger
+- **氦气储气罐** — `HeliumCanister` ｜父类: GasCanister ｜_Funkystation
+- **损坏的 气罐** — `HeliumCanisterBroken` ｜父类: GasCanisterBrokenBase ｜_Funkystation
+- **氦气储气罐** — `HeliumCanisterEmpty` ｜父类: HeliumCanister ｜_Starlight
+- **高安防门** — `HighSecArmoryLocked` ｜父类: HighSecDoor
+- **高安防门** — `HighSecBlackstarLocked` ｜父类: HighSecDoor ｜_Starlight
+- **高安防门** — `HighSecCaptainLocked` ｜父类: HighSecDoor
+- **高安防门** — `HighSecCentralCommandLocked` ｜父类: HighSecDoor
+- **高安防门** — `HighSecCommandLocked` ｜父类: HighSecDoor
+- **高安防门** — `HighSecCommunistLocked` ｜父类: HighSecDoor ｜_Starlight
+- **高安防门** — `HighSecDoor` ｜父类: BaseStructure
+- **高安防门** — `HighSecWizardLocked` ｜父类: HighSecDoor ｜_Starlight
+- **全息风障** — `HoloFan` ｜父类: HolosignWetFloor
+- **全息通讯板** — `Holopad` ｜父类: BaseMachinePowered,ConstructibleMachine
+- **全息通讯板** — `HolopadAiBackupPower` ｜父类: Holopad
+- **全息通讯板** — `HolopadAiChute` ｜父类: Holopad
+- **全息通讯板** — `HolopadAiCore` ｜父类: Holopad
+- **全息通讯板** — `HolopadAiEntrance` ｜父类: Holopad
+- **全息通讯板** — `HolopadAiMain` ｜父类: Holopad
+- **全息通讯板** — `HolopadAiUpload` ｜父类: Holopad
+- **蓝空间全息通讯板** — `HolopadBluespace` ｜父类: Holopad
+- **远程全息通讯板** — `HolopadCargoAts` ｜父类: HolopadLongRange
+- **全息通讯板** — `HolopadCargoBay` ｜父类: Holopad
+- **远程全息通讯板** — `HolopadCargoBayLongRange` ｜父类: HolopadLongRange
+- **全息通讯板** — `HolopadCargoBreakroom` ｜父类: Holopad
+- **全息通讯板** — `HolopadCargoFront` ｜父类: Holopad
+- **全息通讯板** — `HolopadCargoMailroom` ｜父类: Holopad
+- **全息通讯板** — `HolopadCargoSalvageBay` ｜父类: Holopad
+- **远程全息通讯板** — `HolopadCargoShuttle` ｜父类: HolopadLongRange
+- **远程全息通讯板** — `HolopadCentCommEvacShuttle` ｜父类: HolopadLongRange
+- **全息通讯板** — `HolopadCommandBridge` ｜父类: Holopad
+- **全息通讯板** — `HolopadCommandBridgeHallway` ｜父类: Holopad
+- **远程全息通讯板** — `HolopadCommandBridgeLongRange` ｜父类: HolopadLongRange
+- **全息通讯板** — `HolopadCommandCaptain` ｜父类: Holopad
+- **全息通讯板** — `HolopadCommandCe` ｜父类: Holopad
+- **全息通讯板** — `HolopadCommandCmo` ｜父类: Holopad
+- **全息通讯板** — `HolopadCommandHop` ｜父类: Holopad
+- **全息通讯板** — `HolopadCommandHos` ｜父类: Holopad
+- **全息通讯板** — `HolopadCommandLounge` ｜父类: Holopad
+- **全息通讯板** — `HolopadCommandMeetingRoom` ｜父类: Holopad
+- **全息通讯板** — `HolopadCommandQm` ｜父类: Holopad
+- **全息通讯板** — `HolopadCommandRd` ｜父类: Holopad
+- **全息通讯板** — `HolopadCommandVault` ｜父类: Holopad
+- **全息通讯板** — `HolopadEngineeringAME` ｜父类: Holopad
+- **全息通讯板** — `HolopadEngineeringAtmosFront` ｜父类: Holopad
+- **全息通讯板** — `HolopadEngineeringAtmosMain` ｜父类: Holopad
+- **全息通讯板** — `HolopadEngineeringAtmosTeg` ｜父类: Holopad
+- **全息通讯板** — `HolopadEngineeringBreakroom` ｜父类: Holopad
+- **全息通讯板** — `HolopadEngineeringFront` ｜父类: Holopad
+- **全息通讯板** — `HolopadEngineeringMain` ｜父类: Holopad
+- **全息通讯板** — `HolopadEngineeringPower` ｜父类: Holopad
+- **全息通讯板** — `HolopadEngineeringStorage` ｜父类: Holopad
+- **全息通讯板** — `HolopadEngineeringTechVault` ｜父类: Holopad
+- **全息通讯板** — `HolopadEngineeringTelecoms` ｜父类: Holopad
+- **全息通讯板** — `HolopadGeneralArcade` ｜父类: Holopad
+- **全息通讯板** — `HolopadGeneralArrivals` ｜父类: Holopad
+- **全息通讯板** — `HolopadGeneralCryosleep` ｜父类: Holopad
+- **全息通讯板** — `HolopadGeneralDisposals` ｜父类: Holopad
+- **全息通讯板** — `HolopadGeneralEvac` ｜父类: Holopad
+- **全息通讯板** — `HolopadGeneralEVAStorage` ｜父类: Holopad
+- **全息通讯板** — `HolopadGeneralLounge` ｜父类: Holopad
+- **全息通讯板** — `HolopadGeneralTheater` ｜父类: Holopad
+- **全息通讯板** — `HolopadGeneralTools` ｜父类: Holopad
+- **全息影像** — `HolopadHologram`
+- **远程全息通讯板** — `HolopadLongRange` ｜父类: Holopad
+- **全息通讯板** — `HolopadMedicalBreakroom` ｜父类: Holopad
+- **全息通讯板** — `HolopadMedicalChemistry` ｜父类: Holopad
+- **全息通讯板** — `HolopadMedicalClinic` ｜父类: Holopad
+- **全息通讯板** — `HolopadMedicalCryopods` ｜父类: Holopad
+- **全息通讯板** — `HolopadMedicalFront` ｜父类: Holopad
+- **全息通讯板** — `HolopadMedicalMedbay` ｜父类: Holopad
+- **全息通讯板** — `HolopadMedicalMorgue` ｜父类: Holopad
+- **全息通讯板** — `HolopadMedicalParamed` ｜父类: Holopad
+- **全息通讯板** — `HolopadMedicalSurgery` ｜父类: Holopad
+- **全息通讯板** — `HolopadMedicalVirology` ｜父类: Holopad
+- **全息通讯板** — `HolopadScienceAnomaly` ｜父类: Holopad
+- **全息通讯板** — `HolopadScienceArtifact` ｜父类: Holopad
+- **全息通讯板** — `HolopadScienceArtifactNorth` ｜父类: Holopad
+- **全息通讯板** — `HolopadScienceArtifactSouth` ｜父类: Holopad
+- **全息通讯板** — `HolopadScienceBreakroom` ｜父类: Holopad
+- **全息通讯板** — `HolopadScienceFront` ｜父类: Holopad
+- **全息通讯板** — `HolopadScienceRnd` ｜父类: Holopad
+- **全息通讯板** — `HolopadScienceRobotics` ｜父类: Holopad
+- **全息通讯板** — `HolopadSecurityArmory` ｜父类: Holopad
+- **全息通讯板** — `HolopadSecurityArrivalsCheckpoint` ｜父类: Holopad
+- **全息通讯板** — `HolopadSecurityBreakroom` ｜父类: Holopad
+- **全息通讯板** — `HolopadSecurityBrig` ｜父类: Holopad
+- **全息通讯板** — `HolopadSecurityBrigMed` ｜父类: Holopad
+- **全息通讯板** — `HolopadSecurityCourtroom` ｜父类: Holopad
+- **全息通讯板** — `HolopadSecurityDetective` ｜父类: Holopad
+- **全息通讯板** — `HolopadSecurityEvacCheckpoint` ｜父类: Holopad
+- **全息通讯板** — `HolopadSecurityFront` ｜父类: Holopad
+- **全息通讯板** — `HolopadSecurityInternalAffairs` ｜父类: Holopad
+- **全息通讯板** — `HolopadSecurityInterrogation` ｜父类: Holopad
+- **全息通讯板** — `HolopadSecurityLockerRoom` ｜父类: Holopad
+- **全息通讯板** — `HolopadSecurityPerma` ｜父类: Holopad
+- **全息通讯板** — `HolopadSecurityWarden` ｜父类: Holopad
+- **全息通讯板** — `HolopadServiceBar` ｜父类: Holopad
+- **全息通讯板** — `HolopadServiceBotany` ｜父类: Holopad
+- **全息通讯板** — `HolopadServiceBoxer` ｜父类: Holopad
+- **全息通讯板** — `HolopadServiceChapel` ｜父类: Holopad
+- **全息通讯板** — `HolopadServiceClown` ｜父类: Holopad
+- **全息通讯板** — `HolopadServiceClownMime` ｜父类: Holopad
+- **全息通讯板** — `HolopadServiceGameRoom` ｜父类: Holopad
+- **全息通讯板** — `HolopadServiceJanitor` ｜父类: Holopad
+- **全息通讯板** — `HolopadServiceKitchen` ｜父类: Holopad
+- **全息通讯板** — `HolopadServiceLawyer` ｜父类: Holopad ｜_Starlight
+- **全息通讯板** — `HolopadServiceLibrary` ｜父类: Holopad
+- **全息通讯板** — `HolopadServiceMime` ｜父类: Holopad
+- **全息通讯板** — `HolopadServiceMusician` ｜父类: Holopad
+- **全息通讯板** — `HolopadServiceNewsroom` ｜父类: Holopad
+- **全息通讯板** — `HolopadServiceZookeeper` ｜父类: Holopad
+- **量子纠缠全息通讯板** — `HolopadUnlimitedRange` ｜父类: Holopad
+- **全息香蕉皮** — `HoloPeel` ｜父类: HolosignWetFloor
+- **工程警告屏障** — `HolosignEngineeringWarning` ｜_Starlight
+- **全息力场** — `HolosignForcefield` ｜父类: HolosignWetFloor
+- **全息辐射屏障** — `HolosignRadiationBlocking` ｜父类: HolosignWetFloor ｜_FarHorizons
+- **全息屏障** — `HolosignSecurity` ｜父类: HolosignWetFloor
+- **地面湿滑标志** — `HolosignWetFloor`
+- **帘幕** — `HospitalCurtains` ｜父类: BaseCurtains
+- **帘幕** — `HospitalCurtainsOpen` ｜父类: HospitalCurtains
+- **氢气储气罐** — `HydrogenCanister` ｜父类: GasCanister ｜_Funkystation
+- **损坏的 气罐** — `HydrogenCanisterBroken` ｜父类: GasCanisterBrokenBase ｜_Funkystation
+- **氢气储气罐** — `HydrogenCanisterEmpty` ｜父类: HydrogenCanister ｜_Starlight
+- **土壤** — `hydroponicsSoil`
+- **水培托盘** — `hydroponicsTray` ｜父类: hydroponicsSoil,SmallConstructibleMachine
+- **水培托盘** — `HydroponicsTrayEmpty` ｜父类: hydroponicsTray
+- **超惰气储气罐** — `HyperNobliumCanister` ｜父类: GasCanister ｜_Funkystation
+- **损坏的 气罐** — `HyperNobliumCanisterBroken` ｜父类: GasCanisterBrokenBase ｜_Funkystation
+- **超惰气储气罐** — `HyperNobliumCanisterEmpty` ｜父类: HyperNobliumCanister ｜_Starlight
+- **冰淇淋机** — `IceCreamMaker` ｜父类: BaseMachinePowered,SmallConstructibleMachine ｜_Starlight
+- **充气门** — `InflatableDoor` ｜父类: BaseMaterialDoor,BaseDeltaPressureGlass
+- **充气路障** — `InflatableWall` ｜父类: BaseDeltaPressureGlass
+- **内部通讯器** — `Intercom` ｜父类: IntercomConstructed
+- **内部通讯器** — `IntercomAll` ｜父类: Intercom
+- **内部通讯器组件** — `IntercomAssembly`
+- **对讲机** — `IntercomCommand` ｜父类: BaseIntercomSecure
+- **内部通讯器** — `IntercomCommon` ｜父类: Intercom
+- **内部通讯器** — `IntercomConstructed` ｜父类: BaseIntercom
+- **内部通讯器** — `IntercomEngineering` ｜父类: Intercom
+- **内部通讯器** — `IntercomFreelance` ｜父类: Intercom
+- **内部通讯器** — `IntercomMedical` ｜父类: Intercom
+- **内部通讯器** — `IntercomScience` ｜父类: Intercom
+- **对讲机** — `IntercomSecurity` ｜父类: BaseIntercomSecure
+- **内部通讯器** — `IntercomService` ｜父类: Intercom
+- **内部通讯器** — `IntercomSupply` ｜父类: Intercom
+- **标识装饰** — `InterdyneFlag` ｜父类: BaseFlag ｜_Starlight
+- **标识装饰** — `InterdyneSyndicateFlag` ｜父类: BaseFlag ｜_Starlight
+- **板条箱** — `InvisibleCrate` ｜父类: CrateBaseWeldable
+- **铁岩** — `IronRock` ｜父类: AsteroidRock
+- **铁岩** — `IronRockArtifactFragment` ｜父类: IronRock
+- **铁岩** — `IronRockBananium` ｜父类: IronRock
+- **铁岩** — `IronRockBananiumCrab100` ｜父类: IronRockBananium ｜_Starlight
+- **铁岩** — `IronRockBananiumCrab2` ｜父类: IronRockBananium ｜_Starlight
+- **铁岩** — `IronRockBluespace` ｜父类: IronRock ｜_Starlight
+- **铁岩** — `IronRockCoal` ｜父类: IronRock
+- **铁岩** — `IronRockCoalCrab100` ｜父类: IronRockCoal ｜_Starlight
+- **铁岩** — `IronRockCoalCrab2` ｜父类: IronRockCoal ｜_Starlight
+- **铁岩** — `IronRockDiamond` ｜父类: IronRock
+- **铁岩** — `IronRockGibtonite` ｜父类: BaseRockGibtonite,IronRock
+- **铁岩** — `IronRockGold` ｜父类: IronRock
+- **铁岩** — `IronRockGoldCrab100` ｜父类: IronRockGold ｜_Starlight
+- **铁岩** — `IronRockGoldCrab2` ｜父类: IronRockGold ｜_Starlight
+- **铁岩** — `IronRockIron` ｜父类: IronRock
+- **铁岩** — `IronRockIronCrab100` ｜父类: IronRockIron ｜_Starlight
+- **铁岩** — `IronRockIronCrab2` ｜父类: IronRockIron ｜_Starlight
+- **铁岩** — `IronRockMining` ｜父类: IronRock
+- **铁岩** — `IronRockPlasma` ｜父类: IronRock
+- **铁岩** — `IronRockQuartz` ｜父类: IronRock
+- **铁岩** — `IronRockQuartzCrab100` ｜父类: IronRockQuartz ｜_Starlight
+- **铁岩** — `IronRockQuartzCrab2` ｜父类: IronRockQuartz ｜_Starlight
+- **铁岩** — `IronRockSalt` ｜父类: IronRock
+- **铁岩** — `IronRockSilver` ｜父类: IronRock
+- **铁岩** — `IronRockSilverCrab100` ｜父类: IronRockSilver ｜_Starlight
+- **铁岩** — `IronRockSilverCrab2` ｜父类: IronRockSilver ｜_Starlight
+- **铁岩** — `IronRockUranium` ｜父类: IronRock
+- **铁岩** — `IronRockUraniumCrab100` ｜父类: IronRockUranium ｜_Starlight
+- **铁岩** — `IronRockUraniumCrab2` ｜父类: IronRockUranium ｜_Starlight
+- **铁砂台阶** — `IronsandStep` ｜父类: BaseFloorDecoration
+- **铁砂台阶凹角** — `IronsandStepConcaveCorner` ｜父类: IronsandStep
+- **铁砂台阶凸角** — `IronsandStepConvexCorner` ｜父类: IronsandStep
+- **铁砂岩** — `IronSandstone` ｜父类: AsteroidRock
+- **铁砂岩** — `IronSandstoneMining` ｜父类: IronSandstone
+- **铁石门** — `IronstoneDoor` ｜父类: BaseMaterialDoorNavMap
+- **清洁推车** — `JanitorialTrolley` ｜父类: BaseStructureDynamic,StructureWheeled
+- **清洁服务灯** — `JanitorServiceLight` ｜父类: Poweredlight
+- **点唱机** — `Jukebox` ｜父类: BaseMachinePowered,ConstructibleMachine
+- **接线盒** — `JunctionBox` ｜父类: BaseWallmountMetallic ｜_Starlight
+- **密钥卡验证设备** — `KeycardAuth` ｜父类: BaseStructureComputer ｜_Starlight
+- **电烤炉** — `KitchenElectricGrill` ｜父类: BaseHeaterMachine
+- **微波炉** — `KitchenMicrowave` ｜父类: BaseMachinePowered,SmallConstructibleMachine
+- **烤箱** — `KitchenOven` ｜父类: BaseMachinePowered,SmallConstructibleMachine ｜_Starlight
+- **试剂研磨机** — `KitchenReagentGrinder` ｜父类: BaseMachinePowered,SmallConstructibleMachine
+- **挂肉钩** — `KitchenSpike` ｜父类: BaseStructure
+- **炉灶** — `KitchenStove` ｜父类: BaseMachinePowered,SmallConstructibleMachine ｜_Starlight
+- **脆弱格架** — `LatticeFalse` ｜父类: GrateBase ｜_Starlight
+- **军团兵篝火** — `LegionnaireBonfire` ｜父类: BaseBonfire
+- **LGBTQ 旗帜** — `LGBTQFlag` ｜父类: BaseFlag
+- **小型立柱灯** — `LightPostSmall` ｜父类: BaseStructure
+- **液态二氧化碳气罐** — `LiquidCarbonDioxideCanister` ｜父类: CarbonDioxideCanister
+- **损坏的 气罐** — `LiquidCarbonDioxideCanisterBroken` ｜父类: GasCanisterBrokenBase ｜_Starlight
+- **液态二氧化碳气罐** — `LiquidCarbonDioxideCanisterEmpty` ｜父类: LiquidCarbonDioxideCanister ｜_Starlight
+- **功能设备** — `LiquidDispenser` ｜_Starlight
+- **液氮气罐** — `LiquidNitrogenCanister` ｜父类: NitrogenCanister
+- **损坏的 气罐** — `LiquidNitrogenCanisterBroken` ｜父类: GasCanisterBrokenBase ｜_Starlight
+- **液氮气罐** — `LiquidNitrogenCanisterEmpty` ｜父类: LiquidNitrogenCanister ｜_Starlight
+- **液氧气罐** — `LiquidOxygenCanister` ｜父类: OxygenCanister
+- **损坏的 气罐** — `LiquidOxygenCanisterBroken` ｜父类: GasCanisterBrokenBase ｜_Starlight
+- **液氧气罐** — `LiquidOxygenCanisterEmpty` ｜父类: LiquidOxygenCanister ｜_Starlight
+- **可上锁按钮** — `LockableButton` ｜父类: SignalButtonDirectional
+- **可上锁按钮** — `LockableButtonArmory` ｜父类: LockableButton
+- **可上锁按钮** — `LockableButtonAtmospherics` ｜父类: LockableButton
+- **可上锁按钮** — `LockableButtonBar` ｜父类: LockableButton
+- **可上锁按钮** — `LockableButtonBrig` ｜父类: LockableButton
+- **可上锁按钮** — `LockableButtonCaptain` ｜父类: LockableButton
+- **可上锁按钮** — `LockableButtonCargo` ｜父类: LockableButton
+- **可上锁按钮** — `LockableButtonCentcomm` ｜父类: LockableButton
+- **可上锁按钮** — `LockableButtonChapel` ｜父类: LockableButton
+- **可上锁按钮** — `LockableButtonChemistry` ｜父类: LockableButton
+- **可上锁按钮** — `LockableButtonChiefEngineer` ｜父类: LockableButton
+- **可上锁按钮** — `LockableButtonChiefMedicalOfficer` ｜父类: LockableButton
+- **可上锁按钮** — `LockableButtonCommand` ｜父类: LockableButton
+- **可上锁按钮** — `LockableButtonCryogenics` ｜父类: LockableButton
+- **可上锁按钮** — `LockableButtonDetective` ｜父类: LockableButton
+- **可上锁按钮** — `LockableButtonEngineering` ｜父类: LockableButton
+- **可上锁按钮** — `LockableButtonExternal` ｜父类: LockableButton
+- **可上锁按钮** — `LockableButtonHeadOfPersonnel` ｜父类: LockableButton
+- **可上锁按钮** — `LockableButtonHeadOfSecurity` ｜父类: LockableButton
+- **可上锁按钮** — `LockableButtonHydroponics` ｜父类: LockableButton
+- **可上锁按钮** — `LockableButtonInternalAffairs` ｜父类: LockableButton
+- **可上锁按钮** — `LockableButtonJanitor` ｜父类: LockableButton
+- **可上锁按钮** — `LockableButtonKitchen` ｜父类: LockableButton
+- **可上锁按钮** — `LockableButtonMaintenance` ｜父类: LockableButton
+- **可上锁按钮** — `LockableButtonMedical` ｜父类: LockableButton
+- **可上锁按钮** — `LockableButtonQuartermaster` ｜父类: LockableButton
+- **可上锁按钮** — `LockableButtonResearch` ｜父类: LockableButton
+- **可上锁按钮** — `LockableButtonResearchDirector` ｜父类: LockableButton
+- **可上锁按钮** — `LockableButtonSalvage` ｜父类: LockableButton
+- **可上锁按钮** — `LockableButtonSecurity` ｜父类: LockableButton
+- **可上锁按钮** — `LockableButtonService` ｜父类: LockableButton
+- **可上锁按钮** — `LockableButtonTheatre` ｜父类: LockableButton
+- **大气技师储物柜** — `LockerAtmospherics` ｜父类: LockerBase
+- **壁橱** — `LockerBase` ｜父类: ClosetBase
+- **安全壁橱 # Starlight-edit** — `LockerBaseSecure` ｜父类: LockerBase
+- **储物容器** — `LockerBlueshield` ｜父类: LockerBaseSecure ｜_Starlight
+- **蓝空间储物柜** — `LockerBluespaceStation` ｜父类: LockerSyndicatePersonal
+- **酒水储藏柜** — `LockerBooze` ｜父类: LockerBase
+- **植物学家储物柜** — `LockerBotanist` ｜父类: LockerBase
+- **狱医储物柜** — `LockerBrigmedic` ｜父类: LockerBaseSecure
+- **储物容器** — `LockerBrigmedicLarge` ｜父类: LockerLargeBaseSecure ｜_Starlight
+- **舰长储物柜** — `LockerCaptain` ｜父类: LockerBaseSecure
+- **货运技师's 储物柜** — `LockerCargo` ｜父类: LockerBaseSecure ｜_Starlight
+- **大型货运技师's 储物柜** — `LockerCargoLarge` ｜父类: LockerLargeBaseSecure ｜_Starlight
+- **化学品储物柜** — `LockerChemistry` ｜父类: LockerBase
+- **工程主管储物柜** — `LockerChiefEngineer` ｜父类: LockerBaseSecure
+- **医疗主管储物柜** — `LockerChiefMedicalOfficer` ｜父类: LockerBaseSecure
+- **小丑储物柜** — `LockerClown` ｜父类: LockerBaseSecure
+- **储物容器** — `LockerCoroner` ｜父类: LockerBaseSecure ｜_Starlight
+- **侦探柜** — `LockerDetective` ｜父类: LockerBooze
+- **电气用品储物柜** — `LockerElectricalSupplies` ｜父类: LockerBase
+- **工程师储物柜** — `LockerEngineer` ｜父类: LockerBase
+- **紧急撤离穿梭机应急储物柜** — `LockerEvacRepair` ｜父类: LockerBase
+- **证物储物柜** — `LockerEvidence` ｜父类: LockerSecurity
+- **冷冻柜** — `LockerFreezer` ｜父类: LockerFreezerBase
+- **冷冻柜** — `LockerFreezerBase` ｜父类: LockerBase
+- **储物容器** — `LockerGeneticist` ｜父类: LockerBaseSecure ｜_Starlight
+- **人事主管储物柜** — `LockerHeadOfPersonnel` ｜父类: LockerBaseSecure
+- **安保主管储物柜** — `LockerHeadOfSecurity` ｜父类: LockerBaseSecure
+- **内部事务特工's 储物柜** — `LockerIAA` ｜父类: LockerBaseSecure ｜_Starlight
+- **储物容器** — `LockerJanitor` ｜父类: LockerBaseSecure ｜_Starlight
+- **储物容器** — `LockerJanitorCC` ｜父类: LockerJanitor ｜_Starlight
+- `模板` **LockerLargeBase** — `LockerLargeBase` ｜父类: LockerBase ｜_Starlight
+- `模板` **LockerLargeBaseSecure** — `LockerLargeBaseSecure` ｜父类: LockerLargeBase ｜_Starlight
+- **储物容器** — `LockerMagistrate` ｜父类: LockerBaseSecure ｜_Starlight
+- **储物容器** — `LockerMail` ｜父类: LockerBaseSecure ｜_Starlight
+- **储物容器** — `LockerMailLarge` ｜父类: LockerLargeBaseSecure ｜_Starlight
+- **医师储物柜** — `LockerMedical` ｜父类: LockerBase
+- **药品储物柜** — `LockerMedicine` ｜父类: LockerBase
+- **哑剧演员储物柜** — `LockerMime` ｜父类: LockerBaseSecure
+- **储物容器** — `LockerMiningSpecialist` ｜父类: LockerBaseSecure ｜_Starlight
+- **储物容器** — `LockerMiningSpecialistLarge` ｜父类: LockerLargeBaseSecure ｜_Starlight
+- **储物容器** — `LockerNCT` ｜父类: LockerBaseSecure ｜_Starlight
+- **急救员储物柜** — `LockerParamedic` ｜父类: LockerBase
+- **囚犯壁橱** — `LockerPrisoner` ｜父类: GenpopBase,LockerBaseSecure
+- **囚犯壁橱** — `LockerPrisoner2` ｜父类: LockerPrisoner
+- **囚犯壁橱** — `LockerPrisoner3` ｜父类: LockerPrisoner
+- **囚犯壁橱** — `LockerPrisoner4` ｜父类: LockerPrisoner
+- **囚犯壁橱** — `LockerPrisoner5` ｜父类: LockerPrisoner
+- **囚犯壁橱** — `LockerPrisoner6` ｜父类: LockerPrisoner
+- **囚犯壁橱** — `LockerPrisoner7` ｜父类: LockerPrisoner
+- **囚犯壁橱** — `LockerPrisoner8` ｜父类: LockerPrisoner
+- **军需官储物柜** — `LockerQuarterMaster` ｜父类: LockerBaseSecure
+- **纳米传讯代表储物柜 # Starlight, added apostrophe s** — `LockerRepresentative` ｜父类: LockerBaseSecure
+- **研究主管储物柜** — `LockerResearchDirector` ｜父类: LockerBase
+- **储物容器** — `LockerRoboticist` ｜父类: LockerBaseSecure ｜_Starlight
+- **储物容器** — `LockerSalvageLead` ｜父类: LockerBaseSecure ｜_Starlight
+- **打捞专员装备柜** — `LockerSalvageSpecialist` ｜父类: LockerBase
+- **大型打捞专员's 储物柜** — `LockerSalvageSpecialistLarge` ｜父类: LockerLargeBaseSecure ｜_Starlight
+- **科学家储物柜** — `LockerScientist` ｜父类: LockerBase
+- **安保干员储物柜** — `LockerSecurity` ｜父类: LockerBaseSecure
+- **大型安保干员's 储物柜** — `LockerSecurityLarge` ｜父类: LockerLargeBaseSecure ｜_Starlight
+- **安全壁橱** — `LockerSteel` ｜父类: LockerBaseSecure
+- **大型安全柜** — `LockerSteelLarge` ｜父类: LockerLargeBaseSecure ｜_Starlight
+- **储物容器** — `LockerSurgeon` ｜父类: LockerBaseSecure ｜_Starlight
+- **血红色 壁橱** — `LockerSyndicate` ｜父类: ClosetSteelBase
+- **血红色储物柜** — `LockerSyndicatePersonal` ｜父类: LockerBaseSecure
+- **储物容器** — `LockerVirologist` ｜父类: LockerBaseSecure ｜_Starlight
+- **囚犯 壁挂壁橱** — `LockerWallBasePrisoner` ｜父类: GenpopBase,BaseWallLocker
+- **紧急撤离穿梭机应急壁挂储物柜** — `LockerWallEvacRepair` ｜父类: BaseWallLocker
+- **医疗 壁挂储物柜** — `LockerWallMedical` ｜父类: BaseWallLocker
+- **囚犯 壁挂壁橱** — `LockerWallPrisoner2` ｜父类: LockerWallBasePrisoner
+- **囚犯 壁挂壁橱** — `LockerWallPrisoner3` ｜父类: LockerWallBasePrisoner
+- **囚犯 壁挂壁橱** — `LockerWallPrisoner4` ｜父类: LockerWallBasePrisoner
+- **囚犯 壁挂壁橱** — `LockerWallPrisoner5` ｜父类: LockerWallBasePrisoner
+- **囚犯 壁挂壁橱** — `LockerWallPrisoner6` ｜父类: LockerWallBasePrisoner
+- **囚犯 壁挂壁橱** — `LockerWallPrisoner7` ｜父类: LockerWallBasePrisoner
+- **囚犯 壁挂壁橱** — `LockerWallPrisoner8` ｜父类: LockerWallBasePrisoner
+- **血红色 壁挂储物柜** — `LockerWallSyndicate` ｜父类: BaseWallLocker
+- **典狱长储物柜** — `LockerWarden` ｜父类: LockerBaseSecure
+- **焊接用品储物柜** — `LockerWeldingSupplies` ｜父类: LockerBase
+- **空电路** — `LogicEmptyCircuit` ｜父类: BaseItem
+- **逻辑门** — `LogicGateAnd` ｜父类: LogicGateOr
+- **逻辑门** — `LogicGateNand` ｜父类: LogicGateOr
+- **逻辑门** — `LogicGateNor` ｜父类: LogicGateOr
+- **逻辑门** — `LogicGateOr` ｜父类: BaseLogicItem
+- **逻辑门** — `LogicGateXnor` ｜父类: LogicGateOr
+- **逻辑门** — `LogicGateXor` ｜父类: LogicGateOr
+- **异常生成器** — `MachineAnomalyGenerator` ｜父类: BaseMachinePowered
+- **异常同步器** — `MachineAnomalySynchronizer` ｜父类: BaseMachinePowered,ConstructibleMachine
+- **异常容器** — `MachineAnomalyVessel` ｜父类: BaseMachinePowered,ConstructibleMachine
+- **实验型异常容器** — `MachineAnomalyVesselExperimental` ｜父类: MachineAnomalyVessel
+- **异常粒子发射器（A.P.E.）** — `MachineAPE` ｜父类: BaseMachinePowered,ConstructibleMachine
+- **遗物分析仪** — `MachineArtifactAnalyzer` ｜父类: BaseMachinePowered,SmallConstructibleMachine
+- **遗物粉碎机** — `MachineArtifactCrusher` ｜父类: ConstructibleMachine,BaseMachinePowered
+- **躯体粉碎机** — `MachineArtifactCrusherXenoborg` ｜父类: MachineArtifactCrusher
+- **台式离心机** — `MachineCentrifuge` ｜父类: BaseTabletopChemicalMachine
+- **功能设备** — `MachineDarkBreacher` ｜父类: BaseMachinePowered,ConstructibleMachine ｜_Starlight
+- **功能设备** — `MachineDarkBreacherPowered` ｜父类: MachineDarkBreacher ｜_Starlight
+- **电解装置** — `MachineElectrolysisUnit` ｜父类: BaseTabletopChemicalMachine
+- **扁平打包机 1001** — `MachineFlatpacker` ｜父类: BaseMachinePowered,ConstructibleMachine
+- **机器框架** — `MachineFrame`
+- **损毁的机器框架** — `MachineFrameDestroyed` ｜父类: BaseStructureDynamic
+- **材料仓** — `MachineMaterialSilo` ｜父类: BaseMachinePowered,ConstructibleMachine
+- **邮件推车** — `MailCart` ｜父类: BaseStructureDynamic,StructureWheeled
+- **邮件投递单元** — `MailingUnit` ｜父类: DisposalUnitBase
+- **邮件投递单元** — `MailingUnitAI` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitAICore` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitAIPower` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitAISatellite` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitAIUpload` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitAME` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitAnchor` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitAnomaly` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitArmory` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitArrivals` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitArtifact` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitAtmos` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitBar` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitBotany` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitBridge` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitBrig` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitBrigMed` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitCaptain` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitCargo` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitCargoBay` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitCE` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitChapel` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitChemistry` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitClinic` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitCMO` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitCommand` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitCourtroom` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitCryogenics` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitCryosleep` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitDetective` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitDisposals` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitDockingArm` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitDorms` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitEngineering` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitEvac` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitEVAStorage` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitGateway` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitGravityGenerator` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitHoP` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitHoS` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitJanitor` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitKitchen` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitLaw` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitLibrary` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitMedbay` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitMedical` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitMorgue` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitParticleAccelerator` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitPerma` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitPsychology` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitQM` ｜父类: MailingUnit ｜_Starlight
+- **MailingUnitR&D** — `MailingUnitR&D` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitRD` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitReporter` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitRobotics` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitSalvage` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitScience` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitSecurity` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitSecurityCheckpoint` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitService` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitSupply` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitSurgery` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitTechVault` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitTEG` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitTelecomms` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitTheater` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitTools` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitVault` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitVox` ｜父类: MailingUnit ｜_Starlight
+- **邮件投递单元** — `MailingUnitWarden` ｜父类: MailingUnit ｜_Starlight
+- **邮件推车** — `MailTrolley` ｜父类: BaseStructureDynamic,StructureWheeled ｜_Starlight
+- **人体模型** — `Mannequin` ｜父类: BaseStructureDynamic,StripableInventoryBase
+- **质量投射器** — `MassDriver` ｜_Starlight
+- **质量投射器 电脑** — `MassDriverComputer` ｜父类: BaseComputerAiAccess ｜_Starlight
+- **观测主控椅** — `Masterchair` ｜父类: BaseStructureComputer ｜_Starlight
+- **观测主控椅** — `MasterchairOverlay` ｜_Starlight
+- **床垫** — `Mattress` ｜父类: Bed
+- **医疗床** — `MedicalBed` ｜父类: Bed
+- **医疗扫描仪** — `MedicalScanner` ｜父类: BaseMachinePowered
+- **医疗科技制造机** — `MedicalTechFab` ｜父类: BaseLatheLube
+- **纪念碑** — `Memorial` ｜父类: BaseStructure
+- **存储单元** — `MemoryCell` ｜父类: BaseLogicItem
+- **金属门** — `MetalDoor` ｜父类: BaseMaterialDoorNavMap
+- **陨石岩** — `MeteorRock` ｜父类: AsteroidRock
+- **陨石岩** — `MeteorRockBananium` ｜父类: MeteorRock
+- **陨石岩** — `MeteorRockCoal` ｜父类: MeteorRock
+- **陨石岩** — `MeteorRockDiamond` ｜父类: MeteorRock
+- **陨石岩** — `MeteorRockGold` ｜父类: MeteorRock
+- **陨石岩** — `MeteorRockPlasma` ｜父类: MeteorRock
+- **陨石岩** — `MeteorRockQuartz` ｜父类: MeteorRock
+- **陨石岩** — `MeteorRockSilver` ｜父类: MeteorRock
+- **陨石岩** — `MeteorRockTin` ｜父类: MeteorRock
+- **陨石岩** — `MeteorRockUranium` ｜父类: MeteorRock
+- **采矿窗** — `MiningWindow` ｜父类: WindowRCDResistant,BaseDeltaPressureReinforcedGlass
+- **采矿窗** — `MiningWindowDiagonal` ｜父类: MiningWindow
+- **镜子** — `Mirror` ｜父类: BaseWallmountGlass
+- **镜子** — `MirrorModern` ｜父类: Mirror
+- **巨石碑** — `Monolith` ｜父类: Memorial
+- **拖把桶** — `MopBucket` ｜父类: BaseStructureDynamic,StructureWheeled
+- **拖把桶方块** — `MopBucketCubeWrapped` ｜父类: BaseWrappedCube
+- **拖把桶** — `MopBucketFull` ｜父类: MopBucket
+- **停尸柜** — `Morgue`
+- **MultipartMachineGhost** — `MultipartMachineGhost`
+- **NCT 物品** — `nctterminal` ｜父类: BaseStructureComputer ｜_Starlight
+- **氮素气储气罐** — `NitriumCanister` ｜父类: GasCanister ｜_Funkystation
+- **损坏的 气罐** — `NitriumCanisterBroken` ｜父类: GasCanisterBrokenBase ｜_Funkystation
+- **氮素气储气罐** — `NitriumCanisterEmpty` ｜父类: NitriumCanister ｜_Starlight
+- **氮气罐** — `NitrogenCanister` ｜父类: GasCanister
+- **损坏的 气罐** — `NitrogenCanisterBroken` ｜父类: GasCanisterBrokenBase
+- **氮气罐** — `NitrogenCanisterEmpty` ｜父类: NitrogenCanister ｜_Starlight
+- **一氧化二氮气罐** — `NitrousOxideCanister` ｜父类: GasCanister
+- **损坏的 气罐** — `NitrousOxideCanisterBroken` ｜父类: GasCanisterBrokenBase
+- **一氧化二氮气罐** — `NitrousOxideCanisterEmpty` ｜父类: NitrousOxideCanister ｜_Starlight
+- **公告板** — `NoticeBoard` ｜父类: BaseWallmount
+- **纳米传讯旗帜 # SL** — `NTFlag` ｜父类: BaseFlag
+- **核裂变爆炸装置** — `NuclearBomb` ｜父类: BaseStructure,StructureWheeled,BaseMajorContraband
+- **核裂变爆炸装置** — `NuclearBombKeg` ｜父类: StorageTank
+- **核裂变炸弹** — `NuclearBombSafe` ｜父类: NuclearBomb ｜_Starlight
+- **核裂变炸弹** — `NuclearBombSafeUnanchored` ｜父类: NuclearBombSafe ｜_Starlight
+- **核裂变炸弹** — `NuclearBombUnanchored` ｜父类: NuclearBomb
+- **核离心机** — `NuclearCentrifuge` ｜父类: BaseMachinePowered,ConstructibleMachine ｜_FarHorizons
+- **核废墟残块** — `NuclearDebrisChunk` ｜父类: BaseItem ｜_FarHorizons
+- **核工业制造机** — `NuclearFabricator` ｜父类: BaseLatheLube ｜_FarHorizons
+- `模板` **NuclearReactorCrew** — `NuclearReactorCrew` ｜_FarHorizons
+- **核反应堆** — `NuclearReactorEmpty` ｜父类: BaseNuclearReactor,NuclearReactorCrew,ReactorPrefabEmpty ｜_FarHorizons
+- **核反应堆** — `NuclearReactorEmptySalvage` ｜父类: BaseNuclearReactor,NuclearReactorSalvage,ReactorPrefabEmpty ｜_FarHorizons
+- **核反应堆** — `NuclearReactorMeltdown` ｜父类: BaseNuclearReactor,NuclearReactorCrew,ReactorPrefab7x7Meltdown ｜_FarHorizons
+- **核反应堆** — `NuclearReactorMelted` ｜父类: BaseStructure ｜_FarHorizons
+- **核反应堆** — `NuclearReactorMeltedSalvage` ｜父类: NuclearReactorMelted ｜_FarHorizons
+- **核反应堆监控器** — `NuclearReactorMonitor` ｜父类: BaseComputerAiAccess ｜_FarHorizons
+- **核反应堆** — `NuclearReactorNormal` ｜父类: BaseNuclearReactor,NuclearReactorCrew ｜_FarHorizons
+- **核反应堆** — `NuclearReactorNormalSalvage` ｜父类: BaseNuclearReactor,NuclearReactorSalvage ｜_FarHorizons
+- **核反应堆** — `NuclearReactorRandom` ｜父类: BaseNuclearReactor,NuclearReactorCrew,ReactorPrefabRandom ｜_FarHorizons
+- **核反应堆** — `NuclearReactorRandomSalvage` ｜父类: BaseNuclearReactor,NuclearReactorSalvage,ReactorPrefabRandom ｜_FarHorizons
+- `模板` **NuclearReactorSalvage** — `NuclearReactorSalvage` ｜_FarHorizons
+- **小型核反应堆** — `NuclearReactorSmall` ｜父类: BaseNuclearReactorSmall,NuclearReactorCrew,ReactorPrefab5x5Normal ｜_FarHorizons
+- **小型核反应堆** — `NuclearReactorSmallEmpty` ｜父类: BaseNuclearReactorSmall,NuclearReactorCrew,ReactorPrefabEmpty ｜_Starlight
+- **小型核反应堆** — `NuclearReactorSmallEmptySalvage` ｜父类: BaseNuclearReactorSmall,NuclearReactorSalvage,ReactorPrefabEmpty ｜_FarHorizons
+- **熔毁的小型核反应堆** — `NuclearReactorSmallMelted` ｜父类: NuclearReactorMelted ｜_FarHorizons
+- **小型核反应堆** — `NuclearReactorSmallMeltedSalvage` ｜父类: NuclearReactorSmallMelted ｜_FarHorizons
+- **小型核反应堆** — `NuclearReactorSmallRandom` ｜父类: BaseNuclearReactorSmall,NuclearReactorCrew,ReactorPrefabRandom ｜_FarHorizons
+- **小型核反应堆** — `NuclearReactorSmallRandomSalvage` ｜父类: BaseNuclearReactorSmall,NuclearReactorSalvage,ReactorPrefabRandom ｜_FarHorizons
+- **小型核反应堆** — `NuclearReactorSmallSalvage` ｜父类: BaseNuclearReactorSmall,NuclearReactorSalvage,ReactorPrefab5x5Normal ｜_FarHorizons
+- `模板` **椅子** — `OfficeChairBase` ｜父类: UnanchoredChairBase
+- **标识装饰** — `OnAirSignLights` ｜父类: BarSignLights ｜_Starlight
+- **标识装饰** — `OpenBarSignLights` ｜父类: BarSignLights ｜_Starlight
+- **标识装饰** — `OpenSignLights` ｜父类: BarSignLights ｜_Starlight
+- **手术台** — `OperatingTable` ｜父类: Bed
+- **矿石箱** — `OreBox` ｜父类: BaseStructureDynamic
+- **矿石处理机** — `OreProcessor` ｜父类: BaseLathe
+- **工业矿石处理机** — `OreProcessorIndustrial` ｜父类: OreProcessor
+- **OverlayCMPlatform** — `OverlayCMPlatform` ｜_Starlight
+- **OverlayCMPlatformCorner** — `OverlayCMPlatformCorner` ｜_Starlight
+- **OverlayCMPlatformCornerDark** — `OverlayCMPlatformCornerDark` ｜_Starlight
+- **OverlayCMPlatformCornerWood** — `OverlayCMPlatformCornerWood` ｜_Starlight
+- **OverlayCMPlatformDark** — `OverlayCMPlatformDark` ｜_Starlight
+- **OverlayCMPlatformWood** — `OverlayCMPlatformWood` ｜_Starlight
+- **OverlayRMCPlatformCornerSmall** — `OverlayRMCPlatformCornerSmall` ｜_Starlight
+- **OverlayRMCPlatformCornerSmallDark** — `OverlayRMCPlatformCornerSmallDark` ｜_Starlight
+- **OverlayRMCPlatformCornerSmallWood** — `OverlayRMCPlatformCornerSmallWood` ｜_Starlight
+- **OverlayRMCPlatformStairLeft** — `OverlayRMCPlatformStairLeft` ｜_Starlight
+- **OverlayRMCPlatformStairLeftDark** — `OverlayRMCPlatformStairLeftDark` ｜_Starlight
+- **OverlayRMCPlatformStairLeftWood** — `OverlayRMCPlatformStairLeftWood` ｜_Starlight
+- **OverlayRMCPlatformStairRight** — `OverlayRMCPlatformStairRight` ｜_Starlight
+- **OverlayRMCPlatformStairRightDark** — `OverlayRMCPlatformStairRightDark` ｜_Starlight
+- **OverlayRMCPlatformStairRightWood** — `OverlayRMCPlatformStairRightWood` ｜_Starlight
+- **氧气罐** — `OxygenCanister` ｜父类: GasCanister
+- **损坏的 气罐** — `OxygenCanisterBroken` ｜父类: GasCanisterBrokenBase
+- **氧气罐** — `OxygenCanisterEmpty` ｜父类: OxygenCanister ｜_Starlight
+- **《Amogus 三联画（无题）》** — `PaintingAmogusTriptych` ｜父类: PaintingBase
+- `模板` **PaintingBase** — `PaintingBase` ｜父类: BaseSign
+- **《夜晚露天咖啡座》** — `PaintingCafeTerraceAtNight` ｜父类: PaintingBase
+- **空画框** — `PaintingEmpty` ｜父类: PaintingBase
+- **标识装饰** — `PaintingHammer` ｜父类: PaintingBase ｜_Starlight
+- **《你好，世界》** — `PaintingHelloWorld` ｜父类: PaintingBase
+- **猴子画** — `PaintingMonkey` ｜父类: BaseSign
+- **《抽象画一号》** — `PaintingMoony` ｜父类: PaintingBase
+- **《夜游者》** — `PaintingNightHawks` ｜父类: PaintingBase
+- **《老吉他手》** — `PaintingOldGuitarist` ｜父类: PaintingBase
+- **《奥林匹亚》** — `PaintingOlympia` ｜父类: PaintingBase
+- **《记忆的永恒》** — `PaintingPersistenceOfMemory` ｜父类: PaintingBase
+- **《使徒之手》** — `PaintingPrayerHands` ｜父类: PaintingBase
+- **《红黄蓝的构成》** — `PaintingRedBlueYellow` ｜父类: PaintingBase
+- **标识装饰** — `PaintingRedTide` ｜父类: PaintingBase ｜_Starlight
+- **《悲伤的小丑》** — `PaintingSadClown` ｜父类: PaintingBase
+- **《农神吞噬其子》** — `PaintingSaturn` ｜父类: PaintingBase
+- **《叼着粗烟的 MLG 骷髅头》** — `PaintingSkeletonBoof` ｜父类: PaintingBase
+- **《叼着燃烧香烟的骷髅头》** — `PaintingSkeletonCigarette` ｜父类: PaintingBase
+- **《沉睡的游牧者》 #SL Edit g to nomad** — `PaintingSleepingGypsy` ｜父类: PaintingBase
+- **《神奈川冲浪里》** — `PaintingTheGreatWave` ｜父类: PaintingBase
+- **《吻》** — `PaintingTheKiss` ｜父类: PaintingBase
+- **《呐喊》** — `PaintingTheScream` ｜父类: PaintingBase
+- **《人子》** — `PaintingTheSonOfMan` ｜父类: PaintingBase
+- **纸张箱** — `PaperBin` ｜父类: BaseStructureDynamic
+- **纸张箱** — `PaperBin10` ｜父类: PaperBin
+- **纸张箱** — `PaperBin20` ｜父类: PaperBin
+- **纸张箱** — `PaperBin5` ｜父类: PaperBin
+- **纸门** — `PaperDoor` ｜父类: BaseMaterialDoorNavMap
+- `模板` **ParticleAcceleratorBase** — `ParticleAcceleratorBase`
+- **PA 控制计算机** — `ParticleAcceleratorControlBox` ｜父类: ParticleAcceleratorFinishedPart
+- **PA 控制计算机** — `ParticleAcceleratorControlBoxUnfinished` ｜父类: ParticleAcceleratorUnfinishedBase
+- **PA 前部约束发射器** — `ParticleAcceleratorEmitterFore` ｜父类: ParticleAcceleratorFinishedPart
+- **PA 前部约束发射器** — `ParticleAcceleratorEmitterForeUnfinished` ｜父类: ParticleAcceleratorUnfinishedBase
+- **PA 左舷约束发射器** — `ParticleAcceleratorEmitterPort` ｜父类: ParticleAcceleratorFinishedPart
+- **PA 左舷约束发射器** — `ParticleAcceleratorEmitterPortUnfinished` ｜父类: ParticleAcceleratorUnfinishedBase
+- **PA 右舷约束发射器** — `ParticleAcceleratorEmitterStarboard` ｜父类: ParticleAcceleratorFinishedPart
+- **PA 右舷约束发射器** — `ParticleAcceleratorEmitterStarboardUnfinished` ｜父类: ParticleAcceleratorUnfinishedBase
+- **粒子加速器端盖** — `ParticleAcceleratorEndCap` ｜父类: ParticleAcceleratorFinishedPart
+- **粒子加速器端盖（未完工）** — `ParticleAcceleratorEndCapUnfinished` ｜父类: ParticleAcceleratorUnfinishedBase
+- `模板` **ParticleAcceleratorFinishedPart** — `ParticleAcceleratorFinishedPart` ｜父类: ParticleAcceleratorBase
+- **PA 燃料室** — `ParticleAcceleratorFuelChamber` ｜父类: ParticleAcceleratorFinishedPart
+- **PA 燃料室** — `ParticleAcceleratorFuelChamberUnfinished` ｜父类: ParticleAcceleratorUnfinishedBase
+- **PA 电源箱** — `ParticleAcceleratorPowerBox` ｜父类: ParticleAcceleratorFinishedPart
+- **PA 电源箱** — `ParticleAcceleratorPowerBoxUnfinished` ｜父类: ParticleAcceleratorUnfinishedBase
+- `模板` **ParticleAcceleratorUnfinishedBase** — `ParticleAcceleratorUnfinishedBase` ｜父类: ParticleAcceleratorBase
+- **粒子** — `ParticlesProjectile` ｜父类: BaseBullet
+- `模板` **家具** — `PewBase` ｜父类: ChairBase ｜_Starlight
+- **木质长椅** — `PewEndLeft` ｜父类: PewBase ｜_Starlight
+- **木质长椅** — `PewEndRight` ｜父类: PewBase ｜_Starlight
+- **木质长椅** — `PewMiddle` ｜父类: PewBase ｜_Starlight
+- **磷光级联** — `Phoronic` ｜父类: BaseStructure ｜_Starlight
+- **气闸门** — `PinionAirlock` ｜父类: Airlock
+- **气闸门组件** — `PinionAirlockAssembly` ｜父类: AirlockAssembly
+- **气闸门组件** — `PinionAirlockAssemblyGlass` ｜父类: PinionAirlockAssembly
+- **玻璃气闸门** — `PinionAirlockGlass` ｜父类: AirlockGlass
+- **海盗旗** — `PirateFlag` ｜父类: BaseFlag
+- **大气部铭牌生成点** — `PlaqueAtmos` ｜父类: MarkerBase
+- **FEA 大气部门纪念牌** — `PlaqueAtmosFEA` ｜父类: BaseSign
+- **LINDA 大气部门纪念牌** — `PlaqueAtmosLINDA` ｜父类: PlaqueAtmosFEA
+- **ZAS 大气部门纪念牌** — `PlaqueAtmosZAS` ｜父类: PlaqueAtmosFEA
+- **ZUM 大气部门纪念牌** — `PlaqueAtmosZUM` ｜父类: PlaqueAtmosFEA
+- **等离子体气罐** — `PlasmaCanister` ｜父类: GasCanister
+- **损坏的 气罐** — `PlasmaCanisterBroken` ｜父类: GasCanisterBrokenBase
+- **等离子体气罐** — `PlasmaCanisterEmpty` ｜父类: PlasmaCanister ｜_Starlight
+- **等离子门** — `PlasmaDoor` ｜父类: BaseMaterialDoorNavMap
+- **方向性强化等离子体窗** — `PlasmaReinforcedWindowDirectional` ｜父类: BaseDeltaPressureReinforcedPlasmaQuarter,WindowDirectionalRCDResistant
+- **定向强化等离子窗** — `PlasmaReinforcedWindowDirectionalHoneypot` ｜父类: MarkerBase,PlasmaReinforcedWindowDirectional ｜_Starlight
+- **定向强化等离子窗** — `PlasmaReinforcedWindowDirectionalHoneypotIndestructible` ｜父类: MarkerBase,PlasmaReinforcedWindowDirectional ｜_Starlight
+- **等离子窗门** — `PlasmaWindoorJanitorLocked` ｜父类: WindoorPlasma
+- **等离子窗门** — `PlasmaWindoorNukeopLocked` ｜父类: WindoorPlasma
+- **加固等离子窗门** — `PlasmaWindoorSecureArmoryLocked` ｜父类: WindoorSecurePlasma
+- **加固等离子窗门** — `PlasmaWindoorSecureAtmosphericsLocked` ｜父类: PlasmaWindoorSecureEngineeringLocked
+- **加固等离子窗门** — `PlasmaWindoorSecureCentralCommandLocked` ｜父类: PlasmaWindoorSecureCommandLocked
+- **加固等离子窗门** — `PlasmaWindoorSecureChemistryLocked` ｜父类: WindoorSecurePlasma
+- **加固等离子窗门** — `PlasmaWindoorSecureCommandLocked` ｜父类: WindoorSecurePlasma
+- **加固等离子窗门** — `PlasmaWindoorSecureEngineeringLocked` ｜父类: WindoorSecurePlasma
+- **加固等离子窗门** — `PlasmaWindoorSecureJanitorLocked` ｜父类: WindoorSecurePlasma
+- **加固等离子窗门** — `PlasmaWindoorSecureNukeopLocked` ｜父类: WindoorSecurePlasma
+- **加固等离子窗门** — `PlasmaWindoorSecureRoboticsLocked` ｜父类: WindoorSecurePlasma ｜_Starlight
+- **加固等离子窗门** — `PlasmaWindoorSecureScienceLocked` ｜父类: WindoorSecurePlasma
+- **加固等离子窗门** — `PlasmaWindoorSecureSecurityLocked` ｜父类: WindoorSecurePlasma
+- **加固等离子窗门** — `PlasmaWindoorSecureSyndicateLocked` ｜父类: WindoorSecurePlasma
+- **等离子窗门** — `PlasmaWindoorSyndicateLocked` ｜父类: WindoorPlasma
+- **等离子体窗** — `PlasmaWindow` ｜父类: BaseDeltaPressurePlasma,WindowRCDResistant
+- **等离子体窗** — `PlasmaWindowDiagonal` ｜父类: PlasmaWindow
+- **方向性等离子体窗** — `PlasmaWindowDirectional` ｜父类: BaseDeltaPressurePlasmaQuarter,WindowDirectionalRCDResistant
+- **气密塑料门帘** — `PlasticFlapsAirtightClear` ｜父类: PlasticFlapsBase
+- **气密塑料门帘** — `PlasticFlapsAirtightOpaque` ｜父类: PlasticFlapsBase
+- `模板` **PlasticFlapsBase** — `PlasticFlapsBase` ｜父类: BaseStructureDynamic
+- **塑料门帘** — `PlasticFlapsClear` ｜父类: PlasticFlapsBase
+- **塑料门帘** — `PlasticFlapsOpaque` ｜父类: PlasticFlapsBase
+- **塑钛窗** — `PlastitaniumWindow` ｜父类: PlastitaniumWindowSquareBase
+- `模板` **塑钛窗** — `PlastitaniumWindowBase` ｜父类: BaseStructure
+- **塑钛窗** — `PlastitaniumWindowDiagonal` ｜父类: PlastitaniumWindowDiagonalBase
+- `模板` **塑钛窗** — `PlastitaniumWindowDiagonalBase` ｜父类: PlastitaniumWindowBase
+- **塑钛窗** — `PlastitaniumWindowDiagonalIndestructible` ｜父类: PlastitaniumWindowDiagonalBase
+- **塑钛窗** — `PlastitaniumWindowIndestructible` ｜父类: PlastitaniumWindowSquareBase
+- `模板` **塑钛窗** — `PlastitaniumWindowSquareBase` ｜父类: PlastitaniumWindowBase
+- **管路 缓冲罐** — `PlumbingBuffer` ｜父类: PlumbingTank ｜_Starlight
+- **功能设备** — `PlumbingDisposal` ｜父类: PlumbingMachineBase ｜_Starlight
+- **管路 排水口** — `PlumbingDrain` ｜父类: PlumbingMachineBase ｜_Starlight
+- `模板` **流体管道** — `PlumbingDuctBase` ｜父类: BaseItem ｜_Starlight
+- **流体管道** — `PlumbingDuctBend` ｜父类: PlumbingDuctBase ｜_Starlight
+- **流体管道** — `PlumbingDuctBendAlt1` ｜父类: PlumbingDuctLayerAlt1,PlumbingDuctBend ｜_Starlight
+- **流体管道** — `PlumbingDuctBendAlt2` ｜父类: PlumbingDuctLayerAlt2,PlumbingDuctBend ｜_Starlight
+- **流体管道** — `PlumbingDuctFourway` ｜父类: PlumbingDuctBase ｜_Starlight
+- **流体管道** — `PlumbingDuctFourwayAlt1` ｜父类: PlumbingDuctLayerAlt1,PlumbingDuctFourway ｜_Starlight
+- **流体管道** — `PlumbingDuctFourwayAlt2` ｜父类: PlumbingDuctLayerAlt2,PlumbingDuctFourway ｜_Starlight
+- `模板` **PlumbingDuctLayerAlt1** — `PlumbingDuctLayerAlt1` ｜_Starlight
+- `模板` **PlumbingDuctLayerAlt2** — `PlumbingDuctLayerAlt2` ｜_Starlight
+- **流体歧管** — `PlumbingDuctManifold` ｜父类: PlumbingDuctBase ｜_Starlight
+- **流体歧管** — `PlumbingDuctManifoldAlt1` ｜父类: PlumbingDuctLayerAlt1,PlumbingDuctManifold ｜_Starlight
+- **流体歧管** — `PlumbingDuctManifoldAlt2` ｜父类: PlumbingDuctLayerAlt2,PlumbingDuctManifold ｜_Starlight
+- **流体管道** — `PlumbingDuctStraight` ｜父类: PlumbingDuctBase ｜_Starlight
+- **流体管道** — `PlumbingDuctStraightAlt1` ｜父类: PlumbingDuctLayerAlt1,PlumbingDuctStraight ｜_Starlight
+- **流体管道** — `PlumbingDuctStraightAlt2` ｜父类: PlumbingDuctLayerAlt2,PlumbingDuctStraight ｜_Starlight
+- **流体管道** — `PlumbingDuctTJunction` ｜父类: PlumbingDuctBase ｜_Starlight
+- **流体管道** — `PlumbingDuctTJunctionAlt1` ｜父类: PlumbingDuctLayerAlt1,PlumbingDuctTJunction ｜_Starlight
+- **流体管道** — `PlumbingDuctTJunctionAlt2` ｜父类: PlumbingDuctLayerAlt2,PlumbingDuctTJunction ｜_Starlight
+- **管路 过滤器** — `PlumbingFilter` ｜父类: PlumbingMachineBase ｜_Starlight
+- **管路 过滤器** — `PlumbingFilterFlipped` ｜父类: PlumbingFilter ｜_Starlight
+- **管路 输入罐** — `PlumbingInput` ｜父类: PlumbingMachineBase ｜_Starlight
+- `模板` **PlumbingMachineBase** — `PlumbingMachineBase` ｜_Starlight
+- **管路 输出罐** — `PlumbingOutput` ｜父类: PlumbingMachineBase ｜_Starlight
+- **管路 药丸压片机** — `PlumbingPillPress` ｜父类: PlumbingMachineBase ｜_Starlight
+- **管路 反应器** — `PlumbingReactor` ｜父类: PlumbingMachineBase ｜_Starlight
+- **管路 水槽** — `PlumbingSink` ｜父类: PlumbingMachineBase ｜_Starlight
+- **管路 智能分配器** — `PlumbingSmartDispenser` ｜父类: PlumbingMachineBase ｜_Starlight
+- **管路 合成器** — `PlumbingSynthesizer` ｜父类: PlumbingMachineBase ｜_Starlight
+- **管路 储罐** — `PlumbingTank` ｜父类: PlumbingMachineBase ｜_Starlight
+- **增氧气储气罐** — `PluoxiumCanister` ｜父类: GasCanister ｜_Funkystation
+- **损坏的 气罐** — `PluoxiumCanisterBroken` ｜父类: GasCanisterBrokenBase ｜_Funkystation
+- **增氧气储气罐** — `PluoxiumCanisterEmpty` ｜父类: PluoxiumCanister ｜_Starlight
+- `模板` **PortableGeneratorBase** — `PortableGeneratorBase` ｜父类: BaseMachine,SmallConstructibleMachine,StructureWheeled
+- **J.R.P.A.C.M.A.N. 型便携式发电机** — `PortableGeneratorJrPacman` ｜父类: PortableGeneratorBase
+- **P.A.C.M.A.N. 型便携式发电机** — `PortableGeneratorPacman` ｜父类: PortableGeneratorSwitchableBase
+- **S.U.P.E.R.P.A.C.M.A.N. 型便携式发电机** — `PortableGeneratorSuperPacman` ｜父类: PortableGeneratorSwitchableBase
+- `模板` **PortableGeneratorSwitchableBase** — `PortableGeneratorSwitchableBase` ｜父类: PortableGeneratorBase
+- **便携式洗涤器** — `PortableScrubber` ｜父类: BaseMachinePowered,SmallConstructibleMachine,StructureWheeled
+- **暗界破门传送门** — `PortalDarkBreacher` ｜父类: BasePortal ｜_Starlight
+- **异常** — `PortalShadekin` ｜父类: AnomalyShadow ｜_Starlight
+- **暗界枢纽** — `PortalShadekinHub` ｜父类: BasePortal ｜_Starlight
+- `模板` **PosterBase** — `PosterBase` ｜父类: BaseSign
+- **损坏的海报** — `PosterBroken` ｜父类: BaseSign
+- **300 标识装饰** — `PosterContraband300Hotdogs` ｜父类: PosterBase ｜_Starlight
+- **寻常神馐草** — `PosterContrabandAmbrosiaVulgaris` ｜父类: PosterBase
+- **“ARF”海报** — `PosterContrabandARFRadio` ｜父类: PosterBase ｜_Starlight
+- **《大气国独立宣言》** — `PosterContrabandAtmosiaDeclarationIndependence` ｜父类: PosterBase
+- **《沙滩之星山本！》** — `PosterContrabandBeachStarYamamoto` ｜父类: PosterBase
+- **100 标识装饰** — `PosterContrabandBeep100` ｜父类: PosterBase ｜_Starlight
+- **《时髦赛博格》** — `PosterContrabandBorgFancy` ｜父类: PosterBase
+- **《时髦赛博格 v2》** — `PosterContrabandBorgFancyv2` ｜父类: PosterBase
+- **《赏金猎人》** — `PosterContrabandBountyHunters` ｜父类: PosterBase
+- **《异形：并非你想的那样？》** — `PosterContrabandBustyBackdoorExoBabes6` ｜父类: PosterBase
+- **标识装饰** — `PosterContrabandBuyLeft` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterContrabandBuyRight` ｜父类: PosterBase ｜_Starlight
+- **C-20r** — `PosterContrabandC20r` ｜父类: PosterBase
+- **《CC 64K 广告》** — `PosterContrabandCC64KAd` ｜父类: PosterBase
+- **《小丑》** — `PosterContrabandClown` ｜父类: PosterBase
+- **标识装饰** — `PosterContrabandComitas` ｜父类: PosterBase ｜_Starlight
+- **《共产主义国家》** — `PosterContrabandCommunistState` ｜父类: PosterBase
+- **《赛博之日：五百周年纪念海报》** — `PosterContrabandCybersun600` ｜父类: PosterBase
+- **标识装饰** — `PosterContrabandDaysSinceFluke` ｜父类: PosterBase ｜_Starlight
+- **《D-Day 宣传》** — `PosterContrabandDDayPromo` ｜父类: PosterBase
+- **标识装饰** — `PosterContrabandDoCauseCancer` ｜父类: PosterBase ｜_Starlight
+- **《DONK 公司牌微波食品》** — `PosterContrabandDonk` ｜父类: PosterBase
+- **《甜甜圈公司》** — `PosterContrabandDonutCorp` ｜父类: PosterBase
+- **《吃。》** — `PosterContrabandEAT` ｜父类: PosterBase
+- **《能量剑》** — `PosterContrabandEnergySwords` ｜父类: PosterBase
+- **《入伍》** — `PosterContrabandEnlistGorlex` ｜父类: PosterBase
+- **《异形警告：酸液喷吐！》** — `PosterContrabandExoAcid` ｜父类: PosterBase
+- **《异形警告：致命撕咬！》** — `PosterContrabandExoChomp` ｜父类: PosterBase
+- **《异形警告：快逃！》** — `PosterContrabandExoRun` ｜父类: PosterBase
+- **标识装饰** — `PosterContrabandFentsAndCo` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterContrabandFlukiesCall` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterContrabandForumPost` ｜父类: PosterBase ｜_Starlight
+- **《自由无人机》** — `PosterContrabandFreeDrone` ｜父类: PosterBase
+- **《免费辛迪加加密密钥》** — `PosterContrabandFreeSyndicateEncryptionKey` ｜父类: PosterBase
+- **《释放汤托》** — `PosterContrabandFreeTonto` ｜父类: PosterBase
+- **《欢乐警察》** — `PosterContrabandFunPolice` ｜父类: PosterBase
+- **“GEC”海报** — `PosterContrabandGEC` ｜父类: PosterBase ｜_Starlight
+- **《破解指南》** — `PosterContrabandHackingGuide` ｜父类: PosterBase
+- **《来一口》** — `PosterContrabandHaveaPuff` ｜父类: PosterBase
+- **标识装饰** — `PosterContrabandHaveYouSeenDisMan` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterContrabandHaveYouSeenHimJohnToe` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterContrabandHereticalExomorph` ｜父类: PosterBase ｜_Starlight
+- **《高效工程》** — `PosterContrabandHighEffectEngineering` ｜父类: PosterBase
+- **标识装饰** — `PosterContrabandHolyInsuls` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterContrabandIlluminatePropaganda` ｜父类: PosterBase ｜_Starlight
+- **《因特戴恩制药：为了人类健康》** — `PosterContrabandInterdyne` ｜父类: PosterBase
+- **标识装饰** — `PosterContrabandInterdyneSyndicate` ｜父类: PosterBase ｜_Starlight
+- **《宇宙空间站 13 不存在》** — `PosterContrabandKosmicheskayaStantsiya` ｜父类: PosterBase
+- **《葛藤》** — `PosterContrabandKudzu` ｜父类: PosterBase
+- **《拉玛》** — `PosterContrabandLamarr` ｜父类: PosterBase
+- **标识装饰** — `PosterContrabandLnuGlorf` ｜父类: PosterBase ｜_Starlight
+- **《欲火焚身的异形》** — `PosterContrabandLustyExomorph` ｜父类: PosterBase
+- **《蒙面人》** — `PosterContrabandMaskedMen` ｜父类: PosterBase
+- **《失踪的绝缘手套》** — `PosterContrabandMissingGloves` ｜父类: PosterBase
+- **《失踪的太空笔》** — `PosterContrabandMissingSpacepen` ｜父类: PosterBase
+- **《辛迪蛾——核弹行动》** — `PosterContrabandMoth` ｜父类: PosterBase
+- **《核装置信息》** — `PosterContrabandNuclearDeviceInformational` ｜父类: PosterBase
+- **《权力》** — `PosterContrabandPower` ｜父类: PosterBase
+- **《揍他丫的》** — `PosterContrabandPunchShit` ｜父类: PosterBase
+- **《能量游戏》** — `PosterContrabandPwrGame` ｜父类: PosterBase
+- **《反抗者联合起来》** — `PosterContrabandRebelsUnite` ｜父类: PosterBase
+- **《红朗姆》** — `PosterContrabandRedRum` ｜父类: PosterBase
+- **《反抗》** — `PosterContrabandRevolt` ｜父类: PosterBase
+- **《左轮手枪》** — `PosterContrabandRevolver` ｜父类: PosterBase
+- **《安息吧，獾》** — `PosterContrabandRIPBadger` ｜父类: PosterBase
+- **《揭竿而起》** — `PosterContrabandRise` ｜父类: PosterBase
+- **标识装饰** — `PosterContrabandRobirdVox` ｜父类: PosterBase ｜_Starlight
+- **《健壮软饮》** — `PosterContrabandRobustSoftdrinks` ｜父类: PosterBase
+- **标识装饰** — `PosterContrabandRobustVox` ｜父类: PosterBase ｜_Starlight
+- **“S.E.L.F”海报** — `PosterContrabandSELF` ｜父类: PosterBase ｜_Starlight
+- **《蹒跚怪果汁》** — `PosterContrabandShamblersJuice` ｜父类: PosterBase
+- **《烟》** — `PosterContrabandSmoke` ｜父类: PosterBase
+- **《太空可乐》** — `PosterContrabandSpaceCola` ｜父类: PosterBase
+- **《太空立方体》** — `PosterContrabandSpaceCube` ｜父类: PosterBase
+- **《太空汽水！》** — `PosterContrabandSpaceUp` ｜父类: PosterBase
+- **《阳光之吻》** — `PosterContrabandSunkist` ｜父类: PosterBase
+- **《辛迪加手枪》** — `PosterContrabandSyndicatePistol` ｜父类: PosterBase
+- **《辛迪加招募》** — `PosterContrabandSyndicateRecruitment` ｜父类: PosterBase
+- **《气态巨行星大真相》** — `PosterContrabandTheBigGasTruth` ｜父类: PosterBase
+- **《狮鹫》** — `PosterContrabandTheGriffin` ｜父类: PosterBase
+- **标识装饰** — `PosterContrabandThunderdome` ｜父类: PosterBase ｜_Starlight
+- **《工具》** — `PosterContrabandTools` ｜父类: PosterBase
+- **《无法阅读的公告》** — `PosterContrabandUnreadableAnnouncement` ｜父类: PosterBase
+- **《投票给 Weh》** — `PosterContrabandVoteWeh` ｜父类: PosterBase
+- **《我要华夫公司：精良步枪，实惠价格》** — `PosterContrabandWaffleCorp` ｜父类: PosterBase
+- **标识装饰** — `PosterContrabandWaffleCorpTwo` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterContrabandWantedClown` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterContrabandWantedFreak` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterContrabandWantedIan` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterContrabandWantedJohnToe` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterContrabandWantedMime` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterContrabandWantedPunPun` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterContrabandWantedStirStir` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterContrabandWantedTraitor` ｜父类: PosterBase ｜_Starlight
+- **《Weh 在注视》** — `PosterContrabandWehWatches` ｜父类: PosterBase
+- **标识装饰** — `PosterContrabandYoutoolpia` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterFashionKiller` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterFashionSing` ｜父类: PosterBase ｜_Starlight
+- **《12 号口径》** — `PosterLegit12Gauge` ｜父类: PosterBase
+- **“24/7”海报** — `PosterLegit247` ｜_Starlight
+- **《五十周年复古再版》** — `PosterLegit50thAnniversaryVintageReprint` ｜父类: PosterBase
+- **《太空人的解剖结构》** — `PosterLegitAnatomyPoster` ｜父类: PosterBase
+- **标识装饰** — `PosterLegitAndromedaBitters` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterLegitBlasto` ｜父类: PosterBase ｜_Starlight
+- **《愿此地蒙福》** — `PosterLegitBlessThisSpess` ｜父类: PosterBase
+- **标识装饰** — `PosterLegitBonk` ｜父类: PosterBase ｜_Starlight
+- **《水培区之惧》** — `PosterLegitBotanyFear` ｜父类: PosterBase
+- **《建设》** — `PosterLegitBuild` ｜父类: PosterBase
+- **NT 标识装饰** — `PosterLegitCalendar` ｜父类: PosterBase ｜_Starlight
+- **《二氧化碳》** — `PosterLegitCarbonDioxide` ｜父类: PosterBase
+- **《壁挂鲤鱼》** — `PosterLegitCarpMount` ｜父类: PosterBase
+- **标识装饰** — `PosterLegitCEO` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterLegitChipIn` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterLegitCleanHands` ｜父类: PosterBase ｜_Starlight
+- **《清洁》** — `PosterLegitCleanliness` ｜父类: PosterBase
+- **钟** — `PosterLegitClock` ｜父类: PosterBase ｜_Starlight
+- **《高希霸罗布图广告》** — `PosterLegitCohibaRobustoAd` ｜父类: PosterBase
+- **标识装饰** — `PosterLegitDeforestMedical` ｜父类: PosterBase ｜_Starlight
+- **《迪克·冈舒》** — `PosterLegitDickGumshue` ｜父类: PosterBase
+- **标识装饰** — `PosterLegitDoNotCauseCancer` ｜父类: PosterBase ｜_Starlight
+- **《不要质疑》** — `PosterLegitDoNotQuestion` ｜父类: PosterBase
+- **标识装饰** — `PosterLegitDuty` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterLegitEarth` ｜父类: PosterBase ｜_Starlight
+- **《入伍》** — `PosterLegitEnlist` ｜父类: PosterBase
+- **标识装饰** — `PosterLegitEyeChart` ｜父类: PosterBase ｜_Starlight
+- **《泡沫力量广告》** — `PosterLegitFoamForceAd` ｜父类: PosterBase
+- **《水果碗》** — `PosterLegitFruitBowl` ｜父类: PosterBase
+- **《练好你的腿》** — `PosterLegitGetYourLEGS` ｜父类: PosterBase
+- **标识装饰** — `PosterLegitHaveYouSeenHimJuanToe` ｜父类: PosterBase ｜_Starlight
+- **《赫利俄斯后勤广告》** — `PosterLegitHelio` ｜父类: PosterBase
+- **《帮助他人》** — `PosterLegitHelpOthers` ｜父类: PosterBase
+- **《为了你的安全》** — `PosterLegitHereForYourSafety` ｜父类: PosterBase
+- **《高级马天尼》** — `PosterLegitHighClassMartini` ｜父类: PosterBase
+- **《伊恩》** — `PosterLegitIan` ｜父类: PosterBase
+- **《离子步枪》** — `PosterLegitIonRifle` ｜父类: PosterBase
+- **《只差一周……》** — `PosterLegitJustAWeekAway` ｜父类: PosterBase
+- **标识装饰** — `PosterLegitJustice` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterLegitKeepItClean` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterLegitKillEmAll` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterLegitKillersClinic` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterlegitLawPoster` ｜父类: PosterBase ｜_Starlight
+- **《爱伊恩》** — `PosterLegitLoveIan` ｜父类: PosterBase
+- **标识装饰** — `PosterLegitLuna` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterLegitMaxCap` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterLegitMedTak` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterLegitMenu` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterLegitMidtownPizza` ｜父类: PosterBase ｜_Starlight
+- **《后现代哑剧演员》** — `PosterLegitMime` ｜父类: PosterBase
+- **标识装饰** — `PosterLegitMoffuchis` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterLegitMugshot` ｜父类: BaseWallmount ｜_Starlight
+- **《纳米道广告》** — `PosterLegitNanomichiAd` ｜父类: PosterBase
+- **纳米传讯** — `PosterLegitNanoTrasenFancy` ｜父类: PosterBase ｜_Starlight
+- **《纳米传讯标志》** — `PosterLegitNanotrasenLogo` ｜父类: PosterBase
+- **禁止 ERP** — `PosterLegitNoERP` ｜父类: PosterBase
+- **“纳米传讯战术游戏卡牌” # SL** — `PosterLegitNTTGC` ｜父类: PosterBase
+- **《服从》** — `PosterLegitObey` ｜父类: PosterBase
+- **《奥本霍普》** — `PosterLegitOppenhopper` ｜父类: PosterBase
+- **《PDA 广告》** — `PosterLegitPDAAd` ｜父类: PosterBase
+- **《元素周期表》** — `PosterLegitPeriodicTable` ｜父类: PosterBase
+- **标识装饰** — `PosterLegitPizzaImperator` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterLegitPlasma` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterLegitQuirks` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterLegitRecycle` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterLegitRenaissanceFair` ｜父类: PosterBase ｜_Starlight
+- **《雷诺海报》** — `PosterLegitRenault` ｜父类: PosterBase
+- **《举报犯罪》** — `PosterLegitReportCrimes` ｜父类: PosterBase
+- **标识装饰** — `PosterLegitRipleyCertified` ｜父类: PosterBase ｜_Starlight
+- **《安全：眼部防护》** — `PosterLegitSafetyEyeProtection` ｜父类: PosterBase
+- **《安全：内循环设备》** — `PosterLegitSafetyInternals` ｜父类: PosterBase
+- **《安全蛾——分层事故安全措施》** — `PosterLegitSafetyMothDelam` ｜父类: PosterBase
+- **《安全蛾——肾上腺素》** — `PosterLegitSafetyMothEpi` ｜父类: PosterBase
+- **《安全蛾——安全帽》** — `PosterLegitSafetyMothHardhat` ｜父类: PosterBase
+- **《安全蛾——甲基苯丙胺》** — `PosterLegitSafetyMothMeth` ｜父类: PosterBase
+- **《安全蛾——管道》** — `PosterLegitSafetyMothPiping` ｜父类: PosterBase
+- **《安全蛾——太空睡眠障碍》** — `PosterLegitSafetyMothSSD` ｜父类: PosterBase
+- **《安全：报告》** — `PosterLegitSafetyReport` ｜父类: PosterBase
+- **“NO SALINE!”海报** — `PosterLegitSaline` ｜父类: PosterBase ｜_Starlight
+- **《科学》** — `PosterLegitScience` ｜父类: PosterBase
+- **《安保正在注视你》** — `PosterLegitSecWatch` ｜父类: PosterBase
+- **标识装饰** — `PosterLegitSerene` ｜父类: PosterBase ｜_Starlight
+- **YOUR 标识装饰** — `PosterLegitShoeless` ｜父类: PosterBase ｜_Starlight
+- **“'SKILL ISSUE'”海报** — `PosterLegitSkillIssue` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterLegitSlogan` ｜父类: PosterBase ｜_Starlight
+- **《软帽波普艺术》** — `PosterLegitSoftCapPopArt` ｜父类: PosterBase
+- **《太空警察》** — `PosterLegitSpaceCops` ｜父类: PosterBase
+- **标识装饰** — `PosterLegitSpaceCops2` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterLegitStarkistFancy` ｜父类: PosterBase ｜_Starlight
+- **《陈述法则》** — `PosterLegitStateLaws` ｜父类: PosterBase
+- **《猫头鹰》** — `PosterLegitTheOwl` ｜父类: PosterBase
+- **《不存在气态巨行星》** — `PosterLegitThereIsNoGasGiant` ｜父类: PosterBase
+- **标识装饰** — `PosterLegitTipperCreamSoda` ｜父类: PosterBase ｜_Starlight
+- **TSPD 标识装饰** — `PosterLegitTSPDRangers` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterLegitTurrets` ｜父类: PosterBase ｜_Starlight
+- **《泰隆的太空指南》** — `PosterLegitTyrone` ｜父类: PosterBase
+- **《上野》** — `PosterLegitUeNo` ｜父类: PosterBase
+- **“纳米传讯公司福利：度假” # SL** — `PosterLegitVacation` ｜父类: PosterBase
+- **《请步行》** — `PosterLegitWalk` ｜父类: PosterBase
+- **《为未来工作》** — `PosterLegitWorkForAFuture` ｜父类: PosterBase
+- **贝果空间站地图** — `PosterMapBagel` ｜父类: PosterBase
+- **德尔塔空间站地图** — `PosterMapDelta` ｜父类: PosterBase
+- **灯塔地图** — `PosterMapLighthouse` ｜父类: PosterBase
+- **马拉松空间站地图** — `PosterMapMarathon` ｜父类: PosterBase
+- **Meta空间站地图** — `PosterMapMetaRight` ｜父类: PosterBase
+- **驼鹿空间站地图** — `PosterMapMoose` ｜父类: PosterBase
+- **起源空间站地图** — `PosterMapOrigin` ｜父类: PosterBase
+- **拥挤空间站地图** — `PosterMapPacked` ｜父类: PosterBase
+- **支柱号地图** — `PosterMapPillar` ｜父类: PosterBase
+- **盐田空间站地图** — `PosterMapSaltern` ｜父类: PosterBase
+- **分岔空间站地图** — `PosterMapSplit` ｜父类: PosterBase
+- **中途站地图** — `PosterMapWaystation` ｜父类: PosterBase
+- **标识装饰** — `PosterPrisonAccident` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterPrisonAlien` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterPrisonAshwalkers` ｜父类: PosterBase ｜_Starlight
+- **“CCTV”海报** — `PosterPrisonCCTV` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterPrisonCell` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterPrisonCompromise` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterPrisonEspionage` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterPrisonInquisition` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterPrisonIntensec` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterPrisonLeviathan` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterPrisonMicroscope` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterPrisonObscene` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterPrisonPinup` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterPrisonPray` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterPrisonReligion` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterPrisonReligious` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterPrisonSad` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterPrisonSecure` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterPrisonSmallBrain` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterPrisonSubu` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterPrisonTriangle` ｜父类: PosterBase ｜_Starlight
+- **标识装饰** — `PosterPrisonUgly` ｜父类: PosterBase ｜_Starlight
+- **盆栽** — `PottedPlant0` ｜父类: PottedPlantBase
+- **盆栽** — `PottedPlant1` ｜父类: PottedPlantBase
+- **盆栽** — `PottedPlant10` ｜父类: PottedPlantBase
+- **盆栽** — `PottedPlant11` ｜父类: PottedPlantBase
+- **盆栽** — `PottedPlant12` ｜父类: PottedPlantBase
+- **盆栽** — `PottedPlant13` ｜父类: PottedPlantBase
+- **盆栽** — `PottedPlant14` ｜父类: PottedPlantBase
+- **盆栽** — `PottedPlant15` ｜父类: PottedPlantBase
+- **盆栽** — `PottedPlant16` ｜父类: PottedPlantBase
+- **盆栽** — `PottedPlant17` ｜父类: PottedPlantBase
+- **盆栽** — `PottedPlant18` ｜父类: PottedPlantBase
+- **盆栽** — `PottedPlant19` ｜父类: PottedPlantBase
+- **盆栽** — `PottedPlant2` ｜父类: PottedPlantBase
+- **盆栽** — `PottedPlant20` ｜父类: PottedPlantBase
+- **盆栽** — `PottedPlant21` ｜父类: PottedPlantBase
+- **盆栽** — `PottedPlant22` ｜父类: PottedPlantBase
+- **盆栽** — `PottedPlant23` ｜父类: PottedPlantBase
+- **盆栽** — `PottedPlant24` ｜父类: PottedPlantBase
+- **盆栽** — `PottedPlant26` ｜父类: PottedPlantBase
+- **塑料盆栽** — `PottedPlant27` ｜父类: PottedPlantBase
+- **塑料盆栽** — `PottedPlant28` ｜父类: PottedPlant27
+- **塑料盆栽** — `PottedPlant29` ｜父类: PottedPlant27
+- **盆栽** — `PottedPlant3` ｜父类: PottedPlantBase
+- **塑料盆栽** — `PottedPlant30` ｜父类: PottedPlant27
+- **盆栽** — `PottedPlant4` ｜父类: PottedPlantBase
+- **盆栽** — `PottedPlant5` ｜父类: PottedPlantBase
+- **盆栽** — `PottedPlant6` ｜父类: PottedPlantBase
+- **盆栽** — `PottedPlant7` ｜父类: PottedPlantBase
+- **盆栽** — `PottedPlant8` ｜父类: PottedPlantBase
+- **盆栽** — `PottedPlantAlt0` ｜父类: PottedPlantBase ｜_Starlight
+- **盆栽** — `PottedPlantAlt1` ｜父类: PottedPlantBase ｜_Starlight
+- **盆栽** — `PottedPlantAlt2` ｜父类: PottedPlantBase ｜_Starlight
+- **盆栽** — `PottedPlantAlt3` ｜父类: PottedPlantBase ｜_Starlight
+- **盆栽** — `PottedPlantAlt4` ｜父类: PottedPlantBase ｜_Starlight
+- **盆栽** — `PottedPlantAlt5` ｜父类: PottedPlantBase ｜_Starlight
+- **盆栽** — `PottedPlantAlt6` ｜父类: PottedPlantBase ｜_Starlight
+- **盆栽** — `PottedPlantAlt7` ｜父类: PottedPlantBase ｜_Starlight
+- **盆栽** — `PottedPlantAlt8` ｜父类: PottedPlantBase ｜_Starlight
+- `模板` **盆栽** — `PottedPlantBase` ｜父类: BaseStructureDynamic
+- **生物发光盆栽** — `PottedPlantBioluminscent` ｜父类: PottedPlantBase
+- **研究主管的盆栽** — `PottedPlantRD` ｜父类: PottedPlantBase
+- **电池笼充电器** — `PowerCageRecharger` ｜父类: BaseItemRecharger,ConstructibleMachine
+- **蓄电池充电器** — `PowerCellRecharger` ｜父类: BaseItemRecharger
+- **小灯** — `PoweredDimSmallLight` ｜父类: PoweredSmallLightEmpty
+- **小型立柱灯** — `PoweredLEDLightPostSmall` ｜父类: PoweredLightPostSmallEmpty
+- **小灯** — `PoweredLEDSmallLight` ｜父类: PoweredSmallLightEmpty
+- **灯** — `Poweredlight` ｜父类: PoweredlightEmpty
+- **灯** — `PoweredlightBlack` ｜父类: Poweredlight
+- **灯** — `PoweredlightBlackLight` ｜父类: Poweredlight ｜_Starlight
+- **灯** — `PoweredlightBlue` ｜父类: Poweredlight
+- **灯** — `PoweredlightCyan` ｜父类: Poweredlight
+- **灯** — `PoweredlightEmpty` ｜父类: AlwaysPoweredWallLight
+- **灯** — `PoweredlightExterior` ｜父类: Poweredlight
+- **灯** — `PoweredlightGreen` ｜父类: Poweredlight
+- **灯** — `PoweredlightLED` ｜父类: Poweredlight
+- **灯** — `PoweredlightOrange` ｜父类: Poweredlight
+- **灯** — `PoweredlightPink` ｜父类: Poweredlight
+- **小型立柱灯** — `PoweredLightPostSmall` ｜父类: PoweredLightPostSmallEmpty
+- **小型立柱灯** — `PoweredLightPostSmallEmpty` ｜父类: LightPostSmall
+- **灯** — `PoweredlightRed` ｜父类: Poweredlight
+- **灯** — `PoweredlightSodium` ｜父类: Poweredlight
+- **灯** — `PoweredlightYellow` ｜父类: Poweredlight
+- **小灯** — `PoweredSmallLight` ｜父类: PoweredSmallLightEmpty
+- **小灯** — `PoweredSmallLightEmpty` ｜父类: SmallLight
+- **频闪灯** — `PoweredStrobeLightEmpty` ｜父类: AlwaysPoweredStrobeLight
+- **频闪灯** — `PoweredStrobeLightEpsilon` ｜父类: PoweredStrobeLightEmpty
+- **频闪灯** — `PoweredStrobeLightPolice` ｜父类: PoweredStrobeLightEmpty
+- **频闪灯** — `PoweredStrobeLightSiren` ｜父类: PoweredStrobeLightEmpty
+- **小灯** — `PoweredWarmSmallLight` ｜父类: PoweredSmallLightEmpty
+- **电力传感器** — `PowerSensor` ｜父类: BaseLogicItem
+- **气动阀** — `PressureControlledValve` ｜父类: GasPipeBase
+- **气动阀** — `PressureControlledValveAlt1` ｜父类: GasPipeLayerAlt1,PressureControlledValve ｜_Starlight
+- **气动阀** — `PressureControlledValveAlt2` ｜父类: GasPipeLayerAlt2,PressureControlledValve ｜_Starlight
+- **气动阀** — `PressureControlledValveAlt3` ｜父类: GasPipeLayerAlt3,PressureControlledValve ｜_Carpmosia
+- **气动阀** — `PressureControlledValveAlt4` ｜父类: GasPipeLayerAlt4,PressureControlledValve ｜_Carpmosia
+- **文件打印机** — `PrinterDoc` ｜父类: BaseLathe ｜_Starlight
+- **监狱铁栏** — `PrisonBars` ｜父类: BaseWallmountMetallic ｜_Starlight
+- **小猪存钱罐** — `PropPiggyBank` ｜父类: BasePinata ｜_Starlight
+- **雪人** — `PropSnowman` ｜父类: BaseStructure ｜_Starlight
+- **原型车床** — `Protolathe` ｜父类: BaseLatheLube
+- **超对流原型车床** — `ProtolatheHyperConvection` ｜父类: Protolathe,BaseHyperlathe
+- **原硝气储气罐** — `ProtoNitrateCanister` ｜父类: GasCanister ｜_Funkystation
+- **损坏的 气罐** — `ProtoNitrateCanisterBroken` ｜父类: GasCanisterBrokenBase ｜_Funkystation
+- **原硝气储气罐** — `ProtoNitrateCanisterEmpty` ｜父类: ProtoNitrateCanister ｜_Starlight
+- **心理治疗床** — `PsychBed` ｜父类: Bed
+- **置物架** — `Rack` ｜父类: BaseStructure
+- **辐射收集器** — `RadiationCollector`
+- **辐射收集器** — `RadiationCollectorFullTank` ｜父类: RadiationCollector
+- **辐射收集器** — `RadiationCollectorNoTank` ｜父类: RadiationCollector
+- **栏杆 #SL** — `Railing` ｜父类: BaseRailing
+- **擂台围绳** — `RailingBoxing` ｜父类: BaseRailingBoxing ｜_Starlight
+- **栏杆 #SL** — `RailingCorner` ｜父类: BaseRailing
+- **擂台围绳** — `RailingCornerBoxing` ｜父类: BaseRailingBoxing ｜_Starlight
+- **栏杆 #SL** — `RailingCornerSmall` ｜父类: BaseRailing
+- **栏杆** — `RailingCornerSmallWood` ｜父类: BaseRailingWood ｜_Starlight
+- **栏杆** — `RailingCornerSmallYellow` ｜父类: BaseRailingYellow ｜_Starlight
+- **栏杆** — `RailingCornerWood` ｜父类: BaseRailingWood ｜_Starlight
+- **栏杆** — `RailingCornerYellow` ｜父类: BaseRailingYellow ｜_Starlight
+- **栏杆** — `RailingEnd` ｜父类: BaseStructure,BaseStructureDissolvable ｜_Starlight
+- **栏杆** — `RailingEndAlt` ｜父类: BaseStructure,BaseStructureDissolvable ｜_Starlight
+- **栏杆 #SL** — `RailingRound` ｜父类: BaseRailing
+- **栏杆** — `RailingRoundWood` ｜父类: BaseRailingWood ｜_Starlight
+- **栏杆** — `RailingRoundYellow` ｜父类: BaseRailingYellow ｜_Starlight
+- **栏杆** — `RailingWood` ｜父类: BaseRailingWood ｜_Starlight
+- **栏杆** — `RailingWoodEnd` ｜父类: BaseRailingWood ｜_Starlight
+- **栏杆** — `RailingWoodEndAlt` ｜父类: BaseRailingWood ｜_Starlight
+- **栏杆** — `RailingYellow` ｜父类: BaseRailingYellow ｜_Starlight
+- **栏杆** — `RailingYellowEnd` ｜父类: BaseRailingYellow ｜_Starlight
+- **栏杆** — `RailingYellowEndAlt` ｜父类: BaseRailingYellow ｜_Starlight
+- **损坏的 气罐** — `RainbowCanisterBroken` ｜父类: GasCanisterBrokenBase ｜_Starlight
+- **彩虹 气罐** — `RainbowCanisterEmpty` ｜父类: GasCanister ｜_Starlight
+- **随机门** — `RandomGate` ｜父类: BaseLogicItem
+- **ReactorAlarmEntity** — `ReactorAlarmEntity` ｜_FarHorizons
+- **ReactorFlowArrow** — `ReactorFlowArrow` ｜_FarHorizons
+- **ReactorGasPipe** — `ReactorGasPipe` ｜_FarHorizons
+- `模板` **ReactorPrefab5x5Normal** — `ReactorPrefab5x5Normal` ｜_FarHorizons
+- `模板` **ReactorPrefab7x7Meltdown** — `ReactorPrefab7x7Meltdown` ｜_FarHorizons
+- `模板` **ReactorPrefabEmpty** — `ReactorPrefabEmpty` ｜_FarHorizons
+- `模板` **ReactorPrefabRandom** — `ReactorPrefabRandom` ｜_FarHorizons
+- **ReactorSmallFlowArrow** — `ReactorSmallFlowArrow` ｜父类: ReactorFlowArrow ｜_FarHorizons
+- `模板` **ReagentDispenserBase** — `ReagentDispenserBase` ｜父类: ReagentDispenserBaseUnpowered ｜_Starlight
+- `模板` **ReagentDispenserBasePowerCell** — `ReagentDispenserBasePowerCell` ｜父类: ReagentDispenserBaseUnpowered ｜_Starlight
+- `模板` **ReagentDispenserBaseUnpowered** — `ReagentDispenserBaseUnpowered` ｜父类: SmallConstructibleMachine
+- **工业试剂研磨机** — `ReagentGrinderIndustrial` ｜父类: Recycler
+- **功能设备** — `RecruitmentComputer` ｜父类: BaseComputerAiAccess ｜_Starlight
+- **回收机** — `Recycler` ｜父类: BaseMachinePowered
+- **反射器** — `Reflector` ｜父类: BaseStructure ｜_Starlight
+- **强化墙梁** — `ReinforcedGirder` ｜父类: Girder
+- **强化等离子体窗** — `ReinforcedPlasmaWindow` ｜父类: BaseDeltaPressureReinforcedPlasma,WindowRCDResistant
+- **强化等离子体窗** — `ReinforcedPlasmaWindowDiagonal` ｜父类: ReinforcedPlasmaWindow
+- **强化等离子窗** — `ReinforcedPlasmaWindowDiagonalHoneypot` ｜父类: MarkerBase,ReinforcedPlasmaWindowDiagonal ｜_Starlight
+- **强化等离子窗** — `ReinforcedPlasmaWindowDiagonalHoneypotIndestructible` ｜父类: MarkerBase,ReinforcedPlasmaWindowDiagonal ｜_Starlight
+- **强化等离子窗** — `ReinforcedPlasmaWindowHoneypot` ｜父类: MarkerBase,ReinforcedPlasmaWindow ｜_Starlight
+- **强化等离子窗** — `ReinforcedPlasmaWindowHoneypotIndestructible` ｜父类: MarkerBase,ReinforcedPlasmaWindow ｜_Starlight
+- **强化铀窗** — `ReinforcedUraniumWindow` ｜父类: BaseDeltaPressureReinforcedPlasma,WindowRCDResistant
+- **强化铀窗** — `ReinforcedUraniumWindowDiagonal` ｜父类: ReinforcedUraniumWindow
+- **强化铀窗** — `ReinforcedUraniumWindowDiagonalHoneypot` ｜父类: MarkerBase,ReinforcedUraniumWindowDiagonal ｜_Starlight
+- **强化铀窗** — `ReinforcedUraniumWindowDiagonalHoneypotIndestructible` ｜父类: MarkerBase,ReinforcedUraniumWindowDiagonal ｜_Starlight
+- **强化铀窗** — `ReinforcedUraniumWindowHoneypot` ｜父类: MarkerBase,ReinforcedUraniumWindow ｜_Starlight
+- **强化铀窗** — `ReinforcedUraniumWindowHoneypotIndestructible` ｜父类: MarkerBase,ReinforcedUraniumWindow ｜_Starlight
+- **强化窗** — `ReinforcedWindow` ｜父类: BaseDeltaPressureReinforcedGlass,Window
+- **强化窗** — `ReinforcedWindowDiagonal` ｜父类: ReinforcedWindow
+- **强化窗** — `ReinforcedWindowDiagonalHoneypot` ｜父类: MarkerBase,ReinforcedWindowDiagonal ｜_Starlight
+- **强化窗** — `ReinforcedWindowDiagonalHoneypotIndestructible` ｜父类: MarkerBase,ReinforcedWindowDiagonal ｜_Starlight
+- **强化窗** — `ReinforcedWindowHoneypot` ｜父类: MarkerBase,ReinforcedWindow ｜_Starlight
+- **强化窗** — `ReinforcedWindowHoneypotIndestructible` ｜父类: MarkerBase,ReinforcedWindow ｜_Starlight
+- **研发服务器** — `ResearchAndDevelopmentServer` ｜父类: BaseResearchAndDevelopmentServer,BaseMachinePowered,ConstructibleMachine
+- **复古穿梭机窗** — `RetroShuttleWindow` ｜父类: WindowRCDResistant,BaseDeltaPressureReinforcedGlass ｜_Starlight
+- **结构** — `RetroShuttleWindowDiagonal` ｜父类: RetroShuttleWindow ｜_Starlight
+- **平台** — `RMCPlatformCornerSmall` ｜父类: CMPlatformBase ｜_Starlight
+- **平台** — `RMCPlatformCornerSmallDark` ｜父类: CMPlatformBase ｜_Starlight
+- **平台** — `RMCPlatformCornerSmallWood` ｜父类: CMPlatformBase ｜_Starlight
+- **平台** — `RMCPlatformStairLeft` ｜父类: CMPlatform ｜_Starlight
+- **平台** — `RMCPlatformStairLeftDark` ｜父类: CMPlatform ｜_Starlight
+- **平台** — `RMCPlatformStairLeftWood` ｜父类: CMPlatform ｜_Starlight
+- **平台** — `RMCPlatformStairRight` ｜父类: CMPlatform ｜_Starlight
+- **平台** — `RMCPlatformStairRightDark` ｜父类: CMPlatform ｜_Starlight
+- **平台** — `RMCPlatformStairRightWood` ｜父类: CMPlatform ｜_Starlight
+- **楼梯** — `RMCStairs` ｜_Starlight
+- **楼梯** — `RMCStairsCorner` ｜父类: RMCStairs ｜_Starlight
+- **楼梯** — `RMCStairsDark` ｜父类: RMCStairs ｜_Starlight
+- **楼梯** — `RMCStairsDarkCorner` ｜父类: RMCStairs ｜_Starlight
+- **楼梯** — `RMCStairsDarkLeft` ｜父类: RMCStairs ｜_Starlight
+- **楼梯** — `RMCStairsDarkRight` ｜父类: RMCStairs ｜_Starlight
+- **楼梯** — `RMCStairsDarkSolo` ｜父类: RMCStairs ｜_Starlight
+- **楼梯** — `RMCStairsIce` ｜父类: RMCStairs ｜_Starlight
+- **楼梯** — `RMCStairsIceCorner` ｜父类: RMCStairs ｜_Starlight
+- **楼梯** — `RMCStairsIceLeft` ｜父类: RMCStairs ｜_Starlight
+- **楼梯** — `RMCStairsIceRight` ｜父类: RMCStairs ｜_Starlight
+- **楼梯** — `RMCStairsIceSolo` ｜父类: RMCStairs ｜_Starlight
+- **楼梯** — `RMCStairsKutjevo` ｜父类: RMCStairs ｜_Starlight
+- **楼梯** — `RMCStairsKutjevoCorner` ｜父类: RMCStairs ｜_Starlight
+- **楼梯** — `RMCStairsKutjevoLeft` ｜父类: RMCStairs ｜_Starlight
+- **楼梯** — `RMCStairsKutjevoRight` ｜父类: RMCStairs ｜_Starlight
+- **楼梯** — `RMCStairsKutjevoSolo` ｜父类: RMCStairs ｜_Starlight
+- **楼梯** — `RMCStairsLeft` ｜父类: RMCStairs ｜_Starlight
+- **楼梯** — `RMCStairsRed` ｜父类: RMCStairs ｜_Starlight
+- **楼梯** — `RMCStairsRedCorner` ｜父类: RMCStairs ｜_Starlight
+- **楼梯** — `RMCStairsRedLeft` ｜父类: RMCStairs ｜_Starlight
+- **楼梯** — `RMCStairsRedRight` ｜父类: RMCStairs ｜_Starlight
+- **楼梯** — `RMCStairsRedSolo` ｜父类: RMCStairs ｜_Starlight
+- **楼梯** — `RMCStairsRight` ｜父类: RMCStairs ｜_Starlight
+- **楼梯** — `RMCStairsSolo` ｜父类: RMCStairs ｜_Starlight
+- **楼梯** — `RMCStairsWhite` ｜父类: RMCStairs ｜_Starlight
+- **楼梯** — `RMCStairsWhiteCorner` ｜父类: RMCStairs ｜_Starlight
+- **楼梯** — `RMCStairsWhiteLeft` ｜父类: RMCStairs ｜_Starlight
+- **楼梯** — `RMCStairsWhiteRight` ｜父类: RMCStairs ｜_Starlight
+- **楼梯** — `RMCStairsWhiteSolo` ｜父类: RMCStairs ｜_Starlight
+- **楼梯** — `RMCStairsWood` ｜父类: RMCStairs ｜_Starlight
+- **楼梯** — `RMCStairsWoodCorner` ｜父类: RMCStairs ｜_Starlight
+- **楼梯** — `RMCStairsWoodLeft` ｜父类: RMCStairs ｜_Starlight
+- **楼梯** — `RMCStairsWoodRight` ｜父类: RMCStairs ｜_Starlight
+- **楼梯** — `RMCStairsWoodSolo` ｜父类: RMCStairs ｜_Starlight
+- **折叠担架** — `RollerBed` ｜父类: BaseItem,BaseDeployFoldable
+- **折叠担架** — `RollerBedSpawnFolded` ｜父类: RollerBed
+- **锈蚀的 推进器** — `RustedThruster` ｜父类: BaseStructureDynamic
+- **打捞定位器** — `SalvageLocator` ｜父类: SalvageMagnet
+- **打捞磁铁** — `SalvageMagnet` ｜父类: BaseMachinePowered,ConstructibleMachine
+- **扫描门** — `ScanGate` ｜父类: BaseScanGate ｜_Starlight
+- **扫描门** — `ScanGateBlack` ｜父类: ScanGate ｜_Starlight
+- **屏幕** — `Screen` ｜父类: BaseWallmountMachine
+- **屏幕定时器** — `ScreenTimer` ｜父类: SignalTimer
+- `模板` **椅子** — `SeatBase`
+- **安保科技制造机** — `SecurityTechFab` ｜父类: BaseLatheLube
+- **种子提取机** — `SeedExtractor` ｜父类: BaseMachinePowered,ConstructibleMachine
+- **暗网** — `ShadekinDarkNet` ｜_Starlight
+- **影裔门** — `ShadekinDoor` ｜父类: HospitalCurtains ｜_Starlight
+- **暗影陷阱** — `ShadekinTrap` ｜父类: BaseShadow ｜_Starlight
+- **ShadekinTrapSpawn** — `ShadekinTrapSpawn` ｜_Starlight
+- **ShadekinTrapTrigger** — `ShadekinTrapTrigger` ｜父类: ShadekinTrapSpawn ｜_Starlight
+- **板材大师 2000** — `Sheetifier` ｜父类: BaseLathe
+- **酒吧架** — `ShelfBar` ｜父类: ShelfBase
+- `模板` **架子** — `ShelfBase` ｜父类: BaseWallmount
+- `模板` **强化架** — `ShelfBaseReinforced` ｜父类: ShelfBase
+- **化学品架** — `ShelfChemistry` ｜父类: ShelfBaseReinforced
+- **化学品架** — `ShelfChemistryChemistrySecure` ｜父类: ShelfChemistry
+- **玻璃架** — `ShelfGlass` ｜父类: ShelfBase
+- **厨房架** — `ShelfKitchen` ｜父类: ShelfBase
+- **金属架** — `ShelfMetal` ｜父类: ShelfBase
+- **结实玻璃架** — `ShelfRGlass` ｜父类: ShelfBaseReinforced
+- **结实金属架** — `ShelfRMetal` ｜父类: ShelfBaseReinforced
+- **结实木架** — `ShelfRWood` ｜父类: ShelfBaseReinforced
+- **木架** — `ShelfWood` ｜父类: ShelfBase
+- **木架** — `ShelfWoodFilled` ｜父类: ShelfWood ｜_Starlight
+- **霰弹枪柜** — `ShotGunCabinet` ｜父类: FireAxeCabinet
+- **霰弹枪柜** — `ShotGunCabinetFilled` ｜父类: ShotGunCabinet
+- **霰弹枪柜** — `ShotGunCabinetFilledOpen` ｜父类: ShotGunCabinetFilled,ShotGunCabinetOpen
+- **霰弹枪柜** — `ShotGunCabinetOpen` ｜父类: ShotGunCabinet
+- **安保机器人展柜** — `ShowcaseRobot` ｜父类: BaseShowcaseRobot
+- **货运机器人展柜** — `ShowcaseRobotAntique` ｜父类: BaseShowcaseRobot
+- **掠夺者展柜** — `ShowcaseRobotMarauder` ｜父类: BaseShowcaseRobot
+- **白色机器人展柜** — `ShowcaseRobotWhite` ｜父类: BaseShowcaseRobot
+- **卷帘门框架** — `ShuttersFrame` ｜父类: BaseStructureDynamic
+- **卷帘门** — `ShuttersNormal` ｜父类: BaseDeltaPressureGlass,BaseShutter
+- **卷帘门** — `ShuttersNormalOpen` ｜父类: ShuttersNormal
+- **辐射卷帘门** — `ShuttersRadiation` ｜父类: BaseDeltaPressureGlass,BaseShutter
+- **辐射卷帘门** — `ShuttersRadiationOpen` ｜父类: ShuttersRadiation
+- **窗式卷帘门** — `ShuttersWindow` ｜父类: BaseDeltaPressureGlass,BaseShutter
+- **窗式卷帘门** — `ShuttersWindowCentralCommand` ｜父类: ShuttersWindow
+- **窗式卷帘门** — `ShuttersWindowOpen` ｜父类: ShuttersWindow
+- **AK570 武器** — `ShuttleGunAK570` ｜父类: ShuttleGunBase ｜_Starlight
+- **阿波罗重型激光炮** — `ShuttleGunApollo` ｜父类: ShuttleGunBase ｜_Starlight
+- **L85 武器** — `ShuttleGunAutocannon` ｜父类: ShuttleGunBase ｜_Starlight
+- `模板` **穿梭机舰炮** — `ShuttleGunBase` ｜父类: BaseStructure
+- **M321-CHARYBDIS 武器** — `ShuttleGunCharon` ｜父类: ShuttleGunBase ｜_Starlight
+- **CYERXA 武器** — `ShuttleGunCyerxa120mm` ｜父类: ShuttleGunBase ｜_Starlight
+- **德拉冯 75mm 火炮** — `ShuttleGunDravon` ｜父类: ShuttleGunBase ｜_Starlight
+- **EXP-2100g“除尘者”** — `ShuttleGunDuster` ｜父类: ShuttleGunBase,ConstructibleMachine
+- **AMX-9 DYNAMRE 武器** — `ShuttleGunDynamre` ｜父类: ShuttleGunBase ｜_Starlight
+- **EXP-320g“友谊”** — `ShuttleGunFriendship` ｜父类: ShuttleGunBase,ConstructibleMachine
+- **PTK-800“物质消解器”** — `ShuttleGunKinetic` ｜父类: ShuttleGunBase,ConstructibleMachine
+- **异形物质消解器** — `ShuttleGunKineticOld` ｜父类: ShuttleGunBase
+- **利维坦 240mm 攻城炮** — `ShuttleGunLeviathan` ｜父类: ShuttleGunBase ｜_Starlight
+- **LSE-1200c“穿孔者”** — `ShuttleGunPerforator` ｜父类: ShuttleGunBase,ConstructibleMachine
+- **海盗船大炮** — `ShuttleGunPirateCannon` ｜父类: ShuttleGunBase
+- **斯库拉激光轨道炮** — `ShuttleGunScylla` ｜父类: ShuttleGunBase ｜_Starlight
+- **LSE-400c“斯瓦林机枪”** — `ShuttleGunSvalinnMachineGun` ｜父类: ShuttleGunBase,ConstructibleMachine
+- **SSG-TARNYX EMP 榴弹炮** — `ShuttleGunTarnyx` ｜父类: ShuttleGunBase ｜_Starlight
+- **MK2 武器** — `ShuttleGunVanyk` ｜父类: ShuttleGunBase ｜_Starlight
+- **穿梭机武器控制台** — `ShuttleWeaponsConsole` ｜父类: BaseComputer ｜_Starlight
+- **穿梭机窗** — `ShuttleWindow` ｜父类: BaseDeltaPressureReinforcedGlass,WindowRCDResistant
+- **穿梭机窗** — `ShuttleWindowDiagonal` ｜父类: ShuttleWindow
+- **定向穿梭机窗** — `ShuttleWindowDirectional` ｜父类: BaseDeltaPressureReinforcedPlasma,WindowDirectionalRCDResistant ｜_Starlight
+- **AI 标牌** — `SignAi` ｜父类: BaseSign
+- **AI 上传室标牌** — `SignAiUpload` ｜父类: BaseSign
+- **信号按钮** — `SignalButton` ｜父类: BaseWallmountMetallic
+- **舰桥窗户按钮** — `SignalButtonBridge` ｜父类: SignalButton
+- **信号按钮** — `SignalButtonDirectional` ｜父类: SignalButton
+- **外部按钮 1** — `SignalButtonExt1` ｜父类: SignalButton
+- **外部按钮 2** — `SignalButtonExt2` ｜父类: SignalButton
+- **外部按钮 3** — `SignalButtonExt3` ｜父类: SignalButton
+- **外部窗户按钮** — `SignalButtonWindows` ｜父类: SignalButton
+- **信号阀** — `SignalControlledValve` ｜父类: GasBinaryBase
+- **信号阀** — `SignalControlledValveAlt1` ｜父类: GasPipeLayerAlt1,SignalControlledValve
+- **信号阀** — `SignalControlledValveAlt2` ｜父类: GasPipeLayerAlt2,SignalControlledValve
+- **信号阀** — `SignalControlledValveAlt3` ｜父类: GasPipeLayerAlt3,SignalControlledValve ｜_Carpmosia
+- **信号阀** — `SignalControlledValveAlt4` ｜父类: GasPipeLayerAlt4,SignalControlledValve ｜_Carpmosia
+- **信号开关** — `SignalSwitch` ｜父类: BaseWallmountMetallic
+- **信号开关** — `SignalSwitchDirectional` ｜父类: SignalSwitch
+- **信号定时器** — `SignalTimer` ｜父类: BaseWallmountMachine
+- **外星考古实验室标牌** — `SignAnomaly` ｜父类: BaseSign
+- **异常研究实验室标牌** — `SignAnomaly2` ｜父类: BaseSign
+- **游戏厅标牌** — `SignArcade` ｜父类: BaseSign
+- **军械库标牌** — `SignArmory` ｜父类: BaseSign
+- **到达区标牌** — `SignArrivals` ｜父类: BaseSign
+- **大气区标牌** — `SignAtmos` ｜父类: BaseSign
+- **酒吧标牌** — `SignBar` ｜父类: BaseSign
+- **理发店标牌** — `SignBarbershop` ｜父类: BaseSign
+- **浴室标牌** — `SignBath` ｜父类: BaseSign
+- **生物实验室标牌** — `SignBio` ｜父类: BaseSign
+- **生物危害标牌** — `SignBiohazard` ｜父类: BaseSign
+- **生物危害标牌** — `SignBiohazardMed` ｜父类: BaseSign
+- **空白标牌** — `SignBlankMed` ｜父类: BaseSign
+- **标识装饰** — `SignBreakCargo` ｜父类: BaseSign ｜_Starlight
+- **标识装饰** — `SignBreakCommand` ｜父类: BaseSign ｜_Starlight
+- **标识装饰** — `SignBreakEngineering` ｜父类: BaseSign ｜_Starlight
+- **标识装饰** — `SignBreakMedical` ｜父类: BaseSign ｜_Starlight
+- **标识装饰** — `SignBreakScience` ｜父类: BaseSign ｜_Starlight
+- **标识装饰** — `SignBreakSecurity` ｜父类: BaseSign ｜_Starlight
+- **标识装饰** — `SignBreakService` ｜父类: BaseSign ｜_Starlight
+- **舰桥标牌** — `SignBridge` ｜父类: BaseSign
+- **标识装饰** — `SignBrigmed` ｜父类: BaseSign ｜_Starlight
+- **气罐标牌** — `SignCanisters` ｜父类: BaseSign
+- **气罐标牌** — `SignCans` ｜父类: BaseSign
+- **气罐标牌** — `SignCansScience` ｜父类: SignCans
+- **货运区标牌** — `SignCargo` ｜父类: BaseSign
+- **货运停靠站标牌** — `SignCargoDock` ｜父类: BaseSign
+- **神龛标牌 # Starlight: Chapel -> Shrine** — `SignChapel` ｜父类: BaseSign
+- **化学实验室标牌** — `SignChem` ｜父类: BaseSign
+- **克隆实验室标牌** — `SignCloning` ｜父类: BaseSign
+- **会议室标牌** — `SignConference` ｜父类: BaseSign
+- **标识装饰** — `SignCoreXeno` ｜父类: BaseSign ｜_Starlight
+- **腐蚀品警告标牌** — `SignCorrosives` ｜父类: BaseSign
+- **低温休眠标牌** — `SignCryo` ｜父类: BaseSign
+- **低温材料警告标牌** — `SignCryogenics` ｜父类: BaseSign
+- **低温材料标牌** — `SignCryogenicsMed` ｜父类: BaseSign
+- **危险警告标牌** — `SignDanger` ｜父类: BaseSign
+- **危险标牌** — `SignDangerMed` ｜父类: BaseSign
+- **侦探办公室标牌** — `SignDetective` ｜父类: BaseSign
+- **大气部方向牌** — `SignDirectionalAtmos` ｜父类: BaseSignDirectional
+- **酒吧方向牌** — `SignDirectionalBar` ｜父类: BaseSignDirectional
+- **舰桥方向牌** — `SignDirectionalBridge` ｜父类: BaseSignDirectional
+- **禁闭区方向牌** — `SignDirectionalBrig` ｜父类: BaseSignDirectional
+- **神龛方向牌 # Starlight: Chapel -> Shrine** — `SignDirectionalChapel` ｜父类: BaseSignDirectional
+- **化学实验室方向牌** — `SignDirectionalChemistry` ｜父类: BaseSignDirectional
+- **低温休眠方向牌** — `SignDirectionalCryo` ｜父类: BaseSignDirectional
+- **宿舍方向牌** — `SignDirectionalDorms` ｜父类: BaseSignDirectional
+- **工程部方向牌** — `SignDirectionalEng` ｜父类: BaseSignDirectional
+- **逃生舱方向牌** — `SignDirectionalEscapePod` ｜父类: BaseSignDirectional
+- **撤离区方向牌** — `SignDirectionalEvac` ｜父类: BaseSignDirectional
+- **诊察室方向牌** — `SignDirectionalExam` ｜父类: BaseSignDirectional
+- **厨房方向牌** — `SignDirectionalFood` ｜父类: BaseSignDirectional
+- **重力发生器方向牌** — `SignDirectionalGravity` ｜父类: BaseSignDirectional
+- **人事主管办公室方向牌** — `SignDirectionalHop` ｜父类: BaseSignDirectional
+- **水培区方向牌** — `SignDirectionalHydro` ｜父类: BaseSignDirectional
+- **重症监护室方向牌** — `SignDirectionalIcu` ｜父类: BaseSignDirectional
+- **清洁间方向牌** — `SignDirectionalJanitor` ｜父类: BaseSignDirectional
+- **图书馆方向牌** — `SignDirectionalLibrary` ｜父类: BaseSignDirectional
+- **医疗部方向牌** — `SignDirectionalMed` ｜父类: BaseSignDirectional
+- **采矿 标牌** — `SignDirectionalMining` ｜父类: BaseSignDirectional ｜_Starlight
+- **打捞区方向牌** — `SignDirectionalSalvage` ｜父类: BaseSignDirectional
+- **科研部方向牌** — `SignDirectionalSci` ｜父类: BaseSignDirectional
+- **安保部方向牌** — `SignDirectionalSec` ｜父类: BaseSignDirectional
+- **太阳能阵列方向牌** — `SignDirectionalSolar` ｜父类: BaseSignDirectional
+- **物资方向牌** — `SignDirectionalSupply` ｜父类: BaseSignDirectional
+- **洗手间方向牌** — `SignDirectionalWash` ｜父类: BaseSignDirectional
+- **标识装饰** — `SignDisposalProper` ｜父类: BaseSign ｜_Starlight
+- **废物处理区标牌** — `SignDisposalSpace` ｜父类: BaseSign
+- **门标牌** — `SignDoors` ｜父类: BaseSign
+- **门s 标牌** — `SignDoorsXeno` ｜父类: BaseSign ｜_Starlight
+- **电气危险标牌** — `SignElectrical` ｜父类: BaseSign
+- **电气危险标牌** — `SignElectricalMed` ｜父类: BaseSign
+- **标识装饰** — `SignEmergencyEvac` ｜父类: BaseWallmountMachine ｜_Starlight
+- **标识装饰** — `SignEmergencyExit` ｜父类: BaseWallmountMachine ｜_Starlight
+- **电力标牌** — `SignEngine` ｜父类: BaseSign
+- **工程区标牌** — `SignEngineering` ｜父类: BaseSign
+- **逃生舱标牌** — `SignEscapePods` ｜父类: BaseSign
+- **EVA 标牌** — `SignEVA` ｜父类: BaseSign
+- **诊察室标牌** — `SignExamroom` ｜父类: BaseSign
+- **爆炸物警告标牌** — `SignExplosives` ｜父类: BaseSign
+- **火灾危险标牌** — `SignFire` ｜父类: BaseSign
+- **易燃物警告标牌** — `SignFlammable` ｜父类: BaseSign
+- **易燃物标牌 #when flammable component is done, this sign needs it** — `SignFlammableMed` ｜父类: BaseSign
+- **普通监区标牌** — `SignGenpop` ｜父类: BaseSign
+- **重力发生器标牌** — `SignGravity` ｜父类: BaseSign
+- **部门主管标牌** — `SignHead` ｜父类: BaseSign
+- **水培区标牌** — `SignHydro1` ｜父类: BaseSign
+- **标识装饰** — `SignIAA` ｜父类: BaseSign ｜_Starlight
+- **审讯室标牌** — `SignInterrogation` ｜父类: BaseSign
+- **清洁区标牌** — `SignJanitor` ｜父类: BaseSign
+- **儿童牌匾** — `SignKiddiePlaque` ｜父类: BaseSign
+- **厨房标牌** — `SignKitchen` ｜父类: BaseSign
+- **激光警告标牌** — `SignLaser` ｜父类: BaseSign
+- **激光标牌** — `SignLaserMed` ｜父类: BaseSign
+- **洗衣房标牌** — `SignLaundromat` ｜父类: BaseSign
+- **法务标牌** — `SignLawyer` ｜父类: BaseSign
+- **标识装饰** — `SignLawyerOffice` ｜父类: BaseSign ｜_Starlight
+- **图书馆标牌** — `SignLibrary` ｜父类: BaseSign
+- **储物容器** — `SignLockerCargo` ｜父类: BaseSign ｜_Starlight
+- **储物容器** — `SignLockerCommand` ｜父类: BaseSign ｜_Starlight
+- **储物容器** — `SignLockerEngineering` ｜父类: BaseSign ｜_Starlight
+- **储物容器** — `SignLockerMedical` ｜父类: BaseSign ｜_Starlight
+- **储物容器** — `SignLockerScience` ｜父类: BaseSign ｜_Starlight
+- **储物容器** — `SignLockerSecurity` ｜父类: BaseSign ｜_Starlight
+- **储物容器** — `SignLockerService` ｜父类: BaseSign ｜_Starlight
+- **标识装饰** — `SignMagistrate` ｜父类: BaseSign ｜_Starlight
+- **磁性材料警告标牌** — `SignMagnetics` ｜父类: BaseSign
+- **磁力标牌** — `SignMagneticsMed` ｜父类: BaseSign
+- **邮件标牌** — `SignMail` ｜父类: BaseSign
+- **材料库标牌** — `SignMaterials` ｜父类: BaseSign
+- **医疗部标牌** — `SignMedical` ｜父类: BaseSign
+- **模因危害警告标牌** — `SignMemetic` ｜父类: BaseSign
+- **采矿 标牌** — `SignMining` ｜父类: BaseSign ｜_Starlight
+- **停尸房标牌** — `SignMorgue` ｜父类: BaseSign
+- **纳米传讯标牌 1** — `SignNanotrasen1` ｜父类: BaseSign
+- **纳米传讯标牌 2** — `SignNanotrasen2` ｜父类: BaseSign
+- **纳米传讯标牌 3** — `SignNanotrasen3` ｜父类: BaseSign
+- **纳米传讯标牌 4** — `SignNanotrasen4` ｜父类: BaseSign
+- **纳米传讯标牌 5** — `SignNanotrasen5` ｜父类: BaseSign
+- **新闻部标牌** — `SignNews` ｜父类: BaseSign
+- **禁止吸烟标牌** — `SignNosmoking` ｜父类: BaseSign
+- **标识装饰** — `SignNoSmoking` ｜父类: BaseSign ｜_Starlight
+- **矿井标牌** — `SignNTMine` ｜父类: BaseSign
+- **NTR 标牌** — `SignNTR` ｜父类: BaseSign ｜_Starlight
+- **光辐射警告标牌** — `SignOptical` ｜父类: BaseSign
+- **氧化剂警告标牌** — `SignOxidants` ｜父类: BaseSign
+- **金色牌匾** — `SignPlaque` ｜父类: BaseSign
+- **标识装饰** — `SignPowerXeno` ｜父类: BaseSign ｜_Starlight
+- **监狱标牌** — `SignPrison` ｜父类: BaseSign
+- **心理诊室标牌** — `SignPsychology` ｜父类: BaseSign
+- **辐射警告标牌** — `SignRadiation` ｜父类: BaseSign
+- **辐射标牌** — `SignRadiationMed` ｜父类: BaseSign
+- **接待处标牌** — `SignReception` ｜父类: BaseSign
+- **数字八标牌** — `SignRedEight` ｜父类: BaseSign
+- **数字五标牌** — `SignRedFive` ｜父类: BaseSign
+- **数字四标牌** — `SignRedFour` ｜父类: BaseSign
+- **数字九标牌** — `SignRedNine` ｜父类: BaseSign
+- **数字一标牌** — `SignRedOne` ｜父类: BaseSign
+- **数字七标牌** — `SignRedSeven` ｜父类: BaseSign
+- **数字六标牌** — `SignRedSix` ｜父类: BaseSign
+- **数字三标牌** — `SignRedThree` ｜父类: BaseSign
+- **数字二标牌** — `SignRedTwo` ｜父类: BaseSign
+- **数字零标牌** — `SignRedZero` ｜父类: BaseSign
+- **洗手间标牌** — `SignRestroom` ｜父类: BaseSign
+- **研发实验室标牌** — `SignRND` ｜父类: BaseSign
+- **机器人实验室标牌** — `SignRobo` ｜父类: BaseSign
+- **打捞区标牌** — `SignSalvage` ｜父类: BaseSign
+- **科研区标牌** — `SignScience` ｜父类: BaseSign
+- **管制区标牌** — `SignSecure` ｜父类: BaseSign
+- **管制区域标牌** — `SignSecurearea` ｜父类: BaseSign
+- **标识装饰** — `SignSecureAreaSmall` ｜父类: BaseSign ｜_Starlight
+- **管制标牌** — `SignSecureMed` ｜父类: BaseSign
+- **红色管制标牌** — `SignSecureMedRed` ｜父类: BaseSign
+- **小型管制标牌** — `SignSecureSmall` ｜父类: BaseSign
+- **小型红色管制标牌** — `SignSecureSmallRed` ｜父类: BaseSign
+- **安保部标牌** — `SignSecurity` ｜父类: BaseSign
+- **服务器标牌** — `SignServer` ｜父类: BaseSign
+- **撤离区标牌** — `SignShipDock` ｜父类: BaseSign
+- **触电警告标牌** — `SignShock` ｜父类: BaseSign
+- **禁止吸烟标牌** — `SignSmoking` ｜父类: BaseSign
+- **老旧标牌** — `SignSomethingOld` ｜父类: BaseSign
+- **老旧标牌** — `SignSomethingOld2` ｜父类: BaseSign
+- **太空警告标牌** — `SignSpace` ｜父类: BaseSign
+- **标识装饰** — `SignSpaceXeno` ｜父类: BaseSign ｜_Starlight
+- **手术室标牌** — `SignSurgery` ｜父类: BaseSign
+- **生存标牌** — `SignSurvival` ｜父类: BaseSign
+- **电信室标牌** — `SignTelecomms` ｜父类: BaseSign
+- **剧院标牌** — `SignTheater` ｜父类: BaseSign
+- **工具储藏室标牌** — `SignToolStorage` ｜父类: BaseSign
+- **毒素实验室标牌** — `SignToxins` ｜父类: BaseSign
+- **金库标牌** — `SignVault` ｜父类: BaseSign
+- **病毒学实验室标牌** — `SignVirology` ｜父类: BaseSign
+- **沃克斯区域标牌** — `SignVox` ｜父类: BaseSign
+- **标识装饰** — `SignWallBiohazard` ｜父类: BaseSign ｜_Starlight
+- **标识装饰** — `SignWallExtremeHeat` ｜父类: BaseSign ｜_Starlight
+- **外星生物学实验室标牌** — `SignXenobio` ｜父类: BaseSign
+- **标识装饰** — `SignYesSmoking` ｜父类: BaseSign ｜_Starlight
+- **丧尸实验室标牌** — `SignZomlab` ｜父类: BaseSign
+- **银门** — `SilverDoor` ｜父类: BaseMaterialDoorNavMap
+- **引力奇点** — `Singularity`
+- **引力奇点发生器** — `SingularityGenerator`
+- **水槽** — `Sink` ｜父类: SinkEmpty
+- **水槽** — `SinkEmpty`
+- **水槽** — `SinkStemless` ｜父类: SinkEmpty
+- **水槽** — `SinkStemlessWater` ｜父类: SinkStemless
+- **宽水槽** — `SinkWide` ｜父类: Sink
+- **史莱姆处理机** — `SlimeProcessor` ｜父类: BaseMachinePowered,ConstructibleMachine ｜_Starlight
+- **功能设备** — `SlopDispenser` ｜父类: BaseLathe ｜_Starlight
+- `模板` **自动售货机** — `SLVendingMachine` ｜父类: BaseMachinePowered ｜_Starlight
+- **功能设备** — `SLVendingMachineEngi` ｜父类: SLVendingMachine ｜_Starlight
+- **功能设备** — `SLVendingMachineFashion` ｜父类: SLVendingMachine ｜_Starlight
+- **功能设备** — `SLVendingMachineHugDispenser` ｜父类: SLVendingMachine ｜_Starlight
+- **医疗 分配器** — `SLVendingMachineMedical` ｜父类: SLVendingMachine ｜_Starlight
+- **采矿 取号机** — `SLVendingMachineMining` ｜父类: SLVendingMachine ｜_Starlight
+- **打捞 取号机** — `SLVendingMachineSalvage` ｜父类: SLVendingMachine ｜_Starlight
+- **安保 分配器** — `SLVendingMachineSecurity` ｜父类: SLVendingMachine ｜_Starlight
+- `模板` **SmallConstructibleMachine** — `SmallConstructibleMachine` ｜父类: ConstructibleMachine
+- **小灯** — `SmallLight` ｜父类: AlwaysPoweredWallLight
+- **智能冰柜** — `SmartFridge` ｜父类: BaseStructureDynamic,ConstructibleMachine
+- **智能冰柜** — `SmartFridgeMedical` ｜父类: SmartFridge
+- **高级 SMES** — `SMESAdvanced` ｜父类: BaseSMES
+- **高级 SMES** — `SMESAdvancedEmpty` ｜父类: SMESAdvanced
+- **SMES 储能柜** — `SMESBasic` ｜父类: BaseSMES
+- **SMES 储能柜** — `SMESBasicEmpty` ｜父类: SMESBasic
+- **超先进 SMES** — `SMESBlue` ｜父类: BaseSMES ｜_Starlight
+- **物品** — `SMESBlueEmpty` ｜父类: SMESBlue ｜_Starlight
+- **汽水分配器** — `SodaDispenser` ｜父类: SodaDispenserEmpty
+- **汽水分配器** — `SodaDispenserEmpty` ｜父类: ReagentDispenserBasePowerCell
+- **沙发** — `SofaCorner` ｜父类: SeatBase ｜_Starlight
+- **沙发** — `SofaCornerBlue` ｜父类: SeatBase ｜_Starlight
+- **沙发** — `SofaCornerBrown` ｜父类: SeatBase ｜_Starlight
+- **沙发** — `SofaCornerGreen` ｜父类: SeatBase ｜_Starlight
+- **沙发** — `SofaCornerRed` ｜父类: SeatBase ｜_Starlight
+- **沙发** — `SofaCornerWhite` ｜父类: SeatBase ｜_Starlight
+- **沙发** — `SofaEndLeft` ｜父类: SeatBase ｜_Starlight
+- **沙发** — `SofaEndLeftBlue` ｜父类: SeatBase ｜_Starlight
+- **沙发** — `SofaEndLeftBrown` ｜父类: SeatBase ｜_Starlight
+- **沙发** — `SofaEndLeftGreen` ｜父类: SeatBase ｜_Starlight
+- **沙发** — `SofaEndLeftRed` ｜父类: SeatBase ｜_Starlight
+- **沙发** — `SofaEndLeftWhite` ｜父类: SeatBase ｜_Starlight
+- **沙发** — `SofaEndRight` ｜父类: SeatBase ｜_Starlight
+- **沙发** — `SofaEndRightBlue` ｜父类: SeatBase ｜_Starlight
+- **沙发** — `SofaEndRightBrown` ｜父类: SeatBase ｜_Starlight
+- **沙发** — `SofaEndRightGreen` ｜父类: SeatBase ｜_Starlight
+- **沙发** — `SofaEndRightRed` ｜父类: SeatBase ｜_Starlight
+- **沙发** — `SofaEndRightWhite` ｜父类: SeatBase ｜_Starlight
+- **华丽 沙发** — `SofaFancyEndLeft` ｜父类: SeatBase ｜_Starlight
+- **华丽 沙发** — `SofaFancyEndRight` ｜父类: SeatBase ｜_Starlight
+- **华丽 沙发** — `SofaFancyMiddle` ｜父类: SeatBase ｜_Starlight
+- **沙发** — `SofaMiddle` ｜父类: SeatBase ｜_Starlight
+- **沙发** — `SofaMiddleBlue` ｜父类: SeatBase ｜_Starlight
+- **沙发** — `SofaMiddleBrown` ｜父类: SeatBase ｜_Starlight
+- **沙发** — `SofaMiddleGreen` ｜父类: SeatBase ｜_Starlight
+- **沙发** — `SofaMiddleRed` ｜父类: SeatBase ｜_Starlight
+- **沙发** — `SofaMiddleWhite` ｜父类: SeatBase ｜_Starlight
+- **太阳能组件** — `SolarAssembly`
+- **太阳能板** — `SolarPanel` ｜父类: SolarPanelBasePhysSprite
+- **太阳能板** — `SolarPanelBasePhysSprite`
+- **太阳能板** — `SolarPanelBroken` ｜父类: SolarPanelBasePhysSprite
+- **等离子体太阳能板** — `SolarPanelPlasma` ｜父类: SolarPanelBasePhysSprite
+- **等离子体太阳能板** — `SolarPanelPlasmaBroken` ｜父类: SolarPanelBasePhysSprite
+- **铀太阳能板** — `SolarPanelUranium` ｜父类: SolarPanelBasePhysSprite
+- **铀太阳能板** — `SolarPanelUraniumBroken` ｜父类: SolarPanelBasePhysSprite
+- **太阳追踪器** — `SolarTracker`
+- **功能设备** — `SolgovComputerComms` ｜父类: ComputerComms ｜_Starlight
+- **实心墙** — `SolidSecretDoor` ｜父类: BaseSecretDoor
+- **空间加热器** — `SpaceHeater` ｜父类: BaseMachinePowered,ConstructibleMachine
+- **空间加热器** — `SpaceHeaterAnchored` ｜父类: SpaceHeater
+- **空间加热器** — `SpaceHeaterEnabled` ｜父类: SpaceHeaterAnchored
+- **太空恶棍街机** — `SpaceVillainArcade` ｜父类: ArcadeBase
+- **太空恶棍街机** — `SpaceVillainArcadeFilled` ｜父类: SpaceVillainArcade
+- **扬声器** — `Speaker` ｜父类: BaseWallmountMachine ｜_Starlight
+- **蜘蛛网** — `SpiderWeb` ｜父类: SpiderWebBase
+- **气密 蜘蛛网** — `SpiderWebAirtight` ｜父类: SpiderWebBase ｜_Starlight
+- `模板` **SpiderWebBase** — `SpiderWebBase`
+- **小丑蜘蛛网** — `SpiderWebClown` ｜父类: SpiderWebBase
+- **毒蛛网** — `SpiderWebPoison` ｜父类: SpiderWebSlime ｜_Starlight
+- **史莱姆蛛网** — `SpiderWebSlime` ｜父类: SpiderWebBase ｜_Starlight
+- **幼蛛蛛网** — `SpiderWebSpiderlings` ｜父类: SpiderWebBase ｜_Starlight
+- **隐形蛛网** — `SpiderWebStealth` ｜父类: SpiderWebBase ｜_Starlight
+- **坚固 蜘蛛网** — `SpiderWebStrong` ｜父类: SpiderWebBase ｜_Starlight
+- **厚蛛网** — `SpiderWebStrongThick` ｜父类: SpiderWebStrong ｜_Starlight
+- **无名雇员之墓** — `SS13Memorial` ｜父类: BaseStructure
+- **楼梯** — `StairBlack` ｜父类: Stairs ｜_Starlight
+- **楼梯** — `StairDark` ｜父类: Stairs
+- **楼梯** — `Stairs` ｜父类: BaseFloorDecoration
+- **楼梯** — `StairsSmallSteel` ｜父类: RMCStairs ｜_Starlight
+- **楼梯** — `StairsSmallWood` ｜父类: RMCStairsWood ｜_Starlight
+- **楼梯** — `StairStage` ｜父类: Stairs
+- **楼梯** — `StairStageBlack` ｜父类: Stairs ｜_Starlight
+- **楼梯** — `StairStageDark` ｜父类: Stairs
+- **楼梯** — `StairStageWhite` ｜父类: Stairs
+- **楼梯** — `StairStageWood` ｜父类: Stairs
+- **楼梯** — `StairWhite` ｜父类: Stairs
+- **楼梯** — `StairWood` ｜父类: Stairs
+- **立式麦克风** — `StandingMicrophone` ｜父类: BaseStructure ｜_Starlight
+- **静滞床** — `StasisBed` ｜父类: BaseMachinePowered,ConstructibleMachine
+- **AI 修复控制台** — `StationAiFixerComputer` ｜父类: BaseComputer
+- **AI 法则上传控制台** — `StationAiUploadComputer` ｜父类: BaseComputer
+- **空间站锚定器** — `StationAnchor` ｜父类: StationAnchorBase,BaseMachinePowered,ConstructibleMachine
+- `模板` **station anchor** — `StationAnchorBase`
+- **空间站锚定器** — `StationAnchorIndestructible` ｜父类: StationAnchorBase
+- **空间站锚定器** — `StationAnchorOff` ｜父类: StationAnchor
+- **空间站地图** — `StationMap` ｜父类: BaseWallmountMachine
+- **空间站地图组件** — `StationMapAssembly` ｜父类: BaseWallmountMetallic
+- **空间站地图** — `StationMapBroken` ｜父类: BaseWallmountMetallic
+- **香蕉矿救世主雕像** — `StatueBananiumClown` ｜父类: BaseStructure
+- **小型铁砂雕像** — `StatueIronsandSmall` ｜父类: BaseIronsandStatue
+- **小型铁砂雕像** — `StatueIronsandSmall2` ｜父类: BaseIronsandStatue
+- **高大铁砂雕像** — `StatueIronsandTall` ｜父类: BaseIronsandStatue
+- **高大铁砂雕像** — `StatueIronsandTall2` ｜父类: BaseIronsandStatue
+- **标识装饰** — `StatueOneYearAnniversary` ｜父类: BaseStructure ｜_Starlight
+- **标识装饰** — `StatueStoneCUP` ｜父类: BaseStructure ｜_Starlight
+- **纯洁少女雕像** — `StatueVenusBlue` ｜父类: BaseStructure
+- **纯洁少女雕像** — `StatueVenusRed` ｜父类: BaseStructure
+- **纸板箱** — `StealthBox` ｜父类: BaseBigBox
+- **钢制长椅** — `SteelBench` ｜父类: ChairBase
+- **凳子** — `Stool` ｜父类: UnanchoredChairBase
+- **酒吧凳** — `StoolBar` ｜父类: StoolBase
+- `模板` **凳子** — `StoolBase` ｜父类: OfficeChairBase
+- **储存罐** — `StorageCanister` ｜父类: GasCanister
+- **损坏的 气罐** — `StorageCanisterBroken` ｜父类: GasCanisterBrokenBase
+- `模板` **储存罐** — `StorageTank` ｜父类: BaseStructureDynamic
+- `模板` **StorageTankBig** — `StorageTankBig` ｜父类: StorageTank
+- `模板` **StructureWheeled** — `StructureWheeled`
+- **变电站** — `SubstationBasic` ｜父类: BaseSubstation
+- **变电站** — `SubstationBasicEmpty` ｜父类: SubstationBasic
+- **壁挂式变电站** — `SubstationWallBasic` ｜父类: BaseSubstationWall
+- **太空服储存单元** — `SuitStorageBase` ｜父类: BaseStructure
+- **超物质** — `SupermatterCrystal` ｜_Starlight
+- **摄像头** — `SurveillanceCameraAssembly`
+- `模板` **摄像头** — `SurveillanceCameraBase`
+- **摄像头** — `SurveillanceCameraCommand` ｜父类: SurveillanceCameraBase
+- **摄像头** — `SurveillanceCameraConstructed` ｜父类: SurveillanceCameraBase
+- **摄像头** — `SurveillanceCameraEngineering` ｜父类: SurveillanceCameraBase
+- **摄像头** — `SurveillanceCameraGeneral` ｜父类: SurveillanceCameraBase
+- **摄像头** — `SurveillanceCameraIsolatedNetwork` ｜父类: SurveillanceCameraBase ｜_Starlight
+- **摄像头** — `SurveillanceCameraMedical` ｜父类: SurveillanceCameraBase
+- **强化摄像头** — `SurveillanceCameraReinforcedAssembly` ｜父类: SurveillanceCameraAssembly ｜_Starlight
+- `模板` **强化摄像头** — `SurveillanceCameraReinforcedBase` ｜父类: SurveillanceCameraBase ｜_Starlight
+- **强化摄像头** — `SurveillanceCameraReinforcedCommand` ｜父类: SurveillanceCameraReinforcedBase ｜_Starlight
+- **强化摄像头** — `SurveillanceCameraReinforcedConstructed` ｜父类: SurveillanceCameraReinforcedBase ｜_Starlight
+- **强化摄像头** — `SurveillanceCameraReinforcedEngineering` ｜父类: SurveillanceCameraReinforcedBase ｜_Starlight
+- **强化摄像头** — `SurveillanceCameraReinforcedGeneral` ｜父类: SurveillanceCameraReinforcedBase ｜_Starlight
+- **强化摄像头** — `SurveillanceCameraReinforcedMedical` ｜父类: SurveillanceCameraReinforcedBase ｜_Starlight
+- **强化摄像头** — `SurveillanceCameraReinforcedScience` ｜父类: SurveillanceCameraReinforcedBase ｜_Starlight
+- **强化摄像头** — `SurveillanceCameraReinforcedSecurity` ｜父类: SurveillanceCameraReinforcedBase ｜_Starlight
+- **强化摄像头** — `SurveillanceCameraReinforcedService` ｜父类: SurveillanceCameraReinforcedBase ｜_Starlight
+- **强化摄像头** — `SurveillanceCameraReinforcedSupply` ｜父类: SurveillanceCameraReinforcedBase ｜_Starlight
+- `模板` **摄像头路由器** — `SurveillanceCameraRouterBase` ｜父类: BaseMachinePowered,ConstructibleMachine
+- **指挥部摄像头路由器** — `SurveillanceCameraRouterCommand` ｜父类: SurveillanceCameraRouterBase
+- **摄像头路由器** — `SurveillanceCameraRouterConstructed` ｜父类: SurveillanceCameraRouterBase
+- **工程部摄像头路由器** — `SurveillanceCameraRouterEngineering` ｜父类: SurveillanceCameraRouterBase
+- **通用摄像头路由器** — `SurveillanceCameraRouterGeneral` ｜父类: SurveillanceCameraRouterBase
+- **摄像头路由器** — `SurveillanceCameraRouterIsolatedNetwork` ｜父类: SurveillanceCameraRouterBase ｜_Starlight
+- **医疗部摄像头路由器** — `SurveillanceCameraRouterMedical` ｜父类: SurveillanceCameraRouterBase
+- **科研部摄像头路由器** — `SurveillanceCameraRouterScience` ｜父类: SurveillanceCameraRouterBase
+- **安保部摄像头路由器** — `SurveillanceCameraRouterSecurity` ｜父类: SurveillanceCameraRouterBase
+- **服务部摄像头路由器** — `SurveillanceCameraRouterService` ｜父类: SurveillanceCameraRouterBase
+- **后勤部摄像头路由器** — `SurveillanceCameraRouterSupply` ｜父类: SurveillanceCameraRouterBase
+- **摄像头** — `SurveillanceCameraScience` ｜父类: SurveillanceCameraBase
+- **摄像头** — `SurveillanceCameraSecurity` ｜父类: SurveillanceCameraBase
+- **摄像头** — `SurveillanceCameraService` ｜父类: SurveillanceCameraBase
+- **摄像头** — `SurveillanceCameraSupply` ｜父类: SurveillanceCameraBase
+- `模板` **无线摄像头路由器** — `SurveillanceCameraWirelessRouterBase` ｜父类: BaseMachinePowered,ConstructibleMachine
+- **无线摄像头路由器** — `SurveillanceCameraWirelessRouterConstructed` ｜父类: SurveillanceCameraWirelessRouterBase
+- **娱乐区摄像头路由器** — `SurveillanceCameraWirelessRouterEntertainment` ｜父类: SurveillanceCameraWirelessRouterBase
+- **异形赛博格摄像头无线路由器** — `SurveillanceCameraWirelessRouterXenoborg` ｜父类: SurveillanceCameraWirelessRouterBase
+- **摄像头** — `SurveillanceCameraXenobiology` ｜父类: SurveillanceCameraScience ｜_Starlight
+- `模板` **SurveillanceWirelessCameraAnchoredBase** — `SurveillanceWirelessCameraAnchoredBase` ｜父类: SurveillanceWirelessCameraBase
+- **无线摄像机** — `SurveillanceWirelessCameraAnchoredConstructed` ｜父类: SurveillanceWirelessCameraAnchoredBase
+- **无线摄像机** — `SurveillanceWirelessCameraAnchoredEntertainment` ｜父类: SurveillanceWirelessCameraAnchoredBase
+- `模板` **无线摄像机** — `SurveillanceWirelessCameraBase` ｜父类: BaseStructureDynamic,SmallConstructibleMachine
+- `模板` **SurveillanceWirelessCameraMovableBase** — `SurveillanceWirelessCameraMovableBase` ｜父类: SurveillanceWirelessCameraBase
+- **无线摄像机** — `SurveillanceWirelessCameraMovableConstructed` ｜父类: SurveillanceWirelessCameraMovableBase
+- **无线摄像机** — `SurveillanceWirelessCameraMovableEntertainment` ｜父类: SurveillanceWirelessCameraMovableBase
+- **网络行者盥洗室** — `SyndBath` ｜父类: BaseStructureComputer ｜_Starlight
+- **网络行者盥洗室** — `SyndBathOverlay` ｜_Starlight
+- **辛迪加炸弹** — `SyndicateBomb` ｜父类: BaseHardBomb,BaseSyndicateContraband
+- **辛迪加炸弹** — `SyndicateBombFake` ｜父类: SyndicateBomb
+- **辛迪加通讯计算机** — `SyndicateComputerComms` ｜父类: ComputerComms
+- **???** — `SyndicateConsoleEye` ｜父类: Incorporeal,BaseMob ｜_Starlight
+- **Donk 公司微波炉** — `SyndicateMicrowave` ｜父类: KitchenMicrowave,BaseSyndicateContraband
+- **辛迪加旗帜** — `SyndieFlag` ｜父类: BaseFlag
+- **桌子** — `Table` ｜父类: TableBase
+- **外星桌** — `TableAbductor` ｜父类: TableBase ｜_Starlight
+- `模板` **桌子** — `TableBase` ｜父类: BaseStructure
+- **黄铜桌** — `TableBrass` ｜父类: TableBase
+- **纸板桌** — `TableCard` ｜父类: TableBase
+- **赌桌** — `TableCarpet` ｜父类: TableBase
+- **金属柜台** — `TableCounterMetal` ｜父类: CounterBase
+- **木制柜台** — `TableCounterWood` ｜父类: CounterBase
+- **桌子** — `TableDebug` ｜父类: TableBase
+- `模板` **华丽桌** — `TableFancyBase` ｜父类: TableBase
+- **华丽桌** — `TableFancyBlack` ｜父类: TableFancyBase
+- **华丽桌** — `TableFancyBlue` ｜父类: TableFancyBase
+- **华丽桌** — `TableFancyCyan` ｜父类: TableFancyBase
+- **华丽桌** — `TableFancyGreen` ｜父类: TableFancyBase
+- **华丽桌** — `TableFancyOrange` ｜父类: TableFancyBase
+- **华丽桌** — `TableFancyPink` ｜父类: TableFancyBase
+- **华丽桌** — `TableFancyPurple` ｜父类: TableFancyBase
+- **华丽桌** — `TableFancyRed` ｜父类: TableFancyBase
+- **华丽桌** — `TableFancySkyBlue` ｜父类: TableFancyBase
+- **华丽桌** — `TableFancyWhite` ｜父类: TableFancyBase
+- **桌子框架** — `TableFrame` ｜父类: BaseStructure
+- **玻璃桌** — `TableGlass` ｜父类: TableBase
+- **等离子玻璃桌** — `TablePlasmaGlass` ｜父类: TableBase
+- **加固桌** — `TableReinforced` ｜父类: TableBase
+- **加固玻璃桌** — `TableReinforcedGlass` ｜父类: TableBase
+- **石桌** — `TableStone` ｜父类: TableBase
+- **蛛网桌** — `TableWeb` ｜父类: TableBase
+- **木桌** — `TableWood` ｜父类: TableBase
+- **异形桌** — `TableXeno` ｜父类: TableBase
+- **热电发电机** — `TegCenter` ｜父类: BaseMachinePowered
+- **循环器** — `TegCirculator` ｜父类: BaseMachine
+- **循环器** — `TegCirculatorArrow`
+- **电信服务器** — `TelecomServer` ｜父类: BaseMachinePowered,ConstructibleMachine
+- **电信服务器** — `TelecomServerFilled` ｜父类: TelecomServer
+- **电信服务器** — `TelecomServerFilledCargo` ｜父类: TelecomServer
+- **电信服务器** — `TelecomServerFilledCommand` ｜父类: TelecomServer
+- **电信服务器** — `TelecomServerFilledCommon` ｜父类: TelecomServer
+- **电信服务器** — `TelecomServerFilledEngineering` ｜父类: TelecomServer
+- **电信服务器** — `TelecomServerFilledLaw` ｜父类: TelecomServer ｜_Starlight
+- **电信服务器** — `TelecomServerFilledMedical` ｜父类: TelecomServer
+- **电信服务器** — `TelecomServerFilledScience` ｜父类: TelecomServer
+- **电信服务器** — `TelecomServerFilledSecurity` ｜父类: TelecomServer
+- **电信服务器** — `TelecomServerFilledService` ｜父类: TelecomServer
+- **特斯拉线圈** — `TeslaCoil`
+- **球状闪电** — `TeslaEnergyBall` ｜父类: BaseEnergyBall
+- **特斯拉发生器** — `TeslaGenerator` ｜父类: BaseStructureDynamic
+- **接地棒** — `TeslaGroundingRod`
+- **小型球状闪电** — `TeslaMiniEnergyBall` ｜父类: BaseEnergyBall
+- **推进器** — `Thruster` ｜父类: BaseThruster,ConstructibleMachine
+- **大型 推进器** — `ThrusterLarge` ｜父类: BaseThruster
+- **推进器** — `ThrusterUnanchored` ｜父类: Thruster
+- **异形赛博格推进器 # Starlight** — `ThrusterXenoborg` ｜父类: Thruster
+- **取号机** — `TicketMachine` ｜父类: BaseTicketMachine ｜_Starlight
+- **取号机** — `TicketMachineFilled` ｜父类: TicketMachine ｜_Starlight
+- **取号机** — `TicketMachineHOP` ｜父类: TicketMachineFilled ｜_Starlight
+- **简易铁砧** — `TiderLathe` ｜父类: BaseLatheFuel ｜_Starlight
+- **定时器框架** — `TimerFrame`
+- **调光窗** — `TintedWindow` ｜父类: Window
+- **调光窗** — `TintedWindowTransparent` ｜父类: TintedWindow ｜_Starlight
+- **马桶** — `ToiletDirtyWater` ｜父类: BaseToiletRegen
+- **马桶** — `ToiletDirtyWaterFilled` ｜父类: ToiletDirtyWater
+- **马桶** — `ToiletEmpty` ｜父类: BaseToilet
+- **马桶** — `ToiletFilled` ｜父类: BaseToiletRegen
+- **金马桶** — `ToiletGoldenDirtyWater` ｜父类: ToiletGoldenEmpty
+- **金马桶** — `ToiletGoldenEmpty` ｜父类: BaseToiletRegen
+- **油炸锅** — `TP14KitchenDeepFryer` ｜父类: BaseMachinePowered,SmallConstructibleMachine ｜_TP
+- **油炸锅** — `TP14KitchenDeepFryerEmpty` ｜父类: TP14KitchenDeepFryer ｜_TP
+- **台式油炸锅** — `TP14KitchenDeepFryerTabletop` ｜父类: TP14KitchenDeepFryer ｜_TP
+- **台式油炸锅** — `TP14KitchenDeepFryerTabletopEmpty` ｜父类: TP14KitchenDeepFryerTabletop ｜_TP
+- **训练炸弹** — `TrainingBomb` ｜父类: BaseHardBomb
+- **氚气罐** — `TritiumCanister` ｜父类: GasCanister
+- **损坏的 气罐** — `TritiumCanisterBroken` ｜父类: GasCanisterBrokenBase
+- **氚气罐** — `TritiumCanisterEmpty` ｜父类: TritiumCanister ｜_Starlight
+- **涡轮充电器** — `TurboItemRecharger` ｜父类: BaseItemRecharger
+- **单向闸机** — `Turnstile` ｜父类: BaseStructure
+- **单向闸机** — `TurnstileArmory` ｜父类: Turnstile ｜_Starlight
+- **单向闸机** — `TurnstileArrow`
+- **中央指挥部 闸机** — `TurnstileCentComm` ｜父类: Turnstile ｜_Starlight
+- **中央指挥部 闸机** — `TurnstileCentCommCentralCommand` ｜父类: TurnstileCentComm ｜_Starlight
+- **中央指挥部 闸机** — `TurnstileCentCommCommand` ｜父类: TurnstileCentComm ｜_Starlight
+- **中央指挥部 闸机** — `TurnstileCentCommDebrief` ｜父类: TurnstileCentComm ｜_Starlight
+- **单向闸机** — `TurnstileCommand` ｜父类: Turnstile ｜_Starlight
+- **单向闸机** — `TurnstileGenpopEnter` ｜父类: Turnstile
+- **单向闸机** — `TurnstileGenpopLeave` ｜父类: Turnstile
+- **单向闸机** — `TurnstileSecurity` ｜父类: Turnstile ｜_Starlight
+- **单向闸机** — `TurnstileSyndicate` ｜父类: Turnstile ｜_Starlight
+- **双向拉杆** — `TwoWayLever`
+- **储物容器** — `UlnitraniumCanister` ｜父类: GasCanister ｜_Starlight
+- **损坏的 气罐** — `UlnitraniumCanisterBroken` ｜父类: GasCanisterBrokenBase ｜_Starlight
+- **储物容器** — `UlnitraniumCanisterEmpty` ｜父类: UlnitraniumCanister ｜_Starlight
+- `模板` **椅子** — `UnanchoredChairBase` ｜父类: SeatBase
+- **机器框架** — `UnfinishedMachineFrame`
+- **制服打印机** — `UniformPrinter` ｜父类: BaseLathe
+- **ID 功能设备** — `UniversalIdConsole` ｜父类: BaseComputerAiAccess ｜_Starlight
+- **方向性强化铀窗** — `UraniumReinforcedWindowDirectional` ｜父类: BaseDeltaPressureReinforcedPlasmaQuarter,WindowDirectionalRCDResistant
+- **定向强化铀窗** — `UraniumReinforcedWindowDirectionalHoneypot` ｜父类: MarkerBase,UraniumReinforcedWindowDirectional ｜_Starlight
+- **定向强化铀窗** — `UraniumReinforcedWindowDirectionalHoneypotIndestructible` ｜父类: MarkerBase,UraniumReinforcedWindowDirectional ｜_Starlight
+- **铀玻璃窗门** — `UraniumWindoorNukeopLocked` ｜父类: WindoorUranium
+- **加固铀玻璃窗门** — `UraniumWindoorSecureCentralCommandLocked` ｜父类: WindoorSecureUranium
+- **加固铀玻璃窗门** — `UraniumWindoorSecureEngineeringLocked` ｜父类: WindoorSecureUranium
+- **加固铀玻璃窗门** — `UraniumWindoorSecureNukeopLocked` ｜父类: WindoorSecureUranium
+- **加固铀玻璃窗门** — `UraniumWindoorSecureSyndicateLocked` ｜父类: WindoorSecureUranium
+- **铀玻璃窗门** — `UraniumWindoorSyndicateLocked` ｜父类: WindoorUranium
+- **铀窗** — `UraniumWindow` ｜父类: BaseDeltaPressurePlasma,WindowRCDResistant
+- **铀窗** — `UraniumWindowDiagonal` ｜父类: UraniumWindow
+- **方向性铀窗** — `UraniumWindowDirectional` ｜父类: BaseDeltaPressurePlasmaQuarter,WindowDirectionalRCDResistant
+- **疫苗制造机** — `Vaccinator` ｜父类: BaseMachinePowered
+- **酒吧衣橱** — `VendingBarDrobe` ｜父类: VendingMachine
+- **酒吧衣橱** — `VendingBarDrobeEmpty` ｜父类: VendingBarDrobe ｜_Starlight
+- `模板` **自动售货机** — `VendingMachine` ｜父类: BaseMachinePowered,ConstructibleMachine
+- **功能设备** — `VendingMachineAbductorDispenser` ｜父类: VendingMachine ｜_Starlight
+- **解放站** — `VendingMachineAmmo` ｜父类: VendingMachine
+- **解放站** — `VendingMachineAmmoEmpty` ｜父类: VendingMachineAmmo ｜_Starlight
+- **大气衣橱** — `VendingMachineAtmosDrobe` ｜父类: VendingMachine
+- **大气衣橱** — `VendingMachineAtmosDrobeEmpty` ｜父类: VendingMachineAtmosDrobe ｜_Starlight
+- **酒乐宝** — `VendingMachineBooze` ｜父类: VendingMachine
+- **酒乐宝** — `VendingMachineBoozeEmpty` ｜父类: VendingMachineBooze ｜_Starlight
+- **淤青贩卖机** — `VendingMachineBoozeSyndicate` ｜父类: VendingMachineBooze
+- **淤青贩卖机** — `VendingMachineBoozeSyndicateEmpty` ｜父类: VendingMachineBoozeSyndicate ｜_Starlight
+- **功能设备** — `VendingMachineCAD` ｜父类: VendingMachine ｜_Starlight
+- **货运衣橱** — `VendingMachineCargoDrobe` ｜父类: VendingMachine
+- **货运衣橱** — `VendingMachineCargoDrobeEmpty` ｜父类: VendingMachineCargoDrobe ｜_Starlight
+- **文职科技** — `VendingMachineCart` ｜父类: VendingMachine
+- **文职科技** — `VendingMachineCartEmpty` ｜父类: VendingMachineCart ｜_Starlight
+- **中央衣橱** — `VendingMachineCentDrobe` ｜父类: VendingMachine
+- **中央衣橱** — `VendingMachineCentDrobeEmpty` ｜父类: VendingMachineCentDrobe ｜_Starlight
+- **常先生** — `VendingMachineChang` ｜父类: VendingMachine
+- **常先生** — `VendingMachineChangEmpty` ｜父类: VendingMachineChang ｜_Starlight
+- **虔诚贩卖机** — `VendingMachineChapel` ｜父类: VendingMachine
+- **虔诚贩卖机** — `VendingMachineChapelEmpty` ｜父类: VendingMachineChapel ｜_Starlight
+- **厨师衣橱** — `VendingMachineChefDrobe` ｜父类: VendingMachine
+- **厨师衣橱** — `VendingMachineChefDrobeEmpty` ｜父类: VendingMachineChefDrobe ｜_Starlight
+- **厨师购** — `VendingMachineChefvend` ｜父类: VendingMachine
+- **厨师购** — `VendingMachineChefvendEmpty` ｜父类: VendingMachineChefvend ｜_Starlight
+- **化学衣橱** — `VendingMachineChemDrobe` ｜父类: VendingMachine
+- **化学衣橱** — `VendingMachineChemDrobeEmpty` ｜父类: VendingMachineChemDrobe ｜_Starlight
+- **化贩机** — `VendingMachineChemicals` ｜父类: VendingMachine
+- **化贩机** — `VendingMachineChemicalsEmpty` ｜父类: VendingMachineChemicals ｜_Starlight
+- **辛迪果汁** — `VendingMachineChemicalsSyndicate` ｜父类: VendingMachineChemicals
+- **辛迪果汁** — `VendingMachineChemicalsSyndicateEmpty` ｜父类: VendingMachineChemicalsSyndicate ｜_Starlight
+- **暗巷香烟豪华版** — `VendingMachineCigs` ｜父类: VendingMachine
+- **暗巷香烟豪华版** — `VendingMachineCigsEmpty` ｜父类: VendingMachineCigs ｜_Starlight
+- **衣装伙伴** — `VendingMachineClothing` ｜父类: VendingMachine
+- **衣装伙伴** — `VendingMachineClothingEmpty` ｜父类: VendingMachineClothing ｜_Starlight
+- **功能设备** — `VendingMachineClown` ｜父类: SLVendingMachine ｜_Starlight
+- **索拉最佳热饮** — `VendingMachineCoffee` ｜父类: VendingMachine
+- **索拉最佳热饮** — `VendingMachineCoffeeEmpty` ｜父类: VendingMachineCoffee ｜_Starlight
+- **强健软饮** — `VendingMachineCola` ｜父类: VendingMachine
+- **《健壮软饮》** — `VendingMachineColaBlack` ｜父类: VendingMachineCola
+- **《健壮软饮》** — `VendingMachineColaBlackEmpty` ｜父类: VendingMachineColaBlack ｜_Starlight
+- **《健壮软饮》** — `VendingMachineColaEmpty` ｜父类: VendingMachineCola ｜_Starlight
+- **太空可乐售货机** — `VendingMachineColaRed` ｜父类: VendingMachineCola
+- **太空可乐售货机** — `VendingMachineColaRedEmpty` ｜父类: VendingMachineColaRed ｜_Starlight
+- **调味料台** — `VendingMachineCondiments` ｜父类: VendingMachine
+- **调味料台** — `VendingMachineCondimentsEmpty` ｜父类: VendingMachineCondiments ｜_Starlight
+- **馆长衣橱** — `VendingMachineCuraDrobe` ｜父类: VendingMachine
+- **馆长衣橱** — `VendingMachineCuraDrobeEmpty` ｜父类: VendingMachineCuraDrobe ｜_Starlight
+- **侦探衣橱** — `VendingMachineDetDrobe` ｜父类: VendingMachine
+- **侦探衣橱** — `VendingMachineDetDrobeEmpty` ｜父类: VendingMachineDetDrobe ｜_Starlight
+- **塑钢大厨餐具售货机** — `VendingMachineDinnerware` ｜父类: VendingMachine
+- **塑钢大厨餐具售货机** — `VendingMachineDinnerwareEmpty` ｜父类: VendingMachineDinnerware ｜_Starlight
+- **折扣丹** — `VendingMachineDiscount` ｜父类: VendingMachine
+- **折扣丹** — `VendingMachineDiscountEmpty` ｜父类: VendingMachineDiscount ｜_Starlight
+- **功能设备** — `VendingMachineDonk` ｜父类: VendingMachine ｜_Starlight
+- **功能设备** — `VendingMachineDonkEmpty` ｜父类: VendingMachineDonk ｜_Starlight
+- **蒙奇甜甜圈** — `VendingMachineDonut` ｜父类: VendingMachine
+- **蒙奇甜甜圈** — `VendingMachineDonutEmpty` ｜父类: VendingMachineDonut ｜_Starlight
+- **吉布博士售货机** — `VendingMachineDrGibb` ｜父类: VendingMachine
+- **吉布博士售货机** — `VendingMachineDrGibbEmpty` ｜父类: VendingMachineDrGibb ｜_Starlight
+- **工程衣橱** — `VendingMachineEngiDrobe` ｜父类: VendingMachine
+- **工程衣橱** — `VendingMachineEngiDrobeEmpty` ｜父类: VendingMachineEngiDrobe ｜_Starlight
+- **工程购** — `VendingMachineEngivend` ｜父类: VendingMachine
+- **工程购** — `VendingMachineEngivendEmpty` ｜父类: VendingMachineEngivend ｜_Starlight
+- **健康好乐趣** — `VendingMachineGames` ｜父类: VendingMachine
+- **健康好乐趣** — `VendingMachineGamesEmpty` ｜父类: VendingMachineGames ｜_Starlight
+- **基因衣橱** — `VendingMachineGeneDrobe` ｜父类: VendingMachine
+- **基因衣橱** — `VendingMachineGeneDrobeEmpty` ｜父类: VendingMachineGeneDrobe ｜_Starlight
+- **快乐呵叫餐盒供应机** — `VendingMachineHappyHonk` ｜父类: VendingMachine
+- **快乐呵叫餐盒供应机** — `VendingMachineHappyHonkEmpty` ｜父类: VendingMachineHappyHonk ｜_Starlight
+- **水培衣橱** — `VendingMachineHydrobe` ｜父类: VendingMachine
+- **水培衣橱** — `VendingMachineHydrobeEmpty` ｜父类: VendingMachineHydrobe ｜_Starlight
+- **功能设备** — `VendingMachineIceCream` ｜父类: VendingMachine ｜_Starlight
+- **功能设备** — `VendingMachineIceCreamEmpty` ｜父类: VendingMachineIceCream ｜_Starlight
+- **清洁衣橱** — `VendingMachineJaniDrobe` ｜父类: VendingMachine
+- **清洁衣橱** — `VendingMachineJaniDrobeEmpty` ｜父类: VendingMachineJaniDrobe ｜_Starlight
+- **法务衣橱** — `VendingMachineLawDrobe` ｜父类: VendingMachine
+- **法务衣橱** — `VendingMachineLawDrobeEmpty` ｜父类: VendingMachineLawDrobe ｜_Starlight
+- **功能设备** — `VendingMachineLegalDrobe` ｜父类: VendingMachine ｜_Starlight
+- **功能设备** — `VendingMachineLegalDrobeEmpty` ｜父类: VendingMachineLegalDrobe ｜_Starlight
+- **魔法购** — `VendingMachineMagivend` ｜父类: VendingMachine
+- **魔法购** — `VendingMachineMagivendEmpty` ｜父类: VendingMachineMagivend ｜_Starlight
+- **纳米医疗加强版** — `VendingMachineMedical` ｜父类: VendingMachineMedicalBase
+- **纳米医疗民用型** — `VendingMachineMedicalBase` ｜父类: VendingMachine
+- **功能设备** — `VendingMachineMedicalBaseDeforest` ｜父类: VendingMachineMedicalBase ｜_Starlight
+- **功能设备** — `VendingMachineMedicalBaseDeforestEmpty` ｜父类: VendingMachineMedicalBaseDeforest ｜_Starlight
+- **纳米医疗民用型** — `VendingMachineMedicalBaseEmpty` ｜父类: VendingMachineMedicalBase ｜_Starlight
+- **功能设备** — `VendingMachineMedicalBaseGold` ｜父类: VendingMachineMedicalBase ｜_Starlight
+- **功能设备** — `VendingMachineMedicalBaseGoldEmpty` ｜父类: VendingMachineMedicalBaseGold ｜_Starlight
+- **功能设备** — `VendingMachineMedicalBaseSyndicate` ｜父类: VendingMachineMedicalBase ｜_Starlight
+- **功能设备** — `VendingMachineMedicalBaseSyndicateEmpty` ｜父类: VendingMachineMedicalBaseSyndicate ｜_Starlight
+- **功能设备** — `VendingMachineMedicalDeforest` ｜父类: VendingMachineMedicalBaseDeforest ｜_Starlight
+- **功能设备** — `VendingMachineMedicalDeforestEmpty` ｜父类: VendingMachineMedicalDeforest ｜_Starlight
+- **纳米医疗加强版** — `VendingMachineMedicalEmpty` ｜父类: VendingMachineMedical ｜_Starlight
+- **GOLD 功能设备** — `VendingMachineMedicalGold` ｜父类: VendingMachineMedicalBaseGold ｜_Starlight
+- **GOLD 功能设备** — `VendingMachineMedicalGoldEmpty` ｜父类: VendingMachineMedicalGold ｜_Starlight
+- **功能设备** — `VendingMachineMedicalSecurity` ｜父类: VendingMachineMedicalBase ｜_Starlight
+- **功能设备** — `VendingMachineMedicalSecurityEmpty` ｜父类: VendingMachineMedicalSecurity ｜_Starlight
+- **功能设备** — `VendingMachineMedicalSyndicate` ｜父类: VendingMachineMedicalBaseSyndicate ｜_Starlight
+- **功能设备** — `VendingMachineMedicalSyndicateEmpty` ｜父类: VendingMachineMedicalSyndicate ｜_Starlight
+- **医疗衣橱** — `VendingMachineMediDrobe` ｜父类: VendingMachine
+- **医疗衣橱** — `VendingMachineMediDrobeEmpty` ｜父类: VendingMachineMediDrobe ｜_Starlight
+- **功能设备** — `VendingMachineMime` ｜父类: SLVendingMachine ｜_Starlight
+- **营养至上** — `VendingMachineNutri` ｜父类: VendingMachine
+- **营养至上** — `VendingMachineNutriEmpty` ｜父类: VendingMachineNutri ｜_Starlight
+- **骄傲贩卖机** — `VendingMachinePride` ｜父类: VendingMachine
+- **骄傲贩卖机** — `VendingMachinePrideEmpty` ｜父类: VendingMachinePride ｜_Starlight
+- **能量游戏售货机** — `VendingMachinePwrGame` ｜父类: VendingMachine
+- **能量游戏售货机** — `VendingMachinePwrGameEmpty` ｜父类: VendingMachinePwrGame ｜_Starlight
+- **机械衣橱** — `VendingMachineRoboDrobe` ｜父类: VendingMachine
+- **机械衣橱** — `VendingMachineRoboDrobeEmpty` ｜父类: VendingMachineRoboDrobe ｜_Starlight
+- **机器人科技豪华版** — `VendingMachineRobotics` ｜父类: VendingMachine
+- **机器人科技豪华版** — `VendingMachineRoboticsEmpty` ｜父类: VendingMachineRobotics ｜_Starlight
+- **打捞供应机** — `VendingMachineSalvage` ｜父类: VendingMachine
+- **打捞供应机** — `VendingMachineSalvageEmpty` ｜父类: VendingMachineSalvage ｜_Starlight
+- **科研衣橱** — `VendingMachineSciDrobe` ｜父类: VendingMachine
+- **科研衣橱** — `VendingMachineSciDrobeEmpty` ｜父类: VendingMachineSciDrobe ｜_Starlight
+- **安保科技** — `VendingMachineSec` ｜父类: VendingMachine
+- **安保衣橱** — `VendingMachineSecDrobe` ｜父类: VendingMachine
+- **安保衣橱** — `VendingMachineSecDrobeEmpty` ｜父类: VendingMachineSecDrobe ｜_Starlight
+- **安保科技** — `VendingMachineSecEmpty` ｜父类: VendingMachineSec ｜_Starlight
+- **超级种子服务机** — `VendingMachineSeeds` ｜父类: VendingMachineSeedsUnlocked
+- **超级种子服务机** — `VendingMachineSeedsEmpty` ｜父类: VendingMachineSeeds ｜_Starlight
+- **超级种子服务机** — `VendingMachineSeedsUnlocked` ｜父类: VendingMachine
+- **超级种子服务机** — `VendingMachineSeedsUnlockedEmpty` ｜父类: VendingMachineSeedsUnlocked ｜_Starlight
+- **蹒跚怪果汁售货机** — `VendingMachineShamblersJuice` ｜父类: VendingMachine
+- **蹒跚怪果汁售货机** — `VendingMachineShamblersJuiceEmpty` ｜父类: VendingMachineShamblersJuice ｜_Starlight
+- **天罚售货机** — `VendingMachineSmite` ｜父类: VendingMachine
+- **天罚售货机** — `VendingMachineSmiteEmpty` ｜父类: VendingMachineSmite ｜_Starlight
+- **多来点巧克力公司** — `VendingMachineSnack` ｜父类: VendingMachine
+- **多来点巧克力公司** — `VendingMachineSnackBlue` ｜父类: VendingMachineSnack
+- **多来点巧克力公司** — `VendingMachineSnackBlueEmpty` ｜父类: VendingMachineSnackBlue ｜_Starlight
+- **多来点巧克力公司** — `VendingMachineSnackEmpty` ｜父类: VendingMachineSnack ｜_Starlight
+- **多来点巧克力公司** — `VendingMachineSnackGreen` ｜父类: VendingMachineSnack
+- **多来点巧克力公司** — `VendingMachineSnackGreenEmpty` ｜父类: VendingMachineSnackGreen ｜_Starlight
+- **多来点巧克力公司** — `VendingMachineSnackOrange` ｜父类: VendingMachineSnack
+- **多来点巧克力公司** — `VendingMachineSnackOrangeEmpty` ｜父类: VendingMachineSnackOrange ｜_Starlight
+- **多来点巧克力公司** — `VendingMachineSnackTeal` ｜父类: VendingMachineSnack
+- **多来点巧克力公司** — `VendingMachineSnackTealEmpty` ｜父类: VendingMachineSnackTeal ｜_Starlight
+- **《健壮软饮》** — `VendingMachineSoda` ｜父类: VendingMachineCola
+- **《健壮软饮》** — `VendingMachineSodaEmpty` ｜父类: VendingMachineSoda ｜_Starlight
+- **甜水** — `VendingMachineSovietSoda` ｜父类: VendingMachine
+- **甜水** — `VendingMachineSovietSodaEmpty` ｜父类: VendingMachineSovietSoda ｜_Starlight
+- **太空向上！售货机** — `VendingMachineSpaceUp` ｜父类: VendingMachineCola
+- **太空向上！售货机** — `VendingMachineSpaceUpEmpty` ｜父类: VendingMachineSpaceUp ｜_Starlight
+- **星之吻售货机** — `VendingMachineStarkist` ｜父类: VendingMachineCola
+- **星之吻售货机** — `VendingMachineStarkistEmpty` ｜父类: VendingMachineStarkist ｜_Starlight
+- **维生食品售货机** — `VendingMachineSustenance` ｜父类: VendingMachineSnack
+- **维生食品售货机** — `VendingMachineSustenanceEmpty` ｜父类: VendingMachineSustenance ｜_Starlight
+- **辛迪加衣橱** — `VendingMachineSyndieDrobe` ｜父类: VendingMachine
+- **辛迪加衣橱** — `VendingMachineSyndieDrobeEmpty` ｜父类: VendingMachineSyndieDrobe ｜_Starlight
+- **气罐供应机** — `VendingMachineTankDispenserEngineering` ｜父类: VendingMachine
+- **气罐供应机** — `VendingMachineTankDispenserEngineeringEmpty` ｜父类: VendingMachineTankDispenserEngineering ｜_Starlight
+- **气罐供应机** — `VendingMachineTankDispenserEVA` ｜父类: VendingMachine
+- **气罐供应机** — `VendingMachineTankDispenserEVAEmpty` ｜父类: VendingMachineTankDispenserEVA ｜_Starlight
+- **自动戏服柜** — `VendingMachineTheater` ｜父类: VendingMachine
+- **自动戏服柜** — `VendingMachineTheaterEmpty` ｜父类: VendingMachineTheater ｜_Starlight
+- **自动售货宝** — `VendingMachineVendomat` ｜父类: VendingMachine
+- **自动售货宝** — `VendingMachineVendomatEmpty` ｜父类: VendingMachineVendomat ｜_Starlight
+- **病毒衣橱** — `VendingMachineViroDrobe` ｜父类: VendingMachine
+- **病毒衣橱** — `VendingMachineViroDrobeEmpty` ｜父类: VendingMachineViroDrobe ｜_Starlight
+- **纳米医疗壁挂机** — `VendingMachineWallMedical` ｜父类: VendingMachineWallMedicalCivilian
+- **NanoMed 创可贴** — `VendingMachineWallMedicalCivilian` ｜父类: VendingMachineWallmount
+- **功能设备** — `VendingMachineWallMedicalCivilianDeforest` ｜父类: VendingMachineWallmount ｜_Starlight
+- **功能设备** — `VendingMachineWallMedicalCivilianDeforestEmpty` ｜父类: VendingMachineWallMedicalCivilianDeforest ｜_Starlight
+- **NanoMed 创可贴** — `VendingMachineWallMedicalCivilianEmpty` ｜父类: VendingMachineWallMedicalCivilian ｜_Starlight
+- **GOLD 功能设备** — `VendingMachineWallMedicalCivilianGold` ｜父类: VendingMachineWallmount ｜_Starlight
+- **GOLD 功能设备** — `VendingMachineWallMedicalCivilianGoldEmpty` ｜父类: VendingMachineWallMedicalCivilianGold ｜_Starlight
+- **功能设备** — `VendingMachineWallMedicalCivilianSyndicate` ｜父类: VendingMachineWallmount ｜_Starlight
+- **功能设备** — `VendingMachineWallMedicalCivilianSyndicateEmpty` ｜父类: VendingMachineWallMedicalCivilianSyndicate ｜_Starlight
+- **功能设备** — `VendingMachineWallMedicalDeforest` ｜父类: VendingMachineWallMedicalCivilianDeforest ｜_Starlight
+- **功能设备** — `VendingMachineWallMedicalDeforestEmpty` ｜父类: VendingMachineWallMedicalDeforest ｜_Starlight
+- **纳米医疗壁挂机** — `VendingMachineWallMedicalEmpty` ｜父类: VendingMachineWallMedical ｜_Starlight
+- **GOLD 功能设备** — `VendingMachineWallMedicalGold` ｜父类: VendingMachineWallMedicalCivilianGold ｜_Starlight
+- **GOLD 功能设备** — `VendingMachineWallMedicalGoldEmpty` ｜父类: VendingMachineWallMedicalGold ｜_Starlight
+- **功能设备** — `VendingMachineWallMedicalSyndicate` ｜父类: VendingMachineWallMedicalCivilianSyndicate ｜_Starlight
+- **功能设备** — `VendingMachineWallMedicalSyndicateEmpty` ｜父类: VendingMachineWallMedicalSyndicate ｜_Starlight
+- `模板` **自动售货机** — `VendingMachineWallmount` ｜父类: VendingMachine
+- **冬装衣柜** — `VendingMachineWinter` ｜父类: VendingMachine
+- **冬装衣柜** — `VendingMachineWinterEmpty` ｜父类: VendingMachineWinter ｜_Starlight
+- **工具通** — `VendingMachineYouTool` ｜父类: VendingMachine
+- **工具通** — `VendingMachineYouToolEmpty` ｜父类: VendingMachineYouTool ｜_Starlight
+- **通风管爬行占位体** — `VentCrawlHolder`
+- **黑胶唱机** — `VinylPlayer` ｜父类: Jukebox ｜_Starlight
+- **标识装饰** — `WaffleCoFlag` ｜父类: BaseFlag ｜_Starlight
+- **穿梭机墙** — `WallAbductor` ｜父类: BaseWall ｜_Starlight
+- **穿梭机墙** — `WallAbductorDiagonal` ｜_Starlight
+- **安山岩砖墙** — `WallAndesiteCobblebrick` ｜父类: WallCobblebrick
+- **小行星石砖墙** — `WallAsteroidCobblebrick` ｜父类: WallCobblebrick
+- **玄武岩砖墙** — `WallBasaltCobblebrick` ｜父类: WallCobblebrick
+- **砖墙** — `WallBrick` ｜父类: BaseWall
+- **铬铁矿砖墙** — `WallChromiteCobblebrick` ｜父类: WallCobblebrick
+- **时钟墙** — `WallClock` ｜父类: BaseWall
+- **香蕉矿墙** — `WallClown` ｜父类: BaseWall
+- **鹅卵石砖墙** — `WallCobblebrick` ｜父类: BaseWall
+- **混凝土墙** — `WallConcrete` ｜父类: BaseWall ｜_Starlight
+- **邪教墙** — `WallCult` ｜父类: BaseWall
+- **深色木墙** — `WallDarkWood` ｜父类: WallWood ｜_Starlight
+- **调试墙** — `WallDebug` ｜父类: BaseWall
+- `模板` **WallDiagonalBase** — `WallDiagonalBase` ｜父类: BaseStructureWall
+- **钻石墙** — `WallDiamond` ｜父类: BaseWall
+- **壁挂风扇** — `WallFan` ｜父类: BaseWallmountMetallic ｜_Starlight
+- **力场墙** — `WallForce`
+- **黄金墙** — `WallGold` ｜父类: BaseWall
+- **冰墙** — `WallIce` ｜父类: BaseWall
+- **隐形墙** — `WallInvisible`
+- **铁砂砖墙** — `WallIronsandCobblebrick` ｜父类: WallCobblebrick
+- **肉墙** — `WallMeat` ｜父类: BaseWall
+- **肉块机器人** — `WallMeatroid` ｜父类: WallMeat ｜_Starlight
+- **采矿墙** — `WallMining` ｜父类: BaseWall
+- **采矿墙** — `WallMiningDiagonal` ｜父类: WallDiagonalBase
+- **质量扫描仪** — `WallmountMassScanner` ｜父类: BaseWallmountMachine ｜_Starlight
+- **质量扫描仪** — `WallmountMassScannerBroken` ｜父类: BaseWallmountMetallic ｜_Starlight
+- **壁挂屏幕** — `WallmountTelescreen` ｜父类: BaseWallmountMachine
+- **壁挂屏幕框架** — `WallmountTelescreenFrame` ｜父类: BaseWallmountMetallic
+- **电视** — `WallmountTelevision` ｜父类: BaseWallmountMachine
+- **电视框架** — `WallmountTelevisionFrame` ｜父类: BaseWallmountGlass
+- **石墙** — `WallNecropolis` ｜父类: BaseWall
+- **等离子体墙** — `WallPlasma` ｜父类: BaseWall
+- **塑料墙** — `WallPlastic` ｜父类: BaseWall
+- **塑钛墙** — `WallPlastitanium` ｜父类: WallPlastitaniumIndestructible
+- **塑钛墙** — `WallPlastitaniumDiagonal` ｜父类: WallPlastitaniumDiagonalIndestructible
+- **塑钛墙** — `WallPlastitaniumDiagonalIndestructible` ｜父类: WallDiagonalBase
+- **塑钛墙** — `WallPlastitaniumIndestructible` ｜父类: BaseWall
+- **强化墙** — `WallReinforced` ｜父类: BaseWall
+- **强化几丁质墙** — `WallReinforcedChitin` ｜父类: BaseWall
+- **强化墙** — `WallReinforcedDiagonal` ｜父类: WallDiagonalBase
+- **强化墙** — `WallReinforcedHoneypot` ｜父类: MarkerBase,WallReinforced ｜_Starlight
+- **强化墙** — `WallReinforcedHoneypotIndestructible` ｜父类: MarkerBase,WallReinforced ｜_Starlight
+- **强化塑钛墙** — `WallReinforcedPlastitanium` ｜父类: WallPlastitanium ｜_Starlight
+- **强化塑钛墙** — `WallReinforcedPlastitaniumDiagonal` ｜父类: WallPlastitaniumDiagonal ｜_Starlight
+- **强化墙** — `WallReinforcedRust` ｜父类: WallReinforced
+- **强化穿梭机墙** — `WallReinforcedShuttle` ｜父类: WallShuttle ｜_Starlight
+- **强化穿梭机墙** — `WallReinforcedShuttleDiagonal` ｜父类: WallShuttleDiagonal ｜_Starlight
+- **铆接墙** — `WallRiveted` ｜父类: BaseWall
+- **岩石** — `WallRock` ｜父类: BaseWall
+- **安山岩** — `WallRockAndesite` ｜父类: WallRock
+- **安山岩** — `WallRockAndesiteArtifactFragment` ｜父类: WallRockAndesite
+- **安山岩** — `WallRockAndesiteBananium` ｜父类: WallRockAndesite
+- **安山岩** — `WallRockAndesiteCoal` ｜父类: WallRockAndesite
+- **安山岩** — `WallRockAndesiteDiamond` ｜父类: WallRockAndesite
+- **安山岩** — `WallRockAndesiteGold` ｜父类: WallRockAndesite
+- **安山岩** — `WallRockAndesitePlasma` ｜父类: WallRockAndesite
+- **安山岩** — `WallRockAndesiteQuartz` ｜父类: WallRockAndesite
+- **安山岩** — `WallRockAndesiteSalt` ｜父类: WallRockAndesite
+- **安山岩** — `WallRockAndesiteSilver` ｜父类: WallRockAndesite
+- **安山岩** — `WallRockAndesiteTin` ｜父类: WallRockAndesite
+- **安山岩** — `WallRockAndesiteUranium` ｜父类: WallRockAndesite
+- **岩石** — `WallRockArtifactFragment` ｜父类: WallRock
+- **岩石** — `WallRockBananium` ｜父类: WallRock
+- **玄武岩** — `WallRockBasalt` ｜父类: WallRock
+- **玄武岩** — `WallRockBasaltArtifactFragment` ｜父类: WallRockBasalt
+- **玄武岩** — `WallRockBasaltBananium` ｜父类: WallRockBasalt
+- **玄武岩** — `WallRockBasaltCoal` ｜父类: WallRockBasalt
+- **玄武岩** — `WallRockBasaltDiamond` ｜父类: WallRockBasalt
+- **玄武岩** — `WallRockBasaltGold` ｜父类: WallRockBasalt
+- **玄武岩** — `WallRockBasaltPlasma` ｜父类: WallRockBasalt
+- **玄武岩** — `WallRockBasaltQuartz` ｜父类: WallRockBasalt
+- **玄武岩** — `WallRockBasaltSalt` ｜父类: WallRockBasalt
+- **玄武岩** — `WallRockBasaltSilver` ｜父类: WallRockBasalt
+- **玄武岩** — `WallRockBasaltTin` ｜父类: WallRockBasalt
+- **玄武岩** — `WallRockBasaltUranium` ｜父类: WallRockBasalt
+- **铬铁矿** — `WallRockChromite` ｜父类: WallRock
+- **铬铁矿** — `WallRockChromiteArtifactFragment` ｜父类: WallRockChromite
+- **铬铁矿** — `WallRockChromiteBananium` ｜父类: WallRockChromite
+- **铬铁矿** — `WallRockChromiteCoal` ｜父类: WallRockChromite
+- **铬铁矿** — `WallRockChromiteDiamond` ｜父类: WallRockChromite
+- **铬铁矿** — `WallRockChromiteGold` ｜父类: WallRockChromite
+- **铬铁矿** — `WallRockChromitePlasma` ｜父类: WallRockChromite
+- **铬铁矿** — `WallRockChromiteQuartz` ｜父类: WallRockChromite
+- **铬铁矿** — `WallRockChromiteSalt` ｜父类: WallRockChromite
+- **铬铁矿** — `WallRockChromiteSilver` ｜父类: WallRockChromite
+- **铬铁矿** — `WallRockChromiteTin` ｜父类: WallRockChromite
+- **铬铁矿** — `WallRockChromiteUranium` ｜父类: WallRockChromite
+- **岩石** — `WallRockCoal` ｜父类: WallRock
+- **暗色岩石** — `WallRockDark` ｜父类: WallRock ｜_Starlight
+- **暗石** — `WallRockDarkBluespace` ｜父类: WallRockDark ｜_Starlight
+- **暗石** — `WallRockDarkPasma` ｜父类: WallRockDark ｜_Starlight
+- **岩石** — `WallRockDiamond` ｜父类: WallRock
+- **岩石** — `WallRockGold` ｜父类: WallRock
+- **岩石** — `WallRockPlasma` ｜父类: WallRock
+- **岩石** — `WallRockQuartz` ｜父类: WallRock
+- **岩石** — `WallRockSalt` ｜父类: WallRock
+- **砂岩** — `WallRockSand` ｜父类: WallRock
+- **砂岩** — `WallRockSandArtifactFragment` ｜父类: WallRockSand
+- **砂岩** — `WallRockSandBananium` ｜父类: WallRockSand
+- **砂岩** — `WallRockSandCoal` ｜父类: WallRockSand
+- **砂岩** — `WallRockSandDiamond` ｜父类: WallRockSand
+- **砂岩** — `WallRockSandGold` ｜父类: WallRockSand
+- **砂岩** — `WallRockSandPlasma` ｜父类: WallRockSand
+- **砂岩** — `WallRockSandQuartz` ｜父类: WallRockSand
+- **砂岩** — `WallRockSandSalt` ｜父类: WallRockSand
+- **砂岩** — `WallRockSandSilver` ｜父类: WallRockSand
+- **砂岩** — `WallRockSandTin` ｜父类: WallRockSand
+- **砂岩** — `WallRockSandUranium` ｜父类: WallRockSand
+- **岩石** — `WallRockSilver` ｜父类: WallRock
+- **雪堆** — `WallRockSnow` ｜父类: WallRock
+- **雪堆** — `WallRockSnowArtifactFragment` ｜父类: WallRockSnow
+- **雪堆** — `WallRockSnowBananium` ｜父类: WallRockSnow
+- **雪堆** — `WallRockSnowCoal` ｜父类: WallRockSnow
+- **雪堆** — `WallRockSnowDiamond` ｜父类: WallRockSnow
+- **雪堆** — `WallRockSnowGold` ｜父类: WallRockSnow
+- **雪堆** — `WallRockSnowPlasma` ｜父类: WallRockSnow
+- **雪堆** — `WallRockSnowQuartz` ｜父类: WallRockSnow
+- **雪堆** — `WallRockSnowSalt` ｜父类: WallRockSnow
+- **雪堆** — `WallRockSnowSilver` ｜父类: WallRockSnow
+- **雪堆** — `WallRockSnowTin` ｜父类: WallRockSnow
+- **雪堆** — `WallRockSnowUranium` ｜父类: WallRockSnow
+- **岩石** — `WallRockTin` ｜父类: WallRock
+- **岩石** — `WallRockUranium` ｜父类: WallRock
+- **墙式保险箱** — `WallSafe` ｜父类: BaseWallSafe ｜_Starlight
+- **砂岩砖墙** — `WallSandCobblebrick` ｜父类: WallCobblebrick
+- **砂岩墙** — `WallSandstone` ｜父类: BaseWall
+- **穿梭机墙** — `WallShuttle` ｜父类: BaseWall
+- **穿梭机墙** — `WallShuttleDiagonal` ｜父类: WallDiagonalBase
+- **银墙** — `WallSilver` ｜父类: BaseWall
+- **雪砖墙** — `WallSnowCobblebrick` ｜父类: WallCobblebrick
+- **实心墙** — `WallSolid` ｜父类: BaseWall
+- **实心几丁质墙** — `WallSolidChitin` ｜父类: BaseWall
+- **实心墙** — `WallSolidDiagonal` ｜父类: WallDiagonalBase
+- **实心墙** — `WallSolidHoneypot` ｜父类: MarkerBase,WallSolid ｜_Starlight
+- **实心墙** — `WallSolidHoneypotIndestructible` ｜父类: MarkerBase,WallSolid ｜_Starlight
+- **实心墙** — `WallSolidRust` ｜父类: WallSolid
+- **垃圾** — `WallTrash` ｜父类: WallRock ｜_Starlight
+- **铀墙** — `WallUranium` ｜父类: BaseWall
+- **外星宝库墙** — `WallVaultAlien` ｜父类: BaseWall
+- **岩石宝库墙** — `WallVaultRock` ｜父类: BaseWall
+- **砂岩宝库墙** — `WallVaultSandstone` ｜父类: WallVaultRock
+- **壁挂充电器** — `WallWeaponCapacitorRecharger` ｜父类: BaseItemRecharger,BaseWallmount
+- **蛛网墙** — `WallWeb` ｜父类: BaseWall
+- **木墙** — `WallWood` ｜父类: BaseWall
+- **异种赛博格墙** — `WallXenoborg` ｜父类: WallPlastitanium
+- **异种赛博格墙** — `WallXenoborgDiagonal` ｜父类: WallPlastitaniumDiagonal
+- **轻型异形赛博格墙** — `WallXenoborgRCD` ｜父类: WallSolid ｜_Starlight
+- **大气 衣柜** — `WardrobeAtmospherics` ｜父类: WardrobeBase
+- `模板` **WardrobeBase** — `WardrobeBase` ｜父类: ClosetSteelBase
+- **黑色 衣柜** — `WardrobeBlack` ｜父类: WardrobeBase
+- **蓝色 衣柜** — `WardrobeBlue` ｜父类: WardrobeBase
+- **植物学家 衣柜** — `WardrobeBotanist` ｜父类: WardrobeGreen
+- **货运 衣柜** — `WardrobeCargo` ｜父类: WardrobePrison
+- **牧师衣柜** — `WardrobeChapel` ｜父类: WardrobeBlack
+- **化学 衣柜** — `WardrobeChemistry` ｜父类: WardrobeWhite
+- **工程 衣柜** — `WardrobeEngineering` ｜父类: WardrobeYellow
+- **礼服柜** — `WardrobeFormal` ｜父类: WardrobeBlack
+- **遗传学 衣柜** — `WardrobeGenetics` ｜父类: WardrobeWhite
+- **绿色 衣柜** — `WardrobeGreen` ｜父类: WardrobeBase
+- **灰色 衣柜** — `WardrobeGrey` ｜父类: WardrobeBase
+- **医师衣柜** — `WardrobeMedicalDoctor` ｜父类: WardrobeWhite
+- **混色 衣柜** — `WardrobeMixed` ｜父类: WardrobeBase
+- **粉色 衣柜** — `WardrobePink` ｜父类: WardrobeBase
+- **监狱 衣柜** — `WardrobePrison` ｜父类: WardrobeBase
+- **机器人学 衣柜** — `WardrobeRobotics` ｜父类: WardrobeBlack
+- **打捞 衣柜** — `WardrobeSalvage` ｜父类: WardrobeMixed
+- **科研 衣柜** — `WardrobeScience` ｜父类: WardrobeWhite
+- **安保 衣柜** — `WardrobeSecurity` ｜父类: WardrobeBase
+- **病毒学 衣柜** — `WardrobeVirology` ｜父类: WardrobeWhite
+- **白色 衣柜** — `WardrobeWhite` ｜父类: WardrobeBase
+- **黄色 衣柜** — `WardrobeYellow` ｜父类: WardrobeBase
+- **空气管道警告标牌** — `WarningAir` ｜父类: BaseSign
+- **CO2 管道警告标牌** — `WarningCO2` ｜父类: BaseSign
+- **N2 管道警告标牌** — `WarningN2` ｜父类: BaseSign
+- **N2O 管道警告标牌** — `WarningN2O` ｜父类: BaseSign
+- **O2 管道警告标牌** — `WarningO2` ｜父类: BaseSign
+- **等离子体废气标牌** — `WarningPlasma` ｜父类: BaseSign
+- **氚废气标牌** — `WarningTritium` ｜父类: BaseSign
+- **大气废气标牌** — `WarningWaste` ｜父类: BaseSign
+- **饮水机** — `WaterCooler` ｜父类: StorageTank
+- **水罐** — `WaterTank` ｜父类: StorageTank,StructureWheeled
+- **水罐** — `WaterTankFull` ｜父类: WaterTank
+- **大容量水罐** — `WaterTankHighCapacity` ｜父类: StorageTankBig,WaterTank
+- **水蒸气气罐** — `WaterVaporCanister` ｜父类: GasCanister
+- **损坏的 水蒸气气罐** — `WaterVaporCanisterBroken` ｜父类: GasCanisterBrokenBase
+- **水蒸气气罐** — `WaterVaporCanisterEmpty` ｜父类: WaterVaporCanister ｜_Starlight
+- **充电器** — `WeaponCapacitorRecharger` ｜父类: BaseItemRecharger
+- **哨戒炮塔控制面板** — `WeaponEnergyTurretAIControlPanel` ｜父类: WeaponEnergyTurretStationControlPanelBase
+- **哨戒炮塔控制面板** — `WeaponEnergyTurretCommandControlPanel` ｜父类: WeaponEnergyTurretStationControlPanelBase
+- **哨戒炮塔控制面板组件** — `WeaponEnergyTurretControlPanelFrame`
+- **哨戒炮塔控制面板** — `WeaponEnergyTurretSecurityControlPanel` ｜父类: WeaponEnergyTurretStationControlPanelBase
+- **哨戒炮塔控制面板** — `WeaponEnergyTurretSiliconControlPanel` ｜父类: WeaponEnergyTurretStationControlPanelBase ｜_Starlight
+- **哨戒炮塔控制面板** — `WeaponEnergyTurretSolgovControlPanel` ｜父类: WeaponEnergyTurretStationControlPanelBase ｜_Starlight
+- `模板` **哨戒炮塔控制面板** — `WeaponEnergyTurretStationControlPanelBase` ｜父类: WeaponEnergyTurretControlPanelFrame
+- **ADMP-27 VESPERA 武器** — `WeaponTurretVespera` ｜父类: ShuttleGunBase ｜_Starlight
+- **蛛网床** — `WebBed` ｜父类: Bed
+- **蛛网茧** — `WebCocoon` ｜_Starlight
+- **蛛网门** — `WebDoor` ｜父类: BaseMaterialDoorNavMap
+- **蛛网柱** — `WebEntityBeacon` ｜_Starlight
+- **燃料罐** — `WeldingFuelTank` ｜父类: StorageTank,StructureWheeled
+- **燃料罐** — `WeldingFuelTankFull` ｜父类: WeldingFuelTank
+- **大容量燃料罐** — `WeldingFuelTankHighCapacity` ｜父类: StorageTankBig,WeldingFuelTank
+- **窗门** — `Windoor` ｜父类: BaseWindoor
+- **窗门组件** — `WindoorAssembly` ｜父类: BaseStructure
+- **发条窗门组件** — `WindoorAssemblyClockwork` ｜父类: WindoorAssembly
+- **等离子窗门组件** — `WindoorAssemblyPlasma` ｜父类: WindoorAssembly
+- **加固窗门组件** — `WindoorAssemblySecure` ｜父类: WindoorAssembly
+- **加固等离子窗门组件** — `WindoorAssemblySecurePlasma` ｜父类: WindoorAssembly
+- **加固铀玻璃窗门组件** — `WindoorAssemblySecureUranium` ｜父类: WindoorAssembly
+- **铀玻璃窗门组件** — `WindoorAssemblyUranium` ｜父类: WindoorAssembly
+- **窗门** — `WindoorAttorneyLocked` ｜父类: WindoorServiceLocked ｜_Starlight
+- **窗门** — `WindoorBarKitchenLocked` ｜父类: WindoorServiceLocked
+- **窗门** — `WindoorBarLocked` ｜父类: WindoorServiceLocked
+- **窗门** — `WindoorCargoLocked` ｜父类: Windoor
+- **窗门** — `WindoorChapelLocked` ｜父类: Windoor
+- **发条窗门** — `WindoorClockwork` ｜父类: BaseClockworkWindoor
+- **窗门** — `WindoorCourtroomLocked` ｜父类: WindoorSecurityLocked ｜_Starlight
+- **窗门** — `WindoorHydroponicsLocked` ｜父类: WindoorServiceLocked
+- **窗门** — `WindoorInternalAffairsLocked` ｜父类: WindoorSecurityLocked ｜_Starlight
+- **窗门** — `WindoorJanitorLocked` ｜父类: WindoorServiceLocked
+- **窗门** — `WindoorKitchenHydroponicsLocked` ｜父类: WindoorServiceLocked
+- **窗门** — `WindoorKitchenLocked` ｜父类: WindoorServiceLocked
+- **窗门** — `WindoorLegalLocked` ｜父类: WindoorServiceLocked ｜_Starlight
+- **窗门** — `WindoorMailLocked` ｜父类: WindoorCargoLocked ｜_Starlight
+- **窗门** — `WindoorNukeopLocked` ｜父类: Windoor
+- **等离子窗门** — `WindoorPlasma` ｜父类: BasePlasmaWindoor
+- **加固窗门** — `WindoorSecure` ｜父类: BaseSecureWindoor
+- **加固窗门** — `WindoorSecureArmoryLocked` ｜父类: WindoorSecure
+- **加固窗门** — `WindoorSecureAtmosphericsLocked` ｜父类: WindoorSecureEngineeringLocked
+- **加固窗门** — `WindoorSecureAttorneyLocked` ｜父类: WindoorSecureServiceLocked ｜_Starlight
+- **加固窗门** — `WindoorSecureBarLocked` ｜父类: WindoorSecureServiceLocked
+- **加固窗门** — `WindoorSecureBrigLocked` ｜父类: WindoorSecureSecurityLocked
+- **加固窗门** — `WindoorSecureCargoLocked` ｜父类: WindoorSecure
+- **加固窗门** — `WindoorSecureCentralCommandLocked` ｜父类: WindoorSecureCommandLocked
+- **加固窗门** — `WindoorSecureChapelLocked` ｜父类: WindoorSecure
+- **加固窗门** — `WindoorSecureChemistryLocked` ｜父类: WindoorSecureMedicalLocked
+- **加固窗门** — `WindoorSecureCommandLocked` ｜父类: WindoorSecure
+- **加固窗门** — `WindoorSecureCourtroomLocked` ｜父类: WindoorSecureSecurityLocked ｜_Starlight
+- **加固窗门** — `WindoorSecureDetectiveLocked` ｜父类: WindoorSecureSecurityLocked
+- **加固窗门** — `WindoorSecureEngineeringLocked` ｜父类: WindoorSecure
+- **加固窗门** — `WindoorSecureExternalLocked` ｜父类: WindoorSecure
+- **加固窗门** — `WindoorSecureHeadOfPersonnelLocked` ｜父类: WindoorSecureCommandLocked
+- **加固窗门** — `WindoorSecureInternalAffairsLocked` ｜父类: WindoorSecureSecurityLocked ｜_Starlight
+- **加固窗门** — `WindoorSecureJanitorLocked` ｜父类: WindoorSecureServiceLocked
+- **加固窗门** — `WindoorSecureKitchenLocked` ｜父类: WindoorSecureServiceLocked
+- **加固窗门** — `WindoorSecureLegalLocked` ｜父类: WindoorSecureServiceLocked ｜_Starlight
+- **加固窗门** — `WindoorSecureMailLocked` ｜父类: WindoorSecureCargoLocked ｜_Starlight
+- **加固窗门** — `WindoorSecureMedicalLocked` ｜父类: WindoorSecure
+- **加固窗门** — `WindoorSecureMiningLocked` ｜父类: WindoorSecureCargoLocked ｜_Starlight
+- **加固窗门** — `WindoorSecureNukeopLocked` ｜父类: WindoorSecure
+- **加固等离子窗门** — `WindoorSecurePlasma` ｜父类: BaseSecurePlasmaWindoor
+- **加固窗门** — `WindoorSecureResearchDirectorLocked` ｜父类: WindoorSecureCommandLocked
+- **加固窗门** — `WindoorSecureRoboticsLocked` ｜父类: WindoorSecure ｜_Starlight
+- **加固窗门** — `WindoorSecureSalvageLocked` ｜父类: WindoorSecureCargoLocked
+- **加固窗门** — `WindoorSecureSalvageMiningLocked` ｜父类: WindoorSecureCargoLocked ｜_Starlight
+- **加固窗门** — `WindoorSecureScienceLocked` ｜父类: WindoorSecure
+- **加固窗门** — `WindoorSecureSecurityInternalAffairsLocked` ｜父类: WindoorSecureSecurityLocked
+- **加固窗门** — `WindoorSecureSecurityLocked` ｜父类: WindoorSecure
+- **加固窗门** — `WindoorSecureServiceLocked` ｜父类: WindoorSecure
+- **加固窗门** — `WindoorSecureSyndicateLocked` ｜父类: WindoorSecure
+- **加固铀玻璃窗门** — `WindoorSecureUranium` ｜父类: BaseSecureUraniumWindoor
+- **窗门** — `WindoorSecurityInternalAffairsLocked` ｜父类: WindoorSecurityLocked ｜_Starlight
+- **窗门** — `WindoorSecurityLocked` ｜父类: Windoor ｜_Starlight
+- **窗门** — `WindoorServiceLocked` ｜父类: Windoor
+- **窗门** — `WindoorSyndicateLocked` ｜父类: Windoor
+- **窗门** — `WindoorTheatreLocked` ｜父类: WindoorServiceLocked
+- **铀玻璃窗门** — `WindoorUranium` ｜父类: BaseUraniumWindoor
+- **窗户** — `Window` ｜父类: BaseDeltaPressureGlass,BaseStructure,BaseStructureDissolvable
+- **方向性发条窗** — `WindowClockworkDirectional` ｜父类: WindowDirectional
+- **窗户** — `WindowDiagonal` ｜父类: Window
+- **方向性窗户** — `WindowDirectional` ｜父类: BaseDeltaPressureGlassQuarter,BaseStructure
+- `模板` **WindowDirectionalRCDResistant** — `WindowDirectionalRCDResistant` ｜父类: WindowDirectional
+- **方向性磨砂窗** — `WindowFrostedDirectional` ｜父类: WindowDirectional
+- `模板` **WindowRCDResistant** — `WindowRCDResistant` ｜父类: Window
+- **方向性强化窗** — `WindowReinforcedDirectional` ｜父类: BaseDeltaPressureReinforcedGlassQuarter,WindowDirectional
+- **定向强化窗** — `WindowReinforcedDirectionalHoneypot` ｜父类: MarkerBase,WindowReinforcedDirectional ｜_Starlight
+- **定向强化窗** — `WindowReinforcedDirectionalHoneypotIndestructible` ｜父类: MarkerBase,WindowReinforcedDirectional ｜_Starlight
+- **巫师通讯计算机** — `WizardComputerComms` ｜父类: ComputerComms
+- **木门** — `WoodDoor` ｜父类: BaseMaterialDoorNavMap
+- **木制长椅** — `WoodenBench` ｜父类: ChairBase
+- **功能设备** — `XenobiologyConsole` ｜父类: BaseComputer ｜_Starlight
+- **功能设备** — `XenobiologyConsoleEye` ｜父类: Incorporeal,BaseMob ｜_Starlight
+- **异种赛博格窗** — `XenoborgWindow` ｜父类: PlastitaniumWindow
+- **轻型异形赛博格窗** — `XenoborgWindowRCD` ｜父类: ReinforcedWindow ｜_Starlight
+- **树脂窗** — `XenoResinWindow` ｜父类: ReinforcedWindow
+- **异形防护塔** — `XenoWardingTower`
+- **佐克气储气罐** — `ZaukerCanister` ｜父类: GasCanister ｜_Funkystation
+- **损坏的 气罐** — `ZaukerCanisterBroken` ｜父类: GasCanisterBrokenBase ｜_Funkystation
+- **佐克气储气罐** — `ZaukerCanisterEmpty` ｜父类: ZaukerCanister ｜_Starlight
+- **储物容器** — `ZXACanister` ｜父类: GasCanister ｜_Starlight
+- **损坏的 气罐** — `ZXACanisterBroken` ｜父类: GasCanisterBrokenBase ｜_Starlight
+- **储物容器** — `ZXACanisterEmpty` ｜父类: ZXACanister ｜_Starlight

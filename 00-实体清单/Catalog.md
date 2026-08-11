@@ -1,0 +1,819 @@
+# 实体清单：Catalog（815 个）
+
+> 来源层分布: 上游 572, _Starlight 238, _FarHorizons 4, _TP 1
+
+- **空气罐** — `AirTankFilled` ｜父类: AirTank
+- `模板` **Q 的终结 # no longer "the" since when you emote it would come out to "the the end of Q x"** — `BasePaperQuietChaos` ｜父类: BaseUnburnablePaper ｜_Starlight
+- `模板` **BaseStarlightAdmemePaper** — `BaseStarlightAdmemePaper` ｜父类: BaseItem ｜_Starlight
+- `模板` **BaseUnburnablePaper** — `BaseUnburnablePaper` ｜父类: BaseItem ｜_Starlight
+- **BigBoxSyndicateBundle** — `BigBoxSyndicateBundle` ｜父类: BigBox ｜_Starlight
+- **书架** — `BookshelfFilled` ｜父类: Bookshelf
+- **化学品箱** — `BottleCaseMedicalFilled` ｜父类: BottleCaseMedical ｜_Starlight
+- **化学品箱** — `BottleCaseParamedicFilled` ｜父类: BottleCaseMedical ｜_Starlight
+- **化学品箱** — `BottleCaseRoboticsFilled` ｜父类: BottleCaseRobotics ｜_Starlight
+- **化学品箱** — `BottleCaseSecurityFilled` ｜父类: BottleCaseSecurity ｜_Starlight
+- **NT“农化真有趣”套装** — `BoxAgrichem` ｜父类: BoxCardboard
+- **烧杯盒** — `BoxBeaker` ｜父类: BoxCardboard
+- **大烧杯箱** — `BoxBeakerLarge` ｜父类: BoxCardboard ｜_Starlight
+- **小烧杯箱** — `BoxBeakerSmall` ｜父类: BoxCardboard ｜_Starlight
+- **贝尔佩罗套装袋** — `BoxBelpero` ｜父类: ClothingBackpackDuffel ｜_Starlight
+- **黑光灯箱** — `Boxblacklight` ｜父类: BoxLightbulb ｜_Starlight
+- **贵族套装袋** — `BoxBloodstained` ｜父类: ClothingBackpackDuffel ｜_Starlight
+- **裹尸袋盒** — `BoxBodyBag` ｜父类: BoxCardboard
+- **瓶子盒** — `BoxBottle` ｜父类: BoxCardboard
+- **蜡烛盒** — `BoxCandle` ｜父类: BoxCardboard
+- **小蜡烛盒** — `BoxCandleSmall` ｜父类: BoxCandle
+- **舰桥电路板提箱** — `BoxCaptainCircuitboards` ｜父类: ToteBase
+- **纸板箱** — `BoxCardboard` ｜父类: BoxBase
+- **小纸板箱** — `BoxCardboardSmall` ｜父类: BoxBaseSmall
+- **工程部电路板提箱** — `BoxCECircuitboards` ｜父类: ToteBase
+- **清洁手雷盒** — `BoxCleanerGrenades` ｜父类: BoxCardboard
+- **医疗部电路板提箱** — `BoxCMOCircuitboards` ｜父类: ToteBase
+- **太空信使衣箱** — `BoxCourier` ｜父类: ClothingBackpackTrunkSpaceCourier ｜_Starlight
+- **太空信使衣箱** — `BoxCourierPAI` ｜父类: ClothingBackpackTrunkSpaceCourierPAI ｜_Starlight
+- **飞镖盒** — `BoxDarts` ｜父类: BoxCardboard
+- **死亡警报植入物盒** — `BoxDeathRattleImplants` ｜父类: BoxCardboard,BaseSyndicateContraband
+- **雷管盒** — `BoxDetonator` ｜父类: BoxCardboard
+- **助理加密密钥盒** — `BoxEncryptionKeyAssistant` ｜父类: BoxCardboard
+- **货运部加密密钥盒** — `BoxEncryptionKeyCargo` ｜父类: BoxEncryptionKeyAssistant
+- **工程部加密密钥盒** — `BoxEncryptionKeyEngineering` ｜父类: BoxEncryptionKeyAssistant
+- **远征加密密钥箱** — `BoxEncryptionKeyExpedition` ｜父类: BoxEncryptionKeyAssistant ｜_Starlight
+- **医疗部加密密钥盒** — `BoxEncryptionKeyMedical` ｜父类: BoxEncryptionKeyAssistant
+- **医疗科研加密密钥盒** — `BoxEncryptionKeyMedicalScience` ｜父类: BoxEncryptionKeyAssistant
+- **机器人技术加密密钥盒** — `BoxEncryptionKeyRobo` ｜父类: BoxEncryptionKeyAssistant
+- **打捞加密密钥箱** — `BoxEncryptionKeySalvage` ｜父类: BoxEncryptionKeyAssistant ｜_Starlight
+- **科研部加密密钥盒** — `BoxEncryptionKeyScience` ｜父类: BoxEncryptionKeyAssistant
+- **安保部加密密钥盒** — `BoxEncryptionKeySecurity` ｜父类: BoxEncryptionKeyAssistant
+- **服务部加密密钥盒** — `BoxEncryptionKeyService` ｜父类: BoxEncryptionKeyAssistant
+- **辛迪加加密密钥盒** — `BoxEncryptionKeySyndie` ｜父类: BoxEncryptionKeyAssistant,BaseSyndicateContraband
+- **信封盒** — `BoxEnvelope` ｜父类: BoxCardboard
+- **击发销箱** — `BoxFiringPin` ｜父类: BoxCardboard ｜_Starlight
+- **激光晶体箱** — `BoxFiringPinLaser` ｜父类: BoxCardboard ｜_Starlight
+- **手枪击发销箱** — `BoxFiringPinPistol` ｜父类: BoxCardboard ｜_Starlight
+- **信号棒盒** — `BoxFlare` ｜父类: BoxCardboard
+- **闪光弹盒** — `BoxFlashbang` ｜父类: BoxCardboard
+- **写字板** — `BoxFolderClipboardFilled` ｜父类: BoxFolderClipboard ｜_Starlight
+- **取证垫盒** — `BoxForensicPad` ｜父类: BoxCardboard
+- **手铐盒** — `BoxHandcuff` ｜父类: BoxCardboard
+- **耳机盒** — `BoxHeadset` ｜父类: BoxCardboard
+- **人事主管电路板提箱** — `BoxHoPCircuitboards` ｜父类: ToteBase
+- **人事主管印章盒** — `BoxHoPStamps` ｜父类: BoxStamps
+- **安保部电路板提箱** — `BoxHoSCircuitboards` ｜父类: ToteBase
+- **拥抱盒** — `BoxHug` ｜父类: BoxSurvival
+- **拥抱箱** — `BoxHugDwarf` ｜父类: BoxSurvival ｜_Starlight
+- **拥抱盒** — `BoxHugHealing` ｜父类: BoxHug
+- **拥抱盒** — `BoxHugNitrogen` ｜父类: BoxHug
+- **生存箱** — `BoxHugNonBreather` ｜父类: BoxSurvivalNonBreather ｜_Starlight
+- **ID卡盒** — `BoxID` ｜父类: BoxCardboard
+- **充气墙盒** — `BoxInflatable` ｜父类: BoxCardboard
+- **化学罐箱** — `BoxJug` ｜父类: BoxCardboard ｜_Starlight
+- **乳胶手套盒** — `BoxLatexGloves` ｜父类: BoxCardboard
+- **铅衬盒** — `BoxLeadLined` ｜父类: BoxCardboard
+- **灯泡盒** — `BoxLightbulb` ｜父类: BoxCardboard
+- **彩色混装灯泡盒** — `BoxLightbulbColorfulMixed` ｜父类: BoxLightbulb
+- **混装灯具盒** — `BoxLightMixed` ｜父类: BoxLightbulb
+- **灯管盒** — `BoxLighttube` ｜父类: BoxLightbulb
+- **彩色混装灯管盒** — `BoxLighttubeColorfulMixed` ｜父类: BoxLighttube
+- **节日灯管盒** — `BoxLighttubeHoliday` ｜父类: BoxLightbulb
+- **弹匣盒** — `BoxMagazine` ｜父类: BoxCardboard
+- **.25 无壳橡胶弹弹匣箱** — `BoxMagazineCaselessRifleRubber` ｜父类: BoxMagazine ｜_Starlight
+- **.30步枪弹匣盒** — `BoxMagazineLightRifle` ｜父类: BoxMagazine
+- **.30步枪训练弹匣盒** — `BoxMagazineLightRiflePractice` ｜父类: BoxMagazine
+- **.30 步枪橡胶弹弹匣箱** — `BoxMagazineLightRifleRubber` ｜父类: BoxMagazine ｜_Starlight
+- **“维克托”橡胶弹弹匣箱** — `BoxMagazineMagnumSubMachineGunRubber` ｜父类: BoxMagazine ｜_Starlight
+- **.35自动手枪弹匣盒** — `BoxMagazinePistol` ｜父类: BoxMagazine
+- **.25无壳弹匣盒** — `BoxMagazinePistolCaselessRifle` ｜父类: BoxMagazine
+- **.25无壳训练弹匣盒** — `BoxMagazinePistolCaselessRiflePractice` ｜父类: BoxMagazine
+- **.35自动冲锋手枪弹匣盒** — `BoxMagazinePistolHighCapacity` ｜父类: BoxMagazine
+- **.35自动冲锋手枪训练弹匣盒** — `BoxMagazinePistolHighCapacityPractice` ｜父类: BoxMagazine
+- **.35 自动冲锋手枪橡胶弹弹匣箱** — `BoxMagazinePistolHighCapacityRubber` ｜父类: BoxMagazine ｜_Starlight
+- **.35自动手枪训练弹匣盒** — `BoxMagazinePistolPractice` ｜父类: BoxMagazine
+- **.35 自动手枪橡胶弹弹匣箱** — `BoxMagazinePistolRubber` ｜父类: BoxMagazine ｜_Starlight
+- **.35自动冲锋枪弹匣盒** — `BoxMagazinePistolSubMachineGun` ｜父类: BoxMagazine
+- **.35自动冲锋枪训练弹匣盒** — `BoxMagazinePistolSubMachineGunPractice` ｜父类: BoxMagazine
+- **.35 自动冲锋枪橡胶弹弹匣箱** — `BoxMagazinePistolSubMachineGunRubber` ｜父类: BoxMagazine ｜_Starlight
+- **WT550 .35自动弹匣盒** — `BoxMagazinePistolSubMachineGunTopMounted` ｜父类: BoxMagazine
+- **.20步枪训练弹匣盒** — `BoxMagazineRiflePractice` ｜父类: BoxMagazine
+- **.20 步枪橡胶弹弹匣箱** — `BoxMagazineRifleRubber` ｜父类: BoxMagazine ｜_Starlight
+- **.20步枪弹匣盒** — `BoxMagazineRifleSP` ｜父类: BoxMagazine
+- **12号鹿弹弹鼓盒 # Starlight change: .50 -> 12 gauge** — `BoxMagazineShotgun` ｜父类: BoxMagazine
+- **12号豆袋弹弹鼓盒 # Starlight change: .50 -> 12 gauge** — `BoxMagazineShotgunBeanbag` ｜父类: BoxMagazine
+- **12号燃烧弹弹鼓盒 # Starlight change: .50 -> 12 gauge** — `BoxMagazineShotgunIncendiary` ｜父类: BoxMagazine
+- **12号独头弹弹鼓盒 # Starlight change: .50 -> 12 gauge** — `BoxMagazineShotgunSlug` ｜父类: BoxMagazine
+- **法则电路提箱** — `BoxMagiCircuitBoards` ｜父类: ToteBase ｜_Starlight
+- **介子护目镜盒** — `BoxMesonScanners` ｜父类: BoxCardboard
+- **生存箱** — `BoxMime` ｜父类: BoxSurvival
+- **生存箱** — `BoxMimeDwarf` ｜父类: BoxSurvival ｜_Starlight
+- **生存箱** — `BoxMimeMoth` ｜父类: BoxSurvival
+- **生存箱** — `BoxMimeNitrogen` ｜父类: BoxSurvivalNitrogen
+- **生存箱** — `BoxMimeNonBreather` ｜父类: BoxSurvivalNonBreather ｜_Starlight
+- **捕鼠夹盒** — `BoxMousetrap` ｜父类: BoxCardboard
+- **即食口粮** — `BoxMRE` ｜父类: BoxCardboard
+- **丁腈手套盒** — `BoxNitrileGloves` ｜父类: BoxCardboard
+- **甜点套装袋** — `BoxPancakes` ｜父类: ClothingBackpackDuffel ｜_Starlight
+- **PDA盒** — `BoxPDA` ｜父类: BoxCardboard
+- **初音未来日礼包** — `BoxPerformer` ｜父类: ClothingBackpackDuffel
+- **药瓶盒** — `BoxPillCanister` ｜父类: BoxCardboard
+- **货运部电路板提箱** — `BoxQMCircuitboards` ｜父类: ToteBase
+- **军需官印章盒** — `BoxQMStamps` ｜父类: BoxStamps
+- **科研部电路板提箱** — `BoxRDCircuitboards` ｜父类: ToteBase
+- **礼服套装袋** — `BoxRegalia` ｜父类: ClothingBackpackDuffelBundle ｜_Starlight
+- **安保眼镜盒** — `BoxSecglasses` ｜父类: BoxCardboard
+- **安保 HUD 盒** — `BoxSechud` ｜父类: BoxCardboard
+- **印章盒** — `BoxStamps` ｜父类: BoxCardboardSmall
+- **无菌口罩盒** — `BoxSterileMask` ｜父类: BoxCardboard
+- **刺弹盒** — `BoxStinger` ｜父类: BoxCardboard
+- **太阳镜盒** — `BoxSunglasses` ｜父类: BoxCardboard
+- **生存盒** — `BoxSurvival` ｜父类: BoxCardboard
+- **芝士生存箱** — `BoxSurvivalCheese` ｜父类: BoxSurvival ｜_Starlight
+- **芝士拥抱箱** — `BoxSurvivalClownCheese` ｜父类: BoxHug ｜_Starlight
+- **生存箱** — `BoxSurvivalDwarf` ｜父类: BoxSurvival ｜_Starlight
+- **扩容生存盒** — `BoxSurvivalEngineering` ｜父类: BoxSurvival
+- **扩容生存箱** — `BoxSurvivalEngineeringDwarf` ｜父类: BoxSurvival ｜_Starlight
+- **扩容生存箱** — `BoxSurvivalEngineeringNitrogen` ｜父类: BoxSurvivalEngineering
+- **扩容芝士生存箱** — `BoxSurvivalExtendedCheese` ｜父类: BoxSurvivalCheese ｜_Starlight
+- **生存箱** — `BoxSurvivalIPC` ｜父类: BoxSurvival ｜_Starlight
+- **生存箱** — `BoxSurvivalMedical` ｜父类: BoxSurvival
+- **芝士生存箱** — `BoxSurvivalMedicalCheese` ｜父类: BoxSurvivalCheese ｜_Starlight
+- **生存箱** — `BoxSurvivalMedicalDwarf` ｜父类: BoxSurvivalDwarf ｜_Starlight
+- **生存箱** — `BoxSurvivalMedicalNitrogen` ｜父类: BoxSurvivalMedical
+- **小纸箱** — `BoxSurvivalMilitaryDouble` ｜父类: BoxCardboardSmall
+- **小纸箱** — `BoxSurvivalMilitaryDoubleNitrogen` ｜父类: BoxSurvivalMilitaryDouble
+- **生存箱** — `BoxSurvivalMimeCheese` ｜父类: BoxSurvivalCheese ｜_Starlight
+- **生存箱** — `BoxSurvivalNitrogen` ｜父类: BoxSurvival
+- **生存箱** — `BoxSurvivalNonBreather` ｜父类: BoxSurvival ｜_Starlight
+- **生存箱** — `BoxSurvivalNonBreatherExtended` ｜父类: BoxSurvivalNonBreather ｜_Starlight
+- **扩容生存箱** — `BoxSurvivalSecurity` ｜父类: BoxSurvivalEngineering
+- **扩容芝士生存箱** — `BoxSurvivalSecurityCheese` ｜父类: BoxSurvivalExtendedCheese ｜_Starlight
+- **扩容生存箱** — `BoxSurvivalSecurityDwarf` ｜父类: BoxSurvivalEngineeringDwarf ｜_Starlight
+- **扩容生存箱** — `BoxSurvivalSecurityNitrogen` ｜父类: BoxSurvivalSecurity
+- **扩容生存箱** — `BoxSurvivalSyndicate` ｜父类: BoxSurvivalEngineering
+- **芝士生存箱** — `BoxSurvivalSyndicateCheese` ｜父类: BoxSurvivalCheese ｜_Starlight
+- **扩容生存箱** — `BoxSurvivalSyndicateNitrogen` ｜父类: BoxSurvivalSyndicate
+- **注射器盒** — `BoxSyringe` ｜父类: BoxCardboard
+- **录音机箱** — `BoxTapeRecorder` ｜父类: BoxCardboard ｜_Starlight
+- **催泪瓦斯弹盒** — `BoxTearGas` ｜父类: BoxCardboard
+- **垃圾袋盒** — `BoxTrashbag` ｜父类: BoxCardboard
+- **餐具盒** — `BoxUtensil` ｜父类: BoxCardboard
+- **小瓶盒** — `BoxVial` ｜父类: BoxCardboard
+- **典狱长印章盒** — `BoxWardenStamps` ｜父类: BoxStamps ｜_Starlight
+- **暖光灯泡盒** — `BoxWarmLightbulb` ｜父类: BoxLightbulb
+- **束线带盒** — `BoxZiptie` ｜父类: BoxCardboard
+- **棕色公文包** — `BriefcaseBrownFilled` ｜父类: BriefcaseBrown
+- **棕色公文包** — `BriefcaseIAAFilled` ｜父类: BriefcaseBrown ｜_Starlight
+- **棕色公文包** — `BriefcaseLawyerFilled` ｜父类: BriefcaseBrown ｜_Starlight
+- **辛迪加公文包** — `BriefcaseSyndieDeadDrop` ｜父类: BaseSubfloorAnchorStorageAnchored,BriefcaseSyndicateRedspace,BaseMinorContraband ｜_Starlight
+- **棕色公文包** — `BriefcaseSyndieLobbyingBundleFilled` ｜父类: BriefcaseSyndie
+- **棕色公文包** — `BriefcaseSyndieSniperBundleFilled` ｜父类: BriefcaseBrown
+- **棕色公文包** — `BriefcaseThiefBribingBundleFilled` ｜父类: BriefcaseSyndie
+- **斗牛犬安全武器箱** — `BriefcaseWeaponBulldogFilled` ｜父类: BriefcaseWeapon
+- **C-20r 安全武器箱** — `BriefcaseWeaponC20Filled` ｜父类: BriefcaseWeaponSmall
+- **中国湖安全武器箱** — `BriefcaseWeaponChinaLakeFilled` ｜父类: BriefcaseWeapon
+- **安全细剑箱** — `BriefcaseWeaponDMRFilled` ｜父类: BriefcaseWeapon ｜_Starlight
+- **Hushpup 安全武器箱** — `BriefcaseWeaponHushpupFilled` ｜父类: BriefcaseWeaponSmall
+- **化学合成套件** — `ChemicalSynthesisKit` ｜父类: BoxVial,BaseSyndicateContraband
+- **EOD 壁橱** — `ClosetBombFilled` ｜父类: ClosetBomb
+- **厨师壁橱** — `ClosetChefFilled` ｜父类: ClosetChef
+- **应急 壁橱** — `ClosetEmergencyFilledRandom` ｜父类: ClosetEmergency
+- **氮气应急 壁橱** — `ClosetEmergencyN2FilledRandom` ｜父类: ClosetEmergencyN2
+- **消防 壁橱** — `ClosetFireFilled` ｜父类: ClosetFire
+- **清洁用防爆服柜** — `ClosetJanitorBombFilled` ｜父类: ClosetJanitorBomb
+- **清洁用品柜** — `ClosetJanitorFilled` ｜父类: ClosetJanitor
+- **三级生化防护装备柜** — `ClosetL3Filled` ｜父类: ClosetL3
+- **三级生化防护装备柜** — `ClosetL3JanitorFilled` ｜父类: ClosetL3Janitor
+- **三级生化防护装备柜** — `ClosetL3ScienceFilled` ｜父类: ClosetL3Science
+- **三级生化防护装备柜** — `ClosetL3SecurityFilled` ｜父类: ClosetL3Security
+- **三级生化防护装备柜** — `ClosetL3VirologyFilled` ｜父类: ClosetL3Virology
+- **法律用品柜** — `ClosetLegalFilled` ｜父类: ClosetLegal
+- **维护 壁橱** — `ClosetMaintenanceFilledRandom` ｜父类: ClosetMaintenance
+- **防辐射服柜** — `ClosetRadiationSuitFilled` ｜父类: ClosetRadiationSuit
+- **工具柜** — `ClosetToolFilled` ｜父类: ClosetTool
+- **应急 壁挂壁橱** — `ClosetWallEmergencyFilledRandom` ｜父类: ClosetWallEmergency
+- **氮气应急 壁挂壁橱** — `ClosetWallEmergencyN2FilledRandom` ｜父类: ClosetWallEmergencyN2
+- **消防 壁挂壁橱** — `ClosetWallFireFilledRandom` ｜父类: ClosetWallFire
+- **维护 壁挂壁橱** — `ClosetWallMaintenanceFilledRandom` ｜父类: ClosetWall
+- **大气壁橱** — `ClosetWallWardrobeAtmosphericsFilled` ｜父类: ClosetWallAtmospherics
+- **黑色 壁挂壁橱** — `ClosetWallWardrobeBlackFilled` ｜父类: ClosetWallBlack
+- **蓝色 壁挂壁橱** — `ClosetWallWardrobeBlueFilled` ｜父类: ClosetWallBlue
+- **绿色 壁挂壁橱** — `ClosetWallWardrobeGreenFilled` ｜父类: ClosetWallGreen
+- **灰色 壁挂壁橱** — `ClosetWallWardrobeGreyFilled` ｜父类: ClosetWallGrey
+- **混色 壁挂壁橱** — `ClosetWallWardrobeMixedFilled` ｜父类: ClosetWallMixed
+- **粉色 壁挂壁橱** — `ClosetWallWardrobePinkFilled` ｜父类: ClosetWallPink
+- **监狱 壁挂壁橱** — `ClosetWallWardrobePrisonFilled` ｜父类: ClosetWallOrange
+- **白色 壁挂壁橱** — `ClosetWallWardrobeWhiteFilled` ｜父类: ClosetWallWhite
+- **黄色 壁挂壁橱** — `ClosetWallWardrobeYellowFilled` ｜父类: ClosetWallYellow
+- **绑架者腰带** — `ClothingAbductorBeltFilled` ｜父类: ClothingAbductorBelt ｜_Starlight
+- **兔兔帮背包** — `ClothingBackpackBunnyGangBundle` ｜父类: ClothingBackpackBunnyGang ｜_Starlight
+- **背包** — `ClothingBackpackChameleonFill` ｜父类: ClothingBackpackChameleon
+- **背包** — `ClothingBackpackChameleonFillAgent` ｜父类: ClothingBackpackChameleon ｜_Starlight
+- **背包** — `ClothingBackpackChameleonFillAgentWorn` ｜父类: ClothingBackpackChameleon ｜_Starlight
+- **螳螂刀套装** — `ClothingBackpackDufelSyndicateFilledMantisBladeArms` ｜父类: ClothingBackpackDuffelSyndicateBundle ｜_Starlight
+- **绑架者手术旅行包** — `ClothingBackpackDuffelAbductorFilled` ｜父类: ClothingBackpackDuffelAbductorBundle ｜_Starlight
+- **侍僧护甲套装** — `ClothingBackpackDuffelAcolyteBundle` ｜父类: ClothingBackpackDuffelBundle,BaseMajorContraband
+- **手术工具行李袋** — `ClothingBackpackDuffelSurgeryFilled` ｜父类: ClothingBackpackDuffelMedical
+- **弹药套装** — `ClothingBackpackDuffelSyndicateAmmoFilled` ｜父类: ClothingBackpackDuffelSyndicateAmmo
+- **辛迪加 C-4 套装** — `ClothingBackpackDuffelSyndicateC4tBundle` ｜父类: ClothingBackpackDuffelSyndicateBundle
+- **太空鲤鱼服行李袋** — `ClothingBackpackDuffelSyndicateCarpSuit` ｜父类: ClothingBackpackDuffelSyndicateBundle
+- **小丑旅行包** — `ClothingBackpackDuffelSyndicateCostumeClown` ｜父类: ClothingBackpackDuffelClown
+- **诱饵套装** — `ClothingBackpackDuffelSyndicateDecoyKitFilled` ｜父类: ClothingBackpackDuffelSyndicateBundle
+- **辛迪加精英硬装宇航服套装** — `ClothingBackpackDuffelSyndicateEliteHardsuitBundle` ｜父类: ClothingBackpackDuffelSyndicateBundle
+- **辛迪加 EVA 套装** — `ClothingBackpackDuffelSyndicateEVABundle` ｜父类: ClothingBackpackDuffelSyndicateBundle
+- **比特犬套装** — `ClothingBackpackDuffelSyndicateFilledBullpup` ｜父类: ClothingBackpackDuffelSyndicateBundle ｜_Starlight
+- **沙漠之鹰套装** — `ClothingBackpackDuffelSyndicateFilledDeagle` ｜父类: ClothingBackpackDuffelSyndicateBundle ｜_Starlight
+- **中国湖套装** — `ClothingBackpackDuffelSyndicateFilledGrenadeLauncher` ｜父类: ClothingBackpackDuffelSyndicateBundle
+- **Hushpup 套装** — `ClothingBackpackDuffelSyndicateFilledHushpup` ｜父类: ClothingBackpackDuffelSyndicateBundle
+- **渗透型硬装宇航服套装** — `ClothingBackpackDuffelSyndicateFilledInfiltration` ｜父类: ClothingBackpackDuffelSyndicateBundle ｜_Starlight
+- **L6 SAW 套装** — `ClothingBackpackDuffelSyndicateFilledLMG` ｜父类: ClothingBackpackDuffelSyndicateBundle
+- **辛迪加手术工具行李袋** — `ClothingBackpackDuffelSyndicateFilledMedical` ｜父类: ClothingBackpackDuffelSyndicateMedicalBundle
+- **辛迪加药品行李袋** — `ClothingBackpackDuffelSyndicateFilledMedicine` ｜父类: ClothingBackpackDuffelSyndicateMedicalBundle
+- **米诺陶套装** — `ClothingBackpackDuffelSyndicateFilledMinotaurShotgun` ｜父类: ClothingBackpackDuffelSyndicateBundle ｜_Starlight
+- **蟒蛇套装 # Starlight, capitalization** — `ClothingBackpackDuffelSyndicateFilledRevolver` ｜父类: ClothingBackpackDuffelSyndicateBundle
+- **Estoc 精确射手步枪套装** — `ClothingBackpackDuffelSyndicateFilledRifle` ｜父类: ClothingBackpackDuffelSyndicateBundle
+- **火力支援套装** — `ClothingBackpackDuffelSyndicateFilledRifleGrenade` ｜父类: ClothingBackpackDuffelSyndicateBundleDeluxe ｜_Starlight
+- **斗牛犬套装** — `ClothingBackpackDuffelSyndicateFilledShotgun` ｜父类: ClothingBackpackDuffelSyndicateBundle
+- **C-20r 套装** — `ClothingBackpackDuffelSyndicateFilledSMG` ｜父类: ClothingBackpackDuffelSyndicateBundle
+- **基础特工套装** — `ClothingBackpackDuffelSyndicateFilledStarterKit` ｜父类: ClothingBackpackDuffelSyndicateBundle
+- **U3 型乌兹套装** — `ClothingBackpackDuffelSyndicateFilledUzi` ｜父类: ClothingBackpackDuffelSyndicateBundle ｜_Starlight
+- **辛迪加硬装宇航服套装** — `ClothingBackpackDuffelSyndicateHardsuitBundle` ｜父类: ClothingBackpackDuffelSyndicateBundle
+- **辛迪加硬装宇航服配件套装** — `ClothingBackpackDuffelSyndicateHardsuitExtrasBundle` ｜父类: ClothingBackpackDuffelSyndicateBundle
+- **医疗套装** — `ClothingBackpackDuffelSyndicateMedicalBundleFilled` ｜父类: ClothingBackpackDuffelSyndicateMedicalBundle
+- **辛迪加睡衣行李袋** — `ClothingBackpackDuffelSyndicatePyjamaBundle` ｜父类: ClothingBackpackDuffelSyndicateBundle
+- **辛迪加 X-4 套装** — `ClothingBackpackDuffelSyndicateX4tBundle` ｜父类: ClothingBackpackDuffelSyndicateBundle ｜_Starlight
+- **辛迪加丧尸套装** — `ClothingBackpackDuffelZombieBundle` ｜父类: ClothingBackpackDuffelSyndicateBundle
+- **绿盾斗篷** — `ClothingBackpackGreenshieldFilled` ｜父类: ClothingBackpackGreenshield ｜_Starlight
+- `模板` **ClothingBackpackSyndicateBundle** — `ClothingBackpackSyndicateBundle` ｜父类: ClothingBackpackSyndicate
+- **背包** — `ClothingBackpackSyndicateObserverBundle` ｜父类: ClothingBackpack ｜_Starlight
+- **辛迪加突袭服套装** — `ClothingBackpackSyndicateRaidBundle` ｜父类: ClothingBackpackSyndicateBundle
+- **蓝盾医疗腰带** — `ClothingBeltBlueShieldMedicalBeltFilled` ｜父类: ClothingBeltBlueShieldMedicalBelt,StealTargetMedicalBeltCollection ｜_Starlight
+- **蓝盾携行具** — `ClothingBeltBlueShieldWebbingFilled` ｜父类: ClothingBeltBlueShieldWebbing,StealTargetMedicalBeltCollection ｜_Starlight
+- **战术创伤腰带** — `ClothingBeltBrigmedicFilled` ｜父类: ClothingBeltBrigmedic,StealTargetMedicalBeltCollection ｜_Starlight
+- **战术创伤胸挂** — `ClothingBeltBrigmedicWebFilled` ｜父类: ClothingBeltBrigmedicWeb,StealTargetMedicalBeltCollection ｜_Starlight
+- **厨师腰带** — `ClothingBeltChefFilled` ｜父类: ClothingBeltChef
+- **工程主管工具腰带** — `ClothingBeltChiefEngineerFilled` ｜父类: ClothingBeltChiefEngineer
+- **卫生员值勤腰带** — `ClothingBeltCorpsmanFilled` ｜父类: ClothingBeltCorpsman,StealTargetMedicalBeltCollection ｜_Starlight
+- **安保腰带** — `ClothingBeltDutyOfficerFilled` ｜父类: ClothingBeltSecurity ｜_Starlight
+- **安保携行具** — `ClothingBeltDutyOfficerWebbingFilled` ｜父类: ClothingBeltSecurityWebbing ｜_Starlight
+- **绿盾医疗腰带** — `ClothingBeltGreenshieldFilled` ｜父类: ClothingBeltGreenshield ｜_Starlight
+- **肩挂枪套** — `ClothingBeltHolsterFilled` ｜父类: ClothingBeltHolster
+- **清洁工腰带** — `ClothingBeltJanitorFilled` ｜父类: ClothingBeltJanitor
+- **急救员腰带** — `ClothingBeltMedicalEMTFilled` ｜父类: ClothingBeltMedicalEMT,StealTargetMedicalBeltCollection
+- **医疗腰带** — `ClothingBeltMedicalFilled` ｜父类: ClothingBeltMedical,StealTargetMedicalBeltCollection
+- **战术胸挂** — `ClothingBeltMilitaryWebbingFilledDamageControle` ｜父类: ClothingBeltMilitaryWebbing ｜_Starlight
+- **战术胸挂** — `ClothingBeltMilitaryWebbingFilledGunner` ｜父类: ClothingBeltMilitaryWebbing ｜_Starlight
+- **战术胸挂** — `ClothingBeltMilitaryWebbingFilledNavigator` ｜父类: ClothingBeltMilitaryWebbing ｜_Starlight
+- **掷弹兵胸挂** — `ClothingBeltMilitaryWebbingGrenadeFilled` ｜父类: ClothingBeltMilitaryWebbing
+- **医疗战术胸挂** — `ClothingBeltMilitaryWebbingMedFilled` ｜父类: ClothingBeltMilitaryWebbingMed
+- **NTNC 战术挂具** — `ClothingBeltNTNCRigFilled` ｜父类: ClothingBeltNTNCRig ｜_Starlight
+- **NTNC 战术挂具** — `ClothingBeltNTNCRigFilledMed` ｜父类: ClothingBeltNTNCRig ｜_Starlight
+- **植物腰带** — `ClothingBeltPlantFilled` ｜父类: ClothingBeltPlant
+- **安保腰带** — `ClothingBeltSecurityFilled` ｜父类: ClothingBeltSecurity
+- **安保携行具** — `ClothingBeltSecurityWebbingFilled` ｜父类: ClothingBeltSecurityWebbing
+- **军刀鞘** — `ClothingBeltSheathFilled` ｜父类: ClothingBeltSheath
+- **工具腰带** — `ClothingBeltUtilityEngineering` ｜父类: ClothingBeltUtility
+- **工具腰带** — `ClothingBeltUtilityFilled` ｜父类: ClothingBeltUtility
+- **魔杖腰带** — `ClothingBeltWandFilled` ｜父类: ClothingBeltWand
+- **精英战术背心** — `ClothingOuterVestWebEliteFilledMAA` ｜父类: ClothingOuterVestWebElite ｜_Starlight
+- **ClothingShoesBootsCombatFilled** — `ClothingShoesBootsCombatFilled` ｜父类: ClothingShoesBootsCombat,ClothingShoesBootsSecFilled
+- **ClothingShoesBootsCowboyBlackFilled** — `ClothingShoesBootsCowboyBlackFilled` ｜父类: ClothingShoesBootsCowboyBlack,ClothingShoesBootsSecFilled
+- **ClothingShoesBootsCowboyBrownFilled** — `ClothingShoesBootsCowboyBrownFilled` ｜父类: ClothingShoesBootsCowboyBrown,ClothingShoesBootsSecFilled
+- **ClothingShoesBootsCowboyFancyFilled** — `ClothingShoesBootsCowboyFancyFilled` ｜父类: ClothingShoesBootsCowboyFancy,ClothingShoesBootsSecFilled
+- **ClothingShoesBootsCowboyWhiteFilled** — `ClothingShoesBootsCowboyWhiteFilled` ｜父类: ClothingShoesBootsCowboyWhite,ClothingShoesBootsSecFilled
+- **ClothingShoesBootsJackFilled** — `ClothingShoesBootsJackFilled` ｜父类: ClothingShoesBootsJack,ClothingShoesBootsSecFilled
+- **雇佣兵靴** — `ClothingShoesBootsMercFilled` ｜父类: ClothingShoesBootsMerc
+- **战斗靴** — `ClothingShoesBootsSyndieFilled` ｜父类: ClothingShoesBootsCombat
+- **ClothingShoesBootsWinterSecFilled** — `ClothingShoesBootsWinterSecFilled` ｜父类: ClothingShoesBootsWinterSec,ClothingShoesBootsSecFilled
+- **ClothingShoesHighheelBootsFilled** — `ClothingShoesHighheelBootsFilled` ｜父类: ClothingShoesHighheelBoots,ClothingShoesBootsSecFilled
+- **战斗烘焙套件** — `CombatBakeryKit` ｜父类: BoxCardboard,BaseSyndicateContraband
+- **空气手雷箱** — `CrateAirGrenade` ｜父类: CrateEngineering
+- **气闸门套件** — `CrateAirlockKit` ｜父类: CrateEngineering
+- **高级约束具箱** — `CrateArmoryAdvancedRestraints` ｜父类: CrateWeaponSecure,BaseSecurityContraband ｜_Starlight
+- **战斗霰弹枪箱** — `CrateArmoryCombatShotgun` ｜父类: CrateWeaponSecure,BaseRestrictedContraband ｜_Starlight
+- **激光武器板条箱** — `CrateArmoryLaser` ｜父类: CrateWeaponSecure,BaseSecurityContraband
+- **LR-30 箱** — `CrateArmoryLr30` ｜父类: CrateWeaponSecure,BaseRestrictedContraband ｜_Starlight
+- **LR-30 弹匣箱** — `CrateArmoryLr30Magazines` ｜父类: CrateWeaponSecure,BaseRestrictedContraband ｜_Starlight
+- **手枪板条箱** — `CrateArmoryPistols` ｜父类: CrateWeaponSecure,BaseSecurityContraband
+- **步枪板条箱** — `CrateArmoryRifle` ｜父类: CrateWeaponSecure,BaseSecurityContraband
+- **霰弹枪板条箱** — `CrateArmoryShotgun` ｜父类: CrateWeaponSecure,BaseSecurityContraband
+- **冲锋枪板条箱** — `CrateArmorySMG` ｜父类: CrateWeaponSecure,BaseSecurityContraband
+- **裹尸袋箱** — `CrateBodyBags` ｜父类: CrateMedical
+- **博尔矿控制棒箱** — `CrateBohrumControlRod` ｜父类: CrateEngineeringSecure ｜_FarHorizons
+- **蜡烛板条箱** — `CrateCandles` ｜父类: CrateGenericSteel
+- **超级大奖彩券 $$$** — `CrateCargoGambling` ｜父类: CratePrivateSecure
+- **豪华采矿硬装板条箱** — `CrateCargoLuxuryHardsuit` ｜父类: CratePirate
+- **包裹纸板条箱** — `CrateCargoParcelWrap` ｜父类: CrateGenericSteel
+- **中央指挥部医疗箱** — `CrateCentralCommandSecureChemicalFilled` ｜父类: CrateCentralCommandSecure ｜_Starlight
+- **塞伦矿燃料棒箱** — `CrateCerenkiteFuelRod` ｜父类: CrateEngineeringSecure ｜_FarHorizons
+- **化学品箱（D）** — `CrateChemistryD` ｜父类: CrateChemistrySecure
+- **化学品箱（P）** — `CrateChemistryP` ｜父类: CrateChemistrySecure
+- **化学品箱（S）** — `CrateChemistryS` ｜父类: CrateChemistrySecure
+- **化学用品箱** — `CrateChemistrySupplies` ｜父类: CrateMedical
+- **小瓶补给箱** — `CrateChemistryVials` ｜父类: CrateMedical
+- **指挥部追踪植入物箱** — `CrateCommandTrackingImplants` ｜父类: CrateCommandSecure,BaseCommandContraband ｜_Starlight
+- **船员监控板条箱** — `CrateCrewMonitoring` ｜父类: CrateScienceSecure
+- **破碎锤箱** — `CrateCrusher` ｜父类: CrateGenericSteel
+- **破碎匕首箱** — `CrateCrusherDagger` ｜父类: CrateGenericSteel
+- **破碎长刀箱** — `CrateCrusherGlaive` ｜父类: CrateGenericSteel
+- **赛博骄阳吉格斯套装** — `CrateCybersunDarkGygaxBundle` ｜父类: CrateSyndicate ｜_Starlight
+- **赛博之日无畏战士套装** — `CrateCybersunJuggernautBundle` ｜父类: CrateSyndicate
+- **赛博骄阳虐杀者套装** — `CrateCybersunMaulerBundle` ｜父类: CrateSyndicate ｜_Starlight
+- **双联应急气罐箱** — `CrateDoubleEmergencyTank` ｜父类: CrateGenericSteel
+- **高级应急套件** — `CrateEmergencyAdvancedKit` ｜父类: CrateMedical
+- **应急外伤套件** — `CrateEmergencyBruteKit` ｜父类: CrateMedical
+- **应急灼伤套件** — `CrateEmergencyBurnKit` ｜父类: CrateMedical
+- **防爆服板条箱** — `CrateEmergencyExplosive` ｜父类: CrateSecgear
+- **消防板条箱** — `CrateEmergencyFire` ｜父类: CrateGenericSteel
+- **充气墙板条箱** — `CrateEmergencyInflatablewall` ｜父类: CratePlastic
+- **内供板条箱** — `CrateEmergencyInternals` ｜父类: CrateInternalsO2N2
+- **内供板条箱（大型）** — `CrateEmergencyInternalsLarge` ｜父类: CrateInternalsO2N2
+- **应急缺氧套件** — `CrateEmergencyO2Kit` ｜父类: CrateMedical
+- **辐射防护板条箱** — `CrateEmergencyRadiation` ｜父类: CrateRadiation
+- **应急辐射套件** — `CrateEmergencyRadiationKit` ｜父类: CrateMedical
+- **紧急重启箱** — `CrateEmergencyRestart` ｜父类: CrateCommandSecure ｜_Starlight
+- **太空危险防护服箱** — `CrateEmergencySpaceHazard` ｜父类: CrateGenericSteel ｜_Starlight
+- **应急毒素套件** — `CrateEmergencyToxinKit` ｜父类: CrateMedical
+- **反物质控制单元板条箱** — `CrateEngineeringAMEControl` ｜父类: CrateEngineeringSecure
+- **反物质容器板条箱** — `CrateEngineeringAMEJar` ｜父类: CrateEngineeringSecure
+- **反物质反应堆组件板条箱** — `CrateEngineeringAMEShielding` ｜父类: CrateEngineeringSecure
+- **批量电缆箱** — `CrateEngineeringCableBulk` ｜父类: CrateElectrical
+- **高压电缆箱** — `CrateEngineeringCableHV` ｜父类: CrateElectrical
+- **低压电缆箱** — `CrateEngineeringCableLV` ｜父类: CrateElectrical
+- **中压电缆箱** — `CrateEngineeringCableMV` ｜父类: CrateElectrical
+- **电气用品箱** — `CrateEngineeringElectricalSupplies` ｜父类: CrateElectrical
+- **密封剂手雷箱** — `CrateEngineeringFoamGrenade` ｜父类: CrateEngineeringSecure
+- **工程装备箱** — `CrateEngineeringGear` ｜父类: CrateEngineering
+- **发电机板条箱** — `CrateEngineeringGenerator` ｜父类: CrateEngineering
+- **陀螺仪箱** — `CrateEngineeringGyroscope` ｜父类: CrateEngineering
+- **喷气背包箱** — `CrateEngineeringJetpack` ｜父类: CrateGenericSteel
+- **迷你喷气背包箱** — `CrateEngineeringMiniJetpack` ｜父类: CrateGenericSteel
+- **粒子加速器电路板板条箱** — `CrateEngineeringParticleAccelerator` ｜父类: CrateEngineeringSecure
+- **反射器箱** — `CrateEngineeringReflector` ｜父类: CrateEngineeringSecure ｜_Starlight
+- **穿梭机供电板条箱** — `CrateEngineeringShuttle` ｜父类: CrateEngineeringSecure
+- **辐射收集器板条箱** — `CrateEngineeringSingularityCollector` ｜父类: CrateEngineeringSecure
+- **约束场发生器板条箱** — `CrateEngineeringSingularityContainment` ｜父类: CrateEngineeringSecure
+- **发射器板条箱** — `CrateEngineeringSingularityEmitter` ｜父类: CrateEngineeringSecure
+- **奇点发生器板条箱** — `CrateEngineeringSingularityGenerator` ｜父类: CrateEngineeringSecure
+- **太阳能组件板条箱** — `CrateEngineeringSolar` ｜父类: CrateEngineering
+- **空间加热器箱** — `CrateEngineeringSpaceHeater` ｜父类: CrateEngineering
+- **空间站信标套装** — `CrateEngineeringStationBeaconBundle` ｜父类: CratePlastic
+- **特斯拉线圈板条箱** — `CrateEngineeringTeslaCoil` ｜父类: CrateEngineeringSecure
+- **特斯拉发生器板条箱** — `CrateEngineeringTeslaGenerator` ｜父类: CrateEngineeringSecure
+- **特斯拉接地棒板条箱** — `CrateEngineeringTeslaGroundingRod` ｜父类: CrateEngineeringSecure
+- **推进器箱** — `CrateEngineeringThruster` ｜父类: CrateEngineering
+- **工具箱货箱** — `CrateEngineeringToolbox` ｜父类: CrateEngineering
+- **EVA 套件** — `CrateEvaKit` ｜父类: CrateCommandSecure
+- **酒吧用品箱** — `CrateFoodBarSupply` ｜父类: CrateFreezer
+- **厨房用品箱** — `CrateFoodCooking` ｜父类: CrateFreezer
+- **厨房餐具箱** — `CrateFoodDinnerware` ｜父类: CratePlastic
+- **Getmore Bakemore 货箱** — `CrateFoodGetMore` ｜父类: CrateFreezer
+- **快乐呵叫大口餐配送** — `CrateFoodHappyHonkBigBite` ｜父类: CratePlastic
+- **冰淇淋配送** — `CrateFoodIceCream` ｜父类: CrateFreezer
+- **MRE 货箱** — `CrateFoodMRE` ｜父类: CratePlastic
+- **应急披萨配送** — `CrateFoodPizza` ｜父类: CratePlastic
+- **灾难披萨配送箱** — `CrateFoodPizzaLarge` ｜父类: CratePlastic ｜_Starlight
+- **刨冰配送** — `CrateFoodSnowcone` ｜父类: CrateFreezer
+- **软饮料箱** — `CrateFoodSoftdrinks` ｜父类: CrateFreezer
+- **软饮料批发箱** — `CrateFoodSoftdrinksLarge` ｜父类: CratePlastic ｜_Starlight
+- **富尔顿回收箱** — `CrateFulton` ｜父类: CrateGenericSteel
+- **美术用品** — `CrateFunArtSupplies` ｜父类: CrateGenericSteel
+- **自行车喇叭植入物** — `CrateFunBikeHornImplants` ｜父类: CrateGenericSteel
+- **桌游板条箱** — `CrateFunBoardGames` ｜父类: CrateGenericSteel
+- **拳击板条箱** — `CrateFunBoxing` ｜父类: CrateGenericSteel
+- **飞镖整套箱** — `CrateFunDartsSet` ｜父类: CratePlastic
+- **泡沫力量板条箱** — `CrateFunFoamGuns` ｜父类: CratePlastic
+- **铜管乐器合奏板条箱** — `CrateFunInstrumentsBrass` ｜父类: CrateGenericSteel
+- **键盘与打击乐器合奏板条箱** — `CrateFunInstrumentsKeyedPercussion` ｜父类: CrateGenericSteel
+- **随机乐器套装** — `CrateFunInstrumentsRandom` ｜父类: CrateGenericSteel
+- **特殊乐器收藏板条箱** — `CrateFunInstrumentsSpecial` ｜父类: CrateGenericSteel
+- **弦乐器合奏板条箱** — `CrateFunInstrumentsString` ｜父类: CrateGenericSteel
+- **综合乐器套装** — `CrateFunInstrumentsVariety` ｜父类: CrateGenericSteel
+- **木管乐器合奏板条箱** — `CrateFunInstrumentsWoodwind` ｜父类: CrateGenericSteel
+- **发光植入物** — `CrateFunLightImplants` ｜父类: CrateGenericSteel
+- **蜥蜴毛绒玩具批发箱** — `CrateFunLizardPlushieBulk` ｜父类: CrateGenericSteel
+- **巨鲨玩偶箱** — `CrateFunMegaShark` ｜父类: CrateGenericSteel ｜_Starlight
+- **拖把蟑螂套件箱** — `CrateFunMoproach` ｜父类: CratePlastic ｜_Starlight
+- **神秘公仔板条箱** — `CrateFunMysteryFigurines` ｜父类: CratePlastic
+- **派对板条箱** — `CrateFunParty` ｜父类: CrateGenericSteel
+- **彩罐箱** — `CrateFunPinata` ｜父类: CrateGenericSteel ｜_Starlight
+- **海盗宝箱** — `CrateFunPirate` ｜父类: CratePirate
+- **毛绒玩具板条箱** — `CrateFunPlushie` ｜父类: CrateGenericSteel
+- **悲伤长号植入物** — `CrateFunSadTromboneImplants` ｜父类: CrateGenericSteel
+- **泡发斯库雷特** — `CrateFunScurret` ｜父类: CrateLivestock
+- **软鲨鱼玩具批发箱** — `CrateFunSharkPlushieBulk` ｜父类: CrateGenericSteel
+- **超级合成器箱** — `CrateFunSuperSynth` ｜父类: CrateGenericSteel ｜_Starlight
+- **玩具箱** — `CrateFunToyBox` ｜父类: CrateToyBox
+- **双向指针套件箱** — `CrateFunTwinPointer` ｜父类: CrateGenericSteel ｜_Starlight
+- **水枪板条箱** — `CrateFunWaterGuns` ｜父类: CratePlastic
+- **燃气轮机箱** — `CrateGasTurbineFlatpack` ｜父类: CrateEngineeringSecure ｜_Starlight
+- **小型燃气轮机箱** — `CrateGasTurbineSmallFlatpack` ｜父类: CrateEngineeringSecure ｜_Starlight
+- **应急生化防护服板条箱** — `CrateGenericBiosuit` ｜父类: CratePlastic
+- **种子箱** — `CrateHydroponicsSeeds` ｜父类: CrateHydroponics
+- **异域种子箱** — `CrateHydroponicsSeedsExotic` ｜父类: CrateHydroSecure
+- **药用种子箱** — `CrateHydroponicsSeedsMedicinal` ｜父类: CrateHydroSecure
+- **水培设备箱** — `CrateHydroponicsTools` ｜父类: CrateHydroponics
+- **水培托盘箱** — `CrateHydroponicsTray` ｜父类: CrateHydroponics
+- **清洁工生化防护服板条箱** — `CrateJanitorBiosuit` ｜父类: CratePlastic
+- **标签机补充纸箱** — `CrateLabellerRefillPaperFilled` ｜父类: CratePlastic ｜_Starlight
+- **AI 法则板箱** — `CrateLawboards` ｜父类: CrateRDSecure ｜_Starlight
+- **邮袋箱** — `CrateMailBags` ｜父类: CrateGenericSteel ｜_Starlight
+- **基础板材板条箱** — `CrateMaterialBasicResource` ｜父类: CrateGenericSteel
+- **黄铜板条箱** — `CrateMaterialBrass` ｜父类: CrateGenericSteel
+- **纸板板条箱** — `CrateMaterialCardboard` ｜父类: CrateGenericSteel
+- **玻璃板材板条箱** — `CrateMaterialGlass` ｜父类: CrateGenericSteel
+- **黄金板条箱** — `CrateMaterialGold` ｜父类: CrateGenericSteel
+- **纸张板条箱** — `CrateMaterialPaper` ｜父类: CrateGenericSteel
+- **固态等离子体板条箱** — `CrateMaterialPlasma` ｜父类: CratePlasma
+- **塑钢板条箱** — `CrateMaterialPlasteel` ｜父类: CrateGenericSteel
+- **塑料板材板条箱** — `CrateMaterialPlastic` ｜父类: CrateGenericSteel
+- **剩余材料** — `CrateMaterialRandom` ｜父类: CrateGenericSteel
+- **材料筒仓板条箱** — `CrateMaterialSilo` ｜父类: CrateGenericSteel
+- **白银板条箱** — `CrateMaterialSilver` ｜父类: CrateGenericSteel
+- **钢板材板条箱** — `CrateMaterialSteel` ｜父类: CrateGenericSteel
+- **纺织品板条箱** — `CrateMaterialTextiles` ｜父类: CrateGenericSteel
+- **木材板条箱** — `CrateMaterialWood` ｜父类: CrateGenericSteel
+- **医用洗手服箱** — `CrateMedicalScrubs` ｜父类: CrateMedical
+- **镇静剂箱** — `CrateMedicalSedative` ｜父类: CrateMedicalSecure ｜_Starlight
+- **医疗用品箱** — `CrateMedicalSupplies` ｜父类: CrateMedical
+- **手术用品箱** — `CrateMedicalSurgery` ｜父类: CrateSurgery
+- **心灵护盾植入物箱** — `CrateMindShieldImplants` ｜父类: CrateMedical
+- **捕鼠夹板条箱** — `CrateMousetrapBoxes` ｜父类: CrateGenericSteel
+- **友谊套装箱** — `CrateNameSyndicateFriendshipBundle` ｜父类: CrateSyndicate ｜_Starlight
+- **穿梭机套装箱** — `CrateNameSyndicateShuttleBundle` ｜父类: CrateSyndicate ｜_Starlight
+- **内供板条箱（氮气）** — `CrateNitrogenInternals` ｜父类: CrateInternals
+- **蜜蜂箱** — `CrateNPCBee` ｜父类: CrateLivestock
+- **蝴蝶箱** — `CrateNPCButterflies` ｜父类: CrateLivestock
+- **猫咪箱** — `CrateNPCCat` ｜父类: CrateLivestock
+- **鸡箱** — `CrateNPCChicken` ｜父类: CrateLivestock
+- **柯基犬箱** — `CrateNPCCorgi` ｜父类: CrateLivestock
+- **奶牛箱** — `CrateNPCCow` ｜父类: CrateLivestock
+- **螃蟹箱** — `CrateNPCCrab` ｜父类: CrateLivestock
+- **鸭子箱** — `CrateNPCDuck` ｜父类: CrateLivestock
+- **山羊箱** — `CrateNPCGoat` ｜父类: CrateLivestock
+- **鹅箱** — `CrateNPCGoose` ｜父类: CrateLivestock
+- **大猩猩箱** — `CrateNPCGorilla` ｜父类: CrateLivestock
+- **仓鼠笼** — `CrateNPCHamlet` ｜父类: CrateRodentCage
+- **仓鼠笼** — `CrateNPCHamster` ｜父类: CrateRodentCage
+- **袋鼠箱** — `CrateNPCKangaroo` ｜父类: CrateLivestock
+- **狗头人方块箱** — `CrateNPCKoboldCube` ｜父类: CrateGenericSteel
+- **蜥蜴箱** — `CrateNPCLizard` ｜父类: CrateLivestock
+- **猴子方块箱** — `CrateNPCMonkeyCube` ｜父类: CrateGenericSteel
+- **蛾蠊箱** — `CrateNPCMothroach` ｜父类: CrateLivestock
+- **老鼠箱** — `CrateNPCMouse` ｜父类: CrateLivestock
+- **鹦鹉箱** — `CrateNPCParrot` ｜父类: CrateLivestock
+- **企鹅箱** — `CrateNPCPenguin` ｜父类: CrateLivestock
+- **猪箱** — `CrateNPCPig` ｜父类: CrateLivestock
+- **柯基幼犬箱** — `CrateNPCPuppyCorgi` ｜父类: CrateLivestock
+- **蛇箱** — `CrateNPCSnake` ｜父类: CrateLivestock
+- **太空锦鲤箱** — `CrateNPCSpaceKoi` ｜父类: CrateLivestock ｜_Starlight
+- **核反应堆箱** — `CrateNuclearReactorFlatpack` ｜父类: CrateEngineeringSecure ｜_Starlight
+- **小型核反应堆箱** — `CrateNuclearReactorSmallFlatpack` ｜父类: CrateEngineeringSecure ｜_Starlight
+- **粒子减速器箱** — `CrateParticleDecelerators` ｜父类: CrateEngineeringSecure
+- **3级零件箱** — `CratePartsT3` ｜父类: CrateGenericSteel
+- **3/4级零件箱** — `CratePartsT3T4` ｜父类: CrateGenericSteel
+- **4级零件箱** — `CratePartsT4` ｜父类: CrateGenericSteel
+- **板条箱** — `CratePermaEscapeBureaucracy` ｜父类: CrateGenericSteel
+- **板条箱** — `CratePermaEscapeComs` ｜父类: CrateGenericSteel
+- **板条箱** — `CratePermaEscapeDigging` ｜父类: CrateGenericSteel
+- **板条箱** — `CratePermaEscapeEVA` ｜父类: CrateGenericSteel
+- **板条箱** — `CratePermaEscapeGiftsFromSyndicate` ｜父类: CrateGenericSteel
+- **板条箱** — `CratePermaEscapeGun` ｜父类: CrateGenericSteel
+- **板条箱** — `CratePermaEscapeLights` ｜父类: CrateGenericSteel
+- **板条箱** — `CratePermaEscapeMats` ｜父类: CrateGenericSteel
+- **板条箱** — `CratePermaEscapeMerc` ｜父类: CrateGenericSteel
+- **永久监禁区逃脱箱生成点** — `CratePermaEscapeSpawner` ｜父类: CrateEmptySpawner
+- **板条箱** — `CratePermaEscapeTowercap` ｜父类: CrateGenericSteel
+- **海盗船员宝箱** — `CratePirateChest` ｜父类: CratePirate
+- **海盗船长宝箱** — `CratePirateChestCaptain` ｜父类: CratePirate
+- **Plant-B-Gone 批量货箱** — `CratePlantBGone` ｜父类: CrateGenericSteel
+- **盆栽板条箱** — `CratePlants` ｜父类: CrateGenericSteel
+- **RCD 货箱** — `CrateRCD` ｜父类: CrateEngineeringSecure
+- **压缩物质箱** — `CrateRCDAmmo` ｜父类: CrateEngineering
+- **约束用品箱** — `CrateRestraints` ｜父类: CrateSecgear
+- **RPD 箱** — `CrateRPD` ｜父类: CrateEngineeringSecure ｜_Starlight
+- **RPLD 箱** — `CrateRPLD` ｜父类: CrateMedicalSecure ｜_Starlight
+- **盐灯玩偶箱** — `CrateSaltLamp` ｜父类: CrateGenericSteel ｜_Starlight
+- **板条箱** — `CrateSalvageAssortedGoodies` ｜父类: CrateGenericSteel
+- **打捞设备箱** — `CrateSalvageEquipment` ｜父类: CrateGenericSteel
+- **打捞外骨骼服箱** — `CrateSalvageHardsuit` ｜父类: CrateGenericSteel
+- **科学家生化防护服板条箱** — `CrateScienceBiosuit` ｜父类: CrateScienceSecure
+- **非致命投掷物箱** — `CrateSecNonlethalThrowables` ｜父类: CrateSecgear
+- **护甲箱** — `CrateSecurityArmor` ｜父类: CrateSecgear
+- **安保生化防护服箱** — `CrateSecurityBiosuit` ｜父类: CrateSecgear
+- **头盔箱** — `CrateSecurityHelmet` ｜父类: CrateSecgear
+- **非致命武器箱** — `CrateSecurityNonlethal` ｜父类: CrateSecgear
+- **反射护甲板条箱** — `CrateSecurityReflectiveArmor` ｜父类: CrateSecgear ｜_Starlight
+- **特警板条箱** — `CrateSecurityRiot` ｜父类: CrateWeaponSecure,BaseSecurityContraband
+- **安保用品箱** — `CrateSecuritySupplies` ｜父类: CrateSecgear
+- **植入器箱** — `CrateSecurityTrackingMindshieldImplants` ｜父类: CrateSecgear
+- **震波炸药箱** — `CrateSeismicCharge` ｜父类: CrateGenericSteel
+- **书籍板条箱** — `CrateServiceBooks` ｜父类: CrateGenericSteel
+- **酒类分配器补充装板条箱** — `CrateServiceBoozeDispenser` ｜父类: CrateFreezer
+- **空盒板条箱** — `CrateServiceBox` ｜父类: CratePlastic
+- **官僚办公板条箱** — `CrateServiceBureaucracy` ｜父类: CrateGenericSteel
+- **清洁手雷批发箱** — `CrateServiceCleanerGrenades` ｜父类: CratePlastic
+- **彩色灯具板条箱** — `CrateServiceColorfulLights` ｜父类: CrateGenericSteel
+- **自制烟草制品板条箱** — `CrateServiceCustomSmokable` ｜父类: CrateGenericSteel
+- **文件打印机箱** — `CrateServiceDocumentPrinter` ｜父类: CrateGenericSteel ｜_Starlight
+- **传真机板条箱** — `CrateServiceFaxMachine` ｜父类: CrateGenericSteel
+- **指南手册板条箱** — `CrateServiceGuidebooks` ｜父类: CrateGenericSteel
+- **节日灯具板条箱** — `CrateServiceHolidayLights` ｜父类: CrateGenericSteel
+- **九头蛇补充装箱** — `CrateServiceHydraRefill` ｜父类: CratePlastic ｜_Starlight
+- **冰淇淋机入门箱** — `CrateServiceIceCreamMakerStarter` ｜父类: CrateFreezer ｜_Starlight
+- **清洁用品板条箱** — `CrateServiceJanitorialSupplies` ｜父类: CratePlastic
+- **人事用品板条箱** — `CrateServicePersonnel` ｜父类: CrateCommandSecure
+- **替换灯具板条箱** — `CrateServiceReplacementLights` ｜父类: CrateGenericSteel
+- **烟草制品板条箱** — `CrateServiceSmokeables` ｜父类: CrateGenericSteel
+- **汽水分配器补充装板条箱** — `CrateServiceSodaDispenser` ｜父类: CrateFreezer
+- **舞台演出板条箱** — `CrateServiceTheatre` ｜父类: CrateGenericSteel
+- **异种生物学入门箱** — `CrateStarterXenobiology` ｜父类: CrateScienceSecure ｜_Starlight
+- **空间站 AI 核心板条箱** — `CrateStationAiCore` ｜父类: CrateScienceSecure
+- **气体通道棒箱** — `CrateSteelGasChannel` ｜父类: CrateEngineeringSecure ｜_FarHorizons
+- **热交换棒箱** — `CrateSteelHeatExhanger` ｜父类: CrateEngineeringSecure ｜_FarHorizons
+- **超物质箱** — `CrateSupermatterFlatpack` ｜父类: CrateEngineeringSecure ｜_Starlight
+- **至尊打捞员斗篷箱** — `CrateSupremeSalvagerCloak` ｜父类: CrateGenericSteel
+- **变色龙套件箱** — `CrateSyndicateChameleonBundle` ｜父类: CrateSyndicate,StorePresetUplink,BaseSyndicateContraband ｜_Starlight
+- **辛迪加超级剩余物资箱** — `CrateSyndicateSuperSurplusBundle` ｜父类: CrateSyndicate,StorePresetUplink,BaseSyndicateContraband
+- **辛迪加剩余物资箱** — `CrateSyndicateSurplusBundle` ｜父类: CrateSyndicate,StorePresetUplink,BaseSyndicateContraband
+- **剩余电路板** — `CrateTechBoardRandom` ｜父类: ToteBase
+- **TEG 箱** — `CrateTEGFlatpack` ｜父类: CrateEngineeringSecure ｜_Starlight
+- **追踪植入物** — `CrateTrackingImplants` ｜父类: CrateWeaponSecure,BaseSecurityContraband
+- **训练炸弹** — `CrateTrainingBombs` ｜父类: CrateWeaponSecure,BaseSecurityContraband
+- **垃圾推车** — `CrateTrashCartFilled` ｜父类: CrateTrashCart
+- **自动衣柜补货板条箱** — `CrateVendingMachineRestockAutoDrobeFilled` ｜父类: CratePlastic
+- **酒客之家补货板条箱** — `CrateVendingMachineRestockBoozeFilled` ｜父类: CratePlastic
+- **老常补货板条箱** — `CrateVendingMachineRestockChangFilled` ｜父类: CratePlastic
+- **厨师售货机补货板条箱** — `CrateVendingMachineRestockChefvendFilled` ｜父类: CratePlastic
+- **化学售货机补货板条箱** — `CrateVendingMachineRestockChemVendFilled` ｜父类: CrateMedicalSecure
+- **服装补货板条箱** — `CrateVendingMachineRestockClothesFilled` ｜父类: CratePlastic
+- **调味品台补货板条箱** — `CrateVendingMachineRestockCondimentStationFilled` ｜父类: CratePlastic
+- **塑钢厨师补货板条箱** — `CrateVendingMachineRestockDinnerwareFilled` ｜父类: CratePlastic
+- **廉价丹补货板条箱** — `CrateVendingMachineRestockDiscountDansFilled` ｜父类: CratePlastic
+- **Donk 随行补货箱** — `CrateVendingMachineRestockDonkFilled` ｜父类: CratePlastic ｜_Starlight
+- **甜甜圈补货板条箱** — `CrateVendingMachineRestockDonutFilled` ｜父类: CratePlastic
+- **工程售货机补货板条箱** — `CrateVendingMachineRestockEngineeringFilled` ｜父类: CrateEngineeringSecure
+- **健康娱乐补货板条箱** — `CrateVendingMachineRestockGamesFilled` ｜父类: CratePlastic
+- **多拿巧克力公司补货板条箱** — `CrateVendingMachineRestockGetmoreChocolateCorpFilled` ｜父类: CratePlastic
+- **欢乐鸣笛补货板条箱** — `CrateVendingMachineRestockHappyHonkFilled` ｜父类: CratePlastic
+- **太阳之选补货板条箱** — `CrateVendingMachineRestockHotDrinksFilled` ｜父类: CratePlastic
+- **冰淇淋补货箱** — `CrateVendingMachineRestockIceCreamFilled` ｜父类: CratePlastic ｜_Starlight
+- **纳米医疗补货板条箱** — `CrateVendingMachineRestockMedicalFilled` ｜父类: CrateMedicalSecure
+- **营养至上补货板条箱** — `CrateVendingMachineRestockNutriMaxFilled` ｜父类: CrateHydroSecure
+- **PTech 补货板条箱** — `CrateVendingMachineRestockPTechFilled` ｜父类: CratePlastic
+- **豪华机器人科技补货板条箱** — `CrateVendingMachineRestockRoboticsFilled` ｜父类: CrateScienceSecure
+- **饮料售货机补货板条箱** — `CrateVendingMachineRestockRobustSoftdrinksFilled` ｜父类: CratePlastic
+- **打捞售货机补货板条箱** — `CrateVendingMachineRestockSalvageEquipmentFilled` ｜父类: CrateGenericSteel
+- **安保科技补货板条箱** — `CrateVendingMachineRestockSecTechFilled` ｜父类: CrateSecgear
+- **巨型种子补货板条箱** — `CrateVendingMachineRestockSeedsFilled` ｜父类: CrateHydroSecure
+- **黑心烟草补货板条箱** — `CrateVendingMachineRestockSmokesFilled` ｜父类: CratePlastic
+- **口粮售货机补货箱** — `CrateVendingMachineRestockSustenanceFilled` ｜父类: CratePlastic ｜_Starlight
+- **气罐售货机补货板条箱** — `CrateVendingMachineRestockTankDispenserFilled` ｜父类: CratePlastic
+- **万能售货机补货板条箱** — `CrateVendingMachineRestockVendomatFilled` ｜父类: CratePlastic
+- **病毒学防化服箱** — `CrateVirologyBiosuit` ｜父类: CrateMedicalSecure
+- **虚空喷气背包箱** — `CrateVoidJetpack` ｜父类: CrateGenericSteel
+- **双联应急氮气罐** — `DoubleEmergencyNitrogenTankFilled` ｜父类: DoubleEmergencyNitrogenTank
+- **双联应急氧气罐** — `DoubleEmergencyOxygenTankFilled` ｜父类: DoubleEmergencyOxygenTank
+- **衣柜** — `DresserCaptainFilled` ｜父类: Dresser
+- **衣柜** — `DresserChiefEngineerFilled` ｜父类: Dresser
+- **衣柜** — `DresserChiefMedicalOfficerFilled` ｜父类: Dresser
+- **衣柜** — `DresserHeadOfPersonnelFilled` ｜父类: Dresser
+- **衣柜** — `DresserHeadOfSecurityFilled` ｜父类: Dresser
+- **衣柜** — `DresserQuarterMasterFilled` ｜父类: Dresser
+- **衣柜** — `DresserResearchDirectorFilled` ｜父类: Dresser
+- **衣柜** — `DresserWardenFilled` ｜父类: Dresser
+- **电气干扰套件** — `ElectricalDisruptionKit` ｜父类: BoxCardboard,BaseSyndicateContraband
+- **欢乐应急氧气罐** — `EmergencyFunnyOxygenTankFilled` ｜父类: EmergencyFunnyOxygenTank
+- **应急氮气罐** — `EmergencyNitrogenTankFilled` ｜父类: EmergencyNitrogenTank
+- **应急氧气罐** — `EmergencyOxygenTankFilled` ｜父类: EmergencyOxygenTank
+- **扩容应急氮气罐** — `ExtendedEmergencyNitrogenTankFilled` ｜父类: ExtendedEmergencyNitrogenTank
+- **扩容应急氧气罐** — `ExtendedEmergencyOxygenTankFilled` ｜父类: ExtendedEmergencyOxygenTank
+- **笨蛋工具箱** — `FoolboxFilled` ｜父类: Foolbox
+- **致残枪保险柜** — `GunSafeDisabler` ｜父类: GunSafeBaseSecure,BaseSecurityContraband
+- **LWAP 枪械保险柜** — `GunSafeEnergySniper` ｜父类: GunSafeBaseSecure,BaseRestrictedContraband ｜_Starlight
+- **精确射手步枪保险柜** — `GunSafeHeavyWeapons` ｜父类: GunSafeBaseSecure,BaseSecurityContraband ｜_Starlight
+- **激光枪保险柜** — `GunSafeLaserCarbine` ｜父类: GunSafeBaseSecure,BaseSecurityContraband
+- **重武器保险柜** — `GunSafeLMG` ｜父类: GunSafe,BaseSecurityContraband ｜_Starlight
+- **手枪保险柜** — `GunSafePistolMk58` ｜父类: GunSafeBaseSecure,BaseSecurityContraband
+- **步枪保险柜** — `GunSafeRifleLecter` ｜父类: GunSafeBaseSecure,BaseSecurityContraband
+- **重型霰弹枪保险柜** — `GunSafeShotgunEnforcer` ｜父类: GunSafeBaseSecure,BaseSecurityContraband
+- **霰弹枪保险柜** — `GunSafeShotgunKammerer` ｜父类: GunSafeBaseSecure,BaseSecurityContraband
+- **冲锋枪保险柜** — `GunSafeSubMachineGunDrozd` ｜父类: GunSafeBaseSecure,BaseSecurityContraband
+- **WT550保险柜** — `GunSafeSubMachineGunWt550` ｜父类: GunSafeBaseSecure,BaseSecurityContraband
+- **催眠气体罐** — `HealiumTankEmpty` ｜父类: AirTank ｜_Starlight
+- **催眠气体罐** — `HealiumTankFilled` ｜父类: HealiumTankEmpty ｜_Starlight
+- **全息寄生体条款与条件** — `HoloparasiteInfo` ｜父类: BaseItem
+- **大气技师储物柜** — `LockerAtmosphericsFilled` ｜父类: LockerAtmospherics
+- **大气技师储物柜** — `LockerAtmosphericsFilledHardsuit` ｜父类: LockerAtmospherics
+- **储物容器** — `LockerBlueshieldFilled` ｜父类: LockerBlueshield ｜_Starlight
+- **储物容器** — `LockerBlueshieldFilledBluespaced` ｜父类: LockerBlueshieldFilled ｜_Starlight
+- **酒水储藏柜** — `LockerBoozeFilled` ｜父类: LockerBooze
+- **植物学家储物柜** — `LockerBotanistFilled` ｜父类: LockerBotanist
+- **植物学家储物柜** — `LockerBotanistLoot` ｜父类: LockerBotanist
+- **狱医储物柜** — `LockerBrigmedicFilled` ｜父类: LockerBrigmedic
+- **储物容器** — `LockerBrigmedicLargeFilled` ｜父类: LockerBrigmedicLarge ｜_Starlight
+- **舰长储物柜** — `LockerCaptainFilled` ｜父类: LockerCaptain
+- **舰长储物柜** — `LockerCaptainFilledHardsuit` ｜父类: LockerCaptain
+- **舰长储物柜** — `LockerCaptainFilledNoLaser` ｜父类: LockerCaptain
+- **货运技师's 储物柜** — `LockerCargoFilled` ｜父类: LockerCargo ｜_Starlight
+- **大型货运技师's 储物柜** — `LockerCargoLargeFilled` ｜父类: LockerCargoLarge ｜_Starlight
+- **化学品储物柜** — `LockerChemistryFilled` ｜父类: LockerChemistry
+- **工程主管储物柜** — `LockerChiefEngineerFilled` ｜父类: LockerChiefEngineer
+- **工程主管储物柜** — `LockerChiefEngineerFilledHardsuit` ｜父类: LockerChiefEngineer
+- **医疗主管储物柜** — `LockerChiefMedicalOfficerFilled` ｜父类: LockerChiefMedicalOfficer
+- **医疗主管储物柜** — `LockerChiefMedicalOfficerFilledHardsuit` ｜父类: LockerChiefMedicalOfficer
+- **小丑储物柜** — `LockerClownFilled` ｜父类: LockerClown ｜_Starlight
+- **储物容器** — `LockerCoronerFilled` ｜父类: LockerCoroner ｜_Starlight
+- **侦探柜** — `LockerDetectiveFilled` ｜父类: LockerDetective
+- **电气用品储物柜** — `LockerElectricalSuppliesFilled` ｜父类: LockerElectricalSupplies
+- **工程师储物柜** — `LockerEngineerFilled` ｜父类: LockerEngineer
+- **工程师储物柜** — `LockerEngineerFilledHardsuit` ｜父类: LockerEngineer
+- **紧急撤离穿梭机应急储物柜** — `LockerEvacRepairFilled` ｜父类: LockerEvacRepair
+- **冷冻柜** — `LockerFreezerVaultFilled` ｜父类: LockerFreezerBase
+- **储物容器** — `LockerGeneticistFilled` ｜父类: LockerGeneticist ｜_Starlight
+- **人事主管储物柜** — `LockerHeadOfPersonnelFilled` ｜父类: LockerHeadOfPersonnel
+- **安保主管储物柜** — `LockerHeadOfSecurityFilled` ｜父类: LockerHeadOfSecurity
+- **安保主管储物柜** — `LockerHeadOfSecurityFilledHardsuit` ｜父类: LockerHeadOfSecurity
+- **内部事务特工's 储物柜** — `LockerIAAFilled` ｜父类: LockerIAA ｜_Starlight
+- **储物容器** — `LockerMagistrateFilled` ｜父类: LockerMagistrate ｜_Starlight
+- **储物容器** — `LockerMagistrateFilledBluespaced` ｜父类: LockerMagistrateFilled ｜_Starlight
+- **储物容器** — `LockerMailFilled` ｜父类: LockerMail ｜_Starlight
+- **储物容器** — `LockerMailLargeFilled` ｜父类: LockerMailLarge ｜_Starlight
+- **医师储物柜** — `LockerMedicalFilled` ｜父类: LockerMedical
+- **药品储物柜** — `LockerMedicineFilled` ｜父类: LockerMedicine
+- **哑剧演员储物柜** — `LockerMimeFilled` ｜父类: LockerMime ｜_Starlight
+- **储物容器** — `LockerMiningSpecialistFilled` ｜父类: LockerMiningSpecialist ｜_Starlight
+- **储物容器** — `LockerMiningSpecialistFilledHardsuit` ｜父类: LockerMiningSpecialist ｜_Starlight
+- **储物容器** — `LockerMiningSpecialistLargeFilled` ｜父类: LockerMiningSpecialistLarge ｜_Starlight
+- **储物容器** — `LockerMiningSpecialistLargeFilledHardsuit` ｜父类: LockerMiningSpecialistLarge ｜_Starlight
+- **储物容器** — `LockerNCTFilled` ｜父类: LockerNCT ｜_Starlight
+- **壁橱** — `LockerOldAISat` ｜父类: LockerSyndicate
+- **急救员储物柜** — `LockerParamedicFilled` ｜父类: LockerParamedic
+- **军需官储物柜** — `LockerQuarterMasterFilled` ｜父类: LockerQuarterMaster
+- **纳米传讯代表储物柜** — `LockerRepresentativeFilled` ｜父类: LockerRepresentative ｜_Starlight
+- **纳米传讯代表储物柜** — `LockerRepresentativeFilledBluespaced` ｜父类: LockerRepresentativeFilled ｜_Starlight
+- **研究主管储物柜** — `LockerResearchDirectorFilled` ｜父类: LockerResearchDirector
+- **研究主管储物柜** — `LockerResearchDirectorFilledHardsuit` ｜父类: LockerResearchDirector
+- **储物容器** — `LockerRoboticistFilled` ｜父类: LockerRoboticist ｜_Starlight
+- **储物容器** — `LockerSalvageLeadFilled` ｜父类: LockerSalvageLead ｜_Starlight
+- **储物容器** — `LockerSalvageLeadFilledHardsuit` ｜父类: LockerSalvageLead ｜_Starlight
+- **打捞专员装备柜** — `LockerSalvageSpecialistFilled` ｜父类: LockerSalvageSpecialist
+- **打捞专员装备柜** — `LockerSalvageSpecialistFilledHardsuit` ｜父类: LockerSalvageSpecialist
+- **大型打捞专员's 储物柜** — `LockerSalvageSpecialistLargeFilled` ｜父类: LockerSalvageSpecialistLarge ｜_Starlight
+- **大型打捞专员's 储物柜** — `LockerSalvageSpecialistLargeFilledHardsuit` ｜父类: LockerSalvageSpecialistLarge ｜_Starlight
+- **科学家储物柜** — `LockerScienceFilled` ｜父类: LockerScientist
+- **安保干员储物柜** — `LockerSecurityFilled` ｜父类: LockerSecurity
+- **大型安保干员's 储物柜** — `LockerSecurityLargeFilled` ｜父类: LockerSecurityLarge ｜_Starlight
+- **储物容器** — `LockerSurgeonFilled` ｜父类: LockerSurgeon ｜_Starlight
+- **血红储物柜** — `LockerSyndicatePersonalFilled` ｜父类: LockerSyndicatePersonal
+- **血红色 壁橱** — `LockerSyndicateShipGearBasic` ｜父类: LockerSyndicate
+- **血红色 壁橱** — `LockerSyndicateShipGearBasicChameleonKit` ｜父类: LockerSyndicateShipGearBasic
+- **血红壁挂储物柜** — `LockerSyndicateWallFilled` ｜父类: LockerWallSyndicate
+- **储物容器** — `LockerVirologistFilled` ｜父类: LockerVirologist ｜_Starlight
+- **紧急撤离穿梭机应急壁挂储物柜** — `LockerWallEvacRepairFilled` ｜父类: LockerWallEvacRepair
+- **医师壁柜** — `LockerWallMedicalDoctorFilled` ｜父类: LockerWallMedical
+- **药品壁柜** — `LockerWallMedicalFilled` ｜父类: LockerWallMedical
+- **典狱长储物柜** — `LockerWardenFilled` ｜父类: LockerWarden
+- **典狱长储物柜** — `LockerWardenFilledHardsuit` ｜父类: LockerWarden
+- **焊接用品储物柜** — `LockerWeldingSuppliesFilled` ｜父类: LockerWeldingSupplies
+- **外骨骼装甲气罐** — `MechAirTankFilled` ｜父类: MechAirTank ｜_Starlight
+- **高级急救箱** — `MedkitAdvancedFilled` ｜父类: MedkitAdvanced
+- **暴力创伤治疗套件** — `MedkitBruteFilled` ｜父类: MedkitBrute
+- **烧伤治疗套件** — `MedkitBurnFilled` ｜父类: MedkitBurn
+- **战斗医疗包** — `MedkitCombatFilled` ｜父类: MedkitCombat
+- **急救箱** — `MedkitFilled` ｜父类: Medkit
+- **急救箱** — `MedkitFilledParamed` ｜父类: Medkit ｜_Starlight
+- **缺氧治疗套件** — `MedkitOxygenFilled` ｜父类: MedkitO2
+- **放射治疗套件** — `MedkitRadiationFilled` ｜父类: MedkitRadiation
+- **机器人治疗箱** — `MedkitRoboticFilled` ｜父类: MedkitRobotic ｜_Starlight
+- **毒素治疗套件** — `MedkitToxinFilled` ｜父类: MedkitToxin
+- **氮气罐** — `NitrogenTankFilled` ｜父类: NitrogenTank
+- **一氧化二氮气罐** — `NitrousOxideTankFilled` ｜父类: NitrousOxideTank
+- **氧气罐** — `OxygenTankFilled` ｜父类: OxygenTank
+- **NT《农化真有趣》手册** — `PaperAgrichemManual` ｜父类: Paper
+- **重新开始计时。** — `PaperEndGreenshift` ｜父类: BaseStarlightAdmemePaper ｜_Starlight
+- **机器人太守规矩了？** — `PaperIonstormBorgs` ｜父类: Paper ｜_Starlight
+- **Q 的终结** — `PaperTooQuietNeedChaos` ｜父类: BasePaperQuietChaos ｜_Starlight
+- **Q 的终结** — `PaperTooQuietNeedChaosFew` ｜父类: BasePaperQuietChaos ｜_Starlight
+- **纸** — `PaperWrittenAMEScribbles` ｜父类: Paper
+- **战斗烘焙套件说明** — `PaperWrittenCombatBakeryKit` ｜父类: Paper
+- **纸** — `PaperWrittenSupermatterGuide` ｜父类: Paper ｜_Starlight
+- **自动注射器包** — `PenPackMedicalFilled` ｜父类: PenPackMedical ｜_Starlight
+- **自动注射器包** — `PenPackSecurityFilled` ｜父类: PenPackSecurity ｜_Starlight
+- **等离子体罐** — `PlasmaTankFilled` ｜父类: PlasmaTank
+- `模板` **PrintedDocument** — `PrintedDocument` ｜父类: PaperNTCC ｜_Starlight
+- **权限申请** — `PrintedDocumentAccessRequestStatement` ｜父类: PrintedDocument ｜_Starlight
+- **权限撤销令** — `PrintedDocumentAccessRevocationOrder` ｜父类: PrintedDocument ｜_Starlight
+- **逮捕报告** — `PrintedDocumentArrestReport` ｜父类: PrintedDocument ｜_Starlight
+- **艺术创作许可证** — `PrintedDocumentArtPermit` ｜父类: PrintedDocument ｜_Starlight
+- **中央指挥部通讯** — `PrintedDocumentCentCommCommunication` ｜父类: PrintedDocument ｜_Starlight
+- **刑事控告书** — `PrintedDocumentComplaintOffense` ｜父类: PrintedDocument ｜_Starlight
+- **部门投诉书** — `PrintedDocumentComplaintViolationLaborRules` ｜父类: PrintedDocument ｜_Starlight
+- **维护报告** — `PrintedDocumentConditionReport` ｜父类: PrintedDocument ｜_Starlight
+- **施工许可证** — `PrintedDocumentConstructionPermit` ｜父类: PrintedDocument ｜_Starlight
+- **解职令** — `PrintedDocumentDismissalOrder` ｜父类: PrintedDocument ｜_Starlight
+- **处置报告** — `PrintedDocumentDisposalReport` ｜父类: PrintedDocument ｜_Starlight
+- **雇佣合同** — `PrintedDocumentEmploymentStatement` ｜父类: PrintedDocument ｜_Starlight
+- **公司之敌认定书** — `PrintedDocumentEOCDesignation` ｜父类: PrintedDocument ｜_Starlight
+- **装备申请** — `PrintedDocumentEquipmentRequestStatement` ｜父类: PrintedDocument ｜_Starlight
+- **撤离穿梭机申请** — `PrintedDocumentEvacuationShuttleRequest` ｜父类: PrintedDocument ｜_Starlight
+- **处决与拒绝复苏令** — `PrintedDocumentExecutionDNROrder` ｜父类: PrintedDocument ｜_Starlight
+- **实验报告** — `PrintedDocumentExperimentReport` ｜父类: PrintedDocument ｜_Starlight
+- **空间站位置通知** — `PrintedDocumentGreenshiftAlert` ｜父类: PrintedDocument ｜_Starlight
+- **功绩嘉奖令** — `PrintedDocumentIncentiveOrder` ｜父类: PrintedDocument ｜_Starlight
+- **审计报告** — `PrintedDocumentInternalAffairsAgentsReport` ｜父类: PrintedDocument ｜_Starlight
+- **传唤通知** — `PrintedDocumentInvocation` ｜父类: PrintedDocument ｜_Starlight
+- **医疗干预令** — `PrintedDocumentMedicalInterventionOrder` ｜父类: PrintedDocument ｜_Starlight
+- **未知物体调查报告** — `PrintedDocumentObjectInvestigationReport` ｜父类: PrintedDocument ｜_Starlight
+- **智慧生命认定书** — `PrintedDocumentOrderRecognizingReasonablenessCreature` ｜父类: PrintedDocument ｜_Starlight
+- **遗体处置授权书** — `PrintedDocumentPermissionDisposeBody` ｜父类: PrintedDocument ｜_Starlight
+- **装备许可证** — `PrintedDocumentPermissionEquipment` ｜父类: PrintedDocument ｜_Starlight
+- **武器许可证** — `PrintedDocumentPermissionToCarryWeapons` ｜父类: PrintedDocument ｜_Starlight
+- **强制假释令** — `PrintedDocumentPrisonerParoleOrder` ｜父类: PrintedDocument ｜_Starlight
+- **产品订单** — `PrintedDocumentProductOrder` ｜父类: PrintedDocument ｜_Starlight
+- **部门审查报告** — `PrintedDocumentReportDepartment` ｜父类: PrintedDocument ｜_Starlight
+- **工作报告** — `PrintedDocumentReportEmployeePerformance` ｜父类: PrintedDocument ｜_Starlight
+- **停尸间拒绝复苏报告** — `PrintedDocumentReportMorgue` ｜父类: PrintedDocument ｜_Starlight
+- **问题处理报告** — `PrintedDocumentReportOnEliminationOfViolations` ｜父类: PrintedDocument ｜_Starlight
+- **投票记录** — `PrintedDocumentReportOnTheChaptersMeeting` ｜父类: PrintedDocument ｜_Starlight
+- **空间站情况报告** — `PrintedDocumentReportStation` ｜父类: PrintedDocument ｜_Starlight
+- **请求呼叫中央指挥部成员** — `PrintedDocumentRequestCallCentCommMembers` ｜父类: PrintedDocument ｜_Starlight
+- **薪资变更申请** — `PrintedDocumentRequestChangeSalary` ｜父类: PrintedDocument ｜_Starlight
+- **施工申请** — `PrintedDocumentRequestConstructionWork` ｜父类: PrintedDocument ｜_Starlight
+- **文件调取申请** — `PrintedDocumentRequestDocuments` ｜父类: PrintedDocument ｜_Starlight
+- **应急响应队（ERT）申请** — `PrintedDocumentRequestERT` ｜父类: PrintedDocument ｜_Starlight
+- **安乐死申请** — `PrintedDocumentRequestEuthanasia` ｜父类: PrintedDocument ｜_Starlight
+- **编外雇佣合同** — `PrintedDocumentRequestForNonlistedEmployment` ｜父类: PrintedDocument ｜_Starlight
+- **晋升申请** — `PrintedDocumentRequestForPromotion` ｜父类: PrintedDocument ｜_Starlight
+- **现代化改造申请** — `PrintedDocumentRequestModernization` ｜父类: PrintedDocument ｜_Starlight
+- **威胁等级设立申请** — `PrintedDocumentRequestRequestEstablishThreatLevel` ｜父类: PrintedDocument ｜_Starlight
+- **辞职通知** — `PrintedDocumentResignationStatement` ｜父类: PrintedDocument ｜_Starlight
+- **打捞主管报告** — `PrintedDocumentSalvageLeadReport` ｜父类: PrintedDocument ｜_Starlight
+- **搜查令** — `PrintedDocumentSearchPermission` ｜父类: PrintedDocument ｜_Starlight
+- **穿梭机登记表** — `PrintedDocumentShuttleRegistrationRequest` ｜父类: PrintedDocument ｜_Starlight
+- **临时指挥职位任命书** — `PrintedDocumentStatementAppointmentInterimChapter` ｜父类: PrintedDocument ｜_Starlight
+- **手术同意书** — `PrintedDocumentSurgeryConsentPermit` ｜父类: PrintedDocument ｜_Starlight
+- **安全简报文件** — `SecureBriefings` ｜父类: BoxFolderRedEmpty,BaseCommandContraband ｜_Starlight
+- **急救箱** — `StimkitFilled` ｜父类: Medkit
+- **太空服储存单元** — `SuitStorageAtmos` ｜父类: SuitStorageBase
+- **太空服储存单元** — `SuitStorageBlueShield` ｜父类: SuitStorageBase ｜_Starlight
+- **太空服储存单元** — `SuitStorageBlueShieldBluespaced` ｜父类: SuitStorageBlueShield ｜_Starlight
+- **太空服储存单元** — `SuitStorageCaptain` ｜父类: SuitStorageBase
+- **太空服储存单元** — `SuitStorageCE` ｜父类: SuitStorageBase
+- **太空服储存单元** — `SuitStorageCMO` ｜父类: SuitStorageBase
+- **太空服储存单元** — `SuitStorageEngi` ｜父类: SuitStorageBase
+- **太空服储存单元** — `SuitStorageEVA` ｜父类: SuitStorageBase
+- **太空服储存单元** — `SuitStorageEVAAlternate` ｜父类: SuitStorageBase
+- **太空服储存单元** — `SuitStorageEVAEmergency` ｜父类: SuitStorageBase
+- **太空服储存单元** — `SuitStorageEVAPirate` ｜父类: SuitStorageBase
+- **太空服储存单元** — `SuitStorageEVAPrisoner` ｜父类: SuitStorageBase
+- **太空服储存单元** — `SuitStorageEVASyndicate` ｜父类: SuitStorageBase
+- **太空服储存单元** — `SuitStorageHOS` ｜父类: SuitStorageBase
+- **太空服储存单元** — `SuitStorageNTSRA` ｜父类: SuitStorageBase
+- **太空服储存单元** — `SuitStoragePirateCap` ｜父类: SuitStorageBase
+- **太空服储存单元** — `SuitStorageRD` ｜父类: SuitStorageBase
+- **太空服储存单元** — `SuitStorageSalv` ｜父类: SuitStorageBase
+- **太空服储存单元** — `SuitStorageSec` ｜父类: SuitStorageBase
+- **双位服装储存单元** — `SuitStorageSecDouble` ｜父类: SuitStorageSec ｜_Starlight
+- **太空服储存单元** — `SuitStorageSyndie` ｜父类: SuitStorageBase
+- **太空服储存单元** — `SuitStorageWarden` ｜父类: SuitStorageBase
+- **太空服储存单元** — `SuitStorageWizard` ｜父类: SuitStorageBase
+- **辛迪加机器柯基套装** — `SyndiBorgiKit1Bundle` ｜父类: CrateSyndicate,BaseSyndicateContraband ｜_Starlight
+- **辛迪加机器柯基套装** — `SyndiBorgiKit2Bundle` ｜父类: CrateSyndicate,BaseSyndicateContraband ｜_Starlight
+- **辛迪加机器柯基套装** — `SyndiBorgiKitBasicBundle` ｜父类: CrateSyndicate,BaseSyndicateContraband ｜_Starlight
+- **辛迪加最高指挥部 # Used for radio announcement** — `SyndieDeadDropSpawner` ｜父类: MarkerBase ｜_Starlight
+- **飞刀套件** — `ThrowingKnivesKit` ｜父类: BoxCardboard,BaseSyndicateContraband
+- **艺术工具箱** — `ToolboxArtisticFilled` ｜父类: ToolboxArtistic
+- **艺术工具箱** — `ToolboxArtisticFilledCleaner` ｜父类: ToolboxArtistic ｜_Starlight
+- **电气工具箱** — `ToolboxElectricalFilled` ｜父类: ToolboxElectrical
+- **电气工具箱** — `ToolboxElectricalTurretFilled` ｜父类: ToolboxElectricalTurret
+- **电气工具箱** — `ToolboxElectricalTurretPirateFilled` ｜父类: ToolboxElectricalTurretPirate ｜_Starlight
+- **应急工具箱** — `ToolboxEmergencyFilled` ｜父类: ToolboxEmergency
+- **金制工具箱** — `ToolboxGoldFilled` ｜父类: ToolboxGolden
+- **机械工具箱** — `ToolboxMechanicalFilled` ｜父类: ToolboxMechanical
+- **机械工具箱** — `ToolboxMechanicalFilledAllTools` ｜父类: ToolboxMechanical
+- **机器人专家工具箱** — `ToolboxRoboticist` ｜父类: ToolboxBase ｜_Starlight
+- **机器人专家工具箱** — `ToolboxRoboticistFilled` ｜父类: ToolboxRoboticist ｜_Starlight
+- **可疑工具箱** — `ToolboxSyndicateFilled` ｜父类: ToolboxSyndicate
+- **重音Teto夜间包** — `TP14BoxDarkPerformer` ｜父类: ClothingBackpackDuffel ｜_TP
+- **大气衣柜** — `WardrobeAtmosphericsFilled` ｜父类: WardrobeAtmospherics
+- **黑色 衣柜** — `WardrobeBlackFilled` ｜父类: WardrobeBlack
+- **蓝色 衣柜** — `WardrobeBlueFilled` ｜父类: WardrobeBlue
+- **植物学家衣柜** — `WardrobeBotanistFilled` ｜父类: WardrobeBotanist
+- **货运衣柜** — `WardrobeCargoFilled` ｜父类: WardrobeCargo
+- **牧师衣柜** — `WardrobeChapelFilled` ｜父类: WardrobeChapel
+- **化学衣柜** — `WardrobeChemistryFilled` ｜父类: WardrobeChemistry
+- **工程衣柜** — `WardrobeEngineeringFilled` ｜父类: WardrobeEngineering
+- **基因学衣柜** — `WardrobeGeneticsFilled` ｜父类: WardrobeGenetics
+- **绿色 衣柜** — `WardrobeGreenFilled` ｜父类: WardrobeGreen
+- **灰色 衣柜** — `WardrobeGreyFilled` ｜父类: WardrobeGrey
+- **医师衣柜** — `WardrobeMedicalDoctorFilled` ｜父类: WardrobeMedicalDoctor
+- **混色 衣柜** — `WardrobeMixedFilled` ｜父类: WardrobeMixed
+- **粉色 衣柜** — `WardrobePinkFilled` ｜父类: WardrobePink
+- **监狱衣柜** — `WardrobePrisonFilled` ｜父类: WardrobePrison
+- **机械学衣柜** — `WardrobeRoboticsFilled` ｜父类: WardrobeRobotics
+- **打捞 衣柜** — `WardrobeSalvageFilled` ｜父类: WardrobeSalvage
+- **科研衣柜** — `WardrobeScienceFilled` ｜父类: WardrobeScience
+- **安保衣柜** — `WardrobeSecurityFilled` ｜父类: WardrobeSecurity
+- **病毒学衣柜** — `WardrobeVirologyFilled` ｜父类: WardrobeVirology
+- **白色 衣柜** — `WardrobeWhiteFilled` ｜父类: WardrobeWhite
+- **黄色 衣柜** — `WardrobeYellowFilled` ｜父类: WardrobeYellow
+- **ZXA 气罐** — `ZXATankEmpty` ｜父类: AirTank ｜_Starlight
+- **ZXA 气罐** — `ZXATankFilled` ｜父类: ZXATankEmpty ｜_Starlight

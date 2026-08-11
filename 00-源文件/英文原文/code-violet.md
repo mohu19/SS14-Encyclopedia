@@ -1,0 +1,60 @@
+# 紫色警戒（EN 源文件）
+
+> 条目ID: `code-violet` ｜ 来源层: starlight ｜ 分类: sop
+> 翻译提示：保留全部数值/专有名词/`[[实体:X]]`/颜色span；专有名词基准见 00-源文件/翻译规范.md
+
+---
+
+<!-- 无中文正文,以下为英文原文 -->
+
+# Code Violet
+
+    ## Called by:
+
+    Any two Command members, or Captain.
+
+    ## Conditions:
+
+    A Viral Pathogen has infected a significant portion of the crew. In the event of a Viral Outbreak, all infected personnel are to direct themselves to Medbay immediately.
+
+    ## Security:
+
+    1. Medbay should be secured ASAP. Quarantine of infected is top priority.
+
+    2. Should securing medbay not be possible, the evacuation shuttle arrival area should be secured.
+
+
+    ## Secure Areas:
+
+    1. Secure areas require an access permit, unless required by a staff job.
+
+    2. Secure areas: Medical department, Security department, EVA Storage, Tech Storage, Gravity Generator, All Engineering areas beyond the lobby, Vault, and areas requiring command access.
+
+    3. There are no restrictions on bolting Secure Areas. Secure Areas may be left bolted or unbolted at the discretion of Command personnel.
+
+    4. Secure areas are not to be entered by non-command, unless required by their job.
+
+
+    ## Medical:
+
+    1. Chemistry is to immediately begin researching the cure to the infection.
+
+    2. Medical entrances should be locked down to prevent further infection of medical personnel. Crew should be let into medical in a controlled manner.
+
+    3. Any potentially infected personnel should be isolated.
+
+    4. Any pacified infected personnel should be brought to chemistry to aid in cure production.
+
+    5. A cure should be distributed to the crew once available.
+
+    ## General Crew:
+
+    1. Personnel should self-quarantine to avoid infection. Shelter in a safe area and avoid those who are potentially infected.
+
+    2. If you believe you are infected, calmly wait for the distribution of the cure at medbay.
+
+    3. Once the threat has passed, work may resume.
+
+    ## Command:
+
+    Should the station threat become too high to handle, emergency shuttle should be called.

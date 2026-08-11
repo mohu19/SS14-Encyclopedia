@@ -1,0 +1,59 @@
+# 实体清单：Magic（55 个）
+
+> 来源层分布: 上游 43, _Starlight 12
+
+- **活化** — `ActionAnimateSpell` ｜父类: BaseEntitySpellAction
+- **闪现** — `ActionBlink` ｜父类: BaseAction
+- **回春种子** — `ActionCantripAntidote` ｜父类: BaseAction ｜_Starlight
+- **止血符文** — `ActionCantripBandage` ｜父类: BaseAction ｜_Starlight
+- **光明法球** — `ActionCantripGlow` ｜父类: BaseAction ｜_Starlight
+- **心灵低语** — `ActionCantripMessage` ｜父类: BaseAction ｜_Starlight
+- **净化** — `ActionCantripMop` ｜父类: BaseAction ｜_Starlight
+- **魔法余烬** — `ActionCantripSpark` ｜父类: BaseAction ｜_Starlight
+- **充能** — `ActionChargeSpell` ｜父类: BaseAction
+- **受诅小丑的诅咒** — `ActionCluwne` ｜父类: BaseSmiteAction
+- **爆炸符文** — `ActionExplosionRune` ｜父类: BaseRuneAction
+- **火球术** — `ActionFireball` ｜父类: BaseAction
+- **火球术 II** — `ActionFireballII` ｜父类: ActionFireball
+- **火球术 III** — `ActionFireballIII` ｜父类: ActionFireball
+- **闪光符文** — `ActionFlashRune` ｜父类: BaseRuneAction
+- **力场墙** — `ActionForceWall` ｜父类: BaseAction
+- **冰风暴** — `ActionIceStorm` ｜父类: BaseAction ｜_Starlight
+- **点燃符文** — `ActionIgniteRune` ｜父类: BaseRuneAction
+- **标记物品** — `ActionItemRecall` ｜父类: BaseAction
+- **敲门术** — `ActionKnock` ｜父类: BaseAction
+- **心智交换** — `ActionMindSwap` ｜父类: BaseEntitySpellAction
+- **语言变换** — `ActionRandomizeLanguages` ｜父类: BaseAction ｜_Starlight
+- **斥力** — `ActionRepulse` ｜父类: BaseAction
+- **显化灵能之刃** — `ActionRetractableItemManaBlade` ｜父类: BaseAction ｜_Starlight
+- **ActionRgbLight** — `ActionRgbLight` ｜父类: BaseAction
+- **滑坡** — `ActionSlippery` ｜父类: BaseSmiteAction
+- **天谴** — `ActionSmite` ｜父类: BaseSmiteAction
+- **天谴** — `ActionSmiteNoReq` ｜父类: ActionSmite
+- **烟雾** — `ActionSmoke` ｜父类: BaseAction
+- **召唤魔法鲤鱼** — `ActionSpawnMagicarpSpell` ｜父类: BaseAction
+- **击晕符文** — `ActionStunRune` ｜父类: BaseRuneAction
+- **召唤奶酪** — `ActionSummonCheese` ｜父类: BaseAction ｜_Starlight
+- **召唤幽灵** — `ActionSummonGhosts` ｜父类: BaseAction
+- **召唤枪械** — `ActionSummonGuns` ｜父类: BaseAction
+- **召唤魔法** — `ActionSummonMagic` ｜父类: BaseAction
+- **虚空鼓掌** — `ActionVoidApplause` ｜父类: BaseEntitySpellAction
+- `模板` **激活符文** — `ActivateRune` ｜父类: CollideRune
+- **活化法杖** — `AnimationStaff` ｜父类: BaseItem,BaseMagicalContraband
+- `模板` **BaseEntitySpellAction** — `BaseEntitySpellAction` ｜父类: BaseAction
+- `模板` **rune** — `BaseRune`
+- `模板` **BaseRuneAction** — `BaseRuneAction` ｜父类: BaseAction
+- `模板` **BaseSmiteAction** — `BaseSmiteAction` ｜父类: BaseEntitySpellAction
+- `模板` **碰撞符文** — `CollideRune` ｜父类: BaseRune
+- `模板` **碰撞定时符文** — `CollideTimerRune` ｜父类: CollideRune
+- **激活爆炸符文** — `ExplosionActivateRune` ｜父类: ActivateRune
+- **爆炸符文** — `ExplosionRune` ｜父类: CollideRune
+- **定时爆炸符文** — `ExplosionTimedRune` ｜父类: CollideTimerRune
+- **闪光符文** — `FlashRune` ｜父类: ActivateRune
+- **定时闪光符文** — `FlashRuneTimer` ｜父类: CollideTimerRune
+- **点燃符文** — `IgniteRune` ｜父类: CollideRune
+- **冰刺** — `ProjectileIceStormSingle` ｜父类: BaseBulletTrigger ｜_Starlight
+- **RGB 法杖** — `RGBStaff` ｜父类: BaseItem
+- **击晕符文** — `StunRune` ｜父类: CollideRune
+- **巴别塔** — `TowerOfBabel` ｜父类: BaseStructure ｜_Starlight
+- **传送卷轴** — `WizardTeleportScroll` ｜父类: BaseItem,BaseMagicalContraband
